@@ -1,0 +1,47 @@
+<header><meta name="title" content="Porting previous plugins | Substance 3D Designer"><meta name="description" content="Designer > Scripting > Porting previous plugins"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Porting previous plugins</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Because of the changes done to support Qt for Python, <strong>previous plugins won't work anymore</strong>.<br/>In particular, please note the following:</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Plugin loading and unloading</h2>
+<p>Plugins are now loaded when the application <b>starts</b> and are unloaded when it <b>exits</b>.<br/>
+As such, it's <i>not necessary</i> for plugins to inherit from '<i>sdplugins.Plugin</i>' anymore.</p>
+<p>For more information, check the <a href="/substance-3d-designer/scripting/plugin-basics.html">Plugin basics</a> section.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Creating user interface elements</h2>
+<p>Plugins <i>don't need</i> to define a '<i>sdplugins.PluginDesc</i>' anymore.<br/>
+Instead, plugins can use the<b> new <a href="/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html">UI manager</a> object</b> and <b>Qt for Python</b> to create any user interface elements they need.</p>
+<p>You can find small code samples in the <a href="/substance-3d-designer/scripting/creating-user-interface-elements.html">Creating user interface elements</a> section.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Replacing uses of location context</h2>
+<p>The '<i>SDLocationContext</i>' class has been <i>removed</i> from the Python API.<br/>
+Plugins can use the <b><a href="/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html">UI manager</a> object</b> to access the currently active graph and selection.</p>
+<p>You can find some examples in the <a href="/substance-3d-designer/scripting/accessing-graphs-and-selections.html">Accessing graphs and selections</a> section.</p>
+</div>
+</div>
+</div>
+</div></body>

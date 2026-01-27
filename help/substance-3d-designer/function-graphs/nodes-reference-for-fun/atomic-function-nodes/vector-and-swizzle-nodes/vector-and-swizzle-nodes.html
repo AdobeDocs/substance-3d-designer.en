@@ -1,0 +1,1014 @@
+<header><meta name="title" content="Vector | Substance 3D Designer"><meta name="description" content="Designer > Function graphs > Nodes reference for function graphs > Vector"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Vector and Swizzle nodes</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Vector and Swizzle Nodes allow you to respectively Construct and Deconstruct Vector nodes from and into separate components.They are similar to <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html">RGBA Merge</a> and <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html">RGBA Split</a>, but then for Function Graphs. They are also a prime method for converting between Vector Data types, as <a disablelinktracking="false" href="/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html">Casting </a>is not an option in a lot of cases.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="VectorandSwizzlenodes-VectorNodes">Vector Nodes</h1>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 50%; max-width: 50%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 50%; max-width: 50%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Vector Nodes allow you to combine Vector or elements with fewer components, into Vectors with more components. There are a few specific rules or limitations for Vector nodes:</p><ul><li>Vector Nodes have <strong>only two inputs</strong>, even if the resulting Vector has more than 2 components.</li><li>Vector Inputs are <strong>not limited to one type</strong>: they can take any lesser component as input.</li><li>The order of the result output is determined by the <strong>order of the Inputs</strong>.</li></ul><p>That means the following methods are best used:</p><ul><li>Construct a Vector 4 in two ways: either connect two 2-component Vectors, or connect a 1-component and a 3-component Vector.</li><li>If you want to construct a 3 or 4 component Vector from single Integers or Float, you must first do at least one Vector 2 combination before you can combine them into a 3-component Vector.</li></ul><p>Think well about the order of connections. Connection order of inputs is illustrated below.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/vector-int1?$png$&amp;jpegSize=100&amp;wid=447"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/vector-int1?$png$&amp;jpegSize=100&amp;wid=447"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/vector-int1?$png$&amp;jpegSize=100&amp;wid=200"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="vector-int1.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Example on Left Connects first an Integer(1) and then an Integer 3. Result is as below</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table><colgroup><col/><col/><col/><col/><col/></colgroup><tbody><tr><th>Output</th><th>X</th><th>Y</th><th>Z</th><th>W</th></tr><tr><td>Input 1</td><td>0</td><td><br/></td><td><br/></td><td><br/></td></tr><tr><td>Input 2</td><td><br/></td><td>1</td><td>2</td><td>4</td></tr></tbody></table>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image1 { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image1 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image1 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/vector-int2?$png$&amp;jpegSize=100&amp;wid=451"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/vector-int2?$png$&amp;jpegSize=100&amp;wid=451"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/vector-int2?$png$&amp;jpegSize=100&amp;wid=200"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image1" src="vector-int2.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Example on Left swaps inputs around from first example, first Integer 3, then a Integer(1).</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table><colgroup><col/><col/><col/><col/><col/></colgroup><tbody><tr><th>Output</th><th>X</th><th>Y</th><th>Z</th><th>W</th></tr><tr><td>Input 1</td><td>1</td><td>2</td><td>4</td><td><br/></td></tr><tr><td>Input 2</td><td><br/></td><td><br/></td><td><br/></td><td>0</td></tr></tbody></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table">
+<table border="0" cellpadding="0" cellspacing="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c0" data-header-type="column " scope="col">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="fn-vector-vectorint4.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</th>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="fn-vector-vectorint2.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</th>
+<th abbr="" class="row-r0 column-c2" data-header-type="column " scope="col">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="fn-vector-vectorint3.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Vector Integer2</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Vector Integer3</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Vector Integer4</strong></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r2 column-c0">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="fn-vector-vectofloat3.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</td>
+<td abbr="" class="row-r2 column-c1">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="fn-vector-vectofloat2.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</td>
+<td abbr="" class="row-r2 column-c2">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="fn-vector-vectofloat4.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r3 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Vector Float2</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Vector Float3</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Vector Float4</strong></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td {
+        background: #FFFFFF;
+        
+        
+        border: 1px solid #B3B3B3;
+        
+    }
+    
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th:before {
+        border: 1px solid #B3B3B3;
+        left: -1px;
+        top: -1px;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c2,
+    #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c2 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="VectorandSwizzlenodes-SwizzleNodes">Swizzle Nodes</h1>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 50%; max-width: 50%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 50%; max-width: 50%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Swizzle Nodes deconstruct or split off components from multi-component Vectors, allowing you to utilize X, Y, Z and W components individually as well as swap them around. The following rules and limitations apply:</p><ul><li>Swizzle nodes have <strong>only one output</strong>.</li><li>Swizzle Nodes <strong>take any Input</strong> of the correct type (Int or Float).</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="VectorandSwizzlenodes-SplitComponents">Split Components</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The most common usecase for Swizzle is to use it to split components, such as braking an Integer4 down into 4 individual Integers. The limitations do mean you will need four separate Swizzle Integer nodes for this.</p><p>Any other kind of split is also possible for an Integer4, such as two Integer2, or an Integer and an Integer3, again keeping in mind every result needs its own node.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Swap/Swizzle Components</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Like the name suggests, Swizzle can be used to change the order of values or even overwriting values. You can change the order from X,Y,Z,W to W,Y,X,Z, and you can change the values from X,Y,Z,W to X,X,X,W for example.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table">
+<table border="0" cellpadding="0" cellspacing="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c0" data-header-type="column " scope="col">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="fn-vector-swizzleint1.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</th>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="fn-vector-swizzleint2.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</th>
+<th abbr="" class="row-r0 column-c2" data-header-type="column " scope="col">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="fn-vector-swizzleint3.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</th>
+<th abbr="" class="row-r0 column-c3" data-header-type="column " scope="col">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r0-column-c3_image" src="fn-vector-swizzleint4.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Swizzle Integer</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong style="text-align: center;">Swizzle</strong> <strong>Integer2</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p><strong style="text-align: center;">Swizzle</strong><strong> Integer3</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p><strong style="text-align: center;">Swizzle</strong><strong> Integer4</strong></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r2 column-c0">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c0_image" src="fn-vector-swizzlefloat1.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</td>
+<td abbr="" class="row-r2 column-c1">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c1_image" src="fn-vector-swizzlefloat2.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</td>
+<td abbr="" class="row-r2 column-c2">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c2_image" src="fn-vector-swizzlefloat3.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</td>
+<td abbr="" class="row-r2 column-c3">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c3_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c3_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c3_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table_row-r2-column-c3_image" src="fn-vector-swizzlefloat4.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r3 column-c0">
+<div class="text">
+<div class="cmp-text">
+<p><strong style="text-align: center;">Swizzle</strong><strong> Float</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><strong style="text-align: center;">Swizzle</strong><strong> Float2</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c2">
+<div class="text">
+<div class="cmp-text">
+<p><strong style="text-align: center;">Swizzle</strong><strong> Float3</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p><strong style="text-align: center;">Swizzle</strong><strong> Float4</strong></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td {
+        background: #FFFFFF;
+        
+        
+        border: 1px solid #B3B3B3;
+        
+    }
+    
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th:before {
+        border: 1px solid #B3B3B3;
+        left: -1px;
+        top: -1px;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c2,
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c2 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c3,
+    #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell1_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c3 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

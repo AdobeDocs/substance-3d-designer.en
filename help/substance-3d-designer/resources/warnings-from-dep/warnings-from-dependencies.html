@@ -1,0 +1,481 @@
+<header><meta name="title" content="Warnings from dependencies | Substance 3D Designer"><meta name="description" content="Designer > Resources > Warnings from dependencies"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Warnings from dependencies</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page lists warnings and error messages which may be triggered by dependencies in Substance 3D Designer, and offers common troubleshooting steps for each.</p><p>Dependencies are <em>other files</em> referenced by a Substance 3D file (SBS). They include <a href="/substance-3d-designer/resources.html">resources</a> and other Substance 3D files referenced by <a href="/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html">graph instance</a> nodes.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><img alt="(error)" src="error.svg"/> Invalid dependent package</h2>
+<p>A dependency package cannot be loaded, because it is missing, corrupted or incompatible with the version of Designer being used.</p>
+<p><b><img alt="(tick)" data-emoticon-name="tick" src="check.svg"/> Solution</b></p>
+<p>There are two main ways of correcting this issue:</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Make the dependency load successfully</b></p>
+<p>Check the dependency package exists at the location specified in the warning message. If it does not, find the file and put it back at that location, or recreate it in place. If the file exists, <i>try to load it</i> in Designer and look out for any warnings or errors related to that package. Refer to troubleshooting steps for those specific issues an fix them accordingly.</p>
+<p>Then, reload the host package by clicking RMB on it in the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a> panel and selecting the <b>Reload</b> option in the contextual menu.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="'Invalid dependent package' solution 1">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_step_0_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'Invalid dependent package' solution 1" class="" id="root_content_flex_items_position_position-par_procedure_proc_par_step_0_step_par_image" src="warnings-dep-invalid-dependent-pkg.gif" title="'Invalid dependent package' solution 1"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Relocate the dependency in the package</b></p>
+<p>You can relocate the dependency using the <a href="/substance-3d-designer/interface/dependency-manager.html">Dependency manager</a> . C lick RMB on the host package in the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a> panel and select the <b>Dependency Manager</b> option in the contextual menu.</p>
+<p>Find the missing dependency in the Dependendy Manager's list, click RMB on it and select the <b>Relocate...</b> option. Find the dependency package using the file browser dialog and click <b>Open</b>.</p>
+<p>Then, reload the host package by clicking RMB on it in the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a> panel and selecting the <b>Reload</b> option in the contextual menu.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="'Invalid dependent package' solution 2">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_step_1_step_par_image_171871714 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'Invalid dependent package' solution 2" class="" id="root_content_flex_items_position_position-par_procedure_proc_par_step_1_step_par_image_171871714" src="warnings-dep-invalid-dependent-pkg-2.gif" title="'Invalid dependent package' solution 2"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><img alt="(error)" src="error.svg"/> Check the alias <i>'X'</i> is defined in your project</h2>
+<p>One of the package's dependencies or resources is being loaded from a location which is <a href="/substance-3d-designer/interface/preferences-window/project-settings.html">aliased</a> in the Substance 3D file (SBS) data under the alias reported in the warning, although that alias is not defined in the current <a href="/substance-3d-designer/interface/preferences-window/project-settings.html">project files</a>.</p>
+<p><b><img alt="(tick)" src="check.svg"/> Solution</b></p>
+<p>At least one of the <a href="/substance-3d-designer/interface/preferences-window/project-settings.html">project files</a> should define the alias that which is reported in the warning.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="'Check alias is defined' solution">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'Check alias is defined' solution" class="" id="root_content_flex_items_position_position-par_image" src="warnings-dep-alias.gif" title="'Check alias is defined' solution"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><img alt="(error)" src="error.svg"/> No file that matches this resource can be found</h2>
+<p>The files matching the <i>UDIM template</i> for a <a href="/substance-3d-designer/resources/bitmap-resource.html">Bitmap resource</a> cannot be found.</p>
+<p><b><img alt="(tick)" data-emoticon-name="tick" src="check.svg"/> Solution</b></p>
+<p>When a <a href="/substance-3d-designer/resources/bitmap-resource.html">Bitmap resource</a> is linked and Designer detects a <i>UDIM naming taxonomy</i> in its filename – e.g. <code>0x1</code> in <code>my_texture_0x1.png</code>, it offers to link it as a <i>UDIM template</i>, so that <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html">Bitmap</a> nodes can <i>automatically switch</i> to other bitmaps in a UDIM set using that taxonomy, when using a UDIM workflow in Designer. In that case, Designer links the Bitmap resource in a <i>different way</i> which takes the UDIM numbering template into account.</p>
+<p>There are two main ways of correcting this issue:</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Restore the files</b></p>
+<p>Go to the location specified by the resource's <b>File Path</b> attribute and check that files following the template exist. If they do not, restore or recreate them.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="'No file that match resource' solution 1">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_779643333_proc_par_step_0_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'No file that match resource' solution 1" class="" id="root_content_flex_items_position_position-par_procedure_779643333_proc_par_step_0_step_par_image" src="warnings-dep-udim-2.gif" title="'No file that match resource' solution 1"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Relocate the files</b></p>
+<p>If the files were moved or renamed, relocate them by clicking RMB on the resource item in the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a> panel and select the <b>Relocate</b> option to link that resource to the <i>first file in a set</i> of UDIM images of the same type.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="'No file that match resource' solution 2">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_779643333_proc_par_step_1_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'No file that match resource' solution 2" class="" id="root_content_flex_items_position_position-par_procedure_779643333_proc_par_step_1_step_par_image" src="warnings-dep-udim.gif" title="'No file that match resource' solution 2"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><img alt="(error)" src="error.svg"/> Linked file not found</h2>
+<p>The file referenced by a linked resource does not exist at the location specified by its <b>File Path</b> attribute.</p>
+<p><b><img alt="(tick)" data-emoticon-name="tick" src="check.svg"/> Solution</b></p>
+<p>There are two main ways of correcting this issue:</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Restore the file</b></p>
+<p>Go to the location specified by the resource's <b>File Path</b> attribute and check that the file exists. If it does not, restore or recreate it.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="'Linked file not found' solution 1">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_374660461_proc_par_step_0_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'Linked file not found' solution 1" class="" id="root_content_flex_items_position_position-par_procedure_374660461_proc_par_step_0_step_par_image" src="warnings-dep-file-not-found.gif" title="'Linked file not found' solution 1"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Relocate the file</b></p>
+<p>If the file was moved or renamed, relocate it by clicking RMB on the resource item in the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a> panel and select the <b>Relocate</b> option to link that resource to another file of the same type.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="'Linked file not found' solution 2">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_374660461_proc_par_step_1_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'Linked file not found' solution 2" class="" id="root_content_flex_items_position_position-par_procedure_374660461_proc_par_step_1_step_par_image" src="warnings-dep-file-not-found-2.gif" title="'Linked file not found' solution 2"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><img alt="(error)" src="error.svg"/> Color space not found</h2>
+<p>A <a href="/substance-3d-designer/resources/bitmap-resource.html">Bitmap resource</a> references a color space which cannot be found in the current <a href="/substance-3d-designer/color-management.html">color management</a> environment. This may be an ICC profile or a color space in an OCIO configuration.</p>
+<p><b><img alt="(tick)" src="check.svg"/> Solution</b></p>
+<p>The list of options for the Color space attribute is automatically populated with available valid color space. Change the color space value for that resource to any other entry in the list.</p>
+<p>Alternatively, add that color space to the current <a href="/substance-3d-designer/color-management.html">color management</a> environment, then restart Designer. This may be an ICC profile or a color space in an OCIO configuration.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>This warning is only triggered when using a color management mode other than <strong>Legacy</strong> (which is akin to disabling color management). You may enable color management in the <strong>Color Management</strong> section of the <a href="/substance-3d-designer/interface/preferences-window/project-settings.html">Project settings</a>.</p>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="'Color space not found' solution">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_99187957 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'Color space not found' solution" class="" id="root_content_flex_items_position_position-par_image_99187957" src="warnings-dep-color-space.gif" title="'Color space not found' solution"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><img alt="(error)" src="error.svg"/> Reference resource not found</h2>
+<p>The graph assigned to the UV tile of a <a href="/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html">3D mesh resource</a> cannot be found at the location reported in the warning.</p>
+<p><b><img alt="(tick)" data-emoticon-name="tick" src="check.svg"/> Solution</b></p>
+<p>There are two main ways of correcting this issue:</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Restore the graph</b></p>
+<p>Check the contents of the package in the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a> panel for the graph specified in the <b>UV Tiles</b> list. If it does not exist, restore or recreate it.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="'Reference resource not found' solution 1">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_523288180_proc_par_step_0_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'Reference resource not found' solution 1" class="" id="root_content_flex_items_position_position-par_procedure_523288180_proc_par_step_0_step_par_image" src="warnings-dep-udim-graph-2.gif" title="'Reference resource not found' solution 1"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><b>Select another graph</b></p>
+<p>Assign another graph in the package to the UV tile.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="'Reference resource not found' solution 2">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_523288180_proc_par_step_1_step_par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'Reference resource not found' solution 1" class="" id="root_content_flex_items_position_position-par_procedure_523288180_proc_par_step_1_step_par_image" src="warnings-dep-udim-graph.gif" title="'Reference resource not found' solution 2"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><img alt="(error)" src="error.svg"/> UV tiles are assigned multiple times</h2>
+<p>A UV tile for a <a href="/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html">3D mesh resource</a> is assigned more than once to a <a href="/substance-3d-designer/substance-compositing-graphs.html">Substance graph</a>.</p>
+<p><b><img alt="(tick)" src="check.svg"/> Solution</b></p>
+<p>For each UV set of a 3D mesh resource, make sure no UDIM index is present <i>more than once</i> in the <b>UV Tiles</b> list.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="'UV tiles are assigned multiple times' solution">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_2057390862 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'UV tiles are assigned multiple times' solution" class="" id="root_content_flex_items_position_position-par_image_2057390862" src="warnings-dep-udim-same.gif" title="'UV tiles are assigned multiple times' solution"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><img alt="(error)" src="error.svg"/> Invalid UV tiles</h2>
+<p>A UV tile listed for a <a href="/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html">3D mesh resource</a> is not defined in the mesh or corrupted.</p>
+<p><b><img alt="(tick)" src="check.svg"/> Solution</b></p>
+<p>For each UV set of a 3D mesh resource, make sure all items in the <b>UV Tiles</b> list refer to UDIMs which <i>exist</i> in the linked resource.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>This warning cannot be triggered through the user interface, since it <em>only</em> lists the UDIMs detected in the linked resource. Only modifying the data in the Substance 3D file (SBS) <em>directly</em> can result in this warning being triggered.</p>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="'Invalid UV tiles' solution">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_828290205 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="'Invalid UV tiles' solution" class="" id="root_content_flex_items_position_position-par_image_828290205" src="warnings-dep-udim-invalid.gif" title="'Invalid UV tiles' solution"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div></body>

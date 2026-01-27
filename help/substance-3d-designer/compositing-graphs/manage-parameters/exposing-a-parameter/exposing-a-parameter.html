@@ -1,0 +1,1119 @@
+<header><meta name="title" content="Exposing a parameter | Substance 3D Designer"><meta name="description" content="Designer > Substance compositing graphs > Exposing a parameter"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Exposing parameters is one of the most powerful tools and is key to opening up your graphs to other applications such as Substance 3D Painter, Substance 3D Sampler and Substance Integrations for Maya and 3DS Max.</p><p>This page explains all required concepts to get started exposing. It's recommended <a href="/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html">that you first learn what a Graph Instance is </a>before continuing on this page. It's also good to have a grasp on<a href="/substance-3d-designer/getting-started/overview.html"> the difference between Publish and Exporting, as well as the filetypes involved.</a></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#understanding-parameters-exposing">Understanding parameters and exposing</a><br/>
+</p>
+<p><a disablelinktracking="false" href="#how-to-expose">How to expose</a></p>
+<p><a disablelinktracking="false" href="#limitations">Limitations</a></p>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#modifying-exposed-parameters">Modifying exposed parameters</a><br/>
+</p>
+<p><a disablelinktracking="false" href="#removing-exposed-parameters">Removing and cleaning exposed parameters</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_1034394628 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_1034394628"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Exposing parameters simplified">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/parameters-5?$png$&amp;jpegSize=200&amp;wid=1000"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/parameters-5?$png$&amp;jpegSize=200&amp;wid=1000"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/parameters-5?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Exposing parameters simplified" class="" id="root_content_flex_items_position_position-par_image" src="parameters-5.png" title="Exposing parameters simplified"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: left;"><i> *Dashed, transparent lines above are an abstract representation of the connection<br/>
+from exposed parameters to Graph Parameters. </i></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Exposingaparameter-Understandingparametersandexposing"><a id="understanding-parameters-exposing"></a>Understanding parameters and exposing</h2>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="Understandingexposingparameters">
+<spectrum-accordion-item data-label="What is a parameter?" data-titleid="item-Whatisaparameter-Understandingexposingparameters">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="What is 'exposing'?" data-titleid="item-Whatisexposing-Understandingexposingparameters">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Why is exposing useful?" data-titleid="item-Whyisexposinguseful-Understandingexposingparameters">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Why not expose every parameter automatically, all the time?" data-titleid="item-Whynotexposeeveryparameterautomaticallyallthetime-Understandingexposingparameters">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Do I have to know math for exposing? Should I understand Substance function graphs?" data-titleid="item-DoIhavetoknowmathforexposingShouldIunderstandSubstancefunctiongraphs-Understandingexposingparameters">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Whatisaparameter-Understandingexposingparameters">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);"><i>A parameter is a simple value, with a UI element, that controls the behavior of a graph.</i> You use them constantly in all Substance software: to change a color, to set blend mode, to choose an opacity value, etc... Without parameters, Substance software would not allow for any customization at all.</span></p>
+<p><span style="color: rgb(80,80,80);">Parameters can come in many different forms: sliders, dials, type-in boxes, drop-down menus, etc... The values they represent can be many different types: decimal values, whole (integer) values, boolean (true/false) values, even text snippets.</span><br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Whatisexposing-Understandingexposingparameters">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><em> <strong>Exposing is the process of making a parameter available for use outside of your current Graph View.</strong> </em> When building a Graph, you usually select a node to change the parameters in its properties; when exposed, you<em> enable access to this parameter from an external control panel</em>. This "external control panel" can mean different things based on the context: when used as a Graph Instance inside Designer, it just acts as another node. When used in Substance 3D Painter, Substance 3D Sampler or an integration, these exposed parameters will be <em>the only control</em> you have over the graph.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Whyisexposinguseful-Understandingexposingparameters">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><em> <strong>Exposing Parameters is what takes Substance 3D Designer beyond a simple texture editor, allowing you to create customisable, dynamic texture-generation tools</strong> </em> <strong>. </strong>Without exposing, Substance Materials wouldn't be very different from static textures: you'd have no way to modify their outputs.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Whynotexposeeveryparameterautomaticallyallthetime-Understandingexposingparameters">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b> <a href="/substance-3d-designer/substance-compositing-graphs.html">Substance graphs</a> can get complicated and can contain hundreds of parameters at once. It doesn't make sense to always show all parameters to a user, especially if you are building graphs with a simple goal, that don't need many parameters.</b> When exposing parameters, you work as a UI or UX designer: you think what controls make sense, which values are required and how to make it easy to use for yourself, for other users online or for your coworkers.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-DoIhavetoknowmathforexposingShouldIunderstandSubstancefunctiongraphs-Understandingexposingparameters">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><em> <strong>Mathematical knowledge is not required to make good use of Exposing Parameters, nor is the use of functions.</strong> </em> As a beginning user you can almost completely avoid having to do mathematical operations in <a href="/substance-3d-designer/function-graphs.html">Function graphs</a>. The only thing that is strongly recommended, is a <a href="/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html">decent base knowledge of the different data types such as Integer, Float and Boolean.</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_1114288515 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_1114288515"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Exposingaparameter-Howtoexpose"><a id="how-to-expose"></a>How to expose</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Currently there are two main methods to expose parameters. One method is more suited for quickly exposing a single parameter, the second method is more suited for exposing multiple parameters in one sweep.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Single expose method walkthrough">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_99676435 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Single expose method walkthrough" class="" id="root_content_flex_items_position_position-par_image_99676435" src="single-expose2.gif" title="Single expose method walkthrough"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>SINGLE EXPOSE METHOD</h3>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Find the parameter you want to expose in the <a href="/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html">Properties Window</a>, under the Specific Parameters tab<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Click the <img height="22" src="image2020-9-17-15-35-59.png"/> dropdown options button <br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Choose <img height="23" src="image2020-9-17-15-37-7.png"/> <b>Expose as new graph input</b> from the drop down list, the first option.<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>The <b>Expose parameter</b> dialog appears, set any parameter properties as you wish.</p>
+<p>It is recommended to at least change the <b>Identifier</b> and <b>Label</b><br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Press <b>OK</b> to confirm<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>The parameter's name turns <i>blue</i>, and the <img height="24" src="image2020-9-17-15-35-46.png"/><br/>
+<b> Edit parameter function</b> button appears next to the dropdown options to confirm the parameter is exposed<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Most numerical fields support <em>basic math formulas</em> as an input – E.g., <code>17+3.5</code>, <code>7/3</code>, <code>(4+2)*3</code>. Press <em>Enter</em> to validate the formula and the result will be input in the field. If the formula is invalid, the field reverts to its previous value.<br/>Some numerical fields in other parts of the application, such as in the <a href="/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html">Properties</a> dock, also support this feature.</p>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Batch expose method walkthrough">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1464785197 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Batch expose method walkthrough" class="" id="root_content_flex_items_position_position-par_image_1464785197" src="batch-expose-2.gif" title="Batch expose method walkthrough"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Exposingaparameter-Batch-exposemethod">Batch expose method</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When exposing one parameter, this method will be a bit slower than the previous. When exposing multiple parameters, it is much faster.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Instead of finding a single parameter, find the <img height="23" src="image2020-9-17-15-39-7.png"/> <b>Multi-expose</b> button at the top right of the <b>Specific parameters</b> tab<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Choose <b>Batch expose parameters...</b> from the drop down menu<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>The <b>Batch expose</b> dialog appears, allowing you to customize the exposing of all of a node's <b>Specific parameters</b><br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Use <b>All</b>, <b>None</b> or specific checkboxes to decide which parameters to expose<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Click on a parameter name under the <b>Graph input identifier</b> column in the list to change its name.<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Click on a <b>Group name</b> under the <b>Graph input group</b> column in the list to add a (sub-)group for one specific parameter<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Use the <b>Graph input identifier</b> and <b>Graph input group</b> type-in boxes at the bottom to add prefix, suffix and input groups to all exposed parameters at once. All these values are applied on top of the per-parameter settings.<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Click <b>OK</b> to confirm and expose all selected parameters. The parameter names now show <i>blue</i> to confirm the parameters are exposed, as well as an <img height="24" src="image2020-9-17-15-35-46.png"/> <b>Edit function</b> button.<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="limitations"></a>Limitations</h2>
+<p>There are some limitations tied to exposing parameters, as listed in the table below.</p>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-gm23djl column-0r03des" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Parameter type</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-gm23djl column-9j13dg1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Reason</p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-hb33d14 column-0r03des">
+<div class="text">
+<div class="cmp-text">
+<p><a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html">Gradient Ramp</a>, <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html">Curve Editor</a>, <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html">Font</a>, <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html">Levels Histogram</a><br/>
+</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-hb33d14 column-9j13dg1">
+<div class="text">
+<div class="cmp-text">
+<p>Require widgets which are not available for user-created parameters.<br/>
+</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th.row-gm23djl,
+     #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td.row-gm23djl {
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+</style>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Another significant limitation is related to </span><a href="/substance-3d-designer/glossary.html#static-parameter">static parameters</a><span style="color: rgb(80,80,80);">. These cannot be changed in a </span><a href="/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html">published Substance 3D asset</a><span style="color: rgb(80,80,80);"> (SBSAR).</span><br/>
+</p>
+<p>Static parameters – as opposed to dynamic parameters – <i>cannot be edited on-the-fly</i> after the graph has been <i>cooked</i> – i.e., processed in order to run its algorithm quickly and efficiently. Cooking occurs in Designer every time the graph is <i>edited</i> or <i>published</i>.</p>
+<p>As such, static parameters are visible and editable in Designer, but are <i>hidden</i> in a published Substance 3D asset. You may use Preview mode to see these limitations in effect before publishing to a Substance 3D asset: see 'Previewing parameters' below.</p>
+<p>As a workaround, you may use a <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html">Switch</a> or <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html">Multi Switch</a> node and multiple sets of logic to switch between different values/states for these parameters.</p>
+</div>
+</div>
+<div class="xfreference experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<style>
+</style>
+<div class="xf" id="root_content_flex_items_position_position-par_xfreference_385992867">
+<div class="xfpage page basicpage">
+<div class="xf-content-height">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="id-cb1c40c6caf572cd9cb040b1b1381a3f">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<th abbr="" class="row-gm23djl column-0r03des" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Node</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-gm23djl column-58032jd" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Parameter</p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-eu63ddi column-0r03des">
+<div class="text">
+<div class="cmp-text">
+<p>All nodes</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-eu63ddi column-58032jd">
+<div class="text">
+<div class="cmp-text">
+<p>Tiling mode<br/>
+Pixel ratio</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-0h43d3c column-0r03des">
+<div class="text">
+<div class="cmp-text">
+<p><a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html">Uniform color</a><br/>
+</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-0h43d3c column-58032jd">
+<div class="text">
+<div class="cmp-text">
+<p>Color mode<br/>
+</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-wa1323w column-0r03des">
+<div class="text">
+<div class="cmp-text">
+<p><a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html">Pixel processor</a><br/>
+</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-wa1323w column-58032jd">
+<div class="text">
+<div class="cmp-text">
+<p>Color mode<br/>
+</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-q9332nh column-0r03des">
+<div class="text">
+<div class="cmp-text">
+<p><a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html">Blend</a><br/>
+</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-q9332nh column-58032jd">
+<div class="text">
+<div class="cmp-text">
+<p>Blending mode<br/>
+Alpha blending<br/>
+Cropping area</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-g053d3n column-0r03des">
+<div class="text">
+<div class="cmp-text">
+<p><a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">FX-Map</a><br/>
+</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-g053d3n column-58032jd">
+<div class="text">
+<div class="cmp-text">
+<p>Blending mode</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-wt432d6 column-0r03des">
+<div class="text">
+<div class="cmp-text">
+<p><span><a href="/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html">Quadrant</a></span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-wt432d6 column-58032jd">
+<div class="text">
+<div class="cmp-text">
+<p><span>Pattern<br/>
+</span>Input image alpha<br/>
+Input image filtering</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #id-cb1c40c6caf572cd9cb040b1b1381a3f > .dexter-Table {
+        width: 100%;
+    }
+    #id-cb1c40c6caf572cd9cb040b1b1381a3f > .dexter-Table > tbody > tr > th,
+    #id-cb1c40c6caf572cd9cb040b1b1381a3f > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    #id-cb1c40c6caf572cd9cb040b1b1381a3f > .dexter-Table > tbody > tr > th.row-gm23djl,
+     #id-cb1c40c6caf572cd9cb040b1b1381a3f > .dexter-Table > tbody > tr > td.row-gm23djl {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #id-cb1c40c6caf572cd9cb040b1b1381a3f > .dexter-Table > tbody > tr > th.column-0r03des,
+    #id-cb1c40c6caf572cd9cb040b1b1381a3f > .dexter-Table > tbody > tr > td.column-0r03des {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #id-cb1c40c6caf572cd9cb040b1b1381a3f > .dexter-Table > tbody > tr > th.column-58032jd,
+    #id-cb1c40c6caf572cd9cb040b1b1381a3f > .dexter-Table > tbody > tr > td.column-58032jd {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="modifying-exposed-parameters"></a>Modifying exposed parameters</h2>
+<p>Once exposed, it is no longer possible to access a parameter like before. Changing its value, renaming, arranging in the UI and even removing the parameter all happen on the Graph Properties level. This section details how to do so.</p>
+<p>To change an exposed parameter's options either:</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Click on the Dropdown options button <img height="22" src="image2020-9-17-15-35-59.png"/> next to the already exposed parameter</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Choose <img height="23" src="image2020-9-17-15-37-7.png"/><b> Edit exposed graph input</b>. This takes you straight to the relevant entry in the graph properties<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Double-click in an empty area of your graph to get to the graph properties, then find the parameter in the list of <b>Input parameters</b><br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Single click on your graph in the <b>Explorer</b>, then find the parameter in the list of <b>Input parameters</b><br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Input parameters">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1176890044 { width:512px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1176890044 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1176890044 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Input parameters" class="" id="root_content_flex_items_position_position-par_image_1176890044" src="input-parameters-2.png" title="Input parameters"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>INPUT PARAMETERS</h3>
+<p>All exposed Parameters are listed under the Input Parameters tab. The following properties are available for most common cases such as Floats and Integers with default Editor type.</p>
+<ol>
+<li><b>Identifier</b>: Unique identifier for this parameter. Can not contain spaces or special characters.</li>
+<li><b>Label</b>: UI-only Label. If no Label is defined, the identifier is shown in the UI. Can contain spaces and special characters</li>
+<li><b>Group</b>: Group parameters together into collapsible section to keep long lists of parameters clean and manageable. Parameters are grouped together if they share the <i>exact same</i> group name. Use the <code>/</code> character to create <i>sub-groups</i> – e.g. <code>My Group/My Sub-group</code></li>
+<li><b>Description</b>: Textfield for description, used as tooltip.</li>
+<li><p><b>Type / Editor</b>: Set the data type as well as the UI editor type. Certain Editors are only available for certain data types (such a drop down list only for Integer).<i> Changing Editor will in many cases wipe default values, be careful.</i></p>
+</li>
+<li><b>Default</b>: Default value the parameter starts out at. This is also the value used in your graph while previewing nodes. Try to use an easy, useable value here, avoid extreme cases.</li>
+<li><b>Min</b>: Minimum value for UI</li>
+<li><b>Max</b>: Maximum value for UI</li>
+<li><b>Clamp</b>: Set wether Min and Max are soft or hard limits (allow the user to go past the limits).</li>
+<li><b>Step</b>:Set the precison or granularity of the value.</li>
+<li><b>User Data: </b>Custom user data, available for any purpose.</li>
+<li><b>Visible If</b>: Special expression system to show or hide parameters based on external conditions. See <a href="/substance-3d-designer/substance-compositing-graphs/exposing-a-parameter/visible-if-control-visibility-of-inputs-outputs-and-parameters.html">Visible if: control visibility of inputs, outputs and parameters</a></li>
+</ol>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Drop down list editor for Integer parameter">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_557526659 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Drop down list editor for Integer parameter" class="" id="root_content_flex_items_position_position-par_image_557526659" src="dropdown.gif" title="Drop down list editor for Integer parameter"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h4>Drop down list</h4>
+<p>A special case is the <b>Drop down list</b> for Integer types. There is no Default, Min or Max, just a single Value setting that allows you to define a list of Items.</p>
+<ul>
+<li>Every Item corresponds to an Item in the Drop Down List.</li>
+<li>The first value for an Item is the actual, internal integer used by the graph. Make sure you set these up correctly for your <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html">Multi Switch</a> for example (they start at 1, not 0).</li>
+<li>The second value is the UI Label shown to the user.</li>
+<li>The third checkbox allows you to mark one Item as the default selected one.</li>
+<li>The X deletes an Item, the + adds an Item</li>
+</ul>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Re-order input parameters">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1836105285 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Re-order input parameters" class="" id="root_content_flex_items_position_position-par_image_1836105285" src="reorder-2.gif" title="Re-order input parameters"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h4>Re-order</h4>
+<p>Re-ordering of Parameters can easily be done by dragging and dropping the dark, striped handles to the left of the input parameters name in the list. Keep in mind Grouping parameters can affect the order.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Previewing input parameters">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_575624650 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Previewing input parameters" class="" id="root_content_flex_items_position_position-par_image_575624650" src="parameter-preview-2.gif" title="Previewing input parameters"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>PREVIEWING PARAMETERS</h3>
+<p>As setting up parameters can be difficult without seeing the final result, a <b>Preview Mode</b> can be enabled, to check how the parameters UI will look and behave externally. Click the <b>Preview</b> tab in the top middle of the Input Parameters rollout.</p>
+<p>Normally, any changes made in <b>Preview Mode</b> are <i>discarded</i>. You can however use the <b>Apply button </b>next to the eye icon to set the current values of the<b> Preview Mode</b> as the<i> new default values</i>.</p>
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html">Preview Mode also allows you to create Embedded Presets.</a></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-caution">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Caution</span>
+</span>
+<div class="cmp-text">
+<p>Preview Mode is disabled when using <a disablelinktracking="false" href="/substance-3d-designer/interface/preferences-window.html">in-context editing</a>.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p>Preview mode aims to represent the experience of a <a href="/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html">published Substance 3D asset</a> (SBSAR) as accurately as possible. Therefore, the <a href="#Exposingaparameter-Limitations">Limitations</a> listed in this page will apply in this mode, such as <em>static parameters being absent from the list</em>.</p>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Copying and pasting inputs parameters">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1408785627 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Copying and pasting inputs parameters" class="" id="root_content_flex_items_position_position-par_image_1408785627" src="copy-paste-params-2.gif" title="Copying and pasting inputs parameters"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>COPY-PASTING PARAMETERS</h3>
+<p>Parameters can be copy-pasted between graphs.</p>
+<p>A single parameter can be copied with the Copy button <img height="21" src="image2019-9-19-11-3-49.png"/>. Multiple Parameters can be copied through the Parameters Menu <img height="23" src="image2020-9-17-15-39-7.png"/>. Choose Copy Inputs to copy all inputs.</p>
+<p>Choose Paste Inputs <img src="image2020-9-17-16-43-15.png"/> in the Parameters Menu <img height="23" src="image2020-9-17-15-39-7.png"/> to paste one or more parameters.</p>
+<p>If you want to transfer values, and not the actual exposed parameter itself, <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html">read about Parameter Presets.</a></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_197072499 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_197072499"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="removing-exposed-parameters"></a>Removing and cleaning exposed parameters</h2>
+<p>Because of the nature of parameters, where you can have on Input Parameter controlling multiple Nodes, or where Input parameters can exist without controlling a node, problems can arise with missing or unused parameters. Below common issues and their solutions are described.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Errors on node parameters">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1680234949 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Errors on node parameters" class="" id="root_content_flex_items_position_position-par_image_1680234949" src="parameter-error.gif" title="Errors on node parameters"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>TRACKING BROKEN PARAMETERS ON NODES</h3>
+<p>You can track what parameter is used by which node through the Node Finder Tool <img height="20" src="image2019-9-19-14-15-53.png"/>, which is located in the top bar of the Graph View. Click it and it allows you to find nodes using specific parameters.</p>
+<p>If a node has an actual problem, it will display a Warning badge <img src="image2019-9-19-14-23-54.png" width="22"/> on its top left corner. Hovering over the badge will display a tooltip with more information.</p>
+<p>To reset and remove a problem, for the parameter you want to fix or reset, click on the Dropdown button <img height="22" src="image2020-9-17-15-35-59.png"/> next to the Edit Function button and select <img src="image2020-9-17-16-56-18.png"/> <b>Reset. </b>This returns a parameter to its previous, non-exposed state, the blue name will turn gray again to reflect this.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Cleaning unused input parameters">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_677857159 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Cleaning unused input parameters" class="" id="root_content_flex_items_position_position-par_image_677857159" src="clean-inputs-2.gif" title="Cleaning unused input parameters"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>CLEANING UP UNUSED INPUT PARAMETERS</h3>
+<p>If you have lost track of your Input Parameters and no longer know which ones are used, they can be cleaned up using a small tool. Click the Input Parameter menu button <img height="23" src="image2020-9-17-15-39-7.png"/> and select <b>Clean Inputs.</b></p>
+<p>A new dialog appears, listing all unused parameters. Check or uncheck whatever parameters you want to remove or keep, and click OK. If no dialog appears, there are currently no unused parameters to clean up.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Removing parameters">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1802770756 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Removing parameters" class="" id="root_content_flex_items_position_position-par_image_1802770756" src="delete-param-2.gif" title="Removing parameters"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>REMOVING PARAMETERS</h3>
+<p>To actually remove a parameter that is in use, requires two distinct steps.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> On the node with the exposed parameter, click the dropdown arrow to the right of the Function Expose button that is colored in blue: <img height="20" src="image2019-9-19-14-55-55.png"/>. Then choose "Reset to Default Value". This removes the use of the parameter on this one node. repeat for any other node making use of the same parameter. "Reset to Default value" also resets the range of the parameter widget to its <em>soft range</em>.</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> In the Input Parameters list of the Graph, click the X all the way to the right of the parameter's entry. This deletes the parameter completely. If any nodes try to make use of this parameter, a warning badge will appear (see above).</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+</div>
+</div></body>

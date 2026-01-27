@@ -1,0 +1,47 @@
+<header><meta name="title" content="Logging | Substance 3D Designer"><meta name="description" content="Designer > Scripting > Logging"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Logging</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We recommend using the standard Python's logging module for logging.</p>
+<p>The <b>sd</b> module contains helper classes to redirect logging to Designer's console.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Logging to Designer's console panel</h3>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">import logging 
+import sd 
+ 
+ 
+# Create a logger. 
+logger = logging.getLogger("MyLogger") 
+ 
+ 
+# Add a handler to redirect logging to Designer's console panel. 
+ctx = sd.getContext() 
+logger.addHandler(ctx.createRuntimeLogHandler()) 
+ 
+ 
+# Do not propagate log messages to Python's root logger. 
+logger.propagate = False 
+ 
+ 
+# Set the default log level if needed. 
+logger.setLevel(logging.DEBUG) 
+ 
+ 
+# Use the logger 
+logger.info("Info message") 
+logger.warning("Warning message") 
+logger.error("Error message")</pre>
+</div>
+</div>
+</div></body>

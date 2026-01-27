@@ -1,0 +1,358 @@
+<header><meta name="title" content="Material properties | Substance 3D Designer"><meta name="description" content="Designer > Interface > 3D View > Material properties"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Material properties</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This pages presents common properties of the shader used in the <a href="/substance-3d-designer/interface/3d-view.html">3D View</a> of Substance 3D Designer.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Overview</h2>
+<p>The <a href="/substance-3d-designer/interface/3d-view.html">3D View</a> renders the surface of models using a program called a <i>shader</i>. The shader defines the material applied to the model using a list of properties which impact various aspects of the model's appearance.</p>
+<p>The <b>Materials</b> menu of the 3D View lets you check which shader is used for each of the scene's materials.</p>
+<p>Designer uses the <b>Adobe Standard Material</b> by default, which supports several complex effects such as anisotropy, sheen and translucency.<br/>
+This shader's properties are sorted into the following groups:</p>
+<ul>
+<li>UVs</li>
+<li>Base Surface</li>
+<li>Normal</li>
+<li>Height</li>
+<li>Anisotropy</li>
+<li>Emission</li>
+<li>Sheen</li>
+<li>Subsurface scattering</li>
+<li>Coat</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+
+            Some systems may not support this shader. In that case, Designer falls back to the <strong>Metallic Roughness</strong> shader.
+        </div>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Adjusting material tiling">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Adjusting material tiling" class="" id="root_content_flex_items_position_position-par_image" src="3dview-material-uv.gif" title="Adjusting material tiling"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><b>UVs</b></h2>
+<ul>
+<li><b>Tiling</b> <i>Float</i><br/>
+The amount of repetition of the texture both horizontally and vertically<br/>
+<i>Default - 1.0</i></li>
+<li><b>UV Scale Enabled</b> <i>Boolean</i><br/>
+Modulates the tiling against the <a href="/substance-3d-designer/substance-compositing-graphs/graph-parameters.html">Physical Size</a> of the <a href="/substance-3d-designer/substance-compositing-graphs.html">Substance graph</a> which was last applied in the 3D View<br/>
+<i>Default - False</i></li>
+</ul>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Adjusting material surface properties">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_905678887 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Adjusting material surface properties" class="" id="root_content_flex_items_position_position-par_image_905678887" src="3dview-material-base-surface.gif" title="Adjusting material surface properties"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><b>Base surface</b></h2>
+<ul>
+<li><b>Base Color</b> <i>Float3/RGB</i><br/>
+The amount of repetition of the texture both horizontally and vertically<br/>
+<i>Default - (0.5, 0.5, 0.5)</i></li>
+<li><b>sRGB Base Color</b> <i>Boolean</i><br/>
+Description<br/>
+<i>Default - True</i></li>
+<li><b>Roughness</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.5</i></li>
+<li><b>Metallic</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.0</i></li>
+<li><b>Opacity</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 1.0</i></li>
+<li><b>Ambient Occlusion</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 1.0</i></li>
+<li><b>Specular Level</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.5</i></li>
+<li><b>Specular Edge Color</b> <i>Float3/RGB</i><br/>
+Description<br/>
+<i>Default - (1.0, 1.0, 1.0)</i></li>
+<li><b>sRGB Specular Edge Color</b> <i>Boolean</i><br/>
+Description<br/>
+<i>Default - True</i></li>
+<li><b>Index of Refraction</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 1.5</i></li>
+</ul>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Adjusting surface normals">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_138692107 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Adjusting surface normals" class="" id="root_content_flex_items_position_position-par_image_138692107" src="3dview-material-normal.gif" title="Adjusting surface normals"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><b>Normal</b></h2>
+<ul>
+<li><b>Normal</b> <i>Float3/RGB</i><br/>
+Description<br/>
+<i>Default - (0.5, 0.5, 1.0)</i></li>
+<li><b>DirectX Normal</b> <i>Boolean</i><br/>
+Description<br/>
+<i>Default - True</i></li>
+</ul>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Adjusting displacement">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_387158715 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Adjusting displacement" class="" id="root_content_flex_items_position_position-par_image_387158715" src="3dview-material-height.gif" title="Adjusting displacement"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><b>Height</b></h2>
+<ul>
+<li><b>Height</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.5</i></li>
+<li><b>Height Scale</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 1.0</i></li>
+<li><b>Height Level</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.5</i></li>
+<li><b>Tessellation Factor</b> <i>Integer</i><br/>
+Description<br/>
+<i>Default - 1</i></li>
+<li><b>Phong Tessellation</b> <i>Boolean</i><br/>
+Description<br/>
+<i>Default - False</i></li>
+<li><b>Phong Tessellation Factor</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.6</i></li>
+</ul>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><b>Anisotropy</b></h2>
+<ul>
+<li><b>Anisotropy Level</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 1.0</i></li>
+<li><b>Anisotropy Angle</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.0</i></li>
+</ul>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><b>Emission</b></h2>
+<ul>
+<li><b>Emission Intensity</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 1.0</i></li>
+<li><b>Emission Color</b> <i>Float3/RGB</i><br/>
+Description<br/>
+<i>Default - (0.0, 0.0, 0.0)</i></li>
+<li><b>sRGB Emission Color</b> <i>Boolean</i><br/>
+Description<br/>
+<i>Default - True</i></li>
+</ul>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><b>Sheen</b></h2>
+<ul>
+<li><b>Sheen Opacity</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.0</i></li>
+<li><b>Sheen Color</b> <i>Float3/RGB</i><br/>
+Description<br/>
+<i>Default - (1.0, 1.0, 1.0)</i></li>
+<li><b>sRGB Sheen Color</b> <i>Boolean</i><br/>
+Description<br/>
+<i>Default - True</i></li>
+<li><b>Sheen Roughness</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.5</i></li>
+</ul>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><b>Subsurface Scattering</b></h2>
+<ul>
+<li><b>Translucency</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.0</i></li>
+<li><b>Use Scattering Color Channel</b> <i>Boolean</i><br/>
+Description<br/>
+<i>Default - False</i></li>
+<li><b>Scattering Color</b> <i>Float3/RGB</i><br/>
+Description<br/>
+<i>Default - (1.0, 1.0, 1.0)</i></li>
+<li><b>sRGB Scattering Color</b> <i>Boolean</i><br/>
+Description<br/>
+<i>Default - True</i></li>
+<li><b>Scattering Distance</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 1.0</i></li>
+<li><b>Scattering Distance Scale</b> <i>Float3/RGB</i><br/>
+Description<br/>
+<i>Default - (1.0, 1.0, 1.0)</i></li>
+<li><b>sRGB Scattering Distance</b> <i>Boolean</i><br/>
+Description<br/>
+<i>Default - True</i></li>
+<li><b>Red Shift</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.0</i></li>
+<li><b>Rayleigh</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.0</i></li>
+</ul>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><b>Coat</b></h2>
+<ul>
+<li><b>Coat Opacity</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.0</i></li>
+<li><b>Coat Color</b> <i>Float3/RGB</i><br/>
+Description<br/>
+<i>Default - (1.0, 1.0, 1.0)</i></li>
+<li><b>sRGB Coat Color</b> <i>Boolean</i><br/>
+Description<br/>
+<i>Default - True</i></li>
+<li><b>Coat Roughness</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.0</i></li>
+<li><b>Coat IOR</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 1.6</i></li>
+<li><b>Coat Specular Level</b> <i>Float</i><br/>
+Description<br/>
+<i>Default - 0.5</i></li>
+<li><b>Coat Normal</b> <i>Float3/RGB</i><br/>
+Description<br/>
+<i>Default - (0.5, 0.5 ,1.0)</i></li>
+</ul>
+</div>
+</div>
+</div>
+</div></body>

@@ -1,0 +1,694 @@
+<header><meta name="title" content="Dot node (also Portal) | Substance 3D Designer"><meta name="description" content="Designer > Interface > Graph view > Graph items"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 25%; max-width: 25%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" title="Dot node icon">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_items_image_1760737325 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_image_1760737325 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_image_1760737325 { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Dot node icon" class="" id="root_content_flex_items_position_position-par_flex_copy_items_image_1760737325" src="graphatomic-dot.png" title="Dot node icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text">
+<div class="cmp-text">
+<p>The <b>Dot</b> node is a helper that lets you simplify and clean up graphs by rerouting and grouping connections. It is especially useful for graphs with many long connections running over other connections or nodes.<br/>
+</p>
+<p>A pair of Dot nodes can be used as <b>portals</b> to hide a connection going over a long distance, or in places where routing the connection would be challenging.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#creating-dot-nodes">Creating Dot nodes</a><br/>
+</p>
+<p><a disablelinktracking="false" href="#merging-links">Merging links</a></p>
+<p><a disablelinktracking="false" href="#portals">Portals</a></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="creating-dot-nodes"></a>Creating Dot nodes</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Dot nodes may be added in any graph type, in any of the following ways:</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="Dotnodecreationmethods">
+<spectrum-accordion-item data-label="Insert on link" data-selected="true" data-titleid="item-Insertonlink-Dotnodecreationmethods">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Node connector" data-titleid="item-Nodeconnector-Dotnodecreationmethods">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Node menu" data-titleid="item-Nodemenu-Dotnodecreationmethods">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Insertonlink-Dotnodecreationmethods">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_content-Insertonlink_flex_585543095 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Insertonlink_flex_585543095 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_content-Insertonlink_flex_585543095 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Insertonlink_flex_585543095 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_content-Insertonlink_flex_585543095" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>Hold the <b>Alt</b> key while hovering a connection to display the Dot node preview, then click LMB to add a Dot node on the connection at that location.<br/>
+</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Inserting a Dot node">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Insertonlink_flex_585543095_items_image_copy { width:512px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Insertonlink_flex_585543095_items_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Insertonlink_flex_585543095_items_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Inserting a Dot node" class="" id="root_content_flex_items_position_position-par_accordion_content-Insertonlink_flex_585543095_items_image_copy" src="dot-node-insert-optim.gif" title="Inserting a Dot node"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Nodeconnector-Dotnodecreationmethods">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_content-Nodeconnector_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Nodeconnector_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_content-Nodeconnector_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Nodeconnector_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_content-Nodeconnector_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>Press the <b>Alt</b> key while dragging a new connection from a node connector to insert a Dot node at that location.</p>
+<p>You may continue dragging the new connection and repeat the operation to route that connection how you like.<br/>
+</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Dot: Creating from connector">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Nodeconnector_flex_items_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Dot: Creating from connector" class="" id="root_content_flex_items_position_position-par_accordion_content-Nodeconnector_flex_items_image" src="graph-dot_create-from-connector.gif" title="Dot: Creating from connector"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Nodemenu-Dotnodecreationmethods">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_content-Nodemenu_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Nodemenu_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_content-Nodemenu_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Nodemenu_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_content-Nodemenu_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>Press <b>Spacebar</b> to display the <b>Node menu</b>, then select the 'Dot' item or type 'dot' in the search field to surface the item and find it more quickly.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Dot node in Node menu">
+<div>
+<div class="dexter-Image dexter-Image-right">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Nodemenu_flex_items_image_copy_169287736 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Nodemenu_flex_items_image_copy_169287736 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Nodemenu_flex_items_image_copy_169287736 { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Dot node in Node menu" class="" id="root_content_flex_items_position_position-par_accordion_content-Nodemenu_flex_items_image_copy_169287736" src="dot-node-insert-menu.png" title="Dot node in Node menu"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-tip">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Tip</span>
+</span>
+<div class="cmp-text">
+<p>When a Dot node is created, its 'Name' property automatically gains focus so you can immediately edit the node's name.</p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_101315946 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_101315946"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_621609613 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_621609613 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_621609613 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_621609613 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_621609613" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h2><a id="merging-links"></a>Merging links</h2>
+<p>Press ALT and move a Dot node over links to merge multiple node connections together.<br/>
+</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Merging links">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_621609613_items_image_copy_142100777 { width:512px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_621609613_items_image_copy_142100777 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_621609613_items_image_copy_142100777 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Merging links" class="" id="root_content_flex_items_position_position-par_flex_621609613_items_image_copy_142100777" src="dot-node-congrenate-links-optim.gif" title="Merging links"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_282667951 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_282667951"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="portals"></a>Portals</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy_1396087704 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy_1396087704 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy_1396087704 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 16.666667%; max-width: 16.666667%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy_1396087704 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy_1396087704" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" title="Dot node as portal - icon">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_1396087704_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_1396087704_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_1396087704_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Dot node as portal - icon" class="" id="root_content_flex_items_position_position-par_flex_copy_1396087704_items_image" src="DotNode_Portal-1.png" title="Dot node as portal - icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text">
+<div class="cmp-text">
+<p>Dot nodes can be used as <b>portals</b> to send data over a long distance in the graph without having a cumbersome long link that hurts readability. <span style="color: rgb(80,80,80);">This effectively hides the link between Dot nodes.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Dot node as portal">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_copy_1316839192 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Dot node as portal" class="" id="root_content_flex_items_position_position-par_image_copy_1316839192" src="DotNode_Portal.gif" title="Dot node as portal"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3><span style="color: rgb(80,80,80);">Creating portals</span><br/>
+</h3>
+<p>A portal is automatically created between two Dot nodes – a transmitter and a receiver – when the transmitter Dot node is named. Naming a Dot node is done by setting a unique identifier in its <b>Name</b> property.<br/>
+</p>
+<p><span style="color: rgb(80,80,80);">When one or more named Dot nodes exist in a graph, any Dot node can be connected to it as a receiver by:</span></p>
+<ul>
+<li>Creating a link between the receiver's input and a transmitter's output;</li>
+<li><span style="color: rgb(80,80,80);">Selecting the transmitter's name in the receiver's </span><b style="color: rgb(80,80,80);">Input Portal</b><span style="color: rgb(80,80,80);"> property.</span></li>
+</ul>
+<p>Duplicating or copying receivers preserves their connection to the transmitter as a portal.</p>
+<h3>Identifying portals</h3>
+<p>Dot nodes used as portals have a wireless signal icon placed next to the connector used as a portal.</p>
+<p>Selecting any Dot node used as a portal displays its hidden connections to other portals as a dashed line.</p>
+<h3>Deleting portals</h3>
+<p>A portal is deleted when the transmitter's <b>Name</b> is cleared, or when the <span style="color: rgb(80,80,80);">hidden connection is deleted by:</span></p>
+<ul>
+<li>Selecting a portal, then selecting the hidden connection and deleting it;</li>
+<li>Selecting the receiver and pressing the <b>X</b> button next to the <b>Input Portal</b> drop down in the Properties.</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-caution">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Caution</span>
+</span>
+<div class="cmp-text">
+<p>Using Dot nodes as portals is not supported in <a disablelinktracking="false" href="/substance-3d-designer/function-graphs/fxmaps.html">FX-Map graphs</a>.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Check out this tutorial about Dot nodes as portals:</p>
+</div>
+</div>
+<div class="video aem-GridColumn aem-GridColumn--default--12">
+<!-- Ambient Video -->
+<div></div>
+<div class="videoContainer">
+<!-- Custom Video -->
+<!-- Youtube Video -->
+<iframe allowfullscreen="" id="player-n8ihB3YBRPo" mozallowfullscreen="" src="https://www.youtube.com/embed/n8ihB3YBRPo?rel=0&amp;enablejsapi=1" title="youtube video service" webkitallowfullscreen=""></iframe>
+<!-- Vimeo and Adobe TV Video -->
+</div>
+</div>
+</div>
+</div></body>

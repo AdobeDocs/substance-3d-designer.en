@@ -1,0 +1,780 @@
+<header><meta name="title" content="Overriding scene materials | Substance 3D Designer"><meta name="description" content="Designer > Working with 3D scenes > Overriding scene materials"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="xfreference experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<style>
+</style>
+<div class="xf" id="root_content_flex_items_position_position-par_xf_feedback">
+<div class="xfpage page basicpage">
+<div class="xf-content-height">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal">When working with 3D scenes with existing materials, it is necessary to override these materials in order to replace them with your own.</p>
+<p class="MsoNormal">Your material can be built from scratch, or an adjusted version of a scene's material which has been <a disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html">extracted into a Substance graph</a>.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_1632359243 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_1632359243"></div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Overriding a scene material, tweaking it and resetting it to its scene state">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Overriding a scene material, tweaking it and resetting it to its scene state" class="" id="root_content_flex_items_position_position-par_image" src="tweakOverriddenMaterial.gif" title="Overriding a scene material, tweaking it and resetting it to its scene state"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415"></div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy_copy_copy_ > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy_copy_copy_ > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy_copy_copy_ > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy_copy_copy_ > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy_copy_copy_ > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper mobile-padding-right-32 mobile-padding-left-32" id="root_content_flex_items_position_position-par_flex_copy_copy_copy_" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h3><a disablelinktracking="false" href="#override-scene-material">Override scene material</a></h3>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<h3><a disablelinktracking="false" href="#reset-to-scene-state">Reset to scene state</a></h3>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<h3><a disablelinktracking="false" href="#connect-material">Connected material</a></h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_406024649 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_406024649"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Parameters"><a id="override-scene-material"></a>Override scene material</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal">Any material used in a scene can be overridden with your own version, that being a new material or an edited version of the existing material.</p>
+<p class="MsoNormal">The 'Override material' action can be found in two places:</p>
+<ul>
+<li>Open the 'Materials' menu and go to the desired material's submenu</li>
+<li>Press Shift+LMB on a scene object to select it, then click RMB to open its contextual menu</li>
+</ul>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_1450280236 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_1450280236 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_1450280236 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_1450280236 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_1450280236" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_1450280236_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Override material - Action in '3D View' viewport">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1450280236_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1450280236_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1450280236_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/overrideMaterialActionViewport?$png$&amp;jpegSize=200&amp;wid=920"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/overrideMaterialActionViewport?$png$&amp;jpegSize=200&amp;wid=920"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/overrideMaterialActionViewport?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Override material - Action in '3D View' viewport" class="" id="root_content_flex_items_position_position-par_flex_1450280236_items_position_position-par_image" src="overrideMaterialActionViewport.png" title="Override material - Action in '3D View' viewport"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Action in 3D View viewport</i></small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_1450280236_items_position_copy" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Override material - Action in 'Materials' menu">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1450280236_items_position_copy_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1450280236_items_position_copy_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1450280236_items_position_copy_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/overrideMaterialActionMaterials?$png$&amp;jpegSize=200&amp;wid=920"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/overrideMaterialActionMaterials?$png$&amp;jpegSize=200&amp;wid=920"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/overrideMaterialActionMaterials?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Override material - Action in 'Materials' menu" class="" id="root_content_flex_items_position_position-par_flex_1450280236_items_position_copy_position-par_image" src="overrideMaterialActionMaterials.png" title="Override material - Action in 'Materials' menu"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Action in Materials menu</i></small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal"><span style="color: rgb(80,80,80);">In the context of Designer, which uses USD for its internal scene description, overriding means </span><i style="color: rgb(80,80,80);">creating a copy</i><span style="color: rgb(80,80,80);"> of the material which matches the original as closely as possible, and changing the <i>material binding</i> of the scene’s meshes from the original to the copy.</span></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>The copies are created in the scene in a ‘<b>material</b>’ folder (‘Scope’ in USD) under the root and use the same identifier as the original plus a numeric suffix (E.g.: ‘rustedMetal_0’)</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal">That means two important things:</p>
+<ol>
+<li>The original material is never changed in any way.</li>
+<li>Any work done in Designer will be applied to the copy.</li>
+</ol>
+<p class="MsoNormal">You can toggle any override on and off at any point through the same 'Override material' action, if you wish to restore the original scene’s material or perform a quick before-and-after check as you go</p>
+<p class="MsoNormal">Considering the copy is created to match the original, overriding a material should not change its appearance in most cases (see Note below), until you connect a Substance graph to it or edit its properties.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>When an override is applied, Designer computes the tangents and binormals of the impacted meshes, which may take some time and change the aspect of those meshes, especially if those meshes have no defined normal scale and bias, or use different ones.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-caution">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Caution</span>
+</span>
+<div class="cmp-text">
+<p>The <b>AdobeStandardMaterial</b> shading model is supported across the Substance 3D ecosystem, but is not industry standard and therefore <i>may not be supported</i> by third party applications, such as Blender.</p>
+<p>For the best interoperability outside Substance 3D applications, it is currently recommended to use the <b>UsdPreviewSurface</b> shading model, even if that model supports far less material properties and effects.</p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_1975631628 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_1975631628"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Parameters"><a id="reset-to-scene-state"></a>Reset to scene state</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal">If you need to go back to a material’s initial state, while keeping it overridden and still being able to edit it, any material copy can be reset to its initial values.</p>
+<p class="MsoNormal"><span style="color: rgb(80,80,80);">If a material property value was modified, or a texture from a graph was applied to it, the property is reverted to its initial value or texture.</span></p>
+<p class="MsoNormal"><span style="color: rgb(80,80,80);">A material can be reset entirely, or per property.</span></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal">Use the ‘Reset material to scene state’ action in the material’s submenu or a mesh’s contextual menu, to reset the material entirely.</p>
+<p class="MsoNormal">The action can be found in three places:</p>
+<ul>
+<li>Open the 'Materials' menu and go to the desired material's submenu</li>
+<li>Press Shift+LMB on a scene object to select it, then click RMB to open its contextual menu</li>
+<li>The hamburger menu at the top of that material's properties</li>
+</ul>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Reset material to scene state - Action in '3D VIew' viewport">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/resetMaterialToSceneStateActionViewport?$png$&amp;jpegSize=200&amp;wid=920"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/resetMaterialToSceneStateActionViewport?$png$&amp;jpegSize=200&amp;wid=920"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/resetMaterialToSceneStateActionViewport?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Reset material to scene state - Action in '3D VIew' viewport" class="" id="root_content_flex_items_position_position-par_flex_items_position_position-par_image" src="resetMaterialToSceneStateActionViewport.png" title="Reset material to scene state - Action in '3D VIew' viewport"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Action in 3D View viewport</i></small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position_copy_825970915" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Reset material to scene state - Action in 'Materials' menu">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_copy_825970915_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_825970915_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_825970915_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/resetMaterialToSceneStateActionMaterials?$png$&amp;jpegSize=200&amp;wid=920"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/resetMaterialToSceneStateActionMaterials?$png$&amp;jpegSize=200&amp;wid=920"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/resetMaterialToSceneStateActionMaterials?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Reset material to scene state - Action in 'Materials' menu" class="" id="root_content_flex_items_position_position-par_flex_items_position_copy_825970915_position-par_image" src="resetMaterialToSceneStateActionMaterials.png" title="Reset material to scene state - Action in 'Materials' menu"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Action in Materials menu</i></small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position_copy" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Reset material to scene state - Action in 'Properties' dock">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Reset material to scene state - Action in 'Properties' dock" class="" id="root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image" src="resetMaterialToSceneStateActionProps.png" title="Reset material to scene state - Action in 'Properties' dock"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Action in material's properties</i></small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p class="MsoNormal"><span style="color: rgb(80,80,80);">The action is also available <i>per property</i> in the material properties, in case you want to reset only some aspects of a material.</span></p>
+<p class="MsoNormal">Open the material property's hamburger menu to find the 'Reset to default scene state' action.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Reset to scene state - Action in material properties">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Reset to scene state - Action in material properties" class="" id="root_content_flex_items_position_position-par_flex_copy_items_image" src="resetPropertyToSceneStateAction.png" title="Reset to scene state - Action in material properties"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_327776392 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_327776392"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Parameters"><a id="connect-material"></a>Connected material</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal">Again: Designer does not directly alter a scene’s material, it creates a copy in the scene and binds the meshes to that copy instead of the original.</p>
+<p class="MsoNormal">On another hand, Designer has <i>its own</i> separate list of materials in its ‘Materials’ menu which matches the scene’s list of materials by default. You may add new materials in that list at any time.</p>
+<p class="MsoNormal">This is a <i>different</i> set of data which is authored and managed in Designer only. These materials are then <i>connected to the copies</i> which override the scene’s original materials.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Overriding materials - Data schematic">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_2042635976 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_2042635976 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_2042635976 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/overridingMaterialsSchematic?$png$&amp;jpegSize=200&amp;wid=999"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/overridingMaterialsSchematic?$png$&amp;jpegSize=200&amp;wid=999"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/overridingMaterialsSchematic?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Overriding materials - Data schematic" class="" id="root_content_flex_items_position_position-par_image_2042635976" src="overridingMaterialsSchematic.png" title="Overriding materials - Data schematic"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal"><span style="color: rgb(80,80,80);">You can connect any of the materials listed in the ‘Materials’ menu to the copies created by Designer in the scene: Click RMB on a copy in the Scene browser and going to the ‘Connect material’ submenu.</span></p>
+<p class="MsoNormal"><span style="color: rgb(80,80,80);">The submenu lists all materials in the scene and any materials you may have manually created from the ‘Materials’ menu.</span></p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Connect materials">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_2042942198 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_2042942198 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_2042942198 { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Connect materials" class="" id="root_content_flex_items_position_position-par_image_2042942198" src="connectMaterials.gif" title="Connect materials"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div></body>

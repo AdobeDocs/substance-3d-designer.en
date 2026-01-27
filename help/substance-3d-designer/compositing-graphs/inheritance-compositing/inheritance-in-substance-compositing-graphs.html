@@ -1,0 +1,1369 @@
+<header><meta name="title" content="Inheritance in Substance graphs | Substance 3D Designer"><meta name="description" content="Designer > Substance graphs > Inheritance in Substance graphs"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Inheritance in Substance graphs</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page describes how inheritance is applied in <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs.html">Substance graphs</a> within <a href="https://www.adobe.com/products/substance3d-designer.html" rel="nofollow">Substance 3D Designer</a>, and the impact it has on the graph's output.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_2080303962 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_2080303962 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_2080303962 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_2080303962 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_2080303962" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#overview">Overview</a><br/>
+</p>
+<p><a disablelinktracking="false" href="#making-changes">Making changes</a></p>
+<p><a disablelinktracking="false" href="#parenthood">Parenthood for nodes and graphs</a></p>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#multiple-inputs">Inheritance with multiple inputs</a><br/>
+</p>
+<p><a disablelinktracking="false" href="#examples">Examples</a></p>
+<p><a disablelinktracking="false" href="#troubleshooting">Troubleshooting inheritance issues</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Inheritance methods">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:800px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:1400px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-overview-1?$pjpeg$&amp;jpegSize=200&amp;wid=1024"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-overview-1?$pjpeg$&amp;jpegSize=200&amp;wid=1024"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-overview-1?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Inheritance methods" class="" id="root_content_flex_items_position_position-par_image" src="inheritance-overview-1.jpg" title="Inheritance methods"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="overview"></a>Overview</h2>
+<p>All nodes in a Substance graph can <i>inherit</i> the value of some parameters from a source. Inheritance means that changing the value in the source will <i>carry out that change</i> across all nodes which inherit from it. This is one of the fundamental concepts underpinning Substance 3D Designer’s power in generating parametric assets.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>An annotated project file demonstrating inheritance is available in the <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html">Sample Substance graphs</a> section of this documentation.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="InheritanceinSubstancecompositinggraphs-Inheritancemethods">Inheritance methods</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_grid1_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Icon for 'Absolute' inheritance method">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid1_items_position_position-par_image { width:128px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid1_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid1_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Icon for 'Absolute' inheritance method" class="" id="root_content_flex_items_position_position-par_grid1_items_position_position-par_image" src="ds-inheritance-absolute.png" title="Icon for 'Absolute' inheritance method"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: left;"><b>Absolute</b></p>
+<p>No inheritance, the value is defined <i>arbitrarily and locally</i> for the parameter</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_grid1_items_position_533955648" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Icon for 'Relative to input' inheritance method">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid1_items_position_533955648_position-par_image_copy { width:128px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid1_items_position_533955648_position-par_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid1_items_position_533955648_position-par_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Icon for 'Relative to input' inheritance method" class="" id="root_content_flex_items_position_position-par_grid1_items_position_533955648_position-par_image_copy" src="ds-inheritance-relative-to-input.png" title="Icon for 'Relative to input' inheritance method"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b style="color: rgb(80,80,80);">Relative to input</b><br/>
+</p>
+<p>The value is inherited from the data connected to the <i>Primary input</i> of the node</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_grid1_items_position_1499730496" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Icon for 'Relative to parent' inheritance method">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid1_items_position_1499730496_position-par_image_copy { width:128px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid1_items_position_1499730496_position-par_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid1_items_position_1499730496_position-par_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Icon for 'Relative to parent' inheritance method" class="" id="root_content_flex_items_position_position-par_grid1_items_position_1499730496_position-par_image_copy" src="ds-inheritance-relative-to-parent.png" title="Icon for 'Relative to parent' inheritance method"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>Relative to parent</b></p>
+<p>The value is inherited from the <i>parent</i> of the node or graph</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Inheritance methods demonstration">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_722418800 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Inheritance methods demonstration" class="" id="root_content_flex_items_position_position-par_image_722418800" src="inheritance-overview.gif" title="Inheritance methods demonstration"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Inheritance methods are applied for a node’s <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/graph-parameters.html">Base parameters</a>, which is the set of common parameters all nodes have which control <em>fundamental aspects</em> of their behaviour. These parameters include:</p><ul><li><strong>Output Size</strong></li><li><strong>Output Format</strong> (i.e., bitdepth)</li><li><strong>Pixel Size</strong></li><li><strong>Pixel Ratio</strong></li><li><strong>Tiling Mode</strong></li><li><strong>Random Seed</strong></li></ul><p>This should let you appreciate how changes in <em>one</em> node may impact the resolution, precision, and tiling behaviour of <em>all nodes downstream</em> from it.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p>An important reminder for understanding the concepts discussed in this page: an <em>instance node</em> is a <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html">node representing a graph in another graph</a>, with its <em>own discrete parameter values</em>, hence the term <em>instance</em>.<br/>E.g., two <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html">Perlin noise</a> nodes in a same graph are both representations of a <em>same</em> source graph (<code>perlin_noise</code> in <code>noise_perlin_noise.sbs</code>) with their <em>own sets</em> of parameter values.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p><strong>Output size:</strong> Use the <img height="22" src="props-output-size-lock.jpg"/> lock button to have the Height value <em style="letter-spacing: 0.0px;">match</em> the Width value<br/><strong>Random seed:</strong> Use the <img height="22" src="prop-randomise.jpg"/> button to assign a new random value to the random seed.</p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="InheritanceinSubstancecompositinggraphs-Makingchanges"><a id="making-changes"></a>Making changes</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Changing inheritance methods</h3>
+<p>In the <a href="/content/help/en/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html">Properties</a> panel, all parameters listed in the <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/graph-parameters.html">Base parameters</a> section of a node’s properties have a (icon) <b>Set inheritance method</b> dropdown button opposite to their label.<br/>
+This button lets you select the inheritance method which should be used to for a parameter.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Changing inheritance method">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_60346033 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Changing inheritance method" class="" id="root_content_flex_items_position_position-par_image_60346033" src="inheritance-change.gif" title="Changing inheritance method"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In most cases, a <em>node</em>’s Base parameters are set to <em>Relative to input</em>, to leverage the procedural behaviour of chaining nodes together, while a <em>graph</em>’s Base parameters are set to <em>Relative to parent</em>, so the global parameters can adapt to the context the graph is used in.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>TWEAKING INHERITED VALUES</h3>
+<p>Some Base parameters, such as <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/output-size.html">Output Size</a>, Pixel Size or Random Seed, can be changed <i>relatively to the inherited value</i>.</p>
+<p>For instance, when the Output Size parameter uses a <i>Relative to...</i> inheritance method, a value or <code>(1, -1)</code> means one power of two resolution <i>above</i> the inherited value for X and one power of two resolution <i>below</i> the inherited value for Y such as:</p>
+<ul>
+<li>Inherited value : <code>(9, 9)</code> which is <code>2^9, 2^9 = 512, 512</code></li>
+<li>Relative value: <code>(1, -1)</code> which is <code>2^(9+1), 2^(9-1) = 256, 1024</code></li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>The <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/output-size.html">Output Size</a> page digs deeper into this critical Base parameter, and is recommeded reading to understand how the final resolution of a node is computed.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>If a function is applied to a Base parameter, the result of the function will also be interpreted using the parameter's inheritance method.<br/>Keeping the Output Size example in mind, a function aiming at increasing the inherited resolution twofold in X and Y should output the <code>(2, 2)</code> Integer2 value.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_2021241589 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_2021241589"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="parenthood"></a>Parenthood for nodes and graphs</h2>
+<p>When using the Relative to parent inheritance method, you should understand what exactly that parent is in a specific context.</p>
+<p>The parent of a node is the <i>graph</i> it exists in.</p>
+<p>The parent of a graph is the <i>context</i> it exists in:</p>
+<ul>
+<li>If that graph is a sub-graph instantiated into another host graph as an <i>instance node</i>, then the parent of the sub-graph is the <i>instance node</i>. The parent of that instance node is the <i>host graph</i>.</li>
+<li>If that graph is a root graph, then the parent is the <i>application itself</i> and whatever value the application has set for a given parameter. For instance, graphs will inherit from the <b>Parent Size</b> parameter set in the <a href="/content/help/en/substance-3d-designer/interface/the-graph-view.html">Graph view’s toolbar</a>.</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p>Parenthood is <i>applied as-is</i> when publishing a package to Substance 3D asset files (SBSAR). This means setting any parameter to the <i>Absolute</i> inheritance method will <i>lock</i> that parameter to its current value in the published asset.<br/>
+While this is desirable for <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html">Bitmap</a> nodes or <a href="/content/help/en/substance-3d-designer/best-practices/performance-optimization-guidelines.html">optimisation purposes</a>, for instance, we <i>strongly</i> recommend using <i>Relative to…</i> inheritance methods when working in Substance graphs unless there is a <i>clear, deliberate purpose</i> in doing otherwise.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>IN-CONTEXT EDITING</h3>
+<p>When using <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html">In-context editing</a> on a graph instance node, the parent of the graph is the <i>instance node</i>. In that case, the <b>Parent Size</b> setting in the <a href="/content/help/en/substance-3d-designer/interface/the-graph-view.html">Graph view’s toolbar</a> is <i>disabled</i>, as the graph inherits is base parameters from the instance node.</p>
+<p>This trait is the <i>point</i> of in-context editing and should be <i>factored in</i> when setting inheritance method and assessing the current values of any node’s Base parameters.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_1312807950 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_1312807950"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="multiple-inputs"></a>Inheritance with multiple inputs</h2>
+<p>When a graph has multiple inputs, each input may inherit from its discrete input data or from the graph, depending on its inheritance method:</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position_533955648_c" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Icon for 'Relative to input' inheritance method">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_533955648_c_position-par_image_copy { width:128px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_533955648_c_position-par_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_533955648_c_position-par_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Icon for 'Relative to input' inheritance method" class="" id="root_content_flex_items_position_position-par_flex_items_position_533955648_c_position-par_image_copy" src="ds-inheritance-relative-to-input.png" title="Icon for 'Relative to input' inheritance method"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>Relative to input</b></p>
+<p>The input inherits from its discrete input data, regardless of the graph’s Base parameters. This is very helpful for controlling data per input.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position_1499730496_" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Icon for 'Relative to parent' inheritance method">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_1499730496__position-par_image_copy { width:128px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_1499730496__position-par_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_1499730496__position-par_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Icon for 'Relative to parent' inheritance method" class="" id="root_content_flex_items_position_position-par_flex_items_position_1499730496__position-par_image_copy" src="ds-inheritance-relative-to-parent.png" title="Icon for 'Relative to parent' inheritance method"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>Relative to parent</b></p>
+<p>The input inherits from the graph, and the data it receives is adapted accordingly.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="InheritanceinSubstancecompositinggraphs-Primaryinput">Primary input</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid4 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid4 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid4 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid4 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid4" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_grid4_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image { width:48px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-primary-input-both?$png$&amp;jpegSize=100&amp;wid=67"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-primary-input-both?$png$&amp;jpegSize=100&amp;wid=67"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-primary-input-both?$png$&amp;jpegSize=100&amp;wid=48"/>
+<img alt="Primary input color/grayscale" class="" id="root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image" src="inheritance-primary-input-both.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image_15802438 { width:48px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image_15802438 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image_15802438 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-primary-input-color?$png$&amp;jpegSize=100&amp;wid=67"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-primary-input-color?$png$&amp;jpegSize=100&amp;wid=67"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-primary-input-color?$png$&amp;jpegSize=100&amp;wid=48"/>
+<img alt="Primary input color" class="" id="root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image_15802438" src="inheritance-primary-input-color.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image_369667722 { width:48px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image_369667722 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image_369667722 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-primary-input-grayscale?$png$&amp;jpegSize=100&amp;wid=67"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-primary-input-grayscale?$png$&amp;jpegSize=100&amp;wid=67"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-primary-input-grayscale?$png$&amp;jpegSize=100&amp;wid=48"/>
+<img alt="Primary input grayscale" class="" id="root_content_flex_items_position_position-par_grid4_items_grid-cell_position-par_dynamic_grid_items_image_369667722" src="inheritance-primary-input-grayscale.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>One of the inputs may be set as the graph’s <strong>Primary input</strong>, by clicking <strong>RMB</strong> on that <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html">Input</a> node and selecting the <strong>Set as Primary Input</strong> option in the contextual menu.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Input connector types">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid4_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid4_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid4_items_image { width:px; }
+        }
+    
+
+    </style>
+<img alt="Input connector types" class="" id="root_content_flex_items_position_position-par_grid4_items_image" src="inheritance-primary-input.jpg" title="Input connector types"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When the graph is instanced into another graph as an instance node, all the instance node’s Base parameters which are set to <em>Relative to input</em> will inherit the data connected to <em>that input</em>. The Primary input of an instance node may be identified by the small dark dot in its connector.</p><p>The other inputs which are set to <em>Relative to parent</em> will inherit the same Base parameters’ values, as they inherit from the <em>graph</em> which inherits from the <em>instance node*</em>, which inherits from the Primary input.</p><p>*: This is true is the graph uses the <em>Relative to parent</em> inheritance method.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_214704708 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_214704708"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="examples"></a>Examples</h2>
+<p>Here are some examples covering different cases of inheritance, and the interplay of the inheritance methods set in the following actors, from top to bottom:</p>
+<ol>
+<li>Application</li>
+<li>Host graph</li>
+<li>Instance node in host graph</li>
+<li>Sub-graph – i.e., the graph referenced by the instance node</li>
+<li>Nodes in sub-graph</li>
+</ol>
+<p>The <i>inheritance method</i> set for an actor is displayed in orange just above it. The <i>flow of inheritance</i> to its source is displayed with orange lines.</p>
+<p>Letters represent <i>separate sets</i> of Base parameters, and should help follow what data is inherited by which actor.</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_grid5 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 50.0%; max-width: 50.0%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid5 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 50.0%; max-width: 50.0%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_grid5" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_grid5_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Example A</strong></p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Inheritance diagram A">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid5_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid5_items_grid-cell_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid5_items_grid-cell_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-a?$png$&amp;jpegSize=200&amp;wid=774"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-a?$png$&amp;jpegSize=200&amp;wid=774"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-a?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Inheritance diagram A" class="" id="root_content_flex_items_position_position-par_grid5_items_grid-cell_position-par_image" src="inheritance-schematic-a.png" title="Inheritance diagram A"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_grid5_items_grid-cell1" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Example B</strong></p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Inheritance diagram B">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid5_items_grid-cell1_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid5_items_grid-cell1_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid5_items_grid-cell1_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-b?$png$&amp;jpegSize=200&amp;wid=774"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-b?$png$&amp;jpegSize=200&amp;wid=774"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-b?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Inheritance diagram B" class="" id="root_content_flex_items_position_position-par_grid5_items_grid-cell1_position-par_image" src="inheritance-schematic-b.png" title="Inheritance diagram B"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_grid6 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 50.0%; max-width: 50.0%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid6 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 50.0%; max-width: 50.0%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_grid6" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_grid6_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Example C</strong></p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Inheritance diagram C">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid6_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid6_items_grid-cell_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid6_items_grid-cell_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-c?$png$&amp;jpegSize=200&amp;wid=774"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-c?$png$&amp;jpegSize=200&amp;wid=774"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-c?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Inheritance diagram C" class="" id="root_content_flex_items_position_position-par_grid6_items_grid-cell_position-par_image" src="inheritance-schematic-c.png" title="Inheritance diagram C"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_grid6_items_grid-cell1" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Example D</strong></p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Inheritance diagram D">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid6_items_grid-cell1_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid6_items_grid-cell1_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid6_items_grid-cell1_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-d?$png$&amp;jpegSize=200&amp;wid=774"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-d?$png$&amp;jpegSize=200&amp;wid=774"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/inheritance-schematic-d?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Inheritance diagram D" class="" id="root_content_flex_items_position_position-par_grid6_items_grid-cell1_position-par_image" src="inheritance-schematic-d.png" title="Inheritance diagram D"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_653705353 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_653705353"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="troubleshooting"></a>Troubleshooting inheritance issues</h2>
+<p>As you build your graph and increase its complexity, you may run into unexpected results caused by inheritance. If the output of a node has an incorrect resolution or precision (i.e., bitdepth), you should go <i>up the inheritance chain</i> to pinpoint where these values come from.</p>
+<p>A good starting point is checking the data displayed just below a node: these are the resolution, color format and precision of the image output by the <i>first output</i> of the node. While understanding the resolution is straightforward, the second piece of data is worth detailing:</p>
+<ul>
+<li>The <i>letter prefix</i> refer to the image’s color format:<ul>
+<li><b>L</b>: Luminance (i.e., grayscale)</li>
+<li><b>C</b>: Color</li>
+</ul>
+</li>
+<li>The <i>number</i> refer to the image’s bitdepth, from lowest to highest precision:<ul>
+<li><b>8</b>: 8-bit integer (256 steps in 0-1)</li>
+<li><b>16</b>: 16-bit integer (65 536 steps in 0-1)</li>
+<li><b>16F</b>: 16-bit floating point (low precision values beyond 0-1, including negatives)</li>
+<li><b>32F</b>: 32-bit floating point (high precision values beyond 0-1, including negatives)</li>
+</ul>
+</li>
+</ul>
+<p>If the node has more than one output, you can check their resolution and precision in two easy ways:</p>
+<ul>
+<li>Double-click <b>LMB</b> on the <i>output connector</i> to display the image in the <a href="/content/help/en/substance-3d-designer/interface/2d-view.html">2D view</a>, and check the image information displayed on the <i>bottom left corner</i> of the 2D view’s viewport</li>
+<li>Create a <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html">Levels</a> or <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html">Transformation 2D</a> node and connect its input to the output you want to check. The node will <i>inherit from the output</i> by default, and you can then check the values below the node.</li>
+</ul>
+<p>Now you can go up the node chain in the graph and try to find the <i>first node</i> where the unexpected values appear. Check the inheritance method of its Base parameters.</p>
+<p>If nothing is amiss and the node is an instance node, you need to go deeper and open the graph referenced by that instance node. Repeat the process starting from the graph’s Output nodes and going upstream.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>A COMMON EXAMPLE</h3>
+<p>In particular, the <i>Primary input</i> concept is easily <i>overlooked</i> and can result in inheritance issues.</p>
+<p>The <a href="/content/help/en/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html">Blend</a> node is very susceptible to this, as it is used very frequently. Its <b>Background</b> input is its Primary input.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Output size inheritance">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_852764915 { width:512px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_852764915 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_852764915 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Output size inheritance" class="" id="root_content_flex_items_position_position-par_image_852764915" src="inheritance-blend.jpg" title="Output size inheritance"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>You need to pay attention to the order in which you blend the two inputs: the input which resolution and precision you wish to retain down the graph should be connected to the Background input, if the blending mode you need makes it possible. If not, then you may need to tweak the Blend node’s Base parameters and their inheritance method to compensate.</p>
+</div>
+</div>
+</div>
+</div></body>

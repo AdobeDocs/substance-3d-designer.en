@@ -1,0 +1,970 @@
+<header><meta name="title" content="Version control | Substance 3D Designer"><meta name="description" content="Designer > Interface > Preferences window > Version control"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-caution">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Caution</span>
+</span>
+<div class="cmp-text">
+<p>Substance 3D Designer version <b>14.0.0</b> upgrades the Perforce support to <b>Python 3</b>.</p>
+<p><span style="color: rgb(80,80,80);">Make sure your other scripts and version control environment are adjusted accordingly.</span></p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Designer offers a Python integration of the <a disablelinktracking="false" href="https://www.perforce.com/">Perforce</a> (P4) version control system.</p>
+<p>The integration adds a custom 'Version Control' submenu to the contextual menu of packages in the <a href="/substance-3d-designer/interface/the-explorer-window.html">Explorer</a>, as well as custom icons to match the status of a package in P4.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_cop_734065031 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_cop_734065031"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#setup-p4">Preparing P4</a></p>
+<p><a disablelinktracking="false" href="#setup-designer">Setup in Designer</a></p>
+<p><a disablelinktracking="false" href="#how-to-use">How to use version control</a></p>
+<p><a disablelinktracking="false" href="#action-scripts">Action scripts</a></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_cop {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_cop"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="setup-p4"></a>Preparing P4</h2>
+<p>In <a disablelinktracking="false" href="https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v">P4V</a>, make a note of the workspace name and path, as shown below:</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="P4V workspace information">
+<div>
+<div class="dexter-Image mobile-padding-right-64 mobile-padding-left-64">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_2109820341 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_2109820341 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_2109820341 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-workspace-strings?$pjpeg$&amp;jpegSize=200&amp;wid=1011"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-workspace-strings?$pjpeg$&amp;jpegSize=200&amp;wid=1011"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-workspace-strings?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="P4V workspace information" class="" id="root_content_flex_items_position_position-par_image_2109820341" src="p4v-workspace-strings.jpg" title="P4V workspace information"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In any text editor or IDE, open this script located in Designer's installation: '<i>tools/version_control/perforce.py</i>'.</p>
+<p>On line 19, edit the path to the location of the <b>'p4' executable</b> on your system.<br/>
+In the example below, this path is '<i>c:/Program Files/Perforce/p4.exe</i>'.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="false"># Editable variables
+cPerforceP4AbsPath = os.path.abspath("c:/Program Files/Perforce/p4.exe")
+cVerbose = False</pre>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_cop_1547345411 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_cop_1547345411"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Versioncontrol-SettingupVersionControl"><a id="setup-designer"></a>Setup in Designer</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Version control is configured in the <a href="/substance-3d-designer/interface/preferences-window/project-settings.html">Project settings</a>, which are available in Designer's <a href="/substance-3d-designer/interface/preferences-window.html">Preferences</a>.<br/>
+</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="'Version control' tab in project settings">
+<div>
+<div class="dexter-Image dexter-Image-center mobile-padding-right-64 mobile-padding-left-64">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1672210987 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1672210987 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1672210987 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings?$pjpeg$&amp;jpegSize=200&amp;wid=1026"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings?$pjpeg$&amp;jpegSize=200&amp;wid=1026"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="'Version control' tab in project settings" class="" id="root_content_flex_items_position_position-par_image_1672210987" src="p4v-project-settings.jpg" title="'Version control' tab in project settings"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Go to 'Edit &gt; Preferences'</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Go to 'Projects', select the target <a disablelinktracking="false" href="/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html">project file</a> and go to the 'Version Control' tab</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Check 'Version Control Enabled'</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Fill this information in the 'Workspace' section:</p>
+<ul>
+<li><b>Name:</b> Enter the 'Workspace Name' you previously retrieved from P4V<br/>
+</li>
+<li><b>Path:</b> enter the 'Workspace Path' you previously retrieved from P4V<br/>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="P4 setup in Designer: workspace">
+<div>
+<div class="dexter-Image mobile-padding-right-64 mobile-padding-left-64">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings-workspace?$pjpeg$&amp;jpegSize=200&amp;wid=1026"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings-workspace?$pjpeg$&amp;jpegSize=200&amp;wid=1026"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings-workspace?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="P4 setup in Designer: workspace" class="" id="root_content_flex_items_position_position-par_image" src="p4v-project-settings-workspace.jpg" title="P4 setup in Designer: workspace"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Versioncontrol-SetupActions:">Setting up actions</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The actions will be available in the contextual menu of a package in the Explorer. There are predefined actions that match most Version Control tool concepts:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul>
+<li><p>All action labels can be changed as needed.</p>
+</li>
+<li><p>All actions need a script in order to be valid.</p>
+</li>
+</ul>
+<p>You may use:</p>
+<ul>
+<li>one script <i>per</i> action<br/>
+</li>
+<li>one script for <i>all</i> actions</li>
+</ul>
+<p>A starter script for all actions is available in Designer's installation: '<i>tools/version_control/perforce.py</i>'.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-caution">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Caution</span>
+</span>
+<div class="cmp-text">
+<p>To be available, the package needs to be saved under the 'Workspace path' (E.g., under '<i>f:/Dev/perforce</i>')</p>
+</div>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>In the <b>Actions</b> group, click on the '...' button of the <b>Add</b> action</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Select the following script in Designer's installation: '<i>tools/version_control/perforce.py</i>'</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>The script should automatically be set up for all other actions.</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="P4 setup in Designer: actions">
+<div>
+<div class="dexter-Image mobile-padding-right-64 mobile-padding-left-64">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1933737262 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1933737262 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1933737262 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings-actions?$pjpeg$&amp;jpegSize=200&amp;wid=1026"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings-actions?$pjpeg$&amp;jpegSize=200&amp;wid=1026"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings-actions?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="P4 setup in Designer: actions" class="" id="root_content_flex_items_position_position-par_image_1933737262" src="p4v-project-settings-actions.jpg" title="P4 setup in Designer: actions"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Setting up custom actions</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>As all version control tools are different and include many features, we allow the user to add custom actions.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Click 'Add item'<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Fill in the label of the new action, and set its script path</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Setting up the script interpreter</h3>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>In the 'Interpreters' section, click 'Add item'<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Set a script file extension or suffix, and the path to the interpreter executable</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Edit the perforce.py script to update the location of the 'p4' binary<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="P4 setup in Designer: interpreter">
+<div>
+<div class="dexter-Image mobile-padding-right-64 mobile-padding-left-64">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1449099544 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1449099544 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1449099544 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings-interpreters?$pjpeg$&amp;jpegSize=200&amp;wid=1026"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings-interpreters?$pjpeg$&amp;jpegSize=200&amp;wid=1026"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-project-settings-interpreters?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="P4 setup in Designer: interpreter" class="" id="root_content_flex_items_position_position-par_image_1449099544" src="p4v-project-settings-interpreters.jpg" title="P4 setup in Designer: interpreter"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_cop_458849319 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_cop_458849319"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="how-to-use"></a>How to use version control</h2>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Create a new package</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Save the package under the 'Workspace path' directory</span></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Click RMB on the package: you now have access to the 'Version control' submenu</span></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Several actions are available, depending on the status of the package file in the workspace:</p>
+<ul>
+<li><b>Add:</b> Mark the files as 'ToAdd'<br/>
+</li>
+<li><b>Submit:</b> Submit the selected packages. This action displays a dialog for specifying a change message (see below)<br/>
+</li>
+<li><b>Revert:</b> Revert the modifications. This action displays a dialog for selecting the files to revert (see below)<br/>
+</li>
+<li><b>Checkout:</b> Check the file out from the depot<br/>
+</li>
+<li><b>Get last version:</b> Retrieve the latest version from the depot<br/>
+</li>
+<li><b>Refresh status:</b> Refresh the package file status<br/>
+</li>
+</ul>
+</div>
+</div>
+<div class="flex">
+<style>
+    
+    #root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="'Submit' dialog">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex_items_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-submit?$pjpeg$&amp;jpegSize=200&amp;wid=1066"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-submit?$pjpeg$&amp;jpegSize=200&amp;wid=1066"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-submit?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="'Submit' dialog" class="" id="root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex_items_image" src="p4v-submit.jpg" title="'Submit' dialog"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="'Revert' dialog">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex_items_image_copy { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex_items_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex_items_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-revert?$pjpeg$&amp;jpegSize=200&amp;wid=1066"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-revert?$pjpeg$&amp;jpegSize=200&amp;wid=1066"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/p4v-designer-revert?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="'Revert' dialog" class="" id="root_content_flex_items_position_position-par_procedure_528394628_proc_par_step_3_step_par_flex_items_image_copy" src="p4v-revert.jpg" title="'Revert' dialog"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>All actions support multi-selection</p>
+<p>For P4 and other version control tools that use read-only file permission to restrict modifications, the user will first have to check out the package before modifying it.</p>
+<p>Read-only package files can't be modified in SD.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The package will have the following icons, depending on its status:<br/>
+</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(4) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper mobile-padding-right-64 mobile-padding-left-64" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Package icon: Up to date">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Package icon: Up to date" class="" id="root_content_flex_items_position_position-par_flex_items_position_position-par_image" src="p4-up-to-date.png" title="Package icon: Up to date"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Up to date</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position_copy" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Package icon: Checked out">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Package icon: Checked out" class="" id="root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image" src="p4-checked-out.png" title="Package icon: Checked out"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Checked out</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position_copy_1556147882" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Package icon: Added">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_copy_1556147882_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_1556147882_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_1556147882_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Package icon: Added" class="" id="root_content_flex_items_position_position-par_flex_items_position_copy_1556147882_position-par_image" src="p4-added.png" title="Package icon: Added"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Marked for add</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position_copy_901707792" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Package icon: Not in depot">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_copy_901707792_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_901707792_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_901707792_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Package icon: Not in depot" class="" id="root_content_flex_items_position_position-par_flex_items_position_copy_901707792_position-par_image" src="p4-not-in-depot.png" title="Package icon: Not in depot"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Not in depot</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Note that an package which is not up to date is marked with a warning sign.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_cop_1702043105 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_cop_1702043105"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="action-scripts"></a>Action scripts</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The command executed by each action is built thusly:</p>
+<p>my_script <b><i>WorkspaceName WorkspacePath ActionName[ActionArgs]</i></b></p>
+<p> </p>
+<p><b>WorkspaceName:</b> the name of the workspace</p>
+<p><b>WorkspacePath:</b> the path of the root directory of the workspace</p>
+<p> </p>
+<p><b>ActionName:</b> the name of the action:</p>
+<ul>
+<li><i>add:</i> for the "Add" action</li>
+<li><i>checkout:</i> for the "Checkout" action</li>
+<li><i>submit:</i> for the "Submit" action</li>
+<li><i>revert:</i> for the "Revert" action</li>
+<li><i>get_last_version:</i> for the "Get Last Version" action</li>
+<li><i>get_status:</i> for the "Get Status" action</li>
+</ul>
+<p>The label is set up in the project settings, with ' ' character replaced by '_' — <span style="color: rgb(80,80,80);">E.g.: "My Action" =&gt; "My_Action".</span></p>
+<p> </p>
+<p><b>ActionArgs:</b> arguments of the action:</p>
+<ul>
+<li><i>-desc</i>: A description string used by 'Submit' action</li>
+<li><i style="color: rgb(80,80,80);">-files:</i><span style="color: rgb(80,80,80);"> A list of files</span></li>
+<li><i style="color: rgb(80,80,80);">-files_list:</i><span style="color: rgb(80,80,80);"> A text file that contains a list of files per line</span></li>
+</ul>
+<p> </p>
+<p><b>get_status</b>: R<span style="color: rgb(80,80,80);">eturns a value depending of the status of the specified file:</span></p>
+<ul>
+<li>0: Undefined status</li>
+<li>1: not in the depot</li>
+<li>2: previous version (not up to date)</li>
+<li>3: latest version (up to date)</li>
+<li>4: checked out</li>
+<li>5: marked for addition</li>
+<li>other actions:<ul>
+<li>0: success</li>
+<li>other: error</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div></body>

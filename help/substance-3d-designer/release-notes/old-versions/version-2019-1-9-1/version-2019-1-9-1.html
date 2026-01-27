@@ -1,0 +1,892 @@
+<header><meta name="title" content="Version 2019.1 (9.1) | Substance 3D Designer"><meta name="description" content="Designer > Release Notes > Old Versions > Version 2019.1 (9.1)"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Version 2019.1 (9.1)</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Substance Designer 2019.1</strong> brings a new update to the Substance Engine to expand further its capabilities as well as additional new filters.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1>Major Features</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>New Value Processor Node</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-value-processor?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-value-processor?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-value-processor?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="doc-value-processor.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Substance Engine is now in version 7 and with it brings the new concept of "Values" inside the compositing graph. Values are numbers and not textures and as such can be used to perform various computations that can be shared across nodes via the function graphs and compositing graphs. The Value Processor node can read an input image and compute a single output value.</p><p>The Value Processor node is not alone, to be able transit information across graph some changes and additions have been made :</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Output nodes can be directly fed with a value and not necessarily an image anymore.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-output-value?$png$&amp;jpegSize=100&amp;wid=607"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-output-value?$png$&amp;jpegSize=100&amp;wid=607"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-output-value?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image" src="doc-output-value.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> A new <strong>Input node</strong> named "Input Value" has been added so that graph can query Values.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_image" src="doc-input-value.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> Nodes now have a new category below their parameters named "Input Values" which can be used to create input values for the node itself.<br/>The input values can then be referenced inside the function graph via the "Get" nodes.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step2_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step2_step_par_image" src="input-value-function.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>As with every major Substance Engine change, the compatibility mode is set to the previous version (new version 6 by default). Which means incompatible nodes will have a yellow border in the graph. To disable/hide the yellow border simply change the engine version in the main settings to the latest version (via the Project settings) :</p> <p> <img src="doc-compat.png"/></p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Support of Optix in Bakers</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/baking-speed?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/baking-speed?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/baking-speed?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image" src="baking-speed.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The last update of Substance Designer introduced DXR which allows to perform GPU raytracing on compatible RTX compatible hardware. We now added support for <a href="https://developer.nvidia.com/optix" rel="nofollow">Optix</a> which allows to raytrace on other Nvidia's GPUs even under Linux. You can expect baking at least <strong>5 times faster</strong> when using Optix than with regular CPU raytracing.</p><p>Here is the list of Bakers affected by this change :</p><ul><li>Ambient Occlusion From Mesh</li><li>Bent Normals From Mesh</li><li>Thickness From Mesh</li></ul><p>If you wish to disable one of the two backends, head over to the main preferences (<strong>Edit &gt; Preferences</strong>) and to the Bakers settings :</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid2 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid2" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image" src="doc-bakers-pref.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>To access the feature, make sure to <strong>update to the following drivers</strong> :</p><ul><li>Nvidia 10XX and 20XX GPUs : <strong>drivers 430.39</strong> (compatible with both DXR and Optix)</li><li>Nvidia 9XX and older : <strong>d</strong> <strong>rivers 419.67 or 430.39</strong> (drivers 425.31 have an issue with Optix) </li></ul><p> Note that DXR is also available on <a href="https://www.nvidia.com/en-us/geforce/news/geforce-gtx-dxr-ray-tracing-available-now/" rel="nofollow">GeForce GTX 10xx GPUs</a> (with up to date drivers). DXR also requires Windows to be up to date for working, see <a href="/substance-3d-designer/best-practices/performance-optimization-guidelines.html">this page</a> for more information.<br/> </p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Improved Loading Times for OBJ Meshes</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid3 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid3" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-obj-loading?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-obj-loading?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-obj-loading?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image" src="doc-obj-loading.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In this release we improved our <strong>obj</strong> file reader to reduce the loading time of 3D Meshes. Loading times have been speed up to 3 times, especially for meshes that don't have UVs and Normals defined.</p><p>This performance improvement will affect both the Bakers and the 3D View.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Improved Python Plugin System</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid4 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid4" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-python?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-python?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/doc-python?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image" src="doc-python.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>With this update we added a lot of new feature to the scripting system :</p><ul><li><strong>Support of Qt</strong> : Allows to build custom UI that follows the same style of the rest of the Application. Custom UI can also be integrated much more easily with this new system. (Tkinter is now deprecated.)</li><li><strong>Callback functions</strong> : It is now possible to register callback functions. At the moment it only includes opening and saving files as well as the creation of UI elements. Additional callbacks will be added in the future.</li><li><strong>Threading</strong> : Plugins can now create threads to do background processing or wait for OS events (such as network connections).</li></ul><p>For further details, take a look at the changelog of the API which can be accessed via the <strong>Help &gt; Python API Documentation</strong> menu entry inside Substance Designer.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>New Content</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>We also have a few new nodes available in the default library, some of which are now powered with the new Value processor node :</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Flood Fill To Index</strong> <br/>Assigns a unique index to shapes from a Flood Fill node.<br/>In the example below the Pixel Processor node matches the Value Input to the shape and output a mask as a result.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure1_proc_par_proc_step_step_par_image" src="flood-fill-index-optim.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Non Uniform Directional Warp</strong> <br/>Applies a Directional Warp where the intensity and angle are sampled from image inputs.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step1_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step1_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure1_proc_par_proc_step1_step_par_image" src="warp-non-uniform-optim.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Multi Directional Warp</strong> <br/>Warps the input image multiple times into various directions.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step2_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step2_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure1_proc_par_proc_step2_step_par_image" src="warp-demo.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Height Extrude</strong> <br/>Generates an orthographic 3D rendering of the given Height. The camera view can be controlled with the position gizmo.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step3_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step3_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step3_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure1_proc_par_proc_step3_step_par_image" src="height-extrude-demo-optim.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Min / Max Value</strong> <br/>Returns the minimum and maximum pixel value from the input image.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step4_step_par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step4_step_par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure1_proc_par_proc_step4_step_par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_procedure1_proc_par_proc_step4_step_par_image" src="min-max-1.png"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p>This release doesn't support CentOS 6.x anymore. To use the latest version of Substance Designer please upgrade to CentOS 7.x.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1>Release Notes</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>2019.1.3 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released August 19, 2019)</i> </p><p><strong>Fixed:</strong></p><ul> <li>[Bakers] Crash in DXR when aspect ratios of bake output and skew map are mismatched </li><li>[Bakers] 'Ambient Occlusion From Mesh' baker outputs wrong results with Optix or DXR when using a Normal map </li><li>[Bakers] 'Curvature' baker outputs wrong results when using 'Per Vertex' setting </li><li>[Bakers] Error messages state the backend which failed instead of the cause of the error </li><li>[Bakers] Crash when processing a detail map baker without a high poly mesh </li><li>[Bakers] Skew map does not appear to affect all the output with DXR enabled </li><li>[Content] mg_leaks: typo in parameters name </li><li>[Content] "Shape" returns a cooking warning </li><li>[Content] Polygon 1 and 2 don't support random functions </li><li>[Content] Polygon 1 and 2 can have less than 3 sides </li><li>[Content] Normal to Height HQ does not work correctly in non square </li><li>[Parameters] Integer input parameters: the drop down list does not show the values </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>2019.1.2 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released July 02, 2019)</i> </p><p><strong>Fixed:</strong></p><ul> <li>[3D View] 3D View export with depth of field enabled looks incorrect </li><li>[3D View] Alpha channel of PSD images is wrong when using save render </li><li>[3D View] PNG and PSD are broken when using save render option with Iray </li><li>[3D view] dds format doesn't work when saving render </li><li>[Graph] Nodes get offset when combining right and left click drag in specific ways </li><li>[Graph] Modifying a Function instances no longer updates the node result </li><li>[Graph] Crash when displaying the Space Bar menu </li><li>[Content] Shape Extrude: quality issue when shape has no rotation </li><li>[Content] Shape Drop Shadow (and Grayscale) does not produce shadow without H and V tiling </li><li>[Content] Material Crop normal issue </li><li>[Bakers] JSON bakers presets are not loaded correctly </li><li>[Bakers] Crash when baking heavy meshes using Optix or DXR (now it may fail because of insufficient Vram but it won't crash) </li><li>[Bitmap Editor] Bitmap painting tools offset strokes and redraws in the stroke bounding box </li><li>[Bitmap Editor] Bitmap painting tools broken in OSX </li><li>[UI] Some button's menu are barely reachable </li><li>[UI] Crash while drag and dropping a baker instance </li><li>[SVG] Embedded SVG edit tools are unreliable </li><li>[Parameters] Crash when applying a preset with boolean parameters in a SBSAR instance </li><li>[Network] Crash sometimes when an error occurred in an SSL encrypted connection </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>2019.1.1 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released May 28, 2019)</i> </p><p><strong>Added:</strong></p><ul> <li>[PythonIntegration] Save and restore plugin manager state </li><li>[Preferencies][Dependencies] Add an option to determine how dependencies file path are stored </li><li>[Content] Flood Fill Mapper: Add a "Fit Shape BBox" option </li></ul><p><strong>Fixed:</strong></p><ul> <li>[Content] Flood Fill Mapper: "Rotation Auto Scale" does the opposite effect </li><li>[Content] "luminance_offset_map" input is not used by "Flood Fill Mapper Color" </li><li>[Content] 'Flood Fill Mapper Grayscale' node generates stepping artifacts </li><li>[Content] Cannot publish Height Extrude </li><li>[Parameters] Embedded presets in sbsar are not loaded in Designer </li><li>[Bakers] Baker name is not correctly displayed in the baker list </li><li>[3D View] "View outputs in 3d View" does not work for values </li><li>[Cooker] Crash when correcting a wrong parameter type </li><li>[API] SDResource.setInputPropertyFromId function don't work on SDSBSCompGraph input parameters </li><li>[Updater] some sbs can't be updated in 2019 </li><li>[Explorer] Crash when importing a specific .obj file </li><li>[PythonIntegration] Backslashes not properly escaped on windows when initializing PYTHONPATH </li><li>[UI] value issue with some sliders in bakers </li><li>[Linux] Designer cannot be run on CentOS &lt; 7.6 </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>2019.1 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released May 09, 2019)</i> </p><p><strong>Added:</strong></p><ul> <li>[API] Add 'updatePackages' parameter to the SDPackageMGR.loadUserPackage() method to control if the updaters should be applied or not on load </li><li>[API] Add the ability to disconnect a SDConnection </li><li>[API] Add class SDSBSARExporter to publish a SDPackage </li><li>[API] Add SDHistoryUtils class to manage undoable commands </li><li>[API] Add grayscale input node definition in Substance Compositing Graph (sbs::compositing::input_grayscale) </li><li>[API] Add value input node definition in Substance Compositing Graph (sbs::compositing::input_value) </li><li>[API] Add SDProperty.isFunctionOnly() method </li><li>[API] Add support of custom input parameter on SDSBSCompNode </li><li>[API] Add 'reloadIfModified' parameter to the SDPackageMGR.loadUserPackage() method to control if a package has be reloaded if modified </li><li>[API] Add SDPackageMgr.getPackages() method </li><li>[API] Add possibility to get/add/remove root paths from SDModuleMgr </li><li>[API] Allow getting the pointer of the pixels buffer and the pitch of a SDTexture </li><li>[API] Allow to retrieve the pointer of the MainWindow </li><li>[API] Allow to create custom menus in the main menu </li><li>[API] Allow to create custom DockWidgets in the main window </li><li>[API] Use object names to find menus in toolbars </li><li>[API] Provide system to manage application notifications to the API </li><li>[PythonIntegration] Add default environment variable to look for python plugins </li><li>[PythonIntegration] Add text search and replace to the Python editor </li><li>[PythonIntegration] Instanciate Python plugins at startup </li><li>[PythonIntegration] Take in account PYTHONPATH environment variable </li><li>[PythonIntegration] Allow creating toolbars in graph widgets </li><li>[PythonIntegration] Support Python threads </li><li>[PythonIntegration] Add a Plugin Manager (in the 'Tools' menu) </li><li>[Content] Normal Vector Rotation: add an optional image input to drive the angle </li><li>[Content] New Min/Max filter </li><li>[Content] New "Flood Fill to Index" filter </li><li>[Content] New "Flood Fill Mapper" filter </li><li>[Content] New Atlas Splitter filter </li><li>[Content] Improve Tri Planar filter </li><li>[Content] New Non Uniform Directional Warp filter </li><li>[Content] New Multi Directional Warp </li><li>[Content] New Height Extrude filter </li><li>[Engine] Fxmap: new "Gradation with offset" pattern </li><li>[Engine] Support For Uniform value processing (New Value Processor node) </li><li>[3D View][Bakers] Improve OBJ loader performances </li><li>[3D View] Increase the camera clip plane distances </li><li>[Preferences] Add settings for Bakers </li><li>[Graph] Make invalidation faster by avoiding string comparisons </li><li>[MDL] Support MDL Arrays </li><li>[UI] Engine selection UI improvements </li><li>[IRay] Upgrade to IRay SDK 2018.1.4 </li><li>[Dependency Manager] Use "last path" when relocating a resource </li><li>[Cooking] Add support of Boolean Labels in the sbsar </li><li>Integrate Qt 5.12.2 </li></ul><p><strong>Fixed:</strong></p><ul> <li>[Graph] Connections are broken when changing the name of the input </li><li>[Graph] Too many invalidations are triggered when tweaking parameters </li><li>[Graph] "Copy to Clipboard" action don't work if we do the right click on a badge </li><li>[Graph] Moving a frame using Alt is not stored in the .sbs </li><li>[MDL] Color profile is not automatically updated in MDL editor </li><li>[MDL] crash when exporting module that contains a specific setup </li><li>[MDL] Fail to export a MDL Graph that contains a LightProfile or a MBSDF resource </li><li>[UI] Shortcuts are no longer displayed in context menus </li><li>[UI] Floating window becomes dockable after restart </li><li>[Scripting] Cancel option doesn't work in python editor </li><li>[Scripting] "yes to all" option in save menu doesn't work </li><li>[Parameters] drop down list are not displayed correctly after copy </li><li>[Explorer] Relocating resources should open the last relocated path by default </li><li>[Library] The content of the library is always rebuilt when switching from one version to another </li><li>[Library] Imported Bitmaps are invalidated on save </li><li>[IRay] Tangent space is not computed correctly / incorrect normal mapping </li><li>[Function] Crash or fail when creating new graph from selection </li><li>[API] default value of properties is not defined </li></ul>
+</div>
+</div>
+</div>
+</div></body>

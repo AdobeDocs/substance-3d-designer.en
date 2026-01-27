@@ -1,0 +1,30 @@
+<header><meta name="title" content="Undo and redo | Substance 3D Designer"><meta name="description" content="Designer > Scripting > Undo and redo"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Undo and redo</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>With the <b>SDHistoryUtils.UndoGroup</b> class, users  can <i>group actions</i> in order to <i>undo or redo</i> them all in one command.</p>
+<p>These groups are <i>named</i> by users, and will appear by that name in the undo/redo list in the user interface.  This makes large numbers of actions more manageable.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">import sd 
+from sd.api.sdhistoryutils import * 
+ 
+# Get the application and package manager objects. 
+cxt = sd.getContext() 
+app = cxt.getSDApplication() 
+pkgMgr = app.getPackageMgr() 
+ 
+# Group one or more changes into an undo group. 
+with SDHistoryUtils.UndoGroup("My Undo Group"): 
+    # Create two new packages. 
+    pkgMgr.newUserPackage() 
+    pkgMgr.newUserPackage()</pre>
+</div>
+</div>
+</div></body>

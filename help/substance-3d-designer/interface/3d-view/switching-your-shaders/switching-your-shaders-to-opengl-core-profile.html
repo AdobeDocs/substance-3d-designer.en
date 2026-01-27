@@ -1,0 +1,105 @@
+<header><meta name="title" content="Switching your shaders to OpenGL Core Profile | Substance 3D Designer"><meta name="description" content="Designer > Interface > 3D View > Switching your shaders to OpenGL Core Profile"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Switching your shaders to OpenGL Core Profile</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Since version 2018.2.0, the 3D viewport uses OpenGL Core Profile.<br/>On this occasion, we updated some shaders we provide with the application from GLSL version 120 to GLSL version 330.</p><p>You may want to update your own shaders either to take advantage of the new GLSL functions available, or to make your GLSL code more modern. Please note that on MacOS, old shaders may not work anymore.<br/>For a complete overview of the new features, we highly recommend that you perused the official OpenGL documentation. You can for example take a look at the <a href="https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.3.30.pdf" rel="nofollow">OpenGL Shading Language Specification 3.30</a>.<br/>Otherwise, here is a quick guide that will help you to convert your GLSL 1.20 shaders in GLSL 3.30:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="SwitchingyourshaderstoOpenGLCoreProfile-Updatetheversionnumber">Update the version number</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>First of all, replace (or add it at the top of your file if you don't have it yet) your previous <code>#version</code> directive by <code>#version 330</code>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Replace your "attribute" and "varying" by "in" or "out"</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Now, <code>attribute</code> and <code>varying</code> variables are explicitly declared as <code>in</code> or <code>out</code> depending on the shader stage:</p>
+<p>In the vertex shader, <code>attribute</code>s of the vertices are declared as <code>in</code>, while <code>varying</code>s to be passed to the fragment shader are declared as <code>out</code>.<br/>
+For example:</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">#version 120
+
+attribute vec3 vertexPosition;
+attribute vec3 vertexNormal;
+attribute vec2 vertexUV;
+
+varying vec3 fragmentNormal;
+varying vec2 fragmentUV;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>becomes:</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">#version 330
+
+in vec3 vertexPosition;
+in vec3 vertexNormal;
+in vec2 vertexUV;
+
+out vec3 fragmentNormal;
+out vec2 fragmentUV;</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Likewise in the fragment shader, varying becomes in. You should also declare an out variable that will replace gl_FracColor (which is not build-in anymore):</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">#version 120
+
+varying vec3 fragmentNormal;
+varying vec2 fragmentUV;
+
+void main() {
+...
+gl_FragColor = vec4(myColor.rgb, 1.0);
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>becomes:</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">#version 330
+
+in vec3 fragmentNormal;
+in vec2 fragmentUV;
+
+out vec4 outColor; //you could choose any name you want here
+
+void main() {
+...
+outColor = vec4(myColor.rgb, 1.0);
+}</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="SwitchingyourshaderstoOpenGLCoreProfile-Usenewtexturelookupfunctions">Use new texture lookup functions</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>With the new version of the shading language, the texture lookup API have been both simplified and augmented.</p><p>The <code>texture1D()</code>, <code>texture2D()</code>, <code>texture3D()</code>, and <code>textureCube()</code> functions all become overloads of <code>texture()</code>.<br/>Likewise <code>texture2DLod()</code> becomes <code>textureLod()</code>, <code>texture2DGrad()</code> becomes <code>textureGrad()</code> and so on.</p><p>You also have now access to useful functions such as <code>textureSize()</code> (to query the size of the sampler in texel), <code>textureOffset()</code> (to sample neighbours of the target location), <code>textureFetch()</code> (to provide a sample location in pixel), and more stuff.</p>
+</div>
+</div>
+</div>
+</div></body>

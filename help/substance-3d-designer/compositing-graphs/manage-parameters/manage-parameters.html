@@ -1,0 +1,634 @@
+<header><meta name="title" content="Manage parameters | Substance 3D Designer"><meta name="description" content="Designer > Substance compositing graphs > Manage parameters"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="xfreference experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<style>
+</style>
+<div class="xf" id="root_content_flex_items_position_position-par_xf_feedback">
+<div class="xfpage page basicpage">
+<div class="xf-content-height">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When you need to control parameters in any way other than adjusting them directly, Designer offers several useful actions to:</p>
+<ul>
+<li><a disablelinktracking="false" href="#copy-paste-parameters">Copy and paste</a> the values of all the parameters of a node</li>
+<li>Save the values or all the parameters of a node to a <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html">preset file</a>, to be reused later</li>
+<li><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html">Expose the parameters</a> of nodes to make them accessible and link them together</li>
+<li><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html">Hide or show parameters</a> according to the values of other parameters</li>
+<li>Use a <a disablelinktracking="false" href="/substance-3d-designer/function-graphs.html">Substance function graph</a> to compute the value of a parameter</li>
+</ul>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_1798551554 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_1798551554"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#parameter-actions">Parameter actions</a></p>
+<p><a disablelinktracking="false" href="#copy-paste-parameters">Copy and paste parameters</a></p>
+<p><a disablelinktracking="false" href="#atomic-nodes-limitations">Atomic nodes limitations</a></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="parameter-actions"></a>Parameter actions</h2>
+<p>The tools available for managing parameters are available in the following locations:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Global actions</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">When the properties of a node are displayed in the Properties dock, the node parameters can be managed globally using the '</span><b style="color: rgb(80,80,80);">Manage parameters</b><span style="color: rgb(80,80,80);">' menu in the following section header:</span></p>
+<ul>
+<li>For <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html">atomic nodes</a>: Specific parameters</li>
+<li>For <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html">instance nodes</a>: Instance parameters</li>
+</ul>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Global 'Manage parameters' menu in Properties">
+<div>
+<div class="dexter-Image dexter-Image-right">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Global 'Manage parameters' menu in Properties" class="" id="root_content_flex_items_position_position-par_flex_items_image" src="manage-parameters-menu-global.png" title="Global 'Manage parameters' menu in Properties"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Actions in this menu will impact </span><i style="color: rgb(80,80,80);">all</i><span style="color: rgb(80,80,80);"> the parameters listed in that section:</span></p>
+<ul>
+<li><b>Expose parameters:</b> Opens the 'Batch expose parameters' dialog. For every exposed parameter, the action creates a new graph input and automatically sets a function using that graph input. Learn more about exposing parameters in <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html">this dedicated page</a>.</li>
+<li><b>Copy parameters:</b> See <a disablelinktracking="false" href="#copy-paste-parameters">Copy and paste parameters</a> section below.</li>
+<li><b>Paste parameters:</b> See <a href="/substance-3d-designer/substance-compositing-graphs/manage-parameters.html#copy-paste-parameters">Copy and paste parameters</a> section below.</li>
+<li><b>Save parameters as a preset file:</b> Learn more about parameter presets in <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html">this dedicated page</a>.</li>
+<li><b>Apply parameters from a preset file:</b> Learn more about parameter presets in <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html">this dedicated page</a>.</li>
+<li><b>Reset all:</b> Resets all parameters to their default values and ranges. If a functions were applied to any parameters, they are dismissed.</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Some actions are not available for some atomic nodes. See <a disablelinktracking="false" href="#atomic-nodes-limitations">Atomic nodes limitations</a> below.</p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_609592986 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_609592986"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Single parameter actions</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>If you want to manage a <i>single</i> parameter, use the '<b>Manage function</b>' menu opposite to the parameter label.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Local 'Manage parameters' menu in Properties">
+<div>
+<div class="dexter-Image dexter-Image-right">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Local 'Manage parameters' menu in Properties" class="" id="root_content_flex_items_position_position-par_flex_copy_items_image" src="manage-parameters-menu.png" title="Local 'Manage parameters' menu in Properties"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">You can apply a </span><a disablelinktracking="false" href="/substance-3d-designer/function-graphs/the-function-graph.html">Substance function graph</a><span style="color: rgb(80,80,80);"> to that parameter in three ways:</span></p>
+<ul>
+<li><b>Expose as new graph input:</b> Which creates a new graph input and automatically sets a function using that graph input. Learn more about exposing parameters in <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html">this dedicated page</a>.</li>
+<li><b>Empty function:</b> Author a function from scratch.</li>
+<li><b>Constant value:</b> Edit a function starting from a <a disablelinktracking="false" href="/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/constant-nodes.html">constant value node</a> set to the parameter's current value.</li>
+<li><b>Reset:</b> Resets the parameter to its default value and range. If a function was applied to the parameter, it is dismissed.</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>The copy/paste and preset file actions are global to all parameters and are thus not available for single parameters.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Node contextual menu</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy_1228710491 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy_1228710491 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy_1228710491 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy_1228710491 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 50%; max-width: 50%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy_1228710491" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>Some parameter actions from the <i>global</i> menu listed above are available in the node contextual menu. Click RMB on a node and go to 'Manage parameters' to access them.</p>
+<p>Note that the copy/paste actions are not available in this menu. You may find them in the node properties as explained above.</p>
+<p>The same <a disablelinktracking="false" href="#atomic-nodes-limitations">limitations listed below</a> for atomic nodes apply to this menu.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="'Manage parameters' menu in node contextual menu">
+<div>
+<div class="dexter-Image dexter-Image-right">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_1228710491_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_1228710491_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_1228710491_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="'Manage parameters' menu in node contextual menu" class="" id="root_content_flex_items_position_position-par_flex_copy_1228710491_items_image" src="manage-parameters-node-menu.png" title="'Manage parameters' menu in node contextual menu"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_1853724913 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_1853724913 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_1853724913 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_1853724913 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_1853724913" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h2><a id="copy-paste-parameters"></a>Copy and paste parameters</h2>
+<p>It is possible to copy all parameters values for a source node, and paste them onto a target node. <span style="color: rgb(80,80,80);">The parameters of the source and target nodes are <b>matched based on both their identifiers and types</b>.</span></p>
+<p>For example, a parameter 'Scale' which identifier is '<span class="code">scale</span>' and type is 'Float' can be copied and pasted onto another parameter 'Shape Scale' when its identifier is also  '<span class="code">scale</span>' and its type is also 'Float'.</p>
+<p>This feature works in the same way as using a <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html">parameter preset file</a>. Indeed, the data copied to the clipboard is the same as the data stored in SBSPRS preset files, and can be pasted into any text editor to be reviewed and edited.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Copy and paste parameters">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1853724913_items_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Copy and paste parameters" class="" id="root_content_flex_items_position_position-par_flex_1853724913_items_image" src="copy-paste-parameters.gif" title="Copy and paste parameters"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_571585252 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_571585252"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="atomic-nodes-limitations"></a>Atomic nodes limitations</h2>
+<p>Some features are not available for some <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html">atomic nodes</a>, because of their specific implementation and controls.</p>
+<p>These actions...</p>
+<ul>
+<li><a disablelinktracking="false" href="#copy-paste-parameters">Copy/Paste parameters</a></li>
+<li><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html">Save/Apply preset file</a></li>
+</ul>
+<p>...are not available for these atomic nodes:</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_646146531 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_646146531 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_646146531 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_646146531 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_646146531 > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_646146531 > .dexter-FlexContainer-Items > *:nth-child(4) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_646146531" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html">Bitmap</a></p>
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html">Curve</a></p>
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html">Distance</a></p>
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">FX-Map</a></p>
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html">Gradient (Dynamic)</a></p>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html">Gradient map</a></p>
+<p><span style="color: rgb(80,80,80);"><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html">Input color</a></span></p>
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html">Input grayscale</a></p>
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html">Input value</a></p>
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html">Output</a></p>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);"><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html">Pixel processor</a></span></p>
+<p><span style="color: rgb(80,80,80);"><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html">SVG</a></span></p>
+<p><span style="color: rgb(80,80,80);"><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html">Text</a></span></p>
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html">Uniform color</a></p>
+<p><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html">Value processor</a></p>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_646146531_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_2137940435 {
+    height: 64px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_2137940435"></div>
+</div>
+</div>
+</div></body>

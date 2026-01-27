@@ -1,0 +1,130 @@
+<header><meta name="title" content="FXMaps | Substance 3D Designer"><meta name="description" content="Designer > Function graphs > FXMaps"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">FXMaps</h1>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>The FX-Map node allows the creation of procedural images</strong>. It is one of the most powerful features of the Substance technology.</p><p>An FX-Map represents a special type of graph, known as a Markov Chain. Markov Chains represent a simple core process: repeatedly replicating and subdividing an image over and over again. At each step, an image can be rotated, translated and blended at will. The results can be anything from simple patterns to complex noises. FX-Maps are the basis for many of the sample Substances installed with Substance 3D Designer.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="FXMaps-CreateFX-Mapgraphs">Create FX-Map graphs</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>If you want to see an FX-Map graph, simply add an <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">FX-Map node</a> to a <a href="/substance-3d-designer/substance-compositing-graphs.html">Substance graph</a>, then right-click on the node and press CMD + E (OS X) or CTRL + E (Windows) to open its graph. This FX-Map graph will appear in a new tab on the Graphs panel; you can switch between this graph and the Substance graph by clicking on the tab.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>What are FX-Maps for?</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The most common uses of FX-Maps are creating repetitive patterns, such as stripes and bricks, and noises, such as Perlin, Brownian and Gaussian noises. Noises are particularly useful in creating organic, natural-looking textures like dirt, dust, concretes, stone surfaces, liquid spatters and so on.</p>
+<p>FX-Map graphs do not work in the same way as Substance graphs: In Substance graphs, each node is independent and has no knowledge of its position in the overall graph, nor does it care where its image data comes from or where it’s going.</p>
+<p>We'll look at each of the three FX-Map graph nodes in more detail in the next chapter, but briefly, each FX-Map node offers one of three operations:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="FXMaps-Quadrant">Quadrant</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This splits the image at this step in the graph into four quadrants. This is the most common node type. A chain of Quadrant nodes can create very complex-looking images, as well as intricate patterns.</p><p>In fact, Quadrant nodes represent a level—or <strong>octave</strong>—in a quad-tree graph. FX-Map graphs hide this tree structure by representing each level in the tree with a single Quadrant: every time you connect one Quadrant node to another, you are actually creating a complete tree level.</p><p>The reason for this 'cheat' technique is to remove the need to represent each node at every level of a tree individually: after just four layers of depth, you would need to use 4 x 4 x 4 x 4 nodes, which is 256 individual nodes! Instead, each Quadrant node "knows" which level it's at in the tree and generates its imagery accordingly.</p><p>This probably won't make much sense to many readers, but we'll go into this in much more detail shortly.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="FXMaps-Iterate">Iterate</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Repeats the image passed into the right-hand connector over the image passed into the left-hand connector by the set number of iterations.</p><p>This node is most often used with one or more Dynamic Functions graphs to move or rotate the input image in some way at each iteration.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="FXMaps-Switch">Switch</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This takes two inputs and simply switches between one or the other, as defined by its Selector setting. As with the Iterate node, the Selector setting is often chosen by a Dynamic Function.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="FXMaps-FX-MapsSystemVariables">FX-Maps System Variables</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>FX-Maps support system variables. These variables always begin with a Dollar symbol ("$"), and are as follows:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="margin-left: auto;"><colgroup><col/><col/><col/><col/></colgroup><thead><tr><th>Name</th><th>Particularity</th><th>Data type</th><th><p>Purpose</p></th></tr></thead><tbody><tr><td>$time</td><td>-</td><td>float1</td><td><p>This variable returns the time in seconds since the Substance rendering engine was started.</p><p>It is ideal for Substances which need to animate according to time. (E.g. the hands of a clock.)</p><p>In some applications, including Substance Player, a Substance that uses $time will cause a timeline to appear in the user interface.</p></td></tr><tr><td>$depth</td><td>-</td><td>float1</td><td>Returns the octave (level) number of the FX-Map node. This allows a node to modify its behavior according to which level in the quad-tree it represents.</td></tr><tr><td>$depthpow2</td><td>-</td><td>float1</td><td>As above, but returns 2 raised to the power of the octave (level) number. This is a helper value that comes in useful for some common calculations.</td></tr><tr><td>$number</td><td><p>Iterate Nodes only</p></td><td>float1</td><td><p>Returns the number of the drawn pattern. This can be accessed by Dynamic Function graphs controlling an Iterate node to modify its behavior at each iteration step.</p><p>(Note that $number starts counting from 0, not 1.)</p></td></tr><tr><td>$size</td><td>-</td><td>float2</td><td>Returns the size of the current node (in pixels).</td></tr><tr><td>$sizelog2</td><td>-</td><td>float2</td><td>As above, but returns the size as power-of-2 values (ex: for 2048*2048 image, $sizelog2 returns 11).</td></tr><tr><td>$pos</td><td>Quadrant Nodes only</td><td>float2</td><td>Returns the birth position of the pattern. The result is always a value between 0 and 1.</td></tr></tbody></table>
+</div>
+</div>
+</div>
+</div></body>

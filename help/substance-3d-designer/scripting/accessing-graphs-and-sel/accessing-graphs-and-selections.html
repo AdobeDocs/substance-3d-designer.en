@@ -1,0 +1,37 @@
+<header><meta name="title" content="Accessing graphs and selections | Substance 3D Designer"><meta name="description" content="Designer > Scripting > Accessing graphs and selections"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Accessing graphs and selections</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <b>SDApplication</b> class contains some helpful methods that let you access the <i>currently active</i> graph, and the <i>current selection</i> within it.</p>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">import sd 
+ 
+# Get the application and UI manager object. 
+ctx = sd.getContext() 
+app = ctx.getSDApplication() 
+uiMgr = app.getQtForPythonUIMgr() 
+ 
+# Get the current graph. 
+g = uiMgr.getCurrentGraph() 
+print("The current graph is %s" % g) 
+ 
+# Get the currently selected nodes. 
+selection = uiMgr.getCurrentGraphSelectedNodes() 
+for node in selection: 
+ print("Node %s" % node)</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>A graph displayed in a <i>specific</i> Graph view can be accessed using a <b>graphViewID</b>.</p>
+<p>This method is useful when creating custom graph view toolbars. The <b>Creating toolbars in Graph views</b> sample in the <a href="/substance-3d-designer/scripting/creating-user-interface-elements.html">Creating user interface elements</a> chapter provides further details.</p>
+</div>
+</div>
+</div>
+</div></body>

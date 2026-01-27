@@ -1,0 +1,32 @@
+---
+title: "Scripting | Substance 3D Designer"
+description: "Designer > Scripting"
+---
+
+# Scripting
+
+It is possible to control the application by writing plugins. Plugins can be written in the **Python** scripting language using version **3.9**. The Python API provided in the application allows to access and use many features directly from scripts.
+
+[Python](https://www.python.org/) is a scripting language widely used in many industries. It helps build automation, workflow acceleration and asset management tools, among other examples. The API documentation can be accessed from the main menu with **Help** &gt; **Scripting documentation...** action.
+
+## Table of contents
+
+* [Plugin basics](plugin-basics/plugin-basics.md)
+* [Plugin search paths](plugin-search-paths/plugin-search-paths.md)
+* [Plugins packages](plugins-packages/plugins-packages.md)
+* [Plugin Manager](plugin-manager/plugin-manager.md)
+* [Python Editor](python-editor/python-editor.md)
+* [Accessing graphs and selections](accessing-graphs-and-sel/accessing-graphs-and-selections.md)
+* [Nodes and properties](nodes-and-properties/nodes-and-properties.md)
+* [Undo and redo](undo-and-redo/undo-and-redo.md)
+* [Application callbacks](application-callbacks/application-callbacks.md)
+* [Creating user interface elements](creating-user-interface/creating-user-interface-elements.md)
+* [Adding actions to the Explorer toolbar](adding-actions-the-exp/adding-actions-to-the-explorer-toolbar.md)
+* [Using color management](using-color-management/using-color-management.md)
+* [Using spot colors](using-spot-colors/using-spot-colors.md)
+* [Logging](logging/logging.md)
+* [Using threads](using-threads/using-threads.md)
+* [Debugging plugins using Visual Studio Code](debugging-plugins-using/debugging-plugins-using-visual-studio-code.md)
+* [Porting previous plugins](porting-previous-plugins/porting-previous-plugins.md)
+* [Packaging plugins](packaging-plugins/packaging-plugins.md)
+* [Scripting API reference](scripting-api-reference/scripting-api-reference.md)

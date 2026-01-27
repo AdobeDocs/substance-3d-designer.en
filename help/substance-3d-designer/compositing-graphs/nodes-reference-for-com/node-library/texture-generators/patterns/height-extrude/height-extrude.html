@@ -1,0 +1,154 @@
+<header><meta name="title" content="Height Extrude | Substance 3D Designer"><meta name="description" content="Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Height Extrude"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Height Extrude</h1>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 50%; max-width: 50%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 50%; max-width: 50%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/height-extrude?$png$&amp;jpegSize=100&amp;wid=512"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/height-extrude?$png$&amp;jpegSize=100&amp;wid=512"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/height-extrude?$png$&amp;jpegSize=100&amp;wid=200"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="height-extrude.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="HeightExtrude-HeightExtrude" style="text-align: center;">Height Extrude</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;"><strong>In:</strong> <em>Texture Generators</em><em>/Patterns</em></p><p style="text-align: center;"><strong>Intermediate</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="HeightExtrude-Description">Description</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Height Extrude renders 3D Z-Depth from an input Height map. Just like <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html">Shape Extrude</a> and <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html">Cube 3D</a> it lets you spin a camera around in the 2D View. Its main goal is to serve as a Generator for creating 3D-rotated shapes from a flat heightmap. These shapes can then be used with <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html">Shape Splatter</a>.</p><p>The main diffence with <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-extrude.html">Shape Extrude</a> is that the input map does not have to be a binary "alpha" type of map, but a full-range grayscale map. This means you have more control over the extrusion height (Organic, complex shapes), but no control over anything like beveling profiles (Hard-Surface, simpler shapes).</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="HeightExtrude-Parameters">Parameters</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul><li><strong>Camera Angle</strong>: <br/>Euler angles of the camera, in half-turns. Please note that horizontal rotation and scale are applied directly to the input.</li><li><strong>Camera Scale</strong>: <em>0.001 - 3.0</em><br/>Global scale applied to the output.</li><li><strong>Height Scale</strong>: <em>0.0 - 2.0</em><br/>Applies a global factor on the input height values.</li><li><strong>Vertical Offset</strong>: <em>-1.0 - 1.0</em><br/>Moves the final output up or down.</li><li><strong>Ground</strong>: <em>Off/On</em><br/>If Ground is off, a black background is shown where the input is 0 rather than a ground-like plane.</li><li><strong>Normal Format</strong>: <em>DirectX/OpenGL</em><br/>The <strong>Normal Format</strong> parameter inverts y coordinate of the normal map.</li><li><strong>Normal Intensity</strong>: <em>0.0 - 256.0</em><br/>Same as <strong>Intensity</strong> parameter of <strong>Normal</strong> node. Set it to 256 to get a shar-free normal while rotating.</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="HeightExtrude-ExampleImages">Example Images</h2>
+</div>
+</div>
+<div class="video aem-GridColumn aem-GridColumn--default--12">
+<!-- Ambient Video -->
+<div class="custom-video-wrapper video-Wrapper has-playOnView">
+<video class="video-mobile inline-play play-Onclick" controls="" loop="" muted="" playsinline="" preload="none">
+<source src="height-extrude.mp4" type="video/mp4"/>
+</video>
+<video class="video-tablet inline-play play-Onclick" controls="" loop="" muted="" playsinline="" preload="none">
+
+</video>
+<video class="video-desktop inline-play play-Onclick" controls="" loop="" muted="" playsinline="" preload="none">
+
+</video>
+<div class="cta video-play"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

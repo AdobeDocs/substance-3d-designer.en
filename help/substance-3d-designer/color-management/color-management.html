@@ -1,0 +1,1242 @@
+<header><meta name="title" content="Color Management | Substance 3D Designer"><meta name="description" content="Designer > Color Management"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Color Management</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page explains the Color Management features and settings in Substance 3D Designer.</p><p>Substance 3D Designer can be configured to use <a href="https://opencolorio.org/" rel="nofollow">OpenColorIO</a> (OCIO) or Adobe Color Engine (ACE) for Color Management. This allows you to have <em style="letter-spacing: 0.0px;">consistent</em> color transforms and image display across multiple applications.</p><p>In this mode, Designer will work internally with <strong>linear RGB</strong> colors. Since 8-bit depth is usually not enough to represent linear colors, it is recommended to use  <em>at least</em> <strong>16-bit</strong> depth for color textures in the <a href="/substance-3d-designer/substance-compositing-graphs.html">graph</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p>An effective Color Management workflow relies on working with a correctly <em>calibrated</em> display, Third party solutions exist to correctly calibrate your monitor for your work environment using specialised hardware.</p><p>OpenColorIO users should use matching OpenColorIO color spaces for their monitors.<br/>Adobe ACE users should make sure the ICC profiles selected <em>in the OS</em> matches <em>their</em> monitors.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_523270185 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_523270185 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_523270185 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_523270185 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_523270185" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#configuration">Configuration</a></p>
+<p><a disablelinktracking="false" href="#opencolorio">OpenColorIO</a></p>
+<p><a disablelinktracking="false" href="#adobe-ace">Adobe ACE</a></p>
+<p><a disablelinktracking="false" href="#legacy-mode">Legacy mode</a></p>
+<p><a disablelinktracking="false" href="#importing-bitmaps">Importing bitmaps</a><br/>
+</p>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#exporting-outputs"><span style="color: rgb(80,80,80);">Exporting outputs</span><br/>
+</a></p>
+<p><a disablelinktracking="false" href="#2d-and-3d-views">2D &amp; 3D views</a></p>
+<p><a disablelinktracking="false" href="#color-conversion-nodes">Color conversion nodes</a></p>
+<p><a disablelinktracking="false" href="#known-limitations">Known limitations</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="configuration"></a>Configuration</h2>
+<p>Color Management settings can be configured in <a href="/substance-3d-designer/interface/preferences-window/project-settings.html">Projects</a> tab of the <a href="/substance-3d-designer/interface/preferences-window.html">Preferences</a> dialog. You can set the following settings:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Color Management Mode</h3>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy_673534983_988170457">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-w423fkz column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>Color management</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-w423fkz column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>This setting lets you select the <a href="/substance-3d-designer/color-management.html#legacy-mode">Legacy</a>, <a disablelinktracking="false" href="#opencolorio">OpenColorIO</a> or <a disablelinktracking="false" href="#adobe-ace">Adobe ACE</a> modes for Color Management in Substance 3D Designer.</p>
+<p><i>Default: Legacy</i></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy_673534983_988170457 > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy_673534983_988170457 > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy_673534983_988170457 > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_673534983_988170457 > .dexter-Table > tbody > tr > th.column-bc03foo,
+    #root_content_flex_items_position_position-par_table_copy_673534983_988170457 > .dexter-Table > tbody > tr > td.column-bc03foo {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_673534983_988170457 > .dexter-Table > tbody > tr > th.column-qg13fcp,
+    #root_content_flex_items_position_position-par_table_copy_673534983_988170457 > .dexter-Table > tbody > tr > td.column-qg13fcp {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ColorManagement-OpenColorIO"><a id="opencolorio"></a>OpenColorIO</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>OpenColorIO configuration</h3>
+<p>When using the OpenColorIO mode for Color Management, Designer will use the information stored in a <b>configuration file</b> (<i>*.config</i>) to perform color transforms, identify color spaces and set defaults.</p>
+<p>Substance 3D Designer ships with the following configurations:</p>
+<ul>
+<li>Substance: a simple configuration which includes common color spaces</li>
+<li><a href="https://github.com/hpd/OpenColorIO-Configs/tree/master/aces_1.0.3" rel="nofollow">ACES 1.0.3</a>: the full-featured <a href="https://www.oscars.org/science-technology/sci-tech-projects/aces" rel="nofollow">Academy Color Encoding System</a> (ACES) configuration, an industry standard for Color Management workflows</li>
+</ul>
+<p>You can find these configuration files in the <b>resources &gt; ocio</b> folder of Designer's installation files.</p>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy_673534983_464432052">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-w423fkz column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>OpenColorIO Configuration</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-w423fkz column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p><span style="font-weight: normal;">This setting lets you select the OpenColorIO configuration file to use throughout Designer.</span></p>
+<p><span style="font-weight: normal;">Alternatively, you can set the OpenColorIO configuration file using the OCIO environment variable.<br/>
+When it exists, the configuration file will be <i>locked</i> in Designer. It is still possible to change default color spaces and displays transforms (see settings below).</span></p>
+</div>
+</div>
+<div class="text">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p>After adding the environment variable, we recommend closing Designer, <em>signing out</em> from your user session in the OS, then signing back in. This ensures the environment variable is in effect when starting Designer.<br/>You also may use the command line to create a temporary environment variable and start Designer from the <em>same</em> command line environment.</p>
+</div>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><i style="font-weight: normal;">Default: Substance</i></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-ex33fu7 column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><strong>Custom Configuration File</strong></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ex33fu7 column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>If the <strong>Custom</strong> option is set in <strong>OpenColorIO Configuration</strong>, you can select the <em>specific *.config file</em> to use as a configuration file in this field.</p><p><em>Default: set by OpenColorIO configuration file or OCIO environment variable</em></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy_673534983_464432052 > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy_673534983_464432052 > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy_673534983_464432052 > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_673534983_464432052 > .dexter-Table > tbody > tr > th.column-bc03foo,
+    #root_content_flex_items_position_position-par_table_copy_673534983_464432052 > .dexter-Table > tbody > tr > td.column-bc03foo {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_673534983_464432052 > .dexter-Table > tbody > tr > th.column-qg13fcp,
+    #root_content_flex_items_position_position-par_table_copy_673534983_464432052 > .dexter-Table > tbody > tr > td.column-qg13fcp {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="ColorManagement-BitmapColorSpaceDefaults">Bitmap Color Space Defaults</h3>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy_1833194802">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-w423fkz column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>8-bit images</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-w423fkz column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the default color space for 8-bit bitmaps.</p>
+<p><i>Default: Set by OpenColorIO configuration file</i></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-ex33fu7 column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>16-bit images</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ex33fu7 column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the default color space for 16-bit bitmaps.</p>
+<p><i>Default: Set by OpenColorIO configuration file</i></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-sq43frm column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>Floating point images</b><br/>
+</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-sq43frm column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the default color space for floating point precision bitmaps, such as <i>HDR</i> images in the <i>*.exr</i> or <i>*.hdr</i> formats.</p>
+<p><i>Default: Set by OpenColorIO configuration file</i></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-nb53f3u column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>Use file name to detect color space</b><br/>
+</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-nb53f3u column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Lets Designer assign a color space automatically if the <i>suffix</i> of a bitmap filename <i>matches exactly </i>the the lowercase name of a color space included in the current OpenColorIO <i>configuration</i>.</p>
+<p>Example: a bitmap resource <i>mybitmap_aces_acescg.png</i> would be automatically set to the <i>ACES - ACEScg</i> color space, and the appropriate transform will be applied to the working color space.</p>
+<p><i>Default: Checked</i></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy_1833194802 > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy_1833194802 > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy_1833194802 > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_1833194802 > .dexter-Table > tbody > tr > th.column-bc03foo,
+    #root_content_flex_items_position_position-par_table_copy_1833194802 > .dexter-Table > tbody > tr > td.column-bc03foo {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_1833194802 > .dexter-Table > tbody > tr > th.column-qg13fcp,
+    #root_content_flex_items_position_position-par_table_copy_1833194802 > .dexter-Table > tbody > tr > td.column-qg13fcp {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="ColorManagement-2Dand3DViewDisplayDefault">2D and 3D View Display Default</h3>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy_673534983_2139036538">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-w423fkz column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>2D and 3D view display default</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-w423fkz column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the default <i>display</i> color space for the <a href="/substance-3d-designer/interface/2d-view.html">2D view</a> and <a href="/substance-3d-designer/interface/3d-view.html">3D view</a> viewports.</p>
+<p><i>Default: Set by OpenColor IO configuration file</i></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-ex33fu7 column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>Color manage thumbnails</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ex33fu7 column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Lets Designer automatically transform the node <i>thumbnails</i> to the <i>working</i> color space in the graph.</p>
+<p><i>Default: Checked</i></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy_673534983_2139036538 > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy_673534983_2139036538 > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy_673534983_2139036538 > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_673534983_2139036538 > .dexter-Table > tbody > tr > th.column-bc03foo,
+    #root_content_flex_items_position_position-par_table_copy_673534983_2139036538 > .dexter-Table > tbody > tr > td.column-bc03foo {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_673534983_2139036538 > .dexter-Table > tbody > tr > th.column-qg13fcp,
+    #root_content_flex_items_position_position-par_table_copy_673534983_2139036538 > .dexter-Table > tbody > tr > td.column-qg13fcp {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="ColorManagement-AdobeACE"><a id="adobe-ace"></a>Adobe ACE</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Color settings</h3>
+<p>When using the Adobe ACE mode for Color Management, Substance 3D Designer will use the information stored in <b>ICC Profiles</b> (<i>*.icc / *.icm</i>) to perform color transforms and identify color spaces.</p>
+<p>Designer ships with a number of ICC Profiles. You can find the files for these profiles in the <code>resources &gt; icc</code> folder of Designer's installation files.<br/>
+You can add <i>your own</i> ICC Profiles by placing these files in the <code>Adobe/Adobe Substance 3D Designer/icc</code> location in the <i>Documents</i> folder for the current system user.</p>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy_673534983">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-w423fkz column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>Working space</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-w423fkz column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>This setting lets you select the working color space to <i>perform color operations</i> throughout Substance 3D Designer.</p>
+<p><i>Default: sRGB IEC61966-2.1</i></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-ex33fu7 column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>Rendering intent</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ex33fu7 column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>This option lets you control how colors should be transformed when they are <i>outside the gamut</i> of the <i>working </i>colour space.</p>
+<p><i>Default: Relative Colorimetric</i></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy_673534983 > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy_673534983 > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy_673534983 > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_673534983 > .dexter-Table > tbody > tr > th.column-bc03foo,
+    #root_content_flex_items_position_position-par_table_copy_673534983 > .dexter-Table > tbody > tr > td.column-bc03foo {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_673534983 > .dexter-Table > tbody > tr > th.column-qg13fcp,
+    #root_content_flex_items_position_position-par_table_copy_673534983 > .dexter-Table > tbody > tr > td.column-qg13fcp {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="ColorManagement-BitmapColorSpaceDefaults.1">Bitmap Color Space Defaults</h3>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-w423fkz column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>8-bit images</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-w423fkz column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the default ICC profile to use for 8-bit bitmaps.</p>
+<p><i>Default: <i>sRGB IEC61966-2.1</i></i></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-ex33fu7 column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>16-bit images</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ex33fu7 column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the default ICC profile to use 16-bit bitmaps.</p>
+<p><i><i>Default: <i>sRGB IEC61966-2.1</i></i></i></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-sq43frm column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>Floating point images</b><br/>
+</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-sq43frm column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the default ICC profile to use for floating point precision bitmaps, such as <i>HDR</i> images in the <i>*.exr</i> or <i>*.hdr</i> formats.</p>
+<p><i>Default: Raw (i.e. no profile applied)</i></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-nb53f3u column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>Use embedded ICC profiles when available</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-nb53f3u column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Lets Designer use the ICC profile embedded in a bitmap instead of the defaults listed above.</p>
+<p><i>Default: Checked</i></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th.column-bc03foo,
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td.column-bc03foo {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th.column-qg13fcp,
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td.column-qg13fcp {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="ColorManagement-2Dand3DViewDisplayDefaultSpace">2D and 3D View Display Default Space</h3>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-w423fkz column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>2D and 3D view display default</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-w423fkz column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the default <i>display</i> color space for the <a href="/substance-3d-designer/interface/2d-view.html">2D view</a> and <a href="/substance-3d-designer/interface/3d-view.html">3D view</a> viewports.</p>
+<p><i>Default: <i><i><i>ICC Profile for the main screen, retrieved from the OS</i></i></i></i></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > th.column-bc03foo,
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > td.column-bc03foo {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > th.column-qg13fcp,
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > td.column-qg13fcp {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="ColorManagement-GraphDisplay">Graph Display</h3>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy_copy">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-w423fkz column-bc03foo">
+<div class="text">
+<div class="cmp-text">
+<p><b>Color manage thumbnails</b></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-w423fkz column-qg13fcp">
+<div class="text">
+<div class="cmp-text">
+<p>When <i>checked</i>, Designer will transform the <i>node thumbnails</i> to the current <i>working color space</i>.</p>
+<p><i>Default: <i><i><i>Unchecked</i></i></i></i></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > th.column-bc03foo,
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > td.column-bc03foo {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > th.column-qg13fcp,
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > td.column-qg13fcp {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="legacy-mode"></a>Legacy mode</h2>
+<p>When using <b>Legacy</b> mode, Color Management is <i>disabled</i> in Designer-</p>
+<p>In this mode, graphs and images behave exactly in the same way as in previous versions. This means your workflow from previous versions is <i>entirely unaffected</i> if this setting is left <i>untouched</i>. There are however some useful additions:</p>
+<p>You can choose to use <b>ACES sRGB</b><i> tonemapping</i> in the <b>3D View</b> to match the output of other software, such as <i><a href="https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/ColorGrading/index.html" rel="nofollow">Unreal Engine</a></i>.</p>
+<p>You can set a colour space for <i>exported bitmaps</i> as described in the <a disablelinktracking="false" href="#exporting-outputs">Exporting Outputs</a> section in this page. The available color spaces are the following:</p>
+<ul>
+<li>sRGB</li>
+<li>Linear</li>
+<li>Raw</li>
+</ul>
+<p>In Legacy mode, Designer uses the <b>sRGB working color space</b>, which can be reproduced by most displays.</p>
+<p>Considering the 'Raw' option writes the image data <i>as-is</i> from the graph – i.e. using the graph working color space – this means the <b>Raw</b> and <b>sRGB</b> options result in the <i>same color output</i>.</p>
+<p>By default, the 'sRGB' option will be set for outputs which contain <i>color information</i> (e.g. Base Color, Emissive), and the 'Raw' option is set for outputs which hold <i>pure data</i> (e.g. Roughness, Metallic, Height, Normal). As explained above, these defaults effectively result in the same colors, and are set only to <i>differentiate the end usage</i> of their outputs.</p>
+<p>The <b>Linear</b> option is the <i>only</i> one which results in a <i>color transform</i> being applied to the image, and may be only used for <b>High Dynamic Range</b> (HDR) images, which commonly use <i>floating point precision</i> (i.e. 16F or 32F bit depth) in linear color space. This allows these images to be used in a wide array of color spaces and production environments.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+
+            For more information about image exports, you can refer to the <a href="/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html">Exporting Bitmaps</a> page of the documentation.
+        </div>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="importing-bitmaps"></a>Importing bitmaps</h2>
+<p>You can assign a <b>color space</b> (OCIO) or <b>ICC profile</b> (Adobe ACE) to imported and linked bitmaps.</p>
+<p>When importing or linking bitmaps, a color space or ICC profile will be set <i>by default</i> to the bitmap resource using the options set in the <b>Bitmap Color Space Default</b> section of the <b>Color Management</b> tab in the <a href="/substance-3d-designer/interface/preferences-window/project-settings.html">Project settings</a>.</p>
+<p>You can change the color space of a bitmap at any time, the option is located in the bitmap resource's <b>Properties</b>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<h3>OpenColorIO only</h3><p>In particular, the <strong>file name</strong> can be used to set the appropriate color space <em>automatically</em>. Please note the color space name in the file name must <em>match the name</em> in the OpenColorIO configuration file (e.g. <em>myImage_utility - linear -srgb.png</em> will be set to the <em>Utility - Linear - sRGB</em> color space).</p>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Bitmap color space setting">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1607936433 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1607936433 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1607936433 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/2019-3-0-bitmap-clr-space?$png$&amp;jpegSize=200&amp;wid=1024"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/2019-3-0-bitmap-clr-space?$png$&amp;jpegSize=200&amp;wid=1024"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/2019-3-0-bitmap-clr-space?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Bitmap color space setting" class="" id="root_content_flex_items_position_position-par_image_1607936433" src="2019-3-0-bitmap-clr-space.png" title="Bitmap color space setting"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="exporting-outputs"></a>Exporting outputs</h2>
+<p>When using the <b>Export Outputs</b> dialog, it is possible to assign a <b>color space</b> (OCIO) or attach an <b>ICC profile</b> (Adobe ACE) for <i>each</i> output.<br/>
+Designer will <i>convert</i> images to the specified color spaces before saving the image files.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Export outputs dialog">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1672723135 { width:512px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1672723135 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1672723135 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Export outputs dialog" class="" id="root_content_flex_items_position_position-par_image_1672723135" src="2019-3-0-clr-mgt-export-outputs.png" title="Export outputs dialog"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>You can also assign a color space (OCIO) or attach an ICC profile (Adobe ACE) to images <em>saved</em> from the <a href="/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html">2D View</a>.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="2D View export options">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_324581279 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_324581279 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_324581279 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/2019-3-0-clr-mgt-save-image?$png$&amp;jpegSize=200&amp;wid=1024"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/2019-3-0-clr-mgt-save-image?$png$&amp;jpegSize=200&amp;wid=1024"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/2019-3-0-clr-mgt-save-image?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="2D View export options" class="" id="root_content_flex_items_position_position-par_image_324581279" src="2019-3-0-clr-mgt-save-image.png" title="2D View export options"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="2d-and-3d-views"></a>2D &amp; 3D views</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Display toolbar</h3>
+<p>You can <i>toggle</i> Color Management on/off and change the <i>display transform</i> for the view at any time using the drop down menu in the display toolbar.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Color space setting in 2D View">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1815515487 { width:512px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1815515487 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1815515487 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Color space setting in 2D View" class="" id="root_content_flex_items_position_position-par_image_1815515487" src="2019-3-0-clr-mgt-display-toolbar.png" title="Color space setting in 2D View"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Library HDRI environments</h3>
+<p>The HDRI environments shipped with Designer are in the <b>Linear sRGB</b> color space.<br/>
+When using an OpenColorIO configuration where the scene linear color space is <i>not</i> Linear sRGB – such as the <a href="https://acescentral.com/t/getting-started-with-aces/1372" rel="nofollow">ACES</a> configuration – the environment will display <i>incorrect colors</i>.</p>
+<p>In that case, the color space for library HDRI environments should be set <i>manually</i> in the environment properties, available in the 3D View panel <b>Environment</b> menu.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Color space setting of 3D View environment">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_817037666 { width:512px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_817037666 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_817037666 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Color space setting of 3D View environment" class="" id="root_content_flex_items_position_position-par_image_817037666" src="2019-3-0-clr-mgt-hdri-env.png" title="Color space setting of 3D View environment"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="color-conversion-nodes"></a>Color conversion nodes</h2>
+<p>The <a href="/substance-3d-designer/interface/the-library.html">Library</a> includes the following nodes for performing <b>conversions</b> to and from the ACEScg color space:</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><a href="/substance-3d-designer/substance-compositing-graphs.html">Substance graph</a><br/>
+</p>
+<ul>
+<li>ACEScg to Linear sRGB</li>
+<li>Linear sRGB to ACEScg</li>
+<li>ACEScg to sRGB</li>
+<li>sRGB to ACEScg</li>
+</ul>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><a href="/substance-3d-designer/function-graphs.html">Substance function graph</a><br/>
+</p>
+<ul>
+<li>ACEScg to Linear sRGB</li>
+<li>Linear sRGB to ACEScg</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">These are useful when working with graphs created </span><i style="color: rgb(80,80,80);">without</i><span style="color: rgb(80,80,80);"> Color Management or materials from the </span><a href="/substance-3d/unlisted/assets.html" rel="nofollow">Substance 3D assets</a><span style="color: rgb(80,80,80);"> library.</span><br/>
+</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Color conversion nodes in Library">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_386437293 { width:512px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_386437293 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_386437293 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Color conversion nodes in Library" class="" id="root_content_flex_items_position_position-par_image_386437293" src="2019-3-0-clr-mgt-nodes.png" title="Color conversion nodes in Library"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="known-limitations"></a>Known limitations</h2>
+<p>The current implementation of color management in Substance 3D Designer has the following limitations:</p>
+<ul>
+<li>Color management is currently <i>not</i> exposed in the <a href="/substance-3d-designer/scripting.html">Python API</a>;</li>
+<li>Color management does <i>not</i> work with <a href="/substance-3d-designer/mdl-graphs/creating-an-mdl-graph.html">MDL graphs</a>;</li>
+<li><a href="https://opencolorio.org/" rel="nofollow">OpenColorIO</a> <i>looks</i> are <i>not</i> supported.</li>
+</ul>
+</div>
+</div>
+</div>
+</div></body>

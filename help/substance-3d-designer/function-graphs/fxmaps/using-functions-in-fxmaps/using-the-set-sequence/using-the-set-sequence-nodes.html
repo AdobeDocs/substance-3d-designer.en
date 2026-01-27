@@ -1,0 +1,937 @@
+<header><meta name="title" content="Using the Set/Sequence nodes | Substance 3D Designer"><meta name="description" content="Designer > Function graphs > FXMaps > Using Functions in FXMaps > Using the Set/Sequence nodes"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Using the Set/Sequence nodes</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page describes the <strong>Set</strong> and <strong>Sequence</strong> nodes, and provides an example use case in the context of <strong style="letter-spacing: 0.0px;">FX-Maps</strong>.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h2>Overview</h2>
+<p>While working with functions in <b>FX-Maps</b>, you will occasionally be in situations where you want to output a value from a parameter's <i><a href="/substance-3d-designer/function-graphs/the-function-graph.html">Substance function graph</a></i>, so you can <i>use it into another.</i> But by default a Substance function graph only outputs <i>one</i> value: the one which drives the related parameter.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Set and Sequence nodes">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2017-3-17-15-5-5?$png$&amp;jpegSize=200&amp;wid=745"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2017-3-17-15-5-5?$png$&amp;jpegSize=200&amp;wid=745"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2017-3-17-15-5-5?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Set and Sequence nodes" class="" id="root_content_flex_items_position_position-par_flex_items_image" src="image2017-3-17-15-5-5.png" title="Set and Sequence nodes"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In this case, you may use the combination of <b>Set</b> and <b>Sequence</b> nodes, which will allow you to control variables across a single or multiple functions.<br/>
+</p>
+<p>This process involves two steps:<br/>
+</p>
+<ol>
+<li>The <b>Set</b> node will let you create a new variable so you can call it somewhere else and assign a value to it.</li>
+<li>The <b>Sequence</b> node is used to execute the logic in step 1 in its entirety, <i>before executing another branch</i> of the graph – e.g. the logic actually involved in outputting the expected value for the current graph</li>
+</ol>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 25%; max-width: 25%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h2>The Set node</h2>
+<p>The <b>Set</b> node lets you set a new variable and assign it the type and value connected to the node's <i>input</i>.</p>
+<p>The <i>name</i> of the variable is input by the user in the node's properties.</p>
+<p>By default, the variable set by this node is <i>only</i> accessible within the scope of the <i>parent</i> of this Substance function graph – e.g. the node which hosts the parameter defined by the function.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Set node">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid1_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid1_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid1_items_image { width:px; }
+        }
+    
+
+    </style>
+<img alt="Set node" class="" id="root_content_flex_items_position_position-par_grid1_items_image" src="image2017-3-17-15-12-52.png" title="Set node"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid2 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid2 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid2 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid2 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid2" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>In this example, the variable name has been set to <strong><code>myVariable</code></strong> and its value is <strong>1</strong>.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Set node example">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid2_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid2_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid2_items_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-17-45-35?$png$&amp;jpegSize=200&amp;wid=666"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-17-45-35?$png$&amp;jpegSize=200&amp;wid=666"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-17-45-35?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Set node example" class="" id="root_content_flex_items_position_position-par_grid2_items_image" src="image2018-8-30-17-45-35.png" title="Set node example"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid3 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid3 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid3 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid3 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 25%; max-width: 25%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid3" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h2>The Sequence node</h2>
+<p>The <b>Sequence</b> node gives you control over the <i>execution flow</i> of Substance function graphs, by making sure the <i>first branch is fully executed before the second branch</i>.</p>
+<p>The output of the <i>second branch</i> is then passed to the node's output.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Sequence node">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid3_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid3_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid3_items_image { width:px; }
+        }
+    
+
+    </style>
+<img alt="Sequence node" class="" id="root_content_flex_items_position_position-par_grid3_items_image" src="image2017-3-17-15-17-38.png" title="Sequence node"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid4 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid4 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid4 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid4 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid4" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>In this example, the <b>Sequence</b> node is set as the output of the graph. The output of the function is thus the <b>0.5</b> value output by the <b>Float</b> node.</p>
+<p>However, before that happens the <code><b>myVariable</b></code> variable is set with a float value of <b>1.0</b>. This variable may then be used <i>elsewhere</i> in the context of the node.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Sequence node example">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid4_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid4_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid4_items_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-17-49-41?$png$&amp;jpegSize=200&amp;wid=796"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-17-49-41?$png$&amp;jpegSize=200&amp;wid=796"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-17-49-41?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Sequence node example" class="" id="root_content_flex_items_position_position-par_grid4_items_image" src="image2018-8-30-17-49-41.png" title="Sequence node example"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Sequence</strong> nodes can be <em>chained</em> to control the graph's execution flow.</p><p>For instance, you may <em>set</em> a variable first, <em>update</em> its value at a later point then <em>read</em> its final value, while making sure these actions occur <em>in a specific order</em>.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Sequence node chained">
+<div>
+<div class="dexter-Image dexter-Image-left dexter-Image-tablet-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_76258431 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_76258431 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_76258431 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-17-52-27?$png$&amp;jpegSize=200&amp;wid=1037"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-17-52-27?$png$&amp;jpegSize=200&amp;wid=1037"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-17-52-27?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Sequence node chained" class="" id="root_content_flex_items_position_position-par_image_76258431" src="image2018-8-30-17-52-27.png" title="Sequence node chained"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Variable visibility</h2>
+<p>Be aware that a declared variable is <i>not</i> accessible from anywhere!<br/>
+While a variable declared at a parent level can be accessible at child levels, the contrary is <i>not true</i>.</p>
+<p>Thus, variables set in the node are <i>not</i> accessible at the graph level, while variables set at the graph's level <i>can</i> be accessed in its node's parameter functions.</p>
+<p>For instance, this rule is at the core of <i>exposing a parameter</i>, for exposing actually involves these steps:</p>
+<ol>
+<li>Creating a graph input parameter</li>
+<li>Accessing it in the parameter's Substance function graph</li>
+<li>Setting its value as the function's output</li>
+</ol>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Let us build a small example: imagine that we want a <b>Quadrant</b> node's <b>Rotation</b> value to be influenced by the <b>Color/Luminosity</b> value: the brighter the luminosity, the more rotation.</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_1444706042 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_1444706042 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_1444706042" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>What we will do is to make all the computation in the <b>Color/Luminosity</b> parameter function. This parameter will be computed <i>first</i> thus any variable set in it will be available to the other node parameters.<br/>
+</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Quadrant properties">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1444706042_items_image_2021672031 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1444706042_items_image_2021672031 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1444706042_items_image_2021672031 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Quadrant properties" class="" id="root_content_flex_items_position_position-par_flex_1444706042_items_image_2021672031" src="image2018-8-30-18-1-6.png" title="Quadrant properties"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid8 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid8 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid8 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid8 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid8" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>Our function is going to be simple: the luminosity will be a random value between <strong>0</strong> and <strong>1</strong>, this value will be stored into the <code>myRotation</code> variable, then we set the value as the function's output.</p><p>This means the <strong>Color/Luminosity</strong> parameter's value will be random <em>and</em> be stored in the <code>myRotation</code> variable.</p><p>Note that the <strong>Position</strong> property is already defined by a random value, and an <strong>Iterate</strong> node is used to get multiple  randomly placed patterns.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Quadrant's Color/Luminosity function">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid8_items_image_1782825032 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid8_items_image_1782825032 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid8_items_image_1782825032 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-18-4-46?$png$&amp;jpegSize=200&amp;wid=846"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-18-4-46?$png$&amp;jpegSize=200&amp;wid=846"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/image2018-8-30-18-4-46?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Quadrant's Color/Luminosity function" class="" id="root_content_flex_items_position_position-par_grid8_items_image_1782825032" src="image2018-8-30-18-4-46.png" title="Quadrant's Color/Luminosity function"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Patterns scattered">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1025581353 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1025581353 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1025581353 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Patterns scattered" class="" id="root_content_flex_items_position_position-par_image_1025581353" src="image2018-8-30-18-5-30.png" title="Patterns scattered"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_2100567985 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_2100567985 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_2100567985" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>Now that the <code>myRotation</code> variable exists and has a value, let us access the Substance function graph of the <b>Pattern Rotation</b> property.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Pattern rotation 's parameter function menu">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_2100567985_items_image_668574945 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_2100567985_items_image_668574945 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_2100567985_items_image_668574945 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Pattern rotation 's parameter function menu" class="" id="root_content_flex_items_position_position-par_flex_2100567985_items_image_668574945" src="image2018-8-30-18-7-57.png" title="Pattern rotation 's parameter function menu"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid10 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid10 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid10 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid10 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 25%; max-width: 25%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid10" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>In the function, we read the value of the <code>myRotation</code> parameter using a <strong>Get Float</strong> node – we know the variable contains a float value – and set it as the function's output.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Pattern rotation's Get float output">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid10_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid10_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid10_items_image { width:px; }
+        }
+    
+
+    </style>
+<img alt="Pattern rotation's Get float output" class="" id="root_content_flex_items_position_position-par_grid10_items_image" src="image2018-8-30-18-10-58.png" title="Pattern rotation's Get float output"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The luminosity now also controls the rotation.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Patterns rotated">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_619002008 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_619002008 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_619002008 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Patterns rotated" class="" id="root_content_flex_items_position_position-par_image_619002008" src="image2018-8-30-18-12-25.png" title="Patterns rotated"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div></body>
