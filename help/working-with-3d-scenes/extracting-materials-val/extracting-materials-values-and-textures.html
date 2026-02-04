@@ -1,0 +1,1096 @@
+<header><meta name="title" content="Extracting materials' values and textures | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Working with 3D scenes > Extracting materials' values and textures"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="xfreference experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<style>
+</style>
+<div class="xf" id="root_content_flex_items_position_position-par_xf_feedback">
+<div class="xfpage page basicpage">
+<div class="xf-content-height">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal">The properties of materials can be extracted to be used in Substance graphs.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415"></div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy_copy_copy_ > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy_copy_copy_ > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy_copy_copy_ > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy_copy_copy_ > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy_copy_copy_ > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper mobile-padding-right-32 mobile-padding-left-32" id="root_content_flex_items_position_position-par_flex_copy_copy_copy_" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h3><a disablelinktracking="false" href="#new-graph-from-textures">New graph from textures</a></h3>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<h3><a disablelinktracking="false" href="#extract-texture">Extract texture</a></h3>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<h3><a disablelinktracking="false" href="#extract-value">Extract value</a></h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_966518405 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_966518405"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Parameters"><a id="new-graph-from-textures"></a>New graph from textures</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal">The ‘Create graph from texture inputs action’ creates a new Substance graph with all the textures used by a material</p>
+<p class="MsoNormal">A few things happen when using this action:</p>
+<ul>
+<li>A Substance graph named after the material is created at the selected location.</li>
+<li>A <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/resources/bitmap-resource.html" target="_blank">bitmap resource</a> is created for every texture used by the material, and placed in a folder named after the material, under a ‘Resources’ folder.</li>
+<li>In the graph, <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html" target="_blank">Bitmap</a> nodes are created for each of these bitmap resources and automatically connected to <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html" target="_blank">Output</a> nodes configured after the material properties using textures.</li>
+<li>If each channel of a same texture is used to drive different material properties (the technique is called <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/glossary.html#channel-packing" target="_blank">channel packing</a>), <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html" target="_blank">Grayscale conversion</a> nodes are automatically added to select appropriate channels.</li>
+<li>The graph is automatically connected to the material and its appearance should not change until you make edits in the graph.</li>
+</ul>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_796550496 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_796550496"></div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_1064580961 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_1064580961 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_1064580961 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_1064580961 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_1064580961 > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_1064580961" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_1064580961_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Create graph from texture inputs - Action in '3D View' viewport">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1064580961_items_position_position-par_image_97690810 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1064580961_items_position_position-par_image_97690810 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1064580961_items_position_position-par_image_97690810 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/createGraphFromTexturesActionViewport?$png$&amp;jpegSize=200&amp;wid=918"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/createGraphFromTexturesActionViewport?$png$&amp;jpegSize=200&amp;wid=918"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/createGraphFromTexturesActionViewport?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Create graph from texture inputs - Action in '3D View' viewport" class="" id="root_content_flex_items_position_position-par_flex_1064580961_items_position_position-par_image_97690810" src="createGraphFromTexturesActionViewport.png" title="Create graph from texture inputs - Action in '3D View' viewport"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Action in 3D View viewport</i></small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_1064580961_items_position_copy" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Create graph from texture inputs - Action in 'Materials' menu">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1064580961_items_position_copy_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1064580961_items_position_copy_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1064580961_items_position_copy_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/createGraphFromTexturesActionMaterials?$png$&amp;jpegSize=200&amp;wid=920"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/createGraphFromTexturesActionMaterials?$png$&amp;jpegSize=200&amp;wid=920"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/createGraphFromTexturesActionMaterials?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Create graph from texture inputs - Action in 'Materials' menu" class="" id="root_content_flex_items_position_position-par_flex_1064580961_items_position_copy_position-par_image" src="createGraphFromTexturesActionMaterials.png" title="Create graph from texture inputs - Action in 'Materials' menu"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Action in Materials menu</i></small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_1064580961_items_position_copy_1051303288" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Create graph from texture inputs - Action in 'Properties' dock">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1064580961_items_position_copy_1051303288_position-par_image_757020978 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1064580961_items_position_copy_1051303288_position-par_image_757020978 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1064580961_items_position_copy_1051303288_position-par_image_757020978 { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Create graph from texture inputs - Action in 'Properties' dock" class="" id="root_content_flex_items_position_position-par_flex_1064580961_items_position_copy_1051303288_position-par_image_757020978" src="createGraphFromTexturesActionProps.png" title="Create graph from texture inputs - Action in 'Properties' dock"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Action in Properties dock</i></small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy"></div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Result of graph creation from material textures">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/createGraphFromTexturesResult?$png$&amp;jpegSize=200&amp;wid=1299"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/createGraphFromTexturesResult?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/createGraphFromTexturesResult?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Result of graph creation from material textures" class="" id="root_content_flex_items_position_position-par_image" src="createGraphFromTexturesResult.png" title="Result of graph creation from material textures"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Result of graph creation from material textures</i></small></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer"></div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="democreategraphfromtextures">
+<spectrum-accordion-item data-label="Demonstration" data-titleid="item-Demonstration-democreategraphfromtextures">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Demonstration-democreategraphfromtextures">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Create graph from texture inputs - Demonstration">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Demonstration_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Demonstration_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Demonstration_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Create graph from texture inputs - Demonstration" class="" id="root_content_flex_items_position_position-par_accordion_content-Demonstration_image" src="createGraphFromTextures.gif" title="Create graph from texture inputs - Demonstration"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-tip">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Tip</span>
+</span>
+<div class="cmp-text">
+<p>You can access the action quickly and directly in the 3D View viewport, by placing the cursor on the object and pressing <b>Shift+LMB</b> to select it. then clicking RMB to access a contextual menu hosting the action.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>For formats using <i>embedded textures</i> (E.g.: USDZ), the textures need to be extracted and copied on disk. This results in an additional step to select the location that the textures should be extracted to.</p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_1364609163 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_1364609163"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Parameters"><a id="extract-texture"></a>Extract texture</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal">The ‘Extract texture to graph’ action creates a new Bitmap node in an existing graph for a texture used by a material.</p>
+<p class="MsoNormal">A few things happen when using this action:</p>
+<ul>
+<li>A <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/resources/bitmap-resource.html" target="_blank">bitmap resource</a> is created for the texture used by the material, and placed in a folder named after the material, under a ‘Resources’ folder.</li>
+<li>In the selected graph, a <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html" target="_blank">Bitmap</a> node is created for that bitmap resource and automatically connected to an <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html" target="_blank">Output</a> node configured after the material property using that textures.</li>
+</ul>
+<p class="MsoNormal">If an Output configured for the material property <i>already exists</i> in the graph, then <i>no nodes are created</i> and only the bitmap resource creation is performed.</p>
+<p class="MsoNormal">E.g.: Extracting a texture for the ‘Base color’ property to a graph already hosting an Output node configured for ‘Base color’ will result in no nodes created in the graph.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_1327654773 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_1327654773"></div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Extract texture to graph - Action in Properties dock">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Extract texture to graph - Action in Properties dock" class="" id="root_content_flex_items_position_position-par_flex_items_position_position-par_image" src="extractTextureAction.png" title="Extract texture to graph - Action in Properties dock"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small>Action for material property in Properties dock</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position_copy" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Extract texture to graph - 'Select destination graph' dialog">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Extract texture to graph - 'Select destination graph' dialog" class="" id="root_content_flex_items_position_position-par_flex_items_position_copy_position-par_image" src="extractTextureSelectGraph.png" title="Extract texture to graph - 'Select destination graph' dialog"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small>'Select destination graph' dialog</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position_copy_589424987" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_1526865280 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_1526865280"></div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Result of the texture extraction">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1001997672 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1001997672 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1001997672 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/extractTextureResult?$png$&amp;jpegSize=300&amp;wid=1645"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/extractTextureResult?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/extractTextureResult?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Result of the texture extraction" class="" id="root_content_flex_items_position_position-par_image_1001997672" src="extractTextureResult.png" title="Result of the texture extraction"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small>Result of the texture extraction</small></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_1606424275 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_1606424275"></div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="demoextracttexturetograph">
+<spectrum-accordion-item data-label="Demonstration" data-titleid="item-Demonstration-demoextracttexturetograph">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Demonstration-demoextracttexturetograph">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Extract texture to graph - Demonstration">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_930475010_content-Demonstration_image_copy { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_930475010_content-Demonstration_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_930475010_content-Demonstration_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Extract texture to graph - Demonstration" class="" id="root_content_flex_items_position_position-par_accordion_930475010_content-Demonstration_image_copy" src="extractTextureToGraph.gif" title="Extract texture to graph - Demonstration"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal"><span style="color: rgb(80,80,80);">The ‘Extract texture as resource’ action only creates a bitmap resource for the texture used by the material, and places it in a folder named after the material, under a ‘Resources’ folder.</span></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>For formats using <i>embedded textures</i> (E.g.: USDZ), the texture needs to be extracted and copied on disk. This results in an additional step to select the location that the texture should be extracted to.</p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_93184945 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_93184945"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Parameters"><a id="extract-value"></a>Extract value</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p class="MsoNormal">The ‘Extract value to graph’ action creates a new <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html" target="_blank">Value processor</a> node in an existing graph for a material property value.</p>
+<p class="MsoNormal">A few things happen when using this action:</p>
+<ul>
+<li>In the selected graph, a <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html" target="_blank">Value processor</a> node is created for that property value and automatically connected to an <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html">Output</a> node configured after that material property.</li>
+<li>In the Value processor node’s <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/function-graphs.html" target="_blank">Substance function graph</a>, a <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/constant-nodes.html" target="_blank">constant node</a> matching the value type is created, set to the extracted value as set as the graph’s output.</li>
+</ul>
+<p class="MsoNormal">If an Output configured for the material property <i>already exists</i> in the graph, then <i>no nodes are created</i>.</p>
+<p class="MsoNormal">E.g.: Extracting a value for the ‘Anisotropy level’ property to a graph already hosting an Output node configured for ‘Anisotropy level’ will result in no nodes created in the graph.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_15268652_833016332 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_15268652_833016332"></div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_copy_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Extract value to graph - Action in Properties dock">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Extract value to graph - Action in Properties dock" class="" id="root_content_flex_items_position_position-par_flex_copy_items_position_position-par_image" src="extractValueAction.png" title="Extract value to graph - Action in Properties dock"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small>Action for material property in Properties dock</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_copy_items_position_copy" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Extract value to graph - 'Select destination graph' dialog">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_items_position_copy_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_position_copy_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_position_copy_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Extract value to graph - 'Select destination graph' dialog" class="" id="root_content_flex_items_position_position-par_flex_copy_items_position_copy_position-par_image" src="extractValueSelectGraph.png" title="Extract value to graph - 'Select destination graph' dialog"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small>'Select destination graph' dialog</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_copy_items_position_copy_589424987" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Extract value to graph - Constant node in Value processor node's function">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_items_position_copy_589424987_position-par_image_copy { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_position_copy_589424987_position-par_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_position_copy_589424987_position-par_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Extract value to graph - Constant node in Value processor node's function" class="" id="root_content_flex_items_position_position-par_flex_copy_items_position_copy_589424987_position-par_image_copy" src="extractValueResult2.png" title="Extract value to graph - Constant node in Value processor node's function"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small>Constant node in Value processor node's function</small></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_15268652 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_15268652"></div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Result of the value extraction">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1001997672_cop { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1001997672_cop { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1001997672_cop { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/extractValueResult?$png$&amp;jpegSize=300&amp;wid=1422"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/extractValueResult?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/extractValueResult?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Result of the value extraction" class="" id="root_content_flex_items_position_position-par_image_1001997672_cop" src="extractValueResult.png" title="Result of the value extraction"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small>Result of the value extraction</small></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_16064242 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_16064242"></div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="demoextractvaluetograph">
+<spectrum-accordion-item data-label="Demonstration" data-titleid="item-Demonstration-demoextractvaluetograph">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Demonstration-demoextractvaluetograph">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Extract value to graph - Demonstration">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_720022585_content-Demonstration_image_copy_copy { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_720022585_content-Demonstration_image_copy_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_720022585_content-Demonstration_image_copy_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Extract value to graph - Demonstration" class="" id="root_content_flex_items_position_position-par_accordion_720022585_content-Demonstration_image_copy_copy" src="extractValueToGraph.gif" title="Extract value to graph - Demonstration"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

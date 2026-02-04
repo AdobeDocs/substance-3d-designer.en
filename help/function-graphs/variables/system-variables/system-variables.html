@@ -1,0 +1,1181 @@
+<header><meta name="title" content="Built-in variables | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Function graphs > Variables > Built-in variables"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Built-in variables</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>You can use built-in variables in <a disablelinktracking="false" href="/substance-3d-designer/function-graphs.html">Substance function graphs</a> order to access specific values. They always begin with a <code><span class="code">$</span></code> (Dollar) symbol.</p>
+<p>Some variables are only available in specific contexts.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>All nodes</b></p>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table_copy">
+<table border="0" class="dexter-Table" width="100%">
+<caption align="bottom" class="align-left sr-only">System variables</caption>
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Name</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c3" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Type</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c4" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Purpose</p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$size</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Float2</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>Returns the size of the current node in pixels.</p>
+<p> </p>
+<p>If used in the <a href="/substance-3d-designer/substance-compositing-graphs/output-size.html">Output Size</a> parameter set to a <i>Relative to... </i><a href="/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html">inheritance method</a>, returns the <i>inherited value</i>.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r2 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$sizelog2</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Float2</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>As above, but returns the size as power-of-2 values (ex: for 2048*2048 image, <code>$sizelog2</code> returns 11).</p>
+<p> </p>
+<p>If used in the <a href="/substance-3d-designer/substance-compositing-graphs/output-size.html">Output Size</a> parameter set to a <i>Relative to...</i> <a href="/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html">inheritance method</a>, returns the <i>inherited value</i>.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-ae13qwb column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$pixelratio</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ae13qwb column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Integer</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ae13qwb column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>Returns an integer value corresponding to the current node pixel ratio (inherited or absolute):</p>
+<p> </p>
+<p>0: Stretch</p>
+<p>1: Square</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r3 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$tiling</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Integer</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>Returns an integer value corresponding to the current node tiling mode (inherited or absolute):</p>
+<p> </p>
+<p>0: No Tiling</p>
+<p><span>1: Horizontal Tiling</span></p>
+<p><span>2: Vertical Tiling</span></p>
+<p><span>3: H and V Tiling</span></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-ef13fpk column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$physicalsize</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ef13fpk column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Float3</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ef13fpk column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>Returns the <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/graph-parameters.html">graph's</a> <b>Physical size</b> property value.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-z023fli column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$uvtile</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-z023fli column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Integer2</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-z023fli column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>When using UDIM workflows, this variable returns the index of the current udim in U and V.</p>
+<p> </p>
+<p>E.g., (2, 0) for tile 1003, (7, 11) for tile 1118, ...    </p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.row-r4,
+     #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.row-r4 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.row-r5,
+     #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.row-r5 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.row-r6,
+     #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.row-r6 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.row-r7,
+     #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.row-r7 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.row-r8,
+     #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.row-r8 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.row-r9,
+     #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.row-r9 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.column-c2,
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.column-c2 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.column-c3,
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.column-c3 {
+        
+        
+        
+            width: 15%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > th.column-c4,
+    #root_content_flex_items_position_position-par_dx_table_copy > .dexter-Table > tbody > tr > td.column-c4 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>FX-Map</b></p>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table_copy_copy">
+<table border="0" class="dexter-Table" width="100%">
+<caption align="bottom" class="align-left sr-only">System variables</caption>
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Name</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c3" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Type</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c4" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Purpose</p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$pos</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Float2</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>Returns the birth position of the pattern. The origin (0, 0) is located at the top left corner of the image.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r2 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$depth</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Float</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r2 column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>Returns the octave (level) number of the <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">FX-Map</a> node. This allows a node to modify its behavior according to which level in the quad-tree it represents.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-r3 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$depthpow2</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Float</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r3 column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>As above, but returns the multiplicative inverse of 2 raised to the power of the octave (level) number – i.e. 1/(2^octave). This is a helper value that comes in useful for some common calculations.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-f503fh8 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$number</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-f503fh8 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Float</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-f503fh8 column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>Returns the number of the drawn pattern. This can be accessed by Dynamic Function graphs controlling an <a href="/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html">Iterate</a> node to modify its behavior at each iteration step.</p>
+<p> </p>
+<p>Note that <code>$number</code> starts counting from 0, not 1.</p>
+<p> </p>
+<p>When using a chain of Iterate nodes, the <code>$number</code> variable will return the iteration number from the last Iterate node connected before the function parameter it is used. If you want to retrieve the iteration number from multiple Iterate nodes, you should use "custom variables" through <a href="/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html">Set</a> nodes.</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.row-r4,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.row-r4 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.row-r5,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.row-r5 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.row-r6,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.row-r6 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.row-r7,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.row-r7 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.row-r8,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.row-r8 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.row-r9,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.row-r9 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.column-c2,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.column-c2 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.column-c3,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.column-c3 {
+        
+        
+        
+            width: 15%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > th.column-c4,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy > .dexter-Table > tbody > tr > td.column-c4 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>Pixel processor</b></p>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table">
+<table border="0" class="dexter-Table" width="100%">
+<caption align="bottom" class="align-left sr-only">System variables</caption>
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Name</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c3" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Type</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c4" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Purpose</p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r9 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$pos</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r9 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Float2</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r9 column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>Returns the position of the pixel being evaluated.</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r4,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r4 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r5,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r5 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r6,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r6 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r7,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r7 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r8,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r8 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.row-r9,
+     #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.row-r9 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c2,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c2 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c3,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c3 {
+        
+        
+        
+            width: 15%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > th.column-c4,
+    #root_content_flex_items_position_position-par_dx_table > .dexter-Table > tbody > tr > td.column-c4 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_1026778064 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_1026778064"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>Global</b></p>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_dx_table_copy_copy_c">
+<table border="0" class="dexter-Table" width="100%">
+<caption align="bottom" class="align-left sr-only">System variables</caption>
+<tbody>
+<tr>
+<th abbr="" class="row-r0 column-c1" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Name</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c3" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Type</p>
+</div>
+</div>
+</th>
+<th abbr="" class="row-r0 column-c4" data-header-type="column " scope="col">
+<div class="text">
+<div class="cmp-text">
+<p>Purpose</p>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td abbr="" class="row-r1 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$time</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Float</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-r1 column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>This variable returns the time in seconds since the Substance Engine was started.</p>
+<p>It may be used in graphs which result should change according to elapsed time.<br/>
+</p>
+</div>
+</div>
+<div class="text">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>While there is currently no way to make this value change in Designer, applications that integrate the Substance Engine can leverage it, such as <a disablelinktracking="false" href="/substance-3d-player/home.html">Substance Player</a> for animation or <a disablelinktracking="false" href="/substance-3d-painter/home.html">Substance 3D Painter</a> for <a disablelinktracking="false" href="/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html">dynamic strokes</a>.<br/>
+</p>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-ny33f39 column-c1">
+<div class="text">
+<div class="cmp-text">
+<p><span class="code">$normalformat</span></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ny33f39 column-c3">
+<div class="text">
+<div class="cmp-text">
+<p>Integer</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-ny33f39 column-c4">
+<div class="text">
+<div class="cmp-text">
+<p>The normal format (I.e., DirectX or OpenGL) that used in the current environment.</p>
+</div>
+</div>
+<div class="text">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>This variable has no effect in Designer and may be used by other applications that integrate the Substance Engine.</p>
+</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.row-r0,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.row-r0 {
+        background: #EAEAEA;
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.row-r1,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.row-r1 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.row-r2,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.row-r2 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.row-r3,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.row-r3 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.row-r4,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.row-r4 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.row-r5,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.row-r5 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.row-r6,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.row-r6 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.row-r7,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.row-r7 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.row-r8,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.row-r8 {
+        
+        
+        
+        
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.row-r9,
+     #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.row-r9 {
+        
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.column-c0,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.column-c0 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.column-c1,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.column-c1 {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.column-c2,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.column-c2 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.column-c3,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.column-c3 {
+        
+        
+        
+            width: 15%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > th.column-c4,
+    #root_content_flex_items_position_position-par_dx_table_copy_copy_c > .dexter-Table > tbody > tr > td.column-c4 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div></body>

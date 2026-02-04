@@ -1,0 +1,1371 @@
+<header><meta name="title" content="Spline (Quadratic) | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline & Path Tools > Spline Tools > Spline (Quadratic)"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="xfreference experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<style>
+</style>
+<div class="xf" id="root_content_flex_items_position_position-par_xf_feedback">
+<div class="xfpage page basicpage">
+<div class="xf-content-height">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy_copy > .dexter-FlexContainer-Items {
+        
+        margin: -16px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 16px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_copy_copy_items_position_copy" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Spline (Quadratic): icon">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_copy_items_position_copy_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_copy_items_position_copy_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_copy_items_position_copy_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Spline (Quadratic): icon" class="" id="root_content_flex_items_position_position-par_flex_copy_copy_items_position_copy_position-par_image" src="spline-quadratic-icon.png" title="Spline (Quadratic): icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_flex_copy_copy_items_position_copy_position-par_spacer_copy_copy_cop {
+    height: 8px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_flex_copy_copy_items_position_copy_position-par_spacer_copy_copy_cop"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>In:</b> Spline &amp; Path Tools &gt; Spline Tools</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_copy_copy_items_position_1222150388" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Description</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Generates a single spline between two points <b>p1</b> and <b>p3</b> at arbitrary locations.</p>
+<p>The trajectory of the spline is controlled by the ‘out’ tangent of <b>p1</b> and the ‘in’ tangent of <b>p3</b>, <i>both</i> controlled by a single point <b>p3</b>.</p>
+<p>The span of the arc formed by the spline is <i>adjustable</i>, so that some of its trajectory from its extremities can remain straight.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#inputs">Input connectors</a></p>
+<p><a disablelinktracking="false" href="#outputs">Output connectors</a></p>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#parameters">Parameters</a></p>
+<p><a disablelinktracking="false" href="#examples">Examples</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_cop {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_cop"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="inputs"></a>Input connectors</h2>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-1t03qc3 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Preview</b></p>
+<p><i>Grayscale</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-1t03qc3 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>The preview of the input splines as a grayscale image.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-gj23q2z column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Spline Coords</b></p>
+<p><i>Color</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-gj23q2z column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>The coordinates of the input splines’ points encoded in the RGBA channels of a color image:</p>
+<p><b>R</b> - X position</p>
+<p><b>G</b> - Y position</p>
+<p><b>B</b> - Height</p>
+<p><b>A</b> - Packed data:<br/>
+        - Sign: Spline is closed (negative) or open (positive);<br/>
+        - Absolute value: Thickness + 1.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-yv33qrr column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Spline Data</b></p>
+<p><i>Color</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-yv33qrr column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Additional data of the input splines encoded in the RGBA channels of a color image:<br/>
+<b>R</b> - Tangents X<br/>
+<b>G</b> - Tangents Y<br/>
+<b>B</b> - Tangents Z<br/>
+<b>A</b> - Unused</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-g943ql4 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Spline Amount</b></p>
+<p><i>Integer</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-g943ql4 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>The number of input splines.</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > th.column-x413q8j,
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > td.column-x413q8j {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > th.column-ud63qm7,
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > td.column-ud63qm7 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_cop_1643192894 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_cop_1643192894"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="outputs"></a>Output connectors</h2>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy_copy">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-1t03qc3 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Preview</b></p>
+<p><i>Grayscale<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-1t03qc3 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>The preview of the output splines as a grayscale image.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-gj23q2z column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Spline Coords</b></p>
+<p><i>Color</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-gj23q2z column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>The coordinates of the output splines’ points encoded in the RGBA channels of a color image:<br/>
+<b>R</b> - X position<br/>
+<b>G</b> - Y position<br/>
+<b>B</b> - Height<br/>
+<b>A</b> - Packed data:<br/>
+        - Sign: Spline is closed (negative) or open (positive);<br/>
+        - Absolute value: Thickness + 1.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-yv33qrr column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Spline Data</b></p>
+<p><i>Color<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-yv33qrr column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Additional data of the output splines encoded in the RGBA channels of a color image:<br/>
+<b>R</b> - Tangents X<br/>
+<b>G</b> - Tangents Y</p>
+<p><b>B</b> - Tangents Z<br/>
+<b>A</b> - Unused</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-g943ql4 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Spline Amount</b></p>
+<p><i>Integer</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-g943ql4 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>The number of output splines.</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > th.column-x413q8j,
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > td.column-x413q8j {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > th.column-ud63qm7,
+    #root_content_flex_items_position_position-par_table_copy_copy > .dexter-Table > tbody > tr > td.column-ud63qm7 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_16471771 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_16471771"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="parameters"></a>Parameters</h2>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-1t03qc3 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b style="color: rgb(80,80,80);">Flip direction</b></p>
+<p><i style="color: rgb(80,80,80);">Boolean</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-1t03qc3 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Inverts the direction of the spline.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-gj23q2z column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Uniform distribution</b></p>
+<p><i style="">Boolean</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-gj23q2z column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>When <i style="">True</i>, the points of the spline are evenly spaced from start to end.<span style="color: rgb(80,80,80);">.</span></p>
+<p> </p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-yv33qrr column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Append input spline</b></p>
+<p><i style="">Boolean</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-yv33qrr column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adds the generated spline to the end of the list of splines connected to the <b style="">Spline</b> inputs.<span style="color: rgb(80,80,80);">.</span></p>
+<p> </p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-g943ql4 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Non-square correction</b></p>
+<p><i style="">Boolean</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-g943ql4 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjust the points’ positions and thickness to retain the spline shape in non-square resolutions.</p>
+<p><span style="color: rgb(80,80,80);">This also impacts uniform distribution.</span></p>
+<p> </p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-if53qq9 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Smoothness</b></p>
+<p><i style="">Float</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-if53qq9 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the <i style="">span of the arc</i> formed by the spline, where 1 means the full length of the spline is arched and 0 means the spline is entirely straight.</p>
+<p><span style="color: rgb(80,80,80);">The arc progresses from point </span><b style="color: rgb(80,80,80);">p3</b><span style="color: rgb(80,80,80);"> along the spline up to its extremities.</span></p>
+<p> </p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th.column-x413q8j,
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td.column-x413q8j {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th.column-ud63qm7,
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td.column-ud63qm7 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-multi-select="true" data-name="parametergroups">
+<spectrum-accordion-item data-label="Height" data-titleid="item-Height-parametergroups">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Thickness" data-titleid="item-Thickness-parametergroups">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Points coordinates" data-titleid="item-Pointscoordinates-parametergroups">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Preview" data-titleid="item-Preview-parametergroups">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Height-parametergroups">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_accordion_content-Height_table_copy">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-1t03qc3 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Start height</b></p>
+<p><i>Float<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-1t03qc3 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the height of the <b>p1</b> point where a lower value means a lower or deeper location.<br/>
+This impacts the height of the spline at <b>p1</b>.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-gj23q2z column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>End height</b></p>
+<p><i>Float<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-gj23q2z column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the height of the <b>p3</b> point where a lower value means a lower or deeper location.<br/>
+This impacts the thickness of the spline at <b>p3</b>.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-yv33qrr column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Auto tangent height</b></p>
+<p><i>Boolean<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-yv33qrr column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the height of the <b>p3</b> point where a lower value means a lower or deeper location.<br/>
+This impacts the thickness of the spline at <b>p3</b>.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-g943ql4 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Tangent height</b></p>
+<p><i>Float<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-g943ql4 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the height driven by the tangents controlled by the <b>p2</b> point.<br/>
+This impacts the height along the spline as it draws away from <b>p1</b> and goes into <b>p3</b>.</p>
+<p> </p>
+<p><i style="">Note:</i> This parameter is only available when <b style="">Auto tangent height</b> is set to 'False'.</p>
+<p> </p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_accordion_content-Height_table_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_accordion_content-Height_table_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_accordion_content-Height_table_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Height_table_copy > .dexter-Table > tbody > tr > th.column-x413q8j,
+    #root_content_flex_items_position_position-par_accordion_content-Height_table_copy > .dexter-Table > tbody > tr > td.column-x413q8j {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Height_table_copy > .dexter-Table > tbody > tr > th.column-ud63qm7,
+    #root_content_flex_items_position_position-par_accordion_content-Height_table_copy > .dexter-Table > tbody > tr > td.column-ud63qm7 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div>
+<div class="item-Thickness-parametergroups">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_accordion_content-Thickness_table_copy_copy">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-1t03qc3 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Start thickness</b></p>
+<p><i>Float<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-1t03qc3 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the thickness of the <b>p1</b> point. This impacts the thickness of the spline at <b>p1</b>.</p>
+<p><br/>
+<i>Note:</i> Thickness is used by specific Spline nodes.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-gj23q2z column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>End thickness</b></p>
+<p><i>Float<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-gj23q2z column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the thickness of the <b>p3</b> point. This impacts the thickness of the spline at <b>p3</b>.</p>
+<p><br/>
+<i>Note:</i> Thickness is used by specific Spline nodes.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-yv33qrr column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Auto tangent thickness</b></p>
+<p><i>Boolean<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-yv33qrr column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Automatically sets the thickness of the spline tangents to interpolate linearly from the <b>Start Thickness</b> to the <b>End Thickness</b>.</p>
+<p><br/>
+<i>Note:</i> Thickness is used by specific Spline nodes.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-g943ql4 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Tangent thickness</b></p>
+<p><i>Float<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-g943ql4 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the thickness driven by the tangents controlled by the <b>p2</b> point.<br/>
+This impacts the thickness along the spline as it draws away from <b>p1</b> and goes into <b>p3</b>.</p>
+<p><br/>
+<i>Note:</i> Thickness is used by specific Spline nodes.<br/>
+<i>Note 2:</i> This parameter is only available when <b>Auto tangent thickness</b> is set to 'False'.</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_accordion_content-Thickness_table_copy_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_accordion_content-Thickness_table_copy_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_accordion_content-Thickness_table_copy_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Thickness_table_copy_copy > .dexter-Table > tbody > tr > th.column-x413q8j,
+    #root_content_flex_items_position_position-par_accordion_content-Thickness_table_copy_copy > .dexter-Table > tbody > tr > td.column-x413q8j {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Thickness_table_copy_copy > .dexter-Table > tbody > tr > th.column-ud63qm7,
+    #root_content_flex_items_position_position-par_accordion_content-Thickness_table_copy_copy > .dexter-Table > tbody > tr > td.column-ud63qm7 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div>
+<div class="item-Pointscoordinates-parametergroups">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_accordion_content-Pointscoordinates_table_copy_copy_copy">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-1t03qc3 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>p1</b></p>
+<p><i>Float2<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-1t03qc3 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the position of the <b>p1</b> point in texture space.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-gj23q2z column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>p2</b></p>
+<p><i>Float2<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-gj23q2z column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the position of the <b>p2</b> point in texture space.<br/>
+The <b>p2</b> point controls the <i>tangents</i> of both <b>p1</b> and <b>p3</b> points.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-yv33qrr column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>p3</b></p>
+<p><i>Float2<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-yv33qrr column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Sets the position of the <b>p3</b> point in texture space.</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_accordion_content-Pointscoordinates_table_copy_copy_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_accordion_content-Pointscoordinates_table_copy_copy_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_accordion_content-Pointscoordinates_table_copy_copy_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Pointscoordinates_table_copy_copy_copy > .dexter-Table > tbody > tr > th.column-x413q8j,
+    #root_content_flex_items_position_position-par_accordion_content-Pointscoordinates_table_copy_copy_copy > .dexter-Table > tbody > tr > td.column-x413q8j {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Pointscoordinates_table_copy_copy_copy > .dexter-Table > tbody > tr > th.column-ud63qm7,
+    #root_content_flex_items_position_position-par_accordion_content-Pointscoordinates_table_copy_copy_copy > .dexter-Table > tbody > tr > td.column-ud63qm7 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div>
+<div class="item-Preview-parametergroups">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_accordion_content-Preview_table_copy">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-1t03qc3 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Show tangents</b></p>
+<p><i>Boolean<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-1t03qc3 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Displays the <b>p1</b> point ‘out’ tangent and <b>p3</b> point ‘in’ tangent in the <b>Preview</b> output.Inverts the direction of the spline.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-gj23q2z column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Show direction helper</b></p>
+<p><i>Boolean<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-gj23q2z column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Displays a dot at the start of the spline and an arrowhead at its end in the <b>Preview</b> output.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-yv33qrr column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Show thickness envelope</b></p>
+<p><i>Boolean<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-yv33qrr column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Displays additional lines at the edges of the spline’s thickness.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-g943ql4 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Segments amount</b></p>
+<p><i>Integer<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-g943ql4 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the number of segments used to draw the spline visualization in the <b>Preview</b> output.<br/>
+A higher value results in a smoother line.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-if53qq9 column-x413q8j">
+<div class="text">
+<div class="cmp-text">
+<p><b>Thickness (px)</b></p>
+<p><i>Float<br/>
+</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-if53qq9 column-ud63qm7">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the thickness in pixels of the spline visualization in the <b>Preview</b> output.</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_accordion_content-Preview_table_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_accordion_content-Preview_table_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_accordion_content-Preview_table_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Preview_table_copy > .dexter-Table > tbody > tr > th.column-x413q8j,
+    #root_content_flex_items_position_position-par_accordion_content-Preview_table_copy > .dexter-Table > tbody > tr > td.column-x413q8j {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Preview_table_copy > .dexter-Table > tbody > tr > th.column-ud63qm7,
+    #root_content_flex_items_position_position-par_accordion_content-Preview_table_copy > .dexter-Table > tbody > tr > td.column-ud63qm7 {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_17534696 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_17534696"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="examples"></a>Examples</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_950995042_copy_ > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_950995042_copy_ > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_950995042_copy_ > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_950995042_copy_ > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_950995042_copy_" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Spline (Quadratic): Example 1">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_950995042_copy__items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_950995042_copy__items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_950995042_copy__items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Spline (Quadratic): Example 1" class="" id="root_content_flex_items_position_position-par_flex_950995042_copy__items_image" src="spline-quadratic-example-1.png" title="Spline (Quadratic): Example 1"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Spline (Quadratic): Example 2">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_950995042_copy__items_image_copy { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_950995042_copy__items_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_950995042_copy__items_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Spline (Quadratic): Example 2" class="" id="root_content_flex_items_position_position-par_flex_950995042_copy__items_image_copy" src="spline-quadratic-example-2.png" title="Spline (Quadratic): Example 2"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_950995042_copy__1820670358 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_950995042_copy__1820670358 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_950995042_copy__1820670358 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_950995042_copy__1820670358 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_950995042_copy__1820670358" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Spline (Quadratic): Demo">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_950995042_copy__1820670358_items_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Spline (Quadratic): Demo" class="" id="root_content_flex_items_position_position-par_flex_950995042_copy__1820670358_items_image" src="spline-quadratic-demo.gif" title="Spline (Quadratic): Demo"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_950995042_copy__1820670358_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

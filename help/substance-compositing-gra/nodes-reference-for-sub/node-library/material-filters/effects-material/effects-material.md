@@ -1,0 +1,11 @@
+---
+title: "Effects (Material)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material)"
+---
+
+# Effects (Material)
+
+This category contains nodes that generate fully-fledged material effects, similar to how [Weathering](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md) nodes work, but with the main difference being that these Effects nodes can take any material as input. They also require a baked map as input, mostly a Heightmap.
+
+Two good examples are [Water Level](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md) and [Snow Cover](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md).

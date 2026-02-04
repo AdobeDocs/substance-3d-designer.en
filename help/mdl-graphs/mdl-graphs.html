@@ -1,0 +1,163 @@
+<header><meta name="title" content="MDL graphs | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > MDL graphs"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">MDL graphs</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page presents MDL graphs in Substance 3D Designer, which let you author MDL materials and preview their behavior in real time.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Malachite MDL material">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/mdl-malachite-example?$pjpeg$&amp;jpegSize=300&amp;wid=1920"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/mdl-malachite-example?$pjpeg$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/mdl-malachite-example?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Malachite MDL material" class="" id="root_content_flex_items_position_position-par_image" src="mdl-malachite-example.jpg" title="Malachite MDL material"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><em style="letter-spacing: 0.0px;">Malachite with Chrysocolla, MDL material by <a href="https://www.artstation.com/oggyart" rel="nofollow">Mark Foreman</a></em><em style="letter-spacing: 0.0px;"> available on our <a href="https://share-legacy.substance3d.com/libraries/4043" rel="nofollow">Legacy Substance Share</a></em><em style="letter-spacing: 0.0px;"> platform</em></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Overview</h2>
+<p>MDL stands for <a href="http://www.nvidia.com/object/material-definition-language.html" rel="nofollow">Materials Definition Language</a>: "a technology developed by <a href="https://www.nvidia.com/" rel="nofollow">NVIDIA</a> to define physically-based materials for physically-based rendering solutions." (Source: <a href="https://raytracing-docs.nvidia.com/mdl/index.html" rel="nofollow">NVIDIA MDL Documentation</a>)</p>
+<p>Using this language, a full material definition is portable and thus can be used across applications and renderers for a consistent output. Substance 3D Designer is currently the <i>only</i> application offering graph-based nodal authoring of MDL materials, by exposing the MDL functions and value types as nodes in an MDL graph.</p>
+<p>While authoring materials, you can use NVIDIA's own <a href="/substance-3d-designer/interface/3d-view/iray.html">Iray</a> renderer, embedded in Designer and available in the <a href="/substance-3d-designer/interface/3d-view.html">3D view</a> panel, to preview the behavior of the material <i>interactively</i>.</p>
+<p>MDL graphs are complementary with <a href="/substance-3d-designer/substance-compositing-graphs.html">Substance graphs</a> in that the latter <span style="color: rgb(80,80,80);">output </span><i style="color: rgb(80,80,80);">textures</i><span style="color: rgb(80,80,80);"> which can be </span><i style="color: rgb(80,80,80);">sampled</i><span style="color: rgb(80,80,80);"> by the MDL material to affect its behavior and appearance.</span></p>
+<p>We suggest going through the sections of this documentation <i>in order</i> for a guided learning path, starting with the properties of an MDL graph resource, just below.<br/>
+Eager to jump in? Get started with MDL graphs in the <a href="/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html">MDL learning resources</a> section!</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>You can learn more about the technical implementation of the Material Definition Language in the <a href="https://raytracing-docs.nvidia.com/mdl/index.html" rel="nofollow">NVIDIA MDL Documentation</a>, which includes links to the MDL Specification and <a href="http://mdlhandbook.com/" rel="nofollow">MDL Handbook</a>, all authored and maintained by NVIDIA.</p>
+</div>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="MDL graph properties">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_483318600 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_483318600 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_483318600 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/mdl-main?$png$&amp;jpegSize=300&amp;wid=1670"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/mdl-main?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/mdl-main?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="MDL graph properties" class="" id="root_content_flex_items_position_position-par_image_483318600" src="mdl-main.png" title="MDL graph properties"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><em style="letter-spacing: 0.0px;">MDL graph properties in the <a href="/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html">Properties</a> panel</em></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="MDLgraphs-MDLgraphproperties">MDL graph properties</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Attributes</h3>
+<p>This section includes information regarding the MDL material for the purposes of identification, classification and establishing authorship.</p>
+<ul>
+<li><b>Identifier</b>: The name of this resource, which should be unique under its parent in the package</li>
+<li><b>Display name</b>: The MDL material name displayed in the interface</li>
+<li><b>Icon</b>: The image used as a thumbnail for this graph in Designer’s Library</li>
+<li><b>Hidden*</b>: When set to <i>True</i>, the MDL material is not visible in an MDL library but still exists internally and may be referenced</li>
+<li><b>Show in Library</b>: When set to <i>True</i>, the MDL graph is displayed in Designer’s Library</li>
+<li><b>Description</b>: The description of the MDL material, which can be displayed in the tooltip of instance nodes referencing this graph</li>
+<li><b>Category*</b>: The category the MDL graph belongs to – this currently has no impact on how the graph is sorted in Designer's <a href="/substance-3d-designer/interface/the-library.html">Library</a></li>
+<li><b>In group*</b>: The library group the MDL material belongs to</li>
+<li><b>Author*</b>: The author of the MDL material</li>
+<li><b>Contributors*</b>: The contributors to the MDL material other than the author</li>
+<li><b>Keywords*</b>: The keywords that may be used to find the MDL material in a library search</li>
+<li><b>Copyright notice*</b>: The copyright notice relevant to the authorship and usage of the MDL material</li>
+</ul>
+<p><u>Note</u>: Properties marked with an asterisk (*) are MDL annotations to be used by MDL library integrations and have <i>no impact</i> in Designer.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Graph inputs</h3>
+<p>This section lists the interactive parameters connected to <a href="/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html">exposed parameters</a> of the MDL graph and define their <i>default values</i>. They may be <i>tweaked</i> and <i>reordered</i> at any time.</p>
+<p>The interface and behavior of these inputs is defined by the <i>value type</i> and <i>ranges</i> of the exposed parameters they are connected to. For instance:</p>
+<ul>
+<li>An exposed value of type <b>Float</b> set to a soft range of [0.0,4.0] will be displayed as a <i>single slider</i> ranging from 0.0 to 4.0</li>
+<li>An exposed value of type <b>Color</b> will be displayed as a <i>color widget</i>, which includes a picking gradient and color thumbnail</li>
+</ul>
+<p>To reorder graph inputs, place the cursor on the <i>dark handle</i> to the left of the parameter, click and <i>hold</i> <b>LMB</b> and drag the cursor up or down. This custom order will be used to display the properties of the MDL material in the following contexts:</p>
+<ul>
+<li>Instance nodes referencing the MDL graph for this material</li>
+<li>The material properties in the <a href="/substance-3d-designer/interface/3d-view.html">3D View</a></li>
+<li>Third party MDL integrations</li>
+</ul>
+</div>
+</div>
+</div>
+</div></body>

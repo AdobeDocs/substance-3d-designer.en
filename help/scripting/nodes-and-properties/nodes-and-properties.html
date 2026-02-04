@@ -1,0 +1,138 @@
+<header><meta name="title" content="Nodes and properties | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Scripting > Nodes and properties"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Nodes and properties</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <i></i><a disablelinktracking="false" href="/substance-3d-designer/scripting/scripting-api-reference.html">SDNode</a><i></i> class enables users to get information about specific nodes, which properties can be accessed with the <i></i><a disablelinktracking="false" href="/substance-3d-designer/scripting/scripting-api-reference.html">SDProperty</a><i><b><a href="/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html"> </a></b></i>class. All of these can be either read of modified.</p>
+<p>Available node information include:</p>
+<ul>
+<li>definition</li>
+<li>identifier</li>
+<li><span style="color: rgb(80,80,80);">position</span></li>
+<li><span style="color: rgb(80,80,80);">bounding box</span></li>
+<li><span style="color: rgb(80,80,80);">properties (as a list)</span></li>
+<li><span style="color: rgb(80,80,80);">resources that are being referenced</span></li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Accessing nodes and their properties</h3>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">import sd 
+# Import the required classes. 
+from sd.api.sdproperty import SDPropertyCategory 
+from sd.api.sdvalueserializer import SDValueSerializer 
+  
+# Get and print information regarding the selected nodes. 
+def printSelectedNodesInfo(nodes): 
+    for node in nodes: 
+        definition = node.getDefinition() 
+        nodeId = node.getIdentifier() 
+  
+        print("node %s, id = %s" % (definition.getLabel(), nodeId)) 
+  
+        # Create a list of each property category enumeration item. 
+        categories = [ 
+            SDPropertyCategory.Annotation, 
+            SDPropertyCategory.Input, 
+            SDPropertyCategory.Output 
+        ] 
+  
+        # Get node properties for each property category. 
+        for category in categories: 
+            props = definition.getProperties(category) 
+  
+            # Get the label and identifier of each property. 
+            for prop in props: 
+                label = prop.getLabel() 
+                propId = prop.getId() 
+  
+                # Get the connection for the currently accessed property. 
+                if prop.isConnectable(): 
+                    connections = node.getPropertyConnections(prop) 
+  
+                    if connections: 
+                        print("Propery %s is connected!!!" % label) 
+                        continue 
+  
+                # Get the current and default values for the currently accessed property. 
+                value = node.getPropertyValue(prop) 
+                valueDefault = prop.getDefaultValue() 
+     
+                value = SDValueSerializer.sToString(value) if value else "None" 
+                valueDefault = SDValueSerializer.sToString(valueDefault) if valueDefault else "None" 
+ 
+                print("Property - %sn  id = %sn  value = %sn  default = %s" % ( 
+                    label, 
+                    propId, 
+                    value, 
+                    valueDefault 
+                 ))</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Accessing node inputs identifiers and types</h3>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">import sd 
+# Import the required classes. 
+from sd.api import sduimgr 
+from sd.api.sdproperty import * 
+ 
+# Access a node in the current graph, and its properties. 
+graph = uiMgr.getCurrentGraph() 
+node = graph.getNodeFromId('&lt;Replace this text with the node ID&gt;') 
+nodeProps = node.getProperties(SDPropertyCategory.Input) 
+ 
+# List node identifiers and types in console. 
+for i in range(len(nodeProps)): 
+ print(nodeProps[i].getId()) 
+ print(nodeProps[i].getType())</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Accessing node Position and bounding box</h3>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">import sd
+
+app = sd.getContext().getSDApplication()
+
+uiMgr = app.getUIMgr()
+currentGraph = uiMgr.getCurrentGraph()
+
+# Works reliably if there is only one Graph View
+currentGraphViewID = uiMgr.getGraphViewIDAt(0)
+
+for node in currentGraph.getNodes():
+	
+	# Position is accessed directly through the node
+	nodePosition = node.getPosition()
+	# Bbox is accessed through the UI manager and the Graph View ID	
+	nodeBbox = uiMgr.getGraphNodeBBox(currentGraphViewID, node)
+	
+	print(f"""
+	
+{node.getDefinition().getLabel().upper()}
+  UID: {node.getIdentifier()}
+  Position:
+    - Center X: {nodePosition.x}
+    - Center Y: {nodePosition.y}
+  Bounding box:
+    - Top-left X: {nodeBbox.x}
+    - Top-left Y: {nodeBbox.y}
+    - Width: {nodeBbox.z}
+    - Height: {nodeBbox.w}
+""")</pre>
+</div>
+</div>
+</div></body>

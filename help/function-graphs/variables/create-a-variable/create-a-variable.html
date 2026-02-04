@@ -1,0 +1,87 @@
+<header><meta name="title" content="Create a variable | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Function graphs > Variables > Create a variable"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Create a variable</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>There is different ways to create a variable in Substance 3D Designer:</p><ul><li>Using an input parameter</li><li>Use a Set node.</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Createavariable-Usinganinputparameter">Using an input parameter</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When you create an input parameter, a variable is created and associated with it. You can then reuse this variable in any function of you graph.</p><p>Therefore, one single exposed parameter can have an influence on multiple parts of your graph.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Createavariable-UsingaSetnode">Using a Set node</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>A Set node is a node only available in the function graphs:</p><p></p><p>It allows the user to create a custom variable:</p><ul><li>The name is declared in the parameters.</li><li>The value is defined by the input.</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="Createavariable-HowtousetheSetnode">How to use the <em>Set</em> node</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The use of a Set node is a bit particular:</p><p>when you declare it, it is only available within the graph, which by default is not really useful (after all you can already output its value with links).</p><p>Therefore, you have to declare this new variable, outside of this graph.</p><p>to do so, you have to use a sequence node and do the following steps:</p><ul><li>Link the actual output node to the "last" input of the Sequence node</li><li>Link the Set node to the "In" input of the sequence node.</li><li>Set the Sequence as the output node</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p></p><p><br/></p><p>When you have done this, the variable will be available in the other function graph<u> of the same node</u>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p>When a node is processed by the substance Engine, their parameters (and the functions that could control them), are read from top to bottom. Therefore, a Set node can only be accessible by the parameters located below it in the node parameters stack.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>If you have multiple variables to create, just repeat the <em>Set</em> and <em>Sequence</em> nodes creation operation and set the last sequence node as the output node:</p> <p> <img src="image2015-12-18-18-43-8.png" width="500"/></p>
+</div>
+</div>
+</div>
+</div>
+</div></body>

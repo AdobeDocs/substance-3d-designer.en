@@ -1,0 +1,783 @@
+<header><meta name="title" content="Version 2019.3 (9.3) | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Release Notes > Old Versions > Version 2019.3 (9.3)"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Version 2019.3 (9.3)</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong>Substance Designer 2019.3</strong> introduces Color Management with support of OpenColorIO as well as improved bakers updates and a new atlas scatter node.</p><p>Release date: <em>December 19, 2019</em></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1>Major Features</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Color Management and OpenColorIO support</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-color-management?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-color-management?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-color-management?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_image" src="banner-color-management.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Substance Designer now supports color management, which allows to control how colors are interpreted and transformed. This feature comes with the support for <a href="https://opencolorio.org/" rel="nofollow">OpenColorIO</a>, which is a widely used color management system used in the Entertainment and VFX industry.</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Setting up color management in the main settings</strong><br/>By default Substance Designer will be set in "legacy" mode meaning it won't load any specific configuration and will continue to work as before. To switch to OpenColorIO for example, simply heads-up to the main settings and then in the project settings to configure and enable it. </p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:600px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/sd-color-management-settings?$png$&amp;jpegSize=200&amp;wid=795"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/sd-color-management-settings?$png$&amp;jpegSize=200&amp;wid=795"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/sd-color-management-settings?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step_step_par_image" src="sd-color-management-settings.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Color Management is applied in 3 different ways</strong><br/>Different parts of the application receive the color management which have different implications:</p>
+</div>
+</div>
+<div class="procedure parbase">
+<div class="procedure">
+<ul class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>2D and 3D View</strong><br/>Both the Real-time opengl viewport and Iray can be color managed. This allows to preview in context the material and texturing. The color profile can be easily switched via the dedicated dropdown. It is also possible to display the view in Linear Gamma to preview without color correction.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image { width:400px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-2d-view?$png$&amp;jpegSize=100&amp;wid=528"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-2d-view?$png$&amp;jpegSize=100&amp;wid=528"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-2d-view?$png$&amp;jpegSize=100&amp;wid=400"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image" src="color-2d-view.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image1 { width:400px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image1 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image1 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-3d-view?$png$&amp;jpegSize=100&amp;wid=427"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-3d-view?$png$&amp;jpegSize=100&amp;wid=427"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-3d-view?$png$&amp;jpegSize=100&amp;wid=400"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step_step_par_image1" src="color-3d-view.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p> <strong>Graph Inputs and Outputs and bitmap export</strong><br/>When reading and writing bitmap images at the entry and exit of a graph, the color management can adjust the image and convert them to work in the right conditions. This can be controlled in the main preference for bitmap in the graph and modified in the export dialog during the export process. Saving an image from the 2D View will also offer a way to choose the color space.<br/></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image { width:400px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-export-outputs?$png$&amp;jpegSize=100&amp;wid=474"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-export-outputs?$png$&amp;jpegSize=100&amp;wid=474"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-export-outputs?$png$&amp;jpegSize=100&amp;wid=400"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image" src="color-export-outputs.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image1 { width:505px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image1 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image1 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-export-2d?$png$&amp;jpegSize=200&amp;wid=649"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-export-2d?$png$&amp;jpegSize=200&amp;wid=649"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/color-export-2d?$png$&amp;jpegSize=100&amp;wid=505"/>
+<img class="" id="root_content_flex_items_position_position-par_procedure_proc_par_proc_step1_step_par_procedure_proc_par_proc_step1_step_par_image1" src="color-export-2d.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</li>
+</ul>
+</div></div>
+</div>
+</li>
+</ul>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>New Curvature from Mesh Baker</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-curvature-1?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-curvature-1?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-curvature-1?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid1_items_grid-cell_position-par_image" src="banner-curvature-1.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Curvature from mesh baker has been remade from scratch. It now takes advantage of raytracing which allows GPU acceleration but also adds the support of mesh intersections.</p><p>For more information see the <a href="/substance-3d-bake/bakers-settings/curvature-from-mesh.html">Curvature from Mesh</a> documentation.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>The previous Curvature from mesh baker is now deprecated. We recommend switching to the new version.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Improved Ambient Occlusion from Mesh Baker</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid2 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid2" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-ao-v2?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-ao-v2?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-ao-v2?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid2_items_grid-cell_position-par_image" src="banner-ao-v2.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Ambient Occlusion From Mesh baker now has a new setting named "Ground Plane" which simulates a plane under the mesh to produce ground occlusion. This can help produce more interesting looking result for static geometry or non-organic objects. The Ground Plane sits at the bottom of the mesh bounding box by default but can be pushed further with a dedicated settings.</p><p>For more information see the <a href="/substance-3d-bake/bakers-settings/ambient-occlusion-from-mesh.html">Ambient Occlusion from Mesh</a> documentation.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Improved Properties and Preset Editor</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid3 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid3" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-presets?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-presets?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-presets?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid3_items_grid-cell_position-par_image" src="banner-presets.png"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The properties editor has been improved as well as the preset editor:</p><ul><li><strong>Faster preview mode</strong><br/>Switching to the preview mode when editing graph parameters is now much faster, especially on graphs with a lot of exposed parameters. The preview mode is now a dedicated tab which makes easier the back and forth between the parameter editor and its preview.<br/><br/></li><li><strong>Reworked preset editor</strong><br/>The way presets are managed in Substance Designer is now much easier and faster: the preset editor has now its dedicated tab and each presets now list which parameters they affect.<br/><br/></li><li><strong>Visible If is now taking into account for 2D transform gizmos</strong><br/>When a transform 2D gizmo has a Visible If condition, it can now be hidden in the 2D View, making it contextual to the parameters.</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>New Content</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid4 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 100%; max-width: 100%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid4" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-content-8?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-content-8?$pjpeg$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/banner-content-8?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid4_items_grid-cell_position-par_image" src="banner-content-8.jpg"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In this version we introduce the new <strong>Atlas Scatter</strong> node. This node allows to read an atlas image (an image containing sub-images) and automatically separate its content into individual component which can then be scattered randomly. This node can be used for example to place branches and leaves on a dirt ground material. <a href="https://source.substance3d.com/allassets?q=atlas" rel="nofollow">Substance Source</a> now includes many Atlas materials which can be scattered with this new node.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p>This release doesn't support CentOS 6.x anymore.<br/>On CentOS 7.x the application may not start because of some dependencies issues, to fix the problem either update the system or copy the <a href="https://centos.pkgs.org/7/centos-x86_64/freetype-2.8-12.el7.x86_64.rpm.html" rel="nofollow">following library</a> in the installation folder.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1>Release Notes</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>2019.3.3 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released February 14, 2020)</i> </p><p><strong>Added:</strong></p><ul> <li>[Batchtools] Ship default OCIO profiles with batch tools </li></ul><p><strong>Fixed:</strong></p><ul> <li>[Content] Atlas Scatter: issues when using random color/normal in some situations </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>2019.3.2 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released February 04, 2020)</i> </p><p><strong>Added:</strong></p><ul> <li>[SBSRender] Add Color Management support </li></ul><p><strong>Fixed:</strong></p><ul> <li>[Content] Linear sRGB to ACEScg node: I/O labels are incorrect </li><li>[Content] ACEScg to sRGB node: Output labels is incorrect </li><li>[Content] Panorama Light nodes: adjust Temperature range </li><li>[Graph] Severe performance drop and freezes when tweaking a nested graph with 'In-Context Editing' active </li><li>[Graph] Crash when deleting multiple nodes in FX-Map </li><li>[Performances] Designer's process may stay alive after quitting </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>2019.3.1 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released January 27, 2020)</i> </p><p><strong>Fixed:</strong></p><ul> <li>[Graph] Severe performance drop and freezes when tweaking a nested graph with "In-Context Editing" active </li><li>[Graph] Cannot enter enum value out of [0, 99] in Integer1 tweak </li><li>[Graph] Comment is not moved when the corresponding frame is displaced </li><li>[Graph] Input names are missing on custom instance node </li><li>[Graph] Thumbnails may be rendered when loading graph even if the corresponding option is disabled in the Preferences </li><li>[2D View] Negative alpha shows checker no matter the display option </li><li>[2D View] Surface conversion from 32f to 8bits fails with high values </li><li>[2D View] Top/left skew and 'Make Square' set some coordinates to huge values in forward transformation matrices </li><li>[2D View] UVs of all mesh objects are not displayed on UV sets other than "0" </li><li>[Content] Bevel: Angular mode does not work correctly on tiling mask </li><li>[Content] Flood Fill To Gradient: slope image value is not sampled in the middle of the shape </li><li>[Content] Function; "Equality Boolean" is broken </li><li>[Bakers] Artefacts when using automatic tonemapping in "Curvature From Mesh" baker in specific cases </li><li>[Bakers] Crash in DXR when baking while no material is selected </li><li>[Bakers] Performances issue in the 2D View when enabling the "info" </li><li>[Engine] 'Pow' function outputs huge values when using very low input value and high exponent on SSE2 engine </li><li>[Engine] Crash when using a high jpg compression on bitmap resources </li><li>[Engine] Value Processor returns wrong $size value when inside a subgraph </li><li>[Parameters] Empty pop-up appears when selecting an instance node with high number of parameters </li><li>[Parameters] Integer value is not shown in drop-down parameter items </li><li>[Parameters] Transform Matrix 'Edit' button is not available in Preview mode </li><li>[Cooker] $size in ValueProcessor is wrong when inside a graph instance </li><li>[Cooker] Outputsize is incorrect when value link passes through a dot node to an atomic node </li><li>[UI] Button to display all items in the 2D View bottom bar is not visible </li><li>[UI] Preview of picked RGB values display incorrect numbers when using Color Management </li><li>[Export] 16f RGBA images are exported as grayscale </li><li>[3D View] Cannot import OBJ with multiple spaces </li><li>[Color Management] OCIO config is not taken into account when publishing sbsar </li><li>[Color Widget] Color sliders ranges can expand exponentially in a specific case </li><li>[Doc] "paramValue" section is incomplete in Sbs format reference </li><li>[MDL] Color Widget in sbsar instances are not correct </li><li>[Presets] Crash when updating presets in a specific case </li><li>[PSD] FreeImage error when loading PSD files from recent versions of Photoshop </li><li>[Resources] Crash when undoing Bitmap linking directly into graph </li><li>[SVG] SVG nodes do not update automatically when using the vector tools </li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>2019.3.0 </h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p> <i>(Released December 19, 2019)</i> </p><p><strong>Added:</strong></p><ul> <li>[General] Support Color Management using OpenColorIO configuration file </li><li>[Presets] Improve presets management </li><li>[Presets] Synchronize 2D View Gizmos and Preview Sliders </li><li>[Presets] Restore preview values when switching back to Preview mode </li><li>[Presets] Keep preview mode active when editing other nodes, resources or graph </li><li>[Presets] Undo works smoothly when navigating between the 3 presets tabs </li><li>[Presets] Allow to Reset parameters to Graph's default or Preset's value in Preview mode </li><li>[Presets] Improve pinning of parameters </li><li>[Presets] Import/Export all Presets of a graph to a file </li><li>[Bakers] New 'Curvature from mesh' baker based on ray tracing </li><li>[Bakers] Add ground plane option in 'AO from Mesh' baker </li><li>[Bakers] Add match by name option to ignore backface in 'AO from Mesh' baker </li><li>[Content] New Atlas Scatter node </li><li>[Content] New Color Space Conversion nodes and functions (ACEScg) </li><li>[Content] Improve naming consistency for nodes with Color/Grayscale versions </li><li>[Graph] Improve performances in Presets Preview mode </li><li>[Graph] Add $(colorspace) macro to export graph outputs option </li><li>[Parameters] When a parameter is set to invisible, hide the corresponding gizmo in the 2D View </li><li>[Parameters] Do not add 'Graph input group' as a prefix when exposing parameters </li><li>[Parameters] Add tooltip for VisibleIf in Graph parameters </li><li>[AXF] Update AXF SDK to v1.6 </li></ul><p><strong>Fixed:</strong></p><ul> <li>[Linux] Designer does not launch on CentOS 8 due to Qt platform loading failure. </li><li>[Linux] WARNING: Freetype library has been removed from SD application: Users with CentOS version &lt;= 7.5 has to install it manually. </li><li>[AxF] Crash when importing files created with newer AxF versions </li><li>[2DView] Brush textures fed by a resource are not applied </li><li>[2DView] Crash when modifying inputs of instanced graph with position tweak </li><li>[3DView] Crash when canceling the "Load..." action </li><li>[3DView] Add Color Space option for emission textures in GLSLFX Shaders </li><li>[Bakers] Maps fed through resources are ignored during baking </li><li>[Bakers] 'World Space Direction' options are incorrectly locked </li><li>[Bitmap] EXR bitmaps with floating point values are rendered as a black image </li><li>[Content] Flood Fill to index: shape detection fails in a particular case </li><li>[Content] Crop: sampling issue when the crop node has a lower resolution than the input </li><li>[General] Crash when closing Designer while generating the Library </li><li>[Graph] Bitmap nodes do not reflect the compression of the associated bitmap </li><li>[Graph] Cache is not cleared when clearing node thumbnails after first render </li><li>[Graph] Node size incorrectly invalidated </li><li>[Graph] Crash when im some cases when changing input connections on a Pixel Processor Node </li><li>[MDL Graph] Failure when restoring a function call default value </li><li>[Properties] 'Edit' and 'Matrix' buttons in transform matrix parameters are confusing </li></ul>
+</div>
+</div>
+</div>
+</div></body>

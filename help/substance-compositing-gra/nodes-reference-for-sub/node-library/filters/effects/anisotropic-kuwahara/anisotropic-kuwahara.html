@@ -1,0 +1,830 @@
+<header><meta name="title" content="Anisotropic Kuwahara Color | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Anisotropic Kuwahara Color"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid_copy > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_grid_copy_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Anisotropic Kuwahara Color icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid_copy_items_grid-cell_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid_copy_items_grid-cell_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid_copy_items_grid-cell_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<img alt="Anisotropic Kuwahara Color icon" class="" id="root_content_flex_items_position_position-par_grid_copy_items_grid-cell_position-par_image" src="AnisotropicKuwaharaColor.png" title="Anisotropic Kuwahara Color icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;"><b>In:</b> Filters &gt; Effects</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_grid_copy_items_grid-cell1" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Description">Description</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Applies an anisotropic directional blur which conforms to the details of the image. The result is an image which appears to <i>flow</i> in the direction of the shapes within.</p>
+<p>This adjustable blur computes or receives a <i>direction map</i> to determine that flow, which can be sharpened into flatter, more clearly defined areas.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">The flow may also be broken down by rotating the direction in which blurring is applied. Similarly, a custom direction map may be used to override the one computed out of the image.</span><br/>
+</p>
+<p>This filter can produce a painterly effect, and is useful for stylization.</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="Anisotropy">
+<spectrum-accordion-item data-label="Anisotropy" data-titleid="item-Anisotropy-Anisotropy">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Anisotropy-Anisotropy">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The intensity of the flow is mainly controlled by the <a disablelinktracking="false" href="#parameters">Anisotropy</a> parameter, as demonstrated in the image below.</p>
+<p>Left: Anisotropy 0.0 / Right: Anisotropy 1.0</p>
+</div>
+</div>
+<div class="before-and-after aem-GridColumn aem-GridColumn--default--12">
+<div class="twentytwenty-container preview-container">
+<img alt="anisotropic_kuwahara_color_example_3_before" class="cq-dd-image" src="anisotropic_kuwahara_color_example_3_before.jpg" title="anisotropic_kuwahara_color_example_3_before"/>
+<div class="img-comp-overlay_horizontal">
+<img alt="anisotropic_kuwahara_color_example_3_after" class="cq-dd-image" src="anisotropic_kuwahara_color_example_3_after.jpg" title="anisotropic_kuwahara_color_example_3_after"/>
+</div>
+<input aria-label="Slider for setting after image percentage" class="slider" max="100" min="0" type="range" value="50"/>
+<div class="img-comp-slider_horizontal">
+<div class="handle-line_horizontal"></div>
+<div class="handle-circle_horizontal">
+<i class="handle-left-arrow_horizontal"></i>
+<i class="handle-right-arrow_horizontal"></i>
+</div>
+<div class="handle-line_horizontal"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_1825344964 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_1825344964"></div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper mobile-padding-right-32 mobile-padding-left-32" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h3><a disablelinktracking="false" href="#inputs">Input</a><br/>
+<a disablelinktracking="false" href="#inputs">connectors</a></h3>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<h3><a disablelinktracking="false" href="#outputs">Output<br/>
+connectors</a><br/>
+</h3>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<h3><a disablelinktracking="false" href="#parameters">Parameters</a></h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_410167500 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_410167500"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Inputs"><a id="inputs"></a>Input connectors</h2>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-fc23n5l column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b>Input</b></p>
+<p><i>Color</i> </p>
+<p>Primary</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-fc23n5l column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">The color image which should be processed.</span></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-u833nbl column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Anisotropy angle map</b></p>
+<p><i style="">Grayscale</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-u833nbl column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">The grayscale image describing the additional rotation applied to the computed direction, where the grayscale value is a number of turns.</span></p>
+<p> </p>
+<p><span style="color: rgb(80,80,80);">The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter.</span></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-6z43na6 column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Slope map</b></p>
+<p><i style="">Grayscale</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-6z43na6 column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">The map representing slopes that the direction map is conformed to, according to the 'Slope Map Input Multiplier' parameter value.</span></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-la53ngd column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Radius map (optional)</b></p>
+<p><i style="">Grayscale</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-la53ngd column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">When connected, the blurring 'Radius' is multiplied against the input image.</span></p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-n163nth column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Direction map</b></p>
+<p><i style="">Color</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-n163nth column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">The map describing the direction used by the anisotropic filter kernel.</span></p>
+<p> </p>
+<p><span style="color: rgb(80,80,80);">The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter.</span></p>
+<p><span style="color: rgb(80,80,80);"><br/>
+</span><u style="color: rgb(80,80,80);">Note:</u><span style="color: rgb(80,80,80);"> This input is only used when the 'Use Input Direction Map' parameter is set to 'True'.</span></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th.column-f003n98,
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td.column-f003n98 {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > th.column-0i13nfd,
+    #root_content_flex_items_position_position-par_table > .dexter-Table > tbody > tr > td.column-0i13nfd {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_1627234485 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_1627234485"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Inputs"><a id="outputs"></a>Output connectors</h2>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-fc23n5l column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b>Output</b></p>
+<p><i>Color</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-fc23n5l column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>The result of the anisotropic blurring applied by the node on the input image.<br/>
+</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-u833nbl column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Direction map</b></p>
+<p><i style="">Color</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-u833nbl column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>The direction map computed from the input image and used to drive the anisotropic blurring.</p>
+<p> </p>
+<p>If the 'Use Input Direction Map' parameter is set to 'True', the image provided to the 'Direction Map' input is used and output as is.<br/>
+</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > th.column-f003n98,
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > td.column-f003n98 {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > th.column-0i13nfd,
+    #root_content_flex_items_position_position-par_table_copy > .dexter-Table > tbody > tr > td.column-0i13nfd {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415_1468175150 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415_1468175150"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Parameters"><a id="parameters"></a>Parameters</h2>
+</div>
+</div>
+<div class="table aem-GridColumn aem-GridColumn--default--12"><div class="dexter-Table-Container header-sticky" data-emptytext="Table" id="root_content_flex_items_position_position-par_table_copy_153968138">
+<table border="0" class="dexter-Table" width="100%">
+<tbody>
+<tr>
+<td abbr="" class="row-fc23n5l column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b>Radius</b></p>
+<p><i>Float</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-fc23n5l column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>The blurring radius, where a higher value results in a stronger blurring effect.</p>
+<p> </p>
+<p>The maximum value is 32.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-u833nbl column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Smoothness</b></p>
+<p><i style="">Float</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-u833nbl column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the amount of blending of colors in the computed direction.</p>
+<p> </p>
+<p>When this value is 0, colors are mostly displaced in that direction and very little blending occurs.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-6z43na6 column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Sharpness</b></p>
+<p><i style="">Float</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-6z43na6 column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>Increases the contrast in the blurred areas, resulting in them looking flatter and more clearly defined.<br/>
+</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-la53ngd column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Anisotropy</b></p>
+<p><i style="">Float</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-la53ngd column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the contribution of the direction map in the blurring.</p>
+<p> </p>
+<p>The direction map and all its modifiers (both parameters and input maps) still have an effect when this parameter value is 0, as the direction map is used in the Kuwahara filter kernel.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-n163nth column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Use input direction map</b></p>
+<p><i style="">Boolean</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-n163nth column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>When 'True', no direction map is computed from the input image, and the image connected to the 'Direction Map' input is used to drive the anisotropic blurring instead.<br/>
+</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-2c73ni8 column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b>Tensor smoothness</b></p>
+<p><i>Float</i></p>
+<p> </p>
+<p><i>Available when 'Use input direction map' is set to 'False'</i><br/>
+</p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-2c73ni8 column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the intensity of blurring applied to the directions computed from the image and stored in the direction map.</p>
+<p> </p>
+<p>Increasing this value ensures a smoother result when the image has a lot of high frequency detail.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-io83ny4 column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Anisotropy angle</b></p>
+<p><i style="">Float</i><br/>
+</p>
+<p> </p>
+<p><i>Available when 'Use input direction map' is set to 'False'</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-io83ny4 column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>Adds a rotation to the direction map, in number of turns.</p>
+<p> </p>
+<p>This additional rotation is <i style="">cumulative</i> with the one specified by the 'Anisotropy Angle Map' input.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-5s93nz1 column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Anisotropy angle map multiplier</b></p>
+<p><i style="">Float</i></p>
+<p> </p>
+<p><i>Available when 'Use input direction map' is set to 'False'</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-5s93nz1 column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the intensity of the values in the 'Anisotropy Angle Map' input, which are then added on top of the rotation applied to the direction map, in number of turns.</p>
+<p> </p>
+<p>This additional rotation is <i style="">cumulative</i> with the one specified by the 'Anisotropy Angle' parameter.</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-lia3n7e column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Slope map input multiplier</b></p>
+<p><i style="">Float</i></p>
+<p> </p>
+<p><i>Available when 'Use input direction map' is set to 'False'</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-lia3n7e column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>Adjusts the intensity by which the direction map is conformed to the slopes provided by the 'Slope Map' input.<br/>
+</p>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td abbr="" class="row-c0b3nlt column-f003n98">
+<div class="text">
+<div class="cmp-text">
+<p><b style="">Ignore alpha</b></p>
+<p><i style="">Boolean</i></p>
+</div>
+</div>
+</td>
+<td abbr="" class="row-c0b3nlt column-0i13nfd">
+<div class="text">
+<div class="cmp-text">
+<p>When 'True', the alpha channel of the image is not impacted by the filter.</p>
+<p> </p>
+<p>When 'False', the filter is also applied to the alpha channel.</p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<style>
+    #root_content_flex_items_position_position-par_table_copy_153968138 > .dexter-Table {
+        width: 100%;
+    }
+    #root_content_flex_items_position_position-par_table_copy_153968138 > .dexter-Table > tbody > tr > th,
+    #root_content_flex_items_position_position-par_table_copy_153968138 > .dexter-Table > tbody > tr > td {
+        
+        
+        
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_153968138 > .dexter-Table > tbody > tr > th.column-f003n98,
+    #root_content_flex_items_position_position-par_table_copy_153968138 > .dexter-Table > tbody > tr > td.column-f003n98 {
+        
+        
+        
+            width: 25%;
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    #root_content_flex_items_position_position-par_table_copy_153968138 > .dexter-Table > tbody > tr > th.column-0i13nfd,
+    #root_content_flex_items_position_position-par_table_copy_153968138 > .dexter-Table > tbody > tr > td.column-0i13nfd {
+        
+        
+        
+        
+        vertical-align: top;
+    }
+    
+    
+    
+</style>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_20212415 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_20212415"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="DiffusionUV-Exampleimages">Examples</h2>
+</div>
+</div>
+<div class="before-and-after aem-GridColumn aem-GridColumn--default--12">
+<div class="twentytwenty-container preview-container">
+<img alt="anisotropic_kuwahara_color_example_1_before" class="cq-dd-image" src="anisotropic_kuwahara_color_example_1_before.jpg" title="anisotropic_kuwahara_color_example_1_before"/>
+<div class="img-comp-overlay_horizontal">
+<img alt="anisotropic_kuwahara_color_example_1_after" class="cq-dd-image" src="anisotropic_kuwahara_color_example_1_after.jpg" title="anisotropic_kuwahara_color_example_1_after"/>
+</div>
+<input aria-label="Slider for setting after image percentage" class="slider" max="100" min="0" type="range" value="50"/>
+<div class="img-comp-slider_horizontal">
+<div class="handle-line_horizontal"></div>
+<div class="handle-circle_horizontal">
+<i class="handle-left-arrow_horizontal"></i>
+<i class="handle-right-arrow_horizontal"></i>
+</div>
+<div class="handle-line_horizontal"></div>
+</div>
+</div>
+</div>
+<div class="before-and-after aem-GridColumn aem-GridColumn--default--12">
+<div class="twentytwenty-container preview-container">
+<img alt="anisotropic_kuwahara_color_example_2_before" class="cq-dd-image" src="anisotropic_kuwahara_color_example_2_before.jpg" title="anisotropic_kuwahara_color_example_2_before"/>
+<div class="img-comp-overlay_horizontal">
+<img alt="anisotropic_kuwahara_color_example_2_after" class="cq-dd-image" src="anisotropic_kuwahara_color_example_2_after.jpg" title="anisotropic_kuwahara_color_example_2_after"/>
+</div>
+<input aria-label="Slider for setting after image percentage" class="slider" max="100" min="0" type="range" value="50"/>
+<div class="img-comp-slider_horizontal">
+<div class="handle-line_horizontal"></div>
+<div class="handle-circle_horizontal">
+<i class="handle-left-arrow_horizontal"></i>
+<i class="handle-right-arrow_horizontal"></i>
+</div>
+<div class="handle-line_horizontal"></div>
+</div>
+</div>
+</div>
+<div class="before-and-after aem-GridColumn aem-GridColumn--default--12">
+<div class="twentytwenty-container preview-container">
+<img alt="anisotropic_kuwahara_color_example_4_before" class="cq-dd-image" src="anisotropic_kuwahara_color_example_4_before.jpg" title="anisotropic_kuwahara_color_example_4_before"/>
+<div class="img-comp-overlay_horizontal">
+<img alt="anisotropic_kuwahara_color_example_4_after" class="cq-dd-image" src="anisotropic_kuwahara_color_example_4_after.jpg" title="anisotropic_kuwahara_color_example_4_after"/>
+</div>
+<input aria-label="Slider for setting after image percentage" class="slider" max="100" min="0" type="range" value="50"/>
+<div class="img-comp-slider_horizontal">
+<div class="handle-line_horizontal"></div>
+<div class="handle-circle_horizontal">
+<i class="handle-left-arrow_horizontal"></i>
+<i class="handle-right-arrow_horizontal"></i>
+</div>
+<div class="handle-line_horizontal"></div>
+</div>
+</div>
+</div>
+</div>
+</div></body>
