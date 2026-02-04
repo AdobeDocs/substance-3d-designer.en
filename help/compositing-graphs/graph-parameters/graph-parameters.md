@@ -1,6 +1,7 @@
 ---
-title: "Graph parameters | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Graph parameters"
+title: "Graph parameters"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Graph parameters"
 ---
 
 # Graph parameters
@@ -64,7 +65,7 @@ The <b>Attributes</b> section contains *metadata* for the graph, which provides 
 
 [Library](../../interface/the-library/the-library.md)
 
-[instance node](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)
+[instance node](../graph-instances-sub-gra/graph-instances-sub-graphs.md)
 
 [Explorer](../../interface/the-explorer-window/the-explorer-window.md)
 
@@ -116,7 +117,7 @@ When using a graph in another graph as aninstance node, you can control the defa
 
 
 
-[instance node](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)
+[instance node](../graph-instances-sub-gra/graph-instances-sub-graphs.md)
 
 
 
@@ -177,5 +178,3 @@ You can reorder them by using drag and drop on the handle on the far left of eac
 </td>
 </tr>
 </table>
-
- 

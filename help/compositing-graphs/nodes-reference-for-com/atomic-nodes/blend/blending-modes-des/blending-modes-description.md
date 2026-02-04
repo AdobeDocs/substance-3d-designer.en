@@ -1,6 +1,7 @@
 ---
-title: "Blending modes | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend > Blending modes"
+title: "Blending modes"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend > Blending modes"
 ---
 
 # Blending modes
@@ -213,5 +214,3 @@ Blend colors that are more than 50% brightness will lighten the background pixel
 
 
 +++
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Mesh Data Combiner | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Mesh Data Combiner"
+title: "Mesh Data Combiner"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Mesh Data Combiner"
 ---
 
 # Mesh Data Combiner
@@ -53,5 +54,3 @@ Toggle which map inputs to enable and output into the packed result.
 </td>
 </tr>
 </table>
-
- 

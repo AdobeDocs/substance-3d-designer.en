@@ -1,6 +1,7 @@
 ---
-title: "Tiling | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling"
+title: "Tiling"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling"
 ---
 
 # Tiling
@@ -13,5 +14,3 @@ There are two nodes in this category:
 
 * [Make It Tile Patch](make-it-tile-patch/make-it-tile-patch.md)
 * [Make It Tile Photo](make-it-tile-photo/make-it-tile-photo.md)
-
- 

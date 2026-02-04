@@ -1,6 +1,7 @@
 ---
-title: "Mirror (Filter Node) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Mirror (Filter Node)"
+title: "Mirror (Filter Node)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Mirror (Filter Node)"
 ---
 
 # Mirror (Filter Node)
@@ -44,5 +45,3 @@ Mirrors the input image over a chosen axis, from a chosen side. Very useful, qui
 </td>
 </tr>
 </table>
-
- 

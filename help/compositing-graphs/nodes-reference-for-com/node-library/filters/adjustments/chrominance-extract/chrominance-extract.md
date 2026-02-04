@@ -1,6 +1,7 @@
 ---
-title: "Chrominance Extract | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Chrominance Extract"
+title: "Chrominance Extract"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Chrominance Extract"
 ---
 
 # Chrominance Extract
@@ -37,5 +38,3 @@ Extracts the Chrominance value from the input. The result has luminance stripped
 </td>
 </tr>
 </table>
-
- 

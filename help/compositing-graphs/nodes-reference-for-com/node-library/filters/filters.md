@@ -1,6 +1,7 @@
 ---
-title: "Filters | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters"
+title: "Filters"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters"
 ---
 
 # Filters
@@ -29,5 +30,3 @@ Filters are one of the most used major categories. Apart from the [Atomic nodes]
 >[!NOTE]
 >
 > A project file demonstrating a simple setup for a *custom* filter is available in the [Sample Substance compositing graphs](../../../sample-compositing-graphs/sample-substance-compositing-graphs.md) section of this documentation.
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Atomic nodes | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes"
+title: "Atomic nodes"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes"
 ---
 
 # Atomic nodes
@@ -274,5 +275,3 @@ The 'Atomic nodes' category of the [Library](../../../interface/the-library/the-
 ### <b>Keyboard shortcuts</b>
 
 You can define [your own keyboard shortcuts](../../../interface/preferences-window/preferences-window.md) to instantly create any node in a graph, including atomic nodes.
-
- 

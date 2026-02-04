@@ -1,6 +1,7 @@
 ---
-title: "Straighten Horizon | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Straighten Horizon"
+title: "Straighten Horizon"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Straighten Horizon"
 ---
 
 # Straighten Horizon
@@ -40,5 +41,3 @@ For HDRI's with a horizon that is not straight, this node provides an easy, user
 </td>
 </tr>
 </table>
-
- 

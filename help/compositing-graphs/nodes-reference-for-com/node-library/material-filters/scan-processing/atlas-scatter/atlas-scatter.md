@@ -1,6 +1,7 @@
 ---
-title: "Atlas Scatter | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Scatter"
+title: "Atlas Scatter"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Scatter"
 ---
 
 # Atlas Scatter
@@ -156,5 +157,3 @@ Extract elements from an Atlas and scatter them on a background. Atlas inputs ar
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Gradient Axial Reflected | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Axial Reflected"
+title: "Gradient Axial Reflected"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Axial Reflected"
 ---
 
 # Gradient Axial Reflected
@@ -36,5 +37,3 @@ Similar to [Gradient Axial](../gradient-axial/gradient-axial.md), creates a gray
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Radial Blur | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Radial Blur"
+title: "Radial Blur"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Radial Blur"
 ---
 
 # Radial Blur
@@ -38,5 +39,3 @@ Generates a spinning, motion-type blur on an input.
 </td>
 </tr>
 </table>
-
- 

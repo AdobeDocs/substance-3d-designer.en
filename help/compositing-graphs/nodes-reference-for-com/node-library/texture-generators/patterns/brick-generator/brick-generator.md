@@ -1,6 +1,7 @@
 ---
-title: "Brick Generator | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick Generator"
+title: "Brick Generator"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick Generator"
 ---
 
 # Brick Generator
@@ -49,5 +50,3 @@ For more options see [Tile Generator](../tile-generator/tile-generator.md).
 </td>
 </tr>
 </table>
-
- 

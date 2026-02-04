@@ -1,6 +1,7 @@
 ---
-title: "Spline Bridge (List) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (List)"
+title: "Spline Bridge (List)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (List)"
 ---
 
 # Spline Bridge (List)
@@ -221,5 +222,3 @@ Background Preview IntensityFloatThe intensity of the Preview visualization.
 </table>
 
 ![Node in graph](SplineBridge-List_Graph.jpg "Node in graph")
-
- 

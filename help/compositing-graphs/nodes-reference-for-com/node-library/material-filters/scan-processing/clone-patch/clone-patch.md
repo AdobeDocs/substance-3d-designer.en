@@ -1,6 +1,7 @@
 ---
-title: "Clone Patch | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Clone Patch"
+title: "Clone Patch"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Clone Patch"
 ---
 
 # Clone Patch
@@ -63,5 +64,3 @@ Also important to understand is the fact that you can move the Target area with 
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Base Material | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > Base Material"
+title: "Base Material"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > Base Material"
 ---
 
 # Base Material
@@ -65,5 +66,3 @@ The node is very useful when texturing full props and blending multiple material
 </td>
 </tr>
 </table>
-
- 

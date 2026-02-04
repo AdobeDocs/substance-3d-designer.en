@@ -1,6 +1,7 @@
 ---
-title: "Normal | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal"
+title: "Normal"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal"
 ---
 
 # Normal
@@ -82,5 +83,3 @@ It is a very useful node that is used often to convert height map inputs to norm
 ## Examples
 
 *Coming soon.*
-
- 

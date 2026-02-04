@@ -1,6 +1,7 @@
 ---
-title: "Star | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Star"
+title: "Star"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Star"
 ---
 
 # Star
@@ -36,5 +37,3 @@ Generates a five-pointed star.
 </td>
 </tr>
 </table>
-
- 

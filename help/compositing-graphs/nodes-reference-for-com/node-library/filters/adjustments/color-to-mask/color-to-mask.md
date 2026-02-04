@@ -1,6 +1,7 @@
 ---
-title: "Color to mask | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Color to mask"
+title: "Color to mask"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Color to mask"
 ---
 
 # Color to mask
@@ -107,5 +108,3 @@ Extracts a greyscale mask from selected colors in a color image.
 </td>
 </tr>
 </table>
-
- 

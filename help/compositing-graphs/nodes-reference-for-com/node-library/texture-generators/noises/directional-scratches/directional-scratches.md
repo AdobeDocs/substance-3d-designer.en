@@ -1,6 +1,7 @@
 ---
-title: "Directional scratches | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional scratches"
+title: "Directional scratches"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional scratches"
 ---
 
 # Directional scratches
@@ -131,5 +132,3 @@ A random scattering of scratch patterns with adjustable angle and size.
 </td>
 </tr>
 </table>
-
- 

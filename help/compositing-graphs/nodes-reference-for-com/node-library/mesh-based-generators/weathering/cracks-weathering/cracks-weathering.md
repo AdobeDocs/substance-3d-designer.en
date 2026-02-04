@@ -1,6 +1,7 @@
 ---
-title: "Cracks Weathering | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Cracks Weathering"
+title: "Cracks Weathering"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Cracks Weathering"
 ---
 
 # Cracks Weathering
@@ -59,5 +60,3 @@ Make sure to properly understand the [Link Creation Modes](../../../../../../int
 </td>
 </tr>
 </table>
-
- 

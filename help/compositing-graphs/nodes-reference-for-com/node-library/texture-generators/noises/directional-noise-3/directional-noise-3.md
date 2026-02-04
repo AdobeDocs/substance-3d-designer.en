@@ -1,6 +1,7 @@
 ---
-title: "Directional noise 3 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 3"
+title: "Directional noise 3"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 3"
 ---
 
 # Directional noise 3
@@ -115,5 +116,3 @@ See also: [Directional noise 1](../directional-noise-1/directional-noise-1.md),Â
 </td>
 </tr>
 </table>
-
- 

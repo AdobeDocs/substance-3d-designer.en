@@ -1,6 +1,7 @@
 ---
-title: "Cells 4 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 4"
+title: "Cells 4"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 4"
 ---
 
 # Cells 4
@@ -110,5 +111,3 @@ See also: [Cells 1](../cells-1/cells-1.md), [Cells 2](../cells-2/cells-2.md), [C
 </td>
 </tr>
 </table>
-
- 

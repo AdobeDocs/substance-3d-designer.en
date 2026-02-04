@@ -1,6 +1,7 @@
 ---
-title: "Output | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output"
+title: "Output"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output"
 ---
 
 # Output
@@ -77,7 +78,7 @@ Every Substance graph must have *at least one* Output node. If no output exist
 | <b>Identifier</b> *String* | The unique identifier of the output. This property cannot be left blank and cannot contain special characters or spaces.   The identifier is used as the node's label is the 'Label' property is left blank. It may also be used to name [exported textures](../../../exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Description</b> *String* | Optional description used as the output's tooltip is Substance graphs.. |
 | <b>Label</b> *String* | This is used as a label for the output node, and its corresponding connector in [instance nodes](../../../inheritance-compositing/inheritance-in-substance-compositing-graphs.md) representing this graph. The label may contain spaces and special characters. |
-| <b>User data</b> *String* | Optional metadata that may be used for specific filtering operations. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) make use of this data to [drive some features](../../../../../substance-3d-painter/content/creating-custom-effects/user-data/user-data.md).. |
+| <b>User data</b> *String* | Optional metadata that may be used for specific filtering operations. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) make use of this data to [drive some features](https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/user-data.html).. |
 | <b>Group</b> *String* | Attribute used to group outputs together for Designer's [link creation modes](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).   Outputs with an identical 'Group' attribute are presented as a single connection in the 'Compact Material' link creation mode. |
 
 ## Integration attributes
@@ -135,5 +136,3 @@ Here is an example of instance nodes before and after setting a default output:
     </td>
   </tr>
 </table>
-
- 

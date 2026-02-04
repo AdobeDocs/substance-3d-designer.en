@@ -1,6 +1,7 @@
 ---
-title: "Linear Burn | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Linear Burn"
+title: "Linear Burn"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Linear Burn"
 ---
 
 # Linear Burn
@@ -45,5 +46,3 @@ Performs a Linear Burn blend. Mathematical formula is Foreground + Background - 
 </td>
 </tr>
 </table>
-
- 

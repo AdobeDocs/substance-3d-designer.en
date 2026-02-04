@@ -1,6 +1,7 @@
 ---
-title: "Auto Levels | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Auto Levels"
+title: "Auto Levels"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Auto Levels"
 ---
 
 # Auto Levels
@@ -33,5 +34,3 @@ Automatically adjusts the levels of the input to use the full range from black t
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Alveolus | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Alveolus"
+title: "Alveolus"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Alveolus"
 ---
 
 # Alveolus
@@ -40,5 +41,3 @@ A soft-sphere pattern that can altenatively generate hexagon tiles.
 </td>
 </tr>
 </table>
-
- 

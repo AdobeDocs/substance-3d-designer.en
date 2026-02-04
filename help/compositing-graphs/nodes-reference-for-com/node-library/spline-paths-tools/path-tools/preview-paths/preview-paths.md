@@ -1,6 +1,7 @@
 ---
-title: "Preview Paths | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths"
+title: "Preview Paths"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths"
 ---
 
 # Preview Paths
@@ -61,5 +62,3 @@ Adjusts the thickness of rendered segments in pixels.
 </td>
 </tr>
 </table>
-
- 

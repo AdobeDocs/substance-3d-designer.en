@@ -1,6 +1,7 @@
 ---
-title: "Median filter grayscale | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter grayscale"
+title: "Median filter grayscale"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter grayscale"
 ---
 
 # Median filter grayscale
@@ -90,5 +91,3 @@ This parameter controls the size of that square kernel, in pixels. A larger kern
     </td>
   </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Clone (Filter Node) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Clone (Filter Node)"
+title: "Clone (Filter Node)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Clone (Filter Node)"
 ---
 
 # Clone (Filter Node)
@@ -55,5 +56,3 @@ Requires some care to get the intended results:
 </td>
 </tr>
 </table>
-
- 

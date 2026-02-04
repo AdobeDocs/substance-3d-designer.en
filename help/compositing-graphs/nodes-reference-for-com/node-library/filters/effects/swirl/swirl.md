@@ -1,6 +1,7 @@
 ---
-title: "Swirl | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Swirl"
+title: "Swirl"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Swirl"
 ---
 
 # Swirl
@@ -37,5 +38,3 @@ This transforms an input image by warping it in a swirling direction. It has add
 </td>
 </tr>
 </table>
-
- 

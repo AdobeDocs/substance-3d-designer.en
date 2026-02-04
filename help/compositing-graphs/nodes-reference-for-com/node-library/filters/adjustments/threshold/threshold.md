@@ -1,6 +1,7 @@
 ---
-title: "Threshold | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Threshold"
+title: "Threshold"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Threshold"
 ---
 
 # Threshold
@@ -41,5 +42,3 @@ Similar to [Histogram Scan](../histogram-scan/histogram-scan.md), but with contr
 </td>
 </tr>
 </table>
-
- 

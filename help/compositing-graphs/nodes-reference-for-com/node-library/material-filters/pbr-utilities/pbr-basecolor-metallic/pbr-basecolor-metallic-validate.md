@@ -1,6 +1,7 @@
 ---
-title: "PBR BaseColor  Metallic Validate | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR BaseColor  Metallic Validate"
+title: "PBR BaseColor  Metallic Validate"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR BaseColor  Metallic Validate"
 ---
 
 # PBR BaseColor / Metallic Validate
@@ -44,5 +45,3 @@ Don't use this as the end-all-tool, but still make sure you always have a clear 
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Edge Wear | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Wear"
+title: "Edge Wear"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Wear"
 ---
 
 # Edge Wear
@@ -53,5 +54,3 @@ This node represents wear on object edges. It has quite a few parameters, but is
 </td>
 </tr>
 </table>
-
- 

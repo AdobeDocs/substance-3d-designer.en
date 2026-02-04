@@ -1,6 +1,7 @@
 ---
-title: "Anisotropic noise | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Anisotropic noise"
+title: "Anisotropic noise"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Anisotropic noise"
 ---
 
 # Anisotropic noise
@@ -100,5 +101,3 @@ The amount of strips is adjustable, as is the smoothness of their transitions.
 </td>
 </tr>
 </table>
-
- 

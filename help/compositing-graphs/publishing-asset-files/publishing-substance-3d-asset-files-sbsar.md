@@ -1,13 +1,14 @@
 ---
-title: "Publishing Substance 3D asset files (SBSAR) | Substance 3D Designer"
-description: "Designer > Substance graphs > Publishing Substance 3D asset files (SBSAR)"
+title: "Publishing Substance 3D asset files (SBSAR)"
+description: ""
+helpx_description: "Designer > Substance graphs > Publishing Substance 3D asset files (SBSAR)"
 ---
 
 # Publishing Substance 3D asset files (SBSAR)
 
 This page explains how Substance 3D Designer can publish packages as <b>Substance 3D asset</b> files, a special file format with the <b>SBSAR</b> extension, used within the Substance ecosystem as well as in other applications supporting it.
 
-It's usually better to use a Substance 3D asset instead of bitmaps, as it is a lot more flexible and lightweight. If you are using them in Substance 3D [Painter](../../../substance-3d-painter/home/home.md), [Sampler](../../../substance-3d-sampler/substance-3d-sampler.md) or [Player](https://helpx.adobe.com/substance-3d-player/home.html), it is faster to use the [Send To functionality](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
+It's usually better to use a Substance 3D asset instead of bitmaps, as it is a lot more flexible and lightweight. If you are using them in Substance 3D [Painter](https://helpx.adobe.com/substance-3d-painter/home.html), [Sampler](https://helpx.adobe.com/substance-3d-sampler.html) or [Player](https://helpx.adobe.com/substance-3d-player/home.html), it is faster to use the [Send To functionality](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
 
 ![Publishing SBSAR files simplified](exportflow.png "Publishing SBSAR files simplified")
 
@@ -18,7 +19,7 @@ it is good to keep the following in mind when publishing a Substance graph:
 * You<b> publish a package</b>, with all it contents, not an individual [Substance graph](../substance-compositing-graphs.md). A Substance 3D asset then lets you generate content from all Substance graphs inside this package.
 * Published packages are <b>completely stand-alone</b>: all resources required are embedded into the file. That means they are much easier to share than SBS files.
 * The output from Substance 3D assets can be <b>completely dynamic</b>. [Resolution is not set; exposed parameters can be modified.](../compositing-graph-key-con/substance-compositing-graph-key-concepts.md) However, editing the Graph is no longer possible.
-* Substance 3D assets can be used outside of Designer, in all Adobe Substance 3D products, Adobe Dimension as well as any other application that has a [Substance integration](../../../substance-3d-integrations/home/home.md).
+* Substance 3D assets can be used outside of Designer, in all Adobe Substance 3D products, Adobe Dimension as well as any other application that has a [Substance integration](https://helpx.adobe.com/substance-3d-integrations/home.html).
 * Publishing is different from[ Exporting](../exporting-bitmaps/exporting-bitmaps.md), make sure you understand well the difference.
 
 ## Preparing to publish
@@ -138,5 +139,3 @@ While the Substance 3D asset is the most powerful and most dynamic format in the
 * Substance 3D asset files have versions that infer compatibility. The core Substance Engine is updated from time to time with new features. packages that use these features need to be read by applications that support these new features. This is not an issue for all Substance Applications, as they are all updated at the same time, but Plugins and integrations might have longer compatibility delays.  
   Use the Substance Engine Compatibility display options in the [Project Preferences ](../../interface/preferences-window/project-settings/project-settings.md)to track down any potential issues.
 * Some exposed parameters – such as *static* parameters – are *hidden* once a graph is published as part of a Substance 3D asset. See the [Limitations](../manage-parameters/exposing-a-parameter/exposing-a-parameter.md) section of the [Exposing a parameter](../manage-parameters/exposing-a-parameter/exposing-a-parameter.md) page for a list of these parameters and to learn more about static parameters in general.
-
- 

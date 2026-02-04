@@ -1,6 +1,7 @@
 ---
-title: "Fibers 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Fibers 1"
+title: "Fibers 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Fibers 1"
 ---
 
 # Fibers 1
@@ -38,5 +39,3 @@ Simple fiber-like pattern. Can be used in  [Substance 3D Designer](https://www.a
 </td>
 </tr>
 </table>
-
- 

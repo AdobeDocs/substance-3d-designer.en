@@ -1,6 +1,7 @@
 ---
-title: "Sun Bleach | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Sun Bleach"
+title: "Sun Bleach"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Sun Bleach"
 ---
 
 # Sun Bleach
@@ -49,5 +50,3 @@ This mask is similar to [Light](../light/light.md), but has support for AO too, 
 </td>
 </tr>
 </table>
-
- 

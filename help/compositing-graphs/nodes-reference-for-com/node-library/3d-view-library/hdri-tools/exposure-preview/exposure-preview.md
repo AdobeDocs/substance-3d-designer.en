@@ -1,6 +1,7 @@
 ---
-title: "Exposure Preview | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Exposure Preview"
+title: "Exposure Preview"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Exposure Preview"
 ---
 
 # Exposure Preview
@@ -37,5 +38,3 @@ Helper node to preview exposure steps. Users sets a min and max value, the node 
 </td>
 </tr>
 </table>
-
- 

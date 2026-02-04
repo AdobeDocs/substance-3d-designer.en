@@ -1,6 +1,7 @@
 ---
-title: "Manage parameters | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Manage parameters"
+title: "Manage parameters"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Manage parameters"
 ---
 
 # Manage parameters
@@ -71,7 +72,7 @@ You can apply a [Substance function graph](../../function-graphs/the-function-gr
 
 * <b>Expose as new graph input:</b> Which creates a new graph input and automatically sets a function using that graph input. Learn more about exposing parameters in [this dedicated page](exposing-a-parameter/exposing-a-parameter.md).
 * <b>Empty function:</b> Author a function from scratch.
-* <b>Constant value:</b> Edit a function starting from a [constant value node](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) set to the parameter's current value.
+* <b>Constant value:</b> Edit a function starting from a [constant value node](../../function-graphs/nodes-reference-for-fun/constant-nodes/constant-nodes.md) set to the parameter's current value.
 * <b>Reset:</b> Resets the parameter to its default value and range. If a function was applied to the parameter, it is dismissed.
 
 >[!NOTE]
@@ -178,5 +179,3 @@ These actions...
 </td>
 </tr>
 </table>
-
- 

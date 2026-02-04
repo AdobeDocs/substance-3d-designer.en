@@ -1,6 +1,7 @@
 ---
-title: "Fibers 2 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Fibers 2"
+title: "Fibers 2"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Fibers 2"
 ---
 
 # Fibers 2
@@ -38,5 +39,3 @@ Simple cloth-like pattern. Can be used for mesh, cloth or other organic Height- 
 </td>
 </tr>
 </table>
-
- 

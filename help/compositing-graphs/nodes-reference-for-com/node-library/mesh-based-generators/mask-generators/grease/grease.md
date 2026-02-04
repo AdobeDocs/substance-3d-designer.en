@@ -1,6 +1,7 @@
 ---
-title: "Grease | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Grease"
+title: "Grease"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Grease"
 ---
 
 # Grease
@@ -53,5 +54,3 @@ This mask is specifically intended for character faces and other specific areas.
 </td>
 </tr>
 </table>
-
- 

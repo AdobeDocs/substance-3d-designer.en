@@ -1,6 +1,7 @@
 ---
-title: "Directional warp | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp"
+title: "Directional warp"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp"
 ---
 
 # Directional warp
@@ -102,5 +103,3 @@ The Warp node is a fairly simple but useful node that serves as a good basis for
 </td>
 </tr>
 </table>
-
- 

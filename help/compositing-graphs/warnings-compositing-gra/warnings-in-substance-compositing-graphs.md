@@ -1,6 +1,7 @@
 ---
-title: "Warnings in Substance graphs | Substance 3D Designer"
-description: "Designer > Substance graphs > Warnings in Substance graphs"
+title: "Warnings in Substance graphs"
+description: ""
+helpx_description: "Designer > Substance graphs > Warnings in Substance graphs"
 ---
 
 # Warnings in Substance graphs
@@ -86,5 +87,3 @@ A [Text](../nodes-reference-for-com/atomic-nodes/text/text.md) node references
 <b>!&#91;(tick)&#93;(check.svg) Solution</b>
 
 Select the [Text](../nodes-reference-for-com/atomic-nodes/text/text.md) node and make a note of the value of its <b>Font</b> property. Find the source file for that font on your system and make sure it is *healthy*, e.g. by using it in another application such as a text editor. Replace the font by a healthy font file as necessary, or switch the Text node to another font.
-
- 

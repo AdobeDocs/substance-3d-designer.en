@@ -1,6 +1,7 @@
 ---
-title: "Edge Damages | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Damages"
+title: "Edge Damages"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Damages"
 ---
 
 # Edge Damages
@@ -52,5 +53,3 @@ This mask represents damage done to raised, convex edges based on curvature and 
 </td>
 </tr>
 </table>
-
- 

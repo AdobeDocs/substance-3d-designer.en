@@ -1,6 +1,7 @@
 ---
-title: "Tile Random 2 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random 2"
+title: "Tile Random 2"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random 2"
 ---
 
 # Tile Random 2
@@ -188,5 +189,3 @@ A dedicated output lets you input the shape's **UVs** into **Flood Fill to (...)
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Color (Blend Node) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color (Blend Node)"
+title: "Color (Blend Node)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color (Blend Node)"
 ---
 
 # Color (Blend Node)
@@ -45,5 +46,3 @@ Performs a Color blend mode, which preserves the luminance of the Background, wh
 </td>
 </tr>
 </table>
-
- 

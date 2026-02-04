@@ -1,6 +1,7 @@
 ---
-title: "Make It Tile Photo | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Photo"
+title: "Make It Tile Photo"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Photo"
 ---
 
 # Make It Tile Photo
@@ -44,5 +45,3 @@ This node provides edge-fixup functionality for any image that might not tile du
 </td>
 </tr>
 </table>
-
- 

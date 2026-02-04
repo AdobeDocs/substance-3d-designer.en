@@ -1,6 +1,7 @@
 ---
-title: "Material Crop | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Crop"
+title: "Material Crop"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Crop"
 ---
 
 # Material Crop
@@ -50,5 +51,3 @@ This node is the multi-channel, full material version of [Crop](../crop/crop.md)
 </td>
 </tr>
 </table>
-
- 

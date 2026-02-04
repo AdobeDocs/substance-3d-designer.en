@@ -1,6 +1,7 @@
 ---
-title: "3D Volume Mask | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > 3D Volume Mask"
+title: "3D Volume Mask"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > 3D Volume Mask"
 ---
 
 # 3D Volume Mask
@@ -84,5 +85,3 @@ The **3D Volume Mask** node generates a representation of a *primitive shape* ba
 </td>
 </tr>
 </table>
-
- 

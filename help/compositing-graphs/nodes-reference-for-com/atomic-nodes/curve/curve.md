@@ -1,6 +1,7 @@
 ---
-title: "Curve | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve"
+title: "Curve"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve"
 ---
 
 # Curve
@@ -231,5 +232,3 @@ The ![](image2017-2-20-19-12-45.png) button resets the zoom level to 1
 ## Examples
 
 *Coming soon.*
-
- 

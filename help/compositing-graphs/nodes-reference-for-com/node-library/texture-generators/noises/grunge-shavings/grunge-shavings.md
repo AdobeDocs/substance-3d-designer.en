@@ -1,6 +1,7 @@
 ---
-title: "Grunge Shavings | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings"
+title: "Grunge Shavings"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings"
 ---
 
 # Grunge Shavings
@@ -54,5 +55,3 @@ The **Grunge Shavings** node in [Substance 3D Designer](https://www.adobe.com/pr
 </td>
 </tr>
 </table>
-
- 

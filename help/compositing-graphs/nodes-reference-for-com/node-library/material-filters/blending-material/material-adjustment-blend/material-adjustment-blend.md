@@ -1,6 +1,7 @@
 ---
-title: "Material Adjustment Blend | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Adjustment Blend"
+title: "Material Adjustment Blend"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Adjustment Blend"
 ---
 
 # Material Adjustment Blend
@@ -78,5 +79,3 @@ It is useful for when you want to adjust a few channels of a material (such as m
 </td>
 </tr>
 </table>
-
- 

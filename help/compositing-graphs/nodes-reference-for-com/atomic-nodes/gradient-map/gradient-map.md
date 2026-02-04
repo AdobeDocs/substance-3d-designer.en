@@ -1,6 +1,7 @@
 ---
-title: "Gradient map | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map"
+title: "Gradient map"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map"
 ---
 
 # Gradient map
@@ -351,5 +352,3 @@ The <b>Precision</b> slider will help you adjust your newly created gradient by 
 ## Examples
 
 *Coming soon.*
-
- 

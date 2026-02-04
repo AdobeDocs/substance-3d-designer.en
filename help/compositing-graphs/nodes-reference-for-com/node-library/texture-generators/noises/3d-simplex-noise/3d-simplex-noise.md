@@ -1,6 +1,7 @@
 ---
-title: "3D Simplex Noise | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Simplex Noise"
+title: "3D Simplex Noise"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Simplex Noise"
 ---
 
 # 3D Simplex Noise
@@ -40,5 +41,3 @@ This noise can be tested with [Cube 3D GBuffers](https://support.allegorithmic.c
 </td>
 </tr>
 </table>
-
- 

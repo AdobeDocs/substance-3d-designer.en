@@ -1,6 +1,7 @@
 ---
-title: "Bevel smooth | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Bevel smooth"
+title: "Bevel smooth"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Bevel smooth"
 ---
 
 # Bevel smooth
@@ -183,5 +184,3 @@ The distance of the gradient can be dynamically adjusted along the border using 
     </td>
   </tr>
 </table>
-
- 

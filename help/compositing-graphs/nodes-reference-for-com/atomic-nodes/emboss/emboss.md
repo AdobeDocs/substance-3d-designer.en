@@ -1,6 +1,7 @@
 ---
-title: "Emboss | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss"
+title: "Emboss"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss"
 ---
 
 # Emboss
@@ -84,5 +85,3 @@ This node is not used often for PBR-like projects, but it can serve in certain c
 ## Examples
 
 *Coming soon.*
-
- 

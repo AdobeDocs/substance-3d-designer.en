@@ -1,6 +1,7 @@
 ---
-title: "Gradient Linear 2 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 2"
+title: "Gradient Linear 2"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 2"
 ---
 
 # Gradient Linear 2
@@ -39,5 +40,3 @@ Despite its simplicity, it's very useful and can serve many purposes. Try it tog
 </td>
 </tr>
 </table>
-
- 

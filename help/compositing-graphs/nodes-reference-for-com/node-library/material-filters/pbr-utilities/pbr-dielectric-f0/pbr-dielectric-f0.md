@@ -1,6 +1,7 @@
 ---
-title: "PBR Dielectric F0 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Dielectric F0"
+title: "PBR Dielectric F0"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Dielectric F0"
 ---
 
 # PBR Dielectric F0
@@ -41,5 +42,3 @@ Useful to quickly get correct values as a starting point, so you can avoid color
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Triangle Grid | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Triangle Grid"
+title: "Triangle Grid"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Triangle Grid"
 ---
 
 # Triangle Grid
@@ -146,5 +147,3 @@ The *positions* of the vertices may be adjusted, which impacts the generated mes
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Exporting Bitmaps | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Exporting Bitmaps"
+title: "Exporting Bitmaps"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Exporting Bitmaps"
 ---
 
 # Exporting Bitmaps
@@ -76,5 +77,3 @@ Start the dialog with the same methods as detailed above, just making sure you r
 1. <b>&#91;Output size&#93;(../output-size/output-size.md): </b>Override export resolution, allowing you to work smaller and more efficient, while exporting at maximum size.
 
 ![Batch export outputs dialog](batch.png "Batch export outputs dialog")
-
- 

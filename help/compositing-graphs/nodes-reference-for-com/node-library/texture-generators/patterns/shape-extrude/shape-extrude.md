@@ -1,6 +1,7 @@
 ---
-title: "Shape Extrude | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Extrude"
+title: "Shape Extrude"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Extrude"
 ---
 
 # Shape Extrude
@@ -64,5 +65,3 @@ An advanced node that allows 2d, binary "shape" inputs to be rendered to 3D-rota
 </td>
 </tr>
 </table>
-
- 

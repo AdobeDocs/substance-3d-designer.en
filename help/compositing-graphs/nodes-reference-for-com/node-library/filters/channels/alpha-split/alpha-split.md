@@ -1,6 +1,7 @@
 ---
-title: "Alpha Split | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Split"
+title: "Alpha Split"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Split"
 ---
 
 # Alpha Split
@@ -39,5 +40,3 @@ Outputs the image stripped of alpha, and the alpha channel separately.
 </td>
 </tr>
 </table>
-
- 

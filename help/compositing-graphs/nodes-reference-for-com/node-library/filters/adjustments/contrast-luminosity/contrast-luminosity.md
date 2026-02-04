@@ -1,6 +1,7 @@
 ---
-title: "ContrastLuminosity | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > ContrastLuminosity"
+title: "ContrastLuminosity"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > ContrastLuminosity"
 ---
 
 # Contrast/Luminosity
@@ -40,5 +41,3 @@ A simple contrast and luminosity (brightness) adjustment.
 </td>
 </tr>
 </table>
-
- 

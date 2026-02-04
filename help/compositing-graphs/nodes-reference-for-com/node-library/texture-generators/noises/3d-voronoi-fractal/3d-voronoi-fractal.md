@@ -1,6 +1,7 @@
 ---
-title: "3D Voronoi Fractal | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal"
+title: "3D Voronoi Fractal"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal"
 ---
 
 # 3D Voronoi Fractal
@@ -134,5 +135,3 @@ This node can be tested with [Cube 3D GBuffers](../../patterns/cube-3d-gbuffers/
 </td>
 </tr>
 </table>
-
- 

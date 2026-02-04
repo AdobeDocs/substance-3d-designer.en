@@ -1,6 +1,7 @@
 ---
-title: "Snow Cover | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Snow Cover"
+title: "Snow Cover"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Snow Cover"
 ---
 
 # Snow Cover
@@ -50,5 +51,3 @@ All-in-one effect to add snow buildup on a full material. Strongly relies on a g
 </td>
 </tr>
 </table>
-
- 

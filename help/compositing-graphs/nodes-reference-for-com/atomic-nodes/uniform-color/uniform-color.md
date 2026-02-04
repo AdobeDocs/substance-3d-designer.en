@@ -1,6 +1,7 @@
 ---
-title: "Uniform color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color"
+title: "Uniform color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color"
 ---
 
 # Uniform color
@@ -92,5 +93,3 @@ It is a simple node that is used very often as a starting point for adding color
 ## Examples
 
 *Coming soon.*
-
- 

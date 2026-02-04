@@ -1,6 +1,7 @@
 ---
-title: "Mosaic | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Mosaic"
+title: "Mosaic"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Mosaic"
 ---
 
 # Mosaic
@@ -50,5 +51,3 @@ This is useful for adding more definition to grayscale maps such as Heightmap, a
 </td>
 </tr>
 </table>
-
- 

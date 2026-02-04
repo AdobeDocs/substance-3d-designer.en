@@ -1,6 +1,7 @@
 ---
-title: "Shadows (Filter Node) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shadows (Filter Node)"
+title: "Shadows (Filter Node)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shadows (Filter Node)"
 ---
 
 # Shadows (Filter Node)
@@ -42,5 +43,3 @@ Can be useful if you're just after the shadow and do not want to work with a mor
 </td>
 </tr>
 </table>
-
- 

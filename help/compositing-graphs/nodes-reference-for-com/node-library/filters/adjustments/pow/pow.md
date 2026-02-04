@@ -1,6 +1,7 @@
 ---
-title: "Pow | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow"
+title: "Pow"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow"
 ---
 
 # Pow
@@ -39,5 +40,3 @@ Important: make sure to use the correct version, depending on whether you have a
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Spline Bridge Mapper Grayscale | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Grayscale"
+title: "Spline Bridge Mapper Grayscale"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Grayscale"
 ---
 
 # Spline Bridge Mapper Grayscale
@@ -118,5 +119,3 @@ A higher amount of segments results in a smoother mapping along curves.
 </td>
 </tr>
 </table>
-
- 

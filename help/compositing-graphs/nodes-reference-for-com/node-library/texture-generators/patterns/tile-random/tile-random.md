@@ -1,6 +1,7 @@
 ---
-title: "Tile Random | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random"
+title: "Tile Random"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random"
 ---
 
 # Tile Random
@@ -97,5 +98,3 @@ Tile Random is used instead of [Tile Generator](../tile-generator/tile-generator
 </td>
 </tr>
 </table>
-
- 

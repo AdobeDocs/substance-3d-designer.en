@@ -1,6 +1,7 @@
 ---
-title: "Flood Fill to Random Grayscale | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Random Grayscale"
+title: "Flood Fill to Random Grayscale"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Random Grayscale"
 ---
 
 # Flood Fill to Random Grayscale
@@ -37,5 +38,3 @@ Generates random grayscale Luminance values from a [Flood Fill](../flood-fill/fl
 </td>
 </tr>
 </table>
-
- 

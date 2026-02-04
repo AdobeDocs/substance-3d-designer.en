@@ -1,6 +1,7 @@
 ---
-title: "Line Light | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Line Light"
+title: "Line Light"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Line Light"
 ---
 
 # Line Light
@@ -99,5 +100,3 @@ The positioning modes for this node are slightly more complex than other HDRI Li
 </td>
 </tr>
 </table>
-
- 

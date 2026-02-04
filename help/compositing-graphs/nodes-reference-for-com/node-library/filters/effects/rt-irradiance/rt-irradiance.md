@@ -1,6 +1,7 @@
 ---
-title: "RT Irradiance | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > RT Irradiance"
+title: "RT Irradiance"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > RT Irradiance"
 ---
 
 # RT Irradiance
@@ -60,5 +61,3 @@ Generates ray traced irradiance on a height map input generated from an environm
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="rt-irr-03-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="rt-irr-01-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="rt-irr-02-1.jpg" width="300px"/></div> |
 | --- | --- | --- |
 |  |  |  |
-
- 

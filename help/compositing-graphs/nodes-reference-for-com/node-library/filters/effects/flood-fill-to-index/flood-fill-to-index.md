@@ -1,6 +1,7 @@
 ---
-title: "Flood Fill to Index | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Index"
+title: "Flood Fill to Index"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Index"
 ---
 
 # Flood Fill to Index
@@ -44,5 +45,3 @@ Additionally, Flood Fill to Index makes use of the new [Value system, returning 
 </td>
 </tr>
 </table>
-
- 

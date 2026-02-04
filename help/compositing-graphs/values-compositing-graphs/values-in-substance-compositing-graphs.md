@@ -1,6 +1,7 @@
 ---
-title: "Values in Substance graphs | Substance 3D Designer"
-description: "Designer > Substance graphs > Values in Substance graphs"
+title: "Values in Substance graphs"
+description: ""
+helpx_description: "Designer > Substance graphs > Values in Substance graphs"
 ---
 
 # Values in Substance graphs
@@ -43,5 +44,3 @@ Value Processor can only return a single Value, if you want to return multiple V
 To highlight where Values are exposed or in use, any Node that has Value Inputs, or Value Outputs, is highlighted with a thick yellow border:
 
 ![Working with values](yellowhighlight.png "Working with values")
-
- 

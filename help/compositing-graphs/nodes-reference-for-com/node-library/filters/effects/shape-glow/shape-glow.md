@@ -1,6 +1,7 @@
 ---
-title: "Shape Glow | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Glow"
+title: "Shape Glow"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Glow"
 ---
 
 # Shape Glow
@@ -45,5 +46,3 @@ Creates a soft glow around an input mask (for the grayscale version) or a shape 
 </td>
 </tr>
 </table>
-
- 

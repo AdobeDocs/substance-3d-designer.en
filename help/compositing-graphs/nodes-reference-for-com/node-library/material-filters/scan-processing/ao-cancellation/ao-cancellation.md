@@ -1,6 +1,7 @@
 ---
-title: "AO Cancellation | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation"
+title: "AO Cancellation"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation"
 ---
 
 # AO Cancellation
@@ -40,5 +41,3 @@ A useful node for when you have a baked AO map from a scanned mesh, or alternati
 </td>
 </tr>
 </table>
-
- 

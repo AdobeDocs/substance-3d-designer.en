@@ -1,6 +1,7 @@
 ---
-title: "ID To Mask Grayscale | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > ID To Mask Grayscale"
+title: "ID To Mask Grayscale"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > ID To Mask Grayscale"
 ---
 
 # ID To Mask Grayscale
@@ -95,5 +96,3 @@ An ID map is an image where pixels which are part of a whole (E.g., a shape) all
 </td>
 </tr>
 </table>
-
- 

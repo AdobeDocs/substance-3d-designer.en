@@ -1,6 +1,7 @@
 ---
-title: "Uber Emboss | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Uber Emboss"
+title: "Uber Emboss"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Uber Emboss"
 ---
 
 # Uber Emboss
@@ -58,5 +59,3 @@ Useful when creating baked-in lighting for certain texturing styles when a lot o
 </td>
 </tr>
 </table>
-
- 

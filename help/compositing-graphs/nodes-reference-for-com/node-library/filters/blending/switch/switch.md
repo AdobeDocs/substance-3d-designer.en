@@ -1,6 +1,7 @@
 ---
-title: "Switch | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Switch"
+title: "Switch"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Switch"
 ---
 
 # Switch
@@ -46,5 +47,3 @@ Important: make sure to use the appropriate version for your input! Use "Switch"
 </td>
 </tr>
 </table>
-
- 

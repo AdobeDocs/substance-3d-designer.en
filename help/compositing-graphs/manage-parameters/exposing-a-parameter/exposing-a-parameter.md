@@ -1,6 +1,7 @@
 ---
-title: "Exposing a parameter | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Exposing a parameter"
+title: "Exposing a parameter"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Exposing a parameter"
 ---
 
 # Exposing a parameter
@@ -164,7 +165,7 @@ All exposed Parameters are listed under the Input Parameters tab. The following 
 1. <b>Clamp</b>: Set wether Min and Max are soft or hard limits (allow the user to go past the limits).
 1. <b>Step</b>:Set the precison or granularity of the value.
 1. <b>User Data: </b>Custom user data, available for any purpose.
-1. <b>Visible If</b>: Special expression system to show or hide parameters based on external conditions. See [Visible if: control visibility of inputs, outputs and parameters](../../visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
+1. <b>Visible If</b>: Special expression system to show or hide parameters based on external conditions. See [Visible if: control visibility of inputs, outputs and parameters](../../exposing-a-parameter/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
 
 ![Drop down list editor for Integer parameter](dropdown.gif "Drop down list editor for Integer parameter"){width="512px"}
 
@@ -244,5 +245,3 @@ To actually remove a parameter that is in use, requires two distinct steps.
 
 1. On the node with the exposed parameter, click the dropdown arrow to the right of the Function Expose button that is colored in blue: ![](image2019-9-19-14-55-55.png). Then choose "Reset to Default Value". This removes the use of the parameter on this one node. repeat for any other node making use of the same parameter. "Reset to Default value" also resets the range of the parameter widget to its *soft range*.
 1. In the Input Parameters list of the Graph, click the X all the way to the right of the parameter's entry. This deletes the parameter completely. If any nodes try to make use of this parameter, a warning badge will appear (see above).
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Extend Shape | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Extend Shape"
+title: "Extend Shape"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Extend Shape"
 ---
 
 # Extend Shape
@@ -89,5 +90,3 @@ The **Show helper** parameter lets you visualize the extended section and extens
 </td>
 </tr>
 </table>
-
- 

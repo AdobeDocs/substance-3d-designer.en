@@ -1,6 +1,7 @@
 ---
-title: "Paths Polygon | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Polygon"
+title: "Paths Polygon"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Polygon"
 ---
 
 # Paths Polygon
@@ -53,5 +54,3 @@ Tip: enter a number between 100 and 1000 to generate a circle.
 </td>
 </tr>
 </table>
-
- 

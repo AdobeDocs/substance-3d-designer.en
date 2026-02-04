@@ -1,6 +1,7 @@
 ---
-title: "Edge Notch | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Notch"
+title: "Edge Notch"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Notch"
 ---
 
 # Edge Notch
@@ -47,5 +48,3 @@ This mask represents a simple mask for raised edges, broken up by a high-frequen
 </td>
 </tr>
 </table>
-
- 

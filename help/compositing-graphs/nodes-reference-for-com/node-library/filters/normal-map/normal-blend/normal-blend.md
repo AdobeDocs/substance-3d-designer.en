@@ -1,6 +1,7 @@
 ---
-title: "Normal Blend | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Blend"
+title: "Normal Blend"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Blend"
 ---
 
 # Normal Blend
@@ -53,5 +54,3 @@ Normal Blend is not intended for combining (overlaying) Normalmaps, where the to
 </td>
 </tr>
 </table>
-
- 

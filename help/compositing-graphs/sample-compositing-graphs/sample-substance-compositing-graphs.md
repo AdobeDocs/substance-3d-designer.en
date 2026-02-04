@@ -1,6 +1,7 @@
 ---
-title: "Sample Substance graphs | Substance 3D Designer"
-description: "Designer > Substance graphs > Sample Substance graphs"
+title: "Sample Substance graphs"
+description: ""
+helpx_description: "Designer > Substance graphs > Sample Substance graphs"
 ---
 
 # Sample Substance graphs
@@ -69,5 +70,3 @@ This project demonstrates two simple uses cases for the Pixel processor: as a ge
 </td>
 </tr>
 </table>
-
- 

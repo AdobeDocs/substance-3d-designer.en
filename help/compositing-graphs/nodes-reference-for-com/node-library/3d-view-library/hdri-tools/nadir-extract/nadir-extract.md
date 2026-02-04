@@ -1,6 +1,7 @@
 ---
-title: "Nadir Extract | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Extract"
+title: "Nadir Extract"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Extract"
 ---
 
 # Nadir Extract
@@ -35,5 +36,3 @@ Extracts the central ground point (nadir) of a spherical mapped input image. Can
 </td>
 </tr>
 </table>
-
- 

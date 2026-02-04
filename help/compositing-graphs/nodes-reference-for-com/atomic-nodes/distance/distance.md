@@ -1,6 +1,7 @@
 ---
-title: "Distance | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance"
+title: "Distance"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance"
 ---
 
 # Distance
@@ -108,5 +109,3 @@ See the below for more info.
 </td>
 </tr>
 </table>
-
- 

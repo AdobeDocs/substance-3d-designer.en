@@ -1,6 +1,7 @@
 ---
-title: "PBR Metal Reflectance | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Metal Reflectance"
+title: "PBR Metal Reflectance"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Metal Reflectance"
 ---
 
 # PBR Metal Reflectance
@@ -39,5 +40,3 @@ This node is useful when you want a starting point for a pure metal, and allows 
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Flood Fill to Gradient | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Gradient"
+title: "Flood Fill to Gradient"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Gradient"
 ---
 
 # Flood Fill to Gradient
@@ -53,5 +54,3 @@ Transforms a [Flood Fill](../flood-fill/flood-fill.md) base into (randomly orien
 </td>
 </tr>
 </table>
-
- 

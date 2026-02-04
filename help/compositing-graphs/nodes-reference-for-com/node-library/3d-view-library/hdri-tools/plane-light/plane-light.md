@@ -1,6 +1,7 @@
 ---
-title: "Plane Light | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Plane Light"
+title: "Plane Light"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Plane Light"
 ---
 
 # Plane Light
@@ -95,5 +96,3 @@ It differs from the simpler [Shape Light](../shape-light/shape-light.md) in that
 </td>
 </tr>
 </table>
-
- 

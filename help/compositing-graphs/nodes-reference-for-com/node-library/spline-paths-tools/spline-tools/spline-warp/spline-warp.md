@@ -1,6 +1,7 @@
 ---
-title: "Spline Warp | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Warp"
+title: "Spline Warp"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Warp"
 ---
 
 # Spline Warp
@@ -214,5 +215,3 @@ Background Preview IntensityFloatThe value multiplied against the background Pre
 </td>
 </tr>
 </table>
-
- 

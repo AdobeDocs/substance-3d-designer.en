@@ -1,6 +1,7 @@
 ---
-title: "Blur HQ | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Blur HQ"
+title: "Blur HQ"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Blur HQ"
 ---
 
 # Blur HQ
@@ -41,5 +42,3 @@ Important: make sure to use the appropriate version for your input! Use "Blur HQ
 </td>
 </tr>
 </table>
-
- 

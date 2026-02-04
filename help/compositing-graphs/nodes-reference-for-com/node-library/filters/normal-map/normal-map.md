@@ -1,6 +1,7 @@
 ---
-title: "Normal Map | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map"
+title: "Normal Map"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map"
 ---
 
 # Normal Map
@@ -14,5 +15,3 @@ Some very useful nodes in this category are:
 * [Normal Combine](normal-combine/normal-combine.md)
 * [Normal Sobel](normal-sobel/normal-sobel.md)
 * [Normal Normalize](normal-normalize/normal-normalize.md)
-
- 

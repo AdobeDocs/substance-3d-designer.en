@@ -1,6 +1,7 @@
 ---
-title: "Grunge Rust Fine | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rust Fine"
+title: "Grunge Rust Fine"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rust Fine"
 ---
 
 # Grunge Rust Fine
@@ -55,5 +56,3 @@ The **Grunge Rust Fine** node generates a grunge map akin to a fine grunge rust 
 </td>
 </tr>
 </table>
-
- 

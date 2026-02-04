@@ -1,6 +1,7 @@
 ---
-title: "Shape Splatter to Mask | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter to Mask"
+title: "Shape Splatter to Mask"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter to Mask"
 ---
 
 # Shape Splatter to Mask
@@ -36,5 +37,3 @@ Converts [Shape Splatter](../shape-splatter/shape-splatter.md) Data into a black
 </td>
 </tr>
 </table>
-
- 

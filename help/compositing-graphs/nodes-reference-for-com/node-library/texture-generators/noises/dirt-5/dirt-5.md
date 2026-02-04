@@ -1,6 +1,7 @@
 ---
-title: "Dirt 5 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt 5"
+title: "Dirt 5"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt 5"
 ---
 
 # Dirt 5
@@ -113,5 +114,3 @@ See also: [Dirt 1](../dirt-1/dirt-1.md), [Dirt 2](../dirt-2/dirt-2.md), [Dirt 3]
 </td>
 </tr>
 </table>
-
- 

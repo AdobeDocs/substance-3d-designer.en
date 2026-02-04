@@ -1,6 +1,7 @@
 ---
-title: "Caustics | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Caustics"
+title: "Caustics"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Caustics"
 ---
 
 # Caustics
@@ -56,5 +57,3 @@ Generates projected caustics based on a height map and a light direction.Comes i
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="rt-caustics-grayscale-1.png" width="300px"/></div> |
 | --- |
 |  |
-
- 

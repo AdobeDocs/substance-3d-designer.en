@@ -1,6 +1,7 @@
 ---
-title: "3D Linear Gradient | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > 3D Linear Gradient"
+title: "3D Linear Gradient"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > 3D Linear Gradient"
 ---
 
 # 3D Linear Gradient
@@ -43,5 +44,3 @@ Also see [3D Volume Mask](../3d-volume-mask/3d-volume-mask.md) for a similar eff
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Grunge Damas | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Damas"
+title: "Grunge Damas"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Damas"
 ---
 
 # Grunge Damas
@@ -42,5 +43,3 @@ The **Grunge Damas** node generates a grunge map akin to a Damascus steel patter
 ## Example Images
 
 ![](grungedamas-variant.jpg){width="256px"}
-
- 

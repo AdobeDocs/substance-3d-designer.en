@@ -1,6 +1,7 @@
 ---
-title: "Mesh 2 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Mesh 2"
+title: "Mesh 2"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Mesh 2"
 ---
 
 # Mesh 2
@@ -39,5 +40,3 @@ Simple mesh pattern with fat blocks. Can be used to create height and detail map
 </td>
 </tr>
 </table>
-
- 

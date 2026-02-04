@@ -1,11 +1,12 @@
 ---
-title: "Mask Generators | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators"
+title: "Mask Generators"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators"
 ---
 
 # Mask Generators
 
-This category contains a selection of black-and-white mask-generating nodes. Based on baked map information, they generate masks that can then be used to blend together materials and other effects. These nodes are similar to [Smart Masks](../../../../../../substance-3d-painter/features/smart-materials-and-masks/smart-materials-and-masks.md) and [Generators](../../../../../../substance-3d-painter/content/creating-custom-effects/generators/generators.md) in Substance Painter.
+This category contains a selection of black-and-white mask-generating nodes. Based on baked map information, they generate masks that can then be used to blend together materials and other effects. These nodes are similar to [Smart Masks](https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html) and [Generators](https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/generators.html) in Substance Painter.
 
 All of these nodes require [baked maps,](../../../../../bakers/bakers.md) as without [baked maps](../../../../../bakers/bakers.md) there won't be much of a result.
 
@@ -17,5 +18,3 @@ Some interesting nodes in this category are:
 * [Edge Damages](edge-damages/edge-damages.md)
 * [Bottom To Top](bottom-to-top/bottom-to-top.md)
 * [Mask Builder](mask-builder/mask-builder.md)
-
- 

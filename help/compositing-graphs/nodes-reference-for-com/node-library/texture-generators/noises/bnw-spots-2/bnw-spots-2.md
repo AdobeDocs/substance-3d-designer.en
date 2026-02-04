@@ -1,6 +1,7 @@
 ---
-title: "BnW spots 2 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > BnW spots 2"
+title: "BnW spots 2"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > BnW spots 2"
 ---
 
 # BnW spots 2
@@ -113,5 +114,3 @@ See also: [BnW spots 1](../bnw-spots-1/bnw-spots-1.md), [BnW spots 3](../bnw-sp
 </td>
 </tr>
 </table>
-
- 

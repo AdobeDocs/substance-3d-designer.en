@@ -1,6 +1,7 @@
 ---
-title: "Grunge Spots Dirty | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Spots Dirty"
+title: "Grunge Spots Dirty"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Spots Dirty"
 ---
 
 # Grunge Spots Dirty
@@ -52,5 +53,3 @@ The **Grunge Spots Dirty** node generates a grunge map akin to spots of dirt.
 </td>
 </tr>
 </table>
-
- 

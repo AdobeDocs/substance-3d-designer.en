@@ -1,6 +1,7 @@
 ---
-title: "Atlas Splitter | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Splitter"
+title: "Atlas Splitter"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Splitter"
 ---
 
 # Atlas Splitter
@@ -93,5 +94,3 @@ Custom BG color for custom User 1 Map
 <b>User 2 Bg Color</b> *Float*Custom BG color for custom User 1 Map
 
 ## Examples
-
- 

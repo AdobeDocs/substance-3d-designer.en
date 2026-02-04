@@ -1,6 +1,7 @@
 ---
-title: "Grunge Galvanic Small | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Small"
+title: "Grunge Galvanic Small"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Small"
 ---
 
 # Grunge Galvanic Small
@@ -53,5 +54,3 @@ The **Grunge Galvanic Small** node generates a grunge map akin to the pattern of
 </td>
 </tr>
 </table>
-
- 

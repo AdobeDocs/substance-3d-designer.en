@@ -1,6 +1,7 @@
 ---
-title: "Normal Invert | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Invert"
+title: "Normal Invert"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Invert"
 ---
 
 # Normal Invert
@@ -42,5 +43,3 @@ Keep in mind that almost every node that uses a Normalmap as input or output has
 </td>
 </tr>
 </table>
-
- 

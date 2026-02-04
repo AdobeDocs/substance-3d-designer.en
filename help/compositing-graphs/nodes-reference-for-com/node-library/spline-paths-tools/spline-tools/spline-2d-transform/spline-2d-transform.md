@@ -1,6 +1,7 @@
 ---
-title: "Spline 2D Transform | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline 2D Transform"
+title: "Spline 2D Transform"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline 2D Transform"
 ---
 
 # Spline 2D Transform
@@ -156,5 +157,3 @@ Thickness (px)FloatAdjusts the thickness of the spline visualization in pixels i
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Summed Area Table | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Summed Area Table"
+title: "Summed Area Table"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Summed Area Table"
 ---
 
 # Summed Area Table
@@ -27,5 +28,3 @@ Returns the *sum* of the image's pixel values, starting from the *top left* pixe
 </td>
 </tr>
 </table>
-
- 

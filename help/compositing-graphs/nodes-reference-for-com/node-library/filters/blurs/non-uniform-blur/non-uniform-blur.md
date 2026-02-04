@@ -1,6 +1,7 @@
 ---
-title: "Non Uniform Blur | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Non Uniform Blur"
+title: "Non Uniform Blur"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Non Uniform Blur"
 ---
 
 # Non Uniform Blur
@@ -51,5 +52,3 @@ Performs a High Quality Blur, where the intensity is driven by an input mask. Op
 </td>
 </tr>
 </table>
-
- 

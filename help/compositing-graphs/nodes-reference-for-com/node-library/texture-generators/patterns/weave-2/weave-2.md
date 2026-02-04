@@ -1,6 +1,7 @@
 ---
-title: "Weave 2 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave 2"
+title: "Weave 2"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave 2"
 ---
 
 # Weave 2
@@ -41,5 +42,3 @@ Generates a simple weave pattern. Has controls for randomisation. At max disorde
 </td>
 </tr>
 </table>
-
- 

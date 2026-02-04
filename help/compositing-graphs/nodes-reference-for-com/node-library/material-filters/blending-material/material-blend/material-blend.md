@@ -1,6 +1,7 @@
 ---
-title: "Material Blend | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend"
+title: "Material Blend"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend"
 ---
 
 # Material Blend
@@ -100,5 +101,3 @@ This node is useful if you want to blend two materials and have a grayscale map 
 </td>
 </tr>
 </table>
-
- 

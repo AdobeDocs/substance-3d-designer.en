@@ -1,6 +1,7 @@
 ---
-title: "Anisotropic Kuwahara Color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Anisotropic Kuwahara Color"
+title: "Anisotropic Kuwahara Color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Anisotropic Kuwahara Color"
 ---
 
 # Anisotropic Kuwahara Color
@@ -154,5 +155,3 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
     </td>
   </tr>
 </table>
-
- 

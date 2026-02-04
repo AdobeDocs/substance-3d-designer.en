@@ -1,6 +1,7 @@
 ---
-title: "Gradient Linear 3 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 3"
+title: "Gradient Linear 3"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 3"
 ---
 
 # Gradient Linear 3
@@ -38,5 +39,3 @@ The most advanced linear gradient. Instead of the rounded, pipe-like profile of 
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Gaussian 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gaussian 1"
+title: "Gaussian 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gaussian 1"
 ---
 
 # Gaussian 1
@@ -38,5 +39,3 @@ Simple gaussian blob pattern.
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Vector Morph | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Vector Morph"
+title: "Vector Morph"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Vector Morph"
 ---
 
 # Vector Morph
@@ -44,5 +45,3 @@ Vector Morph is very similar to [Vector Warp](../vector-warp/vector-warp.md): th
 </td>
 </tr>
 </table>
-
- 

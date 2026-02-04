@@ -1,6 +1,7 @@
 ---
-title: "Make It Tile Patch | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Patch"
+title: "Make It Tile Patch"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Patch"
 ---
 
 # Make It Tile Patch
@@ -56,5 +57,3 @@ To do this with an entire material, see [Smart Auto Tile](../../../material-filt
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Material Height Blend | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Material Height Blend"
+title: "Material Height Blend"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Material Height Blend"
 ---
 
 # Material Height Blend
@@ -51,5 +52,3 @@ If you want to blend in water or snow, the nodes [Snow Cover](../snow-cover/snow
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "3D Texture Position | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Position"
+title: "3D Texture Position"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Position"
 ---
 
 # 3D Texture Position
@@ -48,5 +49,3 @@ No parameters.
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Straight to Pre-multiplied | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Straight to Pre-multiplied"
+title: "Straight to Pre-multiplied"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Straight to Pre-multiplied"
 ---
 
 # Straight to Pre-multiplied
@@ -37,5 +38,3 @@ Converts a straight alpha to pre-multiplied, multiplying a color into alpha-blen
 </td>
 </tr>
 </table>
-
- 

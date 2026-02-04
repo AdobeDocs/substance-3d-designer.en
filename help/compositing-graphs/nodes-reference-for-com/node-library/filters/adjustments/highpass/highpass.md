@@ -1,6 +1,7 @@
 ---
-title: "Highpass | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Highpass"
+title: "Highpass"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Highpass"
 ---
 
 # Highpass
@@ -43,5 +44,3 @@ Important: make sure to use the appropriate version for your input! Use "Highpas
 </td>
 </tr>
 </table>
-
- 

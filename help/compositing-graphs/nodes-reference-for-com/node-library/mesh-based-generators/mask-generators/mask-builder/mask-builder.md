@@ -1,6 +1,7 @@
 ---
-title: "Mask Builder | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Mask Builder"
+title: "Mask Builder"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Mask Builder"
 ---
 
 # Mask Builder
@@ -120,5 +121,3 @@ No bakes are explicitely required, but the more you supply, the more this node i
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Arc Pavement | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Arc Pavement"
+title: "Arc Pavement"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Arc Pavement"
 ---
 
 # Arc Pavement
@@ -61,5 +62,3 @@ Generates a Parisian arc pavement pattern. This effect cannot be achieved with s
 </td>
 </tr>
 </table>
-
- 

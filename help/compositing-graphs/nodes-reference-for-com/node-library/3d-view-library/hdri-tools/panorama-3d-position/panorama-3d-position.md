@@ -1,6 +1,7 @@
 ---
-title: "Panorama 3D Position | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Panorama 3D Position"
+title: "Panorama 3D Position"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Panorama 3D Position"
 ---
 
 # Panorama 3D Position
@@ -35,5 +36,3 @@ Helper node that renders a world-space position map for a spehircally projected 
 </td>
 </tr>
 </table>
-
- 

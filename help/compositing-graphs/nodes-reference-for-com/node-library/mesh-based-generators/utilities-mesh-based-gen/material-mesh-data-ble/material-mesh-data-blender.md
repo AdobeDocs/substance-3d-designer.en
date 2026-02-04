@@ -1,6 +1,7 @@
 ---
-title: "Material Mesh Data Blender | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Mesh Data Blender"
+title: "Material Mesh Data Blender"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Mesh Data Blender"
 ---
 
 # Material Mesh Data Blender
@@ -98,5 +99,3 @@ It is useful for doing things like adding edge highlighting based on curvature o
 </td>
 </tr>
 </table>
-
- 

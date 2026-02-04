@@ -1,6 +1,7 @@
 ---
-title: "Diffusion Grayscale | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Grayscale"
+title: "Diffusion Grayscale"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Grayscale"
 ---
 
 # Diffusion Grayscale
@@ -86,5 +87,3 @@ Only values from pixels matching the mask are diffused; other pixels don't parti
 </td>
 </tr>
 </table>
-
- 

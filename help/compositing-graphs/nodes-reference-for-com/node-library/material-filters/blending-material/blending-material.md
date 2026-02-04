@@ -1,6 +1,7 @@
 ---
-title: "Blending (Material) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material)"
+title: "Blending (Material)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material)"
 ---
 
 # Blending (Material)
@@ -13,5 +14,3 @@ The following nodes are good ones to start with:
 
 * [Multi-Material Blend](multi-material-blend/multi-material-blend.md)
 * [Material Adjustment Blend](material-adjustment-blend/material-adjustment-blend.md)
-
- 

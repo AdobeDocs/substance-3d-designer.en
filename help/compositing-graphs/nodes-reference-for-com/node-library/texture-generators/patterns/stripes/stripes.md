@@ -1,6 +1,7 @@
 ---
-title: "Stripes | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Stripes"
+title: "Stripes"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Stripes"
 ---
 
 # Stripes
@@ -42,5 +43,3 @@ Generates a tiling, angled, stripe pattern. The pattern adjusts itself to always
 </td>
 </tr>
 </table>
-
- 

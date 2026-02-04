@@ -1,6 +1,7 @@
 ---
-title: "Shape Drop Shadow | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Drop Shadow"
+title: "Shape Drop Shadow"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Drop Shadow"
 ---
 
 # Shape Drop Shadow
@@ -50,5 +51,3 @@ It differs from the [Shadows](../shadows-filter-node/shadows-filter-node.md) eff
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Moisture noise 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Moisture noise 1"
+title: "Moisture noise 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Moisture noise 1"
 ---
 
 # Moisture noise 1
@@ -119,5 +120,3 @@ See also: [Moisture noise 2](../moisture-noise-2/moisture-noise-2.md)
 </td>
 </tr>
 </table>
-
- 

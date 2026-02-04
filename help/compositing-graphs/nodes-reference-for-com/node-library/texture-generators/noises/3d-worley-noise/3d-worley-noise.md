@@ -1,6 +1,7 @@
 ---
-title: "3D Worley Noise | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Worley Noise"
+title: "3D Worley Noise"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Worley Noise"
 ---
 
 # 3D Worley Noise
@@ -47,5 +48,3 @@ One of the most versatile and advanced noises in the library, it generates a Wor
 </td>
 </tr>
 </table>
-
- 

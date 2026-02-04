@@ -1,6 +1,7 @@
 ---
-title: "Ambient Occlusion (RTAO) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (RTAO)"
+title: "Ambient Occlusion (RTAO)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (RTAO)"
 ---
 
 # Ambient Occlusion (RTAO)
@@ -67,5 +68,3 @@ Sets the spreading angle for the rays to be shot at. A value of 1 is a full hemi
 </td>
 </tr>
 </table>
-
- 

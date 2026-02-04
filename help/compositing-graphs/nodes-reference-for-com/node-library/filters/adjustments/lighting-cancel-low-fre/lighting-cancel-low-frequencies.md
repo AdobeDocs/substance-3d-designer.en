@@ -1,6 +1,7 @@
 ---
-title: "Lighting Cancel Low Frequencies | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel Low Frequencies"
+title: "Lighting Cancel Low Frequencies"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel Low Frequencies"
 ---
 
 # Lighting Cancel Low Frequencies
@@ -39,5 +40,3 @@ Also see [Luminance Highpass](../luminance-highpass/luminance-highpass.md) for a
 </td>
 </tr>
 </table>
-
- 

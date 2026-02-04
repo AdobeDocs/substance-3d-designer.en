@@ -1,6 +1,7 @@
 ---
-title: "Shape Splatter | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter"
+title: "Shape Splatter"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter"
 ---
 
 # Shape Splatter
@@ -99,5 +100,3 @@ It's main purpose is to allow placement of shapes onto and driven by a height ma
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Value processor | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor"
+title: "Value processor"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor"
 ---
 
 # Value processor
@@ -73,7 +74,7 @@ It is comparable to a [Pixel processor](../pixel-processor/pixel-processor.md), 
 
 |  |  |
 | --- | --- |
-| <b>Input image &#35;</b> *Grayscale/Color* | Use a [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) or [Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) node to access the values in the input of the specified index. |
+| <b>Input image &#35;</b> *Grayscale/Color* | Use a [Sample color](../../../../function-graphs/nodes-reference-for-fun/sampler-nodes/sampler-nodes.md) or [Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/sampler-nodes/sampler-nodes.md) node to access the values in the input of the specified index. |
 
 ## Output connectors
 
@@ -84,5 +85,3 @@ It is comparable to a [Pixel processor](../pixel-processor/pixel-processor.md), 
 ## Examples
 
 *Coming soon.*
-
- 

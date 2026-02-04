@@ -1,6 +1,7 @@
 ---
-title: "Flood Fill Mapper | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper"
+title: "Flood Fill Mapper"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper"
 ---
 
 # Flood Fill Mapper
@@ -89,5 +90,3 @@ The Color version has additional controls to work with Normal Maps, where it can
 </td>
 </tr>
 </table>
-
- 

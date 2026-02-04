@@ -1,6 +1,7 @@
 ---
-title: "HDR Merge | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > HDR Merge"
+title: "HDR Merge"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > HDR Merge"
 ---
 
 # HDR Merge
@@ -39,5 +40,3 @@ Merge multiple photographic exposures to create a High Dynamic Range image. The 
 </td>
 </tr>
 </table>
-
- 

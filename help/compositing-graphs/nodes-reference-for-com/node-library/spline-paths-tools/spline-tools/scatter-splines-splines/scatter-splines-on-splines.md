@@ -1,6 +1,7 @@
 ---
-title: "Scatter Splines on Splines | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter Splines on Splines"
+title: "Scatter Splines on Splines"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter Splines on Splines"
 ---
 
 # Scatter Splines on Splines
@@ -168,5 +169,3 @@ Click the image on the right to access our <b>dedicated tutorial</b>, for a guid
 </table>
 
 ![Scatter Splines on Splines: Render 3](scatter-splines-on-splines-demo-2.png "Scatter Splines on Splines: Render 3"){zoomable="yes"}
-
- 

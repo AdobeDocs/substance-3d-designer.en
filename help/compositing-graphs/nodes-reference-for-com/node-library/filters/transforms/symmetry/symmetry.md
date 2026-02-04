@@ -1,6 +1,7 @@
 ---
-title: "Symmetry | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry"
+title: "Symmetry"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry"
 ---
 
 # Symmetry
@@ -40,5 +41,3 @@ This node is very similar to [Mirror](../mirror-filter-node/mirror-filter-node.m
 </td>
 </tr>
 </table>
-
- 

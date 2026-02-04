@@ -1,6 +1,7 @@
 ---
-title: "Grayscale Conversion Advanced | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Grayscale Conversion Advanced"
+title: "Grayscale Conversion Advanced"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Grayscale Conversion Advanced"
 ---
 
 # Grayscale Conversion Advanced
@@ -37,5 +38,3 @@ Advanced, quick grayscale conversion node that offers a few preset conversion mo
 </td>
 </tr>
 </table>
-
- 

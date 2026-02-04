@@ -1,6 +1,7 @@
 ---
-title: "Point List | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List"
+title: "Point List"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List"
 ---
 
 # Point List
@@ -134,5 +135,3 @@ Points SizeFloat(Available when 'Show Points' is set to 'True')The radius of the
 </td>
 </tr>
 </table>
-
- 

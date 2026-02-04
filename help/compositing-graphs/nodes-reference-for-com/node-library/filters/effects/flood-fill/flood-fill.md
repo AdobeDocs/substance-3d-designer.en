@@ -1,6 +1,7 @@
 ---
-title: "Flood Fill | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill"
+title: "Flood Fill"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill"
 ---
 
 # Flood Fill
@@ -49,5 +50,3 @@ Good and bad examples of results from Flood Fill.
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Spline Bridge Mapper Color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Color"
+title: "Spline Bridge Mapper Color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Color"
 ---
 
 # Spline Bridge Mapper Color
@@ -119,5 +120,3 @@ A higher amount of segments results in a smoother mapping along curves.
 </td>
 </tr>
 </table>
-
- 

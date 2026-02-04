@@ -1,6 +1,7 @@
 ---
-title: "HSL | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL"
+title: "HSL"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL"
 ---
 
 # HSL
@@ -82,5 +83,3 @@ If you are after other ways to edit the tones of an image, look at [Curve](../cu
 ## Examples
 
 *Coming soon.*
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Working with Path  Spline tools | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Working with Path  Spline tools"
+title: "Working with Path  Spline tools"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Working with Path  Spline tools"
 ---
 
 # Working with Path &amp; Spline tools
@@ -235,5 +236,3 @@ There are three main ways of using splines for generating graphics:
 * Render the spline using its shape and properties with the [Spline Render](../spline-tools/spline-render/spline-render.md) or [Spline Fill](../spline-tools/spline-fill/spline-fill.md) node;
 * Map images along splines with mapping nodes such as [Spline Mapper](../spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md), [Spline Bridge Mapper](../spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) and [Spline Flow Mapper](../spline-tools/spline-flow-mapper/spline-flow-mapper.md);
 * Scatter patterns along splines with the [Scatter on Spline](../spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md) node.
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Leaks | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leaks"
+title: "Leaks"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leaks"
 ---
 
 # Leaks
@@ -63,5 +64,3 @@ Make sure to try changing the variation mask: because it drives the placement of
 </td>
 </tr>
 </table>
-
- 

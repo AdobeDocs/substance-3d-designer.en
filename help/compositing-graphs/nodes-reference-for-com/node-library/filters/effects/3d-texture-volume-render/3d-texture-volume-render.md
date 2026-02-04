@@ -1,6 +1,7 @@
 ---
-title: "3D Texture Volume Render | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render"
+title: "3D Texture Volume Render"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render"
 ---
 
 # 3D Texture Volume Render
@@ -138,5 +139,3 @@ The volume is represented within the bounds of a *unit cube*. The lighting is co
 </td>
 </tr>
 </table>
-
- 

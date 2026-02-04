@@ -1,6 +1,7 @@
 ---
-title: "Luminosity (Blend Node) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Luminosity (Blend Node)"
+title: "Luminosity (Blend Node)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Luminosity (Blend Node)"
 ---
 
 # Luminosity (Blend Node)
@@ -43,5 +44,3 @@ Performs a Luminosity blend mode, which preserves the hue and chrominance of the
 </td>
 </tr>
 </table>
-
- 

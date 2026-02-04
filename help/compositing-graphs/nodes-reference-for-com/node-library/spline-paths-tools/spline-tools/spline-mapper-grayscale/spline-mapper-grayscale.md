@@ -1,6 +1,7 @@
 ---
-title: "Spline Mapper Grayscale | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Mapper Grayscale"
+title: "Spline Mapper Grayscale"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Mapper Grayscale"
 ---
 
 # Spline Mapper Grayscale
@@ -176,5 +177,3 @@ This also impacts uniform distribution.
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Bottom To Top | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Bottom To Top"
+title: "Bottom To Top"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Bottom To Top"
 ---
 
 # Bottom To Top
@@ -22,7 +23,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 
 ## Description
 
-Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](../../../../../../../substance-3d-painter/features/smart-materials-and-masks/smart-materials-and-masks.md) in [Painter](../../../../../../../substance-3d-painter/home/home.md).
+Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html) in [Painter](https://helpx.adobe.com/substance-3d-painter/home.html).
 
 This generates a white to black transition from the bottom to the top of a model, useful for making geometry-based falloffs and selections.
 
@@ -52,5 +53,3 @@ This generates a white to black transition from the bottom to the top of a model
 </td>
 </tr>
 </table>
-
- 

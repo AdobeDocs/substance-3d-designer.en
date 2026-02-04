@@ -1,6 +1,7 @@
 ---
-title: "Gaussian noise | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Gaussian noise"
+title: "Gaussian noise"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Gaussian noise"
 ---
 
 # Gaussian noise
@@ -113,5 +114,3 @@ See also: [Gaussian spots 1](../gaussian-spots-1/gaussian-spots-1.md), [Gaussian
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Season Filter | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Season Filter"
+title: "Season Filter"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Season Filter"
 ---
 
 # Season Filter
@@ -91,5 +92,3 @@ The node requires a proper set of material inputs, mainly with a decently detail
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Height to Normal World Units | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height to Normal World Units"
+title: "Height to Normal World Units"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height to Normal World Units"
 ---
 
 # Height to Normal World Units
@@ -43,5 +44,3 @@ Useful for when you know your source Heightmap's dimensions and want to perform 
 </td>
 </tr>
 </table>
-
- 

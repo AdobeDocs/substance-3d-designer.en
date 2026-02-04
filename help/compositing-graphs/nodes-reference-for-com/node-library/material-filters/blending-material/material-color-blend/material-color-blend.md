@@ -1,6 +1,7 @@
 ---
-title: "Material Color Blend | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Color Blend"
+title: "Material Color Blend"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Color Blend"
 ---
 
 # Material Color Blend
@@ -85,5 +86,3 @@ This node is most useful when you want to either introduce a flat color hint int
 </td>
 </tr>
 </table>
-
- 

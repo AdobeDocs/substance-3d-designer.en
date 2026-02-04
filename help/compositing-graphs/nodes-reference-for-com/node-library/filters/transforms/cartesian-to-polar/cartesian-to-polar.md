@@ -1,6 +1,7 @@
 ---
-title: "Cartesian To Polar | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Cartesian To Polar"
+title: "Cartesian To Polar"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Cartesian To Polar"
 ---
 
 # Cartesian To Polar
@@ -39,5 +40,3 @@ Converts an input with Cartesian coordinates (X&amp;Y) to Polar coordinates (Ang
 </td>
 </tr>
 </table>
-
- 

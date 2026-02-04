@@ -1,6 +1,7 @@
 ---
-title: "Edge Blur | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Blur"
+title: "Edge Blur"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Blur"
 ---
 
 # Edge Blur
@@ -50,5 +51,3 @@ This mask highlights edges based on a baked curvature map. It is one of the more
 </td>
 </tr>
 </table>
-
- 

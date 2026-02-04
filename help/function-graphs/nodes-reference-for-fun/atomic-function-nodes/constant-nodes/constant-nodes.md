@@ -153,7 +153,7 @@ A Float, has a single component, the (1) is omitted from the name for brevity. F
 
 <b>Float2</b>
 
-A Float2 node generates a static 2-component Float Vector. Components are named X, Y. Float2 is quite common and is used for [sampling coordinates](../sampler-nodes/sampler-nodes.md), and for [Transformation Offsets](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
+A Float2 node generates a static 2-component Float Vector. Components are named X, Y. Float2 is quite common and is used for [sampling coordinates](../../sampler-nodes/sampler-nodes.md), and for [Transformation Offsets](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ Two additional data types exist inside Substance function graphs: booleans and s
 
 <b>Boolean</b>
 
-A Boolean is the simplest data type there is, knowing only two states: True or False, 1 or 0. It is represented by the color white. It is not possible to interchange between Boolean and Integer without [Casting](../cast-nodes/cast-nodes.md), or by using [Logical Nodes.](../logical-nodes/logical-nodes.md) A Boolean is quite common and it's an excellent way to control the flow of a function or graph, a typical use would be for a [Switch Node.](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
+A Boolean is the simplest data type there is, knowing only two states: True or False, 1 or 0. It is represented by the color white. It is not possible to interchange between Boolean and Integer without [Casting](../cast-nodes/cast-nodes.md), or by using [Logical Nodes.](../../logical-nodes/logical-nodes.md) A Boolean is quite common and it's an excellent way to control the flow of a function or graph, a typical use would be for a [Switch Node.](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
 
 </td>
 </tr>

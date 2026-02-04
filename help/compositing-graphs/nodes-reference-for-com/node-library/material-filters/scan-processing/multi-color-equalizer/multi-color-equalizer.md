@@ -1,6 +1,7 @@
 ---
-title: "Multi Color Equalizer | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Color Equalizer"
+title: "Multi Color Equalizer"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Color Equalizer"
 ---
 
 # Multi Color Equalizer
@@ -67,5 +68,3 @@ This is the multi-input version of [Color Equalizer](../color-equalizer/color-eq
 </td>
 </tr>
 </table>
-
- 

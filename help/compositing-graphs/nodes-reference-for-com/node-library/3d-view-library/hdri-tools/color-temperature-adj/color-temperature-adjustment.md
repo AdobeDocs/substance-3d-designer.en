@@ -1,6 +1,7 @@
 ---
-title: "Color Temperature Adjustment | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Color Temperature Adjustment"
+title: "Color Temperature Adjustment"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Color Temperature Adjustment"
 ---
 
 # Color Temperature Adjustment
@@ -39,5 +40,3 @@ Adjusts input image's color balance. Similar to White Balance adjustment in phot
 </td>
 </tr>
 </table>
-
- 

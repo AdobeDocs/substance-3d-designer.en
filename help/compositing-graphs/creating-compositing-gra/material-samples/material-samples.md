@@ -1,6 +1,7 @@
 ---
-title: "Material samples | Substance 3D Designer"
-description: "Designer > Substance graphs > Creating a Substance graph > Material samples"
+title: "Material samples"
+description: ""
+helpx_description: "Designer > Substance graphs > Creating a Substance graph > Material samples"
 ---
 
 # Material samples
@@ -54,5 +55,3 @@ Double-click any item to create a new graph out of that sample. You may also sel
 By default, the first output of the sample is loaded in the 2D View, and the textures are applied to the 3D View. So your workspace is automatically set up and you are ready to go. (This can be changed in Designer's [preferences](../../../interface/preferences-window/preferences-window.md))
 
 ![Material sample - Graph](materialSamples-graph.png "Material sample - Graph"){zoomable="yes"}
-
- 

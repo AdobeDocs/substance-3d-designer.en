@@ -1,6 +1,7 @@
 ---
-title: "Height Blend | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Height Blend"
+title: "Height Blend"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Height Blend"
 ---
 
 # Height Blend
@@ -53,5 +54,3 @@ This is useful when you have two high-quality Heightmaps to combine, but not nec
 </td>
 </tr>
 </table>
-
- 

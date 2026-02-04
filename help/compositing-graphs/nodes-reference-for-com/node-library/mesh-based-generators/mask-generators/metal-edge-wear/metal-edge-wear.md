@@ -1,6 +1,7 @@
 ---
-title: "Metal Edge Wear | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Metal Edge Wear"
+title: "Metal Edge Wear"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Metal Edge Wear"
 ---
 
 # Metal Edge Wear
@@ -60,5 +61,3 @@ This mask represents edge wear on a metal object, with scratches and chips appea
 </td>
 </tr>
 </table>
-
- 

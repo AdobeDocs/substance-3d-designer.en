@@ -1,6 +1,7 @@
 ---
-title: "Height Extrude | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Height Extrude"
+title: "Height Extrude"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Height Extrude"
 ---
 
 # Height Extrude
@@ -48,5 +49,3 @@ The main diffence with [Shape Extrude](../shape-extrude/shape-extrude.md) is tha
 </td>
 </tr>
 </table>
-
- 

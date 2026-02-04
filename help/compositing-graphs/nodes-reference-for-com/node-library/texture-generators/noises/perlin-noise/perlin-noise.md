@@ -1,6 +1,7 @@
 ---
-title: "Perlin noise | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Perlin noise"
+title: "Perlin noise"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Perlin noise"
 ---
 
 # Perlin noise
@@ -94,5 +95,3 @@ Generates a Perlin noise, a widely used smooth distribution of grayscale values.
 </td>
 </tr>
 </table>
-
- 

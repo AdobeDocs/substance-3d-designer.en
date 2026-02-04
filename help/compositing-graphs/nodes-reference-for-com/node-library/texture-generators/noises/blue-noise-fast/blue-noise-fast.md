@@ -1,6 +1,7 @@
 ---
-title: "Blue Noise Fast | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Blue Noise Fast"
+title: "Blue Noise Fast"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Blue Noise Fast"
 ---
 
 # Blue Noise Fast
@@ -35,5 +36,3 @@ A simple, fast, pixel-scale noise.
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Waveform 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Waveform 1"
+title: "Waveform 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Waveform 1"
 ---
 
 # Waveform 1
@@ -102,5 +103,3 @@ A horizontal arrangement of user-selected patterns stacked into a shape akin to 
 </td>
 </tr>
 </table>
-
- 

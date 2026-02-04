@@ -1,6 +1,7 @@
 ---
-title: "Quad Transform | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform"
+title: "Quad Transform"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform"
 ---
 
 # Quad Transform
@@ -44,5 +45,3 @@ Special transform node that allows transformation of a quad shape through intera
 </td>
 </tr>
 </table>
-
- 

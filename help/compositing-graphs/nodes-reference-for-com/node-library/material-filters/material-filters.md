@@ -1,6 +1,7 @@
 ---
-title: "Material Filters | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters"
+title: "Material Filters"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters"
 ---
 
 # Material Filters
@@ -21,5 +22,3 @@ This category consists of a number of sub-categories:
   PBR helper nodes and tools.
 * [Scan Processing](scan-processing/scan-processing.md)  
   Tools specifically intended for photoscanned textures.
-
- 

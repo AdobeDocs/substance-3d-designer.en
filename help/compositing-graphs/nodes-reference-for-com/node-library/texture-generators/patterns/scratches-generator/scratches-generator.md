@@ -1,6 +1,7 @@
 ---
-title: "Scratches Generator | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Scratches Generator"
+title: "Scratches Generator"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Scratches Generator"
 ---
 
 # Scratches Generator
@@ -60,5 +61,3 @@ There's a special version of Scratches Generator, Scratches Generator Normal, wh
 </td>
 </tr>
 </table>
-
- 

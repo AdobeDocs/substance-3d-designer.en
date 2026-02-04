@@ -1,6 +1,7 @@
 ---
-title: "Plasma | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Plasma"
+title: "Plasma"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Plasma"
 ---
 
 # Plasma
@@ -40,5 +41,3 @@ This generates a slightly different variant of [Gaussian Noise](../gaussian-nois
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Replace Color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Replace Color"
+title: "Replace Color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Replace Color"
 ---
 
 # Replace Color
@@ -40,5 +41,3 @@ See [Replace Color Range](../replace-color-range/replace-color-range.md) or [Col
 </td>
 </tr>
 </table>
-
- 

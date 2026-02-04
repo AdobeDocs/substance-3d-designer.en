@@ -1,6 +1,7 @@
 ---
-title: "Quantize Color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color"
+title: "Quantize Color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color"
 ---
 
 # Quantize Color
@@ -150,5 +151,3 @@ This node may be used in combination with the following nodes: [Create Color Pal
     </td>
   </tr>
 </table>
-
- 

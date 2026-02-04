@@ -1,6 +1,7 @@
 ---
-title: "Adjustments | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments"
+title: "Adjustments"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments"
 ---
 
 # Adjustments
@@ -16,5 +17,3 @@ Some good nodes to check out:
 * [Auto levels](auto-levels/auto-levels.md)
 * [Color to mask](color-to-mask/color-to-mask.md)
 * [Quantize color](quantize-color/quantize-color.md)
-
- 

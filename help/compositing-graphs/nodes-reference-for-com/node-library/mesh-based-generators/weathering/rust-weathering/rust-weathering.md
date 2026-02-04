@@ -1,6 +1,7 @@
 ---
-title: "Rust Weathering | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Rust Weathering"
+title: "Rust Weathering"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Rust Weathering"
 ---
 
 # Rust Weathering
@@ -77,5 +78,3 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 </td>
 </tr>
 </table>
-
- 

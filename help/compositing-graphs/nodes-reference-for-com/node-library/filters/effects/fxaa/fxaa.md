@@ -1,6 +1,7 @@
 ---
-title: "FXAA | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > FXAA"
+title: "FXAA"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > FXAA"
 ---
 
 # FXAA
@@ -31,5 +32,3 @@ Applies an anti aliasing filter based on the FXAA algorithm. You can use this to
 </td>
 </tr>
 </table>
-
- 

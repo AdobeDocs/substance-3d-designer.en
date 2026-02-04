@@ -1,6 +1,7 @@
 ---
-title: "Alpha Merge | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Merge"
+title: "Alpha Merge"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Merge"
 ---
 
 # Alpha Merge
@@ -46,5 +47,3 @@ Simple but handy node for when you just want to mask something out, or when your
 </td>
 </tr>
 </table>
-
- 

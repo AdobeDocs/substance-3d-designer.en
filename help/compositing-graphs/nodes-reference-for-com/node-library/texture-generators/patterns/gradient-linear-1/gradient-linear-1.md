@@ -1,6 +1,7 @@
 ---
-title: "Gradient Linear 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 1"
+title: "Gradient Linear 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 1"
 ---
 
 # Gradient Linear 1
@@ -39,5 +40,3 @@ Despite its simplicity, this is an extremely useful pattern that can be used as 
 </td>
 </tr>
 </table>
-
- 

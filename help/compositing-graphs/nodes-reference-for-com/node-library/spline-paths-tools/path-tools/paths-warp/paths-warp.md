@@ -1,6 +1,7 @@
 ---
-title: "Paths Warp | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Warp"
+title: "Paths Warp"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Warp"
 ---
 
 # Paths Warp
@@ -99,5 +100,3 @@ This can prevent the path to cross itself, especially when using high <b>Intens
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Shape Stroke | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Stroke"
+title: "Shape Stroke"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Stroke"
 ---
 
 # Shape Stroke
@@ -45,5 +46,3 @@ Very useful for a variety of image editing effects.
 </td>
 </tr>
 </table>
-
- 

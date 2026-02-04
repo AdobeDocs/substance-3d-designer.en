@@ -1,6 +1,7 @@
 ---
-title: "Scan Processing | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing"
+title: "Scan Processing"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing"
 ---
 
 # Scan Processing
@@ -12,5 +13,3 @@ The following nodes are good introductions:
 * [Clone Patch](clone-patch/clone-patch.md)
 * [Multi Crop](multi-crop/multi-crop.md)
 * [Smart Auto Tile](smart-auto-tile/smart-auto-tile.md)
-
- 

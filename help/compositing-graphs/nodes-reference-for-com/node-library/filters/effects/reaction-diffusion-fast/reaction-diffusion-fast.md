@@ -1,6 +1,7 @@
 ---
-title: "Reaction Diffusion Fast | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast"
+title: "Reaction Diffusion Fast"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast"
 ---
 
 # Reaction Diffusion Fast
@@ -64,5 +65,3 @@ Adjusts the contrast of the input, serves as a sort of treshold.
 </td>
 </tr>
 </table>
-
- 

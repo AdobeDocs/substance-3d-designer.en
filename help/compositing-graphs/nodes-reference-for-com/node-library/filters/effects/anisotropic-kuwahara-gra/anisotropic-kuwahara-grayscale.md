@@ -1,6 +1,7 @@
 ---
-title: "Anisotropic Kuwahara Grayscale | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Anisotropic Kuwahara Grayscale"
+title: "Anisotropic Kuwahara Grayscale"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Anisotropic Kuwahara Grayscale"
 ---
 
 # Anisotropic Kuwahara Grayscale
@@ -153,5 +154,3 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
     </td>
   </tr>
 </table>
-
- 

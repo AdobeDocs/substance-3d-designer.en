@@ -1,6 +1,7 @@
 ---
-title: "Multi-Angle to Normal | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Normal"
+title: "Multi-Angle to Normal"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Normal"
 ---
 
 # Multi-Angle to Normal
@@ -54,5 +55,3 @@ It is more complicated than [Multi-Angle to Albedo](../multi-angle-to-albedo/mul
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Panorama Rotation | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Panorama Rotation"
+title: "Panorama Rotation"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Panorama Rotation"
 ---
 
 # Panorama Rotation
@@ -36,5 +37,3 @@ Rotates an input spherically mapped panorama image around it's central point, ke
 </td>
 </tr>
 </table>
-
- 

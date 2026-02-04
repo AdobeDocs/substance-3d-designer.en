@@ -1,6 +1,7 @@
 ---
-title: "Leather Weathering | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Leather Weathering"
+title: "Leather Weathering"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Leather Weathering"
 ---
 
 # Leather Weathering
@@ -86,5 +87,3 @@ Make sure to fully understand the [Link Creation Modes](https://support.allegori
 </td>
 </tr>
 </table>
-
- 

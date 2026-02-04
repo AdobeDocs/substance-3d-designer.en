@@ -1,6 +1,7 @@
 ---
-title: "Grayscale conversion | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion"
+title: "Grayscale conversion"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion"
 ---
 
 # Grayscale conversion
@@ -96,5 +97,3 @@ This means that a grayscale conversion node is generally only reserved for cases
 ## Examples
 
 *Coming soon.*
-
- 

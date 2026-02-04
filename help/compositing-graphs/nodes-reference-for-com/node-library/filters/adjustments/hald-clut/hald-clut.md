@@ -1,6 +1,7 @@
 ---
-title: "Hald CLUT | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Hald CLUT"
+title: "Hald CLUT"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Hald CLUT"
 ---
 
 # Hald CLUT
@@ -41,5 +42,3 @@ Examples
 </td>
 </tr>
 </table>
-
- 

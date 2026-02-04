@@ -1,6 +1,7 @@
 ---
-title: "Text | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text"
+title: "Text"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text"
 ---
 
 # Text
@@ -90,5 +91,3 @@ When a Graph using Text is published to sbsar, the font is embedded into the pac
 ## Examples
 
 *Coming soon.*
-
- 

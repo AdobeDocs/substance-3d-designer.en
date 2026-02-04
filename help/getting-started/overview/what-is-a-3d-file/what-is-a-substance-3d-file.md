@@ -1,6 +1,7 @@
 ---
-title: "What is a Substance 3D File | Substance 3D Designer"
-description: "Designer > Getting started > Overview > What is a Substance 3D File"
+title: "What is a Substance 3D File"
+description: ""
+helpx_description: "Designer > Getting started > Overview > What is a Substance 3D File"
 ---
 
 # What is a Substance 3D File?
@@ -19,5 +20,3 @@ For example, it is possible to change the amount of dust on an object, or the co
 A Substance material can be published, then used in <b>external application</b> that integrate the <b>Substance 3D Engine</b> (such as *Unity* or *Unreal Engine*).
 
 Substance 3D materials can be *100% procedural*, therefore their output size will be very light.
-
- 

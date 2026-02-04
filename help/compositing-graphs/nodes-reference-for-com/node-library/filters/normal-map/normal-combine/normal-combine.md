@@ -1,6 +1,7 @@
 ---
-title: "Normal Combine | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Combine"
+title: "Normal Combine"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Combine"
 ---
 
 # Normal Combine
@@ -44,5 +45,3 @@ If you want to blend two normal maps without combining their details (using a ma
 * Detail oriented (High quality)*
 
 ## Examples
-
- 

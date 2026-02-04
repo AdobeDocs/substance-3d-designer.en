@@ -1,6 +1,7 @@
 ---
-title: "Histogram Scan | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan"
+title: "Histogram Scan"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan"
 ---
 
 # Histogram Scan
@@ -45,5 +46,3 @@ Very simple yet useful node that provides an intuitive way to remap the contrast
 </td>
 </tr>
 </table>
-
- 

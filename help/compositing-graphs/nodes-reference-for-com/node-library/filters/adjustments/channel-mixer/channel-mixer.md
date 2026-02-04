@@ -1,6 +1,7 @@
 ---
-title: "Channel Mixer | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Channel Mixer"
+title: "Channel Mixer"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Channel Mixer"
 ---
 
 # Channel Mixer
@@ -40,5 +41,3 @@ Allows you to mix, swap and blend RGB channels. Can be used to swizzle channels 
 </td>
 </tr>
 </table>
-
- 

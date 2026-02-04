@@ -1,6 +1,7 @@
 ---
-title: "Bitmap | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap"
+title: "Bitmap"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap"
 ---
 
 # Bitmap
@@ -105,5 +106,3 @@ Bitmaps can be edited in Designer. Learn more about the editing tools in [this s
 ## Examples
 
 *Coming soon.*
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Blending | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending"
+title: "Blending"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending"
 ---
 
 # Blending
@@ -14,5 +15,3 @@ Some interesting Blend nodes:
 * [Difference](difference/difference.md)
 * [Switch](switch/switch.md)
 * [Multi Switch](multi-switch/multi-switch.md)
-
- 

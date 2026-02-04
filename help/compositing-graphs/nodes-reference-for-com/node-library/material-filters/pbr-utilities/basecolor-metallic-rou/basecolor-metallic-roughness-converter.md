@@ -1,6 +1,7 @@
 ---
-title: "BaseColor  Metallic  Roughness converter | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > BaseColor  Metallic  Roughness converter"
+title: "BaseColor  Metallic  Roughness converter"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > BaseColor  Metallic  Roughness converter"
 ---
 
 # BaseColor / Metallic / Roughness converter
@@ -40,5 +41,3 @@ This is useful if you have graphs or materials that are made with one model of P
 </td>
 </tr>
 </table>
-
- 

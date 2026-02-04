@@ -1,6 +1,7 @@
 ---
-title: "Dirt | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt"
+title: "Dirt"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt"
 ---
 
 # Dirt
@@ -61,5 +62,3 @@ This mask represent dirts in occluded and sunken edges and corners, based on bak
 </td>
 </tr>
 </table>
-
- 

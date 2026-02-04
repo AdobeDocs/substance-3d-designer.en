@@ -1,6 +1,7 @@
 ---
-title: "Spline Circle | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Circle"
+title: "Spline Circle"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Circle"
 ---
 
 # Spline Circle
@@ -177,5 +178,3 @@ Thickness (px)FloatAdjusts the thickness in pixels of the spline visualization i
 </td>
 </tr>
 </table>
-
- 

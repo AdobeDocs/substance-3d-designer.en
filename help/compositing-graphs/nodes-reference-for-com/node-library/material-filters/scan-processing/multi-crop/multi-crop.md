@@ -1,6 +1,7 @@
 ---
-title: "Multi Crop | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Crop"
+title: "Multi Crop"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Crop"
 ---
 
 # Multi Crop
@@ -52,5 +53,3 @@ This is the multi-channel version of Crop. It crops out an area from an image an
 </td>
 </tr>
 </table>
-
- 

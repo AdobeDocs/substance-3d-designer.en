@@ -1,6 +1,7 @@
 ---
-title: "Fluid | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fluid"
+title: "Fluid"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fluid"
 ---
 
 # Fluid
@@ -44,5 +45,3 @@ This noise fills a specific niche: it can be useful for generating rain, leaks o
 </td>
 </tr>
 </table>
-
- 

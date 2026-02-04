@@ -1,6 +1,7 @@
 ---
-title: "Shape Splatter Data Extract | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Data Extract"
+title: "Shape Splatter Data Extract"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Data Extract"
 ---
 
 # Shape Splatter Data Extract
@@ -36,5 +37,3 @@ Data separator/splitter utility for [Shape Splatter](../shape-splatter/shape-spl
 </td>
 </tr>
 </table>
-
- 

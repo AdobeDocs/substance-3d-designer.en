@@ -1,6 +1,7 @@
 ---
-title: "Water Level | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Water Level"
+title: "Water Level"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Water Level"
 ---
 
 # Water Level
@@ -58,5 +59,3 @@ All-in-one effect that adds a water level to a full material input. Input materi
 </td>
 </tr>
 </table>
-
- 

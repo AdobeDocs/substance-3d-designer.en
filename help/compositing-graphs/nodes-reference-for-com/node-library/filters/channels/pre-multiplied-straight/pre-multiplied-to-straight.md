@@ -1,6 +1,7 @@
 ---
-title: "Pre-Multiplied to Straight | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Pre-Multiplied to Straight"
+title: "Pre-Multiplied to Straight"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Pre-Multiplied to Straight"
 ---
 
 # Pre-Multiplied to Straight
@@ -39,5 +40,3 @@ This removes the fringe effect sometimes seen around edges of images with an alp
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Color Equalizer | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Color Equalizer"
+title: "Color Equalizer"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Color Equalizer"
 ---
 
 # Color Equalizer
@@ -66,5 +67,3 @@ The masking options are intended for removing very specific tints or for operati
 </td>
 </tr>
 </table>
-
- 

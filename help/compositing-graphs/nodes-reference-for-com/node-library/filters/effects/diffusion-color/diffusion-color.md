@@ -1,6 +1,7 @@
 ---
-title: "Diffusion Color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Color"
+title: "Diffusion Color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Color"
 ---
 
 # Diffusion Color
@@ -103,5 +104,3 @@ Only colors from pixels matching the mask are diffused; other pixels do not part
 </td>
 </tr>
 </table>
-
- 

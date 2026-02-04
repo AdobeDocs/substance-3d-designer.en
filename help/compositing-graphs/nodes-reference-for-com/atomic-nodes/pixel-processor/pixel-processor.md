@@ -1,6 +1,7 @@
 ---
-title: "Pixel processor | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor"
+title: "Pixel processor"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor"
 ---
 
 # Pixel processor
@@ -80,7 +81,7 @@ For anybody used to creating [shader](../../../../glossary/glossary.md) function
 |  |  |
 | --- | --- |
 | <b>Color mode</b> *Boolean* | Toggles between a grayscale and a color output image. |
-| <b>Per pixel function</b> *Float/Float4* | [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) evaluated per pixel in the output image.   Use the [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) node set to the <b>$pos</b> variable to access the [normalized](../../../../glossary/glossary.md) position of the current pixel. |
+| <b>Per pixel function</b> *Float/Float4* | [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) evaluated per pixel in the output image.   Use the [Get Float2](../../../../function-graphs/nodes-reference-for-fun/get-nodes/get-nodes.md) node set to the <b>$pos</b> variable to access the [normalized](../../../../glossary/glossary.md) position of the current pixel. |
 
 ## Input connectors
 
@@ -97,5 +98,3 @@ For anybody used to creating [shader](../../../../glossary/glossary.md) function
 ## Examples
 
 *Coming soon.*
-
- 

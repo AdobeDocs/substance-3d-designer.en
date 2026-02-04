@@ -1,6 +1,7 @@
 ---
-title: "Height Normal Blender | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height Normal Blender"
+title: "Height Normal Blender"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height Normal Blender"
 ---
 
 # Height Normal Blender
@@ -50,5 +51,3 @@ This is a quicker way to blend details than manually doing this with separate no
 </td>
 </tr>
 </table>
-
- 

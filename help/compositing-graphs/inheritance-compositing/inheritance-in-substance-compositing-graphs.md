@@ -1,6 +1,7 @@
 ---
-title: "Inheritance in Substance graphs | Substance 3D Designer"
-description: "Designer > Substance graphs > Inheritance in Substance graphs"
+title: "Inheritance in Substance graphs"
+description: ""
+helpx_description: "Designer > Substance graphs > Inheritance in Substance graphs"
 ---
 
 # Inheritance in Substance graphs
@@ -283,5 +284,3 @@ The [Blend](../nodes-reference-for-com/atomic-nodes/blend/blend.md) node is very
 ![Output size inheritance](inheritance-blend.jpg "Output size inheritance"){width="512px"}
 
 You need to pay attention to the order in which you blend the two inputs: the input which resolution and precision you wish to retain down the graph should be connected to the Background input, if the blending mode you need makes it possible. If not, then you may need to tweak the Blend node’s Base parameters and their inheritance method to compensate.
-
- 

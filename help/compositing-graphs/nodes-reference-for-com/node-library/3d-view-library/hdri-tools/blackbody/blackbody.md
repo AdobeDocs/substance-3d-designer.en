@@ -1,6 +1,7 @@
 ---
-title: "Blackbody | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Blackbody"
+title: "Blackbody"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Blackbody"
 ---
 
 # Blackbody
@@ -31,5 +32,3 @@ Converts color temperature in Kelvin to RGB. Lower Kelvin values mean warmer col
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Cube 3D | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D"
+title: "Cube 3D"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D"
 ---
 
 # Cube 3D
@@ -41,5 +42,3 @@ Renders a grayscale 3D cube with shading that also serves as screen-depth. The r
 </td>
 </tr>
 </table>
-
- 

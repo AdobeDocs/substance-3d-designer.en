@@ -1,6 +1,7 @@
 ---
-title: "3D Texture SDF | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture SDF"
+title: "3D Texture SDF"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture SDF"
 ---
 
 # 3D Texture SDF
@@ -63,5 +64,3 @@ The **3D Texture SDF** node generates the *signed distance field* of a shape fro
 </td>
 </tr>
 </table>
-
- 

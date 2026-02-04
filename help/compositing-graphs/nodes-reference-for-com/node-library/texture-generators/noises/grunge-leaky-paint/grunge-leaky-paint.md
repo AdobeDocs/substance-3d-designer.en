@@ -1,6 +1,7 @@
 ---
-title: "Grunge Leaky Paint | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaky Paint"
+title: "Grunge Leaky Paint"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaky Paint"
 ---
 
 # Grunge Leaky Paint
@@ -54,5 +55,3 @@ The **Grunge Leaky Paint** node generates a grunge map akin to paint dripping th
 </td>
 </tr>
 </table>
-
- 

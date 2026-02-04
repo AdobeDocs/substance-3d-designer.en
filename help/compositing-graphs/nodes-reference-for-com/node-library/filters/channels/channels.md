@@ -1,6 +1,7 @@
 ---
-title: "Channels | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels"
+title: "Channels"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels"
 ---
 
 # Channels
@@ -11,5 +12,3 @@ The following nodes can help you get started:
 
 * [Alpha Merge](alpha-merge/alpha-merge.md)
 * [RGBA Split](rgba-split/rgba-split.md)
-
- 

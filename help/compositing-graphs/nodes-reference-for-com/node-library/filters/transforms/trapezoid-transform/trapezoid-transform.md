@@ -1,6 +1,7 @@
 ---
-title: "Trapezoid Transform | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Trapezoid Transform"
+title: "Trapezoid Transform"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Trapezoid Transform"
 ---
 
 # Trapezoid Transform
@@ -41,5 +42,3 @@ Special transform node that modifies the input in a perspective/trapezoid warp m
 </td>
 </tr>
 </table>
-
- 

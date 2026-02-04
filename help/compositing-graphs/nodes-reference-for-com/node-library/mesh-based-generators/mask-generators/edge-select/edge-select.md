@@ -1,6 +1,7 @@
 ---
-title: "Edge Select | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Select"
+title: "Edge Select"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Select"
 ---
 
 # Edge Select
@@ -57,5 +58,3 @@ This mask is the best way to select any kind of edge based on the curvature. Con
 </td>
 </tr>
 </table>
-
- 

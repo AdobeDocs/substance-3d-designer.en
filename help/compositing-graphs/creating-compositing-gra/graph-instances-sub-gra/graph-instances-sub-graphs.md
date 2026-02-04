@@ -1,6 +1,7 @@
 ---
-title: "Graph instances and subgraphs | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs"
+title: "Graph instances and subgraphs"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs"
 ---
 
 # Graph instances and subgraphs
@@ -62,5 +63,3 @@ Right-click on the node to open its contextual menu and select the **Load packag
 > **Atomic nodes**
 > 
 > *Atomic* nodes are implemented directly through code in the Substance engine and are *not* instances of graphs, hence the name atomic: they are the *smallest building blocks* for *all* the other nodes in [Substance graphs](../../substance-compositing-graphs.md).
-
- 

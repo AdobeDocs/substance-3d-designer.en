@@ -1,6 +1,7 @@
 ---
-title: "Symmetry Slice | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry Slice"
+title: "Symmetry Slice"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry Slice"
 ---
 
 # Symmetry Slice
@@ -44,5 +45,3 @@ Compared to [Mirror](../mirror-filter-node/mirror-filter-node.md) and [Symmetry]
 </td>
 </tr>
 </table>
-
- 

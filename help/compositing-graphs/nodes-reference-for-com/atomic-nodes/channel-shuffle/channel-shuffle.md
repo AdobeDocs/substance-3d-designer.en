@@ -1,6 +1,7 @@
 ---
-title: "Channels shuffle | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Channels shuffle"
+title: "Channels shuffle"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Channels shuffle"
 ---
 
 # Channels shuffle
@@ -86,5 +87,3 @@ Channel Shuffle has basic options, but in most cases of Channel-packing or Strip
 ## Examples
 
 *Coming soon.*
-
- 

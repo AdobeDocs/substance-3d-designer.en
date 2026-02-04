@@ -1,6 +1,7 @@
 ---
-title: "FX-Map | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map"
+title: "FX-Map"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map"
 ---
 
 # FX-Map
@@ -86,5 +87,3 @@ Keep in mind that unlike other nodes, the majority of an FX-Map's behavior is no
 ## Examples
 
 ![](image2015-9-10-17-28-32.png)
-
- 

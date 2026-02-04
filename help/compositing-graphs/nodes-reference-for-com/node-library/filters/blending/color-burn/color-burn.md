@@ -1,6 +1,7 @@
 ---
-title: "Color Burn | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color Burn"
+title: "Color Burn"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color Burn"
 ---
 
 # Color Burn
@@ -45,5 +46,3 @@ Performs a Color Burn blend between Foreground and Background. Mathematically th
 </td>
 </tr>
 </table>
-
- 

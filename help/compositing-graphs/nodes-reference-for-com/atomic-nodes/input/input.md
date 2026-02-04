@@ -1,6 +1,7 @@
 ---
-title: "Input | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input"
+title: "Input"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input"
 ---
 
 # Input
@@ -29,7 +30,7 @@ Input nodes are a special type of node that creates a dynamic slot in your graph
 
 Unlike [Output nodes](../output/output.md), you have to explicitly place either a Color, Grayscale or Value input. It is not possible to create your own "agnostic" inputs that change type depending on what is connected to them.
 
-Input nodes are not as crucial as [Output nodes](../output/output.md): you can have perfectly functioning, advanced Graphs that have no need for an Input. Inputs are only used when you want to base your Graph or node Instance's result on an external input, for example when creating an [Instance ](../../../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)or a [Filter ](../../../../../substance-3d-painter/features/effects/filter/filter.md)for Substance 3D Painter.
+Input nodes are not as crucial as [Output nodes](../output/output.md): you can have perfectly functioning, advanced Graphs that have no need for an Input. Inputs are only used when you want to base your Graph or node Instance's result on an external input, for example when creating an [Instance ](../../../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)or a [Filter](https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html) for Substance 3D Painter.
 
 <table>
 <tr style="border: 0;">
@@ -134,7 +135,7 @@ Finally, you may override any value for a given attribute by setting its inherit
 
 ## Integration attributes
 
-Inputs are not directly sent to the 3D View, but their Usage Attributes are used by [Substance 3D Painter](../../../../../substance-3d-painter/home/home.md) for automatically filling slots with certain maps (mostly used with [Filters](../../../../../substance-3d-painter/features/effects/filter/filter.md)).
+Inputs are not directly sent to the 3D View, but their Usage Attributes are used by [Substance 3D Painter](https://helpx.adobe.com/substance-3d-painter/home.html) for automatically filling slots with certain maps (mostly used with [Filters](https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html)).
 
 Additionally the Usage attributes are also used with [Link Creation Modes](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), to match the correct input and output slots.
 
@@ -145,5 +146,3 @@ Additionally the Usage attributes are also used with [Link Creation Modes](../..
 | <b>Component</b> *String* | This determines what channels are actually in the resulting input.   This is a legacy setting this is not used by integrations and graphs anymore. |
 | <b>Usage</b> *String* | Define a type or usage for this input. It indicates how other nodes should connect to this input.. |
 | <b>Color space</b> *String* | Sets the colorspace this input should be interpreted in. |
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Spline Render | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Render"
+title: "Spline Render"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Render"
 ---
 
 # Spline Render
@@ -229,5 +230,3 @@ Random Offset CenterFloatOffsets the center of the random displacement applied t
 </td>
 </tr>
 </table>
-
- 

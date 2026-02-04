@@ -1,6 +1,7 @@
 ---
-title: "Cross Section | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Cross Section"
+title: "Cross Section"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Cross Section"
 ---
 
 # Cross Section
@@ -96,5 +97,3 @@ Grayscale color of the line or shape.
 ![Cross section: example 3](cross-section-example-03.png "Cross section: example 3")
 
 ![Cross section: example 4](cross-section-example-04.png "Cross section: example 4")
-
- 

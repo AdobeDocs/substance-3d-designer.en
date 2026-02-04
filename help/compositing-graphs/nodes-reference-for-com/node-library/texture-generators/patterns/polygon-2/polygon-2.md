@@ -1,6 +1,7 @@
 ---
-title: "Polygon 2 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Polygon 2"
+title: "Polygon 2"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Polygon 2"
 ---
 
 # Polygon 2
@@ -43,5 +44,3 @@ Generates a smooth gradient polygon shape with options for adjustment. See [Poly
 </td>
 </tr>
 </table>
-
- 

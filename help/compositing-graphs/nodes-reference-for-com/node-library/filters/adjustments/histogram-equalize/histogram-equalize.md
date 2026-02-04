@@ -1,6 +1,7 @@
 ---
-title: "Histogram equalize | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram equalize"
+title: "Histogram equalize"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram equalize"
 ---
 
 # Histogram equalize
@@ -109,5 +110,3 @@ Equalizes the histogram for a grayscale image, effectively adjusting the graysca
 </table>
 
 ![Histogram equalize: Example 3](histogram_equalize_example_6.png "Histogram equalize: Example 3"){zoomable="yes"}
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Emboss With Gloss | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Emboss With Gloss"
+title: "Emboss With Gloss"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Emboss With Gloss"
 ---
 
 # Emboss With Gloss
@@ -51,5 +52,3 @@ For a version with more options, see [Uber Emboss](../uber-emboss/uber-emboss.md
 </td>
 </tr>
 </table>
-
- 

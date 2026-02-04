@@ -1,6 +1,7 @@
 ---
-title: "Edge Dirt | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Dirt"
+title: "Edge Dirt"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Dirt"
 ---
 
 # Edge Dirt
@@ -53,5 +54,3 @@ This mask represents a dirt effect that accumulates around edges, based solely o
 </td>
 </tr>
 </table>
-
- 

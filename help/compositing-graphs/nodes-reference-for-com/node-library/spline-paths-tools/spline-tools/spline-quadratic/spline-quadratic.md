@@ -1,6 +1,7 @@
 ---
-title: "Spline (Quadratic) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline (Quadratic)"
+title: "Spline (Quadratic)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline (Quadratic)"
 ---
 
 # Spline (Quadratic)
@@ -107,5 +108,3 @@ The span of the arc formed by the spline is *adjustable*, so that some of its t
 </td>
 </tr>
 </table>
-
- 

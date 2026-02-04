@@ -1,6 +1,7 @@
 ---
-title: "Spline Fill | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Fill"
+title: "Spline Fill"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Fill"
 ---
 
 # Spline Fill
@@ -80,5 +81,3 @@ The result image of filling the input Splines with flat white against a flat bla
 </td>
 </tr>
 </table>
-
- 

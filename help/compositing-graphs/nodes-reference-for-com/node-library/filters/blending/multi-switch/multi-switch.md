@@ -1,6 +1,7 @@
 ---
-title: "Multi Switch | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Multi Switch"
+title: "Multi Switch"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Multi Switch"
 ---
 
 # Multi Switch
@@ -46,5 +47,3 @@ Important: make sure to use the appropriate version for your input! Use "Multi S
 </td>
 </tr>
 </table>
-
- 

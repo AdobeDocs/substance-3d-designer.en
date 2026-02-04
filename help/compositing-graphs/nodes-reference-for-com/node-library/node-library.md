@@ -1,6 +1,7 @@
 ---
-title: "Node library | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library"
+title: "Node library"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library"
 ---
 
 # Node library
@@ -426,5 +427,3 @@ The library panel of Designer displays more categories than we currently have do
 * [Shape Light](3d-view-library/hdri-tools/shape-light/shape-light.md)
 * [Sphere Light](3d-view-library/hdri-tools/sphere-light/sphere-light.md)
 * [Straighten Horizon](3d-view-library/hdri-tools/straighten-horizon/straighten-horizon.md)
-
- 

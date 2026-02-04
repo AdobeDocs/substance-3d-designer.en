@@ -1,6 +1,7 @@
 ---
-title: "Gradient (Dynamic) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)"
+title: "Gradient (Dynamic)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)"
 ---
 
 # Gradient (Dynamic)
@@ -99,5 +100,3 @@ Alternatively, the Gradient Input Position slider can be used to alternate betwe
 ## Examples
 
 *Coming soon.*
-
- 

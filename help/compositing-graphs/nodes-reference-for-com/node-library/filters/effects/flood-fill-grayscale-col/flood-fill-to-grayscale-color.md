@@ -1,6 +1,7 @@
 ---
-title: "Flood Fill to GrayscaleColor | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to GrayscaleColor"
+title: "Flood Fill to GrayscaleColor"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to GrayscaleColor"
 ---
 
 # Flood Fill to Grayscale/Color
@@ -43,5 +44,3 @@ It's a powerfull system to give every cell a unique value or color, yet still re
 </td>
 </tr>
 </table>
-
- 

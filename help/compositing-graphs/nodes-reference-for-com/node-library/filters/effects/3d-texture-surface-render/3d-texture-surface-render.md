@@ -1,6 +1,7 @@
 ---
-title: "3D Texture Surface Render | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Surface Render"
+title: "3D Texture Surface Render"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Surface Render"
 ---
 
 # 3D Texture Surface Render
@@ -105,5 +106,3 @@ The surface is represented within the bounds of a *unit cube*. The lighting is c
 </td>
 </tr>
 </table>
-
- 

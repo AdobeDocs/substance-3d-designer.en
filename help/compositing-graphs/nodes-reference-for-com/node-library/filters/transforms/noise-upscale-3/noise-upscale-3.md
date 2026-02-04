@@ -1,6 +1,7 @@
 ---
-title: "Noise Upscale 3 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 3"
+title: "Noise Upscale 3"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 3"
 ---
 
 # Noise Upscale 3
@@ -48,5 +49,3 @@ See also [Noise Upscale 1](../noise-upscale-1/noise-upscale-1.md) and [Noise Ups
 </td>
 </tr>
 </table>
-
- 

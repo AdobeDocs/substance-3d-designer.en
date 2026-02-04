@@ -1,6 +1,7 @@
 ---
-title: "Convert To Linear | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Convert To Linear"
+title: "Convert To Linear"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Convert To Linear"
 ---
 
 # Convert To Linear
@@ -39,5 +40,3 @@ Converts an sRGB colorspace image to linear. Useful when converting photo source
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Normal Uncombine | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal map > Normal uncombine"
+title: "Normal Uncombine"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal map > Normal uncombine"
 ---
 
 # Normal Uncombine
@@ -110,5 +111,3 @@ Removes from a normal map the surface details described by a height map.
 </table>
 
 ![Normal uncombine: Example 6](normal_uncombine_example_5.png "Normal uncombine: Example 6"){zoomable="yes"}
-
- 

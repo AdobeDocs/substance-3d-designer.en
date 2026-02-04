@@ -1,6 +1,7 @@
 ---
-title: "Bevel (Filter Node) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Bevel (Filter Node)"
+title: "Bevel (Filter Node)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Bevel (Filter Node)"
 ---
 
 # Bevel (Filter Node)
@@ -55,5 +56,3 @@ This is a useful node for applying exact curve profiles on an ideally binary (hi
 </td>
 </tr>
 </table>
-
- 

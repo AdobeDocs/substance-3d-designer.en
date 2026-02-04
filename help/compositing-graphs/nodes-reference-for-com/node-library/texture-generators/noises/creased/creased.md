@@ -1,6 +1,7 @@
 ---
-title: "Creased | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Creased"
+title: "Creased"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Creased"
 ---
 
 # Creased
@@ -43,5 +44,3 @@ Creased is useful for when you need a semi-directional-noise with large scale va
 </td>
 </tr>
 </table>
-
- 

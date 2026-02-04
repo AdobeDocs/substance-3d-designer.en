@@ -1,6 +1,7 @@
 ---
-title: "Leather Wear | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leather Wear"
+title: "Leather Wear"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leather Wear"
 ---
 
 # Leather Wear
@@ -55,5 +56,3 @@ This mask represents wear with a leather pattern, with more wear on edges based 
 </td>
 </tr>
 </table>
-
- 

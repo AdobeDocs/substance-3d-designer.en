@@ -1,6 +1,7 @@
 ---
-title: "Histogram compute | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram compute"
+title: "Histogram compute"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram compute"
 ---
 
 # Histogram compute
@@ -90,5 +91,3 @@ Custom tools can be created using the data computed by the node, such as custom 
     </td>
   </tr>
 </table>
-
- 

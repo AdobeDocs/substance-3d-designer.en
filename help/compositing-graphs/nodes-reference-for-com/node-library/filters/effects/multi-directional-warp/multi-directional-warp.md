@@ -1,6 +1,7 @@
 ---
-title: "Multi Directional Warp | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Multi Directional Warp"
+title: "Multi Directional Warp"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Multi Directional Warp"
 ---
 
 # Multi Directional Warp
@@ -50,5 +51,3 @@ It differs mainly from [Non Uniform Directional Warp](../non-uniform-directional
 </td>
 </tr>
 </table>
-
- 

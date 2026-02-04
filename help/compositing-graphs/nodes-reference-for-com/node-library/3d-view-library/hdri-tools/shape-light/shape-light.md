@@ -1,6 +1,7 @@
 ---
-title: "Shape Light | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Shape Light"
+title: "Shape Light"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Shape Light"
 ---
 
 # Shape Light
@@ -71,5 +72,3 @@ Generates a spherically projected rectangular shape. The shape transformation is
 </td>
 </tr>
 </table>
-
- 

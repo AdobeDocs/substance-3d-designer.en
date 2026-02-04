@@ -1,6 +1,7 @@
 ---
-title: "Cube 3D GBuffers | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D GBuffers"
+title: "Cube 3D GBuffers"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D GBuffers"
 ---
 
 # Cube 3D GBuffers
@@ -39,5 +40,3 @@ Advanced version of [Cube 3D](../cube-3d/cube-3d.md) that also outputs Position 
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Panorama Shape | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Panorama Shape"
+title: "Panorama Shape"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Panorama Shape"
 ---
 
 # Panorama Shape
@@ -45,5 +46,3 @@ This is a helpful node for generating procedural "Studio"-type panorama maps. Al
 </td>
 </tr>
 </table>
-
- 

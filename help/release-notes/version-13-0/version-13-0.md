@@ -179,8 +179,8 @@ This dedicated [tutorial](https://www.youtube.com/watch?v=Ggoy8G90oDI)will help
 Substance Engine v9 also brings the following improvements:
 
 * New Solid mode in the [Gradient Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) node's gradient editor (i.e no interpolation at all)
-* Atomic [pow()](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/function-nodes/function-nodes.md) node in Substance function graphs
-* Add border wrapping options (clamp to edge, repeat) in [Sampler](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) nodes
+* Atomic [pow()](../../function-graphs/nodes-reference-for-fun/function-nodes/function-nodes.md) node in Substance function graphs
+* Add border wrapping options (clamp to edge, repeat) in [Sampler](../../function-graphs/nodes-reference-for-fun/sampler-nodes/sampler-nodes.md) nodes
 * Nearest sampling in [Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) and [Directional Warp](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) nodes
 
 ## Portal node

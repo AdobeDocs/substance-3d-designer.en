@@ -1,6 +1,7 @@
 ---
-title: "Levels | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels"
+title: "Levels"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels"
 ---
 
 # Levels
@@ -121,5 +122,3 @@ The sliders change depending on a Color or Grayscale input: Color inputs create 
 ## Examples
 
 *Coming soon.*
-
- 

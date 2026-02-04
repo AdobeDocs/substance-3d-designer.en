@@ -1,6 +1,7 @@
 ---
-title: "Sharpen | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen"
+title: "Sharpen"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen"
 ---
 
 # Sharpen
@@ -42,5 +43,3 @@ Determines whether the image's alpha channel should be sharpened or left untouch
 ## Examples
 
 ![Sharpen node - Example 1](sharpen-ex.png "Sharpen node - Example 1")
-
- 

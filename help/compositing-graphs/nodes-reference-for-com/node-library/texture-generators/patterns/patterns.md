@@ -1,6 +1,7 @@
 ---
-title: "Patterns | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns"
+title: "Patterns"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns"
 ---
 
 # Patterns
@@ -21,5 +22,3 @@ Some good patterns to start with are:
 * [Tile random 2](tile-random-2/tile-random-2.md)
 * [Shape mapper](shape-mapper/shape-mapper.md)
 * [Shape extrude](shape-extrude/shape-extrude.md)
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Paths to Spline | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths to Spline"
+title: "Paths to Spline"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths to Spline"
 ---
 
 # Paths to Spline
@@ -100,5 +101,3 @@ The base-2 logarithm (log2) of the number of vertices sampled in each path of th
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Lighting Cancel High Frequencies | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel High Frequencies"
+title: "Lighting Cancel High Frequencies"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel High Frequencies"
 ---
 
 # Lighting Cancel High Frequencies
@@ -41,5 +42,3 @@ Also see [Lighting Cancel Low Frequencies](../lighting-cancel-low-fre/lighting-c
 </td>
 </tr>
 </table>
-
- 

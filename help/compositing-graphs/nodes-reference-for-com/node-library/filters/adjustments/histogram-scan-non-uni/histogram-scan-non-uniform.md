@@ -1,6 +1,7 @@
 ---
-title: "Histogram Scan Non-Uniform | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan Non-Uniform"
+title: "Histogram Scan Non-Uniform"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan Non-Uniform"
 ---
 
 # Histogram Scan Non-Uniform
@@ -46,5 +47,3 @@ It's a lot more complex to use than the regular [Histogram Scan](../histogram-sc
 </td>
 </tr>
 </table>
-
- 

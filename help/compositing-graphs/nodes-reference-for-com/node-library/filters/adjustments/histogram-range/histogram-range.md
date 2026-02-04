@@ -1,6 +1,7 @@
 ---
-title: "Histogram Range | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Range"
+title: "Histogram Range"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Range"
 ---
 
 # Histogram Range
@@ -39,5 +40,3 @@ Also see [Histogram Scan](../histogram-scan/histogram-scan.md) for another, more
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Substance graph key concepts | Substance 3D Designer"
-description: "Designer > Substance graphs > Substance graph key concepts"
+title: "Substance graph key concepts"
+description: ""
+helpx_description: "Designer > Substance graphs > Substance graph key concepts"
 ---
 
 # Substance graph key concepts
@@ -61,5 +62,3 @@ here are some things you should know about Exposed Parameters:
 * Exposed Parameters can be fully customized with names, labels, values, UI editor type and even be hidden and shown for certain conditions.
 
 Exposing Parameters is an abstract and difficult concept for beginners,[ there is more dedicated documentation on this topic](../manage-parameters/exposing-a-parameter/exposing-a-parameter.md), but it is recommended to fully familiarize yourself with other basic aspects of the software before diving into Exposing Parameters.
-
- 

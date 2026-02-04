@@ -1,6 +1,7 @@
 ---
-title: "Height Map Frequencies Mapper | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Height Map Frequencies Mapper"
+title: "Height Map Frequencies Mapper"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Height Map Frequencies Mapper"
 ---
 
 # Height Map Frequencies Mapper
@@ -37,5 +38,3 @@ Separates a Heightmap's frequencies into two separate maps: one with large-scale
 </td>
 </tr>
 </table>
-
- 

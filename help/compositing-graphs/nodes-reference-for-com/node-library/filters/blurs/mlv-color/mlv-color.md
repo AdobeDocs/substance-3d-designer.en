@@ -1,6 +1,7 @@
 ---
-title: "MLV color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > MLV color"
+title: "MLV color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > MLV color"
 ---
 
 # MLV color
@@ -99,5 +100,3 @@ More iterations result in flatter and sharper structuring areas.
     </td>
   </tr>
 </table>
-
- 

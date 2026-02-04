@@ -1,6 +1,7 @@
 ---
-title: "Microscope View | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Microscope View"
+title: "Microscope View"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Microscope View"
 ---
 
 # Microscope View
@@ -42,5 +43,3 @@ This generates a warped noise that looks like bacteria or organisms under a micr
 </td>
 </tr>
 </table>
-
- 

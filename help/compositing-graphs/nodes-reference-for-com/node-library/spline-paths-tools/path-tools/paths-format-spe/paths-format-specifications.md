@@ -1,6 +1,7 @@
 ---
-title: "Paths Format Specifications | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Format Specifications"
+title: "Paths Format Specifications"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Format Specifications"
 ---
 
 # Paths Format Specifications
@@ -607,5 +608,3 @@ What is atvert.addr? Sample it and check whether there's anything (W != 0) then,
 
 
 +++
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Polygon 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Polygon 1"
+title: "Polygon 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Polygon 1"
 ---
 
 # Polygon 1
@@ -47,5 +48,3 @@ Generates a polygon shape, with many options for adjustment. See [Polygon 2](../
 </td>
 </tr>
 </table>
-
- 

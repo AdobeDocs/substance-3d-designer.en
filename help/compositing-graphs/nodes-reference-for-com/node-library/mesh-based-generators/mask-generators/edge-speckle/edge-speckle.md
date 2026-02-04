@@ -1,6 +1,7 @@
 ---
-title: "Edge Speckle | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Speckle"
+title: "Edge Speckle"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Speckle"
 ---
 
 # Edge Speckle
@@ -54,5 +55,3 @@ This mask represents edges with a slight speckle added to break them up. Also se
 </td>
 </tr>
 </table>
-
- 

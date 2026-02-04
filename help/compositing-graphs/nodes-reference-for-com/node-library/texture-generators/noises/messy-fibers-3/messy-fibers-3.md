@@ -1,6 +1,7 @@
 ---
-title: "Messy fibers 3 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 3"
+title: "Messy fibers 3"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 3"
 ---
 
 # Messy fibers 3
@@ -98,5 +99,3 @@ See also: [Messy fibers 1](../messy-fibers-1/messy-fibers-1.md), [Messy fibers
 </td>
 </tr>
 </table>
-
- 

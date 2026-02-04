@@ -1,6 +1,7 @@
 ---
-title: "Invert | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Invert"
+title: "Invert"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Invert"
 ---
 
 # Invert
@@ -41,5 +42,3 @@ Important: make sure to use the appropriate version for your input! Use "Invert"
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Multi-Angle to Albedo | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Albedo"
+title: "Multi-Angle to Albedo"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Albedo"
 ---
 
 # Multi-Angle to Albedo
@@ -51,5 +52,3 @@ Keep in mind that the more samples you have and the bigger the difference in lig
 </td>
 </tr>
 </table>
-
- 

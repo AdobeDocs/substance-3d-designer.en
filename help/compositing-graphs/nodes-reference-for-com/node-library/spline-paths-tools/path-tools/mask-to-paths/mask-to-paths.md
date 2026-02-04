@@ -1,6 +1,7 @@
 ---
-title: "Mask to Paths | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Mask to Paths"
+title: "Mask to Paths"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Mask to Paths"
 ---
 
 # Mask to Paths
@@ -176,5 +177,3 @@ Available variables:
 </td>
 </tr>
 </table>
-
- 

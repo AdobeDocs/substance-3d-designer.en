@@ -1,6 +1,7 @@
 ---
-title: "Spline Flow Mapper | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Flow Mapper"
+title: "Spline Flow Mapper"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Flow Mapper"
 ---
 
 # Spline Flow Mapper
@@ -126,5 +127,3 @@ This also impacts uniform distribution.
 </td>
 </tr>
 </table>
-
- 

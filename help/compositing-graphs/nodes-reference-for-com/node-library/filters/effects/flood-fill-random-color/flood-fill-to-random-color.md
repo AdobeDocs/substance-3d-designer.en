@@ -1,6 +1,7 @@
 ---
-title: "Flood Fill to Random Color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Random Color"
+title: "Flood Fill to Random Color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Random Color"
 ---
 
 # Flood Fill to Random Color
@@ -37,5 +38,3 @@ Generates tiles with random RGB colors from a [Flood Fill](../flood-fill/flood-f
 </td>
 </tr>
 </table>
-
- 

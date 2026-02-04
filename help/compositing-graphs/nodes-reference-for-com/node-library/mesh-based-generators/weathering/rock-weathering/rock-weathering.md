@@ -1,6 +1,7 @@
 ---
-title: "Rock Weathering | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Rock Weathering"
+title: "Rock Weathering"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Rock Weathering"
 ---
 
 # Rock Weathering
@@ -82,5 +83,3 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Difference | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Difference"
+title: "Difference"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Difference"
 ---
 
 # Difference
@@ -45,5 +46,3 @@ Peforms a Difference blend mode between Fore- and Background inputs. Subtracts B
 </td>
 </tr>
 </table>
-
- 

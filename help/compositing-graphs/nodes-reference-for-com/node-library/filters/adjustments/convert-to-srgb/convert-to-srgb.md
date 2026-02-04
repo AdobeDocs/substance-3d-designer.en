@@ -1,6 +1,7 @@
 ---
-title: "Convert to sRGB | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Convert to sRGB"
+title: "Convert to sRGB"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Convert to sRGB"
 ---
 
 # Convert to sRGB
@@ -39,5 +40,3 @@ Converts a Linear input to sRGB colorspace. Useful when working and converting w
 </td>
 </tr>
 </table>
-
- 

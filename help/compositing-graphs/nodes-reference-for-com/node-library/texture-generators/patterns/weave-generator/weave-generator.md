@@ -1,6 +1,7 @@
 ---
-title: "Weave Generator | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave Generator"
+title: "Weave Generator"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave Generator"
 ---
 
 # Weave Generator
@@ -41,5 +42,3 @@ This node generates a simple weave pattern with a few options. It allows for mor
 </td>
 </tr>
 </table>
-
- 

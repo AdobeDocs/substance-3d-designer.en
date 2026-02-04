@@ -1,6 +1,7 @@
 ---
-title: "HDRI Tools | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools"
+title: "HDRI Tools"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools"
 ---
 
 # HDRI Tools
@@ -13,5 +14,3 @@ Some good examples to get started with:
 * [Gradient Linear (HDRI)](gradient-linear-hdri/gradient-linear-hdri.md)
 * [Shape Light](shape-light/shape-light.md)
 * [Nadir Patch](nadir-patch/nadir-patch.md)
-
- 

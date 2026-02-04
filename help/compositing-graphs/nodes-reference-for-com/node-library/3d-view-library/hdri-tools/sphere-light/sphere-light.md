@@ -1,6 +1,7 @@
 ---
-title: "Sphere Light | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Sphere Light"
+title: "Sphere Light"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Sphere Light"
 ---
 
 # Sphere Light
@@ -80,5 +81,3 @@ The Sphere Light is quite versatile and has options that allow it to no only gen
 </td>
 </tr>
 </table>
-
- 

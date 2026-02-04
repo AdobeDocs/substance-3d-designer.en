@@ -1,6 +1,7 @@
 ---
-title: "Nadir Patch | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Patch"
+title: "Nadir Patch"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Patch"
 ---
 
 # Nadir Patch
@@ -65,5 +66,3 @@ effect can be quickly checked and validated with [Nadir Extract](../nadir-extrac
 </td>
 </tr>
 </table>
-
- 

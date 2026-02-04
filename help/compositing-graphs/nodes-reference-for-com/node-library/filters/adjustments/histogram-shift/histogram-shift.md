@@ -1,6 +1,7 @@
 ---
-title: "Histogram Shift | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Shift"
+title: "Histogram Shift"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Shift"
 ---
 
 # Histogram Shift
@@ -40,5 +41,3 @@ Completely shifts the whole range of the image, wrapping around when reaching ra
 </td>
 </tr>
 </table>
-
- 

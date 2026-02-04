@@ -1,6 +1,7 @@
 ---
-title: "Visible if expressions | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions"
+title: "Visible if expressions"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions"
 ---
 
 # Visible if expressions
@@ -83,5 +84,3 @@ A Visible If Expression is used as the condition for an "IF" statement, that mea
 | Lower than | ``` input["my_input"].y < 3   input.my_input.y < 3 ``` | my\_input is a float or integer value with one or more components – e.g. float2(x, y), integer3(x, y, z) |
 | Or | ``` input["param1"] \|\| input["param2"]   input.param1 \|\| input.param2 ``` | param1 and param2 are boolean values |
 | And | ``` input["param1"] > 0 && input["param2"] > 1   input.param1 > 0 && input.param2 > 1 ``` | param1 and param2 are float or integer values |
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Curvature Smooth | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth"
+title: "Curvature Smooth"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth"
 ---
 
 # Curvature Smooth
@@ -130,5 +131,3 @@ The concave and convex areas are also split into their own outputs, for easier s
 </td>
 </tr>
 </table>
-
- 

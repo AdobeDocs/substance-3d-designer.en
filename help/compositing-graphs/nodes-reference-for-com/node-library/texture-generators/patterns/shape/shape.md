@@ -1,6 +1,7 @@
 ---
-title: "Shape | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape"
+title: "Shape"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape"
 ---
 
 # Shape
@@ -49,5 +50,3 @@ Despite its simplicity, this is a very useful node: it is the building block of 
 </td>
 </tr>
 </table>
-
- 

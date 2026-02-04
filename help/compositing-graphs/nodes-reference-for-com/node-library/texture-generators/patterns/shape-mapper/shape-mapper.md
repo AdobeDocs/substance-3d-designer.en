@@ -1,6 +1,7 @@
 ---
-title: "Shape mapper | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape mapper"
+title: "Shape mapper"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape mapper"
 ---
 
 # Shape mapper
@@ -112,5 +113,3 @@ The projection deforms the image to follow the shape's outline, and make it fit 
 </td>
 </tr>
 </table>
-
- 

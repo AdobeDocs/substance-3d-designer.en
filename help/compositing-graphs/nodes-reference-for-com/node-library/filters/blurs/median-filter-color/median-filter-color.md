@@ -1,6 +1,7 @@
 ---
-title: "Median filter color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter color"
+title: "Median filter color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter color"
 ---
 
 # Median filter color
@@ -79,5 +80,3 @@ This parameter controls the size of that square kernel, in pixels. A larger kern
     </td>
   </tr>
 </table>
-
- 

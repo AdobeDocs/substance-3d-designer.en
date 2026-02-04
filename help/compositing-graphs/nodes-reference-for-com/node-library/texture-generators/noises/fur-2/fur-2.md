@@ -1,6 +1,7 @@
 ---
-title: "Fur 2 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 2"
+title: "Fur 2"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 2"
 ---
 
 # Fur 2
@@ -42,5 +43,3 @@ This generates a wavy type of fur-like noise.
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Tile Generator | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Generator"
+title: "Tile Generator"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Generator"
 ---
 
 # Tile Generator
@@ -117,5 +118,3 @@ Some general usage tips:
 </td>
 </tr>
 </table>
-
- 

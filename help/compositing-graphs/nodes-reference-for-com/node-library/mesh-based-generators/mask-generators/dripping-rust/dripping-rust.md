@@ -1,6 +1,7 @@
 ---
-title: "Dripping Rust | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dripping Rust"
+title: "Dripping Rust"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dripping Rust"
 ---
 
 # Dripping Rust
@@ -55,5 +56,3 @@ This mask represents rust flakes and specks, with leaks running down.
 </td>
 </tr>
 </table>
-
- 

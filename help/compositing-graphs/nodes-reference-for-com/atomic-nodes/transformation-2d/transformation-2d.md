@@ -1,6 +1,7 @@
 ---
-title: "Transformation 2D | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D"
+title: "Transformation 2D"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D"
 ---
 
 # Transformation 2D
@@ -99,5 +100,3 @@ It can however not be a perfect match for certain applications, so the following
 ## Examples
 
 *Coming soon.*
-
- 

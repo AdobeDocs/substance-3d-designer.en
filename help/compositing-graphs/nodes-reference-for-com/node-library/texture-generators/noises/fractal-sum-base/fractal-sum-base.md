@@ -1,6 +1,7 @@
 ---
-title: "Fractal sum base | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum base"
+title: "Fractal sum base"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum base"
 ---
 
 # Fractal sum base
@@ -101,5 +102,3 @@ See also: [Fractal sum 1](../fractal-sum-1/fractal-sum-1.md), [Fractal sum 2](..
 </td>
 </tr>
 </table>
-
- 

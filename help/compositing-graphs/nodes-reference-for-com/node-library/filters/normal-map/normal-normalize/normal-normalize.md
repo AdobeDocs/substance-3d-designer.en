@@ -1,6 +1,7 @@
 ---
-title: "Normal Normalize | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Normalize"
+title: "Normal Normalize"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Normalize"
 ---
 
 # Normal Normalize
@@ -39,5 +40,3 @@ Useful for when a lot of blending and modifications have been made to the Normal
 </td>
 </tr>
 </table>
-
- 

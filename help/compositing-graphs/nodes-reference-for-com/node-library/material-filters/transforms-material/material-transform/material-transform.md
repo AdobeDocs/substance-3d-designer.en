@@ -1,6 +1,7 @@
 ---
-title: "Material Transform | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Transforms (Material) > Material Transform"
+title: "Material Transform"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Transforms (Material) > Material Transform"
 ---
 
 # Material Transform
@@ -46,5 +47,3 @@ Just make sure to set up the Channels properly! By default, both Metallic/Roughn
 </td>
 </tr>
 </table>
-
- 

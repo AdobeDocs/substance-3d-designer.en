@@ -1,6 +1,7 @@
 ---
-title: "Fabric Weathering | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Fabric Weathering"
+title: "Fabric Weathering"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Fabric Weathering"
 ---
 
 # Fabric Weathering
@@ -83,5 +84,3 @@ Make sure to fully understand the [Link Creation Modes](../../../../../../interf
 </td>
 </tr>
 </table>
-
- 

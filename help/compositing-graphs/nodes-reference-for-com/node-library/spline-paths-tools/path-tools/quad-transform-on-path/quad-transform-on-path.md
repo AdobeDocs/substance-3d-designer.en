@@ -1,6 +1,7 @@
 ---
-title: "Quad Transform on Path | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Quad Transform on Path"
+title: "Quad Transform on Path"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Quad Transform on Path"
 ---
 
 # Quad Transform on Path
@@ -101,5 +102,3 @@ The position of the bottom-right handle.
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Brick 2 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick 2"
+title: "Brick 2"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick 2"
 ---
 
 # Brick 2
@@ -40,5 +41,3 @@ Simple Brick Pattern, see [Brick Generator](../brick-generator/brick-generator.m
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Gradient Linear (HDRI) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient Linear (HDRI)"
+title: "Gradient Linear (HDRI)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient Linear (HDRI)"
 ---
 
 # Gradient Linear (HDRI)
@@ -42,5 +43,3 @@ Creates a Linear gradient across the centre and with a user-placed point. The en
 </td>
 </tr>
 </table>
-
- 

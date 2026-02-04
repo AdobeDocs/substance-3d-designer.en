@@ -1,6 +1,7 @@
 ---
-title: "Slope Blur | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Slope Blur"
+title: "Slope Blur"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Slope Blur"
 ---
 
 # Slope Blur
@@ -53,5 +54,3 @@ Important: make sure to use the appropriate version for your input! Use "Slope B
 </td>
 </tr>
 </table>
-
- 

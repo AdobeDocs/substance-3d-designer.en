@@ -1,6 +1,7 @@
 ---
-title: "Create Color Palette (16) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Create Color Palette (16)"
+title: "Create Color Palette (16)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Create Color Palette (16)"
 ---
 
 # Create Color Palette (16)
@@ -87,5 +88,3 @@ This node may be used in combination with the following nodes: [Quantize Color](
 </table>
 
 ![Create color palette: Example 3](create_color_palette_example_3.png "Create color palette: Example 3"){zoomable="yes"}
-
- 

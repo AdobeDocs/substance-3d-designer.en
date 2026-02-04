@@ -1,6 +1,7 @@
 ---
-title: "Nodes reference for Substance graphs | Substance 3D Designer"
-description: "Designer > Substance graphs > Nodes reference for Substance graphs"
+title: "Nodes reference for Substance graphs"
+description: ""
+helpx_description: "Designer > Substance graphs > Nodes reference for Substance graphs"
 ---
 
 # Nodes reference for Substance graphs
@@ -34,5 +35,3 @@ What we call "node" inside SD, can be divided into 2 mains groups:
 </td>
 </tr>
 </table>
-
- 

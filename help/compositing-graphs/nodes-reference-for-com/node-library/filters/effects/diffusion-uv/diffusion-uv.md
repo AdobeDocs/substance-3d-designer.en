@@ -1,6 +1,7 @@
 ---
-title: "Diffusion UV | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion UV"
+title: "Diffusion UV"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion UV"
 ---
 
 # Diffusion UV
@@ -76,5 +77,3 @@ This can lead to undesirable results when using this filter for *texture deforma
 </td>
 </tr>
 </table>
-
- 

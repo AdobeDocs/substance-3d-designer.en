@@ -1,6 +1,7 @@
 ---
-title: "Spline Tools | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools"
+title: "Spline Tools"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools"
 ---
 
 # Spline tools
@@ -79,5 +80,3 @@ Check out this tutorial to get started:
 </td>
 </tr>
 </table>
-
- 

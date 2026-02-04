@@ -1,6 +1,7 @@
 ---
-title: "Ambient Occlusion (HBAO) (Filter Node) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (HBAO) (Filter Node)"
+title: "Ambient Occlusion (HBAO) (Filter Node)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (HBAO) (Filter Node)"
 ---
 
 # Ambient Occlusion (HBAO) (Filter Node)
@@ -46,5 +47,3 @@ For an alternative, more advanced but slower version of AO, see [Ambient Occlusi
 </td>
 </tr>
 </table>
-
- 

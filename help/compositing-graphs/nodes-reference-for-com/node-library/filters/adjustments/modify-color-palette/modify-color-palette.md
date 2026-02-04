@@ -1,6 +1,7 @@
 ---
-title: "Modify Color Palette | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Modify Color Palette"
+title: "Modify Color Palette"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Modify Color Palette"
 ---
 
 # Modify Color Palette
@@ -97,5 +98,3 @@ This node may be used in combination with the following nodes: [Quantize Color](
     </td>
   </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Quantize Grayscale | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Grayscale"
+title: "Quantize Grayscale"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Grayscale"
 ---
 
 # Quantize Grayscale
@@ -42,5 +43,3 @@ Generates a single spline in the shape of a circle.
 ![Example 1](quantizegrayscale.gif "Example 1")
 
 ![Example 2](quantizegrayscale.png "Example 2")
-
- 

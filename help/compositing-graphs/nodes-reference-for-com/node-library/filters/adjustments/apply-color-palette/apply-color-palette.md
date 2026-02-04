@@ -1,6 +1,7 @@
 ---
-title: "Apply Color Palette | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Apply Color Palette"
+title: "Apply Color Palette"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Apply Color Palette"
 ---
 
 # Apply Color Palette
@@ -94,5 +95,3 @@ This node may be used in combination with the following nodes: [Quantize Color](
     </td>
   </tr>
 </table>
-
- 

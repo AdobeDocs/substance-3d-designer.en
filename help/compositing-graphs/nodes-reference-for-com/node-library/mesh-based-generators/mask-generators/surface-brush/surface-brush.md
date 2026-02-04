@@ -1,6 +1,7 @@
 ---
-title: "Surface Brush | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Surface Brush"
+title: "Surface Brush"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Surface Brush"
 ---
 
 # Surface Brush
@@ -58,5 +59,3 @@ This mask represents an interesting effect of metal-brushing on an object surfac
 </td>
 </tr>
 </table>
-
- 

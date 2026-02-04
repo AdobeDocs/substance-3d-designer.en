@@ -1,6 +1,7 @@
 ---
-title: "Fiber Glass Edge Wear | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Fiber Glass Edge Wear"
+title: "Fiber Glass Edge Wear"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Fiber Glass Edge Wear"
 ---
 
 # Fiber Glass Edge Wear
@@ -62,5 +63,3 @@ Represents a mask specifically intended for a fibreglass-type of wear, could per
 </td>
 </tr>
 </table>
-
- 

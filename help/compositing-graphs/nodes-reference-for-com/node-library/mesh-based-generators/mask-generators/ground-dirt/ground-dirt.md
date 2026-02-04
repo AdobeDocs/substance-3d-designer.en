@@ -1,6 +1,7 @@
 ---
-title: "Ground Dirt | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Ground Dirt"
+title: "Ground Dirt"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Ground Dirt"
 ---
 
 # Ground Dirt
@@ -48,5 +49,3 @@ This mask represents dirt that has accumulated from the ground up, the opposite 
 </td>
 </tr>
 </table>
-
- 

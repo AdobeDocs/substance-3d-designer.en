@@ -1,6 +1,7 @@
 ---
-title: "Splatter | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter"
+title: "Splatter"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter"
 ---
 
 # Splatter
@@ -61,5 +62,3 @@ Keep in mind that the default Splatter parameters do not look random at all: you
 </td>
 </tr>
 </table>
-
- 

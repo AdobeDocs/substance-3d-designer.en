@@ -1,6 +1,7 @@
 ---
-title: "Path 2D Transform | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Path 2D Transform"
+title: "Path 2D Transform"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Path 2D Transform"
 ---
 
 # Path 2D Transform
@@ -83,5 +84,3 @@ Applies a position offset to the splines in X (horizontal) and Y (vertical).
 </td>
 </tr>
 </table>
-
- 

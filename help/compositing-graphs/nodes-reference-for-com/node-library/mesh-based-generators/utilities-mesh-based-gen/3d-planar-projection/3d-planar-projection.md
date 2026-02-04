@@ -1,6 +1,7 @@
 ---
-title: "3D Planar Projection | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > 3D Planar Projection"
+title: "3D Planar Projection"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > 3D Planar Projection"
 ---
 
 # 3D Planar Projection
@@ -58,5 +59,3 @@ Performs a planar projection based on baked mesh data (Position and World Normal
 </td>
 </tr>
 </table>
-
- 

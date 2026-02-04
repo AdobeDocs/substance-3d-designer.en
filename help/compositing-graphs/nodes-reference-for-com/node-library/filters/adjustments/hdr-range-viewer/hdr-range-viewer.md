@@ -1,6 +1,7 @@
 ---
-title: "HDR Range Viewer | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > HDR Range Viewer"
+title: "HDR Range Viewer"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > HDR Range Viewer"
 ---
 
 # HDR Range Viewer
@@ -40,5 +41,3 @@ Debug tool to check exact areas with High Dynamic Range. Both Color and Grayscal
 </td>
 </tr>
 </table>
-
- 

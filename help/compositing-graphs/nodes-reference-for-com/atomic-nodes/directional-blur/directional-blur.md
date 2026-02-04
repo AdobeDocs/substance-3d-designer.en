@@ -1,6 +1,7 @@
 ---
-title: "Directional blur | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur"
+title: "Directional blur"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur"
 ---
 
 # Directional blur
@@ -118,5 +119,3 @@ Anisotropic blur
 ## Examples
 
 *Coming soon.*
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Transforms | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms"
+title: "Transforms"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms"
 ---
 
 # Transforms
@@ -15,5 +16,3 @@ The following nodes are useful examples to get started with:
 * [Symmetry](symmetry/symmetry.md)
 * [Safe Transform](safe-transform/safe-transform.md)
 * [Noise Upscale 1](noise-upscale-1/noise-upscale-1.md)
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Dissolve | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Dissolve"
+title: "Dissolve"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Dissolve"
 ---
 
 # Dissolve
@@ -45,5 +46,3 @@ Blends two inputs together with White Noise as mask for the transition.
 </td>
 </tr>
 </table>
-
- 

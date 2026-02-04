@@ -1,6 +1,7 @@
 ---
-title: "Clamp | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp"
+title: "Clamp"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp"
 ---
 
 # Clamp
@@ -41,5 +42,3 @@ Clamps input values to defined limits.
 </td>
 </tr>
 </table>
-
- 

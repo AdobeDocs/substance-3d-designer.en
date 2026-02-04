@@ -1,6 +1,7 @@
 ---
-title: "Paint Wear | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Paint Wear"
+title: "Paint Wear"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Paint Wear"
 ---
 
 # Paint Wear
@@ -57,5 +58,3 @@ This mask represents paint chipping and wearing away at edges.
 </td>
 </tr>
 </table>
-
- 

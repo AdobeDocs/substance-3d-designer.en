@@ -1,6 +1,7 @@
 ---
-title: "Substance graphs and MDL materials | Substance 3D Designer"
-description: "Designer > MDL graphs > Substance graphs and MDL materials"
+title: "Substance graphs and MDL materials"
+description: ""
+helpx_description: "Designer > MDL graphs > Substance graphs and MDL materials"
 ---
 
 # Substance graphs and MDL materials
@@ -92,5 +93,3 @@ Please note changing any parameter in the <b>SBS Base parameters</b> section inv
 >[!WARNING]
 >
 > When using a Substance graph in an MDL graph, exporting the MDL graph involves baking the Substance graph outputs into bitmaps which will be exported as textures bundled with the exported MDL file. This means the parametric nature of the Substance graph is *lost* in the exported MDL file.
-
- 

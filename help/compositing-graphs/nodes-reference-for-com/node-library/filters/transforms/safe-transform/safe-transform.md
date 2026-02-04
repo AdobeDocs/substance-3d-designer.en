@@ -1,6 +1,7 @@
 ---
-title: "Safe Transform | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Safe Transform"
+title: "Safe Transform"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Safe Transform"
 ---
 
 # Safe Transform
@@ -50,5 +51,3 @@ Useful for transforming noise when maximum control or perfect sharpness is requi
 </td>
 </tr>
 </table>
-
- 

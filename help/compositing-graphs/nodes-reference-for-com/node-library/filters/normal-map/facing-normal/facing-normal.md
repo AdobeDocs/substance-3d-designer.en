@@ -1,6 +1,7 @@
 ---
-title: "Facing Normal | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Facing Normal"
+title: "Facing Normal"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Facing Normal"
 ---
 
 # Facing Normal
@@ -37,5 +38,3 @@ This filter takes a Normalmap as an entry image and produces a grayscale image i
 </td>
 </tr>
 </table>
-
- 

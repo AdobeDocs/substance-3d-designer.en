@@ -1,6 +1,7 @@
 ---
-title: "Spline Sample Thickness | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Thickness"
+title: "Spline Sample Thickness"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Thickness"
 ---
 
 # Spline Sample Thickness
@@ -182,5 +183,3 @@ Thickness (px)FloatAdjusts the thickness of the spline visualization in pixels i
 </td>
 </tr>
 </table>
-
- 

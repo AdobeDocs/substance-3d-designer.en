@@ -1,6 +1,7 @@
 ---
-title: "Grunge Map 007 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 007"
+title: "Grunge Map 007"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 007"
 ---
 
 # Grunge Map 007
@@ -44,5 +45,3 @@ This generates a complex, combined Noisemap. It can be very useful as a detailed
 </td>
 </tr>
 </table>
-
- 

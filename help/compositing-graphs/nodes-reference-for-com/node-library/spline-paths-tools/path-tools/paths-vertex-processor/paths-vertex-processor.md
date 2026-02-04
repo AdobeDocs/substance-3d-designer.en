@@ -1,6 +1,7 @@
 ---
-title: "Paths Vertex Processor | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Vertex Processor"
+title: "Paths Vertex Processor"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Vertex Processor"
 ---
 
 # Paths Vertex Processor
@@ -88,5 +89,3 @@ See the <b>Description</b> section in this page for guidance.
 </td>
 </tr>
 </table>
-
- 

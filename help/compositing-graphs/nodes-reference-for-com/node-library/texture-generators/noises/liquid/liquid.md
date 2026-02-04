@@ -1,6 +1,7 @@
 ---
-title: "Liquid | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Liquid"
+title: "Liquid"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Liquid"
 ---
 
 # Liquid
@@ -42,5 +43,3 @@ This is a simple variant of [Gaussian Noise](../gaussian-noise/gaussian-noise.md
 </td>
 </tr>
 </table>
-
- 

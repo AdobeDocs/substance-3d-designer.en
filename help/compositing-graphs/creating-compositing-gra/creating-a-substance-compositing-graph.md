@@ -1,6 +1,7 @@
 ---
-title: "Creating a Substance graph | Substance 3D Designer"
-description: "Designer > Substance graphs > Creating a Substance graph"
+title: "Creating a Substance graph"
+description: ""
+helpx_description: "Designer > Substance graphs > Creating a Substance graph"
 ---
 
 # Creating a Substance graph
@@ -332,5 +333,3 @@ Then, use the <b>Filter by project file</b> button to narrow down the list of te
 </td>
 </tr>
 </table>
-
- 

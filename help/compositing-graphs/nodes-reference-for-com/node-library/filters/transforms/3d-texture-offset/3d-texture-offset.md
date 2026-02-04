@@ -1,6 +1,7 @@
 ---
-title: "3D Texture Offset | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > 3D Texture Offset"
+title: "3D Texture Offset"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > 3D Texture Offset"
 ---
 
 # 3D Texture Offset
@@ -68,5 +69,3 @@ The **3D Texture Offset** node applies an *offset transformation* in the **X**, 
 </td>
 </tr>
 </table>
-
- 

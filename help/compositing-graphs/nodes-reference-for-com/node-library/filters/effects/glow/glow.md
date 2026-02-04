@@ -1,6 +1,7 @@
 ---
-title: "Glow | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Glow"
+title: "Glow"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Glow"
 ---
 
 # Glow
@@ -46,5 +47,3 @@ Important: make sure to use the appropriate version for your input! Use "Glow" f
 </td>
 </tr>
 </table>
-
- 

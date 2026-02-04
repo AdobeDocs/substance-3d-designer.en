@@ -1,6 +1,7 @@
 ---
-title: "Gradient Circular | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Circular"
+title: "Gradient Circular"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Circular"
 ---
 
 # Gradient Circular
@@ -36,5 +37,3 @@ Creates a grayscale gradient transition defined by two custom points in a circul
 </td>
 </tr>
 </table>
-
- 

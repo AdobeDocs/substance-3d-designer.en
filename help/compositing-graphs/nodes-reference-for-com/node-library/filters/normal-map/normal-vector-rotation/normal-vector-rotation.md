@@ -1,6 +1,7 @@
 ---
-title: "Normal Vector Rotation | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Vector Rotation"
+title: "Normal Vector Rotation"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Vector Rotation"
 ---
 
 # Normal Vector Rotation
@@ -43,5 +44,3 @@ Normal utility node that rotates all vectors of an input Normalmap in Tangent sp
 </td>
 </tr>
 </table>
-
- 

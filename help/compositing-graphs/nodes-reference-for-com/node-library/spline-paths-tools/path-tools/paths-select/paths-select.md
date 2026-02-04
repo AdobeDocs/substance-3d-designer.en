@@ -1,6 +1,7 @@
 ---
-title: "Paths Select | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Select"
+title: "Paths Select"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Select"
 ---
 
 # Paths Select
@@ -88,5 +89,3 @@ The length threshold used to select splines.
 </td>
 </tr>
 </table>
-
- 

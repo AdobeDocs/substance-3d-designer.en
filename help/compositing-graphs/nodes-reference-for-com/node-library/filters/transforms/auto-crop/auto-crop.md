@@ -1,6 +1,7 @@
 ---
-title: "Auto Crop | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Auto Crop"
+title: "Auto Crop"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Auto Crop"
 ---
 
 # Auto Crop
@@ -91,5 +92,3 @@ The content of the image is defined by a box fitted to the *first and last pixel
 </td>
 </tr>
 </table>
-
- 

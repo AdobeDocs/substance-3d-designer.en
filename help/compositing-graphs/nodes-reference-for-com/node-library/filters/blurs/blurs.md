@@ -1,6 +1,7 @@
 ---
-title: "Blurs | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs"
+title: "Blurs"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs"
 ---
 
 # Blurs
@@ -13,5 +14,3 @@ Some good Blurs to check out:
 
 * [Blur HQ](blur-hq/blur-hq.md)
 * [Slope Blur](slope-blur/slope-blur.md)
-
- 

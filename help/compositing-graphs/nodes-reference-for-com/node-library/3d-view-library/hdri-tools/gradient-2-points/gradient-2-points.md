@@ -1,6 +1,7 @@
 ---
-title: "Gradient 2 Points | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient 2 Points"
+title: "Gradient 2 Points"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient 2 Points"
 ---
 
 # Gradient 2 Points
@@ -45,5 +46,3 @@ Creates a gradient of 2 colors between two user-selected points. Result is adjus
 </td>
 </tr>
 </table>
-
- 

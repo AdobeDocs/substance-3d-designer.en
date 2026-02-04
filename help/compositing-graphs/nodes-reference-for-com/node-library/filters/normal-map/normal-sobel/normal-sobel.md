@@ -1,6 +1,7 @@
 ---
-title: "Normal Sobel | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Sobel"
+title: "Normal Sobel"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Sobel"
 ---
 
 # Normal Sobel
@@ -39,5 +40,3 @@ Converts a Heightmap input to a Normalmap output. A slightly more advanced versi
 </td>
 </tr>
 </table>
-
- 

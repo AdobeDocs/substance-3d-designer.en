@@ -1,6 +1,7 @@
 ---
-title: "Fur 3 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 3"
+title: "Fur 3"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 3"
 ---
 
 # Fur 3
@@ -41,5 +42,3 @@ This generates a spreading/bristle-type noise.
 </td>
 </tr>
 </table>
-
- 

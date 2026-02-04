@@ -1,6 +1,7 @@
 ---
-title: "Edge Detect | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Edge Detect"
+title: "Edge Detect"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Edge Detect"
 ---
 
 # Edge Detect
@@ -43,5 +44,3 @@ Useful in many cases where some sort of mask for edges is needed. Keep in mind t
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "RGBA Split | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Split"
+title: "RGBA Split"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Split"
 ---
 
 # RGBA Split
@@ -39,5 +40,3 @@ Helpful for analysing and using packed channels separately. When using a baked P
 </td>
 </tr>
 </table>
-
- 

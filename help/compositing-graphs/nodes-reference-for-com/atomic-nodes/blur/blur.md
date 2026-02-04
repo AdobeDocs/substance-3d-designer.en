@@ -1,6 +1,7 @@
 ---
-title: "Blur | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur"
+title: "Blur"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur"
 ---
 
 # Blur
@@ -38,5 +39,3 @@ Below Example shows this node's Blur on the left, versus [Blur HQ](../../node-li
 | Blur (Atomic) | Blur HQ |
 | --- | --- |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="blur-example.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blur-hq.png"/></div> |
-
- 

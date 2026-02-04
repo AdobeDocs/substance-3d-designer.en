@@ -1,6 +1,7 @@
 ---
-title: "Crop | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Crop"
+title: "Crop"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Crop"
 ---
 
 # Crop
@@ -50,5 +51,3 @@ In short: **Double-click** the node you are using as input for this one (the ori
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Checker 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Checker 1"
+title: "Checker 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Checker 1"
 ---
 
 # Checker 1
@@ -41,5 +42,3 @@ It is a useful pattern for test cases, due to its obvious contrast and tiling.
 </td>
 </tr>
 </table>
-
- 

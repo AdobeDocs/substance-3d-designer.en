@@ -1,6 +1,7 @@
 ---
-title: "RT Shadows | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > RT Shadows"
+title: "RT Shadows"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > RT Shadows"
 ---
 
 # RT Shadows
@@ -88,5 +89,3 @@ A value of 0 results in no visible shadows.
 </td>
 </tr>
 </table>
-
- 

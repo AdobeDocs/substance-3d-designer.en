@@ -1,6 +1,7 @@
 ---
-title: "Grunge Leaks | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaks"
+title: "Grunge Leaks"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaks"
 ---
 
 # Grunge Leaks
@@ -54,5 +55,3 @@ The **Grunge Leaks** node generates a grunge map akin to drips across a greasy s
 </td>
 </tr>
 </table>
-
- 

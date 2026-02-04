@@ -1,6 +1,7 @@
 ---
-title: "Anisotropic Blur | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Anisotropic Blur"
+title: "Anisotropic Blur"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Anisotropic Blur"
 ---
 
 # Anisotropic Blur
@@ -42,5 +43,3 @@ Important: make sure to use the appropriate version for your input! Use "Anisotr
 </td>
 </tr>
 </table>
-
- 

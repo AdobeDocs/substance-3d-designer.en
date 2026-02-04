@@ -1,6 +1,7 @@
 ---
-title: "Tri Planar | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Tri Planar"
+title: "Tri Planar"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Tri Planar"
 ---
 
 # Tri Planar
@@ -73,5 +74,3 @@ Do keep in mind that your bakes should be high-precision: 8-bit bakes will not l
 </td>
 </tr>
 </table>
-
- 

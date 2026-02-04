@@ -1,6 +1,7 @@
 ---
-title: "Cloth Wear | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Cloth Wear"
+title: "Cloth Wear"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Cloth Wear"
 ---
 
 # Cloth Wear
@@ -49,5 +50,3 @@ The mask represents frazzled edges on cloth materials. It uses a cloth detail He
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "PBR Render Mapping | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Render Mapping"
+title: "PBR Render Mapping"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Render Mapping"
 ---
 
 # PBR Render Mapping
@@ -47,5 +48,3 @@ Example is a composite of four different PBR Render Mapping nodes, using a [Hist
 </td>
 </tr>
 </table>
-
- 

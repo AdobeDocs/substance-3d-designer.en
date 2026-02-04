@@ -1,6 +1,7 @@
 ---
-title: "Non-Square Transform | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Non-Square Transform"
+title: "Non-Square Transform"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Non-Square Transform"
 ---
 
 # Non-Square Transform
@@ -51,5 +52,3 @@ Make sure you fully understand the [Graph Parameters ](../../../../../graph-para
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Dirt gradient | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt gradient"
+title: "Dirt gradient"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt gradient"
 ---
 
 # Dirt gradient
@@ -111,5 +112,3 @@ See also: [Dirt 1](../dirt-1/dirt-1.md), [Dirt 2](../dirt-2/dirt-2.md), [Dirt 3]
 </td>
 </tr>
 </table>
-
- 

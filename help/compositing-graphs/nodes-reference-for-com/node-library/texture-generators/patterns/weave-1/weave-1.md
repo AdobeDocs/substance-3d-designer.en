@@ -1,6 +1,7 @@
 ---
-title: "Weave 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave 1"
+title: "Weave 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave 1"
 ---
 
 # Weave 1
@@ -39,5 +40,3 @@ Generates a simple weave pattern.
 </td>
 </tr>
 </table>
-
- 

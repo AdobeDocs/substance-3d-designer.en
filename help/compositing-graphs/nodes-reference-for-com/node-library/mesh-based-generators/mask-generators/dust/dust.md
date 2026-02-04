@@ -1,6 +1,7 @@
 ---
-title: "Dust | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dust"
+title: "Dust"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dust"
 ---
 
 # Dust
@@ -56,5 +57,3 @@ This mask represents dust accumulated in occluded, lowered areas, as well as onl
 </td>
 </tr>
 </table>
-
- 

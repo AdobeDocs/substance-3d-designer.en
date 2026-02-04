@@ -1,6 +1,7 @@
 ---
-title: "Bent Normal | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Bent Normal"
+title: "Bent Normal"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Bent Normal"
 ---
 
 # Bent Normal
@@ -57,5 +58,3 @@ Inverts the output's green channel.
 ## Example Images
 
 ![Bent Normal node - Example 1](bent-normal-ex-1.jpg "Bent Normal node - Example 1")
-
- 

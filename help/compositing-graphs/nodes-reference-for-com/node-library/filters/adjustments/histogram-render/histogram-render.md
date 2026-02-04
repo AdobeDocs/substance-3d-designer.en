@@ -1,6 +1,7 @@
 ---
-title: "Histogram render | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram render"
+title: "Histogram render"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram render"
 ---
 
 # Histogram render
@@ -71,5 +72,3 @@ Draws the histogram for a grayscale image.
 ![Histogram render: Example 1](histogram_render_example_1.png "Histogram render: Example 1"){zoomable="yes"}
 
 ![Histogram render: Example 2](histogram_render_example_2.png "Histogram render: Example 2"){zoomable="yes"}
-
- 

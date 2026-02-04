@@ -1,6 +1,7 @@
 ---
-title: "Color Dodge | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color Dodge"
+title: "Color Dodge"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color Dodge"
 ---
 
 # Color Dodge
@@ -45,5 +46,3 @@ Performs a Color Dodge blend. Mathematically the formula is Background / (1-Fore
 </td>
 </tr>
 </table>
-
- 

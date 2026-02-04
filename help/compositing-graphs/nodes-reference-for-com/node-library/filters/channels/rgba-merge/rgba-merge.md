@@ -1,6 +1,7 @@
 ---
-title: "RGBA Merge | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Merge"
+title: "RGBA Merge"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Merge"
 ---
 
 # RGBA Merge
@@ -46,5 +47,3 @@ Very useful node for channel-packing maps together. Can for example be used for 
 </td>
 </tr>
 </table>
-
- 

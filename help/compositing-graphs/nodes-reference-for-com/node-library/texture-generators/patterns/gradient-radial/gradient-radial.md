@@ -1,6 +1,7 @@
 ---
-title: "Gradient Radial | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Radial"
+title: "Gradient Radial"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Radial"
 ---
 
 # Gradient Radial
@@ -37,5 +38,3 @@ Similar to [Gradient Circular](../gradient-circular/gradient-circular.md), creat
 </td>
 </tr>
 </table>
-
- 

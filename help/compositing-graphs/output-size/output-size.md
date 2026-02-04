@@ -1,6 +1,7 @@
 ---
-title: "Output size | Substance 3D Designer"
-description: "Designer > Substance graphs > Output size"
+title: "Output size"
+description: ""
+helpx_description: "Designer > Substance graphs > Output size"
 ---
 
 # Output size
@@ -205,5 +206,3 @@ Set the relative modifiers for Width and Height to 0, leading to no upscaling.
 
 
 +++
-
- 

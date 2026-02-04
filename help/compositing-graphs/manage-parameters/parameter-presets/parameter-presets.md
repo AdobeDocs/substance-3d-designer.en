@@ -1,6 +1,7 @@
 ---
-title: "Parameter presets | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Exposing a parameter > Parameter presets"
+title: "Parameter presets"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Exposing a parameter > Parameter presets"
 ---
 
 # Parameter presets
@@ -44,5 +45,3 @@ Nothing more needs to be done to enable presets: once published as SBSAR, your p
 >[!IMPORTANT]
 >
 > The <b>Presets</b> tab is disabled when using [in-context editing](../../../interface/preferences-window/preferences-window.md).
-
- 

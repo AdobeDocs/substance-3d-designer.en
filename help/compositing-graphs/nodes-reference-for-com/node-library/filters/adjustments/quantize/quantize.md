@@ -1,6 +1,7 @@
 ---
-title: "Quantize Color (Simple) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color (Simple)"
+title: "Quantize Color (Simple)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color (Simple)"
 ---
 
 # Quantize Color (Simple)
@@ -35,5 +36,3 @@ Approximates the input range to a predefined number of values. Effectively intro
 Sets number of steps to approximate the Blue channel by.
 
 <b>Quantize Alpha Channel</b> *Integer*Sets number of steps to approximate the Alpha Channel by.
-
- 

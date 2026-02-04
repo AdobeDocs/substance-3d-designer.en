@@ -1,6 +1,7 @@
 ---
-title: "Tile Sampler | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Sampler"
+title: "Tile Sampler"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Sampler"
 ---
 
 # Tile Sampler
@@ -124,5 +125,3 @@ Make sure you are familiar with [Tile Generator](../tile-generator/tile-generato
 </td>
 </tr>
 </table>
-
- 

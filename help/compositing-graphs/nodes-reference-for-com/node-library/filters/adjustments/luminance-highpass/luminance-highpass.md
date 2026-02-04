@@ -1,6 +1,7 @@
 ---
-title: "Luminance Highpass | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Luminance Highpass"
+title: "Luminance Highpass"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Luminance Highpass"
 ---
 
 # Luminance Highpass
@@ -39,5 +40,3 @@ Does a slightly better job at preserving colors than [Lighting Cancel Low Freque
 </td>
 </tr>
 </table>
-
- 

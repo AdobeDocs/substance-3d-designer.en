@@ -1,6 +1,7 @@
 ---
-title: "Fur 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 1"
+title: "Fur 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 1"
 ---
 
 # Fur 1
@@ -40,5 +41,3 @@ This generates a straight-fur type of noise.
 </td>
 </tr>
 </table>
-
- 

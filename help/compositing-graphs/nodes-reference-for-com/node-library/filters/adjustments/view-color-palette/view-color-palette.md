@@ -1,6 +1,7 @@
 ---
-title: "View Color Palette | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > View Color Palette"
+title: "View Color Palette"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > View Color Palette"
 ---
 
 # View Color Palette
@@ -93,5 +94,3 @@ This node may be used to visualize the palettes produced by the following nodes:
 </td>
 </tr>
 </table>
-
- 

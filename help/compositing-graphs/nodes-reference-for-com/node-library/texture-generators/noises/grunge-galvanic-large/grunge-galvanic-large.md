@@ -1,6 +1,7 @@
 ---
-title: "Grunge Galvanic Large | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Large"
+title: "Grunge Galvanic Large"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Large"
 ---
 
 # Grunge Galvanic Large
@@ -53,5 +54,3 @@ The **Grunge Galvanic Large** node generates a grunge map akin to the pattern of
 </td>
 </tr>
 </table>
-
- 

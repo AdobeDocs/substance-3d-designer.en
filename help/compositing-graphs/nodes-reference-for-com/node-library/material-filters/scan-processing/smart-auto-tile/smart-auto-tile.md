@@ -1,6 +1,7 @@
 ---
-title: "Smart Auto Tile | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Smart Auto Tile"
+title: "Smart Auto Tile"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Smart Auto Tile"
 ---
 
 # Smart Auto Tile
@@ -67,5 +68,3 @@ To use this node, start by defining your Cropped area and then use the Edge sett
 </td>
 </tr>
 </table>
-
- 

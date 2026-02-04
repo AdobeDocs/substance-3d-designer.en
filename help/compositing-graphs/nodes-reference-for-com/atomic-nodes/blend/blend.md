@@ -1,6 +1,7 @@
 ---
-title: "Blend | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend"
+title: "Blend"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend"
 ---
 
 # Blend
@@ -97,5 +98,3 @@ Its functionality is similar to having two layers above one another in [Substanc
 ## Examples
 
 *Coming soon.*
-
- 

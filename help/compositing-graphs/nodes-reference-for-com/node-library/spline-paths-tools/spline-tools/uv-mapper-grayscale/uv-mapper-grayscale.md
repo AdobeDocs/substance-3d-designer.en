@@ -1,6 +1,7 @@
 ---
-title: "UV Mapper Grayscale | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Grayscale"
+title: "UV Mapper Grayscale"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Grayscale"
 ---
 
 # UV Mapper Grayscale
@@ -96,5 +97,3 @@ Maps the input grayscale image using the coordinates provided in the UV input.
 </td>
 </tr>
 </table>
-
- 

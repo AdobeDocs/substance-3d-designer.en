@@ -1,6 +1,7 @@
 ---
-title: "Light | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Light"
+title: "Light"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Light"
 ---
 
 # Light
@@ -40,5 +41,3 @@ This mask is a bit different from other Generators: it purely does fake lighting
 </td>
 </tr>
 </table>
-
- 

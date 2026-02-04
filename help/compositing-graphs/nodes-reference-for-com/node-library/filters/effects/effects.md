@@ -1,6 +1,7 @@
 ---
-title: "Effects | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects"
+title: "Effects"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects"
 ---
 
 # Effects
@@ -21,5 +22,3 @@ Another group of nodes is intended for layer shape effect or "Layer Styles", as 
 * [Uber Emboss](uber-emboss/uber-emboss.md)
 
 Finally, there are some useful advanced effects, of which [Flood Fill](flood-fill/flood-fill.md), [Edge Detect](edge-detect/edge-detect.md) and [Vector Warp](vector-warp/vector-warp.md) are the best examples.
-
- 

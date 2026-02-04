@@ -1,6 +1,7 @@
 ---
-title: "Warp | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Warp"
+title: "Warp"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Warp"
 ---
 
 # Warp
@@ -84,5 +85,3 @@ If you are familiar with Normal maps, you can imagine the workings of this node 
 ## Examples
 
 *Coming soon.*
-
- 

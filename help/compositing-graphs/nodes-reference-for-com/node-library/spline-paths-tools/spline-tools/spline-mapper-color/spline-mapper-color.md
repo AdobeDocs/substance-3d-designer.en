@@ -1,6 +1,7 @@
 ---
-title: "Spline Mapper Color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List"
+title: "Spline Mapper Color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List"
 ---
 
 # Spline Mapper Color
@@ -178,5 +179,3 @@ This also impacts uniform distribution.
 </td>
 </tr>
 </table>
-
- 

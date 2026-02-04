@@ -1,6 +1,7 @@
 ---
-title: "Material Clone Patch | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Clone Patch"
+title: "Material Clone Patch"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Clone Patch"
 ---
 
 # Material Clone Patch
@@ -58,5 +59,3 @@ This is very useful if you want to remove a detail from all channels of a materi
 </td>
 </tr>
 </table>
-
- 

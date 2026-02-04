@@ -1,6 +1,7 @@
 ---
-title: "White noise | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > White noise"
+title: "White noise"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > White noise"
 ---
 
 # White noise
@@ -92,5 +93,3 @@ Generates a white noise using one of three methods targeting different histogram
 </td>
 </tr>
 </table>
-
- 

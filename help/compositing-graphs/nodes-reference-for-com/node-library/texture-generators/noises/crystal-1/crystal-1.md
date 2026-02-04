@@ -1,6 +1,7 @@
 ---
-title: "Crystal 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 1"
+title: "Crystal 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 1"
 ---
 
 # Crystal 1
@@ -40,5 +41,3 @@ Generates a Worlye Voronoi-type noise, with a slightly more angular distance met
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Starburst | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Starburst"
+title: "Starburst"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Starburst"
 ---
 
 # Starburst
@@ -42,5 +43,3 @@ Generates a simple starburst effect, with adjustment parameters available.
 </td>
 </tr>
 </table>
-
- 

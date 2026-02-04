@@ -1,6 +1,7 @@
 ---
-title: "Selective Dirt | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Selective Dirt"
+title: "Selective Dirt"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Selective Dirt"
 ---
 
 # Selective Dirt
@@ -53,5 +54,3 @@ This [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Noises | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises"
+title: "Noises"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises"
 ---
 
 # Noises
@@ -25,5 +26,3 @@ Some good noises to start with:
 * [Clouds 2](clouds-2/clouds-2.md)
 * [Fractal sum base](fractal-sum-base/fractal-sum-base.md)
 * [Cells 4](cells-4/cells-4.md)
-
- 

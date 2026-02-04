@@ -1,6 +1,7 @@
 ---
-title: "Multi-Material Blend | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Multi-Material Blend"
+title: "Multi-Material Blend"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Multi-Material Blend"
 ---
 
 # Multi-Material Blend
@@ -55,5 +56,3 @@ Keep in mind that when using this, Material 1, Slot 1 is always the default mate
 </td>
 </tr>
 </table>
-
- 

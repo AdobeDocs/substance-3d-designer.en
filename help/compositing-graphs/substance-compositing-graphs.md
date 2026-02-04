@@ -1,6 +1,7 @@
 ---
-title: "Substance graphs | Substance 3D Designer"
-description: "Designer > Substance graphs"
+title: "Substance graphs"
+description: ""
+helpx_description: "Designer > Substance graphs"
 ---
 
 # Substance graphs
@@ -104,5 +105,3 @@ This example makes use ofLink Creation Modesto simplify using multiple links.
 [Link Creation Modes](../interface/the-graph-view/link-creation-modes/link-creation-modes.md)
 
 +++
-
- 

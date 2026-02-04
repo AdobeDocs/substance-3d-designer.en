@@ -1,6 +1,7 @@
 ---
-title: "Splatter Circular | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter Circular"
+title: "Splatter Circular"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter Circular"
 ---
 
 # Splatter Circular
@@ -121,5 +122,3 @@ Both inputs are optional.
 </td>
 </tr>
 </table>
-
- 

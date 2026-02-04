@@ -1,6 +1,7 @@
 ---
-title: "Spline  Path Tools | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools"
+title: "Spline  Path Tools"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools"
 ---
 
 # Spline &amp; Path Tools
@@ -22,5 +23,3 @@ Check out these tutorials to get started:
 >[!TIP]
 >
 > We recommend learning about [working with Path and Spline tools](working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Non-Uniform Rotation | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Non-Uniform Rotation"
+title: "Non-Uniform Rotation"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Non-Uniform Rotation"
 ---
 
 # Non-Uniform Rotation
@@ -90,5 +91,3 @@ Positive values in the **Rotation Map** input result in a *clockwise* rotation.
 </td>
 </tr>
 </table>
-
- 

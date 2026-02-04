@@ -258,7 +258,7 @@ When searching a variable in a graph – including exposed parameters – the se
 
 
 
-[Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
+[Get](../../../function-graphs/nodes-reference-for-fun/get-nodes/get-nodes.md)
 
 [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)
 

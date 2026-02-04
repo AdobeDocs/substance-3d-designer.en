@@ -1,6 +1,7 @@
 ---
-title: "Clouds 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Clouds 1"
+title: "Clouds 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Clouds 1"
 ---
 
 # Clouds 1
@@ -113,5 +114,3 @@ See also: [Clouds 2](../clouds-2/clouds-2.md), [Clouds 3](../clouds-3/clouds-3.m
 </td>
 </tr>
 </table>
-
- 

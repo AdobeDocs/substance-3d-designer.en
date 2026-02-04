@@ -1,6 +1,7 @@
 ---
-title: "Crystal 2 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 2"
+title: "Crystal 2"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 2"
 ---
 
 # Crystal 2
@@ -44,5 +45,3 @@ This is a bit of a niche noise: it can be useful for rare cases where you're aft
 </td>
 </tr>
 </table>
-
- 

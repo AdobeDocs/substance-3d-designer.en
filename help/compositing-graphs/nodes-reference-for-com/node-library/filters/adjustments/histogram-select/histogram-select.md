@@ -1,6 +1,7 @@
 ---
-title: "Histogram Select | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Select"
+title: "Histogram Select"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Select"
 ---
 
 # Histogram Select
@@ -40,5 +41,3 @@ Similar to [Histogram Scan](../histogram-scan/histogram-scan.md), this effect se
 </td>
 </tr>
 </table>
-
- 

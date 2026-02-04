@@ -1,6 +1,7 @@
 ---
-title: "Grunge Rough Dirty | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rough Dirty"
+title: "Grunge Rough Dirty"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rough Dirty"
 ---
 
 # Grunge Rough Dirty
@@ -54,5 +55,3 @@ The **Grunge Rough Dirty** node generates a grunge map akin to a rough dirty sur
 </td>
 </tr>
 </table>
-
- 

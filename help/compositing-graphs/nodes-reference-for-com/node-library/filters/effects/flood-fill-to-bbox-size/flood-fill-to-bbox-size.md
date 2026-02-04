@@ -1,6 +1,7 @@
 ---
-title: "Flood Fill to BBox Size | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to BBox Size"
+title: "Flood Fill to BBox Size"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to BBox Size"
 ---
 
 # Flood Fill to BBox Size
@@ -39,5 +40,3 @@ Values are relative to the total canvas size (a full white tile would mean it st
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Exporting PSD files | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Exporting PSD files"
+title: "Exporting PSD files"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Exporting PSD files"
 ---
 
 # Exporting PSD files
@@ -41,5 +42,3 @@ As Photoshop does not directly support multi-output materials, there are multipl
 * To expand the PSD more: work your way back to the left of the graph, dropping relevant in-between steps of your graph in the appropriate group. It won't be possible to share layers between outputs/groups.
 
 In the rare case that your PSD is the more important output, you can build your graph so that you only make use of blend modes. In that case it should be possible to recreate a more editable version of your graph as a layered document.
-
- 

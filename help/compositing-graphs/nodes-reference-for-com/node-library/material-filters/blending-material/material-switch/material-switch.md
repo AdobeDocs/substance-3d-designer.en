@@ -1,6 +1,7 @@
 ---
-title: "Material Switch | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Switch"
+title: "Material Switch"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Switch"
 ---
 
 # Material Switch
@@ -41,5 +42,3 @@ This node is the Multi-Cannel, Full material version of [Switch](../../../filter
 </td>
 </tr>
 </table>
-
- 

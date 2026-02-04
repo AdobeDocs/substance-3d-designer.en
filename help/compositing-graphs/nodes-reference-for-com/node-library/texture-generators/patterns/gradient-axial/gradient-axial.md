@@ -1,6 +1,7 @@
 ---
-title: "Gradient Axial | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Axial"
+title: "Gradient Axial"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Axial"
 ---
 
 # Gradient Axial
@@ -38,5 +39,3 @@ Creates a grayscale gradient transition between two custom defined points. Allow
 </td>
 </tr>
 </table>
-
- 

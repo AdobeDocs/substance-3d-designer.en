@@ -1,6 +1,7 @@
 ---
-title: "Grunge Scratches Fine | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Fine"
+title: "Grunge Scratches Fine"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Fine"
 ---
 
 # Grunge Scratches Fine
@@ -53,5 +54,3 @@ The **Grunge Scratches Fine** node generates a grunge map akin to a finely scrat
 </td>
 </tr>
 </table>
-
- 

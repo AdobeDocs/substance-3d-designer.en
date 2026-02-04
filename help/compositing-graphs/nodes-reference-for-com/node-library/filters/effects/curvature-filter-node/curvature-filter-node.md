@@ -1,6 +1,7 @@
 ---
-title: "Curvature (Filter Node) | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature (Filter Node)"
+title: "Curvature (Filter Node)"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature (Filter Node)"
 ---
 
 # Curvature (Filter Node)
@@ -41,5 +42,3 @@ This node is useful for some quick highlighting or darkening of certain edges. I
 </td>
 </tr>
 </table>
-
- 

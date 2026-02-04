@@ -1,6 +1,7 @@
 ---
-title: "Curvature Sobel | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Sobel"
+title: "Curvature Sobel"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Sobel"
 ---
 
 # Curvature Sobel
@@ -40,5 +41,3 @@ This node is useful for quick highlighting or darkening of certain edges. It is 
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "Material Selector | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Selector"
+title: "Material Selector"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Selector"
 ---
 
 # Material Selector
@@ -50,5 +51,3 @@ This is handy if you don't want to use [Multi-Material Blend](../../../material-
 </td>
 </tr>
 </table>
-
- 

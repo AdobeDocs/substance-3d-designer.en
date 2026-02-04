@@ -1,6 +1,7 @@
 ---
-title: "Min Max | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Min Max"
+title: "Min Max"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Min Max"
 ---
 
 # Min Max
@@ -37,5 +38,3 @@ To use this node with a Levels, you should at least know how to use the [Expose 
 </td>
 </tr>
 </table>
-
- 

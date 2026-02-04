@@ -1,6 +1,7 @@
 ---
-title: "Grunge Concrete | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Concrete"
+title: "Grunge Concrete"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Concrete"
 ---
 
 # Grunge Concrete
@@ -43,5 +44,3 @@ The **Grunge Concrete** node generates a grunge map akin to the height map of a 
 ## Example Images
 
 ![](grungeconcrete-variant.jpg){width="256px"}
-
- 

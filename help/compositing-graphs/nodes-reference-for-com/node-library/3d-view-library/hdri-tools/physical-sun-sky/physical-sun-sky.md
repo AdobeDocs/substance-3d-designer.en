@@ -1,6 +1,7 @@
 ---
-title: "Physical SunSky | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Physical SunSky"
+title: "Physical SunSky"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Physical SunSky"
 ---
 
 # Physical Sun/Sky
@@ -49,5 +50,3 @@ Physical Sun and Sky implementation based on Hosek-Wikie skylight model. Provide
 </td>
 </tr>
 </table>
-
- 

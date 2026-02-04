@@ -1,6 +1,7 @@
 ---
-title: "Flood Fill to Position | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Position"
+title: "Flood Fill to Position"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Position"
 ---
 
 # Flood Fill to Position
@@ -39,5 +40,3 @@ The color of each tile represents its X- and Y-coordinate center, stored in the 
 </td>
 </tr>
 </table>
-
- 

@@ -1,6 +1,7 @@
 ---
-title: "PBR Utilities | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities"
+title: "PBR Utilities"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities"
 ---
 
 # PBR Utilities
@@ -12,5 +13,3 @@ The following nodes are especially useful:
 * [Base Material](base-material/base-material.md)
 * [PBR BaseColor / Metallic Validate](pbr-basecolor-metallic/pbr-basecolor-metallic-validate.md)
 * [PBR Render](pbr-render/pbr-render.md)
-
- 

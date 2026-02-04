@@ -1,6 +1,7 @@
 ---
-title: "Multi Clone Patch | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Clone Patch"
+title: "Multi Clone Patch"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Clone Patch"
 ---
 
 # Multi Clone Patch
@@ -57,5 +58,3 @@ This node is the Multi-input version of [Clone Patch](../clone-patch/clone-patch
 </td>
 </tr>
 </table>
-
- 

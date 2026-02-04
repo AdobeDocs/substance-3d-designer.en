@@ -1,6 +1,7 @@
 ---
-title: "Scatter on Spline Grayscale | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Grayscale"
+title: "Scatter on Spline Grayscale"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Grayscale"
 ---
 
 # Scatter on Spline Grayscale
@@ -513,5 +514,3 @@ Mask InvertBooleanInverts the masking of the patterns.
 </td>
 </tr>
 </table>
-
- 

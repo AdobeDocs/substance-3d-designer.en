@@ -1,6 +1,7 @@
 ---
-title: "Bitmap to Material Light | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > 1-Click > Bitmap to Material Light"
+title: "Bitmap to Material Light"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > 1-Click > Bitmap to Material Light"
 ---
 
 # Bitmap to Material Light
@@ -79,5 +80,3 @@ While not guaranteed to result in perfect, PBR-correct materials, it is a good a
 </td>
 </tr>
 </table>
-
- 

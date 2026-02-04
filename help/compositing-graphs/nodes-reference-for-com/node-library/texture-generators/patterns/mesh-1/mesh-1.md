@@ -1,6 +1,7 @@
 ---
-title: "Mesh 1 | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Mesh 1"
+title: "Mesh 1"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Mesh 1"
 ---
 
 # Mesh 1
@@ -39,5 +40,3 @@ Simple mesh pattern with thin blocks. Good for creating height and detail maps.
 </td>
 </tr>
 </table>
-
- 

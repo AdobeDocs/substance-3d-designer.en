@@ -1,6 +1,7 @@
 ---
-title: "PBR Albedo Safe Color | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Albedo Safe Color"
+title: "PBR Albedo Safe Color"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Albedo Safe Color"
 ---
 
 # PBR Albedo Safe Color
@@ -42,5 +43,3 @@ This is useful as a quick correction tool, especially when one is still learning
 </td>
 </tr>
 </table>
-
- 

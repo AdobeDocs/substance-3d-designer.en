@@ -1,6 +1,7 @@
 ---
-title: "SVG | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG"
+title: "SVG"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG"
 ---
 
 # SVG
@@ -106,5 +107,3 @@ Vector shapes can be edited in Designer. Learn more about the editing tools in [
 ## Examples
 
 *Coming soon.*
-
- 

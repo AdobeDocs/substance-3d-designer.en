@@ -1,6 +1,7 @@
 ---
-title: "Normal To Height HQ | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ"
+title: "Normal To Height HQ"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ"
 ---
 
 # Normal To Height HQ
@@ -44,5 +45,3 @@ Useful for when you only have a Normalmap source, yet still want to perform oper
 </td>
 </tr>
 </table>
-
- 

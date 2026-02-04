@@ -1,6 +1,7 @@
 ---
-title: "Spline Sample Height | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Height"
+title: "Spline Sample Height"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Height"
 ---
 
 # Spline Sample Height
@@ -182,5 +183,3 @@ Thickness (px)FloatAdjusts the thickness of the spline visualization in pixels i
 </td>
 </tr>
 </table>
-
- 

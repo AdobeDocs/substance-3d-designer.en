@@ -1,6 +1,7 @@
 ---
-title: "Moss Weathering | Substance 3D Designer"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Moss Weathering"
+title: "Moss Weathering"
+description: ""
+helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Moss Weathering"
 ---
 
 # Moss Weathering
@@ -75,5 +76,3 @@ Make sure to properly understand the [Link Creation Modes](https://support.alleg
 </td>
 </tr>
 </table>
-
- 
