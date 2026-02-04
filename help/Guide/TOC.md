@@ -7,10 +7,10 @@ solution: Substance 3D Designer
 
 # Substance 3D Designer {#using}
 
-+ [User guide](/help/home.md)
-+ [Glossary](/help/glossary.md)
++ [User guide](/help/home/home.md)
++ [Glossary](/help/glossary/glossary.md)
 + Getting started{#getting-started}
-  + [Getting started](/help/getting-started.md)
+  + [Getting started](/help/getting-started/getting-started.md)
   + [Activation and licenses](/help/getting-started/activation-and-licenses/activation-and-licenses.md)
   + [System requirements](/help/getting-started/system-requirements/system-requirements.md)
   + Overview{#overview}
@@ -20,7 +20,7 @@ solution: Substance 3D Designer
   + [Shortcuts](/help/getting-started/shortcuts/shortcuts.md)
   + [Tutorials learning](/help/getting-started/tutorials-learning/tutorials-learning.md)
 + Workspace{#workspace}
-  + [Workspace](/help/interface.md)
+  + [Workspace](/help/interface/interface.md)
   + [Customizing your workspace](/help/interface/customizing-your-wor/customizing-your-workspace.md)
   + [Home screen](/help/interface/home-screen/home-screen.md)
   + [Main toolbar](/help/interface/the-main-toolbar/the-main-toolbar.md)
@@ -62,7 +62,7 @@ solution: Substance 3D Designer
       + [OpenGL - Switching your shaders to OpenGL Core Profile](/help/interface/3d-view/switching-your-shaders/switching-your-shaders-to-opengl-core-profile.md)
   + [Dependency manager](/help/interface/dependency-manager/dependency-manager.md)
 + Resources{#resources}
-  + [Resources](/help/resources.md)
+  + [Resources](/help/resources/resources.md)
   + [Importing, linking and new resources](/help/resources/importing-linking-and-new/importing-linking-and-new-resources.md)
   + Bitmap resource{#bitmap-resource}
     + [Bitmap resource](/help/resources/bitmap-resource/bitmap-resource.md)
@@ -75,7 +75,7 @@ solution: Substance 3D Designer
   + [Font resource](/help/resources/font-resource/font-resource.md)
   + [Warnings from dependencies](/help/resources/warnings-from-dep/warnings-from-dependencies.md)
 + Substance graphs{#substance-graphs}
-  + [Substance graphs](/help/substance-compositing-graphs.md)
+  + [Substance graphs](/help/compositing-graphs/substance-compositing-graphs.md)
   + [Substance graph key concepts](/help/compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
   + Creating a Substance graph{#creating-a-substance-graph}
     + [Creating a Substance graph](/help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
@@ -592,7 +592,7 @@ solution: Substance 3D Designer
           + [Sphere light](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/sphere-light/sphere-light.md)
           + [Straighten horizon](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/straighten-horizon/straighten-horizon.md)
 + Substance function graphs{#substance-function-graphs}
-  + [Substance function graphs](/help/function-graphs.md)
+  + [Substance function graphs](/help/function-graphs/function-graphs.md)
   + [What is a Substance function graph?](/help/function-graphs/what-is-a-function/what-is-a-function.md)
   + [Create and edit a function](/help/function-graphs/create-and-edit-function/create-and-edit-a-function.md)
   + [The Substance function graph](/help/function-graphs/the-function-graph/the-function-graph.md)
@@ -635,7 +635,7 @@ solution: Substance 3D Designer
         + [Random](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/function-nodes-random.md)
         + [Hash functions](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 + MDL graphs{#mdl-graphs}
-  + [MDL graphs](/help/mdl-graphs.md)
+  + [MDL graphs](/help/mdl-graphs/mdl-graphs.md)
   + [Main MDL graph concepts](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
   + [Creating an MDL graph](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
   + [MDL library](/help/mdl-graphs/mdl-library/mdl-library.md)
@@ -645,31 +645,31 @@ solution: Substance 3D Designer
   + [Warnings in MDL graphs](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
   + [MDL learning resources](/help/mdl-graphs/mdl-learning-resources/mdl-learning-resources.md)
 + Working with 3D scenes{#working-with-3d-scenes}
-  + [Working with 3D scenes](/help/working-with-3d-scenes.md)
+  + [Working with 3D scenes](/help/working-with-3d-scenes/working-with-3d-scenes.md)
   + [Overriding scene materials](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
   + [Extracting materials' values and textures](/help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)
   + [Exporting scenes](/help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
 + Bakers{#bakers}
-  + [Bakers](/help/bakers.md)
+  + [Bakers](/help/bakers/bakers.md)
   + [Bakers legacy interface](/help/bakers/bakers-legacy-interface/bakers-legacy-interface.md)
 + Best practices{#best-practices}
-  + [Best practices](/help/best-practices.md)
+  + [Best practices](/help/best-practices/best-practices.md)
   + [Filesize reduction guidelines](/help/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
   + [Graph creation etiquette](/help/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
   + [Performance optimization guidelines](/help/best-practices/performance-optimization/performance-optimization-guidelines.md)
 + Pipeline and project configuration{#pipeline-and-project-configuration}
-  + [Pipeline and project configuration](/help/pipeline-and-project-configuration.md)
+  + [Pipeline and project configuration](/help/pipeline-and-project-con/pipeline-and-project-configuration.md)
   + [Project configuration files - SBSPRJ](/help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)
   + [Configuration list - SBSCFG](/help/pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)
   + [User preferences - Automating setup](/help/pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)
   + [Retrieving the installation path](/help/pipeline-and-project-con/retrieving-the-ins/retrieving-the-installation-path.md)
   + [Environment variables](/help/pipeline-and-project-con/environment-variables/environment-variables.md)
 + Color management{#color-management}
-  + [Color management](/help/color-management.md)
+  + [Color management](/help/color-management/color-management.md)
   + [Spot colors - Pantone](/help/color-management/spot-colors-pantone/spot-colors-pantone.md)
-+ [Package metadata](/help/package-metadata.md)
++ [Package metadata](/help/package-metadata/package-metadata.md)
 + Scripting{#scripting}
-  + [Scripting](/help/scripting.md)
+  + [Scripting](/help/scripting/scripting.md)
   + [Plugin basics](/help/scripting/plugin-basics/plugin-basics.md)
   + [Plugin search paths](/help/scripting/plugin-search-paths/plugin-search-paths.md)
   + [Plugins packages](/help/scripting/plugins-packages/plugins-packages.md)
@@ -690,7 +690,7 @@ solution: Substance 3D Designer
   + [Packaging plugins](/help/scripting/packaging-plugins/packaging-plugins.md)
   + [Scripting API reference](/help/scripting/scripting-api-reference/scripting-api-reference.md)
 + Technical issues{#technical-issues}
-  + [Technical issues](/help/technical-issues.md)
+  + [Technical issues](/help/technical-issues/technical-issues.md)
   + [Warnings and errors](/help/technical-issues/warnings-and-errors/warnings-and-errors.md)
   + [Cannot create/load a project](/help/technical-issues/cannot-create-load-pro/cannot-create-load-a-project.md)
   + [Application does not start](/help/technical-issues/application-does-not-sta/application-does-not-start.md)
@@ -703,7 +703,7 @@ solution: Substance 3D Designer
   + [Python issues](/help/technical-issues/python-issues/python-issues.md)
   + [Substance model graph feature is missing](/help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
 + Release notes{#release-notes}
-  + [Release notes](/help/release-notes.md)
+  + [Release notes](/help/release-notes/release-notes.md)
   + [All changes](/help/release-notes/all-changes/all-changes.md)
   + [Version 15.1](/help/release-notes/version-15-1/version-15-1.md)
   + [Version 15.0](/help/release-notes/version-15-0/version-15-0.md)
