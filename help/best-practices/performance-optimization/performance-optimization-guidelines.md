@@ -22,90 +22,46 @@ Please make a good note of the following guidelines:
 ### GENERAL PERFORMANCE-RELATED SETTINGS
 
 +++GPU engine is much faster than CPU engine
-
-
 Unless you have an unsupported (integrated) graphics card, use the GPU substance engine (change with Hotkey F9).
-
-
 
 +++
 
 +++Switching parent resolution of the graph is slow
-
-
-It recomputes graph, cacheand all thumbnails. It's better to usetheBatchtab of the export dialogas it avoids extensive, unneeded recalculation (for example when exporting to 8192 resolution).
-
-
-
-[theBatchtab of the export dialog](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
+It recomputes graph, cache and all thumbnails. It's better to use [the <b>Batch </b>tab of the export dialog](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) as it avoids extensive, unneeded recalculation (for example when exporting to 8192 resolution).
 
 +++
 
 +++In extreme cases, increased memory cache might be needed
-
-
-The applicationlimits the amount of RAM that can be usedfor the image cache, but you can override and increase this (with care).
-
-
-
-[limits the amount of RAM that can be used](../../interface/preferences-window/preferences-window.md)
+The application [limits the amount of RAM that can be used](../../interface/preferences-window/preferences-window.md) for the image cache, but you can override and increase this (with care).
 
 +++
 
 ### GRAPH OPTIMIZATION
 
 +++Pay careful attention to node resolutions and inheritance in general!
-
-
 High values will seriously affect performance, so consider how the material is likely to be used and whether you can reduce the data sizes involved.
 
-
-
-
-
-We recommend you learn more aboutnode resolution (Output size)andinheritance in Substance graphs.
-
-
-
-[node resolution (Output size)](../../compositing-graphs/output-size/output-size.md)
-
-[inheritance in Substance graphs](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
+We recommend you learn more about [node resolution (Output size)](../../compositing-graphs/output-size/output-size.md) and [inheritance in Substance graphs](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 +++
 
 +++Use grayscale when no color is needed
-
-
 Color operations take four times longer than grayscale operations. Also try to minimize type conversions between color and grayscale.
-
-
 
 +++
 
 +++Use 8 bit when 16-bit is not needed
-
-
-The CPU version of the Substance Engine (SSE2)does notactually support 16-bit color or 8-bit greyscale. The GPU engine supports all 4 combinations of 8/16 bits and greyscale/color.Currently,onlythe CPU engine is used in Unity and Unreal Engine plugins.
-
-
+The CPU version of the Substance Engine (SSE2) *does not* actually support 16-bit color or 8-bit greyscale. The GPU engine supports all 4 combinations of 8/16 bits and greyscale/color. *Currently, only the CPU engine is used in Unity and Unreal Engine plugins*.
 
 +++
 
 +++Minimize node output size whenever possible
-
-
-Sometimes, downsizing some nodes doesn't affect the final result, but will affect performance. For example, using a Uniform Color node set to the same output size as the document is pointless: The Uniform Color should be set to Absolute &#91;16px x 16px&#93; and the subsequent node to Relative to Parent. Generally this trick works well for low-frequency images, such as Perlin noise.
-
-
+Sometimes, downsizing some nodes doesn't affect the final result, but will affect performance. For example, using a Uniform Color node set to the same output size as the document is pointless: The Uniform Color should be set to Absolute [16px x 16px] and the subsequent node to Relative to Parent. Generally this trick works well for low-frequency images, such as Perlin noise.
 
 +++
 
 +++Do not use images smaller than 16*16 pixels
-
-
 This slows rendering performance.
-
-
 
 +++
 
@@ -120,85 +76,39 @@ This slows rendering performance.
 +++
 
 +++Some noise generators are affected by the amount of patterns drawn
-
-
-For instance, theTile Generatornode will get slower to process the more patterns you add to it.
-
-
-
-[Tile Generator](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)
+For instance, the [Tile Generator](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) node will get slower to process the more patterns you add to it.
 
 +++
 
 +++Some noises are affected by a scale factor
-
-
-This factor will in fact draw more patterns. Affected nodes include noises, Cells patterns, etc. If you need a white noise pattern, don't use a noise with a very high scale value and use theWhite NoiseorWhite Noise Fastnodes instead.
-
-
-
-[White Noise](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md)
-
-[White Noise Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)
+This factor will in fact draw more patterns. Affected nodes include noises, Cells patterns, etc. If you need a white noise pattern, don't use a noise with a very high scale value and use the [White Noise](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md) or [White Noise Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md) nodes instead.
 
 +++
 
 +++Conversely, there are some very fast noise generators
-
-
-These includeWhite Noise Fast,Fractal Sum Base, andAnisotropic Noise.
-
-
-
-[White Noise Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)
-
-[Fractal Sum Base](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md)
-
-[Anisotropic Noise](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md)
+These include [White Noise Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md), [Fractal Sum Base](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md), and [Anisotropic Noise](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md).
 
 +++
 
 +++Watch out with heavy image sampling functions in some cases
-
-
-Functions are executed on CPU engine, except inPixel Processors. If you are doing a lot of heavy image sampling (changing $pos coordinates) inValue ProcessorsorFXmaps, there would be a lot of swapping between VRAM and CPU RAM, causing performance delays.
-
-
-
-[Pixel Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
-
-[Value Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
-
-[FXmaps](../../function-graphs/fxmaps/fxmaps.md)
+Functions are executed on CPU engine, except in [Pixel Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). If you are doing a lot of heavy image sampling (changing $pos coordinates) in [Value Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) or [FXmaps](../../function-graphs/fxmaps/fxmaps.md), there would be a lot of swapping between VRAM and CPU RAM, causing performance delays.
 
 +++
 
 ### OPTIMIZATIONS FOR MOBILE USAGE
 
 +++It is not recommended to use Warps and FX-Maps
-
-
 They are very performance costly.
-
-
 
 +++
 
 +++Avoid Blur nodes
-
-
 Use downscale transformations instead.
-
-
 
 +++
 
 +++Work as much as possible in grayscale
-
-
 Switch to color mode at the end of the graph.
-
-
 
 +++
 

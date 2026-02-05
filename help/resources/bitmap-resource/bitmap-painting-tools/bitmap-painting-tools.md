@@ -136,182 +136,75 @@ Presets are organised and saved in *libraries*, which can be managed in the ![
 The settings of a brush are grouped into the following sections:
 
 +++Shape
+The <b>Shape type</b> parameter controls the basic shape of the brush. Available shapes are:
 
+* *Ellipse*: a round shape set as a *circle* by default
 
-TheShape typeparameter controls the basic shape of the brush. Available shapes are:
+* *Rectangle*: a straight shape set as a *square* by default
 
+* *Polygon*: a straight shape which has a *customisable* number of edges and angles
 
+<b>Edges count </b>(*Polygon* shape only): lets you choose the number of *faces* of the polygon
 
-* Ellipse: a round shape set as acircleby default
+<b>Inner radius </b>(*Polygon* shape only): provides control over the distance between a face *midpoint* and the shape center, effectively creating a *star* pattern
 
-
-* Rectangle: a straight shape set as asquareby default
-
-
-* Polygon: a straight shape which has acustomisablenumber of edges and angles
-
-
-
-
-Edges count(Polygonshape only): lets you choose the number offacesof the polygon
-
-
-
-
-
-Inner radius(Polygonshape only): provides control over the distance between a facemidpointand the shape center, effectively creating astarpattern
-
-
-
-
-
-Hardness: definesfade radiusof the shape
-
-
+<b>Hardness</b>: defines *fade radius* of the shape
 
 +++
 
 +++Transform
-
-
 When applying a brush stroke to the image, the stroke is effectively a repeated stamping of the brush pattern, following the behaviour defined by the controls in this section.
 
+<b>Size</b>: sets the *diameter* of the brush shape in pixels
 
+<b>Size jitter</b>: lets you *randomize* the brush size per stamp, is expressed as a *percentage* of the <b>Size</b> value and controls the *range* of random values from <b>0</b> to the <b>Size</b> value
 
+<b>Size control</b>: if you use a pen input with support for *pen pressure*, you can use this parameter to let it control the brush size
 
+<b>Spacing</b>: controls the spacing *between each individual stamp* along a brush stroke. This helps separate and define the shape patterns more clearly
 
-Size: sets thediameterof the brush shape in pixels
+<b>Roundness</b>: by default, the <b>Shape type</b> selected in the <b>Shape</b> section has a width-to-height ratio of *1:1*. This parameter lets you change this ratio by *lowering the width* as a percentage of the height
 
+<b>Roundness jitter</b>: lets you *randomize* the roudness per stamp, is expressed as a *percentage* of the <b>Roundness</b> value and controls the *range* of random values from <b>0</b> to the <b>Roudness</b> value
 
+<b>Angle</b>: controls the *rotation* of the brush pattern in *degrees*
 
-
-
-Size jitter: lets yourandomizethe brush size per stamp, is expressed as apercentageof theSizevalue and controls therangeof random values from0to theSizevalue
-
-
-
-
-
-Size control: if you use a pen input with support forpen pressure, you can use this parameter to let it control the brush size
-
-
-
-
-
-Spacing: controls the spacingbetween each individual stampalong a brush stroke. This helps separate and define the shape patterns more clearly
-
-
-
-
-
-Roundness: by default, theShape typeselected in theShapesection has a width-to-height ratio of1:1. This parameter lets you change this ratio bylowering the widthas a percentage of the height
-
-
-
-
-
-Roundness jitter: lets yourandomizethe roudness per stamp, is expressed as apercentageof theRoundnessvalue and controls therangeof random values from0to theRoudnessvalue
-
-
-
-
-
-Angle: controls therotationof the brush pattern indegrees
-
-
-
-
-
-Angle jitter: lets yourandomizethe rotation per stamp, is expressed as apercentageof theAnglevalue and controls therangeof random values from0to360degrees
-
-
+<b>Angle jitter</b>: lets you *randomize* the rotation per stamp, is expressed as a *percentage* of the <b>Angle</b> value and controls the *range* of random values from <b>0</b> to <b>360 </b>degrees
 
 +++
 
 +++Scattering
-
-
 By default, the shape pattern is stamped strictly along the stroke. You may want to disrupt this by applying an offset to the shape pattern so they can be scattered around the stroke for a more organic or chaotic effect.
 
+<b>Scatter</b>: the maximum *distance* by which each individual stamp should be offset from the stroke, expressed as a percentage of the *brush size*. Note that this distance is *randomized by default* from <b>0</b> to the *set percentage* of the brush size, and that the *direction* of the offset is also random
 
-
-
-
-Scatter: the maximumdistanceby which each individual stamp should be offset from the stroke, expressed as a percentage of thebrush size. Note that this distance israndomized by defaultfrom0to theset percentageof the brush size, and that thedirectionof the offset is also random
-
-
-
-
-
-Count: the number of scattered copies of individual stamp
-
-
+<b>Count</b>: the number of scattered copies of individual stamp
 
 +++
 
 +++Color
+The color applied by the brush is defined by the *selected primary color* – and the <b>Brush texture</b>, if one is currently applied. This color can be changed dynamically using the controls in this section.
 
+<b>Flow jitter</b>: lets you *randomize* the flow per stamp, is expressed as a *percentage* of the maximum flow
 
-The color applied by the brush is defined by theselected primary color– and theBrush texture, if one is currently applied. This color can be changed dynamically using the controls in this section.
+<b>Flow control</b>: if you use a pen input with support for *pen pressure*, you can use this parameter to let it control the flow
 
+<b>Hue jitter</b>: lets you *randomize* the color hue *offset* per stamp, is expressed as a *percentage* of the entire hue span
 
+<b>Saturation jitter</b>: lets you *randomize* the color saturation *offset* per stamp, is expressed as a *percentage* of the entire saturation span
 
-
-
-Flow jitter: lets yourandomizethe flow per stamp, is expressed as apercentageof the maximum flow
-
-
-
-
-
-Flow control: if you use a pen input with support forpen pressure, you can use this parameter to let it control the flow
-
-
-
-
-
-Hue jitter: lets yourandomizethe color hueoffsetper stamp, is expressed as apercentageof the entire hue span
-
-
-
-
-
-Saturation jitter: lets yourandomizethe color saturationoffsetper stamp, is expressed as apercentageof the entire saturation span
-
-
-
-
-
-Brightness jitter: lets yourandomizethe color brightnessoffsetper stamp, is expressed as apercentageof the entire brightness span
-
-
+<b>Brightness jitter</b>: lets you *randomize* the color brightness *offset* per stamp, is expressed as a *percentage* of the entire brightness span
 
 +++
 
 +++Texture
+You can apply a *bitmap file* to the brush, and use it to *stamp* that bitmap instead of a flat color. The brush texture behaves as follows:
 
+<b>Texture file: </b>defines the *path* of the bitmap which should be used as a brush texture. You can select the bitmap through your system file browser by using the ![](2dview-paintingtools-brusheditor-selecttexture.png) button next to the input field
 
-You can apply abitmap fileto the brush, and use it tostampthat bitmap instead of a flat color. The brush texture behaves as follows:
+The texture *only* replaces the basic flat color of the brush, meaning that *all the brush properties listed above can still be used* and function as described
 
-
-
-
-
-Texture file:defines thepathof the bitmap which should be used as a brush texture. You can select the bitmap through your system file browser by using thebutton next to the input field
-
-
-
-
-
-The textureonlyreplaces the basic flat color of the brush, meaning thatall the brush properties listed above can still be usedand function as described
-
-
-
-
-
-The texture's colors arehue-shiftedtowards theset primary color, meaning that if the set primary color is white, the texture colors can be used as-is. The more saturated the set primary color is, the more the texture colors whill be hue-shifted towards it
-
-
+The texture's colors are *hue-shifted* towards the *set primary color*, meaning that if the set primary color is white, the texture colors can be used as-is. The more saturated the set primary color is, the more the texture colors whill be hue-shifted towards it
 
 +++
 

@@ -32,17 +32,9 @@ The flow may also be broken down by rotating the direction in which blurring is 
 This filter can produce a painterly effect, and is useful for stylization.
 
 +++Anisotropy
-
-
-The intensity of the flow is mainly controlled by the  parameter, as demonstrated in the image below.
-
-
-
-
+The intensity of the flow is mainly controlled by the parameter, as demonstrated in the image below.
 
 Left: Anisotropy 0.0 / Right: Anisotropy 1.0
-
-
 
 
 

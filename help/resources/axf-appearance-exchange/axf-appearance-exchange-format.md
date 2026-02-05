@@ -47,26 +47,14 @@ The available templates are aimed at two AxF workflows:
 The AxF files import workflow may be started from on of the two methods below:
 
 +++Home screen
-
-
-Click on theImport AxF...button in theHome screen's left section.
-
-
-
-[Home screen](../../interface/home-screen/home-screen.md)
+Click on the <b>Import AxF...</b> button in the [Home screen](../../interface/home-screen/home-screen.md)'s left section.
 
 
 
 +++
 
 +++Explorer
-
-
-Click RMB on a package in theExplorer, and go toImport &gt; AxFin the package's contextual menu.
-
-
-
-[Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+Click RMB on a package in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), and go to <b>Import &gt; AxF</b> in the package's contextual menu.
 
 
 
@@ -295,116 +283,45 @@ The number of channels is specified differently depending on the type of data su
 The method to render AxF SVBRDF materials in the [3D View](../../interface/3d-view/3d-view.md) depends on the .
 
 +++Convert to PBR
+If you wish to convert an SVBRDF material in an AxF file into a standard PBR material, then your import setup will likely involve [MDL graph](../../mdl-graphs/mdl-graphs.md) and [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) conversion templates (see  section above).
 
-
-If you wish to convert an SVBRDF material in an AxF file into a standard PBR material, then your import setup will likely involveMDL graphandSubstance graphconversion templates (seesection above).
-
-
-
-[MDL graph](../../mdl-graphs/mdl-graphs.md)
-
-[Substance graph](../../compositing-graphs/substance-compositing-graphs.md)
-
-
-
-In that case, the MDL graph should be dragged and dropped into the 3D View before any other operation, in order to automatically switch to theIrayrenderer and use that MDL graph as material definition.Then, you may drag and drop the Substance graph that you set up in the import dialog, in order to connect its outputs to the MDL shader.
-
-
-
-[Iray](../../interface/3d-view/iray/iray.md)
+In that case, the MDL graph should be dragged and dropped into the 3D View before any other operation, in order to automatically switch to the [Iray](../../interface/3d-view/iray/iray.md) renderer and use that MDL graph as material definition.  
+Then, you may drag and drop the Substance graph that you set up in the import dialog, in order to connect its outputs to the MDL shader.
 
 
 
 +++
 
 +++Edit in place
+If *no* MDL graph templates were used and only the <b>AxF to AxF</b> Substance graph template was required because your goal is to perform *edits* on an existing AxF file, then follow the instructions below to visualise its SVBRDF material according to the selected renderer:
 
+A dedicated GLSLFX shader is available for visualizing materials using an SVBRDF representation from an AxF file: <b>AxF SVBRDF</b>.
 
-IfnoMDL graph templates were used and only theAxF to AxFSubstance graph template was required because your goal is to performeditson an existing AxF file, then follow the instructions below to visualise its SVBRDF material according to the selected renderer:
+The shader is available in the <b>Materials</b> menu : open the submenu for the scene's material ('Default' by default) and select any technique under the <b>AxF SVBRDF</b> entry.
 
+Use the <b>Edit</b> option in the same submenu to display the shader's properties in the [Properties](../../interface/properties/properties.md) dock.  
+In particular, the <b>Tiling</b> property lets you adjust the tiling of textures on the model, so you can visualize the material at an appropriate scale.
 
+After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the [3D View](../../interface/3d-view/3d-view.md).
 
 
 
-A dedicated GLSLFX shader is available for visualizing materials using an SVBRDF representation from an AxF file:AxF SVBRDF.
+This shader is less accurate than its Iray counterpart, and is currently a *work in progress* and some features are still unsupported. Therefore, while it can provide an overview of the materials' characteristics, it should not be used for fine adjustments .
 
+Please switch to the [Iray](../../interface/3d-view/iray/iray.md) renderer and use the <b>svbrdf</b> MDL shader for a more accurate visualization.
 
+A dedicated MDL shader is available for visualizing materials using an SVBRDF representation from an AxF file: <b>svbrdf</b>.
 
+The shader is available in the <b>Materials</b> menu : open the submenu for the scene's material ('Default' by default) and select the <b>svbrdf</b> MDL shader under the <b>mdl::alg::materials</b> entry.
 
+Use the <b>Edit</b> option in the same submenu to display the shader's properties in the [Properties](../../interface/properties/properties.md) dock.  
+In particular, the <b>Tiling</b> property lets you adjust the tiling of textures on the model, so you can visualize the material at an appropriate scale.
 
-The shader is available in theMaterialsmenu : open the submenu for the scene's material ('Default' by default) and select any technique under theAxF SVBRDFentry.
+After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the [3D View](../../interface/3d-view/3d-view.md).
 
 
 
-
-
-Use theEditoption in the same submenu to display the shader's properties in thePropertiesdock.In particular, theTilingproperty lets you adjust the tiling of textures on the model, so you can visualize the material at an appropriate scale.
-
-
-
-[Properties](../../interface/properties/properties.md)
-
-
-
-After selecting the shader, click RMB in empty space in the graph and select theView outputs in 3D Viewoption to visualise its outputs in the3D View.
-
-
-
-[3D View](../../interface/3d-view/3d-view.md)
-
-
-
-
-
-This shader is less accurate than its Iray counterpart, and is currently awork in progressand some features are still unsupported. Therefore, while it can provide an overview of the materials' characteristics, it should not be used for fine adjustments .
-
-
-
-
-
-Please switch to theIrayrenderer and use thesvbrdfMDL shader for a more accurate visualization.
-
-
-
-[Iray](../../interface/3d-view/iray/iray.md)
-
-
-
-A dedicated MDL shader is available for visualizing materials using an SVBRDF representation from an AxF file:svbrdf.
-
-
-
-
-
-The shader is available in theMaterialsmenu : open the submenu for the scene's material ('Default' by default) and select thesvbrdfMDL shader under themdl::alg::materialsentry.
-
-
-
-
-
-Use theEditoption in the same submenu to display the shader's properties in thePropertiesdock.In particular, theTilingproperty lets you adjust the tiling of textures on the model, so you can visualize the material at an appropriate scale.
-
-
-
-[Properties](../../interface/properties/properties.md)
-
-
-
-After selecting the shader, click RMB in empty space in the graph and select theView outputs in 3D Viewoption to visualise its outputs in the3D View.
-
-
-
-[3D View](../../interface/3d-view/3d-view.md)
-
-
-
-
-
-This shader is more accurate than its OpenGL counterpart. It uses theIrayrenderer, thus you need to switch to this renderer by going toRenderer &gt; Iray, before the shader can be accessed in theMaterialsmenu.
-
-
-
-[Iray](../../interface/3d-view/iray/iray.md)
+This shader is more accurate than its OpenGL counterpart. It uses the [Iray](../../interface/3d-view/iray/iray.md) renderer, thus you need to switch to this renderer by going to <b>Renderer &gt; Iray</b>, before the shader can be accessed in the <b>Materials</b> menu.
 
 
 

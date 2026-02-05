@@ -98,404 +98,220 @@ Considering the pivot is what is placed on the spline, this effectively offsets 
 Note: The positions of the pivots impacts the effect of the ‘Scale’ and ‘Rotation (Pivot)’ parameters.
 
 +++Pattern
+<b>Pattern</b> *Integer*The pattern which should be scattered along the splines:  
+*- Pattern Input*: Use the patterns supplied to the ‘Pattern Input #’ inputs;  
+*- Square;  
+* Disc;  
+* Paraboloid;  
+* Bell;  
+* Gaussian;  
+* Thorn;  
+* Pyramid;  
+* Brick;  
+* Gradation;  
+* Waves;  
+* Half Bell;  
+* Ridged Bell;  
+* Crescent;  
+* Capsule;  
+* Cone;  
+* Gradation w. offset;  
+* Hemisphere.*
 
+<b>Pattern Input Number</b> *Integer* (Available when ‘Pattern’ is set to ‘Pattern Input’)Selects the index of the input pattern which should be scattered.
 
-PatternIntegerThe pattern which should be scattered along the splines:- Pattern Input: Use the patterns supplied to the ‘Pattern Input #’ inputs;- Square;- Disc;- Paraboloid;- Bell;- Gaussian;- Thorn;- Pyramid;- Brick;- Gradation;- Waves;- Half Bell;- Ridged Bell;- Crescent;- Capsule;- Cone;- Gradation w. offset;- Hemisphere.
+<b>Pattern Input Distribution</b> *Integer* (Available when ‘Pattern’ is set to ‘Pattern Input’)The method used to select which of the input patterns should be scattered on a given spline:  
+*- Random*: a pattern is randomly selected;  
+*- Along Spline*: The pattern index increases gradually along the spline;  
+*- Pattern Index*: Loops over the index of input patterns along each spline;  
+*- Spline Index*: Loops over the index of input patterns from one spline to the next in the list of input splines.
 
+<b>Distribution Jittering</b> *Float* (Available when ‘Pattern Input Distribution’ is set to ‘Along Spline’)Randomly increases or decreases the selected index of patterns on the spline.
 
+<b>Override First Pattern</b> *Boolean*Manually select the index of the pattern that should be placed at the start of each spline.
 
+<b>First Pattern Input Index</b> *Integer* (Available when ‘Override First Pattern’ is set to ‘True’)The index of the pattern that should be placed at the start of each spline.
 
+<b>Override Last Pattern</b> *Boolean*Manually select the index of the pattern that should be placed at the end of each spline.
 
-Pattern Input NumberInteger(Available when ‘Pattern’ is set to ‘Pattern Input’)Selects the index of the input pattern which should be scattered.
-
-
-
-
-
-Pattern Input DistributionInteger(Available when ‘Pattern’ is set to ‘Pattern Input’)The method used to select which of the input patterns should be scattered on a given spline:- Random: a pattern is randomly selected;- Along Spline: The pattern index increases gradually along the spline;- Pattern Index: Loops over the index of input patterns along each spline;- Spline Index: Loops over the index of input patterns from one spline to the next in the list of input splines.
-
-
-
-
-
-Distribution JitteringFloat(Available when ‘Pattern Input Distribution’ is set to ‘Along Spline’)Randomly increases or decreases the selected index of patterns on the spline.
-
-
-
-
-
-Override First PatternBooleanManually select the index of the pattern that should be placed at the start of each spline.
-
-
-
-
-
-First Pattern Input IndexInteger(Available when ‘Override First Pattern’ is set to ‘True’)The index of the pattern that should be placed at the start of each spline.
-
-
-
-
-
-Override Last PatternBooleanManually select the index of the pattern that should be placed at the end of each spline.
-
-
-
-
-
-Last Pattern Input IndexInteger(Available when ‘Override Last Pattern’ is set to ‘True’)The index of the pattern that should be placed at the end of each spline.
-
-
+<b>Last Pattern Input Index</b> *Integer* (Available when ‘Override Last Pattern’ is set to ‘True’)The index of the pattern that should be placed at the end of each spline.
 
 +++
 
 +++Duplicates
+<b>Distribution Mode</b> *Integer*The method used to place the duplicate patterns:  
+*- Linear*: duplicates are evenly spaced along the spline’s normal from the pattern’s original location;  
+*- Circular*: duplicated are arranged along a virtual circle centered on the spline at the pattern’s original location.
 
+<b>Duplicates Amount</b> *Integer*The number of duplicated patterns.
 
-Distribution ModeIntegerThe method used to place the duplicate patterns:- Linear: duplicates are evenly spaced along the spline’s normal from the pattern’s original location;- Circular: duplicated are arranged along a virtual circle centered on the spline at the pattern’s original location.
+<b>Offset</b> *Float2* (Available when ‘Distribution Mode’ is set to ‘Linear’)Applies an offset to the duplicates’ positions along the spline’s tangent (parallel) and normal (perpendicular).  
+Duplicates on opposite sides of the spline are moved in opposite directions.
 
+<b>Offset Center</b> *Float2* (Available when ‘Distribution Mode’ is set to ‘Linear’)Applies an offset to the duplicates along the spline on X (parallel) and Y (perpendicular).
 
+<b>Spread Angle</b> *Float* (Available when ‘Distribution Mode’ is set to ‘Circular’)The arc of the virtual circle along which duplicates are distributed, as the angle of that arc where 1 is the full circle.
 
+<b>Offset Distance</b> *Float* (Available when ‘Distribution Mode’ is set to ‘Circular’)The radius of the virtual circle along which duplicates are distributed.
 
+<b>Rotation</b> *Float*Rotates the virtual circle along which duplicates are distributed.
 
-Duplicates AmountIntegerThe number of duplicated patterns.
+<b>Offset Start/End Attenuation</b> *Float2*Factors in the distance from the midpoint of the spline to its Start and End, when applying offsets to duplicates.  
+This means offsets are decreased for duplicates closer to a spline’s extremities.
 
-
-
-
-
-OffsetFloat2(Available when ‘Distribution Mode’ is set to ‘Linear’)Applies an offset to the duplicates’ positions along the spline’s tangent (parallel) and normal (perpendicular).Duplicates on opposite sides of the spline are moved in opposite directions.
-
-
-
-
-
-Offset CenterFloat2(Available when ‘Distribution Mode’ is set to ‘Linear’)Applies an offset to the duplicates along the spline on X (parallel) and Y (perpendicular).
-
-
-
-
-
-Spread AngleFloat(Available when ‘Distribution Mode’ is set to ‘Circular’)The arc of the virtual circle along which duplicates are distributed, as the angle of that arc where 1 is the full circle.
-
-
-
-
-
-Offset DistanceFloat(Available when ‘Distribution Mode’ is set to ‘Circular’)The radius of the virtual circle along which duplicates are distributed.
-
-
-
-
-
-RotationFloatRotates the virtual circle along which duplicates are distributed.
-
-
-
-
-
-Offset Start/End AttenuationFloat2Factors in the distance from the midpoint of the spline to its Start and End, when applying offsets to duplicates.This means offsets are decreased for duplicates closer to a spline’s extremities.
-
-
-
-
-
-Offset Attenuation by ThicknessFloatFactors in the spline’s thickness when applying offsets to duplicates.This means offsets are decreased for duplicates on a portion of a spline with a lower thickness.
-
-
+<b>Offset Attenuation by Thickness</b> *Float*Factors in the spline’s thickness when applying offsets to duplicates.  
+This means offsets are decreased for duplicates on a portion of a spline with a lower thickness.
 
 +++
 
 +++Size
+<b>Size Mode</b> *Integer*The method of setting the size of the scattered patterns:  
+*- Normal*: Size is controlled uniformly using a global ‘Scale’ parameter;  
+*- Use Thickness from Spline*: Size is driven by the spline’s thickness.
 
+<b>Thickness Affects</b> *Integer* (Available when ‘Size Mode’ is set to ‘Use Thickness from Spline’)Specifies which axis of a pattern’s scale should be driven by the spline’s thickness:  
+* X &amp; Y: Thickness is multiplied against the size in both the X and Y axes;  
+* X: Thickness is multiplied against the size on the X axis only;  
+* Y: Thickness is multiplied against the size on the Y axis only.  
+When not multiplied, the pattern’s original scale is the full span of the image.  
+This means in the ‘X’ mode, the size in the Y axis is the full span of the image and needs to be tweaked using the Size parameter. The same applied for size in the X axis when using the ‘Y’ mode.
 
-Size ModeIntegerThe method of setting the size of the scattered patterns:- Normal: Size is controlled uniformly using a global ‘Scale’ parameter;- Use Thickness from Spline: Size is driven by the spline’s thickness.
+<b>Size</b> *Float2*The original size of patterns in X and Y before other adjustments are made by other parameters.
 
+<b>Size Random</b> *Float2*Applies a random multiplier up to the specified value for reducing the size of the patterns in X and Y.
 
+<b>Thickness Scale</b> *Float* (Available when ‘Size Mode’ is set to ‘Use Thickness from Spline’)An additional multiplier for the scale of the patterns when driven by the spline’s thickness.
 
+<b>Scale</b> *Float* (Available when ‘Size Mode’ is set to ‘Normal’)A global control for the size of all patterns, where 1 is the full span of the image.  
+Scaling is applied relatively to a pattern’s pivot. The pivot position can be offset using the ‘Shape Pivot’ parameter.
 
+<b>Scale Random</b> *Float*Applies a random multiplier up to the specified value for decreasing the size of the patterns.
 
-Thickness AffectsInteger(Available when ‘Size Mode’ is set to ‘Use Thickness from Spline’)Specifies which axis of a pattern’s scale should be driven by the spline’s thickness:- X &amp; Y: Thickness is multiplied against the size in both the X and Y axes;- X: Thickness is multiplied against the size on the X axis only;- Y: Thickness is multiplied against the size on the Y axis only.When not multiplied, the pattern’s original scale is the full span of the image.This means in the ‘X’ mode, the size in the Y axis is the full span of the image and needs to be tweaked using the Size parameter. The same applied for size in the X axis when using the ‘Y’ mode.
+<b>Scale Map Input Multiplier</b> *Float*Controls the intensity of the Scale Map input. This map acts as a multiplier for the current size of the patterns.  
+The effect of this map is combined with the other parameters in the ‘Size’ group.
 
+<b>Scale Input Sampling Mode</b> *Texture Space*The method of mapping the values in the Scale Map to the splines:  
+*- Texture space*: The values are applied to the splines where they would be if placed in a texture using the texture’s UV coordinates. This effectively applies the value to the splines ‘in place’;  
+*- Horizontal along spline*: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), where each row is applied to a different spline from top to bottom;  
+*- Hor. along spline (rand. offset X)*: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random horizontal offset in the Scale map for each spline (I.e., each row in Spline Coords);  
+*- Hor. along spline (rand. offset Y)*: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random vertical offset in the Scale map for each spline (I.e., each row in Spline Coords).
 
-
-
-
-SizeFloat2The original size of patterns in X and Y before other adjustments are made by other parameters.
-
-
-
-
-
-Size RandomFloat2Applies a random multiplier up to the specified value for reducing the size of the patterns in X and Y.
-
-
-
-
-
-Thickness ScaleFloat(Available when ‘Size Mode’ is set to ‘Use Thickness from Spline’)An additional multiplier for the scale of the patterns when driven by the spline’s thickness.
-
-
-
-
-
-ScaleFloat(Available when ‘Size Mode’ is set to ‘Normal’)A global control for the size of all patterns, where 1 is the full span of the image.Scaling is applied relatively to a pattern’s pivot. The pivot position can be offset using the ‘Shape Pivot’ parameter.
-
-
-
-
-
-Scale RandomFloatApplies a random multiplier up to the specified value for decreasing the size of the patterns.
-
-
-
-
-
-Scale Map Input MultiplierFloatControls the intensity of the Scale Map input. This map acts as a multiplier for the current size of the patterns.The effect of this map is combined with the other parameters in the ‘Size’ group.
-
-
-
-
-
-Scale Input Sampling ModeTexture SpaceThe method of mapping the values in the Scale Map to the splines:- Texture space: The values are applied to the splines where they would be if placed in a texture using the texture’s UV coordinates. This effectively applies the value to the splines ‘in place’;- Horizontal along spline: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), where each row is applied to a different spline from top to bottom;- Hor. along spline (rand. offset X): The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random horizontal offset in the Scale map for each spline (I.e., each row in Spline Coords);- Hor. along spline (rand. offset Y): The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random vertical offset in the Scale map for each spline (I.e., each row in Spline Coords).
-
-
-
-
-
-Start/End AttenuationFloat2Factors in the distance from the midpoint of the spline to its Start and End when scaling the patterns.This means size is decreased for patterns closer to a spline’s extremities.
-
-
+<b>Start/End Attenuation</b> *Float2*Factors in the distance from the midpoint of the spline to its Start and End when scaling the patterns.  
+This means size is decreased for patterns closer to a spline’s extremities.
 
 +++
 
 +++Position
+<b>Local Offset</b> *Float2*Applies an offset to the patterns’ positions along the spline’s tangent (parallel) and normal (perpendicular).
 
+<b>Local Offset Random</b> *Float2*Applies an additional random offset to the patterns’ positions along the spline’s tangent (parallel) and normal (perpendicular).
 
-Local OffsetFloat2Applies an offset to the patterns’ positions along the spline’s tangent (parallel) and normal (perpendicular).
+<b>Local Offset Random Center</b> *Float2*Offsets the center of the random offset applied by the Local Offset Random parameter along the spline’s tangent (parallel) and normal (perpendicular).
 
+<b>Local Offset Start/End Attenuation</b> *Float2*Factors in the distance from the midpoint of the spline to its Start and End when applying position offsets to the patterns.  
+This means offsets are decreased for patterns closer to a spline’s extremities.
 
+<b>Local Offset Attenuation by Thickness</b> *Float*Factors in the spline’s thickness when applying offsets to patterns.  
+This means offsets are decreased for duplicates on a portion of a spline with a lower thickness.
 
+<b>Offset on Spline</b> *Float*Applies a position offset to the patterns along the splines.
 
-
-Local Offset RandomFloat2Applies an additional random offset to the patterns’ positions along the spline’s tangent (parallel) and normal (perpendicular).
-
-
-
-
-
-Local Offset Random CenterFloat2Offsets the center of the random offset applied by the Local Offset Random parameter along the spline’s tangent (parallel) and normal (perpendicular).
-
-
-
-
-
-Local Offset Start/End AttenuationFloat2Factors in the distance from the midpoint of the spline to its Start and End when applying position offsets to the patterns.This means offsets are decreased for patterns closer to a spline’s extremities.
-
-
-
-
-
-Local Offset Attenuation by ThicknessFloatFactors in the spline’s thickness when applying offsets to patterns.This means offsets are decreased for duplicates on a portion of a spline with a lower thickness.
-
-
-
-
-
-Offset on SplineFloatApplies a position offset to the patterns along the splines.
-
-
-
-
-
-Random Offset on SplineFloatApplies an additional position offset to the patterns along the splines.
-
-
+<b>Random Offset on Spline</b> *Float*Applies an additional position offset to the patterns along the splines.
 
 +++
 
 +++Rotation
+<b>Align with Tangent</b> *Boolean*Rotates the patterns to match the direction of the spline at their location.
 
+<b>Rotation (Pivot)</b> *Float*Rotates the patterns around their pivots.  
+The pivot position can be offset using the ‘Shape Pivot’ parameter.
 
-Align with TangentBooleanRotates the patterns to match the direction of the spline at their location.
+<b>Rotation Random (Pivot)</b> *Float*Applies an additional random rotation to the patterns around their pivots.  
+The pivot position can be offset using the ‘Shape Pivot’ parameter.
 
+<b>Rotation Random Center (Pivot)</b> *Float*Rotates around the pattern’s pivots the center of the random rotations applied by the Rotation Random parameter.
 
+<b>Rotation (Center)</b> *Float*Rotates the patterns around their center.
 
+<b>Rotation Random (Center)</b> *Float*Applies an additional random rotation to the patterns around their center.
 
-
-Rotation (Pivot)FloatRotates the patterns around their pivots.The pivot position can be offset using the ‘Shape Pivot’ parameter.
-
-
-
-
-
-Rotation Random (Pivot)FloatApplies an additional random rotation to the patterns around their pivots.The pivot position can be offset using the ‘Shape Pivot’ parameter.
-
-
-
-
-
-Rotation Random Center (Pivot)FloatRotates around the pattern’s pivots the center of the random rotations applied by the Rotation Random parameter.
-
-
-
-
-
-Rotation (Center)FloatRotates the patterns around their center.
-
-
-
-
-
-Rotation Random (Center)FloatApplies an additional random rotation to the patterns around their center.
-
-
-
-
-
-Rotation Random Center (Center)FloatRotates around the pattern’s center the center of the random rotations applied by the Rotation Random parameter.
-
-
+<b>Rotation Random Center (Center)</b> *Float*Rotates around the pattern’s center the center of the random rotations applied by the Rotation Random parameter.
 
 +++
 
 +++Color
+<b>Background Color</b> *Float4*The color of the background in the output image.
 
+<b>Blend Mode</b> *Integer*The method of blending together the colors of patterns with both the background and other overlapping patterns:  
+*- Add*: Add the colors together;  
+* *Alpha Blend*: Applies a simple transparency blending using the pattern's alpha channel. Patterns drawn last are in front.
 
-Background ColorFloat4The color of the background in the output image.
+<b>Color Mode</b> *Integer*The method of blending selecting the color of each pattern:  
+*- Base Color*: The Base Color is applied to all patterns;  
+* *Position*: The position of the pattern in texture space is used to drive its color so that the X and Y coordinates are mapped to the red and green channels respectively.
 
+<b>Shape Base Color</b> *Float4*The base color of the patterns.
 
+<b>Color Input Multiplier</b> *Float*Controls the intensity of the Color Map input. This map acts as a multiplier for the current color of the patterns.  
+The effect of this map is combined with the other parameters in the ‘Color’ group.  
+Note: The output color is the weighted result of all color multipliers.
 
+<b>Color Map Input Sampling Mode</b> *Integer*The method of mapping the values in the Color Map to the splines:  
+*- Texture space*: The values are applied to the splines where they would be if placed in a texture using the texture’s UV coordinates. This effectively applies the value to the splines ‘in place’;  
+*- Horizontal along spline*: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), where each row is applied to a different spline from top to bottom;  
+*- Hor. along spline (rand. offset X)*: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random horizontal offset in the Color Map for each spline (I.e., each row in Spline Coords);  
+*- Hor. along spline (rand. offset Y)*: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random vertical offset in the Color Map for each spline (I.e., each row in Spline Coords).
 
+<b>Random Color</b> *Float4*Applies a random offset up to the specified values to the patterns’ colors in HSV space, as well as their alpha.  
+*Note:* The output color is the weighted result of all color multipliers.
 
-Blend ModeIntegerThe method of blending together the colors of patterns with both the background and other overlapping patterns:- Add: Add the colors together;-Alpha Blend: Applies a simple transparency blending using the pattern's alpha channel. Patterns drawn last are in front.
+<b>Random Color Center</b> *Float*Applies an offset to the range of the random offset applied in Random Color  
+A value of -1 means all random values are higher and a value of 1 means all random values are lower.
 
+<b>Spline Thickness Multiplier</b> *Float*The intensity by which the color of each pattern is multiplied against the thickness of the spline at its location.  
+Note: The output color is the weighted result of all color multipliers.
 
+<b>Shape Scale Multiplier</b> *Float*The intensity by which the color of each pattern is multiplied against its scale.  
+Note: The output color is the weighted result of all color multipliers.
 
+<b>Shape Index Multiplier</b> *Float*The intensity by which the color of each pattern is multiplied against its normalized index.  
+Note: The output color is the weighted result of all color multipliers.
 
+<b>Spline Height Multiplier</b> *Float*The intensity by which the color of each pattern is multiplied against the height of the spline at its location.  
+Note: The output color is the weighted result of all color multipliers.
 
-Color ModeIntegerThe method of blending selecting the color of each pattern:- Base Color: The Base Color is applied to all patterns;-Position: The position of the pattern in texture space is used to drive its color so that the X and Y coordinates are mapped to the red and green channels respectively.
+<b>Random Luminance</b> *Float*Applies a random multiplier up to the specified value for decreasing the luminance of the patterns.  
+Note: The output color is the weighted result of all color multipliers.
 
+<b>Spline Thickness Multiplier</b> *Float*The intensity by which the alpha of each pattern is multiplied against the thickness of the spline at its location.  
+Note: The output color is the weighted result of all color multipliers.
 
+<b>Shape Scale Multiplier</b> *Float*The intensity by which the alpha of each pattern is multiplied against its scale.  
+Note: The output color is the weighted result of all color multipliers.
 
+<b>Shape Index Multiplier</b> *Float*The intensity by which the alpha of each pattern is multiplied against its normalized index.  
+Note: The output color is the weighted result of all color multipliers.
 
+<b>Spline Height Multiplier</b> *Float*The intensity by which the alpha of each pattern is multiplied against the height of the spline at its location.  
+Note: The output color is the weighted result of all color multipliers.
 
-Shape Base ColorFloat4The base color of the patterns.
+<b>Random Luminance</b> *Float*Applies a random multiplier up to the specified value for decreasing the alpha of the patterns.  
+Note: The output color is the weighted result of all color multipliers.
 
+<b>Mask Random</b> *Float*Adjusts the range of the random masking of patterns, where 0 means no patterns are masked and 1 means all patterns are.
 
+<b>Mask Map Threshold</b> *Float*Values in the Mask Map below this threshold value are processed as black, while values above the threshold are processed as white.  
+This means all patterns in areas of the Mask Map below this value will be masked.
 
+<b>Mask Map Input Sampling Mode</b> *Integer*The method of mapping the values in the Mask Map to the splines:  
+*- Texture space*: The values are applied to the splines where they would be if placed in a texture using the texture’s UV coordinates. This effectively applies the value to the splines ‘in place’;  
+*- Horizontal along spline*: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), where each row is applied to a different spline from top to bottom;  
+*- Hor. along spline (rand. offset X)*: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random horizontal offset in the Scale map for each spline (I.e., each row in Spline Coords);  
+*- Hor. along spline (rand. offset Y)*: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random vertical offset in the Scale map for each spline (I.e., each row in Spline Coords).
 
+<b>Invert Mask Map</b> *Boolean*Inverts the values of the Mask Map using a ‘One minus’ operation (1 - x).
 
-Color Input MultiplierFloatControls the intensity of the Color Map input. This map acts as a multiplier for the current color of the patterns.The effect of this map is combined with the other parameters in the ‘Color’ group.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Color Map Input Sampling ModeIntegerThe method of mapping the values in the Color Map to the splines:- Texture space: The values are applied to the splines where they would be if placed in a texture using the texture’s UV coordinates. This effectively applies the value to the splines ‘in place’;- Horizontal along spline: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), where each row is applied to a different spline from top to bottom;- Hor. along spline (rand. offset X): The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random horizontal offset in the Color Map for each spline (I.e., each row in Spline Coords);- Hor. along spline (rand. offset Y): The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random vertical offset in the Color Map for each spline (I.e., each row in Spline Coords).
-
-
-
-
-
-Random ColorFloat4Applies a random offset up to the specified values to the patterns’ colors in HSV space, as well as their alpha.Note:The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Random Color CenterFloatApplies an offset to the range of the random offset applied in Random ColorA value of -1 means all random values are higher and a value of 1 means all random values are lower.
-
-
-
-
-
-Spline Thickness MultiplierFloatThe intensity by which the color of each pattern is multiplied against the thickness of the spline at its location.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Shape Scale MultiplierFloatThe intensity by which the color of each pattern is multiplied against its scale.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Shape Index MultiplierFloatThe intensity by which the color of each pattern is multiplied against its normalized index.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Spline Height MultiplierFloatThe intensity by which the color of each pattern is multiplied against the height of the spline at its location.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Random LuminanceFloatApplies a random multiplier up to the specified value for decreasing the luminance of the patterns.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Spline Thickness MultiplierFloatThe intensity by which the alpha of each pattern is multiplied against the thickness of the spline at its location.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Shape Scale MultiplierFloatThe intensity by which the alpha of each pattern is multiplied against its scale.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Shape Index MultiplierFloatThe intensity by which the alpha of each pattern is multiplied against its normalized index.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Spline Height MultiplierFloatThe intensity by which the alpha of each pattern is multiplied against the height of the spline at its location.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Random LuminanceFloatApplies a random multiplier up to the specified value for decreasing the alpha of the patterns.Note: The output color is the weighted result of all color multipliers.
-
-
-
-
-
-Mask RandomFloatAdjusts the range of the random masking of patterns, where 0 means no patterns are masked and 1 means all patterns are.
-
-
-
-
-
-Mask Map ThresholdFloatValues in the Mask Map below this threshold value are processed as black, while values above the threshold are processed as white.This means all patterns in areas of the Mask Map below this value will be masked.
-
-
-
-
-
-Mask Map Input Sampling ModeIntegerThe method of mapping the values in the Mask Map to the splines:- Texture space: The values are applied to the splines where they would be if placed in a texture using the texture’s UV coordinates. This effectively applies the value to the splines ‘in place’;- Horizontal along spline: The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), where each row is applied to a different spline from top to bottom;- Hor. along spline (rand. offset X): The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random horizontal offset in the Scale map for each spline (I.e., each row in Spline Coords);- Hor. along spline (rand. offset Y): The values are applied to the encoded splines’ coordinates directly (see Spline Coords input), with a random vertical offset in the Scale map for each spline (I.e., each row in Spline Coords).
-
-
-
-
-
-Invert Mask MapBooleanInverts the values of the Mask Map using a ‘One minus’ operation (1 - x).
-
-
-
-
-
-Mask InvertBooleanInverts the masking of the patterns.
-
-
+<b>Mask Invert</b> *Boolean*Inverts the masking of the patterns.
 
 +++
 

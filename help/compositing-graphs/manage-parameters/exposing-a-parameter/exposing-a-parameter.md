@@ -18,59 +18,29 @@ from exposed parameters to Graph Parameters.*
 ## Understanding parameters and exposing
 
 +++What is a parameter?
-
-
-A parameter is a simple value, with a UI element, that controls the behavior of a graph.You use them constantly in all Substance software: to change a color, to set blend mode, to choose an opacity value, etc... Without parameters, Substance software would not allow for any customization at all.
-
-
-
-
+*A parameter is a simple value, with a UI element, that controls the behavior of a graph.* You use them constantly in all Substance software: to change a color, to set blend mode, to choose an opacity value, etc... Without parameters, Substance software would not allow for any customization at all.
 
 Parameters can come in many different forms: sliders, dials, type-in boxes, drop-down menus, etc... The values they represent can be many different types: decimal values, whole (integer) values, boolean (true/false) values, even text snippets.
-
-
 
 +++
 
 +++What is 'exposing'?
-
-
-Exposing is the process of making a parameter available for use outside of your current Graph View.When building a Graph, you usually select a node to change the parameters in its properties; when exposed, youenable access to this parameter from an external control panel. This "external control panel" can mean different things based on the context: when used as a Graph Instance inside Designer, it just acts as another node. When used in Substance 3D Painter, Substance 3D Sampler or an integration, these exposed parameters will bethe only controlyou have over the graph.
-
-
+***Exposing is the process of making a parameter available for use outside of your current Graph View.***  When building a Graph, you usually select a node to change the parameters in its properties; when exposed, you *enable access to this parameter from an external control panel*. This "external control panel" can mean different things based on the context: when used as a Graph Instance inside Designer, it just acts as another node. When used in Substance 3D Painter, Substance 3D Sampler or an integration, these exposed parameters will be *the only control* you have over the graph.
 
 +++
 
 +++Why is exposing useful?
-
-
-Exposing Parameters is what takes Substance 3D Designer beyond a simple texture editor, allowing you to create customisable, dynamic texture-generation tools.Without exposing, Substance Materials wouldn't be very different from static textures: you'd have no way to modify their outputs.
-
-
+***Exposing Parameters is what takes Substance 3D Designer beyond a simple texture editor, allowing you to create customisable, dynamic texture-generation tools***  **.** Without exposing, Substance Materials wouldn't be very different from static textures: you'd have no way to modify their outputs.
 
 +++
 
 +++Why not expose every parameter automatically, all the time?
-
-
-Substance graphscan get complicated and can contain hundreds of parameters at once. It doesn't make sense to always show all parameters to a user, especially if you are building graphs with a simple goal, that don't need many parameters.When exposing parameters, you work as a UI or UX designer: you think what controls make sense, which values are required and how to make it easy to use for yourself, for other users online or for your coworkers.
-
-
-
-[Substance graphs](../../substance-compositing-graphs.md)
+<b> &#91;Substance graphs&#93;(../../substance-compositing-graphs.md) can get complicated and can contain hundreds of parameters at once. It doesn&#39;t make sense to always show all parameters to a user, especially if you are building graphs with a simple goal, that don&#39;t need many parameters.</b> When exposing parameters, you work as a UI or UX designer: you think what controls make sense, which values are required and how to make it easy to use for yourself, for other users online or for your coworkers.
 
 +++
 
 +++Do I have to know math for exposing? Should I understand Substance function graphs?
-
-
-Mathematical knowledge is not required to make good use of Exposing Parameters, nor is the use of functions.As a beginning user you can almost completely avoid having to do mathematical operations inFunction graphs. The only thing that is strongly recommended, is adecent base knowledge of the different data types such as Integer, Float and Boolean.
-
-
-
-[Function graphs](../../../function-graphs/function-graphs.md)
-
-[decent base knowledge of the different data types such as Integer, Float and Boolean.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
+***Mathematical knowledge is not required to make good use of Exposing Parameters, nor is the use of functions.***  As a beginning user you can almost completely avoid having to do mathematical operations in [Function graphs](../../../function-graphs/function-graphs.md). The only thing that is strongly recommended, is a [decent base knowledge of the different data types such as Integer, Float and Boolean.](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
 
 +++
 

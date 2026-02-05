@@ -104,278 +104,134 @@ The main toolbar of the <b>2D View</b> panel lets you do more with your displaye
 +++Background image
 
 
-
-
-You canoverlay a different imageon top of the currently displayed one. Press theBackground Imagebutton and you will be prompted to select an image file to use as an overlay.
-
-
-
-
+You can *overlay a different image* on top of the currently displayed one. Press the ![](2d-view-icon-background.png) <b>Background Image</b> button and you will be prompted to select an image file to use as an overlay.
 
 Once the file is selected, a new toolbar appears with the following controls for the image overlay:
 
+<b>!&#91;&#93;(2d-view-icon-background-close.png) Close:</b> *close* the overlay controls toolbar and *disable* the background image overlay.
 
+<b>!&#91;&#93;(2d-view-icon-background-loadpng.png) Load image:</b> select *another image file* to use as an overlay.
 
+<b>!&#91;&#93;(2d-view-icon-background-0.png) Source image:</b> sets the overlay image to *0%* opacity.
 
+<b>!&#91;&#93;(2d-view-icon-background-100.png) Background image:</b> sets the overlay image to *100%* opacity.
 
-Close:closethe overlay controls toolbar anddisablethe background image overlay.
+<b>!&#91;&#93;(2d-view-icon-background-50.png) Reset:</b> sets the overlay image to *50%* opacity.
 
-
-
-
-
-Load image:selectanother image fileto use as an overlay.
-
-
-
-
-
-Source image:sets the overlay image to0%opacity.
-
-
-
-
-
-Background image:sets the overlay image to100%opacity.
-
-
-
-
-
-Reset:sets the overlay image to50%opacity.
-
-
-
-
-
-A slider gives youmanual controlover the opacity of the overlay image.
-
-
+A slider gives you *manual control* over the opacity of the overlay image.
 
 +++
 
 +++Export image
 
 
+The image currently displayed can be *exported to an image file*. Press the ![](2d-view-icon-export.png) <b>Save Image...</b> button and you will be prompted to select an *location*, *name* and *file format* for the exported file.
 
+While the image will be exported as its *native resolution* – which is displayed in the bottom left area of the viewport – the *bit depth* and *color format* will *depend on the image format* selected. For instance, 32-bit floating point precision images can only be exported at their full data range with image formats which support this precision, such as TIFF, EXR and HDR. If the image format does not support the data, clamping and/or color banding are likely to occur in the exported image.  
+In general, be mindful of which precision and features are offered by the image formats you intend to use – floating point support, ICC profiles, etc.
 
-The image currently displayed can beexported to an image file. Press theSave Image...button and you will be prompted to select anlocation,nameandfile formatfor the exported file.
-
-
-
-
-
-While the image will be exported as itsnative resolution– which is displayed in the bottom left area of the viewport – thebit depthandcolor formatwilldepend on the image formatselected. For instance, 32-bit floating point precision images can only be exported at their full data range with image formats which support this precision, such as TIFF, EXR and HDR. If the image format does not support the data, clamping and/or color banding are likely to occur in the exported image.In general, be mindful of which precision and features are offered by the image formats you intend to use – floating point support, ICC profiles, etc.
-
-
-
-
-
-If eitherOCIOorAdobe ACEcolor management modeis currently used, and additional option is available to select thecolor spaceof the exported image.
-
-
-
-[color management mode](../../color-management/color-management.md)
+If either <b>OCIO</b> or <b>Adobe ACE</b> [color management mode](../../color-management/color-management.md) is currently used, and additional option is available to select the *color space* of the exported image.
 
 +++
 
 +++Copy to clipboard
 
 
+The image currently displayed can be *copied to the clipboard*. Press the ![](2d-view-icon-copy.png) <b>Copy Image to Clipboard</b> button and the image will be ready to be pasted into any third party software, such as Adobe Photoshop.
 
-
-The image currently displayed can becopied to the clipboard. Press theCopy Image to Clipboardbutton and the image will be ready to be pasted into any third party software, such as Adobe Photoshop.
-
-
-
-
-
-The image will be copied as an8-bitprecision image at itsnative resolution, which is displayed in the bottom left area of the viewport.
-
-
+The image will be copied as an *8-bit* precision image at its *native resolution*, which is displayed in the bottom left area of the viewport.
 
 +++
 
 +++Switch graph outputs
 
 
+If the image currently displayed is a *graph output*, you can *quickly switch to any* other graph output using the ![](2d-view-icon-view-outputs.png) <b>Select output</b> button.
 
-
-If the image currently displayed is agraph output, you canquickly switch to anyother graph output using theSelect outputbutton.
-
-
-
-
-
-This feature isnotavailable to other nodes, including nodes which have more than one output.
-
-
+This feature is *not* available to other nodes, including nodes which have more than one output.
 
 +++
 
 +++UV overlay
 
 
+If the <b>Display UVs in 2D View</b> option is enabled in the <b>Scene</b> menu of the [3D View](../3d-view/3d-view.md) dock, then the UV overlay feature is available in the 2D View.
 
+You can enable it using the <b>UV</b> button. ![](2d-view-icon-uv.png)
 
-If theDisplay UVs in 2D Viewoption is enabled in theScenemenu of the3D Viewdock, then the UV overlay feature is available in the 2D View.
-
-
-
-[3D View](../3d-view/3d-view.md)
-
-
-
-You can enable it using theUVbutton.
-
-
-
-
-
-This displays the UVs of the meshcurrently selected in the 3D Viewas a colored wireframe.
-
-
-
-[currently selected in the 3D View](../3d-view/3d-view.md)
-
-
+This displays the UVs of the mesh [currently selected in the 3D View](../3d-view/3d-view.md) as a colored wireframe.
 
 If material color information is available in the mesh file, then the material color is used as the color of the UV overlay.
 
-
-
-
-
-If the mesh hasmultiple UV sets, the desired UVs can be selected in the drop-down checklist which can be opened by clicking the arrow next to the 'UV' label in the button.
-
-
+If the mesh has <b>multiple UV sets</b>, the desired UVs can be selected in the drop-down checklist which can be opened by clicking the arrow next to the 'UV' label in the button.
 
 +++
 
 +++Image information
 
 
+You can display the *exact pixel values* *and coordinates* in an image with the <b>Information</b> panel, which is enabled using the ![](2d-view-icon-information.png) <b>Image Information</b> button. This is very helpful when inspecting HDR images, for instance, or making sure stepping between pixels follows the intended progression.
 
+Colors are represented by <b>RGBA</b> and <b>HSV</b> values, and displayed depending on the *precision* of the image, as follows:
 
-You can display theexact pixel valuesand coordinatesin an image with theInformationpanel, which is enabled using theImage Informationbutton. This is very helpful when inspecting HDR images, for instance, or making sure stepping between pixels follows the intended progression.
+* <b>8-bit</b>: 0-255 integer / 0.0-1.0 floating point
 
+* <b>16-bit</b>: 0-65532 integer / 0.0-1.0 floating point
 
+* <b>16F</b> (16-bit floating point): raw floating-point value
 
+* <b>32F</b> (32-bit floating point): raw floating-point value
 
-
-Colors are represented byRGBAandHSVvalues, and displayed depending on theprecisionof the image, as follows:
-
-
-
-* 8-bit: 0-255 integer / 0.0-1.0 floating point
-
-
-* 16-bit: 0-65532 integer / 0.0-1.0 floating point
-
-
-* 16F(16-bit floating point): raw floating-point value
-
-
-* 32F(32-bit floating point): raw floating-point value
-
-
-
-
-Pixel coordinates are represented byXandYvalues.
-
-
+Pixel coordinates are represented by <b>X</b> and <b>Y</b> values.
 
 +++
 
 +++Histogram
 
 
+You can display the *histogram* of the image with the <b>Histogram</b> panel, which is enabled using the ![](2d-view-icon-histogram.png) <b>Display Histogram</b> button.
 
+The following *histogram modes* are available:
 
-You can display thehistogramof the image with theHistogrampanel, which is enabled using theDisplay Histogrambutton.
+* <b>Luminance</b>
 
+* <b>Red</b>
 
+* <b>Green</b>
 
+* <b>Blue</b>
 
+* <b>RGB</b>
 
-The followinghistogram modesare available:
-
-
-
-* Luminance
-
-
-* Red
-
-
-* Green
-
-
-* Blue
-
-
-* RGB
-
-
-* Alpha
-
-
-
+* <b>Alpha</b>
 
 The following information is listed below the modes:
 
+* <b>Pixels</b>: the number of pixels in the image
 
+* <b>Range</b>: the entire value range available
 
-* Pixels: the number of pixels in the image
+* <b>Used range</b>: the value range from the lowest value pixel to the highest
 
+Additionally, you can click **LMB** on the histogram, or *hold* **LMB** and *drag* across the histogram to *select a specific portion* of the data. The following information is then displayed for this selection:
 
-* Range: the entire value range available
+* **Selected pixels**: the number of pixels which have the selected values
 
+* **Selected range**: the value range of the selected portion
 
-* Used range: the value range from the lowest value pixel to the highest
+* **Selected max**: the highest number of pixels which have a value included in the selected portion
 
-
-
-
-Additionally, you can clickLMBon the histogram, orholdLMBanddragacross the histogram toselect a specific portionof the data. The following information is then displayed for this selection:
-
-
-
-* Selected pixels: the number of pixels which have the selected values
-
-
-* Selected range: the value range of the selected portion
-
-
-* Selected max: the highest number of pixels which have a value included in the selected portion
-
-
-
-
-The selection can beclearedby clickingRMBon the histogram.
-
-
-
-
+The selection can be *cleared* by clicking **RMB** on the histogram.
 
 How some of the values above are represented depends on the precision selected in the lower section of the panel, as follows:
 
+* **8 bits**: 0-255 integer
 
+* **16 bits**: 0-65532 integer
 
-* 8 bits: 0-255 integer
+* **32 bits**: raw floating-point value
 
-
-* 16 bits: 0-65532 integer
-
-
-* 32 bits: raw floating-point value
-
-
-
-
-Some portions of the histogram may include very low pixel count values, and thus be challenging to read. In this case, you may enable thesquare rootmode, using theSqrtbutton, which uses thesquare root of the actual valuesto draw the histogram.
-
-
+Some portions of the histogram may include very low pixel count values, and thus be challenging to read. In this case, you may enable the **square root** mode, using the **Sqrt** button, which uses the *square root of the actual values* to draw the histogram.
 
 +++
 

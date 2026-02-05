@@ -28,55 +28,29 @@ You may set a custom label using their <b>Description</b> property.
 Pins may be created in any of the following ways:
 
 +++Node menu
-
-
-PressSpacebarin the Graph view to open theNode menu, and select the 'Pin' item in the list.
-
-
-
-
+Press <b>Spacebar</b> in the Graph view to open the <b>Node menu</b>, and select the 'Pin' item in the list.
 
 Type 'pin' in the search field to surface the item and find it more quickly.
-
-
 
 +++
 
 +++Shortcut
-
-
-If a keyboard shortcut is mapped to the 'Pin' item in thePreferences, press that shortcut when the Graph View has focus.
-
-
-
-[Preferences](../../../preferences-window/preferences-window.md)
+If a keyboard shortcut is mapped to the 'Pin' item in the [Preferences](../../../preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
 
 +++
 
 +++Contextual menu
-
-
-In the Graph View, pressRMBin empty space and select theAdd Pinoption.
-
-
+In the Graph View, press <b>RMB</b> in empty space and select the <b>Add Pin</b> option.
 
 +++
 
 +++Graph toolbar
-
-
-In the Graph View toolbar, click the 'Pin' button in theNode Palette.
-
-
+In the Graph View toolbar, click the 'Pin' button in the <b>Node Palette</b>.
 
 +++
 
 +++Library
-
-
-In the Library, select theGraph Itemscategory then drag and drop the 'Pin' item into the Graph View.
-
-
+In the Library, select the <b>Graph Items</b> category then drag and drop the 'Pin' item into the Graph View.
 
 +++
 

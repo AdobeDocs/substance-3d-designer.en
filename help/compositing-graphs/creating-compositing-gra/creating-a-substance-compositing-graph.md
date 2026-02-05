@@ -32,64 +32,69 @@ Authoring textures in Designer starts with creating a Substance graph, either fr
 
 To start the process of creating a new [Substance graph](../substance-compositing-graphs.md), you may use one of these methods:
 
-+++Home screen
+* <table>
+  <tr style="border: 0;">
+  <td style="border: 0;" valign="top">
 
+  In the Home screen, click the <b>New graph</b> button.
 
-In the Home screen, click theNew graphbutton.
+  </td>
+  <td style="border: 0;" valign="top">
 
+  ![New Substance graph dialog - Create from Home screen](newGraphDialog-create-homeScreen.png "New Substance graph dialog - Create from Home screen"){zoomable="yes"}
 
+  </td>
+  </tr>
+  </table>
 
+* <table>
+  <tr style="border: 0;">
+  <td style="border: 0;" valign="top">
 
+  On any *existing* package item in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), click <b>RMB</b> and go to <b>New &gt; Substance graph</b> in the contextual menu.
 
-+++
+  </td>
+  <td style="border: 0;" valign="top">
 
-+++Keyboard shortcut
+  ![New Substance graph dialog - Create from Explorer](newGraphDialog-create-explorer.png "New Substance graph dialog - Create from Explorer"){zoomable="yes"}
 
+  </td>
+  </tr>
+  </table>
 
-Press theCtrl+N(Windows) /Cmd+N(macOS) keystroke.
+* <table>
+  <tr style="border: 0;">
+  <td style="border: 0;" valign="top">
 
+  In the main toolbar, click the ![](image2021-6-22-20-36-44.png) <b>New Substance graph</b> button.
 
+  </td>
+  <td style="border: 0;" valign="top">
 
-+++
+  ![New Substance graph dialog - Create from main toolbar](newGraphDialog-create-mainToolbar.png "New Substance graph dialog - Create from main toolbar"){zoomable="yes"}
 
-+++Main toolbar
+  </td>
+  </tr>
+  </table>
 
+* <table>
+  <tr style="border: 0;">
+  <td style="border: 0;" valign="top">
 
-In the main toolbar, click theNew Substance graphbutton.
+  In the [main menu](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), go to <b>File &gt; New &gt; Substance graph...</b>
 
+  </td>
+  <td style="border: 0;" valign="top">
 
+  ![](newGraphDialog-create-mainMenu.png)
 
+  </td>
+  </tr>
+  </table>
 
+* Press the <b>Ctrl+N</b> (Windows) / <b>Cmd+N</b> (macOS) keystroke.
 
-+++
-
-+++Main menu
-
-
-In themain menu, go toFile &gt; New &gt; Substance graph...
-
-
-
-[main menu](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)
-
-
-
-+++
-
-+++Explorer
-
-
-On anyexistingpackage item in theExplorer, clickRMBand go toNew &gt; Substance graphin the contextual menu.
-
-
-
-[Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
-
-
-
-+++
-
-You'll be presented with the <b>New Substance graph</b> dialog.
+No matter which method you choose, you'll be presented with the <b>New Substance graph</b> dialog.
 
 ## Graph templates
 
@@ -191,71 +196,31 @@ The filtering performed by the selected category and project file is applied in 
 +++View modes
 
 
-
-
-Thumbnails
-
-
-
-
+<b>Thumbnails</b>
 
 Cards with thumbnails providing a preview or icon of the template type.
 
 
 
-
-
-
-
-List
-
-
-
-
+<b>List</b>
 
 Templates are listed by their label only.
 
 
 
-
-
-
-
-Packages
-
-
-
-
+<b>Packages</b>
 
 Templates are listed by their label as children of the package file they belong to.
-
-
-
-
 
 Hover a package file item to display a tooltip with its full path.
 
 
 
-
-
-
-
-Directories
-
-
-
-
+<b>Directories</b>
 
 Templates are listed by their label as children of the directory hosting the package file they belong to.
 
-
-
-
-
 Hover a directory item to display a tooltip with its full path.
-
-
 
 +++
 

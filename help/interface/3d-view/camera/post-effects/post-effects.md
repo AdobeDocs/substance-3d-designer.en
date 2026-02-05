@@ -232,17 +232,9 @@ Simulates the in-camera effect of fringes of lights bleeding outward from very b
 The effect is influenced by the scene's lighting, camera exposure and emissive materials.
 
 +++Threshold
-
-
 The luminance value above which bloom should be visible.
 
-
-
-
-
-Left: 1.0 / Right: 4.0
-
-
+*Left: 1.0 / Right: 4.0*
 
 
 
@@ -264,17 +256,9 @@ Left: 1.0 / Right: 4.0
 +++
 
 +++Falloff
-
-
 The bloom attenuation ramp, where a lower value results in a shorter bloom radius.
 
-
-
-
-
-Left: 1.0 / Right: 0.6
-
-
+*Left: 1.0 / Right: 0.6*
 
 
 
@@ -296,17 +280,9 @@ Left: 1.0 / Right: 0.6
 +++
 
 +++Level
-
-
 The intensity of the bloom. A higher value results in brighter, more pronounced light fringes.
 
-
-
-
-
-Left: 8.0 / Right: 2.0
-
-
+*Left: 8.0 / Right: 2.0*
 
 
 
@@ -328,17 +304,9 @@ Left: 8.0 / Right: 2.0
 +++
 
 +++Color shift
-
-
 Offsets the hue of the areas affected by the bloom towards warmer colors.
 
-
-
-
-
-Left: 0.0 / Right: 0.8
-
-
+*Left: 0.0 / Right: 0.8*
 
 
 
@@ -370,17 +338,9 @@ The effect is impacted by both the camera’s ‘F-Stop’ and ‘Focus distance
 > To quickly adjust the camera focus, place the cursor on the location of a scene you want in focus and press Ctrl+LMB (Windows) or Cmd+LMB (macOS) to automatically set the focus distance to that location.
 
 +++Max radius
-
-
 The maximum radius of the blurring effect.
 
-
-
-
-
-Left: 32.0 / Right: 4.0
-
-
+*Left: 32.0 / Right: 4.0*
 
 
 
@@ -402,17 +362,9 @@ Left: 32.0 / Right: 4.0
 +++
 
 +++Composite strength
-
-
 The magnitude of the blurring effect from the focus distance outward.
 
-
-
-
-
-Left: 0.2 / Right: 0.05
-
-
+*Left: 0.2 / Right: 0.05*
 
 
 
@@ -434,23 +386,11 @@ Left: 0.2 / Right: 0.05
 +++
 
 +++Longitudinal aberration
-
-
 The intensity of the aberration occurring away from the focus distance.
-
-
-
-
 
 Aberration simulates how different wavelengths of light have a slightly different focal lengths, resulting in colors appearing to be offset and having sublte differences in focus.
 
-
-
-
-
-Left: 0.0 / RIght: 1.0
-
-
+*Left: 0.0 / RIght: 1.0*
 
 
 
@@ -472,23 +412,11 @@ Left: 0.0 / RIght: 1.0
 +++
 
 +++Achromatic aberration
-
-
 Specifies whether the aberration should be achromatic, meaning that some or all colors have the same focal length.
-
-
-
-
 
 This makes the blurring effect appear to be more equally distributed.
 
-
-
-
-
-Left: True / Right: False
-
-
+*Left: True / Right: False*
 
 
 
@@ -510,23 +438,11 @@ Left: True / Right: False
 +++
 
 +++Cat's eye
-
-
 Enables the cat’s eye effect in the scene, which simulates how light entering at an oblique angle does not enter a disc, but a uneven oval, causing distortion.
-
-
-
-
 
 This effect is more pronounced at higher apertures – I.e., lower F-Stop values.
 
-
-
-
-
-Left: True / Right: False
-
-
+*Left: True / Right: False*
 
 
 

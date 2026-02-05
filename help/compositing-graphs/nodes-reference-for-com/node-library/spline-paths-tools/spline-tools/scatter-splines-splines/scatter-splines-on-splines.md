@@ -90,32 +90,79 @@ Click the image on the right to access our <b>dedicated tutorial</b>, for a guid
 | <b>Non-Square Correction</b> *Boolean* | Adjust the splines positions and thickness to retain the their shape in non-square resolutions.   *Note:* When using custom splines, the custom spline should use the *same image ratio* as the <b>Scatter Splines on Splines</b> nodes. |
 
 +++Size
-
+|  |  |
+| --- | --- |
+| <b>Spline Scale</b> *Float* | A global control for the size of all splines, where 1 is their full original size.   Scaling is applied relatively to a spline’s pivot. The pivot position can be offset using the <b>Spline Pivot</b> parameter. |
+| <b>Spline Scale Random</b> *Float* | Applies a random multiplier up to the specified value for decreasing the size of the splines. |
+| <b>Scale Map Input Multiplier</b> *Float* | Controls the intensity of the <b>Scale Map</b> input. This map acts as a multiplier for the current size of the patterns.   The effect of this map is combined with the other parameters in the <b>Size</b> group. |
+| <b>Scale Map Input Sampling Mode</b> *Integer* | The method of mapping the values in the <b>Scale Map</b> to the splines:   Texture space  The values are applied to the splines where they would be if placed in a texture using the texture’s UV coordinates. This effectively applies the value to the splines ‘in place’   Horizontal along spline The values are applied to the encoded splines’ coordinates directly (see <b>Spline Coords</b> input), where each row is applied to a different spline from top to bottom   Hor. along spline (rand. offset X) The values are applied to the encoded splines’ coordinates directly (see <b>Spline Coords</b> input), with a random horizontal offset in the <b>Scale Map</b> for each spline (I.e., each row in <b>Spline Coords</b>)   Hor. along spline (rand. offset Y) The values are applied to the encoded splines’ coordinates directly (see <b>Spline Coords</b> input), with a random vertical offset in the <b>Scale Map</b> for each spline (I.e., each row in <b>Spline Coords</b>) |
+| <b>Start/End Attenuation</b> *Float2* | Factors in the distance from the midpoint of the spline to its <b>Start</b> and <b>End</b> when scaling the splines.   This means size is decreased for splines closer to a spline’s extremities. |
 
 +++
 
 +++Position
-
+|  |  |
+| --- | --- |
+| <b>Local Offset</b> *Float2* | Applies an offset to the splines’ positions along the parent spline’s tangent (parallel) and normal (perpendicular). |
+| <b>Offset on Spline Range</b> *Integer* | Sets the range of offset applied to the scattered splines along the parent splines.   Interval The range spans the interval *between* each scattered spline.   Parent spline The range spans the *full length* of the parent spline. |
+| <b>Offset on Spline</b> *Float* | Applies a position offset to the splines along the parent splines. |
+| <b>Random Offset Range</b> *Integer* | Sets the range of random offset applied to the scattered splines along the parent splines.   Interval The range spans the interval *between* each scattered spline.   Parent spline The range spans the *full length* of the parent spline. |
+| <b>Random Offset on Spline</b> *Float* | Applies an additional position offset to the splines along the parent splines. |
+| <b>Offset by Thickness</b> *Float* | Applies an offset to the scattered splines along the normal of the parent splines, up to the parent splines' thickness.   Effectively, a value of 1 lets you place the scattered splines on the *surface* of the parent splines' envelope. |
 
 +++
 
 +++Rotation
-
+|  |  |
+| --- | --- |
+| <b>Custom Spline Alignment</b> *Integer* | Controls the initial orientation of the custom spline(s) on the parent splines.   First point tangent The splines are oriented according to the tangent of their first point. In other words, they go off the parent splines in the direction set by their first point.   Image space The splines are placed as they originally appear, with no additional adjustment to their position or orientation, as if the image representing them was resting on the parent spline. |
+| <b>Rotation Mode</b> *Integer* | Sets the initial orientation of the scattered splines.   From spline The splines are oriented to match the *normal* of the parent splines at their location.   Absolute The splines are all oriented the *same way*, regardless of the parent splines' direction. |
+| <b>Rotation</b> *Float* | Rotates the splines around their pivots, in number of turns. The pivot position can be offset using the <b>Spline Pivot</b> parameter. |
+| <b>Rotation Random</b> *Float* | Applies an additional random rotation to the splines around their pivots, in number of turns. The pivot position can be offset using the <b>Spline Pivot</b> parameter. |
+| <b>Left / Right Angle</b> *Float* | Controls the angle of symmetrical rotation applied to the splines on each side of the parent splines, in number of turns. |
+| <b>Left / Right Angle Random</b> *Float* | Adds a random amount of symmetrical rotation to the splines on each side of the parent splines, in number of turns. |
+| <b>Rotation Map Input Multiplier</b> *Float* | Controls the intensity of the <b>Rotation Map</b> input. This map acts as a multiplier for the current rotation of the patterns.   The effect of this map is combined with the other parameters in the <b>Rotation</b> group. |
+| <b>Rotation Map Input Sampling Mode</b> *Integer* | The method of mapping the values in the <b>Rotation Map</b> to the splines:   Texture space The values are applied to the splines where they would be if placed in a texture using the texture’s UV coordinates. This effectively applies the value to the splines ‘in place’,   Horizontal along spline The values are applied to the encoded splines’ coordinates directly (see <b>Spline Coords</b> input), where each row is applied to a different spline from top to bottom,   Hor. along spline (rand. offset X) The values are applied to the encoded splines’ coordinates directly (see <b>Spline Coords</b> input), with a random horizontal offset in the <b>Rotation Map</b> for each spline (I.e., each row in <b>Spline Coords</b>).   Hor. along spline (rand. offset Y) The values are applied to the encoded splines’ coordinates directly (see <b>Spline Coords</b> input), with a random vertical offset in the <b>Rotation Map</b> for each spline (I.e., each row in <b>Spline Coords</b>)<b>.</b> |
+| <b>Rotation Map Input Affects</b> *Integer* | Selects the rotation parameter that is impacted by the <b>Rotation Map</b>:   Spline rotation The map impacts the splines' global rotation clockwise.   Left / Right angle The map impacts the <b>Left/Right</b> splines' symmetrical rotation. |
 
 +++
 
 +++Height
-
+|  |  |
+| --- | --- |
+| <b>Start Height Mode</b> *Integer* | The method of computing the starting height of the scattered splines.   Manual Set the same absolute value for all scattered splines.   From parent spline (+ custom spline) Use the height of the parent spline, then add the custom spline's height using the <b>Custom spline start height mult.</b> parameter.   From custom spline Use the height of the custom spline as is.   *Note:* Set <b>Spline Type</b> to 'Custom Spline' and connect the <b>Custom Spline</b> inputs to use the height of custom splines. |
+| <b>Custom Spline Start Height Mult.</b> *Float* | Controls the contribution of the custom spline's own starting height to the starting height of the scattered splines, where 1 means the full height of the custom spline is used.   The custom spline's height is used differently according to the selected <b>Start Height Mode</b>:  *- From parent spline (+ custom spline):* The height is added to the parent spline's  *- From custom spline:* The height is used directly |
+| <b>Start Height Offset</b> *Float* | Applies an absolute offset to the scattered spline's starting height. |
+| <b>Start Height</b> *Float* | Sets an absolute value for the scattered spline's starting height. |
+| <b>End Height Mode</b> *Integer* | The method of computing the ending height of the scattered splines.   Manual Set the same absolute value for all scattered splines.   From parent spline (+ custom spline) Use the height of the parent spline, then add the custom spline's height using the <b>Custom Spline End Height Mult.</b> parameter.   From custom spline Use the height of the custom spline as is.     *Note:* Set <b>Spline Type</b> to Custom Spline and connect the <b>Custom Spline</b> inputs to use the height of custom splines. |
+| <b>Custom Spline End Height Mult.</b> *Float* | Controls the contribution of the custom spline's own ending height to the ending height of the scattered splines, where 1 means the full height of the custom spline is used.   The custom spline's height is used differently according to the selected <b>End Height Mode</b>:  *- From parent spline (+ custom spline):* The height is added to the parent spline's  *- From custom spline:* The height is used directly |
+| <b>End Height Offset</b> *Float* | Applies an absolute offset to the scattered spline's ending height. |
+| <b>End Height</b> *Float* | Sets an absolute value for the scattered spline's ending height. |
 
 +++
 
 +++Thickness
-
+|  |  |
+| --- | --- |
+| <b>Start Thickness Mode</b> *Integer* | The method of computing the starting thickness of the scattered splines.   Manual Set the same absolute value for all scattered splines.   From parent spline Use the thickness of the parent spline.   From custom spline Use the thickness of the custom spline.   *Note:* Set <b>Spline Type</b> to Custom Spline and connect the <b>Custom Spline</b> inputs to use the thickness of custom splines. |
+| <b>Start Thickness Multiplier</b> *Float* | Scales the starting thickness of the scattered splines, where 1 is the full thickness. |
+| <b>Start Thickness Offset</b> *Float* | Applies an absolute offset to the scattered spline's starting thickness. |
+| <b>Start Thickness</b> *Float* | Sets an absolute value for the scattered spline's starting thickness. |
+| <b>End Thickness Mode</b> *Integer* | The method of computing the ending thickness of the scattered splines.   Manual Set the same absolute value for all scattered splines.   From parent spline Use the thickness of the parent spline.   From custom spline Use the thickness of the custom spline.   *Note:* Set <b>Spline Type</b> to Custom Spline and connect the <b>Custom Spline</b> inputs to use the thickness of custom splines. |
+| <b>End Thickness Multiplier</b> *Float* | Scales the starting thickness of the scattered splines, where 1 is the full thickness. |
+| <b>End Thickness Offset</b> *Float* | Applies an absolute offset to the scattered spline's ending thickness. |
+| <b>End Thickness</b> *Float* | Sets an absolute value for the scattered spline's ending thickness. |
 
 +++
 
 +++Preview
-
+|  |  |
+| --- | --- |
+| <b>Show Direction Helper</b> *Boolean* | Displays a dot at the start of the spline and an arrowhead at its end in the <b>Preview</b> output. |
+| <b>Show Thickness Envelope</b> *Boolean* | Displays additional lines at the edges of the spline’s thickness. |
+| <b>Thickness (px)</b> *Float* | Adjusts the thickness of the spline visualization in the <b>Preview</b> output, in number of pixels. |
+| <b>Segments Amount</b> *Integer* | Adjusts the number of segments used to draw the spline visualization in the <b>Preview</b> output. A higher value results in a smoother line. |
+| <b>Background Intensity</b> *Float* | The intensity of the <b>Preview</b> input in the <b>Preview</b> output visualization. |
 
 +++
 

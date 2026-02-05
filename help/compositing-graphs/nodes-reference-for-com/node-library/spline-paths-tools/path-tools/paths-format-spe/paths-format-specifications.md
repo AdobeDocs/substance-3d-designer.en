@@ -53,90 +53,34 @@ top&#91;uv\_pos&#93; and bottom&#91;uv\_pos&#93; together are forming a semant
 Every Paths document starts with a document header. It is the very first semantic unit U&#91;(0,0)&#93;:
 
 +++Top
+<b>X</b>
 
-
-X
-
-
-
-
-
-The number of paths (should be a positive integer in &#91;0; 16777216&#93;).
-
-
-
-
+The number of paths (should be a positive integer in [0; 16777216]).
 
 If some paths are empty, they still count here. So you can think of it as a 'number of paths headers to decode'.
 
-
-
-
-
-YZ
-
-
-
-
+<b>YZ</b>
 
 The pixel size for this document (I.e., exactly `Float2(1,1) / $size`).
 
+This is useful when reading the Paths from from a [Pixel processor](../../../../atomic-nodes/pixel-processor/pixel-processor.md) or an [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md), for instance, whose Output Size is different.
 
-
-
-
-This is useful when reading the Paths from from aPixel processoror anFx-Map, for instance, whose Output Size is different.
-
-
-
-[Pixel processor](../../../../atomic-nodes/pixel-processor/pixel-processor.md)
-
-[Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md)
-
-
-
-W
-
-
-
-
+<b>W</b>
 
 1/16 = 0.0625 (header flag)
-
-
 
 +++
 
 +++Bottom
-
-
-XY
-
-
-
-
+<b>XY</b>
 
 The address of the last vertex defined in this document. This is useful to append new data.
 
+It can hence actually be any address that is greater (in scanline order) than the address of the last vertex. It must me in the range ]0, 1[×]0,.5&#91;
 
-
-
-
-It can hence actually be any address that is greater (in scanline order) than the address of the last vertex. It must me in the range &#93;0, 1&#91;×&#93;0,.5&#91;
-
-
-
-
-
-ZW
-
-
-
-
+<b>ZW</b>
 
 Unused, should be Float2(0, 1)
-
-
 
 +++
 
@@ -151,86 +95,35 @@ It is allowed to have null path-headers (`top[...].XYZW = Float4(0,0,0,0)`); suc
 The path-header of the Nth path will be defined at address `path\_addr` will be defined as:
 
 +++Top
+<b>X</b>
 
+Number of vertices in this path. Must be in the [0, 16777216] range.
 
-X
+If the start and end vertices of a closed path are at the same position, they still count for 2 vertices.  
+A path with 0 vertices is a valid path anyway.
 
+<b>Y</b>
 
+*Is\_closed* flag: 1 if the path is closed (e.g. a circle), 0 otherwise (e.g. a straight line).
 
+<b>Z</b>
 
+The path index *N.*It must absolutely match *path\_addr* (see note below).
 
-Number of vertices in this path. Must be in the &#91;0, 16777216&#93; range.
-
-
-
-
-
-If the start and end vertices of a closed path are at the same position, they still count for 2 vertices.A path with 0 vertices is a valid path anyway.
-
-
-
-
-
-Y
-
-
-
-
-
-Is_closedflag: 1 if the path is closed (e.g. a circle), 0 otherwise (e.g. a straight line).
-
-
-
-
-
-Z
-
-
-
-
-
-The path indexN.It must absolutely matchpath_addr(see note below).
-
-
-
-
-
-W
-
-
-
-
+<b>W</b>
 
 The header flag: 1/16 = 0.0625.
-
-
 
 +++
 
 +++Bottom
-
-
-XY
-
-
-
-
+<b>XY</b>
 
 Start (or first) vertex address.
 
-
-
-
-
-ZW
-
-
-
-
+<b>ZW</b>
 
 End (or last) vertex' address.
-
-
 
 +++
 
@@ -247,104 +140,46 @@ Vertices can be found anywhere in the image after the headers (document or path 
 Formally, each vertex at address `*vert\_addr*` is defined like this:
 
 +++Top
-
-
-XY
-
-
-
-
+<b>XY</b>
 
 The vertex position. Coordinates can be any float value that is not NaN or ±inf. There is no notion of tiling at this level (it can be handle or not by the implementation of each filter), so paths are supposed to be defined on the euclidean plane.
 
-
-
-
-
-Z
-
-
-
-
+<b>Z</b>
 
 The vertex path index. A vertex can only belong to one Path. (As mentioned earlier, Start and End vertices can have siblings though.) The path index can be used to retrieve the path-header (see Section Path Headers above), so make sure to keep it in sync.
 
-
-
-
-
-W
-
-
-
-
+<b>W</b>
 
 Vertex type. It is split between the sign of the value, and its absolute value:
 
-
-
-
-
 On the sign part, a value of 0 would mean there is no vertex here actually (all other components should be 0 too). A negative value means the vertex is marked as a "corner"; a positive one that the vertex is "smooth". Corner vs. smooth vertex is a pure, isolated attribute and has no impact or meaning on the rest of the Paths encoding.
 
+On the absolute value part, the kind of pixel (Start, Mid or End) and another flag (trivial\_link) are encoded:
 
+* *0.125*: End vertex (the last vertex of the shape; always non-trivial links, see below)
 
+* *0.25*: Start vertex (the first vertex of the shape; always non-trivial links, see below)
 
+* *0.5*: Mid vertex with non-trivial links
 
-On the absolute value part, the kind of pixel (Start, Mid or End) and another flag (trivial_link) are encoded:
+* *1*: Mid vertex with trivial links
 
-
-
-* 0.125: End vertex (the last vertex of the shape; always non-trivial links, see below)
-
-
-* 0.25: Start vertex (the first vertex of the shape; always non-trivial links, see below)
-
-
-* 0.5: Mid vertex with non-trivial links
-
-
-* 1: Mid vertex with trivial links
-
-
-
-
-"Trivial links" refers to the fact that the previous and next vertices (in the list of vertices of the current path) are stored in the pixel to left (vert_addr-(0,pixel_size)) and to the right (vert_addr+(0,pixel_size)) respectively, while "non-trivial links" means that at least one of these is stored elsewhere.
-
-
+"Trivial links" refers to the fact that the previous and next vertices (in the list of vertices of the current path) are stored in the pixel to left (vert\_addr-(0,pixel\_size)) and to the right (vert\_addr+(0,pixel\_size)) respectively, while "non-trivial links" means that at least one of these is stored elsewhere.
 
 +++
 
 +++Bottom
-
-
 Regardless of links "triviality", trustworthy values of links are stored in the bottom part:
 
+<b>XY</b>
 
+The address of the previous vertex of this path. For Start vertices, this points to the next sibling vertex.  
+if |top[vert\_addr].W| = 1, then bottom[vert\_addr].XY = vert\_addr - (0,pixel\_size)
 
+<b>ZW</b>
 
-
-XY
-
-
-
-
-
-The address of the previous vertex of this path. For Start vertices, this points to the next sibling vertex.if |top&#91;vert_addr&#93;.W| = 1, then bottom&#91;vert_addr&#93;.XY = vert_addr - (0,pixel_size)
-
-
-
-
-
-ZW
-
-
-
-
-
-The address of the next vertex of this path. For End vertices, this points to the next sibling vertex.if |top&#91;vert_addr&#93;.W| = 1, then bottom&#91;vert_addr&#93;.ZW = vert_addr + (0,pixel_size)
-
-
+The address of the next vertex of this path. For End vertices, this points to the next sibling vertex.  
+if |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
 
 +++
 
@@ -365,120 +200,60 @@ Under the `Read` folder, you can find several of these, useful to gather informa
 Some can give you information about a given pixel. They all take the sampled Float4 value in the \*top\* part as input. If you look at their implementation, they are super-simple. Their point is to convey more meaning than just atomic nodes:
 
 +++is_header
-
-
 Check that the current sampled value is either a path header or a document header.
-
-
 
 +++
 
 +++path_is_closed
-
-
-Check the Is_Closed flag (.Y) in a path header. It *assumes you already checked it's a path* with `is_header` and that `current_pixel_is_document_header` returned false.
-
-
+Check the Is\_Closed flag (.Y) in a path header. It \*assumes you already checked it's a path\* with `is\_header` and that `current\_pixel\_is\_document\_header` returned false.
 
 +++
 
 +++is_vertex
-
-
 Check that the current sampled value is a vertex, i.e. not a header, nor an empty pixel.
-
-
 
 +++
 
 +++is_start_vertex
-
-
-Check if a *top-part sampled* value is a Start vertex (no need to check `is_vertex` first).
-
-
+Check if a \*top-part sampled\* value is a Start vertex (no need to check `is\_vertex` first).
 
 +++
 
 +++is_mid_vertex
-
-
-Check if a *top-part sampled* value is a vertex that is not a Start nor End vertex (no need to check `is_vertex` first).
-
-
+Check if a \*top-part sampled\* value is a vertex that is not a Start nor End vertex (no need to check `is\_vertex` first).
 
 +++
 
 +++is_end_vertex
-
-
-Check if a *top-part sampled* value is an End vertex (no need to check `is_vertex` first).
-
-
+Check if a \*top-part sampled\* value is an End vertex (no need to check `is\_vertex` first).
 
 +++
 
 +++is_segment_start
-
-
-Short-hand for `is_start_vertex || is_mid_vertex`. More useful forFx-Map-based processing, to process each segment at most once.
-
-
-
-[Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md)
+Short-hand for `is\_start\_vertex || is\_mid\_vertex`. More useful for [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md)-based processing, to process each segment at most once.
 
 +++
 
 +++is_corner
-
-
-Check the corner flag of the vertex (no need to check `is_vertex` first: if the answer is true, you are on a vertex for sure). Please remind that this flag is somewhat not supported yet by official nodes.
-
-
+Check the corner flag of the vertex (no need to check `is\_vertex` first: if the answer is true, you are on a vertex for sure). Please remind that this flag is somewhat not supported yet by official nodes.
 
 +++
 
 +++has_trivial_links
-
-
 If that is a vertex, tells whether you can easily deduce the position of the previous and next vertices without sampling the bottom part. (Note: A non-vertex will always return false.)
 
-
-
-
-
-You probably don't want to use this directly, but rather use one of the `sample_next*` or `sample_prev*` functions, which take care of that for you.
-
-
+You probably don't want to use this directly, but rather use one of the `sample\_next\*` or `sample\_prev\*` functions, which take care of that for you.
 
 +++
 
 +++sample_next, sample_prev
+Given the top-part sampled value `*sampled*` and its position `*sampled\_position*`, returns the next (respectively previous) vertex top-part sampled value, and Set a Float2 variable `*next\_sampled\_pos*` to the position (in the top-part) of this neighbor (i.e. &lt;returned value&gt; = SampleColor(next\_sampled\_pos, image0)). `*input0PixSize*`must be equal to the path's pixel size (top[(0,0)].YZ).
 
+If the current pixel (`*sampled*`) is a <b>Start</b> vertex, *sample\_prev* will return the next sibling of this vertex; likewise if it is an <b>End</b> vertex, *sample\_next* will return the next sibling of this vertex (i.e. maybe not what you want). See `*sample\_next\_advanced*` and `*sample\_prev\_advanced*` below to solve this.
 
-Given the top-part sampled value `sampled` and its position `sampled_position`, returns the next (respectively previous) vertex top-part sampled value, and Set a Float2 variable `next_sampled_pos` to the position (in the top-part) of this neighbor (i.e. &lt;returned value&gt; = SampleColor(next_sampled_pos, image0)). `input0PixSize`must be equal to the path's pixel size (top&#91;(0,0)&#93;.YZ).
+Please note that for simplicity, <b>Paths info are assumed to be stored in input0!</b> Also, unlike what the function's doc states, you don't need to pre-declare `*next\_sampled\_pos*`. `*[out]next\_sampled\_pos*` is a dummy parameter to remind you that this second "return value" exists.
 
-
-
-
-
-If the current pixel (`sampled`) is aStartvertex,sample_prevwill return the next sibling of this vertex; likewise if it is anEndvertex,sample_nextwill return the next sibling of this vertex (i.e. maybe not what you want). See `sample_next_advanced` and `sample_prev_advanced` below to solve this.
-
-
-
-
-
-Please note that for simplicity,Paths info are assumed to be stored in input0!Also, unlike what the function's doc states, you don't need to pre-declare `next_sampled_pos`. `[out]next_sampled_pos` is a dummy parameter to remind you that this second "return value" exists.
-
-
-
-
-
-You can check the `paths_trace`Fx-Map, in the Iterations parameter of the 3rd Iterate node, for an example of how to use it.
-
-
-
-[Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md)
+You can check the `*paths\_trace*` [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md), in the Iterations parameter of the 3rd Iterate node, for an example of how to use it.
 
 
 
@@ -487,11 +262,7 @@ You can check the `paths_trace`Fx-Map, in the Iterations parameter of the 3rd It
 +++
 
 +++sample_next_advanced, sample_prev_advanced
-
-
 This is aimed to work on closed paths. For open paths, the Start or End vertex doesn't have a sibling, and in this case both functions return the same and only neighbor. For Start or End vertices with more than one sibling (Paths connected as a network), that would return the neighboring vertex of the next sibling in the linked list.
-
-
 
 +++
 
@@ -502,44 +273,24 @@ Under the `Write` folder, you will find small helpers that builds a Float4 ready
 Indeed, the [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md) multiplies RGB by Alpha before drawing, so the actual values are un-premultiplied to compensate for that. If you want to use these function e.g. in a [Pixel Processor](../../../../atomic-nodes/pixel-processor/pixel-processor.md), we recommend that you apply the premultiplication yourself again, or that you write a custom version (more optimized for your use case and easier to use).
 
 +++document_header
-
-
 Builds the top part of the document header, declaring the number of paths you provide.
-
-
 
 +++
 
 +++document_last_vertex_spec
-
-
-Builds the *bottom* part of the document header, which specify the last vertex address (see A.1.).
-
-
+Builds the \*bottom\* part of the document header, which specify the last vertex address (see A.1.).
 
 +++
 
 +++path_header
-
-
-Builds the top part of a path header, according to the number of vertices in the path `nbVertices`, the `isClosed` flag, and the `pathIndex`.
-
-
+Builds the top part of a path header, according to the number of vertices in the path `*nbVertices*`, the `*isClosed*` flag, and the `*pathIndex*`.
 
 +++
 
 +++start_vertex, mid_vertex, end_vertex
-
-
 Builds the top part of a vertex, setting the position, type and other options accordingly.
 
-
-
-
-
-Aboutmid_vertexand thehasTrivialLinksparameter: Ideally you should set the appropriate value, but if for any reason you end up not being able to tell whether links will be trivial or not, you can safely set it to false (at the cost of slower processing of your generated path).
-
-
+About *mid\_vertex* and the *hasTrivialLinks* parameter: Ideally you should set the appropriate value, but if for any reason you end up not being able to tell whether links will be trivial or not, you can safely set it to false (at the cost of slower processing of your generated path).
 
 +++
 
@@ -552,59 +303,21 @@ You will find a pertinent example of how to use these functions in the <b>*paths
 You will likely use either a Pixel Processor or an Fx-Map to implement your custom processing, each of which has its strength and weaknesses:
 
 +++FX-Map
+The [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md)-based solution will usually be preferred when performing high-level operation requiring a global knowledge of the whole path (or paths), or a cumulative one (e.g. repacking vertices after decimation or tessellation). It is also the easiest to approach, so if you are doing a custom processing for the first time, you may want to use a Fx-Map, despite it *might* be slower.
 
+You need to be familiar with Fx-Map in the first place. If that's not the case, please check the [specific documentation](../../../../atomic-nodes/fx-map/fx-map.md).
 
-TheFx-Map-based solution will usually be preferred when performing high-level operation requiring a global knowledge of the whole path (or paths), or a cumulative one (e.g. repacking vertices after decimation or tessellation). It is also the easiest to approach, so if you are doing a custom processing for the first time, you may want to use a Fx-Map, despite itmightbe slower.
-
-
-
-[Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md)
-
-
-
-You need to be familiar with Fx-Map in the first place. If that's not the case, please check thespecific documentation.
-
-
-
-[specific documentation](../../../../atomic-nodes/fx-map/fx-map.md)
-
-
-
-We recommend that you look at the implementation ofPreview Pathsinpaths_trace.sbsandPaths Polygoninpaths_polygon.sbsto get an idea about how to read and write (respectively) path using an Fx-Map.
-
-
-
-[Preview Paths](../preview-paths/preview-paths.md)
-
-[Paths Polygon](../paths-polygon/paths-polygon.md)
+We recommend that you look at the implementation of [Preview Paths](../preview-paths/preview-paths.md) in <b>*paths\_trace.sbs*</b> and [Paths Polygon](../paths-polygon/paths-polygon.md) in <b>*paths\_polygon.sbs*</b> to get an idea about how to read and write (respectively) path using an Fx-Map.
 
 +++
 
 +++Pixel Processor
-
-
-ThePixel Processorsolution will be fitting if you only need "local" information. Here we mean "local" not spatially (the distance between element) but rather topologically (vertices linked together). This is how the Vertex Processor is implemented. The Pixel Processor is usually faster than the Fx-Map for this kind of operation, as each pixel's function is evaluated in parallel, while only a limited amount of data is accessed. Implementation effort might be far more important though, as you can only modify the current pixel.
-
-
-
-[Pixel Processor](../../../../atomic-nodes/pixel-processor/pixel-processor.md)
-
-
+The [Pixel Processor](../../../../atomic-nodes/pixel-processor/pixel-processor.md) solution will be fitting if you only need "local" information. Here we mean "local" not spatially (the distance between element) but rather topologically (vertices linked together). This is how the Vertex Processor is implemented. The Pixel Processor is usually faster than the Fx-Map for this kind of operation, as each pixel's function is evaluated in parallel, while only a limited amount of data is accessed. Implementation effort might be far more important though, as you can only modify the current pixel.
 
 We won't get into detail, as there is so much to say depending on you specific use case, but the first thing to do is checking where you are:
 
+Are you in the top ($pos.y &lt; 0.5) or bottom ($pos.y &gt; 0.5) part? We recommend that remember that in a dedicated variable (e.g. `*isTop*`), and that you create a `*vert.addr*` Float2 those value is `*$pos*` for the top part, and `$pos - (0,0.5)` for the bottom part.
 
-
-
-
-Are you in the top ($pos.y &lt; 0.5) or bottom ($pos.y &gt; 0.5) part? We recommend that remember that in a dedicated variable (e.g. `isTop`), and that you create a `vert.addr` Float2 those value is `$pos` for the top part, and `$pos - (0,0.5)` for the bottom part.
-
-
-
-
-
-What is atvert.addr? Sample it and check whether there's anything (W != 0) then, if there is, what exactly. A header (W = 0.0625) (check with `Read/is_header`) or a vertex (check with `Read/is_vertex`)? And if it's a header, is it the document header or a Path header? (You can use `Read/current_pixel_is_document_header` to check that.) Use one or several of the helper functions to match what is interesting to you.
-
-
+What is at *vert.addr*? Sample it and check whether there's anything (W != 0) then, if there is, what exactly. A header (W = 0.0625) (check with `*Read/is\_header*`) or a vertex (check with `Read/is\_vertex`)? And if it's a header, is it the document header or a Path header? (You can use `*Read/current\_pixel\_is\_document\_header*` to check that.) Use one or several of the helper functions to match what is interesting to you.
 
 +++

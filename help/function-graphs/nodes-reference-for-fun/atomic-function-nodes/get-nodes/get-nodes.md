@@ -76,13 +76,7 @@ The name of the variable being fetched is set in the Properties dock.
 +++Floats
 
 
-
-
 Get Float
-
-
-
-
 
 
 
@@ -90,34 +84,18 @@ Get Float2
 
 
 
-
-
-
-
 Get Float3
 
 
 
-
-
-
-
 Get Float4
-
-
 
 +++
 
 +++Integers
 
 
-
-
 Get Integer
-
-
-
-
 
 
 
@@ -125,40 +103,22 @@ Get Integer2
 
 
 
-
-
-
-
 Get Integer3
 
 
 
-
-
-
-
 Get Integer4
-
-
 
 +++
 
 +++Others
 
 
-
-
 Get Boolean
 
 
 
-
-
-
-
 Get String
-
-
 
 +++
 

@@ -75,47 +75,30 @@ The output number of points.
 The resulting smoothness value is clamped to the &#91;0;1&#93; range.
 
 +++Points Properties
-
-
-p# PropertiesFloat3Sets the properties of the p# point.- Height:Adjusts the height of the point where a lower value means a lower or deeper location;- Smoothness:Offsets the start of the smoothing of the spline at p#, where a value of 0 results in a hard trajectory and 1 in an entirely smooth one;- Thickness:Adjusts the thickness of the spline at p#. Thickness is used by specific Spline nodes.
-
-
+<b>p&#35; Properties</b> *Float3*Sets the properties of the p# point.  
+*- Height:* Adjusts the height of the point where a lower value means a lower or deeper location;  
+*- Smoothness:* Offsets the start of the smoothing of the spline at p#, where a value of 0 results in a hard trajectory and 1 in an entirely smooth one;  
+*- Thickness:* Adjusts the thickness of the spline at p#. Thickness is used by specific Spline nodes.
 
 +++
 
 +++Points Coordinates
-
-
-p#Float2Sets the position of the p# point in texture space.
-
-
+<b>p&#35;</b> *Float2*Sets the position of the p# point in texture space.
 
 +++
 
 +++Preview
+<b>Show Labels</b> *Boolean*  
+For each point, displays the point's name next to it in the 'Preview' output.
 
+<b>Label Size</b> *Float* (Available when 'Show Labels' is set to 'True')  
+The size of the label for each point in texture space, where 0.1 is a tenth of the texture's width.
 
-Show LabelsBooleanFor each point, displays the point's name next to it in the 'Preview' output.
+<b>Show Points</b> *Boolean*  
+Displays the points in the 'Preview' output.
 
-
-
-
-
-Label SizeFloat(Available when 'Show Labels' is set to 'True')The size of the label for each point in texture space, where 0.1 is a tenth of the texture's width.
-
-
-
-
-
-Show PointsBooleanDisplays the points in the 'Preview' output.
-
-
-
-
-
-Points SizeFloat(Available when 'Show Points' is set to 'True')The radius of the points in texture space, where 0.1 is a tenth of the texture's width.
-
-
+<b>Points Size</b> *Float* (Available when 'Show Points' is set to 'True')  
+The radius of the points in texture space, where 0.1 is a tenth of the texture's width.
 
 +++
 

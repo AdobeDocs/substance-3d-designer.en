@@ -25,26 +25,15 @@ Similarly to programming langages, the If... Else node introduces the possibilit
 </tr>
 </table>
 
-You will use this node in conjunction with the[ Logical nodes](../../logical-nodes/logical-nodes.md) and the [Comparison nodes](../comparison-nodes/comparison-nodes.md) that will help you build the condition to check.
+You will use this node in conjunction with the[ Logical nodes](../logical-nodes/logical-nodes.md) and the [Comparison nodes](../comparison-nodes/comparison-nodes.md) that will help you build the condition to check.
 
 +++Input connectors
+<b>Condition</b> *Boolean*  
+The condition that controls the node's output.
 
+<b>If</b> *Variabe type*The value output by the node if <b>Condition</b> is *True*.
 
-ConditionBooleanThe condition that controls the node's output.
-
-
-
-
-
-IfVariabe typeThe value output by the node ifConditionisTrue.
-
-
-
-
-
-ElseVariabe typeThe value output by the node ifConditionisFalse.
-
-
+<b>Else</b> *Variabe type*The value output by the node if <b>Condition</b> is *False*.
 
 +++
 
@@ -70,17 +59,11 @@ This is critical for controlling the state of variables are they are created, re
 You may learn more about the Sequence node in the [Using the Set/Sequence nodes](../../../fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) page of this documentation.
 
 +++Input connectors
+<b>In</b> *Variable type*  
+The portion of the graph that should be computed first
 
-
-InVariable typeThe portion of the graph that should be computed first
-
-
-
-
-
-LastVariable typeThe portion of the graph that should be computed last
-
-
+<b>Last</b> *Variable type*  
+The portion of the graph that should be computed last
 
 +++
 
@@ -113,44 +96,27 @@ This means you may add to an index value every iteration and check its value in 
 > Nodes connected to the <b>Exit Cond.</b> and <b>Loop Body</b> branches cannot be connected to other branches of the graph.
 
 +++Input connectors
+<b>Init.</b> *Variable type*  
+The portion of the graph that is computed before the first iteration – I.e. the start of the loop.
 
+<b>Exit Cond.</b> *Boolean*  
+The condition that needs to be true for the loop to stop. It is recomputed on each iteration.  
+*Note:* The maximum number of iterations is still limited to the <b>Max iterations</b> parameter.
 
-Init.Variable typeThe portion of the graph that is computed before the first iteration – I.e. the start of the loop.
-
-
-
-
-
-Exit Cond.BooleanThe condition that needs to be true for the loop to stop. It is recomputed on each iteration.Note:The maximum number of iterations is still limited to theMax iterationsparameter.
-
-
-
-
-
-Loop BodyVariable typeThe graph that benefits from the loop. It is recomputed on each iteration.
-
-
+<b>Loop Body</b> *Variable type*  
+The graph that benefits from the loop. It is recomputed on each iteration.
 
 +++
 
 +++Parameters
-
-
-Max. iterationsIntegerThe maximum number of iterations performed by the node.The node stops iterating when whichever of the following criteria is met first: this maximum number is reached or the exit condition becomes true .This maximum can be disabled by setting the value to-1. At that point, only the exit condition can stop the iterations.
-
-
-
-
+<b>Max. iterations</b> *Integer*  
+The maximum number of iterations performed by the node.  
+The node stops iterating when whichever of the following criteria is met first: this maximum number is reached or the exit condition becomes true .  
+This maximum can be disabled by setting the value to *-1*. At that point, only the exit condition can stop the iterations.
 
 Setting 'Max. iterations' to -1 improves performances in small loops as there is one less counter to keep track and update.
 
-
-
-
-
-However, be mindful of how the node is configured as it is possible to produce aninfinite loopthat may result in Designer becoming unresponsive.
-
-
+However, be mindful of how the node is configured as it is possible to produce an <b>infinite loop</b> that may result in Designer becoming unresponsive.
 
 +++
 

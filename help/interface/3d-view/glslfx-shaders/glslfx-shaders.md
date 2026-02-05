@@ -40,20 +40,11 @@ XML Element that describes a technique. A technique is a variation of the curre
 The geometry will be rendered with one of the techniques defined by the application.
 
 +++XML element definition
+<b>Name:</b> technique
 
-
-Name:technique
-
-
-
-
-
-Attributes:
-
-
+<b>Attributes:</b>
 
 * name: Any string used to name the technique
-
 
 +++
 
@@ -70,26 +61,15 @@ A technique can contain multiple render passes that will be executed sequentiall
 The elements defined in a render pass override the elements defined in the parent technique.
 
 +++XML element definition
+<b>Name:</b> pass
 
-
-Name:pass
-
-
-
-
-
-Attributes:
-
-
+<b>Attributes:</b>
 
 * output
 
-
 * offscreen: The rendering will be done into user defined render targets
 
-
 * onscreen: The rendering will be done into the default render target
-
 
 +++
 
@@ -100,26 +80,29 @@ Set the GLSL shader files for each type.
 XML Element Definition:
 
 +++XML element definition
+<b>Name:</b> shader
 
-
-Name:shader
-
-
-
-
-
-Attributes:
-
-
+<b>Attributes:</b>
 
 * type: The GLSL shader type;
 
-
 * filename: The path of the glsl shader file. Can be absolute or relative to the GLSLFX file;
-
 
 * primitiveType: The method to render the primitive.
 
+| 'type' Value | Description |
+| --- | --- |
+| vertex | Vertex shader |
+| geometry | Geometry shader |
+| tess\_control | Tessellation Control shader |
+| tess\_eval | Tessellation Evaluation shader |
+| fragment | Fragment shader |
+
+| 'primitiveType' Value | Description |
+| --- | --- |
+| point | Render as points |
+| lineloop | Render as line loop |
+| patch[1..N] | Render as patches with [1..N] vertices |
 
 +++
 
@@ -128,29 +111,61 @@ Attributes:
 Allow to set up some part of the OpenGL state.
 
 +++XML element definition
+<b>Name:</b> property
 
+<b>Attributes:</b>
 
-Name:property
+* name: The name of the property to set. The name is based on the OpenGL function or glEnum name:  
+  * Enums syntax: Without the 'GL\_' prefix, in lower case. Examples: glEnable(GL\_BLEND\_ENABLE) =&gt; """, glDisable(GL\_CULL\_FACE) =&gt; """
+  * Functions syntax: without the 'gl' prefix, in lower case and with all words separated with '\_' character. Example: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) =&gt; ""
 
+* Enums syntax: Without the 'GL\_' prefix, in lower case. Examples: glEnable(GL\_BLEND\_ENABLE) =&gt; """, glDisable(GL\_CULL\_FACE) =&gt; """
 
-
-
-
-Attributes:
-
-
-
-* name: The name of the property to set. The name is based on the OpenGL function or glEnum name:Enums syntax: Without the 'GL_' prefix, in lower case. Examples: glEnable(GL_BLEND_ENABLE) =&gt; """, glDisable(GL_CULL_FACE) =&gt; """Functions syntax:without the 'gl' prefix, in lower case and with all words separated with '_' character. Example: glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA) =&gt; ""
-
-
-* Enums syntax: Without the 'GL_' prefix, in lower case. Examples: glEnable(GL_BLEND_ENABLE) =&gt; """, glDisable(GL_CULL_FACE) =&gt; """
-
-
-* Functions syntax:without the 'gl' prefix, in lower case and with all words separated with '_' character. Example: glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA) =&gt; ""
-
+* Functions syntax: without the 'gl' prefix, in lower case and with all words separated with '\_' character. Example: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) =&gt; ""
 
 * value: The value of the property.
 
+| 'name' Values | 'value' Values | Description |
+| --- | --- | --- |
+| blend\_enabled | boolean | Enable/disable the blending mode |
+|  | true |  |
+|  | false |  |
+| blend\_func | string, string | Set the sources and destination blending functions |
+|  | zero | for OpenGL enum GL\_ZERO |
+|  | one | for OpenGL enum GL\_ONE |
+|  | src\_color | for OpenGL enum GL\_SRC\_COLOR |
+|  | one\_minus\_src\_color | for OpenGL enum GL\_ONE\_MINUS\_SRC\_COLOR |
+|  | dst\_color | for OpenGL enum GL\_DST\_COLOR |
+|  | one\_minus\_dst\_color | for OpenGL enum GL\_ONE\_MINUS\_DST\_COLOR |
+|  | src\_alpha | for OpenGL enum GL\_SRC\_ALPHA |
+|  | one\_minus\_src\_alpha | for OpenGL enum GL\_ONE\_MINUS\_SRC\_ALPHA |
+|  | dst\_alpha | for OpenGL enum GL\_DST\_ALPHA |
+|  | one\_minus\_dst\_alpha | for OpenGL enum GL\_ONE\_MINUS\_DST\_ALPHA |
+|  | constant\_color | for OpenGL enum GL\_CONSTANT\_COLOR |
+|  | one\_minus\_constant\_color | for OpenGL enum GL\_ONE\_MINUS\_CONSTANT\_COLOR |
+|  | constant\_alpha | for OpenGL enum GL\_CONSTANT\_ALPHA |
+|  | one\_minus\_constant\_alpha | for OpenGL enum GL\_ONE\_MINUS\_CONSTANT\_ALPHA |
+|  | src\_alpha\_saturate | for OpenGL enum GL\_SRC\_ALPHA\_SATURATE |
+|  | src1\_color | for OpenGL enum GL\_SRC1\_COLOR |
+|  | one\_minus\_src1\_color | for OpenGL enum GL\_ONE\_MINUS\_SRC1\_COLOR |
+|  | src1\_alpha | for OpenGL enum GL\_SRC1\_ALPHA |
+|  | one\_minus\_src1\_alpha | for OpenGL enum GL\_ONE\_MINUS\_SRC1\_ALPHA |
+| cull\_face\_enabled | boolean | Enable/disable the face culling |
+|  | true |  |
+|  | false |  |
+| cull\_face\_mode | string | Set the face culling mode |
+|  | front | for OpenGL enum GL\_FRONT |
+|  | back | for OpenGL enum GL\_BACK |
+|  | front\_and\_back | for OpenGL enum GL\_FRONT\_AND\_BACK |
+| depth\_func | string | Set the depth compare function |
+|  | never | for OpenGL enum GL\_NEVER |
+|  | less | for OpenGL enum GL\_LESS |
+|  | lequal | for OpenGL enum GL\_LEQUAL |
+|  | equal | for OpenGL enum GL\_EQUAL |
+|  | notequal | for OpenGL enum GL\_NOTEQUAL |
+|  | gequal | for OpenGL enum GL\_GEQUAL |
+|  | greater | for OpenGL enum GL\_GREATER |
+|  | always | for OpenGL enum GL\_ALWAYS |
 
 +++
 
@@ -170,47 +185,31 @@ See the <b>Uniforms</b> section below for more details about their definition.
 For 'offscreen' render passes, render targets must be defined in the render pass.
 
 +++XML element definition
+<b>Name:</b> output
 
+<b>Attributes:</b>
 
-Name:output
+* attachment: The OpenGL attachment point, inspired by the OpenGL names:  
+  GL\_COLOR\_ATTACHMENT[0..3] =&gt; 'color[0..3]'  
+  GL\_DEPTH\_ATTACHMENT =&gt; 'depth'
 
+attachment: The OpenGL attachment point, inspired by the OpenGL names:  
+GL\_COLOR\_ATTACHMENT[0..3] =&gt; 'color[0..3]'  
+GL\_DEPTH\_ATTACHMENT =&gt; 'depth'
 
+* name: the name of the render target.  
+  It can be used in a later render pass to bind this render target as a sampler.
 
-
-
-Attributes:
-
-
-
-* attachment: The OpenGL attachment point, inspired by the OpenGL names:GL_COLOR_ATTACHMENT&#91;0..3&#93; =&gt; 'color&#91;0..3&#93;'GL_DEPTH_ATTACHMENT =&gt; 'depth'
-
-
-
-
-attachment: The OpenGL attachment point, inspired by the OpenGL names:GL_COLOR_ATTACHMENT&#91;0..3&#93; =&gt; 'color&#91;0..3&#93;'GL_DEPTH_ATTACHMENT =&gt; 'depth'
-
-
-
-* name: the name of the render target.It can be used in a later render pass to bind this render target as a sampler.
-
-
-
-
-name: the name of the render target.It can be used in a later render pass to bind this render target as a sampler.
-
-
+name: the name of the render target.  
+It can be used in a later render pass to bind this render target as a sampler.
 
 * format: the internal format of the render target.
 
-
-
-
 format: the internal format of the render target.
 
-
-
-* clear: optional attribute that defines a clear value.If present, the render target will be cleared to this value at the beginning of the render pass.If missing, the render target will keep its previous content.
-
+* clear: optional attribute that defines a clear value.  
+  If present, the render target will be cleared to this value at the beginning of the render pass.  
+  If missing, the render target will keep its previous content.
 
 +++
 

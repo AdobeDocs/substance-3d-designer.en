@@ -45,32 +45,28 @@ Similarly to 'Blur', it is also a faster and low-quality operation. An extended,
 </tr>
 </table>
 
-+++Directional blur and Anisotropic blur
+## Directional and Anisotropic blur
 
+This images below show the Directional blur and the[ Anisotropic blur](../../node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) in effect on the same input shape, with similar parameters. Anisotropic Blur has been set to full anisotropy and high quality.
 
-This images below show the Directional blur and theAnisotropic blurin effect on the same input shape, with similar parameters. Anisotropic Blur has been set to full anisotropy and high quality.
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
+<b>Directional blur</b>
 
+![Directional blur comparison](dirblur-01.png "Directional blur comparison"){zoomable="yes"}
 
-[Anisotropic blur](../../node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)
+</td>
+<td style="border: 0;" valign="top">
 
+<b>Anisotropic blur</b>
 
+![Anisotropic blur comparison](aniso-01.png "Anisotropic blur comparison"){zoomable="yes"}
 
-Directional blur
-
-
-
-
-
-
-
-Anisotropic blur
-
-
-
-
-
-+++
+</td>
+</tr>
+</table>
 
 <table>
 <tr style="border: 0;">

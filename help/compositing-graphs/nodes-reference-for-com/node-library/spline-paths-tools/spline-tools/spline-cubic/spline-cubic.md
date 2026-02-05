@@ -79,122 +79,68 @@ Adds the generated spline to the end of the list of splines connected to the <b>
 This also impacts uniform distribution.
 
 +++Height
+<b>Start Height</b> *Float*Adjusts the height of the p1 point where a lower value means a lower or deeper location.  
+This impacts the height of the spline at p1.
 
+<b>End Height</b> *Float*Adjusts the height of the p2 point where a lower value means a lower or deeper location.  
+This impacts the thickness of the spline at p2.
 
-Start HeightFloatAdjusts the height of the p1 point where a lower value means a lower or deeper location.This impacts the height of the spline at p1.
+<b>Auto Tangent Height</b> *Boolean*Automatically sets the height of the spline tangents to interpolate linearly from the Start Height to the End Height.
 
+<b>p1 Tangent Height</b> *Float* (available when ‘Auto Tangent Height’ is True)  
+Adjusts the height of the p1 point ‘out’ tangent where a lower value means a lower or deeper location.  
+This impacts the height along the spline as it draws away from p1.
 
-
-
-
-End HeightFloatAdjusts the height of the p2 point where a lower value means a lower or deeper location.This impacts the thickness of the spline at p2.
-
-
-
-
-
-Auto Tangent HeightBooleanAutomatically sets the height of the spline tangents to interpolate linearly from the Start Height to the End Height.
-
-
-
-
-
-p1 Tangent HeightFloat(available when ‘Auto Tangent Height’ is True)Adjusts the height of the p1 point ‘out’ tangent where a lower value means a lower or deeper location.This impacts the height along the spline as it draws away from p1.
-
-
-
-
-
-p2 Tangent HeightFloat(available when ‘Auto Tangent Height’ is True)Adjusts the height of the p2 point ‘in’ tangent where a lower value means a lower or deeper location.This impacts the height along the spline as it draws away from p2.
-
-
+<b>p2 Tangent Height</b> *Float* (available when ‘Auto Tangent Height’ is True)  
+Adjusts the height of the p2 point ‘in’ tangent where a lower value means a lower or deeper location.  
+This impacts the height along the spline as it draws away from p2.
 
 +++
 
 +++Thickness
+<b>Start Thickness</b> *Float*Adjusts the thickness of the p1 point.  
+This impacts the thickness of the spline at p1.  
+Note: Thickness is used by specific Spline nodes.
 
+<b>End Thickness</b> *Float*Adjusts the thickness of the p2 point.  
+This impacts the thickness of the spline at p2.  
+Note: Thickness is used by specific Spline nodes.
 
-Start ThicknessFloatAdjusts the thickness of the p1 point.This impacts the thickness of the spline at p1.Note: Thickness is used by specific Spline nodes.
+<b>Auto Tangent Thickness</b> *Boolean*Automatically sets the thickness of the spline tangents to interpolate linearly from the Start Thickness to the End Thickness.  
+Note: Thickness is used by specific Spline nodes.
 
+<b>p1 Tangent Thickness</b> *Float* (available when ‘Auto Tangent Thickness’ is True)  
+Adjusts the thickness of the p1 point ‘out’ tangent.  
+This impacts the thickness along the spline as it draws away from p1.  
+Note: Thickness is used by specific Spline nodes.
 
-
-
-
-End ThicknessFloatAdjusts the thickness of the p2 point.This impacts the thickness of the spline at p2.Note: Thickness is used by specific Spline nodes.
-
-
-
-
-
-Auto Tangent ThicknessBooleanAutomatically sets the thickness of the spline tangents to interpolate linearly from the Start Thickness to the End Thickness.Note: Thickness is used by specific Spline nodes.
-
-
-
-
-
-p1 Tangent ThicknessFloat(available when ‘Auto Tangent Thickness’ is True)Adjusts the thickness of the p1 point ‘out’ tangent.This impacts the thickness along the spline as it draws away from p1.Note: Thickness is used by specific Spline nodes.
-
-
-
-
-
-p2 Tangent ThicknessFloat(available when ‘Auto Tangent Thickness’ is True)Adjusts the thickness of the p2 point ‘in’ tangent.This impacts the thickness along the spline as it draws away from p2.Note: Thickness is used by specific Spline nodes.
-
-
+<b>p2 Tangent Thickness</b> *Float* (available when ‘Auto Tangent Thickness’ is True)  
+Adjusts the thickness of the p2 point ‘in’ tangent.  
+This impacts the thickness along the spline as it draws away from p2.  
+Note: Thickness is used by specific Spline nodes.
 
 +++
 
 +++Points Coordinates
+<b>p1</b> *Float2*Sets the position of the p1 point in texture space.
 
+<b>p1 Tangent</b> *Float2*Sets the position of the p1 point ‘out’ tangent handle in texture space.
 
-p1Float2Sets the position of the p1 point in texture space.
+<b>p2</b> *Float2*Sets the position of the p2 point in texture space.
 
-
-
-
-
-p1 TangentFloat2Sets the position of the p1 point ‘out’ tangent handle in texture space.
-
-
-
-
-
-p2Float2Sets the position of the p2 point in texture space.
-
-
-
-
-
-p2 TangentFloat2Sets the position of the p2 point ‘in’ tangent handle in texture space.
-
-
+<b>p2 Tangent</b> *Float2*Sets the position of the p2 point ‘in’ tangent handle in texture space.
 
 +++
 
 +++Preview
+<b>Show Tangents</b> *Boolean*Displays the p1 point ‘out’ tangent and p2 point ‘in’ tangent in the Preview output.
 
+<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
 
-Show TangentsBooleanDisplays the p1 point ‘out’ tangent and p2 point ‘in’ tangent in the Preview output.
+<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
+A higher value results in a smoother line.
 
-
-
-
-
-Show Direction HelperBooleanDisplays a dot at the start of the spline and an arrowhead at its end in the Preview output.
-
-
-
-
-
-Segments AmountIntegerAdjusts the number of segments used to draw the spline visualization in the Preview output.A higher value results in a smoother line.
-
-
-
-
-
-Thickness (px)FloatAdjusts the thickness in pixels of the spline visualization in the Preview output.
-
-
+<b>Thickness (px)</b> *Float*Adjusts the thickness in pixels of the spline visualization in the Preview output.
 
 +++
 

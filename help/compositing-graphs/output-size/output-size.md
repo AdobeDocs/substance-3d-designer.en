@@ -91,118 +91,52 @@ Display the properties of a node or graph by clicking that item, then in the [Pr
 If you are a new [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) user, you might run into some common problems. We'll list some examples below, along with solutions.
 
 +++Problem 1
-
-
-Problem
-
+**![(error)](error.svg) Problem**
 
 
 
+The **Parent Size** setting is *grayed out*, and the graph uses in an undesired 256\*256 resolution.
+
+In the graph's properties, the inheritance method of the Output Size property was set to *Absolute*, which stops inheritance in favour of an arbitrary value.
+
+**![(tick)](check.svg) Solution**
 
 
 
-TheParent Sizesetting isgrayed out, and the graph uses in an undesired 256*256 resolution.
-
-
-
-
-
-In the graph's properties, the inheritance method of the Output Size property was set toAbsolute, which stops inheritance in favour of an arbitrary value.
-
-
-
-
-
-Solution
-
-
-
-
-
-
-
-Set the inheritance method for the graph's Output size toRelative to parent.
-
-
+Set the inheritance method for the graph's Output size to *Relative to parent*.
 
 +++
 
 +++Problem 2
-
-
-Problem
-
+**![(error)](error.svg) Problem**
 
 
 
+Above you see a case where the output of a graph results in a different resolution (512\*512) than set in the parent (1024\*1024), despite the graph being set to *Relative to parent*.
+
+The problem stems from the [Bitmap](../nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node. It defaults to the *Absolute* inheritance method, and picked 512\*512 as a resolution based on the [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md). The node connected to it are set to *Relative to input*, thus inherit their Output Size from the Bitmap node.
+
+**![(tick)](check.svg) Solution**
 
 
 
-Above you see a case where the output of a graph results in a different resolution (512*512) than set in the parent (1024*1024), despite the graph being set toRelative to parent.
-
-
-
-
-
-The problem stems from theBitmapnode. It defaults to theAbsoluteinheritance method, and picked 512*512 as a resolution based on theBitmap resource. The node connected to it are set toRelative to input, thus inherit their Output Size from the Bitmap node.
-
-
-
-[Bitmap](../nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
-
-[Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md)
-
-
-
-Solution
-
-
-
-
-
-
-
-Set the Output Size's inheritance method of the Bitmap node toRelative to parent, resolving the issue further down the chain.
-
-
+Set the Output Size's inheritance method of the Bitmap node to *Relative to parent*, resolving the issue further down the chain.
 
 +++
 
 +++Problem 3
-
-
-Problem
-
-
-
-
+**![(error)](error.svg) Problem**
 
 
 
 Above you see an issue where the resolution jumps much higher halfway through the chain, resulting to much higher output resolution than defined by the parent.
 
+The problem is caused by a relative modifier of 3 on the [Transformation 2D](../nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node, making the output 8 times larger.
 
-
-
-
-The problem is caused by a relative modifier of 3 on theTransformation 2Dnode, making the output 8 times larger.
-
-
-
-[Transformation 2D](../nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
-
-
-
-Solution
-
-
-
-
+**![(tick)](check.svg) Solution**
 
 
 
 Set the relative modifiers for Width and Height to 0, leading to no upscaling.
-
-
 
 +++

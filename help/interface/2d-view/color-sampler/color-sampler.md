@@ -30,31 +30,15 @@ Here is a demonstration of the tool in action:
 *Click to enlarge*
 
 +++Copy the sampled RGBA values
-
-
 You can copy the sampled values by clicking RMB on the pin and selecting the 'Copy RGBA values' action in the contextual menu.
 
-
-
-
-
-The copied values can bepasted in parameters using a color thumbnail.
-
-
-
-
+The copied values can be <b>pasted in parameters using a color thumbnail</b>.
 
 The color thumbnails in the Information panel can also be dragged and dropped directly onto the color thumbnails of those parameters.
 
 
 
-
-
-
-
-Click to enlarge
-
-
+*Click to enlarge*
 
 +++
 

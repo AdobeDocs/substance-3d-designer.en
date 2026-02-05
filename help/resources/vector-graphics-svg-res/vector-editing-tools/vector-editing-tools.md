@@ -93,288 +93,122 @@ Two toolbars are displayed when the vector editing tools are enabled:
 Keyboard shortcuts let you access tools quickly, and are marked below between parentheses after the tool/function name:
 
 +++Color selection
+The ![](2dview-paintingtools-icon-colors-primary.png)![](2dview-paintingtools-icon-colors-secondary.png) **Color selection** *thumbnails* let you define a *fill* and *outline* color for vector shapes. You can open the **Color editor** for each of these colors in the following ways:
 
+* **Fill color:** Click on the *fill* color thumbnail (top), or double-click LMB on the canvas
 
-TheColor selectionthumbnailslet you define afillandoutlinecolor for vector shapes. You can open theColor editorfor each of these colors in the following ways:
+* **Outline color:** Click on the *outline* color thumbnail (bottom), or *hold Ctrl* and double-click LMB on the canvas
 
+The set colors will then be applied to the *currently selected shapes*.
 
-
-* Fill color:Click on thefillcolor thumbnail (top), or double-click LMB on the canvas
-
-
-* Outline color:Click on theoutlinecolor thumbnail (bottom), orhold Ctrland double-click LMB on the canvas
-
-
-
-
-The set colors will then be applied to thecurrently selected shapes.
-
-
-
-
-
-If the currentoutlinecolor isblack– i.e. luminance 0 or RGB (0, 0, 0) – it willnotbe applied to the selected shapes until youclick on the outline color thumbnail.
-
-
+If the current *outline* color is *black* – i.e. luminance 0 or RGB (0, 0, 0) – it will *not* be applied to the selected shapes until you *click on the outline color thumbnail*.
 
 +++
 
 +++Transformation
 
 
+The ![](2dview-vectorediting-icon-transformation.png) <b>Transformation</b> tool (<b>V</b>) can select shapes, which are then included in a transformation gizmo. This gizmo lets you perform the following actions:
 
+<b>Move</b>: Click and hold LMB *inside* the gizmo
 
-TheTransformationtool (V) can select shapes, which are then included in a transformation gizmo. This gizmo lets you perform the following actions:
+<b>Scale</b>: Click and hold LMB on any of the *square handles* along the gizmo to *scale* the object horizontally, vertically, or both. By default, scaling is done relatively to the handle on the *opposite* side of the gizmo. You can hold the <b>Alt</b> key to perform the scaling relatively to the *center* of the gizmo, and hold the <b>Shift</b> key to *lock* the gizmo width/height *ratio*
 
-
-
-
-
-Move: Click and hold LMBinsidethe gizmo
-
-
-
-
-
-Scale: Click and hold LMB on any of thesquare handlesalong the gizmo toscalethe object horizontally, vertically, or both. By default, scaling is done relatively to the handle on theoppositeside of the gizmo. You can hold theAltkey to perform the scaling relatively to thecenterof the gizmo, and hold theShiftkey tolockthe gizmo width/heightratio
-
-
-
-
-
-Rotate:Click and hold LMB next to any of thesquare handlesalong the gizmo,outsideof the gizmo.
-
-
+<b>Rotate: </b>Click and hold LMB next to any of the *square handles* along the gizmo, *outside* of the gizmo.
 
 +++
 
 +++Node
 
 
+The ![](2dview-vectorediting-icon-node.png) <b>Node</b> tool (<b>A</b>) lets you select individual vertices (i.e. nodes) of the selected shape and edit its position and handles, as well as add and remove vertices. Once a shape is selected, the following actions can be performed:
 
+<b>Add vertex:</b> Ctrl+LMB on the shape outline
 
-TheNodetool (A) lets you select individual vertices (i.e. nodes) of the selected shape and edit its position and handles, as well as add and remove vertices. Once a shape is selected, the following actions can be performed:
+<b>Remove vertex</b>: Ctrl+LMB on the vertex
 
+<b>Move vertex</b>: Hold LMB on the vertex
 
+<b>Move vertex handles</b>: Hold LMB on the handle
 
+<b>Move vertex handle independently</b>: Hold Alt+LMB on the handle. Note that handles will be *unlinked* past this point until they are *reset*
 
+<b>Reset handles</b>: Click Alt+LMB on the vertex. The handles will be reset to the *vertex position*
 
-Add vertex:Ctrl+LMB on the shape outline
-
-
-
-
-
-Remove vertex: Ctrl+LMB on the vertex
-
-
-
-
-
-Move vertex: Hold LMB on the vertex
-
-
-
-
-
-Move vertex handles: Hold LMB on the handle
-
-
-
-
-
-Move vertex handle independently: Hold Alt+LMB on the handle. Note that handles will beunlinkedpast this point until they arereset
-
-
-
-
-
-Reset handles: Click Alt+LMB on the vertex. The handles will be reset to thevertex position
-
-
-
-
-
-Move reset vertex handles: Hold Alt+LMB on the vertex.Linkedhandles will appear
-
-
+<b>Move reset vertex handles</b>: Hold Alt+LMB on the vertex. *Linked* handles will appear
 
 +++
 
 +++Shape
 
 
+The ![](2dview-vectorediting-icons-shape.png) <b>Shapes</b> tool (<b>M</b>) offers a set of primitive shapes, using the currentl *fill* color, which can be built from and edited:
 
+* <b>Rectangle;</b>
 
-TheShapestool (M) offers a set of primitive shapes, using the currentlfillcolor, which can be built from and edited:
+* <b>Ellipse;</b>
 
+* <b>Rounded rectangle:</b> The rounded angles have a locked radius;
 
+* <b>Polygon:</b> Creates an octogon.
 
-* Rectangle;
-
-
-* Ellipse;
-
-
-* Rounded rectangle:The rounded angles have a locked radius;
-
-
-* Polygon:Creates an octogon.
-
-
-
-
-To draw a primitive, HoldLMBanywhere in the canvas from any of itscorners. HoldAlt+LMBto draw the shape from itscenter.
-
-
+To draw a primitive, Hold <b>LMB</b> anywhere in the canvas from any of its *corners*. Hold <b>Alt+LMB</b> to draw the shape from its *center*.
 
 +++
 
 +++Pen
 
 
+The ![](2dview-vectorediting-icon-pen.png) <b>Pen</b> tool (<b>P</b>) lets you draw a new custom shape, using the current *fill* color. Two modes are available:
 
+In <b>Path </b>mode, the shape is drawn *one vertex at a time*. The following controls are available:
 
-ThePentool (P) lets you draw a new custom shape, using the currentfillcolor. Two modes are available:
+Add <b>straight in/straight out </b>vertex: Click LMB
 
+Add <b>curve in/curve out</b> vertex (*aligned* tangents): Hold LMB and drag
 
+Add <b>curve in/curve out </b>vertex (*unaligned* tangents)\*: Hold LMB and drag, then hold Alt+LMB
 
+Add <b>curve in/straight out</b> vertex\*: same as curve in/curve out vertex (unaligned tangents), but the out line needs to be placed *on top of the new vertex*
 
+Add <b>straight in/curve out</b> vertex\*: Hold Alt+LMB and drag
 
-InPathmode, the shape is drawnone vertex at a time. The following controls are available:
+<b>Close shape</b> on *next* vertex: Hold Ctrl
 
+<b>Close shape</b> on *current* vertex: Press Enter, or click LMB on the *first vertex* of the current shape
 
+<b>Freehand </b>mode lets you draw shapes directly by dragging the pen across the canvas while holding LMB.
 
-
-
-Addstraight in/straight outvertex: Click LMB
-
-
-
-
-
-Addcurve in/curve outvertex (alignedtangents): Hold LMB and drag
-
-
-
-
-
-Addcurve in/curve outvertex (unalignedtangents)*: Hold LMB and drag, then hold Alt+LMB
-
-
-
-
-
-Addcurve in/straight outvertex*: same as curve in/curve out vertex (unaligned tangents), but the out line needs to be placedon top of the new vertex
-
-
-
-
-
-Addstraight in/curve outvertex*: Hold Alt+LMB and drag
-
-
-
-
-
-Close shapeonnextvertex: Hold Ctrl
-
-
-
-
-
-Close shapeoncurrentvertex: Press Enter, or click LMB on thefirst vertexof the current shape
-
-
-
-
-
-Freehandmode lets you draw shapes directly by dragging the pen across the canvas while holding LMB.
-
-
-
-
-
-Vertices areautomatically placedalong the stroke so that the resulting path matches the stroke as closely as possible. The shape isautomatically closedwhen the stroke ends, connecting the first vertex to the last in the stroke.
-
-
+Vertices are *automatically placed* along the stroke so that the resulting path matches the stroke as closely as possible. The shape is *automatically closed* when the stroke ends, connecting the first vertex to the last in the stroke.
 
 +++
 
 +++Extrude
 
 
+The ![](2dview-vectorediting-icon-extrude.png) **Extrude** tool (E) *adds together* a shape of a *set diameter*, drawn along a path using the selected *drawing mode*, and applies the result in the canvas following the *merging mode* set in the options toolbar.
 
+The following *drawing modes* are available:
 
-TheExtrudetool (E)adds togethera shape of aset diameter, drawn along a path using the selecteddrawing mode, and applies the result in the canvas following themerging modeset in the options toolbar.
+![](2dview-vectorediting-icon-extrude-freeformpng.png) **Freeform**: draws the shape *directly by dragging* the pen across the canvas while holding LMB. The shape is added together when the stroke ends.
 
-
-
-
-
-The followingdrawing modesare available:
-
-
-
-
-
-Freeform: draws the shapedirectly by draggingthe pen across the canvas while holding LMB. The shape is added together when the stroke ends.
-
-
-
-
-
-Polygonal: draws the shapeone face at a timeby clicking LMB to add an angle. The shape is added together when the Enter key is pressed.
-
-
-
-
+![](2dview-vectorediting-icon-extrude-polygonal.png) **Polygonal**: draws the shape *one face at a time* by clicking LMB to add an angle. The shape is added together when the Enter key is pressed.
 
 The drawn shape can be controlled using these parameters:
 
+<b>Size</b>: Controls the diameter of the radial shape drawn at the cursor location.
 
+<b>Smoothness</b>: Controls the amount by which the drawn shape should be *smoothed out and simplified* when added together at the end of the stroke.
 
+When the drawing is completed, the shape is added together and merged with the currently selected shape using one of these available *merging modes*:
 
+![](2dview-vectorediting-icon-extrude-nomerge.png) **No merging**: The shape is drawn *on top* of the selected shape as a *separate object*.
 
-Size: Controls the diameter of the radial shape drawn at the cursor location.
+![](2dview-vectorediting-icon-extrude-union.png) **Union**: The shape is *added* to the selected shape.
 
+![](2dview-vectorediting-icon-extrude-subtract.png) **Subtraction**: The shape is *cut out* of the selected shape.
 
-
-
-
-Smoothness: Controls the amount by which the drawn shape should besmoothed out and simplifiedwhen added together at the end of the stroke.
-
-
-
-
-
-When the drawing is completed, the shape is added together and merged with the currently selected shape using one of these availablemerging modes:
-
-
-
-
-
-No merging: The shape is drawnon topof the selected shape as aseparate object.
-
-
-
-
-
-Union: The shape isaddedto the selected shape.
-
-
-
-
-
-Subtraction: The shape iscut outof the selected shape.
-
-
-
-
-
-Intersection: Only theoverlappingportions of the new and the selected shape remain.
-
-
+![](2dview-vectorediting-icon-extrude-intersection.png) **Intersection**: Only the *overlapping* portions of the new and the selected shape remain.
 
 +++
 
@@ -385,92 +219,36 @@ Intersection: Only theoverlappingportions of the new and the selected shape rema
 In addition to the tools listed above, a number of operations can be performed on *selected shapes*, using the contextual menu available when clicking RMB. These operations nearly all have a keyboard shortcut (in parentheses below) are organised in the following categories:
 
 +++Adding and removing shapes
+<b>Copy selection</b> (Ctrl+C): *Copy* the selected shapes to the clipboard
 
+<b>Cut selection</b> (Ctrl+X): *Copy* the selected shapes to the clipboard and *remove* the shapes
 
-Copy selection(Ctrl+C):Copythe selected shapes to the clipboard
+<b>Paste</b> (Ctrl+V): Create the copied shape currently in the clipboard, at the *cursor location*
 
+<b>Paste in place</b> (Ctrl+Shift+V): Create the copied shape currently in the clipboard, at the *copied shape location*
 
-
-
-
-Cut selection(Ctrl+X):Copythe selected shapes to the clipboard andremovethe shapes
-
-
-
-
-
-Paste(Ctrl+V): Create the copied shape currently in the clipboard, at thecursor location
-
-
-
-
-
-Paste in place(Ctrl+Shift+V): Create the copied shape currently in the clipboard, at thecopied shape location
-
-
-
-
-
-Delete selection(Del):Removethe selected shapes
-
-
+<b>Delete selection</b> (Del): *Remove* the selected shapes
 
 +++
 
 +++Arranging shapes
+Shapes are arranged in a *stack*, which sets the *order* of the shapes in the canvas – i.e. which is on top of which. New shapes are created *on top* of the canvas by default, and the following controls let you change this arrangement:
 
+<b>Bring to front</b> (Home): *raises* the selected shapes to the *top* of the shapes stack
 
-Shapes are arranged in astack, which sets theorderof the shapes in the canvas – i.e. which is on top of which. New shapes are createdon topof the canvas by default, and the following controls let you change this arrangement:
+<b>Bring forward</b> (PgUp): *raises* the selected shapes up by *one level* in the shapes stack
 
+<b>Send backward</b> (PgDown): *lowers* the selected shapes down by *one level* in the shapes stack
 
-
-
-
-Bring to front(Home):raisesthe selected shapes to thetopof the shapes stack
-
-
-
-
-
-Bring forward(PgUp):raisesthe selected shapes up byone levelin the shapes stack
-
-
-
-
-
-Send backward(PgDown):lowersthe selected shapes down byone levelin the shapes stack
-
-
-
-
-
-Send to back(End):lowersthe selected shapes to thebottomof the shapes stack
-
-
+<b>Send to back</b> (End): *lowers* the selected shapes to the *bottom* of the shapes stack
 
 +++
 
 +++Send to new SVG image
+You can use shapes in the current image to create a *new [SVG resource](../vector-graphics-svg-resource.md)* in the current [SBS package](../../../getting-started/overview/overview.md). To that regard, the following actions are available:
 
+<b>Copy selection to new SVG</b>: Creates a new SVG resource, and copies the selected shapes *in place* in this new image.
 
-You can use shapes in the current image to create anewSVG resourcein the currentSBS package. To that regard, the following actions are available:
-
-
-
-[SVG resource](../vector-graphics-svg-resource.md)
-
-[SBS package](../../../getting-started/overview/overview.md)
-
-
-
-Copy selection to new SVG: Creates a new SVG resource, and copies the selected shapesin placein this new image.
-
-
-
-
-
-Cut selection to new SVG: Creates a new SVG resource, copies the selected shapesin placein this new image, andremovesthem from thecurrent image.
-
-
+<b>Cut selection to new SVG</b>: Creates a new SVG resource, copies the selected shapes *in place* in this new image, and *removes* them from the *current image*.
 
 +++

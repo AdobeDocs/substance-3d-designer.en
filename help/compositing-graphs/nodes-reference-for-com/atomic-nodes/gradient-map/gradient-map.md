@@ -76,166 +76,139 @@ The portions of the gradient before and after the first and last pins are set to
 
 The following controls are available to edit pins:
 
-+++Add pin
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
+<b>Add pin</b>
 
 Click LMB on the gradient or just below to add a pin at the position you clicked in the gradient bar.
 
-
-
-
-
 The new pin will be set to the gradient's color at that position.
 
+</td>
+<td style="border: 0;" valign="top">
 
+![Gradient Editor - Add pin](move-pin.gif "Gradient Editor - Add pin")
 
+</td>
+</tr>
+</table>
 
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-+++
-
-+++Move pin
-
+<b>Move pin</b>
 
 Hold LMB and drag the selected pins along the gradient bar to move them.
 
+You can also set the position of a pin with a numerical value by selecting it and using the <b>Position</b> parameter. The position is a value in the &#91;0;1&#93; range where 0 is the start of the gradient and 1 is its end.
 
+![Gradient Editor - Pin position parameter](image2015-8-27-13-56-2.png "Gradient Editor - Pin position parameter")
 
+</td>
+<td style="border: 0;" valign="top">
 
+![Gradient Editor - Move pin](movepin2.gif "Gradient Editor - Move pin")
 
+</td>
+</tr>
+</table>
 
+When multiple pins are selected, they can all be moved *concurrently*. When one or more pins reach and end of the gradient as they are moved, two behaviours are available depending on the mouse button used for moving:
 
-You can also set the position of a pin with a numerical value by selecting it and using thePositionparameter. The position is a value in the &#91;0;1&#93; range where 0 is the start of the gradient and 1 is its end.
+* <b>LMB:</b> Pins remain at the end, meaning they will be stacked at that location as they reach it and their relative positions are changed;
+* <b>MMB:</b> Pins loop back around to the other end of the gradient, meaning their relative positions remain unchanged.
 
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-
-
-
-
-
-When multiple pins are selected, they can all be movedconcurrently. When one or more pins reach and end of the gradient as they are moved, two behaviours are available depending on the mouse button used for moving:
-
-
-
-* LMB:Pins remain at the end, meaning they will be stacked at that location as they reach it and their relative positions are changed;
-
-
-* MMB:Pins loop back around to the other end of the gradient, meaning their relative positions remain unchanged.
-
-
-+++
-
-+++Delete pin
-
+<b>Delete pin</b>
 
 Select the pins and press Delete, or drag the pins off the gradient bar to delete them.
 
+</td>
+<td style="border: 0;" valign="top">
 
+![Gradient Editor - Delete pin](removepin.gif "Gradient Editor - Delete pin")
 
+</td>
+</tr>
+</table>
 
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-+++
-
-+++Desaturate
-
-
-This button desaturates the colors set on the selected pins.
-
-
-
-+++
-
-+++Invert positions
-
+<b>Invert positions</b>
 
 Mirrors the positions of the selected pins on the gradient.
 
+</td>
+<td style="border: 0;" valign="top">
 
+![Gradient editor: Invert positions](invert.gif "Gradient editor: Invert positions")
 
+</td>
+</tr>
+</table>
 
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-+++
-
-+++Invert colors
-
-
-Switches the colors of the selected pins to their negative.
-
-
-
-+++
-
-+++Clear all
-
+<b>Clear all</b>
 
 Removes all the pins from the gradient bar.
 
+</td>
+<td style="border: 0;" valign="top">
 
+![Gradient Editor - Clear all](remove.gif "Gradient Editor - Clear all")
 
+</td>
+</tr>
+</table>
 
+<b>Invert colors</b>
 
-+++
+This button switches the colors of the selected pins to their negative.
+
+<b>Desaturate</b>
+
+This button desaturates the colors set on the selected pins.
 
 ### Interpolation modes
 
 Once pins are set up, you can control how colors transition from one pin to the next using the available interpolation modes:
 
 +++Linear
-
-
 The default interpolation mode: applies a simple linear interpolation between each pin, so the gradient progresses uniformly.
-
-
 
 +++
 
 +++Flat Tangents
-
-
 When thinking about the transition between gradients as Bezier curves where pins are points of the curve, this mode sets these points to have horizontal tangents.
-
-
-
-
 
 This results in a transition that is evocative of a smoothstep interpolation.
 
-
-
-
-
-When this mode is selected, theMidpointparameter is enabled and lets you offset the horizontal position of the curve's vertical midpoint between the points. This effectively tips the scale between the 'out' and 'in' tangents.
-
-
+When this mode is selected, the <b>Midpoint</b> parameter is enabled and lets you offset the horizontal position of the curve's vertical midpoint between the points. This effectively tips the scale between the 'out' and 'in' tangents.
 
 +++
 
 +++Smooth
-
-
 Applies smoothing to the interpolation curve between each point.
 
-
-
-
-
-When this mode is selected, theSmoothnessparameter is enabled and lets you adjust the intensity of the smoothing where a value of 0 is equal to theLinearinterpolation mode.
-
-
+When this mode is selected, the <b>Smoothness</b> parameter is enabled and lets you adjust the intensity of the smoothing where a value of 0 is equal to the <b>Linear</b> interpolation mode.
 
 +++
 
 +++No Interpolation
-
-
 Color only changes at a pins' location, and stays constant until the next pin along the gradient bar.
 
-
-
-
-
 This results in hard steps between colors, and only the colors set by the pins are present on the gradient.
-
-
 
 +++
 
@@ -245,44 +218,58 @@ This results in hard steps between colors, and only the colors set by the pins a
 
 The Color Picker lets you set a color in several ways:
 
-+++Gradient area and hue bar
+* <b>Gradient and hue bar</b>
 
+  <table>
+  <tr style="border: 0;">
+  <td style="border: 0;" valign="top">
 
-Tweak the positions of the gizmo in the gradient and of the notch in the hue bar to set a color.
+  Tweak the positions of the gizmo in the gradient and of the notch in the hue bar to set a color.
 
+  </td>
+  <td style="border: 0;" valign="top">
 
+  ![Color Picker - Gradient area and hue bar](colorpalette.gif "Color Picker - Gradient area and hue bar")
 
+  </td>
+  </tr>
+  </table>
 
+* <b>RGB, HSV, and Alpha sliders</b>
 
-+++
+  <table>
+  <tr style="border: 0;">
+  <td width="100.00%" style="border: 0;" valign="top">
 
-+++RGB, HSV and Alpha sliders
+  The RGB, HSV and Alpha sliders let you set a color precisely, by tweaking the sliders or directly setting their numerical values.
 
+  Alternatively, use a hexcode in the dedicated input field below the sliders.
 
-The RGB, HSV and Alpha sliders let you set a color precisely, by tweaking the sliders or directly setting their numerical values.
+  </td>
+  <td width="33.33%" style="border: 0;" valign="top">
 
+  ![Color Picker - RGB, HSV and Alpha sliders](image2017-2-17-18-31-41.png "Color Picker - RGB, HSV and Alpha sliders")
 
+  </td>
+  </tr>
+  </table>
 
+* <b>Pick on screen</b>
 
+  <table>
+  <tr style="border: 0;">
+  <td style="border: 0;" valign="top">
 
-Alternatively, use a hexcode in the dedicated input field below the sliders.
+  Use the <b>Pick</b> button and click LMB anywhere in the screen to sample the color at that location.
 
+  </td>
+  <td style="border: 0;" valign="top">
 
+  ![Color Picker - Pick on screen](pick.gif "Color Picker - Pick on screen")
 
-
-
-+++
-
-+++Pick on screen
-
-
-Use thePickbutton and click LMB anywhere in the screen to sample the color at that location.
-
-
-
-
-
-+++
+  </td>
+  </tr>
+  </table>
 
 <table>
 <tr style="border: 0;">

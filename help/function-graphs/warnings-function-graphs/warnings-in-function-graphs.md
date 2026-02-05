@@ -65,7 +65,7 @@ A function graph's output node is colored *orange*.
 
 ### ![(error)](error.svg) Some Get nodes don't have a variable name
 
-One or more [Get](../nodes-reference-for-fun/get-nodes/get-nodes.md) nodes have their **Get...** property left blank, thus refer to no variable.
+One or more [Get](../nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) nodes have their <b>Get...</b> property left blank, thus refer to no variable.
 
 <table>
 <tr style="border: 0;">

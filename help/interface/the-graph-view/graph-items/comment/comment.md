@@ -34,55 +34,29 @@ The default type of comment is placed independently of nodes in the graph.
 It may be created in the following ways:
 
 +++Node menu
-
-
-PressSpacebarin the Graph view to open theNode menu, and select the 'Comment' item in the list.
-
-
-
-
+Press <b>Spacebar</b> in the Graph view to open the <b>Node menu</b>, and select the 'Comment' item in the list.
 
 Type 'comment' in the search field to surface the item and find it more quickly.
-
-
 
 +++
 
 +++Shortcut
-
-
-If a keyboard shortcut is mapped to the 'Comment' item in thePreferences, press that shortcut when the Graph View has focus.
-
-
-
-[Preferences](../../../preferences-window/preferences-window.md)
+If a keyboard shortcut is mapped to the 'Comment' item in the [Preferences](../../../preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
 
 +++
 
 +++Contextual menu
-
-
-In the Graph View, pressRMBon any object or in empty space and select theAdd Commentoption.
-
-
+In the Graph View, press <b>RMB</b> on any object or in empty space and select the <b>Add Comment</b> option.
 
 +++
 
 +++Graph toolbar
-
-
-In the Graph View toolbar, click the 'Comment' button in theNode Palette.
-
-
+In the Graph View toolbar, click the 'Comment' button in the <b>Node Palette</b>.
 
 +++
 
 +++Library
-
-
-In the Library, select theGraph Itemscategory then drag and drop the 'Comment' item into the Graph View.
-
-
+In the Library, select the <b>Graph Items</b> category then drag and drop the 'Comment' item into the Graph View.
 
 +++
 

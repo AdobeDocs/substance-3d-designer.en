@@ -121,29 +121,15 @@ Adds the generated spline to the end of the list of splines connected to the <b>
 This also impacts uniform distribution.
 
 +++Preview
+<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
 
+<b>Show Thickness Envelope</b> *Boolean*  
+Displays additional lines at the edges of the spline’s thickness.
 
-Show Direction HelperBooleanDisplays a dot at the start of the spline and an arrowhead at its end in the Preview output.
+<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
+A higher value results in a smoother line.
 
-
-
-
-
-Show Thickness EnvelopeBooleanDisplays additional lines at the edges of the spline’s thickness.
-
-
-
-
-
-Segments AmountIntegerAdjusts the number of segments used to draw the spline visualization in the Preview output.A higher value results in a smoother line.
-
-
-
-
-
-Thickness (px)FloatAdjusts the thickness in pixels of the spline visualization in the Preview output.
-
-
+<b>Thickness (px)</b> *Float*Adjusts the thickness in pixels of the spline visualization in the Preview output.
 
 +++
 

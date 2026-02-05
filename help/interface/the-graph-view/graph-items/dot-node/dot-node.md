@@ -28,39 +28,23 @@ A pair of Dot nodes can be used as <b>portals</b> to hide a connection going ov
 Dot nodes may be added in any graph type, in any of the following ways:
 
 +++Insert on link
-
-
-Hold theAltkey while hovering a connection to display the Dot node preview, then click LMB to add a Dot node on the connection at that location.
-
-
+Hold the <b>Alt</b> key while hovering a connection to display the Dot node preview, then click LMB to add a Dot node on the connection at that location.
 
 
 
 +++
 
 +++Node connector
-
-
-Press theAltkey while dragging a new connection from a node connector to insert a Dot node at that location.
-
-
-
-
+Press the <b>Alt</b> key while dragging a new connection from a node connector to insert a Dot node at that location.
 
 You may continue dragging the new connection and repeat the operation to route that connection how you like.
-
-
 
 
 
 +++
 
 +++Node menu
-
-
-PressSpacebarto display theNode menu, then select the 'Dot' item or type 'dot' in the search field to surface the item and find it more quickly.
-
-
+Press <b>Spacebar</b> to display the <b>Node menu</b>, then select the 'Dot' item or type 'dot' in the search field to surface the item and find it more quickly.
 
 
 

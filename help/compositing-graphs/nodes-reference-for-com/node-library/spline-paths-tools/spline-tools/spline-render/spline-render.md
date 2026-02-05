@@ -93,62 +93,33 @@ The value represents the normalized length of the spline.
 This also impacts uniform distribution.
 
 +++Color
+<b>Background Intensity</b> *Float*The value multiplied against the Background input image.
 
+<b>Spline Style</b> *Integer*The method used to color the splines:  
+* *Solid*: The segments are drawn using a uniform grayscale value;  
+* *Gradient*: A gradient from black to white is applied along each string of segments from start to end;  
+* *Height*: The height of the splines is used as the grayscale value for drawing the segments.
 
-Background IntensityFloatThe value multiplied against the Background input image.
+<b>Spline Color</b> *Float*The uniform grayscale value used to draw the segments.  
+When a Spline Style other than ‘Solid’ is selected, this color is multiplied against the styled color.
 
+<b>Random Luminance</b> *Float*For each string of uncut segments in a spline, applies a random offset in the specified range to the grayscale value used to draw that string.
 
-
-
-
-Spline StyleIntegerThe method used to color the splines:-Solid: The segments are drawn using a uniform grayscale value;-Gradient: A gradient from black to white is applied along each string of segments from start to end;-Height: The height of the splines is used as the grayscale value for drawing the segments.
-
-
-
-
-
-Spline ColorFloatThe uniform grayscale value used to draw the segments.When a Spline Style other than ‘Solid’ is selected, this color is multiplied against the styled color.
-
-
-
-
-
-Random LuminanceFloatFor each string of uncut segments in a spline, applies a random offset in the specified range to the grayscale value used to draw that string.
-
-
-
-
-
-Blend ModeIntegerThe method of blending the colors of the background and overlapping segments drawn along the splines:-Max: The brightest value is used;-Add: The values are added together.
-
-
+<b>Blend Mode</b> *Integer*The method of blending the colors of the background and overlapping segments drawn along the splines:  
+* *Max*: The brightest value is used;  
+* *Add*: The values are added together.
 
 +++
 
 +++Random Segments
+<b>Random Segments Start</b> *Float*Adjusts the probability that the string of segments closer to the start of the spline is cut.
 
+<b>Random Segments End</b> *Float*Adjusts the probability that the string of segments closer to the end of the spline is cut.
 
-Random Segments StartFloatAdjusts the probability that the string of segments closer to the start of the spline is cut.
+<b>Random Offset</b> *Float*Sets the maximum amount of displacement applied to each cut segment along its normal.  
+This parameter has no effect when Start and End are both set to 0.
 
-
-
-
-
-Random Segments EndFloatAdjusts the probability that the string of segments closer to the end of the spline is cut.
-
-
-
-
-
-Random OffsetFloatSets the maximum amount of displacement applied to each cut segment along its normal.This parameter has no effect when Start and End are both set to 0.
-
-
-
-
-
-Random Offset CenterFloatOffsets the center of the random displacement applied to each cut segment along its normal.
-
-
+<b>Random Offset Center</b> *Float*Offsets the center of the random displacement applied to each cut segment along its normal.
 
 +++
 

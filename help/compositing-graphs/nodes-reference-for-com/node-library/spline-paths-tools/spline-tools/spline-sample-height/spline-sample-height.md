@@ -90,29 +90,15 @@ The effect of the mapped height map can be adjusted by changing its blending mod
 *- Multiply*: Multiply the Height Map values against the spline’s height.
 
 +++Preview
+<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
+A higher value results in a smoother line.
 
+<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
 
-Segments AmountIntegerAdjusts the number of segments used to draw the spline visualization in the Preview output.A higher value results in a smoother line.
+<b>Show Thickness Envelope</b> *Boolean*  
+Displays additional lines at the edges of the spline’s thickness.
 
-
-
-
-
-Show Direction HelperBooleanDisplays a dot at the start of the spline and an arrowhead at its end in the Preview output.
-
-
-
-
-
-Show Thickness EnvelopeBooleanDisplays additional lines at the edges of the spline’s thickness.
-
-
-
-
-
-Thickness (px)FloatAdjusts the thickness of the spline visualization in pixels in the Preview output.
-
-
+<b>Thickness (px)</b> *Float*Adjusts the thickness of the spline visualization in pixels in the Preview output.
 
 +++
 

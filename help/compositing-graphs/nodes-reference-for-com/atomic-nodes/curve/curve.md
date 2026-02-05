@@ -174,38 +174,56 @@ If you right click on the curve view, you will get some more options.
 
 ### Keyboard Shortcuts
 
-+++LMB + Drag
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
+<b>LMB + Drag</b>
 
 Draw a selection box.
 
+</td>
+<td style="border: 0;" valign="top">
 
+![](ctrl.gif)
 
+</td>
+</tr>
+</table>
 
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-+++
-
-+++Shift + Drag
-
+<b>Shift + Drag</b>
 
 Constrain the movement on the X or Y axis.
 
+</td>
+<td style="border: 0;" valign="top">
 
+![](shift.gif)
 
+</td>
+</tr>
+</table>
 
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-+++
-
-+++Atl + LMB + Drag
-
+<b>Alt + LMB + Drag</b>
 
 Temporarily break the handles to move them independently.
 
+</td>
+<td style="border: 0;" valign="top">
 
+![](altclick.gif)
 
-
-
-+++
+</td>
+</tr>
+</table>
 
 ### Adjust the framing of the curve
 

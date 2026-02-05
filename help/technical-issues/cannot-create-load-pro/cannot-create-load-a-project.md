@@ -75,175 +75,111 @@ If the crash is caused by a change in the display configuration or scaling, you 
 The procedure to perform this reset per operating system is described below:
 
 +++Windows
-1. Close Designer
-
-
-
+* Close Designer
 
 Close Designer
 
+* Open the <b>Command prompt</b> application
+
+Open the <b>Command prompt</b> application
+
+* Enter the following command and press <b>Enter</b>:
+
+  <b>Creative Cloud Desktop</b>
+
+  ```
+
+  reg delete "HKEY_CURRENT_USER\Software\Adobe\Adobe Substance 3D Designer" /f
+  ```
 
 
-1. Open theCommand promptapplication
+  <b>Steam/Substance edition</b>
+
+  ```
+
+  reg delete "HKEY_CURRENT_USER\Software\Allegorithmic\Substance Designer" /f
+  ```
 
 
+Enter the following command and press <b>Enter</b>:
 
+<b>Creative Cloud Desktop</b>
 
-Open theCommand promptapplication
+<b>Steam/Substance edition</b>
 
+* Disconnect the second monitor from your system, and connect it back (ignore this step if you do *not* have multiple displays attached)
 
+Disconnect the second monitor from your system, and connect it back (ignore this step if you do *not* have multiple displays attached)
 
-1. Enter the following command and pressEnter:Creative Cloud Desktopreg delete "HKEY_CURRENT_USER\Software\Adobe\Adobe Substance 3D Designer" /fSteam/Substance editionreg delete "HKEY_CURRENT_USER\Software\Allegorithmic\Substance Designer" /f
+* Start Designer, but do *not* create or open any project
 
+Start Designer, but do *not* create or open any project
 
+* In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
 
+In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
 
-Enter the following command and pressEnter:
+* Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
 
+Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
 
-
-
-
-Creative Cloud Desktop
-
-
-
-
-
-Steam/Substance edition
-
-
-
-1. Disconnect the second monitor from your system, and connect it back (ignore this step if you donothave multiple displays attached)
-
-
-
-
-Disconnect the second monitor from your system, and connect it back (ignore this step if you donothave multiple displays attached)
-
-
-
-1. Start Designer, but donotcreate or open any project
-
-
-
-
-Start Designer, but donotcreate or open any project
-
-
-
-1. In the top bar, open theWindowsmenu and select theNew 3D Viewoption
-
-
-
-
-In the top bar, open theWindowsmenu and select theNew 3D Viewoption
-
-
-
-1. Check that the3D Viewis correctly initialised, and try different preview meshes in theScenemenu of the panel top bar
-
-
-
-
-Check that the3D Viewis correctly initialised, and try different preview meshes in theScenemenu of the panel top bar
-
-
-
-1. Create or open a material
-
-
-
+* Create or open a material
 
 Create or open a material
-
-
 
 +++
 
 +++macOS
-1. Close Designer
-
-
-
+* Close Designer
 
 Close Designer
 
+* Open the <b>Terminal</b> application
+
+Open the <b>Terminal</b> application
+
+* Enter the following command and press <b>Enter</b>:
+
+  <b>Creative Cloud Desktop</b>
+
+  ```
+
+  rm ~/Library/Preferences/com.adobe.Adobe\ Substance\ 3D\ Designer.plist
+  ```
 
 
-1. Open theTerminalapplication
+  <b>Steam/Substance edition</b>
+
+  ```
+
+  rm ~/Library/Preferences/com.allegorithmic.Substance\ Designer.plist
+  ```
 
 
+Enter the following command and press <b>Enter</b>:
 
+<b>Creative Cloud Desktop</b>
 
-Open theTerminalapplication
+<b>Steam/Substance edition</b>
 
+* Disconnect the second monitor from your system, and connect it back (ignore this step if you do *not* have multiple displays attached)
 
+Disconnect the second monitor from your system, and connect it back (ignore this step if you do *not* have multiple displays attached)
 
-1. Enter the following command and pressEnter:Creative Cloud Desktoprm ~/Library/Preferences/com.adobe.Adobe\ Substance\ 3D\ Designer.plistSteam/Substance editionrm ~/Library/Preferences/com.allegorithmic.Substance\ Designer.plist
+* Start Designer, but do *not* create or open any project
 
+Start Designer, but do *not* create or open any project
 
+* In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
 
+In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
 
-Enter the following command and pressEnter:
+* Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
 
+Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
 
-
-
-
-Creative Cloud Desktop
-
-
-
-
-
-Steam/Substance edition
-
-
-
-1. Disconnect the second monitor from your system, and connect it back (ignore this step if you donothave multiple displays attached)
-
-
-
-
-Disconnect the second monitor from your system, and connect it back (ignore this step if you donothave multiple displays attached)
-
-
-
-1. Start Designer, but donotcreate or open any project
-
-
-
-
-Start Designer, but donotcreate or open any project
-
-
-
-1. In the top bar, open theWindowsmenu and select theNew 3D Viewoption
-
-
-
-
-In the top bar, open theWindowsmenu and select theNew 3D Viewoption
-
-
-
-1. Check that the3D Viewis correctly initialised, and try different preview meshes in theScenemenu of the panel top bar
-
-
-
-
-Check that the3D Viewis correctly initialised, and try different preview meshes in theScenemenu of the panel top bar
-
-
-
-1. Create or open a material
-
-
-
+* Create or open a material
 
 Create or open a material
-
-
 
 +++

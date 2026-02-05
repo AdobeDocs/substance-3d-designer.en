@@ -36,30 +36,14 @@ Substance graph instances can be placed directly into MDL graphs by dragging the
 +++Substance graph from Substance 3D file (SBS)
 
 
-
-
-Substance graphinstance fromSubstance 3D file(SBS) in MDL graph
-
-
-
-[Substance graph](../../compositing-graphs/substance-compositing-graphs.md)
-
-[Substance 3D file](../../getting-started/overview/overview.md)
+*[Substance graph](../../compositing-graphs/substance-compositing-graphs.md) instance from [Substance 3D file](../../getting-started/overview/overview.md) (SBS) in MDL graph*
 
 +++
 
 +++Substance graph from Substance 3D asset (SBSAR)
 
 
-
-
-Substance graphinstance fromSubstance 3D asset(SBSAR) in MDL graph
-
-
-
-[Substance graph](../../compositing-graphs/substance-compositing-graphs.md)
-
-[Substance 3D asset](../../getting-started/overview/overview.md)
+*[Substance graph](../../compositing-graphs/substance-compositing-graphs.md) instance from [Substance 3D asset](../../getting-started/overview/overview.md) (SBSAR) in MDL graph*
 
 +++
 

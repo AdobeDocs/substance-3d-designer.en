@@ -116,35 +116,18 @@ A value of 1 means no warping is applied to the end of the spline.<b></b>
 This ensures the spline’s tangents remain consistent with its trajectory when used in nodes such as Scatter on Spline or Spline Flow Mapper.
 
 +++Preview
+<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
+A higher value results in a smoother line.
 
+<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
 
-Segments AmountIntegerAdjusts the number of segments used to draw the spline visualization in the Preview output.A higher value results in a smoother line.
+<b>Show Thickness Envelope</b> *Boolean*  
+Displays additional lines at the edges of the spline’s thickness.
 
+<b>Thickness (px)</b> *Float*Adjusts the thickness of the spline visualization in pixels in the Preview output.
 
-
-
-
-Show Direction HelperBooleanDisplays a dot at the start of the spline and an arrowhead at its end in the Preview output.
-
-
-
-
-
-Show Thickness EnvelopeBooleanDisplays additional lines at the edges of the spline’s thickness.
-
-
-
-
-
-Thickness (px)FloatAdjusts the thickness of the spline visualization in pixels in the Preview output.
-
-
-
-
-
-Background Preview IntensityFloatThe value multiplied against the background Preview input image.
-
-
+<b>Background Preview Intensity</b> *Float*  
+The value multiplied against the background Preview input image.
 
 +++
 

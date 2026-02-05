@@ -30,45 +30,25 @@ They can also be annotated and thus function as a documentation tool for explain
 Depending on the position of the mouse cursor or whether it is part of a selection, a frame presents itself in different visual styles to let you know if and how you can interact with it.
 
 +++Default
+By default, the frame is a rectangle with rounded corners filled with the color selected in its <b>Frame Color</b> property. A darker shade of that color is applied on the frame's outline.
 
-
-By default, the frame is a rectangle with rounded corners filled with the color selected in itsFrame Colorproperty. A darker shade of that color is applied on the frame's outline.
-
-
-
-
-
-The title set in theTitleproperty rests in grey on the frame's top left corner.
-
-
+The title set in the <b>Title</b> property rests in grey on the frame's top left corner.
 
 
 
 +++
 
 +++Header hover
-
-
 When hovering the top of the frame, a header bar is displayed.
 
-
-
-
-
 The frame may be moved by dragging that header bar or its title.
-
-
 
 
 
 +++
 
 +++Selected
-
-
-When selected, the title and outline of the frame are highlighted in white.The outline gets thicker.
-
-
+When selected, the title and outline of the frame are highlighted in white. The outline gets thicker.
 
 
 
@@ -79,55 +59,29 @@ When selected, the title and outline of the frame are highlighted in white.The o
 Frames may be added in any graph type, in any of the following ways:
 
 +++Node menu
-
-
-PressSpacebarin the Graph view to open theNode menu, and select the 'Frame' item in the list.
-
-
-
-
+Press <b>Spacebar</b> in the Graph view to open the <b>Node menu</b>, and select the 'Frame' item in the list.
 
 Type 'frame' in the search field to surface the item and find it more quickly.
-
-
 
 +++
 
 +++Shortcut
-
-
-If a keyboard shortcut is mapped to the 'Frame' item in thePreferences, press that shortcut when the Graph View has focus.
-
-
-
-[Preferences](../../../preferences-window/preferences-window.md)
+If a keyboard shortcut is mapped to the 'Frame' item in the [Preferences](../../../preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
 
 +++
 
 +++Contextual menu
-
-
-In the Graph View, pressRMBon any object or in empty space and select theAdd Frameoption.
-
-
+In the Graph View, press <b>RMB</b> on any object or in empty space and select the <b>Add Frame</b> option.
 
 +++
 
 +++Graph toolbar
-
-
-In the Graph View toolbar, click the 'Frame' button in theNode Palette.
-
-
+In the Graph View toolbar, click the 'Frame' button in the <b>Node Palette</b>.
 
 +++
 
 +++Library
-
-
-In the Library, select theGraph Itemscategory then drag and drop the 'Frame' item into the Graph View.
-
-
+In the Library, select the <b>Graph Items</b> category then drag and drop the 'Frame' item into the Graph View.
 
 +++
 
@@ -186,59 +140,29 @@ Hold the <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) key to shift this snapping t
 When a frame is selected, the following properties are available in the [Properties](../../../properties/properties.md) dock:
 
 +++Title
+The <b>Title</b> resting on the top left of the frame. Its visibility of the title can be toggled on or off by using the <b>Title Visible</b> property.
 
-
-TheTitleresting on the top left of the frame. Its visibility of the title can be toggled on or off by using theTitle Visibleproperty.
-
-
-
-
-
-The size of the title can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in theInformationdrop down of theGraph viewtoolbar.
-
-
-
-[Graph view](../../the-graph-view.md)
+The size of the title can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../the-graph-view.md) toolbar.
 
 
 
 +++
 
 +++Description
+The <b>Description</b> is an optional, additional piece of text that may be used to annotate the frame's content.
 
+The text can be formatted using HTML tags. This formatting is toggled by clicking the ![](graph-frames_html-markup-button.png) <b>HTML markup</b> button.
 
-TheDescriptionis an optional, additional piece of text that may be used to annotate the frame's content.
-
-
-
-
-
-The text can be formatted using HTML tags. This formatting is toggled by clicking theHTML markupbutton.
-
-
-
-
-
-Learn more in the  section below.
-
-
+Learn more in the section below.
 
 
 
 +++
 
 +++Color
+The <b>Frame Color</b> is used to fill the frame in the Graph view. Use the color picker to select any color.
 
-
-TheFrame Coloris used to fill the frame in the Graph view. Use the color picker to select any color.
-
-
-
-
-
-The color's alpha channel control theopacityof the frame, where a value of 0 means the frame is fully transparent.
-
-
+The color's alpha channel control the *opacity* of the frame, where a value of 0 means the frame is fully transparent.
 
 
 
@@ -301,7 +225,19 @@ You may copy and paste this sample in the frame's Description property to test
 Here is a list of useful tags for formatting text:
 
 +++HTML formatting tags
-
+|  |  |
+| --- | --- |
+| Bold | &lt;b&gt;...&lt;/b&gt; |
+| Italic | &lt;i&gt;...&lt;/i&gt; |
+| Color | &lt;font color="#4A567C"&gt;...&lt;/font&gt; |
+| Paragraph | &lt;p&gt;...&lt;/p&gt; |
+| Line break | &lt;br&gt; |
+| Headings | &lt;h1&gt;...&lt;/h1&gt;, &lt;h2&gt;...&lt;/h2&gt;, etc. |
+| Image | &lt;img src="{path\_to\_image}"&gt; |
+| Superscript | &lt;sub&gt;...&lt;/sub&gt; |
+| Unordered list (bullets) | &lt;ul&gt;   &lt;li&gt;...&lt;/li&gt;   &lt;li&gt;...&lt;/li&gt;  &lt;/ul&gt; |
+| Ordered list (numbers) | &lt;ol&gt;   &lt;li&gt;...&lt;/li&gt;   &lt;li&gt;...&lt;/li&gt;  &lt;/ol&gt; |
+| Code | &lt;code&gt;...&lt;/code&gt; |
 
 +++
 
@@ -312,61 +248,25 @@ An object is considered included in a frame if it meets its inclusion rule. The
 The yellow symbol in each illustration represents the point or area that needs to be entirely within a frame's bounds for an object to be included in that frame.
 
 +++Nodes
-
-
-Thecenter pointis used.
-
-
-
-
+The <b>center point</b> is used.
 
 Badges, connectors and information displayed below the node are all ignored.
-
-
-
-
 
 Nodes may be of different heights, depending on their number of input or output connectors.
 
+As connectors are displayed or hidden, added or removed, the node's height adjusts from its *center*.
+
+Therefore, the location of a node's center point should not change until it is *deliberately moved*.
 
 
 
-
-As connectors are displayed or hidden, added or removed, the node's height adjusts from itscenter.
-
-
-
-
-
-Therefore, the location of a node's center point should not change until it isdeliberately moved.
-
-
-
-
-
-
-
-Thecenter pointof thehostnode is used.
-
-
-
-
+The <b>c</b><b>enter point</b> of the *host* node is used.
 
 The host node is the node that a node is docked into.
 
-
-
-
-
 If multiple nodes are docked into a chain, the host node of the last docked node is used for the entire chain.
 
-
-
-
-
 Badges, connectors and information displayed below the node are all ignored.
-
-
 
 
 
@@ -375,46 +275,22 @@ Badges, connectors and information displayed below the node are all ignored.
 +++
 
 +++Dot nodes
-
-
-Thecenter pointof the Dot is used.
-
-
-
-
+The <b>center point</b> of the Dot is used.
 
 Connectors, portal icons and names are all ignored.
-
-
 
 
 
 +++
 
 +++Comments
-
-
-Thecenter pointof the comment'sbounding box(yellow outline) is used.
-
-
-
-
+The <b>center point</b> of the comment's *bounding box* (yellow outline) is used.
 
 Parented comments do not follow the inclusion rules for comments.
 
-
-
-
-
-Instead, thecenter pointof theparentnode is used.
-
-
-
-
+Instead, the <b>center point</b> of the *parent* node is used.
 
 Badges, connectors and information displayed below the node are all ignored.
-
-
 
 
 
@@ -425,34 +301,18 @@ Badges, connectors and information displayed below the node are all ignored.
 +++
 
 +++Pins
-
-
-Thetipof the pin icon is used.
-
-
+The <b>tip</b> of the pin icon is used.
 
 
 
 +++
 
 +++Frames
-
-
-Thebounding boxof the nested frame is used.
-
-
-
-
+The <b>bounding box</b> of the nested frame is used.
 
 This means a nested frame must be entirely within another frame's bounds to be included in the latter.
 
-
-
-
-
 The title is ignored.
-
-
 
 
 

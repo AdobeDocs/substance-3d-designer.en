@@ -133,77 +133,42 @@ This also impacts uniform distribution.
 The resulting smoothness value is clamped to the &#91;0;1&#93; range.
 
 +++Points Properties
-
-
-p# PropertiesFloat3Sets the properties of the p# point.- Height:Adjusts the height of the point where a lower value means a lower or deeper location;- Smoothness:Offsets the start of the smoothing of the spline at p#, where a value of 0 results in a hard trajectory and 1 in an entirely smooth one;- Thickness:Adjusts the thickness of the spline at p#. Thickness is used by specific Spline nodes.
-
-
+<b>p&#35; Properties</b> *Float3*Sets the properties of the p# point.  
+*- Height:* Adjusts the height of the point where a lower value means a lower or deeper location;  
+*- Smoothness:* Offsets the start of the smoothing of the spline at p#, where a value of 0 results in a hard trajectory and 1 in an entirely smooth one;  
+*- Thickness:* Adjusts the thickness of the spline at p#. Thickness is used by specific Spline nodes.
 
 +++
 
 +++Points Coordinates
-
-
-p#Float2Sets the position of the p# point in texture space.
-
-
+<b>p&#35;</b> *Float2*Sets the position of the p# point in texture space.
 
 +++
 
 +++Preview
+<b>Show Tangents</b> *Boolean*Displays the tangents of the p1 and p3 points to p2 in the Preview output.
 
+<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
 
-Show TangentsBooleanDisplays the tangents of the p1 and p3 points to p2 in the Preview output.
+<b>Show Thickness Envelope</b> *Boolean*  
+Displays additional lines at the edges of the spline’s thickness.
 
+<b>Show Points Label</b> *Boolean*  
+For each point, displays the point's name next to it in the 'Preview' output.
 
+<b>Points Label Size</b> *Float* (Available when 'Show Points Label' is set to 'True')  
+The size of the label for each point in texture space, where 0.1 is a tenth of the texture's width.
 
+<b>Show Points</b> *Boolean*  
+Displays the control points for the spline.
 
+<b>Points Size</b> *Float* (Available when 'Show Points' is set to 'True')  
+The radius of the points in texture space, where 0.1 is a tenth of the texture's width.
 
-Show Direction HelperBooleanDisplays a dot at the start of the spline and an arrowhead at its end in the Preview output.
+<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
+A higher value results in a smoother line.
 
-
-
-
-
-Show Thickness EnvelopeBooleanDisplays additional lines at the edges of the spline’s thickness.
-
-
-
-
-
-Show Points LabelBooleanFor each point, displays the point's name next to it in the 'Preview' output.
-
-
-
-
-
-Points Label SizeFloat(Available when 'Show Points Label' is set to 'True')The size of the label for each point in texture space, where 0.1 is a tenth of the texture's width.
-
-
-
-
-
-Show PointsBooleanDisplays the control points for the spline.
-
-
-
-
-
-Points SizeFloat(Available when 'Show Points' is set to 'True')The radius of the points in texture space, where 0.1 is a tenth of the texture's width.
-
-
-
-
-
-Segments AmountIntegerAdjusts the number of segments used to draw the spline visualization in the Preview output.A higher value results in a smoother line.
-
-
-
-
-
-Thickness (px)FloatAdjusts the thickness of the spline visualization in pixels in the Preview output.
-
-
+<b>Thickness (px)</b> *Float*Adjusts the thickness of the spline visualization in pixels in the Preview output.
 
 +++
 

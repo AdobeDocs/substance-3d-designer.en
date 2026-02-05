@@ -54,57 +54,33 @@ This combobox lets you filter search results to only retain a specific type of n
 Note that all instance nodes are the *same type* of node – indeed, the 'instance' type – while atomic nodes each are their own type.
 
 +++Node type lists
-
-
 The list is contextual to the current graph type.
 
 
 
+*Node types for compositing graphs*
 
 
 
-
-Node types for compositing graphs
-
-
-
-
-
-
-
-Node types for function graphs
-
-
+*Node types for function graphs*
 
 +++
 
 +++Searching for atomic nodes
 
 
-
-
-Searching for the 'Levels' node type in a Substance graph
-
-
+*Searching for the 'Levels' node type in a Substance graph*
 
 +++
 
 +++Searching for instance nodes
 
 
-
-
-Searching for the 'Instance' node type in a Substance graph
-
+*Searching for the 'Instance' node type in a Substance graph*
 
 
 
-
-
-
-Searching for the 'Instance' node type in a Substance function graph
-
-
+*Searching for the 'Instance' node type in a Substance function graph*
 
 +++
 
@@ -159,22 +135,14 @@ To find nodes, a text query is matched against the node properties listed below.
 </table>
 
 +++Identifier in Explorer
-
-
 Graphs are listed by their identifiers in the Explorer.
-
-
 
 
 
 +++
 
 +++Identifier in instance node's tooltip
-
-
 The tooltip of instance nodes includes the identifier of their referenced graph.
-
-
 
 
 
@@ -200,67 +168,31 @@ The identifier of [exposed parameters](../../../compositing-graphs/manage-parame
 </table>
 
 +++Query suggestions
-
-
 The query field can be expanded to reveal a list of suggestions.
 
+These include [built-in variables](../../../function-graphs/variables/system-variables/system-variables.md) available for the current graph type, as well as the identifiers of the graph's exposed parameters.
 
 
 
-
-These includebuilt-in variablesavailable for the current graph type, as well as the identifiers of the graph's exposed parameters.
-
-
-
-[built-in variables](../../../function-graphs/variables/system-variables/system-variables.md)
+The identifier of exposed parameters can also be copied or edited directly in the [Substance graph properties](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
 
 
-
-
-The identifier of exposed parameters can also be copied or edited directly in theSubstance graph properties.
-
-
-
-[Substance graph properties](../../../compositing-graphs/graph-parameters/graph-parameters.md)
-
-
-
-
-
-Click image to enlarge
-
-
+*Click image to enlarge*
 
 +++
 
 +++Searching a variable from a Console warning/error
-
-
-When a graph has errors or warnings raised by avariableused by a node, go toWindows &gt; Consoleto display the full error/warning message which will include the variable. You may then copy and paste this variable into the Node Finder query field to quickly locate the node causing the issue.
-
-
-
-
+When a graph has errors or warnings raised by a <b>variable</b> used by a node, go to <b>Windows &gt; Console</b> to display the full error/warning message which will include the variable. You may then copy and paste this variable into the Node Finder query field to quickly locate the node causing the issue.
 
 Variables can also be copied directly from the XML data in the SBS file using any text editor.
-
-
 
 
 
 +++
 
 +++Get/Set nodes
-
-
-When searching a variable in a graph – including exposed parameters – the search will highlight all nodes where aGetorSetnode uses that variable in any of the node's parameter functions.
-
-
-
-[Get](../../../function-graphs/nodes-reference-for-fun/get-nodes/get-nodes.md)
-
-[Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)
+When searching a variable in a graph – including exposed parameters – the search will highlight all nodes where a [Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) or [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) node uses that variable in any of the node's parameter functions.
 
 
 
@@ -286,40 +218,20 @@ Each node in a graph has a unique identifier number (UID) that can be used to se
 </table>
 
 +++Copying a node's UID
-
-
 A node's UID can be copied to the clipboard from its contextual menu.
-
-
-
-
 
 The action copies the UID in this format:
 
-
-
-
-
 uid=1234567890
-
-
 
 
 
 +++
 
 +++Searching a node UID from a Console warning/error
-
-
-When a graph has errors or warnings raised by a node, go to Windows &gt; Console to display the full error/warning message which will include the node'sUID. You may then copy and paste this UID into the Node Finder query field to quickly locate the node causing the issue.
-
-
-
-
+When a graph has errors or warnings raised by a node, go to Windows &gt; Console to display the full error/warning message which will include the node's <b>UID</b>. You may then copy and paste this UID into the Node Finder query field to quickly locate the node causing the issue.
 
 Node UIDs can also be copied directly from the XML data in the SBS file using any text editor.
-
-
 
 
 
@@ -363,22 +275,14 @@ This option may be essential when troubleshooting graphs, if you need to find a 
 +++Example 1
 
 
-
-
 An instance node references a graph where multiple nodes match the query.
-
-
 
 +++
 
 +++Example 2
 
 
-
-
 Enabling the 'Recursive search' option highlights the instance node referencing a graph where a Pixel Processor node uses a variable matching the query.
-
-
 
 +++
 

@@ -86,17 +86,9 @@ Please note the Python version number depends on the version of Designer being r
 * Lower than 12.1.0: python3.7
 
 +++Steam launch options
-
-
-Linux users starting Designer from Steam may set theLD_PRELOADcommand in Designer's launch options, as shown below.
-
-
-
-
+Linux users starting Designer from Steam may set the LD\_PRELOAD command in Designer's launch options, as shown below.
 
 Once this is done, Designer may be started from Steam normally for all future sessions.
-
-
 
 
 

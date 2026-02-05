@@ -108,50 +108,28 @@ Generated splines that meet the start or end of the traversed splines are left t
 <b>Uniform Distribution</b> *Boolean*When True, the points of the generated splines are evenly spaced from start to end.
 
 +++Thickness
+<b>Thickness Mode</b> *Integer*The method of acquiring the thickness value for the bridge splines.  
+*- Inherit from parent splines:* The thickness of the parent splines at the start and end positions of the bridge splines is used  
+*- Override:* The arbitrary value you specify in the <b>Thickness</b> parameter is used
 
+<b>Thickness</b> *Float*The absolute thickness value applied to the bridge splines.
 
-Thickness ModeIntegerThe method of acquiring the thickness value for the bridge splines.- Inherit from parent splines:The thickness of the parent splines at the start and end positions of the bridge splines is used- Override:The arbitrary value you specify in theThicknessparameter is used
-
-
-
-
-
-ThicknessFloatThe absolute thickness value applied to the bridge splines.
-
-
-
-
-
-Thickness RandomFloatA random multiplier for the thickness of the bridge splines, where the initial thickness that this multiplier is applied to is specified by theThickness modeparameter.
-
-
+<b>Thickness Random</b> *Float*A random multiplier for the thickness of the bridge splines, where the initial thickness that this multiplier is applied to is specified by the <b>Thickness mode</b> parameter.
 
 +++
 
 +++Height
+<b>Height Mode</b> *Integer*The method of acquiring the height value for the bridge splines.  
+*- Inherit from parent splines:* The height of the parent splines at the start and end positions of the bridge splines is used  
+*- Override:* The arbitrary value you specify in the <b>Height</b> parameter is used
 
+<b>Height Offset</b> *Float*The amount of offset applied to the height inherited from the parent splines, before that height is applied to the bridge splines.
 
-Height ModeIntegerThe method of acquiring the height value for the bridge splines.- Inherit from parent splines:The height of the parent splines at the start and end positions of the bridge splines is used- Override:The arbitrary value you specify in theHeightparameter is used
+<b>Height</b> *Float*The absolute height value applied to the bridge splines.
 
-
-
-
-
-Height OffsetFloatThe amount of offset applied to the height inherited from the parent splines, before that height is applied to the bridge splines.
-
-
-
-
-
-HeightFloatThe absolute height value applied to the bridge splines.
-
-
-
-
-
-Height RandomFloatA random amount of adjustment to the height of the bridge splines, where that adjustment depends on the selectedHeight modeparameter:- Inherit from parent splines:The value is a multiplier for the inherited height.- Override:The value is an offset added to the height.
-
-
+<b>Height Random</b> *Float*A random amount of adjustment to the height of the bridge splines, where that adjustment depends on the selected <b>Height mode</b> parameter:  
+*- Inherit from parent splines:* The value is a multiplier for the inherited height.  
+*- Override:* The value is an offset added to the height.
 
 +++
 
@@ -161,35 +139,17 @@ Adjust the points’ positions and thickness to retain the spline shape in non-s
 This also impacts uniform distribution.
 
 +++Preview
+<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
 
+<b>Show Thickness Envelope</b> *Boolean*  
+Displays additional lines at the edges of the spline’s thickness.
 
-Show Direction HelperBooleanDisplays a dot at the start of the spline and an arrowhead at its end in the Preview output.
+<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
+A higher value results in a smoother line.
 
+<b>Thickness (px)</b> *Float*Adjusts the thickness of the spline visualization in pixels in the Preview output.
 
-
-
-
-Show Thickness EnvelopeBooleanDisplays additional lines at the edges of the spline’s thickness.
-
-
-
-
-
-Segments AmountIntegerAdjusts the number of segments used to draw the spline visualization in the Preview output.A higher value results in a smoother line.
-
-
-
-
-
-Thickness (px)FloatAdjusts the thickness of the spline visualization in pixels in the Preview output.
-
-
-
-
-
-Background Preview IntensityFloatThe intensity of the Preview visualization.
-
-
+<b>Background Preview Intensity</b> *Float*The intensity of the Preview visualization.
 
 +++
 

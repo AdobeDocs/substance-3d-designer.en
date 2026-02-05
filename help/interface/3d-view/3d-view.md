@@ -205,461 +205,179 @@ To export the 3D View mesh, go to <b>Scene &gt; Export tessellated mesh...</b>,
 The menu bar provides 7 menus with options related to the 3D View. below is an overview of all options available.
 
 +++Scene
-
-
-TheScenemenu deals with the geometry (3D Resource) shown and with 3D view states. 3D Resource sare just the mesh, Scene states are lights, camera, and related settings, and can also contain the mesh alongside.
-
+The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D view states. 3D Resource sare just the mesh, Scene states are lights, camera, and related settings, and can also contain the mesh alongside.
 
 
 
+<b>Edit: </b>Loads scene options in the [Properties](../properties/properties.md) panel. Lets you toggle visibility of the 3D Mesh.
 
-
-
-Edit:Loads scene options in thePropertiespanel. Lets you toggle visibility of the 3D Mesh.
-
-
-
-[Properties](../properties/properties.md)
-
-
-
-Standard primitives:Shows any of the below simple 3D meshes in the 3D View.
-
-
+<b>Standard primitives:</b> Shows any of the below simple 3D meshes in the 3D View.
 
 * Cube
 
-
 * Cylinder
-
 
 * Hollow Box
 
-
 * Inner Box
-
 
 * Plane
 
-
 * Plane (hi-res)
-
 
 * Sphere
 
-
-
-
-Extended primitives:Shows any of the below 3D meshes in the 3D View.
-
-
+<b>Extended primitives:</b> Shows any of the below 3D meshes in the 3D View.
 
 * Cloth
 
-
 * Mat Ball
-
 
 * Rounded Cube
 
-
 * Rounded Cylinder
-
 
 * Sphere 2 tiles
 
-
 * Torus
 
+<b>Display UV&#39;s in 2D View:</b> Enables the display of the UVs for the as an overlay in [the 2D View](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
 
+<b>Create 3D resource from current scene...:</b> Creates a new [3D scene resource](../../resources/3d-scene-resource/3d-scene-resource.md) in a package out of the current scene.
 
+<b>Load state file...: </b>Loads an externally saved [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Does not replace the 3D mesh, only loads settings for 3D renderer, camera and lights.
 
-Display UV's in 2D View:Enables the display of the UVs for the  as an overlay inthe 2D View.
+<b>Load state file with mesh...:</b> Loads an externally saved [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Loads settings for 3D renderer, camera, lights, along with its references 3D scene. .
 
+<b>Save state file...: </b>Save the current state of the 3D view to a [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
 
+<b>Save current state as default: </b>Set the current state of the 3D view as as a [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) to be used by default when creating new 3D Views. This file is loaded every time the 3D view is reset or intialised, and can be set in the [Project settings](../preferences-window/project-settings/project-settings.md).
 
-[the 2D View](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>Export scene:</b> *(Rasterizer/GPU Pathtracer renderers only)* Exports the current scene as a [flattened scene](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), where only the result scene is written and any references to the original scene are lost. The contents of the exported scene depend on the features supported by the selected export format.  
+Available formats: STL, FBX, GLB, GLTF, PLY, USDC, USD, USDA, USDZ, OBJ.
 
+<b>Export scene with layers:</b> *(Rasterizer/GPU Pathtracer renderers only)*Exports the current scene as a [layered scene](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), where all edits to the original scene are saved to separate files in a non-destructive workflow. This is only available for USD file formats.  
+Available formats are: USDC, USD, USDA.
 
+<b>Export tessellated geometry:</b> *(OpenGL renderer only)* Exports the current scene with tessellation as raw geometry, see section.
 
-Create 3D resource from current scene...:Creates a new3D scene resourcein a package out of the current scene.
-
-
-
-[3D scene resource](../../resources/3d-scene-resource/3d-scene-resource.md)
-
-
-
-Load state file...:Loads an externally savedscene state file(*.sbsscn). Does not replace the 3D mesh, only loads settings for 3D renderer, camera and lights.
-
-
-
-[scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md)
-
-
-
-Load state file with mesh...:Loads an externally savedscene state file(*.sbsscn). Loads settings for 3D renderer, camera, lights, along with its references 3D scene. .
-
-
-
-[scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md)
-
-
-
-Save state file...:Save the current state of the 3D view to ascene state file(*.sbsscn).
-
-
-
-[scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md)
-
-
-
-Save current state as default:Set the current state of the 3D view as as ascene state fileto be used by default when creating new 3D Views. This file is loaded every time the 3D view is reset or intialised, and can be set in theProject settings.
-
-
-
-[scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md)
-
-[Project settings](../preferences-window/project-settings/project-settings.md)
-
-
-
-Export scene:(Rasterizer/GPU Pathtracer renderers only)Exports the current scene as aflattened scene, where only the result scene is written and any references to the original scene are lost. The contents of the exported scene depend on the features supported by the selected export format.Available formats: STL, FBX, GLB, GLTF, PLY, USDC, USD, USDA, USDZ, OBJ.
-
-
-
-[flattened scene](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
-
-
-
-Export scene with layers:(Rasterizer/GPU Pathtracer renderers only)Exports the current scene as alayered scene, where all edits to the original scene are saved to separate files in a non-destructive workflow. This is only available for USD file formats.Available formats are: USDC, USD, USDA.
-
-
-
-[layered scene](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
-
-
-
-Export tessellated geometry:(OpenGL renderer only)Exports the current scene with tessellation as raw geometry, see  section.
-
-
-
-
-
-Reset scene:Resets the 3D view to default.
-
-
-
-
+<b>Reset scene: </b>Resets the 3D view to default.
 
 Some software updates can change the way Scene state files are saved/loaded.
 
-
-
-
-
-If the scene isnot restored correctlyfrom the file, it is recommended to manually set the desired state of the scene, andreexportthe Scene state file.
-
-
+If the scene is *not restored correctly* from the file, it is recommended to manually set the desired state of the scene, and *reexport* the Scene state file.
 
 +++
 
 +++Materials
+The <b>Materials</b> menu changes based on the 3D mesh loaded and the renderer used. [For Iray rendering, see the Iray page.](iray/iray.md)
 
+The 'Materials' menu features a list of all materials assigned to a mesh in the scene. Each material listed in the 'Materials' menu has a submenu of material actions:
 
-TheMaterialsmenu changes based on the 3D mesh loaded and the renderer used.For Iray rendering, see the Iray page.
+<b>Edit</b> - Edit settings of the current material in the Properties window.
 
+<b>Shaders list</b> - All [shaders](../../glossary/glossary.md) available for the current [3D renderer](3d-renderers/3d-renderers.md).
 
+<b>Load Definition...: </b>(OpenGL renderer only) Lets you load your own custom [GLSLFX shader.](glslfx-shaders/glslfx-shaders.md) The shader is added into the list above.
 
-[For Iray rendering, see the Iray page.](iray/iray.md)
+<b>Reset common parameters:</b> Resets all parameters that are common across shaders. For instance, when switching between the OpenGL and Iray renderers, several parameter values in the [Adobe Standard Material](https://helpx.adobe.com/substance-3d-general/adobe-standard-material.html) are carried across.
 
+<b>Rename:</b> Change the label for this material.
 
+<b>Reset material:</b> Resets all shader parameters to their default values. If textures are connected to any of the shader's samplers, they are disconnected.
 
+<b>Reset material to scene state: </b>*(Rasterizer/GPU Pathtracer renderers only)* Resets all properties for [overridden materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) to their original values from the scene, including original textures if any.
 
-
-The 'Materials' menu features a list of all materials assigned to a mesh in the scene.Each material listed in the 'Materials' menu has a submenu of material actions:
-
-
-
-
-
-Edit- Edit settings of the current material in the Properties window.
-
-
-
-
-
-Shaders list- Allshadersavailable for the current3D renderer.
-
-
-
-[shaders](../../glossary/glossary.md)
-
-[3D renderer](3d-renderers/3d-renderers.md)
-
-
-
-Load Definition...:(OpenGL renderer only) Lets you load your own customGLSLFX shader.The shader is added into the list above.
-
-
-
-[GLSLFX shader.](glslfx-shaders/glslfx-shaders.md)
-
-
-
-Reset common parameters:Resets all parameters that are common across shaders. For instance, when switching between the OpenGL and Iray renderers, several parameter values in theAdobe Standard Materialare carried across.
-
-
-
-[Adobe Standard Material](https://helpx.adobe.com/substance-3d-general/adobe-standard-material.html)
-
-
-
-Rename:Change the label for this material.
-
-
-
-
-
-Reset material:Resets all shader parameters to their default values. If textures are connected to any of the shader's samplers, they are disconnected.
-
-
-
-
-
-Reset material to scene state:(Rasterizer/GPU Pathtracer renderers only)Resets all properties foroverridden materialsto their original values from the scene, including original textures if any.
-
-
-
-[overridden materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
-
-
-
-Add:Adds a new material to the list. It is unused by default and may beconnected to a scene materialusing theScene browser.
-
-
-
-[connected to a scene material](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
-
-[Scene browser](scene-browser/scene-browser.md)
+<b>Add: </b>Adds a new material to the list. It is unused by default and may be [connected to a scene material](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) using the [Scene browser](scene-browser/scene-browser.md).
 
 +++
 
 +++Lights
+The <b>Lights</b> menu only deals with older, legacy ambient and point lights. These lights are not PBR-compliant and do not give the same high-quality results as HDR image based rendering.
 
+<b>Edit:</b> edit individual settings for the ambient light and the two point lights.
 
-TheLightsmenu only deals with older, legacy ambient and point lights. These lights are not PBR-compliant and do not give the same high-quality results as HDR image based rendering.
-
-
-
-
-
-Edit:edit individual settings for the ambient light and the two point lights.
-
-
-
-
-
-Reset Lights:resets light properties to default state.
-
-
+<b>Reset Lights:</b> resets light properties to default state.
 
 +++
 
 +++Camera
+The <b>Camera</b> menu lets you change camera settings, go to predefined angles, and load Camera angles stored inside a custom 3D mesh file.
 
+<b>Edit properties:</b> opens the default camera's settings in the Properties dock.
 
-TheCameramenu lets you change camera settings, go to predefined angles, and load Camera angles stored inside a custom 3D mesh file.
+<b>Focus: </b>(F) Focuses the default camera on the currently selected mesh. I.e., frames the mesh and aligns the camera pivot to it. If there is no active selection, the scene's global bounding box is used.
 
+<b>Scene cameras:</b> If the scenes includes one or more cameras, they are listed here and their settings are used as presets to be applied to the scene's default camera.
 
-
-
-
-Edit properties:opens the default camera's settings in the Properties dock.
-
-
-
-
-
-Focus:(F) Focuses the default camera on the currently selected mesh. I.e., frames the mesh and aligns the camera pivot to it. If there is no active selection, the scene's global bounding box is used.
-
-
-
-
-
-Scene cameras:If the scenes includes one or more cameras, they are listed here and their settings are used as presets to be applied to the scene's default camera.
-
-
-
-
-
-Viewpoints:Preconfigured point of views for the default camera. These only impact the camera's transformation (position and rotation).
-
-
+<b>Viewpoints:</b> Preconfigured point of views for the default camera. These only impact the camera's transformation (position and rotation).
 
 * Default: A high-angle shot from the objects' front left.
 
-
 * Back
-
 
 * Bottom
 
-
 * Front
-
 
 * Left
 
-
 * Right
-
 
 * Top
 
+<b>Save render...:</b> (Alt+S) Saves the currently rendered image to disk, at the resolution specified in the renderer properties, or default camera's properties if an overriding resolution was set up.
 
+<b>Copy render to clipboard:</b> (Alt+C) Copies the currently rendered image to the clipboard, for pasting in an external image editor.
 
+<b>Reset position:</b> (R) Resets the position of the camera.
 
-Save render...:(Alt+S) Saves the currently rendered image to disk, at the resolution specified in the renderer properties, or default camera's properties if an overriding resolution was set up.
-
-
-
-
-
-Copy render to clipboard:(Alt+C) Copies the currently rendered image to the clipboard, for pasting in an external image editor.
-
-
-
-
-
-Reset position:(R) Resets the position of the camera.
-
-
-
-
-
-Reset selected:(Shift+R) Resets the position and properties of the camera.
-
-
+<b>Reset selected:</b> (Shift+R) Resets the position and properties of the camera.
 
 +++
 
 +++Environment
+The <b>Environment</b> menu lets you modify the settings related to the HDRI environment used to light PBR correct materials.
 
+<b>Edit properties:</b> Gives access to the HDR environment settings, used for lighting in PBR. Specifically you can toggle visiblity, change exposure with a preview, and set rotation with a precise slider..
 
-TheEnvironmentmenu lets you modify the settings related to the HDRI environment used to light PBR correct materials.
-
-
-
-
-
-Edit properties:Gives access to the HDR environment settings, used for lighting in PBR. Specifically you can toggle visiblity, change exposure with a preview, and set rotation with a precise slider..
-
-
-
-
-
-Reset environment:Resets all environment properties to default.
-
-
+<b>Reset environment:</b> Resets all environment properties to default.
 
 +++
 
 +++Display
-
-
 The display menu lets you toggle view modes, helpers and information for the rendered scene:
 
+<b>Axis:</b> Toggles display of the 3D axis in the viewport.
 
+<b>Grid:</b> Toggles display of the world frid.
 
+<b>Resolution:</b> Toggles the display of a small resolution counter.
 
+<b>Scene stats:</b> Toggles the display of scene statistics, such as polycount, materials count, static meshes count, etc.
 
-Axis:Toggles display of the 3D axis in the viewport.
+<b>Render time:</b> The time to compute one sample for the full image.
 
+<b>Samples:</b> The amount of pixel samples computed for accumulation antialiasing (Rasterizer) or pathtracing (GPU pathtracer).
 
+<b>Backface culling:</b> disabling this option lets you see a mesh face from *both sides*. The option works in combination with Wireframe
 
+<b>Bounding box:</b> toggles display of the mesh' bounding box.
 
+<b>Wireframe:</b> toggles display of the mesh wireframe.
 
-Grid:Toggles display of the world frid.
+<b>Light:</b> toggles display of helper lines for the point lights.
 
-
-
-
-
-Resolution:Toggles the display of a small resolution counter.
-
-
-
-
-
-Scene stats:Toggles the display of scene statistics, such as polycount, materials count, static meshes count, etc.
-
-
-
-
-
-Render time:The time to compute one sample for the full image.
-
-
-
-
-
-Samples:The amount of pixel samples computed for accumulation antialiasing (Rasterizer) or pathtracing (GPU pathtracer).
-
-
-
-
-
-Backface culling:disabling this option lets you see a mesh face fromboth sides. The option works in combination with Wireframe
-
-
-
-
-
-Bounding box:toggles display of the mesh' bounding box.
-
-
-
-
-
-Wireframe:toggles display of the mesh wireframe.
-
-
-
-
-
-Light:toggles display of helper lines for the point lights.
-
-
-
-
-
-Vertex tangent space:displays the tangent, binormal and normal vectors for all vertices as colored gizmos
-
-
-
-
+<b>Vertex tangent space:</b> displays the tangent, binormal and normal vectors for all vertices as colored gizmos
 
 Some of these options are available as button toggles in the .
-
-
 
 +++
 
 +++Renderer
+The <b>Renderer</b> menu lets you switch 3D renderers and access the properties of the current 3D renderer through the <b>Edit properties</b> action.
 
-
-TheRenderermenu lets you switch 3D renderers and access the properties of the current 3D renderer through theEdit propertiesaction.
-
-
-
-
-
-The available renderers and their settings are documented inthis dedicated page.
-
-
-
-[this dedicated page](3d-renderers/3d-renderers.md)
+The available renderers and their settings are documented in [this dedicated page](3d-renderers/3d-renderers.md).
 
 +++
 

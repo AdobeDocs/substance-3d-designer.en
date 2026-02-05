@@ -19,119 +19,51 @@ Filesize is mostly determined by [embedded bitmaps.](../../resources/bitmap-reso
 There are a few different factors affecting total filesize of the [SBSAR](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). They are listed below with an short explanation.
 
 +++Resolution
-
-
 Obviously has a large effect. Use the smallest resolution possible, keeping mind that you might also want your Substance file to work in large resolutions. You can use standard resolution-masking tricks to make smaller Bitmaps seem larger.
 
-
-
-
-
-Found in: external software, or import/re-export bitmap in Designer.
-
-
+*Found in: external software, or import/re-export bitmap in Designer.*
 
 +++
 
 +++File color mode
-
-
 Set in your Image Editor before export, the color mode also has an effect on filesize when using Raw bitmap format. Grayscale only bitmaps are smaller than RGB(A) images.
 
-
-
-
-
-Found in: external software, or import/re-export bitmap in Designer while setting upOutput nodescorrectly.
-
-
-
-[Output nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+*Found in: external software, or import/re-export bitmap in Designer while setting up [Output nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) correctly.*
 
 +++
 
 +++File format
-
-
 The file format of your images makes a difference, though it can be ignored in some cases. A program like Photoshop allows for slightly more control over JPG compression and can sometimes offer a decent middle road.
 
-
-
-
-
-Found in: external software, or import/re-export bitmap in Designer.
-
-
+*Found in: external software, or import/re-export bitmap in Designer.*
 
 +++
 
 +++Usage in graph
-
-
 What mode you set the Bitmap node to also has an effect on how Designer will compress the file, using a Grayscale mode file as a color bitmap in the graph will result in larger files. Make sure to set these correctly!
 
-
-
-
-
-Found in:Bitmap Node properties.
-
-
-
-[Bitmap Node properties.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
+*Found in:[ Bitmap Node properties.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)*
 
 +++
 
 +++Bitmap format in package
-
-
 On the Resource properties you can choose between "Raw" and "Jpeg" compression. This can have considerable effect on the final result.
 
-
-
-
-
-Found in: Bitmap ResourceProperties, throughExplorer window.
-
-
-
-[Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
-
-[Explorer window.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+*Found in: Bitmap Resource [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), through [Explorer window.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
 
 +++
 
 +++Bitmap compression quality in package
-
-
 When using "Jpeg" Bitmap format, the slider below can affect quality and filesize. This slider does not behave very predictable, but 1 tends to correspond to the highest quality JPG compression, and 0.5 tends to give the smallest size.
 
-
-
-
-
-Found in: Bitmap ResourceProperties, throughExplorer window.
-
-
-
-[Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
-
-[Explorer window.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+*Found in: Bitmap Resource [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), through [Explorer window.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
 
 +++
 
 +++Compression mode on publish
-
-
 When publishing to SBSAR, you have a choice between "Auto", "Best" and "None" for compressing, these can make a considerable difference if you are using the "Raw" bitmap format. Also has a large impact on export speed. Generally not recommended to use "none as it offers no quality increase.
 
-
-
-
-
-Found in: final publishing settings for an SBSAR package.
-
-
+*Found in: final publishing settings for an SBSAR package.*
 
 +++
 

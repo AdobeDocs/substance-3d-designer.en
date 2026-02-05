@@ -38,64 +38,34 @@ Positions out of this range are handled according to the selected <b>Addressing 
 ## Parameters
 
 +++Input image
-
-
 Lets you select which node input to use for sampling.
-
-
-
-
 
 The list adapts dynamically to the currently connected inputs. This means entries are added as you connect node inputs.
 
-
-
-
-
-The numbering of the inputs starts at 0, so that an image connected to the node's first input is listed asInput image 0.
-
-
+The numbering of the inputs starts at 0, so that an image connected to the node's first input is listed as *Input image 0*.
 
 +++
 
 +++Filtering mode
-
-
 Lets you define how to handle interpolation when pixels from the sampled image do not map exactly to the output image, because of resolution differences.
 
+<b>Nearest</b>  
+The pixel will be mapped to the target *as-is* at the matching coordinate. If the target is of lower resolution the pixel may be entirely ignored. If the target is of higher resolution; it will be mapped to all pixels covering its span. The output is *crisper* and will look slightly *aliased*.
 
-
-
-
-NearestThe pixel will be mapped to the targetas-isat the matching coordinate. If the target is of lower resolution the pixel may be entirely ignored. If the target is of higher resolution; it will be mapped to all pixels covering its span. The output iscrisperand will look slightlyaliased.
-
-
-
-
-
-Bilinear filteringA filtering process is applied to the source image so its pixels are mapped to the target resolution in a way thatsmooths outthe transitions between pixels. The output issmootherand will look slightlyblurred.
-
-
+<b>Bilinear filtering</b>  
+A filtering process is applied to the source image so its pixels are mapped to the target resolution in a way that *smooths out* the transitions between pixels. The output is *smoother* and will look slightly *blurred*.
 
 +++
 
 +++Addressing mode
+Controls how position values outside of the [0;1] range are handled.
 
+<b>Repeat</b>  
+Loops over the [0;1] range as the value increases.  
+E.g.: 3.4 is 0.4, -1.7 is 0.3.
 
-Controls how position values outside of the &#91;0;1&#93; range are handled.
-
-
-
-
-
-RepeatLoops over the &#91;0;1&#93; range as the value increases.E.g.: 3.4 is 0.4, -1.7 is 0.3.
-
-
-
-
-
-Clamp to EdgeClamps values out of to the &#91;0;1&#93; range to its closest limit.E.g.: .3.4 is 1, -1.7 is 0.
-
-
+<b>Clamp to Edge</b>  
+Clamps values out of to the [0;1] range to its closest limit.  
+E.g.: .3.4 is 1, -1.7 is 0.
 
 +++
