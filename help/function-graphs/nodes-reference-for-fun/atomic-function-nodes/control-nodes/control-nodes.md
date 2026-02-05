@@ -25,7 +25,7 @@ Similarly to programming langages, the If... Else node introduces the possibilit
 </tr>
 </table>
 
-You will use this node in conjunction with the[ Logical nodes](../../logical-nodes/logical-nodes.md) and the [Comparison nodes](../../comparison-nodes/comparison-nodes.md) that will help you build the condition to check.
+You will use this node in conjunction with the[ Logical nodes](../../logical-nodes/logical-nodes.md) and the [Comparison nodes](../comparison-nodes/comparison-nodes.md) that will help you build the condition to check.
 
 +++Input connectors
 

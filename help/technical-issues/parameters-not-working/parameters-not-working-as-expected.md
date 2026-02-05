@@ -39,4 +39,4 @@ A Substance function graph applied to a node parameter does not output the expec
 
 <b>!&#91;(tick)&#93;(check.svg) Recommended steps</b>
 
-Negative integers are currently not properly supported. As a workaround, use the negative integer value in an [Integer2](../../function-graphs/nodes-reference-for-fun/constant-nodes/constant-nodes.md) value and extract it using a [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md) node.
+Negative integers are currently not properly supported. As a workaround, use the negative integer value in an [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) value and extract it using a [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md) node.

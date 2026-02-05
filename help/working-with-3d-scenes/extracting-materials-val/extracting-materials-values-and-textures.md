@@ -142,7 +142,7 @@ The ‘Extract value to graph’ action creates a new [Value processor](../../co
 A few things happen when using this action:
 
 * In the selected graph, a [Value processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) node is created for that property value and automatically connected to an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node configured after that material property.
-* In the Value processor node’s [Substance function graph](../../function-graphs/function-graphs.md), a [constant node](../../function-graphs/nodes-reference-for-fun/constant-nodes/constant-nodes.md) matching the value type is created, set to the extracted value as set as the graph’s output.
+* In the Value processor node’s [Substance function graph](../../function-graphs/function-graphs.md), a [constant node](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) matching the value type is created, set to the extracted value as set as the graph’s output.
 
 If an Output configured for the material property *already exists* in the graph, then *no nodes are created*.
 

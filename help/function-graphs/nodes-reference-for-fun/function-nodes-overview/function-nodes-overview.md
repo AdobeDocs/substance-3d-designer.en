@@ -78,7 +78,7 @@ Lila
 
 | Element | Type | Input | Output | Description |
 | --- | --- | --- | --- | --- |
-| [Constant](../constant-nodes/constant-nodes.md) | Float | - | Float | Defines a constant floating value, eg 0.1 |
+| [Constant](../atomic-function-nodes/constant-nodes/constant-nodes.md) | Float | - | Float | Defines a constant floating value, eg 0.1 |
 |  | Float2 | - | Float2 | Defines a constant vector of 2 floating values, eg (0.1, 0.2) |
 |  | Float3 | - | Float3 | Defines a constant vector of 3 floating values, eg (0.1, 0.2, 0.3) |
 |  | Float4 | - | Float4 | Defines a constant vector of 4 floating values, eg (0.1, 0.2, 0.3, 0.4) |
@@ -88,7 +88,7 @@ Lila
 |  | Integer4 | - | Integer4 | Defines a constant vector of 4 integer values, eg (1, 2, 3 ,4) |
 |  | Boolean | - | Boolean | Defines a constant boolean value, eg True, or False |
 |  | String | - | String | Defines a constant String value, eg "Substance" |
-| [Vector](../vector-and-swizzle-nodes/vector-and-swizzle-nodes.md) | Vector Float2 | Float1 | Float 2 | Casts 2 floating values in a vector with 2 coordinates |
+| [Vector](../atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md) | Vector Float2 | Float1 | Float 2 | Casts 2 floating values in a vector with 2 coordinates |
 |  | Vector Float3 | Float1 / Float2 | Float 3 | Casts 2 floating values in a vector with 3 coordinates |
 |  | Vector Float4 | Float1 / 2 / 3 | Float 4 | Casts 2 floating values in a vector with 4 coordinates |
 |  | Swizzle Float1 | Vector Float | Float1 | Extracts a floating coordinate from a vector |
@@ -122,7 +122,7 @@ Lila
 |  | To Integer2 | Float2 | Integer2 | Converts a Float2 in an Integer2 |
 |  | To Integer3 | Float3 | Integer3 | Converts a Float3 in an Integer3 |
 |  | To Integer4 | Float4 | Integer4 | Converts a Float4 in an Integer4 |
-| [Operator](../operator-nodes/operator-nodes.md) | Add | Vector Float / Integer | Type of a &amp; b | Adds 2 values of the same type: a + b |
+| [Operator](../atomic-function-nodes/operator-nodes/operator-nodes.md) | Add | Vector Float / Integer | Type of a &amp; b | Adds 2 values of the same type: a + b |
 |  | Subtraction | Vector Float / Integer | Type of a &amp; b | Subtracts 2 values of the same type: a - b |
 |  | Multiplication | Vector Float / Integer | Type of a &amp; b | Multiplies 2 values of the same type: a \* b |
 |  | Scalar Multiplication | Vector Float | Type of a | Multiplies a value by a floating value: a \* scalar |
@@ -130,16 +130,16 @@ Lila
 |  | Negation | Float1 / Integer1 | Type of a | Returns the negation value: -a |
 |  | Modulo | Float1 / Integer1 | Type of a | Returns the modulo value: mod(a, divisor) |
 |  | Dot Product | Vector Float | Type of a &amp; b | Returns the dot product of 2 values of the same type: dot(a, b) |
-| [Logical](../logical-nodes/logical-nodes.md) | And | Boolean | Boolean | Returns true if the 2 boolean entries are true. Returns false if one the entry is false. |
+| [Logical](../atomic-function-nodes/logical-nodes/logical-nodes.md) | And | Boolean | Boolean | Returns true if the 2 boolean entries are true. Returns false if one the entry is false. |
 |  | Or | Boolean | Boolean | Returns true if 1 of the boolean entries is true. Returns false if they are both false. |
 |  | Not | Boolean | Boolean | Returns the negation boolean of the entry: !a |
-| [Comparison](../comparison-nodes/comparison-nodes.md) | Equal | Float1 / Integer1 | Boolean | Returns true if a = b |
+| [Comparison](../atomic-function-nodes/comparison-nodes/comparison-nodes.md) | Equal | Float1 / Integer1 | Boolean | Returns true if a = b |
 |  | Not Equal | Float1 / Integer1 | Boolean | Returns true if a != b |
 |  | Greater | Float1 / Integer1 | Boolean | Returns true if a &gt; b |
 |  | Greater or Equal | Float1 / Integer1 | Boolean | Returns true if a &gt;= b |
 |  | Lower | Float1 / Integer1 | Boolean | Returns true if a &lt; b |
 |  | Lower or Equal | Float1 / Integer1 | Boolean | Returns true if a &lt;= b |
-| [Function](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/function-nodes-reference-129368124.html) | Absolute | Float1 / Integer1 | Float1 | Returns the absolute value of a: abs(a) |
+| Function | Absolute | Float1 / Integer1 | Float1 | Returns the absolute value of a: abs(a) |
 |  | Floor | Float1 / Integer1 | Float1 | Returns the highest value lower or equal to a: floor(a) |
 |  | Ceil | Float1 / Integer1 | Float1 | Returns the smallest value upper or equal to a: ceil(a) |
 |  | Cosine | Float1 / Integer1 | Float1 | Returns the cosine value of a: cos(a) |
@@ -155,5 +155,5 @@ Lila
 |  | Minimum | Float1 / Integer1 | Type of a &amp; b | Returns the minimum value between a and b |
 |  | Maximum | Float1 / Integer1 | Type of a &amp; b | Returns the maximum value between a and b |
 | Random |  | Float1 | Float1 | Generates a floating value between 0 and a |
-| [Control](../control-nodes/control-nodes.md) | Sequence | any | Type of input | Allows to choose which value to compute first between 2 values. |
+| [Control](../atomic-function-nodes/control-nodes/control-nodes.md) | Sequence | any | Type of input | Allows to choose which value to compute first between 2 values. |
 |  | If...Else | Boolean / a &amp; b | Type of a &amp; b | Returns true if the condition in If is true. Returns false if it's false. |

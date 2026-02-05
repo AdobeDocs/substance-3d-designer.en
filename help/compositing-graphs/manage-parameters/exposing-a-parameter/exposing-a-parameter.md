@@ -165,7 +165,7 @@ All exposed Parameters are listed under the Input Parameters tab. The following 
 1. <b>Clamp</b>: Set wether Min and Max are soft or hard limits (allow the user to go past the limits).
 1. <b>Step</b>:Set the precison or granularity of the value.
 1. <b>User Data: </b>Custom user data, available for any purpose.
-1. <b>Visible If</b>: Special expression system to show or hide parameters based on external conditions. See [Visible if: control visibility of inputs, outputs and parameters](../../exposing-a-parameter/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
+1. <b>Visible If</b>: Special expression system to show or hide parameters based on external conditions. See [Visible if: control visibility of inputs, outputs and parameters](../../visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
 
 ![Drop down list editor for Integer parameter](dropdown.gif "Drop down list editor for Integer parameter"){width="512px"}
 
