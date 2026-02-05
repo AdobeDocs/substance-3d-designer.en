@@ -61,6 +61,7 @@ The <b>Attributes</b> section contains *metadata* for the graph, which provides 
 </table>
 
 +++List of attributes
+
 |  |  |
 | --- | --- |
 | <b>Identifier</b> | This is the name of the graph, and must be *unique* – you cannot have two or more graphs with the same <b>Identifier</b> in the same package. It is used as the graph's *name* in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel.  **Note:**  The identifier *cannot be an empty string*. Empty strings are automatically replaced by `_` or `Substance_graph`. You can use *only* the following characters for this value: *`A-Z, 1-9, @$%[{]}_-`.* Unauthorised characters are automatically replaced by `_`.  *Default: New\_Graph, or set by user at graph creation* |
@@ -79,6 +80,7 @@ The <b>Attributes</b> section contains *metadata* for the graph, which provides 
 | <b>Group</b> | Enables the grouping of items in the Node menu. Resources such as graphs or bitmaps sharing a common 'Group' value are grouped together in a section named after the group. *Default: Empty* |
 | <b>User data</b> | You can use this field to add your own additional data. This is useful for custom integrations in third-party software. Substance 3D Painter and Sampler make use of this userdata to set certain specific behaviours.*Default: Empty* |
 | <b>Template data    </b> | When a Substance graph is used as template, this attributes sets the [template's category and subtitle](../creating-compositing-gra/creating-a-substance-compositing-graph.md). They are separated thusly: &lt;category&gt;;&lt;subtitle&gt;       *Default: Empty* |
+
 
 +++
 

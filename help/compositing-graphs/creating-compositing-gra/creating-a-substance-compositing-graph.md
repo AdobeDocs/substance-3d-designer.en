@@ -194,17 +194,23 @@ The filtering performed by the selected category and project file is applied in 
 </table>
 
 +++View modes
+![New Substance graph dialog - Thumbnails view](newGraphDialog-viewMode-thumbnails.png "New Substance graph dialog - Thumbnails view"){zoomable="yes"}
+
 
 
 <b>Thumbnails</b>
 
 Cards with thumbnails providing a preview or icon of the template type.
 
+![New Substance graph dialog - List view](newGraphDialog-viewMode-list.png "New Substance graph dialog - List view"){zoomable="yes"}
+
 
 
 <b>List</b>
 
 Templates are listed by their label only.
+
+![New Substance graph dialog - Packages view](newGraphDialog-viewMode-packages.png "New Substance graph dialog - Packages view"){zoomable="yes"}
 
 
 
@@ -213,6 +219,8 @@ Templates are listed by their label only.
 Templates are listed by their label as children of the package file they belong to.
 
 Hover a package file item to display a tooltip with its full path.
+
+![New Substance graph dialog - Directories view](newGraphDialog-viewMode-directories.png "New Substance graph dialog - Directories view"){zoomable="yes"}
 
 
 

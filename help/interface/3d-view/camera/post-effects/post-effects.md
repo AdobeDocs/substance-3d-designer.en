@@ -63,6 +63,10 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
+![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+
+![PostFXReinhard](PostFXReinhard.jpg "PostFXReinhard")
+
 +++
 
 +++Atan
@@ -82,6 +86,10 @@ This lets you improve color consistency between applications. For instance, the 
 </table>
 
 
+
+![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+
+![PostFXAtan](PostFXAtan.jpg "PostFXAtan")
 
 +++
 
@@ -103,6 +111,10 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
+![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+
+![PostFXExp](PostFXExp.jpg "PostFXExp")
+
 +++
 
 +++Log
@@ -122,6 +134,10 @@ This lets you improve color consistency between applications. For instance, the 
 </table>
 
 
+
+![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+
+![PostFXLog](PostFXLog.jpg "PostFXLog")
 
 +++
 
@@ -143,6 +159,10 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
+![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+
+![PostFXAces](PostFXAces.jpg "PostFXAces")
+
 +++
 
 +++Hejl
@@ -162,6 +182,10 @@ This lets you improve color consistency between applications. For instance, the 
 </table>
 
 
+
+![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+
+![PostFXHejl](PostFXHejl.jpg "PostFXHejl")
 
 +++
 
@@ -183,6 +207,10 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
+![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+
+![PostFXNeutral](PostFXNeutral.jpg "PostFXNeutral")
+
 +++
 
 +++Agx
@@ -203,6 +231,10 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
+![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+
+![PostFXAgx](PostFXAgx.jpg "PostFXAgx")
+
 +++
 
 +++Pbr neutral
@@ -222,6 +254,10 @@ This lets you improve color consistency between applications. For instance, the 
 </table>
 
 
+
+![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+
+![PostFXPbrNeutral](PostFXPbrNeutral.jpg "PostFXPbrNeutral")
 
 +++
 
@@ -253,6 +289,10 @@ The luminance value above which bloom should be visible.
 
 
 
+![bloomThreshold1](bloomThreshold1.jpg "bloomThreshold1")
+
+![bloomThreshold4](bloomThreshold4.jpg "bloomThreshold4")
+
 +++
 
 +++Falloff
@@ -276,6 +316,10 @@ The bloom attenuation ramp, where a lower value results in a shorter bloom radiu
 </table>
 
 
+
+![bloomFalloff1](bloomFalloff1.jpg "bloomFalloff1")
+
+![bloomFalloff0-6](bloomFalloff0-6.jpg "bloomFalloff0-6")
 
 +++
 
@@ -301,6 +345,10 @@ The intensity of the bloom. A higher value results in brighter, more pronounced 
 
 
 
+![bloomLevel8](bloomLevel8.jpg "bloomLevel8")
+
+![bloomLevel2](bloomLevel2.jpg "bloomLevel2")
+
 +++
 
 +++Color shift
@@ -324,6 +372,10 @@ Offsets the hue of the areas affected by the bloom towards warmer colors.
 </table>
 
 
+
+![bloomColorShift0](bloomColorShift0.jpg "bloomColorShift0")
+
+![bloomColorShift0-8](bloomColorShift0-8.jpg "bloomColorShift0-8")
 
 +++
 
@@ -359,6 +411,10 @@ The maximum radius of the blurring effect.
 
 
 
+![depthOfFieldMaxRadius32](depthOfFieldMaxRadius32.jpg "depthOfFieldMaxRadius32")
+
+![depthOfFieldMaxRadius4](depthOfFieldMaxRadius4.jpg "depthOfFieldMaxRadius4")
+
 +++
 
 +++Composite strength
@@ -382,6 +438,10 @@ The magnitude of the blurring effect from the focus distance outward.
 </table>
 
 
+
+![depthOfFieldCompositeStrength0-2](depthOfFieldCompositeStrength0-2.jpg "depthOfFieldCompositeStrength0-2")
+
+![depthOfFieldCompositeStrength0-05](depthOfFieldCompositeStrength0-05.jpg "depthOfFieldCompositeStrength0-05")
 
 +++
 
@@ -409,6 +469,10 @@ Aberration simulates how different wavelengths of light have a slightly differen
 
 
 
+![depthOfFieldLongitudinalAberration0](depthOfFieldLongitudinalAberration0.jpg "depthOfFieldLongitudinalAberration0")
+
+![depthOfFieldLongitudinalAberration1](depthOfFieldLongitudinalAberration1.jpg "depthOfFieldLongitudinalAberration1")
+
 +++
 
 +++Achromatic aberration
@@ -435,6 +499,10 @@ This makes the blurring effect appear to be more equally distributed.
 
 
 
+![depthOfFieldAchromaticAberrationYes](depthOfFieldAchromaticAberrationYes.jpg "depthOfFieldAchromaticAberrationYes")
+
+![depthOfFieldAchromaticAberrationNo](depthOfFieldAchromaticAberrationNo.jpg "depthOfFieldAchromaticAberrationNo")
+
 +++
 
 +++Cat's eye
@@ -460,5 +528,9 @@ This effect is more pronounced at higher apertures – I.e., lower F-Stop values
 </table>
 
 
+
+![depthOfFieldAchromaticCatsEyeYes](depthOfFieldAchromaticCatsEyeYes.jpg "depthOfFieldAchromaticCatsEyeYes")
+
+![depthOfFieldAchromaticCatsEyeNo](depthOfFieldAchromaticCatsEyeNo.jpg "depthOfFieldAchromaticCatsEyeNo")
 
 +++

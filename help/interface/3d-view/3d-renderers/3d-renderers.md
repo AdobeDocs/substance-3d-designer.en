@@ -37,6 +37,10 @@ The 3D View offers four renderers:
 
 
 
+![3dRendererRasterizer-2](3dRendererRasterizer-2.jpg "3dRendererRasterizer-2")
+
+![3dRendererPathtracer-2](3dRendererPathtracer-2.jpg "3dRendererPathtracer-2")
+
 +++
 
 Adobe's 3D renderer is built from the ground up to support modern technologies such as [MaterialX](https://materialx.org/) shading language and the [USD](https://openusd.org/release/index.html) scene description, and is poised to offer full visual consistency across the entire Substance 3D ecosystem.
@@ -60,6 +64,10 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 </table>
 
 
+
+![3dRendererRasterizer-2](3dRendererRasterizer-2.jpg "3dRendererRasterizer-2")
+
+![3dRendererOpenGL-2](3dRendererOpenGL-2.jpg "3dRendererOpenGL-2")
 
 +++
 
@@ -95,6 +103,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 ## Rasterizer
 
 +++Parameters
+
 |  |  |
 | --- | --- |
 | <b>Samples</b> Float | Specifies the number of pixel samples to compute before the image is considered to be converged. |
@@ -112,14 +121,17 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 | <b>Enable rasterizer accumulation antialiasing</b> Boolean | Toggles accumulation antialiasing, which improves the smoothness or edges in the rendered image by jittering renders and computing the local average color of each pixel, cumulatively. I.e., it accumulates values to compute an average from. |
 | <b>Rasterizer voxel grid resolution</b> Integer | Dictates the resolution of the voxel grid used in voxel marching the rasterizer.   Higher values result in more precise shadows at the cost of performance. |
 
+
 +++
 
 +++Ground plane
+
 |  |  |
 | --- | --- |
 | <b>Enabled</b> Boolean | Toggles the ground plane in the rendered scene. |
 | <b>Height</b> Float | Controls the height offset of the ground plane.   If authored, the value is expected to have the appropriate bias baked in, based on the scale of the scene. |
 | <b>Shadow intensity</b> Float | When shadows are enabled, controls the opacity of the shadows cast on the ground plane, from 0.0 (no shadows) to 1.0 (full shadows). |
+
 
 +++
 
@@ -128,6 +140,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 ## GPU Pathtracer
 
 +++Parameters
+
 |  |  |
 | --- | --- |
 | <b>Samples</b> Float | Specifies the number of pixel samples to compute before the image is considered to be converged. |
@@ -139,9 +152,11 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 | <b>Diagnostic mode</b> Integer | Dictates the diagnostic mode to render. |
 | <b>View background through transmission</b> Boolean | A true value enables the background image to be seen through transmissive or refractive objects.   When this is false, transmissive objects will show the refracted image of the scene environment. |
 
+
 +++
 
 +++Ground plane
+
 |  |  |
 | --- | --- |
 | <b>Enabled</b> Boolean | Toggles the ground plane in the rendered scene. |
@@ -151,6 +166,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 | <b>Enable reflections</b> Boolean | Controls the visibility of all reflections on the ground plane. |
 | <b>Reflections opacity</b> Float | When reflections are enabled, controls the opacity of the reflections, between 0.0 (no reflections) to 1.0 (full reflections). |
 | <b>Reflections roughness</b> Float | When reflections are enabled, controls the material roughness of the ground plane contributing to the reflections, from 0.0 (fully glossy) to 1.0 (fully rough). |
+
 
 +++
 

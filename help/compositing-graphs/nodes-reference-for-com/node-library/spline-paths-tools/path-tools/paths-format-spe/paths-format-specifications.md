@@ -255,7 +255,11 @@ Please note that for simplicity, <b>Paths info are assumed to be stored in input
 
 You can check the `*paths\_trace*` [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md), in the Iterations parameter of the 3rd Iterate node, for an example of how to use it.
 
+![Minimal use case of sample_next](paths-spec_fxmap-sample-next_02.png "Minimal use case of sample_next")
 
+
+
+![Use case of sample_next in Preview Paths (path_trace)](paths-spec_fxmap-sample-next_01.png "Use case of sample_next in Preview Paths (path_trace)")
 
 
 

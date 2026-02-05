@@ -73,6 +73,8 @@ For the best compatibility and reliability in Designer and its editing tools, pl
 **Adobe Illustrator** users can refer to the attached image for recommended SVG *export settings.*
 
 +++Adobe Illustrator export options
+![Illustrator export options for SVG](demo-svg.png "Illustrator export options for SVG")
+
 
 
 +++
@@ -106,6 +108,8 @@ If the current *outline* color is *black* – i.e. luminance 0 or RGB (0, 0, 0) 
 +++
 
 +++Transformation
+![Transformation tool](2dview-vectorediting-transformation.png "Transformation tool"){width="512px"}
+
 
 
 The ![](2dview-vectorediting-icon-transformation.png) <b>Transformation</b> tool (<b>V</b>) can select shapes, which are then included in a transformation gizmo. This gizmo lets you perform the following actions:
@@ -119,6 +123,8 @@ The ![](2dview-vectorediting-icon-transformation.png) <b>Transformation</b> tool
 +++
 
 +++Node
+![Node tool](2dview-vectorediting-node.png "Node tool"){width="512px"}
+
 
 
 The ![](2dview-vectorediting-icon-node.png) <b>Node</b> tool (<b>A</b>) lets you select individual vertices (i.e. nodes) of the selected shape and edit its position and handles, as well as add and remove vertices. Once a shape is selected, the following actions can be performed:
@@ -140,6 +146,8 @@ The ![](2dview-vectorediting-icon-node.png) <b>Node</b> tool (<b>A</b>) lets you
 +++
 
 +++Shape
+![Shape tool](2dview-vectorediting-main.png "Shape tool"){width="512px"}
+
 
 
 The ![](2dview-vectorediting-icons-shape.png) <b>Shapes</b> tool (<b>M</b>) offers a set of primitive shapes, using the currentl *fill* color, which can be built from and edited:
@@ -157,6 +165,8 @@ To draw a primitive, Hold <b>LMB</b> anywhere in the canvas from any of its *cor
 +++
 
 +++Pen
+![Pen tool](2dview-vectorediting-pen.png "Pen tool"){width="512px"}
+
 
 
 The ![](2dview-vectorediting-icon-pen.png) <b>Pen</b> tool (<b>P</b>) lets you draw a new custom shape, using the current *fill* color. Two modes are available:
@@ -184,6 +194,8 @@ Vertices are *automatically placed* along the stroke so that the resulting path 
 +++
 
 +++Extrude
+![Extrude tool](2dview-vectorediting-extrude.png "Extrude tool"){width="512px"}
+
 
 
 The ![](2dview-vectorediting-icon-extrude.png) **Extrude** tool (E) *adds together* a shape of a *set diameter*, drawn along a path using the selected *drawing mode*, and applies the result in the canvas following the *merging mode* set in the options toolbar.

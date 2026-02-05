@@ -10,7 +10,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropic Kuwahara Grayscale icon](AnisotropicKuwaharaGrayscale.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
+![Anisotropic Kuwahara Grayscale icon](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/AnisotropicKuwaharaGrayscale.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -31,29 +31,26 @@ The flow may also be broken down by rotating the direction in which blurring is 
 
 This filter can produce a painterly effect, and is useful for stylization.
 
-+++Anisotropy
+<b>Anisotropy</b>
+
 The intensity of the flow is mainly controlled by the parameter, as demonstrated in the image below.
 
 Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 
-
-
 <table>
-  <tr>
-    <td>
-      <img src="anisotropic_kuwahara_gray_example_3_before.jpg" alt="anisotropic_kuwahara_gray_example_3_before">
-      <br><i>Before</i>
-    </td>
-    <td>
-      <img src="anisotropic_kuwahara_gray_example_3_after.jpg" alt="anisotropic_kuwahara_gray_example_3_after">
-      <br><i>After</i>
-    </td>
-  </tr>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/anisotropic_kuwahara_gray_example_3_before.jpg){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/anisotropic_kuwahara_gray_example_3_after.jpg){zoomable="yes"}
+
+</td>
+</tr>
 </table>
-
-
-
-+++
 
 <table>
 <tr style="border: 0;">
@@ -111,11 +108,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic_kuwahara_gray_example_1_before.jpg" alt="anisotropic_kuwahara_gray_example_1_before">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="anisotropic_kuwahara_gray_example_1_after.jpg" alt="anisotropic_kuwahara_gray_example_1_after">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -124,11 +121,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic_kuwahara_gray_example_2_before.jpg" alt="anisotropic_kuwahara_gray_example_2_before">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="anisotropic_kuwahara_gray_example_2_after.jpg" alt="anisotropic_kuwahara_gray_example_2_after">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -137,11 +134,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic_kuwahara_gray_example_4_before.jpg" alt="anisotropic_kuwahara_gray_example_4_before">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="anisotropic_kuwahara_gray_example_4_after.jpg" alt="anisotropic_kuwahara_gray_example_4_after">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_gray_example_4_after">
       <br><i>After</i>
     </td>
   </tr>

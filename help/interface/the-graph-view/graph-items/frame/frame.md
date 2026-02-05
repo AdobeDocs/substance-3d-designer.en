@@ -34,6 +34,8 @@ By default, the frame is a rectangle with rounded corners filled with the color 
 
 The title set in the <b>Title</b> property rests in grey on the frame's top left corner.
 
+![Frame (default state)](graph-frames-default.png "Frame (default state)")
+
 
 
 +++
@@ -43,12 +45,16 @@ When hovering the top of the frame, a header bar is displayed.
 
 The frame may be moved by dragging that header bar or its title.
 
+![Frame (hover state)](graph-frames-hover.png "Frame (hover state)")
+
 
 
 +++
 
 +++Selected
 When selected, the title and outline of the frame are highlighted in white. The outline gets thicker.
+
+![Frame (selected state)](graph-frames-selected.png "Frame (selected state)")
 
 
 
@@ -144,6 +150,8 @@ The <b>Title</b> resting on the top left of the frame. Its visibility of the t
 
 The size of the title can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../the-graph-view.md) toolbar.
 
+![Frames: Title](graph_frames_title.gif "Frames: Title"){width="640px"}
+
 
 
 +++
@@ -155,6 +163,8 @@ The text can be formatted using HTML tags. This formatting is toggled by clickin
 
 Learn more in the section below.
 
+![Frames: Description](graph-frames_description.gif "Frames: Description"){width="640px"}
+
 
 
 +++
@@ -163,6 +173,8 @@ Learn more in the section below.
 The <b>Frame Color</b> is used to fill the frame in the Graph view. Use the color picker to select any color.
 
 The color's alpha channel control the *opacity* of the frame, where a value of 0 means the frame is fully transparent.
+
+![Frames: Color](graph-frames_colour.gif "Frames: Color"){width="640px"}
 
 
 
@@ -225,6 +237,7 @@ You may copy and paste this sample in the frame's Description property to test
 Here is a list of useful tags for formatting text:
 
 +++HTML formatting tags
+
 |  |  |
 | --- | --- |
 | Bold | &lt;b&gt;...&lt;/b&gt; |
@@ -238,6 +251,7 @@ Here is a list of useful tags for formatting text:
 | Unordered list (bullets) | &lt;ul&gt;   &lt;li&gt;...&lt;/li&gt;   &lt;li&gt;...&lt;/li&gt;  &lt;/ul&gt; |
 | Ordered list (numbers) | &lt;ol&gt;   &lt;li&gt;...&lt;/li&gt;   &lt;li&gt;...&lt;/li&gt;  &lt;/ol&gt; |
 | Code | &lt;code&gt;...&lt;/code&gt; |
+
 
 +++
 
@@ -258,6 +272,8 @@ As connectors are displayed or hidden, added or removed, the node's height adjus
 
 Therefore, the location of a node's center point should not change until it is *deliberately moved*.
 
+![Frame inclusion: tall nodes](frame_inclusion_node_tall.png "Frame inclusion: tall nodes")
+
 
 
 The <b>c</b><b>enter point</b> of the *host* node is used.
@@ -268,7 +284,11 @@ If multiple nodes are docked into a chain, the host node of the last docked node
 
 Badges, connectors and information displayed below the node are all ignored.
 
+![Frame inclusion: docked nodes](frame_inclusion_node_docked.png "Frame inclusion: docked nodes")
 
+
+
+![Frame inclusion: nodes](frame_inclusion_node.png "Frame inclusion: nodes")
 
 
 
@@ -278,6 +298,8 @@ Badges, connectors and information displayed below the node are all ignored.
 The <b>center point</b> of the Dot is used.
 
 Connectors, portal icons and names are all ignored.
+
+![Frame inclusion: Dot nodes](frame_inclusion_dot.png "Frame inclusion: Dot nodes")
 
 
 
@@ -294,7 +316,11 @@ Badges, connectors and information displayed below the node are all ignored.
 
 
 
+![Frame inclusion: parented comments](frame_inclusion_comment_parented.png "Frame inclusion: parented comments")
 
+
+
+![Frame inclusion: comments](frame_inclusion_comment.png "Frame inclusion: comments")
 
 
 
@@ -302,6 +328,8 @@ Badges, connectors and information displayed below the node are all ignored.
 
 +++Pins
 The <b>tip</b> of the pin icon is used.
+
+![Frame inclusion: navigation pins](frame_inclusion_pin.png "Frame inclusion: navigation pins")
 
 
 
@@ -313,6 +341,8 @@ The <b>bounding box</b> of the nested frame is used.
 This means a nested frame must be entirely within another frame's bounds to be included in the latter.
 
 The title is ignored.
+
+![Frame inclusion: nested frames](frame_inclusion_frame.png "Frame inclusion: nested frames")
 
 
 
@@ -350,6 +380,8 @@ If no included object can be fit into that space, the frame's height is adjusted
 </table>
 
 +++Example
+![Frames: Fit size to content (GIF)](graph-frames_fit-size-to-content.gif "Frames: Fit size to content (GIF)"){width="640px"}
+
 
 
 +++
@@ -371,6 +403,8 @@ If an object is not fully enclosed by the frame's bounds but still satisfies its
 > While the <b>Shift</b> key may be pressed or released at any point during the move to trigger or cancel the automatic adjustment of the frame, it *must* be held when completing the move to effectively apply the adjustment.
 
 +++Example
+![Frames: Auto-expand (GIF)](graph-frames_auto-expand.gif "Frames: Auto-expand (GIF)"){width="640px"}
+
 
 
 +++

@@ -71,6 +71,8 @@ A few things happen when using this action:
 *Result of graph creation from material textures*
 
 +++Demonstration
+![Create graph from texture inputs - Demonstration](createGraphFromTextures.gif "Create graph from texture inputs - Demonstration"){zoomable="yes"}
+
 
 
 +++
@@ -125,6 +127,8 @@ Action for material property in Properties dock
 Result of the texture extraction
 
 +++Demonstration
+![Extract texture to graph - Demonstration](extractTextureToGraph.gif "Extract texture to graph - Demonstration"){zoomable="yes"}
+
 
 
 +++
@@ -179,6 +183,8 @@ Constant node in Value processor node's function
 Result of the value extraction
 
 +++Demonstration
+![Extract value to graph - Demonstration](extractValueToGraph.gif "Extract value to graph - Demonstration"){zoomable="yes"}
+
 
 
 +++

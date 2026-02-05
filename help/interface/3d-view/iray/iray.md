@@ -208,6 +208,10 @@ The impact of some of these settings is demonstrated below:
 
 
 
+![Iray - Environment hidden](iray-environment-hidden.png "Iray - Environment hidden")
+
+![Iray - Environment visible](iray-env-visible.png "Iray - Environment visible")
+
 +++
 
 +++Enable ground plane
@@ -228,24 +232,36 @@ The impact of some of these settings is demonstrated below:
 
 
 
+![Iray - Infinite sphere only](iray-env-infinite-sphere.png "Iray - Infinite sphere only")
+
+![Iray - Infinite sphere with ground plane](iray-env-sphere-ground.png "Iray - Infinite sphere with ground plane")
+
 +++
 
 +++Rotate environment
+![Rotate environment](iray-env-rotation.gif "Rotate environment")
+
 
 
 +++
 
 +++Adjust ground plane
+![Ground reflection](iray-env-ground-options.gif "Ground reflection")
+
 
 
 +++
 
 +++Adjust infinite sphere
+![Environment scale (sphere)](iray-env-sphere-radius.gif "Environment scale (sphere)")
+
 
 
 +++
 
 +++Adjust enclosing box
+![Environment scale (cube)](iray-env-box-dimensions.gif "Environment scale (cube)")
+
 
 
 +++
@@ -299,6 +315,10 @@ The impact of some of these settings is demonstrated in the image comparisons be
 
 
 
+![Iray - Base render](iray-renderer-none.png "Iray - Base render")
+
+![Iray - Caustic sampler enabled](iray-renderer-caustics.png "Iray - Caustic sampler enabled")
+
 +++
 
 +++Firefly filter
@@ -319,6 +339,10 @@ The impact of some of these settings is demonstrated in the image comparisons be
 
 
 
+![Iray - Firefly filter disabled](iray-renderer-caustics.png "Iray - Firefly filter disabled")
+
+![Iray - Firefly filter enabled](iray-renderer-caustics-fireflies.png "Iray - Firefly filter enabled")
+
 +++
 
 +++Post-denoiser
@@ -338,6 +362,10 @@ The impact of some of these settings is demonstrated in the image comparisons be
 </table>
 
 
+
+![Iray - Post-denoiser disabled](iray-renderer-caustics-fireflies.png "Iray - Post-denoiser disabled")
+
+![Iray - Post-denoiser enabled](iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Post-denoiser enabled")
 
 +++
 

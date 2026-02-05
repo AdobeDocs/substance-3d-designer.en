@@ -90,6 +90,7 @@ XML Element Definition:
 
 * primitiveType: The method to render the primitive.
 
+
 | 'type' Value | Description |
 | --- | --- |
 | vertex | Vertex shader |
@@ -98,11 +99,14 @@ XML Element Definition:
 | tess\_eval | Tessellation Evaluation shader |
 | fragment | Fragment shader |
 
+
+
 | 'primitiveType' Value | Description |
 | --- | --- |
 | point | Render as points |
 | lineloop | Render as line loop |
 | patch[1..N] | Render as patches with [1..N] vertices |
+
 
 +++
 
@@ -124,6 +128,7 @@ Allow to set up some part of the OpenGL state.
 * Functions syntax: without the 'gl' prefix, in lower case and with all words separated with '\_' character. Example: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) =&gt; ""
 
 * value: The value of the property.
+
 
 | 'name' Values | 'value' Values | Description |
 | --- | --- | --- |
@@ -166,6 +171,7 @@ Allow to set up some part of the OpenGL state.
 |  | gequal | for OpenGL enum GL\_GEQUAL |
 |  | greater | for OpenGL enum GL\_GREATER |
 |  | always | for OpenGL enum GL\_ALWAYS |
+
 
 +++
 

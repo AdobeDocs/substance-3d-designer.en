@@ -58,6 +58,7 @@ The span of the arc formed by the spline is *adjustable*, so that some of its t
 | <b>Smoothness</b> *Float* | Adjusts the *span of the arc* formed by the spline, where 1 means the full length of the spline is arched and 0 means the spline is entirely straight. The arc progresses from point <b>p3</b> along the spline up to its extremities. |
 
 +++Height
+
 |  |  |
 | --- | --- |
 | <b>Start height</b> *Float* | Adjusts the height of the <b>p1</b> point where a lower value means a lower or deeper location.  This impacts the height of the spline at <b>p1</b>. |
@@ -65,9 +66,11 @@ The span of the arc formed by the spline is *adjustable*, so that some of its t
 | <b>Auto tangent height</b> *Boolean* | Adjusts the height of the <b>p3</b> point where a lower value means a lower or deeper location.  This impacts the thickness of the spline at <b>p3</b>. |
 | <b>Tangent height</b> *Float* | Adjusts the height driven by the tangents controlled by the <b>p2</b> point.  This impacts the height along the spline as it draws away from <b>p1</b> and goes into <b>p3</b>.   *Note:* This parameter is only available when <b>Auto tangent height</b> is set to 'False'. |
 
+
 +++
 
 +++Thickness
+
 |  |  |
 | --- | --- |
 | <b>Start thickness</b> *Float* | Adjusts the thickness of the <b>p1</b> point. This impacts the thickness of the spline at <b>p1</b>.   *Note:* Thickness is used by specific Spline nodes. |
@@ -75,18 +78,22 @@ The span of the arc formed by the spline is *adjustable*, so that some of its t
 | <b>Auto tangent thickness</b> *Boolean* | Automatically sets the thickness of the spline tangents to interpolate linearly from the <b>Start Thickness</b> to the <b>End Thickness</b>.   *Note:* Thickness is used by specific Spline nodes. |
 | <b>Tangent thickness</b> *Float* | Adjusts the thickness driven by the tangents controlled by the <b>p2</b> point.  This impacts the thickness along the spline as it draws away from <b>p1</b> and goes into <b>p3</b>.   *Note:* Thickness is used by specific Spline nodes.  *Note 2:* This parameter is only available when <b>Auto tangent thickness</b> is set to 'False'. |
 
+
 +++
 
 +++Points coordinates
+
 |  |  |
 | --- | --- |
 | <b>p1</b> *Float2* | Sets the position of the <b>p1</b> point in texture space. |
 | <b>p2</b> *Float2* | Sets the position of the <b>p2</b> point in texture space.  The <b>p2</b> point controls the *tangents* of both <b>p1</b> and <b>p3</b> points. |
 | <b>p3</b> *Float2* | Sets the position of the <b>p3</b> point in texture space. |
 
+
 +++
 
 +++Preview
+
 |  |  |
 | --- | --- |
 | <b>Show tangents</b> *Boolean* | Displays the <b>p1</b> point ‘out’ tangent and <b>p3</b> point ‘in’ tangent in the <b>Preview</b> output.Inverts the direction of the spline. |
@@ -94,6 +101,7 @@ The span of the arc formed by the spline is *adjustable*, so that some of its t
 | <b>Show thickness envelope</b> *Boolean* | Displays additional lines at the edges of the spline’s thickness. |
 | <b>Segments amount</b> *Integer* | Adjusts the number of segments used to draw the spline visualization in the <b>Preview</b> output.  A higher value results in a smoother line. |
 | <b>Thickness (px)</b> *Float* | Adjusts the thickness in pixels of the spline visualization in the <b>Preview</b> output. |
+
 
 +++
 

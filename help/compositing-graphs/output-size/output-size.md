@@ -93,6 +93,8 @@ If you are a new [Adobe Substance 3D Designer](https://www.adobe.com/products/su
 +++Problem 1
 **![(error)](error.svg) Problem**
 
+![Example problem 1](problem2-bad.png "Example problem 1")
+
 
 
 The **Parent Size** setting is *grayed out*, and the graph uses in an undesired 256\*256 resolution.
@@ -100,6 +102,8 @@ The **Parent Size** setting is *grayed out*, and the graph uses in an undesired 
 In the graph's properties, the inheritance method of the Output Size property was set to *Absolute*, which stops inheritance in favour of an arbitrary value.
 
 **![(tick)](check.svg) Solution**
+
+![Example problem 1 Solution](problem2-good.png "Example problem 1 Solution")
 
 
 
@@ -110,6 +114,8 @@ Set the inheritance method for the graph's Output size to *Relative to parent*.
 +++Problem 2
 **![(error)](error.svg) Problem**
 
+![Example problem 2](problem1-bad.png "Example problem 2")
+
 
 
 Above you see a case where the output of a graph results in a different resolution (512\*512) than set in the parent (1024\*1024), despite the graph being set to *Relative to parent*.
@@ -117,6 +123,8 @@ Above you see a case where the output of a graph results in a different resoluti
 The problem stems from the [Bitmap](../nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node. It defaults to the *Absolute* inheritance method, and picked 512\*512 as a resolution based on the [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md). The node connected to it are set to *Relative to input*, thus inherit their Output Size from the Bitmap node.
 
 **![(tick)](check.svg) Solution**
+
+![Example problem 2 Solution](problem1-good.png "Example problem 2 Solution")
 
 
 
@@ -127,6 +135,8 @@ Set the Output Size's inheritance method of the Bitmap node to *Relative to pare
 +++Problem 3
 **![(error)](error.svg) Problem**
 
+![Example problem 3](problem3-bad.png "Example problem 3")
+
 
 
 Above you see an issue where the resolution jumps much higher halfway through the chain, resulting to much higher output resolution than defined by the parent.
@@ -134,6 +144,8 @@ Above you see an issue where the resolution jumps much higher halfway through th
 The problem is caused by a relative modifier of 3 on the [Transformation 2D](../nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node, making the output 8 times larger.
 
 **![(tick)](check.svg) Solution**
+
+![Example problem 3 Solution](problem3-good.png "Example problem 3 Solution")
 
 
 

@@ -102,6 +102,8 @@ In addition to navigation, the viewport offers the following features:
 The main toolbar of the <b>2D View</b> panel lets you do more with your displayed images, and offers the following features:
 
 +++Background image
+![2D View background image](2d-view-background.png "2D View background image"){width="360px"}
+
 
 
 You can *overlay a different image* on top of the currently displayed one. Press the ![](2d-view-icon-background.png) <b>Background Image</b> button and you will be prompted to select an image file to use as an overlay.
@@ -123,6 +125,8 @@ A slider gives you *manual control* over the opacity of the overlay image.
 +++
 
 +++Export image
+![2D View export image](2d-view-export-bitmap.png "2D View export image"){width="360px"}
+
 
 
 The image currently displayed can be *exported to an image file*. Press the ![](2d-view-icon-export.png) <b>Save Image...</b> button and you will be prompted to select an *location*, *name* and *file format* for the exported file.
@@ -135,6 +139,8 @@ If either <b>OCIO</b> or <b>Adobe ACE</b> [color management mode](../../color-ma
 +++
 
 +++Copy to clipboard
+![2D View copy to clipboard](2d-view-copy-clipboard.gif "2D View copy to clipboard"){width="360px"}
+
 
 
 The image currently displayed can be *copied to the clipboard*. Press the ![](2d-view-icon-copy.png) <b>Copy Image to Clipboard</b> button and the image will be ready to be pasted into any third party software, such as Adobe Photoshop.
@@ -144,6 +150,8 @@ The image will be copied as an *8-bit* precision image at its *native resolution
 +++
 
 +++Switch graph outputs
+![2D View switch graph outputs](2d-view-switch-graph-outputs.gif "2D View switch graph outputs"){width="360px"}
+
 
 
 If the image currently displayed is a *graph output*, you can *quickly switch to any* other graph output using the ![](2d-view-icon-view-outputs.png) <b>Select output</b> button.
@@ -153,6 +161,8 @@ This feature is *not* available to other nodes, including nodes which have more 
 +++
 
 +++UV overlay
+![2D View UV overlay](2d-view-uv.png "2D View UV overlay"){width="357px"}
+
 
 
 If the <b>Display UVs in 2D View</b> option is enabled in the <b>Scene</b> menu of the [3D View](../3d-view/3d-view.md) dock, then the UV overlay feature is available in the 2D View.
@@ -168,6 +178,8 @@ If the mesh has <b>multiple UV sets</b>, the desired UVs can be selected in the 
 +++
 
 +++Image information
+![2D View image information](2d-view-information.png "2D View image information"){width="360px"}
+
 
 
 You can display the *exact pixel values* *and coordinates* in an image with the <b>Information</b> panel, which is enabled using the ![](2d-view-icon-information.png) <b>Image Information</b> button. This is very helpful when inspecting HDR images, for instance, or making sure stepping between pixels follows the intended progression.
@@ -187,6 +199,8 @@ Pixel coordinates are represented by <b>X</b> and <b>Y</b> values.
 +++
 
 +++Histogram
+![2D View histogram](2d-view-histogram.png "2D View histogram"){width="360px"}
+
 
 
 You can display the *histogram* of the image with the <b>Histogram</b> panel, which is enabled using the ![](2d-view-icon-histogram.png) <b>Display Histogram</b> button.

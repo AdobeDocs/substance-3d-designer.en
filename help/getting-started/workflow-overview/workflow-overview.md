@@ -62,6 +62,8 @@ Substance graphs are[ the most widely supported type of graph](../overview/overv
 Below you can find some typical examples of common usecases.
 
 +++Simple shape
+![Simple shape in Substance graph](simpleshape.png "Simple shape in Substance graph"){width="512px"}
+
 
 
 A simple mask shape for a decal is created by generating[ a piece of text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) and a [disc shape](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extracting the edge](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) from the disc and the finally [blending them together](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) before setting them as final [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
@@ -71,6 +73,8 @@ The Text with the number, or the thickness of the edge can be exposed externally
 +++
 
 +++Adjustment filter
+![Adjustment filter in Substance graph](simplefilter.png "Adjustment filter in Substance graph"){width="512px"}
+
 
 
 A filter graph takes a normal map as [input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(with a custom preview), [converts it to curvature](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) and then [adjusts the contrast](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) to create a mask of convex edges as final [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
@@ -80,6 +84,8 @@ The contrast values set in the Histogram can be exposed, making this a simple bu
 +++
 
 +++Full material
+![Full material in Substance graph](simplematerial.png "Full material in Substance graph"){width="512px"}
+
 
 
 A more complicated graph[ blends two Base materials](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). One[ Base material](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) is kept simple, the other uses some custom inputs to add interest. A mask is used to determine which of the two materials appear where before being set as final [outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
@@ -112,6 +118,8 @@ Functions can be used in many different contexts, the main ones being to modify 
 Below are some examples from common use cases for Substance function graphs.
 
 +++Simple function
+![Simple function graph](lerpfunction.png "Simple function graph"){width="256px"}
+
 
 
 A simple function in the context of an exposed parameter. It gets an input float value called "Intensity" that is determined to go from 0 to 1 (a range easy to understand) and remaps it to a set range of 0.1 - 0.8. That means if the user sets Intensity ot 0, internally 0.1 will be used, if the Ui is set to 1, 0.8 wil be used, and any value in between will be interpolated linearly. This type of function is something commonly used when [exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), but using custom functions.
@@ -121,6 +129,8 @@ This function could also be written as *lerp(0.1, 0.8, Intensity)* in a pseudoco
 +++
 
 +++Advanced function
+![Advanced function](pixel-function.png "Advanced function"){width="512px"}
+
 
 
 This advanced Function shows the inner workings of a [Pixel Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) meant for adjusting the Hue of a color map input based on the intensity of a second grayscale mask input.

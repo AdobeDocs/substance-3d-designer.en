@@ -30,6 +30,8 @@ Dot nodes may be added in any graph type, in any of the following ways:
 +++Insert on link
 Hold the <b>Alt</b> key while hovering a connection to display the Dot node preview, then click LMB to add a Dot node on the connection at that location.
 
+![Inserting a Dot node](dot-node-insert-optim.gif "Inserting a Dot node"){width="512px"}
+
 
 
 +++
@@ -39,12 +41,16 @@ Press the <b>Alt</b> key while dragging a new connection from a node connector 
 
 You may continue dragging the new connection and repeat the operation to route that connection how you like.
 
+![Dot: Creating from connector](graph-dot_create-from-connector.gif "Dot: Creating from connector")
+
 
 
 +++
 
 +++Node menu
 Press <b>Spacebar</b> to display the <b>Node menu</b>, then select the 'Dot' item or type 'dot' in the search field to surface the item and find it more quickly.
+
+![Dot node in Node menu](dot-node-insert-menu.png "Dot node in Node menu")
 
 
 

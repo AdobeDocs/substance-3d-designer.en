@@ -49,12 +49,16 @@ The AxF files import workflow may be started from on of the two methods below:
 +++Home screen
 Click on the <b>Import AxF...</b> button in the [Home screen](../../interface/home-screen/home-screen.md)'s left section.
 
+![AxF: Start import from Home screen](axf_home-screen.png "AxF: Start import from Home screen"){width="600px"}
+
 
 
 +++
 
 +++Explorer
 Click RMB on a package in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), and go to <b>Import &gt; AxF</b> in the package's contextual menu.
+
+![AxF: Start import from Explorer](axf_explorer.png "AxF: Start import from Explorer"){width="600px"}
 
 
 
@@ -288,6 +292,8 @@ If you wish to convert an SVBRDF material in an AxF file into a standard PBR mat
 In that case, the MDL graph should be dragged and dropped into the 3D View before any other operation, in order to automatically switch to the [Iray](../../interface/3d-view/iray/iray.md) renderer and use that MDL graph as material definition.  
 Then, you may drag and drop the Substance graph that you set up in the import dialog, in order to connect its outputs to the MDL shader.
 
+![AxF: Viewing for conversion](axf-view-for-convert.gif "AxF: Viewing for conversion")
+
 
 
 +++
@@ -304,6 +310,8 @@ In particular, the <b>Tiling</b> property lets you adjust the tiling of textures
 
 After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the [3D View](../../interface/3d-view/3d-view.md).
 
+![AxF: SVBRDF GLSLFX shader](axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX shader"){width="600px"}
+
 
 
 This shader is less accurate than its Iray counterpart, and is currently a *work in progress* and some features are still unsupported. Therefore, while it can provide an overview of the materials' characteristics, it should not be used for fine adjustments .
@@ -319,9 +327,13 @@ In particular, the <b>Tiling</b> property lets you adjust the tiling of textur
 
 After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the [3D View](../../interface/3d-view/3d-view.md).
 
+![AxF: SVBRDF MDL shader](axf_mdl-svbrdf.png "AxF: SVBRDF MDL shader"){width="600px"}
+
 
 
 This shader is more accurate than its OpenGL counterpart. It uses the [Iray](../../interface/3d-view/iray/iray.md) renderer, thus you need to switch to this renderer by going to <b>Renderer &gt; Iray</b>, before the shader can be accessed in the <b>Materials</b> menu.
+
+![AxF: Viewing for edition](axf-view-for-edit.gif "AxF: Viewing for edition")
 
 
 

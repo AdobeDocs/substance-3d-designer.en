@@ -36,6 +36,8 @@ The copied values can be <b>pasted in parameters using a color thumbnail</b>.
 
 The color thumbnails in the Information panel can also be dragged and dropped directly onto the color thumbnails of those parameters.
 
+![Color sampler: copy RGBA values](color-sampler-demo-copy-rgba-values.gif "Color sampler: copy RGBA values"){zoomable="yes"}
+
 
 
 *Click to enlarge*

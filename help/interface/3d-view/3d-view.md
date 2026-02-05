@@ -207,6 +207,8 @@ The menu bar provides 7 menus with options related to the 3D View. below is an o
 +++Scene
 The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D view states. 3D Resource sare just the mesh, Scene states are lights, camera, and related settings, and can also contain the mesh alongside.
 
+![Scene menu meshes](3d-view-meshes.png "Scene menu meshes")
+
 
 
 <b>Edit: </b>Loads scene options in the [Properties](../properties/properties.md) panel. Lets you toggle visibility of the 3D Mesh.

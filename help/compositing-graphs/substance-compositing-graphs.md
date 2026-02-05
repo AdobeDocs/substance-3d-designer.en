@@ -30,6 +30,8 @@ Substance graphs are[ the most widely supported type of graph](../getting-starte
 Below you can find some typical examples of common usecases.
 
 +++Simple shape
+![Simple shape in Substance graph](simpleshape.png "Simple shape in Substance graph"){width="512px"}
+
 
 
 A simple mask shape for a decal is created by generating[ a piece of text](nodes-reference-for-com/atomic-nodes/text/text.md) and a [disc shape](nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extracting the edge](nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) from the disc and the finally [blending them together](nodes-reference-for-com/atomic-nodes/blend/blend.md) before setting them as final [output](nodes-reference-for-com/atomic-nodes/output/output.md).
@@ -39,6 +41,8 @@ The Text with the number, or the thickness of the edge can be exposed externally
 +++
 
 +++Adjustment filter
+![Adjustment filter in Substance graph](simplefilter.png "Adjustment filter in Substance graph"){width="512px"}
+
 
 
 A filter graph takes a normal map as [input ](nodes-reference-for-com/atomic-nodes/input/input.md)(with a custom preview), [converts it to curvature](nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) and then [adjusts the contrast](nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) to create a mask of convex edges as final [output](nodes-reference-for-com/atomic-nodes/output/output.md).
@@ -48,6 +52,8 @@ The contrast values set in the Histogram can be exposed, making this a simple bu
 +++
 
 +++Full material
+![Full material in Substance graph](simplematerial.png "Full material in Substance graph"){width="512px"}
+
 
 
 A more complicated graph[ blends two Base materials](nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). One[ Base material](nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) is kept simple, the other uses some custom inputs to add interest. A mask is used to determine which of the two materials appear where before being set as final [outputs](nodes-reference-for-com/atomic-nodes/output/output.md).

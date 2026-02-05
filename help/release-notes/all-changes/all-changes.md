@@ -52,11 +52,14 @@ helpx_description: "Designer > Release Notes > All changes"
 </table>
 
 +++Previous versions
+
 | 9 |  |
 | --- | --- |
 | <b>9.3</b> |  |
 | <b>9.2</b> |  |
 | <b>9.1</b> |  |
+
+
 
 | 8 |  |
 | --- | --- |
@@ -64,14 +67,20 @@ helpx_description: "Designer > Release Notes > All changes"
 | <b>8.2</b> |  |
 | <b>8.1</b> |  |
 
+
+
 | 7 |  |
 | --- | --- |
 | <b>7.2</b> |  |
 | <b>7.1</b> |  |
 
+
+
 | 6 |  |
 | --- | --- |
 | <b>6.0</b> |  |
+
+
 
 | 5 |  |
 | --- | --- |
@@ -82,6 +91,7 @@ helpx_description: "Designer > Release Notes > All changes"
 | <b>5.2</b> |  |
 | <b>5.1</b> |  |
 | <b>5.0</b> |  |
+
 
 +++
 
