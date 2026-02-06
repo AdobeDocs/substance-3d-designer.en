@@ -58,14 +58,14 @@ A filtering process is applied to the source image so its pixels are mapped to t
 +++
 
 +++Addressing mode
-Controls how position values outside of the [0;1] range are handled.
+Controls how position values outside of the &#91;0;1&#93; range are handled.
 
 <b>Repeat</b>  
-Loops over the [0;1] range as the value increases.  
+Loops over the &#91;0;1&#93; range as the value increases.  
 E.g.: 3.4 is 0.4, -1.7 is 0.3.
 
 <b>Clamp to Edge</b>  
-Clamps values out of to the [0;1] range to its closest limit.  
+Clamps values out of to the &#91;0;1&#93; range to its closest limit.  
 E.g.: .3.4 is 1, -1.7 is 0.
 
 +++

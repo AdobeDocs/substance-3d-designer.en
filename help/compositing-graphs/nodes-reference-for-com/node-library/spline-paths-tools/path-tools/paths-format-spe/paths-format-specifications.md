@@ -55,7 +55,7 @@ Every Paths document starts with a document header. It is the very first semanti
 +++Top
 <b>X</b>
 
-The number of paths (should be a positive integer in [0; 16777216]).
+The number of paths (should be a positive integer in &#91;0; 16777216&#93;).
 
 If some paths are empty, they still count here. So you can think of it as a 'number of paths headers to decode'.
 
@@ -76,7 +76,7 @@ This is useful when reading the Paths from from a [Pixel processor](../../../../
 
 The address of the last vertex defined in this document. This is useful to append new data.
 
-It can hence actually be any address that is greater (in scanline order) than the address of the last vertex. It must me in the range ]0, 1[×]0,.5&#91;
+It can hence actually be any address that is greater (in scanline order) than the address of the last vertex. It must me in the range &#93;0, 1&#91;×&#93;0,.5&#91;
 
 <b>ZW</b>
 
@@ -97,7 +97,7 @@ The path-header of the Nth path will be defined at address `path\_addr` will be 
 +++Top
 <b>X</b>
 
-Number of vertices in this path. Must be in the [0, 16777216] range.
+Number of vertices in this path. Must be in the &#91;0, 16777216&#93; range.
 
 If the start and end vertices of a closed path are at the same position, they still count for 2 vertices.  
 A path with 0 vertices is a valid path anyway.
@@ -174,12 +174,12 @@ Regardless of links "triviality", trustworthy values of links are stored in the 
 <b>XY</b>
 
 The address of the previous vertex of this path. For Start vertices, this points to the next sibling vertex.  
-if |top[vert\_addr].W| = 1, then bottom[vert\_addr].XY = vert\_addr - (0,pixel\_size)
+if |top&#91;vert\_addr&#93;.W| = 1, then bottom&#91;vert\_addr&#93;.XY = vert\_addr - (0,pixel\_size)
 
 <b>ZW</b>
 
 The address of the next vertex of this path. For End vertices, this points to the next sibling vertex.  
-if |top[vert\_addr].W| = 1, then bottom[vert\_addr].ZW = vert\_addr + (0,pixel\_size)
+if |top&#91;vert\_addr&#93;.W| = 1, then bottom&#91;vert\_addr&#93;.ZW = vert\_addr + (0,pixel\_size)
 
 +++
 
@@ -247,7 +247,7 @@ You probably don't want to use this directly, but rather use one of the `sample\
 +++
 
 +++sample_next, sample_prev
-Given the top-part sampled value `*sampled*` and its position `*sampled\_position*`, returns the next (respectively previous) vertex top-part sampled value, and Set a Float2 variable `*next\_sampled\_pos*` to the position (in the top-part) of this neighbor (i.e. &lt;returned value&gt; = SampleColor(next\_sampled\_pos, image0)). `*input0PixSize*`must be equal to the path's pixel size (top[(0,0)].YZ).
+Given the top-part sampled value `*sampled*` and its position `*sampled\_position*`, returns the next (respectively previous) vertex top-part sampled value, and Set a Float2 variable `*next\_sampled\_pos*` to the position (in the top-part) of this neighbor (i.e. &lt;returned value&gt; = SampleColor(next\_sampled\_pos, image0)). `*input0PixSize*`must be equal to the path's pixel size (top&#91;(0,0)&#93;.YZ).
 
 If the current pixel (`*sampled*`) is a <b>Start</b> vertex, *sample\_prev* will return the next sibling of this vertex; likewise if it is an <b>End</b> vertex, *sample\_next* will return the next sibling of this vertex (i.e. maybe not what you want). See `*sample\_next\_advanced*` and `*sample\_prev\_advanced*` below to solve this.
 

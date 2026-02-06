@@ -237,7 +237,7 @@ Debug unlit shader to visualize the following geometry data:
 
 * Position (world space)
 
-The visualization is clamped to [0, 1]. It is therefore not possible to acquire a direct reading of values outside of that range on the screen.
+The visualization is clamped to &#91;0, 1&#93;. It is therefore not possible to acquire a direct reading of values outside of that range on the screen.
 
 +++
 

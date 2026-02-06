@@ -56,7 +56,7 @@ The CPU version of the Substance Engine (SSE2) *does not* actually support 16-
 +++
 
 +++Minimize node output size whenever possible
-Sometimes, downsizing some nodes doesn't affect the final result, but will affect performance. For example, using a Uniform Color node set to the same output size as the document is pointless: The Uniform Color should be set to Absolute [16px x 16px] and the subsequent node to Relative to Parent. Generally this trick works well for low-frequency images, such as Perlin noise.
+Sometimes, downsizing some nodes doesn't affect the final result, but will affect performance. For example, using a Uniform Color node set to the same output size as the document is pointless: The Uniform Color should be set to Absolute &#91;16px x 16px&#93; and the subsequent node to Relative to Parent. Generally this trick works well for low-frequency images, such as Perlin noise.
 
 +++
 

@@ -105,7 +105,7 @@ XML Element Definition:
 | --- | --- |
 | point | Render as points |
 | lineloop | Render as line loop |
-| patch[1..N] | Render as patches with [1..N] vertices |
+| patch&#91;1..N&#93; | Render as patches with &#91;1..N&#93; vertices |
 
 
 +++
@@ -196,11 +196,11 @@ For 'offscreen' render passes, render targets must be defined in the render pass
 <b>Attributes:</b>
 
 * attachment: The OpenGL attachment point, inspired by the OpenGL names:  
-  GL\_COLOR\_ATTACHMENT[0..3] =&gt; 'color[0..3]'  
+  GL\_COLOR\_ATTACHMENT&#91;0..3&#93; =&gt; 'color&#91;0..3&#93;'  
   GL\_DEPTH\_ATTACHMENT =&gt; 'depth'
 
 attachment: The OpenGL attachment point, inspired by the OpenGL names:  
-GL\_COLOR\_ATTACHMENT[0..3] =&gt; 'color[0..3]'  
+GL\_COLOR\_ATTACHMENT&#91;0..3&#93; =&gt; 'color&#91;0..3&#93;'  
 GL\_DEPTH\_ATTACHMENT =&gt; 'depth'
 
 * name: the name of the render target.  
