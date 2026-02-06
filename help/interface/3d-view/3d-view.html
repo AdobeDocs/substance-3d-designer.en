@@ -1,0 +1,1303 @@
+<header><meta name="title" content="3D view | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Interface > 3D view"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The 3D View helps you view and understand your materials with custom meshes and rendered PBR materials.</p>
+<p>Like with all Substance 3D Designer Windows, it works together with other windows through right-click menu options and drag-and-drop operations. The 3D view also provides two main methods of rendering: fast, realtime OpenGL visualisation, with fluent smooth interaction, <a href="/substance-3d-designer/interface/3d-view/iray.html">and high-quality raytraced renders with Iray</a>.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#viewport-interactions">Viewport interactions</a></p>
+<p><a disablelinktracking="false" href="#view-data">View data in 3D View</a></p>
+<p><a disablelinktracking="false" href="#view-scenes">View (custom) 3D scenes</a></p>
+<p><a data-disable-query="false" disablelinktracking="false" href="#shader-properties">Change shader properties</a></p>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#export-scene">Export scene</a></p>
+<p><a disablelinktracking="false" href="#menu-bar">Menu bar</a></p>
+<p><a disablelinktracking="false" href="#scene-toolbar">Scene toolbar</a></p>
+<p><a disablelinktracking="false" href="#display-toolbar">Display toolbar</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="viewport-interactions"></a>Viewport interactions</h2>
+<p>The section below explains you how to do common actions in short, along with an animated gif to illustrate the process.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Viewport navigation">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Viewport navigation" class="" id="root_content_flex_items_position_position-par_image" src="3d-navigate.gif" title="Viewport navigation"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>navigation</h3>
+<p>The 3D View camera and environment may be manipulated in three ways:</p>
+<ul>
+<li><b>Orbit:</b> LMB+Drag</li>
+<li><b>Pan</b>: MMB+Drag / Ctrl+RMB+Drag</li>
+<li><b>Zoom</b>: Scroll using MouseWheel / RMB+Drag</li>
+<li><b>Rotate environment:</b> ⇧+RMB+Drag</li>
+<li><b>Focus on a selected mesh:</b> F (focuses on entire scene if there is no selection)</li>
+<li><b>Orbit point light 1:</b> Ctrl+⇧+LMB+Drag</li>
+<li><b>Move point light 1 closer to/away from origin:</b> Ctrl+⇧+RMB+Drag</li>
+<li><b>Reset camera orbit position:</b> R</li>
+<li><b>Reset camera orbit position and properties:</b> ⇧+R</li>
+</ul>
+<p><u>Using a trackpad (macOS only)</u></p>
+<ul>
+<li><b>Orbit:</b> Two-finger swipe</li>
+<li><b>Pan:</b> ⇧+Two-finger swipe</li>
+<li><b>Zoom: </b>Two-finger pinch / ⌘+Two-finger swipe</li>
+<li><b>Rotate environment:</b> ⇧+Two-finger swipe</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Zoom direction</span>
+</span>
+<div class="cmp-text">
+<p>Each of the zooming methods is inverted with the other:<br/>
+</p>
+<ul>
+<li>Mouse wheel up <i>pulls</i> the scene closer</li>
+<li>RMB and drag up <i>pushes</i> the scene away</li>
+</ul>
+<p>The zoom direction can be inverted in the <a disablelinktracking="false" href="/substance-3d-designer/interface/preferences-window.html">Preferences</a>.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Select and focus</h3>
+<p>You can interact with meshes directly in the viewport:</p>
+<p><b>Hold ⇧ and click LMB on a mesh to select a mesh.</b> Selected meshes have a blue outline.</p>
+<p><b>Press F to focus on a selected mesh</b>. Focusing a mesh moves the camera to frame it and orbit around it.</p>
+<p><b>Click RMB while a mesh is selected</b> to access its <a data-disable-query="false" disablelinktracking="false" href="#material-actions">material actions</a> in a contextual menu.</p>
+<p><b>Press Escape to unselect.</b> The cursor does not need to be on the mesh.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="3D View - Focus and unselect">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1781109736 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1781109736 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1781109736 { width:auto; }
+        }
+    
+
+    </style>
+<img alt="3D View - Focus and unselect" class="" id="root_content_flex_items_position_position-par_image_1781109736" src="sceneBrowser-focus.gif" title="3D View - Focus and unselect"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Select, focus, unselect</i></small></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_554882628 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_554882628"></div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="3D View - Contextual menu">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1611676199 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1611676199 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1611676199 { width:auto; }
+        }
+    
+
+    </style>
+<img alt="3D View - Contextual menu" class="" id="root_content_flex_items_position_position-par_image_1611676199" src="sceneBrowser-contextualMenu.gif" title="3D View - Contextual menu"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text NoMargin">
+<p><small><i>Select, contextual menu</i></small></p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>These actions are not available for the deprecated <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/3d-renderers.html#opengl">OpenGL</a> and <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/3d-renderers.html#iray">Iray</a> renderers.</p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>CHANGING THE environment LIGHTING</h3>
+<p>Designer works with image-based lighting (IBL) by default. A high-dynamic range bitmap is used to render environment lighting.</p>
+<p>You can rotate this environment around your 3D object, or you can load either preset, or custom HDR light environments. Please note that your HDR images shoud use an equirectangular projection and have a precision of 32-bit floating point.</p>
+<p>⇧+RMB+Drag <b>rotates the environment</b> in the 3D view.</p>
+<p>To set a precise rotation, use <b>Environment &gt; Edit</b> in the top 3D View toolbar and change the <b>Rotation angle</b> slider in the properties window.</p>
+<p>To use a preset HDR light environment, click the<b> HDRI environments</b> section of the <b>3D View category </b>in the <a disablelinktracking="false" href="/substance-3d-designer/interface/the-library.html">Library</a>, and then drag and drop any of the icons to the 3D view.</p>
+<p>To use your own, custom HDR light environment, import an HDR image by dragging and dropping the file into a package in the Explorer Window (<b>Link</b> the file when prompted). Then drag and drop the resource, choose <b>Latitude/Longtitude Panorama</b> as the target.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Point lights</h3>
+<p>Go to <b>Lights &gt; Edit properties</b> to toggle point lights in your scene.</p>
+<p>Point light 1 can be moved around the scene's origin by holding LMB or RMB and dragging in the viewport in Lighting mode. <img src="image2020-9-17-10-30-37.png" width="24"/></p>
+<p>While in Camera mode <img src="image2020-9-17-10-31-32.png" width="24"/>, you can also temporarily switch to Lighting mode by hold the Ctrl+⇧ keys in combination with the mouse buttons.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_1705158365 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_1705158365"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="id-3DView-Viewingdatain3DView"><a id="view-data"></a>View data in 3D View</h2>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="View Substance graph outputs">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1440514790 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="View Substance graph outputs" class="" id="root_content_flex_items_position_position-par_image_1440514790" src="3d-material.gif" title="View Substance graph outputs"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Substance graphs</h3>
+<p>You can view entire materials as a complete material in the 3D View. This is the most common way to work, and will match the <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html">usage attributes on output nodes</a> , to the relevant texture slots of the 3D view material. That means your outputs need to be set correctly (using Templates ensures this is the case), and that you selected material/viewport shader supports</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>You view all of a graph's outputs by clicking <em>RMB</em> an emtpy area in the <a href="/substance-3d-designer/interface/the-graph-view.html">Graph view</a>, and choosing the <strong>View Outputs in 3D View</strong> option in the contextual menu. </p><p>You can also view a graph's outputs without having to open it, by clicking RMB on a graph resource in the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a> dock and choosing the <strong>View Outputs in 3D View</strong> option in the contextual menu. </p><p>As an alternative to the graph's contextual menu, you can achieve the same result by dragging the graph from the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a> dock to the <a href="https://substance3d.adobe.com/">3D View</a>.</p><p>When <em>loading a graph</em>, its outputs are automatically applied in the 3D View by default. You can disable this behaviour in the <a href="/substance-3d-designer/interface/preferences-window.html">Preferences</a>. Go to <strong>Edit &gt; Preferences &gt; Graph &gt; Common</strong> and uncheck the <strong>View outputs in 3D view when opening a graph</strong> option.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<h3>Multiple Material Slots</h3> <p>If you use custom meshes with more than one single material, you'll be asked to choose what material slot to assign the material to. With any of the above methods, click a slot to confirm your choice. For more information on Materials an their assignment, read the detailed section below.</p>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Viewing node vs graph outputs in 3D View">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_2017235836 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Viewing node vs graph outputs in 3D View" class="" id="root_content_flex_items_position_position-par_image_2017235836" src="3d-channel.gif" title="Viewing node vs graph outputs in 3D View"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3><b> Individual node/graph output</b></h3>
+<p>You can view just a single output in any available material channel in the <a href="https://substance3d.adobe.com/">3D View</a>. This is less commonly used, but good for previewing quick tests or individual nodes with no output.</p>
+<p>You can view any node, not just output nodes, by right clicking it in the <a href="/substance-3d-designer/interface/the-graph-view.html">Graph view</a>, and choosing <b>View in 3D View</b>. You'll be shown a list with available channels to assign the node to. Click any to confirm.</p>
+<p>You can also use <i>RMB</i> to drag and drop any node from the Graph view to the 3D View. You'll be shown a list with available channels to assign the node to. Click any to confirm.</p>
+<p>You can view any individual graph output by expanding the graph resource in the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a> dock, and using <i>LMB</i> to drag that output to the 3D View. You will be shown a list with available channels to assign the node to. Click any to confirm.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_47140861 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_47140861"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Viewing custom 3D meshes">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_705105749 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Viewing custom 3D meshes" class="" id="root_content_flex_items_position_position-par_image_705105749" src="3d-mesh.gif" title="Viewing custom 3D meshes"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="view-scenes"></a>View (custom) 3D scenes</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Designer offers a dozen preset meshes. These meshes have uniform, useable UV coordinates and serve most scenarios for tiling textures. Importing and viewing your own 3D meshes is also possible.<br/>
+<span style="color: rgb(80,80,80);">Pick any of the default meshes through the </span><b style="color: rgb(80,80,80);">Scene</b><span style="color: rgb(80,80,80);"> dropdown menu in the top bar.</span></p>
+<p>For custom 3D scenes, go to the <a disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes.html">Working with 3D scenes</a> section.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_757017408 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_757017408"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Changing material properties">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_2036470510 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Changing material properties" class="" id="root_content_flex_items_position_position-par_image_2036470510" src="3d-materials.gif" title="Changing material properties"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="id-3DView-ChangeMaterialSettings"><a id="shader-properties"></a>Change shader properties</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>There are a few different <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/glossary.html#shader">shaders</a> available by default in Designer, and each shader has options beyond just texture channels. They can be configured individually.</p>
+<p>Keep in mind shaders are different across Designer's <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/3d-renderers.html">3D renderers</a> and only settings marked with a 'Common' label will carry over when switching renderers.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>To change the current shader, go to<b> '</b>Materials' menu then open the submenu for the material you wish to edit.</p>
+<p>For example, to adjust the 'Height scale' property for the 'Default' material in the 'Plane (hi-res)' scene, go to 'Materials &gt; Default &gt; Edit properties'. Then find the 'Height scale' property in the Properties dock.</p>
+<p>Shaders can be reset using the 'Reset material' or 'Reset to scene state' actions in the submenu. If you were viewing Substance graph outputs in the 3D view, you will need to reapply them again.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">About tessellation</span>
+</span>
+<div class="cmp-text">
+<p>The 'Tessellation factor' property varies according to the selected 3D renderer:</p>
+<ul>
+<li><b>Rasterizer/GPU Pathtracer:</b> Located in the renderer settings (Renderer &gt; Edit settings), impacts the <i>entire scene</i>.</li>
+<li><b>OpenGL:</b> Located in the material properties, impacts the material.</li>
+<li><b>Iray:</b> Located in the mesh properties (Select a mesh element in the <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/scene-browser.html">Scene browser</a>), impacts the mesh.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_993171819 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_993171819"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Exporting the scene">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_2068942881 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Exporting the scene" class="" id="root_content_flex_items_position_position-par_image_2068942881" src="3d-view-export-scene.gif" title="Exporting the scene"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="export-scene"></a>Export scene</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Learn about exporting 3D scenes in <a disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html">this page</a>.</p>
+<h3>Export tessellated mesh (OpenGL renderer only)</h3>
+<p>You can export the mesh from the <b>3D View</b> to a file in the <b>OBJ</b>, <b>FBX</b> or <b>PLY</b> formats. If <i>tessellation</i> displacement is enabled, the subdivision of the geometry is baked into the exported mesh.<br/>
+</p>
+<p>However, the vertex normals of the original mesh may not match its new displaced shape, which means the displaced mesh may not render correctly. You can manage this in two ways:</p>
+<ul>
+<li>Use the mesh <i>normal map</i> which will provide the correct normals</li>
+<li><i>Recompute the mesh normals</i> on export using the mesh normal map, which means these normals are baked into the exported mesh and the normal map is no longer necessary</li>
+</ul>
+<p>To export the 3D View mesh, go to <b>Scene &gt; Export tessellated mesh...</b>, set your choice regarding normals recomputation, then select a location, name and file format for the exported mesh.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>This feature is <em>not available</em> on <strong>macOS</strong>.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-caution">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">A few caveats</span>
+</span>
+<div class="cmp-text">
+<p>If the original mesh has multiple materials and/or UV sets, these will be <i>merged into one</i>.</p>
+<p>The duration of the export process and resulting file size depend on the mesh triangle count and <i>tessellation factor</i>. High tessellation factor values can result in instability depending on the GPU's onboard memory pool.</p>
+<p>That being said, the vertex count of the tessellated mesh should be in the <i>same range</i> as the pixel count of the <i>height</i> map.</p>
+<p>Having a mesh more dense than the height map can make for a slightly smoother mesh when using <b>Phong</b> tessellation, yet you should aim for reliably getting the mesh exported with the required height map detail first, and then refining the exported mesh in other software if needed.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<h3>TDR (Windows only)</h3>
+<p>This feature requires that the <b>Timeout Detection and Recovery (TDR)</b> match the recommended values in <a disablelinktracking="false" href="/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html">this page</a> of our documentation, as stated in Designer's <a href="/substance-3d-designer/getting-started/system-requirements.html">Technical requirements</a>.</p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_1281724126 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_1281724126"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="id-3DView-Menubar"><a id="menu-bar"></a>Menu bar</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The menu bar provides 7 menus with options related to the 3D View. below is an overview of all options available.</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="Menubar">
+<spectrum-accordion-item data-label="Scene" data-titleid="item-Scene-Menubar">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Materials" data-titleid="item-Materials-Menubar">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Lights" data-titleid="item-Lights-Menubar">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Camera" data-titleid="item-Camera-Menubar">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Environment" data-titleid="item-Environment-Menubar">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Display" data-titleid="item-Display-Menubar">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Renderer" data-titleid="item-Renderer-Menubar">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Scene-Menubar">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_content-Scene_grid9 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Scene_grid9 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_content-Scene_grid9 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Scene_grid9 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_content-Scene_grid9" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D view states. 3D Resource sare just the mesh, Scene states are lights, camera, and related settings, and can also contain the mesh alongside.<br/>
+</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Scene menu meshes">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Scene_grid9_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Scene_grid9_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Scene_grid9_items_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/3d-view-meshes?$png$&amp;jpegSize=300&amp;wid=1536"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/3d-view-meshes?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/3d-view-meshes?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Scene menu meshes" class="" id="root_content_flex_items_position_position-par_accordion_content-Scene_grid9_items_image" src="3d-view-meshes.png" title="Scene menu meshes"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>Edit: </b>Loads scene options in the <a disablelinktracking="false" href="/substance-3d-designer/interface/properties.html">Properties</a> panel. Lets you toggle visibility of the 3D Mesh.</p>
+<p><b>Standard primitives:</b> Shows any of the below simple 3D meshes in the 3D View.</p>
+<ul>
+<li>Cube</li>
+<li>Cylinder</li>
+<li>Hollow Box</li>
+<li>Inner Box</li>
+<li>Plane</li>
+<li>Plane (hi-res)</li>
+<li>Sphere</li>
+</ul>
+<p><b>Extended primitives:</b> Shows any of the below 3D meshes in the 3D View.</p>
+<ul>
+<li>Cloth</li>
+<li>Mat Ball</li>
+<li>Rounded Cube</li>
+<li>Rounded Cylinder</li>
+<li>Sphere 2 tiles</li>
+<li>Torus</li>
+</ul>
+<p><b>Display UV's in 2D View:</b> Enables the display of the UVs for the <a disablelinktracking="false" href="#viewport-interactions">currently selected mesh</a> as an overlay in <a href="/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html">the 2D View</a> .</p>
+<p><b>Create 3D resource from current scene...:</b> Creates a new <a disablelinktracking="false" href="/substance-3d-designer/resources/3d-scene-resource.html">3D scene resource</a> in a package out of the current scene.</p>
+<p><b>Load state file...: </b>Loads an externally saved <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes.html#scene-state-files">scene state file</a> (*.sbsscn). Does not replace the 3D mesh, only loads settings for 3D renderer, camera and lights.</p>
+<p><b>Load state file with mesh...:</b> Loads an externally saved <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes.html#scene-state-files">scene state file</a> (*.sbsscn). Loads settings for 3D renderer, camera, lights, along with its references 3D scene. .</p>
+<p><b>Save state file...: </b>Save the current state of the 3D view to a <a disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes.html#scene-state-files">scene state file</a> (*.sbsscn).</p>
+<p><b>Save current state as default: </b>Set the current state of the 3D view as as a <a disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes.html#scene-state-files">scene state file</a> to be used by default when creating new 3D Views. This file is loaded every time the 3D view is reset or intialised, and can be set in the <a href="/substance-3d-designer/interface/preferences-window/project-settings.html">Project settings</a>.</p>
+<p><b>Export scene:</b> <i>(Rasterizer/GPU Pathtracer renderers only)</i> Exports the current scene as a <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html#flattened-export">flattened scene</a>, where only the result scene is written and any references to the original scene are lost. The contents of the exported scene depend on the features supported by the selected export format.<br/>
+Available formats: STL, FBX, GLB, GLTF, PLY, USDC, USD, USDA, USDZ, OBJ.</p>
+<p><b>Export scene with layers:</b> <i>(Rasterizer/GPU Pathtracer renderers only) </i>Exports the current scene as a <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html#layered-export">layered scene</a>, where all edits to the original scene are saved to separate files in a non-destructive workflow. This is only available for USD file formats.<br/>
+<span style="color: rgb(80,80,80);">Available formats are: USDC, USD, USDA.</span></p>
+<p><b>Export tessellated geometry:</b> <i>(OpenGL renderer only)</i> Exports the current scene with tessellation as raw geometry, see <a disablelinktracking="false" href="#export-scene">Export scene</a> section.</p>
+<p><b>Reset scene: </b>Resets the 3D view to default.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-caution">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Caution</span>
+</span>
+<div class="cmp-text">
+<p>Some software updates can change the way Scene state files are saved/loaded.<br/>
+</p>
+<p>If the scene is <i>not restored correctly</i> from the file, it is recommended to manually set the desired state of the scene, and <i>reexport</i> the Scene state file.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Materials-Menubar">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <b>Materials</b> menu changes based on the 3D mesh loaded and the renderer used. <a href="/substance-3d-designer/interface/3d-view/iray.html">For Iray rendering, see the Iray page.</a><br/>
+</p>
+<h3><b><a id="material-actions"></a>Material actions</b></h3>
+<p>The 'Materials' menu features a list of all materials assigned to a mesh in the scene. <span style="color: rgb(80,80,80);">Each material listed in the 'Materials' menu has a submenu of material actions:</span></p>
+<p><b>Edit</b> - Edit settings of the current material in the Properties window.<br/>
+</p>
+<p><b>Shaders list</b> - All <a disablelinktracking="false" href="/substance-3d-designer/glossary.html#shader">shaders</a> available for the current <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/3d-renderers.html">3D renderer</a>.</p>
+<p><b>Load Definition...: </b>(OpenGL renderer only) Lets you load your own custom <a href="/substance-3d-designer/interface/3d-view/glslfx-shaders.html">GLSLFX shader.</a> The shader is added into the list above.</p>
+<p><b>Reset common parameters:</b> Resets all parameters that are common across shaders. For instance, when switching between the OpenGL and Iray renderers, several parameter values in the <a href="/substance-3d-general/adobe-standard-material.html">Adobe Standard Material</a> are carried across.</p>
+<p><b>Rename:</b> Change the label for this material.</p>
+<p><b>Reset material:</b> Resets all shader parameters to their default values. If textures are connected to any of the shader's samplers, they are disconnected.</p>
+<p><b>Reset material to scene state: </b><i>(Rasterizer/GPU Pathtracer renderers only)</i> Resets all properties for <a disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html">overridden materials</a> to their original values from the scene, including original textures if any.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Other options</h3>
+<p><b style="color: rgb(80,80,80);">Add: </b><span style="color: rgb(80,80,80);">Adds a new material to the list. It is unused by default and may be <a data-disable-query="false" disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html#connect-material" target="_blank">connected to a scene material</a> using the <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/scene-browser.html">Scene browser</a>.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Lights-Menubar">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <b>Lights</b> menu only deals with older, legacy ambient and point lights. These lights are not PBR-compliant and do not give the same high-quality results as HDR image based rendering.<br/>
+</p>
+<p><b>Edit:</b> edit individual settings for the ambient light and the two point lights.</p>
+<p><b>Reset Lights:</b> resets light properties to default state.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Camera-Menubar">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <b>Camera</b> menu lets you change camera settings, go to predefined angles, and load Camera angles stored inside a custom 3D mesh file.<br/>
+</p>
+<p><b>Edit properties:</b> opens the default camera's settings in the Properties dock.</p>
+<p><b>Focus: </b>(F) Focuses the default camera on the currently selected mesh. I.e., frames the mesh and aligns the camera pivot to it. If there is no active selection, the scene's global bounding box is used.</p>
+<p><b>Scene cameras:</b> If the scenes includes one or more cameras, they are listed here and their settings are used as presets to be applied to the scene's default camera.</p>
+<p><b>Viewpoints:</b> Preconfigured point of views for the default camera. These only impact the camera's transformation (position and rotation).</p>
+<ul>
+<li>Default: A high-angle shot from the objects' front left.</li>
+<li>Back</li>
+<li>Bottom</li>
+<li>Front</li>
+<li>Left</li>
+<li>Right</li>
+<li>Top</li>
+</ul>
+<p><b style="color: rgb(80,80,80);">Save render...:</b><span style="color: rgb(80,80,80);"> (Alt+S) Saves the currently rendered image to disk, at the resolution specified in the renderer properties, or default camera's properties if an overriding resolution was set up.</span></p>
+<p><b>Copy render to clipboard:</b> (Alt+C) Copies the currently rendered image to the clipboard, for pasting in an external image editor.</p>
+<p><b>Reset position:</b> (R) Resets the position of the camera.</p>
+<p><b>Reset selected:</b> (Shift+R) Resets the position and properties of the camera.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Environment-Menubar">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <b>Environment</b> menu lets you modify the settings related to the HDRI environment used to light PBR correct materials.<br/>
+</p>
+<p><b>Edit properties:</b> Gives access to the HDR environment settings, used for lighting in PBR. Specifically you can toggle visiblity, change exposure with a preview, and set rotation with a precise slider..</p>
+<p><b>Reset environment:</b> Resets all environment properties to default.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Display-Menubar">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The display menu lets you toggle view modes, helpers and information for the rendered scene:<br/>
+</p>
+<p><b style="color: rgb(80,80,80);">Axis:</b><span style="color: rgb(80,80,80);"> Toggles display of the 3D axis in the viewport.</span></p>
+<p><b style="color: rgb(80,80,80);">Grid:</b><span style="color: rgb(80,80,80);"> Toggles display of the world frid.</span></p>
+<p><b>Resolution:</b> Toggles the display of a small resolution counter.</p>
+<p><b>Scene stats:</b> Toggles the display of scene statistics, such as polycount, materials count, static meshes count, etc.</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="displayactionsrendererspecific">
+<spectrum-accordion-item data-label="Rasterizer/GPU pathtracer only" data-titleid="item-RasterizerGPUpathtraceronly-displayactionsrendererspecific">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="OpenGL renderer only" data-titleid="item-OpenGLrendereronly-displayactionsrendererspecific">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-RasterizerGPUpathtraceronly-displayactionsrendererspecific">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b style="color: rgb(80,80,80);">Render time:</b><span style="color: rgb(80,80,80);"> The time to compute one sample for the full image.</span></p>
+<p><b>Samples:</b> The amount of pixel samples computed for accumulation antialiasing (Rasterizer) or pathtracing (GPU pathtracer).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-OpenGLrendereronly-displayactionsrendererspecific">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b style="color: rgb(80,80,80);">Backface culling:</b><span style="color: rgb(80,80,80);"> disabling this option lets you see a mesh face from </span><i style="color: rgb(80,80,80);">both sides</i><span style="color: rgb(80,80,80);">. The option works in combination with Wireframe</span></p>
+<p><b>Bounding box:</b> toggles display of the mesh' bounding box.</p>
+<p><b>Wireframe:</b> toggles display of the mesh wireframe.</p>
+<p><b>Light:</b> toggles display of helper lines for the point lights.</p>
+<p><b>Vertex tangent space:</b> displays the tangent, binormal and normal vectors for all vertices as colored gizmos</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Some of these options are available as button toggles in the <a disablelinktracking="false" href="#scene-toolbar">Scene toolbar</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Renderer-Menubar">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <b>Renderer</b> menu lets you switch 3D renderers and access the properties of the current 3D renderer through the <b>Edit properties</b> action.</p>
+<p>The available renderers and their settings are documented in <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/3d-renderers.html">this dedicated page</a><span style="color: rgb(80,80,80);">.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_1656840495 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_1656840495"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="scene-toolbar"></a>Scene toolbar</h2>
+<p>The <b>Scene</b> toolbar, which is located on the <i>left border</i> of the 3D View by default, offers controls for orbiting the cameras or lights around the scene. It also lets you access the <b>Scene Browser</b> dock.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>The toolbar can be <i>repositioned</i> around the <b>3D View</b> dock using the leftmost <i>handle</i> represented by three parallel lines.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Camera/Light toggle</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 8.333333%; max-width: 8.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" title="Camera/light toggle">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Camera/light toggle" class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_image" src="3dview-toolbar-camera-light-toggle.png" title="Camera/light toggle"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text">
+<div class="cmp-text">
+<p>This toggle lets you select which of the  <em style="letter-spacing: 0.0px;">current camera</em>  or the  <em style="letter-spacing: 0.0px;">scene lights</em>  should orbit around the scene when holding  <em style="letter-spacing: 0.0px;">LMB</em>  and dragging the mouse in the viewport.<br/> The  <em style="letter-spacing: 0.0px;">camera</em>  is selected by default.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Scene browser">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1624831154 { width:512px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1624831154 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1624831154 { width:px; }
+        }
+    
+
+    </style>
+<img alt="Scene browser" class="" id="root_content_flex_items_position_position-par_image_1624831154" src="3dview-toolbar-scene-browser.png" title="Scene browser"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Selection tool</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_dynamic_grid_copy > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_dynamic_grid_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 8.333333%; max-width: 8.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_dynamic_grid_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_dynamic_grid_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" title="3D View - 'Select' tool">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_copy_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_copy_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_copy_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="3D View - 'Select' tool" class="" id="root_content_flex_items_position_position-par_dynamic_grid_copy_items_image" src="3DViewToolbars-select.png" title="3D View - 'Select' tool"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text">
+<div class="cmp-text">
+<p>Selects individual meshes in the scene. Selected meshes have a blue outline in the viewport and are highlighted in the <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/scene-browser.html">Scene browser</a>.</p>
+<p>A contextual menu is available for selected meshes and may be displayed by clicking RMB.</p>
+<p>Meshes can also be selected in Camera or Light modes, by pressing Shift+LMB.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Scene browser</h3>
+<p>The <b>Scene browser</b> dock displays a hierachy of all elements in a 3D scene.</p>
+<p>As a <i>nested</i> dock, it can be repositioned around the 3D View dock as well as <i>undocked</i> into a floating window.</p>
+<p>Selecting the camera or environment objects created by Designer (listed in <b>bold</b>) will display their properties in the Properties dock. This is a convenient way to quickly access these settings instead of having to go through the menu bar.</p>
+<p>Similarly, the properties of <a disablelinktracking="false" href="/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html">overriding material copies</a> can be accessed by selecting them.</p>
+<p><i>(OpenGL renderer only)</i> Selecting an <i>element of the scene</i> in the list will replace it in the viewport by a <i>wireframe overlay</i> of that element.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>The Scene browser and its features are covered extensively in <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/scene-browser.html">the dedicated page</a>.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-tip">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Tip</span>
+</span>
+<div class="cmp-text">
+<p>Once an item in the tree is selected, you can use the <i>arrow keys</i> to quickly move the selection through the items.</p>
+<p>In combination with the wireframe overlay mentioned above, this is handy to <i>quickly identify objects</i> in complex scenes.</p>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="3D View display options">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1016406649 { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="3D View display options" class="" id="root_content_flex_items_position_position-par_image_1016406649" src="3d-view-display-2.gif" title="3D View display options"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Display options</h3>
+<p>Click the <img height="22" src="3d-view-show-environment.jpg"/> <b>Show environment</b> button to toggle the display of the scene's environment. The same setting can be found in the Properties dock after going to <b>Environment &gt; Edit</b> in the 3D View's menu bar.</p>
+<p>Similarly, click the <img height="22" src="3d-view-display-settings.jpg"/> <b>Display options</b> button to display button toggles equivalents for the settings found in the <b>Display</b> menu.</p>
+<p><b style="color: rgb(80,80,80);"><img height="22" src="3d-view-display-axis.jpg"/> Axis:</b><span style="color: rgb(80,80,80);"> Toggles display of the 3D axis in the viewport.</span></p>
+<p><b><img height="22" src="3d-view-display-grid.jpg"/> Grid:</b> Toggles the display of the world grid.</p>
+<p><b><img height="22" src="3d-view-display-scene-stats.jpg"/> Scene stats:</b> Toggles display of scene statistics, such as polycount, materials count, static meshes count, etc.</p>
+<p><u style="color: rgb(80,80,80);">OpenGL renderer only</u></p>
+<p><b><img height="22" src="3d-view-display-backface-culling.jpg"/> Backface culling:</b> Disabling this option lets you see a mesh face from <i>both sides</i>. The option works in combination with Wireframe.</p>
+<p><img height="22" src="3d-view-display-bounding-box.jpg"/><b> Bounding Box: </b>Toggles display of the mesh' bounding box.</p>
+<p><b style="color: rgb(80,80,80);"><img height="22" src="3d-view-display-vertex-tangent-space.jpg"/> Vertex tangent space: </b><span style="color: rgb(80,80,80);">Displays the tangent, binormal and normal vectors for all vertices as colored gizmos.</span></p>
+<p><b><img src="3d-view-display-wireframe.jpg" width="22"/> Wireframe:</b> Toggles display of the mesh as a wireframe.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_237558323 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_237558323"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="display-toolbar"></a>Display toolbar</h2>
+<p>The <b>Display</b> toolbar, which is located at the <i>bottom</i> of the <b>3D View</b> panel by default, lets you control how the rendered image is displayed in the viewport.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+
+            The toolbar can be  <em>repositioned</em> around the <strong>3</strong><strong>D View</strong> dock using the leftmost  <em>handle</em> represented by three parallel lines.
+        </div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Color channels</h3>
+<p>You can display a single channel of the image using the <img src="2d-view-icon-channels.png" width="22"/> <b>Color channels</b> button. This opens a combo box letting you select which of the <b>Red</b>, <b>Green</b> and <b>Blue</b> channels should be displayed. The normal aspect of the image with all channels is restored by selecting the <b>RGB</b> option.</p>
+<p>The <i>icon</i> of the <b>Color channels</b> button <i>changes</i> depending on the currently display channel(s).</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Color space</h3>
+<p>For the most accurate representation of color, images are displayed by default in a <i>color space</i> which matches the one used by the <i>monitor</i>.</p>
+<p>The available controls will depend on the color management mode set in the <a href="/substance-3d-designer/interface/preferences-window/project-settings.html">Project settings</a>. Learn more about these controls in the <a href="/substance-3d-designer/color-management.html">Color management</a> section in this page.</p>
+</div>
+</div>
+</div>
+</div></body>

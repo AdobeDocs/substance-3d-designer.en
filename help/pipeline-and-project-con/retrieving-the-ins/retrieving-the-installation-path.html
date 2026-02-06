@@ -1,0 +1,170 @@
+<header><meta name="title" content="Retrieving the installation path | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Pipeline and Project Configuration > Retrieving the installation path"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Retrieving the installation path</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page regroups information on ways to retrieve the installation path of <a href="https://www.adobe.com/products/substance3d-designer.html" rel="nofollow">Substance 3D Designer</a> depending on the version and platform.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Retrievingtheinstallationpath-Windows">Windows</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Creative Cloud Desktop</h3>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Open <b>Windows registry editor</b> (regedit)</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Navigate to the registry key: <b>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\</b></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Open the sub-key named <b>Adobe Substance 3D Designer.exe</b></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>The value of the key contains the path to the application executable where it is installed</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>This registry key is only available since version 11.2.<br/>
+For older versions, the installation path can be retrieved from the file associations in <span class="code">HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ Explorer\FileExts</span></p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Substance edition (standalone)</h3>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Open <b>Windows registry editor</b> (regedit)</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Navigate to the registry key: <b>HKEY_LOCAL_MACHINE\ SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</b></p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Find the sub-key matching the <b>AppID</b> of your application version (see the table below)</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>The value of the key contains the path to the application installation location</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 100.0%;"><colgroup> <col style="width: 20.0%;"/> <col style="width: 80.0%;"/> </colgroup><tbody><tr><th>Version</th><th>AppId</th></tr><tr><td><strong>Version 5.x</strong></td><td>{25E7D16D-1FBA-49EA-BF36-E2D6B20A9206}</td></tr><tr><td><strong>Version 6.x</strong></td><td>{09a302b1-8da8-4f62-b0cb-a208faa210f9}</td></tr><tr><td colspan="1"><strong>Version 7.x (2017.x) to 11.1</strong></td><td colspan="1">{e9e3d6d9-3023-41c7-b223-11d8fdd691b9}</td></tr><tr><td><strong>Version 11.2 (or newer)</strong></td><td>{662bb79f-5616-44e6-a84d-b3d6abebe002}</td></tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Steam edition</h3>
+<p>The application is installed in the <span class="code">steamapps/common/</span> sub-folder of the Steam installation folder.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>macOS</h2>
+<p>On Mac the application is installed in the following:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 100.0%;"><colgroup> <col style="width: 20.0%;"/> <col style="width: 80.0%;"/> </colgroup><tbody><tr><th>Version</th><th>Path</th></tr><tr><td><strong>11.2 or newer</strong></td><td><strong>/Applications/Adobe Substance 3D Designer.app</strong></td></tr><tr><td colspan="1"><strong>Legacy</strong></td><td colspan="1"><strong>/Applications/Substance Designer.app</strong></td></tr></tbody></table>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Linux</h2>
+<p>On Linux the rpm package is installed in the following path:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<table style="width: 100.0%;"><colgroup> <col style="width: 20.0%;"/> <col style="width: 80.0%;"/> </colgroup><tbody><tr><th>Version</th><th>Path</th></tr><tr><td colspan="1"><strong>11.2 or newer</strong></td><td colspan="1"><strong>/opt/Adobe/Adobe_Substance_3D_Designer</strong></td></tr><tr><td colspan="1"><strong>Legacy</strong></td><td colspan="1"><strong>/opt/Allegorithmic/Substance_Designer</strong></td></tr></tbody></table>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><strong> <br/></strong></p>
+</div>
+</div>
+</div>
+</div></body>

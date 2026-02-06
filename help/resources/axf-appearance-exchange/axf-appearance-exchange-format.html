@@ -1,0 +1,1445 @@
+<header><meta name="title" content="AxF (Appearance eXchange Format) | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Resources > AxF (Appearance eXchange Format)"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 25%; max-width: 25%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" title="AxF file icon">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid_items_image { width:px; }
+        }
+    
+
+    </style>
+<a href="https://www.xrite.com/axf">
+<img alt="AxF file icon" class="" id="root_content_flex_items_position_position-par_grid_items_image" src="axf-file-icon.png" title="AxF file icon"/>
+</a>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text">
+<div class="cmp-text">
+<p>Substance 3D Designer supports <a href="https://www.xrite.com/axf">X-Rite's Appearance eXchange Format.</a> The creators of the format describe it as follows:</p>
+<p>'AxF files are used to capture, store, edit, and communicate complex material characteristics throughout the digital design workflow. AxF provides a standard way to store and share all relevant appearance data – color, texture, gloss, refraction, translucency, special effects (sparkles) and reflection properties – across Product Lifecycle Management (PLM), Computer-Aided Design (CAD), and state-of-the art rendering applications.'</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In simple terms, AxF files host a number of textures extracted by X-Rite's TAC7 scanner hardware, coupled with metadata that describe additional properties of the material. That means an AxF is more than just texture data: it also carries shading properties.</p>
+<p>AxF files are <i>not</i> imported as a package <a disablelinktracking="false" href="/substance-3d-designer/resources.html">resource</a>. Rather, the <a disablelinktracking="false" href="#import">import process</a> involves extracting textures and metadata from the AxF file then using those to prepare graphs created from <a disablelinktracking="false" href="#graph-templates">dedicated templates</a>.</p>
+<p>The available templates are aimed at two AxF workflows:</p>
+<ul>
+<li><b>Converting</b> an SVBRDF material in an AxF file into a PBR material;</li>
+<li><b>Editing</b> an SVBRDF material in place and <a disablelinktracking="false" href="#export">exporting it</a> to an existing AxF file as a new layer.</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Supported material models</span>
+</span>
+<div class="cmp-text">
+<p> </p>
+<p>Only materials using an <b>SVBRDF</b> (Spatially Varying BRDF) model may be <i>fully</i> loaded and edited in Designer.</p>
+<p>Materials using the <b>EP-SVBRDF</b> (Energy Preserving SVBRDF) model can be loaded but only features existing in the SVBRDF model can be edited and visualised. Features exclusive to EP-SVBRDF are not supported.</p>
+<p>Other models are not supported.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#import">Importing AxF files</a></p>
+<p><a disablelinktracking="false" href="#graph-templates">Graph templates</a></p>
+<p><a disablelinktracking="false" href="#export">Exporting AxF files</a></p>
+<p><a disablelinktracking="false" href="#view">Viewing AxF materials in the 3D View</a></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_1489732516 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_1489732516"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="import"></a>Importing AxF files</h2>
+<p>The AxF files import workflow may be started from on of the two methods below:</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="AxFimportworkflows">
+<spectrum-accordion-item data-label="Home screen" data-titleid="item-Homescreen-AxFimportworkflows">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Explorer" data-titleid="item-Explorer-AxFimportworkflows">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Homescreen-AxFimportworkflows">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Click on the <b>Import AxF...</b> button in the <a disablelinktracking="false" href="/substance-3d-designer/interface/home-screen.html">Home screen</a>'s left section.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="AxF: Start import from Home screen">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Homescreen_image { width:600px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Homescreen_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Homescreen_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_home-screen?$png$&amp;jpegSize=100&amp;wid=600"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_home-screen?$png$&amp;jpegSize=100&amp;wid=600"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_home-screen?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="AxF: Start import from Home screen" class="" id="root_content_flex_items_position_position-par_accordion_content-Homescreen_image" src="axf_home-screen.png" title="AxF: Start import from Home screen"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+<div class="item-Explorer-AxFimportworkflows">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Click RMB on a package in the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a>, and go to <b>Import &gt; AxF</b> in the package's contextual menu.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="AxF: Start import from Explorer">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Explorer_image { width:600px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Explorer_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Explorer_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="AxF: Start import from Explorer" class="" id="root_content_flex_items_position_position-par_accordion_content-Explorer_image" src="axf_explorer.png" title="AxF: Start import from Explorer"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Import dialog</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <b>AxF import</b> dialog lets you review the data loaded from the selected AxF file, and setup the graph templates required for performing the intended edits or conversions.</p>
+<p>It features four sections:</p>
+<p>The <b>Header</b> displays the name of the material detected in the AxF file, as well as its representation (currently, always SVBRDF). The preview thumbnail embedded into the file is also displayed.</p>
+<p>The <b>Templates</b> section lets you set up the <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs.html">Substance graph</a> and <a disablelinktracking="false" href="/substance-3d-designer/mdl-graphs.html">MDL graph</a> templates to get started with working on the material. See the <a disablelinktracking="false" href="#graph-templates">Graph templates</a> section below to learn more about these templates and setting them up.</p>
+<p><b>Textures</b> lists all textures extracted from the AxF file involved in the detected material. For each texture, their name, native resolution, data format and physical size are displayed.</p>
+<p><b>Metadata</b> and <b>Properties</b> list data extracted from the material in the AxF file. These have an impact on how some Substance graph templates properties are configured (see <a disablelinktracking="false" href="#graph-templates">Graph templates</a> section below).</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="AxF: Import dialog">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1060320888 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1060320888 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1060320888 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_import?$png$&amp;jpegSize=200&amp;wid=800"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_import?$png$&amp;jpegSize=200&amp;wid=800"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_import?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="AxF: Import dialog" class="" id="root_content_flex_items_position_position-par_image_1060320888" src="axf_import.png" title="AxF: Import dialog"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Result</h3>
+<p>After clicking the <b>OK</b> button, a package is created in the <a disablelinktracking="false" href="/substance-3d-designer/interface/the-explorer-window.html">Explorer</a>. The package includes the following resources:</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_1782049544 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_1782049544 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_1782049544 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_1782049544 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_1782049544" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">A </span><b style="color: rgb(80,80,80);">Resources</b><span style="color: rgb(80,80,80);"> folder hosts a </span><i style="color: rgb(80,80,80);">subfolder</i><span style="color: rgb(80,80,80);"> for each material imported from the AxF file.</span><br/>
+</p>
+<p>Each subfolder includes another subfolder that contains the <i>textures</i> extracted from the AxF file for that material. This last subfolder is named after the material <i>representation</i> used by the textures (currently only <b>SVBRDF</b>).</p>
+<p>A graph for each template set up in the <b>Templates</b> section of the import dialog.<br/>
+In the case of <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs.html">Substance graphs</a>, these are preconfigured with the textures and data extracted from the AxF file, as well as your selected template settings (see <a disablelinktracking="false" href="#graph-templates">Graph templates</a> section below).</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="AxF: Package result of import process">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1782049544_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1782049544_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1782049544_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="AxF: Package result of import process" class="" id="root_content_flex_items_position_position-par_flex_1782049544_items_image" src="axf_package.png" title="AxF: Package result of import process"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_14897325 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_14897325"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="graph-templates"></a>Graph templates</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_1139805009 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_1139805009 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_1139805009 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_1139805009 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_1139805009" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>There are graph templates dedicated to AxF workflows for <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs.html">Substance graphs</a> and <a disablelinktracking="false" href="/substance-3d-designer/mdl-graphs.html">MDL graphs</a>.</p>
+<p>Click the <b>Add template</b> button and select the desired graph type in the drop down menu.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="AxF: Add template in import dialog">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1139805009_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1139805009_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1139805009_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="AxF: Add template in import dialog" class="" id="root_content_flex_items_position_position-par_flex_1139805009_items_image" src="axf_add-template.png" title="AxF: Add template in import dialog"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_1153416824 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_1153416824 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_1153416824 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_1153416824 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_1153416824" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h3>MDL graph templates<br/>
+</h3>
+<p>Generic conversion templates are available to map the outputs of <b>AxF to PBR</b> Substance graphs templates to an <a disablelinktracking="false" href="/substance-3d-designer/mdl-graphs.html">MDL</a> material.</p>
+<p>Thus, these templates are best used in combination with the 'AxF to Metallic Roughness' and 'AxF to Specular Glossiness' Substance graph templates.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="AxF: MDL templates">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1153416824_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1153416824_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1153416824_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="AxF: MDL templates" class="" id="root_content_flex_items_position_position-par_flex_1153416824_items_image" src="axf_templates-mdl.png" title="AxF: MDL templates"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_1153416824_copy > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_1153416824_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_1153416824_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_1153416824_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_1153416824_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h3>Substance graph templates<br/>
+</h3>
+<p>Two types of Substance graph templates are available:</p>
+<p><b>AxF to Metallic Roughness</b> and <b>AxF to Specular Glossiness</b> are <i>conversion</i> templates let you map AxF materials to standard PBR models.<br/>
+These can then be used with the default 3D View shaders and combined with other PBR materials produced in Designer, <a disablelinktracking="false" href="https://www.adobe.com/products/substance3d-sampler.html">Sampler</a> or acquired from our <a disablelinktracking="false" href="https://substance3d.adobe.com/assets/">3D Assets</a> library.<br/>
+Conversion templates may be used in combination with MDL templates dedicated to AxF, see above.</p>
+<p><b>AxF to AxF</b> is a <i>passthrough</i> template that lets you edit AxF materials in place and export these changes as new layers in existing AxF files. See <a disablelinktracking="false" href="#export">Exporting AxF files</a> below to learn more.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="AxF: MDL templates">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1153416824_copy_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1153416824_copy_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1153416824_copy_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="AxF: MDL templates" class="" id="root_content_flex_items_position_position-par_flex_1153416824_copy_items_image" src="axf-templates.png" title="AxF: MDL templates"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_1480763215 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_1480763215 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_1480763215" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_1480763215_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>For all Substance graph templates added in the <b style="color: rgb(80,80,80);">Templates</b> list, the following additional operations are performed:</p>
+<p>For any <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"><b>Input</b></a> node which <i>usage</i> matches the <i>identifier</i> of a texture extracted from the AxF file, that Input node is replaced by a <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html">Bitmap</a> node referencing that texture;</p>
+<p>The graph's <b>Resolution</b> property (I.e., Output size) is automatically set to the power of two equal to or above the resolution of the <i>largest</i> extracted texture;</p>
+<p>The <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html">Bitmap</a> nodes' <b>Resolution</b> property (I.e., Output size) is automaticall set to mach the graph's, after the previous operation is applied;</p>
+<p>The graph's <b>Physical size</b> property is set to the physical size of the <i>first</i> extracted texture;</p>
+<p>The <i>default values</i> of the graph's parameters are set to match the data in the AxF file.</p>
+<p>The <i>metadata</i> extracted from the material in the AxF file is copied in the graph's <b>Description</b> property.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-caution">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Caution</span>
+</span>
+<div class="cmp-text">
+<p>The default values of the graph's parameters should not be modified after this initial configuration.</p>
+<p>They specify shading properties that are essential to interpret the values in the textures correctly.</p>
+<p>Therefore, changing these settings will result in incorrect render when <a disablelinktracking="false" href="#view">visualizing the material</a> in the <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view.html">3D View</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="AxF: Substance graph parameters">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_1480763215_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_1480763215_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_1480763215_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="AxF: Substance graph parameters" class="" id="root_content_flex_items_position_position-par_flex_1480763215_items_image" src="axf_graph-props.png" title="AxF: Substance graph parameters"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="export"></a>Exporting AxF files</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Existing AxF files can be edited in place from Designer, their resources are updated using the <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html">outputs</a> of a <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs.html">Substance graph</a>.</p>
+<p>With the ability to export graph outputs to AxF files, a typical AxF workflow in Designer may look like this:</p>
+</div>
+</div>
+<div class="procedure parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="procedure">
+<ol class="steps">
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Import AxF file</span><br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Use 'AxF to AxF' Substance graph template<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Edit the extracted textures using the features and nodes available in Substance graphs<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li class="step">
+<div class="step">
+<div class="text">
+<div class="cmp-text">
+<p>Export the graph outputs to the same AxF file<br/>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+</div></div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The graph's <b>Physical Size</b> property is used to set the <b>Physical Size</b> attribute of the updated textures in the edited AxF file.<br/>
+</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">The changes to the resources in the file are added as a <i>new layer</i>. This means each export performed from Designer to the same AxF file will add to that file's size.</span><br/>
+</p>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1186522481_cop { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1186522481_cop { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1186522481_cop { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Export AxF" class="" id="root_content_flex_items_position_position-par_image_1186522481_cop" src="exportaxf.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h3>Export dialog</h3>
+<p>The <b>AxF</b> export dialog is available in the <b>Export outputs</b> dialog as a dedicated tab.</p>
+<p>In the <a disablelinktracking="false" href="/substance-3d-designer/interface/the-graph-view.html">Graph View</a> toolbar, open the <img alt="" src="tools.jpg"/> <b>Tools</b> menu and select the <b>Export outputs...</b> option to display the dialog, then select the <b>AxF</b> tab.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="AxF: Export option in Graph View toolbar">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="AxF: Export option in Graph View toolbar" class="" id="root_content_flex_items_position_position-par_flex_items_image" src="axf_graph-export.png" title="AxF: Export option in Graph View toolbar"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">The dialog features three main sections:</span><br/>
+</p>
+<p>The <b>File</b> input field lets you select the target AxF file which should be edited. That file is loaded and checked, then if valid its data is used to populate the 'AxF resource' columns below.</p>
+<p><b>Mapped outputs</b> lists the graph outputs in the Output column, and matches their <i>usage</i> with an AxF resource in the target file that shares the same <i>identifier</i>. If any issues are detected, they are displayed as a warning (yellow) or error (ref) in the Notes column.</p>
+<p><b>Unmapped outputs</b> lists graph outputs and AxF resources in the target file that could not be mapped. These outputs are ignored and these AxF resources are unchanged.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>A graph output needs to have its <b>Group</b> property set to 'AxF' for it to be listed in this dialog.</p>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="AxF: Export dialog">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1060320888_cop { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1060320888_cop { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1060320888_cop { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_export?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_export?$png$&amp;jpegSize=200&amp;wid=650"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_export?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="AxF: Export dialog" class="" id="root_content_flex_items_position_position-par_image_1060320888_cop" src="axf_export.png" title="AxF: Export dialog"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Click <b>Start export </b><span style="color: rgb(80,80,80);">to edit the target AxF file with the new layer containing the changes in the mapped outputs.</span></p>
+<p>The result is displayed as a message next to the progress bar in the dialog's status bar.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-tip">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Tip</span>
+</span>
+<div class="cmp-text">
+<p>A new layer in the target file is created every time an export is performed. Therefore, be mindful of making deliberate, purposeful exports to manage the file's size and complexity.</p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Mapping outputs to AxF resources</h3>
+<p>When exporting to an existing AxF file, its resources are updated using the graph outputs. Designer matches the resource identifier to the <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html">Output</a> nodes which have that same identifier as a <b>Usage</b>.</p>
+<p>Additionally, the Output's <b>Group</b> property <i>must</i> be set to 'AxF' for it to be listed in the AxF export dialog (see above).</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="AxF: Substance graph's Output usage">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_output_usage?$png$&amp;jpegSize=200&amp;wid=804"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_output_usage?$png$&amp;jpegSize=200&amp;wid=804"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_output_usage?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="AxF: Substance graph's Output usage" class="" id="root_content_flex_items_position_position-par_image" src="axf_output_usage.png" title="AxF: Substance graph's Output usage"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Resources can be textures (I.e. bitmaps) or uniforms (I.e. values) with a specific number of channels. It is compulsory that the graph output matches that number of channels exactly. If that is not the case, an error will be raised for that resource during the export, and the resource will be unchanged.<br/>
+</p>
+<p>The number of channels is specified differently depending on the type of data supplied to the Output node:</p>
+<ul>
+<li><b>Bitmap (Texture):</b> The <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html">Components</a> property is used to specify the number of channels, where R is one channel, RG is two channels, and so on. The property is used to let Designer know which of the color bitmap's RGBA channels should be encoded into the resource.</li>
+<li><b>Value (Uniform):</b> The number of components of the vector value is used to specify the number of channels, where <a disablelinktracking="false" href="/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html">Float</a> is one channel, <a disablelinktracking="false" href="/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html">Float2</a> is two channels, and so on.</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-caution">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Caution</span>
+</span>
+<div class="cmp-text">
+<p>In the <b>AxF to AxF</b> Substance graph template, the <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html">Output</a> node for the <b>Specular Lobe</b> contribution is configured by default to a <i>single channel</i> (I.e., its Components property is set to 'R').<br/>
+If the imported AxF file uses more than one channel in its Specular Lobe resource, please set the Output's <b>Components</b> property accordingly.</p>
+<p><span style="color: rgb(80,80,80);">For instance, for a Specular Lobe resource using two channels (Red for Specular Roughness and Green for Specular Anisotropy), set the Components property to 'RG'.</span></p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="view"></a>Viewing AxF files in the 3D View</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The method to render AxF SVBRDF materials in the <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view.html">3D View</a> depends on the <a disablelinktracking="false" href="#import">import setup</a>.</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="VisualizationImportsetup">
+<spectrum-accordion-item data-label="Convert to PBR" data-titleid="item-ConverttoPBR-VisualizationImportsetup">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Edit in place" data-titleid="item-Editinplace-VisualizationImportsetup">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-ConverttoPBR-VisualizationImportsetup">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">If you wish to convert an SVBRDF material in an AxF file into a standard PBR material, then your import setup will likely involve </span><a disablelinktracking="false" href="/substance-3d-designer/mdl-graphs.html">MDL graph</a><span style="color: rgb(80,80,80);"> and </span><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs.html">Substance graph</a><span style="color: rgb(80,80,80);"> conversion templates (see </span><a disablelinktracking="false" href="#graph-templates">Graph templates</a><span style="color: rgb(80,80,80);"> section above).</span><br/>
+</p>
+<p>In that case, the MDL graph should be dragged and dropped into the 3D View before any other operation, in order to automatically switch to the <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/iray.html">Iray</a> renderer and use that MDL graph as material definition.<br/>
+Then, you may drag and drop the Substance graph that you set up in the import dialog, in order to connect its outputs to the MDL shader.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="AxF: Viewing for conversion">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1379078147_content-ConverttoPBR_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="AxF: Viewing for conversion" class="" id="root_content_flex_items_position_position-par_accordion_1379078147_content-ConverttoPBR_image" src="axf-view-for-convert.gif" title="AxF: Viewing for conversion"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+<div class="item-Editinplace-VisualizationImportsetup">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">If </span><i style="color: rgb(80,80,80);">no</i><span style="color: rgb(80,80,80);"> MDL graph templates were used and only the </span><b style="color: rgb(80,80,80);">AxF to AxF</b><span style="color: rgb(80,80,80);"> Substance graph template was required because your goal is to perform </span><i style="color: rgb(80,80,80);">edits</i><span style="color: rgb(80,80,80);"> on an existing AxF file, then follow the instructions below to visualise its SVBRDF material according to the selected renderer:</span><br/>
+</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="SVBRDF3DViewshaders">
+<spectrum-accordion-item data-label="OpenGL" data-titleid="item-OpenGL-SVBRDF3DViewshaders">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Iray" data-titleid="item-Iray-SVBRDF3DViewshaders">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-OpenGL-SVBRDF3DViewshaders">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>A dedicated GLSLFX shader is available for visualizing materials using an SVBRDF representation from an AxF file: <b>AxF SVBRDF</b>.</p>
+<p>The shader is available in the <b>Materials</b> menu : open the submenu for the scene's material ('Default' by default) and select any technique under the <b>AxF SVBRDF</b> entry.</p>
+<p>Use the <b>Edit</b> option in the same submenu to display the shader's properties in the <a disablelinktracking="false" href="/substance-3d-designer/interface/properties.html">Properties</a> dock.<br/>
+In particular, the <b>Tiling</b> property lets you adjust the tiling of textures on the model, so you can visualize the material at an appropriate scale.</p>
+<p>After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the <a href="/substance-3d-designer/interface/3d-view.html">3D View</a>.<br/>
+</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="AxF: SVBRDF GLSLFX shader">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1379078147_content-Editinplace_accordion_811855337_content-OpenGL_image { width:600px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1379078147_content-Editinplace_accordion_811855337_content-OpenGL_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1379078147_content-Editinplace_accordion_811855337_content-OpenGL_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_glslfx-svbrdf?$png$&amp;jpegSize=100&amp;wid=600"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_glslfx-svbrdf?$png$&amp;jpegSize=100&amp;wid=600"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_glslfx-svbrdf?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="AxF: SVBRDF GLSLFX shader" class="" id="root_content_flex_items_position_position-par_accordion_1379078147_content-Editinplace_accordion_811855337_content-OpenGL_image" src="axf_glslfx-svbrdf.png" title="AxF: SVBRDF GLSLFX shader"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note helpx-caution">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Caution</span>
+</span>
+<div class="cmp-text">
+<p>This shader is less accurate than its Iray counterpart, and is currently a <i>work in progress</i> and some features are still unsupported. Therefore, while it can provide an overview of the materials' characteristics, it should not be used for fine adjustments .</p>
+<p>Please switch to the <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/iray.html">Iray</a> renderer and use the <b>svbrdf</b> MDL shader for a more accurate visualization.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Iray-SVBRDF3DViewshaders">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>A dedicated MDL shader is available for visualizing materials using an SVBRDF representation from an AxF file: <b>svbrdf</b>.</p>
+<p>The shader is available in the <b>Materials</b> menu : open the submenu for the scene's material ('Default' by default) and select the <b>svbrdf</b> MDL shader under the <b>mdl::alg::materials</b> entry.</p>
+<p>Use the <b>Edit</b> option in the same submenu to display the shader's properties in the <a href="/substance-3d-designer/interface/properties.html">Properties</a> dock.<br/>
+In particular, the <b>Tiling</b> property lets you adjust the tiling of textures on the model, so you can visualize the material at an appropriate scale.</p>
+<p>After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the <a href="/substance-3d-designer/interface/3d-view.html">3D View</a>.<br/>
+</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="AxF: SVBRDF MDL shader">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1379078147_content-Editinplace_accordion_811855337_content-Iray_image_copy { width:600px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1379078147_content-Editinplace_accordion_811855337_content-Iray_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1379078147_content-Editinplace_accordion_811855337_content-Iray_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_mdl-svbrdf?$png$&amp;jpegSize=100&amp;wid=600"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_mdl-svbrdf?$png$&amp;jpegSize=100&amp;wid=600"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/axf_mdl-svbrdf?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="AxF: SVBRDF MDL shader" class="" id="root_content_flex_items_position_position-par_accordion_1379078147_content-Editinplace_accordion_811855337_content-Iray_image_copy" src="axf_mdl-svbrdf.png" title="AxF: SVBRDF MDL shader"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>This shader is more accurate than its OpenGL counterpart. It uses the <a disablelinktracking="false" href="/substance-3d-designer/interface/3d-view/iray.html">Iray</a> renderer, thus you need to switch to this renderer by going to <b>Renderer &gt; Iray</b>, before the shader can be accessed in the <b>Materials</b> menu.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="AxF: Viewing for edition">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1379078147_content-Editinplace_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="AxF: Viewing for edition" class="" id="root_content_flex_items_position_position-par_accordion_1379078147_content-Editinplace_image" src="axf-view-for-edit.gif" title="AxF: Viewing for edition"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Supported model variants</h3>
+<p>The shaders used in the 3D View support the following variants for specular, Fresnel and clear coat transmission models:</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_1686400189 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_1686400189 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_1686400189 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_1686400189 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_1686400189 > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_1686400189" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><b>Specular variants</b></p>
+<ul>
+<li>Ward / Geisler-Moroder 2010</li>
+<li>GGX / Walter2007</li>
+<li>GGX / Ross 2005</li>
+</ul>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><b>Fresnel variants</b></p>
+<ul>
+<li>Schlick 1994</li>
+<li>Schlick 1994 Colored</li>
+<li>Simple Fresnel</li>
+</ul>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<p><b>Clear coat transmission variants</b></p>
+<ul>
+<li>Refractive Dirac <i>(OpenGL only)</i></li>
+<li>Refractive Dirac / No Solid Angle Compression <i>(OpenGL only)</i></li>
+<li>Non-Refractive Dirac</li>
+<li>Non-Refractive Dirac / DSPBR 2020x</li>
+<li>GGX</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

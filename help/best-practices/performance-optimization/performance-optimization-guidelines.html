@@ -1,0 +1,440 @@
+<header><meta name="title" content="Performance optimization guidelines | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Best Practices > Performance optimization guidelines"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Performance optimization guidelines</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="Performanceoptimizationguidelines-Substancecompositinggraphs">Substance graphs</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The more complex your <a href="/substance-3d-designer/substance-compositing-graphs.html">Substance graphs</a> are, the more processing power you need to render them. You should try to <b>strike a balance between complexity and rendering speed</b>.<br/>
+This is <i>especially</i> important if you will use them in real-time graphics applications, such as games.</p>
+<p>Generally speaking, nodes exposing custom parameters - that can be modified at run-time - <b>should be placed as close to the end of the graph as possible</b>.</p>
+<p>This is because the output of each node is cached wherever possible. Therefore, the further up the graph your tweakable node is, the more outputs will need to be processed whenever one of those exposed parameters is modified. If your exposed node is close to the end of the graph, only the few nodes between it and the output nodes will need to be recomputed.</p>
+<p>For example, if tweaking a uniform color at the beginning of your graph, all the following nodes will be recomputed. If you tweak a HSL node placed right before the output, only this node will be recomputed, greatly improving the performance of the graph.</p>
+<p>Please make a good note of the following guidelines:</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>GENERAL PERFORMANCE-RELATED SETTINGS</h3>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="Generalperformancerelatedsettings">
+<spectrum-accordion-item data-label="GPU engine is much faster than CPU engine" data-titleid="item-GPUengineismuchfasterthanCPUengine-Generalperformancerelatedsettings">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Switching parent resolution of the graph is slow" data-titleid="item-Switchingparentresolutionofthegraphisslow-Generalperformancerelatedsettings">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="In extreme cases, increased memory cache might be needed" data-titleid="item-Inextremecasesincreasedmemorycachemightbeneeded-Generalperformancerelatedsettings">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-GPUengineismuchfasterthanCPUengine-Generalperformancerelatedsettings">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Unless you have an unsupported (integrated) graphics card, use the GPU substance engine (change with Hotkey F9).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Switchingparentresolutionofthegraphisslow-Generalperformancerelatedsettings">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>It recomputes graph, cache <u style="">and all thumbnails</u>. It's better to use <a href="/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html">the <b>Batch </b>tab of the export dialog</a> as it avoids extensive, unneeded recalculation (for example when exporting to 8192 resolution).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Inextremecasesincreasedmemorycachemightbeneeded-Generalperformancerelatedsettings">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The application <a disablelinktracking="false" href="/substance-3d-designer/interface/preferences-window.html">limits the amount of RAM that can be used</a> for the image cache, but you can override and increase this (with care).<br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>GRAPH OPTIMIZATION</h3>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="Graphoptimisation">
+<spectrum-accordion-item data-label="Pay careful attention to node resolutions and inheritance in general!" data-titleid="item-First-Graphoptimisation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Use grayscale when no color is needed" data-titleid="item-Usegrayscalewhennocolorisneeded-Graphoptimisation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Use 8 bit when 16-bit is not needed" data-titleid="item-Use8bitwhen16bitisnotneeded-Graphoptimisation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Minimize node output size whenever possible" data-titleid="item-Minimizenodeoutputsizewheneverpossible-Graphoptimisation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Do not use images smaller than 16*16 pixels" data-titleid="item-Donotuseimagessmallerthan1616pixels-Graphoptimisation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-disabled="disabled" data-label="When using the Blend node, disable Alpha blending when it's not required" data-titleid="item-WhenusingtheBlendnodedisableAlphablendingwhenitsnotrequired-Graphoptimisation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-disabled="disabled" data-label="Blurs and Warps are the most processor-intensive nodes" data-titleid="item-BlursandWarpsarethemostprocessorintensivenodes-Graphoptimisation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Some noise generators are affected by the amount of patterns drawn" data-titleid="item-Somenoisegeneratorsareaffectedbytheamountofpatternsdrawn-Graphoptimisation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Some noises are affected by a scale factor" data-titleid="item-Somenoisesareaffectedbyascalefactor-Graphoptimisation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Conversely, there are some very fast noise generators" data-titleid="item-Converselytherearesomeveryfastnoisegenerators-Graphoptimisation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Watch out with heavy image sampling functions in some cases" data-titleid="item-Watchoutwithheavyimagesamplingfunctionsinsomecases-Graphoptimisation">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-First-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>High values will seriously affect performance, so consider how the material is likely to be used and whether you can reduce the data sizes involved.</p>
+<p>We recommend you learn more about <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/output-size.html">node resolution (Output size)</a> and <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html">inheritance in Substance graphs</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Usegrayscalewhennocolorisneeded-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Color operations take four times longer than grayscale operations. Also try to minimize type conversions between color and grayscale.<br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Use8bitwhen16bitisnotneeded-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The CPU version of the Substance Engine (SSE2) <i>does not</i> actually support 16-bit color or 8-bit greyscale. The GPU engine supports all 4 combinations of 8/16 bits and greyscale/color. <i>Currently, <u>only</u> the CPU engine is used in Unity and Unreal Engine plugins</i>.<br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Minimizenodeoutputsizewheneverpossible-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Sometimes, downsizing some nodes doesn't affect the final result, but will affect performance. For example, using a Uniform Color node set to the same output size as the document is pointless: The Uniform Color should be set to Absolute [16px x 16px] and the subsequent node to Relative to Parent. Generally this trick works well for low-frequency images, such as Perlin noise.<br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Donotuseimagessmallerthan1616pixels-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This slows rendering performance.<br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-WhenusingtheBlendnodedisableAlphablendingwhenitsnotrequired-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+<div class="item-BlursandWarpsarethemostprocessorintensivenodes-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+<div class="item-Somenoisegeneratorsareaffectedbytheamountofpatternsdrawn-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>For instance, the <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html">Tile Generator</a> node will get slower to process the more patterns you add to it.<br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Somenoisesareaffectedbyascalefactor-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This factor will in fact draw more patterns. Affected nodes include noises, Cells patterns, etc. If you need a white noise pattern, don't use a noise with a very high scale value and use the <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html">White Noise</a> or <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html">White Noise Fast</a> nodes instead.<br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Converselytherearesomeveryfastnoisegenerators-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>These include <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html">White Noise Fast</a>, <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-base.html">Fractal Sum Base</a>, and <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html">Anisotropic Noise</a>.<br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Watchoutwithheavyimagesamplingfunctionsinsomecases-Graphoptimisation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Functions are executed on CPU engine, except in <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html">Pixel Processors</a>. If you are doing a lot of heavy image sampling (changing $pos coordinates) in <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html">Value Processors</a> or <a href="/substance-3d-designer/function-graphs/fxmaps.html">FXmaps</a>, there would be a lot of swapping between VRAM and CPU RAM, causing performance delays.<br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>OPTIMIZATIONS FOR MOBILE USAGE</h3>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="Optimizationsformobileusage">
+<spectrum-accordion-item data-label="It is not recommended to use Warps and FX-Maps" data-titleid="item-ItisnotrecommendedtouseWarpsandFXMaps-Optimizationsformobileusage">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Avoid Blur nodes" data-titleid="item-AvoidBlurnodes-Optimizationsformobileusage">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Work as much as possible in grayscale" data-titleid="item-Workasmuchaspossibleingrayscale-Optimizationsformobileusage">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-disabled="disabled" data-label="Share nodes as much as possible between outputs" data-titleid="item-Sharenodesasmuchaspossiblebetweenoutputs-Optimizationsformobileusage">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-ItisnotrecommendedtouseWarpsandFXMaps-Optimizationsformobileusage">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>They are very performance costly.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-AvoidBlurnodes-Optimizationsformobileusage">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Use downscale transformations instead.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Workasmuchaspossibleingrayscale-Optimizationsformobileusage">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Switch to color mode at the end of the graph.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Sharenodesasmuchaspossiblebetweenoutputs-Optimizationsformobileusage">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>SIZE OPTIMIZATIONS FOR EMBEDDED BITMAPS</h3>
+<p><a href="/substance-3d-designer/resources/bitmap-resource.html">Bitmaps</a> have their <a href="/substance-3d-designer/substance-compositing-graphs/output-size.html">Output Size</a> set to <a href="/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html">'Absolute'</a> by default. This means that if the bitmap is connected through the node chain to an output, it will then force the final output to be the size of the embedded bitmap.<br/>
+A node you insert after the bitmap will have its Output Size set to <a href="/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html">'Relative to Input'</a>. This means that the node will also inherent the size of the bitmap and carry this size down the node chain to the outputs. To correct this, you need to set the node after the bitmap to have its Output Size set to <a href="/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html">'Relative to Parent'</a>.</p>
+<p>If the graph is set to have a dynamic resolution, you can change the Output Size on the embedded bitmap to be Relative To Parent.<br/>
+This way, the bitmap size will change based on the parent graph and you won't get into a situation where the graph is processing higher resolution in the bitmap than what is needed.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ ADOBE CONFIDENTIAL
+  ~ __________________
+  ~
+  ~  Copyright 2020 Adobe
+  ~  All Rights Reserved.
+  ~
+  ~ NOTICE: All information contained herein is, and remains
+  ~ the property of Adobe and its suppliers, if any. The intellectual
+  ~ and technical concepts contained herein are proprietary to Adobe
+  ~ and its suppliers and are protected by all applicable intellectual
+  ~ property laws, including trade secret and copyright laws.
+  ~ Dissemination of this information or reproduction of this material
+  ~ is strictly forbidden unless prior written permission is obtained
+  ~ from Adobe.
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="helpx-note helpx-alert">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Alert</span>
+</span>
+<div class="cmp-text">
+<p>Setting a <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html">Bitmap</a> node to "Relative to parent" and <a href="/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html">publishing</a> the graph to a Substance 3D asset (SBSAR) will save the bitmap at a resolution of <strong>256x256</strong> instead of its original size. It is advised instead to keep the <a href="/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html">inheritance method</a> of Bitmap nodes' <a href="/substance-3d-designer/substance-compositing-graphs/output-size.html">Output Size</a> as 'Absolute' and use a <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html">Transformation 2D</a> node set to 'Relative to parent' just after the Bitmap node.</p>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Embedded bitmaps optimisation 1">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/input-1?$pjpeg$&amp;jpegSize=200&amp;wid=1055"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/input-1?$pjpeg$&amp;jpegSize=200&amp;wid=1055"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/input-1?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Embedded bitmaps optimisation 1" class="" id="root_content_flex_items_position_position-par_image" src="input-1.jpg" title="Embedded bitmaps optimisation 1"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Embedded bitmaps optimisation 2">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1950402531 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_1950402531 { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_1950402531 { width:px; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/relativetoparent?$pjpeg$&amp;jpegSize=200&amp;wid=1350"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/relativetoparent?$pjpeg$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/relativetoparent?$pjpeg$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Embedded bitmaps optimisation 2" class="" id="root_content_flex_items_position_position-par_image_1950402531" src="relativetoparent.jpg" title="Embedded bitmaps optimisation 2"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_grid1 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>Also, it is advised to set the format of Bitmap resources to Jpeg for minimising the size of <a href="/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html">published</a> Substance 3D assets (SBSAR).</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Embedded bitmaps optimisation 3">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_grid1_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_grid1_items_image { width:px; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_grid1_items_image { width:px; }
+        }
+    
+
+    </style>
+<img alt="Embedded bitmaps optimisation 3" class="" id="root_content_flex_items_position_position-par_grid1_items_image" src="format.jpg" title="Embedded bitmaps optimisation 3"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

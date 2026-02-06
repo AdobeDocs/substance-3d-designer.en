@@ -1,0 +1,218 @@
+<header><meta name="title" content="Baking issues | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Technical issues > Baking issues"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="xfreference experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<style>
+</style>
+<div class="xf" id="root_content_flex_items_position_position-par_xf_feedback">
+<div class="xfpage page basicpage">
+<div class="xf-content-height">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page lists technical issues related to <a disablelinktracking="false" href="/substance-3d-designer/bakers.html">baking textures</a> in Substance 3D Designer, and offer troubleshooting steps for each.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items {
+        
+        margin: -32px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 32px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 0 0 auto; max-width: 100%; width: auto; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 0 0 auto; max-width: 100%; width: auto; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStart dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#match-by-name">'Match by name' does not work</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="id-3DViewissues-Lowperformance:DiscreteGPUisnotused"><a id="match-by-name"></a>'Match by name' does not work</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><b><img alt="(error)" data-emoticon-name="cross" src="error.svg"/> Issue</b></p>
+<p>When the 'Match' option is set to 'By mesh name', the matching does not appear to be applied, or not consistently across all scene objects.</p>
+<p><b><img alt="(tick)" data-emoticon-name="tick" src="check.svg"/> Recommended steps</b></p>
+<p>In Designer versions 14.1 and lower, low poly and high poly objects were matched using the name of their <i>parent</i> objects – in most cases, their parent transform.</p>
+<p>Since Designer 15.0, the name of the <i>geometry</i> objects are used directly.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Geometry object and its parent in the scene tree">
+<div>
+<div class="dexter-Image dexter-Image-right">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Geometry object and its parent in the scene tree" class="" id="root_content_flex_items_position_position-par_flex_items_image" src="sceneTree_objectsName.png" title="Geometry object and its parent in the scene tree"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">There are two paths you may take to get the expected macthing:</span></p>
+<ul>
+<li>Adjust the name of the geometry objects to apply matching names.</li>
+<li>Revert to the behaviour or previous Designer versions, by ajusting the <a disablelinktracking="false" href="/substance-3d-designer/interface/preferences-window/project-settings.html#bakers">'Name filtering mode' option</a> in the Project settings:<ol>
+<li>Go to Edit &gt; Preferences &gt; Projects</li>
+<li>Select the last project file in the list</li>
+<li>Below the list of project files, select the 'Bakers' tab</li>
+<li>Set the 'Name filtering mode' to 'Parent name (Legacy)</li>
+</ol>
+</li>
+</ul>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy {
+    height: 64px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy"></div>
+</div>
+</div>
+</div></body>

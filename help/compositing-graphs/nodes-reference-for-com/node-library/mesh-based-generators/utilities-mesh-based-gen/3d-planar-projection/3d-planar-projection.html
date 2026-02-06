@@ -1,0 +1,154 @@
+<header><meta name="title" content="3D Planar Projection | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > 3D Planar Projection"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">3D Planar Projection</h1>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    
+    
+    
+    
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 50%; max-width: 50%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_dynamic_grid > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 50%; max-width: 50%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer" id="root_content_flex_items_position_position-par_dynamic_grid" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="id-3DPlanarProjection-true3d_planar_gray.png128true3d_planar.png128" style="text-align: center;"><img src="3d-planar-gray.png" width="128"/><img src="3d-planar.png" width="128"/></h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 style="text-align: center;">3D Planar Projection (Color)</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;"><strong>In:</strong> <em>Mesh Based Generators</em><em>/Utilities</em></p><p style="text-align: center;"><strong>Complex</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="id-3DPlanarProjection-Description">Description</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Performs a planar projection based on baked mesh data (Position and World Normal Maps). Allows you to project and place decals across seams, independent of original UV-mapping.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="id-3DPlanarProjection-Parameters">Parameters</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="id-3DPlanarProjection-Inputs">Inputs</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul><li><strong>Position Map</strong>: <em>Color Input<br/></em>Baked Position Map</li><li><strong>World Space Normal</strong>: <em>Color Input<br/></em>Baked World Space Normal Map</li><li><strong>Projected Texture</strong>: <em>Color Input<br/></em>Input texture to project onto target.</li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3 id="id-3DPlanarProjection-Parameters.1">Parameters</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<ul><li><strong>Positioning</strong> <br/><ul><li><strong>Project Input</strong>: <em>UV Position, World Space Position<br/></em>Choose whether the projection position is set in 2D/UV or in 3D/World space.</li><li><strong>Target UV Position</strong>:<br/>Only with UV Position Input, best used to pick a point in the 2D view on the Position map.</li><li><strong>Target Position</strong>: <em>(Color value)<br/></em>Only with World Space Position Input, lets you define an exact 3D coordinate.</li><li><strong>Target Normal</strong>: <em>(Color value)</em></li><li><strong>Rotation</strong>: <em>0.0 - 1.0<br/>Rotates the projected texture along it' normal axis.</em></li><li><strong>Scale</strong>: <em>0.0 - 1.0</em><br/>Set the global scale for the projected texture.</li><li><strong>Size</strong>: <em>0.0 - 2.0<br/></em>Perform non-uniform scaling on the projected texture.</li></ul></li><li><strong>Masking</strong> <br/><ul><li><strong>Maximum Depth</strong>: <em>0.0 - 1.0<br/></em>Controls how deep the projected texture will appear, when it will cut-off.</li><li><strong>Depth Fade</strong>: <em>0.0 - 1.0<br/></em>Set the transition for the cut-off depth to be sudden or faded.</li><li><strong>Normal Threshold</strong>: <em>-1.0 - 1.0<br/></em>Set the treshold for surfaces not exactly aligned with the projection normal.</li><li><strong>Normal Fade</strong>: <em>0.0 - 1.0<br/></em>Set the transition for surfaces not aligned to sudden or fade.</li></ul></li></ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="id-3DPlanarProjection-ExampleImages">Example Images</h2>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img class="" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_image" src="3d-planar-projection-ex.gif"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>

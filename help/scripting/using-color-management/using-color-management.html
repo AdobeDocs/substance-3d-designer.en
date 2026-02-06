@@ -1,0 +1,97 @@
+<header><meta name="title" content="Using color management | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Scripting > Using color management"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">Using color management</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The<b> SDColorManagementEngine </b>class, accessible from the <b>SDApplication</b> class, contains information about the <i>current color management settings</i>.</p>
+<h3>Accessing and querying the Color Management Engine</h3>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">import sd 
+ 
+ctx = sd.getContext() 
+app = ctx.getSDApplication() 
+ 
+# Access the color management engine. 
+cm = app.getColorManagementEngine() 
+ 
+# Currently getName can return "legacy", "ace" or "ocio" 
+# depending on the color management settings in the preferences. 
+cmName = cm.getName()  
+print(cmName) 
+ 
+print(cm.getWorkingColorSpaceName()) 
+print(cm.getRawColorSpaceName()) 
+ 
+if cmName == "ocio": 
+    # If OpenColorIO is enabled, print the config file name. 
+    print(cm.getOCIOConfigFileName()) 
+ 
+# List all color spaces. 
+colorSpaces = cm.getColorSpaces() 
+for cs in colorSpaces: 
+    print(cs.get())</pre>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>In addition, it is possible to <i>assign color spaces</i> to bitmap resources from Python.</p>
+<h3>Setting color spaces on bitmap resources</h3>
+</div>
+</div>
+<div class="codeblock parbase aem-GridColumn aem-GridColumn--default--12"><div></div>
+<pre data-enlighter-language="plain" data-gutter="true">import sd 
+import sd 
+from sd.api.sdproperty import * 
+from sd.api.sdresourcebitmap import SDResourceBitmap 
+from sd.api.sdvaluestring import SDValueString 
+from sd.api.sdvaluebool import SDValueBool 
+ 
+ctx = sd.getContext() 
+app = ctx.getSDApplication() 
+pkgMgr = app.getPackageMgr() 
+cm = app.getColorManagementEngine() 
+ 
+colorSpaces = cm.getColorSpaces() 
+ 
+# Get all the resources in the first package. 
+pkg = pkgMgr.getPackages()[0] 
+resources = pkg.getChildrenResources(isRecursive=True) 
+ 
+for res in resources: 
+ if isinstance(res, SDResourceBitmap): 
+  props = res.getProperties(SDPropertyCategory.Annotation) 
+ 
+        # Print the current color space for the resource. 
+  p0 = res.getPropertyFromId("bitmap_color_space", SDPropertyCategory.Annotation) 
+  cs = res.getAnnotationPropertyValueFromId("bitmap_color_space") 
+  print(cs.get()) 
+ 
+        # Print the current premultiplied alpha setting for the resource. 
+  p1 = res.getPropertyFromId("bitmap_premultiplied_alpha", SDPropertyCategory.Annotation) 
+  cs = res.getAnnotationPropertyValueFromId("bitmap_premultiplied_alpha") 
+  print(cs.get()) 
+ 
+        # Assign new values for the color space and premultiplied alpha properties. 
+  res.setPropertyValue(p0, colorSpaces[2]) 
+  res.setPropertyValue(p1, SDValueBool.sNew(False))</pre>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Writing SDTextures with color space conversions</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <strong>save</strong> method of the <strong>SDTexture</strong> class now accepts an optional <strong>outputColorSpace</strong> parameter. When specified, the color space conversion will be <em>applied before saving the image</em>.</p><p>If the color management mode supports embedded ICC profiles <em>and</em> the destination file format also supports them, the color space ICC profile will be <em>embedded in the resulting image file</em>.</p>
+</div>
+</div>
+</div>
+</div></body>

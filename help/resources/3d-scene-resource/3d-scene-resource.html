@@ -1,0 +1,102 @@
+<header><meta name="title" content="3D scene resource | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Resources > 3D scene resource"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1 id="mainpagetitle">3D scene resource</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page describes the <strong>3D scene</strong> resource type in Substance 3D Designer, including its supported file formats and how it may be used.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Overview</h2>
+<p>3D scene resources can be used in various workflows:</p>
+<ul>
+<li><a href="/substance-3d-designer/bakers.html">baking mesh maps</a></li>
+<li>preview <i>textures</i> from <a href="/substance-3d-designer/substance-compositing-graphs.html">Substance graphs</a> in the <a href="/substance-3d-designer/interface/3d-view.html">3D View</a></li>
+<li>preview <i>shaders</i> from <a href="/substance-3d-designer/mdl-graphs.html">MDL Graphs</a> in the <a href="/substance-3d-designer/interface/3d-view.html">3D View</a></li>
+</ul>
+<p>The following 3D scene file formats are supported:</p>
+<ul>
+<li><a href="https://graphics.pixar.com/usd/release/index.html" rel="nofollow">USD</a> (*.usd)</li>
+<li><a href="https://graphics.pixar.com/usd/release/index.html" rel="nofollow">USDA</a> (*.usda)</li>
+<li><a href="https://graphics.pixar.com/usd/release/index.html" rel="nofollow">USDZ</a> (*.usdz)</li>
+<li><a href="https://www.autodesk.com/products/fbx/overview" rel="nofollow">Autodesk FBX</a> (*.fbx)</li>
+<li><a href="https://www.fileformat.info/format/wavefrontobj/egff.htm" rel="nofollow">Wavefront OBJ</a> (*.obj)</li>
+<li><a href="https://knowledge.autodesk.com/support/3ds-max/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/3DSMax-Data-Exchange/files/GUID-A16ECF7F-70E5-4F9F-8EAD-35F5CFB485A2-htm.html" rel="nofollow">Autodesk 3D Studio Mesh</a> (*.3ds)</li>
+<li><a href="https://www.khronos.org/collada/" rel="nofollow">Collada</a> (*.dae)</li>
+<li><a href="https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-D4242737-58BB-47A5-9B0E-1E3DE7E7D647-htm.html" rel="nofollow">Autodesk AutoCAD Drawing</a> (*.dxf)</li>
+</ul>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Mesh storage</h2>
+<p>3D scenes can <i>only</i> be linked, which means they stay at their location on disk, and are just referenced in the application.</p>
+<p>When a package with a 3D scene resource is published as a <a href="https://www.adobe.com/products/substance3d/3d-augmented-reality.html" rel="nofollow">Substance 3D</a> asset (SBSAR), the mesh is <i>not embedded</i>, but discarded.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Baking mesh maps</h2>
+<p>Linking a 3D scene into your package is the only way to <a href="/substance-3d-designer/bakers.html">bake mesh maps</a> out of that scene geometry. You may perform the following steps to get started:</p>
+<ul>
+<li>Click <i>RMB</i> on a package and select the <b>Link &gt; 3D Mesh</b> option in the contextual menu</li>
+<li>Choose any supported 3D scene file</li>
+<li>If the <b>Link as Udim mesh</b> dialog prompt appears, click <i>No</i> unless you want to bake UV tiles</li>
+<li>With the resource loaded in the <a href="/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html">Explorer</a>, click <i>RMB</i> on it and select the <b>Bake Model Information</b> option in the contextual menu</li>
+<li>The <a href="/substance-3d-designer/bakers.html">Bake model information</a> dialog appears for you to set up and run any mesh maps bakes</li>
+</ul>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Baking mesh maps">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:512px; }
+    
+    
+    
+
+    </style>
+<img alt="Baking mesh maps" class="" id="root_content_flex_items_position_position-par_image" src="bake-model-information.gif" title="Baking mesh maps"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>UDIM/UV-tile usage</h2>
+<p>When a mesh resource is linked and the application detects it has UVs outside of the 0-1 range, you'll be asked if this mesh should be treated as a UDIM mesh (also known as UV Tiles). This is a setting that can be changed afterwards, and unless you are sure you are using using UV-Tiles, should be answered as <b>No</b>.</p>
+<p>If UV-Tile behavior is active, baking behaves differently and will bake textures for each detected UV-Tile.</p>
+</div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2>Resource/Scene vs state</h2>
+<p>The application separates what you see in the 3D view into two distinct files. The actual 3D model or mesh, is a resource visible in the Explorer. The setup of lights, cameras and other settings is called the "<b>State</b>". States can be saved to external .sbsscn files, to be loaded in again later. .sbsscn files are not resources, they are additional configuration files that can only be loaded through <a href="/substance-3d-designer/interface/3d-view.html">the Scene menu in the 3D View.</a></p>
+</div>
+</div>
+</div>
+</div></body>

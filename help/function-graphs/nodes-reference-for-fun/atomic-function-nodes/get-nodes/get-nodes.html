@@ -1,0 +1,1129 @@
+<header><meta name="title" content="Variables | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Function graphs > Nodes reference for function graphs > Variables"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="Helpx In-article Navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Variables are a way of <b>storing values</b> to fetch it later (<b>Get</b>) and/or modify it (<b>Set</b>).</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Substance function graph - Get float">
+<div>
+<div class="dexter-Image dexter-Image-center mobile-margin-top-16 mobile-margin-bottom-16">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Substance function graph - Get float" class="" id="root_content_flex_items_position_position-par_image" src="assign-getfloat.gif" title="Substance function graph - Get float"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>What a Get node essentially does, is grab a dynamic Variable, and return it from the Get Nodes' output for use in a function. These Get nodes form the link between the Input Parameters defined in the <a href="/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html">graph properties</a> and <a href="/substance-3d-designer/substance-compositing-graphs/exposing-a-parameter.html">parameter functions</a>.</p>
+<p>Every time you use a Get node, you must pick an available value from the dropdown menu. Get nodes will <b>grab a value of the corresponding type</b>. That means you will only see valid options in the menu of a Get node, you can never pick an invalid option. If a variable is not available, it means there's a type mismatch</p>
+<p>There are a number of <b>"System" Variables</b>: pre-defined special variables that you can not declare yourself. These are quite important, and for the nodes below it is listed what System variables are available.</p>
+<p>When a parameter is <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html">exposed</a>, it consists of applying a parameter function on it which only includes a Get node of the correct type.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer"></div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h3 style="text-align: center;"><a disablelinktracking="false" href="#get">Get</a></h3>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<h3 style="text-align: center;"><a disablelinktracking="false" href="#set">Set</a></h3>
+</div>
+</div>
+<div class="text">
+<div class="cmp-text">
+<h3 style="text-align: center;"><a disablelinktracking="false" href="#is-defined">Is defined</a></h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="get"></a>Get</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_2094127173_copy_1136881141 > .dexter-FlexContainer-Items {
+        
+        margin: -16px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_2094127173_copy_1136881141 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 16px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_2094127173_copy_1136881141 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 25%; max-width: 25%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_2094127173_copy_1136881141 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_2094127173_copy_1136881141" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" title="Get float2 - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_2094127173_copy_1136881141_items_image_copy { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_2094127173_copy_1136881141_items_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_2094127173_copy_1136881141_items_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get float2 - Icon" class="" id="root_content_flex_items_position_position-par_flex_2094127173_copy_1136881141_items_image_copy" src="fn_variables_getfloat2.png" title="Get float2 - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text">
+<div class="cmp-text">
+<p>These nodes let you fetch the value of a variable which exists <i>in the current scope</i>.</p>
+<p>The name of the variable being fetched is set in the Properties dock.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">'Get' nodes some limitations you need to be mindful of:</span></p>
+<ul>
+<li><b>They are typed</b>, therefore you need to make sure the variable holds a value of the same type as the node. Type mismatches are reported in the Console.</li>
+<li><b>They do not check for the existence of the variable</b> in the current scope. Unfound variables are reported in the Console.</li>
+<li>In complex functions using control flow nodes such as Sequence, be mindful about the <b>order in which you set and get variables</b>. When Designer detects a case of 'Get before Set', it is reported in the Console.</li>
+</ul>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Built-in variables</span>
+</span>
+<div class="cmp-text">
+<p>Several 'Get' nodes will offer built-in variables to access existing values according to the current context – E.g.: the current pixel position in a Pixel processor, the current tiling mode of a node, ...</p>
+<p>All built-in variables are listed in <a disablelinktracking="false" href="/substance-3d-designer/function-graphs/variables/system-variables.html">this dedicated page</a>.</p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_128406691 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_128406691"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Get nodes</h3>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="getnodetypes">
+<spectrum-accordion-item data-label="Floats" data-titleid="item-Floats-getnodetypes">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Integers" data-titleid="item-Integers-getnodetypes">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Others" data-titleid="item-Others-getnodetypes">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Floats-getnodetypes">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2 > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2 > .dexter-FlexContainer-Items > *:nth-child(4) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Get float - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get float - Icon" class="" id="root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell_position-par_image" src="fn_variables_getfloat.png" title="Get float - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Get Float</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell1" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Get float2 - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell1_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell1_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell1_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get float2 - Icon" class="" id="root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell1_position-par_image" src="fn_variables_getfloat2.png" title="Get float2 - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Get Float2</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell2" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Get float3 - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell2_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell2_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell2_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get float3 - Icon" class="" id="root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell2_position-par_image" src="fn_variables_getfloat3.png" title="Get float3 - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Get Float3</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell3" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Get float4 - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell3_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell3_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell3_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get float4 - Icon" class="" id="root_content_flex_items_position_position-par_accordion_content-Floats_dynamic_grid2_items_grid-cell3_position-par_image" src="fn_variables_getfloat4.png" title="Get float4 - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Get Float4</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Integers-getnodetypes">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1 > .dexter-FlexContainer-Items > *:nth-child(4) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Get integer - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get integer - Icon" class="" id="root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell_position-par_image" src="fn_variables_getint.png" title="Get integer - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Get Integer</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell1" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Get integer2 - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell1_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell1_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell1_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get integer2 - Icon" class="" id="root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell1_position-par_image" src="fn_variables_getint2.png" title="Get integer2 - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Get Integer2</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell2" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Get integer3 - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell2_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell2_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell2_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get integer3 - Icon" class="" id="root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell2_position-par_image" src="fn_variables_getint3.png" title="Get integer3 - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Get Integer3</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell3" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Get integer4 - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell3_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell3_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell3_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get integer4 - Icon" class="" id="root_content_flex_items_position_position-par_accordion_content-Integers_dynamic_grid1_items_grid-cell3_position-par_image" src="fn_variables_getint4.png" title="Get integer4 - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Get Integer4</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Others-getnodetypes">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 25%; max-width: 25%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 25%; max-width: 25%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3 > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 0 0 auto; max-width: 100%; width: auto; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3 > .dexter-FlexContainer-Items > *:nth-child(4) {
+            flex: 0 0 auto; max-width: 100%; width: auto; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStart dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3_items_grid-cell" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Get boolean - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3_items_grid-cell_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3_items_grid-cell_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get boolean - Icon" class="" id="root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3_items_grid-cell_position-par_image" src="fn_variables_getboolean.png" title="Get boolean - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Get Boolean</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position mobile-place-relative mobile-place-left mobile-place-top mobile-padding-right-4 mobile-padding-left-4 is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3_items_grid-cell1" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Get string - Icon">
+<div>
+<div class="dexter-Image dexter-Image-center">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3_items_grid-cell1_position-par_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3_items_grid-cell1_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3_items_grid-cell1_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Get string - Icon" class="" id="root_content_flex_items_position_position-par_accordion_content-Others_dynamic_grid3_items_grid-cell1_position-par_image" src="fn_variables_getstring.png" title="Get string - Icon"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: center;">Get String</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="set"></a>Set</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_2094127173_copy > .dexter-FlexContainer-Items {
+        
+        margin: -16px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_2094127173_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 16px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_2094127173_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 25%; max-width: 25%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_2094127173_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_2094127173_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" title="Set: Node icon">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_2094127173_copy_items_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_2094127173_copy_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_2094127173_copy_items_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/fn_variables_set?$png$&amp;jpegSize=100&amp;wid=512"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/fn_variables_set?$png$&amp;jpegSize=100&amp;wid=512"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/fn_variables_set?$png$&amp;jpegSize=100&amp;wid=200"/>
+<img alt="Set: Node icon" class="" id="root_content_flex_items_position_position-par_flex_2094127173_copy_items_image" src="fn_variables_set.png" title="Set: Node icon"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text">
+<div class="cmp-text">
+<p>Text</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_1702732039 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_1702732039"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="is-defined"></a>Is defined</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_2094127173 > .dexter-FlexContainer-Items {
+        
+        margin: -16px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_2094127173 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 16px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_2094127173 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            width: 25%; max-width: 25%; flex: 1 1 auto;
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_2094127173 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_2094127173" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="image parbase">
+<div class="image-wrapper" title="Is defined: Node icon">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_2094127173_items_image { width:200px; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_2094127173_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_2094127173_items_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/fn_variables_isdefined?$png$&amp;jpegSize=100&amp;wid=512"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/fn_variables_isdefined?$png$&amp;jpegSize=100&amp;wid=512"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/fn_variables_isdefined?$png$&amp;jpegSize=100&amp;wid=200"/>
+<img alt="Is defined: Node icon" class="" id="root_content_flex_items_position_position-par_flex_2094127173_items_image" src="fn_variables_isdefined.png" title="Is defined: Node icon"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text">
+<div class="cmp-text">
+<p>Text</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_cop_818999231 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_cop_818999231"></div>
+</div>
+</div>
+</div></body>

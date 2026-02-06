@@ -1,0 +1,1861 @@
+<header><meta name="title" content="Node finder | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Interface > The graph view > Node finder"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="xfreference experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<style>
+</style>
+<div class="xf" id="root_content_flex_items_position_position-par_xf_feedback">
+<div class="xfpage page basicpage">
+<div class="xf-content-height">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder toolbar">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Node finder toolbar" class="" id="root_content_flex_items_position_position-par_image" src="node-finder-toolbar.png" title="Node finder toolbar"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_641913488 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_641913488"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Node Finder tool lets you perform a <b>search for nodes and variables</b> using a text query. <span style="color: rgb(80,80,80);">All nodes that do not match the query are dimmed to make the results stick out.</span></p>
+<p><span style="color: rgb(80,80,80);">The query can match any of those criteria:</span></p>
+<ul>
+<li>An <b>identifier of a graph</b> referenced by an instance node</li>
+<li>An <b>identifier of an exposed parameter or variable</b> used in a node parameter function</li>
+<li>A node's <b>UID</b> (unique identifier)</li>
+<li>A node's <b>label</b></li>
+</ul>
+<p><span style="color: rgb(80,80,80);">The search can traverse <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html">graph instances</a> recursively so nodes and variables can be found across <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html">subgraphs</a>. If you are unsure about the exact term you need to search, a fuzzy search option is available to apply a tolerance to the query.</span></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_204_1280327088 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_204_1280327088"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#interface">Interface</a></p>
+<p><a disablelinktracking="false" href="#search-query">Search query</a></p>
+<p><a disablelinktracking="false" href="#search-options">Search options</a></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="LinkCreationModes-Themodes"><a id="interface"></a>Interface</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The Node Finder can be accessed in two ways:</p>
+<p><span style="color: rgb(80,80,80);">In the Graph View, press <b>Ctrl+F</b> (Windows) / <b>Cmd+F</b> (macOS) to display the Node Finder toolbar and automatically set the focus on the query field. This lets you perform a search quickly.</span></p>
+<p><span style="color: rgb(80,80,80);">In the Graph View toolbar, click the <b>Node Finder button <img alt="" src="graph-node-finder.png"/></b> to display the Node Finder toolbar. Once displayed, the toolbar is only closed by clicking this button.</span></p>
+<p><b>Searches traverse graphs</b>. In other words, a search remains active when opening graphs through these actions:</p>
+<ul>
+<li>Instance node: Open reference in context (Ctrl+E / Cmd+E) (<i>Note:</i> graph editing in context needs to be enabled in Edit &gt; Preferences &gt; Graph)</li>
+<li>Pixel Processor: Edit function (Ctrl+E / Cmd+E)</li>
+<li>Value Processor: Edit function (Ctrl+E / Cmd+E)</li>
+<li>FX-Map: Edit FX-Map graph (Ctrl+E / Cmd+E)</li>
+<li>Node parameters: Edit function</li>
+</ul>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: traversing graphs durig search">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_1559064920 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Node finder: traversing graphs durig search" class="" id="root_content_flex_items_position_position-par_image_1559064920" src="node-finder-traversal.gif" title="Node finder: traversing graphs durig search"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_204_136761136 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_204_136761136"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Search query</h3>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder query field">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_365042192 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_365042192 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_365042192 { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Node finder query field" class="" id="root_content_flex_items_position_position-par_image_365042192" src="node-finder-query-field.png" title="Node finder query field"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The search terms can be typed into this field and the arrow button opens a list of query suggestions which include some of the variables available in the current context.</p>
+<p>Learn more about the queries you can perform in the <a disablelinktracking="false" href="#search-query">Search query</a> section below.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_204 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_204"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Node type</h3>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node type">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_2018875989 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_2018875989 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_2018875989 { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Node type" class="" id="root_content_flex_items_position_position-par_image_2018875989" src="node-finder-node-types.png" title="Node type"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">This combobox lets you filter search results to only retain a specific type of nodes.</span></p>
+<p>Note that all instance nodes are the <i>same type</i> of node – indeed, the 'instance' type – while atomic nodes each are their own type.</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-multi-select="true" data-name="nodefindernodetype">
+<spectrum-accordion-item data-label="Node type lists" data-titleid="item-Nodetypelists-nodefindernodetype">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Searching for atomic nodes" data-titleid="item-Searchingforatomicnodes-nodefindernodetype">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Searching for instance nodes" data-titleid="item-Searchforinstancenodes-nodefindernodetype">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Nodetypelists-nodefindernodetype">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The list is contextual to the current graph type.</p>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262 > .dexter-FlexContainer-Items > *:nth-child(3) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node types (compositing)">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Node types (compositing)" class="" id="root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position_position-par_image" src="node-finder-types-compositing.png" title="Node types (compositing)"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: left;"><i>Node types for compositing graphs</i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position_1976387229" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node types (function)">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position_1976387229_position-par_image_copy { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position_1976387229_position-par_image_copy { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position_1976387229_position-par_image_copy { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Node types (function)" class="" id="root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position_1976387229_position-par_image_copy" src="node-finder-types-function.png" title="Node types (function)"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p style="text-align: left;"><i>Node types for function graphs</i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_1344815878_content-Nodetypelists_flex_copy_656823262_items_position_2130585646" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Searchingforatomicnodes-nodefindernodetype">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: Searching by 'Levels' type (compositing)">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1344815878_content-Searchingforatomicnodes_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1344815878_content-Searchingforatomicnodes_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1344815878_content-Searchingforatomicnodes_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-levels?$png$&amp;jpegSize=300&amp;wid=1657"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-levels?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-levels?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: Searching by 'Levels' type (compositing)" class="" id="root_content_flex_items_position_position-par_accordion_1344815878_content-Searchingforatomicnodes_image" src="node-finder-compositing-levels.png" title="Node finder: Searching by 'Levels' type (compositing)"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><i>Searching for the 'Levels' node type in a Substance graph</i></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Searchforinstancenodes-nodefindernodetype">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: Searching by 'Instance' type (compositing)">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1344815878_content-Searchforinstancenodes_image_1526495718 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1344815878_content-Searchforinstancenodes_image_1526495718 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1344815878_content-Searchforinstancenodes_image_1526495718 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-instances?$png$&amp;jpegSize=300&amp;wid=1657"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-instances?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-instances?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: Searching by 'Instance' type (compositing)" class="" id="root_content_flex_items_position_position-par_accordion_1344815878_content-Searchforinstancenodes_image_1526495718" src="node-finder-compositing-instances.png" title="Node finder: Searching by 'Instance' type (compositing)"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><i>Searching for the 'Instance' node type in a Substance graph</i></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_1344815878_content-Searchforinstancenodes_spacer_copy_copy_204 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_1344815878_content-Searchforinstancenodes_spacer_copy_copy_204"></div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: Searching by 'Instance' type (function)">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1344815878_content-Searchforinstancenodes_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1344815878_content-Searchforinstancenodes_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1344815878_content-Searchforinstancenodes_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-functions-instances?$png$&amp;jpegSize=200&amp;wid=1273"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-functions-instances?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-functions-instances?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: Searching by 'Instance' type (function)" class="" id="root_content_flex_items_position_position-par_accordion_1344815878_content-Searchforinstancenodes_image" src="node-finder-functions-instances.png" title="Node finder: Searching by 'Instance' type (function)"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><i>Searching for the 'Instance' node type in a Substance function graph</i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_2049335483 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_2049335483"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Search options</h3>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">The </span><b style="color: rgb(80,80,80);">Search options button <img alt="" src="node-finder-search-options.png"/></b><span style="color: rgb(80,80,80);"> opens a list of settings used for searching that can be toggled on and off.</span></p>
+<p><span style="color: rgb(80,80,80);">Learn more about these options in the </span><a disablelinktracking="false" href="#search-options">Search options</a><span style="color: rgb(80,80,80);"> section below.</span></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder search options">
+<div>
+<div class="dexter-Image dexter-Image-right">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Node finder search options" class="" id="root_content_flex_items_position_position-par_flex_copy_items_image" src="node-finder-search-options-open.png" title="Node finder search options"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="LinkCreationModes-Themodes"><a id="search-query"></a>Search query</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>To find nodes, a text query is matched against the node properties listed below.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Your query should be typed with the following caveats in mind:</p>
+<ul>
+<li><span style="color: rgb(80,80,80);">Search is not case-sensitive. E.g., '<span class="code">my node label</span>' and '<span class="code">My Node Label</span>' return the same results.</span></li>
+<li><span style="color: rgb(80,80,80);">Whitespaces before and after the query are ignored.</span></li>
+<li>Multiple queries cannot be performed at the same time in the same graph. E.g., '<span class="code">levels blur</span>' will not match both 'Levels' and 'Blur' nodes. Likewise, logical operators are not supported.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_204_1252877405 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_204_1252877405"></div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy_786823498 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy_786823498 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy_786823498 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy_786823498 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy_786823498" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h3>Instance graph identifiers</h3>
+<p><span style="color: rgb(80,80,80);"><a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html">Instance nodes</a> can be found using the <b>identifier</b> of the graphs they reference.</span></p>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_copy_786823498_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: searching by graph identifier">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_786823498_items_position_position-par_image_807054810 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_786823498_items_position_position-par_image_807054810 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_786823498_items_position_position-par_image_807054810 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-functions-identifier?$png$&amp;jpegSize=200&amp;wid=1273"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-functions-identifier?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-functions-identifier?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: searching by graph identifier" class="" id="root_content_flex_items_position_position-par_flex_copy_786823498_items_position_position-par_image_807054810" src="node-finder-functions-identifier.png" title="Node finder: searching by graph identifier"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><i>Click image to enlarge</i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-multi-select="true" data-name="nodefindergraphidentifiers">
+<spectrum-accordion-item data-label="Identifier in Explorer" data-titleid="item-IdentifierinExplorer-nodefindergraphidentifiers">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Identifier in instance node's tooltip" data-titleid="item-Identifierininstancenodestooltip-nodefindergraphidentifiers">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-IdentifierinExplorer-nodefindergraphidentifiers">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Graphs are listed by their identifiers in the Explorer.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Explorer: package contents">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1483294700_content-IdentifierinExplorer_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1483294700_content-IdentifierinExplorer_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1483294700_content-IdentifierinExplorer_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Explorer: package contents" class="" id="root_content_flex_items_position_position-par_accordion_1483294700_content-IdentifierinExplorer_image" src="explorer-package-simple.png" title="Explorer: package contents"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+<div class="item-Identifierininstancenodestooltip-nodefindergraphidentifiers">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The tooltip of instance nodes includes the identifier of their referenced graph.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Graph identifier in instance node's tooltip">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1483294700_content-Identifierininstancenodestooltip_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1483294700_content-Identifierininstancenodestooltip_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1483294700_content-Identifierininstancenodestooltip_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Graph identifier in instance node's tooltip" class="" id="root_content_flex_items_position_position-par_accordion_1483294700_content-Identifierininstancenodestooltip_image" src="node-finder-compositing-identifier.png" title="Graph identifier in instance node's tooltip"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_204_440153186 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_204_440153186"></div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy_1360844418 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy_1360844418 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy_1360844418 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy_1360844418 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy_1360844418" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h3>Exposed parameters and variables</h3>
+<p><span style="color: rgb(80,80,80);">The identifier of <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html">exposed parameters</a>, or any other variable, can be searched directly.</span></p>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_copy_1360844418_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: Node variables">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_1360844418_items_position_position-par_image_2125460382 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_1360844418_items_position_position-par_image_2125460382 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_1360844418_items_position_position-par_image_2125460382 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-variable?$png$&amp;jpegSize=300&amp;wid=1657"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-variable?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-variable?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: Node variables" class="" id="root_content_flex_items_position_position-par_flex_copy_1360844418_items_position_position-par_image_2125460382" src="node-finder-compositing-variable.png" title="Node finder: Node variables"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><i>Click image to enlarge</i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="nodefindersearchvariables">
+<spectrum-accordion-item data-label="Query suggestions" data-titleid="item-CopyinganodesUID-nodefindersearchvariables">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Searching a variable from a Console warning/error" data-titleid="item-SearchinganodeUIDfromaConsolewarningerror-nodefindersearchvariables">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Get/Set nodes" data-titleid="item-GetSetnodes-nodefindersearchvariables">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-CopyinganodesUID-nodefindersearchvariables">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_186869451 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_186869451 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_186869451 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_186869451 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_186869451" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>The query field can be expanded to reveal a list of suggestions.</p>
+<p>These include <a disablelinktracking="false" href="/substance-3d-designer/function-graphs/variables/system-variables.html">built-in variables</a> available for the current graph type, as well as the identifiers of the graph's exposed parameters.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder query suggestions">
+<div>
+<div class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_186869451_items_image_2022999962 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_186869451_items_image_2022999962 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_186869451_items_image_2022999962 { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Node finder query suggestions" class="" id="root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_186869451_items_image_2022999962" src="node-finder-available-query-suggestions.png" title="Node finder query suggestions"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_copy_1360844418 > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_copy_1360844418 > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_copy_1360844418 > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_copy_1360844418 > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_copy_1360844418" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>The identifier of exposed parameters can also be copied or edited directly in the <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/graph-parameters.html">Substance graph properties</a>.</p>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_copy_1360844418_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: exposed parameters">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_copy_1360844418_items_position_position-par_image_23326016 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_copy_1360844418_items_position_position-par_image_23326016 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_copy_1360844418_items_position_position-par_image_23326016 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-exposed-parameter?$png$&amp;jpegSize=200&amp;wid=965"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-exposed-parameter?$png$&amp;jpegSize=200&amp;wid=965"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-exposed-parameter?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: exposed parameters" class="" id="root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-CopyinganodesUID_flex_copy_1360844418_items_position_position-par_image_23326016" src="node-finder-compositing-exposed-parameter.png" title="Node finder: exposed parameters"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><i>Click image to enlarge</i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-SearchinganodeUIDfromaConsolewarningerror-nodefindersearchvariables">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When a graph has errors or warnings raised by a <b>variable</b> used by a node, go to <b>Windows &gt; Console</b> to display the full error/warning message which will include the variable. You may then copy and paste this variable into the Node Finder query field to quickly locate the node causing the issue.</p>
+<p>Variables can also be copied directly from the XML data in the SBS file using any text editor.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: searching variable from Console warning/error">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-SearchinganodeUIDfromaConsolewarningerror_image_643073398 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-SearchinganodeUIDfromaConsolewarningerror_image_643073398 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-SearchinganodeUIDfromaConsolewarningerror_image_643073398 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-console-identifier?$png$&amp;jpegSize=200&amp;wid=884"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-console-identifier?$png$&amp;jpegSize=200&amp;wid=884"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-console-identifier?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: searching variable from Console warning/error" class="" id="root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-SearchinganodeUIDfromaConsolewarningerror_image_643073398" src="node-finder-console-identifier.png" title="Node finder: searching variable from Console warning/error"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+<div class="item-GetSetnodes-nodefindersearchvariables">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When searching a variable in a graph – including exposed parameters – the search will highlight all nodes where a <span style="color: rgb(80,80,80);"><a disablelinktracking="false" href="/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html">Get</a> or <a disablelinktracking="false" href="/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html">Set</a> node uses that variable in any of the node's parameter functions.</span></p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: Searching a variable matches Get nodes using it">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-GetSetnodes_image_1470217671 { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Node finder: Searching a variable matches Get nodes using it" class="" id="root_content_flex_items_position_position-par_accordion_1768639527_375585817_content-GetSetnodes_image_1470217671" src="node-finder-exposed-parameter-01.gif" title="Node finder: Searching a variable matches Get nodes using it"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_204_549077888 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_204_549077888"></div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<h3>Node UID</h3>
+<p><span style="color: rgb(80,80,80);">Each node in a graph has a unique identifier number (UID) that can be used to search for that node.</span></p>
+</div>
+</div>
+<div class="position">
+<style>
+</style>
+<div class="dexter-Position is-Editor-false" data-animations="[]" id="root_content_flex_items_position_position-par_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: search by UID">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_position_position-par_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-uid-search?$png$&amp;jpegSize=200&amp;wid=789"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-uid-search?$png$&amp;jpegSize=200&amp;wid=789"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-compositing-uid-search?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: search by UID" class="" id="root_content_flex_items_position_position-par_flex_items_position_position-par_image" src="node-finder-compositing-uid-search.png" title="Node finder: search by UID"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><i>Click image to enlarge</i></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-name="nodefindersearchuid">
+<spectrum-accordion-item data-label="Copying a node's UID" data-titleid="item-CopyinganodesUID-nodefindersearchuid">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Searching a node UID from a Console warning/error" data-titleid="item-SearchinganodeUIDfromaConsolewarningerror-nodefindersearchuid">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-CopyinganodesUID-nodefindersearchuid">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_accordion_1768639527_content-CopyinganodesUID_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_accordion_1768639527_content-CopyinganodesUID_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_accordion_1768639527_content-CopyinganodesUID_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_accordion_1768639527_content-CopyinganodesUID_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_accordion_1768639527_content-CopyinganodesUID_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p>A node's UID can be copied to the clipboard from its contextual menu.</p>
+<p>The action copies the UID in this format:</p>
+<p><span class="code">uid=1234567890</span></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: copy node UID action">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1768639527_content-CopyinganodesUID_flex_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1768639527_content-CopyinganodesUID_flex_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1768639527_content-CopyinganodesUID_flex_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Node finder: copy node UID action" class="" id="root_content_flex_items_position_position-par_accordion_1768639527_content-CopyinganodesUID_flex_items_image" src="node-finder-compositing-uid-copy.png" title="Node finder: copy node UID action"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item-SearchinganodeUIDfromaConsolewarningerror-nodefindersearchuid">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>When a graph has errors or warnings raised by a node, go to Windows &gt; Console to display the full error/warning message which will include the node's <b>UID</b>. You may then copy and paste this UID into the Node Finder query field to quickly locate the node causing the issue.</p>
+<p>Node UIDs can also be copied directly from the XML data in the SBS file using any text editor.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: Searching node UID from the Console">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_1768639527_content-SearchinganodeUIDfromaConsolewarningerror_image_772495360 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_1768639527_content-SearchinganodeUIDfromaConsolewarningerror_image_772495360 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_1768639527_content-SearchinganodeUIDfromaConsolewarningerror_image_772495360 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-console-uid?$png$&amp;jpegSize=200&amp;wid=848"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-console-uid?$png$&amp;jpegSize=200&amp;wid=848"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-console-uid?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: Searching node UID from the Console" class="" id="root_content_flex_items_position_position-par_accordion_1768639527_content-SearchinganodeUIDfromaConsolewarningerror_image_772495360" src="node-finder-console-uid.png" title="Node finder: Searching node UID from the Console"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_204_571950880 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_204_571950880"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Node Label</h3>
+<p><span style="color: rgb(80,80,80);">Nodes can also be found using their labels.</span></p>
+<p><span style="color: rgb(80,80,80);">Searching for specific nodes is particularly effective when using their exact label with fuzzy search turned off.</span></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2 id="LinkCreationModes-Themodes"><a id="search-options"></a>Search options</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex_copy_copy > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex_copy_copy > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex_copy_copy > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex_copy_copy > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex_copy_copy" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">The </span><b style="color: rgb(80,80,80);">Search options button <img alt="" src="node-finder-search-options.png"/></b><span style="color: rgb(80,80,80);"> lets you toggle the <b>recursive</b> and <b>fuzzy</b> modes for searching nodes.</span></p>
+<p><span style="color: rgb(80,80,80);">Both can be enabled at the same time.</span></p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder search options">
+<div>
+<div class="dexter-Image dexter-Image-right">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_copy_copy_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_copy_copy_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_copy_copy_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Node finder search options" class="" id="root_content_flex_items_position_position-par_flex_copy_copy_items_image" src="node-finder-search-options-open.png" title="Node finder search options"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_204_1904850247 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_204_1904850247"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Recursive mode</h3>
+<p><span style="color: rgb(80,80,80);">Enable this option to have searches traverse <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html">graph instances</a> to include results from <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html">subgraphs</a>.</span></p>
+<p><span style="color: rgb(80,80,80);">This option may be essential when troubleshooting graphs, if you need to find a node by its UID acquired from a warning or error message in the Console.</span></p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: recursive search">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_838159192 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_838159192 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_838159192 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-recursion-01?$png$&amp;jpegSize=300&amp;wid=1661"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-recursion-01?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-recursion-01?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: recursive search" class="" id="root_content_flex_items_position_position-par_image_838159192" src="node-finder-recursion-01.png" title="Node finder: recursive search"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><i>The query on the right highlights the instance node below, because its referenced graph on the left has matches for that query</i></p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-multi-select="true" data-name="nodefinderrecursivesearchexamples">
+<spectrum-accordion-item data-label="Example 1" data-titleid="item-Example1-nodefinderrecursivesearchexamples">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Example 2" data-titleid="item-Example2-nodefinderrecursivesearchexamples">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Example1-nodefinderrecursivesearchexamples">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: recursive search example 1">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Example1_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Node finder: recursive search example 1" class="" id="root_content_flex_items_position_position-par_accordion_content-Example1_image" src="node-finder-recursion-01.gif" title="Node finder: recursive search example 1"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>An instance node references a graph where multiple nodes match the query.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Example2-nodefinderrecursivesearchexamples">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: recursive search example 2">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_content-Example2_image { width:auto; }
+    
+    
+    
+
+    </style>
+<img alt="Node finder: recursive search example 2" class="" id="root_content_flex_items_position_position-par_accordion_content-Example2_image" src="node-finder-recursion-02.gif" title="Node finder: recursive search example 2"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Enabling the 'Recursive search' option highlights the instance node referencing a graph where a Pixel Processor node uses a variable matching the query.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_copy_204_1576537000 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_copy_204_1576537000"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Fuzzy mode</h3>
+<p><span style="color: rgb(80,80,80);">If you are unsure about the exact spelling of a query, this options enables a <b>tolerance</b> in the results.</span></p>
+<p><span style="color: rgb(80,80,80);">Note that using this option will likely result in undesired matches.</span></p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" data-image-magnification="true" title="Node finder: Fuzzy mode">
+<div>
+<div class="dexter-Image">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_image_266590801 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_image_266590801 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_image_266590801 { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-functions-fuzzy?$png$&amp;jpegSize=200&amp;wid=1273"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-functions-fuzzy?$png$&amp;jpegSize=200&amp;wid=1199"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/node-finder-functions-fuzzy?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Node finder: Fuzzy mode" class="" id="root_content_flex_items_position_position-par_image_266590801" src="node-finder-functions-fuzzy.png" title="Node finder: Fuzzy mode"/>
+</picture>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div></body>

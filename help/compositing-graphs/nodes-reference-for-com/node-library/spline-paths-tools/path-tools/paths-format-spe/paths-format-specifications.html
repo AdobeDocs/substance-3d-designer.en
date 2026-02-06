@@ -1,0 +1,932 @@
+<header><meta name="title" content="Paths Format Specifications | Substance 3D Designer"><meta name="description" content=""><meta name="helpx_description" content="Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline & Path Tools > Path Tools > Paths Format Specifications"></header><body><div class="dexter-Position is-Editor-false" daa-im="true" daa-lh="HelpX in-article navigation" data-animations="[]" id="root_content_flex_items_position" role="">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text first-heading aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h1>Paths Format Specifications</h1>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>This page describes the Paths format and provides guidance for manipulating data in that format using functions included in the Paths tools.</p>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>In this page</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><a disablelinktracking="false" href="#format-specs">Format specifications</a></p>
+<p><a disablelinktracking="false" href="#reading-and-writing">Reading and writing Paths information</a></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_54404648_925210030 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_54404648_925210030"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="format-specs"></a>Format specifications</h2>
+</div>
+</div>
+<div class="flex aem-GridColumn aem-GridColumn--default--12">
+<style>
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items {
+        
+        margin: -8px;
+    }
+    
+    
+    
+    #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > * {
+        border: 0 solid transparent; border-width: 8px;}
+    
+    
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(1) {
+            flex: 1 1 1%; max-width: 100%; 
+            min-height: auto;
+            }
+        #root_content_flex_items_position_position-par_flex > .dexter-FlexContainer-Items > *:nth-child(2) {
+            width: 33.333333%; max-width: 33.333333%; flex: 1 1 auto;
+            min-height: auto;
+            }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+</style>
+<div class="dexter-FlexContainer dexter-FlexContainer--GapWrapper" id="root_content_flex_items_position_position-par_flex" role="">
+<div class="dexter-FlexContainer-Items dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
+<div class="text">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">This section explains how a <b>Paths document</b> (or image) is encoded:</span></p>
+<p><span style="color: rgb(80,80,80);">A Paths document is a list of paths, each of which describes a list of segments, encoded in a </span><b style="color: rgb(80,80,80);">32bit floating-point color texture</b><span style="color: rgb(80,80,80);">.</span></p>
+<p>The texture is split into 'top' (<i>$pos.y &lt; 0.5</i>) and 'bottom' (<i>$pos.y &gt; 0.5</i>) parts.<br/>
+</p>
+<p>Any data in a pixel in the 'top' part is semantically closely related to the matching pixel in the 'bottom' part, and vice-versa.</p>
+</div>
+</div>
+<div class="image parbase">
+<div class="image-wrapper" title="Paths Polygon encoded data">
+<div>
+<div class="dexter-Image dexter-Image-right">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_flex_items_image { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Paths Polygon encoded data" class="" id="root_content_flex_items_position_position-par_flex_items_image" src="PathsPolygon_Data.jpg" title="Paths Polygon encoded data"/>
+</div>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>Paths data require 32-bit precision and using lower bitdepth will produce incorrect results.</p>
+<p>Therefore, make sure to set the 'Ouptut Format' parameter of nodes generating Paths data to 'HDR High Precision (32F)'<span style="color: rgb(80,80,80);">.</span></p>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Let `</span><i style="color: rgb(80,80,80);">uv_pos</i><span style="color: rgb(80,80,80);">` be a 2D address (such as </span><i style="color: rgb(80,80,80);">$pos</i><span style="color: rgb(80,80,80);">) of a pixel of the 'top' part.</span><br/>
+</p>
+<p><span style="color: rgb(80,80,80);"> In the rest of this document:</span><br/>
+</p>
+<ul>
+<li><span class="code"><b>top[uv_pos].XYZW</b></span> will be referring to the 4 floats stored in the pixel of the top part.<br/>
+<span class="code">top[uv_pos] == sample_color(paths, uv_pos)</span><br/>
+</li>
+<li><span class="code"><b>bottom[uv_pos].XYZW</b></span> will be referring to the 4 floats stored in the matching pixel of the bottom part.<br/>
+<span class="code">bottom[uv_pos] == sample_color(paths, uv_pos + Float2(0, 0.5))</span></li>
+</ul>
+<p><span class="code">top[uv_pos]</span> and <span class="code">bottom[uv_pos]</span> together are forming a semantic unit <span class="code">U[uv_pos]</span> of the document, composed of 8 floats.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_55593468_1511118668 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_55593468_1511118668"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Document header</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Every Paths document starts with a document header. It is the very first semantic unit <span class="code">U[(0,0)]</span>:</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-multi-select="true" data-name="Pathsdocumentheader">
+<spectrum-accordion-item data-label="Top" data-titleid="item-top00X-Pathsdocumentheader">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Bottom" data-titleid="item-top00YZ-Pathsdocumentheader">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-top00X-Pathsdocumentheader">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>X</b></p>
+<p>The number of paths (should be a positive integer in [0; 16777216]).</p>
+<p>If some paths are empty, they still count here. So you can think of it as a 'number of paths headers to decode'.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_content-top00X_spacer_copy {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_content-top00X_spacer_copy"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>YZ</b></p>
+<p>The pixel size for this document (I.e., exactly `Float2(1,1) / $size`).</p>
+<p>This is useful when reading the Paths from from a <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html">Pixel processor</a> or an <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">Fx-Map</a>, for instance, whose Output Size is different.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_content-top00X_spacer_copy_483578917 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_content-top00X_spacer_copy_483578917"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>W</b></p>
+<p>1/16 = 0.0625 (header flag)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-top00YZ-Pathsdocumentheader">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>XY</b></p>
+<p>The address of the last vertex defined in this document. This is useful to append new data.</p>
+<p>It can hence actually be any address that is greater (in scanline order) than the address of the last vertex. It must me in the range ]0, 1[×]0,.5[</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_content-top00YZ_spacer_copy {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_content-top00YZ_spacer_copy"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>ZW</b></p>
+<p>Unused, should be Float2(0, 1)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_55593468_1246660131 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_55593468_1246660131"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Path headers</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The document header is immediately followed by number-of-paths = top[(0,0)].X path-headers, one by semantic unit.<br/>
+E.g. if there are 3 paths in the document, they will be stored in U[(0,1)*pixel_size], U[(0,2)*pixel_size] and U[(0,3)*pixel_size] (with pixel_size = top[(0,0)].YZ).</p>
+<p>If there are more paths than what one line of pixel can contains, the remaining path-headers are written one the next line(s), in scanline order.<br/>
+It is allowed to have null path-headers (`top[...].XYZW = Float4(0,0,0,0)`); such path still could as one empty path.</p>
+<p>The path-header of the Nth path will be defined at address `path_addr` will be defined as:</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-multi-select="true" data-name="Pathheaders">
+<spectrum-accordion-item data-label="Top" data-titleid="item-toppathaddrX-Pathheaders">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Bottom" data-titleid="item-toppathaddrY-Pathheaders">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-toppathaddrX-Pathheaders">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>X</b></p>
+<p>Number of vertices in this path. Must be in the [0, 16777216] range.<br/>
+</p>
+<p>If the start and end vertices of a closed path are at the same position, they still count for 2 vertices.<br/>
+A path with 0 vertices is a valid path anyway.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_1563610743_content-toppathaddrX_spacer_copy_555934682 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_1563610743_content-toppathaddrX_spacer_copy_555934682"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>Y</b></p>
+<p><span style="color: rgb(80,80,80);"><i>Is_closed</i> flag: 1 if the path is closed (e.g. a circle), 0 otherwise (e.g. a straight line).</span></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_1563610743_content-toppathaddrX_spacer_copy_1597335422 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_1563610743_content-toppathaddrX_spacer_copy_1597335422"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);"><b>Z</b></span></p>
+<p><span style="color: rgb(80,80,80);">The path index <i>N.<br/>
+</i></span><span style="color: rgb(80,80,80);">It must absolutely match </span><i style="color: rgb(80,80,80);">path_addr</i><span style="color: rgb(80,80,80);"> (see note below).</span></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_1563610743_content-toppathaddrX_spacer_copy {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_1563610743_content-toppathaddrX_spacer_copy"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);"><b>W</b></span></p>
+<p><span style="color: rgb(80,80,80);">The header flag: 1/16 = 0.0625.</span><br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-toppathaddrY-Pathheaders">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);"><b>XY</b></span></p>
+<p><span style="color: rgb(80,80,80);">Start (or first) vertex address.</span></p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_1563610743_content-toppathaddrY_spacer {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_1563610743_content-toppathaddrY_spacer"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>ZW</b></p>
+<p><span style="color: rgb(80,80,80);">End (or last) vertex' address.</span><br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="helpx-note">
+<span class="note-header">
+<span class="note-icon"></span>
+<span class="note-title">Note</span>
+</span>
+<div class="cmp-text">
+<p>You can compute `path_addr` from N using the function `Utils/pixel_index_to_position` in paths_tools.sbs: `path_addr = pixel_index_to_position(N+1)`<br/>
+</p>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_55593468 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_55593468"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Vertices information</h3>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Vertices can be found anywhere in the image after the headers (document or path headers). Vertices can be of various "types" (Start, Mid or End) and they are explicitly linked together using 2 address pointers ("links").</p>
+<p><b>Start</b> and <b>End</b> vertices are special in this respect: To allow the representation of closed paths or of an arbitrary network of paths linked together, one of the link is actually used to form a circular forward linked list of all the other Start or End vertices that represent the same vertex. Such vertices matching each others are called "siblings". [Illustration welcomed]</p>
+<p>Formally, each vertex at address `<i>vert_addr</i>` is defined like this:</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-multi-select="true" data-name="Vertexinformation">
+<spectrum-accordion-item data-label="Top" data-titleid="item-Top-Vertexinformation">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Bottom" data-titleid="item-Bottom-Vertexinformation">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-Top-Vertexinformation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>XY</b></p>
+<p>The vertex position. Coordinates can be any float value that is not NaN or ±inf. There is no notion of tiling at this level (it can be handle or not by the implementation of each filter), so paths are supposed to be defined on the euclidean plane.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_481930647_content-Top_spacer_copy_55593468 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_481930647_content-Top_spacer_copy_55593468"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b style="color: rgb(80,80,80);">Z</b><br/>
+</p>
+<p>The vertex path index. A vertex can only belong to one Path. (As mentioned earlier, Start and End vertices can have siblings though.) The path index can be used to retrieve the path-header (see Section Path Headers above), so make sure to keep it in sync.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_481930647_content-Top_spacer_copy_55593468_767850283 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_481930647_content-Top_spacer_copy_55593468_767850283"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b style="color: rgb(80,80,80);">W</b><br/>
+</p>
+<p>Vertex type. It is split between the sign of the value, and its absolute value:</p>
+<p>On the sign part, a value of 0 would mean there is no vertex here actually (all other components should be 0 too). A negative value means the vertex is marked as a "corner"; a positive one that the vertex is "smooth". Corner vs. smooth vertex is a pure, isolated attribute and has no impact or meaning on the rest of the Paths encoding.</p>
+<p>On the absolute value part, the kind of pixel (Start, Mid or End) and another flag (trivial_link) are encoded:</p>
+<ul>
+<li><i>0.125</i>: End vertex (the last vertex of the shape; always non-trivial links, see below)</li>
+<li><i>0.25</i>: Start vertex (the first vertex of the shape; always non-trivial links, see below)</li>
+<li><i>0.5</i>: Mid vertex with non-trivial links</li>
+<li><i>1</i>: Mid vertex with trivial links</li>
+</ul>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_481930647_content-Top_spacer_copy_55593468_5283748 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_481930647_content-Top_spacer_copy_55593468_5283748"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">"Trivial links" refers to the fact that the previous and next vertices (in the list of vertices of the current path) are stored in the pixel to left (vert_addr-(0,pixel_size)) and to the right (vert_addr+(0,pixel_size)) respectively, while "non-trivial links" means that at least one of these is stored elsewhere.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-Bottom-Vertexinformation">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Regardless of links "triviality", trustworthy values of links are stored in the bottom part:</span><br/>
+</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_481930647_content-Bottom_spacer_copy_55593468 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_481930647_content-Bottom_spacer_copy_55593468"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b>XY</b></p>
+<p>The address of the previous vertex of this path. For Start vertices, this points to the next sibling vertex.<br/>
+if |top[vert_addr].W| = 1, then bottom[vert_addr].XY = vert_addr - (0,pixel_size)</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_accordion_481930647_content-Bottom_spacer_copy_55593468_1646049198 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_accordion_481930647_content-Bottom_spacer_copy_55593468_1646049198"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><b style="color: rgb(80,80,80);">ZW</b><br/>
+</p>
+<p>The address of the next vertex of this path. For End vertices, this points to the next sibling vertex.<br/>
+if |top[vert_addr].W| = 1, then bottom[vert_addr].ZW = vert_addr + (0,pixel_size)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_54404648 {
+    height: 32px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_54404648"></div>
+</div>
+<div class="horizontalRule aem-GridColumn aem-GridColumn--default--12">
+<hr style="border-bottom: 2px solid #FBB03B;"/>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h2><a id="reading-and-writing"></a>Reading and writing Paths information</h2>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>If you want to make your own Paths-processing nodes, you have several tools.</p>
+<p>The basics are provided by the <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html">Paths Vertex Processor</a> and <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html">Paths Vertex Processor Simple</a> nodes, which can basically be used the same way as a <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html">Pixel Processor</a>.</p>
+<p>If you need features beyond what the Paths Vertex Processor nodes offers (more input textures, or more previous or next vertices), copying the implementation of this graph might be good starting point (assuming you replace the <b>Get("%perVertex")</b> node with you custom processing).</p>
+<p>But in case you want to do something more alien than applying a per-vertex function, here is a detailed explanation of the tools you can use. These are usually small helper functions that can be found in the same package as the other Paths nodes (<i>paths_tools.sbs)</i>. (These functions are not exposed in the <a disablelinktracking="false" href="/substance-3d-designer/interface/the-library.html"><b>Library</b></a> and <b>Node menu</b>.)</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_55593468_61117788 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_55593468_61117788"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3><b>'Read' functions</b></h3>
+<p>Under the `Read` folder, you can find several of these, useful to gather information about the Paths:</p>
+<p>Some can give you information about a given pixel. They all take the sampled Float4 value in the *top* part as input. If you look at their implementation, they are super-simple. Their point is to convey more meaning than just atomic nodes:</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-multi-select="true" data-name="Pathsreadfunctions">
+<spectrum-accordion-item data-label="is_header" data-titleid="item-isheader-Pathsreadfunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="path_is_closed" data-titleid="item-pathisclosed-Pathsreadfunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="is_vertex" data-titleid="item-isvertex-Pathsreadfunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="is_start_vertex" data-titleid="item-isstartvertex-Pathsreadfunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="is_mid_vertex" data-titleid="item-ismidvertex-Pathsreadfunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="is_end_vertex" data-titleid="item-isendvertex-Pathsreadfunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="is_segment_start" data-titleid="item-issegmentstart-Pathsreadfunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="is_corner" data-titleid="item-iscorner-Pathsreadfunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="has_trivial_links" data-titleid="item-hastriviallinks-Pathsreadfunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="sample_next, sample_prev" data-titleid="item-samplenextsampleprev-Pathsreadfunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="sample_next_advanced, sample_prev_advanced" data-titleid="item-samplenextadvancedsampleprevadvanced-Pathsreadfunctions">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-isheader-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Check that the current sampled value is either a path header or a document header.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-pathisclosed-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Check the Is_Closed flag (.Y) in a path header. It *assumes you already checked it's a path* with `is_header` and that `current_pixel_is_document_header` returned false.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-isvertex-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Check that the current sampled value is a vertex, i.e. not a header, nor an empty pixel.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-isstartvertex-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Check if a *top-part sampled* value is a Start vertex (no need to check `is_vertex` first).</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-ismidvertex-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Check if a *top-part sampled* value is a vertex that is not a Start nor End vertex (no need to check `is_vertex` first).</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-isendvertex-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Check if a *top-part sampled* value is an End vertex (no need to check `is_vertex` first).</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-issegmentstart-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Short-hand for `is_start_vertex || is_mid_vertex`. More useful for </span><a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">Fx-Map</a><span style="color: rgb(80,80,80);">-based processing, to process each segment at most once.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-iscorner-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Check the corner flag of the vertex (no need to check `is_vertex` first: if the answer is true, you are on a vertex for sure). Please remind that this flag is somewhat not supported yet by official nodes.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-hastriviallinks-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">If that is a vertex, tells whether you can easily deduce the position of the previous and next vertices without sampling the bottom part. (Note: A non-vertex will always return false.)</span></p>
+<p><span style="color: rgb(80,80,80);">You probably don't want to use this directly, but rather use one of the `sample_next*` or `sample_prev*` functions, which take care of that for you.</span><br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-samplenextsampleprev-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Given the top-part sampled value `</span><i style="color: rgb(80,80,80);">sampled</i><span style="color: rgb(80,80,80);">` and its position `</span><i style="color: rgb(80,80,80);">sampled_position</i><span style="color: rgb(80,80,80);">`, returns the next (respectively previous) vertex top-part sampled value, and Set a Float2 variable `</span><i style="color: rgb(80,80,80);">next_sampled_pos</i><span style="color: rgb(80,80,80);">` to the position (in the top-part) of this neighbor (i.e. &lt;returned value&gt; = SampleColor(next_sampled_pos, image0)). `</span><i style="color: rgb(80,80,80);">input0PixSize</i><span style="color: rgb(80,80,80);">`must be equal to the path's pixel size (top[(0,0)].YZ).</span><br/>
+</p>
+<p>If the current pixel (`<i>sampled</i>`) is a <b>Start</b> vertex, <i>sample_prev</i> will return the next sibling of this vertex; likewise if it is an <b>End</b> vertex, <i>sample_next</i> will return the next sibling of this vertex (i.e. maybe not what you want). See `<i>sample_next_advanced</i>` and `<i>sample_prev_advanced</i>` below to solve this.</p>
+<p>Please note that for simplicity, <b>Paths info are assumed to be stored in input0!</b> Also, unlike what the function's doc states, you don't need to pre-declare `<i>next_sampled_pos</i>`. `<i>[out]next_sampled_pos</i>` is a dummy parameter to remind you that this second "return value" exists.</p>
+<p>You can check the `<i>paths_trace</i>` <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">Fx-Map</a>, in the Iterations parameter of the 3rd Iterate node, for an example of how to use it.</p>
+</div>
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Minimal use case of sample_next">
+<div>
+<figure class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_2119629983_content-samplenextsampleprev_image { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_2119629983_content-samplenextsampleprev_image { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_2119629983_content-samplenextsampleprev_image { width:auto; }
+        }
+    
+
+    </style>
+<picture>
+<source media="(min-width: 1200px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/paths-spec_fxmap-sample-next_02?$png$&amp;jpegSize=200&amp;wid=721"/>
+<source media="(min-width: 600px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/paths-spec_fxmap-sample-next_02?$png$&amp;jpegSize=200&amp;wid=721"/>
+<source media="(max-width: 599px)" srcset="https://helpx-prod.scene7.com/is/image/HelpxProd/paths-spec_fxmap-sample-next_02?$png$&amp;jpegSize=100&amp;wid=599"/>
+<img alt="Minimal use case of sample_next" class="" id="root_content_flex_items_position_position-par_accordion_2119629983_content-samplenextsampleprev_image" src="paths-spec_fxmap-sample-next_02.png" title="Minimal use case of sample_next"/>
+</picture>
+<figcaption>Minimal use case of 'sample_next'</figcaption>
+</figure>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+<div class="image parbase aem-GridColumn aem-GridColumn--default--12">
+<div class="image-wrapper" title="Use case of sample_next in Preview Paths (path_trace)">
+<div>
+<figure class="dexter-Image dexter-Image-left">
+<style>
+        
+    
+        #root_content_flex_items_position_position-par_accordion_2119629983_content-samplenextsampleprev_image_774059057 { width:auto; }
+    
+    
+        @media (min-width: 600px) {
+            #root_content_flex_items_position_position-par_accordion_2119629983_content-samplenextsampleprev_image_774059057 { width:auto; }
+        }
+    
+    
+        @media (min-width: 1200px) {
+            #root_content_flex_items_position_position-par_accordion_2119629983_content-samplenextsampleprev_image_774059057 { width:auto; }
+        }
+    
+
+    </style>
+<img alt="Use case of sample_next in Preview Paths (path_trace)" class="" id="root_content_flex_items_position_position-par_accordion_2119629983_content-samplenextsampleprev_image_774059057" src="paths-spec_fxmap-sample-next_01.png" title="Use case of sample_next in Preview Paths (path_trace)"/>
+<figcaption>Example of sample_next in Preview Paths (path_trace)</figcaption>
+</figure>
+</div>
+<p class="callouts">
+</p>
+</div>
+<!-- Modal -->
+</div>
+</div>
+</div>
+<div class="item-samplenextadvancedsampleprevadvanced-Pathsreadfunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<div><span style="color: rgb(80,80,80);">These behave like the matching `</span><i style="color: rgb(80,80,80);">sample_next</i><span style="color: rgb(80,80,80);">` and `</span><i style="color: rgb(80,80,80);">sample_prev</i><span style="color: rgb(80,80,80);">` functions above, but it correctly gives you the value and position of the next or previous vertex, even at path extremities (</span><b style="color: rgb(80,80,80);">Start</b><span style="color: rgb(80,80,80);"> or </span><b style="color: rgb(80,80,80);">End</b><span style="color: rgb(80,80,80);"> vertices).</span><br/>
+</div>
+<p>This is aimed to work on closed paths. For open paths, the Start or End vertex doesn't have a sibling, and in this case both functions return the same and only neighbor. For Start or End vertices with more than one sibling (Paths connected as a network), that would return the neighboring vertex of the next sibling in the linked list.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_55593468_1269143334 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_55593468_1269143334"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3><b>'Write' functions</b></h3>
+<p>Under the `Write` folder, you will find small helpers that builds a Float4 ready to be written <b>by an <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">Fx-Map</a></b>.</p>
+<p>Indeed, the <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">Fx-Map</a> multiplies RGB by Alpha before drawing, so the actual values are un-premultiplied to compensate for that. If you want to use these function e.g. in a <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html">Pixel Processor</a>, we recommend that you apply the premultiplication yourself again, or that you write a custom version (more optimized for your use case and easier to use).</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-multi-select="true" data-name="Pathswritefunctions">
+<spectrum-accordion-item data-label="document_header" data-titleid="item-documentheader-Pathswritefunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="document_last_vertex_spec" data-titleid="item-documentlastvertexspec-Pathswritefunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="path_header" data-titleid="item-pathheader-Pathswritefunctions">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="start_vertex, mid_vertex, end_vertex" data-titleid="item-startvertexmidvertexendvertex-Pathswritefunctions">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-documentheader-Pathswritefunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>Builds the top part of the document header, declaring the number of paths you provide.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-documentlastvertexspec-Pathswritefunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Builds the *bottom* part of the document header, which specify the last vertex address (see A.1.).</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-pathheader-Pathswritefunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Builds the top part of a path header, according to the number of vertices in the path `</span><i style="color: rgb(80,80,80);">nbVertices</i><span style="color: rgb(80,80,80);">`, the `</span><i style="color: rgb(80,80,80);">isClosed</i><span style="color: rgb(80,80,80);">` flag, and the `</span><i style="color: rgb(80,80,80);">pathIndex</i><span style="color: rgb(80,80,80);">`.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-startvertexmidvertexendvertex-Pathswritefunctions">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">Builds the top part of a vertex, setting the position, type and other options accordingly.</span></p>
+<p><span style="color: rgb(80,80,80);">About <i>mid_vertex</i> and the <i>hasTrivialLinks</i> parameter: Ideally you should set the appropriate value, but if for any reason you end up not being able to tell whether links will be trivial or not, you can safely set it to false (at the cost of slower processing of your generated path).</span><br/>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p><span style="color: rgb(80,80,80);">There is no bottom-part builder for path headers nor vertices: both encode two links to the top part, so this function would essentially be a Vector Float4 constructor from two Float2. Don't forget to divide XYZ by W if you are writing using an </span><a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">Fx-Map</a><span style="color: rgb(80,80,80);"> (W being the Y of an address, it should never be null).</span><br/>
+</p>
+<p>You will find a pertinent example of how to use these functions in the <b><i>paths_polygon.sbs</i> </b>package hosting the <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html">Paths Polygon</a> node.</p>
+</div>
+</div>
+<div class="dexter-Spacer aem-GridColumn aem-GridColumn--default--12"><style>
+
+#root_content_flex_items_position_position-par_spacer_copy_55593468_1689511190 {
+    height: 16px;
+}
+
+
+
+</style>
+<div class="false" id="root_content_flex_items_position_position-par_spacer_copy_55593468_1689511190"></div>
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<h3>Methods for processing paths</h3>
+<p>You will likely use either a Pixel Processor or an Fx-Map to implement your custom processing, each of which has its strength and weaknesses:</p>
+</div>
+</div>
+<div class="accordion aem-GridColumn aem-GridColumn--default--12">
+<spectrum-accordion data-multi-select="true" data-name="MethodsforprocessingPaths">
+<spectrum-accordion-item data-label="FX-Map" data-titleid="item-FXMap-MethodsforprocessingPaths">
+</spectrum-accordion-item>
+<spectrum-accordion-item data-label="Pixel Processor" data-titleid="item-PixelProcessor-MethodsforprocessingPaths">
+</spectrum-accordion-item>
+</spectrum-accordion>
+<div class="spectrum-Accordion-content">
+<div class="item-FXMap-MethodsforprocessingPaths">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">Fx-Map</a>-based solution will usually be preferred when performing high-level operation requiring a global knowledge of the whole path (or paths), or a cumulative one (e.g. repacking vertices after decimation or tessellation). It is also the easiest to approach, so if you are doing a custom processing for the first time, you may want to use a Fx-Map, despite it <i style="">might</i> be slower.<br/>
+</p>
+<p>You need to be familiar with Fx-Map in the first place. If that's not the case, please check the <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html">specific documentation</a>.</p>
+<p>We recommend that you look at the implementation of <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html">Preview Paths</a> in <b><i>paths_trace.sbs</i></b> and <a disablelinktracking="false" href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html">Paths Polygon</a> in <b><i>paths_polygon.sbs</i></b> to get an idea about how to read and write (respectively) path using an Fx-Map.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="item-PixelProcessor-MethodsforprocessingPaths">
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-text">
+<p>The <a href="/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html">Pixel Processor</a> solution will be fitting if you only need "local" information. Here we mean "local" not spatially (the distance between element) but rather topologically (vertices linked together). This is how the Vertex Processor is implemented. The Pixel Processor is usually faster than the Fx-Map for this kind of operation, as each pixel's function is evaluated in parallel, while only a limited amount of data is accessed. Implementation effort might be far more important though, as you can only modify the current pixel.<br/>
+</p>
+<p>We won't get into detail, as there is so much to say depending on you specific use case, but the first thing to do is checking where you are:</p>
+<p>Are you in the top ($pos.y &lt; 0.5) or bottom ($pos.y &gt; 0.5) part? We recommend that remember that in a dedicated variable (e.g. `<i>isTop</i>`), and that you create a `<i>vert.addr</i>` Float2 those value is `<i>$pos</i>` for the top part, and `$pos - (0,0.5)` for the bottom part.</p>
+<p>What is at <i>vert.addr</i>? Sample it and check whether there's anything (W != 0) then, if there is, what exactly. A header (W = 0.0625) (check with `<i>Read/is_header</i>`) or a vertex (check with `Read/is_vertex`)? And if it's a header, is it the document header or a Path header? (You can use `<i>Read/current_pixel_is_document_header</i>` to check that.) Use one or several of the helper functions to match what is interesting to you.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></body>
