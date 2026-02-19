@@ -1,8 +1,20 @@
 ---
 title: "Bakers"
-description: ""
-helpx_description: "Designer > Bakers"
+description: "Learn how to use Substance 3D Designer bakers to compute mesh-based information into texture files."
+helpx_description: Designer > Bakers
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_creative_field:
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - baking
+  - materials
+  - 3d
 ---
+
+
+
 
 # Bakers
 

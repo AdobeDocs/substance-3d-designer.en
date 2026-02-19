@@ -1,8 +1,21 @@
 ---
 title: "Explorer"
-description: ""
-helpx_description: "Designer > Interface > Explorer"
+description: "Use the Explorer window in Substance 3D Designer to browse, organize, and manage your project files and resources."
+helpx_description: Designer > Interface > Explorer
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - cross-product-workflows
+  - export
+  - import
 ---
+
+
+
 
 # Explorer
 

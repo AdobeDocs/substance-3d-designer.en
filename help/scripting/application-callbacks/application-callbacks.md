@@ -1,8 +1,23 @@
 ---
 title: "Application callbacks"
-description: ""
-helpx_description: "Designer > Scripting > Application callbacks"
+description: "Learn how to use application callbacks in Substance 3D Designer Python plugins to respond to application events."
+helpx_description: Designer > Scripting > Application callbacks
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/application-callbacks.html"
+helpx_creative_field:
+  - web
+  - video
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - ar
+  - interface
+  - behaviors
 ---
+
+
+
 
 # Application callbacks
 

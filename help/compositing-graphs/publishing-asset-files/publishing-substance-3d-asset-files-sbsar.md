@@ -1,8 +1,21 @@
 ---
 title: "Publishing Substance 3D asset files (SBSAR)"
-description: ""
-helpx_description: "Designer > Substance graphs > Publishing Substance 3D asset files (SBSAR)"
+description: "Learn how to publish Substance 3D asset files (SBSAR) from Designer for use in other applications and engines."
+helpx_description: Designer > Substance graphs > Publishing Substance 3D asset files (SBSAR)
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - publish
+  - export
+  - cross-product-workflows
 ---
+
+
+
 
 # Publishing Substance 3D asset files (SBSAR)
 

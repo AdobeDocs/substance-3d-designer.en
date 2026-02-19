@@ -1,8 +1,22 @@
 ---
 title: "Cloth Wear"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Cloth Wear"
+description: "Use the Cloth Wear node to generate wear masks on cloth surfaces based on mesh curvature and contact areas."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Cloth Wear
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/cloth-wear.html"
+helpx_creative_field:
+  - painting-illustration
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - masking
+  - creative-effects
+  - effects
 ---
+
+
+
 
 # Cloth Wear
 

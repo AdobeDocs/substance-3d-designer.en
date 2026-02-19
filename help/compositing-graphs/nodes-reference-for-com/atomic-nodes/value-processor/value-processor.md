@@ -1,8 +1,21 @@
 ---
 title: "Value processor"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor"
+description: "Use the Value Processor node to process and manipulate texture values using mathematical operations for custom adjustments."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - transitions
+  - data-and-analytics
+  - content-aware-fill
 ---
+
+
+
 
 # Value processor
 

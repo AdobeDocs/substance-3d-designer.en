@@ -1,8 +1,21 @@
 ---
 title: "Emboss With Gloss"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Emboss With Gloss"
+description: "Use the Emboss With Gloss node to create embossed effects with gloss maps for adding depth and shine to textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Emboss With Gloss
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - effects
+  - creative-effects
+  - materials
 ---
+
+
+
 
 # Emboss With Gloss
 

@@ -1,8 +1,21 @@
 ---
 title: "Using color management"
-description: ""
-helpx_description: "Designer > Scripting > Using color management"
+description: "Learn how to use color management features in Substance 3D Designer Python scripting for accurate colors."
+helpx_description: Designer > Scripting > Using color management
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-color-management.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creating-color-palettes
+  - color
+  - swatches
 ---
+
+
+
 
 # Using color management
 

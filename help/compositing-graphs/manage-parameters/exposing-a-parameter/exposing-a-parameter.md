@@ -1,8 +1,22 @@
 ---
 title: "Exposing a parameter"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Exposing a parameter"
+description: "Learn how to expose parameters in Substance 3D Designer compositing graphs to make materials customizable and reusable."
+helpx_description: Designer > Substance compositing graphs > Exposing a parameter
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - presets
+  - preferences
+  - adjustments
 ---
+
+
+
 
 # Exposing a parameter
 

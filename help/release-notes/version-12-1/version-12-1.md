@@ -1,8 +1,22 @@
 ---
 title: "Version 12.1"
-description: ""
-helpx_description: "Designer > Release Notes > Version 12.1"
+description: "Review release notes for Substance 3D Designer version 12.1 to learn about new features, improvements, and bug fixes."
+helpx_description: Designer > Release Notes > Version 12.1
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-1.html"
+helpx_creative_field:
+  - video
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - 3d
+  - infographic
+  - data-visualizations
 ---
+
+
+
 
 # Version 12.1
 

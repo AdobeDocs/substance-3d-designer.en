@@ -1,8 +1,21 @@
 ---
 title: "Histogram Select"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Select"
+description: "Use the Histogram Select node to select and extract specific ranges from texture histograms for targeted adjustments."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Select
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - content-aware-fill
+  - adjustments
+  - effects
 ---
+
+
+
 
 # Histogram Select
 

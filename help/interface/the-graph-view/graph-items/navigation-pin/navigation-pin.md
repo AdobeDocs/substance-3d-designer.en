@@ -1,8 +1,19 @@
 ---
 title: "Pin"
-description: ""
-helpx_description: "Designer > Interface > Graph view > Graph items > Pin"
+description: "Use navigation pins in the graph view to quickly jump between different locations in Substance 3D Designer graphs."
+helpx_description: Designer > Interface > Graph view > Graph items > Pin
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - graphs
 ---
+
+
+
 
 # Pin
 

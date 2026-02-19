@@ -1,8 +1,22 @@
 ---
 title: "Fur 2"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 2"
+description: "Use the Fur 2 node to create fur textures with enhanced controls for simulating hair and fibrous materials."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 2
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - asset-warp
+  - blending
+  - effects
 ---
+
+
+
 
 # Fur 2
 

@@ -1,8 +1,21 @@
 ---
 title: "Channels"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels"
+description: "Access channel filter nodes in Substance 3D Designer to manipulate and combine RGBA channel data."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - infographic
+  - branding
+  - color
 ---
+
+
+
 
 # Channels
 

@@ -1,8 +1,21 @@
 ---
 title: "Exposing parameters in MDL graphs"
-description: ""
-helpx_description: "Designer > MDL graphs > Exposing parameters in MDL graphs"
+description: "Learn how to expose parameters in MDL graphs to make materials customizable and reusable in Substance 3D Designer."
+helpx_description: Designer > MDL graphs > Exposing parameters in MDL graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/exposing-parameters-in-mdl-graphs.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - data-visualizations
+  - graphs
 ---
+
+
+
 
 # Exposing parameters in MDL graphs
 

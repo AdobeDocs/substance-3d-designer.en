@@ -1,8 +1,21 @@
 ---
 title: "Workspace"
-description: ""
-helpx_description: "Designer > Workspace"
+description: "Learn about the Substance 3D Designer workspace interface including views, panels, and customization options."
+helpx_description: Designer > Workspace
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - interface
+  - preferences
+  - workspace
 ---
+
+
+
 
 # Workspace
 

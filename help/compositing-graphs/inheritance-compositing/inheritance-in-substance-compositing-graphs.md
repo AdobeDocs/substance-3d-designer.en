@@ -1,8 +1,21 @@
 ---
 title: "Inheritance in Substance graphs"
-description: ""
-helpx_description: "Designer > Substance graphs > Inheritance in Substance graphs"
+description: "Learn how inheritance works in Substance compositing graphs to create reusable graph hierarchies and variations."
+helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - data-and-analytics
+  - graphs
 ---
+
+
+
 
 # Inheritance in Substance graphs
 

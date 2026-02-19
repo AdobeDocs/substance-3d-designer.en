@@ -1,8 +1,22 @@
 ---
 title: "Dirt 3"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt 3"
+description: "Use the Dirt 3 node to generate intermediate dirt patterns for creating weathered surface details and accumulation effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt 3
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-3.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - reflections
+  - sharpen
+  - normal-maps
 ---
+
+
+
 
 # Dirt 3
 

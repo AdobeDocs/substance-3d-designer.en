@@ -1,8 +1,21 @@
 ---
 title: "Distance"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance"
+description: "Use the Distance node to calculate distance maps from shapes for creating masks and procedural effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - shapes
+  - gradients
 ---
+
+
+
 
 # Distance
 

@@ -1,8 +1,21 @@
 ---
 title: "Curvature (Filter Node)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature (Filter Node)"
+description: "Use the Curvature filter node to generate curvature maps from height maps for detecting convex and concave surfaces."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature (Filter Node)
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-filter-node.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - gradients
+  - reflections
+  - matte
 ---
+
+
+
 
 # Curvature (Filter Node)
 

@@ -1,8 +1,21 @@
 ---
 title: "Smart Auto Tile"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Smart Auto Tile"
+description: "Use the Smart Auto Tile node to automatically create seamless tiles from scanned materials using intelligent pattern detection."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Smart Auto Tile
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/smart-auto-tile.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - panorama
+  - compositing
+  - tiling
 ---
+
+
+
 
 # Smart Auto Tile
 

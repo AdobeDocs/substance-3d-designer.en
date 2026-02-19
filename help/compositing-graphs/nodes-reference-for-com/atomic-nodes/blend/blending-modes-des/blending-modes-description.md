@@ -1,8 +1,22 @@
 ---
 title: "Blending modes"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend > Blending modes"
+description: "Learn about blending modes available in Substance 3D Designer for combining textures with different compositing effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend > Blending modes
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - enhancing-color
+  - appearance
+  - blending
 ---
+
+
+
 
 # Blending modes
 

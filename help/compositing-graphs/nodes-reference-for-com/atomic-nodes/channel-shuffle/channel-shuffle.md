@@ -1,8 +1,22 @@
 ---
 title: "Channels shuffle"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Channels shuffle"
+description: "Use the Channels Shuffle node to rearrange color channels in textures for creating color effects and channel swapping."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Channels shuffle
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - audio-effects
+  - visual-effects
+  - channels
 ---
+
+
+
 
 # Channels shuffle
 

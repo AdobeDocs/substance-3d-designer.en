@@ -1,8 +1,21 @@
 ---
 title: "3D view"
-description: ""
-helpx_description: "Designer > Interface > 3D view"
+description: "Use the 3D view in Substance 3D Designer to preview materials on 3D objects and test lighting conditions."
+helpx_description: Designer > Interface > 3D view
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - 3d
+  - views
+  - rendering
 ---
+
+
+
 
 # 3D view
 

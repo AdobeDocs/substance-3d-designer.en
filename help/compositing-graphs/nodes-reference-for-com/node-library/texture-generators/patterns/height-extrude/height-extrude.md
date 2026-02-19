@@ -1,8 +1,21 @@
 ---
 title: "Height Extrude"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Height Extrude"
+description: "Use the Height Extrude node to extrude shapes based on height maps for creating 3D-like depth effects in textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Height Extrude
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/height-extrude.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - height
+  - 3d
+  - shapes
 ---
+
+
+
 
 # Height Extrude
 

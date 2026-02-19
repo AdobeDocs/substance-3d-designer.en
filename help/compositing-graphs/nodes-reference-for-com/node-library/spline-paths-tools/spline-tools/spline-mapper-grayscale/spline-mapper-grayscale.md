@@ -1,7 +1,8 @@
 ---
 title: "Spline Mapper Grayscale"
-description: ""
+description: "Use the Spline Mapper Grayscale node to map grayscale textures along spline paths with customizable parameters."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Mapper Grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 ---
 
 # Spline Mapper Grayscale

@@ -1,7 +1,8 @@
 ---
 title: "Graph instances and subgraphs"
-description: ""
+description: "Use graph instances and subgraphs to create reusable graph components and modular material workflows."
 helpx_description: "Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 ---
 
 # Graph instances and subgraphs

@@ -1,8 +1,21 @@
 ---
 title: "Variables"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Variables"
+description: "Access Get nodes in Substance 3D Designer function graphs to retrieve variable values and data."
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Variables
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - data-visualizations
+  - markers
 ---
+
+
+
 
 # Variables
 

@@ -1,8 +1,22 @@
 ---
 title: "Alpha Split"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Split"
+description: "Use the Alpha Split node to extract the alpha channel from RGBA textures for separate processing and manipulation."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Alpha Split
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-split.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - masking
+  - channels
+  - compositing
 ---
+
+
+
 
 # Alpha Split
 

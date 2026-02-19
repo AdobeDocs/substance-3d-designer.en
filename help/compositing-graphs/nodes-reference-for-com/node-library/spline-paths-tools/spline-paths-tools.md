@@ -1,7 +1,8 @@
 ---
 title: "Spline  Path Tools"
-description: ""
+description: "Access spline and path tool nodes for creating procedural patterns, curves, and organic shapes in Substance graphs."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools.html"
 ---
 
 # Spline &amp; Path Tools

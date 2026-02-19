@@ -1,8 +1,21 @@
 ---
 title: "Output size"
-description: ""
-helpx_description: "Designer > Substance graphs > Output size"
+description: "Configure output size settings for Substance compositing graphs to control texture resolution and quality."
+helpx_description: Designer > Substance graphs > Output size
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - resolution
+  - scaling
+  - resize
 ---
+
+
+
 
 # Output size
 

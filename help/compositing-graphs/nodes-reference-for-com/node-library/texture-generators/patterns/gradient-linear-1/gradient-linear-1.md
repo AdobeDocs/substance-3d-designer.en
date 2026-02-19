@@ -1,8 +1,21 @@
 ---
 title: "Gradient Linear 1"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 1"
+description: "Use the Gradient Linear 1 node to create linear gradients for blending colors and creating smooth transitions."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 1
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - gradients
+  - illustration
+  - creative-effects
 ---
+
+
+
 
 # Gradient Linear 1
 

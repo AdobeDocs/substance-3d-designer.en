@@ -1,8 +1,22 @@
 ---
 title: "Incorrect image output"
-description: ""
-helpx_description: "Designer > Technical issues > Incorrect image output"
+description: "Troubleshoot incorrect image output issues in Substance 3D Designer and learn how to fix rendering problems."
+helpx_description: Designer > Technical issues > Incorrect image output
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - resolution
+  - image-quality
+  - texture
 ---
+
+
+
 
 # Incorrect image output
 

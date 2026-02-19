@@ -1,8 +1,21 @@
 ---
 title: "Project settings"
-description: ""
-helpx_description: "Designer > Interface > Preferences window > Project settings"
+description: "Configure project settings in Substance 3D Designer preferences to customize default project behavior."
+helpx_description: Designer > Interface > Preferences window > Project settings
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/project-settings.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - preparing-source-files
+  - presets
+  - preferences
 ---
+
+
+
 
 # Project settings
 

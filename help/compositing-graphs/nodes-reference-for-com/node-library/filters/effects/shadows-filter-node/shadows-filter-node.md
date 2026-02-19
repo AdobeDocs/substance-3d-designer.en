@@ -1,8 +1,21 @@
 ---
 title: "Shadows (Filter Node)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shadows (Filter Node)"
+description: "Use the Shadows filter node to generate shadow effects from input textures for adding depth and realism to materials."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shadows (Filter Node)
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shading
+  - effects
+  - gradients
 ---
+
+
+
 
 # Shadows (Filter Node)
 

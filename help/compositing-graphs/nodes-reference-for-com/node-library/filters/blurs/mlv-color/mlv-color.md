@@ -1,7 +1,8 @@
 ---
 title: "MLV color"
-description: ""
+description: "Use the MLV Color blur filter to apply motion blur effects to color textures for dynamic visual looks."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > MLV color"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 ---
 
 # MLV color

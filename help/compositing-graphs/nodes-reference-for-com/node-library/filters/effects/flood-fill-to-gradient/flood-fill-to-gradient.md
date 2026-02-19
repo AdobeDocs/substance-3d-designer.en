@@ -1,8 +1,21 @@
 ---
 title: "Flood Fill to Gradient"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Gradient"
+description: "Use the Flood Fill to Gradient node to fill regions with gradient values for creating smooth color transitions."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Gradient
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - gradients
+  - creative-effects
+  - effects
 ---
+
+
+
 
 # Flood Fill to Gradient
 

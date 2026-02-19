@@ -1,7 +1,8 @@
 ---
 title: "Histogram compute"
-description: ""
+description: "Use the Histogram Compute node to calculate histogram data from textures for analysis and processing."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram compute"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 ---
 
 # Histogram compute

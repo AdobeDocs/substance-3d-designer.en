@@ -1,7 +1,8 @@
 ---
 title: "Exporting scenes"
-description: ""
+description: "Export 3D scenes with all edits made in Designer using the Export scene action in the 3D View Scene menu."
 helpx_description: "Designer > Working with 3D scenes > Exporting scenes"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 ---
 
 # Exporting scenes

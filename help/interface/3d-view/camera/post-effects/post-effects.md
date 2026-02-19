@@ -1,7 +1,8 @@
 ---
 title: "Post effects"
-description: ""
+description: "Apply post-processing effects to the 3D view camera for enhanced material preview and visualization."
 helpx_description: "Designer > Interface > 3D view > Camera > Post effects"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 ---
 
 # Post effects

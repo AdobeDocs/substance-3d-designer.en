@@ -1,7 +1,8 @@
 ---
 title: "Modify Color Palette"
-description: ""
+description: "Use the Modify Color Palette node to adjust and transform color palettes extracted from textures."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Modify Color Palette"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
 ---
 
 # Modify Color Palette

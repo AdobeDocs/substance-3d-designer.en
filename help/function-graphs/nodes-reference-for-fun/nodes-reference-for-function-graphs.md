@@ -1,8 +1,21 @@
 ---
 title: "Nodes reference for function graphs"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs"
+description: "Access the complete reference guide for all nodes available in Substance 3D Designer function graphs."
+helpx_description: Designer > Function graphs > Nodes reference for function graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
+helpx_creative_field:
+  - web
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - graphs
+  - data-visualizations
 ---
+
+
+
 
 # Nodes reference for function graphs
 

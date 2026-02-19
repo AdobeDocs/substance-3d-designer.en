@@ -1,7 +1,8 @@
 ---
 title: "Version 15.1"
-description: ""
+description: "Review release notes for Substance 3D Designer version 15.1 to learn about new features, improvements, and bug fixes."
 helpx_description: "Designer > Release Notes > Version 15.1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 ---
 
 # Version 15.1

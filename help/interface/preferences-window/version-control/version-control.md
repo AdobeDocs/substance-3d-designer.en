@@ -1,8 +1,21 @@
 ---
 title: "Version control"
-description: ""
-helpx_description: "Designer > Interface > Preferences window > Version control"
+description: "Configure version control settings in Substance 3D Designer preferences to integrate with Git and other systems."
+helpx_description: Designer > Interface > Preferences window > Version control
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - automation
+  - versions
+  - preparing-source-files
 ---
+
+
+
 
 # Version control
 

@@ -1,8 +1,21 @@
 ---
 title: "Bitmap"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap"
+description: "Use the Bitmap node to import and use bitmap images as textures in Substance compositing graphs."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - illustration
+  - texture
+  - images
 ---
+
+
+
 
 # Bitmap
 

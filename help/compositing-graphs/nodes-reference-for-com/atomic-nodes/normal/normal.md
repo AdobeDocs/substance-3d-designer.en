@@ -1,8 +1,21 @@
 ---
 title: "Normal"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal"
+description: "Use the Normal node to process and manipulate normal map textures for controlling surface detail and lighting."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - normal-maps
+  - gradients
+  - nodes
 ---
+
+
+
 
 # Normal
 

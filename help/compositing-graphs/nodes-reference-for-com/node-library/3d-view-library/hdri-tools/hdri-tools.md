@@ -1,8 +1,21 @@
 ---
 title: "HDRI Tools"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools"
+description: "Access HDRI tool nodes in Substance 3D Designer to manipulate and enhance HDRI environments for 3D view lighting."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - hdri
+  - hdr
+  - 3d
 ---
+
+
+
 
 # HDRI Tools
 

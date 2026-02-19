@@ -1,8 +1,21 @@
 ---
 title: "The Iterate Node"
-description: ""
-helpx_description: "Designer > Function graphs > FXMaps > The Iterate Node"
+description: "Use the Iterate node in FXMaps to create repeating patterns and procedural variations in your materials."
+helpx_description: Designer > Function graphs > FXMaps > The Iterate Node
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - rotoscoping
+  - photogrammetry
 ---
+
+
+
 
 # The Iterate Node
 

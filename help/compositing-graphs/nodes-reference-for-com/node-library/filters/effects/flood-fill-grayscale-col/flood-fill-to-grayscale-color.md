@@ -1,8 +1,21 @@
 ---
 title: "Flood Fill to GrayscaleColor"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to GrayscaleColor"
+description: "Use the Flood Fill to Grayscale Color node to fill connected regions with grayscale colors for creating monochrome patterns."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to GrayscaleColor
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creating-color-palettes
+  - color
+  - colorize
 ---
+
+
+
 
 # Flood Fill to Grayscale/Color
 

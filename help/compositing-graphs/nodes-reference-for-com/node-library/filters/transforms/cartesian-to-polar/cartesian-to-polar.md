@@ -1,8 +1,21 @@
 ---
 title: "Cartesian To Polar"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Cartesian To Polar"
+description: "Use the Cartesian To Polar node to convert textures from Cartesian to polar coordinate systems for creating radial effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Cartesian To Polar
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - rotate
+  - shapes
+  - grid
 ---
+
+
+
 
 # Cartesian To Polar
 

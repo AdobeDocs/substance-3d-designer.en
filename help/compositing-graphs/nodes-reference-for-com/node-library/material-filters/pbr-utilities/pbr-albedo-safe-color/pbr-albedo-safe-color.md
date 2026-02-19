@@ -1,8 +1,21 @@
 ---
 title: "PBR Albedo Safe Color"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Albedo Safe Color"
+description: "Use the PBR Albedo Safe Color node to ensure albedo colors are within physically-plausible ranges for PBR materials."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Albedo Safe Color
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-albedo-safe-color.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - color-grading
+  - color
+  - pbr
 ---
+
+
+
 
 # PBR Albedo Safe Color
 

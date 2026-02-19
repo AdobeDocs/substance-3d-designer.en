@@ -1,7 +1,8 @@
 ---
 title: "Create Color Palette (16)"
-description: ""
+description: "Use the Create Color Palette node to extract a 16-color palette from textures for stylized effects."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Create Color Palette (16)"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
 ---
 
 # Create Color Palette (16)

@@ -1,8 +1,22 @@
 ---
 title: "Shape Splatter to Mask"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter to Mask"
+description: "Use the Shape Splatter to Mask node to convert shape splatter patterns into masks for material blending and effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter to Mask
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-to-mask.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - masking
+  - add-objects-to-images
+  - shapes
 ---
+
+
+
 
 # Shape Splatter to Mask
 

@@ -1,8 +1,22 @@
 ---
 title: "Shortcuts"
-description: ""
-helpx_description: "Designer > Getting started > Shortcuts"
+description: "Learn keyboard shortcuts in Substance 3D Designer to speed up your workflow and improve productivity."
+helpx_description: Designer > Getting started > Shortcuts
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
+helpx_creative_field:
+  - painting-illustration
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - selections
+  - workspace
+  - shortcuts
 ---
+
+
+
 
 # Shortcuts
 

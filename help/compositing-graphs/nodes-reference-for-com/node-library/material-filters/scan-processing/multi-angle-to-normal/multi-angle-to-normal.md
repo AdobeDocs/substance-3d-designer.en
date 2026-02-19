@@ -1,8 +1,21 @@
 ---
 title: "Multi-Angle to Normal"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Normal"
+description: "Use the Multi-Angle to Normal node to generate normal maps from multi-angle scanned images for accurate surface detail."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Normal
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-normal.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - shading
+  - photogrammetry
+  - gradients
 ---
+
+
+
 
 # Multi-Angle to Normal
 

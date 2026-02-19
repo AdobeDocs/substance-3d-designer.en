@@ -1,8 +1,21 @@
 ---
 title: "Mosaic"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Mosaic"
+description: "Use the Mosaic node to create mosaic tile effects by dividing textures into pixelated blocks and patterns."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Mosaic
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - asset-warp
+  - effects
+  - gradients
 ---
+
+
+
 
 # Mosaic
 

@@ -1,8 +1,21 @@
 ---
 title: "Release Notes"
-description: ""
-helpx_description: "Designer > Release Notes"
+description: "Access release notes for Substance 3D Designer to learn about new features, improvements, and bug fixes in each version."
+helpx_description: Designer > Release Notes
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - versions
+  - platforms
+  - preview
 ---
+
+
+
 
 # Release notes
 

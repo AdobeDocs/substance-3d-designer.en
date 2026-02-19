@@ -1,8 +1,21 @@
 ---
 title: "Chrominance Extract"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Chrominance Extract"
+description: "Use the Chrominance Extract node to extract chrominance information from textures for color analysis and processing."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Chrominance Extract
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - color-grading
+  - color
+  - enhancing-color
 ---
+
+
+
 
 # Chrominance Extract
 

@@ -1,8 +1,21 @@
 ---
 title: "Normal To Height HQ"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ"
+description: "Use the Normal To Height HQ node to convert normal maps to high-quality height maps for surface detail extraction."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal To Height HQ
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-to-height-hq.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - height
+  - normal-maps
+  - perspective
 ---
+
+
+
 
 # Normal To Height HQ
 

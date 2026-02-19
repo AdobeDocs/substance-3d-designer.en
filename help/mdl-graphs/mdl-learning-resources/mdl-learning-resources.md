@@ -1,8 +1,22 @@
 ---
 title: "MDL learning resources"
-description: ""
-helpx_description: "Designer > MDL graphs > MDL learning resources"
+description: "Access learning resources and tutorials for Material Definition Language graphs in Substance 3D Designer."
+helpx_description: Designer > MDL graphs > MDL learning resources
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/mdl-learning-resources.html"
+helpx_creative_field:
+  - painting-illustration
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - 3d
+  - product-design
+  - materials
 ---
+
+
+
 
 # MDL learning resources
 

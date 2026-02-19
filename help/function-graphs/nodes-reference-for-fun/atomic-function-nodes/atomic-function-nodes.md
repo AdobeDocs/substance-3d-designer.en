@@ -1,7 +1,8 @@
 ---
 title: "Atomic function nodes"
-description: ""
+description: "Learn about atomic function nodes, the smallest node units in Substance function graphs for building custom functions."
 helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
 ---
 
 # Atomic function nodes

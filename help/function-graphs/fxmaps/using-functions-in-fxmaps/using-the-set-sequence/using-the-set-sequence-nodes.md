@@ -1,8 +1,21 @@
 ---
 title: "Using the SetSequence nodes"
-description: ""
-helpx_description: "Designer > Function graphs > FXMaps > Using Functions in FXMaps > Using the SetSequence nodes"
+description: "Learn how to use SetSequence nodes in FXMaps to create sequential patterns and procedural variations."
+helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps > Using the SetSequence nodes
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - data-and-analytics
+  - transitions
 ---
+
+
+
 
 # Using the Set/Sequence nodes
 

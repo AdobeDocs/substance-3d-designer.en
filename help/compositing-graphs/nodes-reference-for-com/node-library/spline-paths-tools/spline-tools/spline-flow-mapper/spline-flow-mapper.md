@@ -1,7 +1,8 @@
 ---
 title: "Spline Flow Mapper"
-description: ""
+description: "Use the Spline Flow Mapper node to create flowing texture patterns along spline paths for organic effects."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Flow Mapper"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
 ---
 
 # Spline Flow Mapper

@@ -1,7 +1,8 @@
 ---
 title: "Quantize Grayscale"
-description: ""
+description: "Use the Quantize Grayscale node to reduce the number of grayscale levels for posterization effects."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
 ---
 
 # Quantize Grayscale

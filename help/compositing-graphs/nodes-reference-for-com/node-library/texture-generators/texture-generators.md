@@ -1,8 +1,22 @@
 ---
 title: "Texture generators"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture generators"
+description: "Access texture generator nodes in Substance 3D Designer to create procedural textures from patterns, noises, and shapes."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture generators
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators.html"
+helpx_creative_field:
+  - web
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - patterns
+  - texture
+  - normal-maps
 ---
+
+
+
 
 # Texture generators
 

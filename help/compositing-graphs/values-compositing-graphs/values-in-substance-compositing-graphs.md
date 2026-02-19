@@ -1,8 +1,21 @@
 ---
 title: "Values in Substance graphs"
-description: ""
-helpx_description: "Designer > Substance graphs > Values in Substance graphs"
+description: "Learn about value types and data handling in Substance compositing graphs for effective material creation."
+helpx_description: Designer > Substance graphs > Values in Substance graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - data-and-analytics
+  - graphs
 ---
+
+
+
 
 # Values in Substance graphs
 

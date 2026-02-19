@@ -1,8 +1,21 @@
 ---
 title: "Using spot colors"
-description: ""
-helpx_description: "Designer > Scripting > Using spot colors"
+description: "Learn how to use spot colors in Substance 3D Designer Python scripting for specialized color workflows."
+helpx_description: Designer > Scripting > Using spot colors
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-spot-colors.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creating-color-palettes
+  - swatches
+  - color
 ---
+
+
+
 
 # Using spot colors
 

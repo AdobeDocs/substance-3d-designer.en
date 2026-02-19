@@ -1,8 +1,21 @@
 ---
 title: "User guide"
-description: ""
-helpx_description: "Designer > User guide"
+description: "Learn how to use Substance 3D Designer to create procedural materials, textures, and 3D assets with node-based workflows."
+helpx_description: Designer > User guide
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - 3d
+  - product-design
+  - virtual-photography
 ---
+
+
+
 
 # User guide
 

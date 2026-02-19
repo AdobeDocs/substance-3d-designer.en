@@ -1,8 +1,21 @@
 ---
 title: "Min Max"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Min Max"
+description: "Use the Min Max node to clamp texture values between minimum and maximum thresholds for controlling value ranges."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Min Max
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - gradients
+  - adjustments
+  - nodes
 ---
+
+
+
 
 # Min Max
 

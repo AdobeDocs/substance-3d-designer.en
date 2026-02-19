@@ -1,8 +1,21 @@
 ---
 title: "Height Map Frequencies Mapper"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Height Map Frequencies Mapper"
+description: "Use the Height Map Frequencies Mapper node to map height map frequencies for separating detail levels in textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Height Map Frequencies Mapper
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - height
+  - normal-maps
+  - baking
 ---
+
+
+
 
 # Height Map Frequencies Mapper
 

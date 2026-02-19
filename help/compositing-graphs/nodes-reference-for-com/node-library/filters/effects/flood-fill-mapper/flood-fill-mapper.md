@@ -1,8 +1,21 @@
 ---
 title: "Flood Fill Mapper"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper"
+description: "Use the Flood Fill Mapper node to map values across connected regions using flood fill algorithms for texture processing."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - normal-maps
+  - creating-color-palettes
+  - pbr
 ---
+
+
+
 
 # Flood Fill Mapper
 

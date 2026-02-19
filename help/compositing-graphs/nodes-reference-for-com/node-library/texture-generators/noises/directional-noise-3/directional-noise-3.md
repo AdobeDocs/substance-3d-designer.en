@@ -1,8 +1,22 @@
 ---
 title: "Directional noise 3"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 3"
+description: "Use the Directional Noise 3 node to generate directional noise patterns with three octaves for creating directional textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 3
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-3.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - noise
+  - normal-maps
+  - audio-effects
 ---
+
+
+
 
 # Directional noise 3
 

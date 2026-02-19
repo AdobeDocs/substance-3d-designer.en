@@ -1,8 +1,21 @@
 ---
 title: "Dirt"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt"
+description: "Use the Dirt node to generate dirt accumulation masks based on mesh curvature, position, and occlusion."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - masking
+  - reflections
+  - creative-effects
 ---
+
+
+
 
 # Dirt
 

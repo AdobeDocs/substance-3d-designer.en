@@ -1,8 +1,23 @@
 ---
 title: "Gradient map"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map"
+description: "Use the Gradient Map node to map grayscale values to colors using gradient ramps for colorization and effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - gradients
+  - color
+  - creating-color-palettes
 ---
+
+
+
 
 # Gradient map
 

@@ -1,8 +1,21 @@
 ---
 title: "SVG"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG"
+description: "Use the SVG node to import and render SVG vector graphics as textures for creating scalable graphic elements."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - vector
+  - infographic
+  - shapes
 ---
+
+
+
 
 # SVG
 

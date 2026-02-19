@@ -1,8 +1,21 @@
 ---
 title: "Curvature Smooth"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth"
+description: "Use the Curvature Smooth node to generate smooth curvature maps from height maps for surface detail extraction."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - gradients
+  - reflections
+  - modeling
 ---
+
+
+
 
 # Curvature Smooth
 

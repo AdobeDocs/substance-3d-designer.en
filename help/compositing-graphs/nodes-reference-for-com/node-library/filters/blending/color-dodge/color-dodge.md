@@ -1,8 +1,21 @@
 ---
 title: "Color Dodge"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color Dodge"
+description: "Use the Color Dodge blend node to brighten textures by decreasing contrast for creating highlight and glow effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color Dodge
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-dodge.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - color
+  - blending
+  - creating-color-palettes
 ---
+
+
+
 
 # Color Dodge
 

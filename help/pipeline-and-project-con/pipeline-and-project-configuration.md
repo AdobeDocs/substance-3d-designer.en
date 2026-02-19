@@ -1,8 +1,21 @@
 ---
 title: "Pipeline and Project Configuration"
-description: ""
-helpx_description: "Designer > Pipeline and Project Configuration"
+description: "Configure pipeline and project settings in Substance 3D Designer to optimize your workflow and output."
+helpx_description: Designer > Pipeline and Project Configuration
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - preparing-source-files
+  - preferences
+  - cross-product-workflows
 ---
+
+
+
 
 # Pipeline and Project Configuration
 

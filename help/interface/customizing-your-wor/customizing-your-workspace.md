@@ -1,8 +1,21 @@
 ---
 title: "Customizing your workspace"
-description: ""
-helpx_description: "Designer > Interface > Customizing your workspace"
+description: "Learn how to customize your workspace in Substance 3D Designer to optimize your workflow and layout preferences."
+helpx_description: Designer > Interface > Customizing your workspace
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - interface
+  - workspace
+  - preferences
 ---
+
+
+
 
 # Customizing your workspace
 

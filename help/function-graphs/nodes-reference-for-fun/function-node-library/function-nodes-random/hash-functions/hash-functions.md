@@ -1,7 +1,8 @@
 ---
 title: "Hash functions"
-description: ""
+description: "Use hash functions in function graphs to generate deterministic random values based on input coordinates."
 helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Function node library > Random > Hash"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 ---
 
 # Hash functions

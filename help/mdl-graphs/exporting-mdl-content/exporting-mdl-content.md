@@ -1,8 +1,21 @@
 ---
 title: "Exporting MDL content"
-description: ""
-helpx_description: "Designer > MDL graphs > Exporting MDL content"
+description: "Learn how to export MDL content from Substance 3D Designer for use in external renderers and applications."
+helpx_description: Designer > MDL graphs > Exporting MDL content
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/exporting-mdl-content.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - export
+  - preparing-source-files
+  - presets
 ---
+
+
+
 
 # Exporting MDL content
 

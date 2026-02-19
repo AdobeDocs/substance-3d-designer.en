@@ -1,8 +1,21 @@
 ---
 title: "Vector graphics (SVG) resource"
-description: ""
-helpx_description: "Designer > Resources > Vector graphics (SVG) resource"
+description: "Import and use SVG vector graphics as resources in Substance 3D Designer for procedural material creation."
+helpx_description: Designer > Resources > Vector graphics (SVG) resource
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - export
+  - vector
+  - save
 ---
+
+
+
 
 # Vector graphics (SVG) resource
 

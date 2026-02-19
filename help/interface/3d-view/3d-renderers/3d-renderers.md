@@ -1,7 +1,8 @@
 ---
 title: "3D renderers"
-description: ""
+description: "Choose between rasterizer and pathtracer renderers in the 3D view for different preview quality and performance."
 helpx_description: "Designer > Interface > 3D view > 3D renderers"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 ---
 
 # 3D renderers

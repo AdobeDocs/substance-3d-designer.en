@@ -1,8 +1,21 @@
 ---
 title: "PBR BaseColor  Metallic Validate"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR BaseColor  Metallic Validate"
+description: "Use the PBR BaseColor Metallic Validate node to validate and correct basecolor and metallic values for PBR materials."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR BaseColor  Metallic Validate
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-basecolor-metallic-validate.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - color-grading
+  - pbr
+  - color
 ---
+
+
+
 
 # PBR BaseColor / Metallic Validate
 

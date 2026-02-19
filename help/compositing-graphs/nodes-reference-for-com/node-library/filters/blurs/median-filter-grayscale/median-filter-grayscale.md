@@ -1,7 +1,8 @@
 ---
 title: "Median filter grayscale"
-description: ""
+description: "Use the Median Filter Grayscale node to reduce noise and preserve edges in grayscale textures."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
 ---
 
 # Median filter grayscale

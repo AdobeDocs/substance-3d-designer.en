@@ -1,8 +1,19 @@
 ---
 title: "Glossary"
-description: ""
-helpx_description: "Designer > Glossary"
+description: "Access the Substance 3D Designer glossary to find definitions of terms, concepts, and technical terminology."
+helpx_description: Designer > Glossary
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
+helpx_creative_field:
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - 3d
+  - materials
 ---
+
+
+
 
 # Learn about terms and concepts used in Designer.
 

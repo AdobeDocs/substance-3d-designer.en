@@ -1,8 +1,22 @@
 ---
 title: "Material Selector"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Selector"
+description: "Use the Material Selector node to select materials based on mesh data for creating multi-material texture effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Selector
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-selector.html"
+helpx_creative_field:
+  - painting-illustration
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - masking
+  - add-objects-to-images
+  - replacing-backgrounds
 ---
+
+
+
 
 # Material Selector
 

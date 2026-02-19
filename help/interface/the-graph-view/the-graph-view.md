@@ -1,8 +1,21 @@
 ---
 title: "Graph view"
-description: ""
-helpx_description: "Designer > Interface > Graph view"
+description: "Learn how to use the graph view in Substance 3D Designer to create and edit node-based material graphs."
+helpx_description: Designer > Interface > Graph view
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - graphs
+  - data-and-analytics
+  - nodes
 ---
+
+
+
 
 # Graph view
 

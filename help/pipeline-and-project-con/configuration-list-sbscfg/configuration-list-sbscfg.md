@@ -1,8 +1,21 @@
 ---
 title: "Configuration List - SBSCFG"
-description: ""
-helpx_description: "Designer > Pipeline and Project Configuration > Configuration List - SBSCFG"
+description: "Learn how to use SBSCFG configuration lists in Substance 3D Designer to manage project settings and presets."
+helpx_description: Designer > Pipeline and Project Configuration > Configuration List - SBSCFG
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - preparing-source-files
+  - projects
+  - templates
 ---
+
+
+
 
 # Configuration List - SBSCFG
 

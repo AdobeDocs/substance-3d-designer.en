@@ -1,7 +1,8 @@
 ---
 title: "Version 14.1"
-description: ""
+description: "Review release notes for Substance 3D Designer version 14.1 to learn about node arrangement tools and new Spline and Path nodes."
 helpx_description: "Designer > Release Notes > Version 14.1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 ---
 
 # Version 14.1

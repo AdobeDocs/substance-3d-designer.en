@@ -1,7 +1,8 @@
 ---
 title: "Node finder"
-description: ""
+description: "Use the Node Finder to quickly search and locate nodes in your Substance graphs for efficient navigation."
 helpx_description: "Designer > Interface > The graph view > Node finder"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 ---
 
 # Node finder

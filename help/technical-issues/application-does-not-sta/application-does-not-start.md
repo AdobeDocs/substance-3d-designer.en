@@ -1,8 +1,22 @@
 ---
 title: "Application does not start"
-description: ""
-helpx_description: "Designer > Technical issues > Application does not start"
+description: "Troubleshoot issues preventing Substance 3D Designer from starting and find solutions to launch the application."
+helpx_description: Designer > Technical issues > Application does not start
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_creative_field:
+  - video
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - known-issues
+  - troubleshooting
+  - system-requirements
 ---
+
+
+
 
 # Application does not start
 

@@ -1,8 +1,21 @@
 ---
 title: "Gradient 2 Points"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient 2 Points"
+description: "Use the Gradient 2 Points node to create two-point gradients in HDRI environments for sky and ground color transitions."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient 2 Points
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - gradients
+  - effects
+  - illustration
 ---
+
+
+
 
 # Gradient 2 Points
 

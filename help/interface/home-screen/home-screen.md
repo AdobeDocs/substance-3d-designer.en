@@ -1,8 +1,22 @@
 ---
 title: "Home screen"
-description: ""
-helpx_description: "Designer > Interface > Home screen"
+description: "Use the Home screen in Substance 3D Designer to access recent projects, templates, and learning resources."
+helpx_description: Designer > Interface > Home screen
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
+helpx_creative_field:
+  - video
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - workspace
+  - cross-product-workflows
+  - preview
 ---
+
+
+
 
 # Home screen
 

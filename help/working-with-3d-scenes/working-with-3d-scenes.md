@@ -1,7 +1,8 @@
 ---
 title: "Working with 3D scenes"
-description: ""
+description: "Learn how to import, edit, and work with 3D scenes in Substance 3D Designer to preview and test your materials."
 helpx_description: "Designer > Working with 3D scenes"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
 ---
 
 # Working with 3D scenes

@@ -1,8 +1,22 @@
 ---
 title: "Noise Upscale 3"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 3"
+description: "Use the Noise Upscale 3 node to upscale textures using advanced noise-based algorithms for preserving detail at higher resolutions."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 3
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - noise
+  - reflections
+  - sharpen
 ---
+
+
+
 
 # Noise Upscale 3
 

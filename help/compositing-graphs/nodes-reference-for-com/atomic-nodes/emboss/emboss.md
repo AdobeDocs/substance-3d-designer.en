@@ -1,8 +1,21 @@
 ---
 title: "Emboss"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss"
+description: "Use the Emboss node to create embossed effects on textures for adding depth and relief to surface details."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - pbr
+  - effects
+  - creative-effects
 ---
+
+
+
 
 # Emboss
 

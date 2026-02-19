@@ -1,8 +1,21 @@
 ---
 title: "Preferences"
-description: ""
-helpx_description: "Designer > Interface > Preferences"
+description: "Access the Preferences window in Substance 3D Designer to customize application settings and behavior."
+helpx_description: Designer > Interface > Preferences
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - preferences
+  - data-and-analytics
+  - graphs
 ---
+
+
+
 
 # Preferences window
 

@@ -1,7 +1,8 @@
 ---
 title: "Paths to Spline"
-description: ""
+description: "Use the Paths to Spline node to convert path data into splines for use with spline-based nodes."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths to Spline"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
 ---
 
 # Paths to Spline

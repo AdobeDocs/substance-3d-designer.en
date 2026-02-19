@@ -1,7 +1,8 @@
 ---
 title: "Substance model graph feature is missing"
-description: ""
+description: "Learn about the end-of-life status of the Substance model graph feature and find alternative solutions."
 helpx_description: "Designer > Technical issues > Substance model graph feature is missing"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/substance-model-graph-eol.html"
 ---
 
 # Substance model graph feature is missing

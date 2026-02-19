@@ -1,7 +1,8 @@
 ---
 title: "Paths Format Specifications"
-description: ""
+description: "Learn about the paths format specifications and data structure used by path and spline nodes."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Format Specifications"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
 ---
 
 # Paths Format Specifications

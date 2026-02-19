@@ -1,8 +1,21 @@
 ---
 title: "Graph items"
-description: ""
-helpx_description: "Designer > Interface > Graph view > Graph items"
+description: "Learn about graph items in Substance 3D Designer including frames, comments, pins, and portal nodes for organizing graphs."
+helpx_description: Designer > Interface > Graph view > Graph items
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - graphs
+  - data-and-analytics
 ---
+
+
+
 
 # Graph items
 

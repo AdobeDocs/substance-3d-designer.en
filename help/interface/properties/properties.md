@@ -1,8 +1,21 @@
 ---
 title: "Properties"
-description: ""
-helpx_description: "Designer > Interface > Properties"
+description: "Use the Properties panel in Substance 3D Designer to view and edit node properties and graph parameters."
+helpx_description: Designer > Interface > Properties
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-and-analytics
+  - graphs
+  - data-visualizations
 ---
+
+
+
 
 # Properties
 

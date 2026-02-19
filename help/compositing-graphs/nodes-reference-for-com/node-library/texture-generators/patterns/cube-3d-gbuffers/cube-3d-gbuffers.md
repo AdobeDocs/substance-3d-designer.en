@@ -1,8 +1,21 @@
 ---
 title: "Cube 3D GBuffers"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D GBuffers"
+description: "Use the Cube 3D GBuffers node to generate geometry buffers from 3D cube projections for advanced rendering effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D GBuffers
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - 3d
+  - modeling
+  - grid
 ---
+
+
+
 
 # Cube 3D GBuffers
 

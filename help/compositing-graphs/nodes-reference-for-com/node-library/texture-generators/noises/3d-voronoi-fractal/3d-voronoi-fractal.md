@@ -1,8 +1,21 @@
 ---
 title: "3D Voronoi Fractal"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal"
+description: "Use the 3D Voronoi Fractal node to generate fractal Voronoi patterns based on 3D position for volumetric textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - 3d
+  - baking
+  - pbr
 ---
+
+
+
 
 # 3D Voronoi Fractal
 

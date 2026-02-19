@@ -1,8 +1,21 @@
 ---
 title: "MDL library"
-description: ""
-helpx_description: "Designer > MDL graphs > MDL library"
+description: "Access the Material Definition Language library in Substance 3D Designer for creating custom materials."
+helpx_description: Designer > MDL graphs > MDL library
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/mdl-library.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - 3d
+  - libraries
+  - cross-product-workflows
 ---
+
+
+
 
 # MDL library
 

@@ -1,8 +1,21 @@
 ---
 title: "Non-Square Transform"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Non-Square Transform"
+description: "Use the Non-Square Transform node to apply transformations to non-square textures with independent X and Y scaling."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Non-Square Transform
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - transform
+  - scaling
+  - distortions
 ---
+
+
+
 
 # Non-Square Transform
 

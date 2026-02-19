@@ -1,8 +1,21 @@
 ---
 title: "FXAA"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > FXAA"
+description: "Use the FXAA node to apply Fast Approximate Anti-Aliasing to textures for reducing aliasing artifacts."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > FXAA
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/fxaa.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - effects
+  - asset-warp
+  - shapes
 ---
+
+
+
 
 # FXAA
 

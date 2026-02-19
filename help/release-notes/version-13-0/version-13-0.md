@@ -1,7 +1,8 @@
 ---
 title: "Version 13.0"
-description: ""
+description: "Review release notes for Substance 3D Designer version 13.0 to learn about new nodes, Substance Engine 9.0, and portal nodes."
 helpx_description: "Designer > Release Notes > Version 13.0"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 ---
 
 # Version 13.0

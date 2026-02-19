@@ -1,7 +1,8 @@
 ---
 title: "Overriding scene materials"
-description: ""
+description: "Override existing materials in 3D scenes to replace them with your own Substance materials for testing and preview."
 helpx_description: "Designer > Working with 3D scenes > Overriding scene materials"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 ---
 
 # Overriding scene materials

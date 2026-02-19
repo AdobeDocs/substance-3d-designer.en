@@ -1,8 +1,22 @@
 ---
 title: "White Noise Fast"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > White Noise Fast"
+description: "Use the White Noise Fast node to generate fast white noise patterns for quick texture variations and randomization."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > White Noise Fast
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - noise
+  - clarity
+  - audio-effects
 ---
+
+
+
 
 # White Noise Fast
 

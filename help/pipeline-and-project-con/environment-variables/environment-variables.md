@@ -1,8 +1,21 @@
 ---
 title: "Environment variables"
-description: ""
-helpx_description: "Designer > Pipeline and Project Configuration > Environment variables"
+description: "Learn how to use environment variables in Substance 3D Designer for configuring paths and system settings."
+helpx_description: Designer > Pipeline and Project Configuration > Environment variables
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/environment-variables.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - preparing-source-files
+  - download-and-install
+  - environments
 ---
+
+
+
 
 # Environment variables
 

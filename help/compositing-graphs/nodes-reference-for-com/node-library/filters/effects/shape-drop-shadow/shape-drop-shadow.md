@@ -1,8 +1,21 @@
 ---
 title: "Shape Drop Shadow"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Drop Shadow"
+description: "Use the Shape Drop Shadow node to add drop shadow effects to shapes for creating depth and dimension in textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Drop Shadow
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - effects
+  - shading
+  - creative-effects
 ---
+
+
+
 
 # Shape Drop Shadow
 

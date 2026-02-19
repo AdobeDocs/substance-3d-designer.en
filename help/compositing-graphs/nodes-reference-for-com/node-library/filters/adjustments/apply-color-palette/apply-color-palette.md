@@ -1,7 +1,8 @@
 ---
 title: "Apply Color Palette"
-description: ""
+description: "Use the Apply Color Palette node to remap textures using a color palette for stylized color effects."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Apply Color Palette"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
 ---
 
 # Apply Color Palette

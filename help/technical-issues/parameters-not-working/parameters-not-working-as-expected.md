@@ -1,8 +1,21 @@
 ---
 title: "Parameters not working as expected"
-description: ""
-helpx_description: "Designer > Technical issues > Parameters not working as expected"
+description: "Troubleshoot issues with Substance graph parameters not working as expected and find solutions."
+helpx_description: Designer > Technical issues > Parameters not working as expected
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - modeling
+  - 3d
+  - presets
 ---
+
+
+
 
 # Parameters not working as expected
 

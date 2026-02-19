@@ -1,8 +1,21 @@
 ---
 title: "Nodes reference for Substance graphs"
-description: ""
-helpx_description: "Designer > Substance graphs > Nodes reference for Substance graphs"
+description: "Access the complete nodes reference for Substance compositing graphs in Designer to learn about all available nodes."
+helpx_description: Designer > Substance graphs > Nodes reference for Substance graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - data-visualizations
+  - data-and-analytics
 ---
+
+
+
 
 # Nodes reference for Substance graphs
 

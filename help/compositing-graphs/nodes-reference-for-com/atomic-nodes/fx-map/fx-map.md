@@ -1,8 +1,21 @@
 ---
 title: "FX-Map"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map"
+description: "Use the FX-Map node to apply function graphs to textures for creating procedural patterns and effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - asset-warp
+  - normal-maps
 ---
+
+
+
 
 # FX-Map
 

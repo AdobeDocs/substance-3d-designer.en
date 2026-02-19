@@ -1,7 +1,8 @@
 ---
 title: "Version 13.1"
-description: ""
+description: "Review release notes for Substance 3D Designer version 13.1 to learn about node graph improvements and AxF export support."
 helpx_description: "Designer > Release Notes > Version 13.1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 ---
 
 # Version 13.1

@@ -1,8 +1,20 @@
 ---
 title: "Frame"
-description: ""
-helpx_description: "Designer > Interface > Graph view > Graph items > Frame"
+description: "Use frames in Substance 3D Designer graph view to organize and group nodes for better visual clarity."
+helpx_description: Designer > Interface > Graph view > Graph items > Frame
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - graphs
 ---
+
+
+
 
 # Frame
 

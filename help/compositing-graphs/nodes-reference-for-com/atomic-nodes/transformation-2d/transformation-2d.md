@@ -1,8 +1,21 @@
 ---
 title: "Transformation 2D"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D"
+description: "Use the Transformation 2D node to apply 2D transformations to textures including translation, rotation, and scaling."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - tiling
+  - transform
+  - scaling
 ---
+
+
+
 
 # Transformation 2D
 

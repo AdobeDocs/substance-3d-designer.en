@@ -1,8 +1,21 @@
 ---
 title: "Multi-Angle to Albedo"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Albedo"
+description: "Use the Multi-Angle to Albedo node to extract albedo maps from multi-angle scanned images for clean material colors."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Albedo
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - photogrammetry
+  - hdri
+  - landscape-photography
 ---
+
+
+
 
 # Multi-Angle to Albedo
 

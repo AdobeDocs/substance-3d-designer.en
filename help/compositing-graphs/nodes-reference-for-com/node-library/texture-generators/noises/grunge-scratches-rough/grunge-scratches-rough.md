@@ -1,8 +1,23 @@
 ---
 title: "Grunge Scratches Rough"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Rough"
+description: "Use the Grunge Scratches Rough node to add rough scratch patterns for creating heavy wear and damage effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Rough
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - normal-maps
+  - reflections
+  - photo-restoration
 ---
+
+
+
 
 # Grunge Scratches Rough
 

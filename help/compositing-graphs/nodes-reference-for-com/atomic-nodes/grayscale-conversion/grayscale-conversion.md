@@ -1,8 +1,21 @@
 ---
 title: "Grayscale conversion"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion"
+description: "Use the Grayscale Conversion node to convert color textures to grayscale using various conversion methods."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - gradients
+  - color
+  - colorize
 ---
+
+
+
 
 # Grayscale conversion
 

@@ -1,7 +1,8 @@
 ---
 title: "Anisotropic Kuwahara Color"
-description: ""
+description: "Use the Anisotropic Kuwahara Color filter to create stylized, painterly color effects with directional smoothing."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Anisotropic Kuwahara Color"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
 ---
 
 # Anisotropic Kuwahara Color

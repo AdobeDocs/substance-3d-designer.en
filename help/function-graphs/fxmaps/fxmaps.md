@@ -1,8 +1,19 @@
 ---
 title: "FXMaps"
-description: ""
-helpx_description: "Designer > Function graphs > FXMaps"
+description: "Learn how to use FXMaps in Substance 3D Designer to apply function graphs to textures for procedural pattern generation."
+helpx_description: Designer > Function graphs > FXMaps
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps.html"
+helpx_creative_field:
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - 3d
 ---
+
+
+
 
 # FXMaps
 

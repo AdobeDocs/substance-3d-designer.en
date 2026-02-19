@@ -1,8 +1,21 @@
 ---
 title: "Non Uniform Directional Warp"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Non Uniform Directional Warp"
+description: "Use the Non Uniform Directional Warp node to apply non-uniform directional warping for creating varied distortion effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Non Uniform Directional Warp
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - asset-warp
+  - distortions
+  - transform
 ---
+
+
+
 
 # Non Uniform Directional Warp
 

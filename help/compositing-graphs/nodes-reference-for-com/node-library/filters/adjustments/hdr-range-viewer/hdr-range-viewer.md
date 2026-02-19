@@ -1,8 +1,22 @@
 ---
 title: "HDR Range Viewer"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > HDR Range Viewer"
+description: "Use the HDR Range Viewer node to visualize HDR texture ranges for analyzing and adjusting high dynamic range values."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > HDR Range Viewer
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - hdri
+  - hdr
+  - brightness
 ---
+
+
+
 
 # HDR Range Viewer
 

@@ -1,7 +1,8 @@
 ---
 title: "Function node library"
-description: ""
+description: "Access pre-made Substance function graphs as instance nodes to speed up workflow and enhance capabilities."
 helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Function node library"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 ---
 
 # Function node library

@@ -1,8 +1,21 @@
 ---
 title: "Grayscale Conversion Advanced"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Grayscale Conversion Advanced"
+description: "Use the Grayscale Conversion Advanced node to convert colors to grayscale with advanced control over conversion methods."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Grayscale Conversion Advanced
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - enhancing-color
+  - color
+  - landscape-photography
 ---
+
+
+
 
 # Grayscale Conversion Advanced
 

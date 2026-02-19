@@ -1,7 +1,8 @@
 ---
 title: "Median filter color"
-description: ""
+description: "Use the Median Filter Color node to reduce noise and preserve edges in color textures."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter color"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
 ---
 
 # Median filter color

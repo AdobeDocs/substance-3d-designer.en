@@ -1,8 +1,21 @@
 ---
 title: "3D View (Library)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library)"
+description: "Access 3D view library nodes in Substance 3D Designer to control lighting, HDRI environments, and 3D view settings."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library)
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - 3d
+  - views
+  - rendering
 ---
+
+
+
 
 # 3D View (Library)
 

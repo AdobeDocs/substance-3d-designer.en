@@ -1,8 +1,21 @@
 ---
 title: "Skew"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Skew"
+description: "Use the Skew node to apply skew transformations to textures for creating slanted and distorted patterns."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Skew
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - asset-warp
+  - perspective
+  - distortions
 ---
+
+
+
 
 # Skew
 

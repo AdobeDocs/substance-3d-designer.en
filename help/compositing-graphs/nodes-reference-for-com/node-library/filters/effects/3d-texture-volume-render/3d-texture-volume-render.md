@@ -1,8 +1,21 @@
 ---
 title: "3D Texture Volume Render"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render"
+description: "Use the 3D Texture Volume Render node to render volumetric textures from 3D data for creating cloud and fog effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - volume
+  - pbr
+  - 3d
 ---
+
+
+
 
 # 3D Texture Volume Render
 

@@ -1,8 +1,19 @@
 ---
 title: "Comment"
-description: ""
-helpx_description: "Designer > Interface > Graph view > Graph items > Comment"
+description: "Add comments to Substance 3D Designer graphs to document your workflow and explain node connections."
+helpx_description: Designer > Interface > Graph view > Graph items > Comment
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - graphs
 ---
+
+
+
 
 # Comment
 

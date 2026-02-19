@@ -1,8 +1,21 @@
 ---
 title: "Warnings in function graphs"
-description: ""
-helpx_description: "Designer > Function graphs > Warnings in function graphs"
+description: "Understand warnings in Substance 3D Designer function graphs and learn how to resolve common issues."
+helpx_description: Designer > Function graphs > Warnings in function graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - graphs
+  - data-and-analytics
 ---
+
+
+
 
 # Warnings in function graphs
 

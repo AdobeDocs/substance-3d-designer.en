@@ -1,8 +1,21 @@
 ---
 title: "Fractal sum 2"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 2"
+description: "Use the Fractal Sum 2 node to generate fractal noise with two octaves for creating organic texture variations."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 2
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-2.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shapes
+  - illustration
+  - creative-effects
 ---
+
+
+
 
 # Fractal sum 2
 

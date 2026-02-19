@@ -1,8 +1,23 @@
 ---
 title: "Mesh Based Generators"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators"
+description: "Access mesh-based generator nodes in Substance 3D Designer to create textures based on 3D mesh geometry and properties."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_creative_field:
+  - web
+  - painting-illustration
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - baking
+  - normal-maps
+  - 3d
 ---
+
+
+
 
 # Mesh Based Generators
 

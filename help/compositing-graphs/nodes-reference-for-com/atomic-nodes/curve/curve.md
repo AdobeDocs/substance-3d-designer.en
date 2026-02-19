@@ -1,8 +1,21 @@
 ---
 title: "Curve"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve"
+description: "Use the Curve node to adjust texture values using customizable curves for precise color and brightness control."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - curves
+  - adjustments
+  - shapes
 ---
+
+
+
 
 # Curve
 

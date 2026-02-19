@@ -1,7 +1,8 @@
 ---
 title: "UV Mapper Grayscale"
-description: ""
+description: "Use the UV Mapper Grayscale node to map grayscale textures along splines for procedural texture generation."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale.html"
 ---
 
 # UV Mapper Grayscale

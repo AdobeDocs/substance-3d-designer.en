@@ -1,7 +1,8 @@
 ---
 title: "Random"
-description: ""
+description: "Use Random function nodes to generate random values within specific bounds using various algorithms."
 helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Random"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 ---
 
 # Random

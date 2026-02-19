@@ -1,8 +1,21 @@
 ---
 title: "Color Management"
-description: ""
-helpx_description: "Designer > Color Management"
+description: "Learn about color management in Substance 3D Designer including color spaces, profiles, and spot color workflows."
+helpx_description: Designer > Color Management
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_creative_field:
+  - 3d-immersive
+  - graphic-design
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - color
+  - channels
+  - import
 ---
+
+
+
 
 # Color Management
 

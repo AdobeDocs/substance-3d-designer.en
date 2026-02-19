@@ -1,8 +1,21 @@
 ---
 title: "Warnings in Substance graphs"
-description: ""
-helpx_description: "Designer > Substance graphs > Warnings in Substance graphs"
+description: "Understand warnings in Substance compositing graphs and learn how to resolve common issues and errors."
+helpx_description: Designer > Substance graphs > Warnings in Substance graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - graphs
+  - data-and-analytics
+  - data-visualizations
 ---
+
+
+
 
 # Warnings in Substance graphs
 

@@ -1,7 +1,8 @@
 ---
 title: "Manage parameters"
-description: ""
+description: "Learn how to manage and organize parameters in Substance compositing graphs for better workflow organization."
 helpx_description: "Designer > Substance compositing graphs > Manage parameters"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 ---
 
 # Manage parameters

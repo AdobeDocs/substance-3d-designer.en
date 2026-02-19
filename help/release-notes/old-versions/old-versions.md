@@ -1,8 +1,21 @@
 ---
 title: "Old Versions"
-description: ""
-helpx_description: "Designer > Release Notes > Old Versions"
+description: "Access release notes for older versions of Substance 3D Designer to review historical features and changes."
+helpx_description: Designer > Release Notes > Old Versions
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/old-versions.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - 3d
+  - versions
+  - xr
 ---
+
+
+
 
 # Old Versions
 

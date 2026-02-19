@@ -1,8 +1,22 @@
 ---
 title: "Directional blur"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur"
+description: "Use the Directional Blur node to apply blur effects in a specific direction for creating motion blur and streaking effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - effects
+  - asset-warp
+  - gradients
 ---
+
+
+
 
 # Directional blur
 

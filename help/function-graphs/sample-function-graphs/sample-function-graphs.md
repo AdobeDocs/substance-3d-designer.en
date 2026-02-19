@@ -1,8 +1,21 @@
 ---
 title: "Sample function graphs"
-description: ""
-helpx_description: "Designer > Function graphs > Sample function graphs"
+description: "Explore sample function graphs in Substance 3D Designer to learn advanced techniques and best practices."
+helpx_description: Designer > Function graphs > Sample function graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/sample-function-graphs.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - graphs
+  - data-visualizations
+  - data-and-analytics
 ---
+
+
+
 
 # Sample function graphs
 

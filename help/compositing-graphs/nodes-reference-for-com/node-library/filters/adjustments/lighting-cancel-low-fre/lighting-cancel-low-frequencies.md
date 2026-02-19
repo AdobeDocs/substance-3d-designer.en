@@ -1,8 +1,22 @@
 ---
 title: "Lighting Cancel Low Frequencies"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel Low Frequencies"
+description: "Use the Lighting Cancel Low Frequencies node to remove low-frequency lighting variations from textures for material extraction."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel Low Frequencies
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - brightness
+  - tone
+  - enhancing-color
 ---
+
+
+
 
 # Lighting Cancel Low Frequencies
 

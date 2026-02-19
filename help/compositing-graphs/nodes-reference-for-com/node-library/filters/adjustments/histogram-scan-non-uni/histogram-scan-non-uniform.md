@@ -1,8 +1,21 @@
 ---
 title: "Histogram Scan Non-Uniform"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan Non-Uniform"
+description: "Use the Histogram Scan Non-Uniform node to perform non-uniform histogram scanning for advanced color correction."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan Non-Uniform
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - photogrammetry
+  - hdri
+  - adjustments
 ---
+
+
+
 
 # Histogram Scan Non-Uniform
 

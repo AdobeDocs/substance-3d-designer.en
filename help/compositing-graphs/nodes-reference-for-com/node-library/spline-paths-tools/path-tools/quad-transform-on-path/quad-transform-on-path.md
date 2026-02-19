@@ -1,7 +1,8 @@
 ---
 title: "Quad Transform on Path"
-description: ""
+description: "Use the Quad Transform on Path node to apply quadratic transformations to elements along path curves."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Quad Transform on Path"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/quad-transform-on-path.html"
 ---
 
 # Quad Transform on Path

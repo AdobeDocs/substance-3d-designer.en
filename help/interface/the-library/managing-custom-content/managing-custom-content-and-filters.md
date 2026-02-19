@@ -1,8 +1,21 @@
 ---
 title: "Managing custom content and filters"
-description: ""
-helpx_description: "Designer > Interface > The Library > Managing custom content and filters"
+description: "Learn how to manage custom content and filters in the Substance 3D Designer Library for organized asset access."
+helpx_description: Designer > Interface > The Library > Managing custom content and filters
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - catalogs
+  - creative-cloud-libraries
+  - organization
 ---
+
+
+
 
 # Managing custom content and filters
 

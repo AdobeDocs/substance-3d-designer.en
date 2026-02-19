@@ -1,7 +1,8 @@
 ---
 title: "Scene browser"
-description: ""
+description: "Use the Scene Browser to navigate and manage 3D scene elements, materials, and objects in the viewport."
 helpx_description: "Designer > Interface > 3D view > Scene browser"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 ---
 
 # Scene browser

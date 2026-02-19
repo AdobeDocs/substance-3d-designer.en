@@ -1,8 +1,21 @@
 ---
 title: "Multi Directional Warp"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Multi Directional Warp"
+description: "Use the Multi Directional Warp node to apply warping effects in multiple directions for creating complex distortion patterns."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Multi Directional Warp
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - asset-warp
+  - distortions
+  - transform
 ---
+
+
+
 
 # Multi Directional Warp
 

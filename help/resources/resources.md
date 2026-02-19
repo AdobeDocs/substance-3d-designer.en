@@ -1,8 +1,21 @@
 ---
 title: "Resources"
-description: ""
-helpx_description: "Designer > Resources"
+description: "Learn how to import, create, and manage resources in Substance 3D Designer including bitmaps, fonts, and 3D scenes."
+helpx_description: Designer > Resources
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-visualizations
+  - data-and-analytics
+  - graphs
 ---
+
+
+
 
 # Resources
 

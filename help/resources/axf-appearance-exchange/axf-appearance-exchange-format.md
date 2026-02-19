@@ -1,8 +1,21 @@
 ---
 title: "AxF (Appearance eXchange Format)"
-description: ""
-helpx_description: "Designer > Resources > AxF (Appearance eXchange Format)"
+description: "Learn how to import and use AxF appearance exchange format resources in Substance 3D Designer for material import."
+helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - texture
+  - xr
+  - product-design
 ---
+
+
+
 
 # AxF (Appearance eXchange Format)
 

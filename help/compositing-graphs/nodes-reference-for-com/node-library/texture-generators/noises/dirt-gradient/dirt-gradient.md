@@ -1,8 +1,21 @@
 ---
 title: "Dirt gradient"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt gradient"
+description: "Use the Dirt Gradient node to generate gradient-based dirt patterns for creating directional weathering and accumulation effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt gradient
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - gradients
+  - reflections
+  - normal-maps
 ---
+
+
+
 
 # Dirt gradient
 

@@ -1,8 +1,21 @@
 ---
 title: "Built-in variables"
-description: ""
-helpx_description: "Designer > Function graphs > Variables > Built-in variables"
+description: "Learn about built-in system variables available in Substance 3D Designer function graphs for advanced workflows."
+helpx_description: Designer > Function graphs > Variables > Built-in variables
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-visualizations
+  - infographic
+  - data-and-analytics
 ---
+
+
+
 
 # Built-in variables
 

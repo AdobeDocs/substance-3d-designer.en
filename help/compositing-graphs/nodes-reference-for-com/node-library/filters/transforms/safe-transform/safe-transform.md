@@ -1,8 +1,21 @@
 ---
 title: "Safe Transform"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Safe Transform"
+description: "Use the Safe Transform node to apply transformations while preserving texture boundaries and avoiding artifacts."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Safe Transform
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - distortions
+  - asset-warp
+  - tiling
 ---
+
+
+
 
 # Safe Transform
 

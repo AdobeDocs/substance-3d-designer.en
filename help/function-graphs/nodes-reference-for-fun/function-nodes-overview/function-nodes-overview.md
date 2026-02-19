@@ -1,8 +1,21 @@
 ---
 title: "Function Nodes Overview"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Function Nodes Overview"
+description: "Learn about function nodes available in Substance 3D Designer function graphs for building custom functions."
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function Nodes Overview
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
+helpx_creative_field:
+  - 3d-immersive
+  - motion
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - data-visualizations
+  - graphs
 ---
+
+
+
 
 # Function Nodes Overview
 

@@ -1,8 +1,21 @@
 ---
 title: "Constant"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Constant"
+description: "Access constant nodes in Substance 3D Designer function graphs to define constant values and parameters."
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Constant
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - symbols
+  - booleans
 ---
+
+
+
 
 # Constant
 

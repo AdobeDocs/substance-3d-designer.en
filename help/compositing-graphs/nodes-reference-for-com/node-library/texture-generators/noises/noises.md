@@ -1,8 +1,22 @@
 ---
 title: "Noises"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises"
+description: "Access noise generator nodes in Substance 3D Designer to create procedural noise patterns for texture generation and variation."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - noise
+  - normal-maps
+  - audio-effects
 ---
+
+
+
 
 # Noises
 

@@ -1,8 +1,21 @@
 ---
 title: "Exporting Bitmaps"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Exporting Bitmaps"
+description: "Learn how to export textures and bitmaps from Substance compositing graphs for use in external applications and workflows."
+helpx_description: Designer > Substance compositing graphs > Exporting Bitmaps
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - export
+  - save
+  - printing
 ---
+
+
+
 
 # Exporting Bitmaps
 

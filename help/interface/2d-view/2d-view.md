@@ -1,8 +1,21 @@
 ---
 title: "2D view"
-description: ""
-helpx_description: "Designer > Interface > 2D view"
+description: "Use the 2D view in Substance 3D Designer to preview and inspect texture outputs from your material graphs."
+helpx_description: Designer > Interface > 2D view
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - views
+  - photo-editing
+  - images
 ---
+
+
+
 
 # 2D view
 

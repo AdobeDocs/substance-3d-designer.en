@@ -1,8 +1,21 @@
 ---
 title: "Lighting Cancel High Frequencies"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel High Frequencies"
+description: "Use the Lighting Cancel High Frequencies node to remove high-frequency lighting details from textures for material analysis."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel High Frequencies
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-high-frequencies.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - lighting
+  - tone
+  - brightness
 ---
+
+
+
 
 # Lighting Cancel High Frequencies
 

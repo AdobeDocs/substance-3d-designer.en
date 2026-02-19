@@ -1,7 +1,8 @@
 ---
 title: "Histogram equalize"
-description: ""
+description: "Use the Histogram Equalize node to redistribute pixel intensities for improved contrast and brightness."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram equalize"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 ---
 
 # Histogram equalize

@@ -1,7 +1,8 @@
 ---
 title: "Material samples"
-description: ""
+description: "Use material samples to preview and test your Substance materials on 3D objects in the viewport."
 helpx_description: "Designer > Substance graphs > Creating a Substance graph > Material samples"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
 ---
 
 # Material samples

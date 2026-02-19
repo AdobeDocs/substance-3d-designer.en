@@ -1,8 +1,22 @@
 ---
 title: "Gradient (Dynamic)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)"
+description: "Use the Gradient (Dynamic) node to create dynamic gradients that can be controlled by input parameters and values."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - gradients
+  - creating-color-palettes
+  - shading
 ---
+
+
+
 
 # Gradient (Dynamic)
 

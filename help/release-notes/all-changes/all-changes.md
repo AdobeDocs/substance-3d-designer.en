@@ -1,8 +1,21 @@
 ---
 title: "All changes"
-description: ""
-helpx_description: "Designer > Release Notes > All changes"
+description: "Review all changes and updates across Substance 3D Designer versions to track feature evolution and improvements."
+helpx_description: Designer > Release Notes > All changes
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/all-changes.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - 3d
+  - materials
+  - modeling
 ---
+
+
+
 
 # All changes
 

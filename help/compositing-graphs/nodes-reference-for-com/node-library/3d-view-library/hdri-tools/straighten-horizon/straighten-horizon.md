@@ -1,8 +1,21 @@
 ---
 title: "Straighten Horizon"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Straighten Horizon"
+description: "Use the Straighten Horizon node to straighten horizon lines in HDRI environments for proper alignment and orientation."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Straighten Horizon
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - perspective
+  - asset-warp
+  - hdri
 ---
+
+
+
 
 # Straighten Horizon
 

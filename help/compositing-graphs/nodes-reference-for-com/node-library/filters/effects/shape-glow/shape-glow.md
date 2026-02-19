@@ -1,8 +1,21 @@
 ---
 title: "Shape Glow"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Glow"
+description: "Use the Shape Glow node to add glow effects to shapes and textures for creating luminous and atmospheric visual effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Glow
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - effects
+  - creative-effects
+  - appearance
 ---
+
+
+
 
 # Shape Glow
 

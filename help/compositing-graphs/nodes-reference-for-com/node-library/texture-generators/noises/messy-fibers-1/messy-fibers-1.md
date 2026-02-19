@@ -1,8 +1,22 @@
 ---
 title: "Messy fibers 1"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 1"
+description: "Use the Messy Fibers 1 node to generate basic fiber patterns for creating fabric and textile texture details."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 1
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-1.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - illustration
+  - blending
+  - asset-warp
 ---
+
+
+
 
 # Messy fibers 1
 

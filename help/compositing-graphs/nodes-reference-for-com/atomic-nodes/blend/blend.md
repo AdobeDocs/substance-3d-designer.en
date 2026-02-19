@@ -1,8 +1,22 @@
 ---
 title: "Blend"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend"
+description: "Use the Blend node to blend two textures together using various blend modes for creating composite effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_creative_field:
+  - painting-illustration
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - blending
+  - appearance
+  - effects
 ---
+
+
+
 
 # Blend
 

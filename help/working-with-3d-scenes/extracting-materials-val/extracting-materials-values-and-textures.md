@@ -1,7 +1,8 @@
 ---
 title: "Extracting materials values and textures"
-description: ""
+description: "Extract material properties from 3D scenes to use in Substance graphs for material creation workflows."
 helpx_description: "Designer > Working with 3D scenes > Extracting materials values and textures"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 ---
 
 # Extracting materials values and textures

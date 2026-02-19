@@ -1,8 +1,21 @@
 ---
 title: "Plugins packages"
-description: ""
-helpx_description: "Designer > Scripting > Plugins packages"
+description: "Learn how to create and structure plugin packages for Substance 3D Designer Python scripting."
+helpx_description: Designer > Scripting > Plugins packages
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugins-packages.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - download-and-install
+  - import
+  - cross-product-workflows
 ---
+
+
+
 
 # Plugins packages
 

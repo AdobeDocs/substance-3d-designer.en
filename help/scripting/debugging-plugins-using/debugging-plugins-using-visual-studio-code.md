@@ -1,8 +1,25 @@
 ---
 title: "Debugging plugins using Visual Studio Code"
-description: ""
-helpx_description: "Designer > Scripting > Debugging plugins using Visual Studio Code"
+description: "Learn how to debug Substance 3D Designer Python plugins using Visual Studio Code for efficient development."
+helpx_description: Designer > Scripting > Debugging plugins using Visual Studio Code
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/debugging-plugins-using-visual-studio-code.html"
+helpx_creative_field:
+  - video
+  - social-media
+  - graphic-design
+  - web
+  - 3d-immersive
+  - publishing
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - automation
+  - preparing-source-files
+  - preview
 ---
+
+
+
 
 # Debugging plugins using Visual Studio Code
 

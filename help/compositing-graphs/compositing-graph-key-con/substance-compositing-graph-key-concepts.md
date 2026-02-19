@@ -1,8 +1,21 @@
 ---
 title: "Substance graph key concepts"
-description: ""
-helpx_description: "Designer > Substance graphs > Substance graph key concepts"
+description: "Learn the key concepts of Substance compositing graphs including nodes, connections, and workflow fundamentals."
+helpx_description: Designer > Substance graphs > Substance graph key concepts
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-and-analytics
+  - data-visualizations
+  - graphs
 ---
+
+
+
 
 # Substance graph key concepts
 

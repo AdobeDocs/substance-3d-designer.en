@@ -1,7 +1,8 @@
 ---
 title: "Moisture noise 2"
-description: ""
+description: "Use the Moisture Noise 2 node to generate organic moisture patterns for realistic surface textures."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Moisture noise 2"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise-2.html"
 ---
 
 # Moisture noise 2

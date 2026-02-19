@@ -1,8 +1,22 @@
 ---
 title: "3D Simplex Noise"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Simplex Noise"
+description: "Use the 3D Simplex Noise node to generate 3D simplex noise patterns for creating smooth, natural-looking volumetric textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Simplex Noise
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - noise
+  - normal-maps
+  - audio-effects
 ---
+
+
+
 
 # 3D Simplex Noise
 

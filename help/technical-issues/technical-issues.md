@@ -1,8 +1,21 @@
 ---
 title: "Technical issues"
-description: ""
-helpx_description: "Designer > Technical issues"
+description: "Find troubleshooting guides for technical issues in Substance 3D Designer to resolve problems quickly."
+helpx_description: Designer > Technical issues
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - 3d
+  - troubleshooting
+  - known-issues
 ---
+
+
+
 
 # Technical issues
 

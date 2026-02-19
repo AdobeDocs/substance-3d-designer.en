@@ -1,8 +1,21 @@
 ---
 title: "Levels"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels"
+description: "Use the Levels node to adjust brightness, contrast, and tonal range of textures for color correction and enhancement."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - adjustments
+  - landscape-photography
+  - enhancing-color
 ---
+
+
+
 
 # Levels
 

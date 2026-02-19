@@ -1,7 +1,8 @@
 ---
 title: "Color sampler tool"
-description: ""
+description: "Use the Color Sampler tool in the 2D view to sample colors from textures for precise color matching."
 helpx_description: "Designer > Interface > 2D view > Color sampler tool"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
 ---
 
 # Color sampler tool

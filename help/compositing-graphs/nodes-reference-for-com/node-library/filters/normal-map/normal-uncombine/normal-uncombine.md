@@ -1,7 +1,8 @@
 ---
 title: "Normal Uncombine"
-description: ""
+description: "Use the Normal Uncombine node to separate combined normal map data into individual X, Y, and Z components."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal map > Normal uncombine"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
 ---
 
 # Normal Uncombine

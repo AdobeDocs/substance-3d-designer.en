@@ -1,7 +1,8 @@
 ---
 title: "MLV grayscale"
-description: ""
+description: "Use the MLV Grayscale blur filter to apply motion blur effects to grayscale textures for dynamic looks."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > MLV grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 ---
 
 # MLV grayscale

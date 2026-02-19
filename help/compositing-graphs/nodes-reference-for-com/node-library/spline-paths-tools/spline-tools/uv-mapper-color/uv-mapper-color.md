@@ -1,7 +1,8 @@
 ---
 title: "UV Mapper Color"
-description: ""
+description: "Use the UV Mapper Color node to map color textures along splines for procedural texture generation."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Color"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
 ---
 
 # UV Mapper Color

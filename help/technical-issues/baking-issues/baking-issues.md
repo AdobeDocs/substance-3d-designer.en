@@ -1,7 +1,8 @@
 ---
 title: "Baking issues"
-description: ""
+description: "Find troubleshooting steps for technical issues related to baking textures in Substance 3D Designer."
 helpx_description: "Designer > Technical issues > Baking issues"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 ---
 
 # Baking issues

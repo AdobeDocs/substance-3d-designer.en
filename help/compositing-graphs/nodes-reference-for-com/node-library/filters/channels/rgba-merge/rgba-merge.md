@@ -1,8 +1,21 @@
 ---
 title: "RGBA Merge"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Merge"
+description: "Use the RGBA Merge node to combine separate red, green, blue, and alpha channels into a single RGBA texture."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > RGBA Merge
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - blending
+  - compositing
+  - materials
 ---
+
+
+
 
 # RGBA Merge
 

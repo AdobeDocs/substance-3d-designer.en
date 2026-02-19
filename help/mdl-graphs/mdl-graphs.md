@@ -1,8 +1,21 @@
 ---
 title: "MDL graphs"
-description: ""
-helpx_description: "Designer > MDL graphs"
+description: "Learn how to create and use Material Definition Language graphs in Substance 3D Designer for advanced material workflows."
+helpx_description: Designer > MDL graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-visualizations
+  - data-and-analytics
+  - 3d
 ---
+
+
+
 
 # MDL graphs
 

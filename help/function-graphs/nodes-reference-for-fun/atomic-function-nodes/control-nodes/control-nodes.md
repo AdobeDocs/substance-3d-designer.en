@@ -1,8 +1,21 @@
 ---
 title: "Control"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Control"
+description: "Access control nodes in Substance 3D Designer function graphs to control flow and execution logic."
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Control
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - graphs
+  - data-and-analytics
 ---
+
+
+
 
 # Control nodes
 

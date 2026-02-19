@@ -1,8 +1,21 @@
 ---
 title: "Overview"
-description: ""
-helpx_description: "Designer > Getting started > Overview"
+description: "Get an overview of Substance 3D Designer and learn about its capabilities for creating procedural materials and textures."
+helpx_description: Designer > Getting started > Overview
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-visualizations
+  - cross-product-workflows
+  - infographic
 ---
+
+
+
 
 # Overview
 

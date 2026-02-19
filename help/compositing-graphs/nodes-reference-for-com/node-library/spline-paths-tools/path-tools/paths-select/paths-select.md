@@ -1,7 +1,8 @@
 ---
 title: "Paths Select"
-description: ""
+description: "Use the Paths Select node to select and filter specific paths from a path list based on criteria."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Select"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-select.html"
 ---
 
 # Paths Select

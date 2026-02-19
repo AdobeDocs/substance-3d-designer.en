@@ -1,8 +1,21 @@
 ---
 title: "Scripting"
-description: ""
-helpx_description: "Designer > Scripting"
+description: "Learn how to extend Substance 3D Designer functionality using Python scripting and plugin development."
+helpx_description: Designer > Scripting
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - automation
+  - api
+  - workflow
 ---
+
+
+
 
 # Scripting
 

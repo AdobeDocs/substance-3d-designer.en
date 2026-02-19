@@ -1,7 +1,8 @@
 ---
 title: "Spline Bridge (List)"
-description: ""
+description: "Use the Spline Bridge List node to bridge textures between multiple splines in a list for complex patterns."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (List)"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
 ---
 
 # Spline Bridge (List)

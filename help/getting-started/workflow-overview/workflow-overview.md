@@ -1,8 +1,21 @@
 ---
 title: "Workflow overview"
-description: ""
-helpx_description: "Designer > Getting started > Workflow overview"
+description: "Learn the essential workflow for creating procedural materials in Substance 3D Designer from start to finish."
+helpx_description: Designer > Getting started > Workflow overview
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-and-analytics
+  - graphs
+  - data-visualizations
 ---
+
+
+
 
 # Workflow overview
 

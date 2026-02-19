@@ -1,8 +1,21 @@
 ---
 title: "Cannot createload a project"
-description: ""
-helpx_description: "Designer > Technical issues > Cannot createload a project"
+description: "Troubleshoot issues with creating or loading projects in Substance 3D Designer and find solutions."
+helpx_description: Designer > Technical issues > Cannot createload a project
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - import
+  - cross-product-workflows
+  - 3d
 ---
+
+
+
 
 # Cannot create/load a project
 

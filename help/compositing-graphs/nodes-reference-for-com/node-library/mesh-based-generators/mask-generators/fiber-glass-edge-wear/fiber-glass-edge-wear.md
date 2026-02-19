@@ -1,8 +1,23 @@
 ---
 title: "Fiber Glass Edge Wear"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Fiber Glass Edge Wear"
+description: "Use the Fiber Glass Edge Wear node to generate wear masks on fiberglass edges based on mesh curvature."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Fiber Glass Edge Wear
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+helpx_creative_field:
+  - video
+  - graphic-design
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - masking
+  - reflections
+  - effects
 ---
+
+
+
 
 # Fiber Glass Edge Wear
 

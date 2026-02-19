@@ -1,8 +1,22 @@
 ---
 title: "Accessing graphs and selections"
-description: ""
-helpx_description: "Designer > Scripting > Accessing graphs and selections"
+description: "Learn how to access and manipulate graphs and node selections in Substance 3D Designer Python scripts."
+helpx_description: Designer > Scripting > Accessing graphs and selections
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
+helpx_creative_field:
+  - painting-illustration
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - graphs
+  - data-visualizations
+  - data-and-analytics
 ---
+
+
+
 
 # Accessing graphs and selections
 

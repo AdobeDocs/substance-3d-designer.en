@@ -1,7 +1,8 @@
 ---
 title: "Bevel smooth"
-description: ""
+description: "Use the Bevel Smooth node to create smooth beveled edges on shapes and patterns for realistic surfaces."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Bevel smooth"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 ---
 
 # Bevel smooth

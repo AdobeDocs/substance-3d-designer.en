@@ -1,8 +1,21 @@
 ---
 title: "Gradient Axial Reflected"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Axial Reflected"
+description: "Use the Gradient Axial Reflected node to create reflected axial gradients for symmetric color transitions."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Axial Reflected
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - gradients
+  - reflections
+  - effects
 ---
+
+
+
 
 # Gradient Axial Reflected
 

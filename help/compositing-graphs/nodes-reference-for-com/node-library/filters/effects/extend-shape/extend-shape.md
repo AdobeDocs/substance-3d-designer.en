@@ -1,8 +1,21 @@
 ---
 title: "Extend Shape"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Extend Shape"
+description: "Use the Extend Shape node to extend shapes beyond their boundaries for creating expanded mask and pattern effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Extend Shape
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shapes
+  - modeling
+  - asset-warp
 ---
+
+
+
 
 # Extend Shape
 

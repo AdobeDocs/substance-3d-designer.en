@@ -1,8 +1,21 @@
 ---
 title: "Warnings from dependencies"
-description: ""
-helpx_description: "Designer > Resources > Warnings from dependencies"
+description: "Understand warnings from resource dependencies in Substance 3D Designer and how to resolve them."
+helpx_description: Designer > Resources > Warnings from dependencies
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - import
+  - troubleshooting
+  - texture
 ---
+
+
+
 
 # Warnings from dependencies
 

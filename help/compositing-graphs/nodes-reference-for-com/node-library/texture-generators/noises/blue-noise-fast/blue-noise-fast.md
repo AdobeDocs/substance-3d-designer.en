@@ -1,8 +1,22 @@
 ---
 title: "Blue Noise Fast"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Blue Noise Fast"
+description: "Use the Blue Noise Fast node to generate fast blue noise patterns for creating high-quality texture dithering and variations."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Blue Noise Fast
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - noise
+  - texture
+  - clarity
 ---
+
+
+
 
 # Blue Noise Fast
 

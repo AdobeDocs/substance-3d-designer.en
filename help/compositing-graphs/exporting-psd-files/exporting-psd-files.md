@@ -1,8 +1,21 @@
 ---
 title: "Exporting PSD files"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Exporting PSD files"
+description: "Learn how to export Substance compositing graphs as PSD files for use in Adobe Photoshop and other image editing workflows."
+helpx_description: Designer > Substance compositing graphs > Exporting PSD files
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - export
+  - printing
+  - texture
 ---
+
+
+
 
 # Exporting PSD files
 

@@ -1,7 +1,8 @@
 ---
 title: "View Color Palette"
-description: ""
+description: "Use the View Color Palette node to visualize color palette data extracted from textures for analysis."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > View Color Palette"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 ---
 
 # View Color Palette

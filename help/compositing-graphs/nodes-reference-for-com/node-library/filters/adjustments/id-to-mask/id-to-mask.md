@@ -1,7 +1,8 @@
 ---
 title: "ID To Mask Grayscale"
-description: ""
+description: "Use the ID To Mask Grayscale node to convert ID map values into grayscale masks for material selection."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > ID To Mask Grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
 ---
 
 # ID To Mask Grayscale

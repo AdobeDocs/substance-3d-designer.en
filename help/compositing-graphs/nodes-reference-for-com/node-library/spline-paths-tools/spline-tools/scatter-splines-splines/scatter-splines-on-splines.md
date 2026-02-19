@@ -1,7 +1,8 @@
 ---
 title: "Scatter Splines on Splines"
-description: ""
+description: "Use the Scatter Splines on Splines node to distribute child splines along parent spline paths."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter Splines on Splines"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
 ---
 
 # Scatter Splines on Splines

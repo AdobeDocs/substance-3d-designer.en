@@ -1,8 +1,21 @@
 ---
 title: "Spot Colors (Pantone)"
-description: ""
-helpx_description: "Designer > Color Management > Spot Colors (Pantone)"
+description: "Learn how to use Pantone spot colors in Substance 3D Designer for accurate color matching in print and design workflows."
+helpx_description: Designer > Color Management > Spot Colors (Pantone)
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management/spot-colors-pantone.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creating-color-palettes
+  - color
+  - colorize
 ---
+
+
+
 
 # Spot Colors (Pantone)
 

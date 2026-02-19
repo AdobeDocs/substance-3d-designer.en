@@ -1,8 +1,21 @@
 ---
 title: "Pow"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow"
+description: "Use the Pow node to apply power function adjustments to textures for controlling brightness curves and gamma correction."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - travel-photography
+  - creative-effects
+  - landscape-photography
 ---
+
+
+
 
 # Pow
 

@@ -1,8 +1,21 @@
 ---
 title: "Porting previous plugins"
-description: ""
-helpx_description: "Designer > Scripting > Porting previous plugins"
+description: "Learn how to port plugins from previous versions of Substance Designer to the current Python API."
+helpx_description: Designer > Scripting > Porting previous plugins
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/porting-previous-plugins.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - interface
+  - component
+  - automation
 ---
+
+
+
 
 # Porting previous plugins
 

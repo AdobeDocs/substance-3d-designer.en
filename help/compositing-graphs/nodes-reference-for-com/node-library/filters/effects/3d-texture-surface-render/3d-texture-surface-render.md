@@ -1,8 +1,21 @@
 ---
 title: "3D Texture Surface Render"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Surface Render"
+description: "Use the 3D Texture Surface Render node to render surface textures from 3D data for creating procedural surface effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Surface Render
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - pbr
+  - 3d
+  - rendering
 ---
+
+
+
 
 # 3D Texture Surface Render
 

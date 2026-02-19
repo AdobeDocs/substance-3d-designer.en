@@ -1,8 +1,21 @@
 ---
 title: "Effects"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects"
+description: "Access effect filter nodes in Substance 3D Designer to add visual effects like glow, shadows, and warping to your textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - effects
+  - creative-effects
+  - asset-warp
 ---
+
+
+
 
 # Effects
 

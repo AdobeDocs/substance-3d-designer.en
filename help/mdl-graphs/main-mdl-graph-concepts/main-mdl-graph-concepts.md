@@ -1,8 +1,21 @@
 ---
 title: "Main MDL graph concepts"
-description: ""
-helpx_description: "Designer > MDL graphs > Main MDL graph concepts"
+description: "Learn the main concepts of Material Definition Language graphs in Substance 3D Designer for material creation."
+helpx_description: Designer > MDL graphs > Main MDL graph concepts
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/main-mdl-graph-concepts.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-visualizations
+  - nodes
+  - data-and-analytics
 ---
+
+
+
 
 # Main MDL graph concepts
 

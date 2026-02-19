@@ -1,8 +1,21 @@
 ---
 title: "Importing, linking and new resources"
-description: ""
-helpx_description: "Designer > Resources > Importing, linking and new resources"
+description: "Learn how to import, link, and create new resources in Substance 3D Designer for your material projects."
+helpx_description: Designer > Resources > Importing, linking and new resources
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - import
+  - cross-product-workflows
+  - preparing-source-files
 ---
+
+
+
 
 # Importing, linking and new resources
 

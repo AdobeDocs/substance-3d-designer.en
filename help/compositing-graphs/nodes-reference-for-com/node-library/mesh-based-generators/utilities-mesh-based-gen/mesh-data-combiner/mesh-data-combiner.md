@@ -1,8 +1,21 @@
 ---
 title: "Mesh Data Combiner"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Mesh Data Combiner"
+description: "Use the Mesh Data Combiner node to combine multiple mesh data inputs for advanced mesh-based texture generation."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Mesh Data Combiner
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/mesh-data-combiner.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - baking
+  - nodes
+  - layers
 ---
+
+
+
 
 # Mesh Data Combiner
 

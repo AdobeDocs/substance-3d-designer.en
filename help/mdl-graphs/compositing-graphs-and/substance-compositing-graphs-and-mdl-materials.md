@@ -1,8 +1,22 @@
 ---
 title: "Substance graphs and MDL materials"
-description: ""
-helpx_description: "Designer > MDL graphs > Substance graphs and MDL materials"
+description: "Learn how Substance compositing graphs and MDL materials work together in Substance 3D Designer for material creation."
+helpx_description: Designer > MDL graphs > Substance graphs and MDL materials
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/substance-compositing-graphs-and-mdl-materials.html"
+helpx_creative_field:
+  - painting-illustration
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-visualizations
+  - graphs
+  - data-and-analytics
 ---
+
+
+
 
 # Substance graphs and MDL materials
 

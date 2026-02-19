@@ -1,8 +1,21 @@
 ---
 title: "Ambient Occlusion (HBAO) (Filter Node)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (HBAO) (Filter Node)"
+description: "Use the Ambient Occlusion HBAO filter node to generate ambient occlusion maps using horizon-based algorithms for realistic shading."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (HBAO) (Filter Node)
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shading
+  - effects
+  - masking
 ---
+
+
+
 
 # Ambient Occlusion (HBAO) (Filter Node)
 

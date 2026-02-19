@@ -1,8 +1,23 @@
 ---
 title: "Grunge Shavings"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings"
+description: "Use the Grunge Shavings node to generate shaving patterns for creating wood grain and material texture details."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Shavings
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - normal-maps
+  - blending
+  - reflections
 ---
+
+
+
 
 # Grunge Shavings
 

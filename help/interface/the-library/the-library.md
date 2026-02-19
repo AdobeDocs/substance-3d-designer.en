@@ -1,8 +1,21 @@
 ---
 title: "Library"
-description: ""
-helpx_description: "Designer > Interface > Library"
+description: "Use the Library in Substance 3D Designer to access and manage node presets, materials, and custom content."
+helpx_description: Designer > Interface > Library
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creative-cloud-libraries
+  - cross-product-workflows
+  - assets
 ---
+
+
+
 
 # The Library
 

@@ -1,8 +1,21 @@
 ---
 title: "Packaging plugins"
-description: ""
-helpx_description: "Designer > Scripting > Packaging plugins"
+description: "Learn how to package Python plugins for Substance 3D Designer for distribution and installation."
+helpx_description: Designer > Scripting > Packaging plugins
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/packaging-plugins.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - preparing-source-files
+  - projects
+  - cross-product-workflows
 ---
+
+
+
 
 # Packaging plugins
 

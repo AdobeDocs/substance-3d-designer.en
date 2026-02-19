@@ -1,8 +1,21 @@
 ---
 title: "What is a function "
-description: ""
+description: "Learn what functions are in Substance 3D Designer and how to use them to create reusable node networks."
 helpx_description: "Designer > Function graphs > What is a function "
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/what-is-a-function.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - graphs
+  - data-and-analytics
+  - data-visualizations
 ---
+
+
+
 
 # What is a function ?
 

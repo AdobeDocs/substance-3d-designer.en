@@ -1,8 +1,22 @@
 ---
 title: "Pixel processor"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor"
+description: "Use the Pixel Processor node to process individual pixels using custom expressions for advanced texture manipulation."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - creating-color-palettes
+  - filters
+  - color-grading
 ---
+
+
+
 
 # Pixel processor
 

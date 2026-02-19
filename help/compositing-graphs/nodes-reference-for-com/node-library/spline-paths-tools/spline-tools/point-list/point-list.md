@@ -1,7 +1,8 @@
 ---
 title: "Point List"
-description: ""
+description: "Use the Point List node to create and manage lists of points for spline and path generation."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 ---
 
 # Point List

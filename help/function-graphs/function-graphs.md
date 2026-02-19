@@ -1,8 +1,21 @@
 ---
 title: "Substance function graphs"
-description: ""
-helpx_description: "Designer > Substance function graphs"
+description: "Learn how to create and use Substance function graphs in Designer to build custom functions and reusable node networks."
+helpx_description: Designer > Substance function graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - gradients
+  - effects
+  - hdri
 ---
+
+
+
 
 # Substance function graphs
 

@@ -1,8 +1,20 @@
 ---
 title: "Substance graphs"
-description: ""
-helpx_description: "Designer > Substance graphs"
+description: "Learn about Substance compositing graphs in Substance 3D Designer for creating procedural textures and material workflows."
+helpx_description: Designer > Substance graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
+helpx_creative_field:
+  - 3d-immersive
+  - motion
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - graphs
+  - workflow
 ---
+
+
+
 
 # Substance graphs
 

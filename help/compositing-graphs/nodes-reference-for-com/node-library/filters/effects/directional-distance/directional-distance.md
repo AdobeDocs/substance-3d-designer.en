@@ -1,7 +1,8 @@
 ---
 title: "Directional distance"
-description: ""
+description: "Use the Directional Distance node to compute distance fields in specific directions for procedural effects."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Directional distance"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
 ---
 
 # Directional distance

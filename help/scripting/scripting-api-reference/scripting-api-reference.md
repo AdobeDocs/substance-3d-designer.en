@@ -1,8 +1,22 @@
 ---
 title: "Scripting API reference"
-description: ""
-helpx_description: "Designer > Scripting > Scripting API reference"
+description: "Access the complete Substance 3D Designer Python scripting API reference for plugin development."
+helpx_description: Designer > Scripting > Scripting API reference
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html"
+helpx_creative_field:
+  - video
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - instances
+  - nodes
+  - data-visualizations
 ---
+
+
+
 
 # Scripting API reference
 

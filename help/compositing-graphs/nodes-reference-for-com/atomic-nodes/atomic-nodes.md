@@ -1,8 +1,21 @@
 ---
 title: "Atomic nodes"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes"
+description: "Access atomic nodes in Substance 3D Designer for basic operations including inputs, outputs, blending, and color adjustments."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - graphs
+  - data-visualizations
 ---
+
+
+
 
 # Atomic nodes
 

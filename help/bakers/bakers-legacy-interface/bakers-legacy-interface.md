@@ -1,8 +1,21 @@
 ---
 title: "Bakers Legacy Interface"
-description: ""
-helpx_description: "Designer > Bakers > Bakers Legacy Interface"
+description: "Learn about the legacy interface for Substance 3D Designer bakers for users familiar with older versions."
+helpx_description: Designer > Bakers > Bakers Legacy Interface
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - baking
+  - workspace
+  - print-design
 ---
+
+
+
 
 # Bakers Legacy Interface
 

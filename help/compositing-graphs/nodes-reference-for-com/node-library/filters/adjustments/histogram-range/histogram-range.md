@@ -1,8 +1,21 @@
 ---
 title: "Histogram Range"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Range"
+description: "Use the Histogram Range node to remap texture values based on histogram ranges for color correction and adjustments."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Range
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - hdri
+  - enhancing-color
+  - adjustments
 ---
+
+
+
 
 # Histogram Range
 

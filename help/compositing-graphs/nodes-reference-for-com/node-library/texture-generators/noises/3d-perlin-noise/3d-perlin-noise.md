@@ -1,8 +1,22 @@
 ---
 title: "3D Perlin Noise"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Perlin Noise"
+description: "Use the 3D Perlin Noise node to generate smooth Perlin noise patterns in 3D space for creating natural-looking volumetric textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Perlin Noise
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - intermediate
+helpx_learn_topic:
+  - normal-maps
+  - pbr
+  - 3d
 ---
+
+
+
 
 # 3D Perlin Noise
 

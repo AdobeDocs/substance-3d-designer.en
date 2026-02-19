@@ -1,7 +1,8 @@
 ---
 title: "Working with Path  Spline tools"
-description: ""
+description: "Learn how to work with path and spline tools to create procedural patterns and organic shapes in your graphs."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Working with Path  Spline tools"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/working-with-path-and-spline-tools.html"
 ---
 
 # Working with Path &amp; Spline tools

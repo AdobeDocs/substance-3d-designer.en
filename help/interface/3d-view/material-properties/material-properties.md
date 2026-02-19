@@ -1,8 +1,21 @@
 ---
 title: "Material properties"
-description: ""
-helpx_description: "Designer > Interface > 3D View > Material properties"
+description: "Configure material properties in the 3D view to preview and adjust how your Substance materials appear on 3D objects."
+helpx_description: Designer > Interface > 3D View > Material properties
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shading
+  - materials
+  - 3d
 ---
+
+
+
 
 # Material properties
 

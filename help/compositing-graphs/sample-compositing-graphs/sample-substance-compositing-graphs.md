@@ -1,8 +1,21 @@
 ---
 title: "Sample Substance graphs"
-description: ""
-helpx_description: "Designer > Substance graphs > Sample Substance graphs"
+description: "Explore sample Substance compositing graphs in Designer to learn advanced techniques and best practices."
+helpx_description: Designer > Substance graphs > Sample Substance graphs
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-visualizations
+  - data-and-analytics
+  - graphs
 ---
+
+
+
 
 # Sample Substance graphs
 

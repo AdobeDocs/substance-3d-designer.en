@@ -1,8 +1,21 @@
 ---
 title: "Font resource"
-description: ""
-helpx_description: "Designer > Resources > Font resource"
+description: "Import and use font resources in Substance 3D Designer to add text and typography to your materials."
+helpx_description: Designer > Resources > Font resource
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/font-resource.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - fonts
+  - custom-lettering
+  - graphic-styles
 ---
+
+
+
 
 # Font resource
 

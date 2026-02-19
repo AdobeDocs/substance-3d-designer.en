@@ -1,8 +1,21 @@
 ---
 title: "3D View issues"
-description: ""
-helpx_description: "Designer > Technical issues > 3D View issues"
+description: "Troubleshoot 3D View issues in Substance 3D Designer including rendering, display, and performance problems."
+helpx_description: Designer > Technical issues > 3D View issues
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - height
+  - perspective
+  - 3d
 ---
+
+
+
 
 # 3D View issues
 

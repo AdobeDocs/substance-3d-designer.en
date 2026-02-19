@@ -1,7 +1,8 @@
 ---
 title: "Getting started"
-description: ""
+description: "Learn the fundamentals of Substance 3D Designer and start creating procedural materials with step-by-step guides."
 helpx_description: "Designer > Getting started"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started.html"
 ---
 
 # Getting started

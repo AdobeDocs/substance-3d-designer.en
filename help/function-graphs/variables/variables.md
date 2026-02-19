@@ -1,8 +1,21 @@
 ---
 title: "Variables"
-description: ""
-helpx_description: "Designer > Function graphs > Variables"
+description: "Learn how to use variables in Substance 3D Designer function graphs to store and reuse values efficiently."
+helpx_description: Designer > Function graphs > Variables
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - symbols
+  - booleans
+  - expressions
 ---
+
+
+
 
 # Variables
 

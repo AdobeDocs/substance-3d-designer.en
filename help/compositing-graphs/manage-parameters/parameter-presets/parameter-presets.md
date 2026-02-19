@@ -1,8 +1,21 @@
 ---
 title: "Parameter presets"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Exposing a parameter > Parameter presets"
+description: "Learn how to create and use parameter presets in Substance 3D Designer to save and apply parameter configurations."
+helpx_description: Designer > Substance compositing graphs > Exposing a parameter > Parameter presets
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - presets
+  - preferences
+  - tween
 ---
+
+
+
 
 # Parameter presets
 

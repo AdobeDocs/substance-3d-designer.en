@@ -1,8 +1,22 @@
 ---
 title: "Visible if expressions"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions"
+description: "Learn how to use visible if expressions in Substance 3D Designer to control parameter visibility based on conditions."
+helpx_description: Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - painting-illustration
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - expressions
+  - booleans
+  - fill-and-sign
 ---
+
+
+
 
 # Visible if expressions
 

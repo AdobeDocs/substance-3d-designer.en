@@ -1,8 +1,22 @@
 ---
 title: "Creating user interface elements"
-description: ""
-helpx_description: "Designer > Scripting > Creating user interface elements"
+description: "Learn how to create user interface elements in Substance 3D Designer Python plugins for interactive user experiences."
+helpx_description: Designer > Scripting > Creating user interface elements
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/creating-user-interface-elements.html"
+helpx_creative_field:
+  - video
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - interface
+  - workspace
+  - infographic
 ---
+
+
+
 
 # Creating user interface elements
 

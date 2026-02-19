@@ -1,8 +1,21 @@
 ---
 title: "Bitmap painting tools"
-description: ""
-helpx_description: "Designer > Resources > Bitmap resource > Bitmap painting tools"
+description: "Use bitmap painting tools in Substance 3D Designer to paint directly on bitmap resources for texture editing."
+helpx_description: Designer > Resources > Bitmap resource > Bitmap painting tools
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - brushes
+  - painting
+  - illustration
 ---
+
+
+
 
 # Bitmap painting tools
 

@@ -1,8 +1,22 @@
 ---
 title: "Vector editing tools"
-description: ""
-helpx_description: "Designer > Resources > Vector graphics (SVG) resource > Vector editing tools"
+description: "Use vector editing tools to create and modify SVG graphics in Substance 3D Designer for procedural textures."
+helpx_description: Designer > Resources > Vector graphics (SVG) resource > Vector editing tools
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_creative_field:
+  - painting-illustration
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shapes
+  - drawing
+  - vector
 ---
+
+
+
 
 # Vector editing tools
 

@@ -1,7 +1,8 @@
 ---
 title: "Anisotropic Kuwahara Grayscale"
-description: ""
+description: "Use the Anisotropic Kuwahara Grayscale filter to create stylized, painterly effects with directional smoothing."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Anisotropic Kuwahara Grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara-grayscale.html"
 ---
 
 # Anisotropic Kuwahara Grayscale

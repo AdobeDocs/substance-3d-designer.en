@@ -1,7 +1,8 @@
 ---
 title: "Paths Vertex Processor"
-description: ""
+description: "Use the Paths Vertex Processor node to transform and manipulate path vertices with advanced options."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Vertex Processor"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 ---
 
 # Paths Vertex Processor

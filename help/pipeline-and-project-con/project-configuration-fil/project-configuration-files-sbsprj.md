@@ -1,8 +1,21 @@
 ---
 title: "Project Configuration Files - SBSPRJ"
-description: ""
-helpx_description: "Designer > Pipeline and Project Configuration > Project Configuration Files - SBSPRJ"
+description: "Learn how to use SBSPRJ project configuration files in Substance 3D Designer to manage project settings."
+helpx_description: Designer > Pipeline and Project Configuration > Project Configuration Files - SBSPRJ
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - intermediate-advanced
+helpx_learn_topic:
+  - preparing-source-files
+  - projects
+  - preferences
 ---
+
+
+
 
 # Overview
 

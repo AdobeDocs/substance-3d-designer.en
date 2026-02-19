@@ -1,8 +1,21 @@
 ---
 title: "Flood Fill to BBox Size"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to BBox Size"
+description: "Use the Flood Fill to BBox Size node to fill regions with bounding box size values for procedural scaling effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to BBox Size
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - painting
+  - creative-effects
+  - illustration
 ---
+
+
+
 
 # Flood Fill to BBox Size
 

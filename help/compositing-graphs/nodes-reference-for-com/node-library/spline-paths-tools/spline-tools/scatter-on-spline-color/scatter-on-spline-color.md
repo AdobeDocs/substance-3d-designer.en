@@ -1,7 +1,8 @@
 ---
 title: "Scatter on Spline Color"
-description: ""
+description: "Use the Scatter on Spline Color node to distribute color elements along spline paths for procedural patterns."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Color"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 ---
 
 # Scatter on Spline Color

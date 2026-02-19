@@ -1,7 +1,8 @@
 ---
 title: "Path Tools"
-description: ""
+description: "Access all path tool nodes for creating, manipulating, and converting paths in your Substance graphs."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
 ---
 
 # Path tools

@@ -1,8 +1,21 @@
 ---
 title: "Multi Color Equalizer"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Color Equalizer"
+description: "Use the Multi Color Equalizer node to equalize colors across multiple texture channels for consistent scanned material processing."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Color Equalizer
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - color-grading
+  - color
+  - enhancing-color
 ---
+
+
+
 
 # Multi Color Equalizer
 

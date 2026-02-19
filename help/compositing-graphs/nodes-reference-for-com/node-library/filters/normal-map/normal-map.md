@@ -1,8 +1,21 @@
 ---
 title: "Normal Map"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map"
+description: "Access normal map filter nodes in Substance 3D Designer to process and manipulate normal map textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
+helpx_creative_field:
+  - web
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - normal-maps
+  - nodes
+  - data-visualizations
 ---
+
+
+
 
 # Normal Map
 

@@ -1,7 +1,8 @@
 ---
 title: "Paths Warp"
-description: ""
+description: "Use the Paths Warp node to warp textures along path curves for creating curved and organic patterns."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Warp"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 ---
 
 # Paths Warp

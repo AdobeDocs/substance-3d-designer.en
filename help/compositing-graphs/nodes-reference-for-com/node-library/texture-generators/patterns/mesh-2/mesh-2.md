@@ -1,8 +1,21 @@
 ---
 title: "Mesh 2"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Mesh 2"
+description: "Use the Mesh 2 node to generate advanced mesh patterns with enhanced controls for creating geometric textures."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Mesh 2
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/mesh-2.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - shapes
+  - 3d
+  - modeling
 ---
+
+
+
 
 # Mesh 2
 

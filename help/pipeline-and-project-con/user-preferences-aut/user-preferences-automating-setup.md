@@ -1,8 +1,23 @@
 ---
 title: "User Preferences - Automating Setup"
-description: ""
-helpx_description: "Designer > Pipeline and Project Configuration > User Preferences - Automating Setup"
+description: "Learn how to automate user preferences setup in Substance 3D Designer for streamlined workflow configuration."
+helpx_description: Designer > Pipeline and Project Configuration > User Preferences - Automating Setup
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_creative_field:
+  - painting-illustration
+  - graphic-design
+  - 3d-immersive
+  - web
+helpx_experience_level:
+  - beginner
+helpx_learn_topic:
+  - preferences
+  - projects
+  - presets
 ---
+
+
+
 
 # User Preferences - Automating Setup
 

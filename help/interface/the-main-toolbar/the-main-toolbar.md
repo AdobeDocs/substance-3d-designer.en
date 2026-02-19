@@ -1,8 +1,21 @@
 ---
 title: "Main toolbar"
-description: ""
-helpx_description: "Designer > Interface > Main toolbar"
+description: "Learn about the main toolbar in Substance 3D Designer to access common tools and commands for your workflow."
+helpx_description: Designer > Interface > Main toolbar
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - preview
+  - workspace
+  - automation
 ---
+
+
+
 
 # The main toolbar
 

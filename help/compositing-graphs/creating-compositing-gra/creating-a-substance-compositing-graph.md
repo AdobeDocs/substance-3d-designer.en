@@ -1,8 +1,21 @@
 ---
 title: "Creating a Substance graph"
-description: ""
-helpx_description: "Designer > Substance graphs > Creating a Substance graph"
+description: "Learn how to create Substance compositing graphs in Substance 3D Designer for building procedural texture workflows."
+helpx_description: Designer > Substance graphs > Creating a Substance graph
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - data-visualizations
+  - graphs
+  - data-and-analytics
 ---
+
+
+
 
 # Creating a Substance graph
 

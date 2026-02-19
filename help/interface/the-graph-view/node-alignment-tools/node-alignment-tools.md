@@ -1,7 +1,8 @@
 ---
 title: "Node alignment tools"
-description: ""
+description: "Use node alignment tools to organize and align nodes in the graph view for cleaner, more readable graphs."
 helpx_description: "Designer > Interface > The graph view > Node alignment tools"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 ---
 
 # Node alignment tools

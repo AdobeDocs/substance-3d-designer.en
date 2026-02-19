@@ -1,8 +1,22 @@
 ---
 title: "Curvature Sobel"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Sobel"
+description: "Use the Curvature Sobel node to detect curvature edges using Sobel operators for creating edge-based masks."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Sobel
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - gradients
+  - shapes
+  - reflections
 ---
+
+
+
 
 # Curvature Sobel
 

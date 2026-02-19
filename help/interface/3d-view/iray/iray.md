@@ -1,8 +1,21 @@
 ---
 title: "Iray"
-description: ""
-helpx_description: "Designer > Interface > 3D View > Iray"
+description: "Use Iray renderer in Substance 3D Designer 3D view for physically-based material preview and realistic lighting."
+helpx_description: Designer > Interface > 3D View > Iray
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/iray.html"
+helpx_creative_field:
+  - video
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - rendering
+  - 3d
+  - hdri
 ---
+
+
+
 
 # Iray
 

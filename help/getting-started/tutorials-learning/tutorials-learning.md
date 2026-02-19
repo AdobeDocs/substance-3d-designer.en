@@ -1,8 +1,21 @@
 ---
 title: "Tutorials  learning"
-description: ""
-helpx_description: "Designer > Getting started > Tutorials  learning"
+description: "Access tutorials and learning resources for Substance 3D Designer to master procedural material creation techniques."
+helpx_description: Designer > Getting started > Tutorials  learning
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/tutorials-learning.html"
+helpx_creative_field:
+  - painting-illustration
+  - 3d-immersive
+helpx_experience_level:
+  - beginner
+helpx_learn_topic:
+  - get-started
+  - product-design
+  - 3d
 ---
+
+
+
 
 # Tutorials  learning
 

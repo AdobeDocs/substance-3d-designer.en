@@ -1,7 +1,8 @@
 ---
 title: "Preview Paths"
-description: ""
+description: "Use the Preview Paths node to visualize path data in the 2D view for debugging and verification."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 ---
 
 # Preview Paths

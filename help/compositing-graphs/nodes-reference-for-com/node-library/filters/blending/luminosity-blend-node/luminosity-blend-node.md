@@ -1,8 +1,21 @@
 ---
 title: "Luminosity (Blend Node)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Luminosity (Blend Node)"
+description: "Use the Luminosity blend node to blend textures based on luminosity values for creating brightness-based composite effects."
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Luminosity (Blend Node)
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/luminosity-blend-node.html"
+helpx_creative_field:
+  - 3d-immersive
+  - photography
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - enhancing-color
+  - blending
+  - brightness
 ---
+
+
+
 
 # Luminosity (Blend Node)
 

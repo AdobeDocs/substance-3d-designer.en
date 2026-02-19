@@ -1,7 +1,8 @@
 ---
 title: "Scatter on Spline Grayscale"
-description: ""
+description: "Use the Scatter on Spline Grayscale node to distribute grayscale elements along spline paths for procedural patterns."
 helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 ---
 
 # Scatter on Spline Grayscale

@@ -1,8 +1,21 @@
 ---
 title: "Vector"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Vector"
+description: "Use vector and swizzle nodes in Substance 3D Designer function graphs to manipulate vector data and components."
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Vector
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/vector-and-swizzle-nodes.html"
+helpx_creative_field:
+  - graphic-design
+  - 3d-immersive
+helpx_experience_level:
+  - any
+helpx_learn_topic:
+  - nodes
+  - infographic
+  - booleans
 ---
+
+
+
 
 # Vector and Swizzle nodes
 
