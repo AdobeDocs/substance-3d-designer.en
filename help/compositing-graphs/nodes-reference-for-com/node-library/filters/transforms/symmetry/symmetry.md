@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Symmetry
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Performs a variety of symmetry operations on an input image. Can be used to make geometrical shapes symmetrical.
 
-This node is very similar to [Mirror](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md), but has extra controls for blending modes.
+This node is very similar to [Mirror](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md), but has extra controls for blending modes.
 
 ## Parameters
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Clone Patch
 
 <table>
@@ -45,9 +44,9 @@ Also important to understand is the fact that you can move the Target area with 
 
 >[!NOTE]
 >
-> If you want this for a full material (as is most often the case), see [Material Clone Patch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md).
+> If you want this for a full material (as is most often the case), see [Material Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md).
 > 
-> For those cases where you want to perform this operation on multiple inputs at the same time (without it being a material), see [Multi Clone Patch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
+> For those cases where you want to perform this operation on multiple inputs at the same time (without it being a material), see [Multi Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
 
 ## Parameters
 

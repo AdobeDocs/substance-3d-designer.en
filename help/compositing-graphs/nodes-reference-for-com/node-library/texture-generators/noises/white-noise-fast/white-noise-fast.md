@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # White Noise Fast
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-This is a faster version of [White Noise](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md), for when quality isn't your biggest concern and you want to save a bit on performance. In most cases, you should be fine with this fast version.
+This is a faster version of [White Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md), for when quality isn't your biggest concern and you want to save a bit on performance. In most cases, you should be fine with this fast version.
 
 ## Parameters
 

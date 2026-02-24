@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Curvature Smooth
 
 <table>
@@ -42,7 +41,7 @@ The concave and convex areas are also split into their own outputs, for easier s
 
 >[!TIP]
 >
-> Look at [Curvature](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md) for a sharper version, or[ Curvature Sobel](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) if you need more options.
+> Look at [Curvature](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md) for a sharper version, or[ Curvature Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) if you need more options.
 
 <table>
 <tr style="border: 0;">

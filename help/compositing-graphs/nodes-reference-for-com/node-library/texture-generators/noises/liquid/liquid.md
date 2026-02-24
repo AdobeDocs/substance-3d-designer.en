@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Liquid
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-This is a simple variant of [Gaussian Noise](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), which [warps](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) with itself to create a liquid-like effect.
+This is a simple variant of [Gaussian Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), which [warps](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) with itself to create a liquid-like effect.
 
 ## Parameters
 

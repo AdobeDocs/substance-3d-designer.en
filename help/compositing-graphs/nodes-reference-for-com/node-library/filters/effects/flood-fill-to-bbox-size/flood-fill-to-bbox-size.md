@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Flood Fill to BBox Size
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Generates a grayscale map from a [Flood Fill](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base, with values tied to each tile's individual size.
+Generates a grayscale map from a [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base, with values tied to each tile's individual size.
 
 Values are relative to the total canvas size (a full white tile would mean it stretches the entire canvas), so contrast is often low.
 

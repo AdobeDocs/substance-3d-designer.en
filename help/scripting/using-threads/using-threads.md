@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Using threads
 
 It is possible for plugins to <b>create threads</b> using Python's threading module *or* Qt for Python threading related classes.

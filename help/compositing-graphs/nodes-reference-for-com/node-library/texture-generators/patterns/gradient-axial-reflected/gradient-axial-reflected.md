@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Gradient Axial Reflected
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Similar to [Gradient Axial](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-axial/gradient-axial.md), creates a grayscale gradient between two custom defined points, where the gradients both starts and ends with black, and peaks to white in the centre of the transition. Keep in mind results don't always tile.
+Similar to [Gradient Axial](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-axial/gradient-axial.md), creates a grayscale gradient between two custom defined points, where the gradients both starts and ends with black, and peaks to white in the centre of the transition. Keep in mind results don't always tile.
 
 ## Parameters
 

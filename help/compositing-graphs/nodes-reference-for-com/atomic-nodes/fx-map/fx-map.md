@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # FX-Map
 
 <table>
@@ -33,7 +32,7 @@ It is one of the most powerful atomic nodes, as well as the most complex node av
 </tr>
 </table>
 
-Similar to the [Pixel processor](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), it is up to you to define and create the functions that determine the behavior and output of this node.
+Similar to the [Pixel processor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), it is up to you to define and create the functions that determine the behavior and output of this node.
 
 <table>
 <tr style="border: 0;">
@@ -57,17 +56,17 @@ Similar to the [Pixel processor](../../../../help/compositing-graphs/nodes-refer
 
 >[!TIP]
 >
-> Take a look a the [dedicated guide](../../../../help/function-graphs/fxmaps/fxmaps.md) to learn and understand more about the FX-Map process.
+> Take a look a the [dedicated guide](../../../../function-graphs/fxmaps/fxmaps.md) to learn and understand more about the FX-Map process.
 
 >[!IMPORTANT]
 >
-> It is recommended to be very familiar with all aspects of the software and have no problems creating [mathematical functions](../../../../help/function-graphs/function-graphs.md) for parameters before attempting to use the FX-Map node.
+> It is recommended to be very familiar with all aspects of the software and have no problems creating [mathematical functions](../../../../function-graphs/function-graphs.md) for parameters before attempting to use the FX-Map node.
 
 ## Examples
 
 ## Parameters
 
-Keep in mind that unlike other nodes, the majority of an FX-Map's behavior is not determined by the parameters, but rather [by editing the FX-Map functions](../../../../help/function-graphs/fxmaps/fxmaps.md) inside of it.
+Keep in mind that unlike other nodes, the majority of an FX-Map's behavior is not determined by the parameters, but rather [by editing the FX-Map functions](../../../../function-graphs/fxmaps/fxmaps.md) inside of it.
 
 |  |  |
 | --- | --- |
@@ -75,7 +74,7 @@ Keep in mind that unlike other nodes, the majority of an FX-Map's behavior is no
 | <b>Background</b> *Float/Float4* | Sets the background starting color onto which to composite results. |
 | <b>Render region</b> *Float4* | Lets you set the starting pixel range for each side of the FX-Map, resulting in a stretching effect. |
 | <b>Tiling region</b> *Float4* | Lets you offset the tiling distance of the FX-Map. |
-| <b>Cull outside</b> *Boolean* | Performs an optimization by [culling](../../../../help/glossary/glossary.md) patterns that fall outside of the normal range. |
+| <b>Cull outside</b> *Boolean* | Performs an optimization by [culling](../../../../glossary/glossary.md) patterns that fall outside of the normal range. |
 | <b>Roughness</b> *Float* | Functions as a depth and opacity multiplier. It applies a bias to the FX-map blending process. |
 | <b>Global opacity</b> *Float* | Sets the global opacity of the FX-map's output. |
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Bent Normal
 
 <table>
@@ -29,7 +28,7 @@ user-guide-title: ""
 
 ## Description
 
-Generates a Bent Normal Map based on a height map input. A Bent Normal map is a special version of [Normal](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) and [Ambient Occlusion (RTAO)](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md), generating a normal map with embedded ambient occlusion.  
+Generates a Bent Normal Map based on a height map input. A Bent Normal map is a special version of [Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) and [Ambient Occlusion (RTAO)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md), generating a normal map with embedded ambient occlusion.  
 This can be used in realtime engines to have Ambient Occlusion baked into the normalmap, for instance for more accurate occlusion reflections on metals.
 
 This node should not be used in combination with the CPU (SSE) engine due to computation time.

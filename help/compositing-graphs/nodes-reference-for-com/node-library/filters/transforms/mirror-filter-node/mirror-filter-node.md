@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Mirror (Filter Node)
 
 <table>

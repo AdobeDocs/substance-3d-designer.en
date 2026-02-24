@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Height Map Frequencies Mapper
 
 <table>

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Edge Speckle
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-This mask represents edges with a slight speckle added to break them up. Also see [Edge Dirt](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md).
+This mask represents edges with a slight speckle added to break them up. Also see [Edge Dirt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md).
 
 ## Parameters
 

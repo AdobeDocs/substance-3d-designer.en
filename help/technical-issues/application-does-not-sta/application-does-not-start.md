@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Application does not start
 
 This page lists common causes for Substance 3D Designer failing to start correctly, and offers troubleshooting steps for each, grouped by operating system:
@@ -57,7 +56,7 @@ You may try to replace the library with an *updated version*, such as the one di
 >
 > Unsupported configurations
 > 
-> Windows 10 is not supported. You can learn more on the [System requirements](../../help/getting-started/system-requirements/system-requirements.md) page.
+> Windows 10 is not supported. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
 > 
 > Versions of Designer that are out of their maintenance period are not supported. These versions may not run reliably anymore if significant changes are done to the system, such as OS upgrades.
 
@@ -78,7 +77,7 @@ We *strongly* recommend upgrading to Windows 10, as Microsoft itself does not su
 >
 > Unsupported configurations
 > 
-> Please note Windows 7, Windows 8 and Windows 8.1 are *not officially supported*. You can learn more on the [System requirements](../../help/getting-started/system-requirements/system-requirements.md) page.
+> Please note Windows 7, Windows 8 and Windows 8.1 are *not officially supported*. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
 
 ## Linux
 
@@ -214,4 +213,4 @@ Be mindful that `progl` may be unstable. This should therefore be attempted as a
 
 >[!WARNING]
 >
-> Please note Arch-based distributions of Linux are *not supported*. You can learn more on the [System requirements](../../help/getting-started/system-requirements/system-requirements.md) page.
+> Please note Arch-based distributions of Linux are *not supported*. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.

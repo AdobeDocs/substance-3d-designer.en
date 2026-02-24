@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Lighting Cancel Low Frequencies
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Similar to Highpass, but without desaturating the end result.
 
-Also see [Luminance Highpass](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) for a more advanced version.
+Also see [Luminance Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) for a more advanced version.
 
 ## Parameters
 

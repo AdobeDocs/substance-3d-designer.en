@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Clone (Filter Node)
 
 <table>

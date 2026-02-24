@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Nadir Patch
 
 <table>
@@ -33,9 +32,9 @@ user-guide-title: ""
 
 ## Description
 
-This node provides functionality to patch over the central ground point (nadir) of a spherically mapped image. It can be used to hide or "clone out" an ugly nadir, or visible camera or tripod. It works like a [Clone Patch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md), but with adjustments for spherically mapped images. The user selects a point elsewhere in the image, that is the cloned and blended in at the nadir. No other external inputs are required other than a single HDRI to process, but an external mask can be used as alpha for the patch effect.
+This node provides functionality to patch over the central ground point (nadir) of a spherically mapped image. It can be used to hide or "clone out" an ugly nadir, or visible camera or tripod. It works like a [Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md), but with adjustments for spherically mapped images. The user selects a point elsewhere in the image, that is the cloned and blended in at the nadir. No other external inputs are required other than a single HDRI to process, but an external mask can be used as alpha for the patch effect.
 
-effect can be quickly checked and validated with [Nadir Extract](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md).
+effect can be quickly checked and validated with [Nadir Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md).
 
 ## Inputs
 

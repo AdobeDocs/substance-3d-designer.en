@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cells 4
 
 <table>
@@ -37,7 +36,7 @@ A variation of the <b>Cells</b> walled noises.
   
 Each cell is assigned a flat color, which may be random or sampled from an input image.
 
-See also: [Cells 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md), [Cells 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md), [Cells 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md)
+See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md), [Cells 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md), [Cells 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md)
 
 </td>
 </tr>

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Using spot colors
 
 The<b> SDSpotColorLibrary </b>class, accessible from the <b>SDApplication</b> class, contains information about the spot color libraries included in Designer.

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Histogram Select
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Similar to [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), this effect sets a grayscale value position, with a range around that it fades from. Contrast can be adjusted to make the range sharper.
+Similar to [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), this effect sets a grayscale value position, with a range around that it fades from. Contrast can be adjusted to make the range sharper.
 
 [Click here to watch a Substance Academy video on Histogram Select.](https://youtu.be/p9wcmJBFyGA?t=535)
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Height Extrude
 
 <table>
@@ -33,9 +32,9 @@ user-guide-title: ""
 
 ## Description
 
-Height Extrude renders 3D Z-Depth from an input Height map. Just like [Shape Extrude](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md) and [Cube 3D](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) it lets you spin a camera around in the 2D View. Its main goal is to serve as a Generator for creating 3D-rotated shapes from a flat heightmap. These shapes can then be used with [Shape Splatter](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md).
+Height Extrude renders 3D Z-Depth from an input Height map. Just like [Shape Extrude](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md) and [Cube 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) it lets you spin a camera around in the 2D View. Its main goal is to serve as a Generator for creating 3D-rotated shapes from a flat heightmap. These shapes can then be used with [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md).
 
-The main diffence with [Shape Extrude](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md) is that the input map does not have to be a binary "alpha" type of map, but a full-range grayscale map. This means you have more control over the extrusion height (Organic, complex shapes), but no control over anything like beveling profiles (Hard-Surface, simpler shapes).
+The main diffence with [Shape Extrude](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md) is that the input map does not have to be a binary "alpha" type of map, but a full-range grayscale map. This means you have more control over the extrusion height (Organic, complex shapes), but no control over anything like beveling profiles (Hard-Surface, simpler shapes).
 
 ## Parameters
 

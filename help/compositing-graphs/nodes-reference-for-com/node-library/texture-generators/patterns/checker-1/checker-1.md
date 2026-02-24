@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Checker 1
 
 <table>

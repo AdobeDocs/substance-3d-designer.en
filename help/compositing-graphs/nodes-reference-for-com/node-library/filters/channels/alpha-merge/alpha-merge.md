@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Alpha Merge
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Adds an alpha channel to an input without alpha channel. Not to be confused with [RGBA Merge](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), this node is much simpler and only adds alpha!
+Adds an alpha channel to an input without alpha channel. Not to be confused with [RGBA Merge](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), this node is much simpler and only adds alpha!
 
 Simple but handy node for when you just want to mask something out, or when your result requires an alpha.
 

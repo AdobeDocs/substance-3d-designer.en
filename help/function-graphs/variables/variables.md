@@ -13,12 +13,11 @@ user-guide-title: ""
 ---
 
 
-
 # Variables
 
 >[!NOTE]
 >
-> For information about the creation and usage of variables nodes, please refer the *[Variables Nodes section](../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)*.
+> For information about the creation and usage of variables nodes, please refer the *[Variables Nodes section](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)*.
 
 ## Definition
 

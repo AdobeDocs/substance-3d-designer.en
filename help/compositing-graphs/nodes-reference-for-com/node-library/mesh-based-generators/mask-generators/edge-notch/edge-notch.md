@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Edge Notch
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-This mask represents a simple mask for raised edges, broken up by a high-frequency noise. See [Edge Dirt](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md) or [Edge Damages](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md) for more options.
+This mask represents a simple mask for raised edges, broken up by a high-frequency noise. See [Edge Dirt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md) or [Edge Damages](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md) for more options.
 
 ## Inputs
 

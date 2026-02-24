@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Gradient 2 Points
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Creates a gradient of 2 colors between two user-selected points. Result is adjusted for spherical projection. Similar to [Gradient Linear (HDRI)](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/gradient-linear-hdri/gradient-linear-hdri.md), but with two points instead of one.
+Creates a gradient of 2 colors between two user-selected points. Result is adjusted for spherical projection. Similar to [Gradient Linear (HDRI)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/gradient-linear-hdri/gradient-linear-hdri.md), but with two points instead of one.
 
 ## Parameters
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Flood Fill to Grayscale/Color
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-Uses Flood Fill data to generate grayscale or color value swatches. Unlike [Flood Fill to Random Grayscale](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md), these two nodes allow more control to set the exact variation and tones, with an additional extra input map to determine the base value to randomize on a per-cell basis.
+Uses Flood Fill data to generate grayscale or color value swatches. Unlike [Flood Fill to Random Grayscale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md), these two nodes allow more control to set the exact variation and tones, with an additional extra input map to determine the base value to randomize on a per-cell basis.
 
 It's a powerfull system to give every cell a unique value or color, yet still retain control and base it off of a pre-determined input.
 

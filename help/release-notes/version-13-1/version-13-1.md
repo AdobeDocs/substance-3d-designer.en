@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Version 13.1
 
 <b>Substance 3D Designer 13.1</b> adds many quality-of-life improvements to the node graph, mainly regarding frames, to enhance the material creation experience. There is also the addition of AxF export which enables an interoperability workflow for users working with the AxF format. 
@@ -46,13 +45,13 @@ Thanks to HTML code, you can now have formatted text in a frame's description. T
 
 ### <b>...And much more!</b>
 
-A lot of things have been rethought, like belonging rules to be more tolerant, interaction zones to easily resize frames, snapping rules to not misaligned your nodes on the grid, and the visual aspect to bring a bit of freshness. Feel free to visit the frames' [documentation](../../help/interface/the-graph-view/graph-items/frame/frame.md) to learn more.
+A lot of things have been rethought, like belonging rules to be more tolerant, interaction zones to easily resize frames, snapping rules to not misaligned your nodes on the grid, and the visual aspect to bring a bit of freshness. Feel free to visit the frames' [documentation](../../interface/the-graph-view/graph-items/frame/frame.md) to learn more.
 
 ## Quality of life improvements
 
 * <b>Node menu improvements: </b>in order to save time while searching for the node you need, we improved a bit the node menu. Search is now more forgiving and will give you a result even if there is no perfect match. Moreover, you can now use the up arrow to directly access to the last element in the list.
 * <b>Node placement: </b>if you like to have a perfect layout for your graph, these two small changes will please you! When you copy/paste nodes from one graph to one other, pasted nodes are now aligned to the main grid. And when you add a node on a long link, this one will now be placed at the middle of the visible part of the link, in order to make it visible in every situation.
-* <b>2D View options: </b>if you are an intensive user of the [2D view](../../help/interface/2d-view/2d-view.md), you will save time as options like 'Show checkerboard', 'Keep view size', 'Use physical size' and 'Display tiling' are now saved, so you don't have to set them again when you create a new 2D view or even when you restart Designer.
+* <b>2D View options: </b>if you are an intensive user of the [2D view](../../interface/2d-view/2d-view.md), you will save time as options like 'Show checkerboard', 'Keep view size', 'Use physical size' and 'Display tiling' are now saved, so you don't have to set them again when you create a new 2D view or even when you restart Designer.
 
 ## AxF export
 
@@ -65,9 +64,9 @@ A lot of things have been rethought, like belonging rules to be more tolerant, i
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-AxF is a format from [X-Rite](https://www.xrite.com/axf). It provides a way to capture, store, edit, and communicate complex material characteristics using numerical data throughout the digital design workflow. In previous versions of Designer, you were able to [import AxF files](../../help/resources/axf-appearance-exchange/axf-appearance-exchange-format.md) and then improve the tiling or add procedural effects, but then, you were constrained to export changes as a new .sbsar file.
+AxF is a format from [X-Rite](https://www.xrite.com/axf). It provides a way to capture, store, edit, and communicate complex material characteristics using numerical data throughout the digital design workflow. In previous versions of Designer, you were able to [import AxF files](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) and then improve the tiling or add procedural effects, but then, you were constrained to export changes as a new .sbsar file.
 
-In this new release, we introduce the possibility to edit AxF materials in place, and then [export your changes](../../help/resources/axf-appearance-exchange/axf-appearance-exchange-format.md) as a new layer in the imported AxF file.
+In this new release, we introduce the possibility to edit AxF materials in place, and then [export your changes](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) as a new layer in the imported AxF file.
 
 </td>
 </tr>

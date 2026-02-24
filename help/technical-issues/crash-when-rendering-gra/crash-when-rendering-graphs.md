@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Crash when rendering graphs
 
 This page lists crashes occurring during the graph rendering process in Substance 3D Designer, and offers troubleshooting steps for each.

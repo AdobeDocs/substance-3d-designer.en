@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Spline Flow Mapper
 
 <table>
@@ -61,7 +60,7 @@ This lets you use splines to control the direction, trajectory, intensity and th
 
 <b>Attenuation Profile Curve</b> *Grayscale*<span id="_Hlk135812146"></span>The image describing a curve using the values of its first row of pixels.  
 When the Attenuation Profile parameter is set to Input Profile Curve, this input is used to control the gradient ramp for the attenuation of the flow vector data drawn along the spline.  
-You may use a [Curve](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) node to author the curve.
+You may use a [Curve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) node to author the curve.
 
 ## Output connectors
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Grayscale Conversion Advanced
 
 <table>

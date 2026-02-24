@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Accessing graphs and selections
 
 The <b>SDApplication</b> class contains some helpful methods that let you access the *currently active* graph, and the *current selection* within it.
@@ -54,4 +53,4 @@ for node in selection:
 
 A graph displayed in a *specific* Graph view can be accessed using a <b>graphViewID</b>.
 
-This method is useful when creating custom graph view toolbars. The <b>Creating toolbars in Graph views</b> sample in the [Creating user interface elements](../../help/scripting/creating-user-interface/creating-user-interface-elements.md) chapter provides further details.
+This method is useful when creating custom graph view toolbars. The <b>Creating toolbars in Graph views</b> sample in the [Creating user interface elements](../../scripting/creating-user-interface/creating-user-interface-elements.md) chapter provides further details.

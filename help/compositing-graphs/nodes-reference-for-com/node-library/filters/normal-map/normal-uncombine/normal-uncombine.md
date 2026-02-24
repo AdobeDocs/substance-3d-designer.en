@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Normal Uncombine
 
 <table>
@@ -67,7 +66,7 @@ Removes from a normal map the surface details described by a height map.
 |  |  |
 | --- | --- |
 | <b>Uncombined normal</b> *Color* | The normal map where the surface details described by the input height map were removed. |
-| <b>Guessed intensity</b> *Float* | An estimate of the intensity which should be set to a [Normal](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) node connected to the input height map, to match the intensity of the input normal map. |
+| <b>Guessed intensity</b> *Float* | An estimate of the intensity which should be set to a [Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) node connected to the input height map, to match the intensity of the input normal map. |
 
 ## Parameters
 

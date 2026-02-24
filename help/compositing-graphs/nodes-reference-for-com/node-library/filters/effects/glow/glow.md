@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Glow
 
 <table>
@@ -37,7 +36,7 @@ user-guide-title: ""
 
 Performs an "Outer Glow"-type of effect, as seen in other popular image editing software. Essentially adds a fading gradient outline around the input.
 
-Keep in mind that this is not intended to work for images with Alpha Channels, as you might expect. Even the color version only expects binary, black and white masks as input; it only allows for using a colored glow. If you're after a version that works on images with transparency, see [Shape Glow](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-glow/shape-glow.md).
+Keep in mind that this is not intended to work for images with Alpha Channels, as you might expect. Even the color version only expects binary, black and white masks as input; it only allows for using a colored glow. If you're after a version that works on images with transparency, see [Shape Glow](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-glow/shape-glow.md).
 
 Important: make sure to use the appropriate version for your input! Use "Glow" for Color inputs, or "Glow Grayscale" for Grayscale inputs.
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Replace Color Range
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Replaces Source Color by Target Color, with additional controls. Can for example be used to re-color parts of a Material ID map (bake).
 
-For a more advanced version, see [Color Match.](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
+For a more advanced version, see [Color Match.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
 
 ## Parameters
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # BnW spots 2
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 A variation of the rough <b>Black and white (BnW) spots</b> noises.
 
-See also: [BnW spots 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-1/bnw-spots-1.md), [BnW spots 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-3/bnw-spots-3.md)
+See also: [BnW spots 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-1/bnw-spots-1.md), [BnW spots 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-3/bnw-spots-3.md)
 
 </td>
 </tr>

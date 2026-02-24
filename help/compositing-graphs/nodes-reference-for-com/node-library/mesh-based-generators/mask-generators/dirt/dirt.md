@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Dirt
 
 <table>
@@ -62,7 +61,7 @@ This mask represent dirts in occluded and sunken edges and corners, based on bak
 * **Edges Masking**: *0.0 - 1.0*Amount of dirt to remove from raised edges (based on the curvature map).
 * **Use Custom Grunge**: *False/True*Enables use of custom grunge map input instead of built-in Grunge.
 * **Grunge Scale**: *1 - 16*Sets tiling scale of Grunge detail.
-* **Use Triplanar**: *False/True*Use [Triplanar projection](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) for Grunge mapping, removes seams.
+* **Use Triplanar**: *False/True*Use [Triplanar projection](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) for Grunge mapping, removes seams.
 * **Triplanar Blending Contrast**: *0.001 - 1.0*Sets contrast of the Triplanar projection.
 
 ## Example Images

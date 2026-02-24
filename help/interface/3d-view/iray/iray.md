@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Iray
 
 This pages presents the Iray renderer available in the 3D view panel of [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), which offers interactive path tracing for photorealistic rendering with CPU and/or GPU acceleration (Nvidia GPUs only).
@@ -41,7 +40,7 @@ This pages presents the Iray renderer available in the 3D view panel of [Substan
 
 As the 3D View uses Iray's *progressive renderer*, an image is produced as soon as at least one sample has been performed on each pixel. The image is *automatically updated* as sampling iterations are performed, resulting in an initial rough image becoming *cleaner on each iteration*.
 
-The renderer is available in the [3D view](../../../help/interface/3d-view/3d-view.md) panel: open the <b>Renderer</b> menu and select the <b>Iray</b> option to switch the renderer used in that 3D view panel to Iray.  
+The renderer is available in the [3D view](../../../interface/3d-view/3d-view.md) panel: open the <b>Renderer</b> menu and select the <b>Iray</b> option to switch the renderer used in that 3D view panel to Iray.  
 Switching to the Iray renderer *changes the available options* in some of the 3D view menus. These changes are explained in the <b>3D view</b> section below.
 
 By default, progressive rendering starts as soon as the Iray renderer is selected. The rendering process will run until *one* of these conditions is met:
@@ -126,7 +125,7 @@ Mesh display component
 Since Iray relies on the [MDL shading model](https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/) developed by NVIDIA, available materials for scene materials are replaced with the MDL library loaded by Designer. This library is built using the following sources:
 
 * The MDL files included in Designer's installation
-* The MDL files found in the [directories listed by the user](../../../help/interface/preferences-window/project-settings/project-settings.md) in the loaded [Project files](../../../help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)
+* The MDL files found in the [directories listed by the user](../../../interface/preferences-window/project-settings/project-settings.md) in the loaded [Project files](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)
 * The [NVIDIA vMaterials](https://developer.nvidia.com/vmaterials) library if it is installed
 
 >[!NOTE]
@@ -139,7 +138,7 @@ Since Iray relies on the [MDL shading model](https://www.nvidia.com/en-us/design
 
 The cumulative list of loaded MDL materials is availabe in the <b>Materials</b> menu, under any of the listed materials' submenu as shown in the image on the right.
 
-Additionally, if an [MDL graph](../../../help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) is loaded in Designer, it can be applied to any material in the Scene. At that point, it is added to the list of available MDL materials.
+Additionally, if an [MDL graph](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) is loaded in Designer, it can be applied to any material in the Scene. At that point, it is added to the list of available MDL materials.
 
 Other notable options in this menu are:
 
@@ -305,7 +304,7 @@ Progressive rendering
 * <b>Min samples</b>: The minimum number of samples per pixel to compute before considering criteria to stop progressive rendering
 * <b>Max samples</b>: If this number of samples per pixel has been rendered, then stop progressive rendering automatically
 * <b>Max time (seconds)</b>: Time in seconds after which progressive rendering should terminate automatically
-* <b>Caustic sampler enabled</b>: Augment the default sampler with a dedicated caustic sampler. Caustics are a result of light passing through a non-opaque object, thus is required only if an [MDL](../../../help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) material supporting translucency is applied on any object in the scene
+* <b>Caustic sampler enabled</b>: Augment the default sampler with a dedicated caustic sampler. Caustics are a result of light passing through a non-opaque object, thus is required only if an [MDL](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) material supporting translucency is applied on any object in the scene
 * <b>Firefly filter enabled</b>: enable the firefly filter, which uses a predefined algorithm to remove fireflies in the computed image as rendering progresses. Fireflies are visual artifacts where *isolated pixels* in an image which are *noticeably brighter* than their neighbours, and are a result of unsufficient ray samples to accurately determine the distribution of light
 * Post denoiser  
   The Iray renderer uses the [NVIDIA Optix AI-Accelerated denoiser](https://developer.nvidia.com/optix-denoiser) algorithm for iterative high-quality denoising of the image as it is being rendered.
@@ -396,7 +395,7 @@ The Iray renderer offers hardware acceleration on NVIDIA GPUs exclusively, which
 * Significant increase of rendering speed
 * [Optix AI-Accelerated denoising](https://developer.nvidia.com/optix-denoiser) (see "Post-denoiser" in the <b>Renderer</b> section of this page)
 
-You may select the hardware which should be used by Iray for rendering in the <b>3D View</b> section of the [Preferences](../../../help/interface/preferences-window/preferences-window.md) window, as shown in the image on the right.
+You may select the hardware which should be used by Iray for rendering in the <b>3D View</b> section of the [Preferences](../../../interface/preferences-window/preferences-window.md) window, as shown in the image on the right.
 
 When a supported GPU is detected, it is listed in this section, is *automatically selected* by default and the CPU is unselected. Any manual change overrides this automatic behaviour so your custom changes are saved for future sessions.
 

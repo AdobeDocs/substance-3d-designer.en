@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Shortcuts
 
 On this page you can find an overview of all shortcuts for Substance 3D Designer.
@@ -42,7 +41,7 @@ Global shortcuts
 
 | Action | Windows | macOS |
 | --- | --- | --- |
-| [New Substance graph](../../help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
+| [New Substance graph](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | Load package | Ctrl + O | ⌘ + O |
 | Close selected package(s) | Ctrl + F4 | ⌘ + W |
 | Save package | Ctrl + S | ⌘ + S |
@@ -66,13 +65,13 @@ Graph View viewport shortcuts
 | Paste | Ctrl + V | ⌘ + V |
 | Contextual menu | RMB | RMB |
 | Node menu | Spacebar | Spacebar |
-| Cycle [navigation pins](../../help/interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+| Cycle [navigation pins](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
 <b>Link creation modes</b>
 
 >[!NOTE]
 >
-> Learn about link creation modes in [this page](../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md) of this documentation.
+> Learn about link creation modes in [this page](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) of this documentation.
 
 Link creation modes shortcuts
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Adjustment Blend
 
 <table>

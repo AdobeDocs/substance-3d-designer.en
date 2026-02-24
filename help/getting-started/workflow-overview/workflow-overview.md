@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Workflow overview
 
 Substance 3D Designer is a Node-Based editor. That means almost every type of project or resource will involve placing nodes (building blocks) and connecting them to create a chain of operations (a Graph).This page explains the concept of Node-Based workflows, and provides a summary of the 3 main types of Graph you can author in Designer.
@@ -42,13 +41,13 @@ The major advantage is that your workflow becomes <b>non-linear</b>. Unlike acti
 
 Instancing Graphs is a key process in Designer. It allows you to build your own nodes by taking any size or type of Graph and packaging it up as new Node building block. These types of Nodes are called "Graph Instances" This allows you to be much more efficient, save time and share work with others. Have you developed a great technique for edge wear for example? Create a Graph Instance out of it and re-use it yourself, share it with the community, or your team!
 
-For more information about Graph Instances in [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md), there is a [dedicated section](../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) about them in the documentation.
+For more information about Graph Instances in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), there is a [dedicated section](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) about them in the documentation.
 
 ![Graph parameters simplified](parameters-5.png "Graph parameters simplified")
 
 ## Custom parameters
 
-Any node in your chain of operations will have some form of control: buttons, sliders, settings for you to tweak, influencing the final result. If you create a Sub-Graph, or want to export your Substance File to another application, you can build your own "control panel" for your files, allowing anybody using the Graph to tweak and modify it with a fully unique control panel, exposing endless possiblities. [Learn about the general concept of custom parameters here](../../help/compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md), or go more in depth and [start exposing parameters](../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+Any node in your chain of operations will have some form of control: buttons, sliders, settings for you to tweak, influencing the final result. If you create a Sub-Graph, or want to export your Substance File to another application, you can build your own "control panel" for your files, allowing anybody using the Graph to tweak and modify it with a fully unique control panel, exposing endless possiblities. [Learn about the general concept of custom parameters here](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md), or go more in depth and [start exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 ## Graph types
 
@@ -69,7 +68,7 @@ Below you can find a summary of the three types of Graph you can edit in Substan
 
 The results can be in the form of a simple black-and-white pattern, a filter that only runs on other images and doesn't generate content by itself, or even a full-fledged procedural material with multiple channels.
 
-Substance graphs are[ the most widely supported type of graph](../../help/getting-started/overview/overview.md), and can be exported and used in a plethora of different workflows.
+Substance graphs are[ the most widely supported type of graph](../../getting-started/overview/overview.md), and can be exported and used in a plethora of different workflows.
 
 </td>
 </tr>
@@ -84,7 +83,7 @@ Below you can find some typical examples of common usecases.
 
 
 
-A simple mask shape for a decal is created by generating[ a piece of text](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) and a [disc shape](../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extracting the edge](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) from the disc and the finally [blending them together](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) before setting them as final [output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+A simple mask shape for a decal is created by generating[ a piece of text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) and a [disc shape](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extracting the edge](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) from the disc and the finally [blending them together](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) before setting them as final [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 The Text with the number, or the thickness of the edge can be exposed externally to make this a more dynamic graph.
 
@@ -95,7 +94,7 @@ The Text with the number, or the thickness of the edge can be exposed externally
 
 
 
-A filter graph takes a normal map as [input ](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(with a custom preview), [converts it to curvature](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) and then [adjusts the contrast](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) to create a mask of convex edges as final [output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+A filter graph takes a normal map as [input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(with a custom preview), [converts it to curvature](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) and then [adjusts the contrast](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) to create a mask of convex edges as final [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 The contrast values set in the Histogram can be exposed, making this a simple but useful filter in combination with the dynamic Input slot.
 
@@ -106,9 +105,9 @@ The contrast values set in the Histogram can be exposed, making this a simple bu
 
 
 
-A more complicated graph[ blends two Base materials](../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). One[ Base material](../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) is kept simple, the other uses some custom inputs to add interest. A mask is used to determine which of the two materials appear where before being set as final [outputs](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+A more complicated graph[ blends two Base materials](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). One[ Base material](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) is kept simple, the other uses some custom inputs to add interest. A mask is used to determine which of the two materials appear where before being set as final [outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
-This example makes use of [Link Creation Modes](../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md) to simplify using multiple links.
+This example makes use of [Link Creation Modes](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) to simplify using multiple links.
 
 +++
 
@@ -123,9 +122,9 @@ This example makes use of [Link Creation Modes](../../help/interface/the-graph-v
 
 ### Substance function graphs
 
-Functions <b>process single values</b> (integers, floats, vectors) instead of image data (whole sets of pixels). Functions are also Graphs with node networks, but the [Nodes used ](../../help/function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)and the interface is different from [regular Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md). The workflow is completely based on <b>mathematical operations</b> and does not show any image preview thumbnails, making it a <b>much more advanced way to work</b> with Substance 3D Designer.
+Functions <b>process single values</b> (integers, floats, vectors) instead of image data (whole sets of pixels). Functions are also Graphs with node networks, but the [Nodes used ](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)and the interface is different from [regular Substance graphs](../../compositing-graphs/substance-compositing-graphs.md). The workflow is completely based on <b>mathematical operations</b> and does not show any image preview thumbnails, making it a <b>much more advanced way to work</b> with Substance 3D Designer.
 
-Functions can be used in many different contexts, the main ones being to modify the behaviour of [an exposed Parameter](../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), to author the behaviour of [Pixel Processors](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) or [FX-Maps](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) and to to use [Values in a Graph.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
+Functions can be used in many different contexts, the main ones being to modify the behaviour of [an exposed Parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), to author the behaviour of [Pixel Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) or [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) and to to use [Values in a Graph.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
 
 </td>
 </tr>
@@ -140,7 +139,7 @@ Below are some examples from common use cases for Substance function graphs.
 
 
 
-A simple function in the context of an exposed parameter. It gets an input float value called "Intensity" that is determined to go from 0 to 1 (a range easy to understand) and remaps it to a set range of 0.1 - 0.8. That means if the user sets Intensity ot 0, internally 0.1 will be used, if the Ui is set to 1, 0.8 wil be used, and any value in between will be interpolated linearly. This type of function is something commonly used when [exposing parameters](../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), but using custom functions.
+A simple function in the context of an exposed parameter. It gets an input float value called "Intensity" that is determined to go from 0 to 1 (a range easy to understand) and remaps it to a set range of 0.1 - 0.8. That means if the user sets Intensity ot 0, internally 0.1 will be used, if the Ui is set to 1, 0.8 wil be used, and any value in between will be interpolated linearly. This type of function is something commonly used when [exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), but using custom functions.
 
 This function could also be written as *lerp(0.1, 0.8, Intensity)* in a pseudocode similar to HLSL or GLSL.
 
@@ -151,7 +150,7 @@ This function could also be written as *lerp(0.1, 0.8, Intensity)* in a pseudoco
 
 
 
-This advanced Function shows the inner workings of a [Pixel Processor](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) meant for adjusting the Hue of a color map input based on the intensity of a second grayscale mask input.
+This advanced Function shows the inner workings of a [Pixel Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) meant for adjusting the Hue of a color map input based on the intensity of a second grayscale mask input.
 
 It samples both inputs with the system "$pos" variable, then strips the Alpha, converts the color value to HSL and modifies the Hue component by multiplying it with the sampled grayscale value. Afterwards it re-assembles the vector, converts the HSL back to RGB and adds the Alpha back in for the final output.
 

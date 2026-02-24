@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3D Texture Volume Render
 
 <table>
@@ -38,7 +37,7 @@ The volume is represented within the bounds of a *unit cube*. The lighting is co
 >[!NOTE]
 >
 > The signed distance field is expected to be a **4096x4096** texture describing the shape with a **16x16** grid of 256 slices.  
-> You may use the [3D Texture SDF](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the signed distance field for a 3D texture of 256 slices.
+> You may use the [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the signed distance field for a 3D texture of 256 slices.
 
 </td>
 </tr>
@@ -50,10 +49,10 @@ The volume is represented within the bounds of a *unit cube*. The lighting is co
 
 * **3D Signed Distance Field** *Grayscale*  
   The 4096x4096 image representing the 256 *slices* of a shape's *signed distance field*, arranged in a 16x16 grid.  
-  You may use the [3D Texture SDF](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the signed distance field for a 3D texture of 256 slices.
+  You may use the [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the signed distance field for a 3D texture of 256 slices.
 * **Density** *Grayscale*  
   The 4096x4096 image representing the 256 *slices* of a shape's *density*, arranged in a 16x16 grid. Density is mapped using grayscale values from 0 (entirely transparent) to 1 (entirely opaque).  
-  You may use [3D Volume Mask](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) or 3D noise nodes ([3D Perlin Noise](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), [3D Voronoi](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md), [3D Ridged Noise Fractal](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md), etc.), combined with a [3D Texture Position](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md) node as position input, to generate a volume mask as a 3D texture of 256 slices.
+  You may use [3D Volume Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) or 3D noise nodes ([3D Perlin Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), [3D Voronoi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md), [3D Ridged Noise Fractal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md), etc.), combined with a [3D Texture Position](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md) node as position input, to generate a volume mask as a 3D texture of 256 slices.
 
 ### Parameters
 

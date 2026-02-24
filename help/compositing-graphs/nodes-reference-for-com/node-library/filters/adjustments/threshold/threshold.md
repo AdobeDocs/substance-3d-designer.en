@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Threshold
 
 <table>
@@ -34,7 +33,7 @@ user-guide-title: ""
 ## Description
 
 Returns white if the *comparison criteria* set in the **Mode** parameter is met for the input pixel value relatively to the **Threshold** value.  
-Similar to [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), but with contrast always at maximum level. Serves as a more precise and faster way to obtain similar results to Histogram Scan.
+Similar to [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), but with contrast always at maximum level. Serves as a more precise and faster way to obtain similar results to Histogram Scan.
 
 ### Parameters
 

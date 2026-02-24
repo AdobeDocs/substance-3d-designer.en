@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Normal Sobel
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Converts a Heightmap input to a Normalmap output. A slightly more advanced version of the [Normal Atomic Node](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md), this node uses Sobel sampling rather than the standard sampling method.
+Converts a Heightmap input to a Normalmap output. A slightly more advanced version of the [Normal Atomic Node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md), this node uses Sobel sampling rather than the standard sampling method.
 
 ## Parameters
 

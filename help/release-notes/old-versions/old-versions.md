@@ -13,11 +13,10 @@ user-guide-title: ""
 ---
 
 
-
 # Old Versions
 
-* [Version 2020.2 (10.2)](../../help/release-notes/old-versions/version-2020-2-10-2/version-2020-2-10-2.md)
-* [Version 2020.1 (10.1)](../../help/release-notes/old-versions/version-2020-1-10-1/version-2020-1-10-1.md)
-* [Version 2019.3 (9.3)](../../help/release-notes/old-versions/version-2019-3-9-3/version-2019-3-9-3.md)
-* [Version 2019.2 (9.2)](../../help/release-notes/old-versions/version-2019-2-9-2/version-2019-2-9-2.md)
-* [Version 2019.1 (9.1)](../../help/release-notes/old-versions/version-2019-1-9-1/version-2019-1-9-1.md)
+* [Version 2020.2 (10.2)](../../release-notes/old-versions/version-2020-2-10-2/version-2020-2-10-2.md)
+* [Version 2020.1 (10.1)](../../release-notes/old-versions/version-2020-1-10-1/version-2020-1-10-1.md)
+* [Version 2019.3 (9.3)](../../release-notes/old-versions/version-2019-3-9-3/version-2019-3-9-3.md)
+* [Version 2019.2 (9.2)](../../release-notes/old-versions/version-2019-2-9-2/version-2019-2-9-2.md)
+* [Version 2019.1 (9.1)](../../release-notes/old-versions/version-2019-1-9-1/version-2019-1-9-1.md)

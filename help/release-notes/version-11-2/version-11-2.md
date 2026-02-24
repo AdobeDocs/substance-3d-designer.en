@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Version 11.2
 
 **Substance 3D Designer 11.2** has changed name slightly and is now connected to Adobe Creative Cloud. It brings the very first release of Substance Model Graphs, Send To functionality, a number of Raytrace-based nodes and some UI changes.

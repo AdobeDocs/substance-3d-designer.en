@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cracks Weathering
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 This is a full-material effect that works on multiple channels at once. It adds a random crack pattern, with control over spread and depth.
 
-Make sure to properly understand the [Link Creation Modes](../../../../../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md) when working with full materials.
+Make sure to properly understand the [Link Creation Modes](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) when working with full materials.
 
 ## Parameters
 

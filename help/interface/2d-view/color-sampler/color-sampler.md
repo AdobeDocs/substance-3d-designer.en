@@ -13,12 +13,11 @@ user-guide-title: ""
 ---
 
 
-
 # Color sampler tool
 
 ![Color sampler tool](color-sampler-demo.png "Color sampler tool"){zoomable="yes"}
 
-The Color Sampler tool lets you <b>track the value of a specific pixel</b> in the [2D View](../../../help/interface/2d-view/2d-view.md) as you tweak parameters or switch nodes.
+The Color Sampler tool lets you <b>track the value of a specific pixel</b> in the [2D View](../../../interface/2d-view/2d-view.md) as you tweak parameters or switch nodes.
 
 It places a pin in the viewport and samples the color and position of the pixel at that location.
 
@@ -78,7 +77,7 @@ The information is grouped into three types and two formats.
 </tr>
 </table>
 
-The value depends on the bitdepth used by the image. In a Substance graph, the bitdepth is controlled by the <b>Output Format</b> [base parameter](../../../help/compositing-graphs/graph-parameters/graph-parameters.md).
+The value depends on the bitdepth used by the image. In a Substance graph, the bitdepth is controlled by the <b>Output Format</b> [base parameter](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
 The available bitdepths are:
 

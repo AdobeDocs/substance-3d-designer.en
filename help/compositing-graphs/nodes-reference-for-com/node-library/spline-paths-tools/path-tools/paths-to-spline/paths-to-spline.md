@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Paths to Spline
 
 <table>
@@ -29,7 +28,7 @@ user-guide-title: ""
 
 ## Description
 
-Converts a paths into splines which can be visualized using a [Spline Render](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md) node and processed using [Spline nodes](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md).
+Converts a paths into splines which can be visualized using a [Spline Render](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md) node and processed using [Spline nodes](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md).
 
 </td>
 </tr>
@@ -41,12 +40,12 @@ Converts a paths into splines which can be visualized using a [Spline Render](.
 
 >[!TIP]
 >
-> This node can be used after the [Mask to Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) node to form a chain that converts a mask into splines.
+> This node can be used after the [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) node to form a chain that converts a mask into splines.
 
 ## Input connectors
 
 <b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
+A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
 
 ## Output connectors
 

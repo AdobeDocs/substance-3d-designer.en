@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # View Color Palette
 
 <table>
@@ -38,7 +37,7 @@ The packing aims at leaving as few empty slots as possible.
 
 The order of colors in the palette is preserved, with the colors flowing from left to right and top to bottom similarly to text wrapping.
 
-This node may be used to visualize the palettes produced by the following nodes: [Quantize Color](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md), [Create Color Palette](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [Modify Color Palette](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md).
+This node may be used to visualize the palettes produced by the following nodes: [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md), [Create Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md).
 
 <table>
 <tr style="border: 0;">

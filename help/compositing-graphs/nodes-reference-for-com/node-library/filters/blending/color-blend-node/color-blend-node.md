@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Color (Blend Node)
 
 <table>

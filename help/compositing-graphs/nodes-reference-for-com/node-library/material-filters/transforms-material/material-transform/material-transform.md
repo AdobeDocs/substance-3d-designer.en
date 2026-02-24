@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Transform
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Material Transform is simply the "Multi-Channel" Materials version of [the atomic Transformation 2D node](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). It transforms all channels of an input material at the same time, with the same interface as Transform 2D.
+Material Transform is simply the "Multi-Channel" Materials version of [the atomic Transformation 2D node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). It transforms all channels of an input material at the same time, with the same interface as Transform 2D.
 
 Just make sure to set up the Channels properly! By default, both Metallic/Roughness and Specular/Glossiness are enabled, which could lead to some confusion.
 

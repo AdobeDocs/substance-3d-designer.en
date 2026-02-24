@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Bitmap to Material Light
 
 <table>

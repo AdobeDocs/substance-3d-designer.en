@@ -13,10 +13,9 @@ user-guide-title: ""
 ---
 
 
-
 # Font resource
 
-Font Resources are meant to be used together with the [atomic Text node](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md). They allow you to use fonts that are not installed on your system, by referencing a font file anywhere on disk.
+Font Resources are meant to be used together with the [atomic Text node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md). They allow you to use fonts that are not installed on your system, by referencing a font file anywhere on disk.
 
 >[!NOTE]
 >
@@ -28,7 +27,7 @@ Font Resources are meant to be used together with the [atomic Text node](../../h
 
 * Right-click on a package, choose <b>Link &gt; Font</b>
 * Select an .otf or .ttf file.
-* Place a [Text node](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) in your [graph](../../help/compositing-graphs/substance-compositing-graphs.md).
+* Place a [Text node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) in your [graph](../../compositing-graphs/substance-compositing-graphs.md).
 * Under the <b>Font </b>property, any font resources will be found at the top of the list.
 
 Note the font list does not automatically refresh with the properties open. You will have to switch to another property window and back to a Text node to see newly linked fonts.

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Create a variable
 
 There is different ways to create a variable in Substance 3D Designer:

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Blend
 
 <table>
@@ -33,9 +32,9 @@ user-guide-title: ""
 
 ## Description
 
-Material Blend is the Multi-Channel, Full Material Equivalent of [the atomic Blend Node](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). It blends between two full materials (all possibe channels) based on a grayscale mask, or optionally based on one single color from a Color ID mask.
+Material Blend is the Multi-Channel, Full Material Equivalent of [the atomic Blend Node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). It blends between two full materials (all possibe channels) based on a grayscale mask, or optionally based on one single color from a Color ID mask.
 
-This node is useful if you want to blend two materials and have a grayscale map but no full Color ID bake. If you do have a Color ID bake and want to blend more than two materials, we suggest you use [Multi-Material Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
+This node is useful if you want to blend two materials and have a grayscale map but no full Color ID bake. If you do have a Color ID bake and want to blend more than two materials, we suggest you use [Multi-Material Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
 
 ## Parameters
 

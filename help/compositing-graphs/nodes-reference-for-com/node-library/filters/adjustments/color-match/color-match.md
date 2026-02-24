@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Color Match
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Tries to match the defined *Source Color* range to a *Target Color* range, with support for input slots to define Source and Target.
 
-For simpler versions, see [Replace Color Range](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) or [Replace Color](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color/replace-color.md).
+For simpler versions, see [Replace Color Range](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) or [Replace Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color/replace-color.md).
 
 ## Parameters
 

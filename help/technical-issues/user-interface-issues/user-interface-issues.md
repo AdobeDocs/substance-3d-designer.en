@@ -13,10 +13,9 @@ user-guide-title: ""
 ---
 
 
-
 # User interface issues
 
-This page lists technical issues related to the [user interface](../../help/interface/interface.md) of Substance 3D Designer, and offer troubleshooting steps for each.
+This page lists technical issues related to the [user interface](../../interface/interface.md) of Substance 3D Designer, and offer troubleshooting steps for each.
 
 ## The scale of the interface is incorrect
 

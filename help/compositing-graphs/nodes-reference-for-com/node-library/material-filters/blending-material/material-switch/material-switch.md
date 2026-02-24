@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Switch
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-This node is the Multi-Cannel, Full material version of [Switch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md). It takes two materials as input and returns only one of them based on the switch parameter.
+This node is the Multi-Cannel, Full material version of [Switch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md). It takes two materials as input and returns only one of them based on the switch parameter.
 
 ## Parameters
 

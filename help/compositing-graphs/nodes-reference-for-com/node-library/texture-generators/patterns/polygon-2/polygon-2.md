@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Polygon 2
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Generates a smooth gradient polygon shape with options for adjustment. See [Polygon 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-1/polygon-1.md) for a more advanced version.
+Generates a smooth gradient polygon shape with options for adjustment. See [Polygon 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-1/polygon-1.md) for a more advanced version.
 
 ## Parameters
 

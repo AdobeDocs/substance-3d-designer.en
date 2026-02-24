@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Ground Dirt
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-This mask represents dirt that has accumulated from the ground up, the opposite of [Bottom To Top](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/bottom-to-top/bottom-to-top.md) or [Dust](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/dust/dust.md). It has no custom map override.
+This mask represents dirt that has accumulated from the ground up, the opposite of [Bottom To Top](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/bottom-to-top/bottom-to-top.md) or [Dust](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/dust/dust.md). It has no custom map override.
 
 ## Inputs
 

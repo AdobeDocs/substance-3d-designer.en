@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3D Texture Surface Render
 
 <table>
@@ -38,7 +37,7 @@ The surface is represented within the bounds of a *unit cube*. The lighting is c
 >[!NOTE]
 >
 > The distance field is expected to be a **4096x4096** texture describing the shape with a **16x16** grid of 256 slices.  
-> You may use the [3D Texture SDF](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the distance field for a 3D texture of 256 slices.
+> You may use the [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the distance field for a 3D texture of 256 slices.
 
 </td>
 </tr>
@@ -50,7 +49,7 @@ The surface is represented within the bounds of a *unit cube*. The lighting is c
 
 * **3D Distance Field** *Grayscale*  
   The 4096x4096 image representing the 256 *slices* of a shape's *distance field*, arranged in a 16x16 grid.  
-  You may use the [3D Texture SDF](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the distance field for a 3D texture of 256 slices.
+  You may use the [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the distance field for a 3D texture of 256 slices.
 * **Environment** *Color*  
   The image representing the *environment* which should be mapped to an infinite sphere in the render, and used for computing the *lighting*.  
   The image is also used to render the scene background when the **Background Mode** parameter is set to *Ambient* or *Environment*.

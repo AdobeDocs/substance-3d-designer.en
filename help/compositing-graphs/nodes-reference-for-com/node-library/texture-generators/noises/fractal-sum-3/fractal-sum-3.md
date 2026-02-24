@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Fractal sum 3
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 A variation of the <b>Fractal sum</b> noises.
 
-See also: [Fractal sum base](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md), [Fractal sum 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-1/fractal-sum-1.md), [Fractal sum 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md), [Fractal sum 4](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
+See also: [Fractal sum base](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md), [Fractal sum 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-1/fractal-sum-1.md), [Fractal sum 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md), [Fractal sum 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
 
 </td>
 </tr>

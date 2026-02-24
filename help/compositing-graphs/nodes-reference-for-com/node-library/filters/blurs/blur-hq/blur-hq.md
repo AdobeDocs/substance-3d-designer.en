@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Blur HQ
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-Performs a High-Quality gaussian blur on the result. Much better quality than [the standard atomic box blur](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+Performs a High-Quality gaussian blur on the result. Much better quality than [the standard atomic box blur](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Important: make sure to use the appropriate version for your input! Use "Blur HQ" for Color inputs, or "Blur HQ Grayscale" for Grayscale inputs.
 

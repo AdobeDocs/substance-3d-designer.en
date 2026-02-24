@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Version 12.3
 
 <b>Substance 3D Designer 12.3</b> brings Substance model graphs to a new level with the <b>support of subgraphs</b> (or graph instances), plus the<b> &#39;Visible if&#39; </b>control for exposed parameters and some<b> new nodes</b> dedicated to curves edition. This version also introduces two new panels (<b>Welcome </b>and <b>What&#39;s New</b>) to improve user onboarding, and some other minor features or bug fixes described below.

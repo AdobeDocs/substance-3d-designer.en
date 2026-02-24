@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Dependency Manager
 
 The <b>Dependency manager</b> allows you to see all the dependencies of your package, and find and repair them in case of problems.

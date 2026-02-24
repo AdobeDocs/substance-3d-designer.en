@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Normal Vector Rotation
 
 <table>

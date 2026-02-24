@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # HSL
 
 <table>
@@ -29,7 +28,7 @@ Adjusts the hue, saturation and lightness of a color image.
 
 It is a basic, easy to use node that is very useful when working with Color data.
 
-If you are after other ways to edit the tones of an image, look at [Curve](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Levels](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) and [Contrast/Luminosity](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md).
+If you are after other ways to edit the tones of an image, look at [Curve](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Levels](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) and [Contrast/Luminosity](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md).
 
 </td>
 </tr>

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Home screen
 
 ![Home screen](home-screen-home.jpg "Home screen")
@@ -62,22 +61,22 @@ These resources are listed as card links and grouped as follows:
 * <b>More resources</b> gathers resources that you may find useful to go back to regularly:
   * [First steps in Designer](https://substance3d.adobe.com/tutorials/courses/First-Steps-with-Substance-3D-Designer/youtube-VyFgpitTsYg) is our reference tutorial for beginners;
   * [Quicktips](https://substance3d.adobe.com/tutorials/courses/Designer-Quicktips/youtube-Q9mEcCWsOQc) is a curated playlist of techniques for creating materials, patterns, filters, etc.;
-  * [Online documentation](../../help/home/home.md) brings you to this documentation.
+  * [Online documentation](../../home/home.md) brings you to this documentation.
 
 ![What's new screen](home-screen-whats-new.jpg "What's new screen"){width="512px"}
 
 ## What's new
 
-The ![](home-screen-whats-new-icon.jpg) <b>What&#39;s new</b> button on the top right of the screen displays a screen listing the major features added in your version of Designer, as well as a link to the complete [release notes](../../help/release-notes/release-notes.md) for that version.
+The ![](home-screen-whats-new-icon.jpg) <b>What&#39;s new</b> button on the top right of the screen displays a screen listing the major features added in your version of Designer, as well as a link to the complete [release notes](../../release-notes/release-notes.md) for that version.
 
 ## Start project
 
 On the left of the screen, you can find a list of shortcuts for creating a new graph in a new package:
 
-* <b>New Substance graph:</b> Opens the [New Substance graph](../../help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) window;
+* <b>New Substance graph:</b> Opens the [New Substance graph](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) window;
 * <b>Open package:</b> Lets you load an existing package;
-* <b>New MDL graph:</b> Opens the [New MDL graph](../../help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) window;
-* <b>Import AxF:</b> Starts an [AxF importing workflow](../../help/resources/axf-appearance-exchange/axf-appearance-exchange-format.md).
+* <b>New MDL graph:</b> Opens the [New MDL graph](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) window;
+* <b>Import AxF:</b> Starts an [AxF importing workflow](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md).
 
 ![About Substance 3D Designer screen](home-screen-about.jpg "About Substance 3D Designer screen"){width="256px"}
 
@@ -86,7 +85,7 @@ On the left of the screen, you can find a list of shortcuts for creating a new g
 On the bottom left of the screen, useful links are listed as follows:
 
 * <b>About Designer:</b> Displays the About Designer screen (see above);
-* <b>Online documentation:</b> Opens a webpage to [this documentation](../../help/home/home.md);
+* <b>Online documentation:</b> Opens a webpage to [this documentation](../../home/home.md);
 * <b>Website:</b> Opens a webpage to the Substance 3D Designer [product page](https://www.adobe.com/products/substance3d-designer.html);
 * <b>Forums:</b> Opens a webpage to Substance 3D Designer's [Support Community](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer?page=1&amp;sort=latest_replies&amp;filter=all&amp;lang=all&amp;tabid=discussions);
 * <b>Community assets:</b> Opens a webpage to Substance 3D [Community Assets](https://substance3d.adobe.com/community-assets/).

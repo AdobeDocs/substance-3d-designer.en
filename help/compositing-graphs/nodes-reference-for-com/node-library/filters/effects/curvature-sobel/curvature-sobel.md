@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Curvature Sobel
 
 <table>
@@ -33,9 +32,9 @@ user-guide-title: ""
 
 ## Description
 
-Performs a simple, harsh single-pass curvature conversion to input [Normalmap](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md). The resulting map has white tints for convex areas and black tints for concave. Curvature will always produce thicker lines and sharp transitions.
+Performs a simple, harsh single-pass curvature conversion to input [Normalmap](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md). The resulting map has white tints for convex areas and black tints for concave. Curvature will always produce thicker lines and sharp transitions.
 
-This node is useful for quick highlighting or darkening of certain edges. It is slightly different from [Curvature](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md), as it produces better quality results but is still sharp and harsh.
+This node is useful for quick highlighting or darkening of certain edges. It is slightly different from [Curvature](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md), as it produces better quality results but is still sharp and harsh.
 
 ## Parameters
 

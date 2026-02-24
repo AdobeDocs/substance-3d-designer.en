@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Porting previous plugins
 
 Because of the changes done to support Qt for Python, **previous plugins won't work anymore**.  
@@ -24,18 +23,18 @@ In particular, please note the following:
 Plugins are now loaded when the application <b>starts</b> and are unloaded when it <b>exits</b>.  
 As such, it's *not necessary* for plugins to inherit from '*sdplugins.Plugin*' anymore.
 
-For more information, check the [Plugin basics](../../help/scripting/plugin-basics/plugin-basics.md) section.
+For more information, check the [Plugin basics](../../scripting/plugin-basics/plugin-basics.md) section.
 
 ## Creating user interface elements
 
 Plugins *don't need* to define a '*sdplugins.PluginDesc*' anymore.  
 Instead, plugins can use the<b> new &#91;UI manager&#93;(https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html) object</b> and <b>Qt for Python</b> to create any user interface elements they need.
 
-You can find small code samples in the [Creating user interface elements](../../help/scripting/creating-user-interface/creating-user-interface-elements.md) section.
+You can find small code samples in the [Creating user interface elements](../../scripting/creating-user-interface/creating-user-interface-elements.md) section.
 
 ## Replacing uses of location context
 
 The '*SDLocationContext*' class has been *removed* from the Python API.  
 Plugins can use the <b>&#91;UI manager&#93;(https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html) object</b> to access the currently active graph and selection.
 
-You can find some examples in the [Accessing graphs and selections](../../help/scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md) section.
+You can find some examples in the [Accessing graphs and selections](../../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md) section.

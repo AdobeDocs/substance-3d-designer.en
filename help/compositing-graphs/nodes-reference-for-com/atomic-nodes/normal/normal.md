@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Normal
 
 <table>
@@ -33,7 +32,7 @@ The node converts an input grayscale map to a tangent-space Normal map output. I
 </tr>
 </table>
 
-It is a very useful node that is used often to convert height map inputs to normal maps for realtime-ready materials. There are alternatives to be found in [Normal Sobel](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) and Height To Normal World Units.
+It is a very useful node that is used often to convert height map inputs to normal maps for realtime-ready materials. There are alternatives to be found in [Normal Sobel](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) and Height To Normal World Units.
 
 <table>
 <tr style="border: 0;">

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Edge Select
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-This mask is the best way to select any kind of edge based on the curvature. Convex, Concave at any level or contrast can be isolated, providing an excellent shortcut to avoid manually doing this through a [Levels node](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
+This mask is the best way to select any kind of edge based on the curvature. Convex, Concave at any level or contrast can be isolated, providing an excellent shortcut to avoid manually doing this through a [Levels node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
 
 ## Parameters
 

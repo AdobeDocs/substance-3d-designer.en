@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Clouds 3
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 A variation of the rough <b>Clouds</b> noises.
 
-See also: [Clouds 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-1/clouds-1.md), [Clouds 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md)
+See also: [Clouds 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-1/clouds-1.md), [Clouds 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md)
 
 </td>
 </tr>

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Uniform color
 
 <table>
@@ -60,7 +59,7 @@ It is a simple node that is used very often as a starting point for adding color
 > Both of these adjustments lowers the node's computation time and memory footprint:
 > 
 > * If a grayscale value is needed, make sure to switch the node's [color mode](#parameters) to 'Grayscale'.
-> * Since the node's output is a flat color, you may use the lowest resolution possible. Set the node's '[Output size](../../../../help/compositing-graphs/output-size/output-size.md)' parameter to use the 'Absolute' [inheritance method](../../../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) and a resolution of 16x16 pixels.
+> * Since the node's output is a flat color, you may use the lowest resolution possible. Set the node's '[Output size](../../../../compositing-graphs/output-size/output-size.md)' parameter to use the 'Absolute' [inheritance method](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) and a resolution of 16x16 pixels.
 
 <table>
 <tr style="border: 0;">

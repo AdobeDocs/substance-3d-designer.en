@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Bevel (Filter Node)
 
 <table>
@@ -44,7 +43,7 @@ This is a useful node for applying exact curve profiles on an ideally binary (hi
 * **input**: *Grayscale Input*   
   Heightmap to convert.
 * **Custom Curve**: *Grayscale Input*   
-  Gradient that determines the exact curve/slope. Ideally a Gradient Linear node, on which you can perform any kind of adjustment such as [Levels](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) or [Curves](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md). Only active when "Use Custom Curve" is True.
+  Gradient that determines the exact curve/slope. Ideally a Gradient Linear node, on which you can perform any kind of adjustment such as [Levels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) or [Curves](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md). Only active when "Use Custom Curve" is True.
 
 ### Parameters
 

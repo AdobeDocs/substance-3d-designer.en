@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Uber Emboss
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Advanced, feature-rich version of [Emboss](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Performs an elaborate 2D, fake lighting effect based on a Heightmap.
+Advanced, feature-rich version of [Emboss](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Performs an elaborate 2D, fake lighting effect based on a Heightmap.
 
 Useful when creating baked-in lighting for certain texturing styles when a lot of control is needed.
 

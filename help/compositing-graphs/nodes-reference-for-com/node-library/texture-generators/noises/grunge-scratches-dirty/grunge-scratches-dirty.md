@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Grunge Scratches Dirty
 
 <table>

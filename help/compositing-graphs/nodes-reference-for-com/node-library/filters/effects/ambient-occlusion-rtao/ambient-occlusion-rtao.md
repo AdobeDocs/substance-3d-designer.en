@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Ambient Occlusion (RTAO)
 
 <table>
@@ -33,7 +32,7 @@ Generates an Ambient Occlusion map based on a height map input.
 
 This filter gives more accurate results compared to the HBAO but should not be used in combination with the CPU (SSE) engine due to computation time.
 
-See [Ambient Occlusion (HBAO) (Filter Node)](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md) for a faster, simpler alternative.
+See [Ambient Occlusion (HBAO) (Filter Node)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md) for a faster, simpler alternative.
 
 </td>
 </tr>

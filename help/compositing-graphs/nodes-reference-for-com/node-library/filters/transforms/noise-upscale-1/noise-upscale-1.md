@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Noise Upscale 1
 
 <table>
@@ -37,7 +36,7 @@ Takes an input noise procedural and scales it up to double resolution, keeping d
 
 This node is mostly intended for optimising slow graphs that use heavy, big noises. It allows you to use higher resolutions without introducing too much extra compute time.
 
-See also [Noise Upscale 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md) and [Noise Upscale 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) for different variations of this process.
+See also [Noise Upscale 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md) and [Noise Upscale 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) for different variations of this process.
 
 ## Parameters
 

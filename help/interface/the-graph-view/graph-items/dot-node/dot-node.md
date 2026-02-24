@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Dot node (also Portal)
 
 <table>
@@ -132,6 +131,6 @@ A portal is deleted when the transmitter's <b>Name</b> is cleared, or when the 
 
 >[!IMPORTANT]
 >
-> Using Dot nodes as portals is not supported in [FX-Map graphs](../../../../help/function-graphs/fxmaps/fxmaps.md).
+> Using Dot nodes as portals is not supported in [FX-Map graphs](../../../../function-graphs/fxmaps/fxmaps.md).
 
 Check out this tutorial about Dot nodes as portals:

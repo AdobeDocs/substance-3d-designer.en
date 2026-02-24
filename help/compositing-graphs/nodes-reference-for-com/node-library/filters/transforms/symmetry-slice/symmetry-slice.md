@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Symmetry Slice
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Complex Symmetry/mirroring operation node. Allows for a large variety of geometric operations with full control, but requires some experimenting.
 
-Compared to [Mirror](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md) and [Symmetry](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md), this node has many more options.
+Compared to [Mirror](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md) and [Symmetry](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md), this node has many more options.
 
 ## Parameters
 

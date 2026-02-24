@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Shape Splatter Blend
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Takes [Shape Splatter](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data as input to generate color or grayscale maps from.
+Takes [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data as input to generate color or grayscale maps from.
 
 ## Parameters
 

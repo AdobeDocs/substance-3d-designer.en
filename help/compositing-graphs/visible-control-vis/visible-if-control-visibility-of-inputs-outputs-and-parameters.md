@@ -13,22 +13,21 @@ user-guide-title: ""
 ---
 
 
-
 # Visible if expressions
 
 The 'Visible if' expression lets you <b>control the visibility</b> of inputs, outputs and parameters in graphs.
 
-When [exposing parameters](../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), you may want to hide or show parameters or node connectors based on the status of other parameters. E.g., a slider only showing when a boolean parameter button is set to `true`, because it would have no effect otherwise and that might confuse users.
+When [exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), you may want to hide or show parameters or node connectors based on the status of other parameters. E.g., a slider only showing when a boolean parameter button is set to `true`, because it would have no effect otherwise and that might confuse users.
 
 To achieve this, you may input a *logical expression* into the <b>Visible if</b> property of:
 
-* a graph's [input parameter](../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md);
-* a graph's [Input](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) node;
-* a graph's [Output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.
+* a graph's [input parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md);
+* a graph's [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) node;
+* a graph's [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.
 
 ![Toggling input parameter visibility](visible-if-example.gif "Toggling input parameter visibility"){width="512px"}
 
-If the logical expression evaluates to `true`, the parameter, input or output is displayed in all [instance nodes](../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) representing the current graph. Otherwise, it is *hidden*.
+If the logical expression evaluates to `true`, the parameter, input or output is displayed in all [instance nodes](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) representing the current graph. Otherwise, it is *hidden*.
 
 Complex conditions are possible, provided the logical expression stating these conditions is valid.
 

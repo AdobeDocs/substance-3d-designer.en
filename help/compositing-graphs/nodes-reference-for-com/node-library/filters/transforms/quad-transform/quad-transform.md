@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Quad Transform
 
 <table>

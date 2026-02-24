@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Luminosity (Blend Node)
 
 <table>

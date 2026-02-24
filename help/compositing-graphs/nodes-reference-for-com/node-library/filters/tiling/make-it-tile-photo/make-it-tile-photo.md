@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Make It Tile Photo
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-This node provides edge-fixup functionality for any image that might not tile due to non-continuous edges. It does not affect anything other than the input image's edges. If you want to adjust scale or tile in different ways, look at [Make It Tile Patch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md).
+This node provides edge-fixup functionality for any image that might not tile due to non-continuous edges. It does not affect anything other than the input image's edges. If you want to adjust scale or tile in different ways, look at [Make It Tile Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md).
 
 ## Parameters
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Version 14.1
 
 This update introduces new features to enhance your daily use of Substance 3D Designer: node arrangement tools to quickly improve your graph layout, copy/paste parameters to apply a set of parameters to another node, and a pixel pin in the 2D view to track a specific pixel while debugging your graph. It also adds new content, mainly to complete the Spline and Path node sets.
@@ -24,7 +23,7 @@ This update introduces new features to enhance your daily use of Substance 3D De
 
 ## Splines and Paths updates
 
-Splines and path nodes were introduced in version 13.0, and thanks to your feedback, we've made an initial set of improvements. First, we added the [Scatter Splines on Splines](../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md) node, which distributes splines along a parent spline, offering options similar to those of a regular scatter node. Additionally, the [Mask to Paths](../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) node has been enhanced to give more control over the position of the first vertex on the path. We also made it possible to introduce randomness in the [Spline Bridge List](../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) node.
+Splines and path nodes were introduced in version 13.0, and thanks to your feedback, we've made an initial set of improvements. First, we added the [Scatter Splines on Splines](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md) node, which distributes splines along a parent spline, offering options similar to those of a regular scatter node. Additionally, the [Mask to Paths](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) node has been enhanced to give more control over the position of the first vertex on the path. We also made it possible to introduce randomness in the [Spline Bridge List](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) node.
 
 <table>
 <tr style="border: 0;">
@@ -43,23 +42,23 @@ Splines and path nodes were introduced in version 13.0, and thanks to your feedb
 
 ## Nodes alignment tools
 
-If you are keen on keeping a clean and readable graph, the [node alignment tools](../../help/interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) are made for you and have been completely revamped! It is now possible to evenly space the nodes (horizontally or vertically), and aligning nodes avoids any overlaps by neatly stacking them. Cherry on top: both features take the actual size of the nodes into account!
+If you are keen on keeping a clean and readable graph, the [node alignment tools](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) are made for you and have been completely revamped! It is now possible to evenly space the nodes (horizontally or vertically), and aligning nodes avoids any overlaps by neatly stacking them. Cherry on top: both features take the actual size of the nodes into account!
 
 ![Align nodes](alignment.gif){zoomable="yes"}
 
 ## Copy / paste parameters
 
-It is now possible to [copy the parameters of one node and paste them onto another](../../help/compositing-graphs/manage-parameters/manage-parameters.md), so all matching parameters in the target node will be updated to the values of the source node. This is very useful if, for example, you want to carry over the parameters of a color node to its grayscale version, or vice versa. (e.g., the Tile Sampler node)
+It is now possible to [copy the parameters of one node and paste them onto another](../../compositing-graphs/manage-parameters/manage-parameters.md), so all matching parameters in the target node will be updated to the values of the source node. This is very useful if, for example, you want to carry over the parameters of a color node to its grayscale version, or vice versa. (e.g., the Tile Sampler node)
 
 ## Pin pixel in the 2D view
 
-The new [Color Sampler tool](../../help/interface/2d-view/color-sampler/color-sampler.md) in the 2D view lets you track the value of a selected pixel by dropping a pin on it. This is very useful to ensure that you are always viewing the information of the same pixel across multiple nodes in a graph. Open the Information panel to access the tool and give it a try!
+The new [Color Sampler tool](../../interface/2d-view/color-sampler/color-sampler.md) in the 2D view lets you track the value of a selected pixel by dropping a pin on it. This is very useful to ensure that you are always viewing the information of the same pixel across multiple nodes in a graph. Open the Information panel to access the tool and give it a try!
 
 ![Color sampler: using the tool](color-sampler-demo.gif "Color sampler: using the tool"){width="640px" zoomable="yes"}
 
 ## Search improvements
 
-The [node finder](../../help/interface/the-graph-view/node-finder/node-finder.md) tool has been slightly improved:
+The [node finder](../../interface/the-graph-view/node-finder/node-finder.md) tool has been slightly improved:
 
 * You can now enable a recursive mode for a deeper search;
 * The fuzzy mode can be disabled if you want to search for an exact term;

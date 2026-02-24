@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Point List
 
 <table>
@@ -39,7 +38,7 @@ If an existing point list is supplied to the <b>Point</b> inputs, the generated 
 
 >[!TIP]
 >
-> This node can be used to supply points to the [Spline (Poly Quadratic)](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md) node in order to build splines.
+> This node can be used to supply points to the [Spline (Poly Quadratic)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md) node in order to build splines.
 
 >[!IMPORTANT]
 >

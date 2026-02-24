@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cells 2
 
 <table>
@@ -37,7 +36,7 @@ A variation of the <b>Cells</b> walled noises.
   
 A binary mask of the cells with an adjustable wall thickness.
 
-See also: [Cells 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md), [Cells 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md), [Cells 4](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-4/cells-4.md)
+See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md), [Cells 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md), [Cells 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-4/cells-4.md)
 
 </td>
 </tr>

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # PBR Metal Reflectance
 
 <table>

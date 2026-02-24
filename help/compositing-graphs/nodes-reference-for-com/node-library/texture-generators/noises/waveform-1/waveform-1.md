@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Waveform 1
 
 <table>

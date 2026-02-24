@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cannot create/load a project
 
 This page lists common causes for failing to create or load projects in Substance 3D Designer, and offers troubleshooting steps for each.
@@ -52,7 +51,7 @@ First, check that you are using the latest version of Substance 3D Designer whic
 
 <b>!&#91;(error)&#93;(error.svg) Issue</b>
 
-A crash when creating or loading a project is often caused by an error during the initialisation of the [3D View](../../help/interface/3d-view/3d-view.md), which occurs when the workspace is being set up.
+A crash when creating or loading a project is often caused by an error during the initialisation of the [3D View](../../interface/3d-view/3d-view.md), which occurs when the workspace is being set up.
 
 If the system is a laptop, a third-party application may enforce a *power management plan* that stops the 3D View from using the system's GPU. This can result in a crash if no other GPU device can perform the task in its place.
 

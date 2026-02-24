@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Diffusion UV
 
 <table>

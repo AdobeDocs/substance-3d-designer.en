@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Retrieving the installation path
 
 This page regroups information on ways to retrieve the installation path of [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) depending on the version and platform.

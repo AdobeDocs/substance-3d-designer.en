@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Undo and redo
 
 With the <b>SDHistoryUtils.UndoGroup</b> class, users  can *group actions* in order to *undo or redo* them all in one command.

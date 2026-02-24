@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # RGBA Split
 
 <table>

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Plugin search paths
 
 Designer will look for plugins in specific directories (i.e. search paths). This page explains how to configure these paths.

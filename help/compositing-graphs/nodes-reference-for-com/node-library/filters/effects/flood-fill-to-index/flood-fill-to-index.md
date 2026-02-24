@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Flood Fill to Index
 
 <table>

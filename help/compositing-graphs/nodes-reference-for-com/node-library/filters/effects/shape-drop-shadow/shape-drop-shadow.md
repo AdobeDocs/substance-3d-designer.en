@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Shape Drop Shadow
 
 <table>
@@ -37,7 +36,7 @@ user-guide-title: ""
 
 Performs the well-known "Drop Shadow" effect from other 2D image processing software, on an input black and white mask (for the grayscale version) or image with transparency (for the color version).
 
-It differs from the [Shadows](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md) effect in that it returns images with full transparency applied, making for a more complete effect similar to what you'd expect in other software.
+It differs from the [Shadows](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md) effect in that it returns images with full transparency applied, making for a more complete effect similar to what you'd expect in other software.
 
 ## Parameters
 

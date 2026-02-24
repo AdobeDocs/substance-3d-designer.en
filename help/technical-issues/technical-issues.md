@@ -13,23 +13,22 @@ user-guide-title: ""
 ---
 
 
-
 # Technical issues
 
 This page lets you find information about common technical issues users may experience while using Substance 3D Designer, arranged into categories.  
 In each of the listed pages, you can find *troubleshooting steps* for solving or mitigating these issues.
 
-* [Warnings and errors](../help/technical-issues/warnings-and-errors/warnings-and-errors.md)
-* [Cannot create/load a project](../help/technical-issues/cannot-create-load-pro/cannot-create-load-a-project.md)
-* [Application does not start](../help/technical-issues/application-does-not-sta/application-does-not-start.md)
-* [Crash when rendering graphs](../help/technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
-* [Parameters not working as expected](../help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
-* [Incorrect image output](../help/technical-issues/incorrect-image-output/incorrect-image-output.md)
-* [3D View issues](../help/technical-issues/3d-view-issues/3d-view-issues.md)
-* [Baking issues](../help/technical-issues/baking-issues/baking-issues.md)
-* [User interface issues](../help/technical-issues/user-interface-issues/user-interface-issues.md)
-* [Python issues](../help/technical-issues/python-issues/python-issues.md)
-* [Substance model graph feature is missing](../help/technical-issues/model-graph-eol/substance-model-graph-eol.md)
+* [Warnings and errors](../technical-issues/warnings-and-errors/warnings-and-errors.md)
+* [Cannot create/load a project](../technical-issues/cannot-create-load-pro/cannot-create-load-a-project.md)
+* [Application does not start](../technical-issues/application-does-not-sta/application-does-not-start.md)
+* [Crash when rendering graphs](../technical-issues/crash-when-rendering-gra/crash-when-rendering-graphs.md)
+* [Parameters not working as expected](../technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
+* [Incorrect image output](../technical-issues/incorrect-image-output/incorrect-image-output.md)
+* [3D View issues](../technical-issues/3d-view-issues/3d-view-issues.md)
+* [Baking issues](../technical-issues/baking-issues/baking-issues.md)
+* [User interface issues](../technical-issues/user-interface-issues/user-interface-issues.md)
+* [Python issues](../technical-issues/python-issues/python-issues.md)
+* [Substance model graph feature is missing](../technical-issues/model-graph-eol/substance-model-graph-eol.md)
 
 ## Report an issue
 

@@ -13,13 +13,12 @@ user-guide-title: ""
 ---
 
 
-
 # Warnings in function graphs
 
-This page lists warnings and errors messages which may be triggered by [function graphs](../../help/function-graphs/function-graphs.md) in Substance 3D Designer, and offers common troubleshooting steps for each.
+This page lists warnings and errors messages which may be triggered by [function graphs](../../function-graphs/function-graphs.md) in Substance 3D Designer, and offers common troubleshooting steps for each.
 
-Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, as well as in the bottom left corner of the [Graph view](../../help/interface/the-graph-view/the-graph-view.md) if the graph is loaded.  
-If the function is *applied to a parameter* in a [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md), any warning will result in the warning "*The &#91;x&#93; parameter's function has some errors*" being raised for that parameter.
+Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, as well as in the bottom left corner of the [Graph view](../../interface/the-graph-view/the-graph-view.md) if the graph is loaded.  
+If the function is *applied to a parameter* in a [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), any warning will result in the warning "*The &#91;x&#93; parameter's function has some errors*" being raised for that parameter.
 
 ## ![(error)](error.svg) No output node defined
 
@@ -36,7 +35,7 @@ A function graph's output node is colored *orange*.
 
 >[!NOTE]
 >
-> If a function has an expected output value type, a note in the bottom left corner of the [Graph view](../../help/interface/the-graph-view/the-graph-view.md) lets you know about that type.
+> If a function has an expected output value type, a note in the bottom left corner of the [Graph view](../../interface/the-graph-view/the-graph-view.md) lets you know about that type.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -62,7 +61,7 @@ A function graph's output node is colored *orange*.
 
 >[!NOTE]
 >
-> If a function has an expected output value type, a note in the bottom left corner of the [Graph view](../../help/interface/the-graph-view/the-graph-view.md) lets you know about that type.
+> If a function has an expected output value type, a note in the bottom left corner of the [Graph view](../../interface/the-graph-view/the-graph-view.md) lets you know about that type.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -75,7 +74,7 @@ A function graph's output node is colored *orange*.
 
 ### ![(error)](error.svg) Some Get nodes don't have a variable name
 
-One or more [Get](../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) nodes have their <b>Get...</b> property left blank, thus refer to no variable.
+One or more [Get](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) nodes have their <b>Get...</b> property left blank, thus refer to no variable.
 
 <table>
 <tr style="border: 0;">
@@ -100,7 +99,7 @@ Input a string matching the name of a variable *available in the function's scop
 
 ### ![(error)](error.svg) Some Set nodes don't have a variable name
 
-One or more [Set](../../help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) nodes have their **Set** property left blank, thus refer to no variable.
+One or more [Set](../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) nodes have their **Set** property left blank, thus refer to no variable.
 
 <table>
 <tr style="border: 0;">

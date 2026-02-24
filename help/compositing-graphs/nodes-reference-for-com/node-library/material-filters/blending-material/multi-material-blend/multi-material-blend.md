@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Multi-Material Blend
 
 <table>
@@ -37,7 +36,7 @@ This node combines multiple materials based on a Material ID / Color ID map, one
 
 The node is very useful when texturing full props, as it allows full parametrisation of materials while still dynamically combining them all. Perfect for texturing simple to complex props that have proper ID bakes, or even for creating fully pipelined "Template" Substances that fully cohere to team standards.
 
-Keep in mind that when using this, Material 1, Slot 1 is always the default material and will appear anywhere no other material appears. That is why you cannot set up a color for it. If you want to play this safe, you can for example plug in a [Base Material](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) that is set to rough black.
+Keep in mind that when using this, Material 1, Slot 1 is always the default material and will appear anywhere no other material appears. That is why you cannot set up a color for it. If you want to play this safe, you can for example plug in a [Base Material](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) that is set to rough black.
 
 ## Parameters
 

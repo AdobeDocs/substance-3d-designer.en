@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Function nodes
 
 Function nodes transform the input value according to the mathematical function they represent.

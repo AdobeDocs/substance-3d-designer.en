@@ -13,16 +13,15 @@ user-guide-title: ""
 ---
 
 
-
 # Scene browser
 
 The 3D view's scene browser lists all elements in the scene and their hierarchy.
 
-It offers controls for selecting objects, toggling their visibility as well as selecting which material should [override a scene material](../../../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+It offers controls for selecting objects, toggling their visibility as well as selecting which material should [override a scene material](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
 As Designer uses [USD](https://openusd.org/release/index.html) for describing and managing its scenes, its terminology  and concepts are found in that scene tree.
 
-It is displayed by clicking its dedicated toggle button ![](sceneBrowser-toggleButton.png) in the [3D view scene toolbar](../../../help/interface/3d-view/3d-view.md).
+It is displayed by clicking its dedicated toggle button ![](sceneBrowser-toggleButton.png) in the [3D view scene toolbar](../../../interface/3d-view/3d-view.md).
 
 ![Scene browser - Loaded 3D scene](loaded3DScene.png "Scene browser - Loaded 3D scene"){zoomable="yes"}
 
@@ -83,7 +82,7 @@ Designer adds some objects to any loaded scene. Objects added by Designer are la
 
 When using the 'Edit ...' action in the Lights, Camera and Environment menus, these are the objects being edited, regardless of there being other lights, cameras or environments in the scene.
 
-These objects are included in the scene when [exported](../../../help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
+These objects are included in the scene when [exported](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -144,7 +143,7 @@ The same goes for any lights in the scene: each can be toggled individually.
 
 ## Connected materials
 
-The scene browser also lets you connect any overridden material to another material listed by Designer in the 3D view's [Materials menu](../../../help/interface/3d-view/3d-view.md).
+The scene browser also lets you connect any overridden material to another material listed by Designer in the 3D view's [Materials menu](../../../interface/3d-view/3d-view.md).
 
 <table>
 <tr style="border: 0;">
@@ -152,9 +151,9 @@ The scene browser also lets you connect any overridden material to another mater
 
 The materials listed by Designer are the Material objects in the scene tree used on at least one mesh.
 
-When [overriding](../../../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) any of these materials, a copy is created by Designer, with a numeric suffix.
+When [overriding](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) any of these materials, a copy is created by Designer, with a numeric suffix.
 
-An overridden material offers an additional item in its contextual menu: the '[Connected material](../../../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)' submenu lists all other available materials that can be used to override this material.
+An overridden material offers an additional item in its contextual menu: the '[Connected material](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)' submenu lists all other available materials that can be used to override this material.
 
 </td>
 <td style="border: 0;" valign="top">

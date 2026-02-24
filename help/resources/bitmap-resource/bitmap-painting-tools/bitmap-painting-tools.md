@@ -13,24 +13,23 @@ user-guide-title: ""
 ---
 
 
-
 # Bitmap painting tools
 
-This page describes the painting tools available in the [2D View](../../../help/interface/2d-view/2d-view.md) panel for compatible bitmaps.
+This page describes the painting tools available in the [2D View](../../../interface/2d-view/2d-view.md) panel for compatible bitmaps.
 
 ![Bitmap painting tools in 2D View](2dview-paintingtools-main.png "Bitmap painting tools in 2D View"){width="512px"}
 
 ## Overview
 
-The [2D View](../../../help/interface/2d-view/2d-view.md) panel offers basic bitmap painting tools which let you create or edit images *manually* directly within the application. These tools are particularly useful, for instance, for quickly painting *masks*.
+The [2D View](../../../interface/2d-view/2d-view.md) panel offers basic bitmap painting tools which let you create or edit images *manually* directly within the application. These tools are particularly useful, for instance, for quickly painting *masks*.
 
-The tools support pen input, including *pen pressure*. To take advantage of pen displays, you may [undock](../../../help/interface/customizing-your-wor/customizing-your-workspace.md) the [2D view](../../../help/interface/2d-view/2d-view.md) panel, then place and resize it into any configuration which is more comfortable for painting.
+The tools support pen input, including *pen pressure*. To take advantage of pen displays, you may [undock](../../../interface/customizing-your-wor/customizing-your-workspace.md) the [2D view](../../../interface/2d-view/2d-view.md) panel, then place and resize it into any configuration which is more comfortable for painting.
 
-Edits can be *undone individually*, and all the other features of the 2D View panel are still *available* to you while you edit the image, such as [Histogram](../../../help/interface/2d-view/2d-view.md) panel, [Tiled display](../../../help/interface/2d-view/2d-view.md), and [Background image](../../../help/interface/2d-view/2d-view.md).
+Edits can be *undone individually*, and all the other features of the 2D View panel are still *available* to you while you edit the image, such as [Histogram](../../../interface/2d-view/2d-view.md) panel, [Tiled display](../../../interface/2d-view/2d-view.md), and [Background image](../../../interface/2d-view/2d-view.md).
 
 >[!IMPORTANT]
 >
-> You can paint *only* on *8-bit* [bitmap resources](../../../help/resources/bitmap-resource/bitmap-resource.md) which are [new or imported](../../../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md).
+> You can paint *only* on *8-bit* [bitmap resources](../../../resources/bitmap-resource/bitmap-resource.md) which are [new or imported](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
 
 >[!WARNING]
 >
@@ -42,16 +41,16 @@ Edits can be *undone individually*, and all the other features of the 2D View pa
 
 ## Enabling the painting tools
 
-The painting tools will be enabled automatically in the [2D view](../../../help/interface/2d-view/2d-view.md) panel when the following criteria regarding a bitmap are met:
+The painting tools will be enabled automatically in the [2D view](../../../interface/2d-view/2d-view.md) panel when the following criteria regarding a bitmap are met:
 
-* The bitmap is a [new or imported](../../../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md) resource
+* The bitmap is a [new or imported](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) resource
 * The bitmap has *8-bit* precision
-* The bitmap is displayed in the [2D view](../../../help/interface/2d-view/2d-view.md) panel
+* The bitmap is displayed in the [2D view](../../../interface/2d-view/2d-view.md) panel
 
 *New* bitmaps can be created the following ways:
 
 * In the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, click RMB on an *SBS package* or a *folder* within a package to open their contextual menu, then open the <b>New</b> submenu and select the <b>Bitmap</b> option
-* In a [graph](../../../help/interface/the-graph-view/the-graph-view.md), create a [Bitmap node](../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) and select the <b>From new resource...</b> option in the contextual menu
+* In a [graph](../../../interface/the-graph-view/the-graph-view.md), create a [Bitmap node](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) and select the <b>From new resource...</b> option in the contextual menu
 
 The <b>New bitmap</b> window will open, letting you set the *name*, *resolution* and *background color* of the new bitmap resource.
 
@@ -65,13 +64,13 @@ The <b>New bitmap</b> window will open, letting you set the *name*, *resolution*
 
 ## Toolbars
 
-The painting tools and options are arranged in *toolbars* within the [2D view](../../../help/interface/2d-view/2d-view.md) panel. These toolbars can be relocated to *any side* of the panel or as a *floating toolbar*, by clicking and holding <b>LMB</b> on their *handle* – displayed as a triple line – then releasing <b>LMB</b> at the desired location.
+The painting tools and options are arranged in *toolbars* within the [2D view](../../../interface/2d-view/2d-view.md) panel. These toolbars can be relocated to *any side* of the panel or as a *floating toolbar*, by clicking and holding <b>LMB</b> on their *handle* – displayed as a triple line – then releasing <b>LMB</b> at the desired location.
 
 Two toolbars are displayed when the painting tools are enabled: the [Tool selection toolbar](#bitmappaintingtools-toolselectiontoolbar) and the Tool options toolbar, which are described below.
 
 ## Tool selection toolbar
 
-The painting tools can be found in the **Tool selection toolbar**, which is placed on the *left side* of the [2D view](../../../help/interface/2d-view/2d-view.md) panel by default. Keyboard shortcuts let you access these tools quickly, and are marked below between parentheses after the tool/function name:
+The painting tools can be found in the **Tool selection toolbar**, which is placed on the *left side* of the [2D view](../../../interface/2d-view/2d-view.md) panel by default. Keyboard shortcuts let you access these tools quickly, and are marked below between parentheses after the tool/function name:
 
 ![](2dview-paintingtools-icon-colors-primary.png)![](2dview-paintingtools-icon-colors-secondary.png) <b>Color selection</b> <b>thumbnails:</b> Let you define a *primary* and *secondary* color. Click on any of these thumbnails to display the <b>Color editor</b> window and define a color. Tools will use the *primary* color. The primary and secondary colors can be *swapped* (<b>X</b>) at any time
 
@@ -81,11 +80,11 @@ The painting tools can be found in the **Tool selection toolbar**, which is plac
 
 ![](2dview-paintingtools-clone-alignment.png) <b>Enable alignment (Stamp tool option):</b> Lets you define whether the source should *stay in place* when a new stamp begins, or if it should *relocate relatively to the new stamp location*
 
-<b>!&#91;&#93;(2dview-paintingtools-icon-eraser.png) Eraser (E):</b> Replaces the current color of the image with the (0, 0, 0, 0) value at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Make sure the [Transparency display](../../../help/interface/2d-view/2d-view.md) is enabled to keep track of the impact of this tool on the <b>Alpha</b> channel.
+<b>!&#91;&#93;(2dview-paintingtools-icon-eraser.png) Eraser (E):</b> Replaces the current color of the image with the (0, 0, 0, 0) value at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Make sure the [Transparency display](../../../interface/2d-view/2d-view.md) is enabled to keep track of the impact of this tool on the <b>Alpha</b> channel.
 
 ## Tool options toolbar
 
-The options for the tools available in the [Tool selection toolbar](#bitmappaintingtools-toolselectiontoolbar) can be found in the Tool options toolbar, which is placed on the *top side* of the [2D view](../../../help/interface/2d-view/2d-view.md) panel by default.
+The options for the tools available in the [Tool selection toolbar](#bitmappaintingtools-toolselectiontoolbar) can be found in the Tool options toolbar, which is placed on the *top side* of the [2D view](../../../interface/2d-view/2d-view.md) panel by default.
 
 <table>
 <tr style="border: 0;">

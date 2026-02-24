@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # UV Mapper Grayscale
 
 <table>
@@ -41,7 +40,7 @@ Maps the input grayscale image using the coordinates provided in the UV input.
 
 >[!NOTE]
 >
-> See also [UV Mapper Color](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md).
+> See also [UV Mapper Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md).
 
 ## Input connectors
 

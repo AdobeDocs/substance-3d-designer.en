@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Logging
 
 We recommend using the standard Python's logging module for logging.

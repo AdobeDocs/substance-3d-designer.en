@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Median filter grayscale
 
 <table>
@@ -39,7 +38,7 @@ For every pixel, the node computes a grayscale value according to the median val
 
 >[!NOTE]
 >
-> See also [Median filter color](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/median-filter-color/median-filter-color.md).
+> See also [Median filter color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/median-filter-color/median-filter-color.md).
 
 ## Input connectors
 

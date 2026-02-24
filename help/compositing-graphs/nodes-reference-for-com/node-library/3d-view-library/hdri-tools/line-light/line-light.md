@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Line Light
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Generates a spherically projected line shape based on the coordinates of two points in space. Compared to [Shape Light](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) it has more options for orienting shapes and applying repeating patterns to the light shape.
+Generates a spherically projected line shape based on the coordinates of two points in space. Compared to [Shape Light](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) it has more options for orienting shapes and applying repeating patterns to the light shape.
 
 The positioning modes for this node are slightly more complex than other HDRI Light Nodes. It is recommended to try a few different size modes to find which one works for you scenario.
 

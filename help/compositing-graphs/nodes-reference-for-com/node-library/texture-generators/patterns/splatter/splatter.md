@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Splatter
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-Splatter is a pattern generator intended for random placement of a map input. It has many controls for geometrically patterned placement, and is simpler in use than [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). The latter can achieve similar results, but is much more complex.
+Splatter is a pattern generator intended for random placement of a map input. It has many controls for geometrically patterned placement, and is simpler in use than [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). The latter can achieve similar results, but is much more complex.
 
 Splatter works well for quickly getting some shapes stamped down, without needing too much tweaking.
 

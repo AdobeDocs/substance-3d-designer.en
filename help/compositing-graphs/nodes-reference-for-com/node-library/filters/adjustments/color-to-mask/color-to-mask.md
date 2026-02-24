@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Color to mask
 
 <table>

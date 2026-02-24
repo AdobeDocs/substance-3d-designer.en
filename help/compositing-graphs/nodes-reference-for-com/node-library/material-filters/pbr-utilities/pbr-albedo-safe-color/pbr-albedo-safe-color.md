@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # PBR Albedo Safe Color
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 This is a utility node that makes corrections if Basecolor or Diffuse values are outside an acceptable, PBR-correct range. When set to Metallic, the node also attempts to correct Basecolor values based on Metallic intensity.
 
-Also see [PBR BaseColor / Metallic Validate](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-basecolor-metallic/pbr-basecolor-metallic-validate.md) for visual feedback on which areas might be wrong.
+Also see [PBR BaseColor / Metallic Validate](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-basecolor-metallic/pbr-basecolor-metallic-validate.md) for visual feedback on which areas might be wrong.
 
 This is useful as a quick correction tool, especially when one is still learning PBR, but not intended as an absolute measure that is always supposed to be correct.
 

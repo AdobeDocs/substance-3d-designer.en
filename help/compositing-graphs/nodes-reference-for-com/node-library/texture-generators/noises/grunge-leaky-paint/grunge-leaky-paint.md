@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Grunge Leaky Paint
 
 <table>

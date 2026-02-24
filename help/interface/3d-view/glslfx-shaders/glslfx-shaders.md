@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # GLSLFX Shaders
 
 GLSLFX files make the bridge between the application and the glsl shader files.  

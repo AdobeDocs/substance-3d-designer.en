@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Multi Switch
 
 <table>
@@ -37,7 +36,7 @@ user-guide-title: ""
 
 Acts as a switch-box, only passing through the input defined by the 'Input Selection' parameter. So if two Inputs are connected, only one of those will be returned (unmodified), depending on the user's choice.
 
-Very useful for adding many different options in a graph. Combined with [exposing ](../../../../../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)(preferably as a Drop Down List), a lot of customisation is possible.
+Very useful for adding many different options in a graph. Combined with [exposing ](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)(preferably as a Drop Down List), a lot of customisation is possible.
 
 Important: make sure to use the appropriate version for your input! Use "Multi Switch" for Color inputs, "Multi Switch Grayscale" for Grayscale inputs.
 

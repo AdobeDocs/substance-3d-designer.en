@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Brick 2
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Simple Brick Pattern, see [Brick Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-generator/brick-generator.md) or [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) for more options.
+Simple Brick Pattern, see [Brick Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-generator/brick-generator.md) or [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) for more options.
 
 ## Parameters
 

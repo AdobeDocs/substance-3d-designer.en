@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Spline &amp; Path Tools
 
 Spline &amp; Path Tools are a collection of nodes for working with paths and splines in Substance graphs:
@@ -24,12 +23,12 @@ Spline &amp; Path Tools are a collection of nodes for working with paths and spl
 
 This category holds the following sub-categories:
 
-* [Spline tools](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)  
+* [Spline tools](../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)  
   Nodes for generating and ajusting splines, as well as using them for mapping, scattering or warping images.
-* [Path tools](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)Nodes for generating and adjusting paths, as well as converting them to splines for complex scattering or warping of images.
+* [Path tools](../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)Nodes for generating and adjusting paths, as well as converting them to splines for complex scattering or warping of images.
 
 Check out these tutorials to get started:
 
 >[!TIP]
 >
-> We recommend learning about [working with Path and Spline tools](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
+> We recommend learning about [working with Path and Spline tools](../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.

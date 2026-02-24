@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Emboss With Gloss
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Performs an Embossing effect with added gloss (specular reflection) on a color and height input. Essentially adds fake, baked lighting to an image based on height information. Useful for some texturing styles that require lighting baked into the textures.
 
-For a version with more options, see [Uber Emboss](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md). There's also the simpler, atomic version of [Emboss](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md).
+For a version with more options, see [Uber Emboss](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md). There's also the simpler, atomic version of [Emboss](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md).
 
 ## Parameters
 

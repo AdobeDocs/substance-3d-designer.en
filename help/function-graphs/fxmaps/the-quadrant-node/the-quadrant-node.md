@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # The Quadrant Node
 
 Many FX-Maps consists entirely of chains of Quadrant nodes. Quadrant nodes are the most powerful and flexible node in the FX-Map group, so it is well worthwhile to understand how this node works.
@@ -72,7 +71,7 @@ This parameter can be controlled with a Dynamic Function.
 
 ### Inherit Random
 
-If set to "Yes", the random number generator seed is inherited from the previous node in the graph (i.e. the node above this one in the quad-tree.) If this is the first node, it takes its random seed from the containing [Substance graph](../../../help/compositing-graphs/substance-compositing-graphs.md).
+If set to "Yes", the random number generator seed is inherited from the previous node in the graph (i.e. the node above this one in the quad-tree.) If this is the first node, it takes its random seed from the containing [Substance graph](../../../compositing-graphs/substance-compositing-graphs.md).
 
 ## Patterns
 

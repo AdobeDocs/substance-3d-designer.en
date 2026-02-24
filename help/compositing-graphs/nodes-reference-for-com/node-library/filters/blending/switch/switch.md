@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Switch
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-A simple 2-position switch node. Returns either Input 1 or Input 2 based on the Switch parameter setting. Result is unmodified. See [Multi Switch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) for a more advanced version.
+A simple 2-position switch node. Returns either Input 1 or Input 2 based on the Switch parameter setting. Result is unmodified. See [Multi Switch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) for a more advanced version.
 
 Very useful for exposing a boolean (True/False) choice in a graph, where you only need a single button and not a complex drop-down list for a whole selection of options.
 

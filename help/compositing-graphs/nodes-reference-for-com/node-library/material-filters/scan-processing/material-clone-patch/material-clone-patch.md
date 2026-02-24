@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Clone Patch
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-This is the Multi-Channel, full material version of [Clone Patch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). It performs a Clone Patch on any and all channels of a material. [See the original version for more information!](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
+This is the Multi-Channel, full material version of [Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). It performs a Clone Patch on any and all channels of a material. [See the original version for more information!](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
 
 This is very useful if you want to remove a detail from all channels of a material. Outputs debug images for multiple channels to see what the smart patch area looks like exactly.
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Path 2D Transform
 
 <table>
@@ -38,18 +37,18 @@ Transforms Paths using a gizmo.
 ## Input connectors
 
 <b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
+A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
 
 ## Output connectors
 
 <b>Paths</b> *Color*  
-The transformed Paths. You can either use [Preview Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
+The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
 
 ## Parameters
 
 <b>Transform matrix</b> *Float4*  
 The transformation matrix applied to the splines. Three modes of editing the matrix parameters are available:  
-*- Transformation gizmo:* tweak the handles of the gizmo displayed in the [2D View](../../../../../../help/interface/2d-view/2d-view.md) when the Spline 2D Transform node is selected;  
+*- Transformation gizmo:* tweak the handles of the gizmo displayed in the [2D View](../../../../../../interface/2d-view/2d-view.md) when the Spline 2D Transform node is selected;  
 *- Rotation/Stretch:* Individually control the rotation and stretching of the splines. Note that values are always applied relatively to the current transformation. E.g., applying 50% width twice results in a 25% width;  
 *- Matrix values:* Click the <b>Edit Matrix Values</b> button to input the raw numerical values of the matrix directly.
 

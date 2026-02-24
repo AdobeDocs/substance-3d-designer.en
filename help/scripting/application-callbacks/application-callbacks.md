@@ -13,12 +13,11 @@ user-guide-title: ""
 ---
 
 
-
 # Application callbacks
 
 It is possible to register <b>Python callbacks</b> with the application object that Designer will call when specific events happen.
 
-User interface objects, such as menus and buttons, can trigger callbacks using the <b>Qt for Python</b> library. For more information, see [Creating user interface elements](../../help/scripting/creating-user-interface/creating-user-interface-elements.md).
+User interface objects, such as menus and buttons, can trigger callbacks using the <b>Qt for Python</b> library. For more information, see [Creating user interface elements](../../scripting/creating-user-interface/creating-user-interface-elements.md).
 
 ```
 

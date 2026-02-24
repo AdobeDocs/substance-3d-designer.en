@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Curve
 
 <table>
@@ -35,7 +34,7 @@ The node provides an interface to image tonality remapping, similar to other 2D 
 
 Unlike most other nodes, the Curve node does not have a typical standard interface with sliders and parameters, but instead presents a full fledged curve editor. See the below expandable section on how to use it.
 
-[This does however mean that none of the parameters from a Curve node can be exposed to a subgraph](../../../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). The only option here is to use a [Multi-Switch](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) to switch between different curve profiles.
+[This does however mean that none of the parameters from a Curve node can be exposed to a subgraph](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). The only option here is to use a [Multi-Switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) to switch between different curve profiles.
 
 <table>
 <tr style="border: 0;">

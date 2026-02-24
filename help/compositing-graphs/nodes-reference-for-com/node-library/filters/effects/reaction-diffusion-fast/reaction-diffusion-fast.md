@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Reaction Diffusion Fast
 
 <table>

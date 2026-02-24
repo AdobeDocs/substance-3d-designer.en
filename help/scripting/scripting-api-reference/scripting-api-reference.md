@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Scripting API reference
 
 This page describes the main concepts of the API.
@@ -55,7 +54,7 @@ The content of a package can be <b>stored</b> to a file with the <b>.sbs</b> ext
 
 To <b>create</b> a specific resource, see the related object static methods (Ex: '*SDSBSCompGraph.sNew()*').
 
-A package also contains a metadata dictionary (SDMetadataDict). You can find more info on metadatas [here](../../help/package-metadata/package-metadata.md).
+A package also contains a metadata dictionary (SDMetadataDict). You can find more info on metadatas [here](../../package-metadata/package-metadata.md).
 
 ## Resource (SDResource)
 

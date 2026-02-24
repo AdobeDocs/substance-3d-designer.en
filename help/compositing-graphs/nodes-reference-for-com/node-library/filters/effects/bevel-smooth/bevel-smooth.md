@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Bevel smooth
 
 <table>
@@ -41,7 +40,7 @@ The distance of the gradient can be dynamically adjusted along the border using 
 
 >[!TIP]
 >
-> The [Directional distance](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md) node offers similar capabilities, where the dilation is performed in a specific direction.
+> The [Directional distance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md) node offers similar capabilities, where the dilation is performed in a specific direction.
 
 <table>
 <tr style="border: 0;">
@@ -76,7 +75,7 @@ The distance of the gradient can be dynamically adjusted along the border using 
 |  |  |
 | --- | --- |
 | <b>Output</b> *Grayscale* | The result image, according to the selected 'Output Mode'. |
-| <b>UV</b> *Color* | A UV map where the UVs are dilated along the mask borders.   This can be connected to a [UV Mapper](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) node to map any other image using these dilated UVs. |
+| <b>UV</b> *Color* | A UV map where the UVs are dilated along the mask borders.   This can be connected to a [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) node to map any other image using these dilated UVs. |
 
 ## Parameters
 

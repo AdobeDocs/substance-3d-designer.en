@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Metal Edge Wear
 
 <table>
@@ -61,7 +60,7 @@ This mask represents edge wear on a metal object, with scratches and chips appea
 * **Ambient Occlusion Masking**: *0.0 - 1.0*Sets amount of effect the AO has on the final effect, dark areas being masked out.
 * **Curvature Weight**: *0.0 - 1.0*Sets amount of effect the Convex edges from the Curvature have on the final effect.
 * **Use Custom Grunge**: *False/True*Enables a custom Grunge map input slot.
-* **Use Triplanar**: *False/True*Enable [Tri Planar](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) projection to hide seams.
+* **Use Triplanar**: *False/True*Enable [Tri Planar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) projection to hide seams.
 * **Triplanar Blending Contrast**: *0.0 - 1.0*Sets blending contrast for the Triplanar Projection.
 
 ## Example Images

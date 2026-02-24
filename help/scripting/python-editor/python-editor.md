@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Python Editor
 
 Substance 3D Designer includes a **script editor**, allowing users to **test Python code** directly within Designer and get its **console output**.

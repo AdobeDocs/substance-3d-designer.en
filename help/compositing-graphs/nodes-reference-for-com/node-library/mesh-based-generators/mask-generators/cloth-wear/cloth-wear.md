@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cloth Wear
 
 <table>

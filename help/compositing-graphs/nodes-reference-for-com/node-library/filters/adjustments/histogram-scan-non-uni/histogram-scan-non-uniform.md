@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Histogram Scan Non-Uniform
 
 <table>
@@ -33,9 +32,9 @@ user-guide-title: ""
 
 ## Description
 
-Advanced version of [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), with additional controls and input to drive the effect on a per-pixel level, rather than uniformly across the whole image. Can be used to achieve even more intricate contrast and transitions in masks.
+Advanced version of [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), with additional controls and input to drive the effect on a per-pixel level, rather than uniformly across the whole image. Can be used to achieve even more intricate contrast and transitions in masks.
 
-It's a lot more complex to use than the regular [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), so make sure you are familiar with that before attempting to use the Non-Uniform version.
+It's a lot more complex to use than the regular [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), so make sure you are familiar with that before attempting to use the Non-Uniform version.
 
 ## Parameters
 

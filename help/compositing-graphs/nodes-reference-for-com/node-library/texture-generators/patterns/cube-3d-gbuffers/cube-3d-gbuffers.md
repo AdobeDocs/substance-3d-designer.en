@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cube 3D GBuffers
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Advanced version of [Cube 3D](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) that also outputs Position and normal maps instead of heightmap only.
+Advanced version of [Cube 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) that also outputs Position and normal maps instead of heightmap only.
 
 ## Parameters
 

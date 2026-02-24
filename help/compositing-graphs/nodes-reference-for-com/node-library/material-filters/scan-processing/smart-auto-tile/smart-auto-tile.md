@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Smart Auto Tile
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-This node turns a non-tiling set of Basecolor, Normal and Heightmaps into a tiling version according to smart analysis of the inputs. It is similar to [Make It Tile Photo](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md), but much more advanced as it uses information from all channels to blend things together in the smartest way (similar to what [Clone Patch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md) does). It also has an internal [Crop](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) function to determine which area to use when tiling - make sure to [read more about the Crop node](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) to understand this function properly.
+This node turns a non-tiling set of Basecolor, Normal and Heightmaps into a tiling version according to smart analysis of the inputs. It is similar to [Make It Tile Photo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md), but much more advanced as it uses information from all channels to blend things together in the smartest way (similar to what [Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md) does). It also has an internal [Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) function to determine which area to use when tiling - make sure to [read more about the Crop node](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) to understand this function properly.
 
 To use this node, start by defining your Cropped area and then use the Edge settings to determine how the tiled edges are blended into the centre. The Treshold parameters are of key importance to this! Keep in mind that big, uniform areas don't work very well with this effect; the more details and shapes there are, the more it has to work with.
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Splatter Circular
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-Splatter Circular generates a ring-based pattern with various controls. It can use pre-defined shapes or custom inputs. It's similar to[ Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md), but with a circular placement instead of a grid.
+Splatter Circular generates a ring-based pattern with various controls. It can use pre-defined shapes or custom inputs. It's similar to[ Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md), but with a circular placement instead of a grid.
 
 This is useful for when you want to place shapes in a circular way with various randomisation options.
 

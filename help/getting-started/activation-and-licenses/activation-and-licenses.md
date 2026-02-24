@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Activation process per application type
 
 The activation process depends on where you purchased or have access to Designer:
@@ -84,4 +83,4 @@ You can manually activate Designer by putting the license.key file in the follow
 
 ### ENVIRONMENT VARIABLE
 
-You can override the location that Designer checks for the <b>license.key</b> file with an [environment variable](../../help/pipeline-and-project-con/environment-variables/environment-variables.md).
+You can override the location that Designer checks for the <b>license.key</b> file with an [environment variable](../../pipeline-and-project-con/environment-variables/environment-variables.md).

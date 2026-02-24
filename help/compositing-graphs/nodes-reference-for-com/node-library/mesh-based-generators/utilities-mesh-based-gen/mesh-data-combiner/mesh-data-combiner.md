@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Mesh Data Combiner
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 This is a very simple node that "packs" baked mesh data into a single group, for use with "Compact Material Mode".
 
-This node is mostly a helper that makes it easier to work with lots of baked inputs on certain nodes in the gallery, like [Material Mesh Data Blender](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md). It allows you to avoid manually connecting everything.
+This node is mostly a helper that makes it easier to work with lots of baked inputs on certain nodes in the gallery, like [Material Mesh Data Blender](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md). It allows you to avoid manually connecting everything.
 
 ## Parameters
 

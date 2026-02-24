@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Extracting materials values and textures
 
 The properties of materials can be extracted to be used in Substance graphs.
@@ -45,9 +44,9 @@ The ‘Create graph from texture inputs action’ creates a new Substance graph 
 A few things happen when using this action:
 
 * A Substance graph named after the material is created at the selected location.
-* A [bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md) is created for every texture used by the material, and placed in a folder named after the material, under a ‘Resources’ folder.
-* In the graph, [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are created for each of these bitmap resources and automatically connected to [Output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes configured after the material properties using textures.
-* If each channel of a same texture is used to drive different material properties (the technique is called [channel packing](../../help/glossary/glossary.md)), [Grayscale conversion](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) nodes are automatically added to select appropriate channels.
+* A [bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) is created for every texture used by the material, and placed in a folder named after the material, under a ‘Resources’ folder.
+* In the graph, [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are created for each of these bitmap resources and automatically connected to [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes configured after the material properties using textures.
+* If each channel of a same texture is used to drive different material properties (the technique is called [channel packing](../../glossary/glossary.md)), [Grayscale conversion](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) nodes are automatically added to select appropriate channels.
 * The graph is automatically connected to the material and its appearance should not change until you make edits in the graph.
 
 <table>
@@ -101,8 +100,8 @@ The ‘Extract texture to graph’ action creates a new Bitmap node in an existi
 
 A few things happen when using this action:
 
-* A [bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md) is created for the texture used by the material, and placed in a folder named after the material, under a ‘Resources’ folder.
-* In the selected graph, a [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node is created for that bitmap resource and automatically connected to an [Output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node configured after the material property using that textures.
+* A [bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) is created for the texture used by the material, and placed in a folder named after the material, under a ‘Resources’ folder.
+* In the selected graph, a [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node is created for that bitmap resource and automatically connected to an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node configured after the material property using that textures.
 
 If an Output configured for the material property *already exists* in the graph, then *no nodes are created* and only the bitmap resource creation is performed.
 
@@ -151,12 +150,12 @@ The ‘Extract texture as resource’ action only creates a bitmap resource for 
 
 ## Extract value
 
-The ‘Extract value to graph’ action creates a new [Value processor](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) node in an existing graph for a material property value.
+The ‘Extract value to graph’ action creates a new [Value processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) node in an existing graph for a material property value.
 
 A few things happen when using this action:
 
-* In the selected graph, a [Value processor](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) node is created for that property value and automatically connected to an [Output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node configured after that material property.
-* In the Value processor node’s [Substance function graph](../../help/function-graphs/function-graphs.md), a [constant node](../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) matching the value type is created, set to the extracted value as set as the graph’s output.
+* In the selected graph, a [Value processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) node is created for that property value and automatically connected to an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node configured after that material property.
+* In the Value processor node’s [Substance function graph](../../function-graphs/function-graphs.md), a [constant node](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) matching the value type is created, set to the extracted value as set as the graph’s output.
 
 If an Output configured for the material property *already exists* in the graph, then *no nodes are created*.
 

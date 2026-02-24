@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Straight to Pre-multiplied
 
 <table>

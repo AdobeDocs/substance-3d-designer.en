@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3D Texture Offset
 
 <table>

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Package Metadata
 
 Package Metadata is a dictionary of text (string) values defined at the Package level. It is included in the SBSAR when publishing, and it is a general purpose storage aimed to be used by python scripting.

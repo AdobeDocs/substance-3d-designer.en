@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Fractal sum base
 
 <table>
@@ -37,7 +36,7 @@ A customisable fractal noise with an adjustable range and balance of octaves.
   
 The <b>Fractal sum</b> family of noises are all based on this node.
 
-See also: [Fractal sum 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-1/fractal-sum-1.md), [Fractal sum 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md), [Fractal sum 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-3/fractal-sum-3.md), [Fractal sum 4](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
+See also: [Fractal sum 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-1/fractal-sum-1.md), [Fractal sum 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md), [Fractal sum 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-3/fractal-sum-3.md), [Fractal sum 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
 
 </td>
 </tr>

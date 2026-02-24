@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Voronoi Fractal
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 The **Voronoi Fractal** node generates a *fractal* 3D Voronoi noise mapped to a 2D image using a *Z-down orthographic projection*.
 
-This node can be tested with [Cube GBuffers](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
+This node can be tested with [Cube GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
 
 >[!WARNING]
 >

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Flood Fill to Random Color
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Generates tiles with random RGB colors from a [Flood Fill](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base. Useful for adding color variation to tiles.
+Generates tiles with random RGB colors from a [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base. Useful for adding color variation to tiles.
 
 ## Parameters
 

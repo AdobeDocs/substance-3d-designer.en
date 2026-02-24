@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3D Voronoi
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 The **3D Voronoi** node generates a Voronoi noise in 3D space based on the **Position Map** input.
 
-This node can be tested with [Cube 3D GBuffers](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
+This node can be tested with [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
 
 >[!WARNING]
 >

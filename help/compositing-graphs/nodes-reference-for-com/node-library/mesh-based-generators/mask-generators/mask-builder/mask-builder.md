@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Mask Builder
 
 <table>

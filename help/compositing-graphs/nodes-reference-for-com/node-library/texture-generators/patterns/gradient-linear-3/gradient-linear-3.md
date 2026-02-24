@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Gradient Linear 3
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-The most advanced linear gradient. Instead of the rounded, pipe-like profile of [Linear Gradient 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md), this node returns a sharp, straight slope, plus provides additional control for the midpoint.
+The most advanced linear gradient. Instead of the rounded, pipe-like profile of [Linear Gradient 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md), this node returns a sharp, straight slope, plus provides additional control for the midpoint.
 
 ## Parameters
 

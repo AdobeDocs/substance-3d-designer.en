@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Shape Stroke
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-Adds a stroke or outline around a black and white mask (for the grayscale version) or a shape with an alpha channel (for the color version), as you might be familiar with from other 2D Image editing applications. Can be seen as a more complete version of [Edge Detect](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md).
+Adds a stroke or outline around a black and white mask (for the grayscale version) or a shape with an alpha channel (for the color version), as you might be familiar with from other 2D Image editing applications. Can be seen as a more complete version of [Edge Detect](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md).
 
 Very useful for a variety of image editing effects.
 

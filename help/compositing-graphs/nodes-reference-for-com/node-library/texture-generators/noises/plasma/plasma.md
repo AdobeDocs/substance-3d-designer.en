@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Plasma
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-This generates a slightly different variant of [Gaussian Noise](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), with longer dark streaks as valleys. It has a similar Distance control for scale, which maintains tiling.
+This generates a slightly different variant of [Gaussian Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), with longer dark streaks as valleys. It has a similar Distance control for scale, which maintains tiling.
 
 ## Parameters
 

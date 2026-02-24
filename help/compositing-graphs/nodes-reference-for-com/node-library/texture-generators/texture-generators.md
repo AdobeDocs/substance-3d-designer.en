@@ -13,14 +13,13 @@ user-guide-title: ""
 ---
 
 
-
 # Texture generators
 
 Texture generators are nodes that do not require any inputs: they generate images completely from scratch. You can think of 'texture generators' as another word for 'procedurals'.
 
 They are split into two categories:
 
-* [Noises](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/noises.md)  
+* [Noises](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/noises.md)  
   Noises are the true procedural graphics, random shapes and pixels, like well-known Perlin and Clouds noises.
-* [Patterns](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)  
+* [Patterns](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)  
   Patterns are mostly shapes that look man-made, with many additional controls to randomise them.

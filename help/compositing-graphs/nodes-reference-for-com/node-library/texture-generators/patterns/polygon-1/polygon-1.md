@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Polygon 1
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Generates a polygon shape, with many options for adjustment. See [Polygon 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-2/polygon-2.md) for a simpler version.
+Generates a polygon shape, with many options for adjustment. See [Polygon 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-2/polygon-2.md) for a simpler version.
 
 ## Parameters
 

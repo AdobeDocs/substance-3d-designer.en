@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Logical nodes
 
 Logical nodes are used to add multiple conditions to your graph:

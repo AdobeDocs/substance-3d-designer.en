@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # RT Irradiance
 
 <table>

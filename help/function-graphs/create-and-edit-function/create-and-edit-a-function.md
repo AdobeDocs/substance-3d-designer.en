@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Create and edit a function
 
 ## Create a function

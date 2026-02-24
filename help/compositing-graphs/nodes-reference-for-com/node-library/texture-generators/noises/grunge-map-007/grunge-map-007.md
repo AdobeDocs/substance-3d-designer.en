@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Grunge Map 007
 
 <table>

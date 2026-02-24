@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Dripping Rust
 
 <table>

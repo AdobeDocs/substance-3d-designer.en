@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Operator nodes
 
 Operator nodes lets you achieve classic mathematical operations on input node(s):

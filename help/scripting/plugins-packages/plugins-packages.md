@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Plugins packages
 
 Python packages are supported to create plugins to extend the application.

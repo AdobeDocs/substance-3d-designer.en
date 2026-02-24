@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Leather Weathering
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-This is a full-material effect that works on multiple channels at once. It adds a random leather wear effect, with control for age and dirtiness. It is similar to [Fabric Weathering](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md), but tuned specifically for leather.  
+This is a full-material effect that works on multiple channels at once. It adds a random leather wear effect, with control for age and dirtiness. It is similar to [Fabric Weathering](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md), but tuned specifically for leather.  
 This effect does not work very well unless you have proper baked AO and World Space Normalmaps plugged in, as it requires these to adequately calculate and generate everything.
 
 Make sure to fully understand the [Link Creation Modes](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) when working with full materials.

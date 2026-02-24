@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Summed Area Table
 
 <table>

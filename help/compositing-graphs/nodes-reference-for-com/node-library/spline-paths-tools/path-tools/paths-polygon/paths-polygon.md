@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Paths Polygon
 
 <table>
@@ -31,7 +30,7 @@ user-guide-title: ""
 
 Generates a primitive (polygon) in the Paths format.
 
-Use the [Path 2D Transform](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) node to position the primitive precisely.
+Use the [Path 2D Transform](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) node to position the primitive precisely.
 
 </td>
 </tr>

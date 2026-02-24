@@ -13,12 +13,11 @@ user-guide-title: ""
 ---
 
 
-
 # 3D view
 
 The 3D View helps you view and understand your materials with custom meshes and rendered PBR materials.
 
-Like with all Substance 3D Designer Windows, it works together with other windows through right-click menu options and drag-and-drop operations. The 3D view also provides two main methods of rendering: fast, realtime OpenGL visualisation, with fluent smooth interaction, [and high-quality raytraced renders with Iray](../../help/interface/3d-view/iray/iray.md).
+Like with all Substance 3D Designer Windows, it works together with other windows through right-click menu options and drag-and-drop operations. The 3D view also provides two main methods of rendering: fast, realtime OpenGL visualisation, with fluent smooth interaction, [and high-quality raytraced renders with Iray](../../interface/3d-view/iray/iray.md).
 
 ## Viewport interactions
 
@@ -56,7 +55,7 @@ Using a trackpad (macOS only)
 > * Mouse wheel up *pulls* the scene closer
 > * RMB and drag up *pushes* the scene away
 > 
-> The zoom direction can be inverted in the [Preferences](../../help/interface/preferences-window/preferences-window.md).
+> The zoom direction can be inverted in the [Preferences](../../interface/preferences-window/preferences-window.md).
 
 ### Select and focus
 
@@ -80,7 +79,7 @@ You can interact with meshes directly in the viewport:
 
 >[!NOTE]
 >
-> These actions are not available for the deprecated [OpenGL](../../help/interface/3d-view/3d-renderers/3d-renderers.md) and [Iray](../../help/interface/3d-view/3d-renderers/3d-renderers.md) renderers.
+> These actions are not available for the deprecated [OpenGL](../../interface/3d-view/3d-renderers/3d-renderers.md) and [Iray](../../interface/3d-view/3d-renderers/3d-renderers.md) renderers.
 
 ### CHANGING THE environment LIGHTING
 
@@ -92,7 +91,7 @@ You can rotate this environment around your 3D object, or you can load either pr
 
 To set a precise rotation, use <b>Environment &gt; Edit</b> in the top 3D View toolbar and change the <b>Rotation angle</b> slider in the properties window.
 
-To use a preset HDR light environment, click the<b> HDRI environments</b> section of the <b>3D View category </b>in the [Library](../../help/interface/the-library/the-library.md), and then drag and drop any of the icons to the 3D view.
+To use a preset HDR light environment, click the<b> HDRI environments</b> section of the <b>3D View category </b>in the [Library](../../interface/the-library/the-library.md), and then drag and drop any of the icons to the 3D view.
 
 To use your own, custom HDR light environment, import an HDR image by dragging and dropping the file into a package in the Explorer Window (<b>Link</b> the file when prompted). Then drag and drop the resource, choose <b>Latitude/Longtitude Panorama</b> as the target.
 
@@ -110,15 +109,15 @@ While in Camera mode ![](image2020-9-17-10-31-32.png), you can also temporarily 
 
 ### Substance graphs
 
-You can view entire materials as a complete material in the 3D View. This is the most common way to work, and will match the [usage attributes on output nodes](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) , to the relevant texture slots of the 3D view material. That means your outputs need to be set correctly (using Templates ensures this is the case), and that you selected material/viewport shader supports
+You can view entire materials as a complete material in the 3D View. This is the most common way to work, and will match the [usage attributes on output nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) , to the relevant texture slots of the 3D view material. That means your outputs need to be set correctly (using Templates ensures this is the case), and that you selected material/viewport shader supports
 
-You view all of a graph's outputs by clicking *RMB* an emtpy area in the [Graph view](../../help/interface/the-graph-view/the-graph-view.md), and choosing the **View Outputs in 3D View** option in the contextual menu.
+You view all of a graph's outputs by clicking *RMB* an emtpy area in the [Graph view](../../interface/the-graph-view/the-graph-view.md), and choosing the **View Outputs in 3D View** option in the contextual menu.
 
 You can also view a graph's outputs without having to open it, by clicking RMB on a graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock and choosing the **View Outputs in 3D View** option in the contextual menu.
 
 As an alternative to the graph's contextual menu, you can achieve the same result by dragging the graph from the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock to the [3D View](https://substance3d.adobe.com/).
 
-When *loading a graph*, its outputs are automatically applied in the 3D View by default. You can disable this behaviour in the [Preferences](../../help/interface/preferences-window/preferences-window.md). Go to **Edit &gt; Preferences &gt; Graph &gt; Common** and uncheck the **View outputs in 3D view when opening a graph** option.
+When *loading a graph*, its outputs are automatically applied in the 3D View by default. You can disable this behaviour in the [Preferences](../../interface/preferences-window/preferences-window.md). Go to **Edit &gt; Preferences &gt; Graph &gt; Common** and uncheck the **View outputs in 3D view when opening a graph** option.
 
 >[!NOTE]
 >
@@ -132,7 +131,7 @@ When *loading a graph*, its outputs are automatically applied in the 3D View by 
 
 You can view just a single output in any available material channel in the [3D View](https://substance3d.adobe.com/). This is less commonly used, but good for previewing quick tests or individual nodes with no output.
 
-You can view any node, not just output nodes, by right clicking it in the [Graph view](../../help/interface/the-graph-view/the-graph-view.md), and choosing <b>View in 3D View</b>. You'll be shown a list with available channels to assign the node to. Click any to confirm.
+You can view any node, not just output nodes, by right clicking it in the [Graph view](../../interface/the-graph-view/the-graph-view.md), and choosing <b>View in 3D View</b>. You'll be shown a list with available channels to assign the node to. Click any to confirm.
 
 You can also use *RMB* to drag and drop any node from the Graph view to the 3D View. You'll be shown a list with available channels to assign the node to. Click any to confirm.
 
@@ -145,15 +144,15 @@ You can view any individual graph output by expanding the graph resource in the�
 Designer offers a dozen preset meshes. These meshes have uniform, useable UV coordinates and serve most scenarios for tiling textures. Importing and viewing your own 3D meshes is also possible.  
 Pick any of the default meshes through the <b>Scene</b> dropdown menu in the top bar.
 
-For custom 3D scenes, go to the [Working with 3D scenes](../../help/working-with-3d-scenes/working-with-3d-scenes.md) section.
+For custom 3D scenes, go to the [Working with 3D scenes](../../working-with-3d-scenes/working-with-3d-scenes.md) section.
 
 ![Changing material properties](3d-materials.gif "Changing material properties")
 
 ## Change shader properties
 
-There are a few different [shaders](../../help/glossary/glossary.md) available by default in Designer, and each shader has options beyond just texture channels. They can be configured individually.
+There are a few different [shaders](../../glossary/glossary.md) available by default in Designer, and each shader has options beyond just texture channels. They can be configured individually.
 
-Keep in mind shaders are different across Designer's [3D renderers](../../help/interface/3d-view/3d-renderers/3d-renderers.md) and only settings marked with a 'Common' label will carry over when switching renderers.
+Keep in mind shaders are different across Designer's [3D renderers](../../interface/3d-view/3d-renderers/3d-renderers.md) and only settings marked with a 'Common' label will carry over when switching renderers.
 
 To change the current shader, go to<b> &#39;</b>Materials' menu then open the submenu for the material you wish to edit.
 
@@ -169,13 +168,13 @@ Shaders can be reset using the 'Reset material' or 'Reset to scene state' action
 > 
 > * <b>Rasterizer/GPU Pathtracer:</b> Located in the renderer settings (Renderer &gt; Edit settings), impacts the *entire scene*.
 > * <b>OpenGL:</b> Located in the material properties, impacts the material.
-> * <b>Iray:</b> Located in the mesh properties (Select a mesh element in the [Scene browser](../../help/interface/3d-view/scene-browser/scene-browser.md)), impacts the mesh.
+> * <b>Iray:</b> Located in the mesh properties (Select a mesh element in the [Scene browser](../../interface/3d-view/scene-browser/scene-browser.md)), impacts the mesh.
 
 ![Exporting the scene](3d-view-export-scene.gif "Exporting the scene")
 
 ## Export scene
 
-Learn about exporting 3D scenes in [this page](../../help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
+Learn about exporting 3D scenes in [this page](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
 ### Export tessellated mesh (OpenGL renderer only)
 
@@ -208,7 +207,7 @@ To export the 3D View mesh, go to <b>Scene &gt; Export tessellated mesh...</b>,
 >
 > **TDR (Windows only)**
 > 
-> This feature requires that the <b>Timeout Detection and Recovery (TDR)</b> match the recommended values in [this page](https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html) of our documentation, as stated in Designer's [Technical requirements](../../help/getting-started/system-requirements/system-requirements.md).
+> This feature requires that the <b>Timeout Detection and Recovery (TDR)</b> match the recommended values in [this page](https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html) of our documentation, as stated in Designer's [Technical requirements](../../getting-started/system-requirements/system-requirements.md).
 
 ## Menu bar
 
@@ -221,7 +220,7 @@ The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D v
 
 
 
-<b>Edit: </b>Loads scene options in the [Properties](../../help/interface/properties/properties.md) panel. Lets you toggle visibility of the 3D Mesh.
+<b>Edit: </b>Loads scene options in the [Properties](../../interface/properties/properties.md) panel. Lets you toggle visibility of the 3D Mesh.
 
 <b>Standard primitives:</b> Shows any of the below simple 3D meshes in the 3D View.
 
@@ -255,20 +254,20 @@ The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D v
 
 <b>Display UV&#39;s in 2D View:</b> Enables the display of the UVs for the currently selected mesh as an overlay in [the 2D View](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
 
-<b>Create 3D resource from current scene...:</b> Creates a new [3D scene resource](../../help/resources/3d-scene-resource/3d-scene-resource.md) in a package out of the current scene.
+<b>Create 3D resource from current scene...:</b> Creates a new [3D scene resource](../../resources/3d-scene-resource/3d-scene-resource.md) in a package out of the current scene.
 
-<b>Load state file...: </b>Loads an externally saved [scene state file](../../help/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Does not replace the 3D mesh, only loads settings for 3D renderer, camera and lights.
+<b>Load state file...: </b>Loads an externally saved [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Does not replace the 3D mesh, only loads settings for 3D renderer, camera and lights.
 
-<b>Load state file with mesh...:</b> Loads an externally saved [scene state file](../../help/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Loads settings for 3D renderer, camera, lights, along with its references 3D scene. .
+<b>Load state file with mesh...:</b> Loads an externally saved [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Loads settings for 3D renderer, camera, lights, along with its references 3D scene. .
 
-<b>Save state file...: </b>Save the current state of the 3D view to a [scene state file](../../help/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
+<b>Save state file...: </b>Save the current state of the 3D view to a [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
 
-<b>Save current state as default: </b>Set the current state of the 3D view as as a [scene state file](../../help/working-with-3d-scenes/working-with-3d-scenes.md) to be used by default when creating new 3D Views. This file is loaded every time the 3D view is reset or intialised, and can be set in the [Project settings](../../help/interface/preferences-window/project-settings/project-settings.md).
+<b>Save current state as default: </b>Set the current state of the 3D view as as a [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) to be used by default when creating new 3D Views. This file is loaded every time the 3D view is reset or intialised, and can be set in the [Project settings](../../interface/preferences-window/project-settings/project-settings.md).
 
-<b>Export scene:</b> *(Rasterizer/GPU Pathtracer renderers only)* Exports the current scene as a [flattened scene](../../help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md), where only the result scene is written and any references to the original scene are lost. The contents of the exported scene depend on the features supported by the selected export format.  
+<b>Export scene:</b> *(Rasterizer/GPU Pathtracer renderers only)* Exports the current scene as a [flattened scene](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), where only the result scene is written and any references to the original scene are lost. The contents of the exported scene depend on the features supported by the selected export format.  
 Available formats: STL, FBX, GLB, GLTF, PLY, USDC, USD, USDA, USDZ, OBJ.
 
-<b>Export scene with layers:</b> *(Rasterizer/GPU Pathtracer renderers only)*Exports the current scene as a [layered scene](../../help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md), where all edits to the original scene are saved to separate files in a non-destructive workflow. This is only available for USD file formats.  
+<b>Export scene with layers:</b> *(Rasterizer/GPU Pathtracer renderers only)*Exports the current scene as a [layered scene](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), where all edits to the original scene are saved to separate files in a non-destructive workflow. This is only available for USD file formats.  
 Available formats are: USDC, USD, USDA.
 
 <b>Export tessellated geometry:</b> *(OpenGL renderer only)* Exports the current scene with tessellation as raw geometry, see Export scene section.
@@ -282,15 +281,15 @@ If the scene is *not restored correctly* from the file, it is recommended to man
 +++
 
 +++Materials
-The <b>Materials</b> menu changes based on the 3D mesh loaded and the renderer used. [For Iray rendering, see the Iray page.](../../help/interface/3d-view/iray/iray.md)
+The <b>Materials</b> menu changes based on the 3D mesh loaded and the renderer used. [For Iray rendering, see the Iray page.](../../interface/3d-view/iray/iray.md)
 
 The 'Materials' menu features a list of all materials assigned to a mesh in the scene. Each material listed in the 'Materials' menu has a submenu of material actions:
 
 <b>Edit</b> - Edit settings of the current material in the Properties window.
 
-<b>Shaders list</b> - All [shaders](../../help/glossary/glossary.md) available for the current [3D renderer](../../help/interface/3d-view/3d-renderers/3d-renderers.md).
+<b>Shaders list</b> - All [shaders](../../glossary/glossary.md) available for the current [3D renderer](../../interface/3d-view/3d-renderers/3d-renderers.md).
 
-<b>Load Definition...: </b>(OpenGL renderer only) Lets you load your own custom [GLSLFX shader.](../../help/interface/3d-view/glslfx-shaders/glslfx-shaders.md) The shader is added into the list above.
+<b>Load Definition...: </b>(OpenGL renderer only) Lets you load your own custom [GLSLFX shader.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) The shader is added into the list above.
 
 <b>Reset common parameters:</b> Resets all parameters that are common across shaders. For instance, when switching between the OpenGL and Iray renderers, several parameter values in the [Adobe Standard Material](https://helpx.adobe.com/substance-3d-general/adobe-standard-material.html) are carried across.
 
@@ -298,9 +297,9 @@ The 'Materials' menu features a list of all materials assigned to a mesh in the 
 
 <b>Reset material:</b> Resets all shader parameters to their default values. If textures are connected to any of the shader's samplers, they are disconnected.
 
-<b>Reset material to scene state: </b>*(Rasterizer/GPU Pathtracer renderers only)* Resets all properties for [overridden materials](../../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) to their original values from the scene, including original textures if any.
+<b>Reset material to scene state: </b>*(Rasterizer/GPU Pathtracer renderers only)* Resets all properties for [overridden materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) to their original values from the scene, including original textures if any.
 
-<b>Add: </b>Adds a new material to the list. It is unused by default and may be [connected to a scene material](../../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) using the [Scene browser](../../help/interface/3d-view/scene-browser/scene-browser.md).
+<b>Add: </b>Adds a new material to the list. It is unused by default and may be [connected to a scene material](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) using the [Scene browser](../../interface/3d-view/scene-browser/scene-browser.md).
 
 +++
 
@@ -389,7 +388,7 @@ Some of these options are available as button toggles in the Scene toolbar.
 +++Renderer
 The <b>Renderer</b> menu lets you switch 3D renderers and access the properties of the current 3D renderer through the <b>Edit properties</b> action.
 
-The available renderers and their settings are documented in [this dedicated page](../../help/interface/3d-view/3d-renderers/3d-renderers.md).
+The available renderers and their settings are documented in [this dedicated page](../../interface/3d-view/3d-renderers/3d-renderers.md).
 
 +++
 
@@ -432,7 +431,7 @@ This toggle lets you select which of the *current camera* or the *scene lights* 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Selects individual meshes in the scene. Selected meshes have a blue outline in the viewport and are highlighted in the [Scene browser](../../help/interface/3d-view/scene-browser/scene-browser.md).
+Selects individual meshes in the scene. Selected meshes have a blue outline in the viewport and are highlighted in the [Scene browser](../../interface/3d-view/scene-browser/scene-browser.md).
 
 A contextual menu is available for selected meshes and may be displayed by clicking RMB.
 
@@ -450,13 +449,13 @@ As a *nested* dock, it can be repositioned around the 3D View dock as well as *u
 
 Selecting the camera or environment objects created by Designer (listed in <b>bold</b>) will display their properties in the Properties dock. This is a convenient way to quickly access these settings instead of having to go through the menu bar.
 
-Similarly, the properties of [overriding material copies](../../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) can be accessed by selecting them.
+Similarly, the properties of [overriding material copies](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) can be accessed by selecting them.
 
 *(OpenGL renderer only)* Selecting an *element of the scene* in the list will replace it in the viewport by a *wireframe overlay* of that element.
 
 >[!NOTE]
 >
-> The Scene browser and its features are covered extensively in [the dedicated page](../../help/interface/3d-view/scene-browser/scene-browser.md).
+> The Scene browser and its features are covered extensively in [the dedicated page](../../interface/3d-view/scene-browser/scene-browser.md).
 
 >[!TIP]
 >
@@ -506,4 +505,4 @@ The *icon* of the <b>Color channels</b> button *changes* depending on the curren
 
 For the most accurate representation of color, images are displayed by default in a *color space* which matches the one used by the *monitor*.
 
-The available controls will depend on the color management mode set in the [Project settings](../../help/interface/preferences-window/project-settings/project-settings.md). Learn more about these controls in the [Color management](../../help/color-management/color-management.md) section in this page.
+The available controls will depend on the color management mode set in the [Project settings](../../interface/preferences-window/project-settings/project-settings.md). Learn more about these controls in the [Color management](../../color-management/color-management.md) section in this page.

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Atlas Scatter
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Extract elements from an Atlas and scatter them on a background. Atlas inputs are full materials, consisting of individual elements arranged and packed on a single texture sheet. This node splits them up (using an internal [Atlas Splitter](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-splitter/atlas-splitter.md) process) and scatters them, similar to [Shape Splatter](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md). Atlas Scatter requires at minimum an Opacity map input , and a Height map input for the Atlas, to function.
+Extract elements from an Atlas and scatter them on a background. Atlas inputs are full materials, consisting of individual elements arranged and packed on a single texture sheet. This node splits them up (using an internal [Atlas Splitter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-splitter/atlas-splitter.md) process) and scatters them, similar to [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md). Atlas Scatter requires at minimum an Opacity map input , and a Height map input for the Atlas, to function.
 
 >[!NOTE]
 >

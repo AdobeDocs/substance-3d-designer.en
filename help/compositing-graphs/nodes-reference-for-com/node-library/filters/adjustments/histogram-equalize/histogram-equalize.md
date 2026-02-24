@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Histogram equalize
 
 <table>

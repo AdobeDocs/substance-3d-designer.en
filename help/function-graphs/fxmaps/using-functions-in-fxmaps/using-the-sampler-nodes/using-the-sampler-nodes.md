@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Using the Sampler nodes
 
 ![](sampler-graph.jpg)

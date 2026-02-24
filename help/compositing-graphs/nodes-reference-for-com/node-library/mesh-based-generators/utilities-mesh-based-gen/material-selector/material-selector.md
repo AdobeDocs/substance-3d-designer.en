@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Selector
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Converts a full-color ID map to a binary, black and white mask. Allows blending and combining of different colors into one mask.
 
-This is handy if you don't want to use [Multi-Material Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md) and prefer to use the mask manually, or alternatively if you want to manually use those same masks in other locations.
+This is handy if you don't want to use [Multi-Material Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md) and prefer to use the mask manually, or alternatively if you want to manually use those same masks in other locations.
 
 ## Parameters
 

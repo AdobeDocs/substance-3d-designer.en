@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Node alignment tools
 
 ![Node alignment toolbar](node-alignment-toolbar.png "Node alignment toolbar"){zoomable="yes"}
@@ -28,7 +27,7 @@ They act on the <b>nodes currently selected only</b>.
 > 
 > Some actions have keyboard shortcuts for quick acces: H, V and S. They are displayed between parentheses in the list of actions below.
 > 
-> Note that these will override any [keyboard shortcut assigned to nodes](../../../help/interface/preferences-window/preferences-window.md).
+> Note that these will override any [keyboard shortcut assigned to nodes](../../../interface/preferences-window/preferences-window.md).
 
 ## Alignments
 

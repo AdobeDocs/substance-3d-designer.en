@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Shadows (Filter Node)
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-A raw, grayscale-only version of the [Shape Drop Shadow](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-drop-shadow/shape-drop-shadow.md) node. It only takes a black and white, binary shapes as input and returns only the shadow.
+A raw, grayscale-only version of the [Shape Drop Shadow](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-drop-shadow/shape-drop-shadow.md) node. It only takes a black and white, binary shapes as input and returns only the shadow.
 
 Can be useful if you're just after the shadow and do not want to work with a more complete node, for example when building your own material or baked lighting.
 

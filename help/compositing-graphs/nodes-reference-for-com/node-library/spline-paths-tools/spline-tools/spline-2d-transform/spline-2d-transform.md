@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Spline 2D Transform
 
 <table>

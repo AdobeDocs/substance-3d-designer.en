@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cells 1
 
 <table>
@@ -37,7 +36,7 @@ A variation of the <b>Cells</b> walled noises.
   
 User-selected patterns are scattered and overlaid using a Max blending mode.
 
-See also: [Cells 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md), [Cells 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md), [Cells 4](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-4/cells-4.md)
+See also: [Cells 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md), [Cells 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md), [Cells 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-4/cells-4.md)
 
 </td>
 </tr>

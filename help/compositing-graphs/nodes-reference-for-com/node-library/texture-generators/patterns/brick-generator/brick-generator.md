@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Brick Generator
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Advanced Brick-pattern generator. Has a lot of options for specifically generating man-made brick patterns
 
-For more options see [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
+For more options see [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
 ## Parameters
 

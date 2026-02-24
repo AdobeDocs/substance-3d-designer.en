@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Similarities with a Substance graph
 
 At first sight, the Substance function graph is really similar to a Substance graph and the workflow is almost the same.

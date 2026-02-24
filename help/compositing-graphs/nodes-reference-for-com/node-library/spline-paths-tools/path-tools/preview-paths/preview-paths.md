@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Preview Paths
 
 <table>
@@ -31,7 +30,7 @@ user-guide-title: ""
 
 Trace segments and vertices of the path on top of the given background. One random color per path.
 
-You'll get a similar result as the <b>Preview</b> output of the [Mask to Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) but with more options.
+You'll get a similar result as the <b>Preview</b> output of the [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) but with more options.
 
 </td>
 </tr>
@@ -43,7 +42,7 @@ You'll get a similar result as the <b>Preview</b> output of the [Mask to Paths](
 A background image on top of with display the path. This also controls the rendering size.
 
 <b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
+A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
 
 ## Parameters
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cartesian To Polar
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-Converts an input with Cartesian coordinates (X&amp;Y) to Polar coordinates (Angle &amp; Radius). The reverse is possible with [Polar To Cartesian](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md).
+Converts an input with Cartesian coordinates (X&amp;Y) to Polar coordinates (Angle &amp; Radius). The reverse is possible with [Polar To Cartesian](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md).
 
 ## Parameters
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # The Iterate Node
 
 The Iterate node lets you multiply a Quadrant node’s images and is essentially a “repeater” node. A Quadrant node at a depth of 1 would normally output 4 quadrants. The Iterate node lets you repeat its output imagery as many times as you like, with each set of repeats treated separately.

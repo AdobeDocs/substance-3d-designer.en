@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Comment
 
 <table>
@@ -51,7 +50,7 @@ Type 'comment' in the search field to surface the item and find it more quickly.
 +++
 
 +++Shortcut
-If a keyboard shortcut is mapped to the 'Comment' item in the [Preferences](../../../../help/interface/preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
+If a keyboard shortcut is mapped to the 'Comment' item in the [Preferences](../../../../interface/preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
 
 +++
 
@@ -99,6 +98,6 @@ Text can be formatted using HTML tags. This formatting is toggled using the ![]
 
 >[!TIP]
 >
-> Learn more about this feature in the <b>Description</b> section of the [Frames](../../../../help/interface/the-graph-view/graph-items/frame/frame.md) documentation.
+> Learn more about this feature in the <b>Description</b> section of the [Frames](../../../../interface/the-graph-view/graph-items/frame/frame.md) documentation.
 
 ![Comments: HTML markup](graph-comment_html-markup.gif "Comments: HTML markup")

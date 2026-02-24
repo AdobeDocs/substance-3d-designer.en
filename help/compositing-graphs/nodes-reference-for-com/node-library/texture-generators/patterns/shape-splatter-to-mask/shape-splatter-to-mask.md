@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Shape Splatter to Mask
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Converts [Shape Splatter](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data into a black and white mask based on Pattern ID. Allows you to for example create a mask of only a certain type of attern. Has extra options for selecting a range of Pattern ID's and to randomly hide some of the shapes.
+Converts [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data into a black and white mask based on Pattern ID. Allows you to for example create a mask of only a certain type of attern. Has extra options for selecting a range of Pattern ID's and to randomly hide some of the shapes.
 
 ## Parameters
 

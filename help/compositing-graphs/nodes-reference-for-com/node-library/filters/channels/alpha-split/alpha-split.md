@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Alpha Split
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Strips away and singles out the alpha of an input image. Also see [Alpha Merge](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) for the opposite result.
+Strips away and singles out the alpha of an input image. Also see [Alpha Merge](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) for the opposite result.
 
 Outputs the image stripped of alpha, and the alpha channel separately.
 

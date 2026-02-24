@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Iterate and $number variable
 
 ![](iterate-1.jpg)

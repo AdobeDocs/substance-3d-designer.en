@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Plane Light
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Generates a spherically projected plane shape. The plane can be placed and oriented in 3d using the input parameters.
 
-It differs from the simpler [Shape Light](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) in that it has more advanced placement options outside of simpler Distance from origin projection, and more patterns and masks can be applied, similar to [Line Light](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/line-light/line-light.md).
+It differs from the simpler [Shape Light](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) in that it has more advanced placement options outside of simpler Distance from origin projection, and more patterns and masks can be applied, similar to [Line Light](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/line-light/line-light.md).
 
 ## Inputs
 

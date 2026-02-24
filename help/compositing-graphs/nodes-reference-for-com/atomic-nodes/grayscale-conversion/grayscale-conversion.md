@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Grayscale conversion
 
 <table>
@@ -35,9 +34,9 @@ This node may be used as an optimised method to extract a grayscale channel ou
 
 Most nodes can be set to output in either grayscale or color, where the former is preferred for simplicity and performance reasons.
 
-Indeed, it is recommended to work in grayscale from the outset and colorize images later in your workflow, using for instance a [Gradient map](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) node.
+Indeed, it is recommended to work in grayscale from the outset and colorize images later in your workflow, using for instance a [Gradient map](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) node.
 
-This means that a grayscale conversion node is generally only reserved for cases where you specifically want to convert a color image to grayscale. In those cases also take a look at [Grayscale conversion advanced](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md) and [Color to mask](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-to-mask/color-to-mask.md).
+This means that a grayscale conversion node is generally only reserved for cases where you specifically want to convert a color image to grayscale. In those cases also take a look at [Grayscale conversion advanced](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md) and [Color to mask](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-to-mask/color-to-mask.md).
 
 <table>
 <tr style="border: 0;">

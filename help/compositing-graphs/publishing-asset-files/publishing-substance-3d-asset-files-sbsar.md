@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Publishing Substance 3D asset files (SBSAR)
 
 This page explains how Substance 3D Designer can publish packages as <b>Substance 3D asset</b> files, a special file format with the <b>SBSAR</b> extension, used within the Substance ecosystem as well as in other applications supporting it.
@@ -26,20 +25,20 @@ It's usually better to use a Substance 3D asset instead of bitmaps, as it is a l
 
 it is good to keep the following in mind when publishing a Substance graph:
 
-* You<b> publish a package</b>, with all it contents, not an individual [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md). A Substance 3D asset then lets you generate content from all Substance graphs inside this package.
+* You<b> publish a package</b>, with all it contents, not an individual [Substance graph](../../compositing-graphs/substance-compositing-graphs.md). A Substance 3D asset then lets you generate content from all Substance graphs inside this package.
 * Published packages are <b>completely stand-alone</b>: all resources required are embedded into the file. That means they are much easier to share than SBS files.
-* The output from Substance 3D assets can be <b>completely dynamic</b>. [Resolution is not set; exposed parameters can be modified.](../../help/compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) However, editing the Graph is no longer possible.
+* The output from Substance 3D assets can be <b>completely dynamic</b>. [Resolution is not set; exposed parameters can be modified.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) However, editing the Graph is no longer possible.
 * Substance 3D assets can be used outside of Designer, in all Adobe Substance 3D products, Adobe Dimension as well as any other application that has a [Substance integration](https://helpx.adobe.com/substance-3d-integrations/home.html).
-* Publishing is different from[ Exporting](../../help/compositing-graphs/exporting-bitmaps/exporting-bitmaps.md), make sure you understand well the difference.
+* Publishing is different from[ Exporting](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md), make sure you understand well the difference.
 
 ## Preparing to publish
 
 Publishing takes some more preparation than Exporting Bitmaps. That's because your published Substance 3D assets are dynamic tools, not just a static snapshot of the current state of your textures. Specifically, you want to keep the following in mind:
 
-* Make sure graph resolutions ([Output Size](../../help/compositing-graphs/output-size/output-size.md)) are set to the *Relative To parent* [inheritance method](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), which means they are dynamic and can be changed on the fly.
-* Make sure[ graph outputs](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) are set up correctly with names, labels and usage tags.
-* Make sure [Parameters, if needed are organized and named properly.](../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
-* Make sure the [Output size](../../help/compositing-graphs/output-size/output-size.md) property of all [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are set to the *Absolute* [inheritance method](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). If that is not the case, their referenced [Bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md) will be saved at the default <b>256\*256</b> resolution in the published Substance 3D asset file, which will *impact the quality* of one or more outputs.
+* Make sure graph resolutions ([Output Size](../../compositing-graphs/output-size/output-size.md)) are set to the *Relative To parent* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), which means they are dynamic and can be changed on the fly.
+* Make sure[ graph outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) are set up correctly with names, labels and usage tags.
+* Make sure [Parameters, if needed are organized and named properly.](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
+* Make sure the [Output size](../../compositing-graphs/output-size/output-size.md) property of all [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are set to the *Absolute* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). If that is not the case, their referenced [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) will be saved at the default <b>256\*256</b> resolution in the published Substance 3D asset file, which will *impact the quality* of one or more outputs.
 * If graphs are present in the package that should not be available outside of Designer (for example helper or "tool" sub-graphs that only work in a specific context), set them up to be hidden in their properties. See further below.
 
 ## Publishing methods
@@ -103,7 +102,7 @@ The following options are available:
 
 <b>Archive compression</b> sets compression options for the archive, affects filesize.
 
-<b>Generate missing icons</b> uses built-in[ PBR render](../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md) techniques to create thumbnails for each graph's attribute.
+<b>Generate missing icons</b> uses built-in[ PBR render](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md) techniques to create thumbnails for each graph's attribute.
 
 <b>Exposed graphs </b>lists all graphs that will be exposed in this package, see below for excluding graphs.
 
@@ -111,7 +110,7 @@ The following options are available:
 >
 > **Random Seed Exposure**
 > 
-> The Random Seed exposure settings are no longer available in the Publish dialog. Instead, set your [graph's random seed attribute to Absolute instead of relative to avoid it becoming available.](../../help/compositing-graphs/graph-parameters/graph-parameters.md)
+> The Random Seed exposure settings are no longer available in the Publish dialog. Instead, set your [graph's random seed attribute to Absolute instead of relative to avoid it becoming available.](../../compositing-graphs/graph-parameters/graph-parameters.md)
 
 ## Excluding graphs from published asset
 
@@ -137,9 +136,9 @@ To exclude a graph from becoming visible or usable inside an Substance 3D asset 
 The Publish dialog sometimes gives warnings in yellow. Common ones are listed below, with an explanation and solution.
 
 * One or more graphs do not have an output   
-  This warning means you are trying to publish a package with one or more graphs that have no output nodes. Solution is to add [Output nodes ](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)to the graphs with a yellow warning triangle.
+  This warning means you are trying to publish a package with one or more graphs that have no output nodes. Solution is to add [Output nodes ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)to the graphs with a yellow warning triangle.
 * One or more graphs have a non-relative to parent output size parameter   
-  This warning means one or more graphs have been set to incorrect Output sizes. Usually it is the properties of a graph itself. The warning means you will not have dynamic resolution control over this graph when published. Solution is to go into graph properties for those with a yellow triangle, and set the Output Size's [inheritance method](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) to *Relative to Parent*.
+  This warning means one or more graphs have been set to incorrect Output sizes. Usually it is the properties of a graph itself. The warning means you will not have dynamic resolution control over this graph when published. Solution is to go into graph properties for those with a yellow triangle, and set the Output Size's [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) to *Relative to Parent*.
 
 ## Substance 3D asset limitations
 
@@ -147,5 +146,5 @@ While the Substance 3D asset is the most powerful and most dynamic format in the
 
 * Published Substance 3D asset packages are a one-way file format. You cannot "decompile" a Substance 3D asset back to a Substance 3D file (SBS). The only way to "edit" a Substance 3D asset, is to edit the original Substance 3D file. You can still use Substance 3D asset package contents as nodes inside new Substance graphs (open and drag-and-drop), so this is not a huge limitation.
 * Substance 3D asset files have versions that infer compatibility. The core Substance Engine is updated from time to time with new features. packages that use these features need to be read by applications that support these new features. This is not an issue for all Substance Applications, as they are all updated at the same time, but Plugins and integrations might have longer compatibility delays.  
-  Use the Substance Engine Compatibility display options in the [Project Preferences ](../../help/interface/preferences-window/project-settings/project-settings.md)to track down any potential issues.
-* Some exposed parameters – such as *static* parameters – are *hidden* once a graph is published as part of a Substance 3D asset. See the [Limitations](../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) section of the [Exposing a parameter](../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) page for a list of these parameters and to learn more about static parameters in general.
+  Use the Substance Engine Compatibility display options in the [Project Preferences ](../../interface/preferences-window/project-settings/project-settings.md)to track down any potential issues.
+* Some exposed parameters – such as *static* parameters – are *hidden* once a graph is published as part of a Substance 3D asset. See the [Limitations](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) section of the [Exposing a parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) page for a list of these parameters and to learn more about static parameters in general.

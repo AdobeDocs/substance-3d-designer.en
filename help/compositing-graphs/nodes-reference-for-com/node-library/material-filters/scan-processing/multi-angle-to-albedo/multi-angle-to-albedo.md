@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Multi-Angle to Albedo
 
 <table>
@@ -39,7 +38,7 @@ Keep in mind that the more samples you have and the bigger the difference in lig
 
 >[!NOTE]
 >
-> See [Multi-Angle to Normal](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md) for the Normalmap version of this node. If you want to pre-process your inputs, [Multi Color Equalizer](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) and [Multi Clone Patch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) can be useful, as they are intended to be combined with these nodes.
+> See [Multi-Angle to Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md) for the Normalmap version of this node. If you want to pre-process your inputs, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) and [Multi Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) can be useful, as they are intended to be combined with these nodes.
 > 
 > [The blog post "Your Smartphone is a material scanner" illustrates this process a bit better.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 

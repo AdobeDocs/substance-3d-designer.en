@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Perlin noise
 
 <table>

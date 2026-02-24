@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Tile Generator
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Tile generator is one of the most advanced nodes in the library. If you learn to master it, you can create any kind of pattern (within some limitations). As of Version 2017 2.1 there have been some big updates, bringing this node more in line with what [Tile Sampler](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) can do.
+Tile generator is one of the most advanced nodes in the library. If you learn to master it, you can create any kind of pattern (within some limitations). As of Version 2017 2.1 there have been some big updates, bringing this node more in line with what [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) can do.
 
 This node is highly useful for a variety of scenarios, but keep in mind that simply reading parameters will not fully teach you how to use them. We suggest you experiment too!
 

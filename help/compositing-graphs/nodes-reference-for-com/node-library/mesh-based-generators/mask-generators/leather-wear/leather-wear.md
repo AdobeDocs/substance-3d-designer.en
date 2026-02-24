@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Leather Wear
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-This mask represents wear with a leather pattern, with more wear on edges based on Curvature. It is similar to [Fiber Glass Edge Wear](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear/fiber-glass-edge-wear.md) in functionality and has mostly the same parameters.
+This mask represents wear with a leather pattern, with more wear on edges based on Curvature. It is similar to [Fiber Glass Edge Wear](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear/fiber-glass-edge-wear.md) in functionality and has mostly the same parameters.
 
 ## Parameters
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Directional warp
 
 <table>
@@ -33,7 +32,7 @@ Warps an input in a user-set direction, multiplied by a user-set Intensity map. 
 </tr>
 </table>
 
-The Warp node is a fairly simple but useful node that serves as a good basis for other more advanced effects. There are more advanced alternatives such as other related nodes of interest are [Slope Blur](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) and [Vector Warp](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
+The Warp node is a fairly simple but useful node that serves as a good basis for other more advanced effects. There are more advanced alternatives such as other related nodes of interest are [Slope Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) and [Vector Warp](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 
 <table>
 <tr style="border: 0;">

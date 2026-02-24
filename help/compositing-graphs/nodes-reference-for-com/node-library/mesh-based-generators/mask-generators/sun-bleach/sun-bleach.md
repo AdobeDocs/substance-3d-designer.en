@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Sun Bleach
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-This mask is similar to [Light](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md), but has support for AO too, leading to a mask that represents light bleaching and fading on top of an effect.
+This mask is similar to [Light](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md), but has support for AO too, leading to a mask that represents light bleaching and fading on top of an effect.
 
 ## Inputs
 

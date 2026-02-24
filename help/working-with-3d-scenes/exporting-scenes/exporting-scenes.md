@@ -13,12 +13,11 @@ user-guide-title: ""
 ---
 
 
-
 # Exporting scenes
 
-When you need to export the scene with all edits made in Designer, use the 'Export scene...' actions in the [3D View](../../help/interface/3d-view/3d-view.md)'s 'Scene' menu.
+When you need to export the scene with all edits made in Designer, use the 'Export scene...' actions in the [3D View](../../interface/3d-view/3d-view.md)'s 'Scene' menu.
 
-For exports to USD formats, the contents of the scene will match the tree displayed in the [Scene browser](../../help/interface/3d-view/scene-browser/scene-browser.md).
+For exports to USD formats, the contents of the scene will match the tree displayed in the [Scene browser](../../interface/3d-view/scene-browser/scene-browser.md).
 
 For other formats, the contents of the scene and its internal structure will depend on the features supported by the selected file format.
 

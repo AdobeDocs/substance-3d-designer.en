@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Version 12.2
 
 <b>Substance 3D Designer 12.2</b> brings native support of Apple silicon machines (M1), some improvements for Substance model graphs and other small updates. This page will describe all the details concerning this new version.

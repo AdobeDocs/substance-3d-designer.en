@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cube 3D
 
 <table>

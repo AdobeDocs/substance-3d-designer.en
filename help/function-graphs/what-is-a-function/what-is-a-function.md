@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # What is a function ?
 
 Functions in Substance 3D Designer allows the user to generate results using the logic you would otherwise find in a programming language.

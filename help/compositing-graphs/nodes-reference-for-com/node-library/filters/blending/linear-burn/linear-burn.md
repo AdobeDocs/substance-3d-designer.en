@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Linear Burn
 
 <table>

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Multi Crop
 
 <table>
@@ -35,11 +34,11 @@ user-guide-title: ""
 
 ## Description
 
-This is the multi-channel version of Crop. It crops out an area from an image and is mainly intended for use with multi-angle photos, which are then combined with [Multi-Angle to Albedo](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) or [Multi-Angle to Normal](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md).
+This is the multi-channel version of Crop. It crops out an area from an image and is mainly intended for use with multi-angle photos, which are then combined with [Multi-Angle to Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) or [Multi-Angle to Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md).
 
 >[!NOTE]
 >
-> See the original [Crop](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) for more info.
+> See the original [Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) for more info.
 
 ## Parameters
 

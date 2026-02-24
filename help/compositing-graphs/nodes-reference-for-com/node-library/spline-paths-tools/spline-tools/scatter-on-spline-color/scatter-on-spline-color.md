@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Scatter on Spline Color
 
 <table>
@@ -41,7 +40,7 @@ Some aspects of the scattering may be controlled using images from other nodes i
 
 >[!NOTE]
 >
-> See also [Scatter on Spline Grayscale](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md).
+> See also [Scatter on Spline Grayscale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md).
 
 ## Input connectors
 

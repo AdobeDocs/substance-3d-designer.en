@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Sphere Light
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Generates a spherically projected sphere shape. The sphere transformation is driven by a transformation gizmo.
 
-The Sphere Light is quite versatile and has options that allow it to no only generate simple round lights, but also planets or other celestial bodies. If you have no need for the more advanced lighting and rotation options, take a look at [Shape Light](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) instead.
+The Sphere Light is quite versatile and has options that allow it to no only generate simple round lights, but also planets or other celestial bodies. If you have no need for the more advanced lighting and rotation options, take a look at [Shape Light](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) instead.
 
 ## Inputs
 

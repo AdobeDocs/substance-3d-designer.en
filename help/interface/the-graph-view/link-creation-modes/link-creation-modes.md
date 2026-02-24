@@ -13,10 +13,9 @@ user-guide-title: ""
 ---
 
 
-
 # Link creation modes
 
-In [Substance graphs](../../../help/compositing-graphs/substance-compositing-graphs.md), you may connect nodes using one of 3 <b>link creation modes</b>:
+In [Substance graphs](../../../compositing-graphs/substance-compositing-graphs.md), you may connect nodes using one of 3 <b>link creation modes</b>:
 
 <table>
 <tr style="border: 0;">

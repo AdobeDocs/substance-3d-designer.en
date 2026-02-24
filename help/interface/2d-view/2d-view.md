@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 2D view
 
 This pages describes the user interface and features of the **2D View** panel in Substance 3D Designer.
@@ -25,7 +24,7 @@ This pages describes the user interface and features of the **2D View** panel in
 The [2D View](https://substance3d.adobe.com/) is one of the main panels of Designer's user interface. Its main purposes are the following:
 
 * displaying *value* or *image* output by a specified *node* or going through a specified *node connector*
-* displaying [bitmaps](../../help/resources/bitmap-resource/bitmap-resource.md) and [vector graphics](../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) [resources](../../help/resources/resources.md)
+* displaying [bitmaps](../../resources/bitmap-resource/bitmap-resource.md) and [vector graphics](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) [resources](../../resources/resources.md)
 * displaying *additional information* about the content it currently holds, such as color channels or exact color values
 * controlling parameters' *gizmos*
 
@@ -36,21 +35,21 @@ When a displayed image or value is modified, the 2D View *updates automatically*
 
 >[!WARNING]
 >
-> All mentions of actions made on *nodes* in this section only apply to [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md).
+> All mentions of actions made on *nodes* in this section only apply to [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md).
 
 The most straightforward way to display any image in the 2D View is to double-click *LMB*...
 
-* ...on a [Bitmap](../../help/resources/bitmap-resource/bitmap-resource.md) or [vector graphics](../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) resource in the [Explorer](../../help/interface/the-explorer-window/the-explorer-window.md)
-* ...on a node or node connector in the [Graph View](../../help/interface/the-graph-view/the-graph-view.md)
+* ...on a [Bitmap](../../resources/bitmap-resource/bitmap-resource.md) or [vector graphics](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) resource in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md)
+* ...on a node or node connector in the [Graph View](../../interface/the-graph-view/the-graph-view.md)
 
-Images can also be *dragged and dropped* directly into the viewport by holding *LMB* on a [resource](../../help/resources/resources.md) in the [Explorer](../../help/interface/the-explorer-window/the-explorer-window.md) panel, or *RMB* on a node in the Graph View.
+Images can also be *dragged and dropped* directly into the viewport by holding *LMB* on a [resource](../../resources/resources.md) in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel, or *RMB* on a node in the Graph View.
 
 In the Graph View, you can send an image to the 2D View using the <b>View output in 2D View</b> contextual menu option, which is accessed by clicking *RMB*...
 
 * ...on a *node* to display *that node's output*. If the node has more than one output, select the desired output in the submenu
 * ...on *empty space* in the Graph View to display *that graph's output*. If the graph has more than one output, select the desired output in the submenu
 
-When loading a graph, its *first output* is automatically displayed in the 2D View by default. You can disable this behaviour in the [Preferences](../../help/interface/preferences-window/preferences-window.md). Go to <b>Edit &gt; Preferences &gt; Graph &gt; Substance compositing graph</b> and *uncheck* the <b>View output in 2D view when opening a graph</b> option.
+When loading a graph, its *first output* is automatically displayed in the 2D View by default. You can disable this behaviour in the [Preferences](../../interface/preferences-window/preferences-window.md). Go to <b>Edit &gt; Preferences &gt; Graph &gt; Substance compositing graph</b> and *uncheck* the <b>View output in 2D view when opening a graph</b> option.
 
 ## Viewport
 
@@ -97,14 +96,14 @@ Using a trackpad (macOS only)
 > * Mouse wheel up *pulls* the image closer
 > * Alt+RMB and drag up *pushes* the image away
 > 
-> The zoom direction can be inverted in the [Preferences](../../help/interface/preferences-window/preferences-window.md).
+> The zoom direction can be inverted in the [Preferences](../../interface/preferences-window/preferences-window.md).
 
 The image native *resolution*, *color format* and *bit depth* appear in the bottom left area of the viewport.
 
 In addition to navigation, the viewport offers the following features:
 
 * Tiled display: *repeats the image* in the viewport in a tiled pattern. This is useful for checking how a pattern or texture will repeat. It is enabled using the **Space bar** or ![](2d-view-icon-tiling.png) **Tiled display** button
-* Physical size display: Displays the image with a *ratio* matching the [Physical size](../../help/compositing-graphs/graph-parameters/graph-parameters.md) property of the graph It is enabled using the ![](2d-view-icon-physical-size.png) **Physical size ratio** button
+* Physical size display: Displays the image with a *ratio* matching the [Physical size](../../compositing-graphs/graph-parameters/graph-parameters.md) property of the graph It is enabled using the ![](2d-view-icon-physical-size.png) **Physical size ratio** button
 * Keep view size: This option *locks the display scale* so it stays consistent throughout different images. It is *enabled by default* and can be disabled using the ![](2d-view-icon-lock-scale.png) **Keep view size** button
 
 ## Main toolbar
@@ -144,7 +143,7 @@ The image currently displayed can be *exported to an image file*. Press the ![](
 While the image will be exported as its *native resolution* – which is displayed in the bottom left area of the viewport – the *bit depth* and *color format* will *depend on the image format* selected. For instance, 32-bit floating point precision images can only be exported at their full data range with image formats which support this precision, such as TIFF, EXR and HDR. If the image format does not support the data, clamping and/or color banding are likely to occur in the exported image.  
 In general, be mindful of which precision and features are offered by the image formats you intend to use – floating point support, ICC profiles, etc.
 
-If either <b>OCIO</b> or <b>Adobe ACE</b> [color management mode](../../help/color-management/color-management.md) is currently used, and additional option is available to select the *color space* of the exported image.
+If either <b>OCIO</b> or <b>Adobe ACE</b> [color management mode](../../color-management/color-management.md) is currently used, and additional option is available to select the *color space* of the exported image.
 
 +++
 
@@ -175,11 +174,11 @@ This feature is *not* available to other nodes, including nodes which have more 
 
 
 
-If the <b>Display UVs in 2D View</b> option is enabled in the <b>Scene</b> menu of the [3D View](../../help/interface/3d-view/3d-view.md) dock, then the UV overlay feature is available in the 2D View.
+If the <b>Display UVs in 2D View</b> option is enabled in the <b>Scene</b> menu of the [3D View](../../interface/3d-view/3d-view.md) dock, then the UV overlay feature is available in the 2D View.
 
 You can enable it using the <b>UV</b> button. ![](2d-view-icon-uv.png)
 
-This displays the UVs of the mesh [currently selected in the 3D View](../../help/interface/3d-view/3d-view.md) as a colored wireframe.
+This displays the UVs of the mesh [currently selected in the 3D View](../../interface/3d-view/3d-view.md) as a colored wireframe.
 
 If material color information is available in the mesh file, then the material color is used as the color of the UV overlay.
 
@@ -289,7 +288,7 @@ The *icon* of the <b>Color channels</b> button *changes* depending on the curren
 >
 > Keyboard shortcuts can only be used if the 2D View panel has focus. You may click on this panel at least once to ensure this is the case.
 > 
-> Since the panel needs focus, these shortcuts *do not interfere* with any *custom shortcuts* you may have set for creating nodes in the graph – learn more about this feature [here](../../help/interface/preferences-window/preferences-window.md).
+> Since the panel needs focus, these shortcuts *do not interfere* with any *custom shortcuts* you may have set for creating nodes in the graph – learn more about this feature [here](../../interface/preferences-window/preferences-window.md).
 
 ![2D View transparency toggle](2d-view-transparency.png "2D View transparency toggle"){width="360px"}
 
@@ -311,7 +310,7 @@ To display *correct colors*, the appropriate transparency mode should be select
 
 For the most accurate representation of color, images are displayed by default in a *color space* which matches the one used by the *monitor*.
 
-The available controls and the effect of the ![](2d-view-icon-color-space.png)/![](2d-view-icon-color-space-linear.png) <b>Color space</b> button will depend on the [Color management mode](../../help/color-management/color-management.md) set in the [Project settings](../../help/interface/preferences-window/project-settings/project-settings.md). Learn more about these controls in the Color management section in this page.
+The available controls and the effect of the ![](2d-view-icon-color-space.png)/![](2d-view-icon-color-space-linear.png) <b>Color space</b> button will depend on the [Color management mode](../../color-management/color-management.md) set in the [Project settings](../../interface/preferences-window/project-settings/project-settings.md). Learn more about these controls in the Color management section in this page.
 
 <table>
 <tr style="border: 0;">
@@ -319,7 +318,7 @@ The available controls and the effect of the ![](2d-view-icon-color-space.png)/!
 
 ## Bitmap painting tools
 
-The <b>Bitmap painting tools</b> are available for [Bitmap resources](../../help/resources/bitmap-resource/bitmap-resource.md) matching these criteria:
+The <b>Bitmap painting tools</b> are available for [Bitmap resources](../../resources/bitmap-resource/bitmap-resource.md) matching these criteria:
 
 * The bitmap uses *8-bit* precision
 * The bitmap resource is *imported* into the package, linked images are *not* supported
@@ -347,7 +346,7 @@ The <b>Bitmap painting tools</b> are available for [Bitmap resources](../../help
 
 ## Vector graphics editor
 
-The <b>Vector graphics editor</b> is available for *imported* [SVG resources](../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), linked resources are *not* supported.
+The <b>Vector graphics editor</b> is available for *imported* [SVG resources](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), linked resources are *not* supported.
 
 >[!NOTE]
 >
@@ -372,11 +371,11 @@ The <b>Vector graphics editor</b> is available for *imported* [SVG resources](..
 
 The <b>2D View</b> offers simple *color management* controls to let you choose which *display color space* should be used when displaying the image.
 
-These controls will adapt to the current [Color management mode](../../help/color-management/color-management.md) set in the [Project settings](../../help/interface/preferences-window/project-settings/project-settings.md), as follows:
+These controls will adapt to the current [Color management mode](../../color-management/color-management.md) set in the [Project settings](../../interface/preferences-window/project-settings/project-settings.md), as follows:
 
 * <b>Legacy:</b> you can disp.lay the image in the ![](2d-view-icon-color-space.png) sRGB or ![](2d-view-icon-color-space-linear.png) Linear sRGB color spaces;
 * <b>Adobe ACE:</b> you can ![](2d-view-icon-color-space.png) *enable* color management and set the most appropriate color space for the *current monitor* as detected by the Adobe ACE engine, or ![](2d-view-icon-color-space-linear.png) *disable* color management and display the image using the Raw color values;
-* <b>OCIO:</b> you can ![](2d-view-icon-color-space.png) *enable* color management and set the most appropriate one for the *current monitor* as detected by the OCIO engine, use the combo box and select any of the *display color spaces* available in the [OCIO configuration file](../../help/color-management/color-management.md) currently used, or ![](2d-view-icon-color-space-linear.png) *disable* color management and display the image using the Raw color values.
+* <b>OCIO:</b> you can ![](2d-view-icon-color-space.png) *enable* color management and set the most appropriate one for the *current monitor* as detected by the OCIO engine, use the combo box and select any of the *display color spaces* available in the [OCIO configuration file](../../color-management/color-management.md) currently used, or ![](2d-view-icon-color-space-linear.png) *disable* color management and display the image using the Raw color values.
 
 >[!WARNING]
 >
@@ -384,4 +383,4 @@ These controls will adapt to the current [Color management mode](../../help/colo
 
 >[!TIP]
 >
-> Go to the [Color management](../../help/color-management/color-management.md) section of this documentation to learn more about this feature and its broader implementation in Designer.
+> Go to the [Color management](../../color-management/color-management.md) section of this documentation to learn more about this feature and its broader implementation in Designer.

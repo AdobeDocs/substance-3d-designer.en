@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Scatter Splines on Splines
 
 <table>
@@ -33,7 +32,7 @@ Places splines along the input parent splines.
 
 The node offers deep customization options for controlling how splines are scattered, and lets you scatter simple straight splines, or your own custom splines.
 
-The node lets you create intricate structures for mapping colors and images using the [Spline Mapper](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md) nodes, or used as a skeleton for placing shapes using the [Scatter on Spline](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md) nodes.
+The node lets you create intricate structures for mapping colors and images using the [Spline Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md) nodes, or used as a skeleton for placing shapes using the [Scatter on Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md) nodes.
 
 </td>
 </tr>

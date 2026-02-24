@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3D renderers
 
 The 3D View offers four renderers:
@@ -83,7 +82,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 
 >[!TIP]
 >
-> You can select the renderer used by default when starting a new 3D View in the ['3D view' section of the project settings](../../../help/interface/preferences-window/project-settings/project-settings.md).
+> You can select the renderer used by default when starting a new 3D View in the ['3D view' section of the project settings](../../../interface/preferences-window/project-settings/project-settings.md).
 
 <table>
 <tr style="border: 0;">
@@ -200,7 +199,7 @@ The Adobe Standard Material is documented in detail in [this section](https://he
 +++
 
 +++AxF SVBRDF
-A shader dedicated for visualising materials extracted from [AxF files](../../../help/resources/axf-appearance-exchange/axf-appearance-exchange-format.md) and using the <b>SVBRDF</b> representation.
+A shader dedicated for visualising materials extracted from [AxF files](../../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) and using the <b>SVBRDF</b> representation.
 
 Two techniques are available for visualizing height:
 
@@ -210,7 +209,7 @@ Two techniques are available for visualizing height:
 
 This shader is currently a *work in progress* and provides an overview of the materials' characteristics, but should not be used for fine adjustments and some features are still unsupported.
 
-Please switch to the [Iray](../../../help/interface/3d-view/iray/iray.md) renderer and use the <b>mdl::alg::materials &gt; svbrdf</b> MDL shader for a more accurate visualization.
+Please switch to the [Iray](../../../interface/3d-view/iray/iray.md) renderer and use the <b>mdl::alg::materials &gt; svbrdf</b> MDL shader for a more accurate visualization.
 
 +++
 
@@ -300,7 +299,7 @@ Unlit debug shader to visualize texture maps without any lighting. Only uses a '
 
 +++
 
-Designer also offers the possibilty to configure your own shaders for the OpenGL renderer [using GLSLFX files](../../../help/interface/3d-view/glslfx-shaders/glslfx-shaders.md).
+Designer also offers the possibilty to configure your own shaders for the OpenGL renderer [using GLSLFX files](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md).
 
 >[!IMPORTANT]
 >
@@ -314,7 +313,7 @@ Designer also offers the possibilty to configure your own shaders for the OpenGL
 
 >[!NOTE]
 >
-> The Iray renderer is documented in [this dedicated section](../../../help/interface/3d-view/iray/iray.md).
+> The Iray renderer is documented in [this dedicated section](../../../interface/3d-view/iray/iray.md).
 
 >[!IMPORTANT]
 >

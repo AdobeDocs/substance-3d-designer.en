@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3D Simplex Noise
 
 <table>
@@ -34,7 +33,7 @@ user-guide-title: ""
 ## Description
 
 Generates a procedural noise when a baked Position Map is plugged into the input slot. It is meant for use with the GPU engine only.  
-Similar to [3D Perlin Noise](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), but faster and simpler, for cases when performance and speed matter.
+Similar to [3D Perlin Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), but faster and simpler, for cases when performance and speed matter.
 
 This noise can be tested with [Cube 3D GBuffers](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers) as input instead of an actual baked map (as seen in the Example Image below).
 

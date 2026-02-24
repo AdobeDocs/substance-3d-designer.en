@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 1-Click
 
-This category only contains [Bitmap to Material Light](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/bitmap-to-material-light/bitmap-to-material-light.md). It is intended for single-click, very easy material generation.
+This category only contains [Bitmap to Material Light](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/1-click/bitmap-to-material-light/bitmap-to-material-light.md). It is intended for single-click, very easy material generation.

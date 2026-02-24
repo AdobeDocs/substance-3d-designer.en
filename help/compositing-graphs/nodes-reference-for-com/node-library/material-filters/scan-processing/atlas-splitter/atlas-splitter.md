@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Atlas Splitter
 
 <table>
@@ -33,7 +32,7 @@ Takes an atlas image input and splits out all separate elements as *individual m
 
 It can also be used to reorganize and move all elements into a grid.
 
-The node works as an advanced application of the [Flood Fill](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) node.
+The node works as an advanced application of the [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) node.
 
 </td>
 </tr>

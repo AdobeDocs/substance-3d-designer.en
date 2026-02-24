@@ -13,12 +13,11 @@ user-guide-title: ""
 ---
 
 
-
 # Overriding scene materials
 
 When working with 3D scenes with existing materials, it is necessary to override these materials in order to replace them with your own.
 
-Your material can be built from scratch, or an adjusted version of a scene's material which has been [extracted into a Substance graph](../../help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
+Your material can be built from scratch, or an adjusted version of a scene's material which has been [extracted into a Substance graph](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
 ![Overriding a scene material, tweaking it and resetting it to its scene state](tweakOverriddenMaterial.gif "Overriding a scene material, tweaking it and resetting it to its scene state"){zoomable="yes"}
 

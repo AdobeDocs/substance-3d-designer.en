@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Flood Fill to Position
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Generates a per-tile position map from a [Flood Fill](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base.
+Generates a per-tile position map from a [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base.
 
 The color of each tile represents its X- and Y-coordinate center, stored in the Red and Green channels. This map is intended as a base for further calculations, rather than a ready-to-use map.
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cells 3
 
 <table>
@@ -37,7 +36,7 @@ A variation of the <b>Cells</b> walled noises.
   
 The intersection of discs produces cells with thin walls of uneven softness.
 
-See also: [Cells 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md), [Cells 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md), [Cells 4](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-4/cells-4.md)
+See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md), [Cells 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md), [Cells 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-4/cells-4.md)
 
 </td>
 </tr>

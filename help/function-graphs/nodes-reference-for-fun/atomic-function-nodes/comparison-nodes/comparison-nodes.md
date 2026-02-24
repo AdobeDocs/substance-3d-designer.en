@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Comparison nodes
 
 Comparison nodes compares the the result of the upper input, to the the result of the lower input.

@@ -13,16 +13,15 @@ user-guide-title: ""
 ---
 
 
-
 # Overview
 
 In some cases the total filesize of [Substance 3D assets (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) can be an important factor. This page covers a few critical areas and settings to keep in mind when trying to reduce filesize.
 
-Filesize is mostly determined by [embedded bitmaps.](../../help/resources/bitmap-resource/bitmap-resource.md) They are files that are linked, embedded or baked and added to the  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) file (SBS) as a resource. Only bitmaps that are used in a graph i.e. connected to an output either directly or through the node chain are published in the Substance 3D asset. In an Substance 3D file, bitmaps have no impact on filesize, as all bitmap resources are still stored outside of the file.
+Filesize is mostly determined by [embedded bitmaps.](../../resources/bitmap-resource/bitmap-resource.md) They are files that are linked, embedded or baked and added to the  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) file (SBS) as a resource. Only bitmaps that are used in a graph i.e. connected to an output either directly or through the node chain are published in the Substance 3D asset. In an Substance 3D file, bitmaps have no impact on filesize, as all bitmap resources are still stored outside of the file.
 
 >[!IMPORTANT]
 >
-> Make sure the [Output size](../../help/compositing-graphs/output-size/output-size.md) property of all [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are set to the *Absolute* [inheritance method](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). If that is not the case, their referenced [Bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md) will be saved at the default 256\*256 resolution in the published Substance 3D asset file, which will *impact the quality* of one or more outputs.
+> Make sure the [Output size](../../compositing-graphs/output-size/output-size.md) property of all [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are set to the *Absolute* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). If that is not the case, their referenced [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) will be saved at the default 256\*256 resolution in the published Substance 3D asset file, which will *impact the quality* of one or more outputs.
 
 ## Filesize Factors
 
@@ -38,7 +37,7 @@ Obviously has a large effect. Use the smallest resolution possible, keeping mind
 +++File color mode
 Set in your Image Editor before export, the color mode also has an effect on filesize when using Raw bitmap format. Grayscale only bitmaps are smaller than RGB(A) images.
 
-*Found in: external software, or import/re-export bitmap in Designer while setting up [Output nodes](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) correctly.*
+*Found in: external software, or import/re-export bitmap in Designer while setting up [Output nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) correctly.*
 
 +++
 
@@ -52,7 +51,7 @@ The file format of your images makes a difference, though it can be ignored in s
 +++Usage in graph
 What mode you set the Bitmap node to also has an effect on how Designer will compress the file, using a Grayscale mode file as a color bitmap in the graph will result in larger files. Make sure to set these correctly!
 
-*Found in:[ Bitmap Node properties.](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)*
+*Found in:[ Bitmap Node properties.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)*
 
 +++
 

@@ -13,14 +13,13 @@ user-guide-title: ""
 ---
 
 
-
 # Material properties
 
-This pages presents common properties of the shader used in the [3D View](../../../help/interface/3d-view/3d-view.md) of Substance 3D Designer.
+This pages presents common properties of the shader used in the [3D View](../../../interface/3d-view/3d-view.md) of Substance 3D Designer.
 
 ## Overview
 
-The [3D View](../../../help/interface/3d-view/3d-view.md) renders the surface of models using a program called a *shader*. The shader defines the material applied to the model using a list of properties which impact various aspects of the model's appearance.
+The [3D View](../../../interface/3d-view/3d-view.md) renders the surface of models using a program called a *shader*. The shader defines the material applied to the model using a list of properties which impact various aspects of the model's appearance.
 
 The <b>Materials</b> menu of the 3D View lets you check which shader is used for each of the scene's materials.
 
@@ -49,7 +48,7 @@ This shader's properties are sorted into the following groups:
   The amount of repetition of the texture both horizontally and vertically  
   *Default - 1.0*
 * <b>UV Scale Enabled</b> *Boolean*  
-  Modulates the tiling against the [Physical Size](../../../help/compositing-graphs/graph-parameters/graph-parameters.md) of the [Substance graph](../../../help/compositing-graphs/substance-compositing-graphs.md) which was last applied in the 3D View  
+  Modulates the tiling against the [Physical Size](../../../compositing-graphs/graph-parameters/graph-parameters.md) of the [Substance graph](../../../compositing-graphs/substance-compositing-graphs.md) which was last applied in the 3D View  
   *Default - False*
 
 ![Adjusting material surface properties](3dview-material-base-surface.gif "Adjusting material surface properties")

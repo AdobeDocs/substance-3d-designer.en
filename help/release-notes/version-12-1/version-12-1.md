@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Version 12.1
 
 **Substance 3D Designer 12.1** brings a lot of new nodes for Substance material graphs, USD file format support and add more interoperability with Stager.

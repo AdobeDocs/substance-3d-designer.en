@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Bakers
 
 Baking refer to the action of **transferring mesh based information into textures**. These information are then read by shaders and/or Substance filters to generate more advanced effects or textures.

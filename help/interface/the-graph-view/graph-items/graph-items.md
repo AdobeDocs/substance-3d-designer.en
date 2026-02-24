@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Graph items
 
 Graph items are special objects that help you organize your graphs, improve their readability and accelerate navigating through them.
@@ -22,14 +21,14 @@ Graph items are special objects that help you organize your graphs, improve thei
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Dot node icon](graphatomic-dot.png){width="128px"}](../../../help/interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![Dot node icon](graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Dot node (also Portal)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Frame icon](graphatomic-frame.png){width="128px"}](../../../help/interface/the-graph-view/graph-items/frame/frame.md)
+[![Frame icon](graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Frame
 
@@ -56,14 +55,14 @@ Group nodes with label and color-coding, then move them easily.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Comment icon](graphatomic-comment.png){width="128px"}](../../../help/interface/the-graph-view/graph-items/comment/comment.md)
+[![Comment icon](graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Comment
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Navigation pin icon](graphatomic-pin.png){width="128px"}](../../../help/interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![Navigation pin icon](graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Pin
 

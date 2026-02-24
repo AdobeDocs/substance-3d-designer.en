@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Gradient Linear 1
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Simple black-and-white linear gradient. Gives a perfectly smooth, interpolated result for a perfect gradient transition.
 
-Despite its simplicity, this is an extremely useful pattern that can be used as a building block with many other nodes! Try it together with a [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), for example.
+Despite its simplicity, this is an extremely useful pattern that can be used as a building block with many other nodes! Try it together with a [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), for example.
 
 ## Parameters
 

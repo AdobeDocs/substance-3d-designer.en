@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Flood Fill to Gradient
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Transforms a [Flood Fill](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base into (randomly oriented) gradients. Very useful for creating a Heightmap where tiles are randomly tilted and sloped.
+Transforms a [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base into (randomly oriented) gradients. Very useful for creating a Heightmap where tiles are randomly tilted and sloped.
 
 ## Parameters
 

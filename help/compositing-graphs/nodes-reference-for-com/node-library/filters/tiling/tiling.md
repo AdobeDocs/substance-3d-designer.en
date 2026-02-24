@@ -13,14 +13,13 @@ user-guide-title: ""
 ---
 
 
-
 # Tiling
 
-The tiling category contains nodes used for improving the tiling of textures. Keep in mind that there are other nodes available for this in [Scan Processing](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md).
+The tiling category contains nodes used for improving the tiling of textures. Keep in mind that there are other nodes available for this in [Scan Processing](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md).
 
 Use the navigation list on the left to browse all nodes under <b>Tiling</b>.
 
 There are two nodes in this category:
 
-* [Make It Tile Patch](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md)
-* [Make It Tile Photo](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md)
+* [Make It Tile Patch](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md)
+* [Make It Tile Photo](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md)

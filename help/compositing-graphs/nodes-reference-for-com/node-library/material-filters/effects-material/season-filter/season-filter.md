@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Season Filter
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 This node adds effects such as an animated water level, snow, ice and/or moss.
 
-Keep in mind that this is an older filter that is not intended to be fully PBR-correct. It is mostly kept for legacy/compatibility reasons, although it can still be useful in some cases. More recent PBR-correct versions can be found in [Snow Cover](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) and [Water Level](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md).
+Keep in mind that this is an older filter that is not intended to be fully PBR-correct. It is mostly kept for legacy/compatibility reasons, although it can still be useful in some cases. More recent PBR-correct versions can be found in [Snow Cover](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) and [Water Level](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md).
 
 The node requires a proper set of material inputs, mainly with a decently detailed Heightmap or Normalmap.
 

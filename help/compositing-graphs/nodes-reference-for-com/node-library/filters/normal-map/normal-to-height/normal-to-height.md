@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Normal to Height
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-A reverse-conversion node that attempts to convert a tangent-space Normalmap back into a Heightmap. This is the slightly simpler version; [Normal to Height HQ](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md) has more options.
+A reverse-conversion node that attempts to convert a tangent-space Normalmap back into a Heightmap. This is the slightly simpler version; [Normal to Height HQ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md) has more options.
 
 Useful for when you only have a Normalmap source, yet still want to perform operations combining it with a Heightmap. Keep in mind that this will never be able to provide a 100% correct result, as information is lost by nature of the process when Height is converted to Normal. If you tune the settings accordingly, this Non-HQ version does do a decent job of converting simple details.
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Packaging plugins
 
 ## Plugin package contents

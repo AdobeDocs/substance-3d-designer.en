@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Physical Sun/Sky
 
 <table>

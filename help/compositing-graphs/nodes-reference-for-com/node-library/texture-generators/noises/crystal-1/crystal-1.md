@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Crystal 1
 
 <table>

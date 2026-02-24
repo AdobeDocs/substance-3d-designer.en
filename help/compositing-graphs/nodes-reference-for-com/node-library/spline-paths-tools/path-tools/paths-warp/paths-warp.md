@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Paths Warp
 
 <table>
@@ -29,7 +28,7 @@ user-guide-title: ""
 
 ## Description
 
-Deform the input Paths according to the <b>Gradient Input</b>. (Same effect as the [Warp](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) node.)
+Deform the input Paths according to the <b>Gradient Input</b>. (Same effect as the [Warp](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) node.)
 
 </td>
 </tr>
@@ -38,15 +37,15 @@ Deform the input Paths according to the <b>Gradient Input</b>. (Same effect as t
 ## Input connectors
 
 <b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
+A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
 
 <b>Gradient Input</b> *Grayscale*  
-The height-like input controlling both the amount and the direction of warping. (Same effect as the [Warp](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) node.)
+The height-like input controlling both the amount and the direction of warping. (Same effect as the [Warp](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) node.)
 
 ## Output connectors
 
 <b>Paths</b> *Color*  
-The tranformed Paths. You can either use [Preview Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
+The tranformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
 
 ## Parameters
 

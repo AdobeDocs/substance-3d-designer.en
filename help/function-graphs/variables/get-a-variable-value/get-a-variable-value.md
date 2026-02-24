@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Get a variable value
 
 In order to use a variable in a function, you need to "call" it, meaning to need to import the value of the variable into the function.

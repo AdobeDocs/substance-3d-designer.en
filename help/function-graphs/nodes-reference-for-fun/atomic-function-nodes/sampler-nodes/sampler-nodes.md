@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Sampler nodes
 
 ![Sampler nodes](image2016-1-12-14-45-43.png "Sampler nodes")

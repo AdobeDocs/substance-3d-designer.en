@@ -13,12 +13,11 @@ user-guide-title: ""
 ---
 
 
-
 # Warnings in MDL graphs
 
 This page lists warnings and errors messages which may be triggered by MDL graphs in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), and offers common troubleshooting steps for each.
 
-Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, as well as in the bottom left corner of the [Graph view](../../help/interface/the-graph-view/the-graph-view.md) if the graph is loaded.
+Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, as well as in the bottom left corner of the [Graph view](../../interface/the-graph-view/the-graph-view.md) if the graph is loaded.
 
 >[!NOTE]
 >

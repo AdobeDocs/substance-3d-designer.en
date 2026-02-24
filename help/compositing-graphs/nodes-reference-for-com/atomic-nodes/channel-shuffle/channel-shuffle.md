@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Channels shuffle
 
 <table>
@@ -35,7 +34,7 @@ Essentially it allows you to pack and swap RGB channels in any possible way. Gra
 </tr>
 </table>
 
-Channel Shuffle has basic options, but in most cases of Channel-packing or Stripping and setting Alpha Channels it is quicker to use [RGBA Merge](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), [RGBA Split](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), [Alpha Merge](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) and [Alpha Split](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). They are set up to do default actions that do not require changing multiple parameters and converting to Grayscale afterwards. If you're after a more advanced version with more blending options, look at [Channel Mixer](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
+Channel Shuffle has basic options, but in most cases of Channel-packing or Stripping and setting Alpha Channels it is quicker to use [RGBA Merge](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), [RGBA Split](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), [Alpha Merge](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) and [Alpha Split](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). They are set up to do default actions that do not require changing multiple parameters and converting to Grayscale afterwards. If you're after a more advanced version with more blending options, look at [Channel Mixer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
 
 <table>
 <tr style="border: 0;">

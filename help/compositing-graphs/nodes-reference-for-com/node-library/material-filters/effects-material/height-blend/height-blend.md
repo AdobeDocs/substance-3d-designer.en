@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Height Blend
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Combines two Heightmaps based on their height information. Generates a blended Heightmap, but also a Black and White mask that can be used elsewhere.
 
-This is useful when you have two high-quality Heightmaps to combine, but not necessarily a full material, as is required for [Material Height Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md).
+This is useful when you have two high-quality Heightmaps to combine, but not necessarily a full material, as is required for [Material Height Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md).
 
 ## Parameters
 

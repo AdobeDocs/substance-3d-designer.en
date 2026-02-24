@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Shape Glow
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-Creates a soft glow around an input mask (for the grayscale version) or a shape with an alpha channel (for the color version). Compared to [Glow](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md), this works in ways more similar to other 2D image editing software, as it is a more complete effect with more controls.
+Creates a soft glow around an input mask (for the grayscale version) or a shape with an alpha channel (for the color version). Compared to [Glow](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md), this works in ways more similar to other 2D image editing software, as it is a more complete effect with more controls.
 
 ## Parameters
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Best Practices
 
 In specific areas it makes sense to pay extra attention regarding organisation, efficiency, performance and filesize. This section covers a few of these specific cases

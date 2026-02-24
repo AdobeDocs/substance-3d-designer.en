@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Gaussian noise
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 A smooth noise born from the combination of gradients where values transition from black to white following a normal distribution, akin to a bell curve.
 
-See also: [Gaussian spots 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md), [Gaussian spots 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
+See also: [Gaussian spots 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md), [Gaussian spots 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
 
 </td>
 </tr>

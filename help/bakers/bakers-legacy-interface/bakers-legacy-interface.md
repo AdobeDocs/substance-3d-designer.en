@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Bakers Legacy Interface
 
 Here is the description of the baker interface available in  [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) versions before 6.0.4.

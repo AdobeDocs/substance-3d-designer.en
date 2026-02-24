@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # HDR Merge
 
 <table>

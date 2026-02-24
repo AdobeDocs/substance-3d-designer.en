@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Gaussian spots 2
 
 <table>
@@ -34,9 +33,9 @@ user-guide-title: ""
 ## Description
 
 A variation of the smooth <b>Gaussian spots</b> noises.  
-Based on the [Gaussian noise](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md) node, with narrower gradients and higher frequencies.
+Based on the [Gaussian noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md) node, with narrower gradients and higher frequencies.
 
-See also: [Gaussian spots 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md)
+See also: [Gaussian spots 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md)
 
 </td>
 </tr>

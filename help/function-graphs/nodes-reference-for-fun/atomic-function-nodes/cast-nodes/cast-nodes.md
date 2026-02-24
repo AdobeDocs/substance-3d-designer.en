@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cast nodes
 
 Cast nodes are used to convert a node from a type to another type:

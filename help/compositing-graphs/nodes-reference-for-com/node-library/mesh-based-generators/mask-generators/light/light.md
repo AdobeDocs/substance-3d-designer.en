@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Light
 
 <table>

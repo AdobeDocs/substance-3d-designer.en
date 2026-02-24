@@ -13,16 +13,15 @@ user-guide-title: ""
 ---
 
 
-
 # Bitmap resource
 
-A bitmap resource is a resource in a Substance Package. It is different from the [atomic bitmap node. The atomic Bitmap node](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) is a specific representation of that bitmap inside[ a Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md).
+A bitmap resource is a resource in a Substance Package. It is different from the [atomic bitmap node. The atomic Bitmap node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) is a specific representation of that bitmap inside[ a Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
 
 Bitmaps are some of the most common non-Graph resources in Substance 3D Designer, usually their usage falls in one of the following categories:
 
-* A baked map, either [baked internally by Designer](../../help/bakers/bakers.md), or externally by another application.
+* A baked map, either [baked internally by Designer](../../bakers/bakers.md), or externally by another application.
 * A helper texture, like a pattern, grunge map or decal.
-* A simple grayscale mask for blending, either created internally using [the bitmap node](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md), or with an external app.
+* A simple grayscale mask for blending, either created internally using [the bitmap node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md), or with an external app.
 
 ## Bitmap storage
 
@@ -30,7 +29,7 @@ Bitmaps are usually the largest resource that Designer deals with. That's why it
 
 ### In Substance 3D files (SBS)
 
-How bitmaps are stored in SBS depends on if you [Link or Import them, make sure you are familiar with the concept first.](../../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md) Imported bitmaps can be edited using the [Bitmap painting tools](../../help/resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
+How bitmaps are stored in SBS depends on if you [Link or Import them, make sure you are familiar with the concept first.](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) Imported bitmaps can be edited using the [Bitmap painting tools](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
 Unlike SVG (Vector Graphics) Resources, Bitmaps are always stored externally, even when created as a new resource, or imported. For new Substance Packages, they are kept in memory, until the .SBS file is saved to disk. Once saved to disk, bitmaps are stored in a */resources* folder next to the SBS file.
 
@@ -54,17 +53,17 @@ Bitmap Resources in a package have a number of attributes that you can customize
 | --- | --- |
 | Identifier | Used for referencing the bitmap resource in a package, must be unique. |
 | File path | The path on disk of the bitmap referenced by the resource. |
-| Description | The description displayed in the [Explorer](../../help/interface/the-explorer-window/the-explorer-window.md) and [Library](../../help/interface/the-library/the-library.md) tooltips for this resource. |
-| Category | Used for [sorting and curating the resource](../../help/interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../help/interface/the-library/the-library.md). |
-| Label | Used for [sorting and curating the resource](../../help/interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../help/interface/the-library/the-library.md). |
-| Author | Used for [sorting and curating the resource](../../help/interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../help/interface/the-library/the-library.md). |
-| Author URL | Used for [sorting and curating the resource](../../help/interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../help/interface/the-library/the-library.md). |
-| Tags | Used for [sorting and curating the resource](../../help/interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../help/interface/the-library/the-library.md). |
+| Description | The description displayed in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) and [Library](../../interface/the-library/the-library.md) tooltips for this resource. |
+| Category | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
+| Label | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
+| Author | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
+| Author URL | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
+| Tags | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
 | User data | Optional extra data, not used on bitmaps. |
-| Show in Library | Determines if bitmap should be hidden in [the Library view.](../../help/interface/the-library/the-library.md) |
-| Bitmap format | Either Raw or Jpeg, has great effect on SBSAR filesize. See our [filesize reduction guidelines](../../help/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) to learn more. |
+| Show in Library | Determines if bitmap should be hidden in [the Library view.](../../interface/the-library/the-library.md) |
+| Bitmap format | Either Raw or Jpeg, has great effect on SBSAR filesize. See our [filesize reduction guidelines](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) to learn more. |
 | Bitmap compression quality | Only has an affect with Jpeg compression, determines quality/filesize balance. |
 
 ## Filesize reduction
 
-See the [Filesize reduction guidelines](../../help/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) page in the [Best practices](../../help/best-practices/best-practices.md) section for our recommendations regarding minizing the filesize of bitmaps embedded into [published Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+See the [Filesize reduction guidelines](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) page in the [Best practices](../../best-practices/best-practices.md) section for our recommendations regarding minizing the filesize of bitmaps embedded into [published Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).

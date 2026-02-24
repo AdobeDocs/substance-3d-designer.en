@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Directional scratches
 
 <table>

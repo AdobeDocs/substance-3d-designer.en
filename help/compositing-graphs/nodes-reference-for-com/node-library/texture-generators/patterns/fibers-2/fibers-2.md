@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Fibers 2
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Simple cloth-like pattern. Can be used for mesh, cloth or other organic Height- and Detailmaps. Also see [Fibers 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/fibers-1/fibers-1.md) for a smaller version.
+Simple cloth-like pattern. Can be used for mesh, cloth or other organic Height- and Detailmaps. Also see [Fibers 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/fibers-1/fibers-1.md) for a smaller version.
 
 ## Parameters
 

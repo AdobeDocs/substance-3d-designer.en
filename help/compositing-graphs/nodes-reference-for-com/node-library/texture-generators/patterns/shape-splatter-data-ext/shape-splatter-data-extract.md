@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Shape Splatter Data Extract
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Data separator/splitter utility for [Shape Splatter](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data. Allows converting and displaying of individual data to do custom calculations, to verify data or to learn more about Shape Splatter.
+Data separator/splitter utility for [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data. Allows converting and displaying of individual data to do custom calculations, to verify data or to learn more about Shape Splatter.
 
 ## Parameters
 

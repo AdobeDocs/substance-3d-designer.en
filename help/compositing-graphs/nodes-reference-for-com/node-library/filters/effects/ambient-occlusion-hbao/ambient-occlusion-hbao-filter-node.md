@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Ambient Occlusion (HBAO) (Filter Node)
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Takes a Heightmap as input and generates an Ambient Occlusion map from that. It uses Horizon-Based Ambient Occlusion, an algorithm originally intended for screen-space realtime AO-generation. Very useful for creating procedural AO maps from procedural Heightmaps.
 
-For an alternative, more advanced but slower version of AO, see [Ambient Occlusion (RTAO)](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
+For an alternative, more advanced but slower version of AO, see [Ambient Occlusion (RTAO)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
 
 ## Parameters
 

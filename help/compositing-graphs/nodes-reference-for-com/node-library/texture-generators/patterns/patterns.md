@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Patterns
 
 Patterns are artificial graphics that look man-made. They mostly follow rules for their placement, but random variation can be introduced most of the time.
@@ -26,9 +25,9 @@ Use the <b>navigation list on the left</b> to browse all nodes under Patterns.
 
 Some good patterns to start with are:
 
-* [Shape](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md)
-* [Polygon 2](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-2/polygon-2.md)
-* [Tile generator](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)
-* [Tile random 2](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-random-2/tile-random-2.md)
-* [Shape mapper](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md)
-* [Shape extrude](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md)
+* [Shape](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md)
+* [Polygon 2](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-2/polygon-2.md)
+* [Tile generator](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)
+* [Tile random 2](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-random-2/tile-random-2.md)
+* [Shape mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md)
+* [Shape extrude](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md)

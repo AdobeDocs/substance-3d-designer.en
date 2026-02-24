@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Gradient Linear (HDRI)
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Creates a Linear gradient across the centre and with a user-placed point. The end result is adjusted for spherical projection, unlike the regular [Gradient Linear 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md).
+Creates a Linear gradient across the centre and with a user-placed point. The end result is adjusted for spherical projection, unlike the regular [Gradient Linear 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md).
 
 ## Parameters
 

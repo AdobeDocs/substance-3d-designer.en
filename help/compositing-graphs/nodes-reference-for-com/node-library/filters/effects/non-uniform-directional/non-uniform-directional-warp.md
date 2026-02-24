@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Non Uniform Directional Warp
 
 <table>
@@ -33,9 +32,9 @@ user-guide-title: ""
 
 ## Description
 
-Non-Uniform Direction Warp is an advanced version of [Directional Warp](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) that allows the intensity and direction of the warp to be driven by an image input. It Allows for much more control and can create very useful and interesting image distortion, in the same vain as [Slope Blur](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
+Non-Uniform Direction Warp is an advanced version of [Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) that allows the intensity and direction of the warp to be driven by an image input. It Allows for much more control and can create very useful and interesting image distortion, in the same vain as [Slope Blur](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
-It differs from [Multi Directional Warp](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) in that it allows control over the Angle through a custom Map input, whereas Multi Directional Warp only allows Direction to be controlled through parameters. This means that you can create advanced trailing and curving effects that are not possible otherwise.
+It differs from [Multi Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) in that it allows control over the Angle through a custom Map input, whereas Multi Directional Warp only allows Direction to be controlled through parameters. This means that you can create advanced trailing and curving effects that are not possible otherwise.
 
 ## Parameters
 

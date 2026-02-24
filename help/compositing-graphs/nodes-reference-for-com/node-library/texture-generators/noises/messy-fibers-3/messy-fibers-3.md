@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Messy fibers 3
 
 <table>
@@ -31,7 +30,7 @@ user-guide-title: ""
 
 A variation of the <b>Messy fibers</b> structured noises.
 
-See also: [Messy fibers 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-1/messy-fibers-1.md), [Messy fibers 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-2/messy-fibers-2.md)
+See also: [Messy fibers 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-1/messy-fibers-1.md), [Messy fibers 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-2/messy-fibers-2.md)
 
 </td>
 </tr>

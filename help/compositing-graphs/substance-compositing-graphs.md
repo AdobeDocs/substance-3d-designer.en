@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Substance graphs
 
 <table>
@@ -29,7 +28,7 @@ user-guide-title: ""
 
 The results can be in the form of a simple black-and-white pattern, a filter that only runs on other images and doesn't generate content by itself, or even a full-fledged procedural material with multiple channels.
 
-Substance graphs are[ the most widely supported type of graph](../help/getting-started/overview/overview.md), and can be exported and used in a plethora of different workflows.
+Substance graphs are[ the most widely supported type of graph](../getting-started/overview/overview.md), and can be exported and used in a plethora of different workflows.
 
 </td>
 </tr>
@@ -44,7 +43,7 @@ Below you can find some typical examples of common usecases.
 
 
 
-A simple mask shape for a decal is created by generating[ a piece of text](../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) and a [disc shape](../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extracting the edge](../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) from the disc and the finally [blending them together](../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) before setting them as final [output](../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+A simple mask shape for a decal is created by generating[ a piece of text](../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) and a [disc shape](../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extracting the edge](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) from the disc and the finally [blending them together](../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) before setting them as final [output](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 The Text with the number, or the thickness of the edge can be exposed externally to make this a more dynamic graph.
 
@@ -55,7 +54,7 @@ The Text with the number, or the thickness of the edge can be exposed externally
 
 
 
-A filter graph takes a normal map as [input ](../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(with a custom preview), [converts it to curvature](../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) and then [adjusts the contrast](../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) to create a mask of convex edges as final [output](../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+A filter graph takes a normal map as [input ](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(with a custom preview), [converts it to curvature](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) and then [adjusts the contrast](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) to create a mask of convex edges as final [output](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 The contrast values set in the Histogram can be exposed, making this a simple but useful filter in combination with the dynamic Input slot.
 
@@ -66,8 +65,8 @@ The contrast values set in the Histogram can be exposed, making this a simple bu
 
 
 
-A more complicated graph[ blends two Base materials](../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). One[ Base material](../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) is kept simple, the other uses some custom inputs to add interest. A mask is used to determine which of the two materials appear where before being set as final [outputs](../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+A more complicated graph[ blends two Base materials](../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). One[ Base material](../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) is kept simple, the other uses some custom inputs to add interest. A mask is used to determine which of the two materials appear where before being set as final [outputs](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
-This example makes use of [Link Creation Modes](../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md) to simplify using multiple links.
+This example makes use of [Link Creation Modes](../interface/the-graph-view/link-creation-modes/link-creation-modes.md) to simplify using multiple links.
 
 +++

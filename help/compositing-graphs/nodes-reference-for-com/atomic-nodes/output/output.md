@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Output
 
 <table>
@@ -27,19 +26,19 @@ user-guide-title: ""
 
 The Output node specifies the <b>result</b> of a Substance graph, or one of its results if more than one Output node is present in it.
 
-The image or value connected to a graph's Output node is  output by any [instance node](../../../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) representing this graph, and can [exported as a graph output](../../../../help/compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).
+The image or value connected to a graph's Output node is  output by any [instance node](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) representing this graph, and can [exported as a graph output](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).
 
 </td>
 </tr>
 </table>
 
-Similarly, when a [published SBSAR file](../../../../help/compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) includes this graph, then that file can output that image in any integration or plugin which consumes the file.
+Similarly, when a [published SBSAR file](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) includes this graph, then that file can output that image in any integration or plugin which consumes the file.
 
 It has a single input slot that is type-agnostic, which means it types itself after the data type connected to it.
 
 It has no parameters, but rather attributes that are of great importance for properly labeling the output and putting it to its intended use.
 
-Every Substance graph must have *at least one* Output node. If no output exists, the graph can never return an actual result and a [warning](../../../../help/technical-issues/warnings-and-errors/warnings-and-errors.md) is raised.
+Every Substance graph must have *at least one* Output node. If no output exists, the graph can never return an actual result and a [warning](../../../../technical-issues/warnings-and-errors/warnings-and-errors.md) is raised.
 
 <table>
 <tr style="border: 0;">
@@ -85,17 +84,17 @@ Every Substance graph must have *at least one* Output node. If no output exist
 
 |  |  |
 | --- | --- |
-| <b>Identifier</b> *String* | The unique identifier of the output. This property cannot be left blank and cannot contain special characters or spaces.   The identifier is used as the node's label is the 'Label' property is left blank. It may also be used to name [exported textures](../../../../help/compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
+| <b>Identifier</b> *String* | The unique identifier of the output. This property cannot be left blank and cannot contain special characters or spaces.   The identifier is used as the node's label is the 'Label' property is left blank. It may also be used to name [exported textures](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). |
 | <b>Description</b> *String* | Optional description used as the output's tooltip is Substance graphs.. |
-| <b>Label</b> *String* | This is used as a label for the output node, and its corresponding connector in [instance nodes](../../../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) representing this graph. The label may contain spaces and special characters. |
+| <b>Label</b> *String* | This is used as a label for the output node, and its corresponding connector in [instance nodes](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) representing this graph. The label may contain spaces and special characters. |
 | <b>User data</b> *String* | Optional metadata that may be used for specific filtering operations. [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) make use of this data to [drive some features](https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/user-data.html).. |
-| <b>Group</b> *String* | Attribute used to group outputs together for Designer's [link creation modes](../../../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md).   Outputs with an identical 'Group' attribute are presented as a single connection in the 'Compact Material' link creation mode. |
+| <b>Group</b> *String* | Attribute used to group outputs together for Designer's [link creation modes](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).   Outputs with an identical 'Group' attribute are presented as a single connection in the 'Compact Material' link creation mode. |
 
 ## Integration attributes
 
-These are attributes which are meant to be used by integrations/plugins which consume the graph in a [published SBSAR file](../../../../help/compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
+These are attributes which are meant to be used by integrations/plugins which consume the graph in a [published SBSAR file](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
-As such, they have no impact on the format of [bitmap exports](../../../../help/compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Additionally, only the <b>Usage</b> attribute is used in Designer, see below for details.
+As such, they have no impact on the format of [bitmap exports](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md). Additionally, only the <b>Usage</b> attribute is used in Designer, see below for details.
 
 <b>Usage</b>
 
@@ -109,9 +108,9 @@ As such, they have no impact on the format of [bitmap exports](../../../../help/
 
 Since graph outputs are often intended to be the final result for a specific texture channel, outputs can be automatically sent to the appropriate sampler of the shader used in the 3D View.
 
-Indeed, an output which <b>Usage</b> property *matches a sampler usage* in the 3D View will be connected to that sampler. E.g., an Output with a `basecolor` usage will be connected to the `basecolor` sampler of the 3D View shader. Learn more in the [View data in the 3D View](../../../../help/interface/3d-view/3d-view.md) section of the [3D View](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion) page.
+Indeed, an output which <b>Usage</b> property *matches a sampler usage* in the 3D View will be connected to that sampler. E.g., an Output with a `basecolor` usage will be connected to the `basecolor` sampler of the 3D View shader. Learn more in the [View data in the 3D View](../../../../interface/3d-view/3d-view.md) section of the [3D View](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion) page.
 
-Click RMB on an empty area in the [Graph view](../../../../help/interface/the-graph-view/the-graph-view.md) and select the <b>View outputs in 3D view</b> option in the contextual menu to connect all outputs to 3D View samplers with *matching usages*.
+Click RMB on an empty area in the [Graph view](../../../../interface/the-graph-view/the-graph-view.md) and select the <b>View outputs in 3D view</b> option in the contextual menu to connect all outputs to 3D View samplers with *matching usages*.
 
 >[!IMPORTANT]
 >
@@ -123,7 +122,7 @@ When a graph has more than one output, one of those can be set as the default ou
 
 * The thumbnail of any instance node representing that graph
 * Viewing these instance nodes in the 2D View
-* The thumbnail of that graph in the Library (learn about adding your own resources [here](../../../../help/interface/preferences-window/project-settings/project-settings.md))
+* The thumbnail of that graph in the Library (learn about adding your own resources [here](../../../../interface/preferences-window/project-settings/project-settings.md))
 
 This feature lets you arrange graph outputs in any order independently from how the graph will be visualised as a node.
 

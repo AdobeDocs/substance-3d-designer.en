@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Switching your shaders to OpenGL Core Profile
 
 Since version 2018.2.0, the 3D viewport uses OpenGL Core Profile.  

@@ -13,9 +13,8 @@ user-guide-title: ""
 ---
 
 
-
 # Using Functions in FXMaps
 
-* [Iterate and $number variable](../../../help/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-var/iterate-and-number-variable.md)
-* [Using the Sampler nodes](../../../help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes/using-the-sampler-nodes.md)
-* [Using the Set/Sequence nodes](../../../help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)
+* [Iterate and $number variable](../../../function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-var/iterate-and-number-variable.md)
+* [Using the Sampler nodes](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes/using-the-sampler-nodes.md)
+* [Using the Set/Sequence nodes](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Mosaic
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-"Facetises" an existing, smooth, sloping gradient map by performing a multi-pass [Warp](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) effect. When the same map is used for both inputs, it essentially grows and accentuates the brightest areas.
+"Facetises" an existing, smooth, sloping gradient map by performing a multi-pass [Warp](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) effect. When the same map is used for both inputs, it essentially grows and accentuates the brightest areas.
 
 This is useful for adding more definition to grayscale maps such as Heightmap, as it can introduce more definition to shapes.
 

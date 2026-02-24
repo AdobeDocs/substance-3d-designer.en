@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Paths Vertex Processor
 
 <table>
@@ -48,16 +47,16 @@ You can also access the *prev&#91;2&#93;.pos* (Float2), *next&#91;2&#93;.pos*
 
 >[!TIP]
 >
-> For advanced users, the [Paths Format Specification](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md) explains how the data of paths is encoded into color images, and provides tips for manipulating this data directly.
+> For advanced users, the [Paths Format Specification](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md) explains how the data of paths is encoded into color images, and provides tips for manipulating this data directly.
 
 >[!NOTE]
 >
-> See also [Paths Vertex Processor Simple](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md).
+> See also [Paths Vertex Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md).
 
 ## Input connectors
 
 <b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another*Path*-processing node.
+A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another*Path*-processing node.
 
 <b>Input &#35;</b> *Color/Grayscale*  
 Inputs for images that should be sampled in the <b>Per Vertex Function</b> parameter function.
@@ -65,7 +64,7 @@ Inputs for images that should be sampled in the <b>Per Vertex Function</b> param
 ## Output connectors
 
 <b>Paths</b> *Color*  
-The transformed Paths. You can either use [Preview Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
+The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
 
 ## Parameters
 

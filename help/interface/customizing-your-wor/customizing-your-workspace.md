@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Customizing your workspace
 
 This page presents the ways of arranging the panels in [Adobe Substance 3D Designer's](https://www.adobe.com/products/substance3d-designer.html) user interface, and leveraging their features to enhance your workflows.

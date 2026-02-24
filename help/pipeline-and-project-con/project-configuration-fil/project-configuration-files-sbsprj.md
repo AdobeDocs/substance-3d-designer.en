@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Overview
 
 <table>
@@ -73,9 +72,9 @@ Project configurations are, like all other types, saved as structured XML files 
 
 ## Inside Substance 3D Designer
 
-See the [Project settings](../../help/interface/preferences-window/project-settings/project-settings.md) page to learn more about managing project files and changing project settings.
+See the [Project settings](../../interface/preferences-window/project-settings/project-settings.md) page to learn more about managing project files and changing project settings.
 
-Project files also include custom <b>categories</b> and <b>filters</b> for the [Library](../../help/interface/the-library/the-library.md), which you can learn more about in the [Managing custom content and filters](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) page.
+Project files also include custom <b>categories</b> and <b>filters</b> for the [Library](../../interface/the-library/the-library.md), which you can learn more about in the [Managing custom content and filters](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) page.
 
 ## Edit XML Externally
 
@@ -87,7 +86,7 @@ Once you open the SBSPRJ file in an editor, you should see a fairly straightforw
 
 ## Relative paths and aliases
 
-Relative paths combined with aliases are one of the more complicated, yet most important parts of a project configuration, this section will clarify them. Adding custom aliases for a specific project file is done in the [Project Settings](../../help/interface/preferences-window/project-settings/project-settings.md).
+Relative paths combined with aliases are one of the more complicated, yet most important parts of a project configuration, this section will clarify them. Adding custom aliases for a specific project file is done in the [Project Settings](../../interface/preferences-window/project-settings/project-settings.md).
 
 One of the major problems with files referencing other files in a system across multiple user's PC, is that absolute filepaths will not work. Users can define their SVN repositories in completely different locations (eg. C:/John/Gamedev/SubstanceLibrary or D:/Dev/SubstanceLibrary). Aliases and relative paths both work together to solve this problem. Otherwise, you might open someone else's file and it will try to look for the custom node used in the specific location that user had it locally, which you probably won't have defined in exactly the same way.
 

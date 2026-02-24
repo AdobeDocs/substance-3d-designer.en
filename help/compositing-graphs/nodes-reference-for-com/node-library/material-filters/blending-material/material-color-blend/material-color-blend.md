@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Color Blend
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-This node allows for adjustments to a Multi Channel, Full Material by blending solid colors on top. This is the main difference with [Material Adjustment Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md), which only allows for [Levels](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)-type adjustments to channels, whereas this node uses [Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)-type adjustments with a solid color.
+This node allows for adjustments to a Multi Channel, Full Material by blending solid colors on top. This is the main difference with [Material Adjustment Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md), which only allows for [Levels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)-type adjustments to channels, whereas this node uses [Blend](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)-type adjustments with a solid color.
 
 This node is most useful when you want to either introduce a flat color hint into Diffuse or Base Color, or went you want to "flatten" out other channels by using a set, solid color value.
 

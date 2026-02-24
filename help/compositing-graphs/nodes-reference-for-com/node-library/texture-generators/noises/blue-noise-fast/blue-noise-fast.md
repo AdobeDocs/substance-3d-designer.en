@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Blue Noise Fast
 
 <table>

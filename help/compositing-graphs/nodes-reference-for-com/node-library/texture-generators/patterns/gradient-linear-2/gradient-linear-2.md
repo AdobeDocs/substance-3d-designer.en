@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Gradient Linear 2
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Simple, smooth double-sided gradient. Gives a perfect black-white-black gradient with perfect interpolation.
 
-Despite its simplicity, it's very useful and can serve many purposes. Try it together with a [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), for example!
+Despite its simplicity, it's very useful and can serve many purposes. Try it together with a [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), for example!
 
 ## Parameters
 

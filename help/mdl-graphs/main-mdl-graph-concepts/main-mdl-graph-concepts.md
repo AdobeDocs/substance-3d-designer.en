@@ -13,10 +13,9 @@ user-guide-title: ""
 ---
 
 
-
 # Main MDL graph concepts
 
-This page presents the main concepts which are *specific* to [MDL graphs](../../help/mdl-graphs/mdl-graphs.md) and should be well understood for making the most of this graph type in Substance 3D Designer.
+This page presents the main concepts which are *specific* to [MDL graphs](../../mdl-graphs/mdl-graphs.md) and should be well understood for making the most of this graph type in Substance 3D Designer.
 
 <table>
 <tr style="border: 0;">
@@ -24,7 +23,7 @@ This page presents the main concepts which are *specific* to [MDL graphs](../../
 
 ## Iray
 
-MDL materials use a description meant for physically-based rendering solutions., which the [Iray](../../help/interface/3d-view/iray/iray.md) renderer embedded in Designer supports. Therefore, displaying the result of an MDL graph *requires the Iray renderer* to be selected in an active [3D view](../../help/interface/3d-view/3d-view.md) panel.
+MDL materials use a description meant for physically-based rendering solutions., which the [Iray](../../interface/3d-view/iray/iray.md) renderer embedded in Designer supports. Therefore, displaying the result of an MDL graph *requires the Iray renderer* to be selected in an active [3D view](../../interface/3d-view/3d-view.md) panel.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,9 +34,9 @@ MDL materials use a description meant for physically-based rendering solutions.,
 </tr>
 </table>
 
-When creating or loading an MDL graph, the first [unpinned](../../help/interface/customizing-your-wor/customizing-your-workspace.md) 3D view panel found by Designer will *automatically switch* to the [Iray](../../help/interface/3d-view/iray/iray.md) renderer. If no 3D view is available, a *new* 3D view panel will be created and switched to the Iray renderer to host the rendering of the MDL material being edited.
+When creating or loading an MDL graph, the first [unpinned](../../interface/customizing-your-wor/customizing-your-workspace.md) 3D view panel found by Designer will *automatically switch* to the [Iray](../../interface/3d-view/iray/iray.md) renderer. If no 3D view is available, a *new* 3D view panel will be created and switched to the Iray renderer to host the rendering of the MDL material being edited.
 
-When the Iray renderer is selected in a 3D view panel, that panel’s Materials menu lets you switch between available MDL materials, which include materials loaded in the Explorer panel and materials in Designer’s MDL library. Learn more about working with MDL materials in Iray in the [Iray](../../help/interface/3d-view/iray/iray.md) section of this documentation.
+When the Iray renderer is selected in a 3D view panel, that panel’s Materials menu lets you switch between available MDL materials, which include materials loaded in the Explorer panel and materials in Designer’s MDL library. Learn more about working with MDL materials in Iray in the [Iray](../../interface/3d-view/iray/iray.md) section of this documentation.
 
 ## Root node
 
@@ -103,7 +102,7 @@ You may want to keep in mind the *rules* applied for filtering:
 
 ## Graph inputs and textures
 
-MDL materials can receive data from external sources, in the form of values and textures for instance. This is achieved by <b>exposing a node</b>, contrary to the [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md) where dedicated input nodes exist for this purpose.
+MDL materials can receive data from external sources, in the form of values and textures for instance. This is achieved by <b>exposing a node</b>, contrary to the [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) where dedicated input nodes exist for this purpose.
 
 Data can be passed to the exposed node depending on its *type*. For instance, Float values can be passed to an exposed <b>float</b> node, and a texture can be passed to an exposed <b>color</b> node (in this case, the sampled pixel’s RGBA values are passed as a color value).
 

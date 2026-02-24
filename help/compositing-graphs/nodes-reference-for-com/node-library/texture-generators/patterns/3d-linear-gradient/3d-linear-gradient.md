@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3D Linear Gradient
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Creates a volumetric gradient based on input Position map. Effectively generates a transition from black to white between 2 points in 3D Space. Intened for use with the GPU engine only.
 
-Also see [3D Volume Mask](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) for a similar effect.
+Also see [3D Volume Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) for a similar effect.
 
 ## Parameters
 

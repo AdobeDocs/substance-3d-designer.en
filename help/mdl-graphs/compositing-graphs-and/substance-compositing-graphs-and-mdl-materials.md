@@ -13,16 +13,15 @@ user-guide-title: ""
 ---
 
 
-
 # Substance graphs and MDL materials
 
-This pages describes the synergies between [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md) and MDL graphs, and how to connect textures from Substance graph [outputs](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) to MDL graph inputs.
+This pages describes the synergies between [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) and MDL graphs, and how to connect textures from Substance graph [outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) to MDL graph inputs.
 
 ## Overview
 
 The outputs of Substance graphs can be *passed to exposed parameters* of MDL materials in two ways, which are described in this page.
 
-If the MDL material currently applied in the 3D view has exposed parameters which type is *[varying](../../help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* – this type may be set using the <b>Type modifier</b> option in the [exposed parameter's properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), these can be connected to *textures*:
+If the MDL material currently applied in the 3D view has exposed parameters which type is *[varying](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* – this type may be set using the <b>Type modifier</b> option in the [exposed parameter's properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), these can be connected to *textures*:
 
 * a <b>Color</b> parameter can be connected to RGBA textures
 * a <b>Float</b> parameter for Grayscale textures
@@ -48,7 +47,7 @@ Substance graph instances can be placed directly into MDL graphs by dragging the
 
 
 
-*[Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md) instance from [Substance 3D file](../../help/getting-started/overview/overview.md) (SBS) in MDL graph*
+*[Substance graph](../../compositing-graphs/substance-compositing-graphs.md) instance from [Substance 3D file](../../getting-started/overview/overview.md) (SBS) in MDL graph*
 
 +++
 
@@ -57,7 +56,7 @@ Substance graph instances can be placed directly into MDL graphs by dragging the
 
 
 
-*[Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md) instance from [Substance 3D asset](../../help/getting-started/overview/overview.md) (SBSAR) in MDL graph*
+*[Substance graph](../../compositing-graphs/substance-compositing-graphs.md) instance from [Substance 3D asset](../../getting-started/overview/overview.md) (SBSAR) in MDL graph*
 
 +++
 

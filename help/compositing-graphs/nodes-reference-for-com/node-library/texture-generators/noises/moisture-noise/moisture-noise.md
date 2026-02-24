@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Moisture noise 1
 
 <table>
@@ -37,7 +36,7 @@ A variation of the rich and spongy <b>Moisture</b> noises.
   
 Discs of varying hardness and size and scattered and add or subtract from the color below, starting from a base gray.
 
-See also: [Moisture noise 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
+See also: [Moisture noise 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
 
 </td>
 </tr>

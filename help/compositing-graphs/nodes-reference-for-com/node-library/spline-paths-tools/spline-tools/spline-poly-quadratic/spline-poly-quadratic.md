@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Spline (Poly Quadratic)
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Generates a spline along several points. The amount and locations of these points may be arbitrary or gathered from a [Point List](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/point-list/point-list.md) node.
+Generates a spline along several points. The amount and locations of these points may be arbitrary or gathered from a [Point List](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/point-list/point-list.md) node.
 
 </td>
 </tr>
@@ -114,7 +113,7 @@ The smoothing applied to the spline at the start and end points is specified by 
 Inverts the direction of the spline.
 
 <b>Use Input Point List</b> *Boolean*Use the list of points supplied to the Input Point List and Point Number input connectors instead of an arbitrary list of points.  
-The list of points can be supplied by a [Point List](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/point-list/point-list.md) node.
+The list of points can be supplied by a [Point List](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/point-list/point-list.md) node.
 
 <b>Connect Start to Input Spline</b> *Boolean*When True, the start of the generated spline is connected to the last point of the last spline in the input splines.
 

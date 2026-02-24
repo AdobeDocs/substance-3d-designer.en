@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # What is a Substance 3D File?
 
 ![Parametric brick wall material](MaterialsOverview.gif "Parametric brick wall material")

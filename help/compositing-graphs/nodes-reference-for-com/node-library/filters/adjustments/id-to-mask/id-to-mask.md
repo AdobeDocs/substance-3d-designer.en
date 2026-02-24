@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # ID To Mask Grayscale
 
 <table>

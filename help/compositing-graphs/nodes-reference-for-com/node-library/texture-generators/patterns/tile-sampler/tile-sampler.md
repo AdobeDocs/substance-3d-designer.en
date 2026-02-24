@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Tile Sampler
 
 <table>
@@ -33,11 +32,11 @@ user-guide-title: ""
 
 ## Description
 
-Tile Sampler is the ultimate tile-pattern generating node. It's an evolved, more complex version of [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). As of 2017 2.1, the differences are much smaller between Tile Sampler and [Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). The main differences are now only in the seven different map slots which are available for driving Scale, Position, Rotation, Size, Color and Masking. Their effect can be blended in separately.
+Tile Sampler is the ultimate tile-pattern generating node. It's an evolved, more complex version of [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). As of 2017 2.1, the differences are much smaller between Tile Sampler and [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). The main differences are now only in the seven different map slots which are available for driving Scale, Position, Rotation, Size, Color and Masking. Their effect can be blended in separately.
 
 Tile Sampler is useful for creating man-made procedural patterns, with additional control over certain parameters driven by external input maps.
 
-Make sure you are familiar with [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) before moving on to Tile Sampler. In most cases, you'll find [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) suffices and you won't need the added complexity of Tile Sampler.
+Make sure you are familiar with [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) before moving on to Tile Sampler. In most cases, you'll find [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) suffices and you won't need the added complexity of Tile Sampler.
 
 ## Parameters
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Gradient Radial
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Similar to [Gradient Circular](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-circular/gradient-circular.md), creates a grayscale gradient transition defined by two custom points in a radial fashion. The transition is from a to b, defined by centerpoint and radius. Keep in mind results will not always tile.
+Similar to [Gradient Circular](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-circular/gradient-circular.md), creates a grayscale gradient transition defined by two custom points in a radial fashion. The transition is from a to b, defined by centerpoint and radius. Keep in mind results will not always tile.
 
 ## Parameters
 

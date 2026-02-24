@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3D Worley Noise
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-One of the most versatile and advanced noises in the library, it generates a Worley noise in 3D space, based on an input Position map. Has plenty of options that make it much more powerful than the standard [Cells ](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)or [Distance ](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)based noises.
+One of the most versatile and advanced noises in the library, it generates a Worley noise in 3D space, based on an input Position map. Has plenty of options that make it much more powerful than the standard [Cells ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)or [Distance ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)based noises.
 
 ## Parameters
 

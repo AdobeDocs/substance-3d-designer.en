@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Height Blend
 
 <table>
@@ -33,11 +32,11 @@ user-guide-title: ""
 
 ## Description
 
-This node is a more advanced version of [Height Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md) that blends two materials based on their Heightmaps. There is no user-defined mask, so you must have two Heightmaps, one for each material, of which at least one is not a uniform value.
+This node is a more advanced version of [Height Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md) that blends two materials based on their Heightmaps. There is no user-defined mask, so you must have two Heightmaps, one for each material, of which at least one is not a uniform value.
 
 This can be useful for combining two different, high-quality materials without a high-quality blending mask.
 
-If you want to blend in water or snow, the nodes [Snow Cover](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) and [Water Level](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md) are available instead.
+If you want to blend in water or snow, the nodes [Snow Cover](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) and [Water Level](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md) are available instead.
 
 ## Parameters
 

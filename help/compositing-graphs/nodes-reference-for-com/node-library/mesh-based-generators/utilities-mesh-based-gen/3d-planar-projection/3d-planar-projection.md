@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # 3D Planar Projection
 
 <table>

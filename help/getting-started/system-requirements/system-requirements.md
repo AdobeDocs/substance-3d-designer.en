@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Supported systems
 
 Below is a list of hardware and systems supported by the application:

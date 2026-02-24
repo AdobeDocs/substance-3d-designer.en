@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Directional noise 3
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 A variation of the <b>Directional noise</b> noises.
 
-See also: [Directional noise 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-1/directional-noise-1.md), [Directional noise 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-2/directional-noise-2.md), [Directional noise 4](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-4/directional-noise-4.md)
+See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-1/directional-noise-1.md), [Directional noise 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-2/directional-noise-2.md), [Directional noise 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-4/directional-noise-4.md)
 
 </td>
 </tr>

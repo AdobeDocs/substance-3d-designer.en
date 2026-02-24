@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Fabric Weathering
 
 <table>
@@ -36,7 +35,7 @@ user-guide-title: ""
 This is a full-material effect that works on multiple channels at once. It adds a random fabric wear effect, with control for age and dirtiness.  
 This effect does not work very well unless you have proper baked AO and World Space Normalmaps plugged in, since it requires these to adequately calculate and generate everything.
 
-Make sure to fully understand the [Link Creation Modes](../../../../../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md) when working with full materials.
+Make sure to fully understand the [Link Creation Modes](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) when working with full materials.
 
 ## Parameters
 

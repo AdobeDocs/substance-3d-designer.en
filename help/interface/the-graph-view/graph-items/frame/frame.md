@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Frame
 
 <table>
@@ -82,7 +81,7 @@ Type 'frame' in the search field to surface the item and find it more quickly.
 +++
 
 +++Shortcut
-If a keyboard shortcut is mapped to the 'Frame' item in the [Preferences](../../../../help/interface/preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
+If a keyboard shortcut is mapped to the 'Frame' item in the [Preferences](../../../../interface/preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
 
 +++
 
@@ -153,12 +152,12 @@ Hold the <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) key to shift this snapping t
 
 ## Properties
 
-When a frame is selected, the following properties are available in the [Properties](../../../../help/interface/properties/properties.md) dock:
+When a frame is selected, the following properties are available in the [Properties](../../../../interface/properties/properties.md) dock:
 
 +++Title
 The <b>Title</b> resting on the top left of the frame. Its visibility of the title can be toggled on or off by using the <b>Title Visible</b> property.
 
-The size of the title can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../../../help/interface/the-graph-view/the-graph-view.md) toolbar.
+The size of the title can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../../../interface/the-graph-view/the-graph-view.md) toolbar.
 
 ![Frames: Title](graph_frames_title.gif "Frames: Title"){width="640px"}
 
@@ -202,7 +201,7 @@ A frame can be annotated with a text that will be placed inside the frame. The t
 
 The <b>Title</b> is shown in a bold font resting on the top left of the frame. The visibility of the title can be toggled on or off.
 
-Its size can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../../../help/interface/the-graph-view/the-graph-view.md) toolbar.
+Its size can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../../../interface/the-graph-view/the-graph-view.md) toolbar.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -368,7 +367,7 @@ To do this, click <b>RMB</b> on the frame's title or header bar – see [Appeara
 
 >[!NOTE]
 >
-> The option is available if at least *one* graph object meets the frame's [inclusion rules](../../../../help/interface/the-graph-view/graph-items/frame/frame.md).
+> The option is available if at least *one* graph object meets the frame's [inclusion rules](../../../../interface/the-graph-view/graph-items/frame/frame.md).
 
 <table>
 <tr style="border: 0;">

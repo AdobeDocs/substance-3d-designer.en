@@ -13,14 +13,13 @@ user-guide-title: ""
 ---
 
 
-
 # Blending (Material)
 
 The Blending category is one of the most important multi-channel material categories. It contains nodes intended for combining, switching and blending materials that consist of multiple simultaneous outputs.
 
-These nodes can save massive amounts of work, but make sure you fully understand [Link Creation Modes](../../../../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md) to properly utilise them.
+These nodes can save massive amounts of work, but make sure you fully understand [Link Creation Modes](../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) to properly utilise them.
 
 The following nodes are good ones to start with:
 
-* [Multi-Material Blend](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)
-* [Material Adjustment Blend](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)
+* [Multi-Material Blend](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)
+* [Material Adjustment Blend](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)

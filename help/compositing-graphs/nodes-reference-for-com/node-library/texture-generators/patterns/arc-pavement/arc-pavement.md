@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Arc Pavement
 
 <table>
@@ -33,7 +32,7 @@ user-guide-title: ""
 
 ## Description
 
-Generates a Parisian arc pavement pattern. This effect cannot be achieved with standard [Tile Generator ](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)or [Tile Sampler](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md), hence this dedicated node.
+Generates a Parisian arc pavement pattern. This effect cannot be achieved with standard [Tile Generator ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)or [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md), hence this dedicated node.
 
 ## Parameters
 

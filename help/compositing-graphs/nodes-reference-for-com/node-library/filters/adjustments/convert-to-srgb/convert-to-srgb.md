@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Convert to sRGB
 
 <table>

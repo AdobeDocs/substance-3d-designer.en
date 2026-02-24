@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Cross Section
 
 <table>
@@ -37,7 +36,7 @@ Draws a cross-sectional profile of an input. Can be adjusted to slice vertical o
 
 This node is especially useful for debugging and analyzing heightmaps. giving you a pixel-perfect profile view, without needing complex nodes or a lengthy, less precise setup in the 3D View.
 
-Alternatively it can be used to create 2D shapes and silhouettes that are hard to achieve otherwise. Combined with a [Curve node ](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)it can directly visualize the curve profile applied to a linear gradient.
+Alternatively it can be used to create 2D shapes and silhouettes that are hard to achieve otherwise. Combined with a [Curve node ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)it can directly visualize the curve profile applied to a linear gradient.
 
 ## Parameters
 

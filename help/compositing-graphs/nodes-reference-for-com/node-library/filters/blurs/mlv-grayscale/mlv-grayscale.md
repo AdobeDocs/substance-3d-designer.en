@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # MLV grayscale
 
 <table>
@@ -39,7 +38,7 @@ The filter finds structuring areas in an image and uses them to both sharpen and
 
 >[!NOTE]
 >
-> See also [MLV color](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-color/mlv-color.md).
+> See also [MLV color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-color/mlv-color.md).
 
 ## Input connectors
 

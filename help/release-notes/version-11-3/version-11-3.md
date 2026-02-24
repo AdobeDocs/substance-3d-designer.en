@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Version 11.3
 
 **Substance 3D Designer**

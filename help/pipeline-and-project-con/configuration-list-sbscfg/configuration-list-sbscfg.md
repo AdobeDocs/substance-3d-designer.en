@@ -13,14 +13,13 @@ user-guide-title: ""
 ---
 
 
-
 # Configuration List - SBSCFG
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-The Configuration file is much simpler than the [Project Configuration files](../../help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md), as it contains only a list of projects, as well an engine Compatibility mode. They serve as a higher-level project/environment configuration list than the single Project files.
+The Configuration file is much simpler than the [Project Configuration files](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md), as it contains only a list of projects, as well an engine Compatibility mode. They serve as a higher-level project/environment configuration list than the single Project files.
 
 You can have multiple configurations for different environments, these files can be kept under version control along with the SBSPRJ files.
 
@@ -87,7 +86,7 @@ Once you open the SBSCFG file in an editor, you should see a fairly straightforw
 
 Note that the default and user projects are not explicitely listed, and that any additional projects are defined after these.
 
-The example above also makes use of [relative paths](../../help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md). Note that the logic for relative paths is slightly different between CFG and PRJ files: for CFG files, as above, **you should not type "file:/" before the path**. Instead the path is just appended to the location of the CFG file in which it is defined.
+The example above also makes use of [relative paths](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md). Note that the logic for relative paths is slightly different between CFG and PRJ files: for CFG files, as above, **you should not type "file:/" before the path**. Instead the path is just appended to the location of the CFG file in which it is defined.
 
 ## Removing the default library
 

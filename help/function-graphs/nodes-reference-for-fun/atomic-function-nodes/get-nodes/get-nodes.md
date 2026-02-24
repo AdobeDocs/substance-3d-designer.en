@@ -13,20 +13,19 @@ user-guide-title: ""
 ---
 
 
-
 # Variables
 
 Variables are a way of <b>storing values</b> to fetch it later (<b>Get</b>) and/or modify it (<b>Set</b>).
 
 ![Substance function graph - Get float](assign-getfloat.gif "Substance function graph - Get float"){zoomable="yes"}
 
-What a Get node essentially does, is grab a dynamic Variable, and return it from the Get Nodes' output for use in a function. These Get nodes form the link between the Input Parameters defined in the [graph properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) and [parameter functions](../../../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+What a Get node essentially does, is grab a dynamic Variable, and return it from the Get Nodes' output for use in a function. These Get nodes form the link between the Input Parameters defined in the [graph properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) and [parameter functions](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 Every time you use a Get node, you must pick an available value from the dropdown menu. Get nodes will <b>grab a value of the corresponding type</b>. That means you will only see valid options in the menu of a Get node, you can never pick an invalid option. If a variable is not available, it means there's a type mismatch
 
 There are a number of <b>&quot;System&quot; Variables</b>: pre-defined special variables that you can not declare yourself. These are quite important, and for the nodes below it is listed what System variables are available.
 
-When a parameter is [exposed](../../../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), it consists of applying a parameter function on it which only includes a Get node of the correct type.
+When a parameter is [exposed](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), it consists of applying a parameter function on it which only includes a Get node of the correct type.
 
 <table>
 <tr style="border: 0;">
@@ -79,7 +78,7 @@ The name of the variable being fetched is set in the Properties dock.
 > 
 > Several 'Get' nodes will offer built-in variables to access existing values according to the current context – E.g.: the current pixel position in a Pixel processor, the current tiling mode of a node, ...
 > 
-> All built-in variables are listed in [this dedicated page](../../../../help/function-graphs/variables/system-variables/system-variables.md).
+> All built-in variables are listed in [this dedicated page](../../../../function-graphs/variables/system-variables/system-variables.md).
 
 ### Get nodes
 

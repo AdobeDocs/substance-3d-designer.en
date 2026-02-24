@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Material Crop
 
 <table>
@@ -33,11 +32,11 @@ user-guide-title: ""
 
 ## Description
 
-This node is the multi-channel, full material version of [Crop](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md). It allows you to perform a crop operation on any and all Material channels in parallel.
+This node is the multi-channel, full material version of [Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md). It allows you to perform a crop operation on any and all Material channels in parallel.
 
 >[!NOTE]
 >
-> [See the original ](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[Crop](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[ for more info.](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
+> [See the original ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[ for more info.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
 
 ## Parameters
 

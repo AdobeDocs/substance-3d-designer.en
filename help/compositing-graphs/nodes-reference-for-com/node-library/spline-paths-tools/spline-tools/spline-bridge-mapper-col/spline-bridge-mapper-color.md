@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Spline Bridge Mapper Color
 
 <table>
@@ -43,7 +42,7 @@ Maps a color image across a list of input splines so the image traverses the spl
 
 >[!NOTE]
 >
-> See also [Spline Bridge Mapper Grayscale](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md).
+> See also [Spline Bridge Mapper Grayscale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md).
 
 ## Input connectors
 

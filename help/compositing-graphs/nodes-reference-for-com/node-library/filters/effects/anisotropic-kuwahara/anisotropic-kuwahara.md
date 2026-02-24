@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Anisotropic Kuwahara Color
 
 <table>

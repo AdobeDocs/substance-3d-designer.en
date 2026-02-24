@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Tile Random 2
 
 <table>

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Replace Color
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 Hue shifts Source Color towards Target Color.
 
-See [Replace Color Range](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) or [Color Match](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md) for more advanced versions.
+See [Replace Color Range](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) or [Color Match](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md) for more advanced versions.
 
 ## Parameters
 

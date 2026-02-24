@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Lighting Cancel High Frequencies
 
 <table>
@@ -33,9 +32,9 @@ user-guide-title: ""
 
 ## Description
 
-Similar to [Highpass](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md), but more suited for full color images (it doesn't desaturate the result as much), this node tries to cancel out high frequency, small lighting details.
+Similar to [Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md), but more suited for full color images (it doesn't desaturate the result as much), this node tries to cancel out high frequency, small lighting details.
 
-Also see [Lighting Cancel Low Frequencies](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md), and the more advanced, recommended [Luminance Highpass](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md).
+Also see [Lighting Cancel Low Frequencies](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md), and the more advanced, recommended [Luminance Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md).
 
 ## Parameters
 

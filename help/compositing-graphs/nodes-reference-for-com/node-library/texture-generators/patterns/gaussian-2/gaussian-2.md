@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Gaussian 2
 
 <table>

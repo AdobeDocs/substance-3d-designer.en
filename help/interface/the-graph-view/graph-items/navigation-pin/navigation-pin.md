@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Pin
 
 <table>
@@ -45,7 +44,7 @@ Type 'pin' in the search field to surface the item and find it more quickly.
 +++
 
 +++Shortcut
-If a keyboard shortcut is mapped to the 'Pin' item in the [Preferences](../../../../help/interface/preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
+If a keyboard shortcut is mapped to the 'Pin' item in the [Preferences](../../../../interface/preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
 
 +++
 

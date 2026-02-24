@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Safe Transform
 
 <table>
@@ -35,7 +34,7 @@ user-guide-title: ""
 
 ## Description
 
-Tiling-safe version of [Transform 2D](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Allows you to scale, rotate and offset without breaking tiling and without losing pixel detail (loss of crispness/sharpness) due to small offsets and rotations.
+Tiling-safe version of [Transform 2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Allows you to scale, rotate and offset without breaking tiling and without losing pixel detail (loss of crispness/sharpness) due to small offsets and rotations.
 
 Useful for transforming noise when maximum control or perfect sharpness is required.
 

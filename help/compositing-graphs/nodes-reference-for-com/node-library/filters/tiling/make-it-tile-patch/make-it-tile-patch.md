@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Make It Tile Patch
 
 <table>
@@ -39,9 +38,9 @@ This node is a grid-based semi-random tiler. It takes an input patch and stamps 
 
 Useful for when you have a small patch of texture and want to create a larger scale, tiling texture from it.
 
-Keep in mind that this is different from [Make-It-Tile Photo](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md), which mainly fixes up edges.
+Keep in mind that this is different from [Make-It-Tile Photo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md), which mainly fixes up edges.
 
-To do this with an entire material, see [Smart Auto Tile](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md).
+To do this with an entire material, see [Smart Auto Tile](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md).
 
 ## Parameters
 

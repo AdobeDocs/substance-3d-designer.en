@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Value processor
 
 <table>
@@ -25,9 +24,9 @@ user-guide-title: ""
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Computes a [Substance function graph](../../../../help/function-graphs/the-function-graph/the-function-graph.md) and outputs its result.
+Computes a [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) and outputs its result.
 
-It is comparable to a [Pixel processor](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), with the difference that it does not compute a function for every pixel, but rather a single value and makes it [available in a Substance graph](../../../../help/compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
+It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), with the difference that it does not compute a function for every pixel, but rather a single value and makes it [available in a Substance graph](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 </td>
 </tr>
@@ -55,7 +54,7 @@ It is comparable to a [Pixel processor](../../../../help/compositing-graphs/node
 
 >[!TIP]
 >
-> This node is a good starting point for learning about [Substance function graphs](../../../../help/function-graphs/the-function-graph/the-function-graph.md).
+> This node is a good starting point for learning about [Substance function graphs](../../../../function-graphs/the-function-graph/the-function-graph.md).
 > 
 > Also consider that working with this type of graph and performing mathematical operations is mandatory for getting anything out of this node.
 
@@ -78,13 +77,13 @@ It is comparable to a [Pixel processor](../../../../help/compositing-graphs/node
 
 |  |  |
 | --- | --- |
-| <b>Value processor function</b> *Any available value type* | [Substance function graph](../../../../help/function-graphs/the-function-graph/the-function-graph.md) evaluated to compute the output value. |
+| <b>Value processor function</b> *Any available value type* | [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) evaluated to compute the output value. |
 
 ## Input connectors
 
 |  |  |
 | --- | --- |
-| <b>Input image &#35;</b> *Grayscale/Color* | Use a [Sample color](../../../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) or [Sample grayscale](../../../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) node to access the values in the input of the specified index. |
+| <b>Input image &#35;</b> *Grayscale/Color* | Use a [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) or [Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) node to access the values in the input of the specified index. |
 
 ## Output connectors
 

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Tile Random
 
 <table>
@@ -33,9 +32,9 @@ user-guide-title: ""
 
 ## Description
 
-Tile Random generates a procedural tile pattern that has a little bit more chaos in the tile shapes than its counterpart, [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). It does this by randomly splitting certain tiles into smaller tiles. We suggest you first find your way around Tile Generator before tackling Tile Random, as many concepts are similar.
+Tile Random generates a procedural tile pattern that has a little bit more chaos in the tile shapes than its counterpart, [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). It does this by randomly splitting certain tiles into smaller tiles. We suggest you first find your way around Tile Generator before tackling Tile Random, as many concepts are similar.
 
-Tile Random is used instead of [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) when the goal is an older-looking, less organised pattern. It does have its limitations though, so consider [Tile Sampler](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) for any other advanced needs.
+Tile Random is used instead of [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) when the goal is an older-looking, less organised pattern. It does have its limitations though, so consider [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) for any other advanced needs.
 
 ## Parameters
 

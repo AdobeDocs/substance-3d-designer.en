@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Pre-Multiplied to Straight
 
 <table>

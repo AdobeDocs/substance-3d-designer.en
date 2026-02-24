@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Spline (Cubic)
 
 <table>

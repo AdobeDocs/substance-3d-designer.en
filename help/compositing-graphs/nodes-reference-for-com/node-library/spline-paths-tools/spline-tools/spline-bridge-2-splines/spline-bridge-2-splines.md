@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Spline Bridge (2 Splines)
 
 <table>

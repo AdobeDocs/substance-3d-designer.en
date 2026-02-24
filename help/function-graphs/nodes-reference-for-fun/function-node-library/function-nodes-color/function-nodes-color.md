@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Color
 
 Nodes in the 'Color' category let you perform color conversions and tonemapping.

@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Spline Append
 
 <table>
@@ -39,7 +38,7 @@ The order of the lists is preserved, meaning appending a list D-E-F onto a list 
 
 >[!TIP]
 >
-> Be mindful of the order in which you append splines, as this order is taken into account in other nodes, such as [Scatter on Splines](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md), the [Spline Bridge](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) nodes, etc.
+> Be mindful of the order in which you append splines, as this order is taken into account in other nodes, such as [Scatter on Splines](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md), the [Spline Bridge](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) nodes, etc.
 
 ## Input connectors
 

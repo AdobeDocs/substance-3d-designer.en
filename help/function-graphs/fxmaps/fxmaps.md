@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # FXMaps
 
 **The FX-Map node allows the creation of procedural images**. It is one of the most powerful features of the Substance technology.
@@ -22,7 +21,7 @@ An FX-Map represents a special type of graph, known as a Markov Chain. Markov Ch
 
 ## Create FX-Map graphs
 
-If you want to see an FX-Map graph, simply add an [FX-Map node](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) to a [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md), then right-click on the node and press CMD + E (OS X) or CTRL + E (Windows) to open its graph. This FX-Map graph will appear in a new tab on the Graphs panel; you can switch between this graph and the Substance graph by clicking on the tab.
+If you want to see an FX-Map graph, simply add an [FX-Map node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) to a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md), then right-click on the node and press CMD + E (OS X) or CTRL + E (Windows) to open its graph. This FX-Map graph will appear in a new tab on the Graphs panel; you can switch between this graph and the Substance graph by clicking on the tab.
 
 ## What are FX-Maps for?
 

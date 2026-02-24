@@ -13,7 +13,6 @@ user-guide-title: ""
 ---
 
 
-
 # Luminance Highpass
 
 <table>
@@ -33,9 +32,9 @@ user-guide-title: ""
 
 ## Description
 
-Cancels out lighting information by performing a [highpass ](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)on the input's Luminance value. Useful for fixing photographed textures with lighting information. Can be combined in  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) with multiple passes to remove different frequencies of lighting details.
+Cancels out lighting information by performing a [highpass ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)on the input's Luminance value. Useful for fixing photographed textures with lighting information. Can be combined in  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) with multiple passes to remove different frequencies of lighting details.
 
-Does a slightly better job at preserving colors than [Lighting Cancel Low Frequencies.](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)
+Does a slightly better job at preserving colors than [Lighting Cancel Low Frequencies.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)
 
 ## Parameters
 
