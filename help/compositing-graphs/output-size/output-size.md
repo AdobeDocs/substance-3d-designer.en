@@ -7,11 +7,11 @@ helpx_description: Designer > Substance graphs > Output size
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Output size
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Output size

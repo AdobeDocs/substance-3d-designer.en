@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > Warnings and errors
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Warnings and errors
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Warnings and errors

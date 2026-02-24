@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > Parameters not working as expec
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Parameters not working as expected
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Parameters not working as expected

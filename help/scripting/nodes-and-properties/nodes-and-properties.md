@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Nodes and properties
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Nodes and properties
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Nodes and properties

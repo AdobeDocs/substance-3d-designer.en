@@ -7,11 +7,11 @@ helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMa
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Using Functions in FXMaps
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Using Functions in FXMaps

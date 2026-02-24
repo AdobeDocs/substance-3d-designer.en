@@ -7,11 +7,11 @@ helpx_description: Designer > Function graphs > Nodes reference for function gra
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Function node library
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Function node library

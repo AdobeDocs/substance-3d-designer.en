@@ -7,11 +7,11 @@ helpx_description: Designer > Best Practices > Performance optimization guidelin
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Performance optimization guidelines
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Performance optimization guidelines

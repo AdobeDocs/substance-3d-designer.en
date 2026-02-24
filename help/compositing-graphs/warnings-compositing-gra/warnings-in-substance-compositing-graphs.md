@@ -7,11 +7,11 @@ helpx_description: Designer > Substance graphs > Warnings in Substance graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Warnings in Substance graphs
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Warnings in Substance graphs

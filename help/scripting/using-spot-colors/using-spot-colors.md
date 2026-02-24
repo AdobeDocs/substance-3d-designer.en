@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Using spot colors
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Using spot colors
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Using spot colors

@@ -7,11 +7,11 @@ helpx_description: Designer > Resources > Importing, linking and new resources
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Importing, linking and new resources
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Importing, linking and new resources

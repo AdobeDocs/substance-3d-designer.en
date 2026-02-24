@@ -7,11 +7,11 @@ helpx_description: Designer > Best Practices > Graph Creation Etiquette
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Graph Creation Etiquette
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Graph Creation Etiquette

@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > Preferences
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Preferences
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Preferences window

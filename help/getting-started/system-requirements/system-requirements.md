@@ -7,11 +7,11 @@ helpx_description: Designer > Getting started > System requirements
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: System requirements
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Supported systems

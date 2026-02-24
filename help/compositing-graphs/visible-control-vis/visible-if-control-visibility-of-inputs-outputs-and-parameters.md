@@ -7,11 +7,11 @@ helpx_description: Designer > Substance compositing graphs > Exposing a paramete
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Visible if expressions
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Visible if expressions

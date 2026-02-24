@@ -7,11 +7,11 @@ helpx_description: Designer > Pipeline and Project Configuration > Environment v
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Environment variables
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Environment variables

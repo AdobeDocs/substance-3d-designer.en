@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Packaging plugins
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Packaging plugins
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Packaging plugins

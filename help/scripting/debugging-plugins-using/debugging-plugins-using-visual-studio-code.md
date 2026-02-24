@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Debugging plugins using Visual Studio 
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Debugging plugins using Visual Studio Code
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Debugging plugins using Visual Studio Code

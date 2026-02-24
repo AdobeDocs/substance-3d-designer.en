@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > User interface issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: User interface issues
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # User interface issues

@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Using threads
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Using threads
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Using threads

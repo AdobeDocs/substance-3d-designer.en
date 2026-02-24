@@ -7,11 +7,11 @@ helpx_description: Designer > User guide
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: User guide
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # User guide

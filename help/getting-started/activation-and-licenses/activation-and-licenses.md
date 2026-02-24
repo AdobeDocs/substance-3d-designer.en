@@ -7,11 +7,11 @@ helpx_description: Designer > Getting started > Activation and licenses
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Activation and licenses
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Activation process per application type

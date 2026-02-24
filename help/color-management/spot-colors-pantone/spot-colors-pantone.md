@@ -7,11 +7,11 @@ helpx_description: Designer > Color Management > Spot Colors (Pantone)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Spot Colors (Pantone)
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Spot Colors (Pantone)

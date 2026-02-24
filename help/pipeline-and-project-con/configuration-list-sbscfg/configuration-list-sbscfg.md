@@ -7,11 +7,11 @@ helpx_description: Designer > Pipeline and Project Configuration > Configuration
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Configuration List - SBSCFG
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Configuration List - SBSCFG

@@ -7,11 +7,11 @@ helpx_description: Designer > MDL graphs > MDL learning resources
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: MDL learning resources
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # MDL learning resources

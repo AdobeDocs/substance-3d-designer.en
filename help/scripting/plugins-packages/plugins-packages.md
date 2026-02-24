@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Plugins packages
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Plugins packages
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Plugins packages

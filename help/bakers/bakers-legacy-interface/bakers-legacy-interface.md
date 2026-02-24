@@ -7,11 +7,11 @@ helpx_description: Designer > Bakers > Bakers Legacy Interface
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Bakers Legacy Interface
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Bakers Legacy Interface

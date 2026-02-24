@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > Customizing your workspace
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Customizing your workspace
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Customizing your workspace

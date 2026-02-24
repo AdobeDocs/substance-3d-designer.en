@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Creating user interface elements
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Creating user interface elements
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Creating user interface elements

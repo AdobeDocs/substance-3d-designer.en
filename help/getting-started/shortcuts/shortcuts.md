@@ -7,11 +7,11 @@ helpx_description: Designer > Getting started > Shortcuts
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Shortcuts
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Shortcuts

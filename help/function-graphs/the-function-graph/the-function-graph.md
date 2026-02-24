@@ -7,11 +7,11 @@ helpx_description: Designer > Substance function graphs > The Substance function
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: The Substance function graph
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Similarities with a Substance graph

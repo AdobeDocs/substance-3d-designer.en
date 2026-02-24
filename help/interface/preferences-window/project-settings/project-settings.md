@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > Preferences window > Project settings
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Project settings
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Project settings

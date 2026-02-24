@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > 2D view > Color sampler tool
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Color sampler tool
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Color sampler tool

@@ -7,11 +7,11 @@ helpx_description: Designer > Working with 3D scenes > Overriding scene material
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Overriding scene materials
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Overriding scene materials

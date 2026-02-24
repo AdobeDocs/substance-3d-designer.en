@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > 3D view > 3D renderers
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: 3D renderers
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # 3D renderers

@@ -7,11 +7,11 @@ helpx_description: Designer > Function graphs > Sample function graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Sample function graphs
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Sample function graphs

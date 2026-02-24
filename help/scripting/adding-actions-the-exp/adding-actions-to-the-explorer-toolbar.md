@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Adding actions to the Explorer toolbar
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Adding actions to the Explorer toolbar
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Adding actions to the Explorer toolbar

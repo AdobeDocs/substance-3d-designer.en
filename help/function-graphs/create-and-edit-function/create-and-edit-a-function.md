@@ -7,11 +7,11 @@ helpx_description: Designer > Function graphs > Create and edit a function
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Create and edit a function
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Create and edit a function

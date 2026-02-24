@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Scripting API reference
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Scripting API reference
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Scripting API reference

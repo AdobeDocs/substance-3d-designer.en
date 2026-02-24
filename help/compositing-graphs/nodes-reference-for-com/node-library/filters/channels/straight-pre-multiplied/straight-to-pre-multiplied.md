@@ -7,11 +7,11 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Straight to Pre-multiplied
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Straight to Pre-multiplied

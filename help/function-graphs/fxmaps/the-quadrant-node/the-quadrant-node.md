@@ -7,11 +7,11 @@ helpx_description: Designer > Function graphs > FXMaps > The Quadrant Node
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: The Quadrant Node
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # The Quadrant Node

@@ -7,11 +7,11 @@ helpx_description: Designer > Substance compositing graphs > Creating a Substanc
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Graph instances and subgraphs
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Graph instances and subgraphs

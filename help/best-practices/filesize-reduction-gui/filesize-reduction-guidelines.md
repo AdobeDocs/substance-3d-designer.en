@@ -7,11 +7,11 @@ helpx_description: Designer > Best Practices > Filesize Reduction Guidelines
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Filesize Reduction Guidelines
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Overview

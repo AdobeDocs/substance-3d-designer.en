@@ -7,11 +7,11 @@ helpx_description: Designer > Function graphs > Variables > Create a variable
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Create a variable
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Create a variable

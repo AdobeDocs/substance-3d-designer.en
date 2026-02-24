@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > The graph view > Node finder
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Node finder
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Node finder

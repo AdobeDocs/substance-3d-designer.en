@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > Substance model graph feature i
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Substance model graph feature is missing
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Substance model graph feature is missing

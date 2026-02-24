@@ -7,11 +7,11 @@ helpx_description: Designer > MDL graphs > Warnings in MDL graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Warnings in MDL graphs
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Warnings in MDL graphs

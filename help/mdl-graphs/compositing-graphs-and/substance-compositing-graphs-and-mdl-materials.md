@@ -7,11 +7,11 @@ helpx_description: Designer > MDL graphs > Substance graphs and MDL materials
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Substance graphs and MDL materials
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Substance graphs and MDL materials

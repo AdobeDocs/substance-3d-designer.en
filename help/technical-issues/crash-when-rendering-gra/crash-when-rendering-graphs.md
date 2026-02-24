@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > Crash when rendering graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Crash when rendering graphs
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Crash when rendering graphs

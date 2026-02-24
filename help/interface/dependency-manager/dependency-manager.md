@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > Dependency manager
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Dependency manager
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Dependency Manager

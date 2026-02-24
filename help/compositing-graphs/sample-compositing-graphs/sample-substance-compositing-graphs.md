@@ -7,11 +7,11 @@ helpx_description: Designer > Substance graphs > Sample Substance graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Sample Substance graphs
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Sample Substance graphs

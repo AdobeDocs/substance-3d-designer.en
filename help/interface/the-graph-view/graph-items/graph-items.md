@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > Graph view > Graph items
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Graph items
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Graph items

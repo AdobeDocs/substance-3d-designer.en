@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Plugin Manager
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Plugin Manager
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Plugin Manager

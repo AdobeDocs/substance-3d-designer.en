@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > Preferences window > Version control
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Version control
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Version control

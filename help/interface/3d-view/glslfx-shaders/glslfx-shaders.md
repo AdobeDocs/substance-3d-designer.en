@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > 3D View > GLSLFX Shaders
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: GLSLFX Shaders
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # GLSLFX Shaders

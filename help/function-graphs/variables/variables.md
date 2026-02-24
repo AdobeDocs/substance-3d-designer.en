@@ -7,11 +7,11 @@ helpx_description: Designer > Function graphs > Variables
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Variables
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Variables

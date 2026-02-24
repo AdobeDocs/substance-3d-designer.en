@@ -7,11 +7,11 @@ helpx_description: Designer > Release Notes > All changes
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: All changes
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # All changes

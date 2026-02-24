@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > 3D View > Switching your shaders to Op
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Switching your shaders to OpenGL Core Profile
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Switching your shaders to OpenGL Core Profile

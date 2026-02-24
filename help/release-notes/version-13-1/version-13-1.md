@@ -7,11 +7,11 @@ helpx_description: Designer > Release Notes > Version 13.1
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Version 13.1
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Version 13.1

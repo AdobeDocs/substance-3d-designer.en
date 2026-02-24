@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > Application does not start
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Application does not start
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Application does not start

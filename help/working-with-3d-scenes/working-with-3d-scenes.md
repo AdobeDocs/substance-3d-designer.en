@@ -7,11 +7,11 @@ helpx_description: Designer > Working with 3D scenes
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Working with 3D scenes
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Working with 3D scenes

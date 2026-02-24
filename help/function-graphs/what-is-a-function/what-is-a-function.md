@@ -7,11 +7,11 @@ helpx_description: "Designer > Function graphs > What is a function "
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: "What is a function "
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # What is a function ?

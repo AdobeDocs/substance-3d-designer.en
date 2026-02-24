@@ -7,11 +7,11 @@ helpx_description: Designer > Release Notes
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Release Notes
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Release notes

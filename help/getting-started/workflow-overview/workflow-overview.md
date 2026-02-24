@@ -7,11 +7,11 @@ helpx_description: Designer > Getting started > Workflow overview
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Workflow overview
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Workflow overview

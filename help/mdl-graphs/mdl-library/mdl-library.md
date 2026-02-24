@@ -7,11 +7,11 @@ helpx_description: Designer > MDL graphs > MDL library
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: MDL library
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # MDL library

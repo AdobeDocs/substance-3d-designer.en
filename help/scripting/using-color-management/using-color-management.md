@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Using color management
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Using color management
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Using color management

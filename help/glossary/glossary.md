@@ -7,11 +7,11 @@ helpx_description: Designer > Glossary
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Glossary
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Learn about terms and concepts used in Designer.

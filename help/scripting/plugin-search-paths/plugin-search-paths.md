@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Plugin search paths
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Plugin search paths
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Plugin search paths

@@ -7,11 +7,11 @@ helpx_description: Designer > Best Practices
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Best Practices
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Best Practices

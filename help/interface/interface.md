@@ -7,11 +7,11 @@ helpx_description: Designer > Workspace
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Workspace
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Workspace

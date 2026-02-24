@@ -7,11 +7,11 @@ helpx_description: Designer > Substance graphs > Creating a Substance graph > Ma
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Material samples
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Material samples

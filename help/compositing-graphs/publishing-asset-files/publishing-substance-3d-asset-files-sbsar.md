@@ -7,11 +7,11 @@ helpx_description: Designer > Substance graphs > Publishing Substance 3D asset f
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Publishing Substance 3D asset files (SBSAR)
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Publishing Substance 3D asset files (SBSAR)

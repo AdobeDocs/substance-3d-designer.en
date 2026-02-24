@@ -7,11 +7,11 @@ helpx_description: Designer > Working with 3D scenes > Exporting scenes
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Exporting scenes
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Exporting scenes

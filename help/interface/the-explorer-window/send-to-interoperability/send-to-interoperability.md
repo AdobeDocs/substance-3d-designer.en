@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > The Explorer window > Send to...  Inte
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Send to...  Interoperability
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Send to...  Interoperability

@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > Graph view > Graph items > Pin
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Pin
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Pin

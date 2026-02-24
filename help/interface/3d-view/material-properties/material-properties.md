@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > 3D View > Material properties
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Material properties
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Material properties

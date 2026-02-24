@@ -7,11 +7,11 @@ helpx_description: Designer > Package Metadata
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Package Metadata
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Package Metadata

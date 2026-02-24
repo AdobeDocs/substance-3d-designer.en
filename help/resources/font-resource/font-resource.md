@@ -7,11 +7,11 @@ helpx_description: Designer > Resources > Font resource
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Font resource
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Font resource

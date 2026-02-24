@@ -7,11 +7,11 @@ helpx_description: Designer > Resources > Bitmap resource
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Bitmap resource
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Bitmap resource

@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > Baking issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Baking issues
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Baking issues

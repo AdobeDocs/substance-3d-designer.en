@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Python Editor
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Python  Editor
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Python Editor

@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > Incorrect image output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Incorrect image output
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Incorrect image output

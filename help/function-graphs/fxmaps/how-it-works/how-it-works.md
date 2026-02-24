@@ -7,11 +7,11 @@ helpx_description: Designer > Function graphs > FXMaps > How it works
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: How it works
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # How it works

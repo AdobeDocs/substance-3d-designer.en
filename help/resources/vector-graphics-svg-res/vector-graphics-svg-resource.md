@@ -7,11 +7,11 @@ helpx_description: Designer > Resources > Vector graphics (SVG) resource
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Vector graphics (SVG) resource
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Vector graphics (SVG) resource

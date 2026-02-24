@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Plugin basics
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Plugin basics
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Plugin basics

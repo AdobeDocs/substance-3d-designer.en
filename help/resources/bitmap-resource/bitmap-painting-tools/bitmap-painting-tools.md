@@ -7,11 +7,11 @@ helpx_description: Designer > Resources > Bitmap resource > Bitmap painting tool
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Bitmap painting tools
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Bitmap painting tools

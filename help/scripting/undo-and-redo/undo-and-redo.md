@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Undo and redo
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Undo and redo
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Undo and redo

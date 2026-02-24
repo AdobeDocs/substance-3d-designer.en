@@ -7,11 +7,11 @@ helpx_description: Designer > Pipeline and Project Configuration > Retrieving th
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Retrieving the installation path
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Retrieving the installation path

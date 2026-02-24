@@ -7,11 +7,11 @@ helpx_description: Designer > Working with 3D scenes > Extracting materials valu
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Extracting materials values and textures
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Extracting materials values and textures

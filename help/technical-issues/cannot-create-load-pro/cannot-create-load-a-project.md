@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > Cannot createload a project
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Cannot createload a project
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Cannot create/load a project

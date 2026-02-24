@@ -7,11 +7,11 @@ helpx_description: Designer > Resources
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Resources
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Resources

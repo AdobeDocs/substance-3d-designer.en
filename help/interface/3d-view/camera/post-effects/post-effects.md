@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > 3D view > Camera > Post effects
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Post effects
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Post effects

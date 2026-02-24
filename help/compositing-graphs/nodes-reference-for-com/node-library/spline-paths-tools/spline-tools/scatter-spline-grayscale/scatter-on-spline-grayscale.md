@@ -7,11 +7,11 @@ helpx_description: Designer > Substance compositing graphs > Nodes reference for
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Scatter on Spline Grayscale
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Scatter on Spline Grayscale

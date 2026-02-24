@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > Graph view
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Graph view
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Graph view

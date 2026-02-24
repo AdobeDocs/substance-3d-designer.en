@@ -7,11 +7,11 @@ helpx_description: Designer > MDL graphs > Exporting MDL content
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Exporting MDL content
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Exporting MDL content

@@ -7,11 +7,11 @@ helpx_description: Designer > MDL graphs > Creating an MDL graph
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Creating an MDL graph
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Creating an MDL graph

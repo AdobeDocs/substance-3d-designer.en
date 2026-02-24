@@ -7,11 +7,11 @@ helpx_description: Designer > Scripting > Logging
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Logging
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Logging

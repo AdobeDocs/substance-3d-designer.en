@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > The Library > Managing custom content 
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Managing custom content and filters
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Managing custom content and filters

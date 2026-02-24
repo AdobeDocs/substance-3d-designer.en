@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > 3D View issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: 3D View issues
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # 3D View issues

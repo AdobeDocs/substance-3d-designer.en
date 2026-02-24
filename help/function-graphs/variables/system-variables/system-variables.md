@@ -7,11 +7,11 @@ helpx_description: Designer > Function graphs > Variables > Built-in variables
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Built-in variables
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Built-in variables

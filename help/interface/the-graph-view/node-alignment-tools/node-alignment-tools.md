@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > The graph view > Node alignment tools
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Node alignment tools
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Node alignment tools

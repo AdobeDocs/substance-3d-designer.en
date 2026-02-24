@@ -7,11 +7,11 @@ helpx_description: Designer > Getting started > Overview > What is a Substance 3
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: What is a Substance 3D File
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # What is a Substance 3D File?

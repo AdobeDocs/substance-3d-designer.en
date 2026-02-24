@@ -7,11 +7,11 @@ helpx_description: Designer > Substance graphs > Creating a Substance graph
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Creating a Substance graph
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Creating a Substance graph

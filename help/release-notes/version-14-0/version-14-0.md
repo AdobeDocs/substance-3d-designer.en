@@ -7,11 +7,11 @@ helpx_description: Designer > Release Notes > Version 14.0
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Version 14.0
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Version 14.0

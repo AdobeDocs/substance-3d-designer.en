@@ -7,11 +7,11 @@ helpx_description: Designer > Substance compositing graphs > Exporting PSD files
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Exporting PSD files
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Exporting PSD files

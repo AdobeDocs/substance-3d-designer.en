@@ -7,11 +7,11 @@ helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: AxF (Appearance eXchange Format)
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # AxF (Appearance eXchange Format)

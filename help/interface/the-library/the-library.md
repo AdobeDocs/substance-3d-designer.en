@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > Library
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Library
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # The Library

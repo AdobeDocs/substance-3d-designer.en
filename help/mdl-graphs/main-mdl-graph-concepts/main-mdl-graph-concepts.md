@@ -7,11 +7,11 @@ helpx_description: Designer > MDL graphs > Main MDL graph concepts
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Main MDL graph concepts
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Main MDL graph concepts

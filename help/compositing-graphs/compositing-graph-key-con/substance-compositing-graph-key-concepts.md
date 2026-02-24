@@ -7,11 +7,11 @@ helpx_description: Designer > Substance graphs > Substance graph key concepts
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Substance graph key concepts
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Substance graph key concepts

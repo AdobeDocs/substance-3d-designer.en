@@ -7,11 +7,11 @@ helpx_description: Designer > Substance graphs > Values in Substance graphs
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Values in Substance graphs
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Values in Substance graphs

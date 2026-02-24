@@ -7,11 +7,11 @@ helpx_description: Designer > Interface > Graph view > Graph items > Comment
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Comment
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Comment

@@ -7,11 +7,11 @@ helpx_description: Designer > Getting started
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Getting started
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Getting started

@@ -7,11 +7,11 @@ helpx_description: Designer > Technical issues > Python issues
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Python issues
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Python issues

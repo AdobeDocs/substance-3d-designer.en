@@ -7,11 +7,11 @@ helpx_description: Designer > Function graphs > Nodes reference for function gra
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-solution: ""
 title: Vector
 user-guide-description: ""
 user-guide-title: ""
 ---
+
 
 
 # Vector and Swizzle nodes
