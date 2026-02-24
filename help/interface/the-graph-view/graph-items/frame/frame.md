@@ -1,19 +1,17 @@
 ---
-title: "Frame"
-description: "Use frames in Substance 3D Designer graph view to organize and group nodes for better visual clarity."
-helpx_description: Designer > Interface > Graph view > Graph items > Frame
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - graphs
+breadcrumb-title: ""
+description: Use frames in Substance 3D Designer graph view to organize and group nodes for better visual clarity.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Graph view > Graph items > Frame
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Frame
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Frame
@@ -84,7 +82,7 @@ Type 'frame' in the search field to surface the item and find it more quickly.
 +++
 
 +++Shortcut
-If a keyboard shortcut is mapped to the 'Frame' item in the [Preferences](../../../preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
+If a keyboard shortcut is mapped to the 'Frame' item in the [Preferences](../../../../help/interface/preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
 
 +++
 
@@ -155,12 +153,12 @@ Hold the <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) key to shift this snapping t
 
 ## Properties
 
-When a frame is selected, the following properties are available in the [Properties](../../../properties/properties.md) dock:
+When a frame is selected, the following properties are available in the [Properties](../../../../help/interface/properties/properties.md) dock:
 
 +++Title
 The <b>Title</b> resting on the top left of the frame. Its visibility of the title can be toggled on or off by using the <b>Title Visible</b> property.
 
-The size of the title can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../the-graph-view.md) toolbar.
+The size of the title can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../../../help/interface/the-graph-view/the-graph-view.md) toolbar.
 
 ![Frames: Title](graph_frames_title.gif "Frames: Title"){width="640px"}
 
@@ -173,7 +171,7 @@ The <b>Description</b> is an optional, additional piece of text that may be use
 
 The text can be formatted using HTML tags. This formatting is toggled by clicking the ![](graph-frames_html-markup-button.png) <b>HTML markup</b> button.
 
-Learn more in the section below.
+Learn more in the Description section below.
 
 ![Frames: Description](graph-frames_description.gif "Frames: Description"){width="640px"}
 
@@ -194,7 +192,7 @@ The color's alpha channel control the *opacity* of the frame, where a value of 0
 
 ## Description
 
-A frame can be annotated with a text that will be placed inside the frame. The text is aligned to the left and starts in the frame's top left corner. Use the frame's  property to edit that text.
+A frame can be annotated with a text that will be placed inside the frame. The text is aligned to the left and starts in the frame's top left corner. Use the frame's [Description](#properties) property to edit that text.
 
 <table>
 <tr style="border: 0;">
@@ -204,7 +202,7 @@ A frame can be annotated with a text that will be placed inside the frame. The t
 
 The <b>Title</b> is shown in a bold font resting on the top left of the frame. The visibility of the title can be toggled on or off.
 
-Its size can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../the-graph-view.md) toolbar.
+Its size can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../../../help/interface/the-graph-view/the-graph-view.md) toolbar.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -366,11 +364,11 @@ The title is ignored.
 
 As you make adjustments in your graph, a frame may not be gracefully adjusted to its content anymore. In this case, it is possible to automatically adjust the position and size of the frame so it adjusts to the span of its content, with a padding of one medium grid cell.
 
-To do this, click <b>RMB</b> on the frame's title or header bar – see – and select the <b>Fit Size to Content</b> option in the contextual menu.
+To do this, click <b>RMB</b> on the frame's title or header bar – see [Appearance](#appearance) – and select the <b>Fit Size to Content</b> option in the contextual menu.
 
 >[!NOTE]
 >
-> The option is available if at least *one* graph object meets the frame's [inclusion rules](frame.md).
+> The option is available if at least *one* graph object meets the frame's [inclusion rules](../../../../help/interface/the-graph-view/graph-items/frame/frame.md).
 
 <table>
 <tr style="border: 0;">
@@ -404,11 +402,11 @@ If no included object can be fit into that space, the frame's height is adjusted
 
 As the graph grows, the frames' content may need to be rearranged. Nodes may shift to make room for additions or content may need to be spaced out more to promote readability.
 
-To facilitate these adjustments, it is possible to automatically expand a frame when moving : hold <b>Shift</b> at any point while moving an object to have the frame borders automatically adjust to keep that object within their bounds.
+To facilitate these adjustments, it is possible to automatically expand a frame when moving [included objects](#inclusion-rules): hold <b>Shift</b> at any point while moving an object to have the frame borders automatically adjust to keep that object within their bounds.
 
 This also applies to selections that may include multiple objects. In that case, each object's host frame will be adjusted simultaneously.
 
-If an object is not fully enclosed by the frame's bounds but still satisfies its , the frame is adjusted to fully enclose it with an additional padding of one medium grid cell as soon as the <b>Shift</b> key is pressed.
+If an object is not fully enclosed by the frame's bounds but still satisfies its [inclusion rule](#inclusion-rules), the frame is adjusted to fully enclose it with an additional padding of one medium grid cell as soon as the <b>Shift</b> key is pressed.
 
 >[!NOTE]
 >

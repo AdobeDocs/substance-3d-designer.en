@@ -1,9 +1,18 @@
 ---
-title: "Spline Mapper Grayscale"
-description: "Use the Spline Mapper Grayscale node to map grayscale textures along spline paths with customizable parameters."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Mapper Grayscale"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+breadcrumb-title: ""
+description: Use the Spline Mapper Grayscale node to map grayscale textures along spline paths with customizable parameters.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Mapper Grayscale
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Spline Mapper Grayscale
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline Mapper Grayscale
 
@@ -36,7 +45,7 @@ The node outputs the mapped image as a grayscale image, as well as other informa
 
 >[!NOTE]
 >
-> See also [Spline Mapper Color](../spline-mapper-color/spline-mapper-color.md).
+> See also [Spline Mapper Color](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md).
 
 ## Input connectors
 
@@ -63,7 +72,7 @@ The node outputs the mapped image as a grayscale image, as well as other informa
 <b>Twist Curve</b> *Grayscale*The image describing a curve using the values of its first row of pixels.  
 When the <b>Shape</b> parameter is set to *Half-Cylinder* or *Cylinder*, this input is used to control the twisting of the UVs around the shape. Its impact is controlled using the <b>Twist UVs Curve Multiplier</b> parameter.  
 The curve provides a profile for the amount of rotation along the spline, where the first pixel in the row is the rotation at the start of the spline, and the last is the rotation at the end. The grayscale value represents a number of turns.  
-You may use a [Curve](../../../../atomic-nodes/curve/curve.md) node to author the curve.
+You may use a [Curve](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) node to author the curve.
 
 ## Output connectors
 

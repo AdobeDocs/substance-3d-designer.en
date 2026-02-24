@@ -1,20 +1,17 @@
 ---
-title: "Bent Normal"
-description: "Use the Bent Normal node to generate bent normal maps that account for ambient occlusion and indirect lighting."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Bent Normal
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - height
-  - scaling
-  - perspective
+breadcrumb-title: ""
+description: Use the Bent Normal node to generate bent normal maps that account for ambient occlusion and indirect lighting.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Bent Normal
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Bent Normal
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Bent Normal
@@ -32,7 +29,7 @@ helpx_learn_topic:
 
 ## Description
 
-Generates a Bent Normal Map based on a height map input. A Bent Normal map is a special version of [Normal](../../../../atomic-nodes/normal/normal.md) and [Ambient Occlusion (RTAO)](../../effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md), generating a normal map with embedded ambient occlusion.  
+Generates a Bent Normal Map based on a height map input. A Bent Normal map is a special version of [Normal](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) and [Ambient Occlusion (RTAO)](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md), generating a normal map with embedded ambient occlusion.  
 This can be used in realtime engines to have Ambient Occlusion baked into the normalmap, for instance for more accurate occlusion reflections on metals.
 
 This node should not be used in combination with the CPU (SSE) engine due to computation time.

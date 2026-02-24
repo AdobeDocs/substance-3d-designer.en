@@ -1,21 +1,17 @@
 ---
-title: "Waveform 1"
-description: "Use the Waveform 1 node to generate waveform patterns for creating organic textures and procedural variations."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Waveform 1
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/waveform-1.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - audio-effects
-  - effects
-  - asset-warp
+breadcrumb-title: ""
+description: Use the Waveform 1 node to generate waveform patterns for creating organic textures and procedural variations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Waveform 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Waveform 1
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Waveform 1
@@ -47,17 +43,17 @@ A horizontal arrangement of user-selected patterns stacked into a shape akin to 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

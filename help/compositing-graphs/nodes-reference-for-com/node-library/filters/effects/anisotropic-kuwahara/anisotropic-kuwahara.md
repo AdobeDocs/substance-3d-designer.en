@@ -1,9 +1,18 @@
 ---
-title: "Anisotropic Kuwahara Color"
-description: "Use the Anisotropic Kuwahara Color filter to create stylized, painterly color effects with directional smoothing."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Anisotropic Kuwahara Color"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/anisotropic-kuwahara.html"
+breadcrumb-title: ""
+description: Use the Anisotropic Kuwahara Color filter to create stylized, painterly color effects with directional smoothing.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Anisotropic Kuwahara Color
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Anisotropic Kuwahara Color
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Anisotropic Kuwahara Color
 
@@ -34,7 +43,7 @@ This filter can produce a painterly effect, and is useful for stylization.
 
 <b>Anisotropy</b>
 
-The intensity of the flow is mainly controlled by the parameter, as demonstrated in the image below.
+The intensity of the flow is mainly controlled by the [Anisotropy](#parameters) parameter, as demonstrated in the image below.
 
 Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 
@@ -62,12 +71,12 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>

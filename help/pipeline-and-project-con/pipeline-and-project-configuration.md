@@ -1,20 +1,17 @@
 ---
-title: "Pipeline and Project Configuration"
-description: "Configure pipeline and project settings in Substance 3D Designer to optimize your workflow and output."
-helpx_description: Designer > Pipeline and Project Configuration
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - preparing-source-files
-  - preferences
-  - cross-product-workflows
+breadcrumb-title: ""
+description: Configure pipeline and project settings in Substance 3D Designer to optimize your workflow and output.
+helpx_creative_field: ""
+helpx_description: Designer > Pipeline and Project Configuration
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Pipeline and Project Configuration
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Pipeline and Project Configuration
@@ -44,11 +41,11 @@ The image illustrates the relation between the different files in Designer's def
 </tr>
 </table>
 
-* <b>&#91;User\_Preferences.XML&#93;(user-preferences-aut/user-preferences-automating-setup.md)</b> contains general program settings, of which all but one are not relevant to project pipelines. This file is unique and can not be swapped out, Designer is hardcoded to utilize this exact file.  
+* <b>&#91;User\_Preferences.XML&#93;(../help/pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)</b> contains general program settings, of which all but one are not relevant to project pipelines. This file is unique and can not be swapped out, Designer is hardcoded to utilize this exact file.  
   It contains one single reference to a Configuration file.
-* <b>&#91;Default\_Configuration.SBSCFG&#93;(configuration-list-sbscfg/configuration-list-sbscfg.md)</b> can be swapped out for other SBSCFG files with different names, but only one SBSCFG file can be used at the same time.  
+* <b>&#91;Default\_Configuration.SBSCFG&#93;(../help/pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)</b> can be swapped out for other SBSCFG files with different names, but only one SBSCFG file can be used at the same time.  
   It contains multiple references to Project files. *Note that for the default configuration these files are not explicitly defined, but are hard-coded!*
-* <b>&#91;Project.SBSPRJ&#93;(project-configuration-fil/project-configuration-files-sbsprj.md)</b> files contain project/pipeline relevant settings. Multiple Projects can be defined in a hierarchy, overriding or expanding on the previously defined project.
+* <b>&#91;Project.SBSPRJ&#93;(../help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)</b> files contain project/pipeline relevant settings. Multiple Projects can be defined in a hierarchy, overriding or expanding on the previously defined project.
 
 ## Designer pipeline setup
 
@@ -56,7 +53,7 @@ Every type of file is explained with more detail on child pages of this page, bu
 
 1. <b>Identify and group what settings to add into your Project files.</b> This is different for every studio and requires a certain amount of planning!  
    In almost every case at least 2 Projects should be defined: one for global, studio-wide defaults (like standard templates, shader files, baking settings), and one with more specific content such as Library content. If you have different projects running simultaneously you might want to create multiple project configurations for each (so 3 or more total).
-1. <b>Create the relevant &#91;SBSPRJ files&#93;(project-configuration-fil/project-configuration-files-sbsprj.md) and place them and their content under version control.</b> It is strongly recommended to separate Designer pipeline and library content from your actual project content and resources (3D models, textures, code) by creating a *separate repository* for it.
-1. <b>Create an&#91; SBSCFG configuration&#93;(configuration-list-sbscfg/configuration-list-sbscfg.md) file listing all project files, place it under version control</b>. If you have multiple projects, you can create a Config for every project.
-1. <b>Set up every user&#39;s &#91;User\_Preferences.xml&#93;(user-preferences-aut/user-preferences-automating-setup.md) to reference their relevant configuration file.</b>  
-   You can have every user do this manually, or you can script this by injecting lines into their XML file. [More info on the relevant page](user-preferences-aut/user-preferences-automating-setup.md).
+1. <b>Create the relevant &#91;SBSPRJ files&#93;(../help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) and place them and their content under version control.</b> It is strongly recommended to separate Designer pipeline and library content from your actual project content and resources (3D models, textures, code) by creating a *separate repository* for it.
+1. <b>Create an&#91; SBSCFG configuration&#93;(../help/pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) file listing all project files, place it under version control</b>. If you have multiple projects, you can create a Config for every project.
+1. <b>Set up every user&#39;s &#91;User\_Preferences.xml&#93;(../help/pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md) to reference their relevant configuration file.</b>  
+   You can have every user do this manually, or you can script this by injecting lines into their XML file. [More info on the relevant page](../help/pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md).

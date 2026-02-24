@@ -1,20 +1,17 @@
 ---
-title: "Atlas Splitter"
-description: "Use the Atlas Splitter node to split texture atlases into individual textures for processing scanned materials."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Splitter
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - grid
-  - asset-warp
-  - compositing
+breadcrumb-title: ""
+description: Use the Atlas Splitter node to split texture atlases into individual textures for processing scanned materials.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Splitter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Atlas Splitter
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Atlas Splitter
@@ -36,7 +33,7 @@ Takes an atlas image input and splits out all separate elements as *individual m
 
 It can also be used to reorganize and move all elements into a grid.
 
-The node works as an advanced application of the [Flood Fill](../../../filters/effects/flood-fill/flood-fill.md) node.
+The node works as an advanced application of the [Flood Fill](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) node.
 
 </td>
 </tr>

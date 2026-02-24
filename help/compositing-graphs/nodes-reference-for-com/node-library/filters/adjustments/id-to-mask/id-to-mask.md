@@ -1,9 +1,18 @@
 ---
-title: "ID To Mask Grayscale"
-description: "Use the ID To Mask Grayscale node to convert ID map values into grayscale masks for material selection."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > ID To Mask Grayscale"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
+breadcrumb-title: ""
+description: Use the ID To Mask Grayscale node to convert ID map values into grayscale masks for material selection.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > ID To Mask Grayscale
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: ID To Mask Grayscale
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # ID To Mask Grayscale
 
@@ -37,12 +46,12 @@ An ID map is an image where pixels which are part of a whole (E.g., a shape) all
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>

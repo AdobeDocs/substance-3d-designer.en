@@ -1,21 +1,17 @@
 ---
-title: "Directional noise 3"
-description: "Use the Directional Noise 3 node to generate directional noise patterns with three octaves for creating directional textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 3
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-3.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - noise
-  - normal-maps
-  - audio-effects
+breadcrumb-title: ""
+description: Use the Directional Noise 3 node to generate directional noise patterns with three octaves for creating directional textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Directional noise 3
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Directional noise 3
@@ -39,7 +35,7 @@ helpx_learn_topic:
 
 A variation of the <b>Directional noise</b> noises.
 
-See also: [Directional noise 1](../directional-noise-1/directional-noise-1.md), [Directional noise 2](../directional-noise-2/directional-noise-2.md), [Directional noise 4](../directional-noise-4/directional-noise-4.md)
+See also: [Directional noise 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-1/directional-noise-1.md), [Directional noise 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-2/directional-noise-2.md), [Directional noise 4](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-4/directional-noise-4.md)
 
 </td>
 </tr>
@@ -49,17 +45,17 @@ See also: [Directional noise 1](../directional-noise-1/directional-noise-1.md),�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

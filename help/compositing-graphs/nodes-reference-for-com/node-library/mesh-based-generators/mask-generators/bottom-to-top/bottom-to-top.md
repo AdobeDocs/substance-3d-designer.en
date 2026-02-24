@@ -1,20 +1,17 @@
 ---
-title: "Bottom To Top"
-description: "Use the Bottom To Top node to generate gradient masks from bottom to top based on mesh world position."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Bottom To Top
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - creative-effects
-  - masking
-  - illustration
+breadcrumb-title: ""
+description: Use the Bottom To Top node to generate gradient masks from bottom to top based on mesh world position.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Bottom To Top
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Bottom To Top
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Bottom To Top

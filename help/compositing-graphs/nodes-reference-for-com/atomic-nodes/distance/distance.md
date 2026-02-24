@@ -1,20 +1,17 @@
 ---
-title: "Distance"
-description: "Use the Distance node to calculate distance maps from shapes for creating masks and procedural effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - shapes
-  - gradients
+breadcrumb-title: ""
+description: Use the Distance node to calculate distance maps from shapes for creating masks and procedural effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Distance
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Distance
@@ -42,7 +39,7 @@ An optional source map allows for combining the cells with the texture from a se
 
 The distance node is not an easy node to master, but it's main use cases are expanding existing masks in a reliable way (as compared to blurring and adjusting contrast), generating Voronoi-type noise cells, and beveling existing shapes with a sharp, linear profile (that can be remapped later.
 
-See the below for more info.
+See the below [examples](#examples) for more info.
 
 <table>
 <tr style="border: 0;">
@@ -68,12 +65,12 @@ See the below for more info.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>

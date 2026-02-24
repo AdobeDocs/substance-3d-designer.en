@@ -1,20 +1,17 @@
 ---
-title: "Make It Tile Patch"
-description: "Use the Make It Tile Patch node to patch and create seamless tiling textures from input images."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Patch
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - creative-effects
-  - materials
-  - reflections
+breadcrumb-title: ""
+description: Use the Make It Tile Patch node to patch and create seamless tiling textures from input images.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Patch
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Make It Tile Patch
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Make It Tile Patch
@@ -42,9 +39,9 @@ This node is a grid-based semi-random tiler. It takes an input patch and stamps 
 
 Useful for when you have a small patch of texture and want to create a larger scale, tiling texture from it.
 
-Keep in mind that this is different from [Make-It-Tile Photo](../make-it-tile-photo/make-it-tile-photo.md), which mainly fixes up edges.
+Keep in mind that this is different from [Make-It-Tile Photo](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-photo/make-it-tile-photo.md), which mainly fixes up edges.
 
-To do this with an entire material, see [Smart Auto Tile](../../../material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md).
+To do this with an entire material, see [Smart Auto Tile](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md).
 
 ## Parameters
 

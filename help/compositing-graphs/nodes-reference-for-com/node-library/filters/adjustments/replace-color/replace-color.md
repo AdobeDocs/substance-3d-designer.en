@@ -1,20 +1,17 @@
 ---
-title: "Replace Color"
-description: "Use the Replace Color node to replace specific colors in textures with new colors for color correction and adjustments."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Replace Color
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - color
-  - creating-color-palettes
-  - colorize
+breadcrumb-title: ""
+description: Use the Replace Color node to replace specific colors in textures with new colors for color correction and adjustments.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Replace Color
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Replace Color
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Replace Color
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 Hue shifts Source Color towards Target Color.
 
-See [Replace Color Range](../replace-color-range/replace-color-range.md) or [Color Match](../color-match/color-match.md) for more advanced versions.
+See [Replace Color Range](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) or [Color Match](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md) for more advanced versions.
 
 ## Parameters
 

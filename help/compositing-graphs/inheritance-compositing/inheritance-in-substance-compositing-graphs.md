@@ -1,25 +1,22 @@
 ---
-title: "Inheritance in Substance graphs"
-description: "Learn how inheritance works in Substance compositing graphs to create reusable graph hierarchies and variations."
-helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - data-and-analytics
-  - graphs
+breadcrumb-title: ""
+description: Learn how inheritance works in Substance compositing graphs to create reusable graph hierarchies and variations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Inheritance in Substance graphs
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Inheritance in Substance graphs
 
-This page describes how inheritance is applied in [Substance graphs](../substance-compositing-graphs.md) within [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), and the impact it has on the graph's output.
+This page describes how inheritance is applied in [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md) within [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), and the impact it has on the graph's output.
 
 ![Inheritance methods](inheritance-overview-1.jpg "Inheritance methods"){width="1400px"}
 
@@ -29,7 +26,7 @@ All nodes in a Substance graph can *inherit* the value of some parameters from a
 
 >[!NOTE]
 >
-> An annotated project file demonstrating inheritance is available in the [Sample Substance graphs](../sample-compositing-graphs/sample-substance-compositing-graphs.md) section of this documentation.
+> An annotated project file demonstrating inheritance is available in the [Sample Substance graphs](../../help/compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md) section of this documentation.
 
 ### Inheritance methods
 
@@ -67,7 +64,7 @@ The value is inherited from the *parent* of the node or graph
 
 ![Inheritance methods demonstration](inheritance-overview.gif "Inheritance methods demonstration")
 
-Inheritance methods are applied for a node’s [Base parameters](../graph-parameters/graph-parameters.md), which is the set of common parameters all nodes have which control *fundamental aspects* of their behaviour. These parameters include:
+Inheritance methods are applied for a node’s [Base parameters](../../help/compositing-graphs/graph-parameters/graph-parameters.md), which is the set of common parameters all nodes have which control *fundamental aspects* of their behaviour. These parameters include:
 
 * **Output Size**
 * **Output Format** (i.e., bitdepth)
@@ -80,8 +77,8 @@ This should let you appreciate how changes in *one* node may impact the resoluti
 
 >[!WARNING]
 >
-> An important reminder for understanding the concepts discussed in this page: an *instance node* is a [node representing a graph in another graph](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), with its *own discrete parameter values*, hence the term *instance*.  
-> E.g., two [Perlin noise](../nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md) nodes in a same graph are both representations of a *same* source graph (`perlin_noise` in `noise_perlin_noise.sbs`) with their *own sets* of parameter values.
+> An important reminder for understanding the concepts discussed in this page: an *instance node* is a [node representing a graph in another graph](../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), with its *own discrete parameter values*, hence the term *instance*.  
+> E.g., two [Perlin noise](../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/perlin-noise/perlin-noise.md) nodes in a same graph are both representations of a *same* source graph (`perlin_noise` in `noise_perlin_noise.sbs`) with their *own sets* of parameter values.
 
 >[!NOTE]
 >
@@ -92,7 +89,7 @@ This should let you appreciate how changes in *one* node may impact the resoluti
 
 ### Changing inheritance methods
 
-In the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel, all parameters listed in the [Base parameters](../graph-parameters/graph-parameters.md) section of a node’s properties have a (icon) <b>Set inheritance method</b> dropdown button opposite to their label.  
+In the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel, all parameters listed in the [Base parameters](../../help/compositing-graphs/graph-parameters/graph-parameters.md) section of a node’s properties have a (icon) <b>Set inheritance method</b> dropdown button opposite to their label.  
 This button lets you select the inheritance method which should be used to for a parameter.
 
 ![Changing inheritance method](inheritance-change.gif "Changing inheritance method"){width="512px"}
@@ -101,7 +98,7 @@ In most cases, a *node*’s Base parameters are set to *Relative to input*, to l
 
 ### TWEAKING INHERITED VALUES
 
-Some Base parameters, such as [Output Size](../output-size/output-size.md), Pixel Size or Random Seed, can be changed *relatively to the inherited value*.
+Some Base parameters, such as [Output Size](../../help/compositing-graphs/output-size/output-size.md), Pixel Size or Random Seed, can be changed *relatively to the inherited value*.
 
 For instance, when the Output Size parameter uses a *Relative to...* inheritance method, a value or `(1, -1)` means one power of two resolution *above* the inherited value for X and one power of two resolution *below* the inherited value for Y such as:
 
@@ -110,7 +107,7 @@ For instance, when the Output Size parameter uses a *Relative to...* inheritance
 
 >[!NOTE]
 >
-> The [Output Size](../output-size/output-size.md) page digs deeper into this critical Base parameter, and is recommeded reading to understand how the final resolution of a node is computed.
+> The [Output Size](../../help/compositing-graphs/output-size/output-size.md) page digs deeper into this critical Base parameter, and is recommeded reading to understand how the final resolution of a node is computed.
 
 If a function is applied to a Base parameter, the result of the function will also be interpreted using the parameter's inheritance method.  
 Keeping the Output Size example in mind, a function aiming at increasing the inherited resolution twofold in X and Y should output the `(2, 2)` Integer2 value.
@@ -124,16 +121,16 @@ The parent of a node is the *graph* it exists in.
 The parent of a graph is the *context* it exists in:
 
 * If that graph is a sub-graph instantiated into another host graph as an *instance node*, then the parent of the sub-graph is the *instance node*. The parent of that instance node is the *host graph*.
-* If that graph is a root graph, then the parent is the *application itself* and whatever value the application has set for a given parameter. For instance, graphs will inherit from the <b>Parent Size</b> parameter set in the [Graph view’s toolbar](../../interface/the-graph-view/the-graph-view.md).
+* If that graph is a root graph, then the parent is the *application itself* and whatever value the application has set for a given parameter. For instance, graphs will inherit from the <b>Parent Size</b> parameter set in the [Graph view’s toolbar](../../help/interface/the-graph-view/the-graph-view.md).
 
 >[!WARNING]
 >
 > Parenthood is *applied as-is* when publishing a package to Substance 3D asset files (SBSAR). This means setting any parameter to the *Absolute* inheritance method will *lock* that parameter to its current value in the published asset.  
-> While this is desirable for [Bitmap](../nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes or [optimisation purposes](../../best-practices/performance-optimization/performance-optimization-guidelines.md), for instance, we *strongly* recommend using *Relative to…* inheritance methods when working in Substance graphs unless there is a *clear, deliberate purpose* in doing otherwise.
+> While this is desirable for [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes or [optimisation purposes](../../help/best-practices/performance-optimization/performance-optimization-guidelines.md), for instance, we *strongly* recommend using *Relative to…* inheritance methods when working in Substance graphs unless there is a *clear, deliberate purpose* in doing otherwise.
 
 ### IN-CONTEXT EDITING
 
-When using [In-context editing](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) on a graph instance node, the parent of the graph is the *instance node*. In that case, the <b>Parent Size</b> setting in the [Graph view’s toolbar](../../interface/the-graph-view/the-graph-view.md) is *disabled*, as the graph inherits is base parameters from the instance node.
+When using [In-context editing](../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) on a graph instance node, the parent of the graph is the *instance node*. In that case, the <b>Parent Size</b> setting in the [Graph view’s toolbar](../../help/interface/the-graph-view/the-graph-view.md) is *disabled*, as the graph inherits is base parameters from the instance node.
 
 This trait is the *point* of in-context editing and should be *factored in* when setting inheritance method and assessing the current values of any node’s Base parameters.
 
@@ -195,7 +192,7 @@ The input inherits from the graph, and the data it receives is adapted according
 </tr>
 </table>
 
-One of the inputs may be set as the graph’s **Primary input**, by clicking **RMB** on that [Input](../nodes-reference-for-com/atomic-nodes/input/input.md) node and selecting the **Set as Primary Input** option in the contextual menu.
+One of the inputs may be set as the graph’s **Primary input**, by clicking **RMB** on that [Input](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) node and selecting the **Set as Primary Input** option in the contextual menu.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -281,8 +278,8 @@ A good starting point is checking the data displayed just below a node: these ar
 
 If the node has more than one output, you can check their resolution and precision in two easy ways:
 
-* Double-click <b>LMB</b> on the *output connector* to display the image in the [2D view](../../interface/2d-view/2d-view.md), and check the image information displayed on the *bottom left corner* of the 2D view’s viewport
-* Create a [Levels](../nodes-reference-for-com/atomic-nodes/levels/levels.md) or [Transformation 2D](../nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node and connect its input to the output you want to check. The node will *inherit from the output* by default, and you can then check the values below the node.
+* Double-click <b>LMB</b> on the *output connector* to display the image in the [2D view](../../help/interface/2d-view/2d-view.md), and check the image information displayed on the *bottom left corner* of the 2D view’s viewport
+* Create a [Levels](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) or [Transformation 2D](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node and connect its input to the output you want to check. The node will *inherit from the output* by default, and you can then check the values below the node.
 
 Now you can go up the node chain in the graph and try to find the *first node* where the unexpected values appear. Check the inheritance method of its Base parameters.
 
@@ -292,7 +289,7 @@ If nothing is amiss and the node is an instance node, you need to go deeper and 
 
 In particular, the *Primary input* concept is easily *overlooked* and can result in inheritance issues.
 
-The [Blend](../nodes-reference-for-com/atomic-nodes/blend/blend.md) node is very susceptible to this, as it is used very frequently. Its <b>Background</b> input is its Primary input.
+The [Blend](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) node is very susceptible to this, as it is used very frequently. Its <b>Background</b> input is its Primary input.
 
 ![Output size inheritance](inheritance-blend.jpg "Output size inheritance"){width="512px"}
 

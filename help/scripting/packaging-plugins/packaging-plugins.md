@@ -1,20 +1,17 @@
 ---
-title: "Packaging plugins"
-description: "Learn how to package Python plugins for Substance 3D Designer for distribution and installation."
-helpx_description: Designer > Scripting > Packaging plugins
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/packaging-plugins.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - preparing-source-files
-  - projects
-  - cross-product-workflows
+breadcrumb-title: ""
+description: Learn how to package Python plugins for Substance 3D Designer for distribution and installation.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Packaging plugins
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Packaging plugins
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Packaging plugins
@@ -37,7 +34,7 @@ the plugin code, and any other files or resources needed by the plugin to work.
 | min\_designer\_version | Minimum version of the application required by the plugin to work. | 2019.2 | Optional. |
 | platform | Platform the plugin runs on. | any | Optional.For plugins containing compiled code, this entry can be used to disable the plugin in non-supported platforms.Possible values: win, linux, osx, any. |
 
-## <b>Creating a new plugin package project</b>
+## Creating a new plugin package project
 
 We provide a [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) template project to simplify the creation of plugin package projects.
 

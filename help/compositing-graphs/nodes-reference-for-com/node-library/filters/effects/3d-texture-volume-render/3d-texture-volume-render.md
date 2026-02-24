@@ -1,20 +1,17 @@
 ---
-title: "3D Texture Volume Render"
-description: "Use the 3D Texture Volume Render node to render volumetric textures from 3D data for creating cloud and fog effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-volume-render.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - volume
-  - pbr
-  - 3d
+breadcrumb-title: ""
+description: Use the 3D Texture Volume Render node to render volumetric textures from 3D data for creating cloud and fog effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Volume Render
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: 3D Texture Volume Render
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 3D Texture Volume Render
@@ -41,7 +38,7 @@ The volume is represented within the bounds of a *unit cube*. The lighting is co
 >[!NOTE]
 >
 > The signed distance field is expected to be a **4096x4096** texture describing the shape with a **16x16** grid of 256 slices.  
-> You may use the [3D Texture SDF](../3d-texture-sdf/3d-texture-sdf.md) node to compute the signed distance field for a 3D texture of 256 slices.
+> You may use the [3D Texture SDF](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the signed distance field for a 3D texture of 256 slices.
 
 </td>
 </tr>
@@ -53,10 +50,10 @@ The volume is represented within the bounds of a *unit cube*. The lighting is co
 
 * **3D Signed Distance Field** *Grayscale*  
   The 4096x4096 image representing the 256 *slices* of a shape's *signed distance field*, arranged in a 16x16 grid.  
-  You may use the [3D Texture SDF](../3d-texture-sdf/3d-texture-sdf.md) node to compute the signed distance field for a 3D texture of 256 slices.
+  You may use the [3D Texture SDF](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the signed distance field for a 3D texture of 256 slices.
 * **Density** *Grayscale*  
   The 4096x4096 image representing the 256 *slices* of a shape's *density*, arranged in a 16x16 grid. Density is mapped using grayscale values from 0 (entirely transparent) to 1 (entirely opaque).  
-  You may use [3D Volume Mask](../../../texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) or 3D noise nodes ([3D Perlin Noise](../../../texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), [3D Voronoi](../../../texture-generators/noises/3d-voronoi/3d-voronoi.md), [3D Ridged Noise Fractal](../../../texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md), etc.), combined with a [3D Texture Position](../3d-texture-position/3d-texture-position.md) node as position input, to generate a volume mask as a 3D texture of 256 slices.
+  You may use [3D Volume Mask](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) or 3D noise nodes ([3D Perlin Noise](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md), [3D Voronoi](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md), [3D Ridged Noise Fractal](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md), etc.), combined with a [3D Texture Position](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md) node as position input, to generate a volume mask as a 3D texture of 256 slices.
 
 ### Parameters
 

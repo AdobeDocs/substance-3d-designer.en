@@ -1,20 +1,17 @@
 ---
-title: "Dependency manager"
-description: "Use the Dependency Manager in Substance 3D Designer to view and manage resource dependencies in your projects."
-helpx_description: Designer > Interface > Dependency manager
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - download-and-install
-  - versions
-  - data-visualizations
+breadcrumb-title: ""
+description: Use the Dependency Manager in Substance 3D Designer to view and manage resource dependencies in your projects.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Dependency manager
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Dependency manager
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Dependency Manager

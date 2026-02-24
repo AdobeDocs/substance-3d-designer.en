@@ -1,20 +1,17 @@
 ---
-title: "Messy fibers 3"
-description: "Use the Messy Fibers 3 node to generate complex fiber patterns for creating fabric and textile texture effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 3
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - blending
-  - normal-maps
-  - patterns
+breadcrumb-title: ""
+description: Use the Messy Fibers 3 node to generate complex fiber patterns for creating fabric and textile texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Messy fibers 3
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Messy fibers 3
@@ -34,7 +31,7 @@ helpx_learn_topic:
 
 A variation of the <b>Messy fibers</b> structured noises.
 
-See also: [Messy fibers 1](../messy-fibers-1/messy-fibers-1.md), [Messy fibers 2](../messy-fibers-2/messy-fibers-2.md)
+See also: [Messy fibers 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-1/messy-fibers-1.md), [Messy fibers 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-2/messy-fibers-2.md)
 
 </td>
 </tr>
@@ -44,17 +41,17 @@ See also: [Messy fibers 1](../messy-fibers-1/messy-fibers-1.md), [Messy fibers
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

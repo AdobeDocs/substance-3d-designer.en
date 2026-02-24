@@ -1,9 +1,18 @@
 ---
-title: "Spline Sample Thickness"
-description: "Use the Spline Sample Thickness node to sample thickness values along splines for procedural effects."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Thickness"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-thickness.html"
+breadcrumb-title: ""
+description: Use the Spline Sample Thickness node to sample thickness values along splines for procedural effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Sample Thickness
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Spline Sample Thickness
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline Sample Thickness
 
@@ -84,7 +93,7 @@ The effect of the mapped height map can be adjusted by changing its blending mod
 
 <b>Opacity</b> *Float*A multiplier for the intensity of the Thickness Map input’s contribution to the spline’s thickness.<b></b>
 
-<b>Blending Mode</b> *Integer*The method of blending the Thickness Map’s data with the input spline’s thickness:  
+<b>Blending Mode</b> *Integer*The method of blending the Thickness Map’s data with the input spline’s <span id="_Hlk135820484"></span>thickness:  
 *- Copy*: Override the spline’s thickness with the Height Map values;  
 *- Add*: Add the Thickness Map values to the spline’s thickness;  
 *- Subtract*: Subtract the Thickness Map values to the spline’s thickness;  

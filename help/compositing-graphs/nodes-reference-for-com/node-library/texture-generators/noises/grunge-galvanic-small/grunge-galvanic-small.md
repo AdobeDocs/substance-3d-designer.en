@@ -1,21 +1,17 @@
 ---
-title: "Grunge Galvanic Small"
-description: "Use the Grunge Galvanic Small node to generate small-scale galvanic corrosion patterns for metal weathering effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Small
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - metal
-  - reflections
+breadcrumb-title: ""
+description: Use the Grunge Galvanic Small node to generate small-scale galvanic corrosion patterns for metal weathering effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Small
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Grunge Galvanic Small
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Grunge Galvanic Small

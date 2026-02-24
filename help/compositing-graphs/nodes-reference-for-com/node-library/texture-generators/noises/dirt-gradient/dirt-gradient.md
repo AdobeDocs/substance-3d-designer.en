@@ -1,20 +1,17 @@
 ---
-title: "Dirt gradient"
-description: "Use the Dirt Gradient node to generate gradient-based dirt patterns for creating directional weathering and accumulation effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt gradient
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - gradients
-  - reflections
-  - normal-maps
+breadcrumb-title: ""
+description: Use the Dirt Gradient node to generate gradient-based dirt patterns for creating directional weathering and accumulation effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt gradient
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Dirt gradient
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Dirt gradient
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 A variation of the grainy <b>Dirt</b> noises, featuring a directional falloff gradient.
 
-See also: [Dirt 1](../dirt-1/dirt-1.md), [Dirt 2](../dirt-2/dirt-2.md), [Dirt 3](../dirt-3/dirt-3.md), [Dirt 4](../dirt-4/dirt-4.md), [Dirt 5](../dirt-5/dirt-5.md)
+See also: [Dirt 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-1/dirt-1.md), [Dirt 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-2/dirt-2.md), [Dirt 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-3/dirt-3.md), [Dirt 4](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-4/dirt-4.md), [Dirt 5](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-5/dirt-5.md)
 
 </td>
 </tr>
@@ -48,17 +45,17 @@ See also: [Dirt 1](../dirt-1/dirt-1.md), [Dirt 2](../dirt-2/dirt-2.md), [Dirt 3]
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

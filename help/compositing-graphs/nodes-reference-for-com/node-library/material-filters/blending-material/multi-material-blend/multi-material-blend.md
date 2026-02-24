@@ -1,21 +1,17 @@
 ---
-title: "Multi-Material Blend"
-description: "Use the Multi-Material Blend node to blend multiple materials together for creating complex material combinations."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Multi-Material Blend
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/multi-material-blend.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - painting-illustration
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - materials
-  - blending
-  - creating-color-palettes
+breadcrumb-title: ""
+description: Use the Multi-Material Blend node to blend multiple materials together for creating complex material combinations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Multi-Material Blend
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Multi-Material Blend
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Multi-Material Blend
@@ -41,7 +37,7 @@ This node combines multiple materials based on a Material ID / Color ID map, one
 
 The node is very useful when texturing full props, as it allows full parametrisation of materials while still dynamically combining them all. Perfect for texturing simple to complex props that have proper ID bakes, or even for creating fully pipelined "Template" Substances that fully cohere to team standards.
 
-Keep in mind that when using this, Material 1, Slot 1 is always the default material and will appear anywhere no other material appears. That is why you cannot set up a color for it. If you want to play this safe, you can for example plug in a [Base Material](../../pbr-utilities/base-material/base-material.md) that is set to rough black.
+Keep in mind that when using this, Material 1, Slot 1 is always the default material and will appear anywhere no other material appears. That is why you cannot set up a color for it. If you want to play this safe, you can for example plug in a [Base Material](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) that is set to rough black.
 
 ## Parameters
 

@@ -1,20 +1,17 @@
 ---
-title: "Shape Stroke"
-description: "Use the Shape Stroke node to add stroke outlines to shapes for creating borders and edge effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Stroke
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-stroke.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - illustration
-  - creative-effects
-  - effects
+breadcrumb-title: ""
+description: Use the Shape Stroke node to add stroke outlines to shapes for creating borders and edge effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Stroke
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Shape Stroke
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Shape Stroke
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 ## Description
 
-Adds a stroke or outline around a black and white mask (for the grayscale version) or a shape with an alpha channel (for the color version), as you might be familiar with from other 2D Image editing applications. Can be seen as a more complete version of [Edge Detect](../edge-detect/edge-detect.md).
+Adds a stroke or outline around a black and white mask (for the grayscale version) or a shape with an alpha channel (for the color version), as you might be familiar with from other 2D Image editing applications. Can be seen as a more complete version of [Edge Detect](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md).
 
 Very useful for a variety of image editing effects.
 

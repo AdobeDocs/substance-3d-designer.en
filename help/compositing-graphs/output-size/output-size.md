@@ -1,20 +1,17 @@
 ---
-title: "Output size"
-description: "Configure output size settings for Substance compositing graphs to control texture resolution and quality."
-helpx_description: Designer > Substance graphs > Output size
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - resolution
-  - scaling
-  - resize
+breadcrumb-title: ""
+description: Configure output size settings for Substance compositing graphs to control texture resolution and quality.
+helpx_creative_field: ""
+helpx_description: Designer > Substance graphs > Output size
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Output size
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Output size
@@ -23,7 +20,7 @@ It's the first of a graph's <b>Base parameters</b> and, along with the <b>Output
 
 >[!TIP]
 >
-> We strongly recommend acquiring a good understanding of [inheritance in Substance graphs](../inheritance-compositing/inheritance-in-substance-compositing-graphs.md) as a foundation for using the Output Size property efficiently.
+> We strongly recommend acquiring a good understanding of [inheritance in Substance graphs](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) as a foundation for using the Output Size property efficiently.
 
 >[!NOTE]
 >
@@ -58,25 +55,25 @@ A texture which is an object in graphics computing bound by some restrictions im
 
 The Output size property uses *logarithmic steps* to easily map increases of powers of two (e.g., 256, 512, 1024, ...) to a *linear scale* (e.g. 8, 9, 10, ...). This means increasing or decreasing the Output Size value in X or Y by 1 is akin to multiplying or dividing the current resolution by 2.
 
-This also applies when the Output Size value is controlled by a [function](../../function-graphs/function-graphs.md), where the function should output the target logarithmic values (relative or absolute) instead of the target resolution.
+This also applies when the Output Size value is controlled by a [function](../../help/function-graphs/function-graphs.md), where the function should output the target logarithmic values (relative or absolute) instead of the target resolution.
 
 >[!IMPORTANT]
 >
 > Increasing or decreasing resolution in both X and Y multiplies or divides the pixel count by *4*, which has a significant impact on a graph's *performance* and *memory footprint*.  
-> As such, we strongly recommend using the *lowest resolution* actually needed to get a desired result. Keeping resolutions under control is one of many of our [performance optimization guidelines](../../best-practices/performance-optimization/performance-optimization-guidelines.md).
+> As such, we strongly recommend using the *lowest resolution* actually needed to get a desired result. Keeping resolutions under control is one of many of our [performance optimization guidelines](../../help/best-practices/performance-optimization/performance-optimization-guidelines.md).
 
 >[!NOTE]
 >
-> In [Function graphs](../../function-graphs/function-graphs.md), the `$size` and `$sizelog2` [system variables](../../function-graphs/variables/system-variables/system-variables.md) return a Float2 value matching the current resolution of the node or graph as a raw pixel count or power of two respectively.  
+> In [Function graphs](../../help/function-graphs/function-graphs.md), the `$size` and `$sizelog2` [system variables](../../help/function-graphs/variables/system-variables/system-variables.md) return a Float2 value matching the current resolution of the node or graph as a raw pixel count or power of two respectively.  
 > E.g., for a 1024\*512 image, `$size` returns `(1024,512)` while `$sizelog2` returns `(10,9)`.
 
 ## Relative size
 
-When the Output Size property uses a *Relative to...* [inheritance method](../inheritance-compositing/inheritance-in-substance-compositing-graphs.md), its value is expressed as a modifier *relatively to the inherited logarithmic value*.
+When the Output Size property uses a *Relative to...* [inheritance method](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), its value is expressed as a modifier *relatively to the inherited logarithmic value*.
 
 Modifiers relative to the inherited resolution range from -12 to +12 on a logarithmic scale, with the default being 0. This means each step above or below results in doubling or halving of resolution. The table on the right gives an example of how relative resolution changes in one dimension for an inherited value of 9 (i.e., 512 = 2^9) and 11 (i.e., 2048 = 2^11):
 
-Notice how above 8196, the size is *capped*. This cap is controlled by the <b>Cooking Size Limit</b> setting in the <b>General</b> section of the [Preferences](../../interface/preferences-window/preferences-window.md). Please note working with very large resolutions comes with a proportional performance cost and exponential memory footprint. Also, limits in graphics processing puts a hard limit on the maximum size of a texture.
+Notice how above 8196, the size is *capped*. This cap is controlled by the <b>Cooking Size Limit</b> setting in the <b>General</b> section of the [Preferences](../../help/interface/preferences-window/preferences-window.md). Please note working with very large resolutions comes with a proportional performance cost and exponential memory footprint. Also, limits in graphics processing puts a hard limit on the maximum size of a texture.
 
 | -5 | -4 | -3 | -2 | -1 | 0 | +1 | +2 | +3 | +4 | +5 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -89,11 +86,11 @@ Notice how above 8196, the size is *capped*. This cap is controlled by the <b>Co
 
 ## Changing the inheritance method
 
-In most cases, the default [inheritance method](../inheritance-compositing/inheritance-in-substance-compositing-graphs.md) for the Output Size property is the following depending on the item:
+In most cases, the default [inheritance method](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) for the Output Size property is the following depending on the item:
 
 * Graph: *Relative to parent*
-* Node: *Relative to input* – the values inherited by the node's [Primary input](../inheritance-compositing/inheritance-in-substance-compositing-graphs.md) are used in this case
-* [Bitmap](../nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node: *Absolute* – see the [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) page and [performance optimization guidelines](../../best-practices/performance-optimization/performance-optimization-guidelines.md) to know why that is
+* Node: *Relative to input* – the values inherited by the node's [Primary input](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) are used in this case
+* [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node: *Absolute* – see the [Bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md) page and [performance optimization guidelines](../../help/best-practices/performance-optimization/performance-optimization-guidelines.md) to know why that is
 
 Display the properties of a node or graph by clicking that item, then in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel find the <b>Output Size</b> property in the <b>Base parameters</b> section. Click the inheritance method drop down menu select the desired inheritance method.
 
@@ -133,7 +130,7 @@ Set the inheritance method for the graph's Output size to *Relative to parent*.
 
 Above you see a case where the output of a graph results in a different resolution (512\*512) than set in the parent (1024\*1024), despite the graph being set to *Relative to parent*.
 
-The problem stems from the [Bitmap](../nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node. It defaults to the *Absolute* inheritance method, and picked 512\*512 as a resolution based on the [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md). The node connected to it are set to *Relative to input*, thus inherit their Output Size from the Bitmap node.
+The problem stems from the [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node. It defaults to the *Absolute* inheritance method, and picked 512\*512 as a resolution based on the [Bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md). The node connected to it are set to *Relative to input*, thus inherit their Output Size from the Bitmap node.
 
 **![(tick)](check.svg) Solution**
 
@@ -154,7 +151,7 @@ Set the Output Size's inheritance method of the Bitmap node to *Relative to pare
 
 Above you see an issue where the resolution jumps much higher halfway through the chain, resulting to much higher output resolution than defined by the parent.
 
-The problem is caused by a relative modifier of 3 on the [Transformation 2D](../nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node, making the output 8 times larger.
+The problem is caused by a relative modifier of 3 on the [Transformation 2D](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node, making the output 8 times larger.
 
 **![(tick)](check.svg) Solution**
 

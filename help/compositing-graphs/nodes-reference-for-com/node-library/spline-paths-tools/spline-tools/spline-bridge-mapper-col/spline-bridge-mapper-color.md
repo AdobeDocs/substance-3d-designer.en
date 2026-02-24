@@ -1,9 +1,18 @@
 ---
-title: "Spline Bridge Mapper Color"
-description: "Use the Spline Bridge Mapper Color node to bridge textures between two splines with color mapping."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Color"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-color.html"
+breadcrumb-title: ""
+description: Use the Spline Bridge Mapper Color node to bridge textures between two splines with color mapping.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge Mapper Color
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Spline Bridge Mapper Color
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline Bridge Mapper Color
 
@@ -34,7 +43,7 @@ Maps a color image across a list of input splines so the image traverses the spl
 
 >[!NOTE]
 >
-> See also [Spline Bridge Mapper Grayscale](../spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md).
+> See also [Spline Bridge Mapper Grayscale](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md).
 
 ## Input connectors
 

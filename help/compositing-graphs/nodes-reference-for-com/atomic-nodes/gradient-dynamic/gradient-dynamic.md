@@ -1,21 +1,17 @@
 ---
-title: "Gradient (Dynamic)"
-description: "Use the Gradient (Dynamic) node to create dynamic gradients that can be controlled by input parameters and values."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - gradients
-  - creating-color-palettes
-  - shading
+breadcrumb-title: ""
+description: Use the Gradient (Dynamic) node to create dynamic gradients that can be controlled by input parameters and values.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Gradient (Dynamic)
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Gradient (Dynamic)
@@ -69,22 +65,22 @@ Alternatively, the Gradient Input Position slider can be used to alternate betwe
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Parameters
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Input connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Output connectors
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

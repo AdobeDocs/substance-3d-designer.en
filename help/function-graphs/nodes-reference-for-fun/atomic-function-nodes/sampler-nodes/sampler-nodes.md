@@ -1,20 +1,17 @@
 ---
-title: "Samplers"
-description: "Access sampler nodes in Substance 3D Designer function graphs to sample textures and extract color values."
-helpx_description: Designer > Function graphs > Nodes reference for function graphs > Samplers
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - filters
-  - adjustments
-  - nodes
+breadcrumb-title: ""
+description: Access sampler nodes in Substance 3D Designer function graphs to sample textures and extract color values.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Samplers
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Samplers
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Sampler nodes

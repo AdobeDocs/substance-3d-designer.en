@@ -1,20 +1,17 @@
 ---
-title: "Histogram Scan Non-Uniform"
-description: "Use the Histogram Scan Non-Uniform node to perform non-uniform histogram scanning for advanced color correction."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan Non-Uniform
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - photogrammetry
-  - hdri
-  - adjustments
+breadcrumb-title: ""
+description: Use the Histogram Scan Non-Uniform node to perform non-uniform histogram scanning for advanced color correction.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan Non-Uniform
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Histogram Scan Non-Uniform
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Histogram Scan Non-Uniform
@@ -36,9 +33,9 @@ helpx_learn_topic:
 
 ## Description
 
-Advanced version of [Histogram Scan](../histogram-scan/histogram-scan.md), with additional controls and input to drive the effect on a per-pixel level, rather than uniformly across the whole image. Can be used to achieve even more intricate contrast and transitions in masks.
+Advanced version of [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), with additional controls and input to drive the effect on a per-pixel level, rather than uniformly across the whole image. Can be used to achieve even more intricate contrast and transitions in masks.
 
-It's a lot more complex to use than the regular [Histogram Scan](../histogram-scan/histogram-scan.md), so make sure you are familiar with that before attempting to use the Non-Uniform version.
+It's a lot more complex to use than the regular [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), so make sure you are familiar with that before attempting to use the Non-Uniform version.
 
 ## Parameters
 

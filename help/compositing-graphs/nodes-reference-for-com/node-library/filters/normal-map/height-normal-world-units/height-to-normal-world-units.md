@@ -1,20 +1,17 @@
 ---
-title: "Height to Normal World Units"
-description: "Use the Height to Normal World Units node to convert height maps to normal maps using world unit scaling for accurate detail."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height to Normal World Units
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - height
-  - scaling
-  - perspective
+breadcrumb-title: ""
+description: Use the Height to Normal World Units node to convert height maps to normal maps using world unit scaling for accurate detail.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Height to Normal World Units
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Height to Normal World Units
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Height to Normal World Units

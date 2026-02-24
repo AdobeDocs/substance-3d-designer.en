@@ -1,21 +1,17 @@
 ---
-title: "Vector editing tools"
-description: "Use vector editing tools to create and modify SVG graphics in Substance 3D Designer for procedural textures."
-helpx_description: Designer > Resources > Vector graphics (SVG) resource > Vector editing tools
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
-helpx_creative_field:
-  - painting-illustration
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - shapes
-  - drawing
-  - vector
+breadcrumb-title: ""
+description: Use vector editing tools to create and modify SVG graphics in Substance 3D Designer for procedural textures.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > Vector graphics (SVG) resource > Vector editing tools
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Vector editing tools
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Vector editing tools
@@ -51,7 +47,7 @@ Edits can be *undone individually*, and all the other features of the 2D View pa
 
 >[!IMPORTANT]
 >
-> You can paint *only* on *8-bit* [vector graphics resources](../vector-graphics-svg-resource.md) which are [new or imported](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
+> You can paint *only* on *8-bit* [vector graphics resources](../../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) which are [new or imported](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
 
 ![New SVG resource dialog](2dview-new-vector-image.png "New SVG resource dialog"){width="512px"}
 
@@ -65,7 +61,7 @@ The vector editing tools will be enabled automatically in the [2D view](https://
 *New* vector graphics images can be created the following ways:
 
 * In the [Explorer](https://docs.substance3d.com/display/SDDOC/The+Explorer+Window) panel, click RMB on an *SBS package* or a *folder* within a package to open their contextual menu, then open the **New** submenu and select the **SVG** option
-* In a [graph](https://docs.substance3d.com/display/SDDOC/The+Graph+view), create an [SVG node](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) and select the **From new resource...** option in the contextual menu
+* In a [graph](https://docs.substance3d.com/display/SDDOC/The+Graph+view), create an [SVG node](../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) and select the **From new resource...** option in the contextual menu
 
 The **New vectorial data** window will open, letting you set the *name* and *resolution* of the new vector graphics resource.
 
@@ -95,7 +91,7 @@ For the best compatibility and reliability in Designer and its editing tools, pl
 
 >[!NOTE]
 >
-> To learn more about SVG limitations, exporting from other software and SVG properties in Designer, please refer to the [Vector graphics (SVG) resource](../vector-graphics-svg-resource.md) section.
+> To learn more about SVG limitations, exporting from other software and SVG properties in Designer, please refer to the [Vector graphics (SVG) resource](../../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) section.
 
 ## Tools
 
@@ -271,7 +267,7 @@ Shapes are arranged in a *stack*, which sets the *order* of the shapes in the ca
 +++
 
 +++Send to new SVG image
-You can use shapes in the current image to create a *new [SVG resource](../vector-graphics-svg-resource.md)* in the current [SBS package](../../../getting-started/overview/overview.md). To that regard, the following actions are available:
+You can use shapes in the current image to create a *new [SVG resource](../../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)* in the current [SBS package](../../../help/getting-started/overview/overview.md). To that regard, the following actions are available:
 
 <b>Copy selection to new SVG</b>: Creates a new SVG resource, and copies the selected shapes *in place* in this new image.
 

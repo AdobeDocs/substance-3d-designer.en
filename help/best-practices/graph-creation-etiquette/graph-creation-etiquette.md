@@ -1,20 +1,17 @@
 ---
-title: "Graph Creation Etiquette"
-description: "Learn best practices and etiquette for creating Substance graphs to ensure clean, maintainable, and efficient workflows."
-helpx_description: Designer > Best Practices > Graph Creation Etiquette
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - graphs
-  - data-and-analytics
-  - data-visualizations
+breadcrumb-title: ""
+description: Learn best practices and etiquette for creating Substance graphs to ensure clean, maintainable, and efficient workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Best Practices > Graph Creation Etiquette
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Graph Creation Etiquette
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Graph Creation Etiquette
@@ -27,7 +24,7 @@ Creating large, complex graphs can quickly get confusing and become hard to navi
 
 #### Graph items
 
-Graph items are helper objects that can be placed next to and around your nodes in [the Graph View](../../interface/the-graph-view/the-graph-view.md). Out of the three, the Frame provides the quickest and biggest benefits, while the Comment and Navigation Pin are more suited for specific scenarios.
+Graph items are helper objects that can be placed next to and around your nodes in [the Graph View](../../help/interface/the-graph-view/the-graph-view.md). Out of the three, the Frame provides the quickest and biggest benefits, while the Comment and Navigation Pin are more suited for specific scenarios.
 
 #### Frames
 
@@ -89,7 +86,7 @@ When exposing Parameters, more than just the Label and Identifier is important, 
 * Choose the correct Editor type. A Slider might not always make sense: an Angle or Dropdown Ui element are also possibilities.
 * Set up proper Min and Max values and decide if clamping them makes sense.
 * Choose a default value that makes sense: Defaults that reurn useless, edge case results should be avoided.
-* Consider remapping the range through a [Function ](../../function-graphs/function-graphs.md)if required: a Slider from 0.125 to 0.357 doesn't make any sense, you can easily remap this with a Linear Interpolation and have the UI element utilize a 0 to 1 range.
+* Consider remapping the range through a [Function ](../../help/function-graphs/function-graphs.md)if required: a Slider from 0.125 to 0.357 doesn't make any sense, you can easily remap this with a Linear Interpolation and have the UI element utilize a 0 to 1 range.
 
 ## Substance graphs
 
@@ -106,9 +103,9 @@ Great care is required when using color and Grayscale data, mixing both types ca
 
 ### Resolution control
 
-Controlling the resolution of a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) can be confusing, so proper care is required to do this correctly. Making mistakes can lead to severly impacted peformance, or low-quality, unuseable results.
+Controlling the resolution of a [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md) can be confusing, so proper care is required to do this correctly. Making mistakes can lead to severly impacted peformance, or low-quality, unuseable results.
 
-[To fully understand this topic make sure you know about Absolute and Relative Output Sizes.](../../compositing-graphs/output-size/output-size.md)
+[To fully understand this topic make sure you know about Absolute and Relative Output Sizes.](../../help/compositing-graphs/output-size/output-size.md)
 
 * A graph should be set to "Relative to Parent" resolution in almost every case, unless there is a very specific exception where it is not required (very rare).
 * Nodes generally shouldn't have override settings for the Output Size. Resolution is best controlled through the Parent or Graph properties in most cases.

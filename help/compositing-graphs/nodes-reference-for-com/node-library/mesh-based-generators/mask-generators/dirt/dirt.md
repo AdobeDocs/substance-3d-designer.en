@@ -1,20 +1,17 @@
 ---
-title: "Dirt"
-description: "Use the Dirt node to generate dirt accumulation masks based on mesh curvature, position, and occlusion."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - masking
-  - reflections
-  - creative-effects
+breadcrumb-title: ""
+description: Use the Dirt node to generate dirt accumulation masks based on mesh curvature, position, and occlusion.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dirt
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Dirt
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Dirt
@@ -65,7 +62,7 @@ This mask represent dirts in occluded and sunken edges and corners, based on bak
 * **Edges Masking**: *0.0 - 1.0*Amount of dirt to remove from raised edges (based on the curvature map).
 * **Use Custom Grunge**: *False/True*Enables use of custom grunge map input instead of built-in Grunge.
 * **Grunge Scale**: *1 - 16*Sets tiling scale of Grunge detail.
-* **Use Triplanar**: *False/True*Use [Triplanar projection](../../utilities-mesh-based-gen/tri-planar/tri-planar.md) for Grunge mapping, removes seams.
+* **Use Triplanar**: *False/True*Use [Triplanar projection](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) for Grunge mapping, removes seams.
 * **Triplanar Blending Contrast**: *0.001 - 1.0*Sets contrast of the Triplanar projection.
 
 ## Example Images

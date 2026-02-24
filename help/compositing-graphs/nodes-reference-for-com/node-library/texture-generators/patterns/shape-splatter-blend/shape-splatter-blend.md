@@ -1,20 +1,17 @@
 ---
-title: "Shape Splatter Blend"
-description: "Use the Shape Splatter Blend node to blend multiple shape splatters for creating complex procedural patterns."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Blend
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-blend.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - blending
-  - shapes
-  - illustration
+breadcrumb-title: ""
+description: Use the Shape Splatter Blend node to blend multiple shape splatters for creating complex procedural patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Blend
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Shape Splatter Blend
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Shape Splatter Blend
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-Takes [Shape Splatter](../shape-splatter/shape-splatter.md) Data as input to generate color or grayscale maps from.
+Takes [Shape Splatter](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data as input to generate color or grayscale maps from.
 
 ## Parameters
 

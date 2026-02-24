@@ -1,20 +1,17 @@
 ---
-title: "Convert to sRGB"
-description: "Use the Convert to sRGB node to convert textures from linear to sRGB color space for display and output workflows."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Convert to sRGB
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-srgb.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - color
-  - colorize
-  - creating-color-palettes
+breadcrumb-title: ""
+description: Use the Convert to sRGB node to convert textures from linear to sRGB color space for display and output workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Convert to sRGB
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Convert to sRGB
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Convert to sRGB

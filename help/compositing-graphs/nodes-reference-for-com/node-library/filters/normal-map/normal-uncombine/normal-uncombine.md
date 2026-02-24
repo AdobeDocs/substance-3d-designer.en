@@ -1,9 +1,18 @@
 ---
-title: "Normal Uncombine"
-description: "Use the Normal Uncombine node to separate combined normal map data into individual X, Y, and Z components."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal map > Normal uncombine"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
+breadcrumb-title: ""
+description: Use the Normal Uncombine node to separate combined normal map data into individual X, Y, and Z components.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal map > Normal uncombine
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Normal Uncombine
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Normal Uncombine
 
@@ -35,12 +44,12 @@ Removes from a normal map the surface details described by a height map.
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>
@@ -58,7 +67,7 @@ Removes from a normal map the surface details described by a height map.
 |  |  |
 | --- | --- |
 | <b>Uncombined normal</b> *Color* | The normal map where the surface details described by the input height map were removed. |
-| <b>Guessed intensity</b> *Float* | An estimate of the intensity which should be set to a [Normal](../../../../atomic-nodes/normal/normal.md) node connected to the input height map, to match the intensity of the input normal map. |
+| <b>Guessed intensity</b> *Float* | An estimate of the intensity which should be set to a [Normal](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) node connected to the input height map, to match the intensity of the input normal map. |
 
 ## Parameters
 

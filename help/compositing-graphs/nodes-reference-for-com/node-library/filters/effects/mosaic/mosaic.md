@@ -1,20 +1,17 @@
 ---
-title: "Mosaic"
-description: "Use the Mosaic node to create mosaic tile effects by dividing textures into pixelated blocks and patterns."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Mosaic
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - asset-warp
-  - effects
-  - gradients
+breadcrumb-title: ""
+description: Use the Mosaic node to create mosaic tile effects by dividing textures into pixelated blocks and patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Mosaic
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Mosaic
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Mosaic
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 ## Description
 
-"Facetises" an existing, smooth, sloping gradient map by performing a multi-pass [Warp](../../../../atomic-nodes/warp/warp.md) effect. When the same map is used for both inputs, it essentially grows and accentuates the brightest areas.
+"Facetises" an existing, smooth, sloping gradient map by performing a multi-pass [Warp](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) effect. When the same map is used for both inputs, it essentially grows and accentuates the brightest areas.
 
 This is useful for adding more definition to grayscale maps such as Heightmap, as it can introduce more definition to shapes.
 

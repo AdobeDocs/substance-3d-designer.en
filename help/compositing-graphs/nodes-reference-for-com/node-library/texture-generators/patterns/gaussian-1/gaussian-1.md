@@ -1,20 +1,17 @@
 ---
-title: "Gaussian 1"
-description: "Use the Gaussian 1 node to generate Gaussian noise patterns for creating organic textures and variations."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gaussian 1
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - modeling
-  - blending
+breadcrumb-title: ""
+description: Use the Gaussian 1 node to generate Gaussian noise patterns for creating organic textures and variations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gaussian 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Gaussian 1
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Gaussian 1

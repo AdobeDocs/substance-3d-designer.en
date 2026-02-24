@@ -1,20 +1,17 @@
 ---
-title: "RT Irradiance"
-description: "Use the RT Irradiance node to compute real-time irradiance information from geometry for realistic lighting calculations."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > RT Irradiance
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-irradiance.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - hdri
-  - pbr
-  - shading
+breadcrumb-title: ""
+description: Use the RT Irradiance node to compute real-time irradiance information from geometry for realistic lighting calculations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > RT Irradiance
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: RT Irradiance
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # RT Irradiance

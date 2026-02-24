@@ -1,31 +1,28 @@
 ---
-title: "3D View issues"
-description: "Troubleshoot 3D View issues in Substance 3D Designer including rendering, display, and performance problems."
-helpx_description: Designer > Technical issues > 3D View issues
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - height
-  - perspective
-  - 3d
+breadcrumb-title: ""
+description: Troubleshoot 3D View issues in Substance 3D Designer including rendering, display, and performance problems.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > 3D View issues
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: 3D View issues
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 3D View issues
 
-This page lists technical issues related to the [3D view](../../interface/3d-view/3d-view.md) in Substance 3D Designer, and offer troubleshooting steps for each.
+This page lists technical issues related to the [3D view](../../help/interface/3d-view/3d-view.md) in Substance 3D Designer, and offer troubleshooting steps for each.
 
 ## Low performance: Discrete GPU is not used
 
 <b>!&#91;(error)&#93;(error.svg) Issue</b>
 
-Substance 3D Designer does not use the system's *discrete* GPU (<b>dGPU</b>), and uses the *integrated* GPU (<b>iGPU</b>) instead. This results in low performance when rendering graphs and/or the [3D view](../../interface/3d-view/3d-view.md).
+Substance 3D Designer does not use the system's *discrete* GPU (<b>dGPU</b>), and uses the *integrated* GPU (<b>iGPU</b>) instead. This results in low performance when rendering graphs and/or the [3D view](../../help/interface/3d-view/3d-view.md).
 
 <b>!&#91;(tick)&#93;(check.svg) Recommended steps</b>
 
@@ -42,7 +39,7 @@ For instance, users with an <b>Nvidia dGPU</b> can do the following:
 
 >[!WARNING]
 >
-> Please note integrated GPUs (iGPU) are *not supported*. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
+> Please note integrated GPUs (iGPU) are *not supported*. You can learn more on the [System requirements](../../help/getting-started/system-requirements/system-requirements.md) page.
 
 ## 3D object is flat
 
@@ -80,7 +77,7 @@ Open the <b>Materials</b> menu open the submenu of the current material (*Defaul
 
 ### In the Graph view
 
-Create an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node and set the "<b>heightscale</b>" usage in its properties, then *reapply the graph* in the 3D View. You may feed this output a texture, or a value using a [Value processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) node.
+Create an [Output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node and set the "<b>heightscale</b>" usage in its properties, then *reapply the graph* in the 3D View. You may feed this output a texture, or a value using a [Value processor](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) node.
 
 >[!NOTE]
 >
@@ -104,11 +101,11 @@ You may find drivers here:   [NVIDIA](https://www.nvidia.com/Download/index.as
 
 Version 15.0 and higher
 
-Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) introduced our new in-house [3D renderers](../../interface/3d-view/3d-renderers/3d-renderers.md), which use modern technologies and therefore are not supported by older GPUs.
+Designer [15.0.0](../../help/release-notes/version-15-0/version-15-0.md) introduced our new in-house [3D renderers](../../help/interface/3d-view/3d-renderers/3d-renderers.md), which use modern technologies and therefore are not supported by older GPUs.
 
-Supported GPUs include NVIDIA RTX 20 series (Turing) or higher, as per Designer's [system requirements](../../getting-started/system-requirements/system-requirements.md).
+Supported GPUs include NVIDIA RTX 20 series (Turing) or higher, as per Designer's [system requirements](../../help/getting-started/system-requirements/system-requirements.md).
 
-You may continue using the OpenGL renderer by default, by using the [new option in the Project settings](../../interface/preferences-window/project-settings/project-settings.md):
+You may continue using the OpenGL renderer by default, by using the [new option in the Project settings](../../help/interface/preferences-window/project-settings/project-settings.md):
 
 1. Go to Edit &gt; Preferences &gt; Projects
 1. Select the last project file in the list
@@ -134,11 +131,11 @@ In versions 15.0.0 and higher, the 'Renderer not supported' message appears in t
 
 <b>!&#91;(tick)&#93;(check.svg) Recommended steps</b>
 
-Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) introduced our new in-house [3D renderers](../../interface/3d-view/3d-renderers/3d-renderers.md), which use modern technologies and therefore are not supported by older GPUs.
+Designer [15.0.0](../../help/release-notes/version-15-0/version-15-0.md) introduced our new in-house [3D renderers](../../help/interface/3d-view/3d-renderers/3d-renderers.md), which use modern technologies and therefore are not supported by older GPUs.
 
-Supported GPUs include NVIDIA RTX 20 series (Turing) or higher, as per Designer's [system requirements](../../getting-started/system-requirements/system-requirements.md).
+Supported GPUs include NVIDIA RTX 20 series (Turing) or higher, as per Designer's [system requirements](../../help/getting-started/system-requirements/system-requirements.md).
 
-On default settings, the 3D View will automatically fall back to the OpenGL renderer, if the 'Default renderer' option is set to 'Default (predefined renderer)' in the [Project settings](../../interface/preferences-window/project-settings/project-settings.md).
+On default settings, the 3D View will automatically fall back to the OpenGL renderer, if the 'Default renderer' option is set to 'Default (predefined renderer)' in the [Project settings](../../help/interface/preferences-window/project-settings/project-settings.md).
 
 You may find and adjust that option by following these steps:
 
@@ -161,7 +158,7 @@ You may find and adjust that option by following these steps:
 
 **![(error)](error.svg) Issue**
 
-After working on the data sent to the **Height** [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), the object appears to have some volume but *looks entirely smooth*, as if the height information was ignored in the shading.
+After working on the data sent to the **Height** [output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), the object appears to have some volume but *looks entirely smooth*, as if the height information was ignored in the shading.
 
 <table>
 <tr style="border: 0;">
@@ -169,11 +166,11 @@ After working on the data sent to the **Height** [output](../../compositing-grap
 
 **![(tick)](check.svg) Recommended steps**
 
-Make sure the height data is *converted to normals* which are connected to the **Normal** [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+Make sure the height data is *converted to normals* which are connected to the **Normal** [output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 When using the **Tessellation Displacement** technique – see "3D object is flat" above – the objects may *deform* to follow the height data but its surface will *not react to light differently* until its *normals* are also modified to account for the height data.
 
-The solution is quite simple: connect the last node of the stream leading to the Height output to a [Normal](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) node. Adjust that node's **Intensity** parameter according to the material you are working on and connect the Normal node to the **Normal** output.
+The solution is quite simple: connect the last node of the stream leading to the Height output to a [Normal](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) node. Adjust that node's **Intensity** parameter according to the material you are working on and connect the Normal node to the **Normal** output.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -196,9 +193,9 @@ The rendered image looks blurry or pixelated when the system uses *display scali
 
 **![(tick)](check.svg) Recommended steps**
 
-By default, Designer uses the *scaled* display resolution to define the [3D view](../../interface/3d-view/3d-view.md)'s rendering resolution. You can change this so the *native* display resolution is used instead for a crisp render.
+By default, Designer uses the *scaled* display resolution to define the [3D view](../../help/interface/3d-view/3d-view.md)'s rendering resolution. You can change this so the *native* display resolution is used instead for a crisp render.
 
-Open the **Edit** menu and select the **Preferences...** option. In the [Preferences](../../interface/preferences-window/preferences-window.md) window, open the **3D View** section and set the **Viewport scaling** parameter to *None*.
+Open the **Edit** menu and select the **Preferences...** option. In the [Preferences](../../help/interface/preferences-window/preferences-window.md) window, open the **3D View** section and set the **Viewport scaling** parameter to *None*.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -235,7 +232,7 @@ The shading of objects relies on their normal, tangent and binormal vectors. The
 
 For instance, a scale of 2 and a bias of -1 adapts the x value from &#91;0, 1&#93; to &#91;-1, 1&#93; thusly: x\*2-1.
 
-Designer does not apply a normal scale and bias unless they are specified by a 3D mesh. If that information is missing, a warning is raised in the Console when [overriding any of its materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
+Designer does not apply a normal scale and bias unless they are specified by a 3D mesh. If that information is missing, a warning is raised in the Console when [overriding any of its materials](../../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
 
 ```
 
@@ -247,7 +244,7 @@ Designer does not apply a normal scale and bias unless they are specified by a 
 
 For scenes exported to USD formats a while ago: Reexport the scene using a recent version of USD, which will include the necessary data. Pay attention to properties related to normal scale and bias if there are any, which will depend on the software used to export the scene.
 
-When [overriding a material](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), Designer processes the mesh and computes any missing data related ot its normals, tangents and binormals. If Designer's default scale and bias happen to match the ones required for the mesh, then the mesh will look correct when overridden.
+When [overriding a material](../../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), Designer processes the mesh and computes any missing data related ot its normals, tangents and binormals. If Designer's default scale and bias happen to match the ones required for the mesh, then the mesh will look correct when overridden.
 
 ## Crash when starting 3D View
 
@@ -257,7 +254,7 @@ Designer crashes at the time of starting the 3D View, when creating a project, l
 
 <b>!&#91;(tick)&#93;(check.svg) Recommended steps</b>
 
-First, make sure your system meets Designer's [system requirements](../../getting-started/system-requirements/system-requirements.md).
+First, make sure your system meets Designer's [system requirements](../../help/getting-started/system-requirements/system-requirements.md).
 
 Then, update your graphics drivers. You can find the latest drivers for your GPU by following these links:
 

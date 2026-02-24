@@ -1,20 +1,17 @@
 ---
-title: "Shape mapper"
-description: "Use the Shape Mapper node to map shapes onto textures with customizable transformations and positioning."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape mapper
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - shapes
-  - asset-warp
-  - normal-maps
+breadcrumb-title: ""
+description: Use the Shape Mapper node to map shapes onto textures with customizable transformations and positioning.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape mapper
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Shape mapper
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Shape mapper
@@ -48,22 +45,22 @@ The projection deforms the image to follow the shape's outline, and make it fit 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Inputs
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

@@ -1,9 +1,18 @@
 ---
-title: "Version 13.1"
-description: "Review release notes for Substance 3D Designer version 13.1 to learn about node graph improvements and AxF export support."
-helpx_description: "Designer > Release Notes > Version 13.1"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 13.1 to learn about node graph improvements and AxF export support.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 13.1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Version 13.1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 13.1
 
@@ -17,19 +26,19 @@ helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-
 
 Frames are a mandatory tool to keep you graph well organized and readable. That is the reason we decided to polish them in this new version.
 
-### <b>Auto-expand</b>
+### Auto-expand
 
 As the graph grows, the frames' content may need to be rearranged. Nodes may shift to make room for additions or content may need to be spaced out more to promote readability. To facilitate these adjustments, it is now possible to automatically expand a frame when moving included objects: hold <b>Shift</b> at any point while moving an object to have the frame borders automatically adjust to keep that object within their bounds.
 
 ![autoexpand](autoexpand.gif)
 
-### <b>Fit size to content</b>
+### Fit size to content
 
 As you make adjustments in your graph, a frame may not be gracefully adjusted to its content anymore. This new command allows you to automatically adjust the position and size of the frame so it adjusts to the span of its content, with a padding of one medium grid cell. If the frame has a description, it is adjusted to make use of any empty space next to the description, if possible.
 
 ![fitsize](fitsize.gif)
 
-### <b>Enhanced descriptions</b>
+### Enhanced descriptions
 
 Thanks to HTML code, you can now have formatted text in a frame's description. This applies to comments as well.
 
@@ -37,13 +46,13 @@ Thanks to HTML code, you can now have formatted text in a frame's description. T
 
 ### <b>...And much more!</b>
 
-A lot of things have been rethought, like belonging rules to be more tolerant, interaction zones to easily resize frames, snapping rules to not misaligned your nodes on the grid, and the visual aspect to bring a bit of freshness. Feel free to visit the frames' [documentation](../../interface/the-graph-view/graph-items/frame/frame.md) to learn more.
+A lot of things have been rethought, like belonging rules to be more tolerant, interaction zones to easily resize frames, snapping rules to not misaligned your nodes on the grid, and the visual aspect to bring a bit of freshness. Feel free to visit the frames' [documentation](../../help/interface/the-graph-view/graph-items/frame/frame.md) to learn more.
 
 ## Quality of life improvements
 
 * <b>Node menu improvements: </b>in order to save time while searching for the node you need, we improved a bit the node menu. Search is now more forgiving and will give you a result even if there is no perfect match. Moreover, you can now use the up arrow to directly access to the last element in the list.
 * <b>Node placement: </b>if you like to have a perfect layout for your graph, these two small changes will please you! When you copy/paste nodes from one graph to one other, pasted nodes are now aligned to the main grid. And when you add a node on a long link, this one will now be placed at the middle of the visible part of the link, in order to make it visible in every situation.
-* <b>2D View options: </b>if you are an intensive user of the [2D view](../../interface/2d-view/2d-view.md), you will save time as options like 'Show checkerboard', 'Keep view size', 'Use physical size' and 'Display tiling' are now saved, so you don't have to set them again when you create a new 2D view or even when you restart Designer.
+* <b>2D View options: </b>if you are an intensive user of the [2D view](../../help/interface/2d-view/2d-view.md), you will save time as options like 'Show checkerboard', 'Keep view size', 'Use physical size' and 'Display tiling' are now saved, so you don't have to set them again when you create a new 2D view or even when you restart Designer.
 
 ## AxF export
 
@@ -56,9 +65,9 @@ A lot of things have been rethought, like belonging rules to be more tolerant, i
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-AxF is a format from [X-Rite](https://www.xrite.com/axf). It provides a way to capture, store, edit, and communicate complex material characteristics using numerical data throughout the digital design workflow. In previous versions of Designer, you were able to [import AxF files](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) and then improve the tiling or add procedural effects, but then, you were constrained to export changes as a new .sbsar file.
+AxF is a format from [X-Rite](https://www.xrite.com/axf). It provides a way to capture, store, edit, and communicate complex material characteristics using numerical data throughout the digital design workflow. In previous versions of Designer, you were able to [import AxF files](../../help/resources/axf-appearance-exchange/axf-appearance-exchange-format.md) and then improve the tiling or add procedural effects, but then, you were constrained to export changes as a new .sbsar file.
 
-In this new release, we introduce the possibility to edit AxF materials in place, and then [export your changes](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) as a new layer in the imported AxF file.
+In this new release, we introduce the possibility to edit AxF materials in place, and then [export your changes](../../help/resources/axf-appearance-exchange/axf-appearance-exchange-format.md) as a new layer in the imported AxF file.
 
 </td>
 </tr>
@@ -66,7 +75,7 @@ In this new release, we introduce the possibility to edit AxF materials in place
 
 ![Export AxF](exportaxf.gif)
 
-## <b>API </b>
+## API
 
 Finally, this 13.1 version continues to improve the Python API by adding two more possibilities:
 
@@ -83,7 +92,7 @@ Finally, this 13.1 version continues to improve the Python API by adding two mor
 
 *(Released December 12th, 2023)*
 
-### <b>Added</b>
+### Added
 
 * &#91;Frames&#93; Auto Expand
 * &#91;Frames&#93; Change rules to define when an object belongs to a frame
@@ -115,7 +124,7 @@ Finally, this 13.1 version continues to improve the Python API by adding two mor
 * &#91;3D View&#93; Add Position technique to the mesh info shader
 * &#91;Export&#93; Add a 'Save settings' button to save changes to export options
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;3D View&#93; Cannot assign a texture to an input of type texture\_2d of a MDL Material
 * &#91;AxF&#93; Graph identifiers in templates list can be blank
@@ -142,7 +151,7 @@ Finally, this 13.1 version continues to improve the Python API by adding two mor
 * &#91;UI&#93; Images appear pixelated in About screen when using display scaling
 * &#91;UI&#93; Node align tools in graph toolbar create multiple undo steps
 
-### <b>KNOWN ISSUES</b>
+### KNOWN ISSUES
 
 * &#91;AxF OpenGL Shader&#93; Incorrect Ward for anisotropic distribution
 * &#91;AxF OpenGL Shader&#93; Incorrect default roughness

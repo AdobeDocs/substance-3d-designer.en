@@ -1,9 +1,18 @@
 ---
-title: "View Color Palette"
-description: "Use the View Color Palette node to visualize color palette data extracted from textures for analysis."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > View Color Palette"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+breadcrumb-title: ""
+description: Use the View Color Palette node to visualize color palette data extracted from textures for analysis.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > View Color Palette
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: View Color Palette
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # View Color Palette
 
@@ -29,7 +38,7 @@ The packing aims at leaving as few empty slots as possible.
 
 The order of colors in the palette is preserved, with the colors flowing from left to right and top to bottom similarly to text wrapping.
 
-This node may be used to visualize the palettes produced by the following nodes: [Quantize Color](../quantize-color/quantize-color.md), [Create Color Palette](../create-color-palette-16/create-color-palette-16.md), [Modify Color Palette](../modify-color-palette/modify-color-palette.md).
+This node may be used to visualize the palettes produced by the following nodes: [Quantize Color](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md), [Create Color Palette](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [Modify Color Palette](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md).
 
 <table>
 <tr style="border: 0;">
@@ -40,7 +49,7 @@ This node may be used to visualize the palettes produced by the following nodes:
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">

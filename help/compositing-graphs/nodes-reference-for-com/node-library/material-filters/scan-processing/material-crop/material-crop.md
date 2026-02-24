@@ -1,20 +1,17 @@
 ---
-title: "Material Crop"
-description: "Use the Material Crop node to crop texture regions from scanned materials for isolating specific areas of interest."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Crop
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/material-crop.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - crop
-  - panorama
-  - materials
+breadcrumb-title: ""
+description: Use the Material Crop node to crop texture regions from scanned materials for isolating specific areas of interest.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Material Crop
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Material Crop
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Material Crop
@@ -36,11 +33,11 @@ helpx_learn_topic:
 
 ## Description
 
-This node is the multi-channel, full material version of [Crop](../crop/crop.md). It allows you to perform a crop operation on any and all Material channels in parallel.
+This node is the multi-channel, full material version of [Crop](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md). It allows you to perform a crop operation on any and all Material channels in parallel.
 
 >[!NOTE]
 >
-> [See the original ](../crop/crop.md)[Crop](../crop/crop.md)[ for more info.](../crop/crop.md)
+> [See the original ](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[Crop](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[ for more info.](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
 
 ## Parameters
 

@@ -1,20 +1,17 @@
 ---
-title: "Swirl"
-description: "Use the Swirl node to apply swirl distortion effects to textures for creating vortex and spiral patterns."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Swirl
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - asset-warp
-  - transform
-  - creative-effects
+breadcrumb-title: ""
+description: Use the Swirl node to apply swirl distortion effects to textures for creating vortex and spiral patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Swirl
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Swirl
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Swirl

@@ -1,20 +1,17 @@
 ---
-title: "Directional warp"
-description: "Use the Directional Warp node to apply directional distortion to textures for creating flow and motion effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - asset-warp
-  - effects
-  - distortions
+breadcrumb-title: ""
+description: Use the Directional Warp node to apply directional distortion to textures for creating flow and motion effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Directional warp
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Directional warp
@@ -36,7 +33,7 @@ Warps an input in a user-set direction, multiplied by a user-set Intensity map. 
 </tr>
 </table>
 
-The Warp node is a fairly simple but useful node that serves as a good basis for other more advanced effects. There are more advanced alternatives such as other related nodes of interest are [Slope Blur](../../node-library/filters/blurs/slope-blur/slope-blur.md) and [Vector Warp](../../node-library/filters/effects/vector-warp/vector-warp.md).
+The Warp node is a fairly simple but useful node that serves as a good basis for other more advanced effects. There are more advanced alternatives such as other related nodes of interest are [Slope Blur](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) and [Vector Warp](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 
 <table>
 <tr style="border: 0;">
@@ -62,12 +59,12 @@ The Warp node is a fairly simple but useful node that serves as a good basis for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>

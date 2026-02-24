@@ -1,20 +1,17 @@
 ---
-title: "Fractal sum 1"
-description: "Use the Fractal Sum 1 node to generate fractal noise patterns by summing multiple octaves for creating detailed textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 1
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-1.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - shapes
-  - illustration
-  - materials
+breadcrumb-title: ""
+description: Use the Fractal Sum 1 node to generate fractal noise patterns by summing multiple octaves for creating detailed textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Fractal sum 1
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Fractal sum 1
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 A variation of the <b>Fractal sum</b> noises.
 
-See also: [Fractal sum base](../fractal-sum-base/fractal-sum-base.md), [Fractal sum 2](../fractal-sum-2/fractal-sum-2.md), [Fractal sum 3](../fractal-sum-3/fractal-sum-3.md), [Fractal sum 4](../fractal-sum-4/fractal-sum-4.md)
+See also: [Fractal sum base](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md), [Fractal sum 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md), [Fractal sum 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-3/fractal-sum-3.md), [Fractal sum 4](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
 
 </td>
 </tr>
@@ -48,17 +45,17 @@ See also: [Fractal sum base](../fractal-sum-base/fractal-sum-base.md), [Fractal 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

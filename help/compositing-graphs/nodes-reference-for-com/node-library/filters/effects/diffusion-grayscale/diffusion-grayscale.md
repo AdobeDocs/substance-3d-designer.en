@@ -1,20 +1,17 @@
 ---
-title: "Diffusion Grayscale"
-description: "Use the Diffusion Grayscale node to apply grayscale diffusion effects for creating smooth color transitions and blending."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Grayscale
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-grayscale.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - masking
-  - gradients
-  - replacing-backgrounds
+breadcrumb-title: ""
+description: Use the Diffusion Grayscale node to apply grayscale diffusion effects for creating smooth color transitions and blending.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Grayscale
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Diffusion Grayscale
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Diffusion Grayscale

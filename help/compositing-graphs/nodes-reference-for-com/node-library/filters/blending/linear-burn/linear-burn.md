@@ -1,20 +1,17 @@
 ---
-title: "Linear Burn"
-description: "Use the Linear Burn node to blend textures using linear burn mode for creating darkening and contrast effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Linear Burn
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/linear-burn.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - blending
-  - effects
-  - creative-effects
+breadcrumb-title: ""
+description: Use the Linear Burn node to blend textures using linear burn mode for creating darkening and contrast effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Linear Burn
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Linear Burn
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Linear Burn

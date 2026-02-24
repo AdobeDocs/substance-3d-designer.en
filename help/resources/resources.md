@@ -1,25 +1,22 @@
 ---
-title: "Resources"
-description: "Learn how to import, create, and manage resources in Substance 3D Designer including bitmaps, fonts, and 3D scenes."
-helpx_description: Designer > Resources
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - data-visualizations
-  - data-and-analytics
-  - graphs
+breadcrumb-title: ""
+description: Learn how to import, create, and manage resources in Substance 3D Designer including bitmaps, fonts, and 3D scenes.
+helpx_creative_field: ""
+helpx_description: Designer > Resources
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Resources
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Resources
 
-Resources are the content of Substance 3D Designer's packages. They are used to build, generate and preview material and texture data. Resources can be split into two major categories: Graph resources and non-Graph resources. The method used to create or import Resources differ between types, you can read the dedicated page about [Linking, Importing and New Resources](importing-linking-and-new/importing-linking-and-new-resources.md) to better understand this.
+Resources are the content of Substance 3D Designer's packages. They are used to build, generate and preview material and texture data. Resources can be split into two major categories: Graph resources and non-Graph resources. The method used to create or import Resources differ between types, you can read the dedicated page about [Linking, Importing and New Resources](../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md) to better understand this.
 
 <table>
 <tr style="border: 0;">
@@ -34,9 +31,9 @@ Resources are the content of Substance 3D Designer's packages. They are used to 
 
 Graph Resources are the main resources created inside Designer. Each have their own dedicated areas in the documentation. Three major types exist:
 
-* [Substance graphs](../compositing-graphs/substance-compositing-graphs.md)
-* [Function graphs](../function-graphs/function-graphs.md)
-* [MDL Graphs](../mdl-graphs/mdl-graphs.md)
+* [Substance graphs](../help/compositing-graphs/substance-compositing-graphs.md)
+* [Function graphs](../help/function-graphs/function-graphs.md)
+* [MDL Graphs](../help/mdl-graphs/mdl-graphs.md)
 
 </td>
 </tr>
@@ -55,10 +52,10 @@ Graph Resources are the main resources created inside Designer. Each have their 
 
 Non Graph Resources are usually helper resources used as additional data in Graphs, or to help visualize results from Graphs. The following types exist, each have a subpage in this section of the docs:
 
-* [Bitmap](bitmap-resource/bitmap-resource.md)
-* [Vector Graphics (SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Bitmap](../help/resources/bitmap-resource/bitmap-resource.md)
+* [Vector Graphics (SVG)](../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [3D scene resource](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Font](font-resource/font-resource.md)
+* [Font](../help/resources/font-resource/font-resource.md)
 
 </td>
 </tr>

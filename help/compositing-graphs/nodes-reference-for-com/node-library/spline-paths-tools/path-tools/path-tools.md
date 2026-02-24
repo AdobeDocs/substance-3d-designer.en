@@ -1,9 +1,18 @@
 ---
-title: "Path Tools"
-description: "Access all path tool nodes for creating, manipulating, and converting paths in your Substance graphs."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
+breadcrumb-title: ""
+description: Access all path tool nodes for creating, manipulating, and converting paths in your Substance graphs.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Path Tools
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Path tools
 
@@ -15,28 +24,28 @@ Check out this tutorial to get started:
 
 >[!TIP]
 >
-> We recommend learning about [working with Path and Spline tools](../working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
+> We recommend learning about [working with Path and Spline tools](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
 > 
-> For advanced users, the [Paths Format Specification](paths-format-spe/paths-format-specifications.md) explains how the data of paths is encoded into color images, and provides tips for manipulating this data directly.
+> For advanced users, the [Paths Format Specification](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md) explains how the data of paths is encoded into color images, and provides tips for manipulating this data directly.
 
 ## Node list
 
-[Paths 2D Transform](path-2d-transform/path-2d-transform.md)
+[Paths 2D Transform](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
 
-[Mask to Paths](mask-to-paths/mask-to-paths.md)
+[Mask to Paths](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
 
-[Paths to Spline](paths-to-spline/paths-to-spline.md)
+[Paths to Spline](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)
 
-[Paths Polygon](paths-polygon/paths-polygon.md)
+[Paths Polygon](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)
 
-[Preview Paths](preview-paths/preview-paths.md)
+[Preview Paths](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)
 
-[Paths Warp](paths-warp/paths-warp.md)
+[Paths Warp](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)
 
-[Quad Transform on Path](quad-transform-on-path/quad-transform-on-path.md)
+[Quad Transform on Path](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/quad-transform-on-path/quad-transform-on-path.md)
 
-[Paths Select](paths-select/paths-select.md)
+[Paths Select](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md)
 
-[Paths Vertex Processor](paths-vertex-processor/paths-vertex-processor.md)
+[Paths Vertex Processor](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)
 
-[Paths Vertex Processor Simple](paths-vertex-processor-1/paths-vertex-processor-simple.md)
+[Paths Vertex Processor Simple](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)

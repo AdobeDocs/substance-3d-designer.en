@@ -1,20 +1,17 @@
 ---
-title: "Warp"
-description: "Use the Warp node to apply distortion effects to textures for creating warping and displacement effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Warp
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - asset-warp
-  - effects
-  - gradients
+breadcrumb-title: ""
+description: Use the Warp node to apply distortion effects to textures for creating warping and displacement effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Warp
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Warp
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Warp
@@ -38,7 +35,7 @@ Unlike the Directional Warp this node pushes away uniformly from white areas, in
 
 The node can be a little tricky to work with, as the result of the effect is very heavily dependent on the Gradient Input: small tweaks to the Gradient can make a huge visual difference with the same Intensity values. Make sure to play around with Contrast, Luminance and scale of the Gradient Input, as well as the Intensity slider on this node.
 
-If you are familiar with Normal maps, you can imagine the workings of this node to be similar to converting the Gradient Input to a [Normal map](../normal/normal.md), and then distorting the Base Input in the direction defined by the Normal map vectors. In fact, this same thing can be achieved with the [Vector Warp](../../node-library/filters/effects/vector-warp/vector-warp.md). Similar effects can also be found in [Slope Blur](../../node-library/filters/blurs/slope-blur/slope-blur.md).
+If you are familiar with Normal maps, you can imagine the workings of this node to be similar to converting the Gradient Input to a [Normal map](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md), and then distorting the Base Input in the direction defined by the Normal map vectors. In fact, this same thing can be achieved with the [Vector Warp](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md). Similar effects can also be found in [Slope Blur](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
 <table>
 <tr style="border: 0;">
@@ -64,12 +61,12 @@ If you are familiar with Normal maps, you can imagine the workings of this node 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>

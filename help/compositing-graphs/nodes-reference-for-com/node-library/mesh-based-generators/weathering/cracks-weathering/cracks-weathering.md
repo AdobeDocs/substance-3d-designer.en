@@ -1,22 +1,17 @@
 ---
-title: "Cracks Weathering"
-description: "Use the Cracks Weathering node to add crack patterns to materials based on mesh curvature and stress points."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Cracks Weathering
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - materials
-  - texture
-  - effects
+breadcrumb-title: ""
+description: Use the Cracks Weathering node to add crack patterns to materials based on mesh curvature and stress points.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Cracks Weathering
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Cracks Weathering
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Cracks Weathering
@@ -40,7 +35,7 @@ helpx_learn_topic:
 
 This is a full-material effect that works on multiple channels at once. It adds a random crack pattern, with control over spread and depth.
 
-Make sure to properly understand the [Link Creation Modes](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) when working with full materials.
+Make sure to properly understand the [Link Creation Modes](../../../../../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md) when working with full materials.
 
 ## Parameters
 

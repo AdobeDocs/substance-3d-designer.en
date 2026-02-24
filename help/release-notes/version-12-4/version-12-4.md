@@ -1,21 +1,17 @@
 ---
-title: "Version 12.4"
-description: "Review release notes for Substance 3D Designer version 12.4 to learn about new features, improvements, and bug fixes."
-helpx_description: Designer > Release Notes > Version 12.4
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
-helpx_creative_field:
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - infographic
-  - workspace
-  - preferences
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 12.4 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 12.4
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Version 12.4
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Version 12.4
@@ -40,7 +36,7 @@ No need to use a calculator or to compute in your head anymore when you want to 
 
 ### Quick access buttons in the 3D View
 
-We have added an additional toolbar in the [3D view](../../interface/3d-view/3d-view.md) corresponding to all the options available in the [Display](../../interface/3d-view/3d-view.md) menu, for quick access to all these options (E.g., Wireframe, Grid, Bounding Box, etc.) as button toggles. We also added a toggle to show / hide the environment map.
+We have added an additional toolbar in the [3D view](../../help/interface/3d-view/3d-view.md) corresponding to all the options available in the [Display](../../help/interface/3d-view/3d-view.md) menu, for quick access to all these options (E.g., Wireframe, Grid, Bounding Box, etc.) as button toggles. We also added a toggle to show / hide the environment map.
 
 ![](final-3dview.gif){width="640px"}
 
@@ -58,19 +54,19 @@ You can now lock the width and the height of the Output Size in order to make su
 
 ### Transform image input to Color/Greyscale
 
-Quickly switch between an [Input Color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) and an [Input Greyscale](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) through the node contextual menu.
+Quickly switch between an [Input Color](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) and an [Input Greyscale](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) through the node contextual menu.
 
 ![](final-switch.gif){width="640px"}
 
 ### Select clicked pin when displaying the Gradient Editor
 
-In the property panel, if you click a pin to edit a gradient, you will now automatically select the corresponding pin in the displayed [Gradient Editor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md).
+In the property panel, if you click a pin to edit a gradient, you will now automatically select the corresponding pin in the displayed [Gradient Editor](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md).
 
 ![](final-gradient.gif){width="640px"}
 
 ### Select downstream nodes
 
-New entry in the [node contextual menu](../../interface/the-graph-view/the-graph-view.md) to select all the nodes connected to the output of the selected node(s), directly or indirectly. So you select all the nodes impacted by your node. Useful to delete part of your graph or to rework the graph layout.
+New entry in the [node contextual menu](../../help/interface/the-graph-view/the-graph-view.md) to select all the nodes connected to the output of the selected node(s), directly or indirectly. So you select all the nodes impacted by your node. Useful to delete part of your graph or to rework the graph layout.
 
 ![](final-downstream.gif){width="640px"}
 

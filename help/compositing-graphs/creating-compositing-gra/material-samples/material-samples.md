@@ -1,9 +1,18 @@
 ---
-title: "Material samples"
-description: "Use material samples to preview and test your Substance materials on 3D objects in the viewport."
-helpx_description: "Designer > Substance graphs > Creating a Substance graph > Material samples"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
+breadcrumb-title: ""
+description: Use material samples to preview and test your Substance materials on 3D objects in the viewport.
+helpx_creative_field: ""
+helpx_description: Designer > Substance graphs > Creating a Substance graph > Material samples
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Material samples
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Material samples
 
@@ -13,7 +22,7 @@ Designer offers a curated selection of sample graphs spanning various materials 
 
 The samples are meant to be used as a graph template, which means are accessed by <b>creating a new Substance graph</b>. The new graph is a <b>fully editable copy</b> of the sample, which you may edit, take apart and expand on as you like. You can create as many new graphs as you like out of the samples.
 
-When creating a new Substance graph, you will find the samples in the [New Substance graph dialog](../creating-a-substance-compositing-graph.md):
+When creating a new Substance graph, you will find the samples in the [New Substance graph dialog](../../../help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md):
 
 <table>
 <tr style="border: 0;">
@@ -53,6 +62,6 @@ Double-click any item to create a new graph out of that sample. You may also sel
 
 Double-click any item to create a new graph out of that sample. You may also select the sample and click the <b>Create</b> button. Once a material sample is selected and the graph creation validated, the dialog closes and a copy of the sample is loaded as a new graph in the Graph view.
 
-By default, the first output of the sample is loaded in the 2D View, and the textures are applied to the 3D View. So your workspace is automatically set up and you are ready to go. (This can be changed in Designer's [preferences](../../../interface/preferences-window/preferences-window.md))
+By default, the first output of the sample is loaded in the 2D View, and the textures are applied to the 3D View. So your workspace is automatically set up and you are ready to go. (This can be changed in Designer's [preferences](../../../help/interface/preferences-window/preferences-window.md))
 
 ![Material sample - Graph](materialSamples-graph.png "Material sample - Graph"){zoomable="yes"}

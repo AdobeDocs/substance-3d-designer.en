@@ -1,20 +1,17 @@
 ---
-title: "Plugin basics"
-description: "Learn the basics of creating Python plugins for Substance 3D Designer to extend application functionality."
-helpx_description: Designer > Scripting > Plugin basics
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-basics.html"
-helpx_creative_field:
-  - web
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - component
-  - preflight
-  - presets
+breadcrumb-title: ""
+description: Learn the basics of creating Python plugins for Substance 3D Designer to extend application functionality.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Plugin basics
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Plugin basics
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Plugin basics

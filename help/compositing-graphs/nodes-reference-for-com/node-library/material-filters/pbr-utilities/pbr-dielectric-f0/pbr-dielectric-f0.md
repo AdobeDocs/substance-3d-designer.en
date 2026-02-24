@@ -1,20 +1,17 @@
 ---
-title: "PBR Dielectric F0"
-description: "Use the PBR Dielectric F0 node to calculate dielectric F0 values for physically-based material workflows."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Dielectric F0
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - pbr
-  - hdri
-  - color
+breadcrumb-title: ""
+description: Use the PBR Dielectric F0 node to calculate dielectric F0 values for physically-based material workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Dielectric F0
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: PBR Dielectric F0
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # PBR Dielectric F0

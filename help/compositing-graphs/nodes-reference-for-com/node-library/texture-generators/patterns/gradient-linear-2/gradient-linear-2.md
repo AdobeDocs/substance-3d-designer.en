@@ -1,20 +1,17 @@
 ---
-title: "Gradient Linear 2"
-description: "Use the Gradient Linear 2 node to create linear gradients with enhanced controls for directional color transitions."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 2
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - gradients
-  - effects
-  - illustration
+breadcrumb-title: ""
+description: Use the Gradient Linear 2 node to create linear gradients with enhanced controls for directional color transitions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Gradient Linear 2
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Gradient Linear 2
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 Simple, smooth double-sided gradient. Gives a perfect black-white-black gradient with perfect interpolation.
 
-Despite its simplicity, it's very useful and can serve many purposes. Try it together with a [Histogram Scan](../../../filters/adjustments/histogram-scan/histogram-scan.md), for example!
+Despite its simplicity, it's very useful and can serve many purposes. Try it together with a [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), for example!
 
 ## Parameters
 

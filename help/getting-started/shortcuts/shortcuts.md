@@ -1,21 +1,17 @@
 ---
-title: "Shortcuts"
-description: "Learn keyboard shortcuts in Substance 3D Designer to speed up your workflow and improve productivity."
-helpx_description: Designer > Getting started > Shortcuts
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
-helpx_creative_field:
-  - painting-illustration
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - selections
-  - workspace
-  - shortcuts
+breadcrumb-title: ""
+description: Learn keyboard shortcuts in Substance 3D Designer to speed up your workflow and improve productivity.
+helpx_creative_field: ""
+helpx_description: Designer > Getting started > Shortcuts
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Shortcuts
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Shortcuts
@@ -23,6 +19,10 @@ helpx_learn_topic:
 On this page you can find an overview of all shortcuts for Substance 3D Designer.
 
 ## Table of contents
+
+[Keymaps](#keymaps)
+
+[Shortcuts lists](#shortcuts-lists)
 
 ## Keymaps
 
@@ -42,7 +42,7 @@ Global shortcuts
 
 | Action | Windows | macOS |
 | --- | --- | --- |
-| [New Substance graph](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
+| [New Substance graph](../../help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
 | Load package | Ctrl + O | ⌘ + O |
 | Close selected package(s) | Ctrl + F4 | ⌘ + W |
 | Save package | Ctrl + S | ⌘ + S |
@@ -66,13 +66,13 @@ Graph View viewport shortcuts
 | Paste | Ctrl + V | ⌘ + V |
 | Contextual menu | RMB | RMB |
 | Node menu | Spacebar | Spacebar |
-| Cycle [navigation pins](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
+| Cycle [navigation pins](../../help/interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
 <b>Link creation modes</b>
 
 >[!NOTE]
 >
-> Learn about link creation modes in [this page](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) of this documentation.
+> Learn about link creation modes in [this page](../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md) of this documentation.
 
 Link creation modes shortcuts
 

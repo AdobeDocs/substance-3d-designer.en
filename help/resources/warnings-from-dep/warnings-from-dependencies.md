@@ -1,27 +1,24 @@
 ---
-title: "Warnings from dependencies"
-description: "Understand warnings from resource dependencies in Substance 3D Designer and how to resolve them."
-helpx_description: Designer > Resources > Warnings from dependencies
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - import
-  - troubleshooting
-  - texture
+breadcrumb-title: ""
+description: Understand warnings from resource dependencies in Substance 3D Designer and how to resolve them.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > Warnings from dependencies
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Warnings from dependencies
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Warnings from dependencies
 
 This page lists warnings and error messages which may be triggered by dependencies in Substance 3D Designer, and offers common troubleshooting steps for each.
 
-Dependencies are *other files* referenced by a Substance 3D file (SBS). They include [resources](../resources.md) and other Substance 3D files referenced by [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) nodes.
+Dependencies are *other files* referenced by a Substance 3D file (SBS). They include [resources](../../help/resources/resources.md) and other Substance 3D files referenced by [graph instance](../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) nodes.
 
 ## ![(error)](error.svg) Invalid dependent package
 
@@ -40,7 +37,7 @@ There are two main ways of correcting this issue:
    !['Invalid dependent package' solution 1](warnings-dep-invalid-dependent-pkg.gif "'Invalid dependent package' solution 1")
 1. <b>Relocate the dependency in the package</b>
 
-   You can relocate the dependency using the [Dependency manager](../../interface/dependency-manager/dependency-manager.md) . C lick RMB on the host package in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel and select the <b>Dependency Manager</b> option in the contextual menu.
+   You can relocate the dependency using the [Dependency manager](../../help/interface/dependency-manager/dependency-manager.md) . C lick RMB on the host package in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel and select the <b>Dependency Manager</b> option in the contextual menu.
 
    Find the missing dependency in the Dependendy Manager's list, click RMB on it and select the <b>Relocate...</b> option. Find the dependency package using the file browser dialog and click <b>Open</b>.
 
@@ -50,21 +47,21 @@ There are two main ways of correcting this issue:
 
 ## ![(error)](error.svg) Check the alias *'X'* is defined in your project
 
-One of the package's dependencies or resources is being loaded from a location which is [aliased](../../interface/preferences-window/project-settings/project-settings.md) in the Substance 3D file (SBS) data under the alias reported in the warning, although that alias is not defined in the current [project files](../../interface/preferences-window/project-settings/project-settings.md).
+One of the package's dependencies or resources is being loaded from a location which is [aliased](../../help/interface/preferences-window/project-settings/project-settings.md) in the Substance 3D file (SBS) data under the alias reported in the warning, although that alias is not defined in the current [project files](../../help/interface/preferences-window/project-settings/project-settings.md).
 
 <b>!&#91;(tick)&#93;(check.svg) Solution</b>
 
-At least one of the [project files](../../interface/preferences-window/project-settings/project-settings.md) should define the alias that which is reported in the warning.
+At least one of the [project files](../../help/interface/preferences-window/project-settings/project-settings.md) should define the alias that which is reported in the warning.
 
 !['Check alias is defined' solution](warnings-dep-alias.gif "'Check alias is defined' solution")
 
 ## ![(error)](error.svg) No file that matches this resource can be found
 
-The files matching the *UDIM template* for a [Bitmap resource](../bitmap-resource/bitmap-resource.md) cannot be found.
+The files matching the *UDIM template* for a [Bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md) cannot be found.
 
 <b>!&#91;(tick)&#93;(check.svg) Solution</b>
 
-When a [Bitmap resource](../bitmap-resource/bitmap-resource.md) is linked and Designer detects a *UDIM naming taxonomy* in its filename – e.g. `0x1` in `my_texture_0x1.png`, it offers to link it as a *UDIM template*, so that [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes can *automatically switch* to other bitmaps in a UDIM set using that taxonomy, when using a UDIM workflow in Designer. In that case, Designer links the Bitmap resource in a *different way* which takes the UDIM numbering template into account.
+When a [Bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md) is linked and Designer detects a *UDIM naming taxonomy* in its filename – e.g. `0x1` in `my_texture_0x1.png`, it offers to link it as a *UDIM template*, so that [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes can *automatically switch* to other bitmaps in a UDIM set using that taxonomy, when using a UDIM workflow in Designer. In that case, Designer links the Bitmap resource in a *different way* which takes the UDIM numbering template into account.
 
 There are two main ways of correcting this issue:
 
@@ -100,17 +97,17 @@ There are two main ways of correcting this issue:
 
 ## ![(error)](error.svg) Color space not found
 
-A [Bitmap resource](../bitmap-resource/bitmap-resource.md) references a color space which cannot be found in the current [color management](../../color-management/color-management.md) environment. This may be an ICC profile or a color space in an OCIO configuration.
+A [Bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md) references a color space which cannot be found in the current [color management](../../help/color-management/color-management.md) environment. This may be an ICC profile or a color space in an OCIO configuration.
 
 <b>!&#91;(tick)&#93;(check.svg) Solution</b>
 
 The list of options for the Color space attribute is automatically populated with available valid color space. Change the color space value for that resource to any other entry in the list.
 
-Alternatively, add that color space to the current [color management](../../color-management/color-management.md) environment, then restart Designer. This may be an ICC profile or a color space in an OCIO configuration.
+Alternatively, add that color space to the current [color management](../../help/color-management/color-management.md) environment, then restart Designer. This may be an ICC profile or a color space in an OCIO configuration.
 
 >[!NOTE]
 >
-> This warning is only triggered when using a color management mode other than **Legacy** (which is akin to disabling color management). You may enable color management in the **Color Management** section of the [Project settings](../../interface/preferences-window/project-settings/project-settings.md).
+> This warning is only triggered when using a color management mode other than **Legacy** (which is akin to disabling color management). You may enable color management in the **Color Management** section of the [Project settings](../../help/interface/preferences-window/project-settings/project-settings.md).
 
 !['Color space not found' solution](warnings-dep-color-space.gif "'Color space not found' solution")
 
@@ -135,7 +132,7 @@ There are two main ways of correcting this issue:
 
 ## ![(error)](error.svg) UV tiles are assigned multiple times
 
-A UV tile for a [3D mesh resource](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) is assigned more than once to a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
+A UV tile for a [3D mesh resource](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) is assigned more than once to a [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md).
 
 <b>!&#91;(tick)&#93;(check.svg) Solution</b>
 

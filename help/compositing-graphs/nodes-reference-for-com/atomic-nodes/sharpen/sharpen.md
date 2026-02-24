@@ -1,20 +1,17 @@
 ---
-title: "Sharpen"
-description: "Use the Sharpen node to enhance texture details and edges for creating crisp, defined surface details."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - filters
-  - effects
-  - adjustments
+breadcrumb-title: ""
+description: Use the Sharpen node to enhance texture details and edges for creating crisp, defined surface details.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Sharpen
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Sharpen

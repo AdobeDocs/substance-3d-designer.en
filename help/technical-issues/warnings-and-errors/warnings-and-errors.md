@@ -1,21 +1,17 @@
 ---
-title: "Warnings and errors"
-description: "Find solutions for common warnings and errors in Substance 3D Designer to troubleshoot issues quickly."
-helpx_description: Designer > Technical issues > Warnings and errors
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
-helpx_creative_field:
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - troubleshooting
-  - known-issues
-  - annotation
+breadcrumb-title: ""
+description: Find solutions for common warnings and errors in Substance 3D Designer to troubleshoot issues quickly.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > Warnings and errors
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Warnings and errors
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Warnings and errors
@@ -60,11 +56,11 @@ They follow these rules:
 
 ### Graph view
 
-For any item in the [Graph view](../../interface/the-graph-view/the-graph-view.md) panel which has a warning, that warning is displayed with coloured text in the *bottom left corner* of the viewport. If the warning is triggered by a specific node, that node will have a ![](warning-badge.png) warning badge. Leave the cursor on that badge for a few seconds to display a *tooltip* listing all warnings in detail.
+For any item in the [Graph view](../../help/interface/the-graph-view/the-graph-view.md) panel which has a warning, that warning is displayed with coloured text in the *bottom left corner* of the viewport. If the warning is triggered by a specific node, that node will have a ![](warning-badge.png) warning badge. Leave the cursor on that badge for a few seconds to display a *tooltip* listing all warnings in detail.
 
 They follow these rules:
 
-* If a source graph *instantiated* into any other host graph has one or more warnings, the [instance node](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) for that source graph will have a *single* `The referenced data has some warnings` warning.
+* If a source graph *instantiated* into any other host graph has one or more warnings, the [instance node](../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) for that source graph will have a *single* `The referenced data has some warnings` warning.
 * Warning lists are *cumulative*, in that they are the sum of the graph's warnings *and* all the warnings of its children nodes.
 * All of a graph's warnings are reported on the item representing that graph in the Explorer panel.
 
@@ -89,7 +85,7 @@ They follow these rules:
 
 * If the item is nested under any other item (e.g., a section header), warnings are surfaced to that item if it is collapsed.
 * Warning lists are *cumulative*, in that they are the sum of an item's warnings *and* all the surfaced warnings of its children.
-* If the [function graph](../../function-graphs/function-graphs.md) applied to an [input parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) has one or more warnings, the parameter item will have a *single* `The [x] parameter's function has some warnings` warning.
+* If the [function graph](../../help/function-graphs/function-graphs.md) applied to an [input parameter](../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) has one or more warnings, the parameter item will have a *single* `The [x] parameter's function has some warnings` warning.
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">

@@ -1,20 +1,17 @@
 ---
-title: "Non Uniform Directional Warp"
-description: "Use the Non Uniform Directional Warp node to apply non-uniform directional warping for creating varied distortion effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Non Uniform Directional Warp
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - asset-warp
-  - distortions
-  - transform
+breadcrumb-title: ""
+description: Use the Non Uniform Directional Warp node to apply non-uniform directional warping for creating varied distortion effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Non Uniform Directional Warp
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Non Uniform Directional Warp
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Non Uniform Directional Warp
@@ -36,9 +33,9 @@ helpx_learn_topic:
 
 ## Description
 
-Non-Uniform Direction Warp is an advanced version of [Directional Warp](../../../../atomic-nodes/directional-warp/directional-warp.md) that allows the intensity and direction of the warp to be driven by an image input. It Allows for much more control and can create very useful and interesting image distortion, in the same vain as [Slope Blur](../../blurs/slope-blur/slope-blur.md).
+Non-Uniform Direction Warp is an advanced version of [Directional Warp](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) that allows the intensity and direction of the warp to be driven by an image input. It Allows for much more control and can create very useful and interesting image distortion, in the same vain as [Slope Blur](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
-It differs from [Multi Directional Warp](../multi-directional-warp/multi-directional-warp.md) in that it allows control over the Angle through a custom Map input, whereas Multi Directional Warp only allows Direction to be controlled through parameters. This means that you can create advanced trailing and curving effects that are not possible otherwise.
+It differs from [Multi Directional Warp](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) in that it allows control over the Angle through a custom Map input, whereas Multi Directional Warp only allows Direction to be controlled through parameters. This means that you can create advanced trailing and curving effects that are not possible otherwise.
 
 ## Parameters
 

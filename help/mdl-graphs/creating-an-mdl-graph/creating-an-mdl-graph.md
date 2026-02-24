@@ -1,20 +1,17 @@
 ---
-title: "Creating an MDL graph"
-description: "Learn how to create Material Definition Language graphs in Substance 3D Designer for custom material creation."
-helpx_description: Designer > MDL graphs > Creating an MDL graph
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/creating-an-mdl-graph.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - data-visualizations
-  - graphs
-  - data-and-analytics
+breadcrumb-title: ""
+description: Learn how to create Material Definition Language graphs in Substance 3D Designer for custom material creation.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs > Creating an MDL graph
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Creating an MDL graph
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Creating an MDL graph
@@ -54,7 +51,7 @@ The <b>Project</b> option lets you filter the templates list by Project file. Th
 >[!WARNING]
 >
 > If you select the wrong template, you *cannot* switch to a different template after creating the graph.  
-> To port your existing graph to another template, you may create a new graph using the appropriate template, and copy-paste your graph to the new one. Reconnect nodes as appropriate, including the [Root](../main-mdl-graph-concepts/main-mdl-graph-concepts.md) node.
+> To port your existing graph to another template, you may create a new graph using the appropriate template, and copy-paste your graph to the new one. Reconnect nodes as appropriate, including the [Root](../../help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md) node.
 
 The templates list can be displayed in different modes using the *buttons* next to the **Project** combobox:
 

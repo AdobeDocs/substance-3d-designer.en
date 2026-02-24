@@ -1,13 +1,22 @@
 ---
-title: "Atomic function nodes"
-description: "Learn about atomic function nodes, the smallest node units in Substance function graphs for building custom functions."
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes.html"
+breadcrumb-title: ""
+description: Learn about atomic function nodes, the smallest node units in Substance function graphs for building custom functions.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Atomic function nodes
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Atomic function nodes
 
-Similarly to [atomic nodes in Substance graphs](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), atomic nodes in Substance function graphs are the smallest node units in that type of graph.
+Similarly to [atomic nodes in Substance graphs](../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), atomic nodes in Substance function graphs are the smallest node units in that type of graph.
 
 They can be sorted into several categories according to their purpose:
 

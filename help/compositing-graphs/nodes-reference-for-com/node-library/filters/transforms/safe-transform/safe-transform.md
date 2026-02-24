@@ -1,20 +1,17 @@
 ---
-title: "Safe Transform"
-description: "Use the Safe Transform node to apply transformations while preserving texture boundaries and avoiding artifacts."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Safe Transform
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - distortions
-  - asset-warp
-  - tiling
+breadcrumb-title: ""
+description: Use the Safe Transform node to apply transformations while preserving texture boundaries and avoiding artifacts.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Safe Transform
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Safe Transform
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Safe Transform
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 ## Description
 
-Tiling-safe version of [Transform 2D](../../../../atomic-nodes/transformation-2d/transformation-2d.md). Allows you to scale, rotate and offset without breaking tiling and without losing pixel detail (loss of crispness/sharpness) due to small offsets and rotations.
+Tiling-safe version of [Transform 2D](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). Allows you to scale, rotate and offset without breaking tiling and without losing pixel detail (loss of crispness/sharpness) due to small offsets and rotations.
 
 Useful for transforming noise when maximum control or perfect sharpness is required.
 

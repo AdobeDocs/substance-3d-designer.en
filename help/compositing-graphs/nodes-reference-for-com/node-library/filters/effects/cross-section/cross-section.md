@@ -1,20 +1,17 @@
 ---
-title: "Cross Section"
-description: "Use the Cross Section node to create cross-section masks based on height maps for cutting and slicing effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Cross Section
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - shapes
-  - data-visualizations
-  - infographic
+breadcrumb-title: ""
+description: Use the Cross Section node to create cross-section masks based on height maps for cutting and slicing effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Cross Section
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Cross Section
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Cross Section
@@ -40,7 +37,7 @@ Draws a cross-sectional profile of an input. Can be adjusted to slice vertical o
 
 This node is especially useful for debugging and analyzing heightmaps. giving you a pixel-perfect profile view, without needing complex nodes or a lengthy, less precise setup in the 3D View.
 
-Alternatively it can be used to create 2D shapes and silhouettes that are hard to achieve otherwise. Combined with a [Curve node ](../../../../atomic-nodes/curve/curve.md)it can directly visualize the curve profile applied to a linear gradient.
+Alternatively it can be used to create 2D shapes and silhouettes that are hard to achieve otherwise. Combined with a [Curve node ](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)it can directly visualize the curve profile applied to a linear gradient.
 
 ## Parameters
 

@@ -1,20 +1,17 @@
 ---
-title: "BnW spots 1"
-description: "Use the BnW Spots 1 node to generate black and white spot patterns for creating texture variations and detail masks."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > BnW spots 1
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-1.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - reflections
-  - noise
+breadcrumb-title: ""
+description: Use the BnW Spots 1 node to generate black and white spot patterns for creating texture variations and detail masks.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > BnW spots 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: BnW spots 1
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # BnW spots 1
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 A variation of the rough <b>Black and white (BnW) spots</b> noises.
 
-See also: [BnW spots 2](../bnw-spots-2/bnw-spots-2.md), [BnW spots 3](../bnw-spots-3/bnw-spots-3.md)
+See also: [BnW spots 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-2/bnw-spots-2.md), [BnW spots 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-3/bnw-spots-3.md)
 
 </td>
 </tr>
@@ -48,17 +45,17 @@ See also: [BnW spots 2](../bnw-spots-2/bnw-spots-2.md), [BnW spots 3](../bnw-s
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

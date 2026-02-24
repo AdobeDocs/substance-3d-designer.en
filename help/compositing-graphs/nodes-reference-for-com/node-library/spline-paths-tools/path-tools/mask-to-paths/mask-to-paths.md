@@ -1,9 +1,18 @@
 ---
-title: "Mask to Paths"
-description: "Use the Mask to Paths node to convert mask textures into path data for procedural path generation."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Mask to Paths"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
+breadcrumb-title: ""
+description: Use the Mask to Paths node to convert mask textures into path data for procedural path generation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Mask to Paths
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Mask to Paths
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Mask to Paths
 
@@ -24,7 +33,7 @@ Converts a grayscale input pattern <b>Mask</b> into a list of path segments en
 
 Controls over the start position of generated paths as well as their order in the list are available.
 
-The generated Paths can be further processed using dedicated nodes – E.g., [Path 2D Transform](../path-2d-transform/path-2d-transform.md), [Paths Warp](../paths-warp/paths-warp.md) – or converted into splines using the [Path to Spline](../paths-to-spline/paths-to-spline.md) node to map or scatter shapes along them.
+The generated Paths can be further processed using dedicated nodes – E.g., [Path 2D Transform](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md), [Paths Warp](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) – or converted into splines using the [Path to Spline](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) node to map or scatter shapes along them.
 
 </td>
 </tr>
@@ -32,7 +41,7 @@ The generated Paths can be further processed using dedicated nodes – E.g., [P
 
 >[!NOTE]
 >
-> The method used to encode Paths is explained in the [Paths Format Specifications](../paths-format-spe/paths-format-specifications.md) page.
+> The method used to encode Paths is explained in the [Paths Format Specifications](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md) page.
 
 ## Input connectors
 
@@ -45,7 +54,7 @@ The input pattern which should be converted into a list of Paths.
 
 <b>Paths</b> *Color*  
 A list of paths encoded in a color image. each path describes a list of encoded segments.  
-The result can be processed using another Paths-processing node, or sent to a [Paths to Spline](../paths-to-spline/paths-to-spline.md) node to further process it as Splines.
+The result can be processed using another Paths-processing node, or sent to a [Paths to Spline](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) node to further process it as Splines.
 
 ## Parameters
 
@@ -65,7 +74,7 @@ Disabling this may fix undesirable lines traversing your pattern in an unexpecte
 <b>Corner Threshold</b> *Float*  
 Each vertex encoded in paths can hold a flag indicating whether it is hard (I.e., a corner) or smooth.  
 This parameter lets you mark more or less corners according to the angle between their adjacent segments.  
-*Note:* This 'corner' flag is currently not supported by any existing node but are available to be used in a [Path Vertex Processor](../paths-vertex-processor/paths-vertex-processor.md) node. You may also visualize the corners with the [Preview Paths](../preview-paths/preview-paths.md) node.
+*Note:* This 'corner' flag is currently not supported by any existing node but are available to be used in a [Path Vertex Processor](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) node. You may also visualize the corners with the [Preview Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) node.
 
 <b>Path Startup Mode</b> *Integer*The method of selecting which vertex should be the start of each generated Path around the shapes in the Mask.  
 This has a significant impact when converting the generated <b>Paths to Splines</b> using the dedicated node, as multiple Spline nodes use the Splines' start and end.  

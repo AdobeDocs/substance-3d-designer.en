@@ -1,20 +1,17 @@
 ---
-title: "Shape Splatter Data Extract"
-description: "Use the Shape Splatter Data Extract node to extract data from shape splatter operations for advanced pattern control."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Data Extract
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-data-extract.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - shapes
-  - infographic
-  - 3d
+breadcrumb-title: ""
+description: Use the Shape Splatter Data Extract node to extract data from shape splatter operations for advanced pattern control.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter Data Extract
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Shape Splatter Data Extract
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Shape Splatter Data Extract
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-Data separator/splitter utility for [Shape Splatter](../shape-splatter/shape-splatter.md) Data. Allows converting and displaying of individual data to do custom calculations, to verify data or to learn more about Shape Splatter.
+Data separator/splitter utility for [Shape Splatter](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data. Allows converting and displaying of individual data to do custom calculations, to verify data or to learn more about Shape Splatter.
 
 ## Parameters
 

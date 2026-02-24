@@ -1,20 +1,29 @@
 ---
-title: "Working with 3D scenes"
-description: "Learn how to import, edit, and work with 3D scenes in Substance 3D Designer to preview and test your materials."
-helpx_description: "Designer > Working with 3D scenes"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
+breadcrumb-title: ""
+description: Learn how to import, edit, and work with 3D scenes in Substance 3D Designer to preview and test your materials.
+helpx_creative_field: ""
+helpx_description: Designer > Working with 3D scenes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Working with 3D scenes
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Working with 3D scenes
 
 ![Working with 3D scenes](workingWith3DScenes.png "Working with 3D scenes"){zoomable="yes"}
 
-Designer lets you load [3D scenes](../glossary/glossary.md) to work on materials in context. You can find a list of supported file formats for 3D scenes here, including a list of supported features for each format. <b>&lt;link needed&gt;</b>
+Designer lets you load [3D scenes](../help/glossary/glossary.md) to work on materials in context. You can find a list of supported file formats for 3D scenes here, including a list of supported features for each format. <b>&lt;link needed&gt;</b>
 
-Working in context involves [overriding](overriding-scene-mat/overriding-scene-materials.md) one of the scene’s [materials](../glossary/glossary.md) to replace it with a material authored in Designer.  
-You may start from scratch using any of the Substance graph templates available in Designer or [extract values and textures](extracting-materials-val/extracting-materials-values-and-textures.md) from the 3D scene’s material as a starting point.
+Working in context involves [overriding](../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) one of the scene’s [materials](../help/glossary/glossary.md) to replace it with a material authored in Designer.  
+You may start from scratch using any of the Substance graph templates available in Designer or [extract values and textures](../help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) from the 3D scene’s material as a starting point.
 
-When you are done with the 3D scene, you can [export it](exporting-scenes/exporting-scenes.md) to a new file to be ingested in another application.
+When you are done with the 3D scene, you can [export it](../help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md) to a new file to be ingested in another application.
 
 When exporting to USD formats., this workflow can be entirely <b>non-destructive</b>, meaning that only edits and additions are exported.
 
@@ -24,17 +33,17 @@ First, you need to load a 3D scene to work on and be able to retain its state in
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Contents of 3D scenes
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Loading a scene
 
+</td>
+<td style="border: 0;" valign="top">
+
+### scene state files
 
 </td>
 </tr>
@@ -46,23 +55,23 @@ When loading a 3D scene, Designer created its own scene to host it.
 
 You can interact with following contents of the scene:
 
-* <b>Materials:</b> all materials used in the scene can be [overridden](overriding-scene-mat/overriding-scene-materials.md) with a copy created by Designer. You may edit the [material properties](../interface/3d-view/material-properties/material-properties.md) of that copy, with raw values or textures from a Substance graph.
-* <b>Meshes:</b> the geometry can be picked directly in the viewport or from the [Scene browser](../interface/3d-view/scene-browser/scene-browser.md), to access its material actions ([override](overriding-scene-mat/overriding-scene-materials.md), [reset](overriding-scene-mat/overriding-scene-materials.md), [extract to Substance graph](extracting-materials-val/extracting-materials-values-and-textures.md))
-* <b>Lights:</b> all lights in the scene can be disabled in the [Scene browser](../interface/3d-view/scene-browser/scene-browser.md).
+* <b>Materials:</b> all materials used in the scene can be [overridden](../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) with a copy created by Designer. You may edit the [material properties](../help/interface/3d-view/material-properties/material-properties.md) of that copy, with raw values or textures from a Substance graph.
+* <b>Meshes:</b> the geometry can be picked directly in the viewport or from the [Scene browser](../help/interface/3d-view/scene-browser/scene-browser.md), to access its material actions ([override](../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), [reset](../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), [extract to Substance graph](../help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md))
+* <b>Lights:</b> all lights in the scene can be disabled in the [Scene browser](../help/interface/3d-view/scene-browser/scene-browser.md).
 * <b>Cameras:</b> any camera detected in the scene is added as a preset to the camera added by Designer.
 
 ![Contents of a 3D scene](loaded3DScene.png "Contents of a 3D scene"){zoomable="yes"}
 
 Designer uses a USD description for its 3D scene. Its layout can be navigated in the Scene browser, where each [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) type has its own icon (geometry, material, shader, camera, transform, ...).
 
-The [Scene browser](../interface/3d-view/scene-browser/scene-browser.md) can be used to select, enable and disable the contents of the scene. Therefore, we recommend you keep it displayed when working with custom 3D scenes.
+The [Scene browser](../help/interface/3d-view/scene-browser/scene-browser.md) can be used to select, enable and disable the contents of the scene. Therefore, we recommend you keep it displayed when working with custom 3D scenes.
 
 ## Loading a scene
 
 There are several pathways to load a 3D scene in the 3D View:
 
-1. Double-click or drag a [3D scene resource](../resources/3d-scene-resource/3d-scene-resource.md) from a [package](../glossary/glossary.md) into the 3D View
-1. Drag a 3D scene item from the [Library](../interface/the-library/the-library.md) into the 3D View (provided you have [added your own content to the Library](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md))
+1. Double-click or drag a [3D scene resource](../help/resources/3d-scene-resource/3d-scene-resource.md) from a [package](../help/glossary/glossary.md) into the 3D View
+1. Drag a 3D scene item from the [Library](../help/interface/the-library/the-library.md) into the 3D View (provided you have [added your own content to the Library](../help/interface/the-library/managing-custom-content/managing-custom-content-and-filters.md))
 1. Drag a 3D scene file from the system’s file browser into the 3D View
 1. Load a 3D scene state file (SBSSCN) along with its referenced mesh
 
@@ -108,7 +117,7 @@ Loading an scene state file
 
 >[!NOTE]
 >
-> Navigating and visualizing the scene in the 3D View is covered in the [3D View documentation](../interface/3d-view/3d-view.md).
+> Navigating and visualizing the scene in the 3D View is covered in the [3D View documentation](../help/interface/3d-view/3d-view.md).
 
 <table>
 <tr style="border: 0;">
@@ -139,9 +148,9 @@ After setting up a materials, camera, lights, etc. in the 3D View, that state ca
 
 A saved scene state may also be used as the default state for the 3D View, so that any time a new 3D View is created, that state will be used. This is useful if you want to preview materials your materials by default on the Sphere 2-Tiles mesh with a tiling value of 2 and a specific environment map.
 
-The actions related to scene state files are located in the Scene menu of the 3D View, and are documented [here](../interface/3d-view/3d-view.md).
+The actions related to scene state files are located in the Scene menu of the 3D View, and are documented [here](../help/interface/3d-view/3d-view.md).
 
-Scene state files use the XML format and make use of [aliases](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) if any are defined in your [project settings](../interface/preferences-window/project-settings/project-settings.md).
+Scene state files use the XML format and make use of [aliases](../help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) if any are defined in your [project settings](../help/interface/preferences-window/project-settings/project-settings.md).
 
 >[!NOTE]
 >

@@ -1,31 +1,28 @@
 ---
-title: "Exporting PSD files"
-description: "Learn how to export Substance compositing graphs as PSD files for use in Adobe Photoshop and other image editing workflows."
-helpx_description: Designer > Substance compositing graphs > Exporting PSD files
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - export
-  - printing
-  - texture
+breadcrumb-title: ""
+description: Learn how to export Substance compositing graphs as PSD files for use in Adobe Photoshop and other image editing workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Exporting PSD files
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Exporting PSD files
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Exporting PSD files
 
-Substance 3D Designer allows to export textures to Adobe Photoshop Document, or PSD file.This page explains the special interface used to translate a graph's nodes into layers.**This process is not automatic: you have a lot of control, but it is limited and often not possible to obtain an accurate match between nodes and layers.** Additionally, there is no guarantee that your PSD contains the same outputs as your graph, unless you explicitly set it up to do so. Generally, the more accurate and correct you want to be, the more effort required from the user. In general the only thing that can be closely replicated in a non-destructive way, is [Blend Nodes](../nodes-reference-for-com/atomic-nodes/blend/blend.md). Adjustment Layers are not supported, nor are Layer styles or anything else beyond Layer blend modes.
+Substance 3D Designer allows to export textures to Adobe Photoshop Document, or PSD file.This page explains the special interface used to translate a graph's nodes into layers.**This process is not automatic: you have a lot of control, but it is limited and often not possible to obtain an accurate match between nodes and layers.** Additionally, there is no guarantee that your PSD contains the same outputs as your graph, unless you explicitly set it up to do so. Generally, the more accurate and correct you want to be, the more effort required from the user. In general the only thing that can be closely replicated in a non-destructive way, is [Blend Nodes](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). Adjustment Layers are not supported, nor are Layer styles or anything else beyond Layer blend modes.
 
-[Substance 3D Designer can also export to bitmap files.](../exporting-bitmaps/exporting-bitmaps.md)
+[Substance 3D Designer can also export to bitmap files.](../../help/compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
 
 ## PSD export dialog
 
-The PSD Export Dialog can only be opened by one method. In the [Graph view](../../interface/the-graph-view/the-graph-view.md) of the graph you want to export to PSD, click the ![](image2019-9-17-14-44-17.png) <b>Tools</b> button and select <b>PSD Exporter</b>. The interface becomes visible within the <b>Graph View</b>.
+The PSD Export Dialog can only be opened by one method. In the [Graph view](../../help/interface/the-graph-view/the-graph-view.md) of the graph you want to export to PSD, click the ![](image2019-9-17-14-44-17.png) <b>Tools</b> button and select <b>PSD Exporter</b>. The interface becomes visible within the <b>Graph View</b>.
 
 <table>
 <tr style="border: 0;">

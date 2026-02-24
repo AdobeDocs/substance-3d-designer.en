@@ -1,20 +1,17 @@
 ---
-title: "Multi Switch"
-description: "Use the Multi Switch node to switch between multiple input textures based on a selector for conditional texture selection."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Multi Switch
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - infographic
-  - interface
-  - selections
+breadcrumb-title: ""
+description: Use the Multi Switch node to switch between multiple input textures based on a selector for conditional texture selection.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Multi Switch
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Multi Switch
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Multi Switch
@@ -40,7 +37,7 @@ helpx_learn_topic:
 
 Acts as a switch-box, only passing through the input defined by the 'Input Selection' parameter. So if two Inputs are connected, only one of those will be returned (unmodified), depending on the user's choice.
 
-Very useful for adding many different options in a graph. Combined with [exposing ](../../../../../manage-parameters/exposing-a-parameter/exposing-a-parameter.md)(preferably as a Drop Down List), a lot of customisation is possible.
+Very useful for adding many different options in a graph. Combined with [exposing ](../../../../../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)(preferably as a Drop Down List), a lot of customisation is possible.
 
 Important: make sure to use the appropriate version for your input! Use "Multi Switch" for Color inputs, "Multi Switch Grayscale" for Grayscale inputs.
 

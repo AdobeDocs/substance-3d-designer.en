@@ -1,20 +1,17 @@
 ---
-title: "Anisotropic Blur"
-description: "Use the Anisotropic Blur node to apply directional blur effects for creating motion blur and streaking effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Anisotropic Blur
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/anisotropic-blur.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - visual-effects
-  - filters
+breadcrumb-title: ""
+description: Use the Anisotropic Blur node to apply directional blur effects for creating motion blur and streaking effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Anisotropic Blur
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Anisotropic Blur
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Anisotropic Blur
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 ## Description
 
-Performs a high quality [directional blur](../../../../atomic-nodes/directional-blur/directional-blur.md), with a few settings to customise appearance. Also known as "motion blur".
+Performs a high quality [directional blur](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md), with a few settings to customise appearance. Also known as "motion blur".
 
 Important: make sure to use the appropriate version for your input! Use "Anisotropic Blur" for Color inputs, or "Anisotropic Blur Grayscale" for Grayscale inputs.
 
@@ -47,7 +44,7 @@ Important: make sure to use the appropriate version for your input! Use "Anisotr
 * **Intensity**: *0.0 - 16.0*Strength (Radius) of the blur. The higher this value, the further the blur will reach.
 * **Anisotropy**: *0.0 - 1.0*Directionality of the blur. Setting this to 0.0 is the same as performing a regular blur.
 * **Angle**: *0.0 - 1.0*Sets the angle for the blur direction.
-* **Quality**: *0 - 1*Switches between a[ box blur](../../../../atomic-nodes/blur/blur.md) and an HQ blur internally. Trades in speed for quality.
+* **Quality**: *0 - 1*Switches between a[ box blur](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) and an HQ blur internally. Trades in speed for quality.
 
 ## Example Images
 

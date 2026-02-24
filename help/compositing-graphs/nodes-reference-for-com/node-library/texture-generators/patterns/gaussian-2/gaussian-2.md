@@ -1,20 +1,17 @@
 ---
-title: "Gaussian 2"
-description: "Use the Gaussian 2 node to generate advanced Gaussian noise patterns with customizable distribution properties."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gaussian 2
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-2.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - modeling
-  - blending
+breadcrumb-title: ""
+description: Use the Gaussian 2 node to generate advanced Gaussian noise patterns with customizable distribution properties.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gaussian 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Gaussian 2
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Gaussian 2

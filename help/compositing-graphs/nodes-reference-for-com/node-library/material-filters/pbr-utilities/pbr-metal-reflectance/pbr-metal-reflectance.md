@@ -1,21 +1,17 @@
 ---
-title: "PBR Metal Reflectance"
-description: "Use the PBR Metal Reflectance node to calculate metal reflectance values for physically-based material workflows."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Metal Reflectance
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - metal
-  - reflections
-  - materials
+breadcrumb-title: ""
+description: Use the PBR Metal Reflectance node to calculate metal reflectance values for physically-based material workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Metal Reflectance
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: PBR Metal Reflectance
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # PBR Metal Reflectance

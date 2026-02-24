@@ -1,20 +1,17 @@
 ---
-title: "Effects"
-description: "Access effect filter nodes in Substance 3D Designer to add visual effects like glow, shadows, and warping to your textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - effects
-  - creative-effects
-  - asset-warp
+breadcrumb-title: ""
+description: Access effect filter nodes in Substance 3D Designer to add visual effects like glow, shadows, and warping to your textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Effects
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Effects
@@ -25,13 +22,13 @@ Use the <b>navigation list on the left</b> to browse all nodes under Effects.
 
 A large group of nodes is intended for processing, generating and modifying Baked maps, such as Normalmap or AO and Curvature. Examples are:
 
-* [Curvature Smooth](curvature-smooth/curvature-smooth.md)
-* [Ambient Occlusion (HBAO)](ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
+* [Curvature Smooth](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)
+* [Ambient Occlusion (HBAO)](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-hbao/ambient-occlusion-hbao-filter-node.md)
 
 Another group of nodes is intended for layer shape effect or "Layer Styles", as seen in other popular image editing software. Examples are:
 
-* [Glow](glow/glow.md)
-* [Shape Stroke](shape-stroke/shape-stroke.md)
-* [Uber Emboss](uber-emboss/uber-emboss.md)
+* [Glow](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md)
+* [Shape Stroke](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-stroke/shape-stroke.md)
+* [Uber Emboss](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md)
 
-Finally, there are some useful advanced effects, of which [Flood Fill](flood-fill/flood-fill.md), [Edge Detect](edge-detect/edge-detect.md) and [Vector Warp](vector-warp/vector-warp.md) are the best examples.
+Finally, there are some useful advanced effects, of which [Flood Fill](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md), [Edge Detect](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) and [Vector Warp](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md) are the best examples.

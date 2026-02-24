@@ -1,26 +1,30 @@
 ---
-title: "Application does not start"
-description: "Troubleshoot issues preventing Substance 3D Designer from starting and find solutions to launch the application."
-helpx_description: Designer > Technical issues > Application does not start
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
-helpx_creative_field:
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - known-issues
-  - troubleshooting
-  - system-requirements
+breadcrumb-title: ""
+description: Troubleshoot issues preventing Substance 3D Designer from starting and find solutions to launch the application.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > Application does not start
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Application does not start
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Application does not start
 
 This page lists common causes for Substance 3D Designer failing to start correctly, and offers troubleshooting steps for each, grouped by operating system:
+
+[Designer 15.0 and higher](#version-15-0)
+
+[Windows 10/11](#windows-10-11)
+
+[Windows 7/8/8.1](#windows-7-8)
+
+[Linux](#linux)
 
 ## Designer 15.0 and higher
 
@@ -53,7 +57,7 @@ You may try to replace the library with an *updated version*, such as the one di
 >
 > Unsupported configurations
 > 
-> Windows 10 is not supported. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
+> Windows 10 is not supported. You can learn more on the [System requirements](../../help/getting-started/system-requirements/system-requirements.md) page.
 > 
 > Versions of Designer that are out of their maintenance period are not supported. These versions may not run reliably anymore if significant changes are done to the system, such as OS upgrades.
 
@@ -74,7 +78,7 @@ We *strongly* recommend upgrading to Windows 10, as Microsoft itself does not su
 >
 > Unsupported configurations
 > 
-> Please note Windows 7, Windows 8 and Windows 8.1 are *not officially supported*. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
+> Please note Windows 7, Windows 8 and Windows 8.1 are *not officially supported*. You can learn more on the [System requirements](../../help/getting-started/system-requirements/system-requirements.md) page.
 
 ## Linux
 
@@ -210,4 +214,4 @@ Be mindful that `progl` may be unstable. This should therefore be attempted as a
 
 >[!WARNING]
 >
-> Please note Arch-based distributions of Linux are *not supported*. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
+> Please note Arch-based distributions of Linux are *not supported*. You can learn more on the [System requirements](../../help/getting-started/system-requirements/system-requirements.md) page.

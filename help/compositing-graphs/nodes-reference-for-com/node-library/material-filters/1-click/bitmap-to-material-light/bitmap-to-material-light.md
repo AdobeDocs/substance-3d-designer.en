@@ -1,20 +1,17 @@
 ---
-title: "Bitmap to Material Light"
-description: "Use the Bitmap to Material Light node to quickly convert bitmap images into materials with optimized lighting for fast workflows."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > 1-Click > Bitmap to Material Light
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/1-click/bitmap-to-material-light.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - pbr
-  - materials
-  - texture
+breadcrumb-title: ""
+description: Use the Bitmap to Material Light node to quickly convert bitmap images into materials with optimized lighting for fast workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > 1-Click > Bitmap to Material Light
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Bitmap to Material Light
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Bitmap to Material Light

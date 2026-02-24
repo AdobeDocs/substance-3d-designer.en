@@ -1,21 +1,17 @@
 ---
-title: "Scripting API reference"
-description: "Access the complete Substance 3D Designer Python scripting API reference for plugin development."
-helpx_description: Designer > Scripting > Scripting API reference
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html"
-helpx_creative_field:
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - instances
-  - nodes
-  - data-visualizations
+breadcrumb-title: ""
+description: Access the complete Substance 3D Designer Python scripting API reference for plugin development.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Scripting API reference
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Scripting API reference
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Scripting API reference
@@ -59,7 +55,7 @@ The content of a package can be <b>stored</b> to a file with the <b>.sbs</b> ext
 
 To <b>create</b> a specific resource, see the related object static methods (Ex: '*SDSBSCompGraph.sNew()*').
 
-A package also contains a metadata dictionary (SDMetadataDict). You can find more info on metadatas [here](../../package-metadata/package-metadata.md).
+A package also contains a metadata dictionary (SDMetadataDict). You can find more info on metadatas [here](../../help/package-metadata/package-metadata.md).
 
 ## Resource (SDResource)
 

@@ -1,20 +1,17 @@
 ---
-title: "Levels"
-description: "Use the Levels node to adjust brightness, contrast, and tonal range of textures for color correction and enhancement."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - adjustments
-  - landscape-photography
-  - enhancing-color
+breadcrumb-title: ""
+description: Use the Levels node to adjust brightness, contrast, and tonal range of textures for color correction and enhancement.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Levels
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Levels
@@ -38,7 +35,7 @@ The Levels node allows you to remap the tones of an input by setting input and o
 
 It is one of the core, most useful nodes in Substance 3D Designer, and is very often used to remap and adjust values in a graph, as it provides the most precise and accurate interface to changing values.
 
-While it is an important node, for some use cases the interface can be a bit cumbersome, so make sure to look into [Auto Levels](../../node-library/filters/adjustments/auto-levels/auto-levels.md), [Contrast/Luminosity](../../node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) and [Histogram Scan](../../node-library/filters/adjustments/histogram-scan/histogram-scan.md) for alternatives.
+While it is an important node, for some use cases the interface can be a bit cumbersome, so make sure to look into [Auto Levels](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), [Contrast/Luminosity](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) and [Histogram Scan](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) for alternatives.
 
 <table>
 <tr style="border: 0;">
@@ -59,6 +56,8 @@ While it is an important node, for some use cases the interface can be a bit cum
 </td>
 </tr>
 </table>
+
+## Examples
 
 ## Parameters
 
@@ -116,7 +115,7 @@ Depending on the input type (Color or Grayscale) you can use the dropdown above 
 
 ### Sliders
 
-The sliders editor does away with any visual editor and presents only numerical sliders, useful mostly if you want to clamp or remap to very exact values, or if you intend to [expose any of these parameters](../../../manage-parameters/exposing-a-parameter/exposing-a-parameter.md), as this is only possible in the sliders editor.
+The sliders editor does away with any visual editor and presents only numerical sliders, useful mostly if you want to clamp or remap to very exact values, or if you intend to [expose any of these parameters](../../../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), as this is only possible in the sliders editor.
 
 The sliders change depending on a Color or Grayscale input: Color inputs create 4 Sliders for each RGBA channel separately, Grayscale only has a single slider, making it easier to work with. See above Parameter listing for an explanation on every slider.
 

@@ -1,20 +1,17 @@
 ---
-title: "Grayscale conversion"
-description: "Use the Grayscale Conversion node to convert color textures to grayscale using various conversion methods."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - gradients
-  - color
-  - colorize
+breadcrumb-title: ""
+description: Use the Grayscale Conversion node to convert color textures to grayscale using various conversion methods.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Grayscale conversion
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Grayscale conversion
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Grayscale conversion
@@ -38,9 +35,9 @@ This node may be used as an optimised method to extract a grayscale channel ou
 
 Most nodes can be set to output in either grayscale or color, where the former is preferred for simplicity and performance reasons.
 
-Indeed, it is recommended to work in grayscale from the outset and colorize images later in your workflow, using for instance a [Gradient map](../gradient-map/gradient-map.md) node.
+Indeed, it is recommended to work in grayscale from the outset and colorize images later in your workflow, using for instance a [Gradient map](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) node.
 
-This means that a grayscale conversion node is generally only reserved for cases where you specifically want to convert a color image to grayscale. In those cases also take a look at [Grayscale conversion advanced](../../node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md) and [Color to mask](../../node-library/filters/adjustments/color-to-mask/color-to-mask.md).
+This means that a grayscale conversion node is generally only reserved for cases where you specifically want to convert a color image to grayscale. In those cases also take a look at [Grayscale conversion advanced](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md) and [Color to mask](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-to-mask/color-to-mask.md).
 
 <table>
 <tr style="border: 0;">
@@ -66,22 +63,22 @@ This means that a grayscale conversion node is generally only reserved for cases
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Parameters
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Input connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Output connectors
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

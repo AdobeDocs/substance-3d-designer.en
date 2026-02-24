@@ -1,21 +1,17 @@
 ---
-title: "Lighting Cancel Low Frequencies"
-description: "Use the Lighting Cancel Low Frequencies node to remove low-frequency lighting variations from textures for material extraction."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel Low Frequencies
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - brightness
-  - tone
-  - enhancing-color
+breadcrumb-title: ""
+description: Use the Lighting Cancel Low Frequencies node to remove low-frequency lighting variations from textures for material extraction.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel Low Frequencies
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Lighting Cancel Low Frequencies
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Lighting Cancel Low Frequencies
@@ -39,7 +35,7 @@ helpx_learn_topic:
 
 Similar to Highpass, but without desaturating the end result.
 
-Also see [Luminance Highpass](../luminance-highpass/luminance-highpass.md) for a more advanced version.
+Also see [Luminance Highpass](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) for a more advanced version.
 
 ## Parameters
 

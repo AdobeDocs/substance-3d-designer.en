@@ -1,27 +1,24 @@
 ---
-title: "Warnings in MDL graphs"
-description: "Understand and resolve warnings in MDL graphs to ensure proper material definition and rendering."
-helpx_description: Designer > MDL graphs > Warnings in MDL graphs
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/warnings-in-mdl-graphs.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - data-and-analytics
-  - troubleshooting
-  - nodes
+breadcrumb-title: ""
+description: Understand and resolve warnings in MDL graphs to ensure proper material definition and rendering.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs > Warnings in MDL graphs
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Warnings in MDL graphs
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Warnings in MDL graphs
 
 This page lists warnings and errors messages which may be triggered by MDL graphs in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), and offers common troubleshooting steps for each.
 
-Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, as well as in the bottom left corner of the [Graph view](../../interface/the-graph-view/the-graph-view.md) if the graph is loaded.
+Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, as well as in the bottom left corner of the [Graph view](../../help/interface/the-graph-view/the-graph-view.md) if the graph is loaded.
 
 >[!NOTE]
 >

@@ -1,20 +1,17 @@
 ---
-title: "Scan Processing"
-description: "Access scan processing nodes in Substance 3D Designer to clean and process scanned materials and textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - materials
-  - illustration
-  - 3d
+breadcrumb-title: ""
+description: Access scan processing nodes in Substance 3D Designer to clean and process scanned materials and textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Scan Processing
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Scan Processing
@@ -23,6 +20,6 @@ This category is intended to meet your needs for processing photos and scans int
 
 The following nodes are good introductions:
 
-* [Clone Patch](clone-patch/clone-patch.md)
-* [Multi Crop](multi-crop/multi-crop.md)
-* [Smart Auto Tile](smart-auto-tile/smart-auto-tile.md)
+* [Clone Patch](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)
+* [Multi Crop](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md)
+* [Smart Auto Tile](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md)

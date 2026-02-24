@@ -1,20 +1,17 @@
 ---
-title: "Histogram Scan"
-description: "Use the Histogram Scan node to scan and analyze texture histograms for color correction and adjustments."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - photogrammetry
-  - hdri
-  - adjustments
+breadcrumb-title: ""
+description: Use the Histogram Scan node to scan and analyze texture histograms for color correction and adjustments.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Scan
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Histogram Scan
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Histogram Scan

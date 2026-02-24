@@ -1,20 +1,17 @@
 ---
-title: "Make It Tile Photo"
-description: "Use the Make It Tile Photo node to convert photographs into seamless tiling textures for material creation."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Photo
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-photo.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - background
-  - creative-effects
-  - filters
+breadcrumb-title: ""
+description: Use the Make It Tile Photo node to convert photographs into seamless tiling textures for material creation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Tiling > Make It Tile Photo
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Make It Tile Photo
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Make It Tile Photo
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 ## Description
 
-This node provides edge-fixup functionality for any image that might not tile due to non-continuous edges. It does not affect anything other than the input image's edges. If you want to adjust scale or tile in different ways, look at [Make It Tile Patch](../make-it-tile-patch/make-it-tile-patch.md).
+This node provides edge-fixup functionality for any image that might not tile due to non-continuous edges. It does not affect anything other than the input image's edges. If you want to adjust scale or tile in different ways, look at [Make It Tile Patch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md).
 
 ## Parameters
 

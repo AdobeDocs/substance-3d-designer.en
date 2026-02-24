@@ -1,25 +1,22 @@
 ---
-title: "Nodes and properties"
-description: "Learn how to create and manipulate nodes and properties in Substance 3D Designer Python plugins."
-helpx_description: Designer > Scripting > Nodes and properties
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/nodes-and-properties.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - annotation
-  - essential-properties
+breadcrumb-title: ""
+description: Learn how to create and manipulate nodes and properties in Substance 3D Designer Python plugins.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Nodes and properties
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Nodes and properties
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Nodes and properties
 
-The [SDNode](../scripting-api-reference/scripting-api-reference.md) class enables users to get information about specific nodes, which properties can be accessed with the [SDProperty](../scripting-api-reference/scripting-api-reference.md)*<b></b>*class. All of these can be either read of modified.
+The [SDNode](../../help/scripting/scripting-api-reference/scripting-api-reference.md) class enables users to get information about specific nodes, which properties can be accessed with the [SDProperty](../../help/scripting/scripting-api-reference/scripting-api-reference.md)*<b></b>*class. All of these can be either read of modified.
 
 Available node information include:
 

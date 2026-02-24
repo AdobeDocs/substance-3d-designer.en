@@ -1,20 +1,17 @@
 ---
-title: "3D scene resource"
-description: "Learn how to import and use 3D scene resources in Substance 3D Designer for material preview and testing."
-helpx_description: Designer > Resources > 3D scene resource
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - cross-product-workflows
-  - scenes
+breadcrumb-title: ""
+description: Learn how to import and use 3D scene resources in Substance 3D Designer for material preview and testing.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > 3D scene resource
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: 3D scene resource
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 3D scene resource
@@ -25,9 +22,9 @@ This page describes the **3D scene** resource type in Substance 3D Designer, inc
 
 3D scene resources can be used in various workflows:
 
-* [baking mesh maps](../../bakers/bakers.md)
-* preview *textures* from [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) in the [3D View](../../interface/3d-view/3d-view.md)
-* preview *shaders* from [MDL Graphs](../../mdl-graphs/mdl-graphs.md) in the [3D View](../../interface/3d-view/3d-view.md)
+* [baking mesh maps](../../help/bakers/bakers.md)
+* preview *textures* from [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md) in the [3D View](../../help/interface/3d-view/3d-view.md)
+* preview *shaders* from [MDL Graphs](../../help/mdl-graphs/mdl-graphs.md) in the [3D View](../../help/interface/3d-view/3d-view.md)
 
 The following 3D scene file formats are supported:
 
@@ -48,13 +45,13 @@ When a package with a 3D scene resource is published as a [Substance 3D](https:/
 
 ## Baking mesh maps
 
-Linking a 3D scene into your package is the only way to [bake mesh maps](../../bakers/bakers.md) out of that scene geometry. You may perform the following steps to get started:
+Linking a 3D scene into your package is the only way to [bake mesh maps](../../help/bakers/bakers.md) out of that scene geometry. You may perform the following steps to get started:
 
 * Click *RMB* on a package and select the <b>Link &gt; 3D Mesh</b> option in the contextual menu
 * Choose any supported 3D scene file
 * If the <b>Link as Udim mesh</b> dialog prompt appears, click *No* unless you want to bake UV tiles
 * With the resource loaded in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), click *RMB* on it and select the <b>Bake Model Information</b> option in the contextual menu
-* The [Bake model information](../../bakers/bakers.md) dialog appears for you to set up and run any mesh maps bakes
+* The [Bake model information](../../help/bakers/bakers.md) dialog appears for you to set up and run any mesh maps bakes
 
 ![Baking mesh maps](bake-model-information.gif "Baking mesh maps"){width="512px"}
 
@@ -66,4 +63,4 @@ If UV-Tile behavior is active, baking behaves differently and will bake textures
 
 ## Resource/Scene vs state
 
-The application separates what you see in the 3D view into two distinct files. The actual 3D model or mesh, is a resource visible in the Explorer. The setup of lights, cameras and other settings is called the "<b>State</b>". States can be saved to external .sbsscn files, to be loaded in again later. .sbsscn files are not resources, they are additional configuration files that can only be loaded through [the Scene menu in the 3D View.](../../interface/3d-view/3d-view.md)
+The application separates what you see in the 3D view into two distinct files. The actual 3D model or mesh, is a resource visible in the Explorer. The setup of lights, cameras and other settings is called the "<b>State</b>". States can be saved to external .sbsscn files, to be loaded in again later. .sbsscn files are not resources, they are additional configuration files that can only be loaded through [the Scene menu in the 3D View.](../../help/interface/3d-view/3d-view.md)

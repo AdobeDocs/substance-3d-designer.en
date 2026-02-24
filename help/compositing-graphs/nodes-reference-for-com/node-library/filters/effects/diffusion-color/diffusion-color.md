@@ -1,20 +1,17 @@
 ---
-title: "Diffusion Color"
-description: "Use the Diffusion Color node to apply color diffusion effects for creating smooth color blending and transitions."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Color
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - gradients
-  - masking
-  - color
+breadcrumb-title: ""
+description: Use the Diffusion Color node to apply color diffusion effects for creating smooth color blending and transitions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion Color
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Diffusion Color
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Diffusion Color

@@ -1,20 +1,17 @@
 ---
-title: "Cells 4"
-description: "Use the Cells 4 node to generate advanced cellular patterns for creating organic and biological texture effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 4
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-4.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - shapes
-  - normal-maps
-  - noise
+breadcrumb-title: ""
+description: Use the Cells 4 node to generate advanced cellular patterns for creating organic and biological texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 4
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Cells 4
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Cells 4
@@ -40,7 +37,7 @@ A variation of the <b>Cells</b> walled noises.
   
 Each cell is assigned a flat color, which may be random or sampled from an input image.
 
-See also: [Cells 1](../cells-1/cells-1.md), [Cells 2](../cells-2/cells-2.md), [Cells 3](../cells-3/cells-3.md)
+See also: [Cells 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md), [Cells 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md), [Cells 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md)
 
 </td>
 </tr>
@@ -50,22 +47,22 @@ See also: [Cells 1](../cells-1/cells-1.md), [Cells 2](../cells-2/cells-2.md), [C
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Inputs
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

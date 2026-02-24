@@ -1,20 +1,17 @@
 ---
-title: "Library"
-description: "Use the Library in Substance 3D Designer to access and manage node presets, materials, and custom content."
-helpx_description: Designer > Interface > Library
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - creative-cloud-libraries
-  - cross-product-workflows
-  - assets
+breadcrumb-title: ""
+description: Use the Library in Substance 3D Designer to access and manage node presets, materials, and custom content.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Library
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Library
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # The Library
@@ -27,7 +24,7 @@ This page presents the **Library** panel of Substance 3D Designer, its layout as
 
 The <b>Library</b> panel is a split-view *resource manager*, where you can find and gather all your *assets* you need to work with in your graph.
 
-It monitors *folders* on your hard drive or over a network which are added to the list of [Library watched paths](https://docs.substance3d.com/display/SDDOC/Project+Settings#ProjectSettings-proj-libraryLibrary) in the [Project Settings](../preferences-window/project-settings/project-settings.md). Any changes happening in those folders – addition, removal and update of content – are *carried over* to the <b>Library</b>.
+It monitors *folders* on your hard drive or over a network which are added to the list of [Library watched paths](https://docs.substance3d.com/display/SDDOC/Project+Settings#ProjectSettings-proj-libraryLibrary) in the [Project Settings](../../help/interface/preferences-window/project-settings/project-settings.md). Any changes happening in those folders – addition, removal and update of content – are *carried over* to the <b>Library</b>.
 
 >[!WARNING]
 >
@@ -36,21 +33,21 @@ It monitors *folders* on your hard drive or over a network which are added to th
 > While your custom resources will be added to the **Library**, it might not be visible because of the filtering rules set for the existing categories. We recommend creating your own filters organised in folders, to ensure your content can be reliably found while working on your projects.  
 > See the [Managing custom content and filters](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) section of the documentation for more information.
 
-The **Library** can monitor all assets which are supported [Resources](../../resources/resources.md):
+The **Library** can monitor all assets which are supported [Resources](../../help/resources/resources.md):
 
-* Graphs from [Substance Packages](../../getting-started/overview/overview.md) (SBS) and [Substance Archives](../../getting-started/overview/overview.md) (SBSAR)
-* [Bitmap images](../../resources/bitmap-resource/bitmap-resource.md)
-* [Vector images](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [Function graphs](../../function-graphs/function-graphs.md)
-* [MDL graphs](../../mdl-graphs/mdl-graphs.md)
-* [AxF files](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
-* [Fonts](../../resources/font-resource/font-resource.md)
+* Graphs from [Substance Packages](../../help/getting-started/overview/overview.md) (SBS) and [Substance Archives](../../help/getting-started/overview/overview.md) (SBSAR)
+* [Bitmap images](../../help/resources/bitmap-resource/bitmap-resource.md)
+* [Vector images](../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Function graphs](../../help/function-graphs/function-graphs.md)
+* [MDL graphs](../../help/mdl-graphs/mdl-graphs.md)
+* [AxF files](../../help/resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [Fonts](../../help/resources/font-resource/font-resource.md)
 * [Meshes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 
 The panel is split in 2 main parts :
 
-* The  section on the left
-* The  section on the right
+* The  **Categories** section on the left
+* The  **Content**  section on the right
 
 ## Categories
 
@@ -62,33 +59,33 @@ You may click on any item in this tree view to display its content, along with t
 Default categories and filters contain all the assets shipped with Designer. They cannot be edited or removed.  
 The default categories include:
 
-* : gathers all the assets you have flagged as 'Favorite'
-* [Graph Items](../the-graph-view/graph-items/graph-items.md): lists special objects for organising graphs
-* [Atomic Nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md): lists atomic nodes for [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md)
-* [FxMap Nodes](../../function-graphs/fxmaps/fxmaps.md): includes nodes specific to graphs computed by [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) nodes
-* [Function Nodes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/function-nodes-reference-129368124.html): lists atomic nodes for [function graphs](../../function-graphs/function-graphs.md)
-* [Texture Generators](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html): contains nodes representing [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) that generate content autonomously
-* [Filters](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md): contains nodes representing [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) that modify an input
-* [Functions](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/function-nodes-reference-129368124.html): includes nodes representing [function graphs](../../function-graphs/the-function-graph/the-function-graph.md)
-* [3D View](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion): offers content related to maps used for image-based lighting in a 3D scene – such as in the [3D View](../3d-view/3d-view.md), such as environment maps and nodes for authoring environment maps
+* Favorites: gathers all the assets you have flagged as 'Favorite'
+* [Graph Items](../../help/interface/the-graph-view/graph-items/graph-items.md): lists special objects for organising graphs
+* [Atomic Nodes](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md): lists atomic nodes for [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md)
+* [FxMap Nodes](../../help/function-graphs/fxmaps/fxmaps.md): includes nodes specific to graphs computed by [FX-Map](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) nodes
+* [Function Nodes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/function-nodes-reference-129368124.html): lists atomic nodes for [function graphs](../../help/function-graphs/function-graphs.md)
+* [Texture Generators](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html): contains nodes representing [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md) that generate content autonomously
+* [Filters](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md): contains nodes representing [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md) that modify an input
+* [Functions](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/function-nodes-reference-129368124.html): includes nodes representing [function graphs](../../help/function-graphs/the-function-graph/the-function-graph.md)
+* [3D View](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion): offers content related to maps used for image-based lighting in a 3D scene – such as in the [3D View](../../help/interface/3d-view/3d-view.md), such as environment maps and nodes for authoring environment maps
 * PBR Materials:
-* [MDL Resources](../../mdl-graphs/mdl-graphs.md): includes custom content for [MDL graphs](../../mdl-graphs/mdl-graphs.md)
-* [mdl](../../mdl-graphs/mdl-library/mdl-library.md): lists the content of all MDL librairies available on the system which can be used as nodes in [MDL graphs](../../mdl-graphs/mdl-graphs.md)
+* [MDL Resources](../../help/mdl-graphs/mdl-graphs.md): includes custom content for [MDL graphs](../../help/mdl-graphs/mdl-graphs.md)
+* [mdl](../../help/mdl-graphs/mdl-library/mdl-library.md): lists the content of all MDL librairies available on the system which can be used as nodes in [MDL graphs](../../help/mdl-graphs/mdl-graphs.md)
 
 ## Content
 
 The content of the <b>Library</b> is displayed as *labelled thumbnails*. These thumbnails will have a different aspect depending on the following factors:
 
-* [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) in [SBS](../../getting-started/overview/overview.md) and [SBSAR](../../getting-started/overview/overview.md) files are represented by their *first output*, or by their *custom icon* if one was set by the graph's author
-* [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) and [vector graphics (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) are represented by a *miniature render* of the bitmap itself
-* [3D meshes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Function graphs](../../function-graphs/the-function-graph/the-function-graph.md), [MDL graphs](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md), [fonts](../../resources/font-resource/font-resource.md) and [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) files are represented by *generic icons* for each type
+* [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md) in [SBS](../../help/getting-started/overview/overview.md) and [SBSAR](../../help/getting-started/overview/overview.md) files are represented by their *first output*, or by their *custom icon* if one was set by the graph's author
+* [Bitmaps](../../help/resources/bitmap-resource/bitmap-resource.md) and [vector graphics (SVG)](../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) are represented by a *miniature render* of the bitmap itself
+* [3D meshes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Function graphs](../../help/function-graphs/the-function-graph/the-function-graph.md), [MDL graphs](../../help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md), [fonts](../../help/resources/font-resource/font-resource.md) and [AxF](../../help/resources/axf-appearance-exchange/axf-appearance-exchange-format.md) files are represented by *generic icons* for each type
 
 >[!WARNING]
 >
 > **In case of thumbnails issues**
 > 
 > Our recommended troubleshooting step for any issues related to Library thumbnails (incorrect image, rendering stuck on the refresh icon, etc.) is to manually trigger a *thumbnails refresh*.  
-> To do this, use the **Rebuild thumbnails** button in the [Library](../preferences-window/preferences-window.md) section of the [Preferences window](../preferences-window/preferences-window.md).
+> To do this, use the **Rebuild thumbnails** button in the [Library](../../help/interface/preferences-window/preferences-window.md) section of the [Preferences window](../../help/interface/preferences-window/preferences-window.md).
 
 <table>
 <tr style="border: 0;">
@@ -170,7 +167,7 @@ When placing the cursor on a content item, a tooltip will appear after a short t
 
 >[!NOTE]
 >
-> For [instance nodes](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) – i.e. non-atomic nodes, this path is a *hyperlink* which will display the file in the system's file browser.  
+> For [instance nodes](../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) – i.e. non-atomic nodes, this path is a *hyperlink* which will display the file in the system's file browser.  
 > Atomic nodes use a special aliased path (e.g., `graphatomic://`, `structure://`, ...) which cannot be clicked as it points to an internal library.
 
 <table>

@@ -1,20 +1,17 @@
 ---
-title: "Cube 3D GBuffers"
-description: "Use the Cube 3D GBuffers node to generate geometry buffers from 3D cube projections for advanced rendering effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D GBuffers
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d-gbuffers.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - modeling
-  - grid
+breadcrumb-title: ""
+description: Use the Cube 3D GBuffers node to generate geometry buffers from 3D cube projections for advanced rendering effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D GBuffers
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Cube 3D GBuffers
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Cube 3D GBuffers
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-Advanced version of [Cube 3D](../cube-3d/cube-3d.md) that also outputs Position and normal maps instead of heightmap only.
+Advanced version of [Cube 3D](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) that also outputs Position and normal maps instead of heightmap only.
 
 ## Parameters
 

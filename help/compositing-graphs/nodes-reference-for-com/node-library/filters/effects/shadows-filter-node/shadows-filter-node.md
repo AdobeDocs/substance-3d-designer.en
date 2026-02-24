@@ -1,20 +1,17 @@
 ---
-title: "Shadows (Filter Node)"
-description: "Use the Shadows filter node to generate shadow effects from input textures for adding depth and realism to materials."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shadows (Filter Node)
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shadows-filter-node.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - shading
-  - effects
-  - gradients
+breadcrumb-title: ""
+description: Use the Shadows filter node to generate shadow effects from input textures for adding depth and realism to materials.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shadows (Filter Node)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Shadows (Filter Node)
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Shadows (Filter Node)
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-A raw, grayscale-only version of the [Shape Drop Shadow](../shape-drop-shadow/shape-drop-shadow.md) node. It only takes a black and white, binary shapes as input and returns only the shadow.
+A raw, grayscale-only version of the [Shape Drop Shadow](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-drop-shadow/shape-drop-shadow.md) node. It only takes a black and white, binary shapes as input and returns only the shadow.
 
 Can be useful if you're just after the shadow and do not want to work with a more complete node, for example when building your own material or baked lighting.
 

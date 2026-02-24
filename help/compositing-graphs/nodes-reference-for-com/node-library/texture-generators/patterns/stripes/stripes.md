@@ -1,21 +1,17 @@
 ---
-title: "Stripes"
-description: "Use the Stripes node to generate stripe patterns with customizable width, spacing, and orientation for texture creation."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Stripes
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/stripes.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - painting-illustration
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - patterns
-  - illustration
-  - shapes
+breadcrumb-title: ""
+description: Use the Stripes node to generate stripe patterns with customizable width, spacing, and orientation for texture creation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Stripes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Stripes
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Stripes

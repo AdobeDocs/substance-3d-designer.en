@@ -1,20 +1,17 @@
 ---
-title: "Flood Fill"
-description: "Use the Flood Fill node to fill connected regions of similar color for creating masks and texture processing effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - painting
-  - polygon
-  - creative-effects
+breadcrumb-title: ""
+description: Use the Flood Fill node to fill connected regions of similar color for creating masks and texture processing effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Flood Fill
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Flood Fill
@@ -38,11 +35,11 @@ helpx_learn_topic:
 
 Flood Fill is part of an advanced set of effects that allow you to add much more variation to a basic, binary tiles texture. It is not meant to be used by itself: instead, it is more of a starting point for Other Flood Fill effects. This split, separate data allows for a more dynamic, more optimized and less destructive workflow.
 
-The other Flood Fill effects are [Flood Fill to Gradient](../flood-fill-to-gradient/flood-fill-to-gradient.md), [Flood Fill to Color/Grayscale](../flood-fill-grayscale-col/flood-fill-to-grayscale-color.md), [Flood Fill to Random Grayscale](../flood-fill-random-gra/flood-fill-to-random-grayscale.md), [Flood Fill to Random Color](../flood-fill-random-color/flood-fill-to-random-color.md), [Flood Fill to BBox Size](../flood-fill-to-bbox-size/flood-fill-to-bbox-size.md), [Flood Fill to Position](../flood-fill-to-position/flood-fill-to-position.md), [Flood Fill Mapper](../flood-fill-mapper/flood-fill-mapper.md) and [Flood Fill to Index](../flood-fill-to-index/flood-fill-to-index.md)
+The other Flood Fill effects are [Flood Fill to Gradient](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md), [Flood Fill to Color/Grayscale](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-grayscale-col/flood-fill-to-grayscale-color.md), [Flood Fill to Random Grayscale](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md), [Flood Fill to Random Color](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-color/flood-fill-to-random-color.md), [Flood Fill to BBox Size](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-bbox-size/flood-fill-to-bbox-size.md), [Flood Fill to Position](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-position/flood-fill-to-position.md), [Flood Fill Mapper](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-mapper/flood-fill-mapper.md) and [Flood Fill to Index](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-index/flood-fill-to-index.md)
 
 >[!WARNING]
 >
-> The input map needs to be suited to Flood Fill to work. Ideally it is a binary map (black/white only, no grayscale) where every tile is separated from the other lines by a border that is full black (0,0,0) for every pixel. An example of a perfect candidate for this is the [Tile Generator](../../../texture-generators/patterns/tile-generator/tile-generator.md).
+> The input map needs to be suited to Flood Fill to work. Ideally it is a binary map (black/white only, no grayscale) where every tile is separated from the other lines by a border that is full black (0,0,0) for every pixel. An example of a perfect candidate for this is the [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 > 
 > Problems arise if tiles are not separated by full black pixels, usually when grayscale, sloping values are used. You can identify this by an overall lack of red values in the result, and possibly strange artifacting lines. In such cases, adjust the contrast on the input map or switch the input map out. Make sure to change the Safety/Speed trade-off setting to see if anything improves.
 

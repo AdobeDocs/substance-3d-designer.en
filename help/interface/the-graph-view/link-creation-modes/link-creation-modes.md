@@ -1,25 +1,22 @@
 ---
-title: "Link creation modes"
-description: "Learn about link creation modes in Substance 3D Designer graph view for connecting nodes efficiently."
-helpx_description: Designer > Interface > The graph view > Link creation modes
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - links
-  - infographic
-  - graphics
+breadcrumb-title: ""
+description: Learn about link creation modes in Substance 3D Designer graph view for connecting nodes efficiently.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > The graph view > Link creation modes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Link creation modes
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Link creation modes
 
-In [Substance graphs](../../../compositing-graphs/substance-compositing-graphs.md), you may connect nodes using one of 3 <b>link creation modes</b>:
+In [Substance graphs](../../../help/compositing-graphs/substance-compositing-graphs.md), you may connect nodes using one of 3 <b>link creation modes</b>:
 
 <table>
 <tr style="border: 0;">

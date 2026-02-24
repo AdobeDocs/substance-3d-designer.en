@@ -1,9 +1,18 @@
 ---
-title: "Paths to Spline"
-description: "Use the Paths to Spline node to convert path data into splines for use with spline-based nodes."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths to Spline"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
+breadcrumb-title: ""
+description: Use the Paths to Spline node to convert path data into splines for use with spline-based nodes.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths to Spline
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Paths to Spline
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Paths to Spline
 
@@ -20,7 +29,7 @@ helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-
 
 ## Description
 
-Converts a paths into splines which can be visualized using a [Spline Render](../../spline-tools/spline-render/spline-render.md) node and processed using [Spline nodes](../../spline-tools/spline-tools.md).
+Converts a paths into splines which can be visualized using a [Spline Render](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md) node and processed using [Spline nodes](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md).
 
 </td>
 </tr>
@@ -32,12 +41,12 @@ Converts a paths into splines which can be visualized using a [Spline Render](.
 
 >[!TIP]
 >
-> This node can be used after the [Mask to Paths](../mask-to-paths/mask-to-paths.md) node to form a chain that converts a mask into splines.
+> This node can be used after the [Mask to Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) node to form a chain that converts a mask into splines.
 
 ## Input connectors
 
 <b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../mask-to-paths/mask-to-paths.md) or to another Path-processing node.
+A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
 
 ## Output connectors
 

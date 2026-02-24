@@ -1,20 +1,17 @@
 ---
-title: "Tile Sampler"
-description: "Use the Tile Sampler node to sample and arrange tiles from input textures to create tiled patterns in Substance 3D Designer."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Sampler
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - patterns
-  - grid
-  - normal-maps
+breadcrumb-title: ""
+description: Use the Tile Sampler node to sample and arrange tiles from input textures to create tiled patterns in Substance 3D Designer.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Sampler
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Tile Sampler
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Tile Sampler
@@ -36,11 +33,11 @@ helpx_learn_topic:
 
 ## Description
 
-Tile Sampler is the ultimate tile-pattern generating node. It's an evolved, more complex version of [Tile Generator](../tile-generator/tile-generator.md). As of 2017 2.1, the differences are much smaller between Tile Sampler and [Generator](../tile-generator/tile-generator.md). The main differences are now only in the seven different map slots which are available for driving Scale, Position, Rotation, Size, Color and Masking. Their effect can be blended in separately.
+Tile Sampler is the ultimate tile-pattern generating node. It's an evolved, more complex version of [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). As of 2017 2.1, the differences are much smaller between Tile Sampler and [Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). The main differences are now only in the seven different map slots which are available for driving Scale, Position, Rotation, Size, Color and Masking. Their effect can be blended in separately.
 
 Tile Sampler is useful for creating man-made procedural patterns, with additional control over certain parameters driven by external input maps.
 
-Make sure you are familiar with [Tile Generator](../tile-generator/tile-generator.md) before moving on to Tile Sampler. In most cases, you'll find [Tile Generator](../tile-generator/tile-generator.md) suffices and you won't need the added complexity of Tile Sampler.
+Make sure you are familiar with [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) before moving on to Tile Sampler. In most cases, you'll find [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) suffices and you won't need the added complexity of Tile Sampler.
 
 ## Parameters
 

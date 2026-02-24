@@ -1,21 +1,17 @@
 ---
-title: "Triangle Grid"
-description: "Use the Triangle Grid node to generate triangular grid patterns for creating geometric textures in Substance 3D Designer."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Triangle Grid
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
-helpx_creative_field:
-  - painting-illustration
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - grid
-  - 3d
-  - illustration
+breadcrumb-title: ""
+description: Use the Triangle Grid node to generate triangular grid patterns for creating geometric textures in Substance 3D Designer.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Triangle Grid
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Triangle Grid
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Triangle Grid
@@ -53,12 +49,12 @@ The *positions* of the vertices may be adjusted, which impacts the generated mes
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>

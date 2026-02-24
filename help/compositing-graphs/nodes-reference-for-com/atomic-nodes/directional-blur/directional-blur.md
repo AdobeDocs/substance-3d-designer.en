@@ -1,21 +1,17 @@
 ---
-title: "Directional blur"
-description: "Use the Directional Blur node to apply blur effects in a specific direction for creating motion blur and streaking effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - asset-warp
-  - gradients
+breadcrumb-title: ""
+description: Use the Directional Blur node to apply blur effects in a specific direction for creating motion blur and streaking effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional blur
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Directional blur
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Directional blur
@@ -31,13 +27,13 @@ helpx_learn_topic:
 
 Applies blurring in a specified direction according to an intensity map.
 
-This node performs an operation similar to a motion blur on an input. Unlike the regular '[Blur](../blur/blur.md)' node, which blurs equally in all directions, 'Directional blur' works along a user-defined angle.
+This node performs an operation similar to a motion blur on an input. Unlike the regular '[Blur](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)' node, which blurs equally in all directions, 'Directional blur' works along a user-defined angle.
 
 </td>
 </tr>
 </table>
 
-Similarly to 'Blur', it is also a faster and low-quality operation. An extended, higher-quality alternative is provided in [Anisotropic Blur](../../node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), with a performande trade-off
+Similarly to 'Blur', it is also a faster and low-quality operation. An extended, higher-quality alternative is provided in [Anisotropic Blur](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), with a performande trade-off
 
 <table>
 <tr style="border: 0;">
@@ -61,7 +57,7 @@ Similarly to 'Blur', it is also a faster and low-quality operation. An extended,
 
 ## Directional and Anisotropic blur
 
-This images below show the Directional blur and the[ Anisotropic blur](../../node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) in effect on the same input shape, with similar parameters. Anisotropic Blur has been set to full anisotropy and high quality.
+This images below show the Directional blur and the[ Anisotropic blur](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) in effect on the same input shape, with similar parameters. Anisotropic Blur has been set to full anisotropy and high quality.
 
 <table>
 <tr style="border: 0;">
@@ -86,22 +82,22 @@ This images below show the Directional blur and the[ Anisotropic blur](../../nod
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Parameters
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Input connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Output connectors
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>
@@ -118,7 +114,7 @@ This images below show the Directional blur and the[ Anisotropic blur](../../nod
 
 |  |  |
 | --- | --- |
-| <b>Input</b> *Grayscale/Color* [PRIMARY](../../../../glossary/glossary.md) | The image to be processed. |
+| <b>Input</b> *Grayscale/Color* [PRIMARY](../../../../help/glossary/glossary.md) | The image to be processed. |
 
 ## Output connectors
 

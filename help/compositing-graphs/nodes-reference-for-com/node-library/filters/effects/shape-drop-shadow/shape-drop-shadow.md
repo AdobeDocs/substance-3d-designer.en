@@ -1,20 +1,17 @@
 ---
-title: "Shape Drop Shadow"
-description: "Use the Shape Drop Shadow node to add drop shadow effects to shapes for creating depth and dimension in textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Drop Shadow
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-drop-shadow.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - effects
-  - shading
-  - creative-effects
+breadcrumb-title: ""
+description: Use the Shape Drop Shadow node to add drop shadow effects to shapes for creating depth and dimension in textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Drop Shadow
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Shape Drop Shadow
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Shape Drop Shadow
@@ -40,7 +37,7 @@ helpx_learn_topic:
 
 Performs the well-known "Drop Shadow" effect from other 2D image processing software, on an input black and white mask (for the grayscale version) or image with transparency (for the color version).
 
-It differs from the [Shadows](../shadows-filter-node/shadows-filter-node.md) effect in that it returns images with full transparency applied, making for a more complete effect similar to what you'd expect in other software.
+It differs from the [Shadows](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md) effect in that it returns images with full transparency applied, making for a more complete effect similar to what you'd expect in other software.
 
 ## Parameters
 

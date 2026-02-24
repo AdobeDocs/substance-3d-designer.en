@@ -1,20 +1,17 @@
 ---
-title: "Starburst"
-description: "Use the Starburst node to create starburst patterns radiating from a center point for decorative texture effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Starburst
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - effects
-  - asset-warp
-  - creative-effects
+breadcrumb-title: ""
+description: Use the Starburst node to create starburst patterns radiating from a center point for decorative texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Starburst
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Starburst
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Starburst

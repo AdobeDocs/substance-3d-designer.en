@@ -1,20 +1,17 @@
 ---
-title: "All changes"
-description: "Review all changes and updates across Substance 3D Designer versions to track feature evolution and improvements."
-helpx_description: Designer > Release Notes > All changes
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/all-changes.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - materials
-  - modeling
+breadcrumb-title: ""
+description: Review all changes and updates across Substance 3D Designer versions to track feature evolution and improvements.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > All changes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: All changes
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # All changes
@@ -25,18 +22,18 @@ helpx_learn_topic:
 
 | 13 |  |
 | --- | --- |
-| <b>13.1</b> |  |
-| <b>13.0</b> |  |
+| <b>13.1</b> | 13.1.2    13.1.1    13.1.0 |
+| <b>13.0</b> | 13.0.2    13.0.1    13.0.0 |
 
 </td>
 <td style="border: 0;" valign="top">
 
 | 12 |  |
 | --- | --- |
-| <b>12.4</b> |  |
-| <b>12.3</b> |  |
-| <b>12.2</b> |  |
-| <b>12.1</b> |  |
+| <b>12.4</b> | 12.4.1    12.4.0 |
+| <b>12.3</b> | 12.3.1    12.3.0 |
+| <b>12.2</b> | 12.2.1    12.2.0 |
+| <b>12.1</b> | 12.1.1    12.1.0 |
 
 </td>
 </tr>
@@ -48,17 +45,17 @@ helpx_learn_topic:
 
 | 11 |  |
 | --- | --- |
-| <b>11.3</b> |  |
-| <b>11.2</b> |  |
-| <b>11.1</b> |  |
+| <b>11.3</b> | 11.3.3    11.3.2    11.3.1    11.3.0 |
+| <b>11.2</b> | 11.2.2    11.2.1    11.2.0 |
+| <b>11.1</b> | 11.1.2    11.1.1    11.1.0 |
 
 </td>
 <td style="border: 0;" valign="top">
 
 | 10 |  |
 | --- | --- |
-| <b>10.2</b> |  |
-| <b>10.1</b> |  |
+| <b>10.2</b> | 10.2.2    10.2.1    10.2.0 |
+| <b>10.1</b> | 10.1.3    10.1.2    10.1.1    10.1.0 |
 
 </td>
 </tr>
@@ -68,42 +65,42 @@ helpx_learn_topic:
 
 | 9 |  |
 | --- | --- |
-| <b>9.3</b> |  |
-| <b>9.2</b> |  |
-| <b>9.1</b> |  |
+| <b>9.3</b> | 9.3.3    9.3.2    9.3.1    9.3.0 |
+| <b>9.2</b> | 9.2.3    9.2.2    9.2.1    9.2.0 |
+| <b>9.1</b> | 9.1.3    9.1.2    9.1.1    9.1.0 |
 
 
 
 | 8 |  |
 | --- | --- |
-| <b>8.3</b> |  |
-| <b>8.2</b> |  |
-| <b>8.1</b> |  |
+| <b>8.3</b> | 8.3.4    8.3.3    8.3.2    8.3.1    8.3.0 |
+| <b>8.2</b> | 8.2.2    8.2.1    8.2.0 |
+| <b>8.1</b> | 8.1.2    8.1.1    8.1.0 |
 
 
 
 | 7 |  |
 | --- | --- |
-| <b>7.2</b> |  |
-| <b>7.1</b> |  |
+| <b>7.2</b> | 7.2.5    7.2.4    7.2.3    7.2.2    7.2.1    7.2.0 |
+| <b>7.1</b> | 7.1.4    7.1.3    7.1.2    7.1.1    7.1.0 |
 
 
 
 | 6 |  |
 | --- | --- |
-| <b>6.0</b> |  |
+| <b>6.0</b> | 6.0.4    6.0.3    6.0.2    6.0.1    6.0.0 |
 
 
 
 | 5 |  |
 | --- | --- |
-| <b>5.6</b> |  |
-| <b>5.5</b> |  |
-| <b>5.4</b> |  |
-| <b>5.3</b> |  |
-| <b>5.2</b> |  |
-| <b>5.1</b> |  |
-| <b>5.0</b> |  |
+| <b>5.6</b> | 5.6.2    5.6.1    5.6.0 |
+| <b>5.5</b> | 5.5.3    5.5.2    5.5.1    5.5.0 |
+| <b>5.4</b> | 5.4.0 |
+| <b>5.3</b> | 5.3.3    5.3.2    5.3.1    5.3.0 |
+| <b>5.2</b> | 5.2.5    5.2.1    5.2.0 |
+| <b>5.1</b> | 5.1.1    5.1.0 |
+| <b>5.0</b> | 5.0.3    5.0.2    5.0.1    5.0.0 |
 
 
 +++
@@ -442,12 +439,12 @@ helpx_learn_topic:
 
 *(Released April 15th, 2025)*
 
-### <b>Added</b>
+### Added
 
 * &#91;Graph&#93; Use the default GPU engine to generate thumbnails for the current graph
 * &#91;Library&#93; Use the default GPU engine to generate thumbnails for the library
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;Graph&#93; Cannot move connections in some cases in 'Standard' link creation mode
 * &#91;Content&#93; Artifacts in MLV filter output in a specific case
@@ -463,13 +460,13 @@ helpx_learn_topic:
 
 *(Released February 20th, 2025)*
 
-### <b>Added</b>
+### Added
 
 * &#91;Graph&#93; Node alignment tools: Reinstate keyboard shortcuts, enable stacking by default
 * &#91;MDL&#93; Warn users that "MDL graphs" will be deprecated in a future version
 * &#91;Preferences&#93; Warn users that "Custom tangent space plugins" will be deprecated in a future version
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;2D View&#93; Display center pixel coordinates instead of top-left
 * &#91;Content&#93; Anisotropic Kuwahara Grayscale: Cooker warning for missing 'ignore\_alpha' variable
@@ -489,7 +486,7 @@ helpx_learn_topic:
 
 *(Released January 14th, 2025)*
 
-### <b>Added</b>
+### Added
 
 * &#91;2D View&#93; Add pinned pixel display in Information panel
 * &#91;API&#93; Expose the nodes BBox size in the Graph View scene
@@ -523,7 +520,7 @@ helpx_learn_topic:
 * &#91;UX&#93; Modal dialogs should not be minimisable
 * &#91;UX&#93; Remove horizontal scroll on alert dialog
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;Content&#93; Bevel: Normal Format is not affected by the global preference
 * &#91;Content&#93; Color to Mask node does not ignore alpha

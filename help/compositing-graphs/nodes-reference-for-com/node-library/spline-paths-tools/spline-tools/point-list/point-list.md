@@ -1,9 +1,18 @@
 ---
-title: "Point List"
-description: "Use the Point List node to create and manage lists of points for spline and path generation."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+breadcrumb-title: ""
+description: Use the Point List node to create and manage lists of points for spline and path generation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Point List
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Point List
 
@@ -30,7 +39,7 @@ If an existing point list is supplied to the <b>Point</b> inputs, the generated 
 
 >[!TIP]
 >
-> This node can be used to supply points to the [Spline (Poly Quadratic)](../spline-poly-quadratic/spline-poly-quadratic.md) node in order to build splines.
+> This node can be used to supply points to the [Spline (Poly Quadratic)](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md) node in order to build splines.
 
 >[!IMPORTANT]
 >

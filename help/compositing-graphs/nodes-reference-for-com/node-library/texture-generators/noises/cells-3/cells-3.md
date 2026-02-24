@@ -1,20 +1,17 @@
 ---
-title: "Cells 3"
-description: "Use the Cells 3 node to generate intermediate cellular patterns for creating organic and biological texture effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 3
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - metal
-  - blending
-  - normal-maps
+breadcrumb-title: ""
+description: Use the Cells 3 node to generate intermediate cellular patterns for creating organic and biological texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Cells 3
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Cells 3
@@ -40,7 +37,7 @@ A variation of the <b>Cells</b> walled noises.
   
 The intersection of discs produces cells with thin walls of uneven softness.
 
-See also: [Cells 1](../cells-1/cells-1.md), [Cells 2](../cells-2/cells-2.md), [Cells 4](../cells-4/cells-4.md)
+See also: [Cells 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md), [Cells 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md), [Cells 4](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-4/cells-4.md)
 
 </td>
 </tr>
@@ -50,17 +47,17 @@ See also: [Cells 1](../cells-1/cells-1.md), [Cells 2](../cells-2/cells-2.md), [C
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

@@ -1,21 +1,17 @@
 ---
-title: "Surface Brush"
-description: "Use the Surface Brush node to generate masks based on surface orientation for creating directional weathering and wear effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Surface Brush
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/surface-brush.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - masking
-  - painting
-  - brushes
+breadcrumb-title: ""
+description: Use the Surface Brush node to generate masks based on surface orientation for creating directional weathering and wear effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Surface Brush
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Surface Brush
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Surface Brush

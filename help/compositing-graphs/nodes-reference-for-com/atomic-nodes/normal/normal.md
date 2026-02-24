@@ -1,20 +1,17 @@
 ---
-title: "Normal"
-description: "Use the Normal node to process and manipulate normal map textures for controlling surface detail and lighting."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - gradients
-  - nodes
+breadcrumb-title: ""
+description: Use the Normal node to process and manipulate normal map textures for controlling surface detail and lighting.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Normal
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Normal
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Normal
@@ -36,7 +33,7 @@ The node converts an input grayscale map to a tangent-space Normal map output. I
 </tr>
 </table>
 
-It is a very useful node that is used often to convert height map inputs to normal maps for realtime-ready materials. There are alternatives to be found in [Normal Sobel](../../node-library/filters/normal-map/normal-sobel/normal-sobel.md) and Height To Normal World Units.
+It is a very useful node that is used often to convert height map inputs to normal maps for realtime-ready materials. There are alternatives to be found in [Normal Sobel](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) and Height To Normal World Units.
 
 <table>
 <tr style="border: 0;">
@@ -62,12 +59,12 @@ It is a very useful node that is used often to convert height map inputs to norm
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>

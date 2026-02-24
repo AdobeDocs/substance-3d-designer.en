@@ -1,20 +1,17 @@
 ---
-title: "Curve"
-description: "Use the Curve node to adjust texture values using customizable curves for precise color and brightness control."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - curves
-  - adjustments
-  - shapes
+breadcrumb-title: ""
+description: Use the Curve node to adjust texture values using customizable curves for precise color and brightness control.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Curve
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Curve
@@ -38,7 +35,7 @@ The node provides an interface to image tonality remapping, similar to other 2D 
 
 Unlike most other nodes, the Curve node does not have a typical standard interface with sliders and parameters, but instead presents a full fledged curve editor. See the below expandable section on how to use it.
 
-[This does however mean that none of the parameters from a Curve node can be exposed to a subgraph](../../../manage-parameters/exposing-a-parameter/exposing-a-parameter.md). The only option here is to use a [Multi-Switch](../../node-library/filters/blending/multi-switch/multi-switch.md) to switch between different curve profiles.
+[This does however mean that none of the parameters from a Curve node can be exposed to a subgraph](../../../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). The only option here is to use a [Multi-Switch](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) to switch between different curve profiles.
 
 <table>
 <tr style="border: 0;">
@@ -64,17 +61,21 @@ Unlike most other nodes, the Curve node does not have a typical standard interfa
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
+## Parameters
 
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Curve editor
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Input connectors
 
+### Output connectors
+
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>
@@ -86,7 +87,7 @@ Unlike most other nodes, the Curve node does not have a typical standard interfa
 | --- | --- |
 | <b>Apply/Expose curve</b> *Boolean* | Allows to copy the user curve to the output instead of applying it to the input image |
 | <b>Curve addressing</b> *Boolean* | This parameter determines how HDR pixels out of the &#91;0, 1&#93; range in the input are handled: clamped or fold up to &#91;0, 1&#93;. |
-| <b>Curve</b> *Array of curve keys* | The custom curve used to map the input grayscale values.   May be edited using the . |
+| <b>Curve</b> *Array of curve keys* | The custom curve used to map the input grayscale values.   May be edited using the [Curve editor](#curve-editor). |
 
 ## Curve editor
 

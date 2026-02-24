@@ -1,9 +1,18 @@
 ---
-title: "Post effects"
-description: "Apply post-processing effects to the 3D view camera for enhanced material preview and visualization."
-helpx_description: "Designer > Interface > 3D view > Camera > Post effects"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+breadcrumb-title: ""
+description: Apply post-processing effects to the 3D view camera for enhanced material preview and visualization.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > 3D view > Camera > Post effects
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Post effects
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Post effects
 
@@ -11,25 +20,25 @@ helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/came
 
 In the camera properties, you can enable post effects to enhance renders or check specific material properties.
 
-These effects are developed in-house and are only available for the Rasterizer and GPU Pathtracer [renderers](../../3d-renderers/3d-renderers.md).
+These effects are developed in-house and are only available for the Rasterizer and GPU Pathtracer [renderers](../../../../help/interface/3d-view/3d-renderers/3d-renderers.md).
 
-Any post effect enabled at the time of saving [3D scene resources](../../../../resources/3d-scene-resource/3d-scene-resource.md) or [scene state files](../../../../working-with-3d-scenes/working-with-3d-scenes.md) will be saved as part of the scene state.
+Any post effect enabled at the time of saving [3D scene resources](../../../../help/resources/3d-scene-resource/3d-scene-resource.md) or [scene state files](../../../../help/working-with-3d-scenes/working-with-3d-scenes.md) will be saved as part of the scene state.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Tone mapping
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Bloom
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Depth of field
 
 </td>
 <td style="border: 0;" valign="top">

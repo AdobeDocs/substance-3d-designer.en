@@ -1,20 +1,17 @@
 ---
-title: "Cube 3D"
-description: "Use the Cube 3D node to generate textures based on 3D cube projections for creating environment maps and effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/cube-3d.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - rendering
-  - blending
+breadcrumb-title: ""
+description: Use the Cube 3D node to generate textures based on 3D cube projections for creating environment maps and effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Cube 3D
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Cube 3D
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Cube 3D

@@ -1,20 +1,17 @@
 ---
-title: "3D Texture Position"
-description: "Use the 3D Texture Position node to extract position information from 3D textures for creating spatial effects and mappings."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Position
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - pbr
-  - texture
+breadcrumb-title: ""
+description: Use the 3D Texture Position node to extract position information from 3D textures for creating spatial effects and mappings.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture Position
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: 3D Texture Position
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 3D Texture Position

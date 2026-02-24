@@ -1,21 +1,17 @@
 ---
-title: "Pre-Multiplied to Straight"
-description: "Use the Pre-Multiplied to Straight node to convert pre-multiplied alpha textures to straight alpha format."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Pre-Multiplied to Straight
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/pre-multiplied-to-straight.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - channels
-  - creative-effects
+breadcrumb-title: ""
+description: Use the Pre-Multiplied to Straight node to convert pre-multiplied alpha textures to straight alpha format.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Pre-Multiplied to Straight
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Pre-Multiplied to Straight
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Pre-Multiplied to Straight

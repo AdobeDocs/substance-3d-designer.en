@@ -1,9 +1,18 @@
 ---
-title: "Spline Fill"
-description: "Use the Spline Fill node to fill areas defined by closed splines with textures or colors."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Fill"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-fill.html"
+breadcrumb-title: ""
+description: Use the Spline Fill node to fill areas defined by closed splines with textures or colors.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Fill
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Spline Fill
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline Fill
 

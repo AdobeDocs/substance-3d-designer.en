@@ -1,21 +1,17 @@
 ---
-title: "Blur"
-description: "Use the Blur node to apply blur effects to textures for smoothing details and creating soft focus effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - matte
-  - hdri
+breadcrumb-title: ""
+description: Use the Blur node to apply blur effects to textures for smoothing details and creating soft focus effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Blur
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Blur
@@ -37,7 +33,7 @@ helpx_learn_topic:
 
 The Blur Node performs a "box-blur" operation: averaging the values of pixels over a set distance, resulting in a fuzzy, unsharp look. It provides the simplest, fastest and most basic blurring operation available in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html).
 
-While blur works well for fast, simple operations, such as slightly softening some edges, in any more demanding scenario [Blur HQ](../../node-library/filters/blurs/blur-hq/blur-hq.md) is a better choice, trading off performance for quality.
+While blur works well for fast, simple operations, such as slightly softening some edges, in any more demanding scenario [Blur HQ](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) is a better choice, trading off performance for quality.
 
 </td>
 </tr>
@@ -48,7 +44,7 @@ While blur works well for fast, simple operations, such as slightly softening so
 * **Intensity**: 0-unlimited  
   Sets the intensity or distance for the blur. The number is not capped, but at high values the entire image turns to a averaged color.
 
-Below Example shows this node's Blur on the left, versus [Blur HQ](../../node-library/filters/blurs/blur-hq/blur-hq.md) on the right, when using high values (50 in this case). At values of around 1-2 the difference is not noticeable.
+Below Example shows this node's Blur on the left, versus [Blur HQ](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) on the right, when using high values (50 in this case). At values of around 1-2 the difference is not noticeable.
 
 | Blur (Atomic) | Blur HQ |
 | --- | --- |

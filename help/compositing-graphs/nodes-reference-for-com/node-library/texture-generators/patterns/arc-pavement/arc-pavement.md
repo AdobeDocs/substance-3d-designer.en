@@ -1,20 +1,17 @@
 ---
-title: "Arc Pavement"
-description: "Use the Arc Pavement node to generate arc-shaped pavement patterns for creating curved road and path textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Arc Pavement
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/arc-pavement.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - illustration
-  - reflections
-  - shapes
+breadcrumb-title: ""
+description: Use the Arc Pavement node to generate arc-shaped pavement patterns for creating curved road and path textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Arc Pavement
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Arc Pavement
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Arc Pavement
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-Generates a Parisian arc pavement pattern. This effect cannot be achieved with standard [Tile Generator ](../tile-generator/tile-generator.md)or [Tile Sampler](../tile-sampler/tile-sampler.md), hence this dedicated node.
+Generates a Parisian arc pavement pattern. This effect cannot be achieved with standard [Tile Generator ](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)or [Tile Sampler](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md), hence this dedicated node.
 
 ## Parameters
 

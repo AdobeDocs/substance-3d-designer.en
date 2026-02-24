@@ -1,20 +1,17 @@
 ---
-title: "Exposure"
-description: "Use the Exposure node to adjust exposure levels in HDRI environments for controlling overall brightness and lighting."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Exposure
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - hdri
-  - effects
-  - food-photography
+breadcrumb-title: ""
+description: Use the Exposure node to adjust exposure levels in HDRI environments for controlling overall brightness and lighting.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Exposure
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Exposure
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Exposure

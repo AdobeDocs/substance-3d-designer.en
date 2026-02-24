@@ -1,9 +1,18 @@
 ---
-title: "Version 15.1"
-description: "Review release notes for Substance 3D Designer version 15.1 to learn about new features, improvements, and bug fixes."
-helpx_description: "Designer > Release Notes > Version 15.1"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 15.1 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 15.1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Version 15.1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 15.1
 
@@ -26,19 +35,19 @@ helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-
 
 ## Improve graph creation
 
-In this release, the [graph creation window](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) has been <b>comprehensively redesigned</b> to enhance the initial user experience in Substance 3D Designer. The primary goal of this update is to streamline the template selection process, allowing users to efficiently identify the most suitable template for their requirements.
+In this release, the [graph creation window](../../help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) has been <b>comprehensively redesigned</b> to enhance the initial user experience in Substance 3D Designer. The primary goal of this update is to streamline the template selection process, allowing users to efficiently identify the most suitable template for their requirements.
 
 Thumbnails offer instant <b>visual references</b> for the intended material types, while detailed tooltips supply all pertinent information. For improved organization, templates are now classified into specific <b>categories</b> such as materials, filters, and scan processing.
 
 Although the main interface has been upgraded, users continue to have access to previous views, including list, packages, and directories options.
 
-[Learn more](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
+[Learn more](../../help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
 ![redesigner new graph window](newgraph.png){zoomable="yes"}
 
 ## Embedded samples
 
-With the launch of our redesigned graph creation window, we've added a variety of [<b>sample materials</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) directly inside the software. This enhancement is in response to your request for better access to learning resources.
+With the launch of our redesigned graph creation window, we've added a variety of [<b>sample materials</b>](../../help/compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) directly inside the software. This enhancement is in response to your request for better access to learning resources.
 
 ![New graph creation window for samples](GraphSample.png){zoomable="yes"}
 
@@ -50,7 +59,7 @@ You can access the samples in the 'Material samples' category when creating a ne
 
 Alongside these foundational materials, we've also provided <b>advanced samples</b> to demonstrate how to use <b>FX-map and Pixel processor</b> features more effectively.
 
-[Learn more](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
+[Learn more](../../help/compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
 ![wood sample in substance designer](samplegraph.png){zoomable="yes"}
 
@@ -64,9 +73,9 @@ Most noises now include <b>new parameters</b>, providing users with greater crea
 
 Finally, bitdepth is <b>no longer hard-locked to 16-bits</b>. You can now override the bitdepth setting on individual node instances, allowing you to achieve higher detail and dynamic range when needed, or optimize your graphs for performance.
 
-See the full list of updated noises in the below.
+See the full list of updated noises in the [release notes](#release-notes) below.
 
-Examples:   [Cells 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)   [Clouds 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [  Directional scratches](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [  Moisture noise 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Examples:   [Cells 1](../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)   [Clouds 2](../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [  Directional scratches](../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [  Moisture noise 1](../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![directionnal disorder noise](directionaldisorder.gif){zoomable="yes"}
 
@@ -74,7 +83,7 @@ Examples:   [Cells 1](../../compositing-graphs/nodes-reference-for-com/node-li
 
 To address the challenge of locating specific nodes within the extensive library, we have introduced categories in the Node menu.
 
-The vast number of available nodes can make it difficult to quickly find the desired one. To streamline this process, a new [<b>Group</b> attribute](../../compositing-graphs/graph-parameters/graph-parameters.md) has been implemented at the graph level. When this attribute is defined, it is used to organize and sort the search results.
+The vast number of available nodes can make it difficult to quickly find the desired one. To streamline this process, a new [<b>Group</b> attribute](../../help/compositing-graphs/graph-parameters/graph-parameters.md) has been implemented at the graph level. When this attribute is defined, it is used to organize and sort the search results.
 
 <table>
 <tr style="border: 0;">
@@ -93,7 +102,7 @@ The vast number of available nodes can make it difficult to quickly find the des
 
 ## Default output
 
-When a node has multiple [outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), it is not possible to display all of them simultaneously in the 2D view or as the node thumbnail. The prevailing guideline in such scenarios is to utilize the first connected pin, or, if none are connected, the first output by default.
+When a node has multiple [outputs](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), it is not possible to display all of them simultaneously in the 2D view or as the node thumbnail. The prevailing guideline in such scenarios is to utilize the first connected pin, or, if none are connected, the first output by default.
 
 However, this approach may not always yield optimal results. For instance, in some Spline nodes the first connected pin often represents spline coordinates data, which is not suitable for previewing purposes.
 
@@ -101,7 +110,7 @@ To address this, a default output attribute has been introduced. This feature al
 
 Play with the image below to see the difference before and after the default output definition.
 
-[Learn more](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+[Learn more](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 
 <table>
   <tr>
@@ -122,11 +131,11 @@ Play with the image below to see the difference before and after the default out
 
 ## 'Is defined' node
 
-When working with function graphs, you may need to determine whether a [variable](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) exists within the graph.
+When working with function graphs, you may need to determine whether a [variable](../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) exists within the graph.
 
-For instance, detecting the absence of a variable enables you to provide a fallback value, ensuring the function behaves as expected without requiring every input to be explicitly set. That’s why we added the ['Is defined' node](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md).
+For instance, detecting the absence of a variable enables you to provide a fallback value, ensuring the function behaves as expected without requiring every input to be explicitly set. That’s why we added the ['Is defined' node](../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md).
 
-[Learn more](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
+[Learn more](../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -143,7 +152,7 @@ For instance, detecting the absence of a variable enables you to provide a fallb
 
 *(Released December 11th, 2025)*
 
-### <b>Added</b>
+### Added
 
 * &#91;NewGraph&#93; Rework of the new graph window
 * &#91;NewGraph&#93; Add materials samples and advanced samples
@@ -198,7 +207,7 @@ For instance, detecting the absence of a variable enables you to provide a fallb
 * &#91;Graph&#93; Group the items per 'group' attribute in the node menu
 * &#91;Graph&#93; Improve thumbnail rendering
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;3D View&#93; L16 Grayscale texture is displayed with a red tint when plugged to the environment or the baseColor
 * &#91;3D View&#93; Changing the material binding of a scene with no material creates a new "default" material

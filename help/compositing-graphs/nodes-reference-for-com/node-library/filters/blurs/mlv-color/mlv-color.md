@@ -1,9 +1,18 @@
 ---
-title: "MLV color"
-description: "Use the MLV Color blur filter to apply motion blur effects to color textures for dynamic visual looks."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > MLV color"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
+breadcrumb-title: ""
+description: Use the MLV Color blur filter to apply motion blur effects to color textures for dynamic visual looks.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > MLV color
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: MLV color
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # MLV color
 
@@ -30,7 +39,7 @@ The filter finds structuring areas in an image and uses them to both sharpen and
 
 >[!NOTE]
 >
-> See also [MLV grayscale](../mlv-grayscale/mlv-grayscale.md).
+> See also [MLV grayscale](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-grayscale/mlv-grayscale.md).
 
 ## Input connectors
 

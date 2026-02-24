@@ -1,20 +1,17 @@
 ---
-title: "Lighting Cancel High Frequencies"
-description: "Use the Lighting Cancel High Frequencies node to remove high-frequency lighting details from textures for material analysis."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel High Frequencies
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-high-frequencies.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate-advanced
-helpx_learn_topic:
-  - lighting
-  - tone
-  - brightness
+breadcrumb-title: ""
+description: Use the Lighting Cancel High Frequencies node to remove high-frequency lighting details from textures for material analysis.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Lighting Cancel High Frequencies
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Lighting Cancel High Frequencies
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Lighting Cancel High Frequencies
@@ -36,9 +33,9 @@ helpx_learn_topic:
 
 ## Description
 
-Similar to [Highpass](../highpass/highpass.md), but more suited for full color images (it doesn't desaturate the result as much), this node tries to cancel out high frequency, small lighting details.
+Similar to [Highpass](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md), but more suited for full color images (it doesn't desaturate the result as much), this node tries to cancel out high frequency, small lighting details.
 
-Also see [Lighting Cancel Low Frequencies](../lighting-cancel-low-fre/lighting-cancel-low-frequencies.md), and the more advanced, recommended [Luminance Highpass](../luminance-highpass/luminance-highpass.md).
+Also see [Lighting Cancel Low Frequencies](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md), and the more advanced, recommended [Luminance Highpass](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md).
 
 ## Parameters
 

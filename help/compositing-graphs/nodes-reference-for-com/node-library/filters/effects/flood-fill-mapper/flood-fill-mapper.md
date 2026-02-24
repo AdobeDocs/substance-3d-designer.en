@@ -1,20 +1,17 @@
 ---
-title: "Flood Fill Mapper"
-description: "Use the Flood Fill Mapper node to map values across connected regions using flood fill algorithms for texture processing."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-mapper.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - creating-color-palettes
-  - pbr
+breadcrumb-title: ""
+description: Use the Flood Fill Mapper node to map values across connected regions using flood fill algorithms for texture processing.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill Mapper
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Flood Fill Mapper
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Flood Fill Mapper
@@ -36,9 +33,9 @@ helpx_learn_topic:
 
 ## Description
 
-Flood Fill Mapper allows remapping of an existing Pattern or Texture onto every single cell from a [Flood Fill](../flood-fill/flood-fill.md). It is different from other Flood Fill conversions like [Random Grayscale](../flood-fill-random-gra/flood-fill-to-random-grayscale.md) or [Gradient](../flood-fill-to-gradient/flood-fill-to-gradient.md) in that it does not generate solid colors or values, but allows you to use you own input maps. It can be seen as a sort of combination of [Flood Fill](../flood-fill/flood-fill.md) and [Tile Sampler](../../../texture-generators/patterns/tile-sampler/tile-sampler.md) or [Shape Mapper](../../../texture-generators/patterns/shape-mapper/shape-mapper.md), as it provides quite a few similar controls and interfaces.
+Flood Fill Mapper allows remapping of an existing Pattern or Texture onto every single cell from a [Flood Fill](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md). It is different from other Flood Fill conversions like [Random Grayscale](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md) or [Gradient](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-to-gradient/flood-fill-to-gradient.md) in that it does not generate solid colors or values, but allows you to use you own input maps. It can be seen as a sort of combination of [Flood Fill](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) and [Tile Sampler](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) or [Shape Mapper](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-mapper/shape-mapper.md), as it provides quite a few similar controls and interfaces.
 
-The Color version has additional controls to work with Normal Maps, where it can [compensate for tangent-space Normap Map rotations](../../normal-map/normal-vector-rotation/normal-vector-rotation.md).
+The Color version has additional controls to work with Normal Maps, where it can [compensate for tangent-space Normap Map rotations](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-vector-rotation/normal-vector-rotation.md).
 
 ## Parameters
 

@@ -1,20 +1,17 @@
 ---
-title: "Shape Glow"
-description: "Use the Shape Glow node to add glow effects to shapes and textures for creating luminous and atmospheric visual effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Glow
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - effects
-  - creative-effects
-  - appearance
+breadcrumb-title: ""
+description: Use the Shape Glow node to add glow effects to shapes and textures for creating luminous and atmospheric visual effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Shape Glow
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Shape Glow
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Shape Glow
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 ## Description
 
-Creates a soft glow around an input mask (for the grayscale version) or a shape with an alpha channel (for the color version). Compared to [Glow](../glow/glow.md), this works in ways more similar to other 2D image editing software, as it is a more complete effect with more controls.
+Creates a soft glow around an input mask (for the grayscale version) or a shape with an alpha channel (for the color version). Compared to [Glow](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md), this works in ways more similar to other 2D image editing software, as it is a more complete effect with more controls.
 
 ## Parameters
 

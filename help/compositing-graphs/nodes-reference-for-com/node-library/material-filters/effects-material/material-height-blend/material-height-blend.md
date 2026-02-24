@@ -1,20 +1,17 @@
 ---
-title: "Material Height Blend"
-description: "Use the Material Height Blend node to blend multiple materials based on height maps for creating layered material effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Material Height Blend
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - blending
-  - materials
-  - masking
+breadcrumb-title: ""
+description: Use the Material Height Blend node to blend multiple materials based on height maps for creating layered material effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Material Height Blend
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Material Height Blend
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Material Height Blend
@@ -36,11 +33,11 @@ helpx_learn_topic:
 
 ## Description
 
-This node is a more advanced version of [Height Blend](../height-blend/height-blend.md) that blends two materials based on their Heightmaps. There is no user-defined mask, so you must have two Heightmaps, one for each material, of which at least one is not a uniform value.
+This node is a more advanced version of [Height Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md) that blends two materials based on their Heightmaps. There is no user-defined mask, so you must have two Heightmaps, one for each material, of which at least one is not a uniform value.
 
 This can be useful for combining two different, high-quality materials without a high-quality blending mask.
 
-If you want to blend in water or snow, the nodes [Snow Cover](../snow-cover/snow-cover.md) and [Water Level](../water-level/water-level.md) are available instead.
+If you want to blend in water or snow, the nodes [Snow Cover](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) and [Water Level](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md) are available instead.
 
 ## Parameters
 

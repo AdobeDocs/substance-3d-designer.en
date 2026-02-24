@@ -1,20 +1,17 @@
 ---
-title: "Shape"
-description: "Use the Shape node to generate basic geometric shapes for creating patterns and textures in Substance 3D Designer."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - shapes
-  - illustration
-  - character-design
+breadcrumb-title: ""
+description: Use the Shape node to generate basic geometric shapes for creating patterns and textures in Substance 3D Designer.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Shape
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Shape

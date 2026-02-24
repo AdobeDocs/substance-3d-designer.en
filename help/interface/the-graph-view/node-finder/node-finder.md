@@ -1,9 +1,18 @@
 ---
-title: "Node finder"
-description: "Use the Node Finder to quickly search and locate nodes in your Substance graphs for efficient navigation."
-helpx_description: "Designer > Interface > The graph view > Node finder"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
+breadcrumb-title: ""
+description: Use the Node Finder to quickly search and locate nodes in your Substance graphs for efficient navigation.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > The graph view > Node finder
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Node finder
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Node finder
 
@@ -18,7 +27,7 @@ The query can match any of those criteria:
 * A node's <b>UID</b> (unique identifier)
 * A node's <b>label</b>
 
-The search can traverse [graph instances](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) recursively so nodes and variables can be found across [subgraphs](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). If you are unsure about the exact term you need to search, a fuzzy search option is available to apply a tolerance to the query.
+The search can traverse [graph instances](../../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) recursively so nodes and variables can be found across [subgraphs](../../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). If you are unsure about the exact term you need to search, a fuzzy search option is available to apply a tolerance to the query.
 
 ## Interface
 
@@ -44,7 +53,7 @@ In the Graph View toolbar, click the <b>Node Finder button !&#91;&#93;(graph-n
 
 The search terms can be typed into this field and the arrow button opens a list of query suggestions which include some of the variables available in the current context.
 
-Learn more about the queries you can perform in the  section below.
+Learn more about the queries you can perform in the [Search query](#search-query) section below.
 
 ### Node type
 
@@ -103,7 +112,7 @@ The list is contextual to the current graph type.
 
 The <b>Search options button !&#91;&#93;(node-finder-search-options.png)</b> opens a list of settings used for searching that can be toggled on and off.
 
-Learn more about these options in the  section below.
+Learn more about these options in the Search options section below.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -132,7 +141,7 @@ To find nodes, a text query is matched against the node properties listed below.
 
 ### Instance graph identifiers
 
-[Instance nodes](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) can be found using the <b>identifier</b> of the graphs they reference.
+[Instance nodes](../../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) can be found using the <b>identifier</b> of the graphs they reference.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -169,7 +178,7 @@ The tooltip of instance nodes includes the identifier of their referenced graph.
 
 ### Exposed parameters and variables
 
-The identifier of [exposed parameters](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), or any other variable, can be searched directly.
+The identifier of [exposed parameters](../../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), or any other variable, can be searched directly.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -185,13 +194,13 @@ The identifier of [exposed parameters](../../../compositing-graphs/manage-parame
 +++Query suggestions
 The query field can be expanded to reveal a list of suggestions.
 
-These include [built-in variables](../../../function-graphs/variables/system-variables/system-variables.md) available for the current graph type, as well as the identifiers of the graph's exposed parameters.
+These include [built-in variables](../../../help/function-graphs/variables/system-variables/system-variables.md) available for the current graph type, as well as the identifiers of the graph's exposed parameters.
 
 ![Node finder query suggestions](node-finder-available-query-suggestions.png "Node finder query suggestions"){zoomable="yes"}
 
 
 
-The identifier of exposed parameters can also be copied or edited directly in the [Substance graph properties](../../../compositing-graphs/graph-parameters/graph-parameters.md).
+The identifier of exposed parameters can also be copied or edited directly in the [Substance graph properties](../../../help/compositing-graphs/graph-parameters/graph-parameters.md).
 
 ![Node finder: exposed parameters](node-finder-compositing-exposed-parameter.png "Node finder: exposed parameters"){zoomable="yes"}
 
@@ -213,7 +222,7 @@ Variables can also be copied directly from the XML data in the SBS file using an
 +++
 
 +++Get/Set nodes
-When searching a variable in a graph – including exposed parameters – the search will highlight all nodes where a [Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) or [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) node uses that variable in any of the node's parameter functions.
+When searching a variable in a graph – including exposed parameters – the search will highlight all nodes where a [Get](../../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) or [Set](../../../help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) node uses that variable in any of the node's parameter functions.
 
 ![Node finder: Searching a variable matches Get nodes using it](node-finder-exposed-parameter-01.gif "Node finder: Searching a variable matches Get nodes using it"){zoomable="yes"}
 
@@ -291,7 +300,7 @@ Both can be enabled at the same time.
 
 ### Recursive mode
 
-Enable this option to have searches traverse [graph instances](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) to include results from [subgraphs](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
+Enable this option to have searches traverse [graph instances](../../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) to include results from [subgraphs](../../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
 
 This option may be essential when troubleshooting graphs, if you need to find a node by its UID acquired from a warning or error message in the Console.
 

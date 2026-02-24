@@ -1,20 +1,17 @@
 ---
-title: "Color Match"
-description: "Use the Color Match node to match colors between textures for creating consistent color palettes and harmonizing textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Color Match
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-match.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - color
-  - creating-color-palettes
-  - color-grading
+breadcrumb-title: ""
+description: Use the Color Match node to match colors between textures for creating consistent color palettes and harmonizing textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Color Match
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Color Match
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Color Match
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 Tries to match the defined *Source Color* range to a *Target Color* range, with support for input slots to define Source and Target.
 
-For simpler versions, see [Replace Color Range](../replace-color-range/replace-color-range.md) or [Replace Color](../replace-color/replace-color.md).
+For simpler versions, see [Replace Color Range](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) or [Replace Color](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color/replace-color.md).
 
 ## Parameters
 

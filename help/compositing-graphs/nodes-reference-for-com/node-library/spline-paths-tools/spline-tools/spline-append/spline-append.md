@@ -1,9 +1,18 @@
 ---
-title: "Spline Append"
-description: "Use the Spline Append node to append multiple splines together to create longer continuous paths."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Append"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+breadcrumb-title: ""
+description: Use the Spline Append node to append multiple splines together to create longer continuous paths.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Append
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Spline Append
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline Append
 
@@ -30,7 +39,7 @@ The order of the lists is preserved, meaning appending a list D-E-F onto a list 
 
 >[!TIP]
 >
-> Be mindful of the order in which you append splines, as this order is taken into account in other nodes, such as [Scatter on Splines](../scatter-on-spline-color/scatter-on-spline-color.md), the [Spline Bridge](../spline-bridge-list/spline-bridge-list.md) nodes, etc.
+> Be mindful of the order in which you append splines, as this order is taken into account in other nodes, such as [Scatter on Splines](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md), the [Spline Bridge](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) nodes, etc.
 
 ## Input connectors
 

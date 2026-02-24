@@ -1,22 +1,17 @@
 ---
-title: "Edge Dirt"
-description: "Use the Edge Dirt node to generate dirt accumulation masks on mesh edges for creating realistic edge weathering effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Dirt
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-dirt.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - painting-illustration
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - masking
-  - reflections
-  - creative-effects
+breadcrumb-title: ""
+description: Use the Edge Dirt node to generate dirt accumulation masks on mesh edges for creating realistic edge weathering effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Dirt
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Edge Dirt
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Edge Dirt

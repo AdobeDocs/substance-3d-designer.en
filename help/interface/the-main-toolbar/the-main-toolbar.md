@@ -1,20 +1,17 @@
 ---
-title: "Main toolbar"
-description: "Learn about the main toolbar in Substance 3D Designer to access common tools and commands for your workflow."
-helpx_description: Designer > Interface > Main toolbar
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - preview
-  - workspace
-  - automation
+breadcrumb-title: ""
+description: Learn about the main toolbar in Substance 3D Designer to access common tools and commands for your workflow.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Main toolbar
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Main toolbar
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # The main toolbar
@@ -36,13 +33,13 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 ## Quick access buttons
 
-<b>!&#91;&#93;(newsubstance.png)  New Substance graph...:</b> (Ctrl+N)Presents you the [New Substance graph](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) window, then creates a new package with a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
+<b>!&#91;&#93;(newsubstance.png)  New Substance graph...:</b> (Ctrl+N)Presents you the [New Substance graph](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) window, then creates a new package with a [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md).
 
-<b>!&#91;&#93;(newmdl.png)  New MDL graph...:</b> Presents you the 'New MDL graph' window, then creates a new package with a [MDL graph.](../../mdl-graphs/mdl-graphs.md)
+<b>!&#91;&#93;(newmdl.png)  New MDL graph...:</b> Presents you the 'New MDL graph' window, then creates a new package with a [MDL graph.](../../help/mdl-graphs/mdl-graphs.md)
 
-<b>!&#91;&#93;(open.png)  Open...:</b> (Ctrl+O) Open an existing [Substance package (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+<b>!&#91;&#93;(open.png)  Open...:</b> (Ctrl+O) Open an existing [Substance package (.SBS, .SBSAR, .SBSASM)](../../help/getting-started/overview/overview.md).
 
-<b>!&#91;&#93;(saveall.png)  Save All:</b> (Ctrl+⇧+S) Saves all packages listed in the [Explorer](../the-explorer-window/the-explorer-window.md).
+<b>!&#91;&#93;(saveall.png)  Save All:</b> (Ctrl+⇧+S) Saves all packages listed in the [Explorer](../../help/interface/the-explorer-window/the-explorer-window.md).
 
 <b>!&#91;&#93;(undo.png)  Undo:</b> (Ctrl+Z) Undo the last operation.
 
@@ -52,12 +49,12 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>New:</b> opens a sub menu to create a graph or package:
 
-* <b>New Substance graph...:</b>(Ctrl+N) Presents you the [New Substance graph](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) window which lets you set up a new [Substance graph](../../compositing-graphs/substance-compositing-graphs.md);
-* <b>New MDL graph...:</b> Presents you the 'New MDL graph' window, which lets you set up a new [MDL graph](../../mdl-graphs/mdl-graphs.md);
-* <b>New Substance function graph:</b> Creates a new package with a [Substance function graph](../../function-graphs/function-graphs.md);
+* <b>New Substance graph...:</b>(Ctrl+N) Presents you the [New Substance graph](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) window which lets you set up a new [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md);
+* <b>New MDL graph...:</b> Presents you the 'New MDL graph' window, which lets you set up a new [MDL graph](../../help/mdl-graphs/mdl-graphs.md);
+* <b>New Substance function graph:</b> Creates a new package with a [Substance function graph](../../help/function-graphs/function-graphs.md);
 * <b>Empty:</b> Creates an empty package.
 
-<b>Open...:</b> (Ctrl+O) Open an existing [Substance package (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+<b>Open...:</b> (Ctrl+O) Open an existing [Substance package (.SBS, .SBSAR, .SBSASM)](../../help/getting-started/overview/overview.md).
 
 <b>Recent packages:</b> Displays a list of recently opened packages. Click on an entry to open it.
 
@@ -67,7 +64,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>Close all:</b> Closes all open packages.
 
-<b>Reload resources:</b> Forces Designer to reload [all resources, including bitmaps and SVG data](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
+<b>Reload resources:</b> Forces Designer to reload [all resources, including bitmaps and SVG data](../../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md).
 
 <b>Exit:</b> (Ctrl+Q) - Close Substance 3D Designer.
 
@@ -87,7 +84,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>Cancel rendering:</b> (Esc) Stops current operation for the Substance Engine. Can be used to abort an unwanted, heavy operation.
 
-<b>Suspend engine:</b> (⇧+Esc) Suspends the rendering engine. This can speed up editing of complex [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md).
+<b>Suspend engine:</b> (⇧+Esc) Suspends the rendering engine. This can speed up editing of complex [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md).
 
 <b>Switch engine...: </b>(F9) Offers a choice of rendering engines, including GPU engines ('DirectX' on Windows, 'OpenGL' on macOS) as well as the CPU engine ('NEON' on Apple Silicon, 'SSE' on all others).
 
@@ -96,7 +93,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 * <b>Locate Player...:</b> Let Designer know where Player is installed;
 * <b>Download Player...:</b> Opens the Substance Player documentation's [landing page](https://helpx.adobe.com/substance-3d-player/home.html), where Player can be downloaded.
 
-<b>Plugin Manager...</b>: Opens the Plugin Manager window, where you can install, load and unload [Python Plugins for Substance 3D Designer.](../../scripting/scripting.md)
+<b>Plugin Manager...</b>: Opens the Plugin Manager window, where you can install, load and unload [Python Plugins for Substance 3D Designer.](../../help/scripting/scripting.md)
 
 ## Windows
 
@@ -106,7 +103,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>New Library View:</b> Opens a new Library dock. You can have multiple Library docks open.
 
-<b>Python Editor:</b> Opens the Python Editor used to[ evaluate and create scripts](../../scripting/scripting.md).
+<b>Python Editor:</b> Opens the Python Editor used to[ evaluate and create scripts](../../help/scripting/scripting.md).
 
 <b>Reset layout:</b> Resets the workspace to the default layout. All windows will be re-arranged, and some windows might be hidden again. Use in case of problems with program layout.
 
@@ -114,25 +111,25 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>Explorer:</b> Show/Hide the [Explorer Window(s).](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
 
-<b>Graph:</b> Show/Hide the [graph Window](../the-graph-view/the-graph-view.md)(s).
+<b>Graph:</b> Show/Hide the [graph Window](../../help/interface/the-graph-view/the-graph-view.md)(s).
 
 <b>Parameters:</b> Show/Hide the [Properties Window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
 
 <b>Console:</b> Show/Hide the Console Window.
 
-<b>3D View:</b> Show/Hide the [3D View(s)](../3d-view/3d-view.md).
+<b>3D View:</b> Show/Hide the [3D View(s)](../../help/interface/3d-view/3d-view.md).
 
-<b>Dependency Manager:</b> Show/Hide the [Dependency Manager](../dependency-manager/dependency-manager.md).
+<b>Dependency Manager:</b> Show/Hide the [Dependency Manager](../../help/interface/dependency-manager/dependency-manager.md).
 
 <b>2D Views:</b> Show/Hide the [2D View(s).](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
 
-<b>Library:</b> Show/Hide the [Library Window.](../the-library/the-library.md)
+<b>Library:</b> Show/Hide the [Library Window.](../../help/interface/the-library/the-library.md)
 
 <b>Main toolbar:</b> Show/Hide the Main Toolbar (quick-access buttons only).
 
 >[!NOTE]
 >
-> To learn more about Designer's panel management, its customisation and workflow-enhancing features, go to the [Customizing your workspace ](../customizing-your-wor/customizing-your-workspace.md)page of this documentation.
+> To learn more about Designer's panel management, its customisation and workflow-enhancing features, go to the [Customizing your workspace ](../../help/interface/customizing-your-wor/customizing-your-workspace.md)page of this documentation.
 
 ## Help
 
@@ -163,7 +160,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>Sign in/Sign out...\*:</b> Lets you sign into/out of your Adobe account.
 
-<b>Home screen...:</b> Displays the [Home screen](../home-screen/home-screen.md) dialog.
+<b>Home screen...:</b> Displays the [Home screen](../../help/interface/home-screen/home-screen.md) dialog.
 
 <b>What&#39;s new...:</b> Displays a screen, which highlights the features added to Designer's latest release
 

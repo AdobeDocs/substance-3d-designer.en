@@ -1,9 +1,18 @@
 ---
-title: "Version 14.0"
-description: "Review release notes for Substance 3D Designer version 14.0 to learn about new nodes, graph navigation, and performance improvements."
-helpx_description: "Designer > Release Notes > Version 14.0"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 14.0 to learn about new nodes, graph navigation, and performance improvements.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 14.0
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Version 14.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 14.0
 
@@ -17,22 +26,22 @@ helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-
 
 This 14.0 version brings a lot of new content with the new nodes listed below:
 
-* <b>Nodes dedicated to color manipulation: </b>one node <b>(</b>[Quantize color](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>to<b> </b>reduce the number of colors in an image and extract a palette from it, a family of tool nodes to build your own color palette ([View](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Create](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modify](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>color palette) and one to apply it to another image using an ID map ([Apply color palette](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). You will also find the [ID to mask grayscale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) node to convert your ID map — computed by Quantize color — to a grayscale mask. With this full set of nodes, you have all you need to create stylization effects using colors.
+* <b>Nodes dedicated to color manipulation: </b>one node <b>(</b>[Quantize color](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>to<b> </b>reduce the number of colors in an image and extract a palette from it, a family of tool nodes to build your own color palette ([View](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Create](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modify](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>color palette) and one to apply it to another image using an ID map ([Apply color palette](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). You will also find the [ID to mask grayscale](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) node to convert your ID map — computed by Quantize color — to a grayscale mask. With this full set of nodes, you have all you need to create stylization effects using colors.
 
 ![](GIF2_2.gif){zoomable="yes"}
 
 ![Quantize Color 2](GIF3_2.gif){zoomable="yes"}
 
-* <b>Kuwahara filter</b>: if you want to go even further with stylization, you can generate some painterly effects thanks to the [Anisotropic Kuwahara color](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [grayscale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md) filters. In details, it applies an anisotropic directional blur which conforms to the details of the image. The result is an image which appears to flow in the direction of the shapes within.
+* <b>Kuwahara filter</b>: if you want to go even further with stylization, you can generate some painterly effects thanks to the [Anisotropic Kuwahara color](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [grayscale](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md) filters. In details, it applies an anisotropic directional blur which conforms to the details of the image. The result is an image which appears to flow in the direction of the shapes within.
 
 These nodes (Quantize color and Anisotropic Kuwahara) are explained in [this tutorial](https://www.adobe.com/go/designer-tutorial-quantize). It shows how to use them to stylize materials as well as handle colors more efficiently and intuitively!
 
 Other powerful nodes join the party:
 
-* [<b>Curvature smooth</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): this new version now correctly supports all tiling modes, adds two new outputs (convexity and concavity) and improves both in accuracy and performance.
-* <b>&#91;Histogram equalize&#93;(../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> this node equalizes the histogram for a grayscale image by adjusting values to get an equal distribution. This nodes comes with two companion nodes: [Histogram render](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) to output the image's histogram and [Histogram compute](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>to encode an histogram as a row of pixels.
-* <b>&#91;Bevel smooth&#93;(../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> thanks to his one, you can draw a gradient or a flat color from the borders of a mask (outward, inward or both). The node [Directional distance](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>draws gradient too but in a specific direction.
-* <b>&#91;Normal uncombine&#93;(../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> this node is the opposite of the [Normal combine](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) node, it removes from a normal map the surface details described by a height map.
+* [<b>Curvature smooth</b>](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md): this new version now correctly supports all tiling modes, adds two new outputs (convexity and concavity) and improves both in accuracy and performance.
+* <b>&#91;Histogram equalize&#93;(../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md):</b> this node equalizes the histogram for a grayscale image by adjusting values to get an equal distribution. This nodes comes with two companion nodes: [Histogram render](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) to output the image's histogram and [Histogram compute](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>to encode an histogram as a row of pixels.
+* <b>&#91;Bevel smooth&#93;(../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md):</b> thanks to his one, you can draw a gradient or a flat color from the borders of a mask (outward, inward or both). The node [Directional distance](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>draws gradient too but in a specific direction.
+* <b>&#91;Normal uncombine&#93;(../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md):</b> this node is the opposite of the [Normal combine](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) node, it removes from a normal map the surface details described by a height map.
 
 <table>
 <tr style="border: 0;">
@@ -118,16 +127,16 @@ Normal uncombine
 
 ## Quality of life improvements
 
-* <b>Performances </b>and <b>responsiveness</b> when working on big projects have been improved. For example removing nodes can be up to 75 times faster. [Cooking](../../glossary/glossary.md) time has also been reduced for graphs referencing several times the same bitmap.
-* <b>Inherited parameters</b>: when a parameter is [inherited](../../glossary/glossary.md), instead of showing the default value, we now display the inherited one so you know the currently used value. Learn more about inheritance in [this dedicated page of our documentation](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
-* <b>Trackpad support</b> on MacOS has been completely reworked to be more natural and in line with other software. Moving nodes beyond the borders of the [Graph View](../../interface/the-graph-view/the-graph-view.md) has also been rethinked in order to be smoother and more consistent across all the operating systems.
+* <b>Performances </b>and <b>responsiveness</b> when working on big projects have been improved. For example removing nodes can be up to 75 times faster. [Cooking](../../help/glossary/glossary.md) time has also been reduced for graphs referencing several times the same bitmap.
+* <b>Inherited parameters</b>: when a parameter is [inherited](../../help/glossary/glossary.md), instead of showing the default value, we now display the inherited one so you know the currently used value. Learn more about inheritance in [this dedicated page of our documentation](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+* <b>Trackpad support</b> on MacOS has been completely reworked to be more natural and in line with other software. Moving nodes beyond the borders of the [Graph View](../../help/interface/the-graph-view/the-graph-view.md) has also been rethinked in order to be smoother and more consistent across all the operating systems.
 
-* <b>2D View: </b>when tiled display is enabled in the [2D View](../../interface/2d-view/2d-view.md), you can now get values even for pixels that are not on the original tile: it helps a lot to check [sampling](../../glossary/glossary.md) and value transitions across tiles.
+* <b>2D View: </b>when tiled display is enabled in the [2D View](../../help/interface/2d-view/2d-view.md), you can now get values even for pixels that are not on the original tile: it helps a lot to check [sampling](../../help/glossary/glossary.md) and value transitions across tiles.
 
 ![2d view](2dview.gif){width="320px" zoomable="yes"}
 
-* <b>Gradient map</b>: use the mouse middle click to shift all the [gradient keys](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) to the left or to the right (and so preserve all the gaps between all the keys).
-* <b>Parameters</b>: in order to inject custom functions through parameters, you can now use the Edit function widget. It's a powerful solution to create custom tools where you want to drive parameters using a [Substance function graph](../../function-graphs/the-function-graph/the-function-graph.md).
+* <b>Gradient map</b>: use the mouse middle click to shift all the [gradient keys](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) to the left or to the right (and so preserve all the gaps between all the keys).
+* <b>Parameters</b>: in order to inject custom functions through parameters, you can now use the Edit function widget. It's a powerful solution to create custom tools where you want to drive parameters using a [Substance function graph](../../help/function-graphs/the-function-graph/the-function-graph.md).
 
 <table>
 <tr style="border: 0;">
@@ -144,7 +153,7 @@ Normal uncombine
 </tr>
 </table>
 
-## <b>API Improvements</b>
+## API Improvements
 
 The scripting API includes four new methods:
 
@@ -159,7 +168,7 @@ Every year, the [VFX Reference Platform](https://vfxplatform.com/) publishes a
 
 Note that these updates have two majors consequences:
 
-* <b>Linux requirements</b> have changed, and Designer is now requiring RHEL version 8 or 9 (CentOS is no longer supported). All details can be found in the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
+* <b>Linux requirements</b> have changed, and Designer is now requiring RHEL version 8 or 9 (CentOS is no longer supported). All details can be found in the [System requirements](../../help/getting-started/system-requirements/system-requirements.md) page.
 * <b>Plugins for Designer have to be updated </b>as some functions have been deprecated in Qt6. You will find all required information to update your plugins in the [community forum](https://community.adobe.com/t5/substance-3d-designer-discussions/plugins-required-updates-in-designer-14-0/td-p/14768559).
 
 ## Release notes
@@ -168,7 +177,7 @@ Note that these updates have two majors consequences:
 
 *(Released July 30th, 2024)*
 
-### <b>Added</b>
+### Added
 
 * &#91;Content&#93; New Anisotropic Kuwahara filter
 * &#91;Content&#93; New Bevel Smooth Node
@@ -214,7 +223,7 @@ Note that these updates have two majors consequences:
 * &#91;ThirdParty&#93; Update libstdc++ ABI to C++11 one
 * &#91;Documentation&#93; New 'Glossary' page
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;Bakers&#93; Crash when rebaking a scene which filename was changed
 * &#91;Bakers&#93; Crash when saving bakers preset to JSON file

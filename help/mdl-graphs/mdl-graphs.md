@@ -1,20 +1,17 @@
 ---
-title: "MDL graphs"
-description: "Learn how to create and use Material Definition Language graphs in Substance 3D Designer for advanced material workflows."
-helpx_description: Designer > MDL graphs
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - data-visualizations
-  - data-and-analytics
-  - 3d
+breadcrumb-title: ""
+description: Learn how to create and use Material Definition Language graphs in Substance 3D Designer for advanced material workflows.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: MDL graphs
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # MDL graphs
@@ -31,9 +28,9 @@ MDL stands for [Materials Definition Language](http://www.nvidia.com/object/mate
 
 Using this language, a full material definition is portable and thus can be used across applications and renderers for a consistent output. Substance 3D Designer is currently the *only* application offering graph-based nodal authoring of MDL materials, by exposing the MDL functions and value types as nodes in an MDL graph.
 
-While authoring materials, you can use NVIDIA's own [Iray](../interface/3d-view/iray/iray.md) renderer, embedded in Designer and available in the [3D view](../interface/3d-view/3d-view.md) panel, to preview the behavior of the material *interactively*.
+While authoring materials, you can use NVIDIA's own [Iray](../help/interface/3d-view/iray/iray.md) renderer, embedded in Designer and available in the [3D view](../help/interface/3d-view/3d-view.md) panel, to preview the behavior of the material *interactively*.
 
-MDL graphs are complementary with [Substance graphs](../compositing-graphs/substance-compositing-graphs.md) in that the latter output *textures* which can be *sampled* by the MDL material to affect its behavior and appearance.
+MDL graphs are complementary with [Substance graphs](../help/compositing-graphs/substance-compositing-graphs.md) in that the latter output *textures* which can be *sampled* by the MDL material to affect its behavior and appearance.
 
 We suggest going through the sections of this documentation *in order* for a guided learning path, starting with the properties of an MDL graph resource, just below.  
 Eager to jump in? Get started with MDL graphs in the [MDL learning resources](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html) section!
@@ -58,7 +55,7 @@ This section includes information regarding the MDL material for the purposes of
 * <b>Hidden\*</b>: When set to *True*, the MDL material is not visible in an MDL library but still exists internally and may be referenced
 * <b>Show in Library</b>: When set to *True*, the MDL graph is displayed in Designer’s Library
 * <b>Description</b>: The description of the MDL material, which can be displayed in the tooltip of instance nodes referencing this graph
-* <b>Category\*</b>: The category the MDL graph belongs to – this currently has no impact on how the graph is sorted in Designer's [Library](../interface/the-library/the-library.md)
+* <b>Category\*</b>: The category the MDL graph belongs to – this currently has no impact on how the graph is sorted in Designer's [Library](../help/interface/the-library/the-library.md)
 * <b>In group\*</b>: The library group the MDL material belongs to
 * <b>Author\*</b>: The author of the MDL material
 * <b>Contributors\*</b>: The contributors to the MDL material other than the author
@@ -79,5 +76,5 @@ The interface and behavior of these inputs is defined by the *value type* and *r
 To reorder graph inputs, place the cursor on the *dark handle* to the left of the parameter, click and *hold* <b>LMB</b> and drag the cursor up or down. This custom order will be used to display the properties of the MDL material in the following contexts:
 
 * Instance nodes referencing the MDL graph for this material
-* The material properties in the [3D View](../interface/3d-view/3d-view.md)
+* The material properties in the [3D View](../help/interface/3d-view/3d-view.md)
 * Third party MDL integrations

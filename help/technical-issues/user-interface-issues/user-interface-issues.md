@@ -1,25 +1,22 @@
 ---
-title: "User interface issues"
-description: "Troubleshoot user interface issues in Substance 3D Designer including display problems and UI glitches."
-helpx_description: Designer > Technical issues > User interface issues
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/user-interface-issues.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - interface
-  - responsive-design
-  - preferences
+breadcrumb-title: ""
+description: Troubleshoot user interface issues in Substance 3D Designer including display problems and UI glitches.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > User interface issues
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: User interface issues
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # User interface issues
 
-This page lists technical issues related to the [user interface](../../interface/interface.md) of Substance 3D Designer, and offer troubleshooting steps for each.
+This page lists technical issues related to the [user interface](../../help/interface/interface.md) of Substance 3D Designer, and offer troubleshooting steps for each.
 
 ## The scale of the interface is incorrect
 

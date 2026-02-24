@@ -1,20 +1,17 @@
 ---
-title: "Gradient 2 Points"
-description: "Use the Gradient 2 Points node to create two-point gradients in HDRI environments for sky and ground color transitions."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient 2 Points
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - gradients
-  - effects
-  - illustration
+breadcrumb-title: ""
+description: Use the Gradient 2 Points node to create two-point gradients in HDRI environments for sky and ground color transitions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient 2 Points
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Gradient 2 Points
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Gradient 2 Points
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-Creates a gradient of 2 colors between two user-selected points. Result is adjusted for spherical projection. Similar to [Gradient Linear (HDRI)](../gradient-linear-hdri/gradient-linear-hdri.md), but with two points instead of one.
+Creates a gradient of 2 colors between two user-selected points. Result is adjusted for spherical projection. Similar to [Gradient Linear (HDRI)](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/gradient-linear-hdri/gradient-linear-hdri.md), but with two points instead of one.
 
 ## Parameters
 

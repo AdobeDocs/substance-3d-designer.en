@@ -1,21 +1,17 @@
 ---
-title: "Incorrect image output"
-description: "Troubleshoot incorrect image output issues in Substance 3D Designer and learn how to fix rendering problems."
-helpx_description: Designer > Technical issues > Incorrect image output
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - resolution
-  - image-quality
-  - texture
+breadcrumb-title: ""
+description: Troubleshoot incorrect image output issues in Substance 3D Designer and learn how to fix rendering problems.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > Incorrect image output
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Incorrect image output
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Incorrect image output
@@ -53,7 +49,7 @@ If you do not specifically need to work with HDR images, then most of your nodes
 
 Check the **Output format** (i.e. bitdepth) of the node and all nodes upstream and make sure these node use *at least 16-bit Integer precision*.
 
-The Output format parameter is often set to the *Relative to input* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), which can propagate the low precision throughout the graph. Ideally, by going upstream in the graph you will find the root cause of the issue.
+The Output format parameter is often set to the *Relative to input* [inheritance method](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), which can propagate the low precision throughout the graph. Ideally, by going upstream in the graph you will find the root cause of the issue.
 
 You can quickly identify the precision of a node's output by taking a look at the text information displayed below the node:
 
@@ -89,9 +85,9 @@ The output appears low resolution.
 
 <b>!&#91;(tick)&#93;(check.svg) Recommended steps</b>
 
-Make sure the [Output size](../../compositing-graphs/output-size/output-size.md) property of all [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are set to the *Absolute* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+Make sure the [Output size](../../help/compositing-graphs/output-size/output-size.md) property of all [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are set to the *Absolute* [inheritance method](../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
-If that is not the case, their referenced [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) will be saved at the default 256\*256 resolution in the published Substance 3D archive, which will *impact the quality* of one or more outputs.
+If that is not the case, their referenced [Bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md) will be saved at the default 256\*256 resolution in the published Substance 3D archive, which will *impact the quality* of one or more outputs.
 
 ## Image is blurry
 
@@ -101,7 +97,7 @@ If that is not the case, their referenced [Bitmap resource](../../resources/bitm
 
 **![(error)](error.svg) Issue**
 
-Shapes are slightly blurred after using some nodes, such as [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) or [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
+Shapes are slightly blurred after using some nodes, such as [Transformation 2D](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) or [Blend](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -119,9 +115,9 @@ When rearranging pixels in an image, e.g. when resizing a shape or changing the 
 * **Nearest**: The pixel will be mapped to the target *as-is* at the matching coordinate. If the target is of lower resolution the pixel may be entirely ignored. If the target is of higher resolution; it will be mapped to all pixels covering its span. The output is *crisper* and will look slightly *aliased*.
 * **Bilinear filtering**: A filtering process is applied to the source image so its pixels are mapped to the target resolution in a way that *smooths out* the transitions between pixels. The output is *smoother* and will look slightly *blurred*.
 
-The [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node provide a **Filtering method** option to select which of these two mapping methods should be used.
+The [Transformation 2D](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node provide a **Filtering method** option to select which of these two mapping methods should be used.
 
-Most nodes - e.g. [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) - default to *bilinear filtering* when sampling an input texture of different resolution, which may introduce undesired blurring.  
-Because the Transformation 2D node is *atomic* - thus very lightweight - it may be used *even if no transformations are needed* to change a texture resolution using its [Output size](../../compositing-graphs/output-size/output-size.md) property before sending the texture to another node, so you can *control the impact* of this resizing.
+Most nodes - e.g. [Blend](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) - default to *bilinear filtering* when sampling an input texture of different resolution, which may introduce undesired blurring.  
+Because the Transformation 2D node is *atomic* - thus very lightweight - it may be used *even if no transformations are needed* to change a texture resolution using its [Output size](../../help/compositing-graphs/output-size/output-size.md) property before sending the texture to another node, so you can *control the impact* of this resizing.
 
-In the [Pixel processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) node's [function graph](../../function-graphs/function-graphs.md), the **Sample** nodes include the *same option* to control how the sampled texture should be mapped to the node's resolution.
+In the [Pixel processor](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) node's [function graph](../../help/function-graphs/function-graphs.md), the **Sample** nodes include the *same option* to control how the sampled texture should be mapped to the node's resolution.

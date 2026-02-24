@@ -1,20 +1,17 @@
 ---
-title: "Input"
-description: "Use the Input node to create input parameters for Substance graphs that can be exposed and adjusted by users."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - data-and-analytics
-  - materials
+breadcrumb-title: ""
+description: Use the Input node to create input parameters for Substance graphs that can be exposed and adjusted by users.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Input
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Input
@@ -41,9 +38,9 @@ helpx_learn_topic:
 
 Input nodes are a special type of node that creates a dynamic slot in your graph, allowing for any input to be connected once your Graph is used in another context.
 
-Unlike [Output nodes](../output/output.md), you have to explicitly place either a Color, Grayscale or Value input. It is not possible to create your own "agnostic" inputs that change type depending on what is connected to them.
+Unlike [Output nodes](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), you have to explicitly place either a Color, Grayscale or Value input. It is not possible to create your own "agnostic" inputs that change type depending on what is connected to them.
 
-Input nodes are not as crucial as [Output nodes](../output/output.md): you can have perfectly functioning, advanced Graphs that have no need for an Input. Inputs are only used when you want to base your Graph or node Instance's result on an external input, for example when creating an [Instance ](../../../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)or a [Filter](https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html) for Substance 3D Painter.
+Input nodes are not as crucial as [Output nodes](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): you can have perfectly functioning, advanced Graphs that have no need for an Input. Inputs are only used when you want to base your Graph or node Instance's result on an external input, for example when creating an [Instance ](../../../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)or a [Filter](https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html) for Substance 3D Painter.
 
 <table>
 <tr style="border: 0;">
@@ -69,22 +66,22 @@ Input nodes are not as crucial as [Output nodes](../output/output.md): you can h
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## PARAMETERS
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### aTTRIBUTES
 
 </td>
 <td style="border: 0;" valign="top">
 
+### iNHERITANCE
 
+</td>
+<td style="border: 0;" valign="top">
+
+### iNTEGRATION ATTRIBUTES
 
 </td>
 </tr>
@@ -92,7 +89,7 @@ Input nodes are not as crucial as [Output nodes](../output/output.md): you can h
 
 ## Parameters
 
-By default an Input Color or Grayscale returns black if nothing is plugged in. You can either set a different default value, or drag an existing[ Bitmap Resource](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) from the [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) onto the Input node in your graph, to preview this data in the slot. This only works for Color and Grayscale Inputs. The default value is persistent when used in other contexts, the preview bitmap is discarded everywhere else.
+By default an Input Color or Grayscale returns black if nothing is plugged in. You can either set a different default value, or drag an existing[ Bitmap Resource](../../../../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md) from the [Explorer](../../../../help/interface/the-explorer-window/the-explorer-window.md) onto the Input node in your graph, to preview this data in the slot. This only works for Color and Grayscale Inputs. The default value is persistent when used in other contexts, the preview bitmap is discarded everywhere else.
 
 If you want to see it with the outputs of another Graph, you'll have to either export that Graph to Bitmap for the above method, or make use of "In-Context" editing.
 
@@ -109,7 +106,7 @@ If you want to see it with the outputs of another Graph, you'll have to either e
 | <b>Description</b> *String* | Optional Description used in Designer's library and Painter's shelf. |
 | <b>Label</b> *String* | UI Label used for nice labeling in Designer and Painter UI. Can contain spaces.   Recommended to set up with a name similar to the Identifier, just with spacebars instead of underscores. |
 | <b>User data</b> *String* | Additional, optional User Data that can be used for specific filtering operations, Basically a wildcard, custom data field. |
-| <b>Group</b> *String* | Group Attribute used to group inputs together for Designer's [Link Creation Modes](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).   Inputs with an identical (case-sensitive) Group Attribute, will be presented as a single connection in Compact Material Mode. |
+| <b>Group</b> *String* | Group Attribute used to group inputs together for Designer's [Link Creation Modes](../../../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md).   Inputs with an identical (case-sensitive) Group Attribute, will be presented as a single connection in Compact Material Mode. |
 
 ## Inheritance
 
@@ -117,7 +114,7 @@ If you want to see it with the outputs of another Graph, you'll have to either e
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-When multiple inputs are present, you need to pay attention to the way the graph will [inherit its Base parameters](../../../inheritance-compositing/inheritance-in-substance-compositing-graphs.md) from these inputs.  
+When multiple inputs are present, you need to pay attention to the way the graph will [inherit its Base parameters](../../../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) from these inputs.  
 Base parameters include, among others, the <b>Output Size</b>, <b>Output Format</b> and <b>Tiling Mode</b>.
 
 </td>
@@ -129,7 +126,7 @@ Base parameters include, among others, the <b>Output Size</b>, <b>Output Format<
 </tr>
 </table>
 
-An input can be defined as the [Primary input](../../../inheritance-compositing/inheritance-in-substance-compositing-graphs.md). This input then drives the attributes of all inputs which inheritance method is set to *Relative to parent*. This is the inheritance method *set by default* on Input nodes.
+An input can be defined as the [Primary input](../../../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). This input then drives the attributes of all inputs which inheritance method is set to *Relative to parent*. This is the inheritance method *set by default* on Input nodes.
 
 You may set an input node as a graph's Primary input by clicking *RMB* on the node and selecting the <b>Set as Primary input</b> option in the contextual menu.  
 The Primary input of a node is marked with a *small dark dot in the connector* (circled in red in the example next to this section).
@@ -140,7 +137,7 @@ Finally, you may override any value for a given attribute by setting its inherit
 
 >[!TIP]
 >
-> To learn more about inheritance, go to the [Inheritance in Substance graphs](../../../inheritance-compositing/inheritance-in-substance-compositing-graphs.md) page of this documentation.
+> To learn more about inheritance, go to the [Inheritance in Substance graphs](../../../../help/compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) page of this documentation.
 
 >[!IMPORTANT]
 >
@@ -150,7 +147,7 @@ Finally, you may override any value for a given attribute by setting its inherit
 
 Inputs are not directly sent to the 3D View, but their Usage Attributes are used by [Substance 3D Painter](https://helpx.adobe.com/substance-3d-painter/home.html) for automatically filling slots with certain maps (mostly used with [Filters](https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html)).
 
-Additionally the Usage attributes are also used with [Link Creation Modes](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md), to match the correct input and output slots.
+Additionally the Usage attributes are also used with [Link Creation Modes](../../../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md), to match the correct input and output slots.
 
 <b>Usage</b>
 

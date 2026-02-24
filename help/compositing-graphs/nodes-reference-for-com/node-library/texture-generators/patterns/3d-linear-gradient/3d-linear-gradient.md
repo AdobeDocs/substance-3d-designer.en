@@ -1,20 +1,17 @@
 ---
-title: "3D Linear Gradient"
-description: "Use the 3D Linear Gradient node to create linear gradients based on 3D world position for spatial effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > 3D Linear Gradient
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-linear-gradient.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - gradients
-  - effects
-  - 3d
+breadcrumb-title: ""
+description: Use the 3D Linear Gradient node to create linear gradients based on 3D world position for spatial effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > 3D Linear Gradient
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: 3D Linear Gradient
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 3D Linear Gradient
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 Creates a volumetric gradient based on input Position map. Effectively generates a transition from black to white between 2 points in 3D Space. Intened for use with the GPU engine only.
 
-Also see [3D Volume Mask](../3d-volume-mask/3d-volume-mask.md) for a similar effect.
+Also see [3D Volume Mask](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) for a similar effect.
 
 ## Parameters
 

@@ -1,20 +1,17 @@
 ---
-title: "Version 11.3"
-description: "Review release notes for Substance 3D Designer version 11.3 to learn about new features, improvements, and bug fixes."
-helpx_description: Designer > Release Notes > Version 11.3
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-3.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - modeling
-  - rendering
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 11.3 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 11.3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Version 11.3
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Version 11.3

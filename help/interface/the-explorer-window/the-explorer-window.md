@@ -1,20 +1,17 @@
 ---
-title: "Explorer"
-description: "Use the Explorer window in Substance 3D Designer to browse, organize, and manage your project files and resources."
-helpx_description: Designer > Interface > Explorer
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - cross-product-workflows
-  - export
-  - import
+breadcrumb-title: ""
+description: Use the Explorer window in Substance 3D Designer to browse, organize, and manage your project files and resources.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Explorer
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Explorer
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Explorer
@@ -27,7 +24,7 @@ This page describes the Explorer dock in [Substance 3D Designer](https://www.ado
 
 ## Overview
 
-The Explorer dock is where you manage your files and resources currently open in Substance 3D Designer. It shows you a list of all packages currently open, with each package expanded as a hierarchy to show [resources ](../../resources/resources.md)inside of it.
+The Explorer dock is where you manage your files and resources currently open in Substance 3D Designer. It shows you a list of all packages currently open, with each package expanded as a hierarchy to show [resources ](../../help/resources/resources.md)inside of it.
 
 The Explorer is where you start and end your projects, as it lets you create, save and export any kind of resource.
 
@@ -45,11 +42,11 @@ You can do a few important actions through the Explorer dock:
 * Create new packages and graphs
 * Load existing packages
 * Save and close loaded packages
-* [Import and link resources](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
-* [Export graph results to textures](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
+* [Import and link resources](../../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+* [Export graph results to textures](../../help/compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
 * [Publish a package to a Substance 3D asset (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
 * [Send packages to other Substance 3D applications](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
-* [Bake maps from a mesh](../../bakers/bakers.md)
+* [Bake maps from a mesh](../../help/bakers/bakers.md)
 
 ## Top toolbar
 
@@ -57,9 +54,9 @@ This toolbar lets you quickly perform functions related to your overall workflow
 
 ![](save.png)<b> Save</b> selected package.
 
-<b>!&#91;&#93;(sendto-icon.jpg) Publish or &#91;send&#93;(send-to-interoperability/send-to-interoperability.md)</b> selected element(s):
+<b>!&#91;&#93;(sendto-icon.jpg) Publish or &#91;send&#93;(../../help/interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> selected element(s):
 
-* [Publish any selected package to a Substance 3D asset (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
+* [Publish any selected package to a Substance 3D asset (SBSAR)](../../help/compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
 * Send the selected package to [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) or [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
 
 <b>!&#91;&#93;(republish.png) Publish or send as previous:</b> Publish or send the selected elements with the same settings as before. This option is only available on a package that has already been published *at least once* in the *current* session.
@@ -68,17 +65,17 @@ This toolbar lets you quickly perform functions related to your overall workflow
 
 * The tool is only available if selected items are of the *same type*: only graphs, folders or packages;
 * When the selection includes folders or packages, the tool cleans all graphs therein *recursively*;
-* If one of the targeted graphs is a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md), a second option is available which lets you clean all parameter functions on nodes in that graph.
+* If one of the targeted graphs is a [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md), a second option is available which lets you clean all parameter functions on nodes in that graph.
 
-Learn more about the tool in the 'Remove unused nodes' section of the [Graph view](../the-graph-view/the-graph-view.md) page.
+Learn more about the tool in the 'Remove unused nodes' section of the [Graph view](../../help/interface/the-graph-view/the-graph-view.md) page.
 
-If the package contains at least one [MDL graph](../../mdl-graphs/mdl-graphs.md), two additional buttons are added in the toolbar:
+If the package contains at least one [MDL graph](../../help/mdl-graphs/mdl-graphs.md), two additional buttons are added in the toolbar:
 
 <b>!&#91;&#93;(mdl-export-module-icon.png) Export MDL module (\*.mdl)</b>
 
 <b>!&#91;&#93;(mdl-export-module-icon.png) Export MDL module archive (\*.mdr)</b>
 
-Learn more about these two options in the [Exporting MDL content](../../mdl-graphs/exporting-mdl-content/exporting-mdl-content.md) section of this documentation.
+Learn more about these two options in the [Exporting MDL content](../../help/mdl-graphs/exporting-mdl-content/exporting-mdl-content.md) section of this documentation.
 
 <table>
 <tr style="border: 0;">
@@ -115,15 +112,15 @@ Empty space is only available below any currently open Packages. Clicking next t
 +++
 
 +++Package
-<b>New </b>lets you create new graphs ([Substance graph](../../compositing-graphs/substance-compositing-graphs.md), [MDL graph](../../mdl-graphs/mdl-graphs.md), [function graph](../../function-graphs/function-graphs.md)), [bitmap](../../resources/bitmap-resource/bitmap-resource.md) and [vector graphics](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) resources, as well as *folders* for sorting content
+<b>New </b>lets you create new graphs ([Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md), [MDL graph](../../help/mdl-graphs/mdl-graphs.md), [function graph](../../help/function-graphs/function-graphs.md)), [bitmap](../../help/resources/bitmap-resource/bitmap-resource.md) and [vector graphics](../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) resources, as well as *folders* for sorting content
 
-<b>Import</b> and <b>Link </b>let you bring in [resources](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+<b>Import</b> and <b>Link </b>let you bring in [resources](../../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 <b>Reload</b>, <b>Save, Save as</b> and<b> Save a copy as</b> let you save to disk or recall from disk a previously saved version of the package.
 
 <b>Publish .sbsar file</b> and<b> Republish .sbsar file</b> let you [Publish your uncompiled, unoptimized Substance  graph, into an efficient and portable SBSAR file for us in other Substance applications and Integrations](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Publish as Previous repeats the previous Publish action with the same options, skipping the options dialog for faster iteration. The toolbar contains buttons with the same functionality.
 
-<b>Export MDL Module</b> and<b> Export MDL Module Archive</b> options let your export [MDL graphs](../../mdl-graphs/mdl-graphs.md) to compiled mdl files, for use in other iRay integrations. These options are only available if a package contains an [MDL graph.](../../mdl-graphs/mdl-graphs.md)
+<b>Export MDL Module</b> and<b> Export MDL Module Archive</b> options let your export [MDL graphs](../../help/mdl-graphs/mdl-graphs.md) to compiled mdl files, for use in other iRay integrations. These options are only available if a package contains an [MDL graph.](../../help/mdl-graphs/mdl-graphs.md)
 
 <b>Export with dependencies</b> is different from saving and publishing. It takes your SBS files, collects all referenced resources and dependencies and creates a self-contained package. The dialog lets you choose what libraries to gather, and if the file should be a compressed archive (7-zip). This is a good choice for sharing an SBS file with someone else, without worrying about missing dependencies.
 
@@ -141,12 +138,12 @@ Empty space is only available below any currently open Packages. Clicking next t
 
 <b>Dependency Manager</b> opens the Dependency Manager window for the selected package.
 
-<b>Open Dependencies</b> opens all dependenies in the Explorer (*[Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) only*).
+<b>Open Dependencies</b> opens all dependenies in the Explorer (*[Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md) only*).
 
 +++
 
 +++Substance graph
-<b>Open:</b> (Return) Opens this graph in [the graph View](../the-graph-view/the-graph-view.md).
+<b>Open:</b> (Return) Opens this graph in [the graph View](../../help/interface/the-graph-view/the-graph-view.md).
 
 <b>Copy:</b> *(Ctrl-C)* Copies the current graph to clipboard.
 
@@ -154,11 +151,11 @@ Empty space is only available below any currently open Packages. Clicking next t
 
 <b>Rename:</b> (F2) Rename this graph.
 
-<b>View Outputs in 3D View:</b> Sends this graph's outputs to [the 3D View](../3d-view/3d-view.md), to display as a material.
+<b>View Outputs in 3D View:</b> Sends this graph's outputs to [the 3D View](../../help/interface/3d-view/3d-view.md), to display as a material.
 
 <b>Compute Outputs:</b> Computes this graph's Outputs and keeps them in memory.
 
-<b>Export outputs...:</b> Opens the dialog for [exporting to bitmaps.](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
+<b>Export outputs...:</b> Opens the dialog for [exporting to bitmaps.](../../help/compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
 
 +++
 
@@ -178,7 +175,7 @@ Empty space is only available below any currently open Packages. Clicking next t
 +++
 
 +++3D scene resource
-<b>Open:</b> (Return) Uses this 3D Mesh in[ the 3D View](../3d-view/3d-view.md), replacing the standard cube or plane.
+<b>Open:</b> (Return) Uses this 3D Mesh in[ the 3D View](../../help/interface/3d-view/3d-view.md), replacing the standard cube or plane.
 
 <b>Copy:</b> (Ctrl-C) Copies this resource to clipboard.
 
@@ -194,14 +191,14 @@ Empty space is only available below any currently open Packages. Clicking next t
 
 <b>Relocate:</b> Change this Resource to be linked to another file.
 
-<b>Bake model information...:</b> Opens the [Baking dialog.](../../bakers/bakers.md)
+<b>Bake model information...:</b> Opens the [Baking dialog.](../../help/bakers/bakers.md)
 
 +++
 
 +++Folder
-<b>New:</b> Lets you create in the folder new graphs ([Substance graph](../../compositing-graphs/substance-compositing-graphs.md), [Substance function graph](../../function-graphs/function-graphs.md), [MDL graph](../../mdl-graphs/mdl-graphs.md)), [bitmap](../../resources/bitmap-resource/bitmap-resource.md) and [vector graphics](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) resources, as well as *folders* for sorting content.
+<b>New:</b> Lets you create in the folder new graphs ([Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md), [Substance function graph](../../help/function-graphs/function-graphs.md), [MDL graph](../../help/mdl-graphs/mdl-graphs.md)), [bitmap](../../help/resources/bitmap-resource/bitmap-resource.md) and [vector graphics](../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) resources, as well as *folders* for sorting content.
 
-<b>Import</b> and <b>Link: </b>Let you bring in [resources](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) and place them in the folder.
+<b>Import</b> and <b>Link: </b>Let you bring in [resources](../../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md) and place them in the folder.
 
 <b>Copy:</b> (Ctrl-C) Copies the folder and all its contents to clipboard.
 
@@ -224,7 +221,7 @@ The toolbar at the bottom of the Explorer dock provides information about a pack
 <b>!&#91;&#93;(explorer-information.jpg) Information:</b> Provides metadata related to the package or resource currently selected:
 
 * Package: the full filepath of the package
-* [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md): the full filepath of the resource, its [ICC profile](../../color-management/color-management.md), image size and [import method](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (I.e., *linked* or *imported*)
+* [Bitmap resource](../../help/resources/bitmap-resource/bitmap-resource.md): the full filepath of the resource, its [ICC profile](../../help/color-management/color-management.md), image size and [import method](../../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md) (I.e., *linked* or *imported*)
 
 <table>
 <tr style="border: 0;">

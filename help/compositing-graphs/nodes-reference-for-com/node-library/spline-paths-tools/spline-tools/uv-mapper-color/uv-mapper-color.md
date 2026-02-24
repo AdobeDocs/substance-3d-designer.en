@@ -1,9 +1,18 @@
 ---
-title: "UV Mapper Color"
-description: "Use the UV Mapper Color node to map color textures along splines for procedural texture generation."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Color"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/uv-mapper-color.html"
+breadcrumb-title: ""
+description: Use the UV Mapper Color node to map color textures along splines for procedural texture generation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > UV Mapper Color
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: UV Mapper Color
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # UV Mapper Color
 
@@ -32,7 +41,7 @@ Maps the input color image using the coordinates provided in the UV input.
 
 >[!NOTE]
 >
-> See also [UV Mapper Grayscale](../uv-mapper-grayscale/uv-mapper-grayscale.md).
+> See also [UV Mapper Grayscale](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md).
 
 ## Input connectors
 

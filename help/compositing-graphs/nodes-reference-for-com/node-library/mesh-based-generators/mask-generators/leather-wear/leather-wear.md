@@ -1,22 +1,17 @@
 ---
-title: "Leather Wear"
-description: "Use the Leather Wear node to generate wear masks on leather surfaces based on mesh curvature and contact points."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leather Wear
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leather-wear.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - masking
-  - reflections
-  - effects
+breadcrumb-title: ""
+description: Use the Leather Wear node to generate wear masks on leather surfaces based on mesh curvature and contact points.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leather Wear
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Leather Wear
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Leather Wear
@@ -40,7 +35,7 @@ helpx_learn_topic:
 
 Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-This mask represents wear with a leather pattern, with more wear on edges based on Curvature. It is similar to [Fiber Glass Edge Wear](../fiber-glass-edge-wear/fiber-glass-edge-wear.md) in functionality and has mostly the same parameters.
+This mask represents wear with a leather pattern, with more wear on edges based on Curvature. It is similar to [Fiber Glass Edge Wear](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear/fiber-glass-edge-wear.md) in functionality and has mostly the same parameters.
 
 ## Parameters
 

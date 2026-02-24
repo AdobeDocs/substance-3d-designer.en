@@ -1,20 +1,17 @@
 ---
-title: "Parameter presets"
-description: "Learn how to create and use parameter presets in Substance 3D Designer to save and apply parameter configurations."
-helpx_description: Designer > Substance compositing graphs > Exposing a parameter > Parameter presets
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - presets
-  - preferences
-  - tween
+breadcrumb-title: ""
+description: Learn how to create and use parameter presets in Substance 3D Designer to save and apply parameter configurations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Exposing a parameter > Parameter presets
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Parameter presets
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Parameter presets
@@ -29,13 +26,13 @@ There are two ways for storing and loading presets, both have different use-case
 
 External Presets involve an external file on disk, an \*.SBSPRS file. They can be transferred between different graphs and nodes, but only within the application. Their main purpose is exactly this: transferring a number of values too large to copy one-by-one.
 
-External Presets are available for all Specific Parameters On [Graph Instances](../../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), for most Specific Parameters on [Atomic nodes](../../nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([exceptions are those parameters that can not be exposed](../exposing-a-parameter/exposing-a-parameter.md)), and for the exposed Input Parameters in a [Graph's Properties.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
+External Presets are available for all Specific Parameters On [Graph Instances](../../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), for most Specific Parameters on [Atomic nodes](../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([exceptions are those parameters that can not be exposed](../../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)), and for the exposed Input Parameters in a [Graph's Properties.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
 
 They are simply saved and loaded through this menu. The Saved SBSPRS files can be loaded on any other node or graph.
 
 >[!NOTE]
 >
-> Even partial matches will work: parameters stored in an SBSPRS that do not exist on the loaded node, will simply be ignored. This means you can transfer properties between nodes that are mostly similar, [such as the color and grayscale version of Tile Sampler](../../nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)! All shared parameters will load. Matching happens on identifier and type.
+> Even partial matches will work: parameters stored in an SBSPRS that do not exist on the loaded node, will simply be ignored. This means you can transfer properties between nodes that are mostly similar, [such as the color and grayscale version of Tile Sampler](../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)! All shared parameters will load. Matching happens on identifier and type.
 
 ![Embedded presets editing](preset-embed.gif "Embedded presets editing"){width="512px"}
 
@@ -57,4 +54,4 @@ Nothing more needs to be done to enable presets: once published as SBSAR, your p
 
 >[!IMPORTANT]
 >
-> The <b>Presets</b> tab is disabled when using [in-context editing](../../../interface/preferences-window/preferences-window.md).
+> The <b>Presets</b> tab is disabled when using [in-context editing](../../../help/interface/preferences-window/preferences-window.md).

@@ -1,20 +1,17 @@
 ---
-title: "3D Texture Offset"
-description: "Use the 3D Texture Offset node to offset textures in 3D space for creating parallax effects and surface variations."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > 3D Texture Offset
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - asset-warp
-  - 3d
-  - perspective
+breadcrumb-title: ""
+description: Use the 3D Texture Offset node to offset textures in 3D space for creating parallax effects and surface variations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > 3D Texture Offset
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: 3D Texture Offset
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 3D Texture Offset

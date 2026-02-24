@@ -1,20 +1,17 @@
 ---
-title: "Blackbody"
-description: "Use the Blackbody node to generate blackbody radiation colors based on temperature for realistic light color simulation."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Blackbody
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/blackbody.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - color
-  - creating-color-palettes
-  - materials
+breadcrumb-title: ""
+description: Use the Blackbody node to generate blackbody radiation colors based on temperature for realistic light color simulation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Blackbody
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Blackbody
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Blackbody

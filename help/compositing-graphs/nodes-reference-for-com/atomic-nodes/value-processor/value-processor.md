@@ -1,20 +1,17 @@
 ---
-title: "Value processor"
-description: "Use the Value Processor node to process and manipulate texture values using mathematical operations for custom adjustments."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - transitions
-  - data-and-analytics
-  - content-aware-fill
+breadcrumb-title: ""
+description: Use the Value Processor node to process and manipulate texture values using mathematical operations for custom adjustments.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Value processor
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Value processor
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Value processor
@@ -28,9 +25,9 @@ helpx_learn_topic:
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-Computes a [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) and outputs its result.
+Computes a [Substance function graph](../../../../help/function-graphs/the-function-graph/the-function-graph.md) and outputs its result.
 
-It is comparable to a [Pixel processor](../pixel-processor/pixel-processor.md), with the difference that it does not compute a function for every pixel, but rather a single value and makes it [available in a Substance graph](../../../values-compositing-graphs/values-in-substance-compositing-graphs.md).
+It is comparable to a [Pixel processor](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), with the difference that it does not compute a function for every pixel, but rather a single value and makes it [available in a Substance graph](../../../../help/compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 </td>
 </tr>
@@ -58,7 +55,7 @@ It is comparable to a [Pixel processor](../pixel-processor/pixel-processor.md), 
 
 >[!TIP]
 >
-> This node is a good starting point for learning about [Substance function graphs](../../../../function-graphs/the-function-graph/the-function-graph.md).
+> This node is a good starting point for learning about [Substance function graphs](../../../../help/function-graphs/the-function-graph/the-function-graph.md).
 > 
 > Also consider that working with this type of graph and performing mathematical operations is mandatory for getting anything out of this node.
 
@@ -66,12 +63,12 @@ It is comparable to a [Pixel processor](../pixel-processor/pixel-processor.md), 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>
@@ -81,13 +78,13 @@ It is comparable to a [Pixel processor](../pixel-processor/pixel-processor.md), 
 
 |  |  |
 | --- | --- |
-| <b>Value processor function</b> *Any available value type* | [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) evaluated to compute the output value. |
+| <b>Value processor function</b> *Any available value type* | [Substance function graph](../../../../help/function-graphs/the-function-graph/the-function-graph.md) evaluated to compute the output value. |
 
 ## Input connectors
 
 |  |  |
 | --- | --- |
-| <b>Input image &#35;</b> *Grayscale/Color* | Use a [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) or [Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) node to access the values in the input of the specified index. |
+| <b>Input image &#35;</b> *Grayscale/Color* | Use a [Sample color](../../../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) or [Sample grayscale](../../../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) node to access the values in the input of the specified index. |
 
 ## Output connectors
 

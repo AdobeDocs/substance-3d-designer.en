@@ -1,21 +1,17 @@
 ---
-title: "Grunge Leaky Paint"
-description: "Use the Grunge Leaky Paint node to generate paint leak patterns for creating weathered and aged surface effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaky Paint
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - painting
-  - normal-maps
-  - illustration
+breadcrumb-title: ""
+description: Use the Grunge Leaky Paint node to generate paint leak patterns for creating weathered and aged surface effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Leaky Paint
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Grunge Leaky Paint
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Grunge Leaky Paint

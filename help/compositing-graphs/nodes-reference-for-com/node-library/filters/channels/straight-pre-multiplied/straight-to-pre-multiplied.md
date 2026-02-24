@@ -1,21 +1,17 @@
 ---
-title: "Straight to Pre-multiplied"
-description: "Use the Straight to Pre-multiplied node to convert alpha channels from straight to pre-multiplied format for compositing."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Straight to Pre-multiplied
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - blending
-  - effects
-  - materials
+breadcrumb-title: ""
+description: Use the Straight to Pre-multiplied node to convert alpha channels from straight to pre-multiplied format for compositing.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Channels > Straight to Pre-multiplied
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Straight to Pre-multiplied
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Straight to Pre-multiplied

@@ -1,20 +1,17 @@
 ---
-title: "Overview"
-description: "Get an overview of Substance 3D Designer and learn about its capabilities for creating procedural materials and textures."
-helpx_description: Designer > Getting started > Overview
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - data-visualizations
-  - cross-product-workflows
-  - infographic
+breadcrumb-title: ""
+description: Get an overview of Substance 3D Designer and learn about its capabilities for creating procedural materials and textures.
+helpx_creative_field: ""
+helpx_description: Designer > Getting started > Overview
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Overview
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Overview
@@ -31,7 +28,7 @@ Here is how it compares to other applications:
 | <b>Author filters, patterns and effects</b> | No | Limited | Yes |
 | <b>Export parametric content</b> | No | No | Yes |
 
-\*: Displacement only, see <b>Scene export</b> feature in the [3D View](../../interface/3d-view/3d-view.md) section.
+\*: Displacement only, see <b>Scene export</b> feature in the [3D View](../../help/interface/3d-view/3d-view.md) section.
 
 In short, Substance 3D Designer should be seen as the most technical, advanced texturing application available.
 
@@ -41,15 +38,15 @@ For example, most of the procedural, smart content in Painter and Sampler was au
 
 ## Workflow
 
-Substance 3D Designer is a Node-based editor that allows you to build content in many different ways with varying complexities. [The workflow is further explained on dedicated pages](../workflow-overview/workflow-overview.md), but the following are benefits of working with the software:
+Substance 3D Designer is a Node-based editor that allows you to build content in many different ways with varying complexities. [The workflow is further explained on dedicated pages](../../help/getting-started/workflow-overview/workflow-overview.md), but the following are benefits of working with the software:
 
-<b>&#91;Non-linear&#93;(../../compositing-graphs/substance-compositing-graphs.md) </b>: you can can author a multitude of texture outputs at once. Edit one mask or slider, and automatically any connected output is re-calculated. No more need to separately author maps such as Basecolor, Roughness, Normal, etc..
+<b>&#91;Non-linear&#93;(../../help/compositing-graphs/substance-compositing-graphs.md) </b>: you can can author a multitude of texture outputs at once. Edit one mask or slider, and automatically any connected output is re-calculated. No more need to separately author maps such as Basecolor, Roughness, Normal, etc..
 
-<b> &#91;Non-destructive&#93;(../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: you can reverse any action *without* losing any of your work. It becomes much quicker to iterate and experiment, finding even more efficient workflows.
+<b> &#91;Non-destructive&#93;(../../help/compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: you can reverse any action *without* losing any of your work. It becomes much quicker to iterate and experiment, finding even more efficient workflows.
 
-<b> &#91;Integrated Baking&#93;(../../bakers/bakers.md) </b>: access advanced, blazing-fast mesh baking tools right inside the software. You no longer have to perform baking in a separate software and perform lengthy import and export processes.
+<b> &#91;Integrated Baking&#93;(../../help/bakers/bakers.md) </b>: access advanced, blazing-fast mesh baking tools right inside the software. You no longer have to perform baking in a separate software and perform lengthy import and export processes.
 
-<b> &#91;Parametric&#93;(../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: you can set-up to control nearly any aspect of a texture through a single slider or dropdown. This allows you to add endless control and variation to just a single asset.
+<b> &#91;Parametric&#93;(../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: you can set-up to control nearly any aspect of a texture through a single slider or dropdown. This allows you to add endless control and variation to just a single asset.
 
 ## Filetypes
 
@@ -103,7 +100,7 @@ Substance 3D files can contain a large variety of resources that serve different
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](graph-5.png){width="150px"}](../../help/compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -112,7 +109,7 @@ Substance 3D files can contain a large variety of resources that serve different
 
 Substance graphs allow you to generate and process *2D image data* and then output it to one or more texture outputs. In many use cases, a project will revolve around one or more Substance graphs.
 
-[Go to the section dedicated to Substance graphs.](../../compositing-graphs/substance-compositing-graphs.md)
+[Go to the section dedicated to Substance graphs.](../../help/compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 </tr>
@@ -122,7 +119,7 @@ Substance graphs allow you to generate and process *2D image data* and then outp
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](function-1.png){width="150px"}](../../help/function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -131,7 +128,7 @@ Substance graphs allow you to generate and process *2D image data* and then outp
 
 <b>Functions</b> are a higher level of abstraction and complexity: rather than processing image data (sets of pixel values), you *process single values* (integers, floats, vectors). Functions are used when you want to perform more complicated operations or if you want to fine tune specific behaviors. Functions generally do not work standalone, and they are not used outside the context of Substance graphs.
 
-[Go to the section dedicated to Substance function graphs.](../../function-graphs/function-graphs.md)
+[Go to the section dedicated to Substance function graphs.](../../help/function-graphs/function-graphs.md)
 
 </td>
 </tr>
@@ -141,7 +138,7 @@ Substance graphs allow you to generate and process *2D image data* and then outp
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](mdl-graph.png){width="150px"}](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
+[![](mdl-graph.png){width="150px"}](../../help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -150,7 +147,7 @@ Substance graphs allow you to generate and process *2D image data* and then outp
 
 MDL graphs are a special type of graph resource that can be authored. MDL stands for Material Definition Language. These graphs are not meant for generating and processing texture files and image data, but rather to generate the look of a material in a format that is portable and exchangeable between applications and renderers.
 
-[Go to the section dedicated to MDL graphs.](../../mdl-graphs/mdl-graphs.md)
+[Go to the section dedicated to MDL graphs.](../../help/mdl-graphs/mdl-graphs.md)
 
 </td>
 </tr>
@@ -160,7 +157,7 @@ MDL graphs are a special type of graph resource that can be authored. MDL stands
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](folder-4.png){width="150px"}](../../help/resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -171,11 +168,11 @@ Non-graph resources can come from external applications (such as Photoshop or Au
 
 The following resource types exist:
 
-* [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md)
-* [Vector graphics (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [Bitmaps](../../help/resources/bitmap-resource/bitmap-resource.md)
+* [Vector graphics (SVG)](../../help/resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [3D mesh and scene](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Font](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [Font](../../help/resources/font-resource/font-resource.md)
+* [AxF](../../help/resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

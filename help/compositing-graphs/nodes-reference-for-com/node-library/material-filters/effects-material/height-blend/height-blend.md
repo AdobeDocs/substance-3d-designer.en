@@ -1,20 +1,17 @@
 ---
-title: "Height Blend"
-description: "Use the Height Blend node to blend textures based on height maps for creating realistic material transitions."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Height Blend
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/height-blend.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - height
-  - blending
-  - compositing
+breadcrumb-title: ""
+description: Use the Height Blend node to blend textures based on height maps for creating realistic material transitions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Height Blend
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Height Blend
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Height Blend
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 Combines two Heightmaps based on their height information. Generates a blended Heightmap, but also a Black and White mask that can be used elsewhere.
 
-This is useful when you have two high-quality Heightmaps to combine, but not necessarily a full material, as is required for [Material Height Blend](../material-height-blend/material-height-blend.md).
+This is useful when you have two high-quality Heightmaps to combine, but not necessarily a full material, as is required for [Material Height Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md).
 
 ## Parameters
 

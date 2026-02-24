@@ -1,20 +1,17 @@
 ---
-title: "Scratches Generator"
-description: "Use the Scratches Generator node to create procedural scratch patterns for adding wear and damage to materials."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Scratches Generator
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/scratches-generator.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - painting
-  - photo-restoration
-  - texture
+breadcrumb-title: ""
+description: Use the Scratches Generator node to create procedural scratch patterns for adding wear and damage to materials.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Scratches Generator
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Scratches Generator
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Scratches Generator

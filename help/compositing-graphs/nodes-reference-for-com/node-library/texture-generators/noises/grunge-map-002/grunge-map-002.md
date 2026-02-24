@@ -1,20 +1,17 @@
 ---
-title: "Grunge Map 002"
-description: "Use the Grunge Map 002 node to generate procedural grunge patterns for creating weathered and aged material surfaces."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 002
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-002.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - infographic
-  - texture
+breadcrumb-title: ""
+description: Use the Grunge Map 002 node to generate procedural grunge patterns for creating weathered and aged material surfaces.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 002
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Grunge Map 002
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Grunge Map 002

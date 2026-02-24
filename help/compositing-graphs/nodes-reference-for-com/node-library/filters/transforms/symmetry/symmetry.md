@@ -1,20 +1,17 @@
 ---
-title: "Symmetry"
-description: "Use the Symmetry node to create symmetric patterns by mirroring textures along specified axes."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - transform
-  - reflect
-  - shapes
+breadcrumb-title: ""
+description: Use the Symmetry node to create symmetric patterns by mirroring textures along specified axes.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Symmetry
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Symmetry
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 Performs a variety of symmetry operations on an input image. Can be used to make geometrical shapes symmetrical.
 
-This node is very similar to [Mirror](../mirror-filter-node/mirror-filter-node.md), but has extra controls for blending modes.
+This node is very similar to [Mirror](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md), but has extra controls for blending modes.
 
 ## Parameters
 

@@ -1,20 +1,17 @@
 ---
-title: "System requirements"
-description: "Review system requirements for Substance 3D Designer to ensure your computer meets the necessary specifications."
-helpx_description: Designer > Getting started > System requirements
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - system-requirements
-  - known-issues
-  - platforms
+breadcrumb-title: ""
+description: Review system requirements for Substance 3D Designer to ensure your computer meets the necessary specifications.
+helpx_creative_field: ""
+helpx_description: Designer > Getting started > System requirements
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: System requirements
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Supported systems

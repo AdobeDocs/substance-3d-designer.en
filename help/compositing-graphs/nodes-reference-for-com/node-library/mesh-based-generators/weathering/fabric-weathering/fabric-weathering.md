@@ -1,22 +1,17 @@
 ---
-title: "Fabric Weathering"
-description: "Use the Fabric Weathering node to add wear and aging effects to fabric materials based on mesh geometry and curvature."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Fabric Weathering
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - materials
-  - asset-warp
-  - effects
+breadcrumb-title: ""
+description: Use the Fabric Weathering node to add wear and aging effects to fabric materials based on mesh geometry and curvature.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Fabric Weathering
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Fabric Weathering
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Fabric Weathering
@@ -41,7 +36,7 @@ helpx_learn_topic:
 This is a full-material effect that works on multiple channels at once. It adds a random fabric wear effect, with control for age and dirtiness.  
 This effect does not work very well unless you have proper baked AO and World Space Normalmaps plugged in, since it requires these to adequately calculate and generate everything.
 
-Make sure to fully understand the [Link Creation Modes](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) when working with full materials.
+Make sure to fully understand the [Link Creation Modes](../../../../../../help/interface/the-graph-view/link-creation-modes/link-creation-modes.md) when working with full materials.
 
 ## Parameters
 

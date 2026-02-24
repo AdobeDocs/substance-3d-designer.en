@@ -1,20 +1,17 @@
 ---
-title: "Spot Colors (Pantone)"
-description: "Learn how to use Pantone spot colors in Substance 3D Designer for accurate color matching in print and design workflows."
-helpx_description: Designer > Color Management > Spot Colors (Pantone)
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management/spot-colors-pantone.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - creating-color-palettes
-  - color
-  - colorize
+breadcrumb-title: ""
+description: Learn how to use Pantone spot colors in Substance 3D Designer for accurate color matching in print and design workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Color Management > Spot Colors (Pantone)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Spot Colors (Pantone)
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Spot Colors (Pantone)
@@ -25,7 +22,7 @@ Currently Spot Colors offers seventeen Pantone books.
 
 ## Color management
 
-Since Spot Colors are meant for accurate color reproduction and matching, it's essential you set up[ Color Management](../color-management.md) for Designer before you start working. Spot Colors work best with <b>Adobe Color Engine (ACE)</b> Color Management, not with OCIO. They will work with legacy mode but you can not be sure they are displayed correctly if your monitor is not calibrated for sRGB.
+Since Spot Colors are meant for accurate color reproduction and matching, it's essential you set up[ Color Management](../../help/color-management/color-management.md) for Designer before you start working. Spot Colors work best with <b>Adobe Color Engine (ACE)</b> Color Management, not with OCIO. They will work with legacy mode but you can not be sure they are displayed correctly if your monitor is not calibrated for sRGB.
 
 In short, setting up Color Management for Spot Colors involves the following:
 

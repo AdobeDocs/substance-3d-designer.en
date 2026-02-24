@@ -1,9 +1,18 @@
 ---
-title: "Paths Polygon"
-description: "Use the Paths Polygon node to create polygonal paths from vertex data for geometric pattern generation."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Polygon"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+breadcrumb-title: ""
+description: Use the Paths Polygon node to create polygonal paths from vertex data for geometric pattern generation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Polygon
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Paths Polygon
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Paths Polygon
 
@@ -22,7 +31,7 @@ helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-
 
 Generates a primitive (polygon) in the Paths format.
 
-Use the [Path 2D Transform](../path-2d-transform/path-2d-transform.md) node to position the primitive precisely.
+Use the [Path 2D Transform](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) node to position the primitive precisely.
 
 </td>
 </tr>

@@ -1,20 +1,17 @@
 ---
-title: "Graph items"
-description: "Learn about graph items in Substance 3D Designer including frames, comments, pins, and portal nodes for organizing graphs."
-helpx_description: Designer > Interface > Graph view > Graph items
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - graphs
-  - data-and-analytics
+breadcrumb-title: ""
+description: Learn about graph items in Substance 3D Designer including frames, comments, pins, and portal nodes for organizing graphs.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Graph view > Graph items
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Graph items
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Graph items
@@ -25,14 +22,14 @@ Graph items are special objects that help you organize your graphs, improve thei
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Dot node icon](graphatomic-dot.png){width="128px"}](dot-node/dot-node.md)
+[![Dot node icon](graphatomic-dot.png){width="128px"}](../../../help/interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## Dot node (also Portal)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Frame icon](graphatomic-frame.png){width="128px"}](frame/frame.md)
+[![Frame icon](graphatomic-frame.png){width="128px"}](../../../help/interface/the-graph-view/graph-items/frame/frame.md)
 
 ## Frame
 
@@ -59,14 +56,14 @@ Group nodes with label and color-coding, then move them easily.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Comment icon](graphatomic-comment.png){width="128px"}](comment/comment.md)
+[![Comment icon](graphatomic-comment.png){width="128px"}](../../../help/interface/the-graph-view/graph-items/comment/comment.md)
 
 ## Comment
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Navigation pin icon](graphatomic-pin.png){width="128px"}](navigation-pin/navigation-pin.md)
+[![Navigation pin icon](graphatomic-pin.png){width="128px"}](../../../help/interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## Pin
 

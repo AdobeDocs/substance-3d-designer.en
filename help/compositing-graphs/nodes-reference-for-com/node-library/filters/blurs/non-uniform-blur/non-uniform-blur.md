@@ -1,20 +1,17 @@
 ---
-title: "Non Uniform Blur"
-description: "Use the Non Uniform Blur node to apply blur with different intensities in X and Y directions for anisotropic effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Non Uniform Blur
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - effects
-  - matte
-  - visual-effects
+breadcrumb-title: ""
+description: Use the Non Uniform Blur node to apply blur with different intensities in X and Y directions for anisotropic effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Non Uniform Blur
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Non Uniform Blur
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Non Uniform Blur

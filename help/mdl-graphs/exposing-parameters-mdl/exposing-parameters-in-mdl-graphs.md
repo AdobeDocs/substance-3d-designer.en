@@ -1,20 +1,17 @@
 ---
-title: "Exposing parameters in MDL graphs"
-description: "Learn how to expose parameters in MDL graphs to make materials customizable and reusable in Substance 3D Designer."
-helpx_description: Designer > MDL graphs > Exposing parameters in MDL graphs
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/exposing-parameters-in-mdl-graphs.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - data-visualizations
-  - graphs
+breadcrumb-title: ""
+description: Learn how to expose parameters in MDL graphs to make materials customizable and reusable in Substance 3D Designer.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs > Exposing parameters in MDL graphs
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Exposing parameters in MDL graphs
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Exposing parameters in MDL graphs
@@ -74,11 +71,11 @@ The exposed parameter is configured directly in the *exposed node*, not in the g
 * <b>Gamma type</b>: The gamma which should be used when sampling values from a texture connected to this parameter
 * <b>Visible by default</b>: Sets the visibility of this parameter in MDL integrations in cases where some parameters may be hidden
 * <b>Type modifier</b>: Sets whether the value is uniform or varying. When set to auto, the parameter inherits this property from its input (e.g., for a Float value: uniform when connected to a Float, varying when connected to a texture)
-* <b>Sampler usage</b>: The identifier of the parameter’s usage, which is used to *connect the appropriate texture*s when multiple outputs are connected to an MDL material at once. For instance, when connecting a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) to an MDL material in the 3D view, textures are connected to the correct inputs based by matching their usage identifiers.
+* <b>Sampler usage</b>: The identifier of the parameter’s usage, which is used to *connect the appropriate texture*s when multiple outputs are connected to an MDL material at once. For instance, when connecting a [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md) to an MDL material in the 3D view, textures are connected to the correct inputs based by matching their usage identifiers.
 
 >[!WARNING]
 >
-> While graph inputs are set up a configured at the *node* level, their ordering is managed at the *graph* level in **Graph input** section of the [graph properties](../creating-an-mdl-graph/creating-an-mdl-graph.md).
+> While graph inputs are set up a configured at the *node* level, their ordering is managed at the *graph* level in **Graph input** section of the [graph properties](../../help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md).
 
 ![Exposing nodes into graph inputs](mdl-expose-parameter.gif "Exposing nodes into graph inputs")
 

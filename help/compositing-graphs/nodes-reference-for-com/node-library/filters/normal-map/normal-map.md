@@ -1,20 +1,17 @@
 ---
-title: "Normal Map"
-description: "Access normal map filter nodes in Substance 3D Designer to process and manipulate normal map textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map.html"
-helpx_creative_field:
-  - web
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - nodes
-  - data-visualizations
+breadcrumb-title: ""
+description: Access normal map filter nodes in Substance 3D Designer to process and manipulate normal map textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Normal Map
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Normal Map
@@ -25,6 +22,6 @@ Use the <b>navigation list on the left</b> to browse all nodes under Normal Map.
 
 Some very useful nodes in this category are:
 
-* [Normal Combine](normal-combine/normal-combine.md)
-* [Normal Sobel](normal-sobel/normal-sobel.md)
-* [Normal Normalize](normal-normalize/normal-normalize.md)
+* [Normal Combine](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
+* [Normal Sobel](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
+* [Normal Normalize](../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-normalize/normal-normalize.md)

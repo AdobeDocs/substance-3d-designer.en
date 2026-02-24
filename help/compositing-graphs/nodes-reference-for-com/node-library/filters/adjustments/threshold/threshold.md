@@ -1,21 +1,17 @@
 ---
-title: "Threshold"
-description: "Use the Threshold node to convert grayscale textures to black and white based on a threshold value for creating masks."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Threshold
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/threshold.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - reflections
-  - enhancing-color
-  - food-photography
+breadcrumb-title: ""
+description: Use the Threshold node to convert grayscale textures to black and white based on a threshold value for creating masks.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Threshold
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Threshold
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Threshold
@@ -38,7 +34,7 @@ helpx_learn_topic:
 ## Description
 
 Returns white if the *comparison criteria* set in the **Mode** parameter is met for the input pixel value relatively to the **Threshold** value.  
-Similar to [Histogram Scan](../histogram-scan/histogram-scan.md), but with contrast always at maximum level. Serves as a more precise and faster way to obtain similar results to Histogram Scan.
+Similar to [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), but with contrast always at maximum level. Serves as a more precise and faster way to obtain similar results to Histogram Scan.
 
 ### Parameters
 

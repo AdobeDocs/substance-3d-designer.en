@@ -1,21 +1,17 @@
 ---
-title: "Noise Upscale 1"
-description: "Use the Noise Upscale 1 node to upscale textures using noise-based algorithms for preserving detail when increasing texture resolution."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 1
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-1.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - noise
-  - effects
-  - sharpen
+breadcrumb-title: ""
+description: Use the Noise Upscale 1 node to upscale textures using noise-based algorithms for preserving detail when increasing texture resolution.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Noise Upscale 1
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Noise Upscale 1
@@ -41,7 +37,7 @@ Takes an input noise procedural and scales it up to double resolution, keeping d
 
 This node is mostly intended for optimising slow graphs that use heavy, big noises. It allows you to use higher resolutions without introducing too much extra compute time.
 
-See also [Noise Upscale 2](../noise-upscale-2/noise-upscale-2.md) and [Noise Upscale 3](../noise-upscale-3/noise-upscale-3.md) for different variations of this process.
+See also [Noise Upscale 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md) and [Noise Upscale 3](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) for different variations of this process.
 
 ## Parameters
 

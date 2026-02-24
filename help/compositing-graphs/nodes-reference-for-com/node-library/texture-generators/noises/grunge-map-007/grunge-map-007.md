@@ -1,20 +1,17 @@
 ---
-title: "Grunge Map 007"
-description: "Use the Grunge Map 007 node to create procedural grunge textures for adding surface variation and wear effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 007
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-007.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - infographic
-  - texture
+breadcrumb-title: ""
+description: Use the Grunge Map 007 node to create procedural grunge textures for adding surface variation and wear effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 007
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Grunge Map 007
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Grunge Map 007

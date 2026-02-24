@@ -1,21 +1,17 @@
 ---
-title: "Quantize Color (Simple)"
-description: "Use the Quantize Color node to reduce the number of colors in textures for creating posterized and stylized effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color (Simple)
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - blending
-  - hdri
-  - effects
+breadcrumb-title: ""
+description: Use the Quantize Color node to reduce the number of colors in textures for creating posterized and stylized effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color (Simple)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Quantize Color (Simple)
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Quantize Color (Simple)

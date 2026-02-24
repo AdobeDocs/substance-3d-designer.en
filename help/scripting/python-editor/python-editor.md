@@ -1,20 +1,17 @@
 ---
-title: "Python  Editor"
-description: "Use the Python Editor in Substance 3D Designer to write, test, and debug Python scripts and plugins."
-helpx_description: Designer > Scripting > Python Editor
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/python-editor.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - automation
-  - workspace
-  - import
+breadcrumb-title: ""
+description: Use the Python Editor in Substance 3D Designer to write, test, and debug Python scripts and plugins.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Python Editor
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Python  Editor
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Python Editor

@@ -1,20 +1,17 @@
 ---
-title: "Crop"
-description: "Use the Crop node to crop material outputs to specific regions for processing scanned materials and textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Crop
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - crop
-  - panorama
-  - add-objects-to-images
+breadcrumb-title: ""
+description: Use the Crop node to crop material outputs to specific regions for processing scanned materials and textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Crop
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Crop
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Crop

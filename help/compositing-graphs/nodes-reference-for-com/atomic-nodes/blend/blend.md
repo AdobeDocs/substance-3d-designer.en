@@ -1,21 +1,17 @@
 ---
-title: "Blend"
-description: "Use the Blend node to blend two textures together using various blend modes for creating composite effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
-helpx_creative_field:
-  - painting-illustration
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - blending
-  - appearance
-  - effects
+breadcrumb-title: ""
+description: Use the Blend node to blend two textures together using various blend modes for creating composite effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Blend
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Blend
@@ -41,7 +37,7 @@ Its functionality is similar to having two layers above one another in [Substanc
 
 >[!TIP]
 >
-> Learn about the blending modes available in the Blend node in [this dedicated page](blending-modes-des/blending-modes-description.md).
+> Learn about the blending modes available in the Blend node in [this dedicated page](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
 
 <table>
 <tr style="border: 0;">
@@ -67,12 +63,12 @@ Its functionality is similar to having two layers above one another in [Substanc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>
@@ -83,9 +79,9 @@ Its functionality is similar to having two layers above one another in [Substanc
 |  |  |
 | --- | --- |
 | <b>Opacity</b> *Float* | Opacity of the Foreground layer blending into the Background. It works independent to the Opacity input and acts as an additional multiplier to it. |
-| <b>Blending mode</b> *Integer* [Static](../../../../glossary/glossary.md) | Sets the blending operation to be used.   See the [dedicated page about blending modes](blending-modes-des/blending-modes-description.md). |
-| <b>Alpha blending</b> *Integer* [Static](../../../../glossary/glossary.md) | Determines blending behavior when color inputs have Alpha channels:<ul data-preserve-html="true"> <li data-preserve-html="true">Use source alpha</li> <li data-preserve-html="true">Ignore alpha</li> <li data-preserve-html="true">Straight alpha blending</li> <li data-preserve-html="true">Premultiplied alpha blending</li> </ul> |
-| <b>Cropping area</b> *Float4* [Static](../../../../glossary/glossary.md) | Allow for setting a custom cropping region that behaves like an additional Opacity mask. Any area cropped shows only the background. |
+| <b>Blending mode</b> *Integer* [Static](../../../../help/glossary/glossary.md) | Sets the blending operation to be used.   See the [dedicated page about blending modes](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
+| <b>Alpha blending</b> *Integer* [Static](../../../../help/glossary/glossary.md) | Determines blending behavior when color inputs have Alpha channels:<ul data-preserve-html="true"> <li data-preserve-html="true">Use source alpha</li> <li data-preserve-html="true">Ignore alpha</li> <li data-preserve-html="true">Straight alpha blending</li> <li data-preserve-html="true">Premultiplied alpha blending</li> </ul> |
+| <b>Cropping area</b> *Float4* [Static](../../../../help/glossary/glossary.md) | Allow for setting a custom cropping region that behaves like an additional Opacity mask. Any area cropped shows only the background. |
 
 ## Input connectors
 

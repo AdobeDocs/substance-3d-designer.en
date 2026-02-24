@@ -1,20 +1,17 @@
 ---
-title: "Version control"
-description: "Configure version control settings in Substance 3D Designer preferences to integrate with Git and other systems."
-helpx_description: Designer > Interface > Preferences window > Version control
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - automation
-  - versions
-  - preparing-source-files
+breadcrumb-title: ""
+description: Configure version control settings in Substance 3D Designer preferences to integrate with Git and other systems.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Preferences window > Version control
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Version control
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Version control
@@ -27,7 +24,7 @@ helpx_learn_topic:
 
 Designer offers a Python integration of the [Perforce](https://www.perforce.com/) (P4) version control system.
 
-The integration adds a custom 'Version Control' submenu to the contextual menu of packages in the [Explorer](../../the-explorer-window/the-explorer-window.md), as well as custom icons to match the status of a package in P4.
+The integration adds a custom 'Version Control' submenu to the contextual menu of packages in the [Explorer](../../../help/interface/the-explorer-window/the-explorer-window.md), as well as custom icons to match the status of a package in P4.
 
 ## Preparing P4
 
@@ -52,12 +49,12 @@ cVerbose = False
 
 ## Setup in Designer
 
-Version control is configured in the [Project settings](../project-settings/project-settings.md), which are available in Designer's [Preferences](../preferences-window.md).
+Version control is configured in the [Project settings](../../../help/interface/preferences-window/project-settings/project-settings.md), which are available in Designer's [Preferences](../../../help/interface/preferences-window/preferences-window.md).
 
 !['Version control' tab in project settings](p4v-project-settings.jpg "'Version control' tab in project settings"){zoomable="yes"}
 
 1. Go to 'Edit &gt; Preferences'
-1. Go to 'Projects', select the target [project file](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) and go to the 'Version Control' tab
+1. Go to 'Projects', select the target [project file](../../../help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) and go to the 'Version Control' tab
 1. Check 'Version Control Enabled'
 1. Fill this information in the 'Workspace' section:
 

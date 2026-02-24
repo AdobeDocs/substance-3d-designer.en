@@ -1,20 +1,17 @@
 ---
-title: "Nodes reference for Substance graphs"
-description: "Access the complete nodes reference for Substance compositing graphs in Designer to learn about all available nodes."
-helpx_description: Designer > Substance graphs > Nodes reference for Substance graphs
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - data-visualizations
-  - data-and-analytics
+breadcrumb-title: ""
+description: Access the complete nodes reference for Substance compositing graphs in Designer to learn about all available nodes.
+helpx_creative_field: ""
+helpx_description: Designer > Substance graphs > Nodes reference for Substance graphs
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Nodes reference for Substance graphs
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Nodes reference for Substance graphs
@@ -23,8 +20,8 @@ As Substance 3D Designer is a node based texturing software, there are many diff
 
 What we call "node" inside SD, can be divided into 2 mains groups:
 
-* [The atomic nodes](atomic-nodes/atomic-nodes.md), the core building blocks of any graph.
-* [The graph instances](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), compound nodes, of which a large selection of premade content is available in the [Node library](node-library/node-library.md)
+* [The atomic nodes](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), the core building blocks of any graph.
+* [The graph instances](../../help/compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), compound nodes, of which a large selection of premade content is available in the [Node library](../../help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
 ## In this section:
 
@@ -32,18 +29,18 @@ What we call "node" inside SD, can be divided into 2 mains groups:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Node library](node-library/node-library.md)
+[Node library](../../help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
 * [Texture generators](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
-* [Filters](node-library/filters/filters.md)
-* [Material filters](node-library/material-filters/material-filters.md)
+* [Filters](../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
+* [Material filters](../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
 * [Mesh-based generators](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
-* [Spline &amp; Paths tools](node-library/spline-paths-tools/spline-paths-tools.md)
+* [Spline &amp; Paths tools](../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[Atomic nodes](atomic-nodes/atomic-nodes.md)
+[Atomic nodes](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)
 
 </td>
 </tr>

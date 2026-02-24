@@ -1,21 +1,17 @@
 ---
-title: "Using threads"
-description: "Learn how to use threads in Substance 3D Designer Python scripting for parallel processing and performance."
-helpx_description: Designer > Scripting > Using threads
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-threads.html"
-helpx_creative_field:
-  - painting-illustration
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - interface
-  - data-and-analytics
-  - rigging
+breadcrumb-title: ""
+description: Learn how to use threads in Substance 3D Designer Python scripting for parallel processing and performance.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Using threads
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Using threads
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Using threads

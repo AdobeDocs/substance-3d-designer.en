@@ -1,20 +1,17 @@
 ---
-title: "Pow"
-description: "Use the Pow node to apply power function adjustments to textures for controlling brightness curves and gamma correction."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/pow.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - travel-photography
-  - creative-effects
-  - landscape-photography
+breadcrumb-title: ""
+description: Use the Pow node to apply power function adjustments to textures for controlling brightness curves and gamma correction.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Pow
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Pow
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Pow
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 ## Description
 
-Powers the input by a specified exponent. Similar to adjusting the [Levels ](../../../../atomic-nodes/levels/levels.md)Midpoint, but in a simpler package. Useful also for when you want to perform an exact mathematical power operation.
+Powers the input by a specified exponent. Similar to adjusting the [Levels ](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)Midpoint, but in a simpler package. Useful also for when you want to perform an exact mathematical power operation.
 
 Important: make sure to use the correct version, depending on whether you have a Color or Grayscale input!
 

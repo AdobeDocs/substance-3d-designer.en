@@ -1,20 +1,17 @@
 ---
-title: "Color Management"
-description: "Learn about color management in Substance 3D Designer including color spaces, profiles, and spot color workflows."
-helpx_description: Designer > Color Management
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
-helpx_creative_field:
-  - 3d-immersive
-  - graphic-design
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - color
-  - channels
-  - import
+breadcrumb-title: ""
+description: Learn about color management in Substance 3D Designer including color spaces, profiles, and spot color workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Color Management
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Color Management
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Color Management
@@ -23,7 +20,7 @@ This page explains the Color Management features and settings in Substance 3D De
 
 Substance 3D Designer can be configured to use [OpenColorIO](https://opencolorio.org/) (OCIO) or Adobe Color Engine (ACE) for Color Management. This allows you to have *consistent* color transforms and image display across multiple applications.
 
-In this mode, Designer will work internally with **linear RGB** colors. Since 8-bit depth is usually not enough to represent linear colors, it is recommended to use *at least* **16-bit** depth for color textures in the [graph](../compositing-graphs/substance-compositing-graphs.md).
+In this mode, Designer will work internally with **linear RGB** colors. Since 8-bit depth is usually not enough to represent linear colors, it is recommended to use *at least* **16-bit** depth for color textures in the [graph](../help/compositing-graphs/substance-compositing-graphs.md).
 
 >[!WARNING]
 >
@@ -34,13 +31,13 @@ In this mode, Designer will work internally with **linear RGB** colors. Since 8-
 
 ## Configuration
 
-Color Management settings can be configured in [Projects](../interface/preferences-window/project-settings/project-settings.md) tab of the [Preferences](../interface/preferences-window/preferences-window.md) dialog. You can set the following settings:
+Color Management settings can be configured in [Projects](../help/interface/preferences-window/project-settings/project-settings.md) tab of the [Preferences](../help/interface/preferences-window/preferences-window.md) dialog. You can set the following settings:
 
 ### Color Management Mode
 
 |  |  |
 | --- | --- |
-| <b>Color management</b> | This setting lets you select the [Legacy](color-management.md),  or  modes for Color Management in Substance 3D Designer. *Default: Legacy* |
+| <b>Color management</b> | This setting lets you select the [Legacy](../help/color-management/color-management.md), [OpenColorIO](#opencolorio) or [Adobe ACE](#adobe-ace) modes for Color Management in Substance 3D Designer. *Default: Legacy* |
 
 ## OpenColorIO
 
@@ -73,7 +70,7 @@ You can find these configuration files in the <b>resources &gt; ocio</b> folder 
 
 |  |  |
 | --- | --- |
-| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../interface/2d-view/2d-view.md) and [3D view](../interface/3d-view/3d-view.md) viewports. *Default: Set by OpenColor IO configuration file* |
+| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../help/interface/2d-view/2d-view.md) and [3D view](../help/interface/3d-view/3d-view.md) viewports. *Default: Set by OpenColor IO configuration file* |
 | <b>Color manage thumbnails</b> | Lets Designer automatically transform the node *thumbnails* to the *working* color space in the graph. *Default: Checked* |
 
 ## Adobe ACE
@@ -103,7 +100,7 @@ You can add *your own* ICC Profiles by placing these files in the `Adobe/Adobe S
 
 |  |  |
 | --- | --- |
-| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../interface/2d-view/2d-view.md) and [3D view](../interface/3d-view/3d-view.md) viewports. *Default: ***ICC Profile for the main screen, retrieved from the OS**** |
+| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../help/interface/2d-view/2d-view.md) and [3D view](../help/interface/3d-view/3d-view.md) viewports. *Default: ***ICC Profile for the main screen, retrieved from the OS**** |
 
 ### Graph Display
 
@@ -119,7 +116,7 @@ In this mode, graphs and images behave exactly in the same way as in previous ve
 
 You can choose to use <b>ACES sRGB</b> *tonemapping* in the <b>3D View</b> to match the output of other software, such as *[Unreal Engine](https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/ColorGrading/index.html)*.
 
-You can set a colour space for *exported bitmaps* as described in the section in this page. The available color spaces are the following:
+You can set a colour space for *exported bitmaps* as described in the [Exporting Outputs](#exporting-outputs) section in this page. The available color spaces are the following:
 
 * sRGB
 * Linear
@@ -135,13 +132,13 @@ The <b>Linear</b> option is the *only* one which results in a *color transform* 
 
 >[!NOTE]
 >
-> For more information about image exports, you can refer to the [Exporting Bitmaps](../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) page of the documentation.
+> For more information about image exports, you can refer to the [Exporting Bitmaps](../help/compositing-graphs/exporting-bitmaps/exporting-bitmaps.md) page of the documentation.
 
 ## Importing bitmaps
 
 You can assign a <b>color space</b> (OCIO) or <b>ICC profile</b> (Adobe ACE) to imported and linked bitmaps.
 
-When importing or linking bitmaps, a color space or ICC profile will be set *by default* to the bitmap resource using the options set in the <b>Bitmap Color Space Default</b> section of the <b>Color Management</b> tab in the [Project settings](../interface/preferences-window/project-settings/project-settings.md).
+When importing or linking bitmaps, a color space or ICC profile will be set *by default* to the bitmap resource using the options set in the <b>Bitmap Color Space Default</b> section of the <b>Color Management</b> tab in the [Project settings](../help/interface/preferences-window/project-settings/project-settings.md).
 
 You can change the color space of a bitmap at any time, the option is located in the bitmap resource's <b>Properties</b>.
 
@@ -183,13 +180,13 @@ In that case, the color space for library HDRI environments should be set *manua
 
 ## Color conversion nodes
 
-The [Library](../interface/the-library/the-library.md) includes the following nodes for performing <b>conversions</b> to and from the ACEScg color space:
+The [Library](../help/interface/the-library/the-library.md) includes the following nodes for performing <b>conversions</b> to and from the ACEScg color space:
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Substance graph](../compositing-graphs/substance-compositing-graphs.md)
+[Substance graph](../help/compositing-graphs/substance-compositing-graphs.md)
 
 * ACEScg to Linear sRGB
 * Linear sRGB to ACEScg
@@ -199,7 +196,7 @@ The [Library](../interface/the-library/the-library.md) includes the following no
 </td>
 <td style="border: 0;" valign="top">
 
-[Substance function graph](../function-graphs/function-graphs.md)
+[Substance function graph](../help/function-graphs/function-graphs.md)
 
 * ACEScg to Linear sRGB
 * Linear sRGB to ACEScg
@@ -216,6 +213,6 @@ These are useful when working with graphs created *without* Color Management or 
 
 The current implementation of color management in Substance 3D Designer has the following limitations:
 
-* Color management is currently *not* exposed in the [Python API](../scripting/scripting.md);
-* Color management does *not* work with [MDL graphs](../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md);
+* Color management is currently *not* exposed in the [Python API](../help/scripting/scripting.md);
+* Color management does *not* work with [MDL graphs](../help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md);
 * [OpenColorIO](https://opencolorio.org/) *looks* are *not* supported.

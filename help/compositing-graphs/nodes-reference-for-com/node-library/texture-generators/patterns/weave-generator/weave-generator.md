@@ -1,20 +1,17 @@
 ---
-title: "Weave Generator"
-description: "Use the Weave Generator node to create procedural woven fabric patterns and textile textures in Substance 3D Designer."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave Generator
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-generator.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - patterns
-  - asset-warp
-  - blending
+breadcrumb-title: ""
+description: Use the Weave Generator node to create procedural woven fabric patterns and textile textures in Substance 3D Designer.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Weave Generator
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Weave Generator
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Weave Generator

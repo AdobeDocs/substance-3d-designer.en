@@ -1,20 +1,17 @@
 ---
-title: "Invert"
-description: "Use the Invert node to invert color values in textures for creating negative effects and mask inversions."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Invert
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - creative-effects
-  - transform
-  - food-photography
+breadcrumb-title: ""
+description: Use the Invert node to invert color values in textures for creating negative effects and mask inversions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Invert
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Invert
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Invert

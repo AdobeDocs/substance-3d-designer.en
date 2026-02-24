@@ -1,20 +1,17 @@
 ---
-title: "Bevel (Filter Node)"
-description: "Use the Bevel filter node to create beveled edges on shapes and patterns for adding depth and dimension."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Bevel (Filter Node)
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-filter-node.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - height
-  - effects
-  - reflections
+breadcrumb-title: ""
+description: Use the Bevel filter node to create beveled edges on shapes and patterns for adding depth and dimension.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Bevel (Filter Node)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Bevel (Filter Node)
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Bevel (Filter Node)
@@ -47,7 +44,7 @@ This is a useful node for applying exact curve profiles on an ideally binary (hi
 * **input**: *Grayscale Input*   
   Heightmap to convert.
 * **Custom Curve**: *Grayscale Input*   
-  Gradient that determines the exact curve/slope. Ideally a Gradient Linear node, on which you can perform any kind of adjustment such as [Levels](../../../../atomic-nodes/levels/levels.md) or [Curves](../../../../atomic-nodes/curve/curve.md). Only active when "Use Custom Curve" is True.
+  Gradient that determines the exact curve/slope. Ideally a Gradient Linear node, on which you can perform any kind of adjustment such as [Levels](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) or [Curves](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md). Only active when "Use Custom Curve" is True.
 
 ### Parameters
 

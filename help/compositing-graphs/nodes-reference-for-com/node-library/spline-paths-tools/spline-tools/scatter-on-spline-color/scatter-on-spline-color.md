@@ -1,9 +1,18 @@
 ---
-title: "Scatter on Spline Color"
-description: "Use the Scatter on Spline Color node to distribute color elements along spline paths for procedural patterns."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Color"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+breadcrumb-title: ""
+description: Use the Scatter on Spline Color node to distribute color elements along spline paths for procedural patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Color
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Scatter on Spline Color
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Scatter on Spline Color
 
@@ -32,7 +41,7 @@ Some aspects of the scattering may be controlled using images from other nodes i
 
 >[!NOTE]
 >
-> See also [Scatter on Spline Grayscale](../scatter-spline-grayscale/scatter-on-spline-grayscale.md).
+> See also [Scatter on Spline Grayscale](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md).
 
 ## Input connectors
 

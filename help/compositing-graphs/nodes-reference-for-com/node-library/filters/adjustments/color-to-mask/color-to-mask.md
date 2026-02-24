@@ -1,20 +1,17 @@
 ---
-title: "Color to mask"
-description: "Use the Color to Mask node to convert specific colors to masks for creating selective processing and masking effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Color to mask
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - masking
-  - color
-  - creating-color-palettes
+breadcrumb-title: ""
+description: Use the Color to Mask node to convert specific colors to masks for creating selective processing and masking effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Color to mask
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Color to mask
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Color to mask
@@ -46,22 +43,22 @@ Extracts a greyscale mask from selected colors in a color image.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Inputs
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

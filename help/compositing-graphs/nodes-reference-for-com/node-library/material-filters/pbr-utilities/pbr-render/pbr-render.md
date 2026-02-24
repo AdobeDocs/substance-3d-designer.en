@@ -1,20 +1,17 @@
 ---
-title: "PBR Render"
-description: "Use the PBR Render node to render physically-based materials with realistic lighting for previewing material appearance."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Render
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - pbr
-  - rendering
-  - xr
+breadcrumb-title: ""
+description: Use the PBR Render node to render physically-based materials with realistic lighting for previewing material appearance.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > PBR Render
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: PBR Render
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # PBR Render
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 Renders a PBR material onto a sphere, plane or cylinder using Image Based Lighting (IBL).This is a render-engine inside a node, which can be very useful for generating thumbnails, previews or 2D assets. It is not a render like the 3D view, but an actual texture being generated in your graph.
 
-This node requires at least a full PBR material to be plugged in. Ideally you make use of Link Creation Modes to connect the material to PBR Render. Additionally, you will need a spherically-unwrapped HDRI environment for the render to calculate lighting from. Materials for testing can be found under PBR Materials, Environment maps can be found under [3D View in the library.](../../../3d-view-library/3d-view-library.md)
+This node requires at least a full PBR material to be plugged in. Ideally you make use of Link Creation Modes to connect the material to PBR Render. Additionally, you will need a spherically-unwrapped HDRI environment for the render to calculate lighting from. Materials for testing can be found under PBR Materials, Environment maps can be found under [3D View in the library.](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/3d-view-library.md)
 
 </td>
 </tr>

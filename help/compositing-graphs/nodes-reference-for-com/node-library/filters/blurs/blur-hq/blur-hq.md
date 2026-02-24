@@ -1,20 +1,17 @@
 ---
-title: "Blur HQ"
-description: "Use the Blur HQ node to apply high-quality blur effects to textures for creating smooth, professional-looking blur results."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Blur HQ
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - filters
-  - hdri
+breadcrumb-title: ""
+description: Use the Blur HQ node to apply high-quality blur effects to textures for creating smooth, professional-looking blur results.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Blur HQ
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Blur HQ
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Blur HQ
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 ## Description
 
-Performs a High-Quality gaussian blur on the result. Much better quality than [the standard atomic box blur](../../../../atomic-nodes/blur/blur.md)[.](../../../../atomic-nodes/blur/blur.md)
+Performs a High-Quality gaussian blur on the result. Much better quality than [the standard atomic box blur](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[.](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 Important: make sure to use the appropriate version for your input! Use "Blur HQ" for Color inputs, or "Blur HQ Grayscale" for Grayscale inputs.
 

@@ -1,20 +1,17 @@
 ---
-title: "Clone Patch"
-description: "Use the Clone Patch node to clone and patch areas in scanned materials for removing artifacts and imperfections."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Clone Patch
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - materials
-  - photo-restoration
-  - removing-objects
+breadcrumb-title: ""
+description: Use the Clone Patch node to clone and patch areas in scanned materials for removing artifacts and imperfections.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Clone Patch
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Clone Patch
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Clone Patch
@@ -48,9 +45,9 @@ Also important to understand is the fact that you can move the Target area with 
 
 >[!NOTE]
 >
-> If you want this for a full material (as is most often the case), see [Material Clone Patch](../material-clone-patch/material-clone-patch.md).
+> If you want this for a full material (as is most often the case), see [Material Clone Patch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md).
 > 
-> For those cases where you want to perform this operation on multiple inputs at the same time (without it being a material), see [Multi Clone Patch](../multi-clone-patch/multi-clone-patch.md).
+> For those cases where you want to perform this operation on multiple inputs at the same time (without it being a material), see [Multi Clone Patch](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md).
 
 ## Parameters
 

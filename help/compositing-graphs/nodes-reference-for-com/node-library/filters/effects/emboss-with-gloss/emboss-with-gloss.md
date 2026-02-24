@@ -1,20 +1,17 @@
 ---
-title: "Emboss With Gloss"
-description: "Use the Emboss With Gloss node to create embossed effects with gloss maps for adding depth and shine to textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Emboss With Gloss
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/emboss-with-gloss.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - creative-effects
-  - materials
+breadcrumb-title: ""
+description: Use the Emboss With Gloss node to create embossed effects with gloss maps for adding depth and shine to textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Emboss With Gloss
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Emboss With Gloss
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Emboss With Gloss
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 Performs an Embossing effect with added gloss (specular reflection) on a color and height input. Essentially adds fake, baked lighting to an image based on height information. Useful for some texturing styles that require lighting baked into the textures.
 
-For a version with more options, see [Uber Emboss](../uber-emboss/uber-emboss.md). There's also the simpler, atomic version of [Emboss](../../../../atomic-nodes/emboss/emboss.md).
+For a version with more options, see [Uber Emboss](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md). There's also the simpler, atomic version of [Emboss](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md).
 
 ## Parameters
 

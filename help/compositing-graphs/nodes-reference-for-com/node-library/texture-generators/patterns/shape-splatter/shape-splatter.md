@@ -1,20 +1,17 @@
 ---
-title: "Shape Splatter"
-description: "Use the Shape Splatter node to scatter shapes across textures for creating procedural patterns and details."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - shapes
-  - blending
-  - pbr
+breadcrumb-title: ""
+description: Use the Shape Splatter node to scatter shapes across textures for creating procedural patterns and details.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Shape Splatter
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Shape Splatter
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-A very complex node, designed to be used in conjunction with accompanying nodes [Shape Splatter Blend](../shape-splatter-blend/shape-splatter-blend.md), [Shape Splatter to Mask](../shape-splatter-to-mask/shape-splatter-to-mask.md) and [Shape Splatter Data Extract](../shape-splatter-data-ext/shape-splatter-data-extract.md). Used to splatter shapes in a similar way to[ Tile Sampler](../tile-sampler/tile-sampler.md) or [Generator](../tile-generator/tile-generator.md), but with a dynamic, non-destructive process that allows control over every step, through a multi-level system similar to [Flood Fill.](../../../filters/effects/flood-fill/flood-fill.md) Whereas Flood Fill takes a base input map from an external source, Shape Splatter generates the map and ensuing data in a single step, as a sort of more advanced version of [Flood Fill](../../../filters/effects/flood-fill/flood-fill.md)..
+A very complex node, designed to be used in conjunction with accompanying nodes [Shape Splatter Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md), [Shape Splatter to Mask](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) and [Shape Splatter Data Extract](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md). Used to splatter shapes in a similar way to[ Tile Sampler](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) or [Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md), but with a dynamic, non-destructive process that allows control over every step, through a multi-level system similar to [Flood Fill.](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) Whereas Flood Fill takes a base input map from an external source, Shape Splatter generates the map and ensuing data in a single step, as a sort of more advanced version of [Flood Fill](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)..
 
 It's main purpose is to allow placement of shapes onto and driven by a height map and to then generate various maps from the Splatter Data. For example placing rocks, twigs and leaves on a landscape, oriented and driven by various maps. Different maps can then be used for height, normal, basecolor, roughness and any other channel, while all are still based on the same shared Splatter Data.
 

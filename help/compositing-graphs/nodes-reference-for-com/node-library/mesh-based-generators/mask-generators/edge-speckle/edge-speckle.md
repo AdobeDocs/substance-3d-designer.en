@@ -1,20 +1,17 @@
 ---
-title: "Edge Speckle"
-description: "Use the Edge Speckle node to generate speckled wear patterns on mesh edges for creating realistic edge damage effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Speckle
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-speckle.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - masking
-  - reflections
-  - add-objects-to-images
+breadcrumb-title: ""
+description: Use the Edge Speckle node to generate speckled wear patterns on mesh edges for creating realistic edge damage effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Speckle
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Edge Speckle
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Edge Speckle
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-This mask represents edges with a slight speckle added to break them up. Also see [Edge Dirt](../edge-dirt/edge-dirt.md).
+This mask represents edges with a slight speckle added to break them up. Also see [Edge Dirt](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md).
 
 ## Parameters
 

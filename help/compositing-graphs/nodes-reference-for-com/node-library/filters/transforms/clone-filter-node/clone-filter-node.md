@@ -1,20 +1,17 @@
 ---
-title: "Clone (Filter Node)"
-description: "Use the Clone filter node to duplicate and offset texture regions for creating seamless patterns and tiling effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Clone (Filter Node)
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - transform
-  - compositing
-  - add-objects-to-images
+breadcrumb-title: ""
+description: Use the Clone filter node to duplicate and offset texture regions for creating seamless patterns and tiling effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Clone (Filter Node)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Clone (Filter Node)
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Clone (Filter Node)

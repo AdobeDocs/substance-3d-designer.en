@@ -1,21 +1,17 @@
 ---
-title: "Liquid"
-description: "Use the Liquid node to generate liquid and fluid patterns for creating water, oil, and other fluid surface effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Liquid
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/liquid.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - blending
-  - pbr
-  - effects
+breadcrumb-title: ""
+description: Use the Liquid node to generate liquid and fluid patterns for creating water, oil, and other fluid surface effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Liquid
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Liquid
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Liquid
@@ -37,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-This is a simple variant of [Gaussian Noise](../gaussian-noise/gaussian-noise.md), which [warps](../../../../atomic-nodes/warp/warp.md) with itself to create a liquid-like effect.
+This is a simple variant of [Gaussian Noise](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), which [warps](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) with itself to create a liquid-like effect.
 
 ## Parameters
 

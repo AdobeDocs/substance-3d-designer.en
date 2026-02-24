@@ -1,20 +1,17 @@
 ---
-title: "3D Voronoi Fractal"
-description: "Use the 3D Voronoi Fractal node to generate fractal Voronoi patterns based on 3D position for volumetric textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - 3d
-  - baking
-  - pbr
+breadcrumb-title: ""
+description: Use the 3D Voronoi Fractal node to generate fractal Voronoi patterns based on 3D position for volumetric textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: 3D Voronoi Fractal
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 3D Voronoi Fractal
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 The **3D Voronoi Fractal** node generates a *fractal* Voronoi noise in 3D space based on the **Position Map** input.
 
-This node can be tested with [Cube 3D GBuffers](../../patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
+This node can be tested with [Cube 3D GBuffers](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
 
 >[!WARNING]
 >

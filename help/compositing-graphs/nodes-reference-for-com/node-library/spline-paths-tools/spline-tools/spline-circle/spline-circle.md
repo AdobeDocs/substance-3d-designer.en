@@ -1,9 +1,18 @@
 ---
-title: "Spline Circle"
-description: "Use the Spline Circle node to create circular splines for generating round patterns and shapes."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Circle"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+breadcrumb-title: ""
+description: Use the Spline Circle node to create circular splines for generating round patterns and shapes.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Circle
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Spline Circle
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline Circle
 

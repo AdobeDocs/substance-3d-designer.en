@@ -1,20 +1,17 @@
 ---
-title: "Cannot createload a project"
-description: "Troubleshoot issues with creating or loading projects in Substance 3D Designer and find solutions."
-helpx_description: Designer > Technical issues > Cannot createload a project
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - import
-  - cross-product-workflows
-  - 3d
+breadcrumb-title: ""
+description: Troubleshoot issues with creating or loading projects in Substance 3D Designer and find solutions.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > Cannot createload a project
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Cannot createload a project
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Cannot create/load a project
@@ -55,7 +52,7 @@ First, check that you are using the latest version of Substance 3D Designer whic
 
 <b>!&#91;(error)&#93;(error.svg) Issue</b>
 
-A crash when creating or loading a project is often caused by an error during the initialisation of the [3D View](../../interface/3d-view/3d-view.md), which occurs when the workspace is being set up.
+A crash when creating or loading a project is often caused by an error during the initialisation of the [3D View](../../help/interface/3d-view/3d-view.md), which occurs when the workspace is being set up.
 
 If the system is a laptop, a third-party application may enforce a *power management plan* that stops the 3D View from using the system's GPU. This can result in a crash if no other GPU device can perform the task in its place.
 

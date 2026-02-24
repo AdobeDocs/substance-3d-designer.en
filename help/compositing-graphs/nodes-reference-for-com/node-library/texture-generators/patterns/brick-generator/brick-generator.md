@@ -1,20 +1,17 @@
 ---
-title: "Brick Generator"
-description: "Use the Brick Generator node to create procedural brick patterns with customizable size, offset, and mortar properties."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick Generator
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-generator.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - grid
-  - patterns
-  - illustration
+breadcrumb-title: ""
+description: Use the Brick Generator node to create procedural brick patterns with customizable size, offset, and mortar properties.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick Generator
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Brick Generator
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Brick Generator
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 Advanced Brick-pattern generator. Has a lot of options for specifically generating man-made brick patterns
 
-For more options see [Tile Generator](../tile-generator/tile-generator.md).
+For more options see [Tile Generator](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
 ## Parameters
 

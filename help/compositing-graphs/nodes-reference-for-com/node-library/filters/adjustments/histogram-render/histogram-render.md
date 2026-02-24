@@ -1,9 +1,18 @@
 ---
-title: "Histogram render"
-description: "Use the Histogram Render node to visualize histogram data as a texture for analysis and debugging."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram render"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-render.html"
+breadcrumb-title: ""
+description: Use the Histogram Render node to visualize histogram data as a texture for analysis and debugging.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram render
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Histogram render
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Histogram render
 
@@ -35,12 +44,12 @@ Draws the histogram for a grayscale image.
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>

@@ -1,21 +1,17 @@
 ---
-title: "Noise Upscale 3"
-description: "Use the Noise Upscale 3 node to upscale textures using advanced noise-based algorithms for preserving detail at higher resolutions."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 3
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - noise
-  - reflections
-  - sharpen
+breadcrumb-title: ""
+description: Use the Noise Upscale 3 node to upscale textures using advanced noise-based algorithms for preserving detail at higher resolutions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Noise Upscale 3
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Noise Upscale 3
@@ -41,7 +37,7 @@ Takes an input noise procedural and scales it up to double resolution, keeping d
 
 This node is mostly intended for optimising slow graphs that use heavy, big noises. It allows you to use higher resolutions without introducing too much extra compute time.
 
-See also [Noise Upscale 1](../noise-upscale-1/noise-upscale-1.md) and [Noise Upscale 2](../noise-upscale-2/noise-upscale-2.md), which in most cases tend to be slightly better at hiding tiling.
+See also [Noise Upscale 1](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) and [Noise Upscale 2](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md), which in most cases tend to be slightly better at hiding tiling.
 
 ## Parameters
 

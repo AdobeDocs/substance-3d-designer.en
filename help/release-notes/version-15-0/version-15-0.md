@@ -1,9 +1,18 @@
 ---
-title: "Version 15.0"
-description: "Review release notes for Substance 3D Designer version 15.0 to learn about the new 3D renderer and native USD support."
-helpx_description: "Designer > Release Notes > Version 15.0"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 15.0 to learn about the new 3D renderer and native USD support.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 15.0
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Version 15.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 15.0
 
@@ -17,11 +26,11 @@ This update brings a brand new 3d renderer, with rasterizer and pathtracer modes
 
 ### New rasterizer and pathtracer
 
-This new release gives you access to an advanced [3D renderer](../../interface/3d-view/3d-renderers/3d-renderers.md), featuring a rasterizer mode (to have a real time preview while working on your material) and a path tracer mode (a ray traced mode to get a perfect and accurate render). This new renderer enhances functionality with features such as shadows in rasterizer mode, improves quality and performance, and is engineered to support future technologies like [MaterialX](https://materialx.org/). It complements the existing OpenGL and Iray renderers in Designer and aligns with the renderers available in Substance 3D Viewer and Substance 3D Sampler, ensuring a uniform experience across the ecosystem.
+This new release gives you access to an advanced [3D renderer](../../help/interface/3d-view/3d-renderers/3d-renderers.md), featuring a rasterizer mode (to have a real time preview while working on your material) and a path tracer mode (a ray traced mode to get a perfect and accurate render). This new renderer enhances functionality with features such as shadows in rasterizer mode, improves quality and performance, and is engineered to support future technologies like [MaterialX](https://materialx.org/). It complements the existing OpenGL and Iray renderers in Designer and aligns with the renderers available in Substance 3D Viewer and Substance 3D Sampler, ensuring a uniform experience across the ecosystem.
 
 ![shadows and translucency in rasterizer](feature_1b.png)
 
-The [3d view toolbar](../../interface/3d-view/3d-view.md) has been updated to have a quick access to some of the new features available in this renderer:
+The [3d view toolbar](../../help/interface/3d-view/3d-view.md) has been updated to have a quick access to some of the new features available in this renderer:
 
 * <b>Selection tool:</b> to select a submesh in the scene. Once a submesh is selected you can focus on it (F) or access to its material properties (right click).
 * <b>Enable pathtracer:</b> to quickly switch between pathtracer and rasterizer modes.
@@ -32,7 +41,7 @@ In addition, the hotkey to rotate the environment light has changed to match the
 
 ### Post effects
 
-[Post effects are back](../../interface/3d-view/camera/post-effects/post-effects.md)! They are now available through the Camera menu and they are now developed in house.
+[Post effects are back](../../help/interface/3d-view/camera/post-effects/post-effects.md)! They are now available through the Camera menu and they are now developed in house.
 
 * <b>Bloom:</b> simulate glare around bright spots like lights and reflections, allowing to better visualize emissive surfaces.
 * <b>Tone mapping: </b>the color range with profiles to get a high-dynamic-range (HDR) effect.
@@ -42,22 +51,22 @@ In addition, the hotkey to rotate the environment light has changed to match the
 
 ## Asset edition in context
 
-When you work on your materials, you may want to [preview it in the context of a specific 3D scene](../../working-with-3d-scenes/working-with-3d-scenes.md). That's why we added the possibility to import and render a full scene, with all its textures, cameras and lights. And cherry on top, if this scene references MaterialX shaders, they will be correctly rendered with the rasterizer!
+When you work on your materials, you may want to [preview it in the context of a specific 3D scene](../../help/working-with-3d-scenes/working-with-3d-scenes.md). That's why we added the possibility to import and render a full scene, with all its textures, cameras and lights. And cherry on top, if this scene references MaterialX shaders, they will be correctly rendered with the rasterizer!
 
 ![USD scene loaded and rendered in Designer](feature_2.png)
 
-Once imported, you can work on your scene by selecting a mesh (with a SHIFT + Click or thanks to the scene browser) and [overriding any of its materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). You may then:
+Once imported, you can work on your scene by selecting a mesh (with a SHIFT + Click or thanks to the scene browser) and [overriding any of its materials](../../help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). You may then:
 
 * Create or load a graph and apply it on a scene material.
-* Make adjustments to an existing material by [extracting its textures](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) into a new graph.
+* Make adjustments to an existing material by [extracting its textures](../../help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) into a new graph.
 
-Finally, once your 3d scene is edited, you can [export it](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) as a new file, or as a new layer of the original file, preventing you to any loss of data (for USD format only).
+Finally, once your 3d scene is edited, you can [export it](../../help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md) as a new file, or as a new layer of the original file, preventing you to any loss of data (for USD format only).
 
 Last but not least, more 3d formats are now supported for both import and export: USD (+ usda, usdc, usdz), STL, PLY and GLTF, in addition to already available formats FBX and OBJ.
 
 ## Rich tooltips
 
-Rich tooltips have been introduced to better demonstrate the purpose of each node. These tooltips, currently available only for [atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), include visuals to demonstrate the node's effect and provide a direct link to the documentation for detailed information, including the list of parameters, tips, and tricks.
+Rich tooltips have been introduced to better demonstrate the purpose of each node. These tooltips, currently available only for [atomic nodes](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), include visuals to demonstrate the node's effect and provide a direct link to the documentation for detailed information, including the list of parameters, tips, and tricks.
 
 <table>
 <tr style="border: 0;">
@@ -81,7 +90,7 @@ Rich tooltips have been introduced to better demonstrate the purpose of each nod
 
 ## Improve non square support
 
-If you need to work with non square textures, this new option is made for you. In the [material properties](../../interface/3d-view/material-properties/material-properties.md) in the 3D view, in the UVs options to control the tiling, you can now set a different value for both axis.
+If you need to work with non square textures, this new option is made for you. In the [material properties](../../help/interface/3d-view/material-properties/material-properties.md) in the 3D view, in the UVs options to control the tiling, you can now set a different value for both axis.
 
 ![different U V scale](nonsquare.png){zoomable="yes"}
 
@@ -105,7 +114,7 @@ Every year, the [VFX Reference Platform](https://vfxplatform.com/) publishes a
 
 *(Released July 15th, 2025)*
 
-### <b>Added</b>
+### Added
 
 * &#91;3D View&#93; Brand new renderer, with rasterizer and pathtracer modes
 * &#91;3D View&#93; Add a selection tool to pick an object in the 3D scene
@@ -182,7 +191,7 @@ Every year, the [VFX Reference Platform](https://vfxplatform.com/) publishes a
 * &#91;VFX&#93; Update OpenExr to 3.3.x
 * &#91;VFX&#93; Update Qt to 6.5.8
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;3D View&#93; Textures in exported USD scene are not correctly applied
 * &#91;3D View&#93; &#91;UDIM&#93; Cannot view UDIM graph outputs in 3D View when automatic viewing on graph opening is turned off in graph preferences

@@ -1,21 +1,17 @@
 ---
-title: "Leaks"
-description: "Use the Leaks node to generate leak patterns based on mesh geometry for creating water stains and fluid effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leaks
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/leaks.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - painting-illustration
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - reflections
-  - masking
-  - effects
+breadcrumb-title: ""
+description: Use the Leaks node to generate leak patterns based on mesh geometry for creating water stains and fluid effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Leaks
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Leaks
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Leaks

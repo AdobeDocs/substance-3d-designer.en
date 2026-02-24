@@ -1,20 +1,17 @@
 ---
-title: "3D Texture SDF"
-description: "Use the 3D Texture SDF node to generate signed distance field textures from 3D data for creating smooth shapes and effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture SDF
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - texture
-  - pbr
-  - 3d
+breadcrumb-title: ""
+description: Use the 3D Texture SDF node to generate signed distance field textures from 3D data for creating smooth shapes and effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > 3D Texture SDF
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: 3D Texture SDF
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 3D Texture SDF

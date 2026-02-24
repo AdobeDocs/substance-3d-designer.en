@@ -1,20 +1,17 @@
 ---
-title: "Comparison"
-description: "Access comparison nodes in Substance 3D Designer function graphs to compare values and generate boolean results."
-helpx_description: Designer > Function graphs > Nodes reference for function graphs > Comparison
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
-helpx_creative_field:
-  - 3d-immersive
-  - motion
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - booleans
-  - graphs
+breadcrumb-title: ""
+description: Access comparison nodes in Substance 3D Designer function graphs to compare values and generate boolean results.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Comparison
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Comparison
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Comparison nodes

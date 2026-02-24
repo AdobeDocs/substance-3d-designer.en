@@ -1,21 +1,17 @@
 ---
-title: "Grunge Rust Fine"
-description: "Use the Grunge Rust Fine node to generate fine rust patterns for adding corrosion and weathering effects to metals."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rust Fine
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - reflections
-  - effects
+breadcrumb-title: ""
+description: Use the Grunge Rust Fine node to generate fine rust patterns for adding corrosion and weathering effects to metals.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rust Fine
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Grunge Rust Fine
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Grunge Rust Fine

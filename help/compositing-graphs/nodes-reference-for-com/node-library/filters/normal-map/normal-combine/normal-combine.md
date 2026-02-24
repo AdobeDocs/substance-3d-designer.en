@@ -1,20 +1,17 @@
 ---
-title: "Normal Combine"
-description: "Use the Normal Combine node to combine multiple normal maps for layering surface details and details."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Combine
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - blending
-  - compositing
+breadcrumb-title: ""
+description: Use the Normal Combine node to combine multiple normal maps for layering surface details and details.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Combine
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Normal Combine
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Normal Combine
@@ -42,7 +39,7 @@ It is similar to the well-known "Overlay" method from other 2D image editing sof
 
 This is the best and most correct way to add 2D-generated normal map details to a baked map.
 
-If you want to blend two normal maps without combining their details (using a mask, for example), you should use [Normal Blend](../normal-blend/normal-blend.md).
+If you want to blend two normal maps without combining their details (using a mask, for example), you should use [Normal Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
 
 ## Input connectors
 

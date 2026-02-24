@@ -1,20 +1,17 @@
 ---
-title: "Normal Normalize"
-description: "Use the Normal Normalize node to normalize normal map vectors for ensuring correct surface lighting and shading."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Normalize
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-normalize.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - gradients
-  - 3d
+breadcrumb-title: ""
+description: Use the Normal Normalize node to normalize normal map vectors for ensuring correct surface lighting and shading.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Normalize
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Normal Normalize
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Normal Normalize

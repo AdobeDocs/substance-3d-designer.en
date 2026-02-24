@@ -1,20 +1,17 @@
 ---
-title: "Atlas Scatter"
-description: "Use the Atlas Scatter node to scatter textures across an atlas for creating tiled patterns from scanned materials."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Scatter
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-scatter.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - blending
-  - asset-warp
-  - baking
+breadcrumb-title: ""
+description: Use the Atlas Scatter node to scatter textures across an atlas for creating tiled patterns from scanned materials.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Atlas Scatter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Atlas Scatter
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Atlas Scatter
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-Extract elements from an Atlas and scatter them on a background. Atlas inputs are full materials, consisting of individual elements arranged and packed on a single texture sheet. This node splits them up (using an internal [Atlas Splitter](../atlas-splitter/atlas-splitter.md) process) and scatters them, similar to [Shape Splatter](../../../texture-generators/patterns/shape-splatter/shape-splatter.md). Atlas Scatter requires at minimum an Opacity map input , and a Height map input for the Atlas, to function.
+Extract elements from an Atlas and scatter them on a background. Atlas inputs are full materials, consisting of individual elements arranged and packed on a single texture sheet. This node splits them up (using an internal [Atlas Splitter](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-splitter/atlas-splitter.md) process) and scatters them, similar to [Shape Splatter](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md). Atlas Scatter requires at minimum an Opacity map input , and a Height map input for the Atlas, to function.
 
 >[!NOTE]
 >

@@ -1,20 +1,17 @@
 ---
-title: "Transformation 2D"
-description: "Use the Transformation 2D node to apply 2D transformations to textures including translation, rotation, and scaling."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - tiling
-  - transform
-  - scaling
+breadcrumb-title: ""
+description: Use the Transformation 2D node to apply 2D transformations to textures including translation, rotation, and scaling.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Transformation 2D
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Transformation 2D
@@ -38,7 +35,7 @@ It is quite similar to Transforming (Ctrl-T) in Photoshop, or using the 2D mappi
 
 This is an extremely useful and widely applied node, it allows for increasing tiling, removing tiling, placing an image in a specific position, stretching or squashing an input, etc.
 
-It can however not be a perfect match for certain applications, so the following nodes can be of interest: [Safe Transform](../../node-library/filters/transforms/safe-transform/safe-transform.md), [Non-Square Transform](../../node-library/filters/transforms/non-square-transform/non-square-transform.md), [Quad Transform](../../node-library/filters/transforms/quad-transform/quad-transform.md) and [Trapezoid Transform](../../node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).
+It can however not be a perfect match for certain applications, so the following nodes can be of interest: [Safe Transform](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), [Non-Square Transform](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), [Quad Transform](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md) and [Trapezoid Transform](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).
 
 <table>
 <tr style="border: 0;">
@@ -64,7 +61,7 @@ It can however not be a perfect match for certain applications, so the following
 >
 > Disabling tiling
 > 
-> Set the [inheritance method](../../../../glossary/glossary.md) of the 'Tiling mode' [base parameter](../../../../glossary/glossary.md) to 'Absolute', which then lets you set the parameter value to 'No Tiling':
+> Set the [inheritance method](../../../../help/glossary/glossary.md) of the 'Tiling mode' [base parameter](../../../../help/glossary/glossary.md) to 'Absolute', which then lets you set the parameter value to 'No Tiling':
 > 
 > ![](tilingmode.png)
 
@@ -76,12 +73,12 @@ It can however not be a perfect match for certain applications, so the following
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>
@@ -93,8 +90,8 @@ It can however not be a perfect match for certain applications, so the following
 | --- | --- |
 | <b>Transformation matrix</b> *Float4* | Open the underlying transform matrix for direct editing. Allows you to change rotation and scaling. Can also be adjusted through the gizmo in the 2D view.   Warning: they do not directly correlate to the view, and are relative adjustments that can be applied in steps. |
 | <b>Offset</b> *Float2* | Defines the 2D displacement of the image. Allows you to change the position or offset Can also be adjusted through the gizmo in the 2D view.   Does relate directly to the 2D view output. |
-| <b>Mipmap mode</b> *Integer* | Allows you to switch to a manual [mipmap](../../../../glossary/glossary.md) level, which reduces artifacts in an image using texture filtering. |
-| <b>Mipmap level</b> *Integer* | Sets the [mipmap](../../../../glossary/glossary.md) level to be used.     *Available when 'Mipmap mode' is set to 'Manual'* |
+| <b>Mipmap mode</b> *Integer* | Allows you to switch to a manual [mipmap](../../../../help/glossary/glossary.md) level, which reduces artifacts in an image using texture filtering. |
+| <b>Mipmap level</b> *Integer* | Sets the [mipmap](../../../../help/glossary/glossary.md) level to be used.     *Available when 'Mipmap mode' is set to 'Manual'* |
 | <b>Matte color</b> *Float4* | The color used as background when tiling of transformation is disabled. I.e., sets the color used when the transformed input does not cover an area of the output.   Can be made transparent if working in RGBA color. |
 | <b>Filtering</b> *Integer* | Sets the downsampling method used. Does not work particularly well with Mipmap Level being reduced. |
 

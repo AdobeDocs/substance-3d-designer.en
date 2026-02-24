@@ -1,21 +1,17 @@
 ---
-title: "Edge Damages"
-description: "Use the Edge Damages node to generate damage masks on mesh edges for creating realistic edge wear and breakage effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Damages
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-damages.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - painting-illustration
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - masking
-  - reflections
-  - add-objects-to-images
+breadcrumb-title: ""
+description: Use the Edge Damages node to generate damage masks on mesh edges for creating realistic edge wear and breakage effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Damages
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Edge Damages
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Edge Damages

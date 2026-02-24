@@ -1,21 +1,17 @@
 ---
-title: "3D Ridged Noise Fractal"
-description: "Use the 3D Ridged Noise Fractal node to generate ridged fractal noise patterns in 3D space for creating mountain-like textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - pbr
-  - texture
+breadcrumb-title: ""
+description: Use the 3D Ridged Noise Fractal node to generate ridged fractal noise patterns in 3D space for creating mountain-like textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Ridged Noise Fractal
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: 3D Ridged Noise Fractal
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # 3D Ridged Noise Fractal
@@ -37,7 +33,7 @@ helpx_learn_topic:
 
 The **3D Ridged Noise Fractal** node generates a *fractal* Ridged noise in 3D space based on the **Position Map** input.
 
-This node can be tested with [Cube 3D GBuffers](../../patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
+This node can be tested with [Cube 3D GBuffers](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
 
 >[!WARNING]
 >

@@ -1,20 +1,17 @@
 ---
-title: "Crystal 2"
-description: "Use the Crystal 2 node to generate advanced crystal patterns for creating crystalline and geometric texture effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 2
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/crystal-2.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - blending
-  - asset-warp
+breadcrumb-title: ""
+description: Use the Crystal 2 node to generate advanced crystal patterns for creating crystalline and geometric texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Crystal 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Crystal 2
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Crystal 2
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-Generates an angular, cloth crease-like pattern. Similar to [Crease Noise](../creased/creased.md).
+Generates an angular, cloth crease-like pattern. Similar to [Crease Noise](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/creased/creased.md).
 
 This is a bit of a niche noise: it can be useful for rare cases where you're after this type of detail, such as when recreating subtle marble patterns or doing cloth.
 

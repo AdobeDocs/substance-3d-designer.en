@@ -1,20 +1,17 @@
 ---
-title: "The Quadrant Node"
-description: "Use the Quadrant node in FXMaps to divide textures into four sections for creating tiled patterns and variations."
-helpx_description: Designer > Function graphs > FXMaps > The Quadrant Node
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - patterns
-  - effects
-  - asset-warp
+breadcrumb-title: ""
+description: Use the Quadrant node in FXMaps to divide textures into four sections for creating tiled patterns and variations.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > FXMaps > The Quadrant Node
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: The Quadrant Node
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # The Quadrant Node
@@ -75,7 +72,7 @@ This parameter can be controlled with a Dynamic Function.
 
 ### Inherit Random
 
-If set to "Yes", the random number generator seed is inherited from the previous node in the graph (i.e. the node above this one in the quad-tree.) If this is the first node, it takes its random seed from the containing [Substance graph](../../../compositing-graphs/substance-compositing-graphs.md).
+If set to "Yes", the random number generator seed is inherited from the previous node in the graph (i.e. the node above this one in the quad-tree.) If this is the first node, it takes its random seed from the containing [Substance graph](../../../help/compositing-graphs/substance-compositing-graphs.md).
 
 ## Patterns
 

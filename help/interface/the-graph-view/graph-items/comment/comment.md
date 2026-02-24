@@ -1,18 +1,17 @@
 ---
-title: "Comment"
-description: "Add comments to Substance 3D Designer graphs to document your workflow and explain node connections."
-helpx_description: Designer > Interface > Graph view > Graph items > Comment
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - graphs
+breadcrumb-title: ""
+description: Add comments to Substance 3D Designer graphs to document your workflow and explain node connections.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Graph view > Graph items > Comment
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Comment
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Comment
@@ -52,7 +51,7 @@ Type 'comment' in the search field to surface the item and find it more quickly.
 +++
 
 +++Shortcut
-If a keyboard shortcut is mapped to the 'Comment' item in the [Preferences](../../../preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
+If a keyboard shortcut is mapped to the 'Comment' item in the [Preferences](../../../../help/interface/preferences-window/preferences-window.md), press that shortcut when the Graph View has focus.
 
 +++
 
@@ -100,6 +99,6 @@ Text can be formatted using HTML tags. This formatting is toggled using the ![]
 
 >[!TIP]
 >
-> Learn more about this feature in the <b>Description</b> section of the [Frames](../frame/frame.md) documentation.
+> Learn more about this feature in the <b>Description</b> section of the [Frames](../../../../help/interface/the-graph-view/graph-items/frame/frame.md) documentation.
 
 ![Comments: HTML markup](graph-comment_html-markup.gif "Comments: HTML markup")

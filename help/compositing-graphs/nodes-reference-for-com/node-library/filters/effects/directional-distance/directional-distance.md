@@ -1,9 +1,18 @@
 ---
-title: "Directional distance"
-description: "Use the Directional Distance node to compute distance fields in specific directions for procedural effects."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Directional distance"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/directional-distance.html"
+breadcrumb-title: ""
+description: Use the Directional Distance node to compute distance fields in specific directions for procedural effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Directional distance
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Directional distance
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Directional distance
 
@@ -32,7 +41,7 @@ The distance of the gradient can be dynamically adjusted along the border using 
 
 >[!TIP]
 >
-> The [Bevel smooth](../bevel-smooth/bevel-smooth.md) node offers similar capabilities, where the dilation is performed in all directions.
+> The [Bevel smooth](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md) node offers similar capabilities, where the dilation is performed in all directions.
 
 <table>
 <tr style="border: 0;">
@@ -43,12 +52,12 @@ The distance of the gradient can be dynamically adjusted along the border using 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>
@@ -67,7 +76,7 @@ The distance of the gradient can be dynamically adjusted along the border using 
 |  |  |
 | --- | --- |
 | <b>Output</b> *Grayscale* | The result image according to the selected 'Output Mode'. |
-| <b>UV</b> *Color* | A UV map where the UVs are dilated from the mask borders along the specified direction.   This can be connected to a [UV Mapper](../../../spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) node to map any other image using these dilated UVs. |
+| <b>UV</b> *Color* | A UV map where the UVs are dilated from the mask borders along the specified direction.   This can be connected to a [UV Mapper](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) node to map any other image using these dilated UVs. |
 
 ## Parameters
 

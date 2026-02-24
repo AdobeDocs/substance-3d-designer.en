@@ -1,20 +1,17 @@
 ---
-title: "What is a Substance 3D File"
-description: "Learn about Substance 3D file formats and how they store procedural materials and textures for use across applications."
-helpx_description: Designer > Getting started > Overview > What is a Substance 3D File
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - materials
-  - pbr
+breadcrumb-title: ""
+description: Learn about Substance 3D file formats and how they store procedural materials and textures for use across applications.
+helpx_creative_field: ""
+helpx_description: Designer > Getting started > Overview > What is a Substance 3D File
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: What is a Substance 3D File
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # What is a Substance 3D File?

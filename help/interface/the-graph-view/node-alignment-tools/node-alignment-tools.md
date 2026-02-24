@@ -1,9 +1,18 @@
 ---
-title: "Node alignment tools"
-description: "Use node alignment tools to organize and align nodes in the graph view for cleaner, more readable graphs."
-helpx_description: "Designer > Interface > The graph view > Node alignment tools"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+breadcrumb-title: ""
+description: Use node alignment tools to organize and align nodes in the graph view for cleaner, more readable graphs.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > The graph view > Node alignment tools
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Node alignment tools
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Node alignment tools
 
@@ -19,7 +28,7 @@ They act on the <b>nodes currently selected only</b>.
 > 
 > Some actions have keyboard shortcuts for quick acces: H, V and S. They are displayed between parentheses in the list of actions below.
 > 
-> Note that these will override any [keyboard shortcut assigned to nodes](../../preferences-window/preferences-window.md).
+> Note that these will override any [keyboard shortcut assigned to nodes](../../../help/interface/preferences-window/preferences-window.md).
 
 ## Alignments
 

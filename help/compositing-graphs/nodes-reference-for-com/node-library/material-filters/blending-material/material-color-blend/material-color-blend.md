@@ -1,20 +1,17 @@
 ---
-title: "Material Color Blend"
-description: "Use the Material Color Blend node to blend color channels between materials for creating composite material effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Color Blend
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - blending
-  - color
-  - creating-color-palettes
+breadcrumb-title: ""
+description: Use the Material Color Blend node to blend color channels between materials for creating composite material effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Color Blend
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Material Color Blend
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Material Color Blend
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-This node allows for adjustments to a Multi Channel, Full Material by blending solid colors on top. This is the main difference with [Material Adjustment Blend](../material-adjustment-blend/material-adjustment-blend.md), which only allows for [Levels](../../../../atomic-nodes/levels/levels.md)-type adjustments to channels, whereas this node uses [Blend](../../../../atomic-nodes/blend/blend.md)-type adjustments with a solid color.
+This node allows for adjustments to a Multi Channel, Full Material by blending solid colors on top. This is the main difference with [Material Adjustment Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md), which only allows for [Levels](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)-type adjustments to channels, whereas this node uses [Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)-type adjustments with a solid color.
 
 This node is most useful when you want to either introduce a flat color hint into Diffuse or Base Color, or went you want to "flatten" out other channels by using a set, solid color value.
 

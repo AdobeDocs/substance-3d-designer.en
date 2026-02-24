@@ -1,20 +1,17 @@
 ---
-title: "Grunge Splashes Dusty"
-description: "Use the Grunge Splashes Dusty node to create dusty splash patterns for adding weathered texture details."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Splashes Dusty
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - normal-maps
-  - reflections
-  - effects
+breadcrumb-title: ""
+description: Use the Grunge Splashes Dusty node to create dusty splash patterns for adding weathered texture details.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Splashes Dusty
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Grunge Splashes Dusty
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Grunge Splashes Dusty

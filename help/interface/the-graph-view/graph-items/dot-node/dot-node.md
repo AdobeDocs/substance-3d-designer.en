@@ -1,19 +1,17 @@
 ---
-title: "Dot node (also Portal)"
-description: "Use dot nodes and portal nodes in Substance 3D Designer to create connection points and organize graph flow."
-helpx_description: Designer > Interface > Graph view > Graph items
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - graphs
+breadcrumb-title: ""
+description: Use dot nodes and portal nodes in Substance 3D Designer to create connection points and organize graph flow.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Graph view > Graph items
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Dot node (also Portal)
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Dot node (also Portal)
@@ -134,6 +132,6 @@ A portal is deleted when the transmitter's <b>Name</b> is cleared, or when the 
 
 >[!IMPORTANT]
 >
-> Using Dot nodes as portals is not supported in [FX-Map graphs](../../../../function-graphs/fxmaps/fxmaps.md).
+> Using Dot nodes as portals is not supported in [FX-Map graphs](../../../../help/function-graphs/fxmaps/fxmaps.md).
 
 Check out this tutorial about Dot nodes as portals:

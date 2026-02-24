@@ -1,25 +1,22 @@
 ---
-title: "Font resource"
-description: "Import and use font resources in Substance 3D Designer to add text and typography to your materials."
-helpx_description: Designer > Resources > Font resource
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/font-resource.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - fonts
-  - custom-lettering
-  - graphic-styles
+breadcrumb-title: ""
+description: Import and use font resources in Substance 3D Designer to add text and typography to your materials.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > Font resource
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Font resource
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Font resource
 
-Font Resources are meant to be used together with the [atomic Text node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md). They allow you to use fonts that are not installed on your system, by referencing a font file anywhere on disk.
+Font Resources are meant to be used together with the [atomic Text node](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md). They allow you to use fonts that are not installed on your system, by referencing a font file anywhere on disk.
 
 >[!NOTE]
 >
@@ -31,7 +28,7 @@ Font Resources are meant to be used together with the [atomic Text node](../../c
 
 * Right-click on a package, choose <b>Link &gt; Font</b>
 * Select an .otf or .ttf file.
-* Place a [Text node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) in your [graph](../../compositing-graphs/substance-compositing-graphs.md).
+* Place a [Text node](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) in your [graph](../../help/compositing-graphs/substance-compositing-graphs.md).
 * Under the <b>Font </b>property, any font resources will be found at the top of the list.
 
 Note the font list does not automatically refresh with the properties open. You will have to switch to another property window and back to a Text node to see newly linked fonts.

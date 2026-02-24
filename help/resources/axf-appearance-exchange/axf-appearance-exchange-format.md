@@ -1,20 +1,17 @@
 ---
-title: "AxF (Appearance eXchange Format)"
-description: "Learn how to import and use AxF appearance exchange format resources in Substance 3D Designer for material import."
-helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - texture
-  - xr
-  - product-design
+breadcrumb-title: ""
+description: Learn how to import and use AxF appearance exchange format resources in Substance 3D Designer for material import.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: AxF (Appearance eXchange Format)
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # AxF (Appearance eXchange Format)
@@ -38,12 +35,12 @@ Substance 3D Designer supports [X-Rite's Appearance eXchange Format.](https://w
 
 In simple terms, AxF files host a number of textures extracted by X-Rite's TAC7 scanner hardware, coupled with metadata that describe additional properties of the material. That means an AxF is more than just texture data: it also carries shading properties.
 
-AxF files are *not* imported as a package [resource](../resources.md). Rather, the involves extracting textures and metadata from the AxF file then using those to prepare graphs created from .
+AxF files are *not* imported as a package [resource](../../help/resources/resources.md). Rather, the [import process](#import) involves extracting textures and metadata from the AxF file then using those to prepare graphs created from [dedicated templates](#graph-templates).
 
 The available templates are aimed at two AxF workflows:
 
 * <b>Converting</b> an SVBRDF material in an AxF file into a PBR material;
-* <b>Editing</b> an SVBRDF material in place and to an existing AxF file as a new layer.
+* <b>Editing</b> an SVBRDF material in place and [exporting it](#export) to an existing AxF file as a new layer.
 
 >[!NOTE]
 >
@@ -60,7 +57,7 @@ The available templates are aimed at two AxF workflows:
 The AxF files import workflow may be started from on of the two methods below:
 
 +++Home screen
-Click on the <b>Import AxF...</b> button in the [Home screen](../../interface/home-screen/home-screen.md)'s left section.
+Click on the <b>Import AxF...</b> button in the [Home screen](../../help/interface/home-screen/home-screen.md)'s left section.
 
 ![AxF: Start import from Home screen](axf_home-screen.png "AxF: Start import from Home screen"){width="600px"}
 
@@ -85,17 +82,17 @@ It features four sections:
 
 The <b>Header</b> displays the name of the material detected in the AxF file, as well as its representation (currently, always SVBRDF). The preview thumbnail embedded into the file is also displayed.
 
-The <b>Templates</b> section lets you set up the [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) and [MDL graph](../../mdl-graphs/mdl-graphs.md) templates to get started with working on the material. See the section below to learn more about these templates and setting them up.
+The <b>Templates</b> section lets you set up the [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md) and [MDL graph](../../help/mdl-graphs/mdl-graphs.md) templates to get started with working on the material. See the [Graph templates](#graph-templates) section below to learn more about these templates and setting them up.
 
 <b>Textures</b> lists all textures extracted from the AxF file involved in the detected material. For each texture, their name, native resolution, data format and physical size are displayed.
 
-<b>Metadata</b> and <b>Properties</b> list data extracted from the material in the AxF file. These have an impact on how some Substance graph templates properties are configured (see section below).
+<b>Metadata</b> and <b>Properties</b> list data extracted from the material in the AxF file. These have an impact on how some Substance graph templates properties are configured (see [Graph templates](#graph-templates) section below).
 
 ![AxF: Import dialog](axf_import.png "AxF: Import dialog")
 
 ### Result
 
-After clicking the <b>OK</b> button, a package is created in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md). The package includes the following resources:
+After clicking the <b>OK</b> button, a package is created in the [Explorer](../../help/interface/the-explorer-window/the-explorer-window.md). The package includes the following resources:
 
 <table>
 <tr style="border: 0;">
@@ -106,7 +103,7 @@ A <b>Resources</b> folder hosts a *subfolder* for each material imported from th
 Each subfolder includes another subfolder that contains the *textures* extracted from the AxF file for that material. This last subfolder is named after the material *representation* used by the textures (currently only <b>SVBRDF</b>).
 
 A graph for each template set up in the <b>Templates</b> section of the import dialog.  
-In the case of [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), these are preconfigured with the textures and data extracted from the AxF file, as well as your selected template settings (see section below).
+In the case of [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md), these are preconfigured with the textures and data extracted from the AxF file, as well as your selected template settings (see Graph templates section below).
 
 </td>
 <td style="border: 0;" valign="top">
@@ -123,7 +120,7 @@ In the case of [Substance graphs](../../compositing-graphs/substance-compositing
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-There are graph templates dedicated to AxF workflows for [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) and [MDL graphs](../../mdl-graphs/mdl-graphs.md).
+There are graph templates dedicated to AxF workflows for [Substance graphs](../../help/compositing-graphs/substance-compositing-graphs.md) and [MDL graphs](../../help/mdl-graphs/mdl-graphs.md).
 
 Click the <b>Add template</b> button and select the desired graph type in the drop down menu.
 
@@ -142,7 +139,7 @@ Click the <b>Add template</b> button and select the desired graph type in the dr
 
 ### MDL graph templates
 
-Generic conversion templates are available to map the outputs of <b>AxF to PBR</b> Substance graphs templates to an [MDL](../../mdl-graphs/mdl-graphs.md) material.
+Generic conversion templates are available to map the outputs of <b>AxF to PBR</b> Substance graphs templates to an [MDL](../../help/mdl-graphs/mdl-graphs.md) material.
 
 Thus, these templates are best used in combination with the 'AxF to Metallic Roughness' and 'AxF to Specular Glossiness' Substance graph templates.
 
@@ -167,7 +164,7 @@ Two types of Substance graph templates are available:
 These can then be used with the default 3D View shaders and combined with other PBR materials produced in Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html) or acquired from our [3D Assets](https://substance3d.adobe.com/assets/) library.  
 Conversion templates may be used in combination with MDL templates dedicated to AxF, see above.
 
-<b>AxF to AxF</b> is a *passthrough* template that lets you edit AxF materials in place and export these changes as new layers in existing AxF files. See below to learn more.
+<b>AxF to AxF</b> is a *passthrough* template that lets you edit AxF materials in place and export these changes as new layers in existing AxF files. See Exporting AxF files below to learn more.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -184,11 +181,11 @@ Conversion templates may be used in combination with MDL templates dedicated to 
 
 For all Substance graph templates added in the <b>Templates</b> list, the following additional operations are performed:
 
-For any [<b>Input</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) node which *usage* matches the *identifier* of a texture extracted from the AxF file, that Input node is replaced by a [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node referencing that texture;
+For any [<b>Input</b>](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) node which *usage* matches the *identifier* of a texture extracted from the AxF file, that Input node is replaced by a [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node referencing that texture;
 
 The graph's <b>Resolution</b> property (I.e., Output size) is automatically set to the power of two equal to or above the resolution of the *largest* extracted texture;
 
-The [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes' <b>Resolution</b> property (I.e., Output size) is automaticall set to mach the graph's, after the previous operation is applied;
+The [Bitmap](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes' <b>Resolution</b> property (I.e., Output size) is automaticall set to mach the graph's, after the previous operation is applied;
 
 The graph's <b>Physical size</b> property is set to the physical size of the *first* extracted texture;
 
@@ -202,7 +199,7 @@ The *metadata* extracted from the material in the AxF file is copied in the grap
 > 
 > They specify shading properties that are essential to interpret the values in the textures correctly.
 > 
-> Therefore, changing these settings will result in incorrect render when in the [3D View](../../interface/3d-view/3d-view.md).
+> Therefore, changing these settings will result in incorrect render when visualizing the material in the [3D View](../../help/interface/3d-view/3d-view.md).
 
 </td>
 <td style="border: 0;" valign="top">
@@ -215,7 +212,7 @@ The *metadata* extracted from the material in the AxF file is copied in the grap
 
 ## Exporting AxF files
 
-Existing AxF files can be edited in place from Designer, their resources are updated using the [outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) of a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
+Existing AxF files can be edited in place from Designer, their resources are updated using the [outputs](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) of a [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md).
 
 With the ability to export graph outputs to AxF files, a typical AxF workflow in Designer may look like this:
 
@@ -240,7 +237,7 @@ The graph's <b>Physical Size</b> property is used to set the <b>Physical Size
 
 The <b>AxF</b> export dialog is available in the <b>Export outputs</b> dialog as a dedicated tab.
 
-In the [Graph View](../../interface/the-graph-view/the-graph-view.md) toolbar, open the ![](tools.jpg) <b>Tools</b> menu and select the <b>Export outputs...</b> option to display the dialog, then select the <b>AxF</b> tab.
+In the [Graph View](../../help/interface/the-graph-view/the-graph-view.md) toolbar, open the ![](tools.jpg) <b>Tools</b> menu and select the <b>Export outputs...</b> option to display the dialog, then select the <b>AxF</b> tab.
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -275,7 +272,7 @@ The result is displayed as a message next to the progress bar in the dialog's st
 
 ### Mapping outputs to AxF resources
 
-When exporting to an existing AxF file, its resources are updated using the graph outputs. Designer matches the resource identifier to the [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes which have that same identifier as a <b>Usage</b>.
+When exporting to an existing AxF file, its resources are updated using the graph outputs. Designer matches the resource identifier to the [Output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes which have that same identifier as a <b>Usage</b>.
 
 Additionally, the Output's <b>Group</b> property *must* be set to 'AxF' for it to be listed in the AxF export dialog (see above).
 
@@ -285,24 +282,24 @@ Resources can be textures (I.e. bitmaps) or uniforms (I.e. values) with a specif
 
 The number of channels is specified differently depending on the type of data supplied to the Output node:
 
-* <b>Bitmap (Texture):</b> The [Components](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) property is used to specify the number of channels, where R is one channel, RG is two channels, and so on. The property is used to let Designer know which of the color bitmap's RGBA channels should be encoded into the resource.
-* <b>Value (Uniform):</b> The number of components of the vector value is used to specify the number of channels, where [Float](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) is one channel, [Float2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) is two channels, and so on.
+* <b>Bitmap (Texture):</b> The [Components](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) property is used to specify the number of channels, where R is one channel, RG is two channels, and so on. The property is used to let Designer know which of the color bitmap's RGBA channels should be encoded into the resource.
+* <b>Value (Uniform):</b> The number of components of the vector value is used to specify the number of channels, where [Float](../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) is one channel, [Float2](../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) is two channels, and so on.
 
 >[!IMPORTANT]
 >
-> In the <b>AxF to AxF</b> Substance graph template, the [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node for the <b>Specular Lobe</b> contribution is configured by default to a *single channel* (I.e., its Components property is set to 'R').  
+> In the <b>AxF to AxF</b> Substance graph template, the [Output](../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node for the <b>Specular Lobe</b> contribution is configured by default to a *single channel* (I.e., its Components property is set to 'R').  
 > If the imported AxF file uses more than one channel in its Specular Lobe resource, please set the Output's <b>Components</b> property accordingly.
 > 
 > For instance, for a Specular Lobe resource using two channels (Red for Specular Roughness and Green for Specular Anisotropy), set the Components property to 'RG'.
 
 ## Viewing AxF files in the 3D View
 
-The method to render AxF SVBRDF materials in the [3D View](../../interface/3d-view/3d-view.md) depends on the .
+The method to render AxF SVBRDF materials in the [3D View](../../help/interface/3d-view/3d-view.md) depends on the [import setup](#import).
 
 +++Convert to PBR
-If you wish to convert an SVBRDF material in an AxF file into a standard PBR material, then your import setup will likely involve [MDL graph](../../mdl-graphs/mdl-graphs.md) and [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) conversion templates (see  section above).
+If you wish to convert an SVBRDF material in an AxF file into a standard PBR material, then your import setup will likely involve [MDL graph](../../help/mdl-graphs/mdl-graphs.md) and [Substance graph](../../help/compositing-graphs/substance-compositing-graphs.md) conversion templates (see Graph templates section above).
 
-In that case, the MDL graph should be dragged and dropped into the 3D View before any other operation, in order to automatically switch to the [Iray](../../interface/3d-view/iray/iray.md) renderer and use that MDL graph as material definition.  
+In that case, the MDL graph should be dragged and dropped into the 3D View before any other operation, in order to automatically switch to the [Iray](../../help/interface/3d-view/iray/iray.md) renderer and use that MDL graph as material definition.  
 Then, you may drag and drop the Substance graph that you set up in the import dialog, in order to connect its outputs to the MDL shader.
 
 ![AxF: Viewing for conversion](axf-view-for-convert.gif "AxF: Viewing for conversion")
@@ -318,10 +315,10 @@ A dedicated GLSLFX shader is available for visualizing materials using an SVBRDF
 
 The shader is available in the <b>Materials</b> menu : open the submenu for the scene's material ('Default' by default) and select any technique under the <b>AxF SVBRDF</b> entry.
 
-Use the <b>Edit</b> option in the same submenu to display the shader's properties in the [Properties](../../interface/properties/properties.md) dock.  
+Use the <b>Edit</b> option in the same submenu to display the shader's properties in the [Properties](../../help/interface/properties/properties.md) dock.  
 In particular, the <b>Tiling</b> property lets you adjust the tiling of textures on the model, so you can visualize the material at an appropriate scale.
 
-After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the [3D View](../../interface/3d-view/3d-view.md).
+After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the [3D View](../../help/interface/3d-view/3d-view.md).
 
 ![AxF: SVBRDF GLSLFX shader](axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX shader"){width="600px"}
 
@@ -329,22 +326,22 @@ After selecting the shader, click RMB in empty space in the graph and select the
 
 This shader is less accurate than its Iray counterpart, and is currently a *work in progress* and some features are still unsupported. Therefore, while it can provide an overview of the materials' characteristics, it should not be used for fine adjustments .
 
-Please switch to the [Iray](../../interface/3d-view/iray/iray.md) renderer and use the <b>svbrdf</b> MDL shader for a more accurate visualization.
+Please switch to the [Iray](../../help/interface/3d-view/iray/iray.md) renderer and use the <b>svbrdf</b> MDL shader for a more accurate visualization.
 
 A dedicated MDL shader is available for visualizing materials using an SVBRDF representation from an AxF file: <b>svbrdf</b>.
 
 The shader is available in the <b>Materials</b> menu : open the submenu for the scene's material ('Default' by default) and select the <b>svbrdf</b> MDL shader under the <b>mdl::alg::materials</b> entry.
 
-Use the <b>Edit</b> option in the same submenu to display the shader's properties in the [Properties](../../interface/properties/properties.md) dock.  
+Use the <b>Edit</b> option in the same submenu to display the shader's properties in the [Properties](../../help/interface/properties/properties.md) dock.  
 In particular, the <b>Tiling</b> property lets you adjust the tiling of textures on the model, so you can visualize the material at an appropriate scale.
 
-After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the [3D View](../../interface/3d-view/3d-view.md).
+After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the [3D View](../../help/interface/3d-view/3d-view.md).
 
 ![AxF: SVBRDF MDL shader](axf_mdl-svbrdf.png "AxF: SVBRDF MDL shader"){width="600px"}
 
 
 
-This shader is more accurate than its OpenGL counterpart. It uses the [Iray](../../interface/3d-view/iray/iray.md) renderer, thus you need to switch to this renderer by going to <b>Renderer &gt; Iray</b>, before the shader can be accessed in the <b>Materials</b> menu.
+This shader is more accurate than its OpenGL counterpart. It uses the [Iray](../../help/interface/3d-view/iray/iray.md) renderer, thus you need to switch to this renderer by going to <b>Renderer &gt; Iray</b>, before the shader can be accessed in the <b>Materials</b> menu.
 
 ![AxF: Viewing for edition](axf-view-for-edit.gif "AxF: Viewing for edition")
 

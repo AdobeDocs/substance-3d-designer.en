@@ -1,20 +1,17 @@
 ---
-title: "Color Temperature Adjustment"
-description: "Use the Color Temperature Adjustment node to adjust color temperature in HDRI environments for warm or cool lighting effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Color Temperature Adjustment
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/color-temperature-adjustment.html"
-helpx_creative_field:
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - enhancing-color
-  - food-photography
-  - landscape-photography
+breadcrumb-title: ""
+description: Use the Color Temperature Adjustment node to adjust color temperature in HDRI environments for warm or cool lighting effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Color Temperature Adjustment
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Color Temperature Adjustment
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Color Temperature Adjustment

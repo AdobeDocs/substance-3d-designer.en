@@ -1,21 +1,17 @@
 ---
-title: "Material Selector"
-description: "Use the Material Selector node to select materials based on mesh data for creating multi-material texture effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Selector
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-selector.html"
-helpx_creative_field:
-  - painting-illustration
-  - graphic-design
-  - 3d-immersive
-helpx_experience_level:
-  - intermediate
-helpx_learn_topic:
-  - masking
-  - add-objects-to-images
-  - replacing-backgrounds
+breadcrumb-title: ""
+description: Use the Material Selector node to select materials based on mesh data for creating multi-material texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Selector
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Material Selector
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Material Selector
@@ -39,7 +35,7 @@ helpx_learn_topic:
 
 Converts a full-color ID map to a binary, black and white mask. Allows blending and combining of different colors into one mask.
 
-This is handy if you don't want to use [Multi-Material Blend](../../../material-filters/blending-material/multi-material-blend/multi-material-blend.md) and prefer to use the mask manually, or alternatively if you want to manually use those same masks in other locations.
+This is handy if you don't want to use [Multi-Material Blend](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md) and prefer to use the mask manually, or alternatively if you want to manually use those same masks in other locations.
 
 ## Parameters
 

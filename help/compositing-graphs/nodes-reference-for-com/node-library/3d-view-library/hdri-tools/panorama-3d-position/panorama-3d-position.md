@@ -1,20 +1,17 @@
 ---
-title: "Panorama 3D Position"
-description: "Use the Panorama 3D Position node to position HDRI panoramas in 3D space for creating custom lighting environments."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Panorama 3D Position
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-3d-position.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - panorama
-  - perspective
+breadcrumb-title: ""
+description: Use the Panorama 3D Position node to position HDRI panoramas in 3D space for creating custom lighting environments.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Panorama 3D Position
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Panorama 3D Position
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Panorama 3D Position

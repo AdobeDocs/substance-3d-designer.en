@@ -1,20 +1,17 @@
 ---
-title: "Gradient Linear 1"
-description: "Use the Gradient Linear 1 node to create linear gradients for blending colors and creating smooth transitions."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 1
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
-helpx_creative_field:
-  - painting-illustration
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - gradients
-  - illustration
-  - creative-effects
+breadcrumb-title: ""
+description: Use the Gradient Linear 1 node to create linear gradients for blending colors and creating smooth transitions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Linear 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Gradient Linear 1
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Gradient Linear 1
@@ -38,7 +35,7 @@ helpx_learn_topic:
 
 Simple black-and-white linear gradient. Gives a perfectly smooth, interpolated result for a perfect gradient transition.
 
-Despite its simplicity, this is an extremely useful pattern that can be used as a building block with many other nodes! Try it together with a [Histogram Scan](../../../filters/adjustments/histogram-scan/histogram-scan.md), for example.
+Despite its simplicity, this is an extremely useful pattern that can be used as a building block with many other nodes! Try it together with a [Histogram Scan](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), for example.
 
 ## Parameters
 

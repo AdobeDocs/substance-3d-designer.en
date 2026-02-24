@@ -1,20 +1,17 @@
 ---
-title: "Cast"
-description: "Use cast nodes in Substance 3D Designer function graphs to convert data types between float, int, and vector."
-helpx_description: Designer > Function graphs > Nodes reference for function graphs > Cast
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - transitions
-  - distortions
+breadcrumb-title: ""
+description: Use cast nodes in Substance 3D Designer function graphs to convert data types between float, int, and vector.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Cast
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Cast
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Cast nodes

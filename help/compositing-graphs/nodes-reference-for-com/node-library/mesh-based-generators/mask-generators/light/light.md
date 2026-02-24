@@ -1,20 +1,17 @@
 ---
-title: "Light"
-description: "Use the Light node to generate masks based on mesh lighting conditions for creating realistic material variations."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Light
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/light.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - masking
-  - creative-effects
-  - effects
+breadcrumb-title: ""
+description: Use the Light node to generate masks based on mesh lighting conditions for creating realistic material variations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Light
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Light
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Light

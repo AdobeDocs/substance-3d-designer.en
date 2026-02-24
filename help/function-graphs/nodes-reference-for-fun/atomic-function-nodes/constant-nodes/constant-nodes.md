@@ -1,25 +1,22 @@
 ---
-title: "Constant"
-description: "Access constant nodes in Substance 3D Designer function graphs to define constant values and parameters."
-helpx_description: Designer > Function graphs > Nodes reference for function graphs > Constant
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - nodes
-  - symbols
-  - booleans
+breadcrumb-title: ""
+description: Access constant nodes in Substance 3D Designer function graphs to define constant values and parameters.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Constant
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Constant
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Constant
 
-Constant nodes are a way to create a static value for use inside Substance function graphs. Unlike [variables](../../../variables/variables.md), they cannot be modified externally.
+Constant nodes are a way to create a static value for use inside Substance function graphs. Unlike [variables](../../../../help/function-graphs/variables/variables.md), they cannot be modified externally.
 
 Additionally, this page provides some extra information for each data type and common use cases.
 
@@ -27,17 +24,17 @@ Additionally, this page provides some extra information for each data type and c
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Integers
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Floats
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Others
 
 </td>
 </tr>
@@ -47,7 +44,7 @@ Additionally, this page provides some extra information for each data type and c
 
 Constant integers generate whole numbers, and have a step of  1.
 
-[They can be converted to Float,](../cast-nodes/cast-nodes.md) which is recommended to do when performing any operation more complex than additions, subtractions and simple comparisons.
+[They can be converted to Float,](../../../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) which is recommended to do when performing any operation more complex than additions, subtractions and simple comparisons.
 
 <table>
 <tr style="border: 0;">
@@ -62,12 +59,12 @@ Constant integers generate whole numbers, and have a step of  1.
 
 An integer has a single component. It is useful as an index for making selections, such as:
 
-* selecting an option presented to the user as a drop down menu (see 'Drop down list' in [this page](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)).
-* selecting the input of a [Multi switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) node.<b></b>
+* selecting an option presented to the user as a drop down menu (see 'Drop down list' in [this page](../../../../help/compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)).
+* selecting the input of a [Multi switch](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) node.<b></b>
 
 >[!IMPORTANT]
 >
-> <b>Negative integers</b> in parameter functions are *not supported*. See [this page](../../../../technical-issues/parameters-not-working/parameters-not-working-as-expected.md) in the 'Technical issues' section for a workaround.
+> <b>Negative integers</b> in parameter functions are *not supported*. See [this page](../../../../help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md) in the 'Technical issues' section for a workaround.
 
 </td>
 </tr>
@@ -86,7 +83,7 @@ An integer has a single component. It is useful as an index for making selection
 
 An Integer2 node generates a static 2-component integer vector with (X, Y) components.
 
-Integer2 is not common, but is used for example to set X and Y 2D tiling in a [Tile generator](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
+Integer2 is not common, but is used for example to set X and Y 2D tiling in a [Tile generator](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md).
 
 </td>
 </tr>
@@ -136,7 +133,7 @@ Integer 4 is not common and is unlikely to be encountered much.<b>
 
 Constant Floats generate fractional numbers, not wholenumbers, which means they will always have values after the decimal sign, and can in- or decrease by steps smaller than 1 (default 0.01).
 
-[Floats can be converted to Integers](../cast-nodes/cast-nodes.md) but they will be rounded up or down to the nearest Integer, meaning data and accuracy is lost.
+[Floats can be converted to Integers](../../../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) but they will be rounded up or down to the nearest Integer, meaning data and accuracy is lost.
 
 <table>
 <tr style="border: 0;">
@@ -166,7 +163,7 @@ A Float, has a single component, the (1) is omitted from the name for brevity. F
 
 <b>Float2</b>
 
-A Float2 node generates a static 2-component Float Vector. Components are named X, Y. Float2 is quite common and is used for [sampling coordinates](../sampler-nodes/sampler-nodes.md), and for [Transformation Offsets](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
+A Float2 node generates a static 2-component Float Vector. Components are named X, Y. Float2 is quite common and is used for [sampling coordinates](../../../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), and for [Transformation Offsets](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
 
 </td>
 </tr>
@@ -183,7 +180,7 @@ A Float2 node generates a static 2-component Float Vector. Components are named 
 
 <b>Float3</b>
 
-A Float3 node generates a static 3-component Float Vector. Components are named X,Y,Z. Float3 is uncommon, it is mainly used to represent [3D scale coordinates](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md), and as a simpler way to store color without Alpha data.<b>  
+A Float3 node generates a static 3-component Float Vector. Components are named X,Y,Z. Float3 is uncommon, it is mainly used to represent [3D scale coordinates](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md), and as a simpler way to store color without Alpha data.<b>  
 </b>
 
 </td>
@@ -201,7 +198,7 @@ A Float3 node generates a static 3-component Float Vector. Components are named 
 
 <b>Float4</b>
 
-A Float4 generates a static 4-component Float Vector.Components are named X,Y,Z,W. Float4 is very common, as it is the preferred way to store and set [Color information, where XYZW data represents RGBA values.](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>  
+A Float4 generates a static 4-component Float Vector.Components are named X,Y,Z,W. Float4 is very common, as it is the preferred way to store and set [Color information, where XYZW data represents RGBA values.](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)<b>  
 </b>
 
 </td>
@@ -210,7 +207,7 @@ A Float4 generates a static 4-component Float Vector.Components are named X,Y,Z,
 
 ## Others
 
-Two additional data types exist inside Substance function graphs: booleans and strings. Strings were introduced alongside the [Text](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node in Designer version 6.
+Two additional data types exist inside Substance function graphs: booleans and strings. Strings were introduced alongside the [Text](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node in Designer version 6.
 
 <table>
 <tr style="border: 0;">
@@ -223,7 +220,7 @@ Two additional data types exist inside Substance function graphs: booleans and s
 
 <b>Boolean</b>
 
-A Boolean is the simplest data type there is, knowing only two states: True or False, 1 or 0. It is represented by the color white. It is not possible to interchange between Boolean and Integer without [Casting](../cast-nodes/cast-nodes.md), or by using [Logical Nodes.](../logical-nodes/logical-nodes.md) A Boolean is quite common and it's an excellent way to control the flow of a function or graph, a typical use would be for a [Switch Node.](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
+A Boolean is the simplest data type there is, knowing only two states: True or False, 1 or 0. It is represented by the color white. It is not possible to interchange between Boolean and Integer without [Casting](../../../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), or by using [Logical Nodes.](../../../../help/function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) A Boolean is quite common and it's an excellent way to control the flow of a function or graph, a typical use would be for a [Switch Node.](../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
 
 </td>
 </tr>
@@ -240,7 +237,7 @@ A Boolean is the simplest data type there is, knowing only two states: True or F
 
 <b>String</b>
 
-A String Node generates a static String, a piece of text. It is the most exotic type of Data available in Functions, and generally can not be used much in conjunction with other Function nodes. It's main goal is to function as a final output for the [Text Node.](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
+A String Node generates a static String, a piece of text. It is the most exotic type of Data available in Functions, and generally can not be used much in conjunction with other Function nodes. It's main goal is to function as a final output for the [Text Node.](../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
 
 </td>
 </tr>

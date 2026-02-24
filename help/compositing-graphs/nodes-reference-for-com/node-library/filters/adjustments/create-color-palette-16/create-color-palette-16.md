@@ -1,9 +1,18 @@
 ---
-title: "Create Color Palette (16)"
-description: "Use the Create Color Palette node to extract a 16-color palette from textures for stylized effects."
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Create Color Palette (16)"
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/create-color-palette-16.html"
+breadcrumb-title: ""
+description: Use the Create Color Palette node to extract a 16-color palette from textures for stylized effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Create Color Palette (16)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Create Color Palette (16)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Create Color Palette (16)
 
@@ -24,7 +33,7 @@ Creates an ordered list of colors and outputs it as a palette, with a maximum of
 
 The node can append new colors to an existing palette, using the set of 'Palette' inputs.
 
-This node may be used in combination with the following nodes: [Quantize Color](../quantize-color/quantize-color.md), [Apply Color Palette](../apply-color-palette/apply-color-palette.md), [Modify Color Palette](../modify-color-palette/modify-color-palette.md), [View Color Palette](../view-color-palette/view-color-palette.md).
+This node may be used in combination with the following nodes: [Quantize Color](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md), [Apply Color Palette](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md), [Modify Color Palette](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md), [View Color Palette](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md).
 
 </td>
 </tr>
@@ -39,12 +48,12 @@ This node may be used in combination with the following nodes: [Quantize Color](
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>
@@ -54,7 +63,7 @@ This node may be used in combination with the following nodes: [Quantize Color](
 
 |  |  |
 | --- | --- |
-| <b>Palette</b> *Color* PRIMARY | An ordered list of RGB colors encoded as a row of pixels. The palette can hold a maximum of 256 colors.   This input is optional. If used, colors set up by the node are appended to this palette.   The palette may be visualized with the [View Color Palette](../view-color-palette/view-color-palette.md) node. |
+| <b>Palette</b> *Color* PRIMARY | An ordered list of RGB colors encoded as a row of pixels. The palette can hold a maximum of 256 colors.   This input is optional. If used, colors set up by the node are appended to this palette.   The palette may be visualized with the [View Color Palette](../../../../../../help/compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) node. |
 | <b>Palette Color Amount</b> *Integer* | The amount of colors stored in the palette.   If that number does not match the actual amount of colors in the 'Palette' image input, the visualization may be incomplete or have more blank slots than absolutely necessary. |
 
 ## Output connectors

@@ -1,20 +1,17 @@
 ---
-title: "Convert To Linear"
-description: "Use the Convert To Linear node to convert textures from sRGB to linear color space for accurate color calculations."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Convert To Linear
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/convert-to-linear.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - 3d
-  - creative-effects
-  - materials
+breadcrumb-title: ""
+description: Use the Convert To Linear node to convert textures from sRGB to linear color space for accurate color calculations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Convert To Linear
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Convert To Linear
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Convert To Linear

@@ -1,20 +1,17 @@
 ---
-title: "Uber Emboss"
-description: "Use the Uber Emboss node to create advanced emboss effects with customizable depth, angle, and lighting controls."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Uber Emboss
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - creative-effects
-  - pbr
+breadcrumb-title: ""
+description: Use the Uber Emboss node to create advanced emboss effects with customizable depth, angle, and lighting controls.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Uber Emboss
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Uber Emboss
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Uber Emboss
@@ -36,7 +33,7 @@ helpx_learn_topic:
 
 ## Description
 
-Advanced, feature-rich version of [Emboss](../../../../atomic-nodes/emboss/emboss.md). Performs an elaborate 2D, fake lighting effect based on a Heightmap.
+Advanced, feature-rich version of [Emboss](../../../../../../help/compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md). Performs an elaborate 2D, fake lighting effect based on a Heightmap.
 
 Useful when creating baked-in lighting for certain texturing styles when a lot of control is needed.
 

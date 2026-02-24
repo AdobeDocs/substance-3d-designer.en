@@ -1,20 +1,17 @@
 ---
-title: "Checker 1"
-description: "Use the Checker 1 node to generate checkerboard patterns with customizable tile size and colors for testing and textures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Checker 1
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - patterns
-  - grid
-  - shapes
+breadcrumb-title: ""
+description: Use the Checker 1 node to generate checkerboard patterns with customizable tile size and colors for testing and textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Checker 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Checker 1
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Checker 1

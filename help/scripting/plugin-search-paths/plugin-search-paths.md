@@ -1,20 +1,17 @@
 ---
-title: "Plugin search paths"
-description: "Configure plugin search paths in Substance 3D Designer to specify where Python plugins are located."
-helpx_description: Designer > Scripting > Plugin search paths
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
-helpx_creative_field:
-  - web
-  - 3d-immersive
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - paths
-  - preparing-source-files
-  - cross-product-workflows
+breadcrumb-title: ""
+description: Configure plugin search paths in Substance 3D Designer to specify where Python plugins are located.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Plugin search paths
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Plugin search paths
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Plugin search paths

@@ -1,21 +1,17 @@
 ---
-title: "Microscope View"
-description: "Use the Microscope View node to generate microscopic texture patterns for creating detailed surface structures."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Microscope View
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/microscope-view.html"
-helpx_creative_field:
-  - video
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - photogrammetry
-  - 3d
-  - effects
+breadcrumb-title: ""
+description: Use the Microscope View node to generate microscopic texture patterns for creating detailed surface structures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Microscope View
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Microscope View
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Microscope View

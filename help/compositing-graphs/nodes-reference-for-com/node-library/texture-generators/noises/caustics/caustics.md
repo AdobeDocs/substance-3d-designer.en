@@ -1,20 +1,17 @@
 ---
-title: "Caustics"
-description: "Use the Caustics node to generate caustic light patterns for creating underwater and refractive lighting effects."
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Caustics
 helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/caustics.html"
-helpx_creative_field:
-  - 3d-immersive
-  - photography
-helpx_experience_level:
-  - any
-helpx_learn_topic:
-  - effects
-  - blending
-  - pbr
+breadcrumb-title: ""
+description: Use the Caustics node to generate caustic light patterns for creating underwater and refractive lighting effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Caustics
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+solution: ""
+title: Caustics
+user-guide-description: ""
+user-guide-title: ""
 ---
-
-
 
 
 # Caustics
