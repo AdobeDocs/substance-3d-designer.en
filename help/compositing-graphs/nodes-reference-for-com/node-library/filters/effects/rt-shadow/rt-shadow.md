@@ -1,8 +1,17 @@
 ---
-title: "RT Shadows"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > RT Shadows"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+breadcrumb-title: ""
+description: Use the RT Shadows node to compute real-time shadow information from geometry for creating dynamic lighting effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > RT Shadows
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: RT Shadows
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # RT Shadows
 

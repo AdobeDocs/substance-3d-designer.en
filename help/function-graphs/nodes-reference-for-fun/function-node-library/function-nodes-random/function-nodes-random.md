@@ -1,8 +1,17 @@
 ---
-title: "Random"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Random"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+breadcrumb-title: ""
+description: Use Random function nodes to generate random values within specific bounds using various algorithms.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Random
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Random
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Random
 
@@ -31,19 +40,19 @@ Random uniform float4 &#91;a, b&#91;
 </td>
 <td style="border: 0;" valign="top">
 
-[Hash 11](hash-functions/hash-functions.md)
+[Hash 11](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 14](hash-functions/hash-functions.md)
+[Hash 14](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 21](hash-functions/hash-functions.md)
+[Hash 21](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 22](hash-functions/hash-functions.md)
+[Hash 22](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 24](hash-functions/hash-functions.md)
+[Hash 24](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 31](hash-functions/hash-functions.md)
+[Hash 31](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 32](hash-functions/hash-functions.md)
+[Hash 32](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
 </td>
 </tr>

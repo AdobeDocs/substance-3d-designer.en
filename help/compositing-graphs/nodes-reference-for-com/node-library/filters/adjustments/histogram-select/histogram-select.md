@@ -1,8 +1,17 @@
 ---
-title: "Histogram Select"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Select"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-select.html"
+breadcrumb-title: ""
+description: Use the Histogram Select node to select and extract specific ranges from texture histograms for targeted adjustments.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Select
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Histogram Select
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Histogram Select
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Similar to [Histogram Scan](../histogram-scan/histogram-scan.md), this effect sets a grayscale value position, with a range around that it fades from. Contrast can be adjusted to make the range sharper.
+Similar to [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), this effect sets a grayscale value position, with a range around that it fades from. Contrast can be adjusted to make the range sharper.
 
 [Click here to watch a Substance Academy video on Histogram Select.](https://youtu.be/p9wcmJBFyGA?t=535)
 

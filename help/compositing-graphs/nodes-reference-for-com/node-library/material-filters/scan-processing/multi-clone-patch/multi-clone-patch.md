@@ -1,8 +1,17 @@
 ---
-title: "Multi Clone Patch"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Clone Patch"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-clone-patch.html"
+breadcrumb-title: ""
+description: Use the Multi Clone Patch node to clone and patch multiple texture channels for repairing scanned material artifacts.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Clone Patch
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Multi Clone Patch
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Multi Clone Patch
 
@@ -25,11 +34,11 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-This node is the Multi-input version of [Clone Patch](../clone-patch/clone-patch.md). It links together up to eight inputs and performs the exact same Clone Patch operation on all of them. It is mainly intended for use with multi-angle photos, which are then combined with [Multi-Angle to Albedo](../multi-angle-to-albedo/multi-angle-to-albedo.md) or [Multi-Angle to Normal](../multi-angle-to-normal/multi-angle-to-normal.md).
+This node is the Multi-input version of [Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md). It links together up to eight inputs and performs the exact same Clone Patch operation on all of them. It is mainly intended for use with multi-angle photos, which are then combined with [Multi-Angle to Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) or [Multi-Angle to Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md).
 
 >[!NOTE]
 >
-> See [Clone Patch](../clone-patch/clone-patch.md) for more info, see [Material Clone Patch](../material-clone-patch/material-clone-patch.md) for the material version.
+> See [Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md) for more info, see [Material Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md) for the material version.
 
 ## Parameters
 

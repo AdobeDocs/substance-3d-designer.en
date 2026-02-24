@@ -1,8 +1,17 @@
 ---
-title: "Flood Fill to GrayscaleColor"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to GrayscaleColor"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-grayscale-color.html"
+breadcrumb-title: ""
+description: Use the Flood Fill to Grayscale Color node to fill connected regions with grayscale colors for creating monochrome patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to GrayscaleColor
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Flood Fill to GrayscaleColor
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Flood Fill to Grayscale/Color
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Uses Flood Fill data to generate grayscale or color value swatches. Unlike [Flood Fill to Random Grayscale](../flood-fill-random-gra/flood-fill-to-random-grayscale.md), these two nodes allow more control to set the exact variation and tones, with an additional extra input map to determine the base value to randomize on a per-cell basis.
+Uses Flood Fill data to generate grayscale or color value swatches. Unlike [Flood Fill to Random Grayscale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill-random-gra/flood-fill-to-random-grayscale.md), these two nodes allow more control to set the exact variation and tones, with an additional extra input map to determine the base value to randomize on a per-cell basis.
 
 It's a powerfull system to give every cell a unique value or color, yet still retain control and base it off of a pre-determined input.
 

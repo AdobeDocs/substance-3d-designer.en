@@ -1,8 +1,17 @@
 ---
-title: "Plasma"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Plasma"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
+breadcrumb-title: ""
+description: Use the Plasma node to generate plasma-like noise patterns for creating organic and fluid texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Plasma
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Plasma
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Plasma
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-This generates a slightly different variant of [Gaussian Noise](../gaussian-noise/gaussian-noise.md), with longer dark streaks as valleys. It has a similar Distance control for scale, which maintains tiling.
+This generates a slightly different variant of [Gaussian Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), with longer dark streaks as valleys. It has a similar Distance control for scale, which maintains tiling.
 
 ## Parameters
 

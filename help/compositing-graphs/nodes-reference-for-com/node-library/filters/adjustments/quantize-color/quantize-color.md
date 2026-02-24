@@ -1,8 +1,17 @@
 ---
-title: "Quantize Color"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
+breadcrumb-title: ""
+description: Use the Quantize Color node to reduce the number of color levels for stylized posterization effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Color
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Quantize Color
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Quantize Color
 
@@ -35,7 +44,7 @@ If the 'Ignore alpha' parameter is set to 'False', the alpha channel of the orig
 
 This effectively provides some control over the extracted colors.
 
-This node may be used in combination with the following nodes: [Create Color Palette](../create-color-palette-16/create-color-palette-16.md), [Apply Color Palette](../apply-color-palette/apply-color-palette.md), [Modify Color Palette](../modify-color-palette/modify-color-palette.md), [View Color Palette](../view-color-palette/view-color-palette.md).
+This node may be used in combination with the following nodes: [Create Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [Apply Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md), [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md), [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md).
 
 <table>
 <tr style="border: 0;">
@@ -46,12 +55,12 @@ This node may be used in combination with the following nodes: [Create Color Pal
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>
@@ -68,8 +77,8 @@ This node may be used in combination with the following nodes: [Create Color Pal
 |  |  |
 | --- | --- |
 | <b>Output</b> *Color* | The quantized color image. |
-| <b>ID</b> *Grayscale* | A map where each quantized color is assigned a unique integer identifier.   This may be used to:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extract a mask</b> out of some quantized areas with the [ID to Mask](../id-to-mask/id-to-mask.md) node</li> <li data-preserve-html="true"><b>Recolorize</b> the quantized image with the [Apply Color Palette](../apply-color-palette/apply-color-palette.md) or [Modify Color Palette](../modify-color-palette/modify-color-palette.md) nodes</li> </ul> |
-| <b>Palette</b> *Color* | The palette extracted from the image, holding the remaining colors after quantization.   The image is an ordered list of RGB colors encoded as a row of pixels, and can hold a maximum of 256 colors.   The palette may be visualized with the [View Color Palette](../view-color-palette/view-color-palette.md) node. |
+| <b>ID</b> *Grayscale* | A map where each quantized color is assigned a unique integer identifier.   This may be used to:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extract a mask</b> out of some quantized areas with the [ID to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) node</li> <li data-preserve-html="true"><b>Recolorize</b> the quantized image with the [Apply Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) or [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md) nodes</li> </ul> |
+| <b>Palette</b> *Color* | The palette extracted from the image, holding the remaining colors after quantization.   The image is an ordered list of RGB colors encoded as a row of pixels, and can hold a maximum of 256 colors.   The palette may be visualized with the [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) node. |
 | <b>Palette color amount</b> *Integer* | The amount of colors stored in the palette. |
 
 ## Parameters

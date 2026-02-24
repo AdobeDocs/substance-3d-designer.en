@@ -1,8 +1,17 @@
 ---
-title: "Version 13.1"
-description: ""
-helpx_description: "Designer > Release Notes > Version 13.1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 13.1 to learn about node graph improvements and AxF export support.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 13.1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 13.1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 13.1
 
@@ -16,19 +25,19 @@ helpx_description: "Designer > Release Notes > Version 13.1"
 
 Frames are a mandatory tool to keep you graph well organized and readable. That is the reason we decided to polish them in this new version.
 
-### <b>Auto-expand</b>
+### Auto-expand
 
 As the graph grows, the frames' content may need to be rearranged. Nodes may shift to make room for additions or content may need to be spaced out more to promote readability. To facilitate these adjustments, it is now possible to automatically expand a frame when moving included objects: hold <b>Shift</b> at any point while moving an object to have the frame borders automatically adjust to keep that object within their bounds.
 
 ![autoexpand](autoexpand.gif)
 
-### <b>Fit size to content</b>
+### Fit size to content
 
 As you make adjustments in your graph, a frame may not be gracefully adjusted to its content anymore. This new command allows you to automatically adjust the position and size of the frame so it adjusts to the span of its content, with a padding of one medium grid cell. If the frame has a description, it is adjusted to make use of any empty space next to the description, if possible.
 
 ![fitsize](fitsize.gif)
 
-### <b>Enhanced descriptions</b>
+### Enhanced descriptions
 
 Thanks to HTML code, you can now have formatted text in a frame's description. This applies to comments as well.
 
@@ -65,7 +74,7 @@ In this new release, we introduce the possibility to edit AxF materials in place
 
 ![Export AxF](exportaxf.gif)
 
-## <b>API </b>
+## API
 
 Finally, this 13.1 version continues to improve the Python API by adding two more possibilities:
 
@@ -82,7 +91,7 @@ Finally, this 13.1 version continues to improve the Python API by adding two mor
 
 *(Released December 12th, 2023)*
 
-### <b>Added</b>
+### Added
 
 * &#91;Frames&#93; Auto Expand
 * &#91;Frames&#93; Change rules to define when an object belongs to a frame
@@ -114,7 +123,7 @@ Finally, this 13.1 version continues to improve the Python API by adding two mor
 * &#91;3D View&#93; Add Position technique to the mesh info shader
 * &#91;Export&#93; Add a 'Save settings' button to save changes to export options
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;3D View&#93; Cannot assign a texture to an input of type texture\_2d of a MDL Material
 * &#91;AxF&#93; Graph identifiers in templates list can be blank
@@ -141,7 +150,7 @@ Finally, this 13.1 version continues to improve the Python API by adding two mor
 * &#91;UI&#93; Images appear pixelated in About screen when using display scaling
 * &#91;UI&#93; Node align tools in graph toolbar create multiple undo steps
 
-### <b>KNOWN ISSUES</b>
+### KNOWN ISSUES
 
 * &#91;AxF OpenGL Shader&#93; Incorrect Ward for anisotropic distribution
 * &#91;AxF OpenGL Shader&#93; Incorrect default roughness

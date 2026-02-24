@@ -1,8 +1,17 @@
 ---
-title: "AxF (Appearance eXchange Format)"
-description: ""
-helpx_description: "Designer > Resources > AxF (Appearance eXchange Format)"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+breadcrumb-title: ""
+description: Learn how to import and use AxF appearance exchange format resources in Substance 3D Designer for material import.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: AxF (Appearance eXchange Format)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # AxF (Appearance eXchange Format)
 
@@ -25,12 +34,12 @@ Substance 3D Designer supports [X-Rite's Appearance eXchange Format.](https://w
 
 In simple terms, AxF files host a number of textures extracted by X-Rite's TAC7 scanner hardware, coupled with metadata that describe additional properties of the material. That means an AxF is more than just texture data: it also carries shading properties.
 
-AxF files are *not* imported as a package [resource](../resources.md). Rather, the involves extracting textures and metadata from the AxF file then using those to prepare graphs created from .
+AxF files are *not* imported as a package [resource](../../resources/resources.md). Rather, the [import process](#import) involves extracting textures and metadata from the AxF file then using those to prepare graphs created from [dedicated templates](#graph-templates).
 
 The available templates are aimed at two AxF workflows:
 
 * <b>Converting</b> an SVBRDF material in an AxF file into a PBR material;
-* <b>Editing</b> an SVBRDF material in place and to an existing AxF file as a new layer.
+* <b>Editing</b> an SVBRDF material in place and [exporting it](#export) to an existing AxF file as a new layer.
 
 >[!NOTE]
 >
@@ -72,11 +81,11 @@ It features four sections:
 
 The <b>Header</b> displays the name of the material detected in the AxF file, as well as its representation (currently, always SVBRDF). The preview thumbnail embedded into the file is also displayed.
 
-The <b>Templates</b> section lets you set up the [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) and [MDL graph](../../mdl-graphs/mdl-graphs.md) templates to get started with working on the material. See the section below to learn more about these templates and setting them up.
+The <b>Templates</b> section lets you set up the [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) and [MDL graph](../../mdl-graphs/mdl-graphs.md) templates to get started with working on the material. See the [Graph templates](#graph-templates) section below to learn more about these templates and setting them up.
 
 <b>Textures</b> lists all textures extracted from the AxF file involved in the detected material. For each texture, their name, native resolution, data format and physical size are displayed.
 
-<b>Metadata</b> and <b>Properties</b> list data extracted from the material in the AxF file. These have an impact on how some Substance graph templates properties are configured (see section below).
+<b>Metadata</b> and <b>Properties</b> list data extracted from the material in the AxF file. These have an impact on how some Substance graph templates properties are configured (see [Graph templates](#graph-templates) section below).
 
 ![AxF: Import dialog](axf_import.png "AxF: Import dialog")
 
@@ -93,7 +102,7 @@ A <b>Resources</b> folder hosts a *subfolder* for each material imported from th
 Each subfolder includes another subfolder that contains the *textures* extracted from the AxF file for that material. This last subfolder is named after the material *representation* used by the textures (currently only <b>SVBRDF</b>).
 
 A graph for each template set up in the <b>Templates</b> section of the import dialog.  
-In the case of [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), these are preconfigured with the textures and data extracted from the AxF file, as well as your selected template settings (see section below).
+In the case of [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), these are preconfigured with the textures and data extracted from the AxF file, as well as your selected template settings (see Graph templates section below).
 
 </td>
 <td style="border: 0;" valign="top">
@@ -154,7 +163,7 @@ Two types of Substance graph templates are available:
 These can then be used with the default 3D View shaders and combined with other PBR materials produced in Designer, [Sampler](https://www.adobe.com/products/substance3d-sampler.html) or acquired from our [3D Assets](https://substance3d.adobe.com/assets/) library.  
 Conversion templates may be used in combination with MDL templates dedicated to AxF, see above.
 
-<b>AxF to AxF</b> is a *passthrough* template that lets you edit AxF materials in place and export these changes as new layers in existing AxF files. See below to learn more.
+<b>AxF to AxF</b> is a *passthrough* template that lets you edit AxF materials in place and export these changes as new layers in existing AxF files. See Exporting AxF files below to learn more.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -189,7 +198,7 @@ The *metadata* extracted from the material in the AxF file is copied in the grap
 > 
 > They specify shading properties that are essential to interpret the values in the textures correctly.
 > 
-> Therefore, changing these settings will result in incorrect render when in the [3D View](../../interface/3d-view/3d-view.md).
+> Therefore, changing these settings will result in incorrect render when visualizing the material in the [3D View](../../interface/3d-view/3d-view.md).
 
 </td>
 <td style="border: 0;" valign="top">
@@ -284,10 +293,10 @@ The number of channels is specified differently depending on the type of data su
 
 ## Viewing AxF files in the 3D View
 
-The method to render AxF SVBRDF materials in the [3D View](../../interface/3d-view/3d-view.md) depends on the .
+The method to render AxF SVBRDF materials in the [3D View](../../interface/3d-view/3d-view.md) depends on the [import setup](#import).
 
 +++Convert to PBR
-If you wish to convert an SVBRDF material in an AxF file into a standard PBR material, then your import setup will likely involve [MDL graph](../../mdl-graphs/mdl-graphs.md) and [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) conversion templates (see  section above).
+If you wish to convert an SVBRDF material in an AxF file into a standard PBR material, then your import setup will likely involve [MDL graph](../../mdl-graphs/mdl-graphs.md) and [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) conversion templates (see Graph templates section above).
 
 In that case, the MDL graph should be dragged and dropped into the 3D View before any other operation, in order to automatically switch to the [Iray](../../interface/3d-view/iray/iray.md) renderer and use that MDL graph as material definition.  
 Then, you may drag and drop the Substance graph that you set up in the import dialog, in order to connect its outputs to the MDL shader.

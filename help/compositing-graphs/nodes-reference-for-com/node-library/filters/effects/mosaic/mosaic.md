@@ -1,8 +1,17 @@
 ---
-title: "Mosaic"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Mosaic"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/mosaic.html"
+breadcrumb-title: ""
+description: Use the Mosaic node to create mosaic tile effects by dividing textures into pixelated blocks and patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Mosaic
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Mosaic
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Mosaic
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-"Facetises" an existing, smooth, sloping gradient map by performing a multi-pass [Warp](../../../../atomic-nodes/warp/warp.md) effect. When the same map is used for both inputs, it essentially grows and accentuates the brightest areas.
+"Facetises" an existing, smooth, sloping gradient map by performing a multi-pass [Warp](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) effect. When the same map is used for both inputs, it essentially grows and accentuates the brightest areas.
 
 This is useful for adding more definition to grayscale maps such as Heightmap, as it can introduce more definition to shapes.
 

@@ -1,8 +1,17 @@
 ---
-title: "Quantize Grayscale"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-grayscale.html"
+breadcrumb-title: ""
+description: Use the Quantize Grayscale node to reduce the number of grayscale levels for posterization effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Quantize Grayscale
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Quantize Grayscale
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Quantize Grayscale
 
@@ -36,7 +45,7 @@ Generates a single spline in the shape of a circle.
 <b>Slope Curve</b> *Integer*Sets the method of acquiring the curve for the slope set by the <b>Slope</b> parameter:  
 * *Linear*: Applies a linear curve, resulting in a straight slope  
 * *Smoothstep*: Applies a smoothstep curve, resulting in a smooth slope  
-* *Curve input*: Applies the curve described by the <b>Curve Input</b> input map. You may use a [Curve](../../../../atomic-nodes/curve/curve.md) node to describe this curve with a great amount of control.
+* *Curve input*: Applies the curve described by the <b>Curve Input</b> input map. You may use a [Curve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) node to describe this curve with a great amount of control.
 
 ## Examples
 

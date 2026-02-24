@@ -1,8 +1,17 @@
 ---
-title: "Panorama Shape"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Panorama Shape"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/panorama-shape.html"
+breadcrumb-title: ""
+description: Use the Panorama Shape node to create shapes mapped to panorama coordinates for environment texture generation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Panorama Shape
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Panorama Shape
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Panorama Shape
 

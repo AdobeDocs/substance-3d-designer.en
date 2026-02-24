@@ -1,8 +1,17 @@
 ---
-title: "HSL"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+breadcrumb-title: ""
+description: Use the HSL node to adjust hue, saturation, and lightness of textures for color manipulation and correction.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > HSL
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: HSL
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # HSL
 
@@ -19,7 +28,7 @@ Adjusts the hue, saturation and lightness of a color image.
 
 It is a basic, easy to use node that is very useful when working with Color data.
 
-If you are after other ways to edit the tones of an image, look at [Curve](../curve/curve.md), [Levels](../levels/levels.md) and [Contrast/Luminosity](../../node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md).
+If you are after other ways to edit the tones of an image, look at [Curve](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Levels](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) and [Contrast/Luminosity](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md).
 
 </td>
 </tr>
@@ -49,12 +58,12 @@ If you are after other ways to edit the tones of an image, look at [Curve](../cu
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>

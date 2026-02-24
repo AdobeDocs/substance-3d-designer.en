@@ -1,8 +1,17 @@
 ---
-title: "Get a variable value"
-description: ""
-helpx_description: "Designer > Function graphs > Variables > Get a variable value"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+breadcrumb-title: ""
+description: Learn how to retrieve variable values in Substance 3D Designer function graphs using the Get Variable node.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Variables > Get a variable value
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Get a variable value
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Get a variable value
 

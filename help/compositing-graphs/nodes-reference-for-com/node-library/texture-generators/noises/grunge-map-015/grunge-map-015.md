@@ -1,8 +1,17 @@
 ---
-title: "Grunge Map 015"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 015"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-015.html"
+breadcrumb-title: ""
+description: Use the Grunge Map 015 node to generate procedural grunge textures for adding surface detail and wear effects to materials.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Map 015
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Grunge Map 015
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Grunge Map 015
 

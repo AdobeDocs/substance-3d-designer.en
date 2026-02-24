@@ -1,8 +1,17 @@
 ---
-title: "Input"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+breadcrumb-title: ""
+description: Use the Input node to create input parameters for Substance graphs that can be exposed and adjusted by users.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Input
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Input
 
@@ -28,9 +37,9 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 Input nodes are a special type of node that creates a dynamic slot in your graph, allowing for any input to be connected once your Graph is used in another context.
 
-Unlike [Output nodes](../output/output.md), you have to explicitly place either a Color, Grayscale or Value input. It is not possible to create your own "agnostic" inputs that change type depending on what is connected to them.
+Unlike [Output nodes](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), you have to explicitly place either a Color, Grayscale or Value input. It is not possible to create your own "agnostic" inputs that change type depending on what is connected to them.
 
-Input nodes are not as crucial as [Output nodes](../output/output.md): you can have perfectly functioning, advanced Graphs that have no need for an Input. Inputs are only used when you want to base your Graph or node Instance's result on an external input, for example when creating an [Instance ](../../../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)or a [Filter](https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html) for Substance 3D Painter.
+Input nodes are not as crucial as [Output nodes](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): you can have perfectly functioning, advanced Graphs that have no need for an Input. Inputs are only used when you want to base your Graph or node Instance's result on an external input, for example when creating an [Instance ](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)or a [Filter](https://helpx.adobe.com/substance-3d-painter/features/effects/filter.html) for Substance 3D Painter.
 
 <table>
 <tr style="border: 0;">
@@ -56,22 +65,22 @@ Input nodes are not as crucial as [Output nodes](../output/output.md): you can h
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## PARAMETERS
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### aTTRIBUTES
 
 </td>
 <td style="border: 0;" valign="top">
 
+### iNHERITANCE
 
+</td>
+<td style="border: 0;" valign="top">
+
+### iNTEGRATION ATTRIBUTES
 
 </td>
 </tr>
@@ -104,7 +113,7 @@ If you want to see it with the outputs of another Graph, you'll have to either e
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-When multiple inputs are present, you need to pay attention to the way the graph will [inherit its Base parameters](../../../inheritance-compositing/inheritance-in-substance-compositing-graphs.md) from these inputs.  
+When multiple inputs are present, you need to pay attention to the way the graph will [inherit its Base parameters](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) from these inputs.  
 Base parameters include, among others, the <b>Output Size</b>, <b>Output Format</b> and <b>Tiling Mode</b>.
 
 </td>
@@ -116,7 +125,7 @@ Base parameters include, among others, the <b>Output Size</b>, <b>Output Format<
 </tr>
 </table>
 
-An input can be defined as the [Primary input](../../../inheritance-compositing/inheritance-in-substance-compositing-graphs.md). This input then drives the attributes of all inputs which inheritance method is set to *Relative to parent*. This is the inheritance method *set by default* on Input nodes.
+An input can be defined as the [Primary input](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). This input then drives the attributes of all inputs which inheritance method is set to *Relative to parent*. This is the inheritance method *set by default* on Input nodes.
 
 You may set an input node as a graph's Primary input by clicking *RMB* on the node and selecting the <b>Set as Primary input</b> option in the contextual menu.  
 The Primary input of a node is marked with a *small dark dot in the connector* (circled in red in the example next to this section).
@@ -127,7 +136,7 @@ Finally, you may override any value for a given attribute by setting its inherit
 
 >[!TIP]
 >
-> To learn more about inheritance, go to the [Inheritance in Substance graphs](../../../inheritance-compositing/inheritance-in-substance-compositing-graphs.md) page of this documentation.
+> To learn more about inheritance, go to the [Inheritance in Substance graphs](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) page of this documentation.
 
 >[!IMPORTANT]
 >

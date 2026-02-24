@@ -1,8 +1,17 @@
 ---
-title: "Text"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+breadcrumb-title: ""
+description: Use the Text node to generate text textures with customizable fonts and styles for creating text-based patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Text
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Text
 
@@ -51,12 +60,12 @@ When a Graph using Text is published to sbsar, the font is embedded into the pac
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>

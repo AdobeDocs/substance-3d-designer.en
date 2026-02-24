@@ -1,8 +1,17 @@
 ---
-title: "Material Mesh Data Blender"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Mesh Data Blender"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/material-mesh-data-blender.html"
+breadcrumb-title: ""
+description: Use the Material Mesh Data Blender node to blend material mesh data for creating smooth transitions between different material zones.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > Material Mesh Data Blender
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Material Mesh Data Blender
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Material Mesh Data Blender
 

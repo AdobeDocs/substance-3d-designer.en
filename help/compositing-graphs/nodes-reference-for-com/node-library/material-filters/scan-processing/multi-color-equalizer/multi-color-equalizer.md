@@ -1,8 +1,17 @@
 ---
-title: "Multi Color Equalizer"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Color Equalizer"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
+breadcrumb-title: ""
+description: Use the Multi Color Equalizer node to equalize colors across multiple texture channels for consistent scanned material processing.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi Color Equalizer
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Multi Color Equalizer
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Multi Color Equalizer
 
@@ -23,11 +32,11 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-This is the multi-input version of [Color Equalizer](../color-equalizer/color-equalizer.md). It evens out color differences and removes unwanted tints at a user-selectable scale. It is mainly intended for use with multi-angle photos, which are then combined with [Multi-Angle to Albedo](../multi-angle-to-albedo/multi-angle-to-albedo.md) or [Multi-Angle to Normal](../multi-angle-to-normal/multi-angle-to-normal.md).
+This is the multi-input version of [Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/color-equalizer/color-equalizer.md). It evens out color differences and removes unwanted tints at a user-selectable scale. It is mainly intended for use with multi-angle photos, which are then combined with [Multi-Angle to Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) or [Multi-Angle to Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md).
 
 >[!NOTE]
 >
-> See the original [Color Equalizer](../color-equalizer/color-equalizer.md) for more info.
+> See the original [Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/color-equalizer/color-equalizer.md) for more info.
 
 ## Parameters
 

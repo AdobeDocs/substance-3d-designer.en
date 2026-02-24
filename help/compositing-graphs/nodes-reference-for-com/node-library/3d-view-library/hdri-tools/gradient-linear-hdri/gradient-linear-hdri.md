@@ -1,8 +1,17 @@
 ---
-title: "Gradient Linear (HDRI)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient Linear (HDRI)"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-linear-hdri.html"
+breadcrumb-title: ""
+description: Use the Gradient Linear HDRI node to create linear gradients in HDRI environments for custom lighting setups.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Gradient Linear (HDRI)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Gradient Linear (HDRI)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Gradient Linear (HDRI)
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Creates a Linear gradient across the centre and with a user-placed point. The end result is adjusted for spherical projection, unlike the regular [Gradient Linear 1](../../../texture-generators/patterns/gradient-linear-1/gradient-linear-1.md).
+Creates a Linear gradient across the centre and with a user-placed point. The end result is adjusted for spherical projection, unlike the regular [Gradient Linear 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md).
 
 ## Parameters
 

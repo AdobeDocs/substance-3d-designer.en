@@ -1,12 +1,29 @@
 ---
-title: "Application does not start"
-description: ""
-helpx_description: "Designer > Technical issues > Application does not start"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
+breadcrumb-title: ""
+description: Troubleshoot issues preventing Substance 3D Designer from starting and find solutions to launch the application.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > Application does not start
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Application does not start
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Application does not start
 
 This page lists common causes for Substance 3D Designer failing to start correctly, and offers troubleshooting steps for each, grouped by operating system:
+
+[Designer 15.0 and higher](#version-15-0)
+
+[Windows 10/11](#windows-10-11)
+
+[Windows 7/8/8.1](#windows-7-8)
+
+[Linux](#linux)
 
 ## Designer 15.0 and higher
 

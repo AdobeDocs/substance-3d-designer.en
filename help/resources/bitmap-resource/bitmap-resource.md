@@ -1,8 +1,17 @@
 ---
-title: "Bitmap resource"
-description: ""
-helpx_description: "Designer > Resources > Bitmap resource"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+breadcrumb-title: ""
+description: Learn how to import, create, and use bitmap resources in Substance 3D Designer for texture-based material creation.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > Bitmap resource
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Bitmap resource
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Bitmap resource
 
@@ -20,7 +29,7 @@ Bitmaps are usually the largest resource that Designer deals with. That's why it
 
 ### In Substance 3D files (SBS)
 
-How bitmaps are stored in SBS depends on if you [Link or Import them, make sure you are familiar with the concept first.](../importing-linking-and-new/importing-linking-and-new-resources.md) Imported bitmaps can be edited using the [Bitmap painting tools](bitmap-painting-tools/bitmap-painting-tools.md).
+How bitmaps are stored in SBS depends on if you [Link or Import them, make sure you are familiar with the concept first.](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) Imported bitmaps can be edited using the [Bitmap painting tools](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
 Unlike SVG (Vector Graphics) Resources, Bitmaps are always stored externally, even when created as a new resource, or imported. For new Substance Packages, they are kept in memory, until the .SBS file is saved to disk. Once saved to disk, bitmaps are stored in a */resources* folder next to the SBS file.
 

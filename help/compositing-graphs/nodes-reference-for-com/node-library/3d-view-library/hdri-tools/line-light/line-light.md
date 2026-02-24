@@ -1,8 +1,17 @@
 ---
-title: "Line Light"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Line Light"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
+breadcrumb-title: ""
+description: Use the Line Light node to create linear light sources in HDRI environments for simulating fluorescent and strip lighting.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Line Light
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Line Light
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Line Light
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Generates a spherically projected line shape based on the coordinates of two points in space. Compared to [Shape Light](../shape-light/shape-light.md) it has more options for orienting shapes and applying repeating patterns to the light shape.
+Generates a spherically projected line shape based on the coordinates of two points in space. Compared to [Shape Light](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) it has more options for orienting shapes and applying repeating patterns to the light shape.
 
 The positioning modes for this node are slightly more complex than other HDRI Light Nodes. It is recommended to try a few different size modes to find which one works for you scenario.
 

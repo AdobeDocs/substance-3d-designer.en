@@ -1,8 +1,17 @@
 ---
-title: "Normal Sobel"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Sobel"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-sobel.html"
+breadcrumb-title: ""
+description: Use the Normal Sobel node to generate normal maps from height maps using Sobel edge detection for surface detail.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Sobel
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Normal Sobel
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Normal Sobel
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Converts a Heightmap input to a Normalmap output. A slightly more advanced version of the [Normal Atomic Node](../../../../atomic-nodes/normal/normal.md), this node uses Sobel sampling rather than the standard sampling method.
+Converts a Heightmap input to a Normalmap output. A slightly more advanced version of the [Normal Atomic Node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md), this node uses Sobel sampling rather than the standard sampling method.
 
 ## Parameters
 

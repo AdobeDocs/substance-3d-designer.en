@@ -1,8 +1,17 @@
 ---
-title: "Normal Invert"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Invert"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-invert.html"
+breadcrumb-title: ""
+description: Use the Normal Invert node to invert normal map vectors for flipping surface orientation and lighting direction.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Invert
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Normal Invert
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Normal Invert
 

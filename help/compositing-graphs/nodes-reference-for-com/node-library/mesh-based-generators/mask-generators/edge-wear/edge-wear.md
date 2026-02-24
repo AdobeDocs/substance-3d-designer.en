@@ -1,8 +1,17 @@
 ---
-title: "Edge Wear"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Wear"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-wear.html"
+breadcrumb-title: ""
+description: Use the Edge Wear node to generate wear masks on mesh edges for creating realistic edge damage and weathering effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Wear
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Edge Wear
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Edge Wear
 

@@ -1,8 +1,17 @@
 ---
-title: "Using the Sampler nodes"
-description: ""
-helpx_description: "Designer > Function graphs > FXMaps > Using Functions in FXMaps > Using the Sampler nodes"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
+breadcrumb-title: ""
+description: Learn how to use sampler nodes in FXMaps to sample textures and create procedural material variations.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps > Using the Sampler nodes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Using the Sampler nodes
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Using the Sampler nodes
 

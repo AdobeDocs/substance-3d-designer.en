@@ -1,8 +1,17 @@
 ---
-title: "Creating a Substance graph"
-description: ""
-helpx_description: "Designer > Substance graphs > Creating a Substance graph"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+breadcrumb-title: ""
+description: Learn how to create Substance compositing graphs in Substance 3D Designer for building procedural texture workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Substance graphs > Creating a Substance graph
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Creating a Substance graph
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Creating a Substance graph
 
@@ -12,17 +21,17 @@ Authoring textures in Designer starts with creating a Substance graph, either fr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## creating a graph
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Graph templates
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Managing templates
 
 </td>
 </tr>
@@ -30,7 +39,7 @@ Authoring textures in Designer starts with creating a Substance graph, either fr
 
 ## Creating a Substance graph
 
-To start the process of creating a new [Substance graph](../substance-compositing-graphs.md), you may use one of these methods:
+To start the process of creating a new [Substance graph](../../compositing-graphs/substance-compositing-graphs.md), you may use one of these methods:
 
 * <table>
   <tr style="border: 0;">
@@ -104,7 +113,7 @@ Regardless of the method used to create a new Substance graph, you will always b
 
 ### Templates
 
-Designer includes graph templates with preconfigured nodes to get you started faster. They may include [Output](../nodes-reference-for-com/atomic-nodes/output/output.md) nodes, simple nodes to pass values to these outputs - e.g. [Uniform color](../nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), as well as [Input](../nodes-reference-for-com/atomic-nodes/input/input.md) nodes.
+Designer includes graph templates with preconfigured nodes to get you started faster. They may include [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes, simple nodes to pass values to these outputs - e.g. [Uniform color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), as well as [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) nodes.
 
 Double-click on a template in the list, or select it and click the <b>Create</b> button to create a new Substance graph using that template. By default, the new graph is placed in a new unsaved package.
 
@@ -145,7 +154,7 @@ In <b>List</b>, <b>Packages</b> and <b>Directories</b> view modes, the subtitle 
 
 ### Material samples
 
-The <b>Material samples</b> category includes a [curated selection of graphs](material-samples/material-samples.md) to learn from and experiment with.
+The <b>Material samples</b> category includes a [curated selection of graphs](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) to learn from and experiment with.
 
 You can also access the samples directly from the Home screen, using the <b>Go to samples</b> button.
 
@@ -159,11 +168,11 @@ You can also access the samples directly from the Home screen, using the <b>Go t
 
 Hovering the information icon for each template item displays a tooltip with additional information about the template:
 
-<b>Type:</b> The type of asset the template is meant to produce. This is editable in the [graph properties](../graph-parameters/graph-parameters.md).
+<b>Type:</b> The type of asset the template is meant to produce. This is editable in the [graph properties](../../compositing-graphs/graph-parameters/graph-parameters.md).
 
 <b>Description:</b> Details about the template such as the workflow it integrates into, its intended use case and recommendations for its usage.
 
-<b>Outputs:</b> The template's [Output](../nodes-reference-for-com/atomic-nodes/output/output.md) nodes, if any.
+<b>Outputs:</b> The template's [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes, if any.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -238,7 +247,7 @@ After selecting the template, you may set up basic information regarding the new
 
 <b>Graph name</b>: the graph's identifier. It needs to be unique for a given package and cannot include spaces and some special characters.
 
-<b>Size</b>: the graph's parent resolution, which will control the output resolution of most nodes - see the [Output size](../output-size/output-size.md) page to learn more. The width and height are linked together by default, and you can unlink them by clicking the link button between the width and height combo boxes.
+<b>Size</b>: the graph's parent resolution, which will control the output resolution of most nodes - see the [Output size](../../compositing-graphs/output-size/output-size.md) page to learn more. The width and height are linked together by default, and you can unlink them by clicking the link button between the width and height combo boxes.
 
 <b>Create graph in</b>: You can use this combo box to create a *new* package for the new graph, or add the new graph to any *existing* package already loaded in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel.
 
@@ -273,7 +282,7 @@ Use the <b>Category</b> combobox to select the category you wish to filter the
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Templates may have a category set up in their <b>Template data</b> [graph attribute](../graph-parameters/graph-parameters.md), which is used as a filter to narrow down the list of templates:
+Templates may have a category set up in their <b>Template data</b> [graph attribute](../../compositing-graphs/graph-parameters/graph-parameters.md), which is used as a filter to narrow down the list of templates:
 
 &lt;category&gt;;&lt;subtitle&gt;
 

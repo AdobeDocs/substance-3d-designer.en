@@ -1,24 +1,33 @@
 ---
-title: "Visible if expressions"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+breadcrumb-title: ""
+description: Learn how to use visible if expressions in Substance 3D Designer to control parameter visibility based on conditions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Visible if expressions
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Visible if expressions
 
 The 'Visible if' expression lets you <b>control the visibility</b> of inputs, outputs and parameters in graphs.
 
-When [exposing parameters](../manage-parameters/exposing-a-parameter/exposing-a-parameter.md), you may want to hide or show parameters or node connectors based on the status of other parameters. E.g., a slider only showing when a boolean parameter button is set to `true`, because it would have no effect otherwise and that might confuse users.
+When [exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), you may want to hide or show parameters or node connectors based on the status of other parameters. E.g., a slider only showing when a boolean parameter button is set to `true`, because it would have no effect otherwise and that might confuse users.
 
 To achieve this, you may input a *logical expression* into the <b>Visible if</b> property of:
 
-* a graph's [input parameter](../manage-parameters/exposing-a-parameter/exposing-a-parameter.md);
-* a graph's [Input](../nodes-reference-for-com/atomic-nodes/input/input.md) node;
-* a graph's [Output](../nodes-reference-for-com/atomic-nodes/output/output.md) node.
+* a graph's [input parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md);
+* a graph's [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) node;
+* a graph's [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.
 
 ![Toggling input parameter visibility](visible-if-example.gif "Toggling input parameter visibility"){width="512px"}
 
-If the logical expression evaluates to `true`, the parameter, input or output is displayed in all [instance nodes](../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) representing the current graph. Otherwise, it is *hidden*.
+If the logical expression evaluates to `true`, the parameter, input or output is displayed in all [instance nodes](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) representing the current graph. Otherwise, it is *hidden*.
 
 Complex conditions are possible, provided the logical expression stating these conditions is valid.
 
@@ -31,7 +40,7 @@ Complex conditions are possible, provided the logical expression stating these c
 
 >[!IMPORTANT]
 >
-> While this functionality works inside the Substance 3D ecosystem, some  may not support it. If unsupported, the visibility  condition defaults to `true`.
+> While this functionality works inside the Substance 3D ecosystem, some integrations may not support it. If unsupported, the visibility  condition defaults to `true`.
 
 ## Writing 'Visible if' expressions
 

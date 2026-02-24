@@ -1,8 +1,17 @@
 ---
-title: "Variables"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Variables"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+breadcrumb-title: ""
+description: Access Get nodes in Substance 3D Designer function graphs to retrieve variable values and data.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Variables
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Variables
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Variables
 
@@ -22,17 +31,17 @@ When a parameter is [exposed](../../../../compositing-graphs/manage-parameters/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Get
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Set
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Is defined
 
 </td>
 </tr>
@@ -69,7 +78,7 @@ The name of the variable being fetched is set in the Properties dock.
 > 
 > Several 'Get' nodes will offer built-in variables to access existing values according to the current context – E.g.: the current pixel position in a Pixel processor, the current tiling mode of a node, ...
 > 
-> All built-in variables are listed in [this dedicated page](../../../variables/system-variables/system-variables.md).
+> All built-in variables are listed in [this dedicated page](../../../../function-graphs/variables/system-variables/system-variables.md).
 
 ### Get nodes
 

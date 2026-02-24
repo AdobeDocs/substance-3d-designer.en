@@ -1,8 +1,17 @@
 ---
-title: "Overview"
-description: ""
-helpx_description: "Designer > Getting started > Overview"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+breadcrumb-title: ""
+description: Get an overview of Substance 3D Designer and learn about its capabilities for creating procedural materials and textures.
+helpx_creative_field: ""
+helpx_description: Designer > Getting started > Overview
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Overview
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Overview
 
@@ -28,7 +37,7 @@ For example, most of the procedural, smart content in Painter and Sampler was au
 
 ## Workflow
 
-Substance 3D Designer is a Node-based editor that allows you to build content in many different ways with varying complexities. [The workflow is further explained on dedicated pages](../workflow-overview/workflow-overview.md), but the following are benefits of working with the software:
+Substance 3D Designer is a Node-based editor that allows you to build content in many different ways with varying complexities. [The workflow is further explained on dedicated pages](../../getting-started/workflow-overview/workflow-overview.md), but the following are benefits of working with the software:
 
 <b>&#91;Non-linear&#93;(../../compositing-graphs/substance-compositing-graphs.md) </b>: you can can author a multitude of texture outputs at once. Edit one mask or slider, and automatically any connected output is re-calculated. No more need to separately author maps such as Basecolor, Roughness, Normal, etc..
 

@@ -1,8 +1,17 @@
 ---
-title: "Explorer"
-description: ""
-helpx_description: "Designer > Interface > Explorer"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
+breadcrumb-title: ""
+description: Use the Explorer window in Substance 3D Designer to browse, organize, and manage your project files and resources.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Explorer
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Explorer
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Explorer
 
@@ -44,7 +53,7 @@ This toolbar lets you quickly perform functions related to your overall workflow
 
 ![](save.png)<b> Save</b> selected package.
 
-<b>!&#91;&#93;(sendto-icon.jpg) Publish or &#91;send&#93;(send-to-interoperability/send-to-interoperability.md)</b> selected element(s):
+<b>!&#91;&#93;(sendto-icon.jpg) Publish or &#91;send&#93;(../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> selected element(s):
 
 * [Publish any selected package to a Substance 3D asset (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
 * Send the selected package to [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) or [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
@@ -57,7 +66,7 @@ This toolbar lets you quickly perform functions related to your overall workflow
 * When the selection includes folders or packages, the tool cleans all graphs therein *recursively*;
 * If one of the targeted graphs is a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md), a second option is available which lets you clean all parameter functions on nodes in that graph.
 
-Learn more about the tool in the 'Remove unused nodes' section of the [Graph view](../the-graph-view/the-graph-view.md) page.
+Learn more about the tool in the 'Remove unused nodes' section of the [Graph view](../../interface/the-graph-view/the-graph-view.md) page.
 
 If the package contains at least one [MDL graph](../../mdl-graphs/mdl-graphs.md), two additional buttons are added in the toolbar:
 
@@ -133,7 +142,7 @@ Empty space is only available below any currently open Packages. Clicking next t
 +++
 
 +++Substance graph
-<b>Open:</b> (Return) Opens this graph in [the graph View](../the-graph-view/the-graph-view.md).
+<b>Open:</b> (Return) Opens this graph in [the graph View](../../interface/the-graph-view/the-graph-view.md).
 
 <b>Copy:</b> *(Ctrl-C)* Copies the current graph to clipboard.
 
@@ -141,7 +150,7 @@ Empty space is only available below any currently open Packages. Clicking next t
 
 <b>Rename:</b> (F2) Rename this graph.
 
-<b>View Outputs in 3D View:</b> Sends this graph's outputs to [the 3D View](../3d-view/3d-view.md), to display as a material.
+<b>View Outputs in 3D View:</b> Sends this graph's outputs to [the 3D View](../../interface/3d-view/3d-view.md), to display as a material.
 
 <b>Compute Outputs:</b> Computes this graph's Outputs and keeps them in memory.
 
@@ -165,7 +174,7 @@ Empty space is only available below any currently open Packages. Clicking next t
 +++
 
 +++3D scene resource
-<b>Open:</b> (Return) Uses this 3D Mesh in[ the 3D View](../3d-view/3d-view.md), replacing the standard cube or plane.
+<b>Open:</b> (Return) Uses this 3D Mesh in[ the 3D View](../../interface/3d-view/3d-view.md), replacing the standard cube or plane.
 
 <b>Copy:</b> (Ctrl-C) Copies this resource to clipboard.
 

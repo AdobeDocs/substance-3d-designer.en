@@ -1,8 +1,17 @@
 ---
-title: "Material Adjustment Blend"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Adjustment Blend"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-adjustment-blend.html"
+breadcrumb-title: ""
+description: Use the Material Adjustment Blend node to blend material adjustments between materials for fine-tuning composite effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Adjustment Blend
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Material Adjustment Blend
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Material Adjustment Blend
 

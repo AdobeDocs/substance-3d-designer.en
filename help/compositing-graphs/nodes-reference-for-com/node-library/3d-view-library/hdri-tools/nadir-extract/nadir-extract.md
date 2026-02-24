@@ -1,8 +1,17 @@
 ---
-title: "Nadir Extract"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Extract"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-extract.html"
+breadcrumb-title: ""
+description: Use the Nadir Extract node to extract the nadir region from HDRI panoramas for processing bottom areas of environment maps.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Extract
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Nadir Extract
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Nadir Extract
 

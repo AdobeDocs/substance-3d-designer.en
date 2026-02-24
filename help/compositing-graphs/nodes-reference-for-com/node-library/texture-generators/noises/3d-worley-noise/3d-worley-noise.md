@@ -1,8 +1,17 @@
 ---
-title: "3D Worley Noise"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Worley Noise"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-worley-noise.html"
+breadcrumb-title: ""
+description: Use the 3D Worley Noise node to generate Worley noise based on 3D position for creating volumetric texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Worley Noise
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 3D Worley Noise
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # 3D Worley Noise
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-One of the most versatile and advanced noises in the library, it generates a Worley noise in 3D space, based on an input Position map. Has plenty of options that make it much more powerful than the standard [Cells ](../cells-1/cells-1.md)or [Distance ](../../../../atomic-nodes/distance/distance.md)based noises.
+One of the most versatile and advanced noises in the library, it generates a Worley noise in 3D space, based on an input Position map. Has plenty of options that make it much more powerful than the standard [Cells ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)or [Distance ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)based noises.
 
 ## Parameters
 

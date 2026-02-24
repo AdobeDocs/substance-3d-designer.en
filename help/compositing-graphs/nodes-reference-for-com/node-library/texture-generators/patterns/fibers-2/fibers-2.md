@@ -1,8 +1,17 @@
 ---
-title: "Fibers 2"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Fibers 2"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-2.html"
+breadcrumb-title: ""
+description: Use the Fibers 2 node to create advanced fiber textures with customizable properties for fabric and material effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Fibers 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Fibers 2
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Fibers 2
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Simple cloth-like pattern. Can be used for mesh, cloth or other organic Height- and Detailmaps. Also see [Fibers 1](../fibers-1/fibers-1.md) for a smaller version.
+Simple cloth-like pattern. Can be used for mesh, cloth or other organic Height- and Detailmaps. Also see [Fibers 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/fibers-1/fibers-1.md) for a smaller version.
 
 ## Parameters
 

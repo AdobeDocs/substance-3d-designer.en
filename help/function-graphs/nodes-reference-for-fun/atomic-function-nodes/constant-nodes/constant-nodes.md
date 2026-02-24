@@ -1,12 +1,21 @@
 ---
-title: "Constant"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Constant"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+breadcrumb-title: ""
+description: Access constant nodes in Substance 3D Designer function graphs to define constant values and parameters.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Constant
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Constant
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Constant
 
-Constant nodes are a way to create a static value for use inside Substance function graphs. Unlike [variables](../../../variables/variables.md), they cannot be modified externally.
+Constant nodes are a way to create a static value for use inside Substance function graphs. Unlike [variables](../../../../function-graphs/variables/variables.md), they cannot be modified externally.
 
 Additionally, this page provides some extra information for each data type and common use cases.
 
@@ -14,17 +23,17 @@ Additionally, this page provides some extra information for each data type and c
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Integers
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Floats
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Others
 
 </td>
 </tr>
@@ -34,7 +43,7 @@ Additionally, this page provides some extra information for each data type and c
 
 Constant integers generate whole numbers, and have a step of  1.
 
-[They can be converted to Float,](../cast-nodes/cast-nodes.md) which is recommended to do when performing any operation more complex than additions, subtractions and simple comparisons.
+[They can be converted to Float,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) which is recommended to do when performing any operation more complex than additions, subtractions and simple comparisons.
 
 <table>
 <tr style="border: 0;">
@@ -123,7 +132,7 @@ Integer 4 is not common and is unlikely to be encountered much.<b>
 
 Constant Floats generate fractional numbers, not wholenumbers, which means they will always have values after the decimal sign, and can in- or decrease by steps smaller than 1 (default 0.01).
 
-[Floats can be converted to Integers](../cast-nodes/cast-nodes.md) but they will be rounded up or down to the nearest Integer, meaning data and accuracy is lost.
+[Floats can be converted to Integers](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) but they will be rounded up or down to the nearest Integer, meaning data and accuracy is lost.
 
 <table>
 <tr style="border: 0;">
@@ -153,7 +162,7 @@ A Float, has a single component, the (1) is omitted from the name for brevity. F
 
 <b>Float2</b>
 
-A Float2 node generates a static 2-component Float Vector. Components are named X, Y. Float2 is quite common and is used for [sampling coordinates](../sampler-nodes/sampler-nodes.md), and for [Transformation Offsets](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
+A Float2 node generates a static 2-component Float Vector. Components are named X, Y. Float2 is quite common and is used for [sampling coordinates](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md), and for [Transformation Offsets](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/transforms.md)
 
 </td>
 </tr>
@@ -210,7 +219,7 @@ Two additional data types exist inside Substance function graphs: booleans and s
 
 <b>Boolean</b>
 
-A Boolean is the simplest data type there is, knowing only two states: True or False, 1 or 0. It is represented by the color white. It is not possible to interchange between Boolean and Integer without [Casting](../cast-nodes/cast-nodes.md), or by using [Logical Nodes.](../logical-nodes/logical-nodes.md) A Boolean is quite common and it's an excellent way to control the flow of a function or graph, a typical use would be for a [Switch Node.](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
+A Boolean is the simplest data type there is, knowing only two states: True or False, 1 or 0. It is represented by the color white. It is not possible to interchange between Boolean and Integer without [Casting](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md), or by using [Logical Nodes.](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) A Boolean is quite common and it's an excellent way to control the flow of a function or graph, a typical use would be for a [Switch Node.](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
 
 </td>
 </tr>

@@ -1,8 +1,17 @@
 ---
-title: "Working with 3D scenes"
-description: ""
-helpx_description: "Designer > Working with 3D scenes"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
+breadcrumb-title: ""
+description: Learn how to import, edit, and work with 3D scenes in Substance 3D Designer to preview and test your materials.
+helpx_creative_field: ""
+helpx_description: Designer > Working with 3D scenes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Working with 3D scenes
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Working with 3D scenes
 
@@ -10,10 +19,10 @@ helpx_description: "Designer > Working with 3D scenes"
 
 Designer lets you load [3D scenes](../glossary/glossary.md) to work on materials in context. You can find a list of supported file formats for 3D scenes here, including a list of supported features for each format. <b>&lt;link needed&gt;</b>
 
-Working in context involves [overriding](overriding-scene-mat/overriding-scene-materials.md) one of the scene’s [materials](../glossary/glossary.md) to replace it with a material authored in Designer.  
-You may start from scratch using any of the Substance graph templates available in Designer or [extract values and textures](extracting-materials-val/extracting-materials-values-and-textures.md) from the 3D scene’s material as a starting point.
+Working in context involves [overriding](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) one of the scene’s [materials](../glossary/glossary.md) to replace it with a material authored in Designer.  
+You may start from scratch using any of the Substance graph templates available in Designer or [extract values and textures](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) from the 3D scene’s material as a starting point.
 
-When you are done with the 3D scene, you can [export it](exporting-scenes/exporting-scenes.md) to a new file to be ingested in another application.
+When you are done with the 3D scene, you can [export it](../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) to a new file to be ingested in another application.
 
 When exporting to USD formats., this workflow can be entirely <b>non-destructive</b>, meaning that only edits and additions are exported.
 
@@ -23,17 +32,17 @@ First, you need to load a 3D scene to work on and be able to retain its state in
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Contents of 3D scenes
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Loading a scene
 
+</td>
+<td style="border: 0;" valign="top">
+
+### scene state files
 
 </td>
 </tr>
@@ -45,8 +54,8 @@ When loading a 3D scene, Designer created its own scene to host it.
 
 You can interact with following contents of the scene:
 
-* <b>Materials:</b> all materials used in the scene can be [overridden](overriding-scene-mat/overriding-scene-materials.md) with a copy created by Designer. You may edit the [material properties](../interface/3d-view/material-properties/material-properties.md) of that copy, with raw values or textures from a Substance graph.
-* <b>Meshes:</b> the geometry can be picked directly in the viewport or from the [Scene browser](../interface/3d-view/scene-browser/scene-browser.md), to access its material actions ([override](overriding-scene-mat/overriding-scene-materials.md), [reset](overriding-scene-mat/overriding-scene-materials.md), [extract to Substance graph](extracting-materials-val/extracting-materials-values-and-textures.md))
+* <b>Materials:</b> all materials used in the scene can be [overridden](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) with a copy created by Designer. You may edit the [material properties](../interface/3d-view/material-properties/material-properties.md) of that copy, with raw values or textures from a Substance graph.
+* <b>Meshes:</b> the geometry can be picked directly in the viewport or from the [Scene browser](../interface/3d-view/scene-browser/scene-browser.md), to access its material actions ([override](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), [reset](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), [extract to Substance graph](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md))
 * <b>Lights:</b> all lights in the scene can be disabled in the [Scene browser](../interface/3d-view/scene-browser/scene-browser.md).
 * <b>Cameras:</b> any camera detected in the scene is added as a preset to the camera added by Designer.
 

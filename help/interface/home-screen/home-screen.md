@@ -1,14 +1,23 @@
 ---
-title: "Home screen"
-description: ""
-helpx_description: "Designer > Interface > Home screen"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
+breadcrumb-title: ""
+description: Use the Home screen in Substance 3D Designer to access recent projects, templates, and learning resources.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Home screen
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Home screen
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Home screen
 
 ![Home screen](home-screen-home.jpg "Home screen")
 
-The <b>Home screen&lt;b&gt; &lt;/b&gt;</b>welcomes you when you launch Substance 3D Designer. It helps you get started with your projects and access useful links.
+The <b>Home screen<b> </b></b>welcomes you when you launch Substance 3D Designer. It helps you get started with your projects and access useful links.
 
 <table>
 <tr style="border: 0;">

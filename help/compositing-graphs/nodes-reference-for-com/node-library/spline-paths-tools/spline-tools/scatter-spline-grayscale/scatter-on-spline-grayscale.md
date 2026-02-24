@@ -1,8 +1,17 @@
 ---
-title: "Scatter on Spline Grayscale"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+breadcrumb-title: ""
+description: Use the Scatter on Spline Grayscale node to distribute grayscale elements along spline paths for procedural patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Scatter on Spline Grayscale
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Scatter on Spline Grayscale
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Scatter on Spline Grayscale
 
@@ -31,7 +40,7 @@ Some aspects of the scattering may be controlled using images from other nodes i
 
 >[!NOTE]
 >
-> See also [Scatter on Spline Color](../scatter-on-spline-color/scatter-on-spline-color.md).
+> See also [Scatter on Spline Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md).
 
 ## Input connectors
 
@@ -89,7 +98,7 @@ In both cases, the first and last patterns fall exactly on the start and end of 
 
 <b>Shape Spacing</b> *Float* (Available when ‘Scatter Mode’ is set to ‘Shape Spacing’)The minimum distance along a spline by which patterns should be spaced, while still landing the first and last pattern on the start and end of each spline respectively.
 
-<b>Start</b> *Float*Offsets the point from the start of a spline where the scattering starts. The value is the normalized length of each spline.
+<b>Start</b> *Float*<span id="_Hlk135680521"></span>Offsets the point from the start of a spline where the scattering starts. The value is the normalized length of each spline.
 
 <b>End</b> *Float*Offsets the point from the start of a spline where the scattering ends. The value is the normalized length of each spline.
 
@@ -171,7 +180,7 @@ This means offsets are decreased for duplicates on a portion of a spline with a 
 
 <b>Thickness Affects</b> *Integer* (Available when ‘Size Mode’ is set to ‘Use Thickness from Spline’)Specifies which axis of a pattern’s scale should be driven by the spline’s thickness:  
 * X &amp; Y: Thickness is multiplied against the size in both the X and Y axes;  
-* X: Thickness is multiplied against the size on the X axis only;  
+<span id="_Hlk135741125"></span>- X: Thickness is multiplied against the size on the X axis only;  
 * Y: Thickness is multiplied against the size on the Y axis only.  
 When not multiplied, the pattern’s original scale is the full span of the image.  
 This means in the ‘X’ mode, the size in the Y axis is the full span of the image and needs to be tweaked using the Size parameter. The same applied for size in the X axis when using the ‘Y’ mode.

@@ -1,8 +1,17 @@
 ---
-title: "Moisture noise 1"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Moisture noise 1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
+breadcrumb-title: ""
+description: Use the Moisture Noise node to generate moisture and condensation patterns for creating wet surface effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Moisture noise 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Moisture noise 1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Moisture noise 1
 
@@ -27,7 +36,7 @@ A variation of the rich and spongy <b>Moisture</b> noises.
   
 Discs of varying hardness and size and scattered and add or subtract from the color below, starting from a base gray.
 
-See also: [Moisture noise 2](../moisture-noise-2/moisture-noise-2.md)
+See also: [Moisture noise 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise-2/moisture-noise-2.md)
 
 </td>
 </tr>
@@ -37,17 +46,17 @@ See also: [Moisture noise 2](../moisture-noise-2/moisture-noise-2.md)
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

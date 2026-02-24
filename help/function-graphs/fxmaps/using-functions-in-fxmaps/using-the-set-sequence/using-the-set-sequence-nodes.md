@@ -1,8 +1,17 @@
 ---
-title: "Using the SetSequence nodes"
-description: ""
-helpx_description: "Designer > Function graphs > FXMaps > Using Functions in FXMaps > Using the SetSequence nodes"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+breadcrumb-title: ""
+description: Learn how to use SetSequence nodes in FXMaps to create sequential patterns and procedural variations.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps > Using the SetSequence nodes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Using the SetSequence nodes
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Using the Set/Sequence nodes
 
@@ -14,7 +23,7 @@ This page describes the **Set** and **Sequence** nodes, and provides an example 
 
 ## Overview
 
-While working with functions in <b>FX-Maps</b>, you will occasionally be in situations where you want to output a value from a parameter's *[Substance function graph](../../../the-function-graph/the-function-graph.md)*, so you can *use it into another.* But by default a Substance function graph only outputs *one* value: the one which drives the related parameter.
+While working with functions in <b>FX-Maps</b>, you will occasionally be in situations where you want to output a value from a parameter's *[Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md)*, so you can *use it into another.* But by default a Substance function graph only outputs *one* value: the one which drives the related parameter.
 
 </td>
 <td style="border: 0;" valign="top">

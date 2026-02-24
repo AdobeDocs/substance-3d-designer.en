@@ -1,8 +1,17 @@
 ---
-title: "Warnings in MDL graphs"
-description: ""
-helpx_description: "Designer > MDL graphs > Warnings in MDL graphs"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/warnings-in-mdl-graphs.html"
+breadcrumb-title: ""
+description: Understand and resolve warnings in MDL graphs to ensure proper material definition and rendering.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs > Warnings in MDL graphs
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Warnings in MDL graphs
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Warnings in MDL graphs
 

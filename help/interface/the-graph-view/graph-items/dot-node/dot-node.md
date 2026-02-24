@@ -1,8 +1,17 @@
 ---
-title: "Dot node (also Portal)"
-description: ""
-helpx_description: "Designer > Interface > Graph view > Graph items"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+breadcrumb-title: ""
+description: Use dot nodes and portal nodes in Substance 3D Designer to create connection points and organize graph flow.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Graph view > Graph items
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Dot node (also Portal)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Dot node (also Portal)
 

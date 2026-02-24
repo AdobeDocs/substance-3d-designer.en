@@ -1,8 +1,17 @@
 ---
-title: "Material Blend"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+breadcrumb-title: ""
+description: Use the Material Blend node to blend entire materials together using masks for creating composite material effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Blending (Material) > Material Blend
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Material Blend
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Material Blend
 
@@ -23,9 +32,9 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Material Blend is the Multi-Channel, Full Material Equivalent of [the atomic Blend Node](../../../../atomic-nodes/blend/blend.md). It blends between two full materials (all possibe channels) based on a grayscale mask, or optionally based on one single color from a Color ID mask.
+Material Blend is the Multi-Channel, Full Material Equivalent of [the atomic Blend Node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md). It blends between two full materials (all possibe channels) based on a grayscale mask, or optionally based on one single color from a Color ID mask.
 
-This node is useful if you want to blend two materials and have a grayscale map but no full Color ID bake. If you do have a Color ID bake and want to blend more than two materials, we suggest you use [Multi-Material Blend](../multi-material-blend/multi-material-blend.md).
+This node is useful if you want to blend two materials and have a grayscale map but no full Color ID bake. If you do have a Color ID bake and want to blend more than two materials, we suggest you use [Multi-Material Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
 
 ## Parameters
 

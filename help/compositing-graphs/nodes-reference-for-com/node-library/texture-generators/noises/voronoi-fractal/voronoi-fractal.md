@@ -1,8 +1,17 @@
 ---
-title: "Voronoi Fractal"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Voronoi Fractal"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/voronoi-fractal.html"
+breadcrumb-title: ""
+description: Use the Voronoi Fractal node to generate fractal Voronoi patterns for creating organic cellular textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Voronoi Fractal
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Voronoi Fractal
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Voronoi Fractal
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 The **Voronoi Fractal** node generates a *fractal* 3D Voronoi noise mapped to a 2D image using a *Z-down orthographic projection*.
 
-This node can be tested with [Cube GBuffers](../../patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
+This node can be tested with [Cube GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
 
 >[!WARNING]
 >

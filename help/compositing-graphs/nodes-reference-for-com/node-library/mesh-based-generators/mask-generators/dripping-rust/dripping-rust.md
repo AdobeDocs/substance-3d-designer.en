@@ -1,8 +1,17 @@
 ---
-title: "Dripping Rust"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dripping Rust"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dripping-rust.html"
+breadcrumb-title: ""
+description: Use the Dripping Rust node to generate rust drip patterns based on mesh geometry and gravity direction.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Dripping Rust
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Dripping Rust
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Dripping Rust
 

@@ -1,8 +1,17 @@
 ---
-title: "Bitmap"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
+breadcrumb-title: ""
+description: Use the Bitmap node to import and use bitmap images as textures in Substance compositing graphs.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Bitmap
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Bitmap
 
@@ -55,31 +64,31 @@ You can either create the node from scratch, or by dropping a [bitmap](../../../
 >
 > This node is dependent on an external resource, hence there are a few points to keep in mind when working with them:
 > 
-> * Bitmap nodes can return either color or grayscale, but defaults to color even if the resource is a grayscale bitmap. This can affect graph performance and complexity, so always make sure to switch to the 'Grayscale'  if needed.
+> * Bitmap nodes can return either color or grayscale, but defaults to color even if the resource is a grayscale bitmap. This can affect graph performance and complexity, so always make sure to switch to the 'Grayscale' [color mode](#parameters) if needed.
 > * Deleting a bitmap node does not delete the [Bitmap resource](../../../../resources/bitmap-resource/bitmap-resource.md) in your [package](../../../../glossary/glossary.md), you have to manually do that in the [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md).
 > * On the other hand, be careful when deleting a [Bitmap resource](../../../../resources/bitmap-resource/bitmap-resource.md) in the Explorer: it will still work in the graph for that session as it is kept in cache, but the resource will be marked as missing the next time you load the [package](../../../../glossary/glossary.md).
-> * When a Substance graph is [cooked](../../../../glossary/glossary.md), the bitmap resolution will be fixed at its resolution inside the graph and not based on its original size. It is recommended to make sure the 'Output size' [base parameter](../../../../glossary/glossary.md) of a Bitmap node uses the 'Absolute' [inheritance method](../../../../glossary/glossary.md), and the node is followed by a [Transform 2D](../transformation-2d/transformation-2d.md) node set to 'Relative to parent' (I.e., the host graph's resolution).
+> * When a Substance graph is [cooked](../../../../glossary/glossary.md), the bitmap resolution will be fixed at its resolution inside the graph and not based on its original size. It is recommended to make sure the 'Output size' [base parameter](../../../../glossary/glossary.md) of a Bitmap node uses the 'Absolute' [inheritance method](../../../../glossary/glossary.md), and the node is followed by a [Transform 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node set to 'Relative to parent' (I.e., the host graph's resolution).
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Parameters
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Bitmap painting tools
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Output connectors
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

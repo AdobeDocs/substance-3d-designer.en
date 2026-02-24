@@ -1,8 +1,17 @@
 ---
-title: "Glow"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Glow"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/glow.html"
+breadcrumb-title: ""
+description: Use the Glow node to add glow effects to textures for creating luminous and emissive material appearances.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Glow
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Glow
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Glow
 
@@ -27,7 +36,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 Performs an "Outer Glow"-type of effect, as seen in other popular image editing software. Essentially adds a fading gradient outline around the input.
 
-Keep in mind that this is not intended to work for images with Alpha Channels, as you might expect. Even the color version only expects binary, black and white masks as input; it only allows for using a colored glow. If you're after a version that works on images with transparency, see [Shape Glow](../shape-glow/shape-glow.md).
+Keep in mind that this is not intended to work for images with Alpha Channels, as you might expect. Even the color version only expects binary, black and white masks as input; it only allows for using a colored glow. If you're after a version that works on images with transparency, see [Shape Glow](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shape-glow/shape-glow.md).
 
 Important: make sure to use the appropriate version for your input! Use "Glow" for Color inputs, or "Glow Grayscale" for Grayscale inputs.
 

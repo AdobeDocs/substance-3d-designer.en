@@ -1,8 +1,17 @@
 ---
-title: "Iterate and number variable"
-description: ""
-helpx_description: "Designer > Function graphs > FXMaps > Using Functions in FXMaps > Iterate and number variable"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+breadcrumb-title: ""
+description: Learn how to use iterate and number variables in FXMaps to create looping patterns and procedural variations.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > FXMaps > Using Functions in FXMaps > Iterate and number variable
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Iterate and number variable
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Iterate and $number variable
 

@@ -1,8 +1,17 @@
 ---
-title: "Edge Select"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Select"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-select.html"
+breadcrumb-title: ""
+description: Use the Edge Select node to generate masks selecting mesh edges for creating edge-based weathering and wear effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Select
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Edge Select
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Edge Select
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-This mask is the best way to select any kind of edge based on the curvature. Convex, Concave at any level or contrast can be isolated, providing an excellent shortcut to avoid manually doing this through a [Levels node](../../../../atomic-nodes/levels/levels.md).
+This mask is the best way to select any kind of edge based on the curvature. Convex, Concave at any level or contrast can be isolated, providing an excellent shortcut to avoid manually doing this through a [Levels node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md).
 
 ## Parameters
 

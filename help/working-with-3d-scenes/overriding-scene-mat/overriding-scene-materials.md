@@ -1,14 +1,23 @@
 ---
-title: "Overriding scene materials"
-description: ""
-helpx_description: "Designer > Working with 3D scenes > Overriding scene materials"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+breadcrumb-title: ""
+description: Override existing materials in 3D scenes to replace them with your own Substance materials for testing and preview.
+helpx_creative_field: ""
+helpx_description: Designer > Working with 3D scenes > Overriding scene materials
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Overriding scene materials
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Overriding scene materials
 
 When working with 3D scenes with existing materials, it is necessary to override these materials in order to replace them with your own.
 
-Your material can be built from scratch, or an adjusted version of a scene's material which has been [extracted into a Substance graph](../extracting-materials-val/extracting-materials-values-and-textures.md).
+Your material can be built from scratch, or an adjusted version of a scene's material which has been [extracted into a Substance graph](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
 ![Overriding a scene material, tweaking it and resetting it to its scene state](tweakOverriddenMaterial.gif "Overriding a scene material, tweaking it and resetting it to its scene state"){zoomable="yes"}
 
@@ -16,17 +25,17 @@ Your material can be built from scratch, or an adjusted version of a scene's mat
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Override scene material
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Reset to scene state
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Connected material
 
 </td>
 </tr>

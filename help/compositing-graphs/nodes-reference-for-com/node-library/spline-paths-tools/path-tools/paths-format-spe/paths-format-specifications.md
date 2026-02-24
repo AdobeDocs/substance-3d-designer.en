@@ -1,8 +1,17 @@
 ---
-title: "Paths Format Specifications"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Format Specifications"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-format-specifications.html"
+breadcrumb-title: ""
+description: Learn about the paths format specifications and data structure used by path and spline nodes.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Paths Format Specifications
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Paths Format Specifications
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Paths Format Specifications
 
@@ -63,7 +72,7 @@ If some paths are empty, they still count here. So you can think of it as a 'num
 
 The pixel size for this document (I.e., exactly `Float2(1,1) / $size`).
 
-This is useful when reading the Paths from from a [Pixel processor](../../../../atomic-nodes/pixel-processor/pixel-processor.md) or an [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md), for instance, whose Output Size is different.
+This is useful when reading the Paths from from a [Pixel processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) or an [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), for instance, whose Output Size is different.
 
 <b>W</b>
 
@@ -187,13 +196,13 @@ if |top&#91;vert\_addr&#93;.W| = 1, then bottom&#91;vert\_addr&#93;.ZW = vert\_a
 
 If you want to make your own Paths-processing nodes, you have several tools.
 
-The basics are provided by the [Paths Vertex Processor](../paths-vertex-processor/paths-vertex-processor.md) and [Paths Vertex Processor Simple](../paths-vertex-processor-1/paths-vertex-processor-simple.md) nodes, which can basically be used the same way as a [Pixel Processor](../../../../atomic-nodes/pixel-processor/pixel-processor.md).
+The basics are provided by the [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) and [Paths Vertex Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md) nodes, which can basically be used the same way as a [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md).
 
 If you need features beyond what the Paths Vertex Processor nodes offers (more input textures, or more previous or next vertices), copying the implementation of this graph might be good starting point (assuming you replace the <b>Get(&quot;%perVertex&quot;)</b> node with you custom processing).
 
 But in case you want to do something more alien than applying a per-vertex function, here is a detailed explanation of the tools you can use. These are usually small helper functions that can be found in the same package as the other Paths nodes (*paths\_tools.sbs)*. (These functions are not exposed in the [<b>Library</b>](../../../../../../interface/the-library/the-library.md) and <b>Node menu</b>.)
 
-### <b>&#39;Read&#39; functions</b>
+### 'Read' functions
 
 Under the `Read` folder, you can find several of these, useful to gather information about the Paths:
 
@@ -230,7 +239,7 @@ Check if a \*top-part sampled\* value is an End vertex (no need to check `is\_ve
 +++
 
 +++is_segment_start
-Short-hand for `is\_start\_vertex || is\_mid\_vertex`. More useful for [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md)-based processing, to process each segment at most once.
+Short-hand for `is\_start\_vertex || is\_mid\_vertex`. More useful for [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)-based processing, to process each segment at most once.
 
 +++
 
@@ -253,7 +262,7 @@ If the current pixel (`*sampled*`) is a <b>Start</b> vertex, *sample\_prev* will
 
 Please note that for simplicity, <b>Paths info are assumed to be stored in input0!</b> Also, unlike what the function's doc states, you don't need to pre-declare `*next\_sampled\_pos*`. `*[out]next\_sampled\_pos*` is a dummy parameter to remind you that this second "return value" exists.
 
-You can check the `*paths\_trace*` [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md), in the Iterations parameter of the 3rd Iterate node, for an example of how to use it.
+You can check the `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), in the Iterations parameter of the 3rd Iterate node, for an example of how to use it.
 
 ![Minimal use case of sample_next](paths-spec_fxmap-sample-next_02.png "Minimal use case of sample_next")
 
@@ -270,11 +279,11 @@ This is aimed to work on closed paths. For open paths, the Start or End vertex d
 
 +++
 
-### <b>&#39;Write&#39; functions</b>
+### 'Write' functions
 
-Under the `Write` folder, you will find small helpers that builds a Float4 ready to be written <b>by an &#91;Fx-Map&#93;(../../../../atomic-nodes/fx-map/fx-map.md)</b>.
+Under the `Write` folder, you will find small helpers that builds a Float4 ready to be written <b>by an &#91;Fx-Map&#93;(../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
 
-Indeed, the [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md) multiplies RGB by Alpha before drawing, so the actual values are un-premultiplied to compensate for that. If you want to use these function e.g. in a [Pixel Processor](../../../../atomic-nodes/pixel-processor/pixel-processor.md), we recommend that you apply the premultiplication yourself again, or that you write a custom version (more optimized for your use case and easier to use).
+Indeed, the [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) multiplies RGB by Alpha before drawing, so the actual values are un-premultiplied to compensate for that. If you want to use these function e.g. in a [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), we recommend that you apply the premultiplication yourself again, or that you write a custom version (more optimized for your use case and easier to use).
 
 +++document_header
 Builds the top part of the document header, declaring the number of paths you provide.
@@ -298,25 +307,25 @@ About *mid\_vertex* and the *hasTrivialLinks* parameter: Ideally you should set
 
 +++
 
-There is no bottom-part builder for path headers nor vertices: both encode two links to the top part, so this function would essentially be a Vector Float4 constructor from two Float2. Don't forget to divide XYZ by W if you are writing using an [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md) (W being the Y of an address, it should never be null).
+There is no bottom-part builder for path headers nor vertices: both encode two links to the top part, so this function would essentially be a Vector Float4 constructor from two Float2. Don't forget to divide XYZ by W if you are writing using an [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (W being the Y of an address, it should never be null).
 
-You will find a pertinent example of how to use these functions in the <b>*paths\_polygon.sbs* </b>package hosting the [Paths Polygon](../paths-polygon/paths-polygon.md) node.
+You will find a pertinent example of how to use these functions in the <b>*paths\_polygon.sbs* </b>package hosting the [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md) node.
 
 ### Methods for processing paths
 
 You will likely use either a Pixel Processor or an Fx-Map to implement your custom processing, each of which has its strength and weaknesses:
 
 +++FX-Map
-The [Fx-Map](../../../../atomic-nodes/fx-map/fx-map.md)-based solution will usually be preferred when performing high-level operation requiring a global knowledge of the whole path (or paths), or a cumulative one (e.g. repacking vertices after decimation or tessellation). It is also the easiest to approach, so if you are doing a custom processing for the first time, you may want to use a Fx-Map, despite it *might* be slower.
+The [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)-based solution will usually be preferred when performing high-level operation requiring a global knowledge of the whole path (or paths), or a cumulative one (e.g. repacking vertices after decimation or tessellation). It is also the easiest to approach, so if you are doing a custom processing for the first time, you may want to use a Fx-Map, despite it *might* be slower.
 
-You need to be familiar with Fx-Map in the first place. If that's not the case, please check the [specific documentation](../../../../atomic-nodes/fx-map/fx-map.md).
+You need to be familiar with Fx-Map in the first place. If that's not the case, please check the [specific documentation](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md).
 
-We recommend that you look at the implementation of [Preview Paths](../preview-paths/preview-paths.md) in <b>*paths\_trace.sbs*</b> and [Paths Polygon](../paths-polygon/paths-polygon.md) in <b>*paths\_polygon.sbs*</b> to get an idea about how to read and write (respectively) path using an Fx-Map.
+We recommend that you look at the implementation of [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) in <b>*paths\_trace.sbs*</b> and [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md) in <b>*paths\_polygon.sbs*</b> to get an idea about how to read and write (respectively) path using an Fx-Map.
 
 +++
 
 +++Pixel Processor
-The [Pixel Processor](../../../../atomic-nodes/pixel-processor/pixel-processor.md) solution will be fitting if you only need "local" information. Here we mean "local" not spatially (the distance between element) but rather topologically (vertices linked together). This is how the Vertex Processor is implemented. The Pixel Processor is usually faster than the Fx-Map for this kind of operation, as each pixel's function is evaluated in parallel, while only a limited amount of data is accessed. Implementation effort might be far more important though, as you can only modify the current pixel.
+The [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) solution will be fitting if you only need "local" information. Here we mean "local" not spatially (the distance between element) but rather topologically (vertices linked together). This is how the Vertex Processor is implemented. The Pixel Processor is usually faster than the Fx-Map for this kind of operation, as each pixel's function is evaluated in parallel, while only a limited amount of data is accessed. Implementation effort might be far more important though, as you can only modify the current pixel.
 
 We won't get into detail, as there is so much to say depending on you specific use case, but the first thing to do is checking where you are:
 

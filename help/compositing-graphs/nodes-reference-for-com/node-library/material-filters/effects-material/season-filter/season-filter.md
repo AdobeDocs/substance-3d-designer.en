@@ -1,8 +1,17 @@
 ---
-title: "Season Filter"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Season Filter"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+breadcrumb-title: ""
+description: Use the Season Filter node to apply seasonal effects to materials for creating spring, summer, fall, and winter variations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Season Filter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Season Filter
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Season Filter
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 This node adds effects such as an animated water level, snow, ice and/or moss.
 
-Keep in mind that this is an older filter that is not intended to be fully PBR-correct. It is mostly kept for legacy/compatibility reasons, although it can still be useful in some cases. More recent PBR-correct versions can be found in [Snow Cover](../snow-cover/snow-cover.md) and [Water Level](../water-level/water-level.md).
+Keep in mind that this is an older filter that is not intended to be fully PBR-correct. It is mostly kept for legacy/compatibility reasons, although it can still be useful in some cases. More recent PBR-correct versions can be found in [Snow Cover](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md) and [Water Level](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md).
 
 The node requires a proper set of material inputs, mainly with a decently detailed Heightmap or Normalmap.
 

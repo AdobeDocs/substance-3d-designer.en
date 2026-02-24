@@ -1,8 +1,17 @@
 ---
-title: "Tile Random 2"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random 2"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random-2.html"
+breadcrumb-title: ""
+description: Use the Tile Random 2 node to create randomized tile patterns with advanced variation controls in Substance 3D Designer.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Tile Random 2
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Tile Random 2
 

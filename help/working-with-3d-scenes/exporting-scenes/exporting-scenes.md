@@ -1,8 +1,17 @@
 ---
-title: "Exporting scenes"
-description: ""
-helpx_description: "Designer > Working with 3D scenes > Exporting scenes"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+breadcrumb-title: ""
+description: Export 3D scenes with all edits made in Designer using the Export scene action in the 3D View Scene menu.
+helpx_creative_field: ""
+helpx_description: Designer > Working with 3D scenes > Exporting scenes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Exporting scenes
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Exporting scenes
 
@@ -22,17 +31,17 @@ For other formats, the contents of the scene and its internal structure will dep
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Export scene
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Export scene as layers
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Textures
 
 </td>
 </tr>

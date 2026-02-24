@@ -1,8 +1,17 @@
 ---
-title: "3D Planar Projection"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > 3D Planar Projection"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/utilities-mesh-based-generators/3d-planar-projection.html"
+breadcrumb-title: ""
+description: Use the 3D Planar Projection node to project textures onto mesh surfaces using planar projection for texture mapping.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Utilities (Mesh Based Generators) > 3D Planar Projection
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 3D Planar Projection
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # 3D Planar Projection
 

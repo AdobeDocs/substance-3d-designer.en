@@ -1,8 +1,17 @@
 ---
-title: "The Quadrant Node"
-description: ""
-helpx_description: "Designer > Function graphs > FXMaps > The Quadrant Node"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+breadcrumb-title: ""
+description: Use the Quadrant node in FXMaps to divide textures into four sections for creating tiled patterns and variations.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > FXMaps > The Quadrant Node
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: The Quadrant Node
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # The Quadrant Node
 

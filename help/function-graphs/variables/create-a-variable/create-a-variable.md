@@ -1,8 +1,17 @@
 ---
-title: "Create a variable"
-description: ""
-helpx_description: "Designer > Function graphs > Variables > Create a variable"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+breadcrumb-title: ""
+description: Learn how to create custom variables in Substance 3D Designer function graphs for reusable values and parameters.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Variables > Create a variable
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Create a variable
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Create a variable
 

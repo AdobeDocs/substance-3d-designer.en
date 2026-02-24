@@ -1,8 +1,17 @@
 ---
-title: "Color Burn"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color Burn"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-burn.html"
+breadcrumb-title: ""
+description: Use the Color Burn blend node to darken textures by increasing contrast for creating shadow and burn effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color Burn
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color Burn
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Color Burn
 

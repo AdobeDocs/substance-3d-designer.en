@@ -1,8 +1,17 @@
 ---
-title: "Performance optimization guidelines"
-description: ""
-helpx_description: "Designer > Best Practices > Performance optimization guidelines"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+breadcrumb-title: ""
+description: Learn performance optimization guidelines for Substance 3D Designer to improve graph performance and reduce processing time.
+helpx_creative_field: ""
+helpx_description: Designer > Best Practices > Performance optimization guidelines
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Performance optimization guidelines
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Performance optimization guidelines
 

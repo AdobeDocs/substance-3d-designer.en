@@ -1,12 +1,21 @@
 ---
-title: "Control"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Control"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+breadcrumb-title: ""
+description: Access control nodes in Substance 3D Designer function graphs to control flow and execution logic.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Control
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Control
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Control nodes
 
-This page describes nodes of [Function graphs](../../../the-function-graph/the-function-graph.md) which purpose is controlling the *flow of execution*.
+This page describes nodes of [Function graphs](../../../../function-graphs/the-function-graph/the-function-graph.md) which purpose is controlling the *flow of execution*.
 
 <table>
 <tr style="border: 0;">
@@ -25,7 +34,7 @@ Similarly to programming langages, the If... Else node introduces the possibilit
 </tr>
 </table>
 
-You will use this node in conjunction with the[ Logical nodes](../logical-nodes/logical-nodes.md) and the [Comparison nodes](../comparison-nodes/comparison-nodes.md) that will help you build the condition to check.
+You will use this node in conjunction with the[ Logical nodes](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) and the [Comparison nodes](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) that will help you build the condition to check.
 
 +++Input connectors
 <b>Condition</b> *Boolean*  
@@ -56,7 +65,7 @@ Ensures a portion of the graph is computed before another one.
 
 This is critical for controlling the state of variables are they are created, read and updated.
 
-You may learn more about the Sequence node in the [Using the Set/Sequence nodes](../../../fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) page of this documentation.
+You may learn more about the Sequence node in the [Using the Set/Sequence nodes](../../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) page of this documentation.
 
 +++Input connectors
 <b>In</b> *Variable type*  

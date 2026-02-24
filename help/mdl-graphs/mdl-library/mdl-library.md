@@ -1,12 +1,21 @@
 ---
-title: "MDL library"
-description: ""
-helpx_description: "Designer > MDL graphs > MDL library"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/mdl-library.html"
+breadcrumb-title: ""
+description: Access the Material Definition Language library in Substance 3D Designer for creating custom materials.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs > MDL library
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: MDL library
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # MDL library
 
-This page presents the library of content related to [MDL graphs](../mdl-graphs.md) and materials included in Substance 3D Designer. It also explains installing and managing custom content in the [Library](../../interface/the-library/the-library.md).
+This page presents the library of content related to [MDL graphs](../../mdl-graphs/mdl-graphs.md) and materials included in Substance 3D Designer. It also explains installing and managing custom content in the [Library](../../interface/the-library/the-library.md).
 
 ## MDL content in the Library
 
@@ -55,7 +64,7 @@ Open the <b>Materials</b> menu, and open a *scene material's submenu* to browse 
 * Built-in content
 * Custom content
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
-* Loaded [MDL graphs](../mdl-graphs.md)
+* Loaded [MDL graphs](../../mdl-graphs/mdl-graphs.md)
 
 ![MDL materials in 3D View](mdl-apply-in-3dview-material-list.png "MDL materials in 3D View")
 

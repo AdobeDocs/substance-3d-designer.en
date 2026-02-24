@@ -1,8 +1,17 @@
 ---
-title: "Tile Random"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-random.html"
+breadcrumb-title: ""
+description: Use the Tile Random node to create randomized tile patterns with procedural variation for organic texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Random
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Tile Random
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Tile Random
 
@@ -23,9 +32,9 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Tile Random generates a procedural tile pattern that has a little bit more chaos in the tile shapes than its counterpart, [Tile Generator](../tile-generator/tile-generator.md). It does this by randomly splitting certain tiles into smaller tiles. We suggest you first find your way around Tile Generator before tackling Tile Random, as many concepts are similar.
+Tile Random generates a procedural tile pattern that has a little bit more chaos in the tile shapes than its counterpart, [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). It does this by randomly splitting certain tiles into smaller tiles. We suggest you first find your way around Tile Generator before tackling Tile Random, as many concepts are similar.
 
-Tile Random is used instead of [Tile Generator](../tile-generator/tile-generator.md) when the goal is an older-looking, less organised pattern. It does have its limitations though, so consider [Tile Sampler](../tile-sampler/tile-sampler.md) for any other advanced needs.
+Tile Random is used instead of [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) when the goal is an older-looking, less organised pattern. It does have its limitations though, so consider [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) for any other advanced needs.
 
 ## Parameters
 

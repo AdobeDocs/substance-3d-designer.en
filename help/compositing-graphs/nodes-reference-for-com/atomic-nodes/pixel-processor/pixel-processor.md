@@ -1,8 +1,17 @@
 ---
-title: "Pixel processor"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+breadcrumb-title: ""
+description: Use the Pixel Processor node to process individual pixels using custom expressions for advanced texture manipulation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Pixel processor
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Pixel processor
 
@@ -27,7 +36,7 @@ It is by far the most versatile node, as it allows any mathematical operation to
 
 Similar to [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), it requires to set up the internal functionality to perform anything. Where the Pixel processor differs from FX-Map is that it is not focused on placing patterns, with multiple functions controlling pattern shape and placement. Instead, a single function is run in parallel for every pixel, where each pixel is unaware of the calculation results of its neighbors.
 
-The Pixel Processor is similar to the [Value processor](../value-processor/value-processor.md), which runs on only single values and can provide a nice optimization compared to the Pixel processor.
+The Pixel Processor is similar to the [Value processor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), which runs on only single values and can provide a nice optimization compared to the Pixel processor.
 
 For anybody used to creating [shader](../../../../glossary/glossary.md) functions in node-based editors, the Pixel processor should offer a familiar environment.
 
@@ -53,9 +62,9 @@ For anybody used to creating [shader](../../../../glossary/glossary.md) function
 
 >[!TIP]
 >
-> An annotated project file demonstrating simple uses of the Pixel processor node is available in the [Sample Substance graphs](../../../sample-compositing-graphs/sample-substance-compositing-graphs.md) section of this documentation.
+> An annotated project file demonstrating simple uses of the Pixel processor node is available in the [Sample Substance graphs](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md) section of this documentation.
 > 
-> The [Value processor](../value-processor/value-processor.md) node is a good starting point for learning about [Substance function graphs](../../../../function-graphs/the-function-graph/the-function-graph.md).
+> The [Value processor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) node is a good starting point for learning about [Substance function graphs](../../../../function-graphs/the-function-graph/the-function-graph.md).
 > 
 > Also consider that working with this type of graph and performing mathematical operations is mandatory for getting anything out of this node.
 > 
@@ -65,12 +74,12 @@ For anybody used to creating [shader](../../../../glossary/glossary.md) function
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>

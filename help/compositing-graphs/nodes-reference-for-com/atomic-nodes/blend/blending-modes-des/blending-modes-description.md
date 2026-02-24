@@ -1,12 +1,21 @@
 ---
-title: "Blending modes"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend > Blending modes"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+breadcrumb-title: ""
+description: Learn about blending modes available in Substance 3D Designer for combining textures with different compositing effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blend > Blending modes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Blending modes
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Blending modes
 
-The [Blend](../blend.md) node offers the following blending modes:
+The [Blend](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) node offers the following blending modes:
 
 ## Copy
 
@@ -72,7 +81,7 @@ The *Switch* blending mode is similar to the Copy mode, with one *crucial* diffe
 
 Therefore, this mode may be used to improve the performances of your graph.
 
-The [Switch](../../../node-library/filters/blending/switch/switch.md) and [Switch grayscale](../../../node-library/filters/blending/switch/switch.md) nodes are setup to use the blend nodes in these specific configurations.
+The [Switch](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) and [Switch grayscale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) nodes are setup to use the blend nodes in these specific configurations.
 
 ![Blending mode: Switch](image2015-8-20-9-38-0.png "Blending mode: Switch"){zoomable="yes"}
 

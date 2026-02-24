@@ -1,8 +1,17 @@
 ---
-title: "Polygon 2"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Polygon 2"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-2.html"
+breadcrumb-title: ""
+description: Use the Polygon 2 node to generate advanced polygonal patterns with customizable sides and properties.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Polygon 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Polygon 2
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Polygon 2
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Generates a smooth gradient polygon shape with options for adjustment. See [Polygon 1](../polygon-1/polygon-1.md) for a more advanced version.
+Generates a smooth gradient polygon shape with options for adjustment. See [Polygon 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-1/polygon-1.md) for a more advanced version.
 
 ## Parameters
 

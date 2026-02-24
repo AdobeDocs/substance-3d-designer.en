@@ -1,8 +1,17 @@
 ---
-title: "Uniform color"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+breadcrumb-title: ""
+description: Use the Uniform Color node to generate uniform color textures for creating solid color fills and base layers.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Uniform color
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Uniform color
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Uniform color
 
@@ -49,24 +58,24 @@ It is a simple node that is used very often as a starting point for adding color
 > 
 > Both of these adjustments lowers the node's computation time and memory footprint:
 > 
-> * If a grayscale value is needed, make sure to switch the node's to 'Grayscale'.
-> * Since the node's output is a flat color, you may use the lowest resolution possible. Set the node's '[Output size](../../../output-size/output-size.md)' parameter to use the 'Absolute' [inheritance method](../../../inheritance-compositing/inheritance-in-substance-compositing-graphs.md) and a resolution of 16x16 pixels.
+> * If a grayscale value is needed, make sure to switch the node's [color mode](#parameters) to 'Grayscale'.
+> * Since the node's output is a flat color, you may use the lowest resolution possible. Set the node's '[Output size](../../../../compositing-graphs/output-size/output-size.md)' parameter to use the 'Absolute' [inheritance method](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) and a resolution of 16x16 pixels.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Parameters
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Output connectors
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 <td style="border: 0;" valign="top">

@@ -1,8 +1,17 @@
 ---
-title: "User Preferences - Automating Setup"
-description: ""
-helpx_description: "Designer > Pipeline and Project Configuration > User Preferences - Automating Setup"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+breadcrumb-title: ""
+description: Learn how to automate user preferences setup in Substance 3D Designer for streamlined workflow configuration.
+helpx_creative_field: ""
+helpx_description: Designer > Pipeline and Project Configuration > User Preferences - Automating Setup
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: User Preferences - Automating Setup
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # User Preferences - Automating Setup
 
@@ -10,9 +19,9 @@ helpx_description: "Designer > Pipeline and Project Configuration > User Prefere
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-The user\_preferences.xml file contains all user-specific settings outside of the ones defined in a [Project Configuration](../project-configuration-fil/project-configuration-files-sbsprj.md). These mainly relate to specific UI and performance settings.
+The user\_preferences.xml file contains all user-specific settings outside of the ones defined in a [Project Configuration](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md). These mainly relate to specific UI and performance settings.
 
-The only relevant setting to change is the [Configuration File](../configuration-list-sbscfg/configuration-list-sbscfg.md) that contains a list of projects. This can be done in a few ways, as listed below.
+The only relevant setting to change is the [Configuration File](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) that contains a list of projects. This can be done in a few ways, as listed below.
 
 Alternatively, you can completely bypass modifying the User Preferences, and do a session-based override of the SBSCFG file by using a command-line argument on the Designer shortcut, see below.
 
@@ -27,7 +36,7 @@ Alternatively, you can completely bypass modifying the User Preferences, and do 
 
 ## Permanent or session-based
 
-There are two different ways to configure Designer to use another [configuration file](../configuration-list-sbscfg/configuration-list-sbscfg.md) than the default, both with advantages and disadvantages:
+There are two different ways to configure Designer to use another [configuration file](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) than the default, both with advantages and disadvantages:
 
 * <b>Permanently modifying user\_preferences.xml  
   </b>This file is located in *~User\AppData\Local\Adobe\Adobe Substance 3D Designer*for Windows. If you modify it, Designer will always use what is defined there, regardless of how, when or where you start it. Making changes requires modifying the XML again, both of which are described below, and tend to be a bit involved.
@@ -42,7 +51,7 @@ If there is no automated setup, or for testing purposes, one can manually go to 
 
 ![Project settings](preferences-ui.png "Project settings")
 
-The button marked in red allows the user to choose a different[ SBSCFG file](../configuration-list-sbscfg/configuration-list-sbscfg.md).
+The button marked in red allows the user to choose a different[ SBSCFG file](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md).
 
 ### Modifying through script
 

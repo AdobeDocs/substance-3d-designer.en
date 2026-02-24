@@ -1,8 +1,17 @@
 ---
-title: "Exporting Bitmaps"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Exporting Bitmaps"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+breadcrumb-title: ""
+description: Learn how to export textures and bitmaps from Substance compositing graphs for use in external applications and workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Exporting Bitmaps
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Exporting Bitmaps
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Exporting Bitmaps
 
@@ -67,13 +76,13 @@ The version shown to the right is the standard dialog, changing resolution happe
 
 ## Export dialog (Batch/UV tiles)
 
-When working with UV-Tile meshes in Designer, the Export Dialog can be used in a slightly different way that allows batch-exporting of multiple UV-Tiles at once. Make sure you understand this workflow, and have properly assigned a [Substance graph](../substance-compositing-graphs.md) to one or more UV-Tiles.  
+When working with UV-Tile meshes in Designer, the Export Dialog can be used in a slightly different way that allows batch-exporting of multiple UV-Tiles at once. Make sure you understand this workflow, and have properly assigned a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) to one or more UV-Tiles.  
 The batch tab is also a faster way to export your graph at a different resolution than the working (parent) resolution.
 
 Start the dialog with the same methods as detailed above, just making sure you right click *on the UV-Tile-assigned graph in the Explorer*, or that you have *opened the specific UV-Tile-assigned Graph* in the Graph view when using the Tools button.
 
 1. <b>Batch Tab</b>: Make sure to select this tab instead of the standard <b>From Graph </b>method, otherwise options 2-3 will not be available.
 1. <b>UV Tiles:</b> Just as with Outputs, allow you to toggle on or off the exporting of specific UV Tiles.
-1. <b>&#91;Output size&#93;(../output-size/output-size.md): </b>Override export resolution, allowing you to work smaller and more efficient, while exporting at maximum size.
+1. <b>&#91;Output size&#93;(../../compositing-graphs/output-size/output-size.md): </b>Override export resolution, allowing you to work smaller and more efficient, while exporting at maximum size.
 
 ![Batch export outputs dialog](batch.png "Batch export outputs dialog")

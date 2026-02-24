@@ -1,8 +1,17 @@
 ---
-title: "Median filter grayscale"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter grayscale"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-grayscale.html"
+breadcrumb-title: ""
+description: Use the Median Filter Grayscale node to reduce noise and preserve edges in grayscale textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Median filter grayscale
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Median filter grayscale
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Median filter grayscale
 
@@ -29,7 +38,7 @@ For every pixel, the node computes a grayscale value according to the median val
 
 >[!NOTE]
 >
-> See also [Median filter color](../median-filter-color/median-filter-color.md).
+> See also [Median filter color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/median-filter-color/median-filter-color.md).
 
 ## Input connectors
 

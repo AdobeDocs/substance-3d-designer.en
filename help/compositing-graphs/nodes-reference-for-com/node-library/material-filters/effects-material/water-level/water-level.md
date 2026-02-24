@@ -1,8 +1,17 @@
 ---
-title: "Water Level"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Water Level"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/water-level.html"
+breadcrumb-title: ""
+description: Use the Water Level node to blend materials based on water level height for creating realistic water effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Water Level
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Water Level
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Water Level
 

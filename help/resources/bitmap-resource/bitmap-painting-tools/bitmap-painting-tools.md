@@ -1,8 +1,17 @@
 ---
-title: "Bitmap painting tools"
-description: ""
-helpx_description: "Designer > Resources > Bitmap resource > Bitmap painting tools"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+breadcrumb-title: ""
+description: Use bitmap painting tools in Substance 3D Designer to paint directly on bitmap resources for texture editing.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > Bitmap resource > Bitmap painting tools
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Bitmap painting tools
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Bitmap painting tools
 
@@ -20,7 +29,7 @@ Edits can be *undone individually*, and all the other features of the 2D View pa
 
 >[!IMPORTANT]
 >
-> You can paint *only* on *8-bit* [bitmap resources](../bitmap-resource.md) which are [new or imported](../../importing-linking-and-new/importing-linking-and-new-resources.md).
+> You can paint *only* on *8-bit* [bitmap resources](../../../resources/bitmap-resource/bitmap-resource.md) which are [new or imported](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md).
 
 >[!WARNING]
 >
@@ -34,7 +43,7 @@ Edits can be *undone individually*, and all the other features of the 2D View pa
 
 The painting tools will be enabled automatically in the [2D view](../../../interface/2d-view/2d-view.md) panel when the following criteria regarding a bitmap are met:
 
-* The bitmap is a [new or imported](../../importing-linking-and-new/importing-linking-and-new-resources.md) resource
+* The bitmap is a [new or imported](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) resource
 * The bitmap has *8-bit* precision
 * The bitmap is displayed in the [2D view](../../../interface/2d-view/2d-view.md) panel
 
@@ -57,7 +66,7 @@ The <b>New bitmap</b> window will open, letting you set the *name*, *resolution*
 
 The painting tools and options are arranged in *toolbars* within the [2D view](../../../interface/2d-view/2d-view.md) panel. These toolbars can be relocated to *any side* of the panel or as a *floating toolbar*, by clicking and holding <b>LMB</b> on their *handle* – displayed as a triple line – then releasing <b>LMB</b> at the desired location.
 
-Two toolbars are displayed when the painting tools are enabled: the and the , which are described below.
+Two toolbars are displayed when the painting tools are enabled: the [Tool selection toolbar](#bitmappaintingtools-toolselectiontoolbar) and the Tool options toolbar, which are described below.
 
 ## Tool selection toolbar
 
@@ -65,17 +74,17 @@ The painting tools can be found in the **Tool selection toolbar**, which is plac
 
 ![](2dview-paintingtools-icon-colors-primary.png)![](2dview-paintingtools-icon-colors-secondary.png) <b>Color selection</b> <b>thumbnails:</b> Let you define a *primary* and *secondary* color. Click on any of these thumbnails to display the <b>Color editor</b> window and define a color. Tools will use the *primary* color. The primary and secondary colors can be *swapped* (<b>X</b>) at any time
 
-![](2dview-paintingtools-icon-brush.png) <b>Brush tool (B):</b> Applies the *primary* color at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the
+![](2dview-paintingtools-icon-brush.png) <b>Brush tool (B):</b> Applies the *primary* color at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar
 
-![](2dview-paintingtools-icon-clone.png) <b>Stamp tool (T):</b> Lets you stamp a part of the image onto another. You can define the *source* which should be stamped by holding the <b>Alt</b> key and clicking <b>LMB</b>. This area of the image will then be stamped onto the *target* area of the image at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the . Please note the source will *track* the movements of the target, and that the size of the *source* area will *match* the size of the *brush*
+![](2dview-paintingtools-icon-clone.png) <b>Stamp tool (T):</b> Lets you stamp a part of the image onto another. You can define the *source* which should be stamped by holding the <b>Alt</b> key and clicking <b>LMB</b>. This area of the image will then be stamped onto the *target* area of the image at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Please note the source will *track* the movements of the target, and that the size of the *source* area will *match* the size of the *brush*
 
 ![](2dview-paintingtools-clone-alignment.png) <b>Enable alignment (Stamp tool option):</b> Lets you define whether the source should *stay in place* when a new stamp begins, or if it should *relocate relatively to the new stamp location*
 
-<b>!&#91;&#93;(2dview-paintingtools-icon-eraser.png) Eraser (E):</b> Replaces the current color of the image with the (0, 0, 0, 0) value at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the . Make sure the [Transparency display](../../../interface/2d-view/2d-view.md) is enabled to keep track of the impact of this tool on the <b>Alpha</b> channel.
+<b>!&#91;&#93;(2dview-paintingtools-icon-eraser.png) Eraser (E):</b> Replaces the current color of the image with the (0, 0, 0, 0) value at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Make sure the [Transparency display](../../../interface/2d-view/2d-view.md) is enabled to keep track of the impact of this tool on the <b>Alpha</b> channel.
 
 ## Tool options toolbar
 
-The options for the tools available in the can be found in the Tool options toolbar, which is placed on the *top side* of the [2D view](../../../interface/2d-view/2d-view.md) panel by default.
+The options for the tools available in the [Tool selection toolbar](#bitmappaintingtools-toolselectiontoolbar) can be found in the Tool options toolbar, which is placed on the *top side* of the [2D view](../../../interface/2d-view/2d-view.md) panel by default.
 
 <table>
 <tr style="border: 0;">
@@ -83,9 +92,9 @@ The options for the tools available in the can be found in the Tool options tool
 
 ### BRUSH SELECTION
 
-The ![](2dview-paintingtools-brush-thumb.png) <b>Brush selection</b> lets you select a *preconfigured* brush from the available brush *presets*, set its <b>Size</b> and <b>Hardness</b> *(*see <b>Shape</b> section of ), and displays a *preview* of a brush stroke.
+The ![](2dview-paintingtools-brush-thumb.png) <b>Brush selection</b> lets you select a *preconfigured* brush from the available brush *presets*, set its <b>Size</b> and <b>Hardness</b> *(*see <b>Shape</b> section of Brush editor), and displays a *preview* of a brush stroke.
 
-Brush presets can be created and edited in the and arranged in *libraries*. The brush presets which will appear in this panel is the *sum* of all loaded brush presets libraries. These librairies can be managed by accessing the ![](2dview-paintingtools-brushpresets-library.png) <b>Brush library</b> menu (see <b>Presets</b> section of )
+Brush presets can be created and edited in the Brush editor and arranged in *libraries*. The brush presets which will appear in this panel is the *sum* of all loaded brush presets libraries. These librairies can be managed by accessing the ![](2dview-paintingtools-brushpresets-library.png) <b>Brush library</b> menu (see <b>Presets</b> section of Brush editor)
 
 The ![](2dview-paintingtools-brushpresets-previewbkgd.png) <b>Select background color</b> button lets you change the background color of the *brush stroke preview*.
 

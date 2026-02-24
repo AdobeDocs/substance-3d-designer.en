@@ -1,8 +1,17 @@
 ---
-title: "Managing custom content and filters"
-description: ""
-helpx_description: "Designer > Interface > The Library > Managing custom content and filters"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+breadcrumb-title: ""
+description: Learn how to manage custom content and filters in the Substance 3D Designer Library for organized asset access.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > The Library > Managing custom content and filters
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Managing custom content and filters
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Managing custom content and filters
 
@@ -10,16 +19,17 @@ This page explains the method to create categories and filters to manage custom 
 
 ## Overview
 
-After [adding custom content to the Library](../../preferences-window/project-settings/project-settings.md), you need to make it *discoverable*.
+After [adding custom content to the Library](../../../interface/preferences-window/project-settings/project-settings.md), you need to make it *discoverable*.
 
 The Library uses a number of *data points* for identifying content, for the purposes of filtering it and surfacing in searches. These data points include:
 
 * Name
 * Extension
 * URL (i.e. *filename*)
+* Attributes
 
 You may organise your <b>Library</b> into categories containing specific filters, and tailor it to your project's needs.  
-Indeed, custom categories and filters can be *project-specific* and be saved in [Project files](../../preferences-window/project-settings/project-settings.md) (\*.sbsprj). These files can then be assembled into [Configuration files](../../preferences-window/project-settings/project-settings.md) (\*.sbscfg) and distributed to a team so that artists can all use the *same <b>Library</b> categories* for any given project.
+Indeed, custom categories and filters can be *project-specific* and be saved in [Project files](../../../interface/preferences-window/project-settings/project-settings.md) (\*.sbsprj). These files can then be assembled into [Configuration files](../../../interface/preferences-window/project-settings/project-settings.md) (\*.sbscfg) and distributed to a team so that artists can all use the *same <b>Library</b> categories* for any given project.
 
 This means that with one or more Project files, you can set the folders which content should be added to the <b>Library</b>, as well as the categories and filters which will sort and organise that content.
 
@@ -66,7 +76,7 @@ To *remove* a Folder or Filter, *right-click* on it and select the <b>Remov
 **Filters** usually need to have *conditions* set up for achieving their filtering purpose. These conditions are configured using the following criteria:
 
 * **Resource Type**: sets a specific [Resource type](../../../resources/resources.md), such as [Graphs](../../../compositing-graphs/substance-compositing-graphs.md)
-* **Attribute** to apply condition to – see
+* **Attribute** to apply condition to – see list above
 * **Condition logic**: lets the filter include results with positive, negative, partial and whole matches
 * **Condition keyword:** the string against which the **Attribute** and **Condition logic** criteria are tested. When left blank, any resource which matches these two criteria are included
 
@@ -84,11 +94,11 @@ You can *add or remove* conditions using the '**+**' and '**x**' buttons on the 
 * Don't create custom nodes that mix with the default Library unless you *explicitly* want them to. Your nodes *will* show up under default Filters if they match, so you will have to make sure to use a *different tagging/naming system* to avoid that
 * Use *unique*, *per-project* identifiers. These can be put anywhere you want (such as <b>Description</b>, <b>Category</b> or <b>User Data</b>), as long as you are *consistent* between all projects. This makes searching and filtering content *by project* much easier
 * Use the <b>Author</b> attribute to keep track of the person initially responsible for the content, without having to dig through Version Control records
-* An efficient way of creating <b>Icons</b> is either to use the <b>Generate</b> option of the [Icon](../../../compositing-graphs/graph-parameters/graph-parameters.md) graph attribute, or to create a graph [template](../../preferences-window/project-settings/project-settings.md) for generating them. That way you can ensure consistency and save work on creating them. All default library icons were created within Designer this way!
+* An efficient way of creating <b>Icons</b> is either to use the <b>Generate</b> option of the [Icon](../../../compositing-graphs/graph-parameters/graph-parameters.md) graph attribute, or to create a graph [template](../../../interface/preferences-window/project-settings/project-settings.md) for generating them. That way you can ensure consistency and save work on creating them. All default library icons were created within Designer this way!
 
 ### Managing content of varying scope
 
 * You can add Resources to *existing categories* if this makes more sense. It will be less work to manage and maintain filters, and you can use a special icon style to *tell them apart*.
-* You can define your folders and filters in a *global* (studio-level) [Project Configuration file](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md), and then add content into them merely by adding watched paths from *consecutive* [Project files](../../preferences-window/project-settings/project-settings.md)
+* You can define your folders and filters in a *global* (studio-level) [Project Configuration file](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md), and then add content into them merely by adding watched paths from *consecutive* [Project files](../../../interface/preferences-window/project-settings/project-settings.md)
 * You can define specific folders and filters for *each project* to keep them separated
 * You can mix and match and use methods from all three above: use existing filters, define new global ones, and create per-project unique ones

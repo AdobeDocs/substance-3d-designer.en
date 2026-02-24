@@ -1,8 +1,17 @@
 ---
-title: "Properties"
-description: ""
-helpx_description: "Designer > Interface > Properties"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
+breadcrumb-title: ""
+description: Use the Properties panel in Substance 3D Designer to view and edit node properties and graph parameters.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Properties
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Properties
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Properties
 
@@ -14,7 +23,7 @@ This page presents the <b>Properties </b>panel of Substance 3D Designer, its lay
 
 ## Overview
 
-The <b>Properties </b>panel is a context-sensitive panel that changes based on your selection in [the Graph View](../the-graph-view/the-graph-view.md) and the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) window.
+The <b>Properties </b>panel is a context-sensitive panel that changes based on your selection in [the Graph View](../../interface/the-graph-view/the-graph-view.md) and the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) window.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -25,7 +34,7 @@ The <b>Properties </b>panel is a context-sensitive panel that changes based on y
 </tr>
 </table>
 
-It lets you change the properties of selected nodes and resources, together with [the Graph View](../the-graph-view/the-graph-view.md), it is probably your second most used UI panel in Designer.
+It lets you change the properties of selected nodes and resources, together with [the Graph View](../../interface/the-graph-view/the-graph-view.md), it is probably your second most used UI panel in Designer.
 
 The Properties panel is split into a few different rollouts, depending on your selection, for example:
 

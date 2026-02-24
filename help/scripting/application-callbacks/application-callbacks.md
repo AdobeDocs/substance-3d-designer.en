@@ -1,14 +1,23 @@
 ---
-title: "Application callbacks"
-description: ""
-helpx_description: "Designer > Scripting > Application callbacks"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/application-callbacks.html"
+breadcrumb-title: ""
+description: Learn how to use application callbacks in Substance 3D Designer Python plugins to respond to application events.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Application callbacks
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Application callbacks
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Application callbacks
 
 It is possible to register <b>Python callbacks</b> with the application object that Designer will call when specific events happen.
 
-User interface objects, such as menus and buttons, can trigger callbacks using the <b>Qt for Python</b> library. For more information, see [Creating user interface elements](../creating-user-interface/creating-user-interface-elements.md).
+User interface objects, such as menus and buttons, can trigger callbacks using the <b>Qt for Python</b> library. For more information, see [Creating user interface elements](../../scripting/creating-user-interface/creating-user-interface-elements.md).
 
 ```
 

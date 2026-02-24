@@ -1,8 +1,17 @@
 ---
-title: "Mirror (Filter Node)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Mirror (Filter Node)"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/mirror-filter-node.html"
+breadcrumb-title: ""
+description: Use the Mirror filter node to mirror textures horizontally or vertically for creating symmetrical patterns and effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Mirror (Filter Node)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Mirror (Filter Node)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Mirror (Filter Node)
 

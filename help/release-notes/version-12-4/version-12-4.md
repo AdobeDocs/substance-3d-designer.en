@@ -1,8 +1,17 @@
 ---
-title: "Version 12.4"
-description: ""
-helpx_description: "Designer > Release Notes > Version 12.4"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 12.4 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 12.4
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 12.4
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 12.4
 

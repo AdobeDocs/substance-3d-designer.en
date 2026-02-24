@@ -1,8 +1,17 @@
 ---
-title: "HDRI Tools"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools.html"
+breadcrumb-title: ""
+description: Access HDRI tool nodes in Substance 3D Designer to manipulate and enhance HDRI environments for 3D view lighting.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: HDRI Tools
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # HDRI Tools
 
@@ -10,7 +19,7 @@ HDRI Tools are nodes meant for manipulating and creating HDRI images. Specifical
 
 Some good examples to get started with:
 
-* [Physical Sun/Sky](physical-sun-sky/physical-sun-sky.md)
-* [Gradient Linear (HDRI)](gradient-linear-hdri/gradient-linear-hdri.md)
-* [Shape Light](shape-light/shape-light.md)
-* [Nadir Patch](nadir-patch/nadir-patch.md)
+* [Physical Sun/Sky](../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md)
+* [Gradient Linear (HDRI)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/gradient-linear-hdri/gradient-linear-hdri.md)
+* [Shape Light](../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md)
+* [Nadir Patch](../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-patch/nadir-patch.md)

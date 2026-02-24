@@ -1,8 +1,17 @@
 ---
-title: "Link creation modes"
-description: ""
-helpx_description: "Designer > Interface > The graph view > Link creation modes"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+breadcrumb-title: ""
+description: Learn about link creation modes in Substance 3D Designer graph view for connecting nodes efficiently.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > The graph view > Link creation modes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Link creation modes
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Link creation modes
 

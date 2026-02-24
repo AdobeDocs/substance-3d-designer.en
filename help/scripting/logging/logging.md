@@ -1,8 +1,17 @@
 ---
-title: "Logging"
-description: ""
-helpx_description: "Designer > Scripting > Logging"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/logging.html"
+breadcrumb-title: ""
+description: Learn how to implement logging in Substance 3D Designer Python plugins for debugging and monitoring.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Logging
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Logging
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Logging
 

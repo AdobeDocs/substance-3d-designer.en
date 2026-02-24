@@ -1,8 +1,17 @@
 ---
-title: "Retrieving the installation path"
-description: ""
-helpx_description: "Designer > Pipeline and Project Configuration > Retrieving the installation path"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
+breadcrumb-title: ""
+description: Learn how to retrieve the Substance 3D Designer installation path for scripting and automation purposes.
+helpx_creative_field: ""
+helpx_description: Designer > Pipeline and Project Configuration > Retrieving the installation path
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Retrieving the installation path
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Retrieving the installation path
 

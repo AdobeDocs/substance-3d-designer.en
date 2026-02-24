@@ -1,8 +1,17 @@
 ---
-title: "Fibers 1"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Fibers 1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
+breadcrumb-title: ""
+description: Use the Fibers 1 node to create basic fiber textures for simulating fabric, hair, and fibrous materials.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Fibers 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Fibers 1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Fibers 1
 

@@ -1,8 +1,17 @@
 ---
-title: "Nadir Patch"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Patch"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
+breadcrumb-title: ""
+description: Use the Nadir Patch node to patch the nadir region of HDRI panoramas for fixing bottom artifacts in environment maps.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Nadir Patch
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Nadir Patch
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Nadir Patch
 
@@ -23,9 +32,9 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-This node provides functionality to patch over the central ground point (nadir) of a spherically mapped image. It can be used to hide or "clone out" an ugly nadir, or visible camera or tripod. It works like a [Clone Patch](../../../material-filters/scan-processing/clone-patch/clone-patch.md), but with adjustments for spherically mapped images. The user selects a point elsewhere in the image, that is the cloned and blended in at the nadir. No other external inputs are required other than a single HDRI to process, but an external mask can be used as alpha for the patch effect.
+This node provides functionality to patch over the central ground point (nadir) of a spherically mapped image. It can be used to hide or "clone out" an ugly nadir, or visible camera or tripod. It works like a [Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md), but with adjustments for spherically mapped images. The user selects a point elsewhere in the image, that is the cloned and blended in at the nadir. No other external inputs are required other than a single HDRI to process, but an external mask can be used as alpha for the patch effect.
 
-effect can be quickly checked and validated with [Nadir Extract](../nadir-extract/nadir-extract.md).
+effect can be quickly checked and validated with [Nadir Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md).
 
 ## Inputs
 

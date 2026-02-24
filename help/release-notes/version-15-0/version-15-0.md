@@ -1,8 +1,17 @@
 ---
-title: "Version 15.0"
-description: ""
-helpx_description: "Designer > Release Notes > Version 15.0"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 15.0 to learn about the new 3D renderer and native USD support.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 15.0
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 15.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 15.0
 
@@ -104,7 +113,7 @@ Every year, the [VFX Reference Platform](https://vfxplatform.com/) publishes a
 
 *(Released July 15th, 2025)*
 
-### <b>Added</b>
+### Added
 
 * &#91;3D View&#93; Brand new renderer, with rasterizer and pathtracer modes
 * &#91;3D View&#93; Add a selection tool to pick an object in the 3D scene
@@ -181,7 +190,7 @@ Every year, the [VFX Reference Platform](https://vfxplatform.com/) publishes a
 * &#91;VFX&#93; Update OpenExr to 3.3.x
 * &#91;VFX&#93; Update Qt to 6.5.8
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;3D View&#93; Textures in exported USD scene are not correctly applied
 * &#91;3D View&#93; &#91;UDIM&#93; Cannot view UDIM graph outputs in 3D View when automatic viewing on graph opening is turned off in graph preferences

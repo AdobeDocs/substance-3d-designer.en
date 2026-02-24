@@ -1,8 +1,17 @@
 ---
-title: "Summed Area Table"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Summed Area Table"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
+breadcrumb-title: ""
+description: Use the Summed Area Table node to create summed area tables for efficient box filtering and blur operations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Summed Area Table
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Summed Area Table
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Summed Area Table
 

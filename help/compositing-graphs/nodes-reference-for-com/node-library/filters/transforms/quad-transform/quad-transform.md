@@ -1,8 +1,17 @@
 ---
-title: "Quad Transform"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+breadcrumb-title: ""
+description: Use the Quad Transform node to apply quadrilateral transformations to textures for perspective correction and warping.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Quad Transform
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Quad Transform
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Quad Transform
 

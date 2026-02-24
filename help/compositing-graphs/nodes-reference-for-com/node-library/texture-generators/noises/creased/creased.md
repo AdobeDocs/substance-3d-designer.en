@@ -1,8 +1,17 @@
 ---
-title: "Creased"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Creased"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/creased.html"
+breadcrumb-title: ""
+description: Use the Creased node to generate crease patterns for creating folded fabric and wrinkled surface texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Creased
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Creased
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Creased
 

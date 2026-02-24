@@ -1,8 +1,17 @@
 ---
-title: "FX-Map"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+breadcrumb-title: ""
+description: Use the FX-Map node to apply function graphs to textures for creating procedural patterns and effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: FX-Map
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # FX-Map
 
@@ -23,7 +32,7 @@ It is one of the most powerful atomic nodes, as well as the most complex node av
 </tr>
 </table>
 
-Similar to the [Pixel processor](../pixel-processor/pixel-processor.md), it is up to you to define and create the functions that determine the behavior and output of this node.
+Similar to the [Pixel processor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), it is up to you to define and create the functions that determine the behavior and output of this node.
 
 <table>
 <tr style="border: 0;">
@@ -52,6 +61,8 @@ Similar to the [Pixel processor](../pixel-processor/pixel-processor.md), it is u
 >[!IMPORTANT]
 >
 > It is recommended to be very familiar with all aspects of the software and have no problems creating [mathematical functions](../../../../function-graphs/function-graphs.md) for parameters before attempting to use the FX-Map node.
+
+## Examples
 
 ## Parameters
 

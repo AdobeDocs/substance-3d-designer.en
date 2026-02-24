@@ -1,12 +1,21 @@
 ---
-title: "Creating user interface elements"
-description: ""
-helpx_description: "Designer > Scripting > Creating user interface elements"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/creating-user-interface-elements.html"
+breadcrumb-title: ""
+description: Learn how to create user interface elements in Substance 3D Designer Python plugins for interactive user experiences.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Creating user interface elements
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Creating user interface elements
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Creating user interface elements
 
-Substance 3D Designer includes <b>Qt For Python</b>. Users can use the [UI Manager ](../scripting-api-reference/scripting-api-reference.md)class to create <b>menus</b>, <b>dialogs</b>, <b>custom panels</b> and other user interface elements for their plugins.
+Substance 3D Designer includes <b>Qt For Python</b>. Users can use the [UI Manager ](../../scripting/scripting-api-reference/scripting-api-reference.md)class to create <b>menus</b>, <b>dialogs</b>, <b>custom panels</b> and other user interface elements for their plugins.
 
 In this page you can find simple examples of using Qt for Python inside Designer.
 

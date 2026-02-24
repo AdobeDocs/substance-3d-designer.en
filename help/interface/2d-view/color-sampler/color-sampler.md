@@ -1,14 +1,23 @@
 ---
-title: "Color sampler tool"
-description: ""
-helpx_description: "Designer > Interface > 2D view > Color sampler tool"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
+breadcrumb-title: ""
+description: Use the Color Sampler tool in the 2D view to sample colors from textures for precise color matching.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > 2D view > Color sampler tool
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color sampler tool
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Color sampler tool
 
 ![Color sampler tool](color-sampler-demo.png "Color sampler tool"){zoomable="yes"}
 
-The Color Sampler tool lets you <b>track the value of a specific pixel</b> in the [2D View](../2d-view.md) as you tweak parameters or switch nodes.
+The Color Sampler tool lets you <b>track the value of a specific pixel</b> in the [2D View](../../../interface/2d-view/2d-view.md) as you tweak parameters or switch nodes.
 
 It places a pin in the viewport and samples the color and position of the pixel at that location.
 

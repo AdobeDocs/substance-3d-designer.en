@@ -1,8 +1,17 @@
 ---
-title: "How it works"
-description: ""
-helpx_description: "Designer > Function graphs > FXMaps > How it works"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/how-it-works.html"
+breadcrumb-title: ""
+description: Learn how FXMaps work in Substance 3D Designer to apply function graphs to textures for procedural effects.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > FXMaps > How it works
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: How it works
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # How it works
 

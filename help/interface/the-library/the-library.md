@@ -1,8 +1,17 @@
 ---
-title: "Library"
-description: ""
-helpx_description: "Designer > Interface > Library"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
+breadcrumb-title: ""
+description: Use the Library in Substance 3D Designer to access and manage node presets, materials, and custom content.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Library
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Library
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # The Library
 
@@ -14,7 +23,7 @@ This page presents the **Library** panel of Substance 3D Designer, its layout as
 
 The <b>Library</b> panel is a split-view *resource manager*, where you can find and gather all your *assets* you need to work with in your graph.
 
-It monitors *folders* on your hard drive or over a network which are added to the list of [Library watched paths](https://docs.substance3d.com/display/SDDOC/Project+Settings#ProjectSettings-proj-libraryLibrary) in the [Project Settings](../preferences-window/project-settings/project-settings.md). Any changes happening in those folders – addition, removal and update of content – are *carried over* to the <b>Library</b>.
+It monitors *folders* on your hard drive or over a network which are added to the list of [Library watched paths](https://docs.substance3d.com/display/SDDOC/Project+Settings#ProjectSettings-proj-libraryLibrary) in the [Project Settings](../../interface/preferences-window/project-settings/project-settings.md). Any changes happening in those folders – addition, removal and update of content – are *carried over* to the <b>Library</b>.
 
 >[!WARNING]
 >
@@ -36,8 +45,8 @@ The **Library** can monitor all assets which are supported [Resources](../../res
 
 The panel is split in 2 main parts :
 
-* The  section on the left
-* The  section on the right
+* The  **Categories** section on the left
+* The  **Content**  section on the right
 
 ## Categories
 
@@ -49,15 +58,15 @@ You may click on any item in this tree view to display its content, along with t
 Default categories and filters contain all the assets shipped with Designer. They cannot be edited or removed.  
 The default categories include:
 
-* : gathers all the assets you have flagged as 'Favorite'
-* [Graph Items](../the-graph-view/graph-items/graph-items.md): lists special objects for organising graphs
+* Favorites: gathers all the assets you have flagged as 'Favorite'
+* [Graph Items](../../interface/the-graph-view/graph-items/graph-items.md): lists special objects for organising graphs
 * [Atomic Nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md): lists atomic nodes for [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md)
 * [FxMap Nodes](../../function-graphs/fxmaps/fxmaps.md): includes nodes specific to graphs computed by [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) nodes
 * [Function Nodes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/function-nodes-reference-129368124.html): lists atomic nodes for [function graphs](../../function-graphs/function-graphs.md)
 * [Texture Generators](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html): contains nodes representing [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) that generate content autonomously
 * [Filters](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md): contains nodes representing [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) that modify an input
 * [Functions](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/function-nodes-reference-129368124.html): includes nodes representing [function graphs](../../function-graphs/the-function-graph/the-function-graph.md)
-* [3D View](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion): offers content related to maps used for image-based lighting in a 3D scene – such as in the [3D View](../3d-view/3d-view.md), such as environment maps and nodes for authoring environment maps
+* [3D View](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion): offers content related to maps used for image-based lighting in a 3D scene – such as in the [3D View](../../interface/3d-view/3d-view.md), such as environment maps and nodes for authoring environment maps
 * PBR Materials:
 * [MDL Resources](../../mdl-graphs/mdl-graphs.md): includes custom content for [MDL graphs](../../mdl-graphs/mdl-graphs.md)
 * [mdl](../../mdl-graphs/mdl-library/mdl-library.md): lists the content of all MDL librairies available on the system which can be used as nodes in [MDL graphs](../../mdl-graphs/mdl-graphs.md)
@@ -75,7 +84,7 @@ The content of the <b>Library</b> is displayed as *labelled thumbnails*. These t
 > **In case of thumbnails issues**
 > 
 > Our recommended troubleshooting step for any issues related to Library thumbnails (incorrect image, rendering stuck on the refresh icon, etc.) is to manually trigger a *thumbnails refresh*.  
-> To do this, use the **Rebuild thumbnails** button in the [Library](../preferences-window/preferences-window.md) section of the [Preferences window](../preferences-window/preferences-window.md).
+> To do this, use the **Rebuild thumbnails** button in the [Library](../../interface/preferences-window/preferences-window.md) section of the [Preferences window](../../interface/preferences-window/preferences-window.md).
 
 <table>
 <tr style="border: 0;">

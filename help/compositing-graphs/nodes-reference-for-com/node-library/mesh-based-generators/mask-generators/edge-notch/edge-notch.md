@@ -1,8 +1,17 @@
 ---
-title: "Edge Notch"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Notch"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-notch.html"
+breadcrumb-title: ""
+description: Use the Edge Notch node to generate notch patterns on mesh edges for creating realistic edge damage and indentation effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Edge Notch
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Edge Notch
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Edge Notch
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks) in [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter).
 
-This mask represents a simple mask for raised edges, broken up by a high-frequency noise. See [Edge Dirt](../edge-dirt/edge-dirt.md) or [Edge Damages](../edge-damages/edge-damages.md) for more options.
+This mask represents a simple mask for raised edges, broken up by a high-frequency noise. See [Edge Dirt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md) or [Edge Damages](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md) for more options.
 
 ## Inputs
 

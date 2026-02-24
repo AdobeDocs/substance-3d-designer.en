@@ -1,8 +1,17 @@
 ---
-title: "Substance graphs and MDL materials"
-description: ""
-helpx_description: "Designer > MDL graphs > Substance graphs and MDL materials"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/substance-compositing-graphs-and-mdl-materials.html"
+breadcrumb-title: ""
+description: Learn how Substance compositing graphs and MDL materials work together in Substance 3D Designer for material creation.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs > Substance graphs and MDL materials
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance graphs and MDL materials
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance graphs and MDL materials
 
@@ -12,7 +21,7 @@ This pages describes the synergies between [Substance graphs](../../compositing-
 
 The outputs of Substance graphs can be *passed to exposed parameters* of MDL materials in two ways, which are described in this page.
 
-If the MDL material currently applied in the 3D view has exposed parameters which type is *[varying](../main-mdl-graph-concepts/main-mdl-graph-concepts.md)* – this type may be set using the <b>Type modifier</b> option in the [exposed parameter's properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), these can be connected to *textures*:
+If the MDL material currently applied in the 3D view has exposed parameters which type is *[varying](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* – this type may be set using the <b>Type modifier</b> option in the [exposed parameter's properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), these can be connected to *textures*:
 
 * a <b>Color</b> parameter can be connected to RGBA textures
 * a <b>Float</b> parameter for Grayscale textures

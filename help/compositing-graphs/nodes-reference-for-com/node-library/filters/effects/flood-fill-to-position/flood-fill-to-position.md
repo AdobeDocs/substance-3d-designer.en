@@ -1,8 +1,17 @@
 ---
-title: "Flood Fill to Position"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Position"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-position.html"
+breadcrumb-title: ""
+description: Use the Flood Fill to Position node to fill regions with position-based values for creating procedural patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Position
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Flood Fill to Position
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Flood Fill to Position
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Generates a per-tile position map from a [Flood Fill](../flood-fill/flood-fill.md) base.
+Generates a per-tile position map from a [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base.
 
 The color of each tile represents its X- and Y-coordinate center, stored in the Red and Green channels. This map is intended as a base for further calculations, rather than a ready-to-use map.
 

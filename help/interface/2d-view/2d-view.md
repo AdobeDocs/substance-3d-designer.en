@@ -1,8 +1,17 @@
 ---
-title: "2D view"
-description: ""
-helpx_description: "Designer > Interface > 2D view"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+breadcrumb-title: ""
+description: Use the 2D view in Substance 3D Designer to preview and inspect texture outputs from your material graphs.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > 2D view
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 2D view
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # 2D view
 
@@ -30,17 +39,17 @@ When a displayed image or value is modified, the 2D View *updates automatically*
 
 The most straightforward way to display any image in the 2D View is to double-click *LMB*...
 
-* ...on a [Bitmap](../../resources/bitmap-resource/bitmap-resource.md) or [vector graphics](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) resource in the [Explorer](../the-explorer-window/the-explorer-window.md)
-* ...on a node or node connector in the [Graph View](../the-graph-view/the-graph-view.md)
+* ...on a [Bitmap](../../resources/bitmap-resource/bitmap-resource.md) or [vector graphics](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) resource in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md)
+* ...on a node or node connector in the [Graph View](../../interface/the-graph-view/the-graph-view.md)
 
-Images can also be *dragged and dropped* directly into the viewport by holding *LMB* on a [resource](../../resources/resources.md) in the [Explorer](../the-explorer-window/the-explorer-window.md) panel, or *RMB* on a node in the Graph View.
+Images can also be *dragged and dropped* directly into the viewport by holding *LMB* on a [resource](../../resources/resources.md) in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel, or *RMB* on a node in the Graph View.
 
 In the Graph View, you can send an image to the 2D View using the <b>View output in 2D View</b> contextual menu option, which is accessed by clicking *RMB*...
 
 * ...on a *node* to display *that node's output*. If the node has more than one output, select the desired output in the submenu
 * ...on *empty space* in the Graph View to display *that graph's output*. If the graph has more than one output, select the desired output in the submenu
 
-When loading a graph, its *first output* is automatically displayed in the 2D View by default. You can disable this behaviour in the [Preferences](../preferences-window/preferences-window.md). Go to <b>Edit &gt; Preferences &gt; Graph &gt; Substance compositing graph</b> and *uncheck* the <b>View output in 2D view when opening a graph</b> option.
+When loading a graph, its *first output* is automatically displayed in the 2D View by default. You can disable this behaviour in the [Preferences](../../interface/preferences-window/preferences-window.md). Go to <b>Edit &gt; Preferences &gt; Graph &gt; Substance compositing graph</b> and *uncheck* the <b>View output in 2D view when opening a graph</b> option.
 
 ## Viewport
 
@@ -87,7 +96,7 @@ Using a trackpad (macOS only)
 > * Mouse wheel up *pulls* the image closer
 > * Alt+RMB and drag up *pushes* the image away
 > 
-> The zoom direction can be inverted in the [Preferences](../preferences-window/preferences-window.md).
+> The zoom direction can be inverted in the [Preferences](../../interface/preferences-window/preferences-window.md).
 
 The image native *resolution*, *color format* and *bit depth* appear in the bottom left area of the viewport.
 
@@ -165,11 +174,11 @@ This feature is *not* available to other nodes, including nodes which have more 
 
 
 
-If the <b>Display UVs in 2D View</b> option is enabled in the <b>Scene</b> menu of the [3D View](../3d-view/3d-view.md) dock, then the UV overlay feature is available in the 2D View.
+If the <b>Display UVs in 2D View</b> option is enabled in the <b>Scene</b> menu of the [3D View](../../interface/3d-view/3d-view.md) dock, then the UV overlay feature is available in the 2D View.
 
 You can enable it using the <b>UV</b> button. ![](2d-view-icon-uv.png)
 
-This displays the UVs of the mesh [currently selected in the 3D View](../3d-view/3d-view.md) as a colored wireframe.
+This displays the UVs of the mesh [currently selected in the 3D View](../../interface/3d-view/3d-view.md) as a colored wireframe.
 
 If material color information is available in the mesh file, then the material color is used as the color of the UV overlay.
 
@@ -253,7 +262,7 @@ Some portions of the histogram may include very low pixel count values, and thus
 
 The **Display** toolbar, which is located at the *bottom* of the **2D View** panel by default, lets you control how the image is displayed in the viewport.
 
-The *leftmost* section includes controls for *color* and *transparency*, while the *rightmost* section includes the *viewport* controls detailed in the section of this page.
+The *leftmost* section includes controls for *color* and *transparency*, while the *rightmost* section includes the *viewport* controls detailed in the Viewport section of this page.
 
 >[!NOTE]
 >
@@ -279,7 +288,7 @@ The *icon* of the <b>Color channels</b> button *changes* depending on the curren
 >
 > Keyboard shortcuts can only be used if the 2D View panel has focus. You may click on this panel at least once to ensure this is the case.
 > 
-> Since the panel needs focus, these shortcuts *do not interfere* with any *custom shortcuts* you may have set for creating nodes in the graph – learn more about this feature [here](../preferences-window/preferences-window.md).
+> Since the panel needs focus, these shortcuts *do not interfere* with any *custom shortcuts* you may have set for creating nodes in the graph – learn more about this feature [here](../../interface/preferences-window/preferences-window.md).
 
 ![2D View transparency toggle](2d-view-transparency.png "2D View transparency toggle"){width="360px"}
 
@@ -301,7 +310,7 @@ To display *correct colors*, the appropriate transparency mode should be select
 
 For the most accurate representation of color, images are displayed by default in a *color space* which matches the one used by the *monitor*.
 
-The available controls and the effect of the ![](2d-view-icon-color-space.png)/![](2d-view-icon-color-space-linear.png) <b>Color space</b> button will depend on the [Color management mode](../../color-management/color-management.md) set in the [Project settings](../preferences-window/project-settings/project-settings.md). Learn more about these controls in the section in this page.
+The available controls and the effect of the ![](2d-view-icon-color-space.png)/![](2d-view-icon-color-space-linear.png) <b>Color space</b> button will depend on the [Color management mode](../../color-management/color-management.md) set in the [Project settings](../../interface/preferences-window/project-settings/project-settings.md). Learn more about these controls in the Color management section in this page.
 
 <table>
 <tr style="border: 0;">
@@ -362,7 +371,7 @@ The <b>Vector graphics editor</b> is available for *imported* [SVG resources](..
 
 The <b>2D View</b> offers simple *color management* controls to let you choose which *display color space* should be used when displaying the image.
 
-These controls will adapt to the current [Color management mode](../../color-management/color-management.md) set in the [Project settings](../preferences-window/project-settings/project-settings.md), as follows:
+These controls will adapt to the current [Color management mode](../../color-management/color-management.md) set in the [Project settings](../../interface/preferences-window/project-settings/project-settings.md), as follows:
 
 * <b>Legacy:</b> you can disp.lay the image in the ![](2d-view-icon-color-space.png) sRGB or ![](2d-view-icon-color-space-linear.png) Linear sRGB color spaces;
 * <b>Adobe ACE:</b> you can ![](2d-view-icon-color-space.png) *enable* color management and set the most appropriate color space for the *current monitor* as detected by the Adobe ACE engine, or ![](2d-view-icon-color-space-linear.png) *disable* color management and display the image using the Raw color values;

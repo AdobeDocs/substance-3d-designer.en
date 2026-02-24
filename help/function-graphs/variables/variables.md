@@ -1,14 +1,23 @@
 ---
-title: "Variables"
-description: ""
-helpx_description: "Designer > Function graphs > Variables"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
+breadcrumb-title: ""
+description: Learn how to use variables in Substance 3D Designer function graphs to store and reuse values efficiently.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Variables
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Variables
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Variables
 
 >[!NOTE]
 >
-> For information about the creation and usage of variables nodes, please refer the *[Variables Nodes section](../nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)*.
+> For information about the creation and usage of variables nodes, please refer the *[Variables Nodes section](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)*.
 
 ## Definition
 

@@ -1,8 +1,17 @@
 ---
-title: "Cracks Weathering"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Cracks Weathering"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/cracks-weathering.html"
+breadcrumb-title: ""
+description: Use the Cracks Weathering node to add crack patterns to materials based on mesh curvature and stress points.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Cracks Weathering
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Cracks Weathering
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Cracks Weathering
 

@@ -1,8 +1,17 @@
 ---
-title: "Spline Mapper Color"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-color.html"
+breadcrumb-title: ""
+description: Use the Spline Mapper Color node to map color textures along spline paths with customizable parameters.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Point List
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Spline Mapper Color
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline Mapper Color
 
@@ -35,7 +44,7 @@ The node outputs the mapped image as a color image, as well as other information
 
 >[!NOTE]
 >
-> See also [Spline Mapper Grayscale](../spline-mapper-grayscale/spline-mapper-grayscale.md).
+> See also [Spline Mapper Grayscale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md).
 
 ## Input connectors
 
@@ -62,7 +71,7 @@ The node outputs the mapped image as a color image, as well as other information
 <b>Twist Curve</b> *Grayscale*The image describing a curve using the values of its first row of pixels.  
 When the <b>Shape</b> parameter is set to *Half-Cylinder* or *Cylinder*, this input is used to control the twisting of the UVs around the shape. Its impact is controlled using the <b>Twist UVs Curve Multiplier</b> parameter.  
 The curve provides a profile for the amount of rotation along the spline, where the first pixel in the row is the rotation at the start of the spline, and the last is the rotation at the end. The grayscale value represents a number of turns.  
-You may use a [Curve](../../../../atomic-nodes/curve/curve.md) node to author the curve.
+You may use a [Curve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) node to author the curve.
 
 ## Output connectors
 

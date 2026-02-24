@@ -1,8 +1,17 @@
 ---
-title: "Version control"
-description: ""
-helpx_description: "Designer > Interface > Preferences window > Version control"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
+breadcrumb-title: ""
+description: Configure version control settings in Substance 3D Designer preferences to integrate with Git and other systems.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Preferences window > Version control
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version control
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version control
 
@@ -14,7 +23,7 @@ helpx_description: "Designer > Interface > Preferences window > Version control"
 
 Designer offers a Python integration of the [Perforce](https://www.perforce.com/) (P4) version control system.
 
-The integration adds a custom 'Version Control' submenu to the contextual menu of packages in the [Explorer](../../the-explorer-window/the-explorer-window.md), as well as custom icons to match the status of a package in P4.
+The integration adds a custom 'Version Control' submenu to the contextual menu of packages in the [Explorer](../../../interface/the-explorer-window/the-explorer-window.md), as well as custom icons to match the status of a package in P4.
 
 ## Preparing P4
 
@@ -39,7 +48,7 @@ cVerbose = False
 
 ## Setup in Designer
 
-Version control is configured in the [Project settings](../project-settings/project-settings.md), which are available in Designer's [Preferences](../preferences-window.md).
+Version control is configured in the [Project settings](../../../interface/preferences-window/project-settings/project-settings.md), which are available in Designer's [Preferences](../../../interface/preferences-window/preferences-window.md).
 
 !['Version control' tab in project settings](p4v-project-settings.jpg "'Version control' tab in project settings"){zoomable="yes"}
 

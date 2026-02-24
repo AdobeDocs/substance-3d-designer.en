@@ -1,8 +1,17 @@
 ---
-title: "Histogram equalize"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram equalize"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+breadcrumb-title: ""
+description: Use the Histogram Equalize node to redistribute pixel intensities for improved contrast and brightness.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram equalize
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Histogram equalize
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Histogram equalize
 
@@ -34,12 +43,12 @@ Equalizes the histogram for a grayscale image, effectively adjusting the graysca
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>

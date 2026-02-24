@@ -1,8 +1,17 @@
 ---
-title: "Grunge Spots"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Spots"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots.html"
+breadcrumb-title: ""
+description: Use the Grunge Spots node to generate spot patterns for adding wear and grunge effects to materials.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Spots
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Grunge Spots
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Grunge Spots
 

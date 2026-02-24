@@ -1,8 +1,17 @@
 ---
-title: "Channel Mixer"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Channel Mixer"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
+breadcrumb-title: ""
+description: Use the Channel Mixer node to mix color channels for creating color effects and converting between color spaces.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Channel Mixer
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Channel Mixer
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Channel Mixer
 

@@ -1,12 +1,21 @@
 ---
-title: "MDL learning resources"
-description: ""
-helpx_description: "Designer > MDL graphs > MDL learning resources"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/mdl-learning-resources.html"
+breadcrumb-title: ""
+description: Access learning resources and tutorials for Material Definition Language graphs in Substance 3D Designer.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs > MDL learning resources
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: MDL learning resources
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # MDL learning resources
 
-This pages presents learning resources for working with [MDL graphs](../mdl-graphs.md) in Substance 3D Designer.
+This pages presents learning resources for working with [MDL graphs](../../mdl-graphs/mdl-graphs.md) in Substance 3D Designer.
 
 ## Reference
 

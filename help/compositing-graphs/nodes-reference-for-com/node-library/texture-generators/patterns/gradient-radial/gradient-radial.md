@@ -1,8 +1,17 @@
 ---
-title: "Gradient Radial"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Radial"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-radial.html"
+breadcrumb-title: ""
+description: Use the Gradient Radial node to create radial gradients radiating from a center point for circular color transitions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Gradient Radial
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Gradient Radial
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Gradient Radial
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Similar to [Gradient Circular](../gradient-circular/gradient-circular.md), creates a grayscale gradient transition defined by two custom points in a radial fashion. The transition is from a to b, defined by centerpoint and radius. Keep in mind results will not always tile.
+Similar to [Gradient Circular](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-circular/gradient-circular.md), creates a grayscale gradient transition defined by two custom points in a radial fashion. The transition is from a to b, defined by centerpoint and radius. Keep in mind results will not always tile.
 
 ## Parameters
 

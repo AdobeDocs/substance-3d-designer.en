@@ -1,8 +1,17 @@
 ---
-title: "Main toolbar"
-description: ""
-helpx_description: "Designer > Interface > Main toolbar"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
+breadcrumb-title: ""
+description: Learn about the main toolbar in Substance 3D Designer to access common tools and commands for your workflow.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Main toolbar
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Main toolbar
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # The main toolbar
 
@@ -29,7 +38,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>!&#91;&#93;(open.png)  Open...:</b> (Ctrl+O) Open an existing [Substance package (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-<b>!&#91;&#93;(saveall.png)  Save All:</b> (Ctrl+⇧+S) Saves all packages listed in the [Explorer](../the-explorer-window/the-explorer-window.md).
+<b>!&#91;&#93;(saveall.png)  Save All:</b> (Ctrl+⇧+S) Saves all packages listed in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md).
 
 <b>!&#91;&#93;(undo.png)  Undo:</b> (Ctrl+Z) Undo the last operation.
 
@@ -101,25 +110,25 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>Explorer:</b> Show/Hide the [Explorer Window(s).](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
 
-<b>Graph:</b> Show/Hide the [graph Window](../the-graph-view/the-graph-view.md)(s).
+<b>Graph:</b> Show/Hide the [graph Window](../../interface/the-graph-view/the-graph-view.md)(s).
 
 <b>Parameters:</b> Show/Hide the [Properties Window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
 
 <b>Console:</b> Show/Hide the Console Window.
 
-<b>3D View:</b> Show/Hide the [3D View(s)](../3d-view/3d-view.md).
+<b>3D View:</b> Show/Hide the [3D View(s)](../../interface/3d-view/3d-view.md).
 
-<b>Dependency Manager:</b> Show/Hide the [Dependency Manager](../dependency-manager/dependency-manager.md).
+<b>Dependency Manager:</b> Show/Hide the [Dependency Manager](../../interface/dependency-manager/dependency-manager.md).
 
 <b>2D Views:</b> Show/Hide the [2D View(s).](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
 
-<b>Library:</b> Show/Hide the [Library Window.](../the-library/the-library.md)
+<b>Library:</b> Show/Hide the [Library Window.](../../interface/the-library/the-library.md)
 
 <b>Main toolbar:</b> Show/Hide the Main Toolbar (quick-access buttons only).
 
 >[!NOTE]
 >
-> To learn more about Designer's panel management, its customisation and workflow-enhancing features, go to the [Customizing your workspace ](../customizing-your-wor/customizing-your-workspace.md)page of this documentation.
+> To learn more about Designer's panel management, its customisation and workflow-enhancing features, go to the [Customizing your workspace ](../../interface/customizing-your-wor/customizing-your-workspace.md)page of this documentation.
 
 ## Help
 
@@ -150,7 +159,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>Sign in/Sign out...\*:</b> Lets you sign into/out of your Adobe account.
 
-<b>Home screen...:</b> Displays the [Home screen](../home-screen/home-screen.md) dialog.
+<b>Home screen...:</b> Displays the [Home screen](../../interface/home-screen/home-screen.md) dialog.
 
 <b>What&#39;s new...:</b> Displays a screen, which highlights the features added to Designer's latest release
 

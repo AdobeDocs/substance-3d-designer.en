@@ -1,8 +1,17 @@
 ---
-title: "Normal Vector Rotation"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Vector Rotation"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-vector-rotation.html"
+breadcrumb-title: ""
+description: Use the Normal Vector Rotation node to rotate normal map vectors for adjusting surface lighting and detail orientation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Normal Map > Normal Vector Rotation
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Normal Vector Rotation
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Normal Vector Rotation
 

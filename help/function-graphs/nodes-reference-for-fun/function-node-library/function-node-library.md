@@ -1,12 +1,21 @@
 ---
-title: "Function node library"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Function node library"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+breadcrumb-title: ""
+description: Access pre-made Substance function graphs as instance nodes to speed up workflow and enhance capabilities.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function node library
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Function node library
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Function node library
 
-In addition to [atomic nodes](../atomic-function-nodes/atomic-function-nodes.md), Designer also offers pre-made Substance function graphs as instance nodes. They offer many tools to speed up workflow and provide more capabilities for working with vectors or colors, remapping values, perform more advanced algebra, ...
+In addition to [atomic nodes](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md), Designer also offers pre-made Substance function graphs as instance nodes. They offer many tools to speed up workflow and provide more capabilities for working with vectors or colors, remapping values, perform more advanced algebra, ...
 
 These tools are arranged into several categories:
 
@@ -287,19 +296,19 @@ Random discrete &#91;a, b&#93;
 
 Global random
 
-[Hash 11](function-nodes-random/hash-functions/hash-functions.md)
+[Hash 11](../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 14](function-nodes-random/hash-functions/hash-functions.md)
+[Hash 14](../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 21](function-nodes-random/hash-functions/hash-functions.md)
+[Hash 21](../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 22](function-nodes-random/hash-functions/hash-functions.md)
+[Hash 22](../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 24](function-nodes-random/hash-functions/hash-functions.md)
+[Hash 24](../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 31](function-nodes-random/hash-functions/hash-functions.md)
+[Hash 31](../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
-[Hash 32](function-nodes-random/hash-functions/hash-functions.md)
+[Hash 32](../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
 
 </td>
 <td style="border: 0;" valign="top">

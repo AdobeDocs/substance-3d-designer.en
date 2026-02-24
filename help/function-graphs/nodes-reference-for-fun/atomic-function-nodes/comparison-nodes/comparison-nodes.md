@@ -1,8 +1,17 @@
 ---
-title: "Comparison"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Comparison"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
+breadcrumb-title: ""
+description: Access comparison nodes in Substance 3D Designer function graphs to compare values and generate boolean results.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Comparison
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Comparison
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Comparison nodes
 

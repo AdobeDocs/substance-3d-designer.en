@@ -1,12 +1,21 @@
 ---
-title: "Workspace"
-description: ""
-helpx_description: "Designer > Workspace"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+breadcrumb-title: ""
+description: Learn about the Substance 3D Designer workspace interface including views, panels, and customization options.
+helpx_creative_field: ""
+helpx_description: Designer > Workspace
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Workspace
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Workspace
 
-The workspace is split into separate areas called <b>docks</b>, which can be [resized, moved and undocked](customizing-your-wor/customizing-your-workspace.md) of Designer's main window into a floating dock.
+The workspace is split into separate areas called <b>docks</b>, which can be [resized, moved and undocked](../interface/customizing-your-wor/customizing-your-workspace.md) of Designer's main window into a floating dock.
 
 Here is Designer's default dock layout:
 
@@ -54,7 +63,7 @@ Here is Designer's default dock layout:
 
 ## Main menu and toolbar
 
-The main toolbar lets you access extra menu's, like the[ Preferences window](preferences-window/preferences-window.md) and has a few buttons to quickly create a new Substance graph and package.
+The main toolbar lets you access extra menu's, like the[ Preferences window](../interface/preferences-window/preferences-window.md) and has a few buttons to quickly create a new Substance graph and package.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -66,7 +75,7 @@ The main toolbar lets you access extra menu's, like the[ Preferences window](pre
 </table>
 
 * <b>File: </b>Lets you create new Packages and resources, as well as save and close packages you are currently working on. Functions from this menu are also available as quick buttons on this toolbar.
-* <b>Edit: </b>Provides Undo and Redo functions (available as quick buttons below), as well as access to [Preferences](preferences-window/preferences-window.md), for in-depth customization.
+* <b>Edit: </b>Provides Undo and Redo functions (available as quick buttons below), as well as access to [Preferences](../interface/preferences-window/preferences-window.md), for in-depth customization.
 * <b>Tools:</b> Controls Substance Engine and lets you access the Plugin Manager.
 * <b>Windows:</b> Lets you hide or show any of the windows (some are hidden by default), and lets you reset the window layout back to default.
 * <b>Help: </b>Provides access to extra information and online resources, such as Substance Academy or this documentation website.
@@ -79,7 +88,7 @@ The main toolbar lets you access extra menu's, like the[ Preferences window](pre
 
 ## Graph view
 
-[The Graph view dock](the-graph-view/the-graph-view.md) is the most important window in Substance 3D Designer. It displays the nodal networks of any kind of graph that is available in Designer ([Substance graphs](../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../function-graphs/function-graphs.md), [MDL graphs](../mdl-graphs/mdl-graphs.md), [FX-Map graphs](../function-graphs/fxmaps/fxmaps.md)) and lets you build and edit them.
+[The Graph view dock](../interface/the-graph-view/the-graph-view.md) is the most important window in Substance 3D Designer. It displays the nodal networks of any kind of graph that is available in Designer ([Substance graphs](../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../function-graphs/function-graphs.md), [MDL graphs](../mdl-graphs/mdl-graphs.md), [FX-Map graphs](../function-graphs/fxmaps/fxmaps.md)) and lets you build and edit them.
 
 ![Graph view](graph-6.png "Graph view")
 
@@ -91,18 +100,18 @@ The main toolbar lets you access extra menu's, like the[ Preferences window](pre
 
 ## 2D View
 
-[The 2D View](2d-view/2d-view.md) is the simplest previewing tool. It works together closely with the Graph: double-clicking on any Node in the Graph View will display into the 2D View the visual result.
+[The 2D View](../interface/2d-view/2d-view.md) is the simplest previewing tool. It works together closely with the Graph: double-clicking on any Node in the Graph View will display into the 2D View the visual result.
 
 ![2D View](2d-view-1.jpg "2D View")
 
 ## 3D View
 
-[The 3D View](3d-view/3d-view.md) is the most interactive and most advanced preview window. Unlike the 2D View, it uses a number of different output maps to render a full material. This means you see all channels represented, such as Basecolor, Normal and Roughness.
+[The 3D View](../interface/3d-view/3d-view.md) is the most interactive and most advanced preview window. Unlike the 2D View, it uses a number of different output maps to render a full material. This means you see all channels represented, such as Basecolor, Normal and Roughness.
 
 ![3D View](3dview-3.jpg "3D View")
 
 ## Library
 
-[The Library dock](the-library/the-library.md) provides access to all the content included in Designer's library by default, as well as your [custom content](the-library/managing-custom-content/managing-custom-content-and-filters.md). To better understand the difference between Atomic Nodes and the Instance Nodes in the library, make sure to read the [Nodes Overview](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+[The Library dock](../interface/the-library/the-library.md) provides access to all the content included in Designer's library by default, as well as your [custom content](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). To better understand the difference between Atomic Nodes and the Instance Nodes in the library, make sure to read the [Nodes Overview](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
 
 ![Library](library-3.jpg "Library")

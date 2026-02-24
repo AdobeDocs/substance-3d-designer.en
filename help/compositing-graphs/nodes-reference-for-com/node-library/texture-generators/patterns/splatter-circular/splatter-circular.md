@@ -1,8 +1,17 @@
 ---
-title: "Splatter Circular"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter Circular"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter-circular.html"
+breadcrumb-title: ""
+description: Use the Splatter Circular node to scatter circular shapes across textures for creating organic and random patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter Circular
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Splatter Circular
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Splatter Circular
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Splatter Circular generates a ring-based pattern with various controls. It can use pre-defined shapes or custom inputs. It's similar to[ Tile Generator](../tile-generator/tile-generator.md), but with a circular placement instead of a grid.
+Splatter Circular generates a ring-based pattern with various controls. It can use pre-defined shapes or custom inputs. It's similar to[ Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md), but with a circular placement instead of a grid.
 
 This is useful for when you want to place shapes in a circular way with various randomisation options.
 

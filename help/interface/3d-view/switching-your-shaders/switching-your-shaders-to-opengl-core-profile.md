@@ -1,8 +1,17 @@
 ---
-title: "Switching your shaders to OpenGL Core Profile"
-description: ""
-helpx_description: "Designer > Interface > 3D View > Switching your shaders to OpenGL Core Profile"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+breadcrumb-title: ""
+description: Learn how to switch shaders to OpenGL Core Profile in Substance 3D Designer 3D view for compatibility and performance.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > 3D View > Switching your shaders to OpenGL Core Profile
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Switching your shaders to OpenGL Core Profile
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Switching your shaders to OpenGL Core Profile
 

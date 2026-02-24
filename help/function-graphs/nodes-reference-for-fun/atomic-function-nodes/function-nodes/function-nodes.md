@@ -1,8 +1,17 @@
 ---
-title: "Function"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Function"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+breadcrumb-title: ""
+description: Access function nodes in Substance 3D Designer function graphs to call and execute custom function graphs.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Function
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Function
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Function nodes
 

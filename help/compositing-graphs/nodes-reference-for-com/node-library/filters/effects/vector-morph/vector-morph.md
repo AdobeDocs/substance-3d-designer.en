@@ -1,8 +1,17 @@
 ---
-title: "Vector Morph"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Vector Morph"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/vector-morph.html"
+breadcrumb-title: ""
+description: Use the Vector Morph node to morph textures between two inputs using vector fields for smooth transitions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Vector Morph
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Vector Morph
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Vector Morph
 
@@ -27,7 +36,7 @@ Distorts an input image by a Vector Map. The effect is similar to UV distortion 
 
 This node itself is not the most difficult to use, but creating a proper Vector Map takes care. We recommend that you work with the highest bit-depths to ensure precision when morphing.
 
-Vector Morph is very similar to [Vector Warp](../vector-warp/vector-warp.md): the main difference is that this Morph node does not "loop" or "tile" the result when it gets pushed outside of the canvas bounds. Instead, it clamps and repeats the edges.
+Vector Morph is very similar to [Vector Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md): the main difference is that this Morph node does not "loop" or "tile" the result when it gets pushed outside of the canvas bounds. Instead, it clamps and repeats the edges.
 
 ## Parameters
 

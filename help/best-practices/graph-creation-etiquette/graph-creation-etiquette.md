@@ -1,8 +1,17 @@
 ---
-title: "Graph Creation Etiquette"
-description: ""
-helpx_description: "Designer > Best Practices > Graph Creation Etiquette"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+breadcrumb-title: ""
+description: Learn best practices and etiquette for creating Substance graphs to ensure clean, maintainable, and efficient workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Best Practices > Graph Creation Etiquette
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Graph Creation Etiquette
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Graph Creation Etiquette
 

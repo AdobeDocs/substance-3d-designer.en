@@ -1,8 +1,17 @@
 ---
-title: "Fiber Glass Edge Wear"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Fiber Glass Edge Wear"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+breadcrumb-title: ""
+description: Use the Fiber Glass Edge Wear node to generate wear masks on fiberglass edges based on mesh curvature.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Fiber Glass Edge Wear
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Fiber Glass Edge Wear
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Fiber Glass Edge Wear
 
@@ -46,14 +55,14 @@ Represents a mask specifically intended for a fibreglass-type of wear, could per
 
 ### Parameters
 
-* **Wear Level**: *0.0 - 1.0*Like a [Histogram Scan](../../../filters/adjustments/histogram-scan/histogram-scan.md), progressively reveals the wear.
+* **Wear Level**: *0.0 - 1.0*Like a [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), progressively reveals the wear.
 * **Wear Contrast**: *0.0 - 1.0*Sets total effect contrast.
 * **Edges Smoothness**: *0.0 - 16.0*Sets bleed out/blurring from highlighted edges.
 * **Grunge Amount**: *0.0 - 1.0*Sets how much of the fibre effect to blend in between the edges. Tweak this together with Wear Level to get maximum control.
 * **Ambient Occlusion Masking**: *0.0 - 1.0*Sets amount of influence the AO has on hiding the effect.
 * **Curvature Weight**: *0.0 - 1.0*Sets amount of influence Convex edges from the Curvature have.
 * **Use Custom Grunge**: *False/True*Overrides built-in fibres with custom map.
-* **Use Triplanar**: *False/True*Enables [Tri Planar](../../utilities-mesh-based-gen/tri-planar/tri-planar.md) to hide seams.
+* **Use Triplanar**: *False/True*Enables [Tri Planar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) to hide seams.
 * **Triplanar Blending Contrast**: *0.0 - 1.0*Controls contrast of the Triplanar effect.
 
 ## Example Images

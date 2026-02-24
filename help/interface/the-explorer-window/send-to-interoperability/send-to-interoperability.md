@@ -1,8 +1,17 @@
 ---
-title: "Send to...  Interoperability"
-description: ""
-helpx_description: "Designer > Interface > The Explorer window > Send to...  Interoperability"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
+breadcrumb-title: ""
+description: Use the Send to Interoperability feature in Substance 3D Designer to export materials to other applications.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > The Explorer window > Send to...  Interoperability
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Send to...  Interoperability
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Send to...  Interoperability
 

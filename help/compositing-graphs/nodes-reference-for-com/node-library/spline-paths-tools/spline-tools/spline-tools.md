@@ -1,8 +1,17 @@
 ---
-title: "Spline Tools"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools.html"
+breadcrumb-title: ""
+description: Access all spline tool nodes for creating, manipulating, and rendering splines in your Substance graphs.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Spline Tools
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline tools
 
@@ -14,7 +23,7 @@ Check out this tutorial to get started:
 
 >[!TIP]
 >
-> We recommend learning about [working with Path and Spline tools](../working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
+> We recommend learning about [working with Path and Spline tools](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
 
 ## Node list
 
@@ -22,60 +31,60 @@ Check out this tutorial to get started:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Paths to Spline](../path-tools/paths-to-spline/paths-to-spline.md)
+[Paths to Spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)
 
-[Point List](point-list/point-list.md)
+[Point List](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/point-list/point-list.md)
 
-[Scatter on Spline Color](scatter-on-spline-color/scatter-on-spline-color.md)
+[Scatter on Spline Color](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md)
 
-[Scatter on Spline Grayscale](scatter-spline-grayscale/scatter-on-spline-grayscale.md)
+[Scatter on Spline Grayscale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)
 
-[Scatter Splines on Splines](scatter-splines-splines/scatter-splines-on-splines.md)
+[Scatter Splines on Splines](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md)
 
-[Spline 2D Transform](spline-2d-transform/spline-2d-transform.md)
+[Spline 2D Transform](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)
 
-[Spline (Cubic)](spline-cubic/spline-cubic.md)
+[Spline (Cubic)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)
 
-[Spline (Poly Quadratic)](spline-poly-quadratic/spline-poly-quadratic.md)
+[Spline (Poly Quadratic)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)
 
-[Spline Append](spline-append/spline-append.md)
+[Spline Append](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-append/spline-append.md)
 
-[Spline Bridge (2 Splines)](spline-bridge-2-splines/spline-bridge-2-splines.md)
+[Spline Bridge (2 Splines)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines/spline-bridge-2-splines.md)
 
-[Spline Bridge (List)](spline-bridge-list/spline-bridge-list.md)
+[Spline Bridge (List)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)
 
-[Spline Bridge Mapper Color](spline-bridge-mapper-col/spline-bridge-mapper-color.md)
+[Spline Bridge Mapper Color](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-col/spline-bridge-mapper-color.md)
 
-[Spline Bridge Mapper Grayscale](spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)
+[Spline Bridge Mapper Grayscale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[Spline Circle](spline-circle/spline-circle.md)
+[Spline Circle](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-circle/spline-circle.md)
 
-[Spline Fill](spline-fill/spline-fill.md)
+[Spline Fill](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)
 
-[Spline Flow Mapper](spline-flow-mapper/spline-flow-mapper.md)
+[Spline Flow Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-flow-mapper/spline-flow-mapper.md)
 
-[Spline Mapper Color](spline-mapper-color/spline-mapper-color.md)
+[Spline Mapper Color](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md)
 
-[Spline Mapper Grayscale](spline-mapper-grayscale/spline-mapper-grayscale.md)
+[Spline Mapper Grayscale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)
 
-[Spline Merge List](spline-merge-list/spline-merge-list.md)
+[Spline Merge List](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md)
 
-[Spline Render](spline-render/spline-render.md)
+[Spline Render](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md)
 
-[Spline Sample Height](spline-sample-height/spline-sample-height.md)
+[Spline Sample Height](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md)
 
-[Spline Sample Thickness](spline-sample-thickness/spline-sample-thickness.md)
+[Spline Sample Thickness](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)
 
-[Spline Select](spline-select/spline-select.md)
+[Spline Select](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-select/spline-select.md)
 
-[Spline Warp](spline-warp/spline-warp.md)
+[Spline Warp](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)
 
-[UV Mapper Color](uv-mapper-color/uv-mapper-color.md)
+[UV Mapper Color](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md)
 
-[UV Mapper Grayscale](uv-mapper-grayscale/uv-mapper-grayscale.md)
+[UV Mapper Grayscale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md)
 
 </td>
 </tr>

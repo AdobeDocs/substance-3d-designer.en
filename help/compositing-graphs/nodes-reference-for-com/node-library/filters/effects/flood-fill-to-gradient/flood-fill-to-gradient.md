@@ -1,8 +1,17 @@
 ---
-title: "Flood Fill to Gradient"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Gradient"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-gradient.html"
+breadcrumb-title: ""
+description: Use the Flood Fill to Gradient node to fill regions with gradient values for creating smooth color transitions.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Flood Fill to Gradient
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Flood Fill to Gradient
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Flood Fill to Gradient
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Transforms a [Flood Fill](../flood-fill/flood-fill.md) base into (randomly oriented) gradients. Very useful for creating a Heightmap where tiles are randomly tilted and sloped.
+Transforms a [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base into (randomly oriented) gradients. Very useful for creating a Heightmap where tiles are randomly tilted and sloped.
 
 ## Parameters
 

@@ -1,8 +1,17 @@
 ---
-title: "Color"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Color"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-color.html"
+breadcrumb-title: ""
+description: Use Color function nodes to perform color conversions and tonemapping operations in function graphs.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Atomic function nodes > Color
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Color
 

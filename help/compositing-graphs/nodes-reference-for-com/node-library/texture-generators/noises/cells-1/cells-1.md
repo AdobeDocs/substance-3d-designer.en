@@ -1,8 +1,17 @@
 ---
-title: "Cells 1"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
+breadcrumb-title: ""
+description: Use the Cells 1 node to generate basic cellular patterns for creating organic and biological texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Cells 1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Cells 1
 
@@ -27,7 +36,7 @@ A variation of the <b>Cells</b> walled noises.
   
 User-selected patterns are scattered and overlaid using a Max blending mode.
 
-See also: [Cells 2](../cells-2/cells-2.md), [Cells 3](../cells-3/cells-3.md), [Cells 4](../cells-4/cells-4.md)
+See also: [Cells 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-2/cells-2.md), [Cells 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-3/cells-3.md), [Cells 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-4/cells-4.md)
 
 </td>
 </tr>
@@ -37,17 +46,17 @@ See also: [Cells 2](../cells-2/cells-2.md), [Cells 3](../cells-3/cells-3.md), [
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

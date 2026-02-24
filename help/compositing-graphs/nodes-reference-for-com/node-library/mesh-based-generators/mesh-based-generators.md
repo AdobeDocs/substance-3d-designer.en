@@ -1,8 +1,17 @@
 ---
-title: "Mesh Based Generators"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+breadcrumb-title: ""
+description: Access mesh-based generator nodes in Substance 3D Designer to create textures based on 3D mesh geometry and properties.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Mesh Based Generators
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Mesh Based Generators
 
@@ -12,9 +21,9 @@ The category gets its name from the fact that baked maps are the only way for De
 
 There are three main categories:
 
-* [Mask Generators](mask-generators/mask-generators.md)  
+* [Mask Generators](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)  
   Black-and-white mask generators based on one or more baked maps.
-* [Weathering](weathering/weathering.md)  
+* [Weathering](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)  
   Full-material weathering effects based on baked maps.
 * [Utilities](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)  
   Extra utilities and tools to work with bakes.

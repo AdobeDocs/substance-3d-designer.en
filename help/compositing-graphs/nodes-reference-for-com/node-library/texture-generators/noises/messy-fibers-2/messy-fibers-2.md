@@ -1,8 +1,17 @@
 ---
-title: "Messy fibers 2"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 2"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-2.html"
+breadcrumb-title: ""
+description: Use the Messy Fibers 2 node to generate intermediate fiber patterns for creating woven and textile textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Messy fibers 2
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Messy fibers 2
 
@@ -21,7 +30,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 A variation of the <b>Messy fibers</b> structured noises.
 
-See also: [Messy fibers 1](../messy-fibers-1/messy-fibers-1.md), [Messy fibers 3](../messy-fibers-3/messy-fibers-3.md)
+See also: [Messy fibers 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-1/messy-fibers-1.md), [Messy fibers 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/messy-fibers-3/messy-fibers-3.md)
 
 </td>
 </tr>
@@ -31,17 +40,17 @@ See also: [Messy fibers 1](../messy-fibers-1/messy-fibers-1.md), [Messy fibers 3
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

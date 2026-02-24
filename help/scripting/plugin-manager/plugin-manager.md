@@ -1,8 +1,17 @@
 ---
-title: "Plugin Manager"
-description: ""
-helpx_description: "Designer > Scripting > Plugin Manager"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
+breadcrumb-title: ""
+description: Use the Plugin Manager in Substance 3D Designer to install, manage, and configure Python plugins for extended functionality.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Plugin Manager
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Plugin Manager
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Plugin Manager
 

@@ -1,8 +1,17 @@
 ---
-title: "Create and edit a function"
-description: ""
-helpx_description: "Designer > Function graphs > Create and edit a function"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
+breadcrumb-title: ""
+description: Learn how to create and edit function graphs in Substance 3D Designer to build reusable node networks.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Create and edit a function
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Create and edit a function
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Create and edit a function
 

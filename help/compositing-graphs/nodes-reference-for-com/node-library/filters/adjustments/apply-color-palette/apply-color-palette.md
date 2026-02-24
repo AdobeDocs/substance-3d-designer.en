@@ -1,8 +1,17 @@
 ---
-title: "Apply Color Palette"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Apply Color Palette"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
+breadcrumb-title: ""
+description: Use the Apply Color Palette node to remap textures using a color palette for stylized color effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Apply Color Palette
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Apply Color Palette
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Apply Color Palette
 
@@ -25,7 +34,7 @@ Colors are distributed by matching the indexes in the ID map to the indexes of c
 
 For instance, color #2 in the palette will be applied to all pixels in the ID map with an ID value of 2.
 
-This node may be used in combination with the following nodes: [Quantize Color](../quantize-color/quantize-color.md), [Create Color Palette](../create-color-palette-16/create-color-palette-16.md), [Modify Color Palette](../modify-color-palette/modify-color-palette.md), [View Color Palette](../view-color-palette/view-color-palette.md).
+This node may be used in combination with the following nodes: [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md), [Create Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md), [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md).
 
 </td>
 </tr>
@@ -40,7 +49,7 @@ This node may be used in combination with the following nodes: [Quantize Color](
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
@@ -55,8 +64,8 @@ This node may be used in combination with the following nodes: [Quantize Color](
 
 |  |  |
 | --- | --- |
-| <b>ID</b> *Grayscale* PRIMARY | The input ID map used to distribute the colors in the input palette.   An ID map is an image where pixels which are part of a whole (E.g., a shape) all hold the same unique identification value. In this case, the value is an integer.   An ID map can be produced using a [Quantize Color](../quantize-color/quantize-color.md) node. |
-| <b>Palette</b> *Color* | An ordered list of RGB colors encoded as a row of pixels. The palette can hold a maximum of 256 colors. This is the palette that the node maps to the indexes of the ID map.   Palettes may be produced with a [Quantize Color](../quantize-color/quantize-color.md) node and modified with a [Modify Color Palette](../modify-color-palette/modify-color-palette.md) node. |
+| <b>ID</b> *Grayscale* PRIMARY | The input ID map used to distribute the colors in the input palette.   An ID map is an image where pixels which are part of a whole (E.g., a shape) all hold the same unique identification value. In this case, the value is an integer.   An ID map can be produced using a [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) node. |
+| <b>Palette</b> *Color* | An ordered list of RGB colors encoded as a row of pixels. The palette can hold a maximum of 256 colors. This is the palette that the node maps to the indexes of the ID map.   Palettes may be produced with a [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) node and modified with a [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md) node. |
 
 ## Output connectors
 

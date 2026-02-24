@@ -1,8 +1,17 @@
 ---
-title: "Undo and redo"
-description: ""
-helpx_description: "Designer > Scripting > Undo and redo"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/undo-and-redo.html"
+breadcrumb-title: ""
+description: Learn how to implement undo and redo functionality in Substance 3D Designer Python scripts for user actions.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Undo and redo
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Undo and redo
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Undo and redo
 

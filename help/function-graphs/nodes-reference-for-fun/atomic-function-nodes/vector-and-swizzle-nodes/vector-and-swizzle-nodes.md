@@ -1,12 +1,21 @@
 ---
-title: "Vector"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Vector"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/vector-and-swizzle-nodes.html"
+breadcrumb-title: ""
+description: Use vector and swizzle nodes in Substance 3D Designer function graphs to manipulate vector data and components.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Vector
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Vector
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Vector and Swizzle nodes
 
-Vector and Swizzle Nodes allow you to respectively Construct and Deconstruct Vector nodes from and into separate components.They are similar to [RGBA Merge](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md) and [RGBA Split](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), but then for Function Graphs. They are also a prime method for converting between Vector Data types, as [Casting ](../cast-nodes/cast-nodes.md)is not an option in a lot of cases.
+Vector and Swizzle Nodes allow you to respectively Construct and Deconstruct Vector nodes from and into separate components.They are similar to [RGBA Merge](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md) and [RGBA Split](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), but then for Function Graphs. They are also a prime method for converting between Vector Data types, as [Casting ](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)is not an option in a lot of cases.
 
 ## Vector Nodes
 

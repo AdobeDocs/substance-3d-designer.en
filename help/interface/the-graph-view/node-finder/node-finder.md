@@ -1,8 +1,17 @@
 ---
-title: "Node finder"
-description: ""
-helpx_description: "Designer > Interface > The graph view > Node finder"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
+breadcrumb-title: ""
+description: Use the Node Finder to quickly search and locate nodes in your Substance graphs for efficient navigation.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > The graph view > Node finder
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Node finder
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Node finder
 
@@ -43,7 +52,7 @@ In the Graph View toolbar, click the <b>Node Finder button !&#91;&#93;(graph-n
 
 The search terms can be typed into this field and the arrow button opens a list of query suggestions which include some of the variables available in the current context.
 
-Learn more about the queries you can perform in the  section below.
+Learn more about the queries you can perform in the [Search query](#search-query) section below.
 
 ### Node type
 
@@ -102,7 +111,7 @@ The list is contextual to the current graph type.
 
 The <b>Search options button !&#91;&#93;(node-finder-search-options.png)</b> opens a list of settings used for searching that can be toggled on and off.
 
-Learn more about these options in the  section below.
+Learn more about these options in the Search options section below.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

@@ -1,8 +1,17 @@
 ---
-title: "Iray"
-description: ""
-helpx_description: "Designer > Interface > 3D View > Iray"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/iray.html"
+breadcrumb-title: ""
+description: Use Iray renderer in Substance 3D Designer 3D view for physically-based material preview and realistic lighting.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > 3D View > Iray
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Iray
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Iray
 
@@ -31,7 +40,7 @@ This pages presents the Iray renderer available in the 3D view panel of [Substan
 
 As the 3D View uses Iray's *progressive renderer*, an image is produced as soon as at least one sample has been performed on each pixel. The image is *automatically updated* as sampling iterations are performed, resulting in an initial rough image becoming *cleaner on each iteration*.
 
-The renderer is available in the [3D view](../3d-view.md) panel: open the <b>Renderer</b> menu and select the <b>Iray</b> option to switch the renderer used in that 3D view panel to Iray.  
+The renderer is available in the [3D view](../../../interface/3d-view/3d-view.md) panel: open the <b>Renderer</b> menu and select the <b>Iray</b> option to switch the renderer used in that 3D view panel to Iray.  
 Switching to the Iray renderer *changes the available options* in some of the 3D view menus. These changes are explained in the <b>3D view</b> section below.
 
 By default, progressive rendering starts as soon as the Iray renderer is selected. The rendering process will run until *one* of these conditions is met:
@@ -65,12 +74,20 @@ The following options are available for adjusting the rendered scene:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
+Scene
 
+Materials
+
+Camera
 
 </td>
 <td style="border: 0;" valign="top">
 
+Environment
 
+Display
+
+Renderer
 
 </td>
 </tr>
@@ -108,7 +125,7 @@ Mesh display component
 Since Iray relies on the [MDL shading model](https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/) developed by NVIDIA, available materials for scene materials are replaced with the MDL library loaded by Designer. This library is built using the following sources:
 
 * The MDL files included in Designer's installation
-* The MDL files found in the [directories listed by the user](../../preferences-window/project-settings/project-settings.md) in the loaded [Project files](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)
+* The MDL files found in the [directories listed by the user](../../../interface/preferences-window/project-settings/project-settings.md) in the loaded [Project files](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)
 * The [NVIDIA vMaterials](https://developer.nvidia.com/vmaterials) library if it is installed
 
 >[!NOTE]
@@ -378,7 +395,7 @@ The Iray renderer offers hardware acceleration on NVIDIA GPUs exclusively, which
 * Significant increase of rendering speed
 * [Optix AI-Accelerated denoising](https://developer.nvidia.com/optix-denoiser) (see "Post-denoiser" in the <b>Renderer</b> section of this page)
 
-You may select the hardware which should be used by Iray for rendering in the <b>3D View</b> section of the [Preferences](../../preferences-window/preferences-window.md) window, as shown in the image on the right.
+You may select the hardware which should be used by Iray for rendering in the <b>3D View</b> section of the [Preferences](../../../interface/preferences-window/preferences-window.md) window, as shown in the image on the right.
 
 When a supported GPU is detected, it is listed in this section, is *automatically selected* by default and the CPU is unselected. Any manual change overrides this automatic behaviour so your custom changes are saved for future sessions.
 

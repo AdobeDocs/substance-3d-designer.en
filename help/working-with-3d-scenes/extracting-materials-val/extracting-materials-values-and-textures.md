@@ -1,8 +1,17 @@
 ---
-title: "Extracting materials values and textures"
-description: ""
-helpx_description: "Designer > Working with 3D scenes > Extracting materials values and textures"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+breadcrumb-title: ""
+description: Extract material properties from 3D scenes to use in Substance graphs for material creation workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Working with 3D scenes > Extracting materials values and textures
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Extracting materials values and textures
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Extracting materials values and textures
 
@@ -12,17 +21,17 @@ The properties of materials can be extracted to be used in Substance graphs.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## New graph from textures
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Extract texture
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Extract value
 
 </td>
 </tr>

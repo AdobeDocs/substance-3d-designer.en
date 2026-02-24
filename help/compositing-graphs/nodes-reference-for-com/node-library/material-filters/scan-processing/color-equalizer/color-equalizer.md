@@ -1,8 +1,17 @@
 ---
-title: "Color Equalizer"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Color Equalizer"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/color-equalizer.html"
+breadcrumb-title: ""
+description: Use the Color Equalizer node to balance color variations in scanned materials for consistent texture appearance.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Color Equalizer
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color Equalizer
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Color Equalizer
 
@@ -23,9 +32,9 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-This node works like a high-quality [Highpass](../../../filters/adjustments/highpass/highpass.md) for color differences. Where a normal Highpass removes saturation and can introduce unwanted sharpness, Color Equalizer works for evening out color differences and removing unwanted tints at a user-selectable scale.
+This node works like a high-quality [Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md) for color differences. Where a normal Highpass removes saturation and can introduce unwanted sharpness, Color Equalizer works for evening out color differences and removing unwanted tints at a user-selectable scale.
 
-This is very useful if a photo or scan has unwanted color differences, or a tint that you want removed. If you've used [Highpass](../../../filters/adjustments/highpass/highpass.md), this node should feel familiar.
+This is very useful if a photo or scan has unwanted color differences, or a tint that you want removed. If you've used [Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md), this node should feel familiar.
 
 The masking options are intended for removing very specific tints or for operating only in specific value ranges. Use these if you feel the effect is too broad.
 

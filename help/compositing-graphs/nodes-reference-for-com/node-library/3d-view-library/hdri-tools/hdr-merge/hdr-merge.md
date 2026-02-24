@@ -1,8 +1,17 @@
 ---
-title: "HDR Merge"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > HDR Merge"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/hdr-merge.html"
+breadcrumb-title: ""
+description: Use the HDR Merge node to merge multiple HDR images into a single panorama for creating composite environment maps.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > HDR Merge
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: HDR Merge
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # HDR Merge
 

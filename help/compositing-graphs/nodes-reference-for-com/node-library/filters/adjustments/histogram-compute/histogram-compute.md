@@ -1,8 +1,17 @@
 ---
-title: "Histogram compute"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram compute"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
+breadcrumb-title: ""
+description: Use the Histogram Compute node to calculate histogram data from textures for analysis and processing.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram compute
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Histogram compute
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Histogram compute
 
@@ -45,12 +54,12 @@ Custom tools can be created using the data computed by the node, such as custom 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>

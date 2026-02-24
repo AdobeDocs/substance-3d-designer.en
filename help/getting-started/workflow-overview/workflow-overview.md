@@ -1,14 +1,31 @@
 ---
-title: "Workflow overview"
-description: ""
-helpx_description: "Designer > Getting started > Workflow overview"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
+breadcrumb-title: ""
+description: Learn the essential workflow for creating procedural materials in Substance 3D Designer from start to finish.
+helpx_creative_field: ""
+helpx_description: Designer > Getting started > Workflow overview
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Workflow overview
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Workflow overview
 
 Substance 3D Designer is a Node-Based editor. That means almost every type of project or resource will involve placing nodes (building blocks) and connecting them to create a chain of operations (a Graph).This page explains the concept of Node-Based workflows, and provides a summary of the 3 main types of Graph you can author in Designer.
 
 ## Table of contents
+
+[Node-based workflow](#node-workflow)
+
+[Graph instance workflow](#instance-workflow)
+
+[Custom parameters](#custom-parameters)
+
+[Graph types](#graph-types)
 
 ![Data flow simplified](graph-direction.png "Data flow simplified")
 
@@ -51,7 +68,7 @@ Below you can find a summary of the three types of Graph you can edit in Substan
 
 The results can be in the form of a simple black-and-white pattern, a filter that only runs on other images and doesn't generate content by itself, or even a full-fledged procedural material with multiple channels.
 
-Substance graphs are[ the most widely supported type of graph](../overview/overview.md), and can be exported and used in a plethora of different workflows.
+Substance graphs are[ the most widely supported type of graph](../../getting-started/overview/overview.md), and can be exported and used in a plethora of different workflows.
 
 </td>
 </tr>

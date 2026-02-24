@@ -1,8 +1,17 @@
 ---
-title: "Emboss"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+breadcrumb-title: ""
+description: Use the Emboss node to create embossed effects on textures for adding depth and relief to surface details.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Emboss
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Emboss
 
@@ -23,7 +32,7 @@ I.e., the node performs a simple 2D shading based on 2 inputs, simulating light 
 </tr>
 </table>
 
-This node is not used often for PBR-like projects, but it can serve in certain cases where you want a simple, baked lighting in your texture. Alternatively [Emboss With Gloss](../../node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) and [Uber Emboss](../../node-library/filters/effects/uber-emboss/uber-emboss.md) provide a similar, but more extensive functionality.
+This node is not used often for PBR-like projects, but it can serve in certain cases where you want a simple, baked lighting in your texture. Alternatively [Emboss With Gloss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) and [Uber Emboss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) provide a similar, but more extensive functionality.
 
 <table>
 <tr style="border: 0;">
@@ -49,12 +58,12 @@ This node is not used often for PBR-like projects, but it can serve in certain c
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>

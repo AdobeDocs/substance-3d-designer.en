@@ -1,8 +1,17 @@
 ---
-title: "Best Practices"
-description: ""
-helpx_description: "Designer > Best Practices"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices.html"
+breadcrumb-title: ""
+description: Access best practices guides for Substance 3D Designer to optimize your workflow and create efficient materials.
+helpx_creative_field: ""
+helpx_description: Designer > Best Practices
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Best Practices
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Best Practices
 

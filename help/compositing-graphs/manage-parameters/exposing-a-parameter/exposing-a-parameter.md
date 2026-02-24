@@ -1,14 +1,23 @@
 ---
-title: "Exposing a parameter"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Exposing a parameter"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+breadcrumb-title: ""
+description: Learn how to expose parameters in Substance 3D Designer compositing graphs to make materials customizable and reusable.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Exposing a parameter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Exposing a parameter
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Exposing a parameter
 
 Exposing parameters is one of the most powerful tools and is key to opening up your graphs to other applications such as Substance 3D Painter, Substance 3D Sampler and Substance Integrations for Maya and 3DS Max.
 
-This page explains all required concepts to get started exposing. It's recommended [that you first learn what a Graph Instance is ](../../creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)before continuing on this page. It's also good to have a grasp on[ the difference between Publish and Exporting, as well as the filetypes involved.](../../../getting-started/overview/overview.md)
+This page explains all required concepts to get started exposing. It's recommended [that you first learn what a Graph Instance is ](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)before continuing on this page. It's also good to have a grasp on[ the difference between Publish and Exporting, as well as the filetypes involved.](../../../getting-started/overview/overview.md)
 
 ![Exposing parameters simplified](parameters-5.png "Exposing parameters simplified")
 
@@ -35,7 +44,7 @@ Parameters can come in many different forms: sliders, dials, type-in boxes, drop
 +++
 
 +++Why not expose every parameter automatically, all the time?
-<b> &#91;Substance graphs&#93;(../../substance-compositing-graphs.md) can get complicated and can contain hundreds of parameters at once. It doesn&#39;t make sense to always show all parameters to a user, especially if you are building graphs with a simple goal, that don&#39;t need many parameters.</b> When exposing parameters, you work as a UI or UX designer: you think what controls make sense, which values are required and how to make it easy to use for yourself, for other users online or for your coworkers.
+<b> &#91;Substance graphs&#93;(../../../compositing-graphs/substance-compositing-graphs.md) can get complicated and can contain hundreds of parameters at once. It doesn&#39;t make sense to always show all parameters to a user, especially if you are building graphs with a simple goal, that don&#39;t need many parameters.</b> When exposing parameters, you work as a UI or UX designer: you think what controls make sense, which values are required and how to make it easy to use for yourself, for other users online or for your coworkers.
 
 +++
 
@@ -88,7 +97,7 @@ There are some limitations tied to exposing parameters, as listed in the table b
 
 | Parameter type | Reason |
 | --- | --- |
-| [Gradient Ramp](../../nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../nodes-reference-for-com/atomic-nodes/text/text.md), [Levels Histogram](../../nodes-reference-for-com/atomic-nodes/levels/levels.md) | Require widgets which are not available for user-created parameters. |
+| [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Levels Histogram](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Require widgets which are not available for user-created parameters. |
 
 Another significant limitation is related to [static parameters](../../../glossary/glossary.md). These cannot be changed in a [published Substance 3D asset](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
 
@@ -96,15 +105,15 @@ Static parameters – as opposed to dynamic parameters – *cannot be edited on-
 
 As such, static parameters are visible and editable in Designer, but are *hidden* in a published Substance 3D asset. You may use Preview mode to see these limitations in effect before publishing to a Substance 3D asset: see 'Previewing parameters' below.
 
-As a workaround, you may use a [Switch](../../nodes-reference-for-com/node-library/filters/blending/switch/switch.md) or [Multi Switch](../../nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) node and multiple sets of logic to switch between different values/states for these parameters.
+As a workaround, you may use a [Switch](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) or [Multi Switch](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) node and multiple sets of logic to switch between different values/states for these parameters.
 
 | Node | Parameter |
 | --- | --- |
 | All nodes | Tiling mode  Pixel ratio |
-| [Uniform color](../../nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | Color mode |
-| [Pixel processor](../../nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Color mode |
-| [Blend](../../nodes-reference-for-com/atomic-nodes/blend/blend.md) | Blending mode  Alpha blending  Cropping area |
-| [FX-Map](../../nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | Blending mode |
+| [Uniform color](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | Color mode |
+| [Pixel processor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Color mode |
+| [Blend](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Blending mode  Alpha blending  Cropping area |
+| [FX-Map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | Blending mode |
 | [Quadrant](../../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | Pattern  Input image alpha  Input image filtering |
 
 ## Modifying exposed parameters
@@ -135,7 +144,7 @@ All exposed Parameters are listed under the Input Parameters tab. The following 
 1. <b>Clamp</b>: Set wether Min and Max are soft or hard limits (allow the user to go past the limits).
 1. <b>Step</b>:Set the precison or granularity of the value.
 1. <b>User Data: </b>Custom user data, available for any purpose.
-1. <b>Visible If</b>: Special expression system to show or hide parameters based on external conditions. See [Visible if: control visibility of inputs, outputs and parameters](../../visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
+1. <b>Visible If</b>: Special expression system to show or hide parameters based on external conditions. See [Visible if: control visibility of inputs, outputs and parameters](../../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
 
 ![Drop down list editor for Integer parameter](dropdown.gif "Drop down list editor for Integer parameter"){width="512px"}
 
@@ -144,7 +153,7 @@ All exposed Parameters are listed under the Input Parameters tab. The following 
 A special case is the <b>Drop down list</b> for Integer types. There is no Default, Min or Max, just a single Value setting that allows you to define a list of Items.
 
 * Every Item corresponds to an Item in the Drop Down List.
-* The first value for an Item is the actual, internal integer used by the graph. Make sure you set these up correctly for your [Multi Switch](../../nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) for example (they start at 1, not 0).
+* The first value for an Item is the actual, internal integer used by the graph. Make sure you set these up correctly for your [Multi Switch](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) for example (they start at 1, not 0).
 * The second value is the UI Label shown to the user.
 * The third checkbox allows you to mark one Item as the default selected one.
 * The X deletes an Item, the + adds an Item
@@ -163,7 +172,7 @@ As setting up parameters can be difficult without seeing the final result, a <b>
 
 Normally, any changes made in <b>Preview Mode</b> are *discarded*. You can however use the <b>Apply button </b>next to the eye icon to set the current values of the<b> Preview Mode</b> as the *new default values*.
 
-[Preview Mode also allows you to create Embedded Presets.](../parameter-presets/parameter-presets.md)
+[Preview Mode also allows you to create Embedded Presets.](../../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
 >[!IMPORTANT]
 >
@@ -171,7 +180,7 @@ Normally, any changes made in <b>Preview Mode</b> are *discarded*. You can howev
 
 >[!WARNING]
 >
-> Preview mode aims to represent the experience of a [published Substance 3D asset](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) as accurately as possible. Therefore, the listed in this page will apply in this mode, such as *static parameters being absent from the list*.
+> Preview mode aims to represent the experience of a [published Substance 3D asset](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) as accurately as possible. Therefore, the Limitations listed in this page will apply in this mode, such as *static parameters being absent from the list*.
 
 ![Copying and pasting inputs parameters](copy-paste-params-2.gif "Copying and pasting inputs parameters"){width="512px"}
 
@@ -183,7 +192,7 @@ A single parameter can be copied with the Copy button ![](image2019-9-19-11-3-49
 
 Choose Paste Inputs ![](image2020-9-17-16-43-15.png) in the Parameters Menu ![](image2020-9-17-15-39-7.png) to paste one or more parameters.
 
-If you want to transfer values, and not the actual exposed parameter itself, [read about Parameter Presets.](../parameter-presets/parameter-presets.md)
+If you want to transfer values, and not the actual exposed parameter itself, [read about Parameter Presets.](../../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
 ## Removing and cleaning exposed parameters
 

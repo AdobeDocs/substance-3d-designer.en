@@ -1,8 +1,17 @@
 ---
-title: "Python issues"
-description: ""
-helpx_description: "Designer > Technical issues > Python issues"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/python-issues.html"
+breadcrumb-title: ""
+description: Troubleshoot Python scripting issues in Substance 3D Designer including plugin and API problems.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > Python issues
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Python issues
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Python issues
 

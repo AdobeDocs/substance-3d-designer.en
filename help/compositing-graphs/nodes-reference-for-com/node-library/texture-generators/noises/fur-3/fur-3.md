@@ -1,8 +1,17 @@
 ---
-title: "Fur 3"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 3"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
+breadcrumb-title: ""
+description: Use the Fur 3 node to generate advanced fur textures with customizable properties for creating hair and fiber effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fur 3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Fur 3
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Fur 3
 

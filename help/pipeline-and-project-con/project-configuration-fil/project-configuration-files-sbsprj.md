@@ -1,8 +1,17 @@
 ---
-title: "Project Configuration Files - SBSPRJ"
-description: ""
-helpx_description: "Designer > Pipeline and Project Configuration > Project Configuration Files - SBSPRJ"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+breadcrumb-title: ""
+description: Learn how to use SBSPRJ project configuration files in Substance 3D Designer to manage project settings.
+helpx_creative_field: ""
+helpx_description: Designer > Pipeline and Project Configuration > Project Configuration Files - SBSPRJ
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Project Configuration Files - SBSPRJ
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Overview
 

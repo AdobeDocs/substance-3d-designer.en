@@ -1,8 +1,17 @@
 ---
-title: "Base Material"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > Base Material"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
+breadcrumb-title: ""
+description: Use the Base Material node to create base material properties for building physically-based materials from scratch.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > PBR Utilities > Base Material
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Base Material
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Base Material
 

@@ -1,8 +1,17 @@
 ---
-title: "Package Metadata"
-description: ""
-helpx_description: "Designer > Package Metadata"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
+breadcrumb-title: ""
+description: Learn how to create and manage package metadata in Substance 3D Designer for organized asset libraries.
+helpx_creative_field: ""
+helpx_description: Designer > Package Metadata
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Package Metadata
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Package Metadata
 

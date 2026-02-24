@@ -1,8 +1,17 @@
 ---
-title: "Spline Bridge (2 Splines)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (2 Splines)"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
+breadcrumb-title: ""
+description: Use the Spline Bridge node to bridge textures between two splines for creating seamless connections.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Bridge (2 Splines)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Spline Bridge (2 Splines)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline Bridge (2 Splines)
 

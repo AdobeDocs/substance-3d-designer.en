@@ -1,8 +1,17 @@
 ---
-title: "Splatter"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
+breadcrumb-title: ""
+description: Use the Splatter node to scatter shapes across textures for creating random patterns and organic texture details.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Splatter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Splatter
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Splatter
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Splatter is a pattern generator intended for random placement of a map input. It has many controls for geometrically patterned placement, and is simpler in use than [Tile Generator](../tile-generator/tile-generator.md). The latter can achieve similar results, but is much more complex.
+Splatter is a pattern generator intended for random placement of a map input. It has many controls for geometrically patterned placement, and is simpler in use than [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md). The latter can achieve similar results, but is much more complex.
 
 Splatter works well for quickly getting some shapes stamped down, without needing too much tweaking.
 

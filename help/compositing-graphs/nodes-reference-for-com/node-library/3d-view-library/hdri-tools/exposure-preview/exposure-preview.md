@@ -1,8 +1,17 @@
 ---
-title: "Exposure Preview"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Exposure Preview"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure-preview.html"
+breadcrumb-title: ""
+description: Use the Exposure Preview node to preview exposure adjustments in HDRI environments before final rendering.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Exposure Preview
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Exposure Preview
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Exposure Preview
 

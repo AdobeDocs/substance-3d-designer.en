@@ -1,8 +1,17 @@
 ---
-title: "White noise"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > White noise"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+breadcrumb-title: ""
+description: Use the White Noise node to generate white noise patterns for creating texture variations and random effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > White noise
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: White noise
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # White noise
 
@@ -33,17 +42,17 @@ Generates a white noise using one of three methods targeting different histogram
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

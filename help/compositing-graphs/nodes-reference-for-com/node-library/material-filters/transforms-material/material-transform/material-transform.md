@@ -1,8 +1,17 @@
 ---
-title: "Material Transform"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Transforms (Material) > Material Transform"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/transforms-material/material-transform.html"
+breadcrumb-title: ""
+description: Use the Material Transform node to apply transformations to material outputs including rotation, scale, and offset.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Transforms (Material) > Material Transform
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Material Transform
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Material Transform
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Material Transform is simply the "Multi-Channel" Materials version of [the atomic Transformation 2D node](../../../../atomic-nodes/transformation-2d/transformation-2d.md). It transforms all channels of an input material at the same time, with the same interface as Transform 2D.
+Material Transform is simply the "Multi-Channel" Materials version of [the atomic Transformation 2D node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md). It transforms all channels of an input material at the same time, with the same interface as Transform 2D.
 
 Just make sure to set up the Channels properly! By default, both Metallic/Roughness and Specular/Glossiness are enabled, which could lead to some confusion.
 

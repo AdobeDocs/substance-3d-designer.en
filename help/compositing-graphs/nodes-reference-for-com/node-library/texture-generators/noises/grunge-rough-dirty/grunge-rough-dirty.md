@@ -1,8 +1,17 @@
 ---
-title: "Grunge Rough Dirty"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rough Dirty"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+breadcrumb-title: ""
+description: Use the Grunge Rough Dirty node to generate rough and dirty grunge textures for adding weathered surface details.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rough Dirty
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Grunge Rough Dirty
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Grunge Rough Dirty
 

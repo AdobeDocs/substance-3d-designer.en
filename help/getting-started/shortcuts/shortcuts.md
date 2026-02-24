@@ -1,14 +1,27 @@
 ---
-title: "Shortcuts"
-description: ""
-helpx_description: "Designer > Getting started > Shortcuts"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
+breadcrumb-title: ""
+description: Learn keyboard shortcuts in Substance 3D Designer to speed up your workflow and improve productivity.
+helpx_creative_field: ""
+helpx_description: Designer > Getting started > Shortcuts
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Shortcuts
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Shortcuts
 
 On this page you can find an overview of all shortcuts for Substance 3D Designer.
 
 ## Table of contents
+
+[Keymaps](#keymaps)
+
+[Shortcuts lists](#shortcuts-lists)
 
 ## Keymaps
 

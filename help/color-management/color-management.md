@@ -1,8 +1,17 @@
 ---
-title: "Color Management"
-description: ""
-helpx_description: "Designer > Color Management"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+breadcrumb-title: ""
+description: Learn about color management in Substance 3D Designer including color spaces, profiles, and spot color workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Color Management
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color Management
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Color Management
 
@@ -27,7 +36,7 @@ Color Management settings can be configured in [Projects](../interface/preferenc
 
 |  |  |
 | --- | --- |
-| <b>Color management</b> | This setting lets you select the [Legacy](color-management.md),  or  modes for Color Management in Substance 3D Designer. *Default: Legacy* |
+| <b>Color management</b> | This setting lets you select the [Legacy](../color-management/color-management.md), [OpenColorIO](#opencolorio) or [Adobe ACE](#adobe-ace) modes for Color Management in Substance 3D Designer. *Default: Legacy* |
 
 ## OpenColorIO
 
@@ -106,7 +115,7 @@ In this mode, graphs and images behave exactly in the same way as in previous ve
 
 You can choose to use <b>ACES sRGB</b> *tonemapping* in the <b>3D View</b> to match the output of other software, such as *[Unreal Engine](https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/ColorGrading/index.html)*.
 
-You can set a colour space for *exported bitmaps* as described in the section in this page. The available color spaces are the following:
+You can set a colour space for *exported bitmaps* as described in the [Exporting Outputs](#exporting-outputs) section in this page. The available color spaces are the following:
 
 * sRGB
 * Linear

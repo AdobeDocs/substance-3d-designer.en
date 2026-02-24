@@ -1,8 +1,17 @@
 ---
-title: "Adding actions to the Explorer toolbar"
-description: ""
-helpx_description: "Designer > Scripting > Adding actions to the Explorer toolbar"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
+breadcrumb-title: ""
+description: Learn how to add custom actions to the Explorer toolbar in Substance 3D Designer using Python scripting.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting > Adding actions to the Explorer toolbar
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Adding actions to the Explorer toolbar
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Adding actions to the Explorer toolbar
 

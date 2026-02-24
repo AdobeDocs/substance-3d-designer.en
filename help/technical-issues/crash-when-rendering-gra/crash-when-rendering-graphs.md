@@ -1,8 +1,17 @@
 ---
-title: "Crash when rendering graphs"
-description: ""
-helpx_description: "Designer > Technical issues > Crash when rendering graphs"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/crash-when-rendering-graphs.html"
+breadcrumb-title: ""
+description: Troubleshoot crashes when rendering graphs in Substance 3D Designer and find solutions to prevent them.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > Crash when rendering graphs
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Crash when rendering graphs
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Crash when rendering graphs
 

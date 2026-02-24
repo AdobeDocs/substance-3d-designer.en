@@ -1,8 +1,17 @@
 ---
-title: "Bevel smooth"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Bevel smooth"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+breadcrumb-title: ""
+description: Use the Bevel Smooth node to create smooth beveled edges on shapes and patterns for realistic surfaces.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Bevel smooth
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Bevel smooth
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Bevel smooth
 
@@ -31,7 +40,7 @@ The distance of the gradient can be dynamically adjusted along the border using 
 
 >[!TIP]
 >
-> The [Directional distance](../directional-distance/directional-distance.md) node offers similar capabilities, where the dilation is performed in a specific direction.
+> The [Directional distance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md) node offers similar capabilities, where the dilation is performed in a specific direction.
 
 <table>
 <tr style="border: 0;">
@@ -42,12 +51,12 @@ The distance of the gradient can be dynamically adjusted along the border using 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>
@@ -66,7 +75,7 @@ The distance of the gradient can be dynamically adjusted along the border using 
 |  |  |
 | --- | --- |
 | <b>Output</b> *Grayscale* | The result image, according to the selected 'Output Mode'. |
-| <b>UV</b> *Color* | A UV map where the UVs are dilated along the mask borders.   This can be connected to a [UV Mapper](../../../spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) node to map any other image using these dilated UVs. |
+| <b>UV</b> *Color* | A UV map where the UVs are dilated along the mask borders.   This can be connected to a [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) node to map any other image using these dilated UVs. |
 
 ## Parameters
 

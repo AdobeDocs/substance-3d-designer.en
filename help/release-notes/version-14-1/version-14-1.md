@@ -1,8 +1,17 @@
 ---
-title: "Version 14.1"
-description: ""
-helpx_description: "Designer > Release Notes > Version 14.1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 14.1 to learn about node arrangement tools and new Spline and Path nodes.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 14.1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 14.1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 14.1
 
@@ -81,7 +90,7 @@ The [node finder](../../interface/the-graph-view/node-finder/node-finder.md) too
 
 *(Released January 14th, 2025)*
 
-### <b>Added</b>
+### Added
 
 * &#91;2D View&#93; Add pinned pixel display in Information panel
 * &#91;API&#93; Expose the nodes BBox size in the Graph View scene
@@ -115,7 +124,7 @@ The [node finder](../../interface/the-graph-view/node-finder/node-finder.md) too
 * &#91;UX&#93; Modal dialogs should not be minimisable
 * &#91;UX&#93; Remove horizontal scroll on alert dialog
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;Content&#93; Bevel: Normal Format is not affected by the global preference
 * &#91;Content&#93; Color to Mask node does not ignore alpha

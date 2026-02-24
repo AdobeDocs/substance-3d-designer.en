@@ -1,12 +1,21 @@
 ---
-title: "Exporting MDL content"
-description: ""
-helpx_description: "Designer > MDL graphs > Exporting MDL content"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/exporting-mdl-content.html"
+breadcrumb-title: ""
+description: Learn how to export MDL content from Substance 3D Designer for use in external renderers and applications.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs > Exporting MDL content
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Exporting MDL content
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Exporting MDL content
 
-This page describes the export processes related to [MDL graphs](../mdl-graphs.md) and materials in Substance 3D Designer.
+This page describes the export processes related to [MDL graphs](../../mdl-graphs/mdl-graphs.md) and materials in Substance 3D Designer.
 
 ## Overview
 
@@ -26,7 +35,7 @@ This is the fundamental exchange file format for material definitions. An MDL mo
 
 Exporting an MDL module is performed at the *package* level. To export an MDL module for a given package, click the ![](mdl-export-module-icon.png) <b>Export MDL Module</b> button in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) or select that same option in the *package's contextual menu*. Select a target location and name for the exported MDL module, and the <b>Export Report</b> dialog is displayed with the list of messages logged during the export process.
 
-The exported module will contain the definitions of *all* the MDL materials defined by an [MDL graph](../mdl-graphs.md) in the package.
+The exported module will contain the definitions of *all* the MDL materials defined by an [MDL graph](../../mdl-graphs/mdl-graphs.md) in the package.
 
 >[!NOTE]
 >
@@ -71,7 +80,7 @@ An MDL module archive combines MDL modules – see above – with resources such
 
 Exporting an MDL module archive is performed at the *package* level. To export an MDL module archive for a given package, click the ![](mdl-export-module-icon.png) <b>Export MDL Module Archive</b> button in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) or select that same option in the *package's contextual menu*. Select a target location and name for the exported MDL module archive, and the <b>Export Report</b> dialog is displayed with the list of messages logged during the export process.
 
-The exported module archive will contain MDL module holding the definitions of *all* the MDL materials defined by an [MDL graph](../mdl-graphs.md) in the package. If a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) is [instanced into an MDL graph](../compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md) and connected to a stream going to the [Root](../main-mdl-graph-concepts/main-mdl-graph-concepts.md) node, the textures it outputs are *saved into the archive*.
+The exported module archive will contain MDL module holding the definitions of *all* the MDL materials defined by an [MDL graph](../../mdl-graphs/mdl-graphs.md) in the package. If a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) is [instanced into an MDL graph](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md) and connected to a stream going to the [Root](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md) node, the textures it outputs are *saved into the archive*.
 
 In addition to these items, the archive includes a <b>MANIFEST</b> file which describes the following metadata for the MDL module archive:
 

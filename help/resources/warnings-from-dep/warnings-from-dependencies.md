@@ -1,14 +1,23 @@
 ---
-title: "Warnings from dependencies"
-description: ""
-helpx_description: "Designer > Resources > Warnings from dependencies"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
+breadcrumb-title: ""
+description: Understand warnings from resource dependencies in Substance 3D Designer and how to resolve them.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > Warnings from dependencies
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Warnings from dependencies
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Warnings from dependencies
 
 This page lists warnings and error messages which may be triggered by dependencies in Substance 3D Designer, and offers common troubleshooting steps for each.
 
-Dependencies are *other files* referenced by a Substance 3D file (SBS). They include [resources](../resources.md) and other Substance 3D files referenced by [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) nodes.
+Dependencies are *other files* referenced by a Substance 3D file (SBS). They include [resources](../../resources/resources.md) and other Substance 3D files referenced by [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) nodes.
 
 ## ![(error)](error.svg) Invalid dependent package
 
@@ -47,11 +56,11 @@ At least one of the [project files](../../interface/preferences-window/project-
 
 ## ![(error)](error.svg) No file that matches this resource can be found
 
-The files matching the *UDIM template* for a [Bitmap resource](../bitmap-resource/bitmap-resource.md) cannot be found.
+The files matching the *UDIM template* for a [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) cannot be found.
 
 <b>!&#91;(tick)&#93;(check.svg) Solution</b>
 
-When a [Bitmap resource](../bitmap-resource/bitmap-resource.md) is linked and Designer detects a *UDIM naming taxonomy* in its filename – e.g. `0x1` in `my_texture_0x1.png`, it offers to link it as a *UDIM template*, so that [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes can *automatically switch* to other bitmaps in a UDIM set using that taxonomy, when using a UDIM workflow in Designer. In that case, Designer links the Bitmap resource in a *different way* which takes the UDIM numbering template into account.
+When a [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) is linked and Designer detects a *UDIM naming taxonomy* in its filename – e.g. `0x1` in `my_texture_0x1.png`, it offers to link it as a *UDIM template*, so that [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes can *automatically switch* to other bitmaps in a UDIM set using that taxonomy, when using a UDIM workflow in Designer. In that case, Designer links the Bitmap resource in a *different way* which takes the UDIM numbering template into account.
 
 There are two main ways of correcting this issue:
 
@@ -87,7 +96,7 @@ There are two main ways of correcting this issue:
 
 ## ![(error)](error.svg) Color space not found
 
-A [Bitmap resource](../bitmap-resource/bitmap-resource.md) references a color space which cannot be found in the current [color management](../../color-management/color-management.md) environment. This may be an ICC profile or a color space in an OCIO configuration.
+A [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) references a color space which cannot be found in the current [color management](../../color-management/color-management.md) environment. This may be an ICC profile or a color space in an OCIO configuration.
 
 <b>!&#91;(tick)&#93;(check.svg) Solution</b>
 

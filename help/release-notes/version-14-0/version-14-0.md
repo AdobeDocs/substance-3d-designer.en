@@ -1,8 +1,17 @@
 ---
-title: "Version 14.0"
-description: ""
-helpx_description: "Designer > Release Notes > Version 14.0"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-0.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 14.0 to learn about new nodes, graph navigation, and performance improvements.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 14.0
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 14.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 14.0
 
@@ -143,7 +152,7 @@ Normal uncombine
 </tr>
 </table>
 
-## <b>API Improvements</b>
+## API Improvements
 
 The scripting API includes four new methods:
 
@@ -167,7 +176,7 @@ Note that these updates have two majors consequences:
 
 *(Released July 30th, 2024)*
 
-### <b>Added</b>
+### Added
 
 * &#91;Content&#93; New Anisotropic Kuwahara filter
 * &#91;Content&#93; New Bevel Smooth Node
@@ -213,7 +222,7 @@ Note that these updates have two majors consequences:
 * &#91;ThirdParty&#93; Update libstdc++ ABI to C++11 one
 * &#91;Documentation&#93; New 'Glossary' page
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;Bakers&#93; Crash when rebaking a scene which filename was changed
 * &#91;Bakers&#93; Crash when saving bakers preset to JSON file

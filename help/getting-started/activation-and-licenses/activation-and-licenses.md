@@ -1,8 +1,17 @@
 ---
-title: "Activation and licenses"
-description: ""
-helpx_description: "Designer > Getting started > Activation and licenses"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+breadcrumb-title: ""
+description: Learn how to activate Substance 3D Designer and manage licenses for accessing all features and capabilities.
+helpx_creative_field: ""
+helpx_description: Designer > Getting started > Activation and licenses
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Activation and licenses
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Activation process per application type
 

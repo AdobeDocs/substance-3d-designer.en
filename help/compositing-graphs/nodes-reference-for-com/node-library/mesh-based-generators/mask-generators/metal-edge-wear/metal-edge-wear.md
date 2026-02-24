@@ -1,8 +1,17 @@
 ---
-title: "Metal Edge Wear"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Metal Edge Wear"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/metal-edge-wear.html"
+breadcrumb-title: ""
+description: Use the Metal Edge Wear node to generate wear masks on metal edges based on mesh curvature and position.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Metal Edge Wear
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Metal Edge Wear
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Metal Edge Wear
 
@@ -51,7 +60,7 @@ This mask represents edge wear on a metal object, with scratches and chips appea
 * **Ambient Occlusion Masking**: *0.0 - 1.0*Sets amount of effect the AO has on the final effect, dark areas being masked out.
 * **Curvature Weight**: *0.0 - 1.0*Sets amount of effect the Convex edges from the Curvature have on the final effect.
 * **Use Custom Grunge**: *False/True*Enables a custom Grunge map input slot.
-* **Use Triplanar**: *False/True*Enable [Tri Planar](../../utilities-mesh-based-gen/tri-planar/tri-planar.md) projection to hide seams.
+* **Use Triplanar**: *False/True*Enable [Tri Planar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) projection to hide seams.
 * **Triplanar Blending Contrast**: *0.0 - 1.0*Sets blending contrast for the Triplanar Projection.
 
 ## Example Images

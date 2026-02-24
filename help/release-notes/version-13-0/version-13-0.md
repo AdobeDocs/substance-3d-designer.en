@@ -1,8 +1,17 @@
 ---
-title: "Version 13.0"
-description: ""
-helpx_description: "Designer > Release Notes > Version 13.0"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 13.0 to learn about new nodes, Substance Engine 9.0, and portal nodes.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 13.0
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 13.0
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 13.0
 
@@ -222,7 +231,7 @@ As a reminder, if you want to change the language in Designer, just go to the [P
 
 *(Released June 6th, 2023)*
 
-### <b>Added</b>
+### Added
 
 * &#91;Graph&#93; Portal node
 * &#91;Onboarding&#93; New Home Screen
@@ -280,7 +289,7 @@ As a reminder, if you want to change the language in Designer, just go to the [P
 * &#91;Presets&#93; Disable 'Preview' and 'Presets' panels in graph properties when using in-context editing
 * &#91;Substance models graph&#93; End of support of Substance models graphs
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;3D View&#93; Display of long strings in scene statistics is cut off (macOS only)
 * &#91;API&#93; 'structure::Structure' module is still included in the API reference

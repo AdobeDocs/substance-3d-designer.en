@@ -1,8 +1,17 @@
 ---
-title: "Version 15.1"
-description: ""
-helpx_description: "Designer > Release Notes > Version 15.1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
+breadcrumb-title: ""
+description: Review release notes for Substance 3D Designer version 15.1 to learn about new features, improvements, and bug fixes.
+helpx_creative_field: ""
+helpx_description: Designer > Release Notes > Version 15.1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Version 15.1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Version 15.1
 
@@ -63,7 +72,7 @@ Most noises now include <b>new parameters</b>, providing users with greater crea
 
 Finally, bitdepth is <b>no longer hard-locked to 16-bits</b>. You can now override the bitdepth setting on individual node instances, allowing you to achieve higher detail and dynamic range when needed, or optimize your graphs for performance.
 
-See the full list of updated noises in the below.
+See the full list of updated noises in the [release notes](#release-notes) below.
 
 Examples:   [Cells 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)   [Clouds 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [  Directional scratches](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [  Moisture noise 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
@@ -142,7 +151,7 @@ For instance, detecting the absence of a variable enables you to provide a fallb
 
 *(Released December 11th, 2025)*
 
-### <b>Added</b>
+### Added
 
 * &#91;NewGraph&#93; Rework of the new graph window
 * &#91;NewGraph&#93; Add materials samples and advanced samples
@@ -197,7 +206,7 @@ For instance, detecting the absence of a variable enables you to provide a fallb
 * &#91;Graph&#93; Group the items per 'group' attribute in the node menu
 * &#91;Graph&#93; Improve thumbnail rendering
 
-### <b>Fixes</b>
+### Fixes
 
 * &#91;3D View&#93; L16 Grayscale texture is displayed with a red tint when plugged to the environment or the baseColor
 * &#91;3D View&#93; Changing the material binding of a scene with no material creates a new "default" material

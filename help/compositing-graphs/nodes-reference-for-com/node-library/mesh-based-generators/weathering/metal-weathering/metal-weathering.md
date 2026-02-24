@@ -1,8 +1,17 @@
 ---
-title: "Metal Weathering"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Metal Weathering"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/metal-weathering.html"
+breadcrumb-title: ""
+description: Use the Metal Weathering node to add realistic rust and corrosion effects to metal materials based on mesh geometry.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Metal Weathering
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Metal Weathering
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Metal Weathering
 

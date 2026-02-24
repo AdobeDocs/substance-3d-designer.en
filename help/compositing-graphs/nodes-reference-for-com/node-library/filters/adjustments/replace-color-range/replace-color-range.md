@@ -1,8 +1,17 @@
 ---
-title: "Replace Color Range"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Replace Color Range"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/replace-color-range.html"
+breadcrumb-title: ""
+description: Use the Replace Color Range node to replace colors within a specified range with new colors for color correction.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Replace Color Range
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Replace Color Range
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Replace Color Range
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 Replaces Source Color by Target Color, with additional controls. Can for example be used to re-color parts of a Material ID map (bake).
 
-For a more advanced version, see [Color Match.](../color-match/color-match.md)
+For a more advanced version, see [Color Match.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
 
 ## Parameters
 

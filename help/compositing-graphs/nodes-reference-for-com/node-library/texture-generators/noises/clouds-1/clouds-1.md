@@ -1,8 +1,17 @@
 ---
-title: "Clouds 1"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Clouds 1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-1.html"
+breadcrumb-title: ""
+description: Use the Clouds 1 node to generate basic cloud patterns for creating atmospheric and volumetric texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Clouds 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Clouds 1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Clouds 1
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 A variation of the rough <b>Clouds</b> noises.
 
-See also: [Clouds 2](../clouds-2/clouds-2.md), [Clouds 3](../clouds-3/clouds-3.md)
+See also: [Clouds 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md), [Clouds 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-3/clouds-3.md)
 
 </td>
 </tr>
@@ -35,17 +44,17 @@ See also: [Clouds 2](../clouds-2/clouds-2.md), [Clouds 3](../clouds-3/clouds-3.m
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

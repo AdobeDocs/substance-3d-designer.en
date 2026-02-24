@@ -1,8 +1,17 @@
 ---
-title: "Gradient map"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+breadcrumb-title: ""
+description: Use the Gradient Map node to map grayscale values to colors using gradient ramps for colorization and effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Gradient map
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Gradient map
 
@@ -23,7 +32,7 @@ This node serves a dual purpose: It may be simply used as a<b> </b>grayscale-to
 </tr>
 </table>
 
-The node offers an advanced and feature-rich gradient editor to map multiple colors with precision: go to the section in this page to learn more.
+The node offers an advanced and feature-rich gradient editor to map multiple colors with precision: go to the [Gradient editor](#gradient-editor) section in this page to learn more.
 
 <table>
 <tr style="border: 0;">
@@ -45,13 +54,15 @@ The node offers an advanced and feature-rich gradient editor to map multiple col
 </tr>
 </table>
 
+## Examples
+
 ## Parameters
 
 |  |  |
 | --- | --- |
 | <b>Color mode</b> *Boolean* | Sets the output mode to Color or Grayscale. |
 | <b>Gradient adressing</b> *Boolean* | Sets the gradient to either repeat (tile) or clamp values that are out of the &#91;0, 1&#93; range. |
-| <b>Gradient</b> *Array of gradient keys* | The custom gradient ramp used to map the input grayscale values.   May be edited in place or using the . |
+| <b>Gradient</b> *Array of gradient keys* | The custom gradient ramp used to map the input grayscale values.   May be edited in place or using the [Gradient editor](#gradient-editor). |
 
 ## Gradient editor
 

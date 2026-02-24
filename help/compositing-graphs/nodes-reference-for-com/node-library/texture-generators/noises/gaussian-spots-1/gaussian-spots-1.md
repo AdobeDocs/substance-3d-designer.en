@@ -1,8 +1,17 @@
 ---
-title: "Gaussian spots 1"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Gaussian spots 1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-1.html"
+breadcrumb-title: ""
+description: Use the Gaussian Spots 1 node to generate Gaussian spot patterns for creating organic texture variations and details.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Gaussian spots 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Gaussian spots 1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Gaussian spots 1
 
@@ -24,9 +33,9 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 ## Description
 
 A variation of the smooth <b>Gaussian spots</b> noises.  
-Based on the [Gaussian noise](../gaussian-noise/gaussian-noise.md) node, with narrower gradients.
+Based on the [Gaussian noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md) node, with narrower gradients.
 
-See also: [Gaussian spots 2](../gaussian-spots-2/gaussian-spots-2.md)
+See also: [Gaussian spots 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
 
 </td>
 </tr>
@@ -36,17 +45,17 @@ See also: [Gaussian spots 2](../gaussian-spots-2/gaussian-spots-2.md)
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

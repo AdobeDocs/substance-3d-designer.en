@@ -1,8 +1,17 @@
 ---
-title: "Substance function graphs"
-description: ""
-helpx_description: "Designer > Substance function graphs"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
+breadcrumb-title: ""
+description: Learn how to create and use Substance function graphs in Designer to build custom functions and reusable node networks.
+helpx_creative_field: ""
+helpx_description: Designer > Substance function graphs
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Substance function graphs
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Substance function graphs
 
@@ -15,7 +24,7 @@ helpx_description: "Designer > Substance function graphs"
 </td>
 <td style="border: 0;" valign="top">
 
-[Substance function graphs](https://substance3d.adobe.com/) <b>process single values</b> (integers, floats, vectors) instead of image data (whole sets of pixels). Functions are also Graphs with node networks, but the [Nodes used ](nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)and the interface is different from [regular Substance graphs](../compositing-graphs/substance-compositing-graphs.md). The workflow is completely based on <b>mathematical operations</b> and does not show any image preview thumbnails, making it a <b>much more advanced way to work</b> with Substance 3D Designer.
+[Substance function graphs](https://substance3d.adobe.com/) <b>process single values</b> (integers, floats, vectors) instead of image data (whole sets of pixels). Functions are also Graphs with node networks, but the [Nodes used ](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)and the interface is different from [regular Substance graphs](../compositing-graphs/substance-compositing-graphs.md). The workflow is completely based on <b>mathematical operations</b> and does not show any image preview thumbnails, making it a <b>much more advanced way to work</b> with Substance 3D Designer.
 
 Functions can be used in many different contexts, the main ones being to modify the behaviour of [an exposed Parameter](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), to author the behaviour of [Pixel Processors](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) or [FX-Maps](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) and to to use [Values in a Graph.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)
 

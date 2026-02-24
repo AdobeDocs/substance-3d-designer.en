@@ -1,8 +1,17 @@
 ---
-title: "Reaction Diffusion Fast"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+breadcrumb-title: ""
+description: Use the Reaction Diffusion Fast node to generate organic patterns using fast reaction-diffusion algorithms for procedural textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Reaction Diffusion Fast
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Reaction Diffusion Fast
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Reaction Diffusion Fast
 

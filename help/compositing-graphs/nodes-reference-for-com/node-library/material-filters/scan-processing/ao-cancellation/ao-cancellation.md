@@ -1,8 +1,17 @@
 ---
-title: "AO Cancellation"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/ao-cancellation.html"
+breadcrumb-title: ""
+description: Use the AO Cancellation node to remove ambient occlusion from scanned materials for clean texture processing.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > AO Cancellation
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: AO Cancellation
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # AO Cancellation
 

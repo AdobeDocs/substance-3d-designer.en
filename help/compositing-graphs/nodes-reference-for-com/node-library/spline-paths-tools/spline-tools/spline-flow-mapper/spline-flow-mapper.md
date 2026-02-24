@@ -1,8 +1,17 @@
 ---
-title: "Spline Flow Mapper"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Flow Mapper"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-flow-mapper.html"
+breadcrumb-title: ""
+description: Use the Spline Flow Mapper node to create flowing texture patterns along spline paths for organic effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline Flow Mapper
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Spline Flow Mapper
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline Flow Mapper
 
@@ -49,9 +58,9 @@ This lets you use splines to control the direction, trajectory, intensity and th
 
 <b>Spline Amount</b> *Integer*The number of input splines.
 
-<b>Attenuation Profile Curve</b> *Grayscale*The image describing a curve using the values of its first row of pixels.  
+<b>Attenuation Profile Curve</b> *Grayscale*<span id="_Hlk135812146"></span>The image describing a curve using the values of its first row of pixels.  
 When the Attenuation Profile parameter is set to Input Profile Curve, this input is used to control the gradient ramp for the attenuation of the flow vector data drawn along the spline.  
-You may use a [Curve](../../../../atomic-nodes/curve/curve.md) node to author the curve.
+You may use a [Curve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) node to author the curve.
 
 ## Output connectors
 
@@ -91,7 +100,7 @@ A higher amount of segments results in a smoother flow mapping along curves.
 *- Gaussian*: Use a gaussian gradient ramp  
 *- Input Profile Curve*: Use the curve provided to the Attenuation Profile Curve input as a gradient ramp.
 
-<b>Start Attenuation</b> *Boolean*Adds a half-circle at the start of the spline. The half-circle uses the same attenuation as the spline.
+<b>Start Attenuation</b> *Boolean*<span id="_Hlk135769398"></span>Adds a half-circle at the start of the spline. The half-circle uses the same attenuation as the spline.
 
 <b>End Attenuation</b> *Boolean*Adds a half-circle at the end of the spline. The half-circle uses the same attenuation as the spline.
 

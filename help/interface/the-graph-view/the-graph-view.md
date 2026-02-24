@@ -1,8 +1,17 @@
 ---
-title: "Graph view"
-description: ""
-helpx_description: "Designer > Interface > Graph view"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+breadcrumb-title: ""
+description: Learn how to use the graph view in Substance 3D Designer to create and edit node-based material graphs.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > Graph view
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Graph view
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Graph view
 
@@ -33,13 +42,13 @@ Using a trackpad (macOS only)
 > * Mouse wheel up *pulls* the graph view closer
 > * Alt+RMB and drag up *pushes* the graph view away
 > 
-> The zoom direction can be inverted in the [Preferences](../preferences-window/preferences-window.md).
+> The zoom direction can be inverted in the [Preferences](../../interface/preferences-window/preferences-window.md).
 
 ![Viewport navigation](navigating.gif "Viewport navigation")
 
 You <b>focus</b> on the selected node(s), or the whole graph if nothing is selected, with the F key.
 
-Navigation can also happen by using <b>Navigation pins </b>and the F2 key, see below[.](graph-items/graph-items.md)
+Navigation can also happen by using <b>Navigation pins </b>and the F2 key, see [graph items](#graph-items) below[.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ## Moving objects
 
@@ -64,7 +73,7 @@ Several helper objects are available to help organise and navigate the graph, es
 
 >[!NOTE]
 >
-> Learn more in the [Graph items](graph-items/graph-items.md) section of this documentation.
+> Learn more in the [Graph items](../../interface/the-graph-view/graph-items/graph-items.md) section of this documentation.
 
 ## Graph contextual menu
 
@@ -72,23 +81,23 @@ When clicking RMB in empty space in the graph, a contextual menu appears and can
 
 <b>Add node:</b> Open the Node menu to add a node in the graph;
 
-<b>Add comment:</b> Add an unparented [Comment](graph-items/graph-items.md) graph object;
+<b>Add comment:</b> Add an unparented [Comment](../../interface/the-graph-view/graph-items/graph-items.md) graph object;
 
-<b>Add frame:</b> Add a [Frame](graph-items/graph-items.md) graph object;
+<b>Add frame:</b> Add a [Frame](../../interface/the-graph-view/graph-items/graph-items.md) graph object;
 
-<b>Add pin:</b> Add a [Pin](graph-items/graph-items.md) graph object;
+<b>Add pin:</b> Add a [Pin](../../interface/the-graph-view/graph-items/graph-items.md) graph object;
 
-<b>Add Dot node:</b> Add a [Dot](graph-items/graph-items.md) node;
+<b>Add Dot node:</b> Add a [Dot](../../interface/the-graph-view/graph-items/graph-items.md) node;
 
-<b>View outputs in 3D view:</b> Assign all the graph's outputs to a material in the [3D view](../3d-view/3d-view.md) by matching usages, see below;
+<b>View outputs in 3D view:</b> Assign all the graph's outputs to a material in the [3D view](../../interface/3d-view/3d-view.md) by matching usages, see [Interacting with the 3D view](#interacting-with-the-3d-view) below;
 
-<b>Reset and view outputs in 3D view:</b> Reset a material in the [3D view](../3d-view/3d-view.md) and assign all the graph's outputs to that material by matching usages, see below;
+<b>Reset and view outputs in 3D view:</b> Reset a material in the [3D view](../../interface/3d-view/3d-view.md) and assign all the graph's outputs to that material by matching usages, see [Interacting with the 3D view](#interacting-with-the-3d-view) below;
 
-<b>View output in 2D view:</b> Display one of the graph's outputs in the [2D view](../2d-view/2d-view.md), see below;
+<b>View output in 2D view:</b> Display one of the graph's outputs in the [2D view](../../interface/2d-view/2d-view.md), see [Interacting with the 2D view](#interacting-with-the-2d-view) below;
 
-<b>Compute node thumbnails:</b> Trigger the computation of the result of all nodes in the graph – which will be stored in the [image cache](../preferences-window/preferences-window.md) – and use their first output as their thumbnail;
+<b>Compute node thumbnails:</b> Trigger the computation of the result of all nodes in the graph – which will be stored in the [image cache](../../interface/preferences-window/preferences-window.md) – and use their first output as their thumbnail;
 
-<b>Clear nodes thumbnails:</b> Clear the [image cache](../preferences-window/preferences-window.md) containing the result of all nodes in the graph, which in turn clears the node's thumbnails;
+<b>Clear nodes thumbnails:</b> Clear the [image cache](../../interface/preferences-window/preferences-window.md) containing the result of all nodes in the graph, which in turn clears the node's thumbnails;
 
 <b>Save package:</b> Save the package which contains this graph;
 
@@ -98,9 +107,9 @@ When clicking RMB in empty space in the graph, a contextual menu appears and can
 
 <b>Select all:</b> Select all nodes in the graph;
 
-<b>Previous pin:</b> Navigate to the previous [Pin](graph-items/graph-items.md) object in the graph;
+<b>Previous pin:</b> Navigate to the previous [Pin](../../interface/the-graph-view/graph-items/graph-items.md) object in the graph;
 
-<b>Next pin:</b> Navigate to the next [Pin](graph-items/graph-items.md) object in the graph;
+<b>Next pin:</b> Navigate to the next [Pin](../../interface/the-graph-view/graph-items/graph-items.md) object in the graph;
 
 <b>Copy selection:</b> Copy the selected node(s), connection(s) and parameter value(s) to the clipboard;
 
@@ -134,7 +143,7 @@ Nodes can be placed in graphs in 5 ways, regardless of the graph type:
 * Right-clicking on an empty area of the graph, and choosing <b>Add node</b>. Only [Atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) can be placed this way.
 * Dragging a thumbnail from the Library View into the graph View. This method works for[ all types of nodes, including node Instances](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md).
 * Pressing <b>Spacebar</b> to access the <b>Node menu</b>. See below.
-* Using the keyboard shortcut mapped to a node. Mapping is performed in the [Preferences window](../preferences-window/preferences-window.md).
+* Using the keyboard shortcut mapped to a node. Mapping is performed in the [Preferences window](../../interface/preferences-window/preferences-window.md).
 
 ![Placing nodes](nodecreation.gif "Placing nodes")
 
@@ -154,7 +163,7 @@ Removing nodes can be done in two ways, depending on how you want a lost link to
 
 Pressing <b>Spacebar</b> in the Graph View displays the Node menu.
 
-This menu provides access to all nodes in the [Library](../the-library/the-library.md) through a search interface and lets your favorite nodes so they appear on top of the list.
+This menu provides access to all nodes in the [Library](../../interface/the-library/the-library.md) through a search interface and lets your favorite nodes so they appear on top of the list.
 
 You may use the arrow keys to go through the search results. The lists *loops*, so that using the 'Up' arrow key on the first item goes to the last item.
 
@@ -191,17 +200,17 @@ To select *multiple* nodes, the several methods are available:
 
 When clicking RMB on a node, a contextual menu appears and can include the following options:
 
-<b>View output in 2D view:</b> Display one of the node's outputs in the [2D view](../2d-view/2d-view.md), see below;
+<b>View output in 2D view:</b> Display one of the node's outputs in the [2D view](../../interface/2d-view/2d-view.md), see [Interacting with the 2D view](#interacting-with-the-2d-view) below;
 
-<b>View in 3D view</b>: Assign all the node's outputs to a material in the [3D View](../3d-view/3d-view.md) by matching usages, see below;
+<b>View in 3D view</b>: Assign all the node's outputs to a material in the [3D View](../../interface/3d-view/3d-view.md) by matching usages, see [Interacting with the 3D view](#interacting-with-the-3d-view) below;
 
-<b>Reset and view in 3D view:</b> Reset a material in the [3D view](../3d-view/3d-view.md) and assign all the node's outputs to that material by matching usages, see below;
+<b>Reset and view in 3D view:</b> Reset a material in the [3D view](../../interface/3d-view/3d-view.md) and assign all the node's outputs to that material by matching usages, see [Interacting with the 3D view](#interacting-with-the-3d-view) below;
 
-<b>View output in 3D view\*:</b> Assign a specific node output to a material in the [3D view](../3d-view/3d-view.md) by matching usages;
+<b>View output in 3D view\*:</b> Assign a specific node output to a material in the [3D view](../../interface/3d-view/3d-view.md) by matching usages;
 
-<b>Add comment:</b> Create a [Comment](graph-items/graph-items.md) graph object and parent it to this node;
+<b>Add comment:</b> Create a [Comment](../../interface/the-graph-view/graph-items/graph-items.md) graph object and parent it to this node;
 
-<b>Add frame:</b> Create a [Frame](graph-items/graph-items.md) graph object and fit it to the selected node(s);
+<b>Add frame:</b> Create a [Frame](../../interface/the-graph-view/graph-items/graph-items.md) graph object and fit it to the selected node(s);
 
 <b>Copy info to clipboard:</b> Copy the node's unique identifier (UID) to the clipboard;
 
@@ -234,7 +243,7 @@ When clicking RMB on a node, a contextual menu appears and can include the follo
 <b>Disable node/selection:</b> Disable the node or selected node(s) so they have no impact on the result of the stream, see <b>Disabling nodes</b> below.
 
 <b>\*</b>: Only available for [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) nodes.  
-<b>\*\*:</b> Only available for [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) nodes and if the <b>Enable in-context editing</b> option is checked in the [Preferences](../preferences-window/preferences-window.md).  
+<b>\*\*:</b> Only available for [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) nodes and if the <b>Enable in-context editing</b> option is checked in the [Preferences](../../interface/preferences-window/preferences-window.md).  
 <b>\*\*\*:</b> Only available when the selection includes two links, or three nodes where two of the nodes are connected to inputs of the same third node.
 
 >[!IMPORTANT]
@@ -303,9 +312,9 @@ You can disable a node or a group of selected nodes by using the <b>Shift+D</b>
 >
 > This only applies to [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md).
 
-To display a node output in the [2D view](../2d-view/2d-view.md), double-click LMB on a node, or click RMB on the node and select the option in the contextual menu. If the node has more than one output, select the desired output in the submenu.
+To display a node output in the [2D view](../../interface/2d-view/2d-view.md), double-click LMB on a node, or click RMB on the node and select the [View output in 2D view](#interacting-with-the-2d-view) option in the contextual menu. If the node has more than one output, select the desired output in the submenu.
 
-You may display any of the graph outputs in the 2D view by clicking RMB on an empty area in the [Graph view](https://substance3d.adobe.com/), and selecting the option in the contextual menu. If the graph has more than one output, select the desired output in the submenu.
+You may display any of the graph outputs in the 2D view by clicking RMB on an empty area in the [Graph view](https://substance3d.adobe.com/), and selecting the [View output in 2D view](#interacting-with-the-2d-view) option in the contextual menu. If the graph has more than one output, select the desired output in the submenu.
 
 ## Interacting with the 3D view
 
@@ -313,7 +322,7 @@ You may display any of the graph outputs in the 2D view by clicking RMB on an em
 >
 > This only applies to [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md).
 
-To apply an node output in the [3D view](../3d-view/3d-view.md), click RMB on a node and select the <b>View in 3D view</b> option in the contextual menu. If the node has more than one output, select the desired output in the submenu. Then choose a target channel of the shader currently used in the 3D view.
+To apply an node output in the [3D view](../../interface/3d-view/3d-view.md), click RMB on a node and select the <b>View in 3D view</b> option in the contextual menu. If the node has more than one output, select the desired output in the submenu. Then choose a target channel of the shader currently used in the 3D view.
 
 (*[Substance graph](../../compositing-graphs/substance-compositing-graphs.md) only*) You may apply all the graph outputs in the 3D view by clicking RMB on an empty area in the Graph view, and selecting the <b>View Outputs in 3D view</b> option in the contextual menu. Make sure one or more [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes are present in the graph and that it is [set up correctly](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
@@ -342,10 +351,10 @@ Bring back the current zoom level to it's default state, and centers the view on
 *- Display node badges:* Toggles node Badges on all nodes.  
 *- Display node size:* Toggles node resolution display ([Substance graph](../../compositing-graphs/substance-compositing-graphs.md) only).  
 *- Display timings:* Toggles display of millisecond timings for each node ([Substance graph](../../compositing-graphs/substance-compositing-graphs.md) only).  
-*- Limit text scaling when zooming out:* Keeps the text of [graph items](graph-items/graph-items.md) at a constant screen size past a zoom threshold, which keeps the text clearly visible when zooming out.
+*- Limit text scaling when zooming out:* Keeps the text of [graph items](../../interface/the-graph-view/graph-items/graph-items.md) at a constant screen size past a zoom threshold, which keeps the text clearly visible when zooming out.
 
 ![](image2020-6-26-16-26-52.png)<b> Node finder</b> (Ctrl+F)  
-Enables a tool to find nodes, exposed parameters and other variables in the graph. Learn more in the [dedicated page](node-finder/node-finder.md).
+Enables a tool to find nodes, exposed parameters and other variables in the graph. Learn more in the [dedicated page](../../interface/the-graph-view/node-finder/node-finder.md).
 
 <b>!&#91;&#93;(image2020-6-26-16-27-43.png) Highlight flow  
 </b>Highlight any nodes connected before, or after the currently selected node. Good for tracing a complex path of nodes.
@@ -357,7 +366,7 @@ Enables a tool to find nodes, exposed parameters and other variables in the grap
 </b>Switch between rounded or rectangular-shaped links between nodes. Not available for [FX-Maps.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
 <b>!&#91;&#93;(image2020-6-26-16-38-2.png) Node alignment tools  
-</b>Enables tools to arrange selected nodes in the graph. Learn more in the [dedicated page](node-alignment-tools/node-alignment-tools.md).
+</b>Enables tools to arrange selected nodes in the graph. Learn more in the [dedicated page](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md).
 
 Only on [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md):
 
@@ -365,7 +374,7 @@ Only on [Substance graphs](../../compositing-graphs/substance-compositing-graph
 </b>Toggles display of the Parent Resolution control settings, see below.
 
 <b>!&#91;&#93;(image2020-6-26-16-31-15.png) Link Creation Modes</b> (1, 2, 3)  
-Choose between Standard (1), Material (2) and Compact Material (3) link creation modes to link node connectors individually or in batch. Learn more in the [dedicated page](link-creation-modes/link-creation-modes.md).
+Choose between Standard (1), Material (2) and Compact Material (3) link creation modes to link node connectors individually or in batch. Learn more in the [dedicated page](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).
 
 <b>!&#91;&#93;(image2020-6-26-16-33-35.png) Timings control  
 </b>Lets you reset all nodes and reset all timings.
@@ -386,7 +395,7 @@ Choose between Standard (1), Material (2) and Compact Material (3) link creation
 
 The node toolbar differs depending on the graph type:
 
-<b>&#91;Substance graphs&#93;(../../compositing-graphs/substance-compositing-graphs.md):</b> see [atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) and [graph items](graph-items/graph-items.md).
+<b>&#91;Substance graphs&#93;(../../compositing-graphs/substance-compositing-graphs.md):</b> see [atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) and [graph items](../../interface/the-graph-view/graph-items/graph-items.md).
 
 [![Node palette](image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)
 
@@ -394,7 +403,7 @@ The node toolbar differs depending on the graph type:
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>&#91;Substance function graphs&#93;(../../function-graphs/function-graphs.md)/&#91;MDL graphs&#93;(../../mdl-graphs/mdl-graphs.md):</b> see [graph items](graph-items/graph-items.md).
+<b>&#91;Substance function graphs&#93;(../../function-graphs/function-graphs.md)/&#91;MDL graphs&#93;(../../mdl-graphs/mdl-graphs.md):</b> see [graph items](../../interface/the-graph-view/graph-items/graph-items.md).
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
@@ -409,7 +418,7 @@ The node toolbar differs depending on the graph type:
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>&#91;FX-Map graphs&#93;(../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> see [graph items.](graph-items/graph-items.md)
+<b>&#91;FX-Map graphs&#93;(../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> see [graph items.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -458,7 +467,7 @@ This toggle the use of cache when computing nodes in [Substance graphs](../../c
 
 When a node is computed, its output images are stored in memory – i.e., cache – so they can be *reused* when recomputing the graph if this node is not impacted by a change. This means only the part of the graph which actually changes gets recomputed.
 
-The memory storage limit of this cache can be changed in the <b>General</b> section of the [Preferences](../preferences-window/preferences-window.md), under the <b>Memory</b> section.
+The memory storage limit of this cache can be changed in the <b>General</b> section of the [Preferences](../../interface/preferences-window/preferences-window.md), under the <b>Memory</b> section.
 
 Enabling this option results in a large boost to the overall responsiveness of graph computations, at the cost of a significant increase of Designer's memory usage.
 

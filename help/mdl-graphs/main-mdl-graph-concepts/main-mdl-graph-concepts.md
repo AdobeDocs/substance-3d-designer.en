@@ -1,12 +1,21 @@
 ---
-title: "Main MDL graph concepts"
-description: ""
-helpx_description: "Designer > MDL graphs > Main MDL graph concepts"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/main-mdl-graph-concepts.html"
+breadcrumb-title: ""
+description: Learn the main concepts of Material Definition Language graphs in Substance 3D Designer for material creation.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs > Main MDL graph concepts
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Main MDL graph concepts
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Main MDL graph concepts
 
-This page presents the main concepts which are *specific* to [MDL graphs](../mdl-graphs.md) and should be well understood for making the most of this graph type in Substance 3D Designer.
+This page presents the main concepts which are *specific* to [MDL graphs](../../mdl-graphs/mdl-graphs.md) and should be well understood for making the most of this graph type in Substance 3D Designer.
 
 <table>
 <tr style="border: 0;">

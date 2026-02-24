@@ -1,8 +1,17 @@
 ---
-title: "Gaussian noise"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Gaussian noise"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-noise.html"
+breadcrumb-title: ""
+description: Use the Gaussian Noise node to generate Gaussian-distributed noise patterns for creating organic textures and variations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Gaussian noise
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Gaussian noise
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Gaussian noise
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 A smooth noise born from the combination of gradients where values transition from black to white following a normal distribution, akin to a bell curve.
 
-See also: [Gaussian spots 1](../gaussian-spots-1/gaussian-spots-1.md), [Gaussian spots 2](../gaussian-spots-2/gaussian-spots-2.md)
+See also: [Gaussian spots 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-1/gaussian-spots-1.md), [Gaussian spots 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
 
 </td>
 </tr>
@@ -35,17 +44,17 @@ See also: [Gaussian spots 1](../gaussian-spots-1/gaussian-spots-1.md), [Gaussian
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

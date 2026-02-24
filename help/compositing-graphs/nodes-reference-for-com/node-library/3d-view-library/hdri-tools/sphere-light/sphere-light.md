@@ -1,8 +1,17 @@
 ---
-title: "Sphere Light"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Sphere Light"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/sphere-light.html"
+breadcrumb-title: ""
+description: Use the Sphere Light node to add spherical light sources to HDRI environments for enhanced lighting control.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > 3D View (Library) > HDRI Tools > Sphere Light
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Sphere Light
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Sphere Light
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 Generates a spherically projected sphere shape. The sphere transformation is driven by a transformation gizmo.
 
-The Sphere Light is quite versatile and has options that allow it to no only generate simple round lights, but also planets or other celestial bodies. If you have no need for the more advanced lighting and rotation options, take a look at [Shape Light](../shape-light/shape-light.md) instead.
+The Sphere Light is quite versatile and has options that allow it to no only generate simple round lights, but also planets or other celestial bodies. If you have no need for the more advanced lighting and rotation options, take a look at [Shape Light](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) instead.
 
 ## Inputs
 

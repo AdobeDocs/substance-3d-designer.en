@@ -1,14 +1,25 @@
 ---
-title: "Baking issues"
-description: ""
-helpx_description: "Designer > Technical issues > Baking issues"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
+breadcrumb-title: ""
+description: Find troubleshooting steps for technical issues related to baking textures in Substance 3D Designer.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > Baking issues
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Baking issues
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Baking issues
 
 This page lists technical issues related to [baking textures](../../bakers/bakers.md) in Substance 3D Designer, and offer troubleshooting steps for each.
 
 ## In this page
+
+'Match by name' does not work
 
 ## 'Match by name' does not work
 

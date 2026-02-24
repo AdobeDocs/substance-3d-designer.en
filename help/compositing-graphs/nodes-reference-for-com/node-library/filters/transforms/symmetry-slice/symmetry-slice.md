@@ -1,8 +1,17 @@
 ---
-title: "Symmetry Slice"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry Slice"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry-slice.html"
+breadcrumb-title: ""
+description: Use the Symmetry Slice node to slice textures along symmetry axes for creating mirrored patterns and effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Symmetry Slice
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Symmetry Slice
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Symmetry Slice
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 Complex Symmetry/mirroring operation node. Allows for a large variety of geometric operations with full control, but requires some experimenting.
 
-Compared to [Mirror](../mirror-filter-node/mirror-filter-node.md) and [Symmetry](../symmetry/symmetry.md), this node has many more options.
+Compared to [Mirror](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md) and [Symmetry](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md), this node has many more options.
 
 ## Parameters
 

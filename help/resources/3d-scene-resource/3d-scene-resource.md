@@ -1,8 +1,17 @@
 ---
-title: "3D scene resource"
-description: ""
-helpx_description: "Designer > Resources > 3D scene resource"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
+breadcrumb-title: ""
+description: Learn how to import and use 3D scene resources in Substance 3D Designer for material preview and testing.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > 3D scene resource
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 3D scene resource
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # 3D scene resource
 

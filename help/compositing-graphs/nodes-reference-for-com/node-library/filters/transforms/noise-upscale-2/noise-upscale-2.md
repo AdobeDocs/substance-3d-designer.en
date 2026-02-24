@@ -1,8 +1,17 @@
 ---
-title: "Noise Upscale 2"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 2"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-2.html"
+breadcrumb-title: ""
+description: Use the Noise Upscale 2 node to upscale textures using noise-based interpolation for maintaining texture quality at larger sizes.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Noise Upscale 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Noise Upscale 2
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Noise Upscale 2
 
@@ -27,7 +36,7 @@ Takes an input noise procedural and scales it up to double resolution, keeping d
 
 This node is mostly intended for optimising slow graphs that use heavy, big noises. It allows you to use higher resolutions without introducing too much extra compute time.
 
-See also [Noise Upscale 1](../noise-upscale-1/noise-upscale-1.md) and [Noise Upscale 3](../noise-upscale-3/noise-upscale-3.md) for different variations of this process.
+See also [Noise Upscale 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) and [Noise Upscale 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) for different variations of this process.
 
 ## Parameters
 

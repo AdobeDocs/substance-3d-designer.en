@@ -1,8 +1,17 @@
 ---
-title: "Transformation 2D"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+breadcrumb-title: ""
+description: Use the Transformation 2D node to apply 2D transformations to textures including translation, rotation, and scaling.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Transformation 2D
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Transformation 2D
 
@@ -25,7 +34,7 @@ It is quite similar to Transforming (Ctrl-T) in Photoshop, or using the 2D mappi
 
 This is an extremely useful and widely applied node, it allows for increasing tiling, removing tiling, placing an image in a specific position, stretching or squashing an input, etc.
 
-It can however not be a perfect match for certain applications, so the following nodes can be of interest: [Safe Transform](../../node-library/filters/transforms/safe-transform/safe-transform.md), [Non-Square Transform](../../node-library/filters/transforms/non-square-transform/non-square-transform.md), [Quad Transform](../../node-library/filters/transforms/quad-transform/quad-transform.md) and [Trapezoid Transform](../../node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).
+It can however not be a perfect match for certain applications, so the following nodes can be of interest: [Safe Transform](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), [Non-Square Transform](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), [Quad Transform](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md) and [Trapezoid Transform](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).
 
 <table>
 <tr style="border: 0;">
@@ -63,12 +72,12 @@ It can however not be a perfect match for certain applications, so the following
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
+## Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Examples
 
 </td>
 </tr>

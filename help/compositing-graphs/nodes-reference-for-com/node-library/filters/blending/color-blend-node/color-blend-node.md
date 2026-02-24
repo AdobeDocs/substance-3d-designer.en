@@ -1,8 +1,17 @@
 ---
-title: "Color (Blend Node)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color (Blend Node)"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/color-blend-node.html"
+breadcrumb-title: ""
+description: Use the Color blend node to blend textures using color mode for preserving luminance while changing hue and saturation.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Color (Blend Node)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Color (Blend Node)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Color (Blend Node)
 

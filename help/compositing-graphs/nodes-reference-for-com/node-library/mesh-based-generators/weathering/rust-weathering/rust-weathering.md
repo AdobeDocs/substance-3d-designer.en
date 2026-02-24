@@ -1,8 +1,17 @@
 ---
-title: "Rust Weathering"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Rust Weathering"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/rust-weathering.html"
+breadcrumb-title: ""
+description: Use the Rust Weathering node to generate rust patterns based on mesh geometry for creating realistic metal corrosion effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Rust Weathering
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Rust Weathering
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Rust Weathering
 

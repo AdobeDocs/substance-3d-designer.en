@@ -1,8 +1,17 @@
 ---
-title: "Atomic nodes"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+breadcrumb-title: ""
+description: Access atomic nodes in Substance 3D Designer for basic operations including inputs, outputs, blending, and color adjustments.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Atomic nodes
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Atomic nodes
 
@@ -14,77 +23,37 @@ All other Substance graph nodes in the [Library](../../../interface/the-library/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Bitmap](comp_bitmap.png)](bitmap/bitmap.md)
+[![Atomic node: Bitmap](comp_bitmap.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
 
-[Bitmap](bitmap/bitmap.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Blend](comp_blend.png)](blend/blend.md)
-
-[Blend](blend/blend.md)
+[Bitmap](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Blur](comp_blur.png)](blur/blur.md)
+[![Atomic node: Blend](comp_blend.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
-[Blur](blur/blur.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Curve](comp_curve.png)](curve/curve.md)
-
-[Curve](curve/curve.md)
+[Blend](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Directional blur](comp_dirmotionblur.png)](directional-blur/directional-blur.md)
+[![Atomic node: Blur](comp_blur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
-[Directional blur](directional-blur/directional-blur.md)[](directional-blur/directional-blur.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Directional warp](comp_directionalwarp.png)](directional-warp/directional-warp.md)
-
-[Directional warp](directional-warp/directional-warp.md)
+[Blur](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Emboss](comp_emboss.png)](emboss/emboss.md)
+[![Atomic node: Curve](comp_curve.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)
 
-[Emboss](emboss/emboss.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Distance](comp_distance.png)](distance/distance.md)
-
-[Distance](distance/distance.md)
+[Curve](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Gradient (Dynamic)](comp_dyngradient.png)](gradient-dynamic/gradient-dynamic.md)
+[![Atomic node: Directional blur](comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[Gradient (Dynamic)](gradient-dynamic/gradient-dynamic.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Gradient map](comp_gradient.png)](gradient-map/gradient-map.md)
-
-[Gradient map](gradient-map/gradient-map.md)
+[Directional blur](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -94,77 +63,37 @@ All other Substance graph nodes in the [Library](../../../interface/the-library/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Atomic node: FX-Map](comp_fxmaps.png)](fx-map/fx-map.md)
+[![Atomic node: Directional warp](comp_directionalwarp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
-[FX-Map](fx-map/fx-map.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Grayscale conversion](comp_grayscaleconversion.png)](grayscale-conversion/grayscale-conversion.md)
-
-[Grayscale conversion](grayscale-conversion/grayscale-conversion.md)
+[Directional warp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: HSL](comp_hsl.png)](hsl/hsl.md)
+[![Atomic node: Emboss](comp_emboss.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
-[HSL](hsl/hsl.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Input color](comp_inputcolor.png)](input/input.md)
-
-[Input color](input/input.md)
+[Emboss](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Input grayscale](comp_inputgrayscale.png)](input/input.md)
+[![Atomic node: Distance](comp_distance.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)
 
-[Input grayscale](input/input.md)[](input/input.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Input value](comp_inputnumeric.png)](input/input.md)
-
-[Input value](input/input.md)
+[Distance](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/distance/distance.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Levels](comp_levels.png)](levels/levels.md)
+[![Atomic node: Gradient (Dynamic)](comp_dyngradient.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-dynamic/gradient-dynamic.md)
 
-[Levels](levels/levels.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Normal](comp_normal.png)](normal/normal.md)
-
-[Normal](normal/normal.md)
+[Gradient (Dynamic)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-dynamic/gradient-dynamic.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Output](comp_output.png)](output/output.md)
+[![Atomic node: Gradient map](comp_gradient.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[Output](output/output.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Pixel processor](comp_pixelprocessor.png)](pixel-processor/pixel-processor.md)
-
-[Pixel processor](pixel-processor/pixel-processor.md)
+[Gradient map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
 </td>
 </tr>
@@ -174,37 +103,37 @@ All other Substance graph nodes in the [Library](../../../interface/the-library/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Sharpen](comp_sharpen.png)](sharpen/sharpen.md)
+[![Atomic node: FX-Map](comp_fxmaps.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
-[Sharpen](sharpen/sharpen.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Channels shuffle](comp_shuffle.png)](channel-shuffle/channel-shuffle.md)
-
-[Channels shuffle](channel-shuffle/channel-shuffle.md)
+[FX-Map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: SVG](comp_svg.png)](svg/svg.md)
+[![Atomic node: Grayscale conversion](comp_grayscaleconversion.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)
 
-[SVG](svg/svg.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Text](comp_text.png)](text/text.md)
-
-[Text](text/text.md)
+[Grayscale conversion](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Transformation 2D](comp_transformation.png)](transformation-2d/transformation-2d.md)
+[![Atomic node: HSL](comp_hsl.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
 
-[Transformation 2D](transformation-2d/transformation-2d.md)
+[HSL](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/hsl/hsl.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Input color](comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+
+[Input color](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Input grayscale](comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+
+[Input grayscale](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 </tr>
@@ -214,23 +143,103 @@ All other Substance graph nodes in the [Library](../../../interface/the-library/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Uniform color](comp_uniform.png)](uniform-color/uniform-color.md)
+[![Atomic node: Input value](comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
-[Uniform color](uniform-color/uniform-color.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[![Atomic node: Value processor](comp_valueprocessor.png)](value-processor/value-processor.md)
-
-[Value processor](value-processor/value-processor.md)
+[Input value](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Warp](comp_warp.png)](warp/warp.md)
+[![Atomic node: Levels](comp_levels.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)
 
-[Warp](warp/warp.md)
+[Levels](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Normal](comp_normal.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)
+
+[Normal](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Output](comp_output.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+
+[Output](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Pixel processor](comp_pixelprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
+
+[Pixel processor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Sharpen](comp_sharpen.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
+
+[Sharpen](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/sharpen/sharpen.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Channels shuffle](comp_shuffle.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
+
+[Channels shuffle](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: SVG](comp_svg.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
+
+[SVG](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Text](comp_text.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
+
+[Text](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Transformation 2D](comp_transformation.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
+
+[Transformation 2D](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Uniform color](comp_uniform.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
+
+[Uniform color](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Value processor](comp_valueprocessor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
+
+[Value processor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[![Atomic node: Warp](comp_warp.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
+
+[Warp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -262,7 +271,7 @@ The palette is toggled using this button: ![](node-palette-toggle.png)
 
 Press *Spacebar* or *Tab* in the Graph View displays a searchable list of nodes and lists all atomic nodes by default.
 
-The search field lets you browse [all the other nodes in the Library](../node-library/node-library.md), including [your own content](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) (if added).
+The search field lets you browse [all the other nodes in the Library](../../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md), including [your own content](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) (if added).
 
 ### <b>The graph contextual menu</b>
 

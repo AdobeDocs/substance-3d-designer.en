@@ -1,12 +1,21 @@
 ---
-title: "Built-in variables"
-description: ""
-helpx_description: "Designer > Function graphs > Variables > Built-in variables"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+breadcrumb-title: ""
+description: Learn about built-in system variables available in Substance 3D Designer function graphs for advanced workflows.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Variables > Built-in variables
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Built-in variables
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Built-in variables
 
-You can use built-in variables in [Substance function graphs](../../function-graphs.md) order to access specific values. They always begin with a `$` (Dollar) symbol.
+You can use built-in variables in [Substance function graphs](../../../function-graphs/function-graphs.md) order to access specific values. They always begin with a `$` (Dollar) symbol.
 
 Some variables are only available in specific contexts.
 
@@ -32,7 +41,7 @@ System variables
 | $pos | Float2 | Returns the birth position of the pattern. The origin (0, 0) is located at the top left corner of the image. |
 | $depth | Float | Returns the octave (level) number of the [FX-Map](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) node. This allows a node to modify its behavior according to which level in the quad-tree it represents. |
 | $depthpow2 | Float | As above, but returns the multiplicative inverse of 2 raised to the power of the octave (level) number – i.e. 1/(2^octave). This is a helper value that comes in useful for some common calculations. |
-| $number | Float | Returns the number of the drawn pattern. This can be accessed by Dynamic Function graphs controlling an [Iterate](../../fxmaps/using-functions-in-fxmaps/iterate-and-number-var/iterate-and-number-variable.md) node to modify its behavior at each iteration step.   Note that `$number` starts counting from 0, not 1.   When using a chain of Iterate nodes, the `$number` variable will return the iteration number from the last Iterate node connected before the function parameter it is used. If you want to retrieve the iteration number from multiple Iterate nodes, you should use "custom variables" through [Set](../../fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) nodes. |
+| $number | Float | Returns the number of the drawn pattern. This can be accessed by Dynamic Function graphs controlling an [Iterate](../../../function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-var/iterate-and-number-variable.md) node to modify its behavior at each iteration step.   Note that `$number` starts counting from 0, not 1.   When using a chain of Iterate nodes, the `$number` variable will return the iteration number from the last Iterate node connected before the function parameter it is used. If you want to retrieve the iteration number from multiple Iterate nodes, you should use "custom variables" through [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) nodes. |
 
 <b>Pixel processor</b>
 

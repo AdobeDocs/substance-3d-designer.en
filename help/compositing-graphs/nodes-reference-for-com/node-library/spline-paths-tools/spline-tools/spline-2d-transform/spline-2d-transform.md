@@ -1,8 +1,17 @@
 ---
-title: "Spline 2D Transform"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline 2D Transform"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
+breadcrumb-title: ""
+description: Use the Spline 2D Transform node to transform splines with translation, rotation, and scaling operations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline 2D Transform
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Spline 2D Transform
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline 2D Transform
 

@@ -1,8 +1,17 @@
 ---
-title: "Exposing parameters in MDL graphs"
-description: ""
-helpx_description: "Designer > MDL graphs > Exposing parameters in MDL graphs"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/mdl-graphs/exposing-parameters-in-mdl-graphs.html"
+breadcrumb-title: ""
+description: Learn how to expose parameters in MDL graphs to make materials customizable and reusable in Substance 3D Designer.
+helpx_creative_field: ""
+helpx_description: Designer > MDL graphs > Exposing parameters in MDL graphs
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Exposing parameters in MDL graphs
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Exposing parameters in MDL graphs
 
@@ -65,7 +74,7 @@ The exposed parameter is configured directly in the *exposed node*, not in the g
 
 >[!WARNING]
 >
-> While graph inputs are set up a configured at the *node* level, their ordering is managed at the *graph* level in **Graph input** section of the [graph properties](../creating-an-mdl-graph/creating-an-mdl-graph.md).
+> While graph inputs are set up a configured at the *node* level, their ordering is managed at the *graph* level in **Graph input** section of the [graph properties](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md).
 
 ![Exposing nodes into graph inputs](mdl-expose-parameter.gif "Exposing nodes into graph inputs")
 

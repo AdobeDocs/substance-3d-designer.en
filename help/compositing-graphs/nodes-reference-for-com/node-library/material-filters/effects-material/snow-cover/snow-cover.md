@@ -1,8 +1,17 @@
 ---
-title: "Snow Cover"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Snow Cover"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/snow-cover.html"
+breadcrumb-title: ""
+description: Use the Snow Cover node to add snow accumulation effects to materials based on surface angle and position.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Effects (Material) > Snow Cover
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Snow Cover
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Snow Cover
 

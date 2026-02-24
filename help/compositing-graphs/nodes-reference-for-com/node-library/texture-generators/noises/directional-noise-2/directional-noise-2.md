@@ -1,8 +1,17 @@
 ---
-title: "Directional noise 2"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 2"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-2.html"
+breadcrumb-title: ""
+description: Use the Directional Noise 2 node to generate directional noise patterns with two octaves for creating anisotropic effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional noise 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Directional noise 2
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Directional noise 2
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 A variation of the <b>Directional noise</b> noises.
 
-See also: [Directional noise 1](../directional-noise-1/directional-noise-1.md), [Directional noise 3](../directional-noise-3/directional-noise-3.md), [Directional noise 4](../directional-noise-4/directional-noise-4.md)
+See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-1/directional-noise-1.md), [Directional noise 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-3/directional-noise-3.md), [Directional noise 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-noise-4/directional-noise-4.md)
 
 </td>
 </tr>
@@ -35,17 +44,17 @@ See also: [Directional noise 1](../directional-noise-1/directional-noise-1.md),�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

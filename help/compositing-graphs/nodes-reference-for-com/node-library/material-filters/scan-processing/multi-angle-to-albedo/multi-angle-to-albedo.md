@@ -1,8 +1,17 @@
 ---
-title: "Multi-Angle to Albedo"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Albedo"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
+breadcrumb-title: ""
+description: Use the Multi-Angle to Albedo node to extract albedo maps from multi-angle scanned images for clean material colors.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Multi-Angle to Albedo
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Multi-Angle to Albedo
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Multi-Angle to Albedo
 
@@ -29,7 +38,7 @@ Keep in mind that the more samples you have and the bigger the difference in lig
 
 >[!NOTE]
 >
-> See [Multi-Angle to Normal](../multi-angle-to-normal/multi-angle-to-normal.md) for the Normalmap version of this node. If you want to pre-process your inputs, [Multi Color Equalizer](../multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../multi-crop/multi-crop.md) and [Multi Clone Patch](../multi-clone-patch/multi-clone-patch.md) can be useful, as they are intended to be combined with these nodes.
+> See [Multi-Angle to Normal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md) for the Normalmap version of this node. If you want to pre-process your inputs, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) and [Multi Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) can be useful, as they are intended to be combined with these nodes.
 > 
 > [The blog post "Your Smartphone is a material scanner" illustrates this process a bit better.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 

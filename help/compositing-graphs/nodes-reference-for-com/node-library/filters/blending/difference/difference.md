@@ -1,8 +1,17 @@
 ---
-title: "Difference"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Difference"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/difference.html"
+breadcrumb-title: ""
+description: Use the Difference blend node to blend textures using the difference mode for creating inversion and contrast effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blending > Difference
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Difference
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Difference
 

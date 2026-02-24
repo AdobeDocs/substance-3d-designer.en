@@ -1,8 +1,17 @@
 ---
-title: "Material samples"
-description: ""
-helpx_description: "Designer > Substance graphs > Creating a Substance graph > Material samples"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
+breadcrumb-title: ""
+description: Use material samples to preview and test your Substance materials on 3D objects in the viewport.
+helpx_creative_field: ""
+helpx_description: Designer > Substance graphs > Creating a Substance graph > Material samples
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Material samples
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Material samples
 
@@ -12,7 +21,7 @@ Designer offers a curated selection of sample graphs spanning various materials 
 
 The samples are meant to be used as a graph template, which means are accessed by <b>creating a new Substance graph</b>. The new graph is a <b>fully editable copy</b> of the sample, which you may edit, take apart and expand on as you like. You can create as many new graphs as you like out of the samples.
 
-When creating a new Substance graph, you will find the samples in the [New Substance graph dialog](../creating-a-substance-compositing-graph.md):
+When creating a new Substance graph, you will find the samples in the [New Substance graph dialog](../../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md):
 
 <table>
 <tr style="border: 0;">

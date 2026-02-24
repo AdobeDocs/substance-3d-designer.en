@@ -1,8 +1,17 @@
 ---
-title: "Slope Blur"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Slope Blur"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
+breadcrumb-title: ""
+description: Use the Slope Blur node to apply directional blur effects based on height map slopes for creating motion blur.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Blurs > Slope Blur
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Slope Blur
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Slope Blur
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Performs an advanced, High Quality blur where the Anisotropy/Direction is driven by a Grayscale "Slope Map". Picture it as the Slope Blur effect following the slopes of your Slope Map as if it were a Heightmap, similar to [Directional Warp](../../../../atomic-nodes/directional-warp/directional-warp.md) (which it is based on internally).
+Performs an advanced, High Quality blur where the Anisotropy/Direction is driven by a Grayscale "Slope Map". Picture it as the Slope Blur effect following the slopes of your Slope Map as if it were a Heightmap, similar to [Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) (which it is based on internally).
 
 This is one of the most interesting and powerful blurs in Designer. It can be used to achieve some very interesting and unexpected effects, such as chipping and weathering edges or smearing and leaking dirt or rust.
 
@@ -43,7 +52,7 @@ Important: make sure to use the appropriate version for your input! Use "Slope B
 * **Intensity**: *0.0 - 16.0*  
   Blur amount or strength.
 * **Mode**: *Blur, Min, Max*|  
-  Blending mode for consequent blur passes. "Blur" behaves more like a standard [Anisotropic Blur](../anisotropic-blur/anisotropic-blur.md), while Min will "eat away" existing areas and Max will "smear out" white areas.
+  Blending mode for consequent blur passes. "Blur" behaves more like a standard [Anisotropic Blur](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), while Min will "eat away" existing areas and Max will "smear out" white areas.
 
 ## Example Images
 

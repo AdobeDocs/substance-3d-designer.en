@@ -1,8 +1,17 @@
 ---
-title: "Scene browser"
-description: ""
-helpx_description: "Designer > Interface > 3D view > Scene browser"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+breadcrumb-title: ""
+description: Use the Scene Browser to navigate and manage 3D scene elements, materials, and objects in the viewport.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > 3D view > Scene browser
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Scene browser
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Scene browser
 
@@ -12,7 +21,7 @@ It offers controls for selecting objects, toggling their visibility as well as s
 
 As Designer uses [USD](https://openusd.org/release/index.html) for describing and managing its scenes, its terminology  and concepts are found in that scene tree.
 
-It is displayed by clicking its dedicated toggle button ![](sceneBrowser-toggleButton.png) in the [3D view scene toolbar](../3d-view.md).
+It is displayed by clicking its dedicated toggle button ![](sceneBrowser-toggleButton.png) in the [3D view scene toolbar](../../../interface/3d-view/3d-view.md).
 
 ![Scene browser - Loaded 3D scene](loaded3DScene.png "Scene browser - Loaded 3D scene"){zoomable="yes"}
 
@@ -20,17 +29,17 @@ It is displayed by clicking its dedicated toggle button ![](sceneBrowser-toggle
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+## Scene tree
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Toggling objects in the scene
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Connected materials
 
 </td>
 </tr>
@@ -134,7 +143,7 @@ The same goes for any lights in the scene: each can be toggled individually.
 
 ## Connected materials
 
-The scene browser also lets you connect any overridden material to another material listed by Designer in the 3D view's [Materials menu](../3d-view.md).
+The scene browser also lets you connect any overridden material to another material listed by Designer in the 3D view's [Materials menu](../../../interface/3d-view/3d-view.md).
 
 <table>
 <tr style="border: 0;">

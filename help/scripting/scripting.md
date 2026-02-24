@@ -1,8 +1,17 @@
 ---
-title: "Scripting"
-description: ""
-helpx_description: "Designer > Scripting"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting.html"
+breadcrumb-title: ""
+description: Learn how to extend Substance 3D Designer functionality using Python scripting and plugin development.
+helpx_creative_field: ""
+helpx_description: Designer > Scripting
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Scripting
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Scripting
 
@@ -12,22 +21,22 @@ It is possible to control the application by writing plugins. Plugins can be wri
 
 ## Table of contents
 
-* [Plugin basics](plugin-basics/plugin-basics.md)
-* [Plugin search paths](plugin-search-paths/plugin-search-paths.md)
-* [Plugins packages](plugins-packages/plugins-packages.md)
-* [Plugin Manager](plugin-manager/plugin-manager.md)
-* [Python Editor](python-editor/python-editor.md)
-* [Accessing graphs and selections](accessing-graphs-and-sel/accessing-graphs-and-selections.md)
-* [Nodes and properties](nodes-and-properties/nodes-and-properties.md)
-* [Undo and redo](undo-and-redo/undo-and-redo.md)
-* [Application callbacks](application-callbacks/application-callbacks.md)
-* [Creating user interface elements](creating-user-interface/creating-user-interface-elements.md)
-* [Adding actions to the Explorer toolbar](adding-actions-the-exp/adding-actions-to-the-explorer-toolbar.md)
-* [Using color management](using-color-management/using-color-management.md)
-* [Using spot colors](using-spot-colors/using-spot-colors.md)
-* [Logging](logging/logging.md)
-* [Using threads](using-threads/using-threads.md)
-* [Debugging plugins using Visual Studio Code](debugging-plugins-using/debugging-plugins-using-visual-studio-code.md)
-* [Porting previous plugins](porting-previous-plugins/porting-previous-plugins.md)
-* [Packaging plugins](packaging-plugins/packaging-plugins.md)
-* [Scripting API reference](scripting-api-reference/scripting-api-reference.md)
+* [Plugin basics](../scripting/plugin-basics/plugin-basics.md)
+* [Plugin search paths](../scripting/plugin-search-paths/plugin-search-paths.md)
+* [Plugins packages](../scripting/plugins-packages/plugins-packages.md)
+* [Plugin Manager](../scripting/plugin-manager/plugin-manager.md)
+* [Python Editor](../scripting/python-editor/python-editor.md)
+* [Accessing graphs and selections](../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md)
+* [Nodes and properties](../scripting/nodes-and-properties/nodes-and-properties.md)
+* [Undo and redo](../scripting/undo-and-redo/undo-and-redo.md)
+* [Application callbacks](../scripting/application-callbacks/application-callbacks.md)
+* [Creating user interface elements](../scripting/creating-user-interface/creating-user-interface-elements.md)
+* [Adding actions to the Explorer toolbar](../scripting/adding-actions-the-exp/adding-actions-to-the-explorer-toolbar.md)
+* [Using color management](../scripting/using-color-management/using-color-management.md)
+* [Using spot colors](../scripting/using-spot-colors/using-spot-colors.md)
+* [Logging](../scripting/logging/logging.md)
+* [Using threads](../scripting/using-threads/using-threads.md)
+* [Debugging plugins using Visual Studio Code](../scripting/debugging-plugins-using/debugging-plugins-using-visual-studio-code.md)
+* [Porting previous plugins](../scripting/porting-previous-plugins/porting-previous-plugins.md)
+* [Packaging plugins](../scripting/packaging-plugins/packaging-plugins.md)
+* [Scripting API reference](../scripting/scripting-api-reference/scripting-api-reference.md)

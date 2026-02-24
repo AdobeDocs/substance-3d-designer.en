@@ -1,8 +1,17 @@
 ---
-title: "Histogram Shift"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Shift"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
+breadcrumb-title: ""
+description: Use the Histogram Shift node to shift histogram distributions in textures for adjusting brightness and contrast ranges.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Histogram Shift
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Histogram Shift
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Histogram Shift
 

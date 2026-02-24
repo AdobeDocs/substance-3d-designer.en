@@ -1,8 +1,17 @@
 ---
-title: "Clamp"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+breadcrumb-title: ""
+description: Use the Clamp node to clamp texture values within specified minimum and maximum ranges for controlling value limits.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Clamp
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Clamp
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Clamp
 

@@ -1,8 +1,17 @@
 ---
-title: "Paint Wear"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Paint Wear"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/paint-wear.html"
+breadcrumb-title: ""
+description: Use the Paint Wear node to generate paint wear masks based on mesh geometry for creating realistic paint chipping effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Paint Wear
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Paint Wear
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Paint Wear
 

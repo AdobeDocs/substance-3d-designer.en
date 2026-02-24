@@ -1,8 +1,17 @@
 ---
-title: "Non-Uniform Rotation"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Non-Uniform Rotation"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
+breadcrumb-title: ""
+description: Use the Non-Uniform Rotation node to apply non-uniform rotation transformations for creating spiral and vortex effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Transforms > Non-Uniform Rotation
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Non-Uniform Rotation
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Non-Uniform Rotation
 

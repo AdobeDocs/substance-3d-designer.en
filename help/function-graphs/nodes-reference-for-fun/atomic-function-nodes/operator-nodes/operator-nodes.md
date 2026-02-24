@@ -1,8 +1,17 @@
 ---
-title: "Operator"
-description: ""
-helpx_description: "Designer > Function graphs > Nodes reference for function graphs > Operator"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/operator-nodes.html"
+breadcrumb-title: ""
+description: Access operator nodes in Substance 3D Designer function graphs to perform mathematical and logical operations.
+helpx_creative_field: ""
+helpx_description: Designer > Function graphs > Nodes reference for function graphs > Operator
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Operator
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Operator nodes
 

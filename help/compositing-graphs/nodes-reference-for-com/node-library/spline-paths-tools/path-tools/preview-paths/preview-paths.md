@@ -1,8 +1,17 @@
 ---
-title: "Preview Paths"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+breadcrumb-title: ""
+description: Use the Preview Paths node to visualize path data in the 2D view for debugging and verification.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Path Tools > Preview Paths
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Preview Paths
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Preview Paths
 
@@ -21,7 +30,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 Trace segments and vertices of the path on top of the given background. One random color per path.
 
-You'll get a similar result as the <b>Preview</b> output of the [Mask to Paths](../mask-to-paths/mask-to-paths.md) but with more options.
+You'll get a similar result as the <b>Preview</b> output of the [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) but with more options.
 
 </td>
 </tr>
@@ -33,7 +42,7 @@ You'll get a similar result as the <b>Preview</b> output of the [Mask to Paths](
 A background image on top of with display the path. This also controls the rendering size.
 
 <b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../mask-to-paths/mask-to-paths.md) or to another Path-processing node.
+A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
 
 ## Parameters
 

@@ -1,8 +1,17 @@
 ---
-title: "Curvature Smooth"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+breadcrumb-title: ""
+description: Use the Curvature Smooth node to generate smooth curvature maps from height maps for surface detail extraction.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Curvature Smooth
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Curvature Smooth
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Curvature Smooth
 
@@ -32,7 +41,7 @@ The concave and convex areas are also split into their own outputs, for easier s
 
 >[!TIP]
 >
-> Look at [Curvature](../curvature-filter-node/curvature-filter-node.md) for a sharper version, or[ Curvature Sobel](../curvature-sobel/curvature-sobel.md) if you need more options.
+> Look at [Curvature](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md) for a sharper version, or[ Curvature Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) if you need more options.
 
 <table>
 <tr style="border: 0;">
@@ -43,12 +52,12 @@ The concave and convex areas are also split into their own outputs, for easier s
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Output connectors
 
 </td>
 <td style="border: 0;" valign="top">
 
-
+### Parameters
 
 </td>
 </tr>

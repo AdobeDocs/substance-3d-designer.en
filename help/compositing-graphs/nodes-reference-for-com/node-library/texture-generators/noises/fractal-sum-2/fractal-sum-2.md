@@ -1,8 +1,17 @@
 ---
-title: "Fractal sum 2"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 2"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-2.html"
+breadcrumb-title: ""
+description: Use the Fractal Sum 2 node to generate fractal noise with two octaves for creating organic texture variations.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Fractal sum 2
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Fractal sum 2
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Fractal sum 2
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 A variation of the <b>Fractal sum</b> noises.
 
-See also: [Fractal sum base](../fractal-sum-base/fractal-sum-base.md), [Fractal sum 1](../fractal-sum-1/fractal-sum-1.md), [Fractal sum 3](../fractal-sum-3/fractal-sum-3.md), [Fractal sum 4](../fractal-sum-4/fractal-sum-4.md)
+See also: [Fractal sum base](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md), [Fractal sum 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-1/fractal-sum-1.md), [Fractal sum 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-3/fractal-sum-3.md), [Fractal sum 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
 
 </td>
 </tr>
@@ -35,17 +44,17 @@ See also: [Fractal sum base](../fractal-sum-base/fractal-sum-base.md), [Fractal 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

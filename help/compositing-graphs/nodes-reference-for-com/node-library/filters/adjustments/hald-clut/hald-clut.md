@@ -1,8 +1,17 @@
 ---
-title: "Hald CLUT"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Hald CLUT"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hald-clut.html"
+breadcrumb-title: ""
+description: Use the Hald CLUT node to apply color lookup tables using Hald CLUT format for color grading and correction.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Adjustments > Hald CLUT
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Hald CLUT
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Hald CLUT
 

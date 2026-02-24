@@ -1,8 +1,17 @@
 ---
-title: "User interface issues"
-description: ""
-helpx_description: "Designer > Technical issues > User interface issues"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/user-interface-issues.html"
+breadcrumb-title: ""
+description: Troubleshoot user interface issues in Substance 3D Designer including display problems and UI glitches.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > User interface issues
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: User interface issues
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # User interface issues
 

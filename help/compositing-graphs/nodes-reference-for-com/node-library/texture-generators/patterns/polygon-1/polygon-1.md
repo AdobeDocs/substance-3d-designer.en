@@ -1,8 +1,17 @@
 ---
-title: "Polygon 1"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Polygon 1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/polygon-1.html"
+breadcrumb-title: ""
+description: Use the Polygon 1 node to generate basic polygonal patterns with customizable sides and properties for geometric textures.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Polygon 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Polygon 1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Polygon 1
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Generates a polygon shape, with many options for adjustment. See [Polygon 2](../polygon-2/polygon-2.md) for a simpler version.
+Generates a polygon shape, with many options for adjustment. See [Polygon 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-2/polygon-2.md) for a simpler version.
 
 ## Parameters
 

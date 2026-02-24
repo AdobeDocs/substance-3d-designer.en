@@ -1,8 +1,17 @@
 ---
-title: "Warnings and errors"
-description: ""
-helpx_description: "Designer > Technical issues > Warnings and errors"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
+breadcrumb-title: ""
+description: Find solutions for common warnings and errors in Substance 3D Designer to troubleshoot issues quickly.
+helpx_creative_field: ""
+helpx_description: Designer > Technical issues > Warnings and errors
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Warnings and errors
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Warnings and errors
 

@@ -1,8 +1,17 @@
 ---
-title: "Fabric Weathering"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Fabric Weathering"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/fabric-weathering.html"
+breadcrumb-title: ""
+description: Use the Fabric Weathering node to add wear and aging effects to fabric materials based on mesh geometry and curvature.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Fabric Weathering
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Fabric Weathering
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Fabric Weathering
 

@@ -1,8 +1,17 @@
 ---
-title: "Grunge Galvanic Large"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Large"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
+breadcrumb-title: ""
+description: Use the Grunge Galvanic Large node to generate large-scale galvanic corrosion patterns for metal weathering effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Large
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Grunge Galvanic Large
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Grunge Galvanic Large
 

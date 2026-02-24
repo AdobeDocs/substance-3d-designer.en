@@ -1,8 +1,17 @@
 ---
-title: "Vector graphics (SVG) resource"
-description: ""
-helpx_description: "Designer > Resources > Vector graphics (SVG) resource"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+breadcrumb-title: ""
+description: Import and use SVG vector graphics as resources in Substance 3D Designer for procedural material creation.
+helpx_creative_field: ""
+helpx_description: Designer > Resources > Vector graphics (SVG) resource
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Vector graphics (SVG) resource
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Vector graphics (SVG) resource
 
@@ -16,7 +25,7 @@ SVG files [can be created or edited through the atomic SVG node,](../../composit
 
 ## SVG storage
 
-SVG storage depends on if they are Linked, or imported. Imported SVG files are embedded into the SBS file, requiring [no external files like Bitmaps](../bitmap-resource/bitmap-resource.md), and can be edited using the [Vector editing tools](vector-editing-tools/vector-editing-tools.md).
+SVG storage depends on if they are Linked, or imported. Imported SVG files are embedded into the SBS file, requiring [no external files like Bitmaps](../../resources/bitmap-resource/bitmap-resource.md), and can be edited using the [Vector editing tools](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md).
 
 ## SVG attributes
 
@@ -88,4 +97,4 @@ Photoshop has a very limited SVG exporter (<b>File &gt; Export &gt;Export As..</
 
 It can be used for simple black and white shape masks, where a solution is to extract the Alpha from the SVG using [Alpha Split](../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md).
 
-Alternatively a Photoshop-exported SVG can be [Imported](../importing-linking-and-new/importing-linking-and-new-resources.md), which lets you then [edit the style information natively inside the application.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)
+Alternatively a Photoshop-exported SVG can be [Imported](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md), which lets you then [edit the style information natively inside the application.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)

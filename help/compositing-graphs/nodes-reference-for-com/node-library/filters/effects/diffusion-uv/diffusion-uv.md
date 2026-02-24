@@ -1,8 +1,17 @@
 ---
-title: "Diffusion UV"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion UV"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
+breadcrumb-title: ""
+description: Use the Diffusion UV node to apply diffusion effects in UV space for creating smooth color transitions and blending.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Diffusion UV
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Diffusion UV
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Diffusion UV
 

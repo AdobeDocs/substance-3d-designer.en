@@ -1,8 +1,17 @@
 ---
-title: "Selective Dirt"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Selective Dirt"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
+breadcrumb-title: ""
+description: Use the Selective Dirt node to generate selective dirt accumulation masks based on mesh geometry for realistic weathering.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Mask Generators > Selective Dirt
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Selective Dirt
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Selective Dirt
 

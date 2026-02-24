@@ -1,8 +1,17 @@
 ---
-title: "Ambient Occlusion (HBAO) (Filter Node)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (HBAO) (Filter Node)"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
+breadcrumb-title: ""
+description: Use the Ambient Occlusion HBAO filter node to generate ambient occlusion maps using horizon-based algorithms for realistic shading.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Ambient Occlusion (HBAO) (Filter Node)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Ambient Occlusion (HBAO) (Filter Node)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Ambient Occlusion (HBAO) (Filter Node)
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 Takes a Heightmap as input and generates an Ambient Occlusion map from that. It uses Horizon-Based Ambient Occlusion, an algorithm originally intended for screen-space realtime AO-generation. Very useful for creating procedural AO maps from procedural Heightmaps.
 
-For an alternative, more advanced but slower version of AO, see [Ambient Occlusion (RTAO)](../ambient-occlusion-rtao/ambient-occlusion-rtao.md)
+For an alternative, more advanced but slower version of AO, see [Ambient Occlusion (RTAO)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
 
 ## Parameters
 

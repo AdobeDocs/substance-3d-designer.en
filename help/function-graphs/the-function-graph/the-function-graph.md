@@ -1,8 +1,17 @@
 ---
-title: "The Substance function graph"
-description: ""
-helpx_description: "Designer > Substance function graphs > The Substance function graph"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/the-function-graph.html"
+breadcrumb-title: ""
+description: Learn about Substance function graphs in Designer for creating custom functions and reusable node networks.
+helpx_creative_field: ""
+helpx_description: Designer > Substance function graphs > The Substance function graph
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: The Substance function graph
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Similarities with a Substance graph
 

@@ -1,8 +1,17 @@
 ---
-title: "Multi Directional Warp"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Multi Directional Warp"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
+breadcrumb-title: ""
+description: Use the Multi Directional Warp node to apply warping effects in multiple directions for creating complex distortion patterns.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Filters > Effects > Multi Directional Warp
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Multi Directional Warp
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Multi Directional Warp
 
@@ -23,9 +32,9 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Multi-Directional Warp applies [Directional Warp](../../../../atomic-nodes/directional-warp/directional-warp.md) multiple times in opposite directions while the displaced texture stays in place. It differs from the standard Directional Warp in that it can push in multiple directions, whereas the atomic version only allows for one. In this way it solves the classic problem where Directional Warp always seems to push your image away too much in a single direction, instead it works along multiple directions or axes instead of a single direction.
+Multi-Directional Warp applies [Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md) multiple times in opposite directions while the displaced texture stays in place. It differs from the standard Directional Warp in that it can push in multiple directions, whereas the atomic version only allows for one. In this way it solves the classic problem where Directional Warp always seems to push your image away too much in a single direction, instead it works along multiple directions or axes instead of a single direction.
 
-It differs mainly from [Non Uniform Directional Warp](../non-uniform-directional/non-uniform-directional-warp.md) in that it is slightly more limited: the direction for the warp is only controlled through parameters, and can not be set through an input map. The advantage is it is slightly easier to use and can be more precise depending on your usecase.
+It differs mainly from [Non Uniform Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md) in that it is slightly more limited: the direction for the warp is only controlled through parameters, and can not be set through an input map. The advantage is it is slightly easier to use and can be more precise depending on your usecase.
 
 ## Parameters
 

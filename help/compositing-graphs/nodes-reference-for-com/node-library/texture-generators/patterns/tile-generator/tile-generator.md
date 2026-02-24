@@ -1,8 +1,17 @@
 ---
-title: "Tile Generator"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Generator"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
+breadcrumb-title: ""
+description: Use the Tile Generator node to create procedural tile patterns with customizable size, offset, and variation controls.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Tile Generator
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Tile Generator
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Tile Generator
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Tile generator is one of the most advanced nodes in the library. If you learn to master it, you can create any kind of pattern (within some limitations). As of Version 2017 2.1 there have been some big updates, bringing this node more in line with what [Tile Sampler](../tile-sampler/tile-sampler.md) can do.
+Tile generator is one of the most advanced nodes in the library. If you learn to master it, you can create any kind of pattern (within some limitations). As of Version 2017 2.1 there have been some big updates, bringing this node more in line with what [Tile Sampler](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) can do.
 
 This node is highly useful for a variety of scenarios, but keep in mind that simply reading parameters will not fully teach you how to use them. We suggest you experiment too!
 

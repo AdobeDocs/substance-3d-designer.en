@@ -1,8 +1,17 @@
 ---
-title: "Spline (Poly Quadratic)"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline (Poly Quadratic)"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
+breadcrumb-title: ""
+description: Use the Spline Poly Quadratic node to create complex quadratic splines with multiple control points.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Spline  Path Tools > Spline Tools > Spline (Poly Quadratic)
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Spline (Poly Quadratic)
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Spline (Poly Quadratic)
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Generates a spline along several points. The amount and locations of these points may be arbitrary or gathered from a [Point List](../point-list/point-list.md) node.
+Generates a spline along several points. The amount and locations of these points may be arbitrary or gathered from a [Point List](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/point-list/point-list.md) node.
 
 </td>
 </tr>
@@ -104,7 +113,7 @@ The smoothing applied to the spline at the start and end points is specified by 
 Inverts the direction of the spline.
 
 <b>Use Input Point List</b> *Boolean*Use the list of points supplied to the Input Point List and Point Number input connectors instead of an arbitrary list of points.  
-The list of points can be supplied by a [Point List](../point-list/point-list.md) node.
+The list of points can be supplied by a [Point List](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/point-list/point-list.md) node.
 
 <b>Connect Start to Input Spline</b> *Boolean*When True, the start of the generated spline is connected to the last point of the last spline in the input splines.
 

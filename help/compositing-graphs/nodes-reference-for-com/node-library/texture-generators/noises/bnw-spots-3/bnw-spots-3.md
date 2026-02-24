@@ -1,8 +1,17 @@
 ---
-title: "BnW spots 3"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > BnW spots 3"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
+breadcrumb-title: ""
+description: Use the BnW Spots 3 node to generate advanced black and white spot patterns for creating texture variations and masks.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > BnW spots 3
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: BnW spots 3
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # BnW spots 3
 
@@ -25,7 +34,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 A variation of the rough <b>Black and white (BnW) spots</b> noises.
 
-See also: [BnW spots 1](../bnw-spots-1/bnw-spots-1.md), [BnW spots 2](../bnw-spots-2/bnw-spots-2.md)
+See also: [BnW spots 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-1/bnw-spots-1.md), [BnW spots 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-2/bnw-spots-2.md)
 
 </td>
 </tr>
@@ -35,17 +44,17 @@ See also: [BnW spots 1](../bnw-spots-1/bnw-spots-1.md), [BnW spots 2](../bnw-sp
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+### Outputs
 
 </td>
 <td style="border: 0;" valign="top">
 
+### Parameters
 
+</td>
+<td style="border: 0;" valign="top">
+
+### Examples
 
 </td>
 </tr>

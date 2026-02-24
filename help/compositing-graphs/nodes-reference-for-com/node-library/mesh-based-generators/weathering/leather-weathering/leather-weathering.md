@@ -1,8 +1,17 @@
 ---
-title: "Leather Weathering"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Leather Weathering"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+breadcrumb-title: ""
+description: Use the Leather Weathering node to add wear patterns and aging effects to leather materials based on mesh curvature.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Mesh Based Generators > Weathering > Leather Weathering
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Leather Weathering
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Leather Weathering
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-This is a full-material effect that works on multiple channels at once. It adds a random leather wear effect, with control for age and dirtiness. It is similar to [Fabric Weathering](../fabric-weathering/fabric-weathering.md), but tuned specifically for leather.  
+This is a full-material effect that works on multiple channels at once. It adds a random leather wear effect, with control for age and dirtiness. It is similar to [Fabric Weathering](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md), but tuned specifically for leather.  
 This effect does not work very well unless you have proper baked AO and World Space Normalmaps plugged in, as it requires these to adequately calculate and generate everything.
 
 Make sure to fully understand the [Link Creation Modes](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) when working with full materials.

@@ -1,16 +1,25 @@
 ---
-title: "Material properties"
-description: ""
-helpx_description: "Designer > Interface > 3D View > Material properties"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
+breadcrumb-title: ""
+description: Configure material properties in the 3D view to preview and adjust how your Substance materials appear on 3D objects.
+helpx_creative_field: ""
+helpx_description: Designer > Interface > 3D View > Material properties
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Material properties
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Material properties
 
-This pages presents common properties of the shader used in the [3D View](../3d-view.md) of Substance 3D Designer.
+This pages presents common properties of the shader used in the [3D View](../../../interface/3d-view/3d-view.md) of Substance 3D Designer.
 
 ## Overview
 
-The [3D View](../3d-view.md) renders the surface of models using a program called a *shader*. The shader defines the material applied to the model using a list of properties which impact various aspects of the model's appearance.
+The [3D View](../../../interface/3d-view/3d-view.md) renders the surface of models using a program called a *shader*. The shader defines the material applied to the model using a list of properties which impact various aspects of the model's appearance.
 
 The <b>Materials</b> menu of the 3D View lets you check which shader is used for each of the scene's materials.
 
@@ -33,7 +42,7 @@ This shader's properties are sorted into the following groups:
 
 ![Adjusting material tiling](3dview-material-uv.gif "Adjusting material tiling")
 
-## <b>UVs</b>
+## UVs
 
 * <b>Tiling</b> *Float*  
   The amount of repetition of the texture both horizontally and vertically  
@@ -44,7 +53,7 @@ This shader's properties are sorted into the following groups:
 
 ![Adjusting material surface properties](3dview-material-base-surface.gif "Adjusting material surface properties")
 
-## <b>Base surface</b>
+## Base surface
 
 * <b>Base Color</b> *Float3/RGB*  
   The amount of repetition of the texture both horizontally and vertically  
@@ -79,7 +88,7 @@ This shader's properties are sorted into the following groups:
 
 ![Adjusting surface normals](3dview-material-normal.gif "Adjusting surface normals")
 
-## <b>Normal</b>
+## Normal
 
 * <b>Normal</b> *Float3/RGB*  
   Description  
@@ -90,7 +99,7 @@ This shader's properties are sorted into the following groups:
 
 ![Adjusting displacement](3dview-material-height.gif "Adjusting displacement")
 
-## <b>Height</b>
+## Height
 
 * <b>Height</b> *Float*  
   Description  
@@ -111,7 +120,7 @@ This shader's properties are sorted into the following groups:
   Description  
   *Default - 0.6*
 
-## <b>Anisotropy</b>
+## Anisotropy
 
 * <b>Anisotropy Level</b> *Float*  
   Description  
@@ -120,7 +129,7 @@ This shader's properties are sorted into the following groups:
   Description  
   *Default - 0.0*
 
-## <b>Emission</b>
+## Emission
 
 * <b>Emission Intensity</b> *Float*  
   Description  
@@ -132,7 +141,7 @@ This shader's properties are sorted into the following groups:
   Description  
   *Default - True*
 
-## <b>Sheen</b>
+## Sheen
 
 * <b>Sheen Opacity</b> *Float*  
   Description  
@@ -147,7 +156,7 @@ This shader's properties are sorted into the following groups:
   Description  
   *Default - 0.5*
 
-## <b>Subsurface Scattering</b>
+## Subsurface Scattering
 
 * <b>Translucency</b> *Float*  
   Description  
@@ -177,7 +186,7 @@ This shader's properties are sorted into the following groups:
   Description  
   *Default - 0.0*
 
-## <b>Coat</b>
+## Coat
 
 * <b>Coat Opacity</b> *Float*  
   Description  

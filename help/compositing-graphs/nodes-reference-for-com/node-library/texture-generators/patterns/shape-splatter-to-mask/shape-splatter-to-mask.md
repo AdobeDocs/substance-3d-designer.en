@@ -1,8 +1,17 @@
 ---
-title: "Shape Splatter to Mask"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter to Mask"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-to-mask.html"
+breadcrumb-title: ""
+description: Use the Shape Splatter to Mask node to convert shape splatter patterns into masks for material blending and effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Shape Splatter to Mask
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Shape Splatter to Mask
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Shape Splatter to Mask
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Converts [Shape Splatter](../shape-splatter/shape-splatter.md) Data into a black and white mask based on Pattern ID. Allows you to for example create a mask of only a certain type of attern. Has extra options for selecting a range of Pattern ID's and to randomly hide some of the shapes.
+Converts [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data into a black and white mask based on Pattern ID. Allows you to for example create a mask of only a certain type of attern. Has extra options for selecting a range of Pattern ID's and to randomly hide some of the shapes.
 
 ## Parameters
 

@@ -1,8 +1,17 @@
 ---
-title: "Brick 1"
-description: ""
-helpx_description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick 1"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/brick-1.html"
+breadcrumb-title: ""
+description: Use the Brick 1 node to generate basic brick patterns for creating masonry and tiled texture effects.
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Patterns > Brick 1
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: Brick 1
+user-guide-description: ""
+user-guide-title: ""
 ---
+
 
 # Brick 1
 
@@ -23,7 +32,7 @@ helpx_description: "Designer > Substance compositing graphs > Nodes reference fo
 
 ## Description
 
-Simple Brick Pattern, see [Brick Generator](../brick-generator/brick-generator.md) or [Tile Generator](../tile-generator/tile-generator.md) for more options.
+Simple Brick Pattern, see [Brick Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/brick-generator/brick-generator.md) or [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) for more options.
 
 ## Parameters
 
