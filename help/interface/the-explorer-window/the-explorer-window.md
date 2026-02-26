@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Explorer
 
 This page describes the Explorer dock in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html). This dock lets you manage packages and their resources.
@@ -30,7 +29,7 @@ The Explorer is where you start and end your projects, as it lets you create, sa
 </td>
 <td style="border: 0;" valign="top">
 
-![Explorer dock](explorer-3.jpg "Explorer dock")
+![Explorer dock](../../assets/explorer-3.jpg "Explorer dock")
 
 </td>
 </tr>
@@ -51,16 +50,16 @@ You can do a few important actions through the Explorer dock:
 
 This toolbar lets you quickly perform functions related to your overall workflow. All buttons are *context-aware*, which means they activate and change their behaviour based on your current selection in the Explorer.
 
-![](save.png)<b> Save</b> selected package.
+![](../../assets/save.png)<b> Save</b> selected package.
 
-<b>!&#91;&#93;(sendto-icon.jpg) Publish or &#91;send&#93;(../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> selected element(s):
+<b>!&#91;&#93;(../../assets/sendto-icon.jpg) Publish or &#91;send&#93;(../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> selected element(s):
 
 * [Publish any selected package to a Substance 3D asset (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
 * Send the selected package to [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) or [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
 
-<b>!&#91;&#93;(republish.png) Publish or send as previous:</b> Publish or send the selected elements with the same settings as before. This option is only available on a package that has already been published *at least once* in the *current* session.
+<b>!&#91;&#93;(../../assets/republish.png) Publish or send as previous:</b> Publish or send the selected elements with the same settings as before. This option is only available on a package that has already been published *at least once* in the *current* session.
 
-<b>!&#91;&#93;(graph-cleaner.jpg) Remove unused nodes</b> in selected graph(s). The tool follows these rules:
+<b>!&#91;&#93;(../../assets/graph-cleaner.jpg) Remove unused nodes</b> in selected graph(s). The tool follows these rules:
 
 * The tool is only available if selected items are of the *same type*: only graphs, folders or packages;
 * When the selection includes folders or packages, the tool cleans all graphs therein *recursively*;
@@ -70,9 +69,9 @@ Learn more about the tool in the 'Remove unused nodes' section of the [Graph vi
 
 If the package contains at least one [MDL graph](../../mdl-graphs/mdl-graphs.md), two additional buttons are added in the toolbar:
 
-<b>!&#91;&#93;(mdl-export-module-icon.png) Export MDL module (\*.mdl)</b>
+<b>!&#91;&#93;(../../assets/mdl-export-module-icon.png) Export MDL module (\*.mdl)</b>
 
-<b>!&#91;&#93;(mdl-export-module-icon.png) Export MDL module archive (\*.mdr)</b>
+<b>!&#91;&#93;(../../assets/mdl-export-module-icon.png) Export MDL module archive (\*.mdr)</b>
 
 Learn more about these two options in the [Exporting MDL content](../../mdl-graphs/exporting-mdl-content/exporting-mdl-content.md) section of this documentation.
 
@@ -80,14 +79,14 @@ Learn more about these two options in the [Exporting MDL content](../../mdl-gra
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Publish/Send dropdown menu](explorer-sendto-displayed.jpg "Publish/Send dropdown menu")
+![Publish/Send dropdown menu](../../assets/explorer-sendto-displayed.jpg "Publish/Send dropdown menu")
 
 *Publish/Send*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Remove unused nodes drop down menu](explorer-graph-cleaner.jpg "Remove unused nodes drop down menu")
+![Remove unused nodes drop down menu](../../assets/explorer-graph-cleaner.jpg "Remove unused nodes drop down menu")
 
 *Remove unused nodes*
 
@@ -215,9 +214,9 @@ Empty space is only available below any currently open Packages. Clicking next t
 
 The toolbar at the bottom of the Explorer dock provides information about a package or a package resource:
 
-<b>!&#91;&#93;(explorer-dependencies.jpg) Dependencies:</b> When a package is selected, its package dependencies are listed in a dedicated panel.
+<b>!&#91;&#93;(../../assets/explorer-dependencies.jpg) Dependencies:</b> When a package is selected, its package dependencies are listed in a dedicated panel.
 
-<b>!&#91;&#93;(explorer-information.jpg) Information:</b> Provides metadata related to the package or resource currently selected:
+<b>!&#91;&#93;(../../assets/explorer-information.jpg) Information:</b> Provides metadata related to the package or resource currently selected:
 
 * Package: the full filepath of the package
 * [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md): the full filepath of the resource, its [ICC profile](../../color-management/color-management.md), image size and [import method](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (I.e., *linked* or *imported*)
@@ -226,14 +225,14 @@ The toolbar at the bottom of the Explorer dock provides information about a pack
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dependencies panel](explorer-dependencies-displayed.jpg "Dependencies panel")
+![Dependencies panel](../../assets/explorer-dependencies-displayed.jpg "Dependencies panel")
 
 *Dependencies*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Information panel](explorer-information-displayed.jpg "Information panel")
+![Information panel](../../assets/explorer-information-displayed.jpg "Information panel")
 
 *Information*
 

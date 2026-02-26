@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Bridge (2 Splines)
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-bridge-2splines-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-bridge-2splines-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -191,7 +190,7 @@ Displays additional lines at the edges of the spline’s thickness.
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplineBridge-2Splines_Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "Node example 2")
 
 </td>
 </tr>

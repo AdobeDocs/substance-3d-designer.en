@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # MLV color
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV color: icon](MLV_Color_Icon.png "MLV color: icon")
+![MLV color: icon](../../../../../../assets/MLV_Color_Icon.png "MLV color: icon")
 
 <b>In:</b> Filters &gt; Blurs
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Multi-Angle to Albedo
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](multi-angle-to-albedo.png){width="128px"}
+![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
 
 ## Multi-Angle to Albedo
 

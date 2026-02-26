@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Plane Light
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](panorama-plane-light.png){width="200px"}
+![](../../../../../../assets/panorama-plane-light.png){width="200px"}
 
 ## Plane Light
 
@@ -100,7 +99,7 @@ It differs from the simpler [Shape Light](../../../../../../compositing-graphs/n
 
 ## Example Images
 
-![](plane-light-ex.gif)
+![](../../../../../../assets/plane-light-ex.gif)
 
 </td>
 </tr>

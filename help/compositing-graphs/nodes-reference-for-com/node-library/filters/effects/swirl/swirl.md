@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Swirl
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](swirl-grayscale.png)![](swirl.png)
+![](../../../../../../assets/swirl-grayscale.png)![](../../../../../../assets/swirl.png)
 
 ## Swirl (Grayscale)
 

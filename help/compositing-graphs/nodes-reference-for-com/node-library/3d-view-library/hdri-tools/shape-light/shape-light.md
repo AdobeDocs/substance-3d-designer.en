@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shape Light
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](panorama-shape.png){width="200px"}
+![](../../../../../../assets/panorama-shape.png){width="200px"}
 
 ## Shape Light
 
@@ -76,7 +75,7 @@ Generates a spherically projected rectangular shape. The shape transformation is
 
 ## Example Images
 
-![](shape-light-ex.gif)
+![](../../../../../../assets/shape-light-ex.gif)
 
 </td>
 </tr>

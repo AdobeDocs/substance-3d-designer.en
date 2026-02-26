@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Post effects
 
-![Post effects](postEffects.png "Post effects"){zoomable="yes"}
+![Post effects](../../../../assets/postEffects.png "Post effects"){zoomable="yes"}
 
 In the camera properties, you can enable post effects to enhance renders or check specific material properties.
 
@@ -72,9 +71,9 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
-![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXReinhard](PostFXReinhard.jpg "PostFXReinhard")
+![PostFXReinhard](../../../../assets/PostFXReinhard.jpg "PostFXReinhard")
 
 +++
 
@@ -96,9 +95,9 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
-![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXAtan](PostFXAtan.jpg "PostFXAtan")
+![PostFXAtan](../../../../assets/PostFXAtan.jpg "PostFXAtan")
 
 +++
 
@@ -120,9 +119,9 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
-![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXExp](PostFXExp.jpg "PostFXExp")
+![PostFXExp](../../../../assets/PostFXExp.jpg "PostFXExp")
 
 +++
 
@@ -144,9 +143,9 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
-![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXLog](PostFXLog.jpg "PostFXLog")
+![PostFXLog](../../../../assets/PostFXLog.jpg "PostFXLog")
 
 +++
 
@@ -168,9 +167,9 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
-![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXAces](PostFXAces.jpg "PostFXAces")
+![PostFXAces](../../../../assets/PostFXAces.jpg "PostFXAces")
 
 +++
 
@@ -192,9 +191,9 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
-![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXHejl](PostFXHejl.jpg "PostFXHejl")
+![PostFXHejl](../../../../assets/PostFXHejl.jpg "PostFXHejl")
 
 +++
 
@@ -216,9 +215,9 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
-![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXNeutral](PostFXNeutral.jpg "PostFXNeutral")
+![PostFXNeutral](../../../../assets/PostFXNeutral.jpg "PostFXNeutral")
 
 +++
 
@@ -240,9 +239,9 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
-![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXAgx](PostFXAgx.jpg "PostFXAgx")
+![PostFXAgx](../../../../assets/PostFXAgx.jpg "PostFXAgx")
 
 +++
 
@@ -264,9 +263,9 @@ This lets you improve color consistency between applications. For instance, the 
 
 
 
-![PostFXDisabled](PostFXDisabled.jpg "PostFXDisabled")
+![PostFXDisabled](../../../../assets/PostFXDisabled.jpg "PostFXDisabled")
 
-![PostFXPbrNeutral](PostFXPbrNeutral.jpg "PostFXPbrNeutral")
+![PostFXPbrNeutral](../../../../assets/PostFXPbrNeutral.jpg "PostFXPbrNeutral")
 
 +++
 
@@ -298,9 +297,9 @@ The luminance value above which bloom should be visible.
 
 
 
-![bloomThreshold1](bloomThreshold1.jpg "bloomThreshold1")
+![bloomThreshold1](../../../../assets/bloomThreshold1.jpg "bloomThreshold1")
 
-![bloomThreshold4](bloomThreshold4.jpg "bloomThreshold4")
+![bloomThreshold4](../../../../assets/bloomThreshold4.jpg "bloomThreshold4")
 
 +++
 
@@ -326,9 +325,9 @@ The bloom attenuation ramp, where a lower value results in a shorter bloom radiu
 
 
 
-![bloomFalloff1](bloomFalloff1.jpg "bloomFalloff1")
+![bloomFalloff1](../../../../assets/bloomFalloff1.jpg "bloomFalloff1")
 
-![bloomFalloff0-6](bloomFalloff0-6.jpg "bloomFalloff0-6")
+![bloomFalloff0-6](../../../../assets/bloomFalloff0-6.jpg "bloomFalloff0-6")
 
 +++
 
@@ -354,9 +353,9 @@ The intensity of the bloom. A higher value results in brighter, more pronounced 
 
 
 
-![bloomLevel8](bloomLevel8.jpg "bloomLevel8")
+![bloomLevel8](../../../../assets/bloomLevel8.jpg "bloomLevel8")
 
-![bloomLevel2](bloomLevel2.jpg "bloomLevel2")
+![bloomLevel2](../../../../assets/bloomLevel2.jpg "bloomLevel2")
 
 +++
 
@@ -382,9 +381,9 @@ Offsets the hue of the areas affected by the bloom towards warmer colors.
 
 
 
-![bloomColorShift0](bloomColorShift0.jpg "bloomColorShift0")
+![bloomColorShift0](../../../../assets/bloomColorShift0.jpg "bloomColorShift0")
 
-![bloomColorShift0-8](bloomColorShift0-8.jpg "bloomColorShift0-8")
+![bloomColorShift0-8](../../../../assets/bloomColorShift0-8.jpg "bloomColorShift0-8")
 
 +++
 
@@ -420,9 +419,9 @@ The maximum radius of the blurring effect.
 
 
 
-![depthOfFieldMaxRadius32](depthOfFieldMaxRadius32.jpg "depthOfFieldMaxRadius32")
+![depthOfFieldMaxRadius32](../../../../assets/depthOfFieldMaxRadius32.jpg "depthOfFieldMaxRadius32")
 
-![depthOfFieldMaxRadius4](depthOfFieldMaxRadius4.jpg "depthOfFieldMaxRadius4")
+![depthOfFieldMaxRadius4](../../../../assets/depthOfFieldMaxRadius4.jpg "depthOfFieldMaxRadius4")
 
 +++
 
@@ -448,9 +447,9 @@ The magnitude of the blurring effect from the focus distance outward.
 
 
 
-![depthOfFieldCompositeStrength0-2](depthOfFieldCompositeStrength0-2.jpg "depthOfFieldCompositeStrength0-2")
+![depthOfFieldCompositeStrength0-2](../../../../assets/depthOfFieldCompositeStrength0-2.jpg "depthOfFieldCompositeStrength0-2")
 
-![depthOfFieldCompositeStrength0-05](depthOfFieldCompositeStrength0-05.jpg "depthOfFieldCompositeStrength0-05")
+![depthOfFieldCompositeStrength0-05](../../../../assets/depthOfFieldCompositeStrength0-05.jpg "depthOfFieldCompositeStrength0-05")
 
 +++
 
@@ -478,9 +477,9 @@ Aberration simulates how different wavelengths of light have a slightly differen
 
 
 
-![depthOfFieldLongitudinalAberration0](depthOfFieldLongitudinalAberration0.jpg "depthOfFieldLongitudinalAberration0")
+![depthOfFieldLongitudinalAberration0](../../../../assets/depthOfFieldLongitudinalAberration0.jpg "depthOfFieldLongitudinalAberration0")
 
-![depthOfFieldLongitudinalAberration1](depthOfFieldLongitudinalAberration1.jpg "depthOfFieldLongitudinalAberration1")
+![depthOfFieldLongitudinalAberration1](../../../../assets/depthOfFieldLongitudinalAberration1.jpg "depthOfFieldLongitudinalAberration1")
 
 +++
 
@@ -508,9 +507,9 @@ This makes the blurring effect appear to be more equally distributed.
 
 
 
-![depthOfFieldAchromaticAberrationYes](depthOfFieldAchromaticAberrationYes.jpg "depthOfFieldAchromaticAberrationYes")
+![depthOfFieldAchromaticAberrationYes](../../../../assets/depthOfFieldAchromaticAberrationYes.jpg "depthOfFieldAchromaticAberrationYes")
 
-![depthOfFieldAchromaticAberrationNo](depthOfFieldAchromaticAberrationNo.jpg "depthOfFieldAchromaticAberrationNo")
+![depthOfFieldAchromaticAberrationNo](../../../../assets/depthOfFieldAchromaticAberrationNo.jpg "depthOfFieldAchromaticAberrationNo")
 
 +++
 
@@ -538,8 +537,8 @@ This effect is more pronounced at higher apertures – I.e., lower F-Stop values
 
 
 
-![depthOfFieldAchromaticCatsEyeYes](depthOfFieldAchromaticCatsEyeYes.jpg "depthOfFieldAchromaticCatsEyeYes")
+![depthOfFieldAchromaticCatsEyeYes](../../../../assets/depthOfFieldAchromaticCatsEyeYes.jpg "depthOfFieldAchromaticCatsEyeYes")
 
-![depthOfFieldAchromaticCatsEyeNo](depthOfFieldAchromaticCatsEyeNo.jpg "depthOfFieldAchromaticCatsEyeNo")
+![depthOfFieldAchromaticCatsEyeNo](../../../../assets/depthOfFieldAchromaticCatsEyeNo.jpg "depthOfFieldAchromaticCatsEyeNo")
 
 +++

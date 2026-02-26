@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material Selector
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](material-selector.png){width="128px"}
+![](../../../../../../assets/material-selector.png){width="128px"}
 
 ## Material Selector
 
@@ -53,7 +52,7 @@ This is handy if you don't want to use [Multi-Material Blend](../../../../../../
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="matselector-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/matselector-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

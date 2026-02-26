@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material Clone Patch
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](clone-patch-material.png){width="128px"}
+![](../../../../../../assets/clone-patch-material.png){width="128px"}
 
 ## Material Clone Patch
 

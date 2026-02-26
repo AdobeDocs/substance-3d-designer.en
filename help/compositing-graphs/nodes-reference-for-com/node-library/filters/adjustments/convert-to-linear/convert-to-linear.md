@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Convert To Linear
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](convert-to-linear.png){width="128px"}
+![](../../../../../../assets/convert-to-linear.png){width="128px"}
 
-![](convert-to-linear-grayscale.png){width="128px"}
+![](../../../../../../assets/convert-to-linear-grayscale.png){width="128px"}
 
 ## Convert to Linear (Grayscale)
 

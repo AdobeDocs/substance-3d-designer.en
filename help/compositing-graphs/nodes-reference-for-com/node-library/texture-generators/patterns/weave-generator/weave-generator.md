@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Weave Generator
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](weave-generator.png){width="128px"}
+![](../../../../../../assets/weave-generator.png){width="128px"}
 
 ## Weave Generator
 
@@ -46,7 +45,7 @@ This node generates a simple weave pattern with a few options. It allows for mor
 
 ## Example Images
 
-![](weave-generator-ex.gif)
+![](../../../../../../assets/weave-generator-ex.gif)
 
 </td>
 </tr>

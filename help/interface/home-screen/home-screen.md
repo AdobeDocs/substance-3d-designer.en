@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Home screen
 
-![Home screen](home-screen-home.jpg "Home screen")
+![Home screen](../../assets/home-screen-home.jpg "Home screen")
 
 The <b>Home screen<b> </b></b>welcomes you when you launch Substance 3D Designer. It helps you get started with your projects and access useful links.
 
@@ -28,18 +27,18 @@ To close the Home Screen, use the <b>Back</b> button on the top left or the <b>C
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Back button](home-screen-back-icon.jpg "Back button")
+![Back button](../../assets/home-screen-back-icon.jpg "Back button")
 
 </td>
 </tr>
 </table>
 
-![Home section](home-screen-home.jpg "Home section"){width="512px"}
+![Home section](../../assets/home-screen-home(1).jpg "Home section"){width="512px"}
 
 ## Home
 
-The ![](home-screen-home-icon.jpg) <b>Home</b> section offers a banner with a highlighted suggestion for going further with Designer.  
-This banner can be collapsed using the ![](home-screen-expand-icon.jpg) <b>Hide suggestions</b> button on the right.
+The ![](../../assets/home-screen-home-icon.jpg) <b>Home</b> section offers a banner with a highlighted suggestion for going further with Designer.  
+This banner can be collapsed using the ![](../../assets/home-screen-expand-icon.jpg) <b>Hide suggestions</b> button on the right.
 
 Below, a list of recent files under the <b>Recent</b> header offers quick access to the last loaded projects, from most recent to oldest.
 
@@ -49,11 +48,11 @@ Recent files can be filtered using the <b>Filter</b> input field on the top righ
 >
 > Leave the cursor on an entry for a few seconds to display the file's full path.
 
-![Learn section](home-screen-learn.jpg "Learn section"){width="512px"}
+![Learn section](../../assets/home-screen-learn.jpg "Learn section"){width="512px"}
 
 ## Learn
 
-The ![](home-screen-learn-icon.jpg) <b>Learn</b> section offers useful learning resources for growing your understanding of Substance 3D Designer.
+The ![](../../assets/home-screen-learn-icon.jpg) <b>Learn</b> section offers useful learning resources for growing your understanding of Substance 3D Designer.
 
 These resources are listed as card links and grouped as follows:
 
@@ -63,11 +62,11 @@ These resources are listed as card links and grouped as follows:
   * [Quicktips](https://substance3d.adobe.com/tutorials/courses/Designer-Quicktips/youtube-Q9mEcCWsOQc) is a curated playlist of techniques for creating materials, patterns, filters, etc.;
   * [Online documentation](../../home/home.md) brings you to this documentation.
 
-![What's new screen](home-screen-whats-new.jpg "What's new screen"){width="512px"}
+![What's new screen](../../assets/home-screen-whats-new.jpg "What's new screen"){width="512px"}
 
 ## What's new
 
-The ![](home-screen-whats-new-icon.jpg) <b>What&#39;s new</b> button on the top right of the screen displays a screen listing the major features added in your version of Designer, as well as a link to the complete [release notes](../../release-notes/release-notes.md) for that version.
+The ![](../../assets/home-screen-whats-new-icon.jpg) <b>What&#39;s new</b> button on the top right of the screen displays a screen listing the major features added in your version of Designer, as well as a link to the complete [release notes](../../release-notes/release-notes.md) for that version.
 
 ## Start project
 
@@ -78,7 +77,7 @@ On the left of the screen, you can find a list of shortcuts for creating a new g
 * <b>New MDL graph:</b> Opens the [New MDL graph](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) window;
 * <b>Import AxF:</b> Starts an [AxF importing workflow](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md).
 
-![About Substance 3D Designer screen](home-screen-about.jpg "About Substance 3D Designer screen"){width="256px"}
+![About Substance 3D Designer screen](../../assets/home-screen-about.jpg "About Substance 3D Designer screen"){width="256px"}
 
 ## Links
 

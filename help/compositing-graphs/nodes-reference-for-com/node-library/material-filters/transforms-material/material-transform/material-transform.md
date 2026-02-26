@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material Transform
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](material-transforms.png){width="128px"}
+![](../../../../../../assets/material-transforms.png){width="128px"}
 
 ## Material Transform
 

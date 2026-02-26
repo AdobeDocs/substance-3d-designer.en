@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Multi-Angle to Normal
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](multi-angle-to-normal.png){width="128px"}
+![](../../../../../../assets/multi-angle-to-normal.png){width="128px"}
 
 ## Multi-Angle to Normal
 

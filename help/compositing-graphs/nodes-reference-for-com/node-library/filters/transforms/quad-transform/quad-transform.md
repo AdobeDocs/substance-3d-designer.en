@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Quad Transform
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](quad-transform-grayscale.png){width="128px"}
+![](../../../../../../assets/quad-transform-grayscale.png){width="128px"}
 
-![](quad-transform.png){width="128px"}
+![](../../../../../../assets/quad-transform.png){width="128px"}
 
 ## Quad Transform (Grayscale)
 
@@ -49,7 +48,7 @@ Special transform node that allows transformation of a quad shape through intera
 
 ## Example Images
 
-![](quad-example.gif)
+![](../../../../../../assets/quad-example.gif)
 
 </td>
 </tr>

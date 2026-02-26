@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Tile Sampler
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](tile-sampler.png){width="128px"}
+![](../../../../../../assets/tile-sampler.png){width="128px"}
 
 ## Tile Sampler (Color)
 
@@ -125,7 +124,7 @@ Make sure you are familiar with [Tile Generator](../../../../../../compositing-g
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="tilesampler-ex2.png" width="256px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/tilesampler-ex2.png" width="256px"/></div> |
 | --- |
 |  |
 

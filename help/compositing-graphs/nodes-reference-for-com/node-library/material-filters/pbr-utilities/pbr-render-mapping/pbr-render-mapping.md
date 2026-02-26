@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # PBR Render Mapping
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](pbr-render-mapping-color.png)![](pbr-render-mapping-grayscale.png)
+![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
 
 ## PBR Render Mapping (Color/Grayscale)
 
@@ -50,9 +49,9 @@ Color and Grayscale version exist for the two types of data: use color for diffu
 
 Example is a composite of four different PBR Render Mapping nodes, using a [Histogram Select](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-select/histogram-select.md) on a [Linear gradient](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md) as masks.
 
-![](pbr-render-mapping-ex.png){width="256px"}
+![](../../../../../../assets/pbr-render-mapping-ex.png){width="256px"}
 
-![](pbr-render-mapping-ex-2.png){width="256px"}
+![](../../../../../../assets/pbr-render-mapping-ex-2.png){width="256px"}
 
 </td>
 </tr>

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # White Noise Fast
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](white-noise-fast.png){width="128px"}
+![](../../../../../../assets/white-noise-fast.png){width="128px"}
 
 ## White Noise Fast
 
@@ -40,7 +39,7 @@ No Parameters.
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="white-noise-fast-1.png" width="256px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/white-noise-fast-1.png" width="256px"/></div> |
 | --- |
 |  |
 

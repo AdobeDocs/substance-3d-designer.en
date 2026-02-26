@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Edge Dirt
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](edge-dirt.png){width="128px"}
+![](../../../../../../assets/edge-dirt.png){width="128px"}
 
 ## Edge Dirt
 
@@ -58,7 +57,7 @@ This mask represents a dirt effect that accumulates around edges, based solely o
 
 ## Example Images
 
-![](edge-dirt-ex.gif)
+![](../../../../../../assets/edge-dirt-ex.gif)
 
 </td>
 </tr>

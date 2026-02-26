@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Blackbody
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](blackbody.png){width="200px"}
+![](../../../../../../assets/blackbody.png){width="200px"}
 
 ## Blackbody
 

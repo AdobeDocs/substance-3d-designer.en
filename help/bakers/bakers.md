@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Bakers
 
 Baking refer to the action of **transferring mesh based information into textures**. These information are then read by shaders and/or Substance filters to generate more advanced effects or textures.
@@ -30,13 +29,13 @@ The baking window can be accessed via the mesh file in the [Explorer](https://he
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-!['Bake mode information' option in 3D scene resource's contextual menu](sd-mesh-right-click.png "'Bake mode information' option in 3D scene resource's contextual menu")
+!['Bake mode information' option in 3D scene resource's contextual menu](../assets/sd-mesh-right-click.png "'Bake mode information' option in 3D scene resource's contextual menu")
 
 </td>
 </tr>
 </table>
 
-![Baking window](sd-window-overview.png "Baking window")
+![Baking window](../assets/sd-window-overview.png "Baking window")
 
 ## Overview
 
@@ -55,7 +54,7 @@ It lists the geometry found inside the low-poly mesh file. By default the list i
 </td>
 <td style="border: 0;" valign="top">
 
-![](sd-mesh-selection.png)
+![](../assets/sd-mesh-selection.png)
 
 </td>
 </tr>
@@ -72,7 +71,7 @@ This panel controls where the baked texture will be located.
 </td>
 <td style="border: 0;" valign="top">
 
-![](sd-output.png)
+![](../assets/sd-output.png)
 
 </td>
 </tr>
@@ -90,13 +89,13 @@ This panel controls where the baked texture will be located.
 
 This panel controls the high-poly mesh list and the related settings. See the [common parameters](https://helpx.adobe.com/substance-3d-bake/bakers-settings/common-parameters.html) for more information.
 
-![High definition meshes](sd-high.png "High definition meshes")
+![High definition meshes](../assets/sd-high.png "High definition meshes")
 
 ### Default values
 
 See the [common parameters](https://helpx.adobe.com/substance-3d-bake/bakers-settings/common-parameters.html) for more information.
 
-![Default values](sd-default-values.png "Default values")
+![Default values](../assets/sd-default-values.png "Default values")
 
 ### Bakers render list and settings
 
@@ -113,4 +112,4 @@ When clicking on a baker in the list, the Baker Parameters view will update with
 
 To learn more about the specific parameters, see: [Bakers Settings](https://helpx.adobe.com/substance-3d-bake/bakers-settings.html).
 
-![Bakers render list](sd-baker-list.png "Bakers render list")
+![Bakers render list](../assets/sd-baker-list.png "Bakers render list")

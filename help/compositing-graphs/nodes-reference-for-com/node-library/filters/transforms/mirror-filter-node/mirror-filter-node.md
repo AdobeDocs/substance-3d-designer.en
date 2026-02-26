@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mirror (Filter Node)
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](mirror-2.png){width="128px"}
+![](../../../../../../assets/mirror-2.png){width="128px"}
 
-![](mirror-grayscale.png){width="128px"}
+![](../../../../../../assets/mirror-grayscale.png){width="128px"}
 
 ## Mirror (Grayscale)
 
@@ -47,7 +46,7 @@ Mirrors the input image over a chosen axis, from a chosen side. Very useful, qui
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="mirror-example.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mirror-example.png" width="300px"/></div> |
 | --- |
 |  |
 

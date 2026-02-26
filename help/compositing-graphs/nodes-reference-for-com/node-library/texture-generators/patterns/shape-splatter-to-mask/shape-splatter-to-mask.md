@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shape Splatter to Mask
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](shape-splatter-to-mask.png){width="128px"}
+![](../../../../../../assets/shape-splatter-to-mask.png){width="128px"}
 
 ## Shape Splatter to Mask
 

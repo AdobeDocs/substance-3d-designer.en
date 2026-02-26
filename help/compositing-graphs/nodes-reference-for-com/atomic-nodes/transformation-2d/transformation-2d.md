@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Transformation 2D
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Transformation 2D](comp_transformation.png "Atomic node: Transformation 2D"){width="200px"}
+![Atomic node: Transformation 2D](../../../../assets/comp_transformation(1).png "Atomic node: Transformation 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -62,7 +61,7 @@ It can however not be a perfect match for certain applications, so the following
 > 
 > Set the [inheritance method](../../../../glossary/glossary.md) of the 'Tiling mode' [base parameter](../../../../glossary/glossary.md) to 'Absolute', which then lets you set the parameter value to 'No Tiling':
 > 
-> ![](tilingmode.png)
+> ![](../../../../assets/tilingmode.png)
 
 >[!NOTE]
 >

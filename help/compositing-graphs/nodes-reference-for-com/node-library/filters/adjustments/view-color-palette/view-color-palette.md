@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # View Color Palette
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Quantize Color icon](ViewColorPalette.png "Quantize Color icon"){width="200px"}
+![Quantize Color icon](../../../../../../assets/ViewColorPalette.png "Quantize Color icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -78,12 +77,12 @@ This node may be used to visualize the palettes produced by the following nodes:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![View color palette: Example 1](view_color_palette_example_1.png "View color palette: Example 1"){zoomable="yes"}
+![View color palette: Example 1](../../../../../../assets/view_color_palette_example_1.png "View color palette: Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![View color palette: Example 2](view_color_palette_example_2.png "View color palette: Example 2"){zoomable="yes"}
+![View color palette: Example 2](../../../../../../assets/view_color_palette_example_2.png "View color palette: Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -93,12 +92,12 @@ This node may be used to visualize the palettes produced by the following nodes:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![View color palette: Example 3](view_color_palette_example_3.png "View color palette: Example 3"){zoomable="yes"}
+![View color palette: Example 3](../../../../../../assets/view_color_palette_example_3.png "View color palette: Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![View color palette: Example 4](view_color_palette_example_4.png "View color palette: Example 4"){zoomable="yes"}
+![View color palette: Example 4](../../../../../../assets/view_color_palette_example_4.png "View color palette: Example 4"){zoomable="yes"}
 
 </td>
 </tr>

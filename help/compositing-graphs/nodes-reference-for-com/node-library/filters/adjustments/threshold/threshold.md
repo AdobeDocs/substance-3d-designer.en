@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Threshold
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](threshold-2.png){width="200px"}
+![](../../../../../../assets/threshold-2.png){width="200px"}
 
 ## Threshold
 

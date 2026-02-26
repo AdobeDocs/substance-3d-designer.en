@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # ID To Mask Grayscale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ID To Mask Grayscale icon](IDToMask.png "ID To Mask Grayscale icon"){width="200px"}
+![ID To Mask Grayscale icon](../../../../../../assets/IDToMask.png "ID To Mask Grayscale icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -95,12 +94,12 @@ An ID map is an image where pixels which are part of a whole (E.g., a shape) all
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ID to mask: Example 2](id_to_mask_example_2.gif "ID to mask: Example 2"){zoomable="yes"}
+![ID to mask: Example 2](../../../../../../assets/id_to_mask_example_2.gif "ID to mask: Example 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ID to mask: Example 3](id_to_mask_example_3.png "ID to mask: Example 3"){zoomable="yes"}
+![ID to mask: Example 3](../../../../../../assets/id_to_mask_example_3.png "ID to mask: Example 3"){zoomable="yes"}
 
 </td>
 </tr>

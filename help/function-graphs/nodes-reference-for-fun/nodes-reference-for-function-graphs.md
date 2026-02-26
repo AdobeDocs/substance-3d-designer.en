@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Nodes reference for function graphs
 
 Lists all basic Function nodes used in function graphs.

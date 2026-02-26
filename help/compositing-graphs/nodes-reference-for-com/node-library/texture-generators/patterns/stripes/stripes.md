@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Stripes
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](stripes.png){width="128px"}
+![](../../../../../../assets/stripes.png){width="128px"}
 
 ## Stripes
 
@@ -47,7 +46,7 @@ Generates a tiling, angled, stripe pattern. The pattern adjusts itself to always
 
 ## Example Images
 
-![](stripes-ex.gif)
+![](../../../../../../assets/stripes-ex.gif)
 
 </td>
 </tr>

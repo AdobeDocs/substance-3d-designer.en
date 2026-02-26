@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Dirt
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](dirt.png){width="128px"}
+![](../../../../../../assets/dirt.png){width="128px"}
 
 ## Dirt
 
@@ -66,7 +65,7 @@ This mask represent dirts in occluded and sunken edges and corners, based on bak
 
 ## Example Images
 
-![](dirt-ex.gif)
+![](../../../../../../assets/dirt-ex.gif)
 
 </td>
 </tr>

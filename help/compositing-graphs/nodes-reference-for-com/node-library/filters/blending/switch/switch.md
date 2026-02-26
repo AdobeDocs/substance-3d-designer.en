@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Switch
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](switch-1.png){width="128px"}
+![](../../../../../../assets/switch-1.png){width="128px"}
 
-![](switch-grayscale.png){width="128px"}
+![](../../../../../../assets/switch-grayscale.png){width="128px"}
 
 ## Switch (Grayscale)
 

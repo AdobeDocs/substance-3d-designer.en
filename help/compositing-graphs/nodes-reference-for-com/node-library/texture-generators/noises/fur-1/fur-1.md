@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Fur 1
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](fur-1.png){width="128px"}
+![](../../../../../../assets/fur-1.png){width="128px"}
 
 ## Fur 1
 
@@ -45,7 +44,7 @@ This generates a straight-fur type of noise.
 
 ## Example Images
 
-![](fur-1-ex.gif)
+![](../../../../../../assets/fur-1-ex.gif)
 
 </td>
 </tr>

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # The Quadrant Node
 
 Many FX-Maps consists entirely of chains of Quadrant nodes. Quadrant nodes are the most powerful and flexible node in the FX-Map group, so it is well worthwhile to understand how this node works.
@@ -97,12 +96,12 @@ The Pattern Variation parameter adjusts a defined feature of the Pattern.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](fxmap-quadrants.png){width="80px"}
+![](../../../assets/fxmap-quadrants.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](quadrant-parameters.jpg)
+![](../../../assets/quadrant-parameters.jpg)
 
 </td>
 </tr>

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Bitmap resource
 
 A bitmap resource is a resource in a Substance Package. It is different from the [atomic bitmap node. The atomic Bitmap node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) is a specific representation of that bitmap inside[ a Substance graph](../../compositing-graphs/substance-compositing-graphs.md).

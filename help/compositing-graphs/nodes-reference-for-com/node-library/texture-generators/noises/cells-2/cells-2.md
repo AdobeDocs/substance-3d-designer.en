@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Cells 2
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cells 2 - Icon](cells_2.png "Cells 2 - Icon"){width="200px"}
+![Cells 2 - Icon](../../../../../../assets/cells_2.png "Cells 2 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -85,12 +84,12 @@ See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cells 2 - Example 1](cells_2.png "Cells 2 - Example 1"){zoomable="yes"}
+![Cells 2 - Example 1](../../../../../../assets/cells_2(1).png "Cells 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cells 2 - Example 2](noise_cells_2_v2_speed0.3_aniso0.6.gif "Cells 2 - Example 2"){zoomable="yes"}
+![Cells 2 - Example 2](../../../../../../assets/noise_cells_2_v2_speed0.3_aniso0.6.gif "Cells 2 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>

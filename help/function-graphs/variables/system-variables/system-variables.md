@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Built-in variables
 
 You can use built-in variables in [Substance function graphs](../../../function-graphs/function-graphs.md) order to access specific values. They always begin with a `$` (Dollar) symbol.

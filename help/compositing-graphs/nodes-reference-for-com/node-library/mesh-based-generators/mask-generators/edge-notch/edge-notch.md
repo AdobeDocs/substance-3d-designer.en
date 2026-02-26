@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Edge Notch
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](edge-notch.png){width="128px"}
+![](../../../../../../assets/edge-notch.png){width="128px"}
 
 ## Edge Notch
 
@@ -52,7 +51,7 @@ This mask represents a simple mask for raised edges, broken up by a high-frequen
 
 ## Example Images
 
-![](edge-notch-ex.gif)
+![](../../../../../../assets/edge-notch-ex.gif)
 
 </td>
 </tr>

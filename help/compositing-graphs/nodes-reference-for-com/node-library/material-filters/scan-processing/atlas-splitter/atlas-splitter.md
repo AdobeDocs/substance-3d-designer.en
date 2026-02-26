@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Atlas Splitter
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](atlas-splitter.png "Node icon")
+![Node icon](../../../../../../assets/atlas-splitter.png "Node icon")
 
 <b>In:</b> Material Filters/Scan Processing
 

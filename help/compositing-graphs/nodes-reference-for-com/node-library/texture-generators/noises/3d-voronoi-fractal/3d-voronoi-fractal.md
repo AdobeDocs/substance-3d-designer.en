@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Voronoi Fractal
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](3dvoronoifractal.png){width="200px"}
+![](../../../../../../assets/3dvoronoifractal.png){width="200px"}
 
 **In:** *Texture Generators* */Noises*
 
@@ -114,32 +113,32 @@ This node can be tested with [Cube 3D GBuffers](../../../../../../compositing-gr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3dvoronoifractal-variant6.jpg){width="256px"}
+![](../../../../../../assets/3dvoronoifractal-variant6.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dvoronoifractal-variant2.jpg){width="256px"}
+![](../../../../../../assets/3dvoronoifractal-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dvoronoifractal-variant4.jpg){width="256px"}
+![](../../../../../../assets/3dvoronoifractal-variant4.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dvoronoifractal-variant5.jpg){width="256px"}
+![](../../../../../../assets/3dvoronoifractal-variant5.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dvoronoifractal-variant.jpg){width="256px"}
+![](../../../../../../assets/3dvoronoifractal-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dvoronoifractal-variant3.jpg){width="256px"}
+![](../../../../../../assets/3dvoronoifractal-variant3.jpg){width="256px"}
 
 </td>
 </tr>

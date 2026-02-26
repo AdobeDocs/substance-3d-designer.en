@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Curvature Smooth
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Curvature Smooth node icon](CurvatureSmooth.png "Curvature Smooth node icon"){width="200px"}
+![Curvature Smooth node icon](../../../../../../assets/CurvatureSmooth.png "Curvature Smooth node icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -102,12 +101,12 @@ The concave and convex areas are also split into their own outputs, for easier s
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvature smooth: Example 2](curvature_smooth_example_2.jpg "Curvature smooth: Example 2"){zoomable="yes"}
+![Curvature smooth: Example 2](../../../../../../assets/curvature_smooth_example_2.jpg "Curvature smooth: Example 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvature smooth: Example 3](curvature_smooth_example_3.jpg "Curvature smooth: Example 3"){zoomable="yes"}
+![Curvature smooth: Example 3](../../../../../../assets/curvature_smooth_example_3.jpg "Curvature smooth: Example 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -130,12 +129,12 @@ The concave and convex areas are also split into their own outputs, for easier s
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvature smooth: Example 4](curvature_smooth_example_5.jpg "Curvature smooth: Example 4"){zoomable="yes"}
+![Curvature smooth: Example 4](../../../../../../assets/curvature_smooth_example_5.jpg "Curvature smooth: Example 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvature smooth: Example 5](curvature_smooth_example_6.jpg "Curvature smooth: Example 5"){zoomable="yes"}
+![Curvature smooth: Example 5](../../../../../../assets/curvature_smooth_example_6.jpg "Curvature smooth: Example 5"){zoomable="yes"}
 
 </td>
 </tr>

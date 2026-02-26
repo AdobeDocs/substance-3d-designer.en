@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Point List
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](point-list-icon.png "Node icon")
+![Node icon](../../../../../../assets/point-list-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -117,12 +116,12 @@ The radius of the points in texture space, where 0.1 is a tenth of the texture's
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](PointList-Variant1.jpg "Node example 1")
+![Node example 1](../../../../../../assets/PointList-Variant1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](PointList-Demo1.gif "Node example 2")
+![Node example 2](../../../../../../assets/PointList-Demo1.gif "Node example 2")
 
 </td>
 </tr>

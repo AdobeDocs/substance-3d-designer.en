@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 13.0
 
 This 13.0.0 release of Substance 3D Designer brings a lot of love to material artists, with a huge quantity of new nodes, the Substance Engine 9.0 introducing loops for the first time and with a great addition to the graph: the portal node. And in order to please more users, we introduce a brand new Home Screen and provide additional languages.
@@ -21,7 +20,7 @@ As mentioned in the previous version, this version does not support Substance mo
 
 *Release date: June 6th, 2023*
 
-![Material using paths](Paths2.png "Material using paths")
+![Material using paths](../../assets/Paths2.png "Material using paths")
 
 *Artwork by [Celine Dameron](https://www.artstation.com/cline)*
 
@@ -34,7 +33,7 @@ This 13.0 version brings a lot of new content. You will mainly find two new coll
 
 All these nodes will offer a lot of possibilities and they will have for sure a lot of creative applications. Check out the section about [working with Paths and Spline tools](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) for a tour of the important concepts to understand in order to get comfortable with this toolset.
 
-![Material using splines](Splines.png "Material using splines")
+![Material using splines](../../assets/Splines.png "Material using splines")
 
 *Artwork by [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -56,22 +55,22 @@ You can also create <b>bridges </b>between splines in order to have a full set
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline Cubic](SplineCubic-Demo.gif "Spline Cubic")
+![Spline Cubic](../../assets/SplineCubic-Demo.gif "Spline Cubic")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Poly Quadratic](SplinePolyQuadratic-Demo.gif "Spline Poly Quadratic")
+![Spline Poly Quadratic](../../assets/SplinePolyQuadratic-Demo.gif "Spline Poly Quadratic")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Circle](SplineCircle-Demo.gif "Spline Circle")
+![Spline Circle](../../assets/SplineCircle-Demo.gif "Spline Circle")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Bridge List](SplineBridge-List_Demo.gif "Spline Bridge List")
+![Spline Bridge List](../../assets/SplineBridge-List_Demo.gif "Spline Bridge List")
 
 </td>
 </tr>
@@ -89,17 +88,17 @@ We also provide tools to rework and tweak your splines. You will find a node to 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline 2D Transform](Spline2DTransform-Demo1.gif "Spline 2D Transform")
+![Spline 2D Transform](../../assets/Spline2DTransform-Demo1.gif "Spline 2D Transform")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Warp](SplineWarp-Demo.gif "Spline Warp")
+![Spline Warp](../../assets/SplineWarp-Demo.gif "Spline Warp")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Sample Thickness](SplineSampleThickness-Demo.gif "Spline Sample Thickness")
+![Spline Sample Thickness](../../assets/SplineSampleThickness-Demo.gif "Spline Sample Thickness")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -120,22 +119,22 @@ Thanks to the [Spline Fill](../../compositing-graphs/nodes-reference-for-com/no
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Scatter on Spline Grayscale](ScatterOnSplineGrayscale-Demo.gif "Scatter on Spline Grayscale")
+![Scatter on Spline Grayscale](../../assets/ScatterOnSplineGrayscale-Demo.gif "Scatter on Spline Grayscale")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Fill](SplineFill-Demo.gif "Spline Fill")
+![Spline Fill](../../assets/SplineFill-Demo.gif "Spline Fill")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Mapper Color](SplineMapperColor-Demo.gif "Spline Mapper Color")
+![Spline Mapper Color](../../assets/SplineMapperColor-Demo.gif "Spline Mapper Color")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline Flow Mapper](SplineFlowMapper-Demo.gif "Spline Flow Mapper")
+![Spline Flow Mapper](../../assets/SplineFlowMapper-Demo.gif "Spline Flow Mapper")
 
 </td>
 </tr>
@@ -151,12 +150,12 @@ You can then process these paths with the [Path 2D Transform](../../compositing
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Mask to Paths](MaskToPaths-Demo2.gif "Mask to Paths")
+![Mask to Paths](../../assets/MaskToPaths-Demo2.gif "Mask to Paths")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Mask to Paths 2](MaskToPaths-Demo1.gif "Mask to Paths 2")
+![Mask to Paths 2](../../assets/MaskToPaths-Demo1.gif "Mask to Paths 2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -200,7 +199,7 @@ Thanks to this feature, you can improve the graph readability by hidding very lo
 
 This new feature is fully explained in this dedicated [tutorial](https://www.adobe.com/go/designer-tutorial-portals).
 
-![Portal node](PortalNodeFinal.gif "Portal node")
+![Portal node](../../assets/PortalNodeFinal.gif "Portal node")
 
 ## Home screen
 
@@ -211,9 +210,9 @@ When you start Designer, you know have access to a brand new [Home Screen](../..
 * A learn page where you can find link to learning resources, like tutorials to introduce you to new features or to discover quick tips;
 * Direct links to the What's New screen, the About screen, the Substance 3D website, the Support Community forum, etc.
 
-![Home screen - Home](HomeScreen.png "Home screen - Home")
+![Home screen - Home](../../assets/HomeScreen.png "Home screen - Home")
 
-![Home screen - Learn](LearnPage.png "Home screen - Learn")
+![Home screen - Learn](../../assets/LearnPage.png "Home screen - Learn")
 
 ## New languages
 

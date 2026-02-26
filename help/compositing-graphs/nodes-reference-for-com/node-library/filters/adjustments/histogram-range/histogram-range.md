@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Histogram Range
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](histogram-range-1.png){width="128px"}
+![](../../../../../../assets/histogram-range-1.png){width="128px"}
 
 ## Histogram Range
 
@@ -44,7 +43,7 @@ Also see [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-f
 
 ## Example Images
 
-![](histogram-range.gif)
+![](../../../../../../assets/histogram-range.gif)
 
 </td>
 </tr>

@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Highpass
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](high-pass-greyscale.png){width="128px"}
+![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
 
-![](high-pass.png){width="128px"}
+![](../../../../../../assets/high-pass.png){width="128px"}
 
 ## Highpass (Grayscale)
 
@@ -46,9 +45,9 @@ Important: make sure to use the appropriate version for your input! Use "Highpas
 
 ## Example Images
 
-![](highpass.gif)
+![](../../../../../../assets/highpass.gif)
 
-![](highpass-example.png){width="400px"}
+![](../../../../../../assets/highpass-example.png){width="400px"}
 
 </td>
 </tr>

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Dust
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](dust.png){width="128px"}
+![](../../../../../../assets/dust.png){width="128px"}
 
 ## Dust
 
@@ -61,7 +60,7 @@ This mask represents dust accumulated in occluded, lowered areas, as well as onl
 
 ## Example Images
 
-![](dust-ex.gif)
+![](../../../../../../assets/dust-ex.gif)
 
 </td>
 </tr>

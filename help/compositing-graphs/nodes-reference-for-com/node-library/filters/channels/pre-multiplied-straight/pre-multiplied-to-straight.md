@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Pre-Multiplied to Straight
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](pre-multiply-straight.png){width="128px"}
+![](../../../../../../assets/pre-multiply-straight.png){width="128px"}
 
 ## Pre-Multiplied to Straight
 

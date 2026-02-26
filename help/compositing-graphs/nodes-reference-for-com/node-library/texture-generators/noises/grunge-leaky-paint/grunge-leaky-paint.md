@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Leaky Paint
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](grungeleakypaint.jpg){width="200px"}
+![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
 
 **In:** *Texture Generators* */Noises*
 
@@ -54,12 +53,12 @@ The **Grunge Leaky Paint** node generates a grunge map akin to paint dripping th
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grungeleakypaint-variant.jpg){width="256px"}
+![](../../../../../../assets/grungeleakypaint-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](grungeleakypaint-variant2.jpg){width="256px"}
+![](../../../../../../assets/grungeleakypaint-variant2.jpg){width="256px"}
 
 </td>
 </tr>

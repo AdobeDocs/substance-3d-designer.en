@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Brick Generator
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](brick-generator.png){width="128px"}
+![](../../../../../../assets/brick-generator.png){width="128px"}
 
 ## Brick Generator
 
@@ -52,9 +51,9 @@ For more options see [Tile Generator](../../../../../../compositing-graphs/nodes
 
 ## Example Images
 
-![](brick-generator-ex-01.gif)
+![](../../../../../../assets/brick-generator-ex-01.gif)
 
-![](brick-generator-ex-02.gif)
+![](../../../../../../assets/brick-generator-ex-02.gif)
 
 </td>
 </tr>

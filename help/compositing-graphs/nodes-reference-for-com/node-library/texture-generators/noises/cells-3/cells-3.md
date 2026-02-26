@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Cells 3
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Cells 3 - Icon](cells_3.png "Cells 3 - Icon"){width="200px"}
+![Cells 3 - Icon](../../../../../../assets/cells_3.png "Cells 3 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -92,12 +91,12 @@ See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cells 3 - Example 1](cells_3.png "Cells 3 - Example 1"){zoomable="yes"}
+![Cells 3 - Example 1](../../../../../../assets/cells_3(1).png "Cells 3 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cells 3 - Example 2](noise_cells_3_v2_speed0.6_aniso0.gif "Cells 3 - Example 2"){zoomable="yes"}
+![Cells 3 - Example 2](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso0.gif "Cells 3 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,12 +106,12 @@ See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cells 3 - Example 3](noise_cells_3_v2_speed0.6_aniso1.gif "Cells 3 - Example 3"){zoomable="yes"}
+![Cells 3 - Example 3](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso1.gif "Cells 3 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Cells 3 - Example 4](noise_cells_3_v2_speed0.3_aniso0.6.gif "Cells 3 - Example 4"){zoomable="yes"}
+![Cells 3 - Example 4](../../../../../../assets/noise_cells_3_v2_speed0.3_aniso0.6.gif "Cells 3 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

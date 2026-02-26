@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D scene resource
 
 This page describes the **3D scene** resource type in Substance 3D Designer, including its supported file formats and how it may be used.
@@ -52,7 +51,7 @@ Linking a 3D scene into your package is the only way to [bake mesh maps](../../b
 * With the resource loaded in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), click *RMB* on it and select the <b>Bake Model Information</b> option in the contextual menu
 * The [Bake model information](../../bakers/bakers.md) dialog appears for you to set up and run any mesh maps bakes
 
-![Baking mesh maps](bake-model-information.gif "Baking mesh maps"){width="512px"}
+![Baking mesh maps](../../assets/bake-model-information.gif "Baking mesh maps"){width="512px"}
 
 ## UDIM/UV-tile usage
 

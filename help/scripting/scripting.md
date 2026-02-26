@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Scripting
 
 It is possible to control the application by writing plugins. Plugins can be written in the **Python** scripting language using version **3.9**. The Python API provided in the application allows to access and use many features directly from scripts.

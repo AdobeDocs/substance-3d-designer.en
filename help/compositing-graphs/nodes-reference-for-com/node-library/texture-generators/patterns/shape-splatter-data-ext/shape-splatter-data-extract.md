@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shape Splatter Data Extract
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](shape-splatter-data-extract.png){width="128px"}
+![](../../../../../../assets/shape-splatter-data-extract.png){width="128px"}
 
 ## Shape Splatter Data Extract
 

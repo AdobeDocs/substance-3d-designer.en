@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Scripting API reference
 
 This page describes the main concepts of the API.

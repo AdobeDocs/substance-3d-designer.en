@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Graph instances and subgraphs
 
-![](sub-graph.png)
+![](../../../assets/sub-graph.png)
 
 Graph instances are nodes that <b>reference another graph</b>. A graph referenced by an instance node in a host graph may be called a <b>subgraph</b> of the host graph.
 
@@ -57,14 +56,14 @@ Note that while the graph instance and subgraph concepts also apply to Substance
 
 ### Can you inspect the source graph of a graph instance?
 
-![(tick)](check.svg) Yes, and *only* for instances of graphs loaded from a **Substance 3D file (SBS)**. These instance nodes have a *dark red* label.  
+![(tick)](../../../assets/check.svg) Yes, and *only* for instances of graphs loaded from a **Substance 3D file (SBS)**. These instance nodes have a *dark red* label.  
 Right-click on the node to open its contextual menu and select the **Open reference** option.
 
 >[!NOTE]
 >
 > While inspecting the source graph, you can use the input data of the instance's graph if the **In-context editing** option is *checked* in the **Graph** section of the [Preferences](../../../interface/preferences-window/preferences-window.md).
 
-![(minus)](forbidden.svg) It is *not* possible to inspect graphs loaded from **Substance 3D asset (SBSAR)** instances, as these are already compiled. You may only load the asset in the **Explorer** panel to inspect the exposed graphs list and their parameters. These instance nodes have a *green* label.  
+![(minus)](../../../assets/forbidden.svg) It is *not* possible to inspect graphs loaded from **Substance 3D asset (SBSAR)** instances, as these are already compiled. You may only load the asset in the **Explorer** panel to inspect the exposed graphs list and their parameters. These instance nodes have a *green* label.  
 Right-click on the node to open its contextual menu and select the **Load package** option.
 
 >[!NOTE]

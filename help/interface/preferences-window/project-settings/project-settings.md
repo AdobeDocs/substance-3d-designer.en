@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Project settings
 
 This page presents the <b>Projects settings</b> in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), and the settings contained within.
@@ -25,7 +24,7 @@ This is very helpful if you want to set up a common working environment for a te
 >
 > For more information about setting up and integrating Substance 3D Designer in a **production pipeline**, we *strongly recommend* referring to the [Pipeline and Project Configuration](../../../pipeline-and-project-con/pipeline-and-project-configuration.md) section of the documentation.
 
-![Project settings](2019-3-0-prefs-proj-01.png "Project settings"){zoomable="yes"}
+![Project settings](../../../assets/2019-3-0-prefs-proj-01.png "Project settings"){zoomable="yes"}
 
 ## Configuration
 

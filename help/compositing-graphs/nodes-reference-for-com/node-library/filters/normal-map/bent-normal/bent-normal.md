@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Bent Normal
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Bent Normal node icon](rt-bent-normal.png "Bent Normal node icon")
+![Bent Normal node icon](../../../../../../assets/rt-bent-normal.png "Bent Normal node icon")
 
 <b>In:</b> *Filters/Normal Map*
 
@@ -66,4 +65,4 @@ Inverts the output's green channel.
 
 ## Example Images
 
-![Bent Normal node - Example 1](bent-normal-ex-1.jpg "Bent Normal node - Example 1")
+![Bent Normal node - Example 1](../../../../../../assets/bent-normal-ex-1.jpg "Bent Normal node - Example 1")

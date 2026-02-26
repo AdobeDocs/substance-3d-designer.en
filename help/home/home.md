@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # User guide
 
-![Substance 3D Designer main window](sdsummerinterface.jpg "Substance 3D Designer main window")
+![Substance 3D Designer main window](../assets/sdsummerinterface.jpg "Substance 3D Designer main window")
 
 [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) is a material authoring software. It lets you use a node graph to generate textures from procedural patterns and noises, as well as manipulate bitmaps.
 

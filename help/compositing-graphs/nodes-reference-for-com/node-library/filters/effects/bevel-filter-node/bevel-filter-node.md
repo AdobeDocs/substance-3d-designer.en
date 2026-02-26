@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Bevel (Filter Node)
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](bevel.png){width="128px"}
+![](../../../../../../assets/bevel.png){width="128px"}
 
 ## Bevel
 
@@ -58,7 +57,7 @@ This is a useful node for applying exact curve profiles on an ideally binary (hi
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="bevel-example.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/bevel-example.png" width="300px"/></div> |
 | --- |
 |  |
 

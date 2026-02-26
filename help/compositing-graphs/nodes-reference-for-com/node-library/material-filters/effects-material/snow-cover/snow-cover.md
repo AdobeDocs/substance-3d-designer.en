@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Snow Cover
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](snow-cover.png){width="128px"}
+![](../../../../../../assets/snow-cover.png){width="128px"}
 
 ## Snow Cover
 

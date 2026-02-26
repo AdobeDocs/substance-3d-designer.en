@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Cracks Weathering
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](cracks-weathering.png){width="128px"}
+![](../../../../../../assets/cracks-weathering.png){width="128px"}
 
 ## Cracks Weathering
 
@@ -64,7 +63,7 @@ Make sure to properly understand the [Link Creation Modes](../../../../../../int
 
 ## Example Images
 
-![](cracks-ex.gif)
+![](../../../../../../assets/cracks-ex.gif)
 
 </td>
 </tr>

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Substance graph key concepts
 
 This page lists the important concepts to understand for working with Substance graphs in Substance 3D Designer.

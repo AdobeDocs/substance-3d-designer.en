@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Fluid
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](fluid.png){width="128px"}
+![](../../../../../../assets/fluid.png){width="128px"}
 
 ## Fluid
 
@@ -49,7 +48,7 @@ This noise fills a specific niche: it can be useful for generating rain, leaks o
 
 ## Example Images
 
-![](fluid-ex.gif)
+![](../../../../../../assets/fluid-ex.gif)
 
 </td>
 </tr>

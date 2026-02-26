@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Simplex Noise
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3d-simplex-noise.png){width="128px"}
+![](../../../../../../assets/3d-simplex-noise.png){width="128px"}
 
 ## 3D Simplex Noise
 
@@ -45,7 +44,7 @@ This noise can be tested with [Cube 3D GBuffers](https://support.allegorithmic.c
 
 ## Example Images
 
-![](3d-simplex.gif)
+![](../../../../../../assets/3d-simplex.gif)
 
 </td>
 </tr>

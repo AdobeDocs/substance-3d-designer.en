@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Uber Emboss
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](uber-emboss.png){width="128px"}
+![](../../../../../../assets/uber-emboss.png){width="128px"}
 
 ## Uber Emboss
 
@@ -61,7 +60,7 @@ Useful when creating baked-in lighting for certain texturing styles when a lot o
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="uberemboss-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/uberemboss-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

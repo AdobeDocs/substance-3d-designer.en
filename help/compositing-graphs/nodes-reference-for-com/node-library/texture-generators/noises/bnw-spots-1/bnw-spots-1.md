@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # BnW spots 1
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![BnW spots 1 - Icon](bnw_spots_1.png "BnW spots 1 - Icon"){width="200px"}
+![BnW spots 1 - Icon](../../../../../../assets/bnw_spots_1.png "BnW spots 1 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -85,12 +84,12 @@ See also: [BnW spots 2](../../../../../../compositing-graphs/nodes-reference-fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW spots 1 - Example 1](bnw_spots_1.png "BnW spots 1 - Example 1"){zoomable="yes"}
+![BnW spots 1 - Example 1](../../../../../../assets/bnw_spots_1(1).png "BnW spots 1 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnW spots 1 - Example 2](noise_bnw_spots_1_v2_speed0.6_aniso0.gif "BnW spots 1 - Example 2"){zoomable="yes"}
+![BnW spots 1 - Example 2](../../../../../../assets/noise_bnw_spots_1_v2_speed0.6_aniso0.gif "BnW spots 1 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -100,12 +99,12 @@ See also: [BnW spots 2](../../../../../../compositing-graphs/nodes-reference-fo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW spots 1 - Example 3](noise_bnw_spots_1_v2_speed0.6_aniso1.gif "BnW spots 1 - Example 3"){zoomable="yes"}
+![BnW spots 1 - Example 3](../../../../../../assets/noise_bnw_spots_1_v2_speed0.6_aniso1.gif "BnW spots 1 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnW spots 1 - Example 4](noise_bnw_spots_1_v2_speed0.3_aniso0.6.gif "BnW spots 1 - Example 4"){zoomable="yes"}
+![BnW spots 1 - Example 4](../../../../../../assets/noise_bnw_spots_1_v2_speed0.3_aniso0.6.gif "BnW spots 1 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

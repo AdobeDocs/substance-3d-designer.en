@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Smart Auto Tile
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](smart-auto-tile.png){width="128px"}
+![](../../../../../../assets/smart-auto-tile.png){width="128px"}
 
 ## Smart Auto Tile
 

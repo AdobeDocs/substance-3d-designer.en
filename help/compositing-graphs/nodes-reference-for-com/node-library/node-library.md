@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Node library
 
 Apart from the [Atomic nodes](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), Designer also comes with a library of pre-made [Graph Instances](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), divided up into many categories. There are over 200 different ones, some come in handy very often, some are intended for very specific use cases.This area of the documentation documents and explains all Library nodes and provides pointers and tips on which nodes are good to get started with.

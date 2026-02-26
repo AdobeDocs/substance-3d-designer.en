@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Rock Weathering
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](rock-weathering.png){width="128px"}
+![](../../../../../../assets/rock-weathering.png){width="128px"}
 
 ## Rock Weathering
 
@@ -87,7 +86,7 @@ user-guide-title: ""
 
 ## Example Images
 
-![](rock-ex.gif)
+![](../../../../../../assets/rock-ex.gif)
 
 </td>
 </tr>

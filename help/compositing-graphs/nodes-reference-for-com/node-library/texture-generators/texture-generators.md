@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Texture generators
 
 Texture generators are nodes that do not require any inputs: they generate images completely from scratch. You can think of 'texture generators' as another word for 'procedurals'.

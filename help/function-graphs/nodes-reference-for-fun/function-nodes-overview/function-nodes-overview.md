@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Function Nodes Overview
 
 This page provides a full overview of all function nodes and explains color coding used for Function Data Types.You can click through to more detailed pages with further explanations.

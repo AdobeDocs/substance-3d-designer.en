@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Paint Wear
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](paint-wear.png){width="128px"}
+![](../../../../../../assets/paint-wear.png){width="128px"}
 
 ## Paint Wear
 
@@ -62,7 +61,7 @@ This mask represents paint chipping and wearing away at edges.
 
 ## Example Images
 
-![](paint-wear-ex.gif)
+![](../../../../../../assets/paint-wear-ex.gif)
 
 </td>
 </tr>

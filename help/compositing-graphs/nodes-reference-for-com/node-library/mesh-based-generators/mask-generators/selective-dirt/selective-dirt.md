@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Selective Dirt
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](selective-dirt.png){width="128px"}
+![](../../../../../../assets/selective-dirt.png){width="128px"}
 
 ## Selective Dirt
 
@@ -58,7 +57,7 @@ This [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer
 
 ## Example Images
 
-![](selective-dirt-ex.gif)
+![](../../../../../../assets/selective-dirt-ex.gif)
 
 </td>
 </tr>

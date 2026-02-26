@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Fur 3
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](fur-3.png){width="128px"}
+![](../../../../../../assets/fur-3.png){width="128px"}
 
 ## Fur 3
 
@@ -46,7 +45,7 @@ This generates a spreading/bristle-type noise.
 
 ## Example Images
 
-![](fur-3-ex.gif)
+![](../../../../../../assets/fur-3-ex.gif)
 
 </td>
 </tr>

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Non Uniform Directional Warp
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](non-uniform-directional-warp-color.png)![](non-uniform-directional-warp-grayscale.png)
+![](../../../../../../assets/non-uniform-directional-warp-color.png)![](../../../../../../assets/non-uniform-directional-warp-grayscale.png)
 
 ## Non Uniform Dir. Warp (Grayscale)
 

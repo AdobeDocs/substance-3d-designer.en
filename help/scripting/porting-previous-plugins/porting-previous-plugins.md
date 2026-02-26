@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Porting previous plugins
 
 Because of the changes done to support Qt for Python, **previous plugins won't work anymore**.  

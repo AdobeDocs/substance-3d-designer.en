@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Lighting Cancel Low Frequencies
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](lighting-cancel-high-low.png){width="128px"}
+![](../../../../../../assets/lighting-cancel-high-low.png){width="128px"}
 
 ## Lighting Cancel Low Frequencies
 
@@ -42,7 +41,7 @@ Also see [Luminance Highpass](../../../../../../compositing-graphs/nodes-referen
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="lighting-cancel-lowfrequencies-example.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-lowfrequencies-example.png" width="300px"/></div> |
 | --- |
 |  |
 

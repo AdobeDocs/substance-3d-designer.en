@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Values in Substance graphs
 
 Since the Introduction of the [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) Engine v7 in version 2019.1.0, it is now possible to process values in the Substance graph, and[ not just in functions](../../function-graphs/function-graphs.md). Value data is the same data used in Functions ( Integers, Floats and Booleans among others), making it distinctly different from Color or Grayscale image data, which represents pixel values for an entire image. Specifically, when mentioning Values data, this means *Integer 1, Integer 2, Integer 3 and Integer 4, Float 1, Float 2, Float 3 and Float 4 and Boolean*. Each has a distinct color coding, and are mostly not interchanged with each other.
@@ -29,18 +28,18 @@ Two new Atomic Nodes work with Values:
 
 |  |  |
 | --- | --- |
-| <div><img alt="Value Processor node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="valueprocessor.png" title="Value Processor node icon" width="100px"/></div>  <b>&#91;Value Processor&#93;(../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | The [Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) takes Any number of Grayscale or Color Inputs and allows you to return a single Value from calculations based on these inputs. |
-| <div><img alt="Value Input node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="inputnumeric.png" title="Value Input node icon" width="100px"/></div>  **[Value Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | The [Value Input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)allows you to create an input slot on sub-graphs that is explicitely defined as a Value. |
+| <div><img alt="Value Processor node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../assets/valueprocessor.png" title="Value Processor node icon" width="100px"/></div>  <b>&#91;Value Processor&#93;(../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | The [Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) takes Any number of Grayscale or Color Inputs and allows you to return a single Value from calculations based on these inputs. |
+| <div><img alt="Value Input node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../assets/inputnumeric.png" title="Value Input node icon" width="100px"/></div>  **[Value Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | The [Value Input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)allows you to create an input slot on sub-graphs that is explicitely defined as a Value. |
 
 Additionally, other nodes deal with them in a specific way:
 
 The [Output Node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) automatically adjusts to become a Value Output if you plug a Value connection into it, just like it did before with Grayscale and Color.
 
-![Output value node](values-output.gif "Output value node"){width="512px"}
+![Output value node](../../assets/values-output.gif "Output value node"){width="512px"}
 
 There is a new tab on every single node ([Atomic ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)and [Library](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)/Instance) that allows you to define Value inputs.
 
-![Adding input values on node](values-inputs.gif "Adding input values on node")
+![Adding input values on node](../../assets/values-inputs.gif "Adding input values on node")
 
 ## Working with values
 
@@ -52,4 +51,4 @@ Value Processor can only return a single Value, if you want to return multiple V
 
 To highlight where Values are exposed or in use, any Node that has Value Inputs, or Value Outputs, is highlighted with a thick yellow border:
 
-![Working with values](yellowhighlight.png "Working with values")
+![Working with values](../../assets/yellowhighlight.png "Working with values")

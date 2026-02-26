@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline (Cubic)
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-cubic-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-cubic-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -159,12 +158,12 @@ A higher value results in a smoother line.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](SplineCubic-Variant1.jpg "Node example 1")
+![Node example 1](../../../../../../assets/SplineCubic-Variant1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplineCubic-Variant2.jpg "Node example 2")
+![Node example 2](../../../../../../assets/SplineCubic-Variant2.jpg "Node example 2")
 
 </td>
 </tr>
@@ -174,7 +173,7 @@ A higher value results in a smoother line.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 3](SplineCubic-Demo.gif "Node example 3")
+![Node example 3](../../../../../../assets/SplineCubic-Demo.gif "Node example 3")
 
 </td>
 <td style="border: 0;" valign="top">

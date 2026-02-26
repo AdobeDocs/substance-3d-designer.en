@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Apply Color Palette
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Quantize Color icon](ApplyColorPalette.png "Quantize Color icon"){width="200px"}
+![Quantize Color icon](../../../../../../assets/ApplyColorPalette.png "Quantize Color icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -75,7 +74,7 @@ This node may be used in combination with the following nodes: [Quantize Color](
 
 ## Examples
 
-![Apply color palette: Example 1](apply_color_palette_example_2.png "Apply color palette: Example 1"){zoomable="yes"}
+![Apply color palette: Example 1](../../../../../../assets/apply_color_palette_example_2.png "Apply color palette: Example 1"){zoomable="yes"}
 
 <table>
   <tr>
@@ -90,7 +89,7 @@ This node may be used in combination with the following nodes: [Quantize Color](
   </tr>
 </table>
 
-![Apply color palette: Example 3](apply_color_palette_example_4.png "Apply color palette: Example 3"){zoomable="yes"}
+![Apply color palette: Example 3](../../../../../../assets/apply_color_palette_example_4.png "Apply color palette: Example 3"){zoomable="yes"}
 
 <table>
   <tr>

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Using color management
 
 The<b> SDColorManagementEngine </b>class, accessible from the <b>SDApplication</b> class, contains information about the *current color management settings*.

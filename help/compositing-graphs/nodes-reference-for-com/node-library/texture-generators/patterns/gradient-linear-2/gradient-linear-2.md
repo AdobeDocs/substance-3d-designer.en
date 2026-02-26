@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Gradient Linear 2
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](gradient-linear-2.png){width="128px"}
+![](../../../../../../assets/gradient-linear-2.png){width="128px"}
 
 ## Gradient Linear 2
 
@@ -44,7 +43,7 @@ Despite its simplicity, it's very useful and can serve many purposes. Try it tog
 
 ## Example Images
 
-![](gradient-linear-2-ex.gif)
+![](../../../../../../assets/gradient-linear-2-ex.gif)
 
 </td>
 </tr>

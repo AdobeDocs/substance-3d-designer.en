@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Blurs
 
 The Blurs category expands on [the standard, atomic Box Blur node](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md). It contains more advanced, higher-quality Blurs that have multiple uses.

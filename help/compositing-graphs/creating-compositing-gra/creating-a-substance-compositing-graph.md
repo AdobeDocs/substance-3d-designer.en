@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Creating a Substance graph
 
 Authoring textures in Designer starts with creating a Substance graph, either from an prebuilt template or an empty graph.
@@ -50,7 +49,7 @@ To start the process of creating a new [Substance graph](../../compositing-graph
   </td>
   <td style="border: 0;" valign="top">
 
-  ![New Substance graph dialog - Create from Home screen](newGraphDialog-create-homeScreen.png "New Substance graph dialog - Create from Home screen"){zoomable="yes"}
+  ![New Substance graph dialog - Create from Home screen](../../assets/newGraphDialog-create-homeScreen.png "New Substance graph dialog - Create from Home screen"){zoomable="yes"}
 
   </td>
   </tr>
@@ -65,7 +64,7 @@ To start the process of creating a new [Substance graph](../../compositing-graph
   </td>
   <td style="border: 0;" valign="top">
 
-  ![New Substance graph dialog - Create from Explorer](newGraphDialog-create-explorer.png "New Substance graph dialog - Create from Explorer"){zoomable="yes"}
+  ![New Substance graph dialog - Create from Explorer](../../assets/newGraphDialog-create-explorer.png "New Substance graph dialog - Create from Explorer"){zoomable="yes"}
 
   </td>
   </tr>
@@ -75,12 +74,12 @@ To start the process of creating a new [Substance graph](../../compositing-graph
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  In the main toolbar, click the ![](image2021-6-22-20-36-44.png) <b>New Substance graph</b> button.
+  In the main toolbar, click the ![](../../assets/image2021-6-22-20-36-44.png) <b>New Substance graph</b> button.
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![New Substance graph dialog - Create from main toolbar](newGraphDialog-create-mainToolbar.png "New Substance graph dialog - Create from main toolbar"){zoomable="yes"}
+  ![New Substance graph dialog - Create from main toolbar](../../assets/newGraphDialog-create-mainToolbar.png "New Substance graph dialog - Create from main toolbar"){zoomable="yes"}
 
   </td>
   </tr>
@@ -95,7 +94,7 @@ To start the process of creating a new [Substance graph](../../compositing-graph
   </td>
   <td style="border: 0;" valign="top">
 
-  ![](newGraphDialog-create-mainMenu.png)
+  ![](../../assets/newGraphDialog-create-mainMenu.png)
 
   </td>
   </tr>
@@ -109,7 +108,7 @@ No matter which method you choose, you'll be presented with the <b>New Substance
 
 Regardless of the method used to create a new Substance graph, you will always be met with the <b>New Substance graph</b> dialog which lets you configure the new graph.
 
-![New Substance graph dialog - Materials](newGraphDialog-materials.png "New Substance graph dialog - Materials"){zoomable="yes"}
+![New Substance graph dialog - Materials](../../assets/newGraphDialog-materials.png "New Substance graph dialog - Materials"){zoomable="yes"}
 
 ### Templates
 
@@ -146,7 +145,7 @@ In <b>List</b>, <b>Packages</b> and <b>Directories</b> view modes, the subtitle 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![New Substance graph dialog - Thumbnail card](newGraphDialog-thumbnailCard.png "New Substance graph dialog - Thumbnail card")
+![New Substance graph dialog - Thumbnail card](../../assets/newGraphDialog-thumbnailCard.png "New Substance graph dialog - Thumbnail card")
 
 </td>
 </tr>
@@ -158,7 +157,7 @@ The <b>Material samples</b> category includes a [curated selection of graphs](..
 
 You can also access the samples directly from the Home screen, using the <b>Go to samples</b> button.
 
-![Material samples - Home screen banner](materialSamples-banner.png "Material samples - Home screen banner"){zoomable="yes"}
+![Material samples - Home screen banner](../../assets/materialSamples-banner.png "Material samples - Home screen banner"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -177,7 +176,7 @@ Hovering the information icon for each template item displays a tooltip with add
 </td>
 <td style="border: 0;" valign="top">
 
-![New Substance graph dialog - Template tooltip](newGraphDialog-tooltipTemplate.png "New Substance graph dialog - Template tooltip"){zoomable="yes"}
+![New Substance graph dialog - Template tooltip](../../assets/newGraphDialog-tooltipTemplate.png "New Substance graph dialog - Template tooltip"){zoomable="yes"}
 
 </td>
 </tr>
@@ -196,14 +195,14 @@ The filtering performed by the selected category and project file is applied in 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![New Substance graph dialog - View modes](newGraphDialog-viewModes.png "New Substance graph dialog - View modes"){zoomable="yes"}
+![New Substance graph dialog - View modes](../../assets/newGraphDialog-viewModes.png "New Substance graph dialog - View modes"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++View modes
-![New Substance graph dialog - Thumbnails view](newGraphDialog-viewMode-thumbnails.png "New Substance graph dialog - Thumbnails view"){zoomable="yes"}
+![New Substance graph dialog - Thumbnails view](../../assets/newGraphDialog-viewMode-thumbnails.png "New Substance graph dialog - Thumbnails view"){zoomable="yes"}
 
 
 
@@ -211,7 +210,7 @@ The filtering performed by the selected category and project file is applied in 
 
 Cards with thumbnails providing a preview or icon of the template type.
 
-![New Substance graph dialog - List view](newGraphDialog-viewMode-list.png "New Substance graph dialog - List view"){zoomable="yes"}
+![New Substance graph dialog - List view](../../assets/newGraphDialog-viewMode-list.png "New Substance graph dialog - List view"){zoomable="yes"}
 
 
 
@@ -219,7 +218,7 @@ Cards with thumbnails providing a preview or icon of the template type.
 
 Templates are listed by their label only.
 
-![New Substance graph dialog - Packages view](newGraphDialog-viewMode-packages.png "New Substance graph dialog - Packages view"){zoomable="yes"}
+![New Substance graph dialog - Packages view](../../assets/newGraphDialog-viewMode-packages.png "New Substance graph dialog - Packages view"){zoomable="yes"}
 
 
 
@@ -229,7 +228,7 @@ Templates are listed by their label as children of the package file they belong
 
 Hover a package file item to display a tooltip with its full path.
 
-![New Substance graph dialog - Directories view](newGraphDialog-viewMode-directories.png "New Substance graph dialog - Directories view"){zoomable="yes"}
+![New Substance graph dialog - Directories view](../../assets/newGraphDialog-viewMode-directories.png "New Substance graph dialog - Directories view"){zoomable="yes"}
 
 
 
@@ -255,7 +254,7 @@ After selecting the template, you may set up basic information regarding the new
 
 Hover the question mark icon to display a tooltip with a button which links directly to this page, so you can refer back to this documentation as needed.
 
-![New Substance graph dialog - Help tooltip](newGraphDialog-tooltipHelp.png "New Substance graph dialog - Help tooltip"){zoomable="yes"}
+![New Substance graph dialog - Help tooltip](../../assets/newGraphDialog-tooltipHelp.png "New Substance graph dialog - Help tooltip"){zoomable="yes"}
 
 ## Managing templates
 
@@ -272,7 +271,7 @@ Use the <b>Category</b> combobox to select the category you wish to filter the
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![New Substance graph dialog - Filtering by category](newGraphDialog-categories.png "New Substance graph dialog - Filtering by category"){zoomable="yes"}
+![New Substance graph dialog - Filtering by category](../../assets/newGraphDialog-categories.png "New Substance graph dialog - Filtering by category"){zoomable="yes"}
 
 </td>
 </tr>
@@ -291,7 +290,7 @@ Custom categories can be set up in the templates provided by project files (see 
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![New Substance graph dialog - Setting up the template category](newGraphDialog-templateCategorySetup.png "New Substance graph dialog - Setting up the template category"){zoomable="yes"}
+![New Substance graph dialog - Setting up the template category](../../assets/newGraphDialog-templateCategorySetup.png "New Substance graph dialog - Setting up the template category"){zoomable="yes"}
 
 </td>
 </tr>
@@ -310,7 +309,7 @@ Then, use the <b>Filter by project file</b> button to narrow down the list of te
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![New Substance graph dialog - Filtering by project file](newGraphDialog-projectFiles.png "New Substance graph dialog - Filtering by project file"){zoomable="yes"}
+![New Substance graph dialog - Filtering by project file](../../assets/newGraphDialog-projectFiles.png "New Substance graph dialog - Filtering by project file"){zoomable="yes"}
 
 </td>
 </tr>

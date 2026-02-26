@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Alveolus
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](alveolus-1.png){width="128px"}
+![](../../../../../../assets/alveolus-1.png){width="128px"}
 
 ## Alveolus
 
@@ -45,7 +44,7 @@ A soft-sphere pattern that can altenatively generate hexagon tiles.
 
 ## Example Images
 
-![](alveolus.gif)
+![](../../../../../../assets/alveolus.gif)
 
 </td>
 </tr>

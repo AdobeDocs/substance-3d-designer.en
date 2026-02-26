@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Median filter grayscale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Median filter grayscale: icon](MedianFilter_Icon_Grayscale.png "Median filter grayscale: icon")
+![Median filter grayscale: icon](../../../../../../assets/MedianFilter_Icon_Grayscale.png "Median filter grayscale: icon")
 
 <b>In:</b> Filters &gt; Blurs
 

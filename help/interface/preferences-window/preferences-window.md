@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Preferences window
 
-![Preferences window](image2021-6-22-20-56-1.png "Preferences window")
+![Preferences window](../../assets/image2021-6-22-20-56-1.png "Preferences window")
 
 This page presents the <b>Preferences</b> window and all its settings.
 
@@ -152,14 +151,14 @@ Please refer to the [Projects settings](../../interface/preferences-window/proje
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![In-context editing disabled](substance3ddesigner_incontext_no.gif "In-context editing disabled")
+![In-context editing disabled](../../assets/substance3ddesigner_incontext_no.gif "In-context editing disabled")
 
 *Open Reference*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![In-context editing enabled](substance3ddesigner_incontext_yes.gif "In-context editing enabled")
+![In-context editing enabled](../../assets/substance3ddesigner_incontext_yes.gif "In-context editing enabled")
 
 *Open Reference In Context*
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Nadir Extract
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](nadir-extract.png){width="200px"}
+![](../../../../../../assets/nadir-extract.png){width="200px"}
 
 ## Nadir Extract
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal Blend
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](normal-blend.png){width="128px"}
+![](../../../../../../assets/normal-blend.png){width="128px"}
 
 ## Normal Blend
 
@@ -56,7 +55,7 @@ Normal Blend is not intended for combining (overlaying) Normalmaps, where the to
 
 ## Example Images
 
-![](normalblend-ex.gif)
+![](../../../../../../assets/normalblend-ex.gif)
 
 *(.gif format introduces dithering in example, in-application results are smooth)*
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Scatter on Spline Color
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](scatter-on-spline-color-icon.png "Node icon")
+![Node icon](../../../../../../assets/scatter-on-spline-color-icon.png "Node icon")
 
 In: Spline &amp; Path Tools &gt; Spline Tools
 
@@ -369,12 +368,12 @@ This means all patterns in areas of the Mask Map below this value will be masked
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](ScatterOnSplineGrayscale-Demo.gif "Node example 1")
+![Node example 1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](ScatterOnSplineColor-Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "Node example 2")
 
 </td>
 </tr>

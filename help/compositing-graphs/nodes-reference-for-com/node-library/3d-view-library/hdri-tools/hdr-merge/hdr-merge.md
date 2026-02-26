@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # HDR Merge
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](hdr-merge.png){width="200px"}
+![](../../../../../../assets/hdr-merge.png){width="200px"}
 
 ## HDR Merge
 

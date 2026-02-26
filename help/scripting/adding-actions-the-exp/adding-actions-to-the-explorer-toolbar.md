@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Adding actions to the Explorer toolbar
 
 Plugins can add *custom actions* to the <b>Explorer</b> toolbar using the callbacks and methods available in the <b>SDUIMgr</b> class.

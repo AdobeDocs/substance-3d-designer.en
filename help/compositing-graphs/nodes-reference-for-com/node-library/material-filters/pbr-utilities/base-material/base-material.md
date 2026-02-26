@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Base Material
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](pbr-base-material.png){width="128px"}
+![](../../../../../../assets/pbr-base-material.png){width="128px"}
 
 ## Base Material
 

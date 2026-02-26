@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 14.0
 
 <b>Substance 3D Designer 14.0 </b>brings several quality of life improvements (graph navigation, performances, ...) but above all it includes a lot of new nodes (color manipulation, Kuwahara filter, histogram tools, bevel smooth, directional distance, ...). See below for more details about all these changes. 
 
 *Release date: July 30th, 2024*
 
-![](2024-BannerRN.png)
+![](../../assets/2024-BannerRN.png)
 
 ## New content
 
@@ -27,9 +26,9 @@ This 14.0 version brings a lot of new content with the new nodes listed below:
 
 * <b>Nodes dedicated to color manipulation: </b>one node <b>(</b>[Quantize color](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>) </b>to<b> </b>reduce the number of colors in an image and extract a palette from it, a family of tool nodes to build your own color palette ([View](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [Create](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [Modify](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>color palette) and one to apply it to another image using an ID map ([Apply color palette](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)). You will also find the [ID to mask grayscale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) node to convert your ID map — computed by Quantize color — to a grayscale mask. With this full set of nodes, you have all you need to create stylization effects using colors.
 
-![](GIF2_2.gif){zoomable="yes"}
+![](../../assets/GIF2_2.gif){zoomable="yes"}
 
-![Quantize Color 2](GIF3_2.gif){zoomable="yes"}
+![Quantize Color 2](../../assets/GIF3_2.gif){zoomable="yes"}
 
 * <b>Kuwahara filter</b>: if you want to go even further with stylization, you can generate some painterly effects thanks to the [Anisotropic Kuwahara color](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md) / [grayscale](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md) filters. In details, it applies an anisotropic directional blur which conforms to the details of the image. The result is an image which appears to flow in the direction of the shapes within.
 
@@ -132,7 +131,7 @@ Normal uncombine
 
 * <b>2D View: </b>when tiled display is enabled in the [2D View](../../interface/2d-view/2d-view.md), you can now get values even for pixels that are not on the original tile: it helps a lot to check [sampling](../../glossary/glossary.md) and value transitions across tiles.
 
-![2d view](2dview.gif){width="320px" zoomable="yes"}
+![2d view](../../assets/2dview.gif){width="320px" zoomable="yes"}
 
 * <b>Gradient map</b>: use the mouse middle click to shift all the [gradient keys](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) to the left or to the right (and so preserve all the gaps between all the keys).
 * <b>Parameters</b>: in order to inject custom functions through parameters, you can now use the Edit function widget. It's a powerful solution to create custom tools where you want to drive parameters using a [Substance function graph](../../function-graphs/the-function-graph/the-function-graph.md).
@@ -141,12 +140,12 @@ Normal uncombine
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Edit Function](functionedit.png){zoomable="yes"}
+![Edit Function](../../assets/functionedit.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Edit function 2](functionedit2.png){zoomable="yes"}
+![Edit function 2](../../assets/functionedit2.png){zoomable="yes"}
 
 </td>
 </tr>

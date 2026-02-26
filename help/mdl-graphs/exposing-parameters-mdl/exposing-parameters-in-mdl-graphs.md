@@ -12,12 +12,11 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Exposing parameters in MDL graphs
 
 This page explains the process of exposing parameters in MDL graphs so they can be connected to values and textures provided by *other nodes* in the graph, or by *external sources*.
 
-![Exposed state of node inputs](mdl-node-inputs-hl.png "Exposed state of node inputs")
+![Exposed state of node inputs](../../assets/mdl-node-inputs-hl.png "Exposed state of node inputs")
 
 *Exposed state of node inputs*
 
@@ -27,11 +26,11 @@ In most cases, the *input connectors* of a node's properties can be exposed so t
 
 When a node is selected in the <b>Graph view</b>, its properties are displayed in the <b>Properties</b> panel. Most properties are listed with a set of buttons to the right of their label:
 
-* **![](mdl-expose-new-node.png) Copy value to a new node and link it to this parameter**: creates an *input connector* for this property and connects it to a *new node* which outputs the current value of this property
-* **![](mdl-expose-new-input.png) Create an input pin for this parameter**: creates an *input connector* for this property
-* **![](mdl-expose-reset.png) Reset this parameter to its default value**: when no value is connected to this property’s input connector, resets its value to its default
+* **![](../../assets/mdl-expose-new-node.png) Copy value to a new node and link it to this parameter**: creates an *input connector* for this property and connects it to a *new node* which outputs the current value of this property
+* **![](../../assets/mdl-expose-new-input.png) Create an input pin for this parameter**: creates an *input connector* for this property
+* **![](../../assets/mdl-expose-reset.png) Reset this parameter to its default value**: when no value is connected to this property’s input connector, resets its value to its default
 
-![](mdl-expose-input.gif)
+![](../../assets/mdl-expose-input.gif)
 
 *Manipulating node inputs*
 
@@ -42,7 +41,7 @@ Clicking any of the first two buttons results in a *typed input connector* being
 
 The input connector can be *removed* by clicking again on the **Create an input pin for this parameter** button. At that point, the property value returns to the value set in the **Properties** panel.
 
-![Exposed node parameters](mdl-exposed-float-hl.png "Exposed node parameters")
+![Exposed node parameters](../../assets/mdl-exposed-float-hl.png "Exposed node parameters")
 
 *Exposed node parameters*
 
@@ -52,7 +51,7 @@ In MDL graph, exposing a parameter to the graph level – i.e., so it appears as
 
 Nodes which can be exposed have an <b>Expose</b> option in their contextual menu. In most cases, these are nodes which generate a value or data such as a Float, Color or texture coordinates.
 
-![&quot;Expose&quot; option in a node's contextual menu](mdl-expose-float-menu-hl.png "&quot;Expose&quot; option in a node's contextual menu")
+![&quot;Expose&quot; option in a node's contextual menu](../../assets/mdl-expose-float-menu-hl.png "&quot;Expose&quot; option in a node's contextual menu")
 
 *"Expose" option in a node's contextual menu*
 
@@ -76,6 +75,6 @@ The exposed parameter is configured directly in the *exposed node*, not in the g
 >
 > While graph inputs are set up a configured at the *node* level, their ordering is managed at the *graph* level in **Graph input** section of the [graph properties](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md).
 
-![Exposing nodes into graph inputs](mdl-expose-parameter.gif "Exposing nodes into graph inputs")
+![Exposing nodes into graph inputs](../../assets/mdl-expose-parameter.gif "Exposing nodes into graph inputs")
 
 *Exposing nodes into graph inputs*

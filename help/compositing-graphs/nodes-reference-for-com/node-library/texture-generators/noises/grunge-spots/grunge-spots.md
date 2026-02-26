@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Spots
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](grungespots.jpg){width="200px"}
+![](../../../../../../assets/grungespots.jpg){width="200px"}
 
 **In:** *Texture Generators* */Noises*
 
@@ -54,12 +53,12 @@ The **Grunge Spots** node generates a grunge map akin to fine splattered spots.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grungespots-variant2.jpg){width="256px"}
+![](../../../../../../assets/grungespots-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](grungespots-variant.jpg){width="256px"}
+![](../../../../../../assets/grungespots-variant.jpg){width="256px"}
 
 </td>
 </tr>

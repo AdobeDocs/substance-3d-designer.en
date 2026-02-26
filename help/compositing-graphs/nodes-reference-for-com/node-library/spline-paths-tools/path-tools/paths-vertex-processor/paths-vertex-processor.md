@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Paths Vertex Processor
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](paths-vertex-processor-icon.png "Node icon")
+![Node icon](../../../../../../assets/paths-vertex-processor-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -88,7 +87,7 @@ See the <b>Description</b> section in this page for guidance.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 2](PathsVertexProcessor-Demo2.gif "Node example 2")
+![Node example 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Node example 2")
 
 </td>
 <td style="border: 0;" valign="top">

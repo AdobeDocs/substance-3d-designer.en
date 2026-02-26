@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Galvanic Small
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](grungegalvanicsmall.jpg){width="200px"}
+![](../../../../../../assets/grungegalvanicsmall.jpg){width="200px"}
 
 **In:** *Texture Generators**/Noises*
 
@@ -53,12 +52,12 @@ The **Grunge Galvanic Small** node generates a grunge map akin to the pattern of
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grungegalvanicsmall-variant2.jpg){width="256px"}
+![](../../../../../../assets/grungegalvanicsmall-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](grungegalvanicsmall-variant.jpg){width="256px"}
+![](../../../../../../assets/grungegalvanicsmall-variant.jpg){width="256px"}
 
 </td>
 </tr>

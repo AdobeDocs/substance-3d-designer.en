@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Directional noise 4
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Directional noise 4 - Icon](directional_noise_4.png "Directional noise 4 - Icon"){width="200px"}
+![Directional noise 4 - Icon](../../../../../../assets/directional_noise_4.png "Directional noise 4 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -86,12 +85,12 @@ See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-refer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional noise 4 - Example 1](directional_noise_4.png "Directional noise 4 - Example 1"){zoomable="yes"}
+![Directional noise 4 - Example 1](../../../../../../assets/directional_noise_4(1).png "Directional noise 4 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Directional noise 4 - Example 2](noise_directional_noise_4_v2_speed0.6_aniso0.gif "Directional noise 4 - Example 2"){zoomable="yes"}
+![Directional noise 4 - Example 2](../../../../../../assets/noise_directional_noise_4_v2_speed0.6_aniso0.gif "Directional noise 4 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -101,12 +100,12 @@ See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-refer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional noise 4 - Example 3](noise_directional_noise_4_v2_speed0.6_aniso1.gif "Directional noise 4 - Example 3"){zoomable="yes"}
+![Directional noise 4 - Example 3](../../../../../../assets/noise_directional_noise_4_v2_speed0.6_aniso1.gif "Directional noise 4 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Directional noise 4 - Example 4](noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "Directional noise 4 - Example 4"){zoomable="yes"}
+![Directional noise 4 - Example 4](../../../../../../assets/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "Directional noise 4 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

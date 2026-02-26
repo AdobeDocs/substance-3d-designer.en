@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Volume Mask
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](3dvolumemask.png){width="256px"}
+![](../../../../../../assets/3dvolumemask.png){width="256px"}
 
 **In:** Generator*/Pattern*
 
@@ -74,22 +73,22 @@ The **3D Volume Mask** node generates a representation of a *primitive shape* ba
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3dvolumemask-variant.jpg){width="256px"}
+![](../../../../../../assets/3dvolumemask-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dvolumemask-variant2.jpg){width="256px"}
+![](../../../../../../assets/3dvolumemask-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dvolumemask-variant3.jpg){width="256px"}
+![](../../../../../../assets/3dvolumemask-variant3.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dvolumemask-variant4.jpg){width="256px"}
+![](../../../../../../assets/3dvolumemask-variant4.jpg){width="256px"}
 
 </td>
 </tr>

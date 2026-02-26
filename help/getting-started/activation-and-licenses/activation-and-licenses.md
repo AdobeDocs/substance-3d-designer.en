@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Activation process per application type
 
 The activation process depends on where you purchased or have access to Designer:
@@ -37,7 +36,7 @@ Three choices are available:
 >
 > To install the license file with the Activation Wizard, make sure you run Designer as an administrator and temporarily disable your anti-virus.
 
-![Activation wizard](activation-wizard.png "Activation wizard")
+![Activation wizard](../../assets/activation-wizard.png "Activation wizard")
 
 ### Manual activation
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Curvature Sobel
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](curvature-sobel.png){width="128px"}
+![](../../../../../../assets/curvature-sobel.png){width="128px"}
 
 ## Curvature Sobel
 
@@ -43,7 +42,7 @@ This node is useful for quick highlighting or darkening of certain edges. It is 
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="curv-sobel-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curv-sobel-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

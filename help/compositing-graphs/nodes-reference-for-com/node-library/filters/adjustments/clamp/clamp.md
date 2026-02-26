@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Clamp
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](clamp-grayscale.png){width="128px"}
+![](../../../../../../assets/clamp-grayscale.png){width="128px"}
 
-![](clamp-1.png){width="128px"}
+![](../../../../../../assets/clamp-1.png){width="128px"}
 
 ## Clamp (Grayscale)
 
@@ -46,7 +45,7 @@ Clamps input values to defined limits.
 
 ## Example Images
 
-![](clamp.gif)
+![](../../../../../../assets/clamp.gif)
 
 </td>
 </tr>

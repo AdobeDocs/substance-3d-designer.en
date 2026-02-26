@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Blending
 
 This category is an extension of the[ atomic Blend node.](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) It contains expanded, more complex Blend modes that are not in the standard node.

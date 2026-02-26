@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Blending (Material)
 
 The Blending category is one of the most important multi-channel material categories. It contains nodes intended for combining, switching and blending materials that consist of multiple simultaneous outputs.

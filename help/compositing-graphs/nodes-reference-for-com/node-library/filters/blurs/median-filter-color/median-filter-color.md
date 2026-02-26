@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Median filter color
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Median filter color: icon](MedianFilter_Icon_Color.png "Median filter color: icon")
+![Median filter color: icon](../../../../../../assets/MedianFilter_Icon_Color.png "Median filter color: icon")
 
 <b>In:</b> Filters &gt; Blurs
 

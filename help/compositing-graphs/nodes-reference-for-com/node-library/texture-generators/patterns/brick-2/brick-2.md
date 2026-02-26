@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Brick 2
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](brick-2.png){width="128px"}
+![](../../../../../../assets/brick-2.png){width="128px"}
 
 ## Brick 2
 
@@ -45,7 +44,7 @@ Simple Brick Pattern, see [Brick Generator](../../../../../../compositing-graphs
 
 ## Example Images
 
-![](brick-2-ex.gif)
+![](../../../../../../assets/brick-2-ex.gif)
 
 </td>
 </tr>

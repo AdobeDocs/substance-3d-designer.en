@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Fiber Glass Edge Wear
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](fiber-glass-edge-wear.png){width="128px"}
+![](../../../../../../assets/fiber-glass-edge-wear.png){width="128px"}
 
 ## Fiber Glass Edge Wear
 
@@ -67,7 +66,7 @@ Represents a mask specifically intended for a fibreglass-type of wear, could per
 
 ## Example Images
 
-![](fiber-glass-edge-wear-ex.gif)
+![](../../../../../../assets/fiber-glass-edge-wear-ex.gif)
 
 </td>
 </tr>

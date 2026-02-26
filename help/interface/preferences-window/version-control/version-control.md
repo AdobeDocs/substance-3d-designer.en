@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version control
 
 >[!IMPORTANT]
@@ -29,7 +28,7 @@ The integration adds a custom 'Version Control' submenu to the contextual menu o
 
 In [P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v), make a note of the workspace name and path, as shown below:
 
-![P4V workspace information](p4v-workspace-strings.jpg "P4V workspace information"){zoomable="yes"}
+![P4V workspace information](../../../assets/p4v-workspace-strings.jpg "P4V workspace information"){zoomable="yes"}
 
 In any text editor or IDE, open this script located in Designer's installation: '*tools/version\_control/perforce.py*'.
 
@@ -50,7 +49,7 @@ cVerbose = False
 
 Version control is configured in the [Project settings](../../../interface/preferences-window/project-settings/project-settings.md), which are available in Designer's [Preferences](../../../interface/preferences-window/preferences-window.md).
 
-!['Version control' tab in project settings](p4v-project-settings.jpg "'Version control' tab in project settings"){zoomable="yes"}
+!['Version control' tab in project settings](../../../assets/p4v-project-settings.jpg "'Version control' tab in project settings"){zoomable="yes"}
 
 1. Go to 'Edit &gt; Preferences'
 1. Go to 'Projects', select the target [project file](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) and go to the 'Version Control' tab
@@ -60,7 +59,7 @@ Version control is configured in the [Project settings](../../../interface/pref
    * <b>Name:</b> Enter the 'Workspace Name' you previously retrieved from P4V
    * <b>Path:</b> enter the 'Workspace Path' you previously retrieved from P4V
 
-![P4 setup in Designer: workspace](p4v-project-settings-workspace.jpg "P4 setup in Designer: workspace"){zoomable="yes"}
+![P4 setup in Designer: workspace](../../../assets/p4v-project-settings-workspace.jpg "P4 setup in Designer: workspace"){zoomable="yes"}
 
 ### Setting up actions
 
@@ -84,7 +83,7 @@ A starter script for all actions is available in Designer's installation: '*too
 1. Select the following script in Designer's installation: '*tools/version\_control/perforce.py*'
 1. The script should automatically be set up for all other actions.
 
-![P4 setup in Designer: actions](p4v-project-settings-actions.jpg "P4 setup in Designer: actions"){zoomable="yes"}
+![P4 setup in Designer: actions](../../../assets/p4v-project-settings-actions.jpg "P4 setup in Designer: actions"){zoomable="yes"}
 
 ### Setting up custom actions
 
@@ -99,7 +98,7 @@ As all version control tools are different and include many features, we allow t
 1. Set a script file extension or suffix, and the path to the interpreter executable
 1. Edit the perforce.py script to update the location of the 'p4' binary
 
-![P4 setup in Designer: interpreter](p4v-project-settings-interpreters.jpg "P4 setup in Designer: interpreter"){zoomable="yes"}
+![P4 setup in Designer: interpreter](../../../assets/p4v-project-settings-interpreters.jpg "P4 setup in Designer: interpreter"){zoomable="yes"}
 
 ## How to use version control
 
@@ -119,12 +118,12 @@ As all version control tools are different and include many features, we allow t
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   !['Submit' dialog](p4v-submit.jpg "'Submit' dialog"){zoomable="yes"}
+   !['Submit' dialog](../../../assets/p4v-submit.jpg "'Submit' dialog"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   !['Revert' dialog](p4v-revert.jpg "'Revert' dialog"){zoomable="yes"}
+   !['Revert' dialog](../../../assets/p4v-revert.jpg "'Revert' dialog"){zoomable="yes"}
 
    </td>
    </tr>
@@ -144,28 +143,28 @@ The package will have the following icons, depending on its status:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Package icon: Up to date](p4-up-to-date.png "Package icon: Up to date")
+![Package icon: Up to date](../../../assets/p4-up-to-date.png "Package icon: Up to date")
 
 Up to date
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Package icon: Checked out](p4-checked-out.png "Package icon: Checked out")
+![Package icon: Checked out](../../../assets/p4-checked-out.png "Package icon: Checked out")
 
 Checked out
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Package icon: Added](p4-added.png "Package icon: Added")
+![Package icon: Added](../../../assets/p4-added.png "Package icon: Added")
 
 Marked for add
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Package icon: Not in depot](p4-not-in-depot.png "Package icon: Not in depot")
+![Package icon: Not in depot](../../../assets/p4-not-in-depot.png "Package icon: Not in depot")
 
 Not in depot
 

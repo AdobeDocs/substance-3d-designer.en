@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Publishing Substance 3D asset files (SBSAR)
 
 This page explains how Substance 3D Designer can publish packages as <b>Substance 3D asset</b> files, a special file format with the <b>SBSAR</b> extension, used within the Substance ecosystem as well as in other applications supporting it.
 
 It's usually better to use a Substance 3D asset instead of bitmaps, as it is a lot more flexible and lightweight. If you are using them in Substance 3D [Painter](https://helpx.adobe.com/substance-3d-painter/home.html), [Sampler](https://helpx.adobe.com/substance-3d-sampler.html) or [Player](https://helpx.adobe.com/substance-3d-player/home.html), it is faster to use the [Send To functionality](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
 
-![Publishing SBSAR files simplified](exportflow.png "Publishing SBSAR files simplified")
+![Publishing SBSAR files simplified](../../assets/exportflow.png "Publishing SBSAR files simplified")
 
 ## Publishing concepts
 
@@ -49,14 +48,14 @@ Once you are ready to publish, there are two ways to access the Publishing Dialo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In the [Explorer window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), Right-clicking on the package and choosing ![](image2020-9-23-9-39-58.png) **Publish .sbsar file...**, alternative Hotkey Ctrl + P.
+In the [Explorer window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), Right-clicking on the package and choosing ![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar file...**, alternative Hotkey Ctrl + P.
 
-After Publishing with dialog once, you can also use ![](image2020-9-23-11-15-35.png) **Publish .sbsar file as previous** to repeat the publishing process without seeing the dialogs, immediately publishing with the same settings.
+After Publishing with dialog once, you can also use ![](../../assets/image2020-9-23-11-15-35.png) **Publish .sbsar file as previous** to repeat the publishing process without seeing the dialogs, immediately publishing with the same settings.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publish-rightclick.gif)
+![](../../assets/publish-rightclick.gif)
 
 </td>
 </tr>
@@ -66,14 +65,14 @@ After Publishing with dialog once, you can also use ![](image2020-9-23-11-15-35.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In the [Explorer window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), by clicking the Publish button ![](image2020-9-23-9-39-58.png) in the top toolbar.
+In the [Explorer window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), by clicking the Publish button ![](../../assets/image2020-9-23-9-39-58.png) in the top toolbar.
 
-After Publishing with dialog once, you can also use the Publish as previous button ![](image2020-9-23-11-15-35.png) to repeat the publishing process without seeing the dialogs, immediately publishing with the same settings.
+After Publishing with dialog once, you can also use the Publish as previous button ![](../../assets/image2020-9-23-11-15-35.png) to repeat the publishing process without seeing the dialogs, immediately publishing with the same settings.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publish-toolbutton.gif)
+![](../../assets/publish-toolbutton.gif)
 
 </td>
 </tr>
@@ -90,7 +89,7 @@ Before the Asset Publish Options appear, you will be prompted to save the Substa
 </td>
 <td style="border: 0;" valign="top">
 
-![Asset publishing options](publish-dialog.png "Asset publishing options")
+![Asset publishing options](../../assets/publish-dialog.png "Asset publishing options")
 
 </td>
 </tr>
@@ -125,7 +124,7 @@ To exclude a graph from becoming visible or usable inside an Substance 3D asset 
 </td>
 <td style="border: 0;" valign="top">
 
-![](image2020-9-23-10-40-21.png)
+![](../../assets/image2020-9-23-10-40-21.png)
 
 </td>
 </tr>

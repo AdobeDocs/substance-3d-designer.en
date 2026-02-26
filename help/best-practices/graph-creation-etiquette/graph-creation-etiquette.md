@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Graph Creation Etiquette
 
 Creating large, complex graphs can quickly get confusing and become hard to navigate. A number of tools can be used to alleviate these issues, and there are some good habits to get in to, to avoid issues later on. This page provides a conclusive list of techniques we recommend using for clean, efficient, functional Graphs that are easily shared and understood.
@@ -29,7 +28,7 @@ Graph items are helper objects that can be placed next to and around your nodes 
 
 The number one thing that leads to cleaner, easier to read graphs, is the placement of Frames around core groups of your graph. Without Frames, a big Graph is almost unreadable, and even small Graphs become much easier to understand once frames are drawn. A huge advantage of Frames is that their<b> names are always rendered at the same scale</b>, even if you zoom out very far.
 
-![Frames in Substance graphs](frames.gif "Frames in Substance graphs")
+![Frames in Substance graphs](../../assets/frames.gif "Frames in Substance graphs")
 
 Frames make it much easier to understand what is going on in a graph. They can help you as an author coming back to your work months later, or another user such as a colleague to find their way around a Graph they are not used to.
 
@@ -52,7 +51,7 @@ Comments and pins are only secondary to Frames and are not an absolute must for 
 
 Inputs and outputs should be placed at the extreme ends of Graphs: all outputs on the right, all inputs to the left, each vertically aligned. This makes it easier to find and identify them.
 
-![Input and output placement](inout.gif "Input and output placement")
+![Input and output placement](../../assets/inout.gif "Input and output placement")
 
 The above example is an extreme case: Frames are not always needed or possible, but it should be clear that vertical alignment of In- and Outputs is a lot more clear that random, shuffled placement.
 
@@ -60,7 +59,7 @@ The above example is an extreme case: Frames are not always needed or possible, 
 
 In large, very long Graphs, sometimes links are made across a very large span. This leads to confusing Link wires crossing through the Graph without much control. The shortcut "Alt + Shift Drag" allows you to reorganize these Links, rerouting them on a different path by subdividng a link and adding an extra handle in the middle. It is recommended to make use of this in scenarios where it makes sense.
 
-![Link rerouting](linkjreroute.gif "Link rerouting")
+![Link rerouting](../../assets/linkjreroute.gif "Link rerouting")
 
 ### Label, indentifier and usage
 
@@ -68,15 +67,15 @@ Any Graph that is meant for sharing or publishing should have proper care put in
 
 The default suggested Labels are never sufficient, take the time and effort to add custom Labels to exposed parameters and your in- and outputs.
 
-![Identifier and label](output-label.png "Identifier and label")
+![Identifier and label](../../assets/output-label.png "Identifier and label")
 
 Try to not have identifier and Label differ too much: in case the Identifier is used elsewhere (in multiple Functions) it can be very hard to find which UI property is related to what variable.
 
-![Identifier clarity](labelvsidentifier.png "Identifier clarity")
+![Identifier clarity](../../assets/labelvsidentifier.png "Identifier clarity")
 
 Try to match your Labels to terms you use in Frames (Frame Labels) and comments. It makes it easier to find out what section of the graph is linked to what exposed parameter
 
-![Matching frame and parameter labels](match-labels.png "Matching frame and parameter labels")
+![Matching frame and parameter labels](../../assets/match-labels.png "Matching frame and parameter labels")
 
 ### Parameter settings
 
@@ -98,7 +97,7 @@ Great care is required when using color and Grayscale data, mixing both types ca
 * Data is ideally kept as grayscale as long as possible, and only converted when absolutely needed. This reduces complexity and saves on performance.
 * Inputs and Outputs should be created or set-up with the correct type in mind: for example it makes no sense to have a "mask" input set to color if it will be converted to grayscale for use as a binary mask.
 
-![Color and grayscale conversions](colorgray01.png "Color and grayscale conversions")
+![Color and grayscale conversions](../../assets/colorgray01.png "Color and grayscale conversions")
 
 ### Resolution control
 

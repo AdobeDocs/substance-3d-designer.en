@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Adjustments
 
 This is one of the main Filter categories, with nodes intended for adjusting the values and ranges of inputs in various ways. Most of the nodes are an advanced, expanded way of using [Levels](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) and [Blend](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) nodes, and are intended as smarter shortcuts to certain operations.

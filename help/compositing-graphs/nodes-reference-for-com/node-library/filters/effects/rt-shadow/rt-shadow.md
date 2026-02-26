@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # RT Shadows
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![RT Shadows node icon](rt-shadow.png "RT Shadows node icon")
+![RT Shadows node icon](../../../../../../assets/rt-shadow.png "RT Shadows node icon")
 
 <b>In:</b> *Filters/Effects*
 
@@ -83,17 +82,17 @@ A value of 0 results in no visible shadows.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![RT Shadows node - Example 1](RTShadows-01.jpg "RT Shadows node - Example 1")
+![RT Shadows node - Example 1](../../../../../../assets/RTShadows-01.jpg "RT Shadows node - Example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![RT Shadows node - Example 2](RTShadows-02.jpg "RT Shadows node - Example 2")
+![RT Shadows node - Example 2](../../../../../../assets/RTShadows-02.jpg "RT Shadows node - Example 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![RT Shadows node - Example 3](RTShadows-03.jpg "RT Shadows node - Example 3")
+![RT Shadows node - Example 3](../../../../../../assets/RTShadows-03.jpg "RT Shadows node - Example 3")
 
 </td>
 </tr>

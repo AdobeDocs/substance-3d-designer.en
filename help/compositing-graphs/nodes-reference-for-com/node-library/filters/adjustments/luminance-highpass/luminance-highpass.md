@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Luminance Highpass
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](luminance-highpass.png){width="128px"}
+![](../../../../../../assets/luminance-highpass.png){width="128px"}
 
 ## Luminance Highpass
 
@@ -42,7 +41,7 @@ Does a slightly better job at preserving colors than [Lighting Cancel Low Freque
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="luminance-highpass-example.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/luminance-highpass-example.png" width="300px"/></div> |
 | --- |
 |  |
 

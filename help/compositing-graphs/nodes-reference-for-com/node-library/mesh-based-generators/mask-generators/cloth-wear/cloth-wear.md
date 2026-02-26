@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Cloth Wear
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](cloth-wear.png){width="128px"}
+![](../../../../../../assets/cloth-wear.png){width="128px"}
 
 ## Cloth Wear
 
@@ -54,7 +53,7 @@ The mask represents frazzled edges on cloth materials. It uses a cloth detail He
 
 ## Example Images
 
-![](cloth-wear-ex.gif)
+![](../../../../../../assets/cloth-wear-ex.gif)
 
 </td>
 </tr>

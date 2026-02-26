@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 12.1
 
 **Substance 3D Designer 12.1** brings a lot of new nodes for Substance material graphs, USD file format support and add more interoperability with Stager.
@@ -23,7 +22,7 @@ Release date: *April 26th, 2022*
 
 ### New content for Substance material graphs
 
-![](yellow-intense-reduce.png)
+![](../../assets/yellow-intense-reduce.png)
 
 A lot of nodes have been added in this version, you will find some new patterns, new noises, new filters, ...
 
@@ -33,36 +32,36 @@ Take a look at the node pages linked below to for examples of the breadth of out
 
   * We have added a new <b>Tile Random 2</b> node to generate adjacent tiles of random sizes and ratios, which is very useful to quickly create fully irregular grids with slanting, rounded corners and bevelling.
 
-    ![](tilerandom2-demo2.gif){width="640px"}
+    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
   * New <b>Triangle Grid</b> pattern to generate a grid made of triangles. We are using it in the material below to easily and perfectly simulate the leather grain. This generator represents a surface of vertices in 3D space and may be used to create a variety of polygonal styles.
 
-    ![](trianglegrid-demo.png){width="640px"}
+    ![](../../assets/trianglegrid-demo.png){width="640px"}
 * **New Noises**
 
   * In order to give you more variety, a set of <b>15 new Grunge Maps</b> (Concrete, Leaks, Splashes Dirty, ...) has been added to the library.
 
-    ![](grungemaps.png){width="640px"}
+    ![](../../assets/grungemaps.png){width="640px"}
   * You will also find a lot of <b>new 2D and 3D Noises</b>, like Voronoi (2D and 3D), Voronoi Fractal (2D and 3D), 3D Ridged Fractal and an update of the current 3D Perlin Noise (adding tiling and absolute options).  
     These noises are all mapped in 3D space and offer multiple styles, allowing for increased variety and control which will give you plenty of choice for creating the perfect map for your material, like the sea and the science fiction panels materials below.
 
-    ![](fractal-voronoi-sea.gif){width="640px"}
+    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
 
-    ![](fractal-voronoi-scifi-panel.gif){width="640px"}
+    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
   * A collection of <b>3D Texture nodes</b> (Position, SDF, Offset) and <b>3D Render nodes </b>(Surface or Volume) to create and render 3D textures, which are an atlas of a 3D model's slices.
 
-    ![](image2022-4-22-11-46-17.png){width="640px"}
+    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
 
 * **New Filters**
 
   * With the <b>Auto Crop</b> node, you can place a shape at the *center* of the image without being resized, or resize it to fit the space. So for example your shape may be freely tweaked while keeping a consistent position and size when scattered.
 
-    ![](autocrop-demo-01-resized.gif){width="640px"}
+    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
   * With the<b> Extend Shape</b> node you will be able to stretch a section of a shape over a custom direction and distance.
 
-    ![](extendshape.gif){width="640px"}
+    ![](../../assets/extendshape.gif){width="640px"}
   * And with the <b>Non-Uniform Rotation</b> node you can rotate an input according to a given map.
 
-    ![](nonuniformrotation-demo-02-resized.gif){width="640px"}
+    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
 * **And also...**
 
   * Easing functions (function graph) which are very useful to drive a value in a non linear way.
@@ -84,19 +83,19 @@ Take a look at the node pages linked below to for examples of the breadth of out
 * <b>Send to Stager  
   </b>You can now send your Substance material to Stager in one click, as it was already possible with Sampler and Painter. Thanks to this feature, no more need to publish as SBSAR and load up individual files (requires Stager version 1.2.0 with the new material manager)
 
-  ![](sendtostagershort.gif)
+  ![](../../assets/sendtostagershort.gif)
 
 ### Miscellaneous
 
 * If you are working on fabrics, you can now display a dedicated mesh in the 3D view in order to better see how your material is rendered on a draped shape. Open the <b>Scene</b> menu in the 3D view panel and select the <b>Cloth</b> option to display this model.
 
-  ![](fabric-rendering.png){width="640px"}
+  ![](../../assets/fabric-rendering.png){width="640px"}
 
 * We have also added some new scene management nodes for Substance model graphs. These nodes allow you to rename, reparent, fuse or expand your scene elements in order to organize your scene hierarchy. There is also a new node to set the pivot of one or more elements of a scene.
 
 * While working on projects in Designer, you may encounter warnings and error messages, which notify you of an issue in the project. In this version, we <b>improve the error management system</b> in order to surface all the errors and warnings in the Explorer: everything is listed in one place and so it's easier to check if your project contains any problems.
 
-  ![](warning-overview-explorer.png){width="640px"}
+  ![](../../assets/warning-overview-explorer.png){width="640px"}
 
 ## Release notes
 

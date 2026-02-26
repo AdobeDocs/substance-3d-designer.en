@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Clone (Filter Node)
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](clone-4.png)
+![](../../../../../../assets/clone-4.png)
 
 ## Clone
 
@@ -58,7 +57,7 @@ Requires some care to get the intended results:
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="clone-example.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/clone-example.png" width="300px"/></div> |
 | --- |
 |  |
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Light
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](light-2.png){width="128px"}
+![](../../../../../../assets/light-2.png){width="128px"}
 
 ## Light
 
@@ -45,7 +44,7 @@ This mask is a bit different from other Generators: it purely does fake lighting
 
 ## Example Images
 
-![](light-ex.gif)
+![](../../../../../../assets/light-ex.gif)
 
 </td>
 </tr>

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # PBR Metal Reflectance
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](pbr-metal-reflectance.png){width="128px"}
+![](../../../../../../assets/pbr-metal-reflectance.png){width="128px"}
 
 ## PBR Metal Reflectance
 

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Warp
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-warp-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-warp-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -183,7 +182,7 @@ The value multiplied against the background Preview input image.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](SplineWarp-Demo.gif "Node example 1")
+![Node example 1](../../../../../../assets/SplineWarp-Demo.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

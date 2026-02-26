@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Exposure Preview
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](hdr-exposure-preview.png){width="200px"}
+![](../../../../../../assets/hdr-exposure-preview.png){width="200px"}
 
 ## Exposure Preview
 
@@ -42,7 +41,7 @@ Helper node to preview exposure steps. Users sets a min and max value, the node 
 
 ## Example Images
 
-![](exp-preview-ex.png)
+![](../../../../../../assets/exp-preview-ex.png)
 
 </td>
 </tr>

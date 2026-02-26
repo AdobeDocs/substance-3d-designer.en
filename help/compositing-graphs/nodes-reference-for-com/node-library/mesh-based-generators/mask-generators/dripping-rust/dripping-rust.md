@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Dripping Rust
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](dripping-rust.png){width="128px"}
+![](../../../../../../assets/dripping-rust.png){width="128px"}
 
 ## Dripping Rust
 
@@ -60,7 +59,7 @@ This mask represents rust flakes and specks, with leaks running down.
 
 ## Example Images
 
-![](dripping-rust-ex3.gif)
+![](../../../../../../assets/dripping-rust-ex3.gif)
 
 </td>
 </tr>

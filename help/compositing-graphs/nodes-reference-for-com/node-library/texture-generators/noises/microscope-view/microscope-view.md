@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Microscope View
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](microscope-view.png){width="128px"}
+![](../../../../../../assets/microscope-view.png){width="128px"}
 
 ## Microscope View
 
@@ -47,7 +46,7 @@ This generates a warped noise that looks like bacteria or organisms under a micr
 
 ## Example Images
 
-![](microscope-view-ex.gif)
+![](../../../../../../assets/microscope-view-ex.gif)
 
 </td>
 </tr>

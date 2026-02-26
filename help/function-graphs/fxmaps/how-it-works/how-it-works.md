@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # How it works
 
 Understanding how an FX-Map graph works is the key to mastering this powerful feature.

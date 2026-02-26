@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Skew
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](skew-5.png){width="128px"}
+![](../../../../../../assets/skew-5.png){width="128px"}
 
-![](skew-grayscale.png){width="128px"}
+![](../../../../../../assets/skew-grayscale.png){width="128px"}
 
 ## Skew (Grayscale)
 
@@ -44,7 +43,7 @@ Skews an input image.
 
 ## Example Images
 
-![](skew-ex.gif)
+![](../../../../../../assets/skew-ex.gif)
 
 </td>
 </tr>

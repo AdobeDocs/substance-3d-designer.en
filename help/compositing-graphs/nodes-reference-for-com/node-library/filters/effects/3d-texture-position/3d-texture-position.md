@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Texture Position
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](3dtextureposition.png){width="256px"}
+![](../../../../../../assets/3dtextureposition.png){width="256px"}
 
 **In:** *Filter/Effect*
 
@@ -48,12 +47,12 @@ No parameters.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3dtextureposition-variant.jpg){width="256px"}
+![](../../../../../../assets/3dtextureposition-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtextureposition-node.png){width="128px"}
+![](../../../../../../assets/3dtextureposition-node.png){width="128px"}
 
 </td>
 </tr>

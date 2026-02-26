@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Workflow overview
 
 Substance 3D Designer is a Node-Based editor. That means almost every type of project or resource will involve placing nodes (building blocks) and connecting them to create a chain of operations (a Graph).This page explains the concept of Node-Based workflows, and provides a summary of the 3 main types of Graph you can author in Designer.
@@ -27,7 +26,7 @@ Substance 3D Designer is a Node-Based editor. That means almost every type of pr
 
 [Graph types](#graph-types)
 
-![Data flow simplified](graph-direction.png "Data flow simplified")
+![Data flow simplified](../../assets/graph-direction.png "Data flow simplified")
 
 ## Node-based workflow
 
@@ -35,7 +34,7 @@ Working in Designer is different from other 2D image editing software such as Ph
 
 The major advantage is that your workflow becomes <b>non-linear</b>. Unlike actions performed manually that go into a history stack, you can always swap out or modify a Node at any point in time. If you decide that your very first Contrast adjustment, affecting the result of your image all the way to the end, was too much, then you can still go back and adjust it or even cut it out completely, without losing all the work you performed afterwards.
 
-![Graph instances simplified](sub-graph.png "Graph instances simplified")
+![Graph instances simplified](../../assets/sub-graph.png "Graph instances simplified")
 
 ## Graph instance workflow
 
@@ -43,7 +42,7 @@ Instancing Graphs is a key process in Designer. It allows you to build your own 
 
 For more information about Graph Instances in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), there is a [dedicated section](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) about them in the documentation.
 
-![Graph parameters simplified](parameters-5.png "Graph parameters simplified")
+![Graph parameters simplified](../../assets/parameters-5.png "Graph parameters simplified")
 
 ## Custom parameters
 
@@ -57,7 +56,7 @@ Below you can find a summary of the three types of Graph you can edit in Substan
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -79,7 +78,7 @@ Substance graphs are[ the most widely supported type of graph](../../getting-sta
 Below you can find some typical examples of common usecases.
 
 +++Simple shape
-![Simple shape in Substance graph](simpleshape.png "Simple shape in Substance graph"){width="512px"}
+![Simple shape in Substance graph](../../assets/simpleshape.png "Simple shape in Substance graph"){width="512px"}
 
 
 
@@ -90,7 +89,7 @@ The Text with the number, or the thickness of the edge can be exposed externally
 +++
 
 +++Adjustment filter
-![Adjustment filter in Substance graph](simplefilter.png "Adjustment filter in Substance graph"){width="512px"}
+![Adjustment filter in Substance graph](../../assets/simplefilter.png "Adjustment filter in Substance graph"){width="512px"}
 
 
 
@@ -101,7 +100,7 @@ The contrast values set in the Histogram can be exposed, making this a simple bu
 +++
 
 +++Full material
-![Full material in Substance graph](simplematerial.png "Full material in Substance graph"){width="512px"}
+![Full material in Substance graph](../../assets/simplematerial.png "Full material in Substance graph"){width="512px"}
 
 
 
@@ -115,7 +114,7 @@ This example makes use of [Link Creation Modes](../../interface/the-graph-view/l
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -135,7 +134,7 @@ Functions can be used in many different contexts, the main ones being to modify 
 Below are some examples from common use cases for Substance function graphs.
 
 +++Simple function
-![Simple function graph](lerpfunction.png "Simple function graph"){width="256px"}
+![Simple function graph](../../assets/lerpfunction.png "Simple function graph"){width="256px"}
 
 
 
@@ -146,7 +145,7 @@ This function could also be written as *lerp(0.1, 0.8, Intensity)* in a pseudoco
 +++
 
 +++Advanced function
-![Advanced function](pixel-function.png "Advanced function"){width="512px"}
+![Advanced function](../../assets/pixel-function.png "Advanced function"){width="512px"}
 
 
 

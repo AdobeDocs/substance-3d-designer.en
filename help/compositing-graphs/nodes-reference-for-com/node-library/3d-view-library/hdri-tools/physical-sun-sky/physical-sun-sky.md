@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Physical Sun/Sky
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](panorama-physical-sun-sky.png){width="200px"}
+![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
 
 ## Physical Sun/Sky
 
@@ -54,7 +53,7 @@ Physical Sun and Sky implementation based on Hosek-Wikie skylight model. Provide
 
 ## Example Images
 
-![](sky-ex.gif)
+![](../../../../../../assets/sky-ex.gif)
 
 </td>
 </tr>

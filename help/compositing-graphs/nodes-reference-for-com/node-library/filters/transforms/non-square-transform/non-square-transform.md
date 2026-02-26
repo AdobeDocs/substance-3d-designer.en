@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Non-Square Transform
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](safe-transform.png)
+![](../../../../../../assets/safe-transform.png)
 
-![](safe-transform-grayscale.png)
+![](../../../../../../assets/safe-transform-grayscale.png)
 
 ## Non-Square Transform (Grayscale)
 
@@ -54,7 +53,7 @@ Make sure you fully understand the [Graph Parameters ](../../../../../../composi
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="nonsquare-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/nonsquare-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color sampler tool
 
-![Color sampler tool](color-sampler-demo.png "Color sampler tool"){zoomable="yes"}
+![Color sampler tool](../../../assets/color-sampler-demo.png "Color sampler tool"){zoomable="yes"}
 
 The Color Sampler tool lets you <b>track the value of a specific pixel</b> in the [2D View](../../../interface/2d-view/2d-view.md) as you tweak parameters or switch nodes.
 
@@ -25,16 +24,16 @@ It places a pin in the viewport and samples the color and position of the pixel 
 
 Follow these steps to access and use the tool:
 
-1. Click the ![](color-sampler-information-button.png) <b>Information</b> button in the 2D view toolbar to open the Information dock and toolbar
-1. Click the ![](color-sampler-tool-icon.png) <b>Color Sampler tool</b> button in the Information toolbar
-1. In the viewport, click on the specific pixel you want to sample to place a ![](color-sampler-pin-icon.png) <b>pin</b>
+1. Click the ![](../../../assets/color-sampler-information-button.png) <b>Information</b> button in the 2D view toolbar to open the Information dock and toolbar
+1. Click the ![](../../../assets/color-sampler-tool-icon.png) <b>Color Sampler tool</b> button in the Information toolbar
+1. In the viewport, click on the specific pixel you want to sample to place a ![](../../../assets/color-sampler-pin-icon.png) <b>pin</b>
 1. Examine the sampled values in the dedicated section of the Information dock
-1. When you are done with the tool, click the ![](color-sampler-remove-pin.png) <b>Delete</b> button to remove the pin from the viewport.  
+1. When you are done with the tool, click the ![](../../../assets/color-sampler-remove-pin.png) <b>Delete</b> button to remove the pin from the viewport.  
    You can also remove the pin by clicking RMB on it and selecting the 'Delete' action in the contextual menu.
 
 Here is a demonstration of the tool in action:
 
-![Color sampler: using the tool](color-sampler-demo.gif "Color sampler: using the tool"){zoomable="yes"}
+![Color sampler: using the tool](../../../assets/color-sampler-demo.gif "Color sampler: using the tool"){zoomable="yes"}
 
 *Click to enlarge*
 
@@ -45,7 +44,7 @@ The copied values can be <b>pasted in parameters using a color thumbnail</b>.
 
 The color thumbnails in the Information panel can also be dragged and dropped directly onto the color thumbnails of those parameters.
 
-![Color sampler: copy RGBA values](color-sampler-demo-copy-rgba-values.gif "Color sampler: copy RGBA values"){zoomable="yes"}
+![Color sampler: copy RGBA values](../../../assets/color-sampler-demo-copy-rgba-values.gif "Color sampler: copy RGBA values"){zoomable="yes"}
 
 
 
@@ -71,7 +70,7 @@ The information is grouped into three types and two formats.
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Sampled information](color-sampler-information.png "Sampled information"){zoomable="yes"}
+![Sampled information](../../../assets/color-sampler-information.png "Sampled information"){zoomable="yes"}
 
 </td>
 </tr>

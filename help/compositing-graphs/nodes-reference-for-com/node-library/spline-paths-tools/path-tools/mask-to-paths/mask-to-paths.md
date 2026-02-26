@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mask to Paths
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](mask-to-paths-icon.png "Node icon")
+![Node icon](../../../../../../assets/mask-to-paths-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -161,12 +160,12 @@ Available variables:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 2](MaskToPaths-Demo2.gif "Node example 2"){zoomable="yes"}
+![Node example 2](../../../../../../assets/MaskToPaths-Demo2.gif "Node example 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 1](MaskToPaths-Demo1.gif "Node example 1"){zoomable="yes"}
+![Node example 1](../../../../../../assets/MaskToPaths-Demo1.gif "Node example 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -176,12 +175,12 @@ Available variables:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 3: Startup modes](MaskToPaths-Demo3.gif "Node example 3: Startup modes"){zoomable="yes"}
+![Node example 3: Startup modes](../../../../../../assets/MaskToPaths-Demo3.gif "Node example 3: Startup modes"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 3: Ordering modes](MaskToPaths-Demo4.gif "Node example 3: Ordering modes"){zoomable="yes"}
+![Node example 3: Ordering modes](../../../../../../assets/MaskToPaths-Demo4.gif "Node example 3: Ordering modes"){zoomable="yes"}
 
 </td>
 </tr>

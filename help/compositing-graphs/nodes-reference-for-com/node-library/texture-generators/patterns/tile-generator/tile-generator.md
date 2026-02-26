@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Tile Generator
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](tile-generator.png){width="128px"}
+![](../../../../../../assets/tile-generator.png){width="128px"}
 
 ## Tile Generator (Color)
 
@@ -116,13 +115,13 @@ Some general usage tips:
 
 ## Example Images
 
-![](tilesampler-ex.png)
+![](../../../../../../assets/tilesampler-ex.png)
 
-![](image2020-9-17-14-50-18.png)
+![](../../../../../../assets/image2020-9-17-14-50-18.png)
 
-![](image2020-9-17-14-52-4.png)
+![](../../../../../../assets/image2020-9-17-14-52-4.png)
 
-![](image2020-9-17-14-53-47.png)
+![](../../../../../../assets/image2020-9-17-14-53-47.png)
 
 </td>
 </tr>

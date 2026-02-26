@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Modify Color Palette
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Quantize Color icon](ModifyColorPalette.png "Quantize Color icon"){width="200px"}
+![Quantize Color icon](../../../../../../assets/ModifyColorPalette.png "Quantize Color icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -91,9 +90,9 @@ This node may be used in combination with the following nodes: [Quantize Color](
 
 ## Examples
 
-![Modify color palette: Example 1](modify_color_palette_example_1.png "Modify color palette: Example 1"){zoomable="yes"}
+![Modify color palette: Example 1](../../../../../../assets/modify_color_palette_example_1.png "Modify color palette: Example 1"){zoomable="yes"}
 
-![Modify color palette: Example 2](modify_color_palette_example_3.png "Modify color palette: Example 2"){zoomable="yes"}
+![Modify color palette: Example 2](../../../../../../assets/modify_color_palette_example_3.png "Modify color palette: Example 2"){zoomable="yes"}
 
 <table>
   <tr>

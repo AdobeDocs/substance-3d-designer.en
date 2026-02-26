@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Blue Noise Fast
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](blue-noise.png){width="128px"}
+![](../../../../../../assets/blue-noise.png){width="128px"}
 
 ## Blue Noise Fast
 
@@ -40,7 +39,7 @@ A simple, fast, pixel-scale noise.
 
 ## Example Images
 
-![](blue-noise-ex.gif)
+![](../../../../../../assets/blue-noise-ex.gif)
 
 </td>
 </tr>

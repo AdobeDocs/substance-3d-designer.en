@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color Match
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](color-match-3.png){width="128px"}
+![](../../../../../../assets/color-match-3.png){width="128px"}
 
 ## Color Match
 

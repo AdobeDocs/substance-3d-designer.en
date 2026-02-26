@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Debugging plugins using Visual Studio Code
 
 As a workflow standard for many developers, the **Visual Studio Code IDE** is available to debug Python plugins.

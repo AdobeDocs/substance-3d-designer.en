@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Make It Tile Photo
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](make-it-tile-photo.png)
+![](../../../../../../assets/make-it-tile-photo.png)
 
-![](make-it-tile-photo-grayscale.png)
+![](../../../../../../assets/make-it-tile-photo-grayscale.png)
 
 ## Make It Tile Photo (Grayscale)
 
@@ -47,7 +46,7 @@ This node provides edge-fixup functionality for any image that might not tile du
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="mit-photo-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mit-photo-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

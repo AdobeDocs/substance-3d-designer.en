@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Curvature (Filter Node)
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](curvature-1.png){width="128px"}
+![](../../../../../../assets/curvature-1.png){width="128px"}
 
 ## Curvature
 
@@ -44,7 +43,7 @@ This node is useful for some quick highlighting or darkening of certain edges. I
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="curvature-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curvature-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

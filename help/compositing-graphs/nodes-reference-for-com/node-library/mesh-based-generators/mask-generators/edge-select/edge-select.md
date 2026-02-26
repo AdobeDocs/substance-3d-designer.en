@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Edge Select
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](edge-select.png){width="128px"}
+![](../../../../../../assets/edge-select.png){width="128px"}
 
 ## Edge Select
 
@@ -62,7 +61,7 @@ This mask is the best way to select any kind of edge based on the curvature. Con
 
 ## Example Images
 
-![](edge-select-ex.gif)
+![](../../../../../../assets/edge-select-ex.gif)
 
 </td>
 </tr>

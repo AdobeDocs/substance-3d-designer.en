@@ -12,12 +12,11 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Plugin Manager
 
 The <b>Plugin manager</b> dialog is accessible from the <b>Tools</b> menu in the main menu bar. It lets you see which plugins are *active*, as well as *load and unload* plugins.
 
-![Plugin manager](pluginmgr.png "Plugin manager")
+![Plugin manager](../../assets/pluginmgr.png "Plugin manager")
 
 It is also possible to *manually* load plugins, by using the <b>Browse</b> button and choosing a Python file.
 

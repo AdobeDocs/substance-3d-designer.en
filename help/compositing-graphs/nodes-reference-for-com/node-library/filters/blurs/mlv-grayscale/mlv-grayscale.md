@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # MLV grayscale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV grayscale: icon](MLV_Grayscale_Icon.png "MLV grayscale: icon")
+![MLV grayscale: icon](../../../../../../assets/MLV_Grayscale_Icon.png "MLV grayscale: icon")
 
 <b>In:</b> Filters &gt; Blurs
 

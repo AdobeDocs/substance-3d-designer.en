@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Cube 3D
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](cube3-ex.png)
+![](../../../../../../assets/cube3-ex.png)
 
 ## Cube 3D
 
@@ -46,7 +45,7 @@ Renders a grayscale 3D cube with shading that also serves as screen-depth. The r
 
 ## Example Images
 
-![](cube3d-ex.gif)
+![](../../../../../../assets/cube3d-ex.gif)
 
 </td>
 </tr>

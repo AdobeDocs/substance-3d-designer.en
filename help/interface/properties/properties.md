@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Properties
 
 This page presents the <b>Properties </b>panel of Substance 3D Designer, its layout and the different rollouts and categories and parameters you can find within. It is focused on properties for[ Substance graphs](../../compositing-graphs/substance-compositing-graphs.md). [function graphs](../../function-graphs/function-graphs.md), [MDL graphs](../../mdl-graphs/mdl-graphs.md) and [FX-Map graphs](../../function-graphs/fxmaps/fxmaps.md) have simpler layouts.
@@ -28,7 +27,7 @@ The <b>Properties </b>panel is a context-sensitive panel that changes based on y
 </td>
 <td style="border: 0;" valign="top">
 
-![Properties dock](image2020-11-9-13-49-48.png "Properties dock")
+![Properties dock](../../assets/image2020-11-9-13-49-48.png "Properties dock")
 
 </td>
 </tr>

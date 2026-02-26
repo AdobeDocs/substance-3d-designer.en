@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Old Versions
 
 * [Version 2020.2 (10.2)](../../release-notes/old-versions/version-2020-2-10-2/version-2020-2-10-2.md)

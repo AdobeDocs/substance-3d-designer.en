@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # BaseColor / Metallic / Roughness converter
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](pbr-convert.png){width="128px"}
+![](../../../../../../assets/pbr-convert.png){width="128px"}
 
 ## BaseColor / Metallic / Roughness converter
 

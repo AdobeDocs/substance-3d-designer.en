@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal Uncombine
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Normal uncombine icon](NormalUncombine.png "Normal uncombine icon"){width="200px"}
+![Normal uncombine icon](../../../../../../assets/NormalUncombine.png "Normal uncombine icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Normal map
 
@@ -89,7 +88,7 @@ Removes from a normal map the surface details described by a height map.
   </tr>
 </table>
 
-![Normal uncombine: Example 2](normal_uncombine_example_4.png "Normal uncombine: Example 2"){zoomable="yes"}
+![Normal uncombine: Example 2](../../../../../../assets/normal_uncombine_example_4.png "Normal uncombine: Example 2"){zoomable="yes"}
 
 <table>
   <tr>
@@ -104,7 +103,7 @@ Removes from a normal map the surface details described by a height map.
   </tr>
 </table>
 
-![Normal uncombine: Example 4](normal_uncombine_example_6.png "Normal uncombine: Example 4"){zoomable="yes"}
+![Normal uncombine: Example 4](../../../../../../assets/normal_uncombine_example_6.png "Normal uncombine: Example 4"){zoomable="yes"}
 
 <table>
   <tr>
@@ -119,4 +118,4 @@ Removes from a normal map the surface details described by a height map.
   </tr>
 </table>
 
-![Normal uncombine: Example 6](normal_uncombine_example_5.png "Normal uncombine: Example 6"){zoomable="yes"}
+![Normal uncombine: Example 6](../../../../../../assets/normal_uncombine_example_5.png "Normal uncombine: Example 6"){zoomable="yes"}

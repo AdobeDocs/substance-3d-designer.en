@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Sun Bleach
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](sun-bleach.png){width="128px"}
+![](../../../../../../assets/sun-bleach.png){width="128px"}
 
 ## Sun Bleach
 
@@ -54,7 +53,7 @@ This mask is similar to [Light](../../../../../../compositing-graphs/nodes-refer
 
 ## Example Images
 
-![](sun-bleach-ex.gif)
+![](../../../../../../assets/sun-bleach-ex.gif)
 
 </td>
 </tr>

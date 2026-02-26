@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Tile Random 2
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](tilerandom2.jpg){width="200px"}
+![](../../../../../../assets/tilerandom2.jpg){width="200px"}
 
 **In:** *Texture Generators* */Patterns*
 
@@ -163,37 +162,37 @@ A dedicated output lets you input the shape's **UVs** into **Flood Fill to (...)
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](tilerandom2-variant.jpg){width="256px"}
+![](../../../../../../assets/tilerandom2-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](tilerandom2-variant2.jpg){width="256px"}
+![](../../../../../../assets/tilerandom2-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](tilerandom2-variant3.jpg){width="256px"}
+![](../../../../../../assets/tilerandom2-variant3.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](tilerandom2-inputs.gif){width="512px"}
+![](../../../../../../assets/tilerandom2-inputs.gif){width="512px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](tilerandom2-demo.gif){width="512px"}
+![](../../../../../../assets/tilerandom2-demo.gif){width="512px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](tilerandom2-demo2.gif){width="512px"}
+![](../../../../../../assets/tilerandom2-demo2.gif){width="512px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](tilerandom2-node.png){width="340px"}
+![](../../../../../../assets/tilerandom2-node.png){width="340px"}
 
 </td>
 </tr>

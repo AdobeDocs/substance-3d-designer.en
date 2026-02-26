@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mask Builder
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](mask-builder.png){width="128px"}
+![](../../../../../../assets/mask-builder.png){width="128px"}
 
 ## Mask Builder
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Star
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](star-5.png)
+![](../../../../../../assets/star-5.png)
 
 ## Star
 

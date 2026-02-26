@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Multi Directional Warp
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](multi-directional-warp-color.png)![](multi-directional-warp-grayscalepng.png)
+![](../../../../../../assets/multi-directional-warp-color.png)![](../../../../../../assets/multi-directional-warp-grayscalepng.png)
 
 ## Multi Directional Warp (Grayscale)
 

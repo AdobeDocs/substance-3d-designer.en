@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Merge List
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-merge-list-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-merge-list-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -133,7 +132,7 @@ Displays additional lines at the edges of the spline’s thickness.
 </tr>
 </table>
 
-![Node demo](SplineMergeList-Demo.gif "Node demo")
+![Node demo](../../../../../../assets/SplineMergeList-Demo.gif "Node demo")
 
 </td>
 <td style="border: 0;" valign="top">

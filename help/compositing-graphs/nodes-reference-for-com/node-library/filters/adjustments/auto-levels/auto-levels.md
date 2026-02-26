@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Auto Levels
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](auto-levels.png){width="128px"}
+![](../../../../../../assets/auto-levels.png){width="128px"}
 
 ## Auto Levels
 
@@ -36,7 +35,7 @@ Automatically adjusts the levels of the input to use the full range from black t
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="auto-levels-example.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/auto-levels-example.png" width="300px"/></div> |
 | --- |
 |  |
 

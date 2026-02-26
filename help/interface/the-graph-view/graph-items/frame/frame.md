@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Frame
 
 <table>
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Frame icon](graphatomic-frame.png "Frame icon")
+![Frame icon](../../../../assets/graphatomic-frame(1).png "Frame icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -43,7 +42,7 @@ By default, the frame is a rectangle with rounded corners filled with the color 
 
 The title set in the <b>Title</b> property rests in grey on the frame's top left corner.
 
-![Frame (default state)](graph-frames-default.png "Frame (default state)")
+![Frame (default state)](../../../../assets/graph-frames-default.png "Frame (default state)")
 
 
 
@@ -54,7 +53,7 @@ When hovering the top of the frame, a header bar is displayed.
 
 The frame may be moved by dragging that header bar or its title.
 
-![Frame (hover state)](graph-frames-hover.png "Frame (hover state)")
+![Frame (hover state)](../../../../assets/graph-frames-hover.png "Frame (hover state)")
 
 
 
@@ -63,7 +62,7 @@ The frame may be moved by dragging that header bar or its title.
 +++Selected
 When selected, the title and outline of the frame are highlighted in white. The outline gets thicker.
 
-![Frame (selected state)](graph-frames-selected.png "Frame (selected state)")
+![Frame (selected state)](../../../../assets/graph-frames-selected.png "Frame (selected state)")
 
 
 
@@ -106,7 +105,7 @@ If a selection is active in a graph when a frame is created, that frame will be 
 
 With that in mind, creating frames using a keyboard shortcut makes it even faster to frame content in a graph.
 
-![Frames: Creation methods](graph-frames_creation.gif "Frames: Creation methods"){width="480px"}
+![Frames: Creation methods](../../../../assets/graph-frames_creation.gif "Frames: Creation methods"){width="480px"}
 
 >[!TIP]
 >
@@ -125,7 +124,7 @@ The illustration highlights the interaction zones for panning (blue) and resizin
 </td>
 <td style="border: 0;" valign="top">
 
-![Frames: Interaction zones](graph-frames_interaction-zones.png "Frames: Interaction zones")
+![Frames: Interaction zones](../../../../assets/graph-frames_interaction-zones.png "Frames: Interaction zones")
 
 </td>
 </tr>
@@ -144,7 +143,7 @@ Hold the <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) key to shift this snapping t
 </td>
 <td style="border: 0;" valign="top">
 
-![Frames: Grid snapping](graph-frames_grid-snapping.gif "Frames: Grid snapping")
+![Frames: Grid snapping](../../../../assets/graph-frames_grid-snapping.gif "Frames: Grid snapping")
 
 </td>
 </tr>
@@ -159,7 +158,7 @@ The <b>Title</b> resting on the top left of the frame. Its visibility of the t
 
 The size of the title can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../../../interface/the-graph-view/the-graph-view.md) toolbar.
 
-![Frames: Title](graph_frames_title.gif "Frames: Title"){width="640px"}
+![Frames: Title](../../../../assets/graph_frames_title.gif "Frames: Title"){width="640px"}
 
 
 
@@ -168,11 +167,11 @@ The size of the title can be locked at a minimum screen size so its stays readab
 +++Description
 The <b>Description</b> is an optional, additional piece of text that may be used to annotate the frame's content.
 
-The text can be formatted using HTML tags. This formatting is toggled by clicking the ![](graph-frames_html-markup-button.png) <b>HTML markup</b> button.
+The text can be formatted using HTML tags. This formatting is toggled by clicking the ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML markup</b> button.
 
 Learn more in the Description section below.
 
-![Frames: Description](graph-frames_description.gif "Frames: Description"){width="640px"}
+![Frames: Description](../../../../assets/graph-frames_description.gif "Frames: Description"){width="640px"}
 
 
 
@@ -183,7 +182,7 @@ The <b>Frame Color</b> is used to fill the frame in the Graph view. Use the colo
 
 The color's alpha channel control the *opacity* of the frame, where a value of 0 means the frame is fully transparent.
 
-![Frames: Color](graph-frames_colour.gif "Frames: Color"){width="640px"}
+![Frames: Color](../../../../assets/graph-frames_colour.gif "Frames: Color"){width="640px"}
 
 
 
@@ -206,7 +205,7 @@ Its size can be locked at a minimum screen size so its stays readable when zoomi
 </td>
 <td style="border: 0;" valign="top">
 
-![Frame (default description)](graph-frames-descr.png "Frame (default description)"){zoomable="yes"}
+![Frame (default description)](../../../../assets/graph-frames-descr.png "Frame (default description)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -218,12 +217,12 @@ Its size can be locked at a minimum screen size so its stays readable when zoomi
 
 ### HTML formatting
 
-Text can be formatted using HTML tags in the frame's <b>Description</b> property. Formatting must be enabled by using the ![](graph-frames_html-markup-button.png) <b>HTML markup</b> button in that same property.
+Text can be formatted using HTML tags in the frame's <b>Description</b> property. Formatting must be enabled by using the ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML markup</b> button in that same property.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Frame (HTML formatted description)](graph-frames-descr-html.png "Frame (HTML formatted description)"){zoomable="yes"}
+![Frame (HTML formatted description)](../../../../assets/graph-frames-descr-html.png "Frame (HTML formatted description)"){zoomable="yes"}
 
 </td>
 </tr>
@@ -281,7 +280,7 @@ As connectors are displayed or hidden, added or removed, the node's height adjus
 
 Therefore, the location of a node's center point should not change until it is *deliberately moved*.
 
-![Frame inclusion: tall nodes](frame_inclusion_node_tall.png "Frame inclusion: tall nodes")
+![Frame inclusion: tall nodes](../../../../assets/frame_inclusion_node_tall.png "Frame inclusion: tall nodes")
 
 
 
@@ -293,11 +292,11 @@ If multiple nodes are docked into a chain, the host node of the last docked node
 
 Badges, connectors and information displayed below the node are all ignored.
 
-![Frame inclusion: docked nodes](frame_inclusion_node_docked.png "Frame inclusion: docked nodes")
+![Frame inclusion: docked nodes](../../../../assets/frame_inclusion_node_docked.png "Frame inclusion: docked nodes")
 
 
 
-![Frame inclusion: nodes](frame_inclusion_node.png "Frame inclusion: nodes")
+![Frame inclusion: nodes](../../../../assets/frame_inclusion_node.png "Frame inclusion: nodes")
 
 
 
@@ -308,7 +307,7 @@ The <b>center point</b> of the Dot is used.
 
 Connectors, portal icons and names are all ignored.
 
-![Frame inclusion: Dot nodes](frame_inclusion_dot.png "Frame inclusion: Dot nodes")
+![Frame inclusion: Dot nodes](../../../../assets/frame_inclusion_dot.png "Frame inclusion: Dot nodes")
 
 
 
@@ -325,11 +324,11 @@ Badges, connectors and information displayed below the node are all ignored.
 
 
 
-![Frame inclusion: parented comments](frame_inclusion_comment_parented.png "Frame inclusion: parented comments")
+![Frame inclusion: parented comments](../../../../assets/frame_inclusion_comment_parented.png "Frame inclusion: parented comments")
 
 
 
-![Frame inclusion: comments](frame_inclusion_comment.png "Frame inclusion: comments")
+![Frame inclusion: comments](../../../../assets/frame_inclusion_comment.png "Frame inclusion: comments")
 
 
 
@@ -338,7 +337,7 @@ Badges, connectors and information displayed below the node are all ignored.
 +++Pins
 The <b>tip</b> of the pin icon is used.
 
-![Frame inclusion: navigation pins](frame_inclusion_pin.png "Frame inclusion: navigation pins")
+![Frame inclusion: navigation pins](../../../../assets/frame_inclusion_pin.png "Frame inclusion: navigation pins")
 
 
 
@@ -351,7 +350,7 @@ This means a nested frame must be entirely within another frame's bounds to be i
 
 The title is ignored.
 
-![Frame inclusion: nested frames](frame_inclusion_frame.png "Frame inclusion: nested frames")
+![Frame inclusion: nested frames](../../../../assets/frame_inclusion_frame.png "Frame inclusion: nested frames")
 
 
 
@@ -359,7 +358,7 @@ The title is ignored.
 
 ## Fit size to content
 
-![Frames: Fit size to content](graph-frames_fit-size-to-content.png "Frames: Fit size to content")
+![Frames: Fit size to content](../../../../assets/graph-frames_fit-size-to-content.png "Frames: Fit size to content")
 
 As you make adjustments in your graph, a frame may not be gracefully adjusted to its content anymore. In this case, it is possible to automatically adjust the position and size of the frame so it adjusts to the span of its content, with a padding of one medium grid cell.
 
@@ -382,14 +381,14 @@ If no included object can be fit into that space, the frame's height is adjusted
 </td>
 <td style="border: 0;" valign="top">
 
-![Frames: Fit size to content (with description)](graph-frames_fit-description.png "Frames: Fit size to content (with description)")
+![Frames: Fit size to content (with description)](../../../../assets/graph-frames_fit-description.png "Frames: Fit size to content (with description)")
 
 </td>
 </tr>
 </table>
 
 +++Example
-![Frames: Fit size to content (GIF)](graph-frames_fit-size-to-content.gif "Frames: Fit size to content (GIF)"){width="640px"}
+![Frames: Fit size to content (GIF)](../../../../assets/graph-frames_fit-size-to-content.gif "Frames: Fit size to content (GIF)"){width="640px"}
 
 
 
@@ -397,7 +396,7 @@ If no included object can be fit into that space, the frame's height is adjusted
 
 ## Auto-expand
 
-![Frames: Auto-expand](graph-frames_auto-expand.png "Frames: Auto-expand")
+![Frames: Auto-expand](../../../../assets/graph-frames_auto-expand.png "Frames: Auto-expand")
 
 As the graph grows, the frames' content may need to be rearranged. Nodes may shift to make room for additions or content may need to be spaced out more to promote readability.
 
@@ -412,7 +411,7 @@ If an object is not fully enclosed by the frame's bounds but still satisfies its
 > While the <b>Shift</b> key may be pressed or released at any point during the move to trigger or cancel the automatic adjustment of the frame, it *must* be held when completing the move to effectively apply the adjustment.
 
 +++Example
-![Frames: Auto-expand (GIF)](graph-frames_auto-expand.gif "Frames: Auto-expand (GIF)"){width="640px"}
+![Frames: Auto-expand (GIF)](../../../../assets/graph-frames_auto-expand.gif "Frames: Auto-expand (GIF)"){width="640px"}
 
 
 

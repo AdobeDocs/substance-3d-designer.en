@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mosaic
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](mosaic-1.png){width="128px"}
+![](../../../../../../assets/mosaic-1.png){width="128px"}
 
-![](mosaic-grayscale.png){width="128px"}
+![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
 
 ## Mosaic (Grayscale)
 
@@ -53,7 +52,7 @@ This is useful for adding more definition to grayscale maps such as Heightmap, a
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="mosaci-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mosaci-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

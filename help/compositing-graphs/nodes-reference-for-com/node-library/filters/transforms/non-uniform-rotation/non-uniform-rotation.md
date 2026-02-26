@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Non-Uniform Rotation
 
 <table>
@@ -23,12 +22,12 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](nonuniformrotationgrayscale.png){width="200px"}
+![](../../../../../../assets/nonuniformrotationgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](nonuniformrotationcolor.png){width="200px"}
+![](../../../../../../assets/nonuniformrotationcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -85,17 +84,17 @@ Positive values in the **Rotation Map** input result in a *clockwise* rotation.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](nonuniformrotation-demo-02-resized.gif){width="768px"}
+![](../../../../../../assets/nonuniformrotation-demo-02-resized.gif){width="768px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](nonuniformrotation-variant-png.jpg){width="256px"}
+![](../../../../../../assets/nonuniformrotation-variant-png.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](nonuniformrotation-node.png){width="256px"}
+![](../../../../../../assets/nonuniformrotation-node.png){width="256px"}
 
 </td>
 </tr>

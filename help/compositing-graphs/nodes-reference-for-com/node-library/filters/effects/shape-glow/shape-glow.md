@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shape Glow
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](shape-glow-grayscale.png){width="128px"}
+![](../../../../../../assets/shape-glow-grayscale.png){width="128px"}
 
-![](shape-glow.png){width="128px"}
+![](../../../../../../assets/shape-glow.png){width="128px"}
 
 ## Shape Glow (Grayscale)
 
@@ -48,7 +47,7 @@ Creates a soft glow around an input mask (for the grayscale version) or a shape 
 * **Input Is Pre-Multiplied**: *False/True *(Color Version Only)**Whether the input should be assumed as pre-multiplied.
 * **Pre-Multiply Output**: *False/True*Whether the output should be pre-multiplied.
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="shapeglow-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shapeglow-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

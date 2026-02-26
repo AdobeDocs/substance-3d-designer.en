@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Damas
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](grungedamas.jpg){width="200px"}
+![](../../../../../../assets/grungedamas.jpg){width="200px"}
 
 **In:** *Texture Generators**/Noises*
 
@@ -51,4 +50,4 @@ The **Grunge Damas** node generates a grunge map akin to a Damascus steel patter
 
 ## Example Images
 
-![](grungedamas-variant.jpg){width="256px"}
+![](../../../../../../assets/grungedamas-variant.jpg){width="256px"}

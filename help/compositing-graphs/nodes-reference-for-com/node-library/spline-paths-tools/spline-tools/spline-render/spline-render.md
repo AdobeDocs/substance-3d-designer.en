@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Render
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-render-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-render-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -191,7 +190,7 @@ This parameter has no effect when Start and End are both set to 0.
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 1](SplineRender-Demo.gif "Node example 1")
+![Node example 1](../../../../../../assets/SplineRender-Demo.gif "Node example 1")
 
 </td>
 </tr>

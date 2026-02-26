@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color Burn
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](color-burn.png){width="128px"}
+![](../../../../../../assets/color-burn.png){width="128px"}
 
 ## Color Burn
 

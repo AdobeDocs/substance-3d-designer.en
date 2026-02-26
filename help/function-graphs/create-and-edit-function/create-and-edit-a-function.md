@@ -12,20 +12,19 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Create and edit a function
 
 ## Create a function
 
-In order to create a function, you just need to click on the function icon ![](image2017-3-7-17-10-8.png) and choose "**Empty Function**".
+In order to create a function, you just need to click on the function icon ![](../../assets/image2017-3-7-17-10-8.png) and choose "**Empty Function**".
 
-![](image2017-3-7-17-8-37.png)
+![](../../assets/image2017-3-7-17-8-37.png)
 
 ## Edit a function
 
 Once a function has been created, you can modify it by clicking the function icon again, or by choosing Edit in the drop down list.
 
-![](image2017-3-7-17-11-42.png)
+![](../../assets/image2017-3-7-17-11-42.png)
 
 You will then enter in the function mode of the graph.
 
@@ -37,7 +36,7 @@ The function graph works in the same way as other graphs types in Designer: with
 
 You can create nodes by right-clicking in the graph and choosing "Add element", or by pressing space bar:
 
-![](capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
+![](../../assets/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
 
 ## Set an output
 

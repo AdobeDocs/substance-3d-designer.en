@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline 2D Transform
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-2d-transform-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-2d-transform-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -142,7 +141,7 @@ A higher value results in a smoother line.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](Spline2DTransform-Demo1.gif "Node example 1")
+![Node example 1](../../../../../../assets/Spline2DTransform-Demo1.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

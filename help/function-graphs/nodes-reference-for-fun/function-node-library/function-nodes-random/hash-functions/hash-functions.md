@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Hash functions
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Hash node: icon](hash-icon.png "Hash node: icon"){width="200px"}
+![Hash node: icon](../../../../../assets/hash-icon.png "Hash node: icon"){width="200px"}
 
 <b>In:</b> Functions &gt; Random
 
@@ -77,12 +76,12 @@ Available versions, with their input type and output type:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Hash 14 example](hash14-example.png "Hash 14 example"){zoomable="yes"}
+![Hash 14 example](../../../../../assets/hash14-example.png "Hash 14 example"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Hash 32 example](hash32-example.png "Hash 32 example"){zoomable="yes"}
+![Hash 32 example](../../../../../assets/hash32-example.png "Hash 32 example"){zoomable="yes"}
 
 </td>
 </tr>

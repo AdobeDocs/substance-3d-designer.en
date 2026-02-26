@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Caustics
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](rt-caustics-grayscale.png){width="128px"}
+![](../../../../../../assets/rt-caustics-grayscale.png){width="128px"}
 
 **In:** *Texture Generators**/Noises*
 
@@ -63,6 +62,6 @@ Generates projected caustics based on a height map and a light direction.Comes i
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="rt-caustics-grayscale-1.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/rt-caustics-grayscale-1.png" width="300px"/></div> |
 | --- |
 |  |

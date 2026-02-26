@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Ground Dirt
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](ground-dirt.png){width="128px"}
+![](../../../../../../assets/ground-dirt.png){width="128px"}
 
 ## Ground Dirt
 
@@ -53,7 +52,7 @@ This mask represents dirt that has accumulated from the ground up, the opposite 
 
 ## Example Images
 
-![](ground-dirt-ex.gif)
+![](../../../../../../assets/ground-dirt-ex.gif)
 
 </td>
 </tr>

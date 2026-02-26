@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal Invert
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](normal-invert.png){width="128px"}
+![](../../../../../../assets/normal-invert.png){width="128px"}
 
 ## Normal Invert
 

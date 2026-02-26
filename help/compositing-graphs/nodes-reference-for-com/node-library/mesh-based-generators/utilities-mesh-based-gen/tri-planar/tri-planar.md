@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Tri Planar
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](triplanar-1.png){width="128px"}
+![](../../../../../../assets/triplanar-1.png){width="128px"}
 
-![](triplanar-grayscale.png){width="128px"}
+![](../../../../../../assets/triplanar-grayscale.png){width="128px"}
 
 ## Tri Planar (Grayscale)
 

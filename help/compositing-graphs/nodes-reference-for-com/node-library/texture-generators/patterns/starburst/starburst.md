@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Starburst
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](starburst.png){width="128px"}
+![](../../../../../../assets/starburst.png){width="128px"}
 
 ## Starburst
 
@@ -47,7 +46,7 @@ Generates a simple starburst effect, with adjustment parameters available.
 
 ## Example Images
 
-![](starburst-ex.gif)
+![](../../../../../../assets/starburst-ex.gif)
 
 </td>
 </tr>

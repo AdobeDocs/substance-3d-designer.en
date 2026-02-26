@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Preview Paths
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](preview-paths-icon.png "Node icon")
+![Node icon](../../../../../../assets/preview-paths-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -61,12 +60,12 @@ Adjusts the thickness of rendered segments in pixels.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](PathsToSpline-Variant2-Before.jpg "Node example 1")
+![Node example 1](../../../../../../assets/PathsToSpline-Variant2-Before(1).jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](PathsToSpline-Variant1-Before.jpg "Node example 2")
+![Node example 2](../../../../../../assets/PathsToSpline-Variant1-Before(1).jpg "Node example 2")
 
 </td>
 </tr>

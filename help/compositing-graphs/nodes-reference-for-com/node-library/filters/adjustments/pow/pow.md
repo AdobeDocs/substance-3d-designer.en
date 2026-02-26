@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Pow
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](pow-1.png){width="128px"}
+![](../../../../../../assets/pow-1.png){width="128px"}
 
-![](pow-grayscale.png){width="128px"}
+![](../../../../../../assets/pow-grayscale.png){width="128px"}
 
 ## Pow (Grayscale)
 
@@ -44,7 +43,7 @@ Important: make sure to use the correct version, depending on whether you have a
 
 ## Example Images
 
-![](pow.gif)
+![](../../../../../../assets/pow.gif)
 
 </td>
 </tr>

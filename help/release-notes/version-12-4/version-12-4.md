@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 12.4
 
 **Substance 3D Designer 12.4** brings several quality of life improvements (a tool to clean a graph, using basic formulas to set parameters, a button to generate random seed, a lock for size, etc.) and support of Substance model graphs in the Python API. See below for more details about all these changes.
@@ -25,49 +24,49 @@ Release date: *January 31st, 2023*
 
 When you edit your graph, you sometimes have to experiment several possibilities, and plug / unplug various nodes until the moment you get the result you want. Then at the end, you have some nodes in your graph that are not connected to an output, therefore have no impact on the final result. This new tool will allow you to automatically detect and delete those nodes in order to clean your graphs before finalizing them. The cleaning tool is also optionally looking in parameters functions, and can be launched on the current graph through the dedicated button in the Graph View toolbar, or on a selection of graphs from the Explorer view.
 
-![](final-clean.gif){width="640px"}
+![](../../assets/final-clean.gif){width="640px"}
 
 ### Type formulas in parameters fields
 
 No need to use a calculator or to compute in your head anymore when you want to enter specific parameter values. You can now directly enter basic formulas like additions, divisions, mutliplications or subtractions when setting a numeric value for a parameter in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) and other places in the application.
 
-![](final-formula.gif){width="640px"}
+![](../../assets/final-formula.gif){width="640px"}
 
 ### Quick access buttons in the 3D View
 
 We have added an additional toolbar in the [3D view](../../interface/3d-view/3d-view.md) corresponding to all the options available in the [Display](../../interface/3d-view/3d-view.md) menu, for quick access to all these options (E.g., Wireframe, Grid, Bounding Box, etc.) as button toggles. We also added a toggle to show / hide the environment map.
 
-![](final-3dview.gif){width="640px"}
+![](../../assets/final-3dview.gif){width="640px"}
 
 ### Button to generate a Random Seed
 
 You can now quickly create different variations by using a new button to generate the random seed for your graph, instead of moving a slider.
 
-![](final-seed.gif){width="640px"}
+![](../../assets/final-seed.gif){width="640px"}
 
 ### Lock for the Output Size widget
 
 You can now lock the width and the height of the Output Size in order to make sure to keep a square size and avoid to manipulate the two values each time you want to update them.
 
-![](final-lock.gif){width="640px"}
+![](../../assets/final-lock.gif){width="640px"}
 
 ### Transform image input to Color/Greyscale
 
 Quickly switch between an [Input Color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) and an [Input Greyscale](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) through the node contextual menu.
 
-![](final-switch.gif){width="640px"}
+![](../../assets/final-switch.gif){width="640px"}
 
 ### Select clicked pin when displaying the Gradient Editor
 
 In the property panel, if you click a pin to edit a gradient, you will now automatically select the corresponding pin in the displayed [Gradient Editor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md).
 
-![](final-gradient.gif){width="640px"}
+![](../../assets/final-gradient.gif){width="640px"}
 
 ### Select downstream nodes
 
 New entry in the [node contextual menu](../../interface/the-graph-view/the-graph-view.md) to select all the nodes connected to the output of the selected node(s), directly or indirectly. So you select all the nodes impacted by your node. Useful to delete part of your graph or to rework the graph layout.
 
-![](final-downstream.gif){width="640px"}
+![](../../assets/final-downstream.gif){width="640px"}
 
 ## Python API Updates
 

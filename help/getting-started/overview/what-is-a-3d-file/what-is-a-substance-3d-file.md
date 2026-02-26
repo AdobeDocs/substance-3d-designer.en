@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # What is a Substance 3D File?
 
-![Parametric brick wall material](MaterialsOverview.gif "Parametric brick wall material")
+![Parametric brick wall material](../../../assets/MaterialsOverview.gif "Parametric brick wall material")
 
 *Example of brick wall material made by Käy Vriend.  
 Parameters can be changed to dynamically control the material's appearance.*

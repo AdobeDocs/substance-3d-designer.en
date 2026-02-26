@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Histogram render
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropic Kuwahara Grayscale icon](histogram_render.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
+![Anisotropic Kuwahara Grayscale icon](../../../../../../assets/histogram_render.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -78,6 +77,6 @@ Draws the histogram for a grayscale image.
 
 ## Examples
 
-![Histogram render: Example 1](histogram_render_example_1.png "Histogram render: Example 1"){zoomable="yes"}
+![Histogram render: Example 1](../../../../../../assets/histogram_render_example_1.png "Histogram render: Example 1"){zoomable="yes"}
 
-![Histogram render: Example 2](histogram_render_example_2.png "Histogram render: Example 2"){zoomable="yes"}
+![Histogram render: Example 2](../../../../../../assets/histogram_render_example_2.png "Histogram render: Example 2"){zoomable="yes"}

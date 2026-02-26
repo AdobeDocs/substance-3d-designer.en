@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Main MDL graph concepts
 
 This page presents the main concepts which are *specific* to [MDL graphs](../../mdl-graphs/mdl-graphs.md) and should be well understood for making the most of this graph type in Substance 3D Designer.
@@ -28,7 +27,7 @@ MDL materials use a description meant for physically-based rendering solutions.,
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Iray logo](iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Iray logo](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -47,7 +46,7 @@ For instance, if you want to work on a glass-like material, you may want to use 
 
 The Root node includes a thumbnail displaying a preview of its current output.
 
-![MDL graph's root node](mdl-root-hl.png "MDL graph's root node")
+![MDL graph's root node](../../assets/mdl-root-hl.png "MDL graph's root node")
 
 *Root node in an MDL graph and its properties displayed in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *panel*
 
@@ -76,7 +75,7 @@ The *type of data* going from an output connector or expected by an input connec
 >
 > Only connectors for *matching data types* may be linked together. The sole purpose of the color-coding is to increase readability regarding the type of data being passed in the graph, and what connectors may be linked together.
 
-![MDL node connector types](mdl-connector-types.png "MDL node connector types"){width="512px"}
+![MDL node connector types](../../assets/mdl-connector-types.png "MDL node connector types"){width="512px"}
 
 *Aspect of connectors vary according to I/O value type, which is displayed in parentheses after I/O identifier*
 
@@ -96,7 +95,7 @@ You may want to keep in mind the *rules* applied for filtering:
 * if the Node menu is displayed by *dragging a link* out of an *output* connector, the list includes nodes where the data type of the *first input* matches the selected *output* data type
 * if the Node menu is displayed by *dragging a link* out of an *input* connector, the list includes nodes where the data type of the *output* matches the *selected input* data type
 
-![Filtered node creation](mdl-filtered-node-creation.gif "Filtered node creation")
+![Filtered node creation](../../assets/mdl-filtered-node-creation.gif "Filtered node creation")
 
 *Filtered node creation in MDL graph, note the list changes according to the value type for the connector*
 
@@ -106,6 +105,6 @@ MDL materials can receive data from external sources, in the form of values and 
 
 Data can be passed to the exposed node depending on its *type*. For instance, Float values can be passed to an exposed <b>float</b> node, and a texture can be passed to an exposed <b>color</b> node (in this case, the sampled pixel’s RGBA values are passed as a color value).
 
-![Exposed graph inputs](mdl-graph-inputs-samplers.png "Exposed graph inputs")
+![Exposed graph inputs](../../assets/mdl-graph-inputs-samplers.png "Exposed graph inputs")
 
 *Exposed nodes create graph inputs which are both raw value inputs and samplers for textures*

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shape
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](shape-2.png){width="128px"}
+![](../../../../../../assets/shape-2.png){width="128px"}
 
 ## Shape
 
@@ -54,7 +53,7 @@ Despite its simplicity, this is a very useful node: it is the building block of 
 
 ## Example Images
 
-![](shape-ex.gif)
+![](../../../../../../assets/shape-ex.gif)
 
 </td>
 </tr>

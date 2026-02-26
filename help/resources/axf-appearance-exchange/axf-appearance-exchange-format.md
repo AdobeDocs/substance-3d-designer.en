@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # AxF (Appearance eXchange Format)
 
 <table>
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-[![AxF file icon](axf-file-icon.png)](https://www.xrite.com/axf)
+[![AxF file icon](../../assets/axf-file-icon.png)](https://www.xrite.com/axf)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +57,7 @@ The AxF files import workflow may be started from on of the two methods below:
 +++Home screen
 Click on the <b>Import AxF...</b> button in the [Home screen](../../interface/home-screen/home-screen.md)'s left section.
 
-![AxF: Start import from Home screen](axf_home-screen.png "AxF: Start import from Home screen"){width="600px"}
+![AxF: Start import from Home screen](../../assets/axf_home-screen.png "AxF: Start import from Home screen"){width="600px"}
 
 
 
@@ -67,7 +66,7 @@ Click on the <b>Import AxF...</b> button in the [Home screen](../../interface/h
 +++Explorer
 Click RMB on a package in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), and go to <b>Import &gt; AxF</b> in the package's contextual menu.
 
-![AxF: Start import from Explorer](axf_explorer.png "AxF: Start import from Explorer"){width="600px"}
+![AxF: Start import from Explorer](../../assets/axf_explorer.png "AxF: Start import from Explorer"){width="600px"}
 
 
 
@@ -87,7 +86,7 @@ The <b>Templates</b> section lets you set up the [Substance graph](../../composi
 
 <b>Metadata</b> and <b>Properties</b> list data extracted from the material in the AxF file. These have an impact on how some Substance graph templates properties are configured (see [Graph templates](#graph-templates) section below).
 
-![AxF: Import dialog](axf_import.png "AxF: Import dialog")
+![AxF: Import dialog](../../assets/axf_import.png "AxF: Import dialog")
 
 ### Result
 
@@ -107,7 +106,7 @@ In the case of [Substance graphs](../../compositing-graphs/substance-compositing
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Package result of import process](axf_package.png "AxF: Package result of import process")
+![AxF: Package result of import process](../../assets/axf_package.png "AxF: Package result of import process")
 
 </td>
 </tr>
@@ -126,7 +125,7 @@ Click the <b>Add template</b> button and select the desired graph type in the dr
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Add template in import dialog](axf_add-template.png "AxF: Add template in import dialog")
+![AxF: Add template in import dialog](../../assets/axf_add-template.png "AxF: Add template in import dialog")
 
 </td>
 </tr>
@@ -145,7 +144,7 @@ Thus, these templates are best used in combination with the 'AxF to Metallic Rou
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: MDL templates](axf_templates-mdl.png "AxF: MDL templates")
+![AxF: MDL templates](../../assets/axf_templates-mdl.png "AxF: MDL templates")
 
 </td>
 </tr>
@@ -168,7 +167,7 @@ Conversion templates may be used in combination with MDL templates dedicated to 
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: MDL templates](axf-templates.png "AxF: MDL templates")
+![AxF: MDL templates](../../assets/axf-templates.png "AxF: MDL templates")
 
 </td>
 </tr>
@@ -203,7 +202,7 @@ The *metadata* extracted from the material in the AxF file is copied in the grap
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF: Substance graph parameters](axf_graph-props.png "AxF: Substance graph parameters")
+![AxF: Substance graph parameters](../../assets/axf_graph-props.png "AxF: Substance graph parameters")
 
 </td>
 </tr>
@@ -226,7 +225,7 @@ The graph's <b>Physical Size</b> property is used to set the <b>Physical Size
 >
 > The changes to the resources in the file are added as a *new layer*. This means each export performed from Designer to the same AxF file will add to that file's size.
 
-![Export AxF](exportaxf.gif)
+![Export AxF](../../assets/exportaxf.gif)
 
 <table>
 <tr style="border: 0;">
@@ -236,12 +235,12 @@ The graph's <b>Physical Size</b> property is used to set the <b>Physical Size
 
 The <b>AxF</b> export dialog is available in the <b>Export outputs</b> dialog as a dedicated tab.
 
-In the [Graph View](../../interface/the-graph-view/the-graph-view.md) toolbar, open the ![](tools.jpg) <b>Tools</b> menu and select the <b>Export outputs...</b> option to display the dialog, then select the <b>AxF</b> tab.
+In the [Graph View](../../interface/the-graph-view/the-graph-view.md) toolbar, open the ![](../../assets/tools.jpg) <b>Tools</b> menu and select the <b>Export outputs...</b> option to display the dialog, then select the <b>AxF</b> tab.
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![AxF: Export option in Graph View toolbar](axf_graph-export.png "AxF: Export option in Graph View toolbar")
+![AxF: Export option in Graph View toolbar](../../assets/axf_graph-export.png "AxF: Export option in Graph View toolbar")
 
 </td>
 </tr>
@@ -259,7 +258,7 @@ The <b>File</b> input field lets you select the target AxF file which should be 
 >
 > A graph output needs to have its <b>Group</b> property set to 'AxF' for it to be listed in this dialog.
 
-![AxF: Export dialog](axf_export.png "AxF: Export dialog")
+![AxF: Export dialog](../../assets/axf_export.png "AxF: Export dialog")
 
 Click <b>Start export </b>to edit the target AxF file with the new layer containing the changes in the mapped outputs.
 
@@ -275,7 +274,7 @@ When exporting to an existing AxF file, its resources are updated using the grap
 
 Additionally, the Output's <b>Group</b> property *must* be set to 'AxF' for it to be listed in the AxF export dialog (see above).
 
-![AxF: Substance graph's Output usage](axf_output_usage.png "AxF: Substance graph's Output usage")
+![AxF: Substance graph's Output usage](../../assets/axf_output_usage.png "AxF: Substance graph's Output usage")
 
 Resources can be textures (I.e. bitmaps) or uniforms (I.e. values) with a specific number of channels. It is compulsory that the graph output matches that number of channels exactly. If that is not the case, an error will be raised for that resource during the export, and the resource will be unchanged.
 
@@ -301,7 +300,7 @@ If you wish to convert an SVBRDF material in an AxF file into a standard PBR mat
 In that case, the MDL graph should be dragged and dropped into the 3D View before any other operation, in order to automatically switch to the [Iray](../../interface/3d-view/iray/iray.md) renderer and use that MDL graph as material definition.  
 Then, you may drag and drop the Substance graph that you set up in the import dialog, in order to connect its outputs to the MDL shader.
 
-![AxF: Viewing for conversion](axf-view-for-convert.gif "AxF: Viewing for conversion")
+![AxF: Viewing for conversion](../../assets/axf-view-for-convert.gif "AxF: Viewing for conversion")
 
 
 
@@ -319,7 +318,7 @@ In particular, the <b>Tiling</b> property lets you adjust the tiling of textures
 
 After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the [3D View](../../interface/3d-view/3d-view.md).
 
-![AxF: SVBRDF GLSLFX shader](axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX shader"){width="600px"}
+![AxF: SVBRDF GLSLFX shader](../../assets/axf_glslfx-svbrdf.png "AxF: SVBRDF GLSLFX shader"){width="600px"}
 
 
 
@@ -336,13 +335,13 @@ In particular, the <b>Tiling</b> property lets you adjust the tiling of textur
 
 After selecting the shader, click RMB in empty space in the graph and select the <b>View outputs in 3D View</b> option to visualise its outputs in the [3D View](../../interface/3d-view/3d-view.md).
 
-![AxF: SVBRDF MDL shader](axf_mdl-svbrdf.png "AxF: SVBRDF MDL shader"){width="600px"}
+![AxF: SVBRDF MDL shader](../../assets/axf_mdl-svbrdf.png "AxF: SVBRDF MDL shader"){width="600px"}
 
 
 
 This shader is more accurate than its OpenGL counterpart. It uses the [Iray](../../interface/3d-view/iray/iray.md) renderer, thus you need to switch to this renderer by going to <b>Renderer &gt; Iray</b>, before the shader can be accessed in the <b>Materials</b> menu.
 
-![AxF: Viewing for edition](axf-view-for-edit.gif "AxF: Viewing for edition")
+![AxF: Viewing for edition](../../assets/axf-view-for-edit.gif "AxF: Viewing for edition")
 
 
 

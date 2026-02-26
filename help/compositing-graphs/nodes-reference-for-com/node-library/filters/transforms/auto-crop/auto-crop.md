@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Auto Crop
 
 <table>
@@ -23,12 +22,12 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](autocropgrayscale.png){width="200px"}
+![](../../../../../../assets/autocropgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](autocropcolor.png){width="200px"}
+![](../../../../../../assets/autocropcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -71,32 +70,32 @@ The content of the image is defined by a box fitted to the *first and last pixel
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](autocrop-demo-01-resized.gif){width="768px"}
+![](../../../../../../assets/autocrop-demo-01-resized.gif){width="768px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](autocrop-variant2.jpg){width="256px"}
+![](../../../../../../assets/autocrop-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](autocrop-variant.jpg){width="128px"}
+![](../../../../../../assets/autocrop-variant.jpg){width="128px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](autocrop-variant4.png){width="256px"}
+![](../../../../../../assets/autocrop-variant4.png){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](autocrop-variant3.png){width="256px"}
+![](../../../../../../assets/autocrop-variant3.png){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](autocrop-node.png){width="420px"}
+![](../../../../../../assets/autocrop-node.png){width="420px"}
 
 </td>
 </tr>

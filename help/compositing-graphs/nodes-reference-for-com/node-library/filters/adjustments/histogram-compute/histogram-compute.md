@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Histogram compute
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Histogram compute: icon](histogram_compute.png "Histogram compute: icon"){width="200px"}
+![Histogram compute: icon](../../../../../../assets/histogram_compute.png "Histogram compute: icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -86,7 +85,7 @@ Custom tools can be created using the data computed by the node, such as custom 
 
 ## Examples
 
-![Histogram compute: Example 1](histogram_compute_example_1.jpg "Histogram compute: Example 1"){zoomable="yes"}
+![Histogram compute: Example 1](../../../../../../assets/histogram_compute_example_1.jpg "Histogram compute: Example 1"){zoomable="yes"}
 
 <table>
   <tr>

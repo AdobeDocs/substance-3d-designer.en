@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Shavings
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](grungeshavings.jpg){width="200px"}
+![](../../../../../../assets/grungeshavings.jpg){width="200px"}
 
 **In:** *Texture Generators* */Noises*
 
@@ -54,12 +53,12 @@ The **Grunge Shavings** node in [Substance 3D Designer](https://www.adobe.com/pr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grungeshavings-variant2.jpg){width="256px"}
+![](../../../../../../assets/grungeshavings-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](grungeshavings-variant.jpg){width="256px"}
+![](../../../../../../assets/grungeshavings-variant.jpg){width="256px"}
 
 </td>
 </tr>

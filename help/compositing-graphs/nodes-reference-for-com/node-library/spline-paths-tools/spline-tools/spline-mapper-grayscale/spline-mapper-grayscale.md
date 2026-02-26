@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Mapper Grayscale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-mapper-grayscale-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-mapper-grayscale-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -166,7 +165,7 @@ This also impacts uniform distribution.
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplineMapperGrayscale-Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "Node example 2")
 
 </td>
 </tr>
@@ -176,7 +175,7 @@ This also impacts uniform distribution.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 3](SplineMapperGrayscale-Variant1-After1.jpg "Node example 3")
+![Node example 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "Node example 3")
 
 </td>
 <td style="border: 0;" valign="top">

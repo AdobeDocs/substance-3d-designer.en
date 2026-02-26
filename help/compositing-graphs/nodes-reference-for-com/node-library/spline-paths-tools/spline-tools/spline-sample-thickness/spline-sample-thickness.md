@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Sample Thickness
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-sample-thickness-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-sample-thickness-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -154,12 +153,12 @@ Displays additional lines at the edges of the spline’s thickness.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](SplineSampleThickness-Variant1-After1.jpg "Node example 1")
+![Node example 1](../../../../../../assets/SplineSampleThickness-Variant1-After1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplineSampleThickness-Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/SplineSampleThickness-Demo.gif "Node example 2")
 
 </td>
 </tr>

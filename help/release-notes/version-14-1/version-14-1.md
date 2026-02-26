@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 14.1
 
 This update introduces new features to enhance your daily use of Substance 3D Designer: node arrangement tools to quickly improve your graph layout, copy/paste parameters to apply a set of parameters to another node, and a pixel pin in the 2D view to track a specific pixel while debugging your graph. It also adds new content, mainly to complete the Spline and Path node sets.
 
 *Release date: January 14th, 2025*
 
-![Scatter splines on splines](fond.png)
+![Scatter splines on splines](../../assets/fond.png)
 
 ## Splines and Paths updates
 
@@ -29,12 +28,12 @@ Splines and path nodes were introduced in version 13.0, and thanks to your feedb
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Scatter Spline on Spline animation 1](spline1.gif){zoomable="yes"}
+![Scatter Spline on Spline animation 1](../../assets/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Scatter splines on splines 2](spline2.gif){zoomable="yes"}
+![Scatter splines on splines 2](../../assets/spline2.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -44,7 +43,7 @@ Splines and path nodes were introduced in version 13.0, and thanks to your feedb
 
 If you are keen on keeping a clean and readable graph, the [node alignment tools](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) are made for you and have been completely revamped! It is now possible to evenly space the nodes (horizontally or vertically), and aligning nodes avoids any overlaps by neatly stacking them. Cherry on top: both features take the actual size of the nodes into account!
 
-![Align nodes](alignment.gif){zoomable="yes"}
+![Align nodes](../../assets/alignment.gif){zoomable="yes"}
 
 ## Copy / paste parameters
 
@@ -54,7 +53,7 @@ It is now possible to [copy the parameters of one node and paste them onto anoth
 
 The new [Color Sampler tool](../../interface/2d-view/color-sampler/color-sampler.md) in the 2D view lets you track the value of a selected pixel by dropping a pin on it. This is very useful to ensure that you are always viewing the information of the same pixel across multiple nodes in a graph. Open the Information panel to access the tool and give it a try!
 
-![Color sampler: using the tool](color-sampler-demo.gif "Color sampler: using the tool"){width="640px" zoomable="yes"}
+![Color sampler: using the tool](../../assets/color-sampler-demo.gif "Color sampler: using the tool"){width="640px" zoomable="yes"}
 
 ## Search improvements
 
@@ -65,7 +64,7 @@ The [node finder](../../interface/the-graph-view/node-finder/node-finder.md) too
 * The focus is automatically set on the search field when enabling the node finder tool;
 * The layout of the toolbar has been rethought to save space.
 
-![Search toolbar](search-53.png){width="640px"}
+![Search toolbar](../../assets/search-53.png){width="640px"}
 
 ## Videos
 
@@ -73,12 +72,12 @@ The [node finder](../../interface/the-graph-view/node-finder/node-finder.md) too
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![video scatter splines on splines](video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![video scatter splines on splines](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![video user experience features](video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![video user experience features](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>

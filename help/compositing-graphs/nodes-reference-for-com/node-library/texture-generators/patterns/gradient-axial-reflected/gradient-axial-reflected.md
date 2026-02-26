@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Gradient Axial Reflected
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](gradient-axial-reflected.png){width="128px"}
+![](../../../../../../assets/gradient-axial-reflected.png){width="128px"}
 
 ## Gradient Axial Reflected
 

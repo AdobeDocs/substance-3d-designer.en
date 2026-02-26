@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 12.2
 
 <b>Substance 3D Designer 12.2</b> brings native support of Apple silicon machines (M1), some improvements for Substance model graphs and other small updates. This page will describe all the details concerning this new version.
 
 Release date: *July 19th, 2022*
 
-![](final3.png)
+![](../../assets/final3.png)
 
 ## Major features
 
@@ -27,20 +26,20 @@ Release date: *July 19th, 2022*
 
 The 12.2 version of Designer is the first one with the full native support of new Apple machines based on M1 chip. Although Designer could run technically on Apple Silicon devices previously, the native support will bring you a faster and more efficient experience. As you can see on the image below, computation are *up to two times faster* with this new version on these machines.
 
-![](ds-perf-applem1.png){width="600px"}
+![](../../assets/ds-perf-applem1.png){width="600px"}
 
 ### Improvements for Substance model graphs
 
 * <b>Tooltips on nodes   
-  </b>It is not always possible to explain what a node is doing with just an icon and a title, that is why we have now a tooltip with a *full description of the node* when you are in the Library or in the Graph View. It will help you to find the node you are looking for or to better understand what are its capabilities. ![](tootlipnode.png)
+  </b>It is not always possible to explain what a node is doing with just an icon and a title, that is why we have now a tooltip with a *full description of the node* when you are in the Library or in the Graph View. It will help you to find the node you are looking for or to better understand what are its capabilities. ![](../../assets/tootlipnode.png)
 
 * <b>Shortcuts for node creation  
-  </b>To speed up the creation of your most used nodes, you can now define your own shortcuts in the Preferences, like for the other types of graphs.![](shorcuts.png)
+  </b>To speed up the creation of your most used nodes, you can now define your own shortcuts in the Preferences, like for the other types of graphs.![](../../assets/shorcuts.png)
 
 * <b>Preview node from the node contextual menu  
   </b>In our latest release, we added the possibility to preview a node in the 3D View thanks to a keyboard shortcut (*SHIFT + Click* on a node). This feature is now also available from the *node contextual menu* in order to make it more discoverable.
 
-  ![](previewnode.gif){width="600px"}
+  ![](../../assets/previewnode.gif){width="600px"}
 * <b>Search based on node compatibility   
   </b>When you are looking for a node from the node menu (accessible by pressing *Spacebar* in the Graph View), nodes are now correctly filtered in order to show only the ones who are *compatible with the one currently selected* in the graph. It helps you to find quickly the node you are looking for.
 
@@ -54,7 +53,7 @@ The 12.2 version of Designer is the first one with the full native support of ne
 * <b>CLO Template</b>  
   In order to improve the interoperability with CLO software, we added a *new dedicated template*. It will automatically add to your graph all the *metadata* required to correctly import your material in CLO.
 
-  ![](clo.png){width="600px"}
+  ![](../../assets/clo.png){width="600px"}
 
 * <b>VFX Reference Platform requirements</b>  
   Every year, the VFX Reference Platform publishes a list of tools and libraries versions to be used in every software for the VFX industry to minimise incompatibilities between software. As usual, we *update all our dependencies* in order to respect all these recommendations.

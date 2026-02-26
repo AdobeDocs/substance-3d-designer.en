@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # AO Cancellation
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](ao-cancel.png){width="128px"}
+![](../../../../../../assets/ao-cancel.png){width="128px"}
 
 ## AO Cancellation
 

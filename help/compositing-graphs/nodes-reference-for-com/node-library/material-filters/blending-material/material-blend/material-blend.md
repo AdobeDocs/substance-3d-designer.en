@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material Blend
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](material-blend.png){width="128px"}
+![](../../../../../../assets/material-blend.png){width="128px"}
 
 ## Material Blend
 

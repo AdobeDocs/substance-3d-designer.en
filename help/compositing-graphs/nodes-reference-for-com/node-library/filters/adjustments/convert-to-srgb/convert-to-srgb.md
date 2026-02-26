@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Convert to sRGB
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](convert-to-srgb-grayscale.png){width="128px"}
+![](../../../../../../assets/convert-to-srgb-grayscale.png){width="128px"}
 
-![](convert-to-srgb.png){width="128px"}
+![](../../../../../../assets/convert-to-srgb.png){width="128px"}
 
 ## Convert to sRGB (Grayscale)
 

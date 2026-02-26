@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Gradient Linear 3
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](gradient3.png)
+![](../../../../../../assets/gradient3.png)
 
 ## Gradient Linear 3
 
@@ -43,7 +42,7 @@ The most advanced linear gradient. Instead of the rounded, pipe-like profile of 
 
 ## Example Images
 
-![](gradient3-ex.gif)
+![](../../../../../../assets/gradient3-ex.gif)
 
 </td>
 </tr>

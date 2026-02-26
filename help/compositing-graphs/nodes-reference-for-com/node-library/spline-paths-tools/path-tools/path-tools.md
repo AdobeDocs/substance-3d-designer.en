@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Path tools
 
 Path tools are a collection of nodes for generating and adjusting paths, as well as converting them to splines for complex scattering or warping of images.

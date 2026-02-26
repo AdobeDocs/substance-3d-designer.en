@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Reaction Diffusion Fast
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Reaction Diffusion node icon](reaction-diffusion.png "Reaction Diffusion node icon")
+![Reaction Diffusion node icon](../../../../../../assets/reaction-diffusion.png "Reaction Diffusion node icon")
 
 <b>In:</b> Filters &gt; Effects
 
@@ -59,17 +58,17 @@ Adjusts the contrast of the input, serves as a sort of treshold.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Example 1](reactdiff03.png "Example 1")
+![Example 1](../../../../../../assets/reactdiff03.png "Example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Example 2](reactdiff02.png "Example 2")
+![Example 2](../../../../../../assets/reactdiff02.png "Example 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Example 3](reactdiff01.gif "Example 3")
+![Example 3](../../../../../../assets/reactdiff01.gif "Example 3")
 
 </td>
 </tr>

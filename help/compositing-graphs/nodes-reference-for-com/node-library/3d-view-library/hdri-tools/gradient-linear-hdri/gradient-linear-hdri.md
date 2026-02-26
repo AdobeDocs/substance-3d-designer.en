@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Gradient Linear (HDRI)
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](gradient-linear.png){width="200px"}
+![](../../../../../../assets/gradient-linear.png){width="200px"}
 
 ## Gradient Linear
 
@@ -47,7 +46,7 @@ Creates a Linear gradient across the centre and with a user-placed point. The en
 
 ## Example Images
 
-![](gradient-ex1.gif)
+![](../../../../../../assets/gradient-ex1.gif)
 
 </td>
 </tr>

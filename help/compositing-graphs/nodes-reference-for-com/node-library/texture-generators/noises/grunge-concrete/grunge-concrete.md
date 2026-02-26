@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Concrete
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](grungeconcrete.jpg){width="200px"}
+![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
 
 **In:** *Texture Generators**/Noises*
 
@@ -52,4 +51,4 @@ The **Grunge Concrete** node generates a grunge map akin to the height map of a 
 
 ## Example Images
 
-![](grungeconcrete-variant.jpg){width="256px"}
+![](../../../../../../assets/grungeconcrete-variant.jpg){width="256px"}

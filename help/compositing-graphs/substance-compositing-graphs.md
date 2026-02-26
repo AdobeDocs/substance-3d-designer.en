@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Substance graphs
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,7 +38,7 @@ Substance graphs are[ the most widely supported type of graph](../getting-starte
 Below you can find some typical examples of common usecases.
 
 +++Simple shape
-![Simple shape in Substance graph](simpleshape.png "Simple shape in Substance graph"){width="512px"}
+![Simple shape in Substance graph](../assets/simpleshape.png "Simple shape in Substance graph"){width="512px"}
 
 
 
@@ -50,7 +49,7 @@ The Text with the number, or the thickness of the edge can be exposed externally
 +++
 
 +++Adjustment filter
-![Adjustment filter in Substance graph](simplefilter.png "Adjustment filter in Substance graph"){width="512px"}
+![Adjustment filter in Substance graph](../assets/simplefilter.png "Adjustment filter in Substance graph"){width="512px"}
 
 
 
@@ -61,7 +60,7 @@ The contrast values set in the Histogram can be exposed, making this a simple bu
 +++
 
 +++Full material
-![Full material in Substance graph](simplematerial.png "Full material in Substance graph"){width="512px"}
+![Full material in Substance graph](../assets/simplematerial.png "Full material in Substance graph"){width="512px"}
 
 
 

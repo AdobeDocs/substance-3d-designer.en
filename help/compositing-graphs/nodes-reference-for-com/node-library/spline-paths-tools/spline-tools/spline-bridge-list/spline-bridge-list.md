@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Bridge (List)
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-bridge-list-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-bridge-list-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -184,10 +183,10 @@ A higher value results in a smoother line.
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplineBridge-List_Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/SplineBridge-List_Demo.gif "Node example 2")
 
 </td>
 </tr>
 </table>
 
-![Node in graph](SplineBridge-List_Graph.jpg "Node in graph")
+![Node in graph](../../../../../../assets/SplineBridge-List_Graph.jpg "Node in graph")

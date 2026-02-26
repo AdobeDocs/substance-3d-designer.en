@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Histogram Shift
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](histogram-shift-1.png){width="128px"}
+![](../../../../../../assets/histogram-shift-1.png){width="128px"}
 
 ## Histogram Shift
 
@@ -43,9 +42,9 @@ Completely shifts the whole range of the image, wrapping around when reaching ra
 
 ## Example Images
 
-![](histogram-shift.gif)
+![](../../../../../../assets/histogram-shift.gif)
 
-![](histogram-shift2.gif)
+![](../../../../../../assets/histogram-shift2.gif)
 
 </td>
 </tr>

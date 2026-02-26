@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal Normalize
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](normal-normalize.png){width="128px"}
+![](../../../../../../assets/normal-normalize.png){width="128px"}
 
 ## Normal Normalize
 

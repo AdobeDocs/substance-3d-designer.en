@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Incorrect image output
 
 This page lists technical issues in Substance 3D Designer resulting in an image output which is incorrect of unexpected , and offers troubleshooting steps for each.
@@ -23,7 +22,7 @@ This page lists technical issues in Substance 3D Designer resulting in an image 
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(error)](error.svg) Issue**
+**![(error)](../../assets/error.svg) Issue**
 
 Gradients in the image output are stepped instead of smooth. The stepping is caused by the *value range used by the image being too narrow*.  
 This means there are not enough values to smoothly transition from one step of a gradient to the next.
@@ -38,13 +37,13 @@ If you do not specifically need to work with HDR images, then most of your nodes
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](demo-stepping-8-bit.png){width="256px"}![](demo-stepping-8-bit-2.png){width="256px"}![](demo-stepping-8-bit-3.png){width="256px"}
+![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](check.svg) Recommended steps**
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 Check the **Output format** (i.e. bitdepth) of the node and all nodes upstream and make sure these node use *at least 16-bit Integer precision*.
 
@@ -68,7 +67,7 @@ For instance:
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>!&#91;(error)&#93;(error.svg) Issue</b>
+<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
 
 The quality of the images output by a Substance 3D archive (SBSAR) is noticeably lower than the Substance 3D file's graph it is published from, as shown in the image on the right.  
 The output appears low resolution.
@@ -76,13 +75,13 @@ The output appears low resolution.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>!&#91;(tick)&#93;(check.svg) Recommended steps</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
 
 Make sure the [Output size](../../compositing-graphs/output-size/output-size.md) property of all [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are set to the *Absolute* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
@@ -94,20 +93,20 @@ If that is not the case, their referenced [Bitmap resource](../../resources/bitm
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(error)](error.svg) Issue**
+**![(error)](../../assets/error.svg) Issue**
 
 Shapes are slightly blurred after using some nodes, such as [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) or [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md).
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](issues-bilinear.jpg){width="256px"}
+![](../../assets/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![(tick)](check.svg) Recommended steps**
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 When rearranging pixels in an image, e.g. when resizing a shape or changing the resolution of an image, there are two ways to determine how pixels from the source should be *mapped* to the destination:
 

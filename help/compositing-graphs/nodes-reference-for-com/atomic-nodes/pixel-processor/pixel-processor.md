@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Pixel processor
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Pixel processor](comp_pixelprocessor.png "Atomic node: Pixel processor"){width="200px"}
+![Atomic node: Pixel processor](../../../../assets/comp_pixelprocessor(1).png "Atomic node: Pixel processor"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

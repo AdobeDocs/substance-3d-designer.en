@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Panorama Shape
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](panorama-shape-1.png){width="128px"}
+![](../../../../../../assets/panorama-shape-1.png){width="128px"}
 
 ## Panorama Shape
 

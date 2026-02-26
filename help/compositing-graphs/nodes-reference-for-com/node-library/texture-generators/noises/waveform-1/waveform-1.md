@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Waveform 1
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Waveform 1 - Icon](waveform_01_v2.png "Waveform 1 - Icon"){width="200px"}
+![Waveform 1 - Icon](../../../../../../assets/waveform_01_v2.png "Waveform 1 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -88,7 +87,7 @@ A horizontal arrangement of user-selected patterns stacked into a shape akin to 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Waveform 1 - Example 1](waveform_01_v2_speed0.1_aniso0.gif "Waveform 1 - Example 1"){zoomable="yes"}
+![Waveform 1 - Example 1](../../../../../../assets/waveform_01_v2_speed0.1_aniso0.gif "Waveform 1 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

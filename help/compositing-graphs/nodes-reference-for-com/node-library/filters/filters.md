@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Filters
 
 Filters are nodes that process an input to create a modified, "filtered" output, in a way you might be used to from other well-known imaging applications. The big difference with [Material Filters](../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md) is that they only work on one (sometimes more) inputs that do not represent a full material.

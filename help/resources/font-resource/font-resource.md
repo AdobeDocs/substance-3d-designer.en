@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Font resource
 
 Font Resources are meant to be used together with the [atomic Text node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md). They allow you to use fonts that are not installed on your system, by referencing a font file anywhere on disk.

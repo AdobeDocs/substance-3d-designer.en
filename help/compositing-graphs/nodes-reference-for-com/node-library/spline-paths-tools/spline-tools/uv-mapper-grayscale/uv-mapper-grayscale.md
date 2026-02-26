@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # UV Mapper Grayscale
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](uv-mapper-grayscale-icon.png "Node icon")
+![Node icon](../../../../../../assets/uv-mapper-grayscale-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -91,7 +90,7 @@ Maps the input grayscale image using the coordinates provided in the UV input.
 </tr>
 </table>
 
-![Node example 1](UVMapper-Graph.jpg "Node example 1")
+![Node example 1](../../../../../../assets/UVMapper-Graph.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

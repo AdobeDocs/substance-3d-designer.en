@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Slope Blur
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](slope-blur.png){width="128px"}
+![](../../../../../../assets/slope-blur.png){width="128px"}
 
-![](slope-blur-grayscale.png){width="128px"}
+![](../../../../../../assets/slope-blur-grayscale.png){width="128px"}
 
 ## Slope Blur (Grayscale)
 
@@ -56,9 +55,9 @@ Important: make sure to use the appropriate version for your input! Use "Slope B
 
 ## Example Images
 
-![](slopeblur01.gif)
+![](../../../../../../assets/slopeblur01.gif)
 
-![](slopeblur02.gif)
+![](../../../../../../assets/slopeblur02.gif)
 
 </td>
 </tr>
