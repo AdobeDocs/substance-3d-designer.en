@@ -7,12 +7,12 @@ helpx_description: Designer > User guide
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: User guide
+title: Substance 3D Designer user guide
 user-guide-description: ""
 user-guide-title: ""
 ---
 
-# User guide
+# Substance 3D Designer user guide
 
 ![Substance 3D Designer main window](../assets/sdsummerinterface.jpg "Substance 3D Designer main window")
 
