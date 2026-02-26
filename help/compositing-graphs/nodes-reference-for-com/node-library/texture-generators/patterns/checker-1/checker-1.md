@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Checker 1
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](checker-1-1.png){width="128px"}
+![](../../../../../../assets/checker-1-1.png){width="128px"}
 
 ## Checker 1
 
@@ -46,7 +45,7 @@ It is a useful pattern for test cases, due to its obvious contrast and tiling.
 
 ## Example Images
 
-![](checker-1-ex.gif)
+![](../../../../../../assets/checker-1-ex.gif)
 
 </td>
 </tr>

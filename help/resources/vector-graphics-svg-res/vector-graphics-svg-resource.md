@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Vector graphics (SVG) resource
 
 Substance 3D Designer supports a limited form of Vector Graphics, through the Scalable Vector graphics format. SVG files can be brought in as resources in different ways, to be used as resources for your graphs.
@@ -82,7 +81,7 @@ The image on the right demonstrates the recommended export options, click on it 
 > Artboards can affect the result of the SVG file generated. Some Illustrator file templates introduce multiple Artboards.  
 > Try to have only one, properly cropped artboard, and have it selected in the Artboard window when saving as SVG.
 
-![Illustrator SVG export options](svg-export-options-ai.jpg "Illustrator SVG export options"){width="512px"}
+![Illustrator SVG export options](../../assets/svg-export-options-ai.jpg "Illustrator SVG export options"){width="512px"}
 
 ### Inkscape
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Flood Fill to BBox Size
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](floodfill-to-bbox-size.png){width="128px"}
+![](../../../../../../assets/floodfill-to-bbox-size.png){width="128px"}
 
 ## Flood Fill to BBox Size
 
@@ -42,7 +41,7 @@ Values are relative to the total canvas size (a full white tile would mean it st
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="floodbbox-ex1.png" width="256px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodbbox-ex1.png" width="256px"/></div> |
 | --- |
 |  |
 

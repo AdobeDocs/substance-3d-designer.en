@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Uniform color
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Uniform color](comp_uniform.png "Atomic node: Uniform color"){width="200px"}
+![Atomic node: Uniform color](../../../../assets/comp_uniform(1).png "Atomic node: Uniform color"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

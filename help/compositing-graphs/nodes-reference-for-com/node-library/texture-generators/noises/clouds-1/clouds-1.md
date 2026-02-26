@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Clouds 1
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Clouds 1 - Icon](clouds_1.png "Clouds 1 - Icon"){width="200px"}
+![Clouds 1 - Icon](../../../../../../assets/clouds_1.png "Clouds 1 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -84,12 +83,12 @@ See also: [Clouds 2](../../../../../../compositing-graphs/nodes-reference-for-co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Clouds 1 - Example 1](clouds_1.png "Clouds 1 - Example 1"){zoomable="yes"}
+![Clouds 1 - Example 1](../../../../../../assets/clouds_1(1).png "Clouds 1 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Clouds 1 - Example 2](noise_clouds_1_v2_speed0.6_aniso0.gif "Clouds 1 - Example 2"){zoomable="yes"}
+![Clouds 1 - Example 2](../../../../../../assets/noise_clouds_1_v2_speed0.6_aniso0.gif "Clouds 1 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -99,12 +98,12 @@ See also: [Clouds 2](../../../../../../compositing-graphs/nodes-reference-for-co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Clouds 1 - Example 3](noise_clouds_1_v2_speed0.6_aniso1.gif "Clouds 1 - Example 3"){zoomable="yes"}
+![Clouds 1 - Example 3](../../../../../../assets/noise_clouds_1_v2_speed0.6_aniso1.gif "Clouds 1 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Clouds 1 - Example 4](noise_clouds_1_v2_speed0.3_aniso0.6.gif "Clouds 1 - Example 4"){zoomable="yes"}
+![Clouds 1 - Example 4](../../../../../../assets/noise_clouds_1_v2_speed0.3_aniso0.6.gif "Clouds 1 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

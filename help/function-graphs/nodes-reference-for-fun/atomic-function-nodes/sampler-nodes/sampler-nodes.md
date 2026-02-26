@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Sampler nodes
 
-![Sampler nodes](image2016-1-12-14-45-43.png "Sampler nodes")
+![Sampler nodes](../../../../assets/image2016-1-12-14-45-43.png "Sampler nodes")
 
 These nodes sample a value in an input image at the provided 2D coordinates:
 
@@ -34,7 +33,7 @@ Positions out of this range are handled according to the selected <b>Addressing 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Pixel coordinates](samplercoords.png "Pixel coordinates")
+![Pixel coordinates](../../../../assets/samplercoords.png "Pixel coordinates")
 
 </td>
 </tr>

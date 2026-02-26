@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Vector Morph
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](vector-morph-grayscale.png)![](vector-morph.png)
+![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
 
 ## Vector Morph (Grayscale)
 

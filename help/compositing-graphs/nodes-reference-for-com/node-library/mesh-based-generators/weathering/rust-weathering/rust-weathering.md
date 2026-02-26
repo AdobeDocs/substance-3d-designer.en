@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Rust Weathering
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](rust-weathering.png){width="128px"}
+![](../../../../../../assets/rust-weathering.png){width="128px"}
 
 ## Rust Weathering
 
@@ -82,7 +81,7 @@ user-guide-title: ""
 
 ## Example Images
 
-![](rust-ex.gif)
+![](../../../../../../assets/rust-ex.gif)
 
 </td>
 </tr>

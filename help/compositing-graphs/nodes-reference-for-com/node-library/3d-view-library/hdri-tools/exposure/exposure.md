@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Exposure
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](exposure-9.png){width="250px"}
+![](../../../../../../assets/exposure-9.png){width="250px"}
 
 ## Exposure
 

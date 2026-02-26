@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Tile Random
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](tile-random.png){width="128px"}
+![](../../../../../../assets/tile-random.png){width="128px"}
 
 ## Tile Random (Color)
 
@@ -100,7 +99,7 @@ Tile Random is used instead of [Tile Generator](../../../../../../compositing-gr
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="tile-random-1.png" width="256px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/tile-random-1.png" width="256px"/></div> |
 | --- |
 |  |
 

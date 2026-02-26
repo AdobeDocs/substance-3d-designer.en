@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Alpha Merge
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](rgb-a-merge.png)
+![](../../../../../../assets/rgb-a-merge.png)
 
 ## Alpha Merge
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Creased
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](creased.png){width="128px"}
+![](../../../../../../assets/creased.png){width="128px"}
 
 ## Creased
 
@@ -48,7 +47,7 @@ Creased is useful for when you need a semi-directional-noise with large scale va
 
 ## Example Images
 
-![](creased-ex.gif)
+![](../../../../../../assets/creased-ex.gif)
 
 </td>
 </tr>

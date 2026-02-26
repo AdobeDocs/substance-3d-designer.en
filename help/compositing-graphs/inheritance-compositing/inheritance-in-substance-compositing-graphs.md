@@ -12,12 +12,11 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Inheritance in Substance graphs
 
 This page describes how inheritance is applied in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) within [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), and the impact it has on the graph's output.
 
-![Inheritance methods](inheritance-overview-1.jpg "Inheritance methods"){width="1400px"}
+![Inheritance methods](../../assets/inheritance-overview-1.jpg "Inheritance methods"){width="1400px"}
 
 ## Overview
 
@@ -33,7 +32,7 @@ All nodes in a Substance graph can *inherit* the value of some parameters from a
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icon for 'Absolute' inheritance method](ds-inheritance-absolute.png "Icon for 'Absolute' inheritance method"){width="128px"}
+![Icon for 'Absolute' inheritance method](../../assets/ds-inheritance-absolute.png "Icon for 'Absolute' inheritance method"){width="128px"}
 
 <b>Absolute</b>
 
@@ -42,7 +41,7 @@ No inheritance, the value is defined *arbitrarily and locally* for the parameter
 </td>
 <td style="border: 0;" valign="top">
 
-![Icon for 'Relative to input' inheritance method](ds-inheritance-relative-to-input.png "Icon for 'Relative to input' inheritance method"){width="128px"}
+![Icon for 'Relative to input' inheritance method](../../assets/ds-inheritance-relative-to-input.png "Icon for 'Relative to input' inheritance method"){width="128px"}
 
 <b>Relative to input</b>
 
@@ -51,7 +50,7 @@ The value is inherited from the data connected to the *Primary input* of the nod
 </td>
 <td style="border: 0;" valign="top">
 
-![Icon for 'Relative to parent' inheritance method](ds-inheritance-relative-to-parent.png "Icon for 'Relative to parent' inheritance method"){width="128px"}
+![Icon for 'Relative to parent' inheritance method](../../assets/ds-inheritance-relative-to-parent.png "Icon for 'Relative to parent' inheritance method"){width="128px"}
 
 <b>Relative to parent</b>
 
@@ -61,7 +60,7 @@ The value is inherited from the *parent* of the node or graph
 </tr>
 </table>
 
-![Inheritance methods demonstration](inheritance-overview.gif "Inheritance methods demonstration")
+![Inheritance methods demonstration](../../assets/inheritance-overview.gif "Inheritance methods demonstration")
 
 Inheritance methods are applied for a node’s [Base parameters](../../compositing-graphs/graph-parameters/graph-parameters.md), which is the set of common parameters all nodes have which control *fundamental aspects* of their behaviour. These parameters include:
 
@@ -81,8 +80,8 @@ This should let you appreciate how changes in *one* node may impact the resoluti
 
 >[!NOTE]
 >
-> **Output size:** Use the ![](props-output-size-lock.jpg) lock button to have the Height value *match* the Width value  
-> **Random seed:** Use the ![](prop-randomise.jpg) button to assign a new random value to the random seed.
+> **Output size:** Use the ![](../../assets/props-output-size-lock.jpg) lock button to have the Height value *match* the Width value  
+> **Random seed:** Use the ![](../../assets/prop-randomise.jpg) button to assign a new random value to the random seed.
 
 ## Making changes
 
@@ -91,7 +90,7 @@ This should let you appreciate how changes in *one* node may impact the resoluti
 In the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel, all parameters listed in the [Base parameters](../../compositing-graphs/graph-parameters/graph-parameters.md) section of a node’s properties have a (icon) <b>Set inheritance method</b> dropdown button opposite to their label.  
 This button lets you select the inheritance method which should be used to for a parameter.
 
-![Changing inheritance method](inheritance-change.gif "Changing inheritance method"){width="512px"}
+![Changing inheritance method](../../assets/inheritance-change.gif "Changing inheritance method"){width="512px"}
 
 In most cases, a *node*’s Base parameters are set to *Relative to input*, to leverage the procedural behaviour of chaining nodes together, while a *graph*’s Base parameters are set to *Relative to parent*, so the global parameters can adapt to the context the graph is used in.
 
@@ -141,7 +140,7 @@ When a graph has multiple inputs, each input may inherit from its discrete input
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Icon for 'Relative to input' inheritance method](ds-inheritance-relative-to-input.png "Icon for 'Relative to input' inheritance method"){width="128px"}
+![Icon for 'Relative to input' inheritance method](../../assets/ds-inheritance-relative-to-input.png "Icon for 'Relative to input' inheritance method"){width="128px"}
 
 <b>Relative to input</b>
 
@@ -150,7 +149,7 @@ The input inherits from its discrete input data, regardless of the graph’s Bas
 </td>
 <td style="border: 0;" valign="top">
 
-![Icon for 'Relative to parent' inheritance method](ds-inheritance-relative-to-parent.png "Icon for 'Relative to parent' inheritance method"){width="128px"}
+![Icon for 'Relative to parent' inheritance method](../../assets/ds-inheritance-relative-to-parent.png "Icon for 'Relative to parent' inheritance method"){width="128px"}
 
 <b>Relative to parent</b>
 
@@ -175,17 +174,17 @@ The input inherits from the graph, and the data it receives is adapted according
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Primary input color/grayscale](inheritance-primary-input-both.png){width="48px"}
+![Primary input color/grayscale](../../assets/inheritance-primary-input-both.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Primary input color](inheritance-primary-input-color.png){width="48px"}
+![Primary input color](../../assets/inheritance-primary-input-color.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Primary input grayscale](inheritance-primary-input-grayscale.png){width="48px"}
+![Primary input grayscale](../../assets/inheritance-primary-input-grayscale.png){width="48px"}
 
 </td>
 </tr>
@@ -196,7 +195,7 @@ One of the inputs may be set as the graph’s **Primary input**, by clicking **R
 </td>
 <td style="border: 0;" valign="top">
 
-![Input connector types](inheritance-primary-input.jpg "Input connector types")
+![Input connector types](../../assets/inheritance-primary-input.jpg "Input connector types")
 
 </td>
 </tr>
@@ -228,14 +227,14 @@ Letters represent *separate sets* of Base parameters, and should help follow wha
 
 **Example A**
 
-![Inheritance diagram A](inheritance-schematic-a.png "Inheritance diagram A"){zoomable="yes"}
+![Inheritance diagram A](../../assets/inheritance-schematic-a.png "Inheritance diagram A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Example B**
 
-![Inheritance diagram B](inheritance-schematic-b.png "Inheritance diagram B"){zoomable="yes"}
+![Inheritance diagram B](../../assets/inheritance-schematic-b.png "Inheritance diagram B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -247,14 +246,14 @@ Letters represent *separate sets* of Base parameters, and should help follow wha
 
 **Example C**
 
-![Inheritance diagram C](inheritance-schematic-c.png "Inheritance diagram C"){zoomable="yes"}
+![Inheritance diagram C](../../assets/inheritance-schematic-c.png "Inheritance diagram C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **Example D**
 
-![Inheritance diagram D](inheritance-schematic-d.png "Inheritance diagram D"){zoomable="yes"}
+![Inheritance diagram D](../../assets/inheritance-schematic-d.png "Inheritance diagram D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -290,6 +289,6 @@ In particular, the *Primary input* concept is easily *overlooked* and can result
 
 The [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) node is very susceptible to this, as it is used very frequently. Its <b>Background</b> input is its Primary input.
 
-![Output size inheritance](inheritance-blend.jpg "Output size inheritance"){width="512px"}
+![Output size inheritance](../../assets/inheritance-blend.jpg "Output size inheritance"){width="512px"}
 
 You need to pay attention to the order in which you blend the two inputs: the input which resolution and precision you wish to retain down the graph should be connected to the Background input, if the blending mode you need makes it possible. If not, then you may need to tweak the Blend node’s Base parameters and their inheritance method to compensate.

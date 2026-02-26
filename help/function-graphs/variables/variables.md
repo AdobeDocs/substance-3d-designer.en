@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Variables
 
 >[!NOTE]
@@ -56,7 +55,7 @@ Once again all the values have to be from the same type.
 
 To do so, you have the choice between all these numeric values :
 
-![](image2015-12-18-14-10-36.png)
+![](../../assets/image2015-12-18-14-10-36.png)
 
 ## Boolean
 

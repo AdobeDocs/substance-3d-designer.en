@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Map 014
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grungemap-014.png){width="128px"}
+![](../../../../../../assets/grungemap-014.png){width="128px"}
 
 ## Grunge Map 014
 
@@ -46,7 +45,7 @@ This generates a complex, combined Noisemap. It can be very useful as a detailed
 
 ## Example Images
 
-![](grungemap-014-ex.gif)
+![](../../../../../../assets/grungemap-014-ex.gif)
 
 </td>
 </tr>

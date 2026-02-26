@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Distance
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Distance](comp_distance.png "Atomic node: Distance"){width="200px"}
+![Atomic node: Distance](../../../../assets/comp_distance(1).png "Atomic node: Distance"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -82,7 +81,7 @@ See the below [examples](#examples) for more info.
 | <b>Color mode</b> *Boolean* | Toggles between a grayscale and a color output image. Also changes the 'Source input' input type. |
 | <b>Maximum distance</b> *Float* | Adjusts the maximum distance for detecting the closest border in the mask, in pixels. |
 | <b>Combine source/distance</b> *Boolean* | Determine how the optional 'Source input'is combined with the final cells.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combine:</i> Combines the 'Source input' value with the fading linear mask. If the 'Source input' input is connected, its value is combined with computed distance.</li> <li data-preserve-html="true"><i>Only Source:</i> Results in solid color only from the 'Source input'.</li> </ul> |
-| <b>Distance mode</b> *Integer* | Selects the method computing the distance to the closest border in the extracted mask:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidean:</i> Sum of squared X/Y differences.</li> <li data-preserve-html="true"><i>Manhattan:</i> Sum of absolute values of X/Y differences.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Maximum of absolute values of X/Y differences.</li> </ul>  <div><img alt="Distance mode examples" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="distance-comparison.jpg" title="Distance mode examples"/></div> |
+| <b>Distance mode</b> *Integer* | Selects the method computing the distance to the closest border in the extracted mask:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidean:</i> Sum of squared X/Y differences.</li> <li data-preserve-html="true"><i>Manhattan:</i> Sum of absolute values of X/Y differences.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Maximum of absolute values of X/Y differences.</li> </ul>  <div><img alt="Distance mode examples" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="Distance mode examples"/></div> |
 
 ## Input connectors
 
@@ -103,17 +102,17 @@ See the below [examples](#examples) for more info.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance-ex01.gif){width="250px"}
+![](../../../../assets/distance-ex01.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance-ex02.gif){width="250px"}
+![](../../../../assets/distance-ex02.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance-ex03.gif){width="250px"}
+![](../../../../assets/distance-ex03.gif){width="250px"}
 
 </td>
 </tr>

@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Multi Crop
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](crop-multi.png){width="128px"}
+![](../../../../../../assets/crop-multi.png){width="128px"}
 
-![](crop-multi-grayscale.png){width="128px"}
+![](../../../../../../assets/crop-multi-grayscale.png){width="128px"}
 
 ## Multi Crop (Grayscale)
 

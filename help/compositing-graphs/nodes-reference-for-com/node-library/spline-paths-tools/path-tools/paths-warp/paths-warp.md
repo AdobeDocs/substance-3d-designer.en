@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Paths Warp
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](paths-warp-icon.png "Node icon")
+![Node icon](../../../../../../assets/paths-warp-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -65,11 +64,11 @@ This can prevent the path to cross itself, especially when using high <b>Intens
 <table>
   <tr>
     <td>
-      <img src="PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -81,11 +80,11 @@ This can prevent the path to cross itself, especially when using high <b>Intens
 <table>
   <tr>
     <td>
-      <img src="PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -99,7 +98,7 @@ This can prevent the path to cross itself, especially when using high <b>Intens
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](PathsWarp-Demo1.gif "Node example 1")
+![Node example 1](../../../../../../assets/PathsWarp-Demo1.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

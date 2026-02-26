@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Configuration List - SBSCFG
 
 <table>
@@ -26,7 +25,7 @@ You can have multiple configurations for different environments, these files can
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG file icon](sbscfg.png "SBSCFG file icon")
+![SBSCFG file icon](../../assets/sbscfg.png "SBSCFG file icon")
 
 </td>
 </tr>
@@ -40,7 +39,7 @@ These files are simple, yet they can still be modified in two different ways, ju
 
 The highlighted section is the part that relates to the Configuration Files, you simply add more Projects to the list which are stored in the above defined SBSCFG file.
 
-![Project settings](config-ui.png "Project settings")
+![Project settings](../../assets/config-ui.png "Project settings")
 
 ### External editing as XML
 

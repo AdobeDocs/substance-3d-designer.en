@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal Sobel
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](normal-hq.png){width="128px"}
+![](../../../../../../assets/normal-hq.png){width="128px"}
 
 ## Normal Sobel
 

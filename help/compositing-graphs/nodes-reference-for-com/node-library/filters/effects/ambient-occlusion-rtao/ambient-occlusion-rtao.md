@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Ambient Occlusion (RTAO)
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![RTAO node icon](rt-ao.png "RTAO node icon")
+![RTAO node icon](../../../../../../assets/rt-ao.png "RTAO node icon")
 
 <b>In:</b> *Filters/Effects*
 
@@ -67,12 +66,12 @@ Sets the spreading angle for the rays to be shot at. A value of 1 is a full hemi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![RTAO node - Example 1](image2021-6-18-11-7-48.png "RTAO node - Example 1")
+![RTAO node - Example 1](../../../../../../assets/image2021-6-18-11-7-48.png "RTAO node - Example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![RTAO node - Example 2](image2021-6-18-11-9-0-1.png "RTAO node - Example 2")
+![RTAO node - Example 2](../../../../../../assets/image2021-6-18-11-9-0-1.png "RTAO node - Example 2")
 
 </td>
 </tr>

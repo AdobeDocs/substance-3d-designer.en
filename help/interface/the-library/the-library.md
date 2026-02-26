@@ -12,12 +12,11 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # The Library
 
 This page presents the **Library** panel of Substance 3D Designer, its layout as well as the tools it offers for searching and filtering content.
 
-![Library](library-main.png "Library")
+![Library](../../assets/library-main.png "Library")
 
 ## Overview
 
@@ -98,7 +97,7 @@ You may select *multiple* items in the <b>Content</b> section by holding the <b>
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Dropping a node from the Library](library-create-node.gif "Dropping a node from the Library")
+![Dropping a node from the Library](../../assets/library-create-node.gif "Dropping a node from the Library")
 
 </td>
 </tr>
@@ -107,14 +106,14 @@ You may select *multiple* items in the <b>Content</b> section by holding the <b>
 ### Searching an asset by name
 
 The <b>Search</b> bar, located at the top left of the <b>Content</b> section, lets you search *any asset by name*. When searching for content in this manner, the current selection in the <b>Categories</b> section is ignored, and the *entire content* in the <b>Library</b> is searched.  
-You can filter the search results by *graph type*, using the ![](library-icon-search-filter.png) <b>Filter by...</b> icon next to the <b>Search</b> bar.
+You can filter the search results by *graph type*, using the ![](../../assets/library-icon-search-filter.png) <b>Filter by...</b> icon next to the <b>Search</b> bar.
 
 >[!NOTE]
 >
 > The search bar will take into account the name of the asset you are looking for, but also *tags* that the asset can contain, or the *category* it belongs to.  
 > For example, typing '*Normal*' will list all the assets that can be used to generate or modify a normal map. This is a good way to discover new nodes, and thus new possibilities!
 
-![Asset search in Library](library-search-2.png "Asset search in Library")
+![Asset search in Library](../../assets/library-search-2.png "Asset search in Library")
 
 <table>
 <tr style="border: 0;">
@@ -122,12 +121,12 @@ You can filter the search results by *graph type*, using the ![](library-icon-se
 
 ### Visualising Library assets
 
-Using the ![](library-icon-view-mode.png) <b>Display Mode</b> drop-down button, you can select the display size for content items.
+Using the ![](../../assets/library-icon-view-mode.png) <b>Display Mode</b> drop-down button, you can select the display size for content items.
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Library asset view mode](library-display-modes.png "Library asset view mode")
+![Library asset view mode](../../assets/library-display-modes.png "Library asset view mode")
 
 </td>
 </tr>
@@ -137,12 +136,12 @@ Using the ![](library-icon-view-mode.png) <b>Display Mode</b> drop-down button, 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-The ![](library-icon-toggle-label.png) **Toggle Labels** button lets you display or hide the labels of the nodes.
+The ![](../../assets/library-icon-toggle-label.png) **Toggle Labels** button lets you display or hide the labels of the nodes.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Label toggle](library-toggle-label.png "Label toggle")
+![Label toggle](../../assets/library-toggle-label.png "Label toggle")
 
 </td>
 </tr>
@@ -158,7 +157,7 @@ When placing the cursor on a content item, a tooltip will appear after a short t
 </td>
 <td style="border: 0;" valign="top">
 
-![Asset information tooltip](library-item-tooltip.png "Asset information tooltip")
+![Asset information tooltip](../../assets/library-item-tooltip.png "Asset information tooltip")
 
 </td>
 </tr>
@@ -175,13 +174,13 @@ When placing the cursor on a content item, a tooltip will appear after a short t
 
 ### Favorites
 
-You can add any item in the <b>Content</b> section to your <b>Favorites</b> list, using the ![](library-icon-favoritepng.png) <b>Add to Favorites</b> button. The button also lets you *remove* content from this list if it is already added.  
+You can add any item in the <b>Content</b> section to your <b>Favorites</b> list, using the ![](../../assets/library-icon-favoritepng.png) <b>Add to Favorites</b> button. The button also lets you *remove* content from this list if it is already added.  
 When content is added to this list, it is available in the <b>Favorites</b> category of the <b>Library</b>, and will be displayed at the *top* of the <b>Node</b> menu list when searching for a node in the graph, provided the search terms match it.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Favorites in Library](library-favourites.png "Favorites in Library")
+![Favorites in Library](../../assets/library-favourites.png "Favorites in Library")
 
 </td>
 </tr>

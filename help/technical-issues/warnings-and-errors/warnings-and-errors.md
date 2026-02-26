@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Warnings and errors
 
 This page explains the reporting of warnings and error messages which may appear in [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), and links to warnings troubleshooting based on their source.
@@ -32,7 +31,7 @@ Generally, warnings and errors are displayed on the item which triggered them, a
 
 ### Explorer
 
-For any item in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel which has a warning, that warning is displayed with an ![](warning-icon.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
+For any item in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel which has a warning, that warning is displayed with an ![](../../assets/warning-icon.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
 
 They follow these rules:
 
@@ -43,7 +42,7 @@ They follow these rules:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warning-overview-explorer.png){width="256px"}
+![](../../assets/warning-overview-explorer.png){width="256px"}
 
 </td>
 </tr>
@@ -55,7 +54,7 @@ They follow these rules:
 
 ### Graph view
 
-For any item in the [Graph view](../../interface/the-graph-view/the-graph-view.md) panel which has a warning, that warning is displayed with coloured text in the *bottom left corner* of the viewport. If the warning is triggered by a specific node, that node will have a ![](warning-badge.png) warning badge. Leave the cursor on that badge for a few seconds to display a *tooltip* listing all warnings in detail.
+For any item in the [Graph view](../../interface/the-graph-view/the-graph-view.md) panel which has a warning, that warning is displayed with coloured text in the *bottom left corner* of the viewport. If the warning is triggered by a specific node, that node will have a ![](../../assets/warning-badge.png) warning badge. Leave the cursor on that badge for a few seconds to display a *tooltip* listing all warnings in detail.
 
 They follow these rules:
 
@@ -66,7 +65,7 @@ They follow these rules:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warning-overview-graph.png){width="256px"}
+![](../../assets/warning-overview-graph.png){width="256px"}
 
 </td>
 </tr>
@@ -78,7 +77,7 @@ They follow these rules:
 
 ### Properties
 
-For any item in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel which has a warning, that warning is displayed with an ![](warning-icon.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
+For any item in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel which has a warning, that warning is displayed with an ![](../../assets/warning-icon.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
 
 They follow these rules:
 
@@ -89,7 +88,7 @@ They follow these rules:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warning-overview-properties.png){width="256px"}
+![](../../assets/warning-overview-properties.png){width="256px"}
 
 </td>
 </tr>
@@ -110,7 +109,7 @@ Both warning and errors are reported in the **Console** panel, which you may acc
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warning-overview-console.png){width="256px"}
+![](../../assets/warning-overview-console.png){width="256px"}
 
 </td>
 </tr>

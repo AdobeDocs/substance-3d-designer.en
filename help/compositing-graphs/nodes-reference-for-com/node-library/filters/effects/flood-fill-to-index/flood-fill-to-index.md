@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Flood Fill to Index
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](floodfill-index.png){width="200px"}
+![](../../../../../../assets/floodfill-index.png){width="200px"}
 
 ## Flood Fill to Index
 
@@ -49,7 +48,7 @@ Additionally, Flood Fill to Index makes use of the new [Value system, returning 
 
 ## Examples
 
-![](flood-fill-ex02.jpg)
+![](../../../../../../assets/flood-fill-ex02.jpg)
 
 </td>
 </tr>

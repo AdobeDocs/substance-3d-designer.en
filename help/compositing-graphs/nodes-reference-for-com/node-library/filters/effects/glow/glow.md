@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Glow
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](glow-greyscale.png){width="128px"}
+![](../../../../../../assets/glow-greyscale.png){width="128px"}
 
-![](glow-3.png){width="128px"}
+![](../../../../../../assets/glow-3.png){width="128px"}
 
 ## Glow
 
@@ -49,7 +48,7 @@ Important: make sure to use the appropriate version for your input! Use "Glow" f
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="glow-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/glow-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

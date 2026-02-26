@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Clone Patch
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](clone-patch.png){width="128px"}
+![](../../../../../../assets/clone-patch.png){width="128px"}
 
-![](clone-patch-grayscale.png){width="128px"}
+![](../../../../../../assets/clone-patch-grayscale.png){width="128px"}
 
 ## Clone Patch / Clone Patch Grayscale
 

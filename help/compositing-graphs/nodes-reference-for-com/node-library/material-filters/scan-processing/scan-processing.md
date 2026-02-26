@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Scan Processing
 
 This category is intended to meet your needs for processing photos and scans into full, tiling PBR materials. It contains a large assortment of tools with functions to remove lighting, crop out borders and improve tiling.

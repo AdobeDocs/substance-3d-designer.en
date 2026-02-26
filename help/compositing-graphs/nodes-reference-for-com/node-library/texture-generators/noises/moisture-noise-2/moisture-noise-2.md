@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Moisture noise 2
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Moisture noise 2 - Icon](moisture_noise_2.png "Moisture noise 2 - Icon"){width="200px"}
+![Moisture noise 2 - Icon](../../../../../../assets/moisture_noise_2.png "Moisture noise 2 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -90,12 +89,12 @@ See also: [Moisture noise 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Moisture noise 2 - Example 1](moisture_noise_2.png "Moisture noise 2 - Example 1"){zoomable="yes"}
+![Moisture noise 2 - Example 1](../../../../../../assets/moisture_noise_2(1).png "Moisture noise 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Moisture noise 2 - Example 2](noise_moisture_noise_2_speed0.6_aniso0.gif "Moisture noise 2 - Example 2"){zoomable="yes"}
+![Moisture noise 2 - Example 2](../../../../../../assets/noise_moisture_noise_2_speed0.6_aniso0.gif "Moisture noise 2 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -105,12 +104,12 @@ See also: [Moisture noise 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Moisture noise 2 - Example 3](noise_moisture_noise_2_speed0.6_aniso1.gif "Moisture noise 2 - Example 3"){zoomable="yes"}
+![Moisture noise 2 - Example 3](../../../../../../assets/noise_moisture_noise_2_speed0.6_aniso1.gif "Moisture noise 2 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Moisture noise 2 - Example 4](noise_moisture_noise_2_speed0.3_aniso0.6.gif "Moisture noise 2 - Example 4"){zoomable="yes"}
+![Moisture noise 2 - Example 4](../../../../../../assets/noise_moisture_noise_2_speed0.3_aniso0.6.gif "Moisture noise 2 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

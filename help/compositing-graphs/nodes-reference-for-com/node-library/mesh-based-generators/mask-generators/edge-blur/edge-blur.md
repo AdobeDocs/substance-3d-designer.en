@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Edge Blur
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](edge-blur.png){width="128px"}
+![](../../../../../../assets/edge-blur.png){width="128px"}
 
 ## Edge Blur
 
@@ -55,7 +54,7 @@ This mask highlights edges based on a baked curvature map. It is one of the more
 
 ## Example Images
 
-![](edge-blur-ex.gif)
+![](../../../../../../assets/edge-blur-ex.gif)
 
 </td>
 </tr>

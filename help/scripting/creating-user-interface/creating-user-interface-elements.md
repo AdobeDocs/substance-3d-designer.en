@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Creating user interface elements
 
 Substance 3D Designer includes <b>Qt For Python</b>. Users can use the [UI Manager ](../../scripting/scripting-api-reference/scripting-api-reference.md)class to create <b>menus</b>, <b>dialogs</b>, <b>custom panels</b> and other user interface elements for their plugins.

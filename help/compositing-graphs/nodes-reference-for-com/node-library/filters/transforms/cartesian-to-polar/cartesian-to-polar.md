@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Cartesian To Polar
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](cartesian-to-polar.png){width="128px"}
+![](../../../../../../assets/cartesian-to-polar.png){width="128px"}
 
-![](cartesian-to-polar-grayscale.png){width="128px"}
+![](../../../../../../assets/cartesian-to-polar-grayscale.png){width="128px"}
 
 ## Cartesian To Polar (Grayscale)
 
@@ -42,7 +41,7 @@ Converts an input with Cartesian coordinates (X&amp;Y) to Polar coordinates (Ang
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="cartesian-to-polar-example.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/cartesian-to-polar-example.png" width="300px"/></div> |
 | --- |
 |  |
 

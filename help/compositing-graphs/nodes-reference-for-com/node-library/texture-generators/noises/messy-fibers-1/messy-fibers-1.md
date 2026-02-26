@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Messy fibers 1
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Messy fibers 1 - Icon](messy_fibers_1.png "Messy fibers 1 - Icon"){width="200px"}
+![Messy fibers 1 - Icon](../../../../../../assets/messy_fibers_1.png "Messy fibers 1 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -83,12 +82,12 @@ See also: [Messy fibers 2](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Messy fibers 1 - Icon](messy_fibers_1.png "Messy fibers 1 - Icon"){zoomable="yes"}
+![Messy fibers 1 - Icon](../../../../../../assets/messy_fibers_1(1).png "Messy fibers 1 - Icon"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Messy fibers 1 - Example 2](noise_messy_fibers_1_v2_speed0.1_aniso0.gif "Messy fibers 1 - Example 2"){zoomable="yes"}
+![Messy fibers 1 - Example 2](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "Messy fibers 1 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -98,12 +97,12 @@ See also: [Messy fibers 2](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Messy fibers 1 - Example 3](noise_messy_fibers_1_v2_speed0.1_aniso1.gif "Messy fibers 1 - Example 3"){zoomable="yes"}
+![Messy fibers 1 - Example 3](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "Messy fibers 1 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Messy fibers 1 - Example 4](noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "Messy fibers 1 - Example 4"){zoomable="yes"}
+![Messy fibers 1 - Example 4](../../../../../../assets/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "Messy fibers 1 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

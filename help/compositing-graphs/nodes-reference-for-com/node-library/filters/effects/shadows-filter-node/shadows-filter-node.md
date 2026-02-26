@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shadows (Filter Node)
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](shadows-1.png){width="128px"}
+![](../../../../../../assets/shadows-1.png){width="128px"}
 
 ## Shadows
 
@@ -45,7 +44,7 @@ Can be useful if you're just after the shadow and do not want to work with a mor
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="shadow-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shadow-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

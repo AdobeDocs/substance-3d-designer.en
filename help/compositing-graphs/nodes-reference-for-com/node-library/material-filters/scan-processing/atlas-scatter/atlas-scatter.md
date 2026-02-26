@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Atlas Scatter
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](atlas-scatter.png){width="200px"}
+![](../../../../../../assets/atlas-scatter.png){width="200px"}
 
 ## Atlas Scatter
 
@@ -161,7 +160,7 @@ Extract elements from an Atlas and scatter them on a background. Atlas inputs ar
 
 ## Example Images
 
-![](atlas-scatter-11.png){width="512px"}
+![](../../../../../../assets/atlas-scatter-11.png){width="512px"}
 
 </td>
 </tr>

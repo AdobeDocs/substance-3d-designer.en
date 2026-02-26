@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Sphere Light
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](panorama-sphere-light.png){width="200px"}
+![](../../../../../../assets/panorama-sphere-light.png){width="200px"}
 
 ## Sphere Light
 
@@ -83,9 +82,9 @@ The Sphere Light is quite versatile and has options that allow it to no only gen
 
 ## Example Images
 
-![](sphere-light-ex.gif)
+![](../../../../../../assets/sphere-light-ex.gif)
 
-![](spherelight-ex1.png)
+![](../../../../../../assets/spherelight-ex1.png)
 
 </td>
 </tr>

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Function node library
 
 In addition to [atomic nodes](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md), Designer also offers pre-made Substance function graphs as instance nodes. They offer many tools to speed up workflow and provide more capabilities for working with vectors or colors, remapping values, perform more advanced algebra, ...

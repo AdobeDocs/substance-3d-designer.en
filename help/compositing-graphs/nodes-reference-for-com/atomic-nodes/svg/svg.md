@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # SVG
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: SVG](comp_svg.png "Atomic node: SVG"){width="200px"}
+![Atomic node: SVG](../../../../assets/comp_svg(1).png "Atomic node: SVG"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

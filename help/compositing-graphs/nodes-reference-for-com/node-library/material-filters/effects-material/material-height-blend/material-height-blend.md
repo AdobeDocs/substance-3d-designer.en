@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material Height Blend
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](material-height-blend.png){width="128px"}
+![](../../../../../../assets/material-height-blend.png){width="128px"}
 
 ## Material Height Blend
 

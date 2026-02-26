@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Panorama Rotation
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](panorama-rotation.png){width="200px"}
+![](../../../../../../assets/panorama-rotation.png){width="200px"}
 
 ## Panorama Rotation
 

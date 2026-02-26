@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Levels
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Levels](comp_levels.png "Atomic node: Levels"){width="200px"}
+![Atomic node: Levels](../../../../assets/comp_levels(1).png "Atomic node: Levels"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,9 +70,9 @@ The highlighted yellow button toggles the interface between the histogram (top) 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels-2-1.png)
+![](../../../../assets/levels-2-1.png)
 
-![](levels-1-1.png)
+![](../../../../assets/levels-1-1.png)
 
 </td>
 </tr>
@@ -96,7 +95,7 @@ Check out this video overview of the Levels node and its histogram editor:
 
 In the 'Specific parameters' header bar, you can find buttons to access convenient functions of the histogram:
 
-![Levels node quick actions](levels-2.png "Levels node quick actions")
+![Levels node quick actions](../../../../assets/levels-2.png "Levels node quick actions")
 
 <b>1 - Invert:</b> Swaps the values of the 'Level out low' and 'Level out high' parameters.
 
@@ -108,7 +107,7 @@ In the 'Specific parameters' header bar, you can find buttons to access convenie
 
 The histogram editor is intended for visual, quick adjustments where accurate values are not really needed, and exposing parameters is not of importance. It is generally the fastest and easiest way to work with Levels.
 
-![](levels-histo.gif)
+![](../../../../assets/levels-histo.gif)
 
 Depending on the input type (Color or Grayscale) you can use the dropdown above the Histogram to choose which channel you are modifying.
 

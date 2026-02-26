@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Diffusion Grayscale
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](diffusion-grayscale-icon.png){width="200px"}
+![](../../../../../../assets/diffusion-grayscale-icon.png){width="200px"}
 
 **In:** *Filters/Effects*
 
@@ -61,17 +60,17 @@ Only values from pixels matching the mask are diffused; other pixels don't parti
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](diffusion-grayscale-01-before.jpg){width="256px"}
+![](../../../../../../assets/diffusion-grayscale-01-before.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](diffusion-grayscale-01a-after.jpg){width="256px"}
+![](../../../../../../assets/diffusion-grayscale-01a-after.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](diffusion-grayscale-01b-after.jpg){width="256px"}
+![](../../../../../../assets/diffusion-grayscale-01b-after.jpg){width="256px"}
 
 </td>
 </tr>
@@ -81,17 +80,17 @@ Only values from pixels matching the mask are diffused; other pixels don't parti
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](diffusion-grayscale-02-before.jpg){width="256px"}
+![](../../../../../../assets/diffusion-grayscale-02-before.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](diffusion-grayscale-02-after.jpg){width="256px"}
+![](../../../../../../assets/diffusion-grayscale-02-after.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](diffusion-grayscale-02-render.jpg){width="512px"}
+![](../../../../../../assets/diffusion-grayscale-02-render.jpg){width="512px"}
 
 </td>
 </tr>

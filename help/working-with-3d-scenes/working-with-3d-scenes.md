@@ -12,10 +12,9 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Working with 3D scenes
 
-![Working with 3D scenes](workingWith3DScenes.png "Working with 3D scenes"){zoomable="yes"}
+![Working with 3D scenes](../assets/workingWith3DScenes.png "Working with 3D scenes"){zoomable="yes"}
 
 Designer lets you load [3D scenes](../glossary/glossary.md) to work on materials in context. You can find a list of supported file formats for 3D scenes here, including a list of supported features for each format. <b>&lt;link needed&gt;</b>
 
@@ -59,7 +58,7 @@ You can interact with following contents of the scene:
 * <b>Lights:</b> all lights in the scene can be disabled in the [Scene browser](../interface/3d-view/scene-browser/scene-browser.md).
 * <b>Cameras:</b> any camera detected in the scene is added as a preset to the camera added by Designer.
 
-![Contents of a 3D scene](loaded3DScene.png "Contents of a 3D scene"){zoomable="yes"}
+![Contents of a 3D scene](../assets/loaded3DScene.png "Contents of a 3D scene"){zoomable="yes"}
 
 Designer uses a USD description for its 3D scene. Its layout can be navigated in the Scene browser, where each [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) type has its own icon (geometry, material, shader, camera, transform, ...).
 
@@ -80,14 +79,14 @@ Note that only methods 1 and 4 let you load the scene again exactly as it was wh
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Loading a 3D scene - From a 3D scene resource](load3DScene-3DSceneResource.gif "Loading a 3D scene - From a 3D scene resource"){zoomable="yes"}
+![Loading a 3D scene - From a 3D scene resource](../assets/load3DScene-3DSceneResource.gif "Loading a 3D scene - From a 3D scene resource"){zoomable="yes"}
 
 Loading a 3D scene resource
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Loading a 3D scene - From the Library](load3DScene-Library.gif "Loading a 3D scene - From the Library"){zoomable="yes"}
+![Loading a 3D scene - From the Library](../assets/load3DScene-Library.gif "Loading a 3D scene - From the Library"){zoomable="yes"}
 
 Loading a 3D scene from the Library
 
@@ -99,14 +98,14 @@ Loading a 3D scene from the Library
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Loading a 3D scene - From a 3D scene file](load3DScene-3DSceneFile.gif "Loading a 3D scene - From a 3D scene file"){zoomable="yes"}
+![Loading a 3D scene - From a 3D scene file](../assets/load3DScene-3DSceneFile.gif "Loading a 3D scene - From a 3D scene file"){zoomable="yes"}
 
 Loading a 3D scene file
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Loading a 3D scene - From a scene state file](load3DScene-sceneStateFile.gif "Loading a 3D scene - From a scene state file"){zoomable="yes"}
+![Loading a 3D scene - From a scene state file](../assets/load3DScene-sceneStateFile.gif "Loading a 3D scene - From a scene state file"){zoomable="yes"}
 
 Loading an scene state file
 
@@ -133,7 +132,7 @@ Any items created by Designer are listed with <b>bold labels</b> in the Scene br
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scene browser - Elements created by Designer](sceneBrowser-createdByDesigner.png "Scene browser - Elements created by Designer"){zoomable="yes"}
+![Scene browser - Elements created by Designer](../assets/sceneBrowser-createdByDesigner.png "Scene browser - Elements created by Designer"){zoomable="yes"}
 
 </td>
 </tr>
@@ -143,7 +142,7 @@ Any items created by Designer are listed with <b>bold labels</b> in the Scene br
 
 After setting up a materials, camera, lights, etc. in the 3D View, that state can be saved to a scene state file (.sbsscn) which may be loaded later to restore that state. For instance, you may want to set up a few scenes for previewing different types of materials, or a specific lighting environment.
 
-![Load scene state file](loadSceneStateFile.gif "Load scene state file"){zoomable="yes"}
+![Load scene state file](../assets/loadSceneStateFile.gif "Load scene state file"){zoomable="yes"}
 
 A saved scene state may also be used as the default state for the 3D View, so that any time a new 3D View is created, that state will be used. This is useful if you want to preview materials your materials by default on the Sphere 2-Tiles mesh with a tiling value of 2 and a specific environment map.
 

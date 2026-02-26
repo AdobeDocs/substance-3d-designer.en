@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color Dodge
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](color-dodge.png){width="128px"}
+![](../../../../../../assets/color-dodge.png){width="128px"}
 
 ## Color Dodge
 

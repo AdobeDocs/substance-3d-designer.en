@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Logical nodes
 
 Logical nodes are used to add multiple conditions to your graph:
 
-![](image2015-12-23-11-23-21.png)
+![](../../../../assets/image2015-12-23-11-23-21.png)
 
 ## The *And* node
 
-![](image2015-12-23-11-30-9.png)
+![](../../../../assets/image2015-12-23-11-30-9.png)
 
 The And node takes two Boolean nodes as input:
 
@@ -30,7 +29,7 @@ The And node takes two Boolean nodes as input:
 
 ## The *Or* node
 
-![](image2015-12-23-11-30-44.png)
+![](../../../../assets/image2015-12-23-11-30-44.png)
 
 The Or node takes two Boolean nodes as input:
 
@@ -39,7 +38,7 @@ The Or node takes two Boolean nodes as input:
 
 ## The *Not* node
 
-![](image2015-12-23-11-31-46.png)
+![](../../../../assets/image2015-12-23-11-31-46.png)
 
 The Not node takes a Boolean as input: it will will look at the input value and return its opposite:
 

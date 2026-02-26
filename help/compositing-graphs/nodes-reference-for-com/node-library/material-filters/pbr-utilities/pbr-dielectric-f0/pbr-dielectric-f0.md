@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # PBR Dielectric F0
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](pbr-dielectric-f0.png){width="128px"}
+![](../../../../../../assets/pbr-dielectric-f0.png){width="128px"}
 
 ## PBR Dielectric F0
 

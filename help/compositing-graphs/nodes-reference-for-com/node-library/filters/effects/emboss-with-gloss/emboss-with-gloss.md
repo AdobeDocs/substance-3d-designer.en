@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Emboss With Gloss
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](emboss-with-gloss.png){width="128px"}
+![](../../../../../../assets/emboss-with-gloss.png){width="128px"}
 
 ## Emboss With Gloss
 

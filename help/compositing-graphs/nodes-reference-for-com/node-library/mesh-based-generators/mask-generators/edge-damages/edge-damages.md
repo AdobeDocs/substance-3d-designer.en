@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Edge Damages
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](edge-damages.png){width="128px"}
+![](../../../../../../assets/edge-damages.png){width="128px"}
 
 ## Edge Damages
 
@@ -57,7 +56,7 @@ This mask represents damage done to raised, convex edges based on curvature and 
 
 ## Example Images
 
-![](edge-damages-ex.gif)
+![](../../../../../../assets/edge-damages-ex.gif)
 
 </td>
 </tr>

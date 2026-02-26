@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # RGBA Merge
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](rgba-merge.png){width="128px"}
+![](../../../../../../assets/rgba-merge.png){width="128px"}
 
 ## RGBA Merge
 

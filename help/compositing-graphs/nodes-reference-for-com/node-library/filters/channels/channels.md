@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Channels
 
 Since connections in Designer can be full color RGB or single value grayscale, this category allows you to split, merge and mix these channels.

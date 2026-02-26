@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # HDR Range Viewer
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](hdr-range-viewer-grayscale.png){width="128px"}
+![](../../../../../../assets/hdr-range-viewer-grayscale.png){width="128px"}
 
-![](hdr-range-viewer.png){width="128px"}
+![](../../../../../../assets/hdr-range-viewer.png){width="128px"}
 
 ## HDR Range Viewer (Grayscale)
 
@@ -43,7 +42,7 @@ Debug tool to check exact areas with High Dynamic Range. Both Color and Grayscal
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="hdr-viewer-example.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/hdr-viewer-example.png" width="300px"/></div> |
 | --- |
 |  |
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Symmetry Slice
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](mirror-2.png){width="128px"}
+![](../../../../../../assets/mirror-2.png){width="128px"}
 
 ## Symmetry Slice
 
@@ -47,7 +46,7 @@ Compared to [Mirror](../../../../../../compositing-graphs/nodes-reference-for-co
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="symslice.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symslice.png" width="300px"/></div> |
 | --- |
 |  |
 

@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Triangle Grid
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](trianglegridgrayscale.jpg){width="200px"}
+![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
 
-![](trianglegridcolor.jpg){width="200px"}
+![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -106,37 +105,17 @@ The *positions* of the vertices may be adjusted, which impacts the generated mes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Example 1](triangle_grid_color_example_1.jpg "Triangle Grid: Example 1"){zoomable="yes"}
+![Triangle Grid: Example 1](../../../../../../assets/triangle_grid_color_example_1.jpg "Triangle Grid: Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Example 2](trianglegrid-variant2.png "Triangle Grid: Example 2"){zoomable="yes"}
+![Triangle Grid: Example 2](../../../../../../assets/trianglegrid-variant2.png "Triangle Grid: Example 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Example 3](trianglegridcolor-variant2.jpg "Triangle Grid: Example 3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Example 4](triangle_grid_color_example_2.jpg "Triangle Grid: Example 4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Example 5](trianglegridcolor-variant4.jpg "Triangle Grid: Example 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Triangle Grid: Example 6](trianglegridcolor-variant3.jpg "Triangle Grid: Example 6"){zoomable="yes"}
+![Triangle Grid: Example 3](../../../../../../assets/trianglegridcolor-variant2.jpg "Triangle Grid: Example 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -146,12 +125,32 @@ The *positions* of the vertices may be adjusted, which impacts the generated mes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Leather](trianglegrid-demo.png "Triangle Grid: Leather"){zoomable="yes"}
+![Triangle Grid: Example 4](../../../../../../assets/triangle_grid_color_example_2.jpg "Triangle Grid: Example 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Graph](trianglegrid-node.png "Triangle Grid: Graph"){zoomable="yes"}
+![Triangle Grid: Example 5](../../../../../../assets/trianglegridcolor-variant4.jpg "Triangle Grid: Example 5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Example 6](../../../../../../assets/trianglegridcolor-variant3.jpg "Triangle Grid: Example 6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Leather](../../../../../../assets/trianglegrid-demo.png "Triangle Grid: Leather"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Triangle Grid: Graph](../../../../../../assets/trianglegrid-node.png "Triangle Grid: Graph"){zoomable="yes"}
 
 </td>
 </tr>

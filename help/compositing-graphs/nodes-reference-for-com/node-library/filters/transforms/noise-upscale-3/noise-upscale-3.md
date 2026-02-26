@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Noise Upscale 3
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](noise-upscale.png){width="128px"}
+![](../../../../../../assets/noise-upscale.png){width="128px"}
 
 ## Noise Upscale 3
 
@@ -51,7 +50,7 @@ See also [Noise Upscale 1](../../../../../../compositing-graphs/nodes-reference-
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="noise3ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise3ex.png" width="300px"/></div> |
 | --- |
 |  |
 

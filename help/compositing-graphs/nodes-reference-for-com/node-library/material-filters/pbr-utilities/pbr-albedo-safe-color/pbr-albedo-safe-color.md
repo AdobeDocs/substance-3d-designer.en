@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # PBR Albedo Safe Color
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](pbr-albedo-safe-color.png){width="128px"}
+![](../../../../../../assets/pbr-albedo-safe-color.png){width="128px"}
 
 ## PBR Albedo Safe Color
 

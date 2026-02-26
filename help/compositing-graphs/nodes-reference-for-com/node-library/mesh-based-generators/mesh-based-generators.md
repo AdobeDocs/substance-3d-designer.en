@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mesh Based Generators
 
 Mesh based generators are nodes intended to process [Baked maps](../../../../bakers/bakers.md) such as a Normal map, Curvature, Ambient Occlusion, etc.

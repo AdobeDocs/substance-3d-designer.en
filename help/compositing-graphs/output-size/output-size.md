@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Output size
 
 It's the first of a graph's <b>Base parameters</b> and, along with the <b>Output Format</b> (or bitdepth), is critical to understand well since it has a large impact on a graph's output, both within Designer and in other applications as a published [Substance 3D asset (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) file.
@@ -23,7 +22,7 @@ It's the first of a graph's <b>Base parameters</b> and, along with the <b>Output
 
 >[!NOTE]
 >
-> Use the ![](props-output-size-lock.jpg) lock button to have the Height value *match* the Width value.
+> Use the ![](../../assets/props-output-size-lock.jpg) lock button to have the Height value *match* the Width value.
 
 <table>
 <tr style="border: 0;">
@@ -93,16 +92,16 @@ In most cases, the default [inheritance method](../../compositing-graphs/inherit
 
 Display the properties of a node or graph by clicking that item, then in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel find the <b>Output Size</b> property in the <b>Base parameters</b> section. Click the inheritance method drop down menu select the desired inheritance method.
 
-![Output size inheritance method](change-mode.gif "Output size inheritance method"){width="512px"}
+![Output size inheritance method](../../assets/change-mode.gif "Output size inheritance method"){width="512px"}
 
 ## Example problems
 
 If you are a new [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) user, you might run into some common problems. We'll list some examples below, along with solutions.
 
 +++Problem 1
-**![(error)](error.svg) Problem**
+**![(error)](../../assets/error.svg) Problem**
 
-![Example problem 1](problem2-bad.png "Example problem 1")
+![Example problem 1](../../assets/problem2-bad.png "Example problem 1")
 
 
 
@@ -110,9 +109,9 @@ The **Parent Size** setting is *grayed out*, and the graph uses in an undesired 
 
 In the graph's properties, the inheritance method of the Output Size property was set to *Absolute*, which stops inheritance in favour of an arbitrary value.
 
-**![(tick)](check.svg) Solution**
+**![(tick)](../../assets/check.svg) Solution**
 
-![Example problem 1 Solution](problem2-good.png "Example problem 1 Solution")
+![Example problem 1 Solution](../../assets/problem2-good.png "Example problem 1 Solution")
 
 
 
@@ -121,9 +120,9 @@ Set the inheritance method for the graph's Output size to *Relative to parent*.
 +++
 
 +++Problem 2
-**![(error)](error.svg) Problem**
+**![(error)](../../assets/error.svg) Problem**
 
-![Example problem 2](problem1-bad.png "Example problem 2")
+![Example problem 2](../../assets/problem1-bad.png "Example problem 2")
 
 
 
@@ -131,9 +130,9 @@ Above you see a case where the output of a graph results in a different resoluti
 
 The problem stems from the [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node. It defaults to the *Absolute* inheritance method, and picked 512\*512 as a resolution based on the [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md). The node connected to it are set to *Relative to input*, thus inherit their Output Size from the Bitmap node.
 
-**![(tick)](check.svg) Solution**
+**![(tick)](../../assets/check.svg) Solution**
 
-![Example problem 2 Solution](problem1-good.png "Example problem 2 Solution")
+![Example problem 2 Solution](../../assets/problem1-good.png "Example problem 2 Solution")
 
 
 
@@ -142,9 +141,9 @@ Set the Output Size's inheritance method of the Bitmap node to *Relative to pare
 +++
 
 +++Problem 3
-**![(error)](error.svg) Problem**
+**![(error)](../../assets/error.svg) Problem**
 
-![Example problem 3](problem3-bad.png "Example problem 3")
+![Example problem 3](../../assets/problem3-bad.png "Example problem 3")
 
 
 
@@ -152,9 +151,9 @@ Above you see an issue where the resolution jumps much higher halfway through th
 
 The problem is caused by a relative modifier of 3 on the [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node, making the output 8 times larger.
 
-**![(tick)](check.svg) Solution**
+**![(tick)](../../assets/check.svg) Solution**
 
-![Example problem 3 Solution](problem3-good.png "Example problem 3 Solution")
+![Example problem 3 Solution](../../assets/problem3-good.png "Example problem 3 Solution")
 
 
 

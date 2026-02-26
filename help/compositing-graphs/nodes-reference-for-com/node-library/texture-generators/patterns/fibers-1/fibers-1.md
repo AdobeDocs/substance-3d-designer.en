@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Fibers 1
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](fibers-1.png){width="128px"}
+![](../../../../../../assets/fibers-1.png){width="128px"}
 
 ## Fibers 1
 
@@ -43,7 +42,7 @@ Simple fiber-like pattern. Can be used in  [Substance 3D Designer](https://www.a
 
 ## Example Images
 
-![](fibers-1-ex.gif)
+![](../../../../../../assets/fibers-1-ex.gif)
 
 </td>
 </tr>

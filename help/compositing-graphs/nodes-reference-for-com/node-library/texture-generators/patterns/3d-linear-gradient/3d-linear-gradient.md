@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Linear Gradient
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3d-linear-gradient.png){width="128px"}
+![](../../../../../../assets/3d-linear-gradient.png){width="128px"}
 
 ## 3D Linear Gradient
 
@@ -48,7 +47,7 @@ Also see [3D Volume Mask](../../../../../../compositing-graphs/nodes-reference-f
 
 ## Example Images
 
-![](3d-gradient.gif)
+![](../../../../../../assets/3d-gradient.gif)
 
 </td>
 </tr>

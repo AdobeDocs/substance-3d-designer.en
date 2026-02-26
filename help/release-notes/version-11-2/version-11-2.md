@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 11.2
 
 **Substance 3D Designer 11.2** has changed name slightly and is now connected to Adobe Creative Cloud. It brings the very first release of Substance Model Graphs, Send To functionality, a number of Raytrace-based nodes and some UI changes.
@@ -29,12 +28,12 @@ An entirely new Graph type, the Substance model Graph, is available, letting you
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](structure-tower-render-b.jpg){width="300px"}
+![](../../assets/structure-tower-render-b.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](structure-paper-creatures-render-a.jpg){width="300px"}
+![](../../assets/structure-paper-creatures-render-a.jpg){width="300px"}
 
 </td>
 </tr>
@@ -48,7 +47,7 @@ This is a first release, so expect some limitations.
 
 Adobe versions of Substance 3D Designer have new Send To functionality, letting you send assets to other Substance 3D applications quickly. No more need to publish as SBSAR and load up individual files, Send To solves this in one click.
 
-![](sendto-button.gif)
+![](../../assets/sendto-button.gif)
 
 >[!NOTE]
 >
@@ -62,12 +61,12 @@ No Designer release is complete without some new nodes. Building on the phenomen
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](image2021-6-18-11-11-11.png){width="300px"}
+![](../../assets/image2021-6-18-11-11-11.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](image2021-6-18-11-9-0.png){width="300px"}
+![](../../assets/image2021-6-18-11-9-0.png){width="300px"}
 
 </td>
 </tr>
@@ -75,11 +74,11 @@ No Designer release is complete without some new nodes. Building on the phenomen
 
 RTAO does an even better job at crisp, correct AO than the previous HBAO node.
 
-![](rt-caustics-grayscale.png){width="300px"}
+![](../../assets/rt-caustics-grayscale.png){width="300px"}
 
 Caustics generates physically-correct, raytraced caustics based on a heightmap, such as a simple Perlin noise. Good for creating realistic animated flipbook textures for realtime caustics.
 
-![](image2021-6-22-16-36-36.png){width="300px"}
+![](../../assets/image2021-6-22-16-36-36.png){width="300px"}
 
 RT Shadow gemerates accurate, raytraced shadows, with a few easy controls.
 
@@ -87,17 +86,17 @@ RT Shadow gemerates accurate, raytraced shadows, with a few easy controls.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](rt-irr-01.jpg){width="200px"}
+![](../../assets/rt-irr-01.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](rt-irr-03.jpg){width="200px"}
+![](../../assets/rt-irr-03.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](rt-irr-02.jpg){width="200px"}
+![](../../assets/rt-irr-02.jpg){width="200px"}
 
 </td>
 </tr>
@@ -105,11 +104,11 @@ RT Shadow gemerates accurate, raytraced shadows, with a few easy controls.
 
 RT Irradiance is the most advanced out of the new nodes. It does raytraced irradiance based on a material with height map, and a Environment map and/or an Emissive map.
 
-![](rt-irrad-pro.jpg){width="600px"}
+![](../../assets/rt-irrad-pro.jpg){width="600px"}
 
 That means you can do textures with pre-baked lighting, like for stylized projects, or you can bake in raytraced glow bouncing off your heightmap.
 
-![](bent-normal-ex.jpg){width="300px"}
+![](../../assets/bent-normal-ex.jpg){width="300px"}
 
 And last there's the Bent Normal node. Compared to a regular normal conversion, this node uses AO to modify your normalmap to use that AO information. Before you'd need mesh bakers to create the effect, this node does it in texturespace for you.
 

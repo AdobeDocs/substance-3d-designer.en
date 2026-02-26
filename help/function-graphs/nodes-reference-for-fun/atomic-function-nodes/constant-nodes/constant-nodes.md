@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Constant
 
 Constant nodes are a way to create a static value for use inside Substance function graphs. Unlike [variables](../../../../function-graphs/variables/variables.md), they cannot be modified externally.
@@ -49,7 +48,7 @@ Constant integers generate whole numbers, and have a step of  1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer type icon](fn-constant-integer.png "Integer type icon")
+![Integer type icon](../../../../assets/fn-constant-integer.png "Integer type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -73,7 +72,7 @@ An integer has a single component. It is useful as an index for making selection
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](fn-constant-integer2.png "Integer2 type icon")
+![Integer2 type icon](../../../../assets/fn-constant-integer2.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -92,7 +91,7 @@ Integer2 is not common, but is used for example to set X and Y 2D tiling in a [T
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 type icon](fn-constant-integer3.png "Integer3 type icon")
+![Integer3 type icon](../../../../assets/fn-constant-integer3.png "Integer3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -112,7 +111,7 @@ Integer 3 is not common and is unlikely to be encountered much.<b>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 type icon](fn-constant-integer4.png "Integer4 type icon")
+![Integer4 type icon](../../../../assets/fn-constant-integer4.png "Integer4 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -138,7 +137,7 @@ Constant Floats generate fractional numbers, not wholenumbers, which means they 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float type icon](fn-constant-float.png "Float type icon")
+![Float type icon](../../../../assets/fn-constant-float.png "Float type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -155,7 +154,7 @@ A Float, has a single component, the (1) is omitted from the name for brevity. F
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 type icon](fn-constant-float2.png "Float2 type icon")
+![Float2 type icon](../../../../assets/fn-constant-float2.png "Float2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -172,7 +171,7 @@ A Float2 node generates a static 2-component Float Vector. Components are named 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 type icon](fn-constant-float3.png "Float3 type icon")
+![Float3 type icon](../../../../assets/fn-constant-float3.png "Float3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -190,7 +189,7 @@ A Float3 node generates a static 3-component Float Vector. Components are named 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 type icon](fn-constant-float4.png "Float4 type icon")
+![Float4 type icon](../../../../assets/fn-constant-float4.png "Float4 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -212,7 +211,7 @@ Two additional data types exist inside Substance function graphs: booleans and s
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Boolean type icon](fn-constant-boolean.png "Boolean type icon")
+![Boolean type icon](../../../../assets/fn-constant-boolean.png "Boolean type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -229,7 +228,7 @@ A Boolean is the simplest data type there is, knowing only two states: True or F
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![String type icon](fn-constant-string.png "String type icon")
+![String type icon](../../../../assets/fn-constant-string.png "String type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

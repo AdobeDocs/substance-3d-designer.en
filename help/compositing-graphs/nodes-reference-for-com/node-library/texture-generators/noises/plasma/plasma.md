@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Plasma
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](plasma.png){width="128px"}
+![](../../../../../../assets/plasma.png){width="128px"}
 
 ## Plasma
 
@@ -45,7 +44,7 @@ This generates a slightly different variant of [Gaussian Noise](../../../../../.
 
 ## Example Images
 
-![](plasma-ex.gif)
+![](../../../../../../assets/plasma-ex.gif)
 
 </td>
 </tr>

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mesh 1
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](mesh-1.png){width="128px"}
+![](../../../../../../assets/mesh-1.png){width="128px"}
 
 ## Mesh 1
 
@@ -44,7 +43,7 @@ Simple mesh pattern with thin blocks. Good for creating height and detail maps.
 
 ## Example Images
 
-![](mesh-1-ex.gif)
+![](../../../../../../assets/mesh-1-ex.gif)
 
 </td>
 </tr>

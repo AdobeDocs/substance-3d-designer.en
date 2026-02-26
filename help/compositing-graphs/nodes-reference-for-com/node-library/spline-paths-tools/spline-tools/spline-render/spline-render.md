@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Render
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-render-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-render-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -141,11 +140,11 @@ This parameter has no effect when Start and End are both set to 0.
 <table>
   <tr>
     <td>
-      <img src="SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
+      <img src="../../../../../../assets/SplineRender-Variant2-Before.jpg" alt="SplineRender-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
+      <img src="../../../../../../assets/SplineRender-Variant2-After.jpg" alt="SplineRender-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -157,11 +156,11 @@ This parameter has no effect when Start and End are both set to 0.
 <table>
   <tr>
     <td>
-      <img src="SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
+      <img src="../../../../../../assets/SplineRender-Variant1-After.jpg" alt="SplineRender-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -178,11 +177,11 @@ This parameter has no effect when Start and End are both set to 0.
 <table>
   <tr>
     <td>
-      <img src="SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
+      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="SplineRender-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
+      <img src="../../../../../../assets/SplineRender-Variant3.jpg" alt="SplineRender-Variant3">
       <br><i>After</i>
     </td>
   </tr>
@@ -191,7 +190,7 @@ This parameter has no effect when Start and End are both set to 0.
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 1](SplineRender-Demo.gif "Node example 1")
+![Node example 1](../../../../../../assets/SplineRender-Demo.gif "Node example 1")
 
 </td>
 </tr>

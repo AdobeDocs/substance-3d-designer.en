@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Leaks
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](leaks.png){width="128px"}
+![](../../../../../../assets/leaks.png){width="128px"}
 
 ## Leaks
 
@@ -68,7 +67,7 @@ Make sure to try changing the variation mask: because it drives the placement of
 
 ## Example Images
 
-![](leaks-ex.gif)
+![](../../../../../../assets/leaks-ex.gif)
 
 </td>
 </tr>

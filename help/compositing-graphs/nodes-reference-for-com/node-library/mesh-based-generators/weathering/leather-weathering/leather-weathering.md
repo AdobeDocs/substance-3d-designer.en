@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Leather Weathering
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](leather-weathering.png){width="128px"}
+![](../../../../../../assets/leather-weathering.png){width="128px"}
 
 ## Leather Weathering
 
@@ -89,9 +88,9 @@ Make sure to fully understand the [Link Creation Modes](https://support.allegori
 
 ## Example Images
 
-![](leather-ex.gif)
+![](../../../../../../assets/leather-ex.gif)
 
-![](leather-ex2.png){width="233px"}
+![](../../../../../../assets/leather-ex2.png){width="233px"}
 
 </td>
 </tr>

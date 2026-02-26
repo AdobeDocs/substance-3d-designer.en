@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mesh Data Combiner
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](mesh-data-combiner.png){width="128px"}
+![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
 
 ## Mesh Data Combiner
 

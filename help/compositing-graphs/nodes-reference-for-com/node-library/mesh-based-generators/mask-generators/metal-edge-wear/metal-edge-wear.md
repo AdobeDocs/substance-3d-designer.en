@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Metal Edge Wear
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](metal-edge-wear.png){width="128px"}
+![](../../../../../../assets/metal-edge-wear.png){width="128px"}
 
 ## Metal Edge Wear
 
@@ -65,7 +64,7 @@ This mask represents edge wear on a metal object, with scratches and chips appea
 
 ## Example Images
 
-![](metal-edge-wear-ex.gif)
+![](../../../../../../assets/metal-edge-wear-ex.gif)
 
 </td>
 </tr>

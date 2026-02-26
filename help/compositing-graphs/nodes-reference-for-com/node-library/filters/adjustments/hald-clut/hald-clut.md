@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Hald CLUT
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](hald-clut.png){width="128px"}
+![](../../../../../../assets/hald-clut.png){width="128px"}
 
 ## Hald CLUT
 
@@ -46,7 +45,7 @@ Applies a LUT on the input image. The LUT has to be in the Hald format in 4096\*
 
 Examples
 
-![](content-hald-clut.jpg)
+![](../../../../../../assets/content-hald-clut.jpg)
 
 </td>
 </tr>

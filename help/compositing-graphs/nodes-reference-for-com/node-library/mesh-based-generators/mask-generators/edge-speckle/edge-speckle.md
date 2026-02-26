@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Edge Speckle
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](edge-speckle.png){width="128px"}
+![](../../../../../../assets/edge-speckle.png){width="128px"}
 
 ## Edge Speckle
 
@@ -59,7 +58,7 @@ This mask represents edges with a slight speckle added to break them up. Also se
 
 ## Example Images
 
-![](edge-speckle-ex.gif)
+![](../../../../../../assets/edge-speckle-ex.gif)
 
 </td>
 </tr>

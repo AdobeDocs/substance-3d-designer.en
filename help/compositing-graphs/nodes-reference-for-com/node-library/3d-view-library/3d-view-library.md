@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D View (Library)
 
 The 3D View category contains only nodes related to spherical projected HDRI's, either those used in the 3D View of Substance 3D Designer, or for exporting to other applications such as Substance 3D Painter.

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Texture Volume Render
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](3dtexturevolumerender.png){width="200px"}
+![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
 
 **In:** *Filter/Effect*
 
@@ -118,32 +117,32 @@ The volume is represented within the bounds of a *unit cube*. The lighting is co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3dtexturevolumerender-variant2.jpg){width="256px"}
+![](../../../../../../assets/3dtexturevolumerender-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturevolumerender-variant5.jpg){width="256px"}
+![](../../../../../../assets/3dtexturevolumerender-variant5.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturevolumerender-variant3.jpg){width="256px"}
+![](../../../../../../assets/3dtexturevolumerender-variant3.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturevolumerender-variant.jpg){width="256px"}
+![](../../../../../../assets/3dtexturevolumerender-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturevolumerender-variant4.jpg){width="256px"}
+![](../../../../../../assets/3dtexturevolumerender-variant4.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturevolumerender-node.png){width="512px"}
+![](../../../../../../assets/3dtexturevolumerender-node.png){width="512px"}
 
 </td>
 </tr>

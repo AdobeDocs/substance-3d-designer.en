@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Cube 3D GBuffers
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](cube3d.png){width="128px"}
+![](../../../../../../assets/cube3d.png){width="128px"}
 
 ## Cube 3D GBuffers
 

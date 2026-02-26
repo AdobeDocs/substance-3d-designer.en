@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material Mesh Data Blender
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](material-mesh-data-blender.png){width="128px"}
+![](../../../../../../assets/material-mesh-data-blender.png){width="128px"}
 
 ## Material Mesh Data Blender
 
@@ -103,7 +102,7 @@ It is useful for doing things like adding edge highlighting based on curvature o
 
 ## Example Images
 
-![](blenddata-ex.gif)
+![](../../../../../../assets/blenddata-ex.gif)
 
 </td>
 </tr>

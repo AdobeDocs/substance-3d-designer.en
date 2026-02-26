@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Season Filter
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](default-icon.png){width="128px"}
+![](../../../../../../assets/default-icon.png){width="128px"}
 
 ## Season Filter
 

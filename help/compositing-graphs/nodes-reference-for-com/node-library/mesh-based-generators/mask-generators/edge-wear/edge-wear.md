@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Edge Wear
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](edge-wear.png){width="128px"}
+![](../../../../../../assets/edge-wear.png){width="128px"}
 
 ## Edge Wear
 
@@ -58,7 +57,7 @@ This node represents wear on object edges. It has quite a few parameters, but is
 
 ## Example Images
 
-![](edge-wear-ex.gif)
+![](../../../../../../assets/edge-wear-ex.gif)
 
 </td>
 </tr>

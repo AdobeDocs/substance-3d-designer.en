@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shape Stroke
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](shape-stroke.png){width="128px"}
+![](../../../../../../assets/shape-stroke.png){width="128px"}
 
-![](shape-stroke-grayscale.png){width="128px"}
+![](../../../../../../assets/shape-stroke-grayscale.png){width="128px"}
 
 ## Shape Stroke (Grayscale)
 
@@ -48,7 +47,7 @@ Very useful for a variety of image editing effects.
 * **Input Is Pre-Multiplied**: *False/True *(Color Version Only)**Whether the input should be assumed as pre-multiplied.
 * **Pre-Multiply Output**: *False/True*Whether the output should be pre-multiplied.
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="shapestroke-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shapestroke-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

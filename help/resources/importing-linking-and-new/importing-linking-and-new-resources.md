@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Importing, linking and new resources
 
 [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) supports 3 modes of bringing in or creating new resources for use in your graph. These resources can be of many different types, including but not limited to [bitmaps](../../resources/bitmap-resource/bitmap-resource.md), [vector graphics](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md), [3D scenes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)and [fonts](../../resources/font-resource/font-resource.md). This page explains the different methods and when each one is best used.
@@ -23,13 +22,13 @@ The following table gives a quick overview of the difference in functionalities 
 
 |  | New | Import | Link |
 | --- | --- | --- | --- |
-| Graphs ([Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../../function-graphs/function-graphs.md), [MDL graphs](../../mdl-graphs/mdl-graphs.md)) | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
-| [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md),[ vector graphics (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
-| [3D scenes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [fonts](../../resources/font-resource/font-resource.md) | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
-| Is created next to SBS file | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
-| Editable in Designer | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> |
-| External edits are automatically synched | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="error.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
-| Embedded in published SBSAR | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="check.svg"/></div> |
+| Graphs ([Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../../function-graphs/function-graphs.md), [MDL graphs](../../mdl-graphs/mdl-graphs.md)) | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md),[ vector graphics (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| [3D scenes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [fonts](../../resources/font-resource/font-resource.md) | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| Is created next to SBS file | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| Editable in Designer | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| External edits are automatically synched | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(error)" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| Embedded in published SBSAR | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="(tick)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
 
 ## New resources
 
@@ -64,4 +63,4 @@ When deleting a resource from a package, the <b>Confirm item removal</b> dialog 
 > We recommend being mindful about these items and taking the necessary actions to *anticipate any broken dependencies* which would result from deleting items from a package.  
 > These actions can include *removing all uses* of these resources before deletion.
 
-!['Deleted resource being used' warning](confirm-item-removal.png "'Deleted resource being used' warning"){width="512px"}
+!['Deleted resource being used' warning](../../assets/confirm-item-removal.png "'Deleted resource being used' warning"){width="512px"}

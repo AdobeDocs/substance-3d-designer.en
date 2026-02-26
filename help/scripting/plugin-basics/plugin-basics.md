@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Plugin basics
 
 A plugin is a Python file or a Python module that defines an <b>initializeSDPlugin()</b> function.

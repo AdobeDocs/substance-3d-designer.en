@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grayscale Conversion Advanced
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grayscale-conversion-advanced.png){width="128px"}
+![](../../../../../../assets/grayscale-conversion-advanced.png){width="128px"}
 
 ## Grayscale Conversion Advanced
 
@@ -40,7 +39,7 @@ Advanced, quick grayscale conversion node that offers a few preset conversion mo
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="grayscale-conversion-advanced-example.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/grayscale-conversion-advanced-example.png" width="300px"/></div> |
 | --- |
 |  |
 

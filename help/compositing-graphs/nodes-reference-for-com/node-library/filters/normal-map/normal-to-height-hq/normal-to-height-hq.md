@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal To Height HQ
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](normal-to-height-hq.png){width="128px"}
+![](../../../../../../assets/normal-to-height-hq.png){width="128px"}
 
 ## Normal To Height HQ
 
@@ -47,7 +46,7 @@ Useful for when you only have a Normalmap source, yet still want to perform oper
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="normal2height-hq-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/normal2height-hq-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

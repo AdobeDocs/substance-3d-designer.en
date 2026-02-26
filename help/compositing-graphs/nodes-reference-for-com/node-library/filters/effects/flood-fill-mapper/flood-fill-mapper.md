@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Flood Fill Mapper
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](floodfill-mapper-gray.png)![](floodfill-mapper-color.png)
+![](../../../../../../assets/floodfill-mapper-gray.png)![](../../../../../../assets/floodfill-mapper-color.png)
 
 ## Flood Fill Mapper (Grayscale)
 
@@ -92,9 +91,9 @@ The Color version has additional controls to work with Normal Maps, where it can
 
 ## Example Images
 
-![](floodfill-mapper-ex01.png)
+![](../../../../../../assets/floodfill-mapper-ex01.png)
 
-![](floodfill-mapper-ex02.jpg)
+![](../../../../../../assets/floodfill-mapper-ex02.jpg)
 
 </td>
 </tr>

@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Safe Transform
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](safe-transform.png)
+![](../../../../../../assets/safe-transform.png)
 
-![](safe-transform-grayscale.png)
+![](../../../../../../assets/safe-transform-grayscale.png)
 
 ## Safe Transform (Grayscale)
 

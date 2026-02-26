@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Version 12.3
 
 <b>Substance 3D Designer 12.3</b> brings Substance model graphs to a new level with the <b>support of subgraphs</b> (or graph instances), plus the<b> &#39;Visible if&#39; </b>control for exposed parameters and some<b> new nodes</b> dedicated to curves edition. This version also introduces two new panels (<b>Welcome </b>and <b>What&#39;s New</b>) to improve user onboarding, and some other minor features or bug fixes described below.
 
 Release date: *October 6th, 2022*
 
-![](largef.png){width="1111px"}
+![](../../assets/largef.png){width="1111px"}
 
 ## Major features
 
@@ -28,20 +27,20 @@ Release date: *October 6th, 2022*
 If you are used to creating graphs, you want to be able to make subgraphs (or graph instances) in order to reuse your work, make graphs less cluttered and be more efficient.  
 This is now possible also for Substance model graphs: just drag &amp; drop your subgraph from the Explorer to your main graph to use it as an instance node.
 
-![](subgraph.gif){width="600px"}
+![](../../assets/subgraph.gif){width="600px"}
 
 We have also introduced the concept of output nodes for Substance model graphs, such as Output scene. You now have the possibility to have one or more outputs in your graph.  
 Each output will correspond to an output pin when your graph will be instantiated in another graph.
 
-![](image2022-10-4-15-31-27.png){width="600px"}
+![](../../assets/image2022-10-4-15-31-27.png){width="600px"}
 
 When you right click on an instance node, you can of course access its referenced subgraph in order to view or edit it.
 
-![](image2022-10-4-16-28-36.png){width="600px"}
+![](../../assets/image2022-10-4-16-28-36.png){width="600px"}
 
 Thanks to subgraphs and exposed parameters, you can create complexe assets and apply infinite variations as demonstrated in the illustration below.
 
-![](seasons.gif){width="600px"}
+![](../../assets/seasons.gif){width="600px"}
 
 ### Other improvements for Substance model graphs
 
@@ -50,18 +49,18 @@ Thanks to subgraphs and exposed parameters, you can create complexe assets and a
   With <b>Visible If</b>, you can add conditions to parameter visibility, keeping a clean and functional UI. This mechanism already available for Substance graphs is now extended to Substance model graphs, using, of course, the same syntax. <b>  
   </b>
 
-  ![](visibleif.gif){width="600px"}
+  ![](../../assets/visibleif.gif){width="600px"}
 
 * <b>New nodes dedicated to curve edition  
   </b>This version brings some new nodes dedicated to curve edition: <b>Reverse curve</b> swaps the two extremities of a curve, <b>Curve subdivide</b> adds more vertices on segments according to two methods, <b>Smoothing curve </b>smooths out all angles on a 2D curve and finally <b>Offset curve</b> inflates or deflates a 2D curve, as shown below.<b>  
     
   </b>
 
-  ![](curve-offset-4.gif){width="600px"}
+  ![](../../assets/curve-offset-4.gif){width="600px"}
 * <b>New graph window </b>  
   The <b>New Substance model graph</b> window is now also available for Substance model graphs. You can add your own templates or select a default one, then directly enter the name of your graph and select the package which the graph will be added to.
 
-  ![](image2022-10-5-15-25-42.png){width="600px"}
+  ![](../../assets/image2022-10-5-15-25-42.png){width="600px"}
 
 ### Welcome and What's New panels
 
@@ -71,9 +70,9 @@ First, the <b>Welcome </b>panel – displayed the first time you *launch* Design
 
 These two panels are also accessible from the Help menu.
 
-![](image2022-10-3-15-47-28.png)
+![](../../assets/image2022-10-3-15-47-28.png)
 
-![](image2022-10-3-15-47-55.png)
+![](../../assets/image2022-10-3-15-47-55.png)
 
 ### Miscellaneous
 
@@ -83,7 +82,7 @@ These two panels are also accessible from the Help menu.
   In previous versions, Designer was not able to correctly handle the scaling factor set in the operating system. As you can see in the illustration below, everything is perfectly managed on a 4K display with 125% scaling with all fonts and buttons displayed at a coherent size.  
   Note that the option 'Disable High DPI' in the Preferences have been reset to *False* in this new version as this option is not required anymore to have a usable interface.
 
-  ![](highdpi-fix.gif){width="600px"}
+  ![](../../assets/highdpi-fix.gif){width="600px"}
 
 * **Apple Silicon native support (M1 / M2) for Steam version**  
   The 12.2 version of Designer was the first one to bring full support of new Apple machines based on M1 or M2 chips, yet that support was absent from the Steam edition. From now on, all Designer users can benefit from a faster and more efficient experience on these machines.

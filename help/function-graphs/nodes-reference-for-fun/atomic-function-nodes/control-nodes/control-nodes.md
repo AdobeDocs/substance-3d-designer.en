@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Control nodes
 
 This page describes nodes of [Function graphs](../../../../function-graphs/the-function-graph/the-function-graph.md) which purpose is controlling the *flow of execution*.

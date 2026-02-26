@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Effects (Material)
 
 This category contains nodes that generate fully-fledged material effects, similar to how [Weathering](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md) nodes work, but with the main difference being that these Effects nodes can take any material as input. They also require a baked map as input, mostly a Heightmap.

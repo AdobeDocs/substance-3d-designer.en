@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # MLV grayscale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV grayscale: icon](MLV_Grayscale_Icon.png "MLV grayscale: icon")
+![MLV grayscale: icon](../../../../../../assets/MLV_Grayscale_Icon.png "MLV grayscale: icon")
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -71,11 +70,11 @@ More iterations result in flatter and sharper structuring areas.
 <table>
   <tr>
     <td>
-      <img src="MLV_Variant1A.png" alt="MLV_Variant1A">
+      <img src="../../../../../../assets/MLV_Variant1A.png" alt="MLV_Variant1A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="../../../../../../assets/MLV_Variant1B.png" alt="MLV_Variant1B">
       <br><i>After</i>
     </td>
   </tr>
@@ -84,11 +83,11 @@ More iterations result in flatter and sharper structuring areas.
 <table>
   <tr>
     <td>
-      <img src="MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="../../../../../../assets/MLV_Variant2B.png" alt="MLV_Variant2B">
       <br><i>After</i>
     </td>
   </tr>
@@ -97,11 +96,11 @@ More iterations result in flatter and sharper structuring areas.
 <table>
   <tr>
     <td>
-      <img src="MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="../../../../../../assets/MLV_Variant2C.png" alt="MLV_Variant2C">
       <br><i>After</i>
     </td>
   </tr>

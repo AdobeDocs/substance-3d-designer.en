@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Texture SDF
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](3dtexturesdf.png){width="200px"}
+![](../../../../../../assets/3dtexturesdf.png){width="200px"}
 
 **In:** *Filter/Effect*
 
@@ -58,17 +57,17 @@ The **3D Texture SDF** node generates the *signed distance field* of a shape fro
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3dtexturesdf-variant.jpg){width="256px"}
+![](../../../../../../assets/3dtexturesdf-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturesdf-variant2.jpg){width="256px"}
+![](../../../../../../assets/3dtexturesdf-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturesdf-node.png){width="256px"}
+![](../../../../../../assets/3dtexturesdf-node.png){width="256px"}
 
 </td>
 </tr>

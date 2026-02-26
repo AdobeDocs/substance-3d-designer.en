@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Nadir Patch
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](panorama-nadir-patch.png){width="200px"}
+![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
 
 ## Nadir Patch
 
@@ -70,7 +69,7 @@ effect can be quickly checked and validated with [Nadir Extract](../../../../../
 
 ## Example Images
 
-![](nadir-patch-ex.gif)
+![](../../../../../../assets/nadir-patch-ex.gif)
 
 </td>
 </tr>

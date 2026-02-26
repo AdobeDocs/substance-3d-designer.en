@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Sample Height
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-sample-height-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-sample-height-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -120,11 +119,11 @@ Displays additional lines at the edges of the spline’s thickness.
 <table>
   <tr>
     <td>
-      <img src="SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After.jpg" alt="SplineSampleHeight-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -136,11 +135,11 @@ Displays additional lines at the edges of the spline’s thickness.
 <table>
   <tr>
     <td>
-      <img src="SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
+      <img src="../../../../../../assets/SplineSampleHeight-Variant1-After3.jpg" alt="SplineSampleHeight-Variant1-After3">
       <br><i>After</i>
     </td>
   </tr>
@@ -154,12 +153,12 @@ Displays additional lines at the edges of the spline’s thickness.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](SplineSampleHeight-Variant1-After4.jpg "Node example 1")
+![Node example 1](../../../../../../assets/SplineSampleHeight-Variant1-After4.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplineSampleHeight-Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/SplineSampleHeight-Demo.gif "Node example 2")
 
 </td>
 </tr>

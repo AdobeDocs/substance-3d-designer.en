@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline &amp; Path Tools
 
 Spline &amp; Path Tools are a collection of nodes for working with paths and splines in Substance graphs:

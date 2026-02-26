@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material Crop
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](crop-material.png){width="128px"}
+![](../../../../../../assets/crop-material.png){width="128px"}
 
 ## Material Crop
 

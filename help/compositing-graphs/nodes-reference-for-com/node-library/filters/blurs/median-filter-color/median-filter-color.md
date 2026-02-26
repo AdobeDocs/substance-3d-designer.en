@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Median filter color
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Median filter color: icon](MedianFilter_Icon_Color.png "Median filter color: icon")
+![Median filter color: icon](../../../../../../assets/MedianFilter_Icon_Color.png "Median filter color: icon")
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -67,11 +66,11 @@ This parameter controls the size of that square kernel, in pixels. A larger kern
 <table>
   <tr>
     <td>
-      <img src="MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>After</i>
     </td>
   </tr>
@@ -80,11 +79,11 @@ This parameter controls the size of that square kernel, in pixels. A larger kern
 <table>
   <tr>
     <td>
-      <img src="MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
+      <img src="../../../../../../assets/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
+      <img src="../../../../../../assets/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
       <br><i>After</i>
     </td>
   </tr>

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # PBR BaseColor / Metallic Validate
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](pbr-basecolor-metallic-validate.png){width="128px"}
+![](../../../../../../assets/pbr-basecolor-metallic-validate.png){width="128px"}
 
 ## PBR BaseColor / Metallic Validate
 

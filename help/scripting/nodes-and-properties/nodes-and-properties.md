@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Nodes and properties
 
 The [SDNode](../../scripting/scripting-api-reference/scripting-api-reference.md) class enables users to get information about specific nodes, which properties can be accessed with the [SDProperty](../../scripting/scripting-api-reference/scripting-api-reference.md)*<b></b>*class. All of these can be either read of modified.

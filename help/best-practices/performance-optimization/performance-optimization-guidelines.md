@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Performance optimization guidelines
 
 ## Substance graphs
@@ -138,9 +137,9 @@ This way, the bitmap size will change based on the parent graph and you won't ge
 >
 > Setting a [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node to "Relative to parent" and [publishing](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) the graph to a Substance 3D asset (SBSAR) will save the bitmap at a resolution of **256x256** instead of its original size. It is advised instead to keep the [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) of Bitmap nodes' [Output Size](../../compositing-graphs/output-size/output-size.md) as 'Absolute' and use a [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node set to 'Relative to parent' just after the Bitmap node.
 
-![Embedded bitmaps optimisation 1](input-1.jpg "Embedded bitmaps optimisation 1")
+![Embedded bitmaps optimisation 1](../../assets/input-1.jpg "Embedded bitmaps optimisation 1")
 
-![Embedded bitmaps optimisation 2](relativetoparent.jpg "Embedded bitmaps optimisation 2")
+![Embedded bitmaps optimisation 2](../../assets/relativetoparent.jpg "Embedded bitmaps optimisation 2")
 
 <table>
 <tr style="border: 0;">
@@ -151,7 +150,7 @@ Also, it is advised to set the format of Bitmap resources to Jpeg for minimising
 </td>
 <td style="border: 0;" valign="top">
 
-![Embedded bitmaps optimisation 3](format.jpg "Embedded bitmaps optimisation 3")
+![Embedded bitmaps optimisation 3](../../assets/format.jpg "Embedded bitmaps optimisation 3")
 
 </td>
 </tr>

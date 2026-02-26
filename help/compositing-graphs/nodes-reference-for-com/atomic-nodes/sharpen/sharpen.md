@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Sharpen
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Sharpen node icon](sharpen-4.png "Sharpen node icon")
+![Sharpen node icon](../../../../assets/sharpen-4.png "Sharpen node icon")
 
 <b>In:</b> Atomic Nodes
 
@@ -51,4 +50,4 @@ Determines whether the image's alpha channel should be sharpened or left untouch
 
 ## Examples
 
-![Sharpen node - Example 1](sharpen-ex.png "Sharpen node - Example 1")
+![Sharpen node - Example 1](../../../../assets/sharpen-ex.png "Sharpen node - Example 1")

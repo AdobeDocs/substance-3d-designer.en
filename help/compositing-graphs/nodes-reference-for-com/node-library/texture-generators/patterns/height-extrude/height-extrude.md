@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Height Extrude
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](height-extrude.png){width="200px"}
+![](../../../../../../assets/height-extrude.png){width="200px"}
 
 ## Height Extrude
 

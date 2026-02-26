@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Atomic function nodes
 
 Similarly to [atomic nodes in Substance graphs](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md), atomic nodes in Substance function graphs are the smallest node units in that type of graph.

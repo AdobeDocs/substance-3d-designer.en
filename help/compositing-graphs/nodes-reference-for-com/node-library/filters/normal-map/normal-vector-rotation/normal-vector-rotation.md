@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal Vector Rotation
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](normal-vector-rotation.png){width="128px"}
+![](../../../../../../assets/normal-vector-rotation.png){width="128px"}
 
 ## Normal Vector Rotation
 

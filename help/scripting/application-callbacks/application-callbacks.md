@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Application callbacks
 
 It is possible to register <b>Python callbacks</b> with the application object that Designer will call when specific events happen.

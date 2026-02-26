@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Resources
 
 Resources are the content of Substance 3D Designer's packages. They are used to build, generate and preview material and texture data. Resources can be split into two major categories: Graph resources and non-Graph resources. The method used to create or import Resources differ between types, you can read the dedicated page about [Linking, Importing and New Resources](../resources/importing-linking-and-new/importing-linking-and-new-resources.md) to better understand this.
@@ -21,7 +20,7 @@ Resources are the content of Substance 3D Designer's packages. They are used to 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](graph-5.png)
+![](../assets/graph-5.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -42,7 +41,7 @@ Graph Resources are the main resources created inside Designer. Each have their 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](folder-4.png)
+![](../assets/folder-4.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

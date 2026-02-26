@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Histogram Select
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](histogram-select.png){width="128px"}
+![](../../../../../../assets/histogram-select.png){width="128px"}
 
 ## Histogram Select
 
@@ -45,7 +44,7 @@ Similar to [Histogram Scan](../../../../../../compositing-graphs/nodes-reference
 
 ## Example Images
 
-![](histoselect-ex.gif)
+![](../../../../../../assets/histoselect-ex.gif)
 
 </td>
 </tr>

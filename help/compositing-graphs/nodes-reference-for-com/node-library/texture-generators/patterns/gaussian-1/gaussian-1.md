@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Gaussian 1
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](gaussian-1.png){width="128px"}
+![](../../../../../../assets/gaussian-1.png){width="128px"}
 
 ## Gaussian 1
 
@@ -43,7 +42,7 @@ Simple gaussian blob pattern.
 
 ## Example Images
 
-![](gaussian-1-ex.gif)
+![](../../../../../../assets/gaussian-1-ex.gif)
 
 </td>
 </tr>

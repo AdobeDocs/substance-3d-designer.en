@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shape Splatter Blend
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](shape-splatter-blend.png){width="128px"}
+![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
 
 ## Shape Splatter Blend (Color)
 

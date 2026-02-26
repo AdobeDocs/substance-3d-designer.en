@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Straighten Horizon
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](straighten-horizon.png){width="200px"}
+![](../../../../../../assets/straighten-horizon.png){width="200px"}
 
 ## Straighten Horizon
 

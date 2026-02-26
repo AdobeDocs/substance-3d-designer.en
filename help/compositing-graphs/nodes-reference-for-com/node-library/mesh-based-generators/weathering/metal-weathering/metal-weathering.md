@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Metal Weathering
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](metal-weathering.png){width="128px"}
+![](../../../../../../assets/metal-weathering.png){width="128px"}
 
 ## Metal Weathering
 

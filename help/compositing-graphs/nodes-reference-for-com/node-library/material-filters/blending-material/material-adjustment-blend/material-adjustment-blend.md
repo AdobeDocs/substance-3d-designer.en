@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material Adjustment Blend
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](material-adjustment-blend.png){width="128px"}
+![](../../../../../../assets/material-adjustment-blend.png){width="128px"}
 
 ## Material Adjustment Blend
 

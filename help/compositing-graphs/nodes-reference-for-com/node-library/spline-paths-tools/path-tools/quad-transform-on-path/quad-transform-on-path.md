@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Quad Transform on Path
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](quad-transform-on-paths-icon.png "Node icon")
+![Node icon](../../../../../../assets/quad-transform-on-paths-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -67,11 +66,11 @@ The position of the bottom-right handle.
 <table>
   <tr>
     <td>
-      <img src="PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -83,11 +82,11 @@ The position of the bottom-right handle.
 <table>
   <tr>
     <td>
-      <img src="PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -101,12 +100,12 @@ The position of the bottom-right handle.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](QuadTransformOnPaths-Demo2.gif "Node example 1")
+![Node example 1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](QuadTransformOnPaths-Demo1.gif "Node example 2")
+![Node example 2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "Node example 2")
 
 </td>
 </tr>

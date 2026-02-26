@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Replace Color
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](replace-color.png){width="128px"}
+![](../../../../../../assets/replace-color.png){width="128px"}
 
 ## Replace Color
 
@@ -43,7 +42,7 @@ See [Replace Color Range](../../../../../../compositing-graphs/nodes-reference-f
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="replace-color-example.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-example.png" width="300px"/></div> |
 | --- |
 |  |
 

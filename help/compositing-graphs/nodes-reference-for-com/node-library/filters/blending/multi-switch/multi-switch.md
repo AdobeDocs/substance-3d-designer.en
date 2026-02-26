@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Multi Switch
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](multi-switch-greyscale.png){width="128px"}
+![](../../../../../../assets/multi-switch-greyscale.png){width="128px"}
 
-![](multi-switch.png){width="128px"}
+![](../../../../../../assets/multi-switch.png){width="128px"}
 
 ## Multi Switch (Grayscale)
 

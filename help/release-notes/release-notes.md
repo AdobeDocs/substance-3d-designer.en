@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Release notes
 
 A list of all additions and changes made in each release of Designer, including bugfix releases, is available here:

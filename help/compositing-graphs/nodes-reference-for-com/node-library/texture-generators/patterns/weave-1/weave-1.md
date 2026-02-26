@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Weave 1
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](weave-1.png){width="128px"}
+![](../../../../../../assets/weave-1.png){width="128px"}
 
 ## Weave 1
 
@@ -44,7 +43,7 @@ Generates a simple weave pattern.
 
 ## Example Images
 
-![](weave-1-ex.gif)
+![](../../../../../../assets/weave-1-ex.gif)
 
 </td>
 </tr>

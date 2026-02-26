@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Planar Projection
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3d-planar-gray.png)![](3d-planar.png)
+![](../../../../../../assets/3d-planar-gray.png)![](../../../../../../assets/3d-planar.png)
 
 ## 3D Planar Projection (Color)
 
@@ -63,7 +62,7 @@ Performs a planar projection based on baked mesh data (Position and World Normal
 
 ## Example Images
 
-![](3d-planar-projection-ex.gif)
+![](../../../../../../assets/3d-planar-projection-ex.gif)
 
 </td>
 </tr>

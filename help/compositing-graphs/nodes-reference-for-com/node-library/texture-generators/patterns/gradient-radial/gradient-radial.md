@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Gradient Radial
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](gradient-radial.png){width="128px"}
+![](../../../../../../assets/gradient-radial.png){width="128px"}
 
 ## Gradient Radial
 

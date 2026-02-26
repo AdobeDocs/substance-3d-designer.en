@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Gradient Linear 1
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](gradient-linear-1.png){width="128px"}
+![](../../../../../../assets/gradient-linear-1.png){width="128px"}
 
 ## Gradient Linear 1
 
@@ -44,7 +43,7 @@ Despite its simplicity, this is an extremely useful pattern that can be used as 
 
 ## Example Images
 
-![](gradient-linear-1-ex.gif)
+![](../../../../../../assets/gradient-linear-1-ex.gif)
 
 </td>
 </tr>

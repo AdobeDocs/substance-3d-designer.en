@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Substance graphs and MDL materials
 
 This pages describes the synergies between [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) and MDL graphs, and how to connect textures from Substance graph [outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) to MDL graph inputs.
@@ -34,7 +33,7 @@ When using the <b>View outputs in 3D View</b> option for a Substance graph or dr
 
 Individual textures from a Substance graph may be connected to any of the MDL material parameters which support texture sampling, regardless of the identifier, by pressing RMB on the Substance graph node and dragging into the 3D view. A list of available sampler usages is displayed, and you may select the target usage for the selected texture.
 
-![Exposed MDL graph inputs](mdl-graph-inputs-samplers.png "Exposed MDL graph inputs")
+![Exposed MDL graph inputs](../../assets/mdl-graph-inputs-samplers.png "Exposed MDL graph inputs")
 
 *Textures output by a Substance graph are connected to an MDL graph's exposed parameters in the 3D View*
 
@@ -43,7 +42,7 @@ Individual textures from a Substance graph may be connected to any of the MDL ma
 Substance graph instances can be placed directly into MDL graphs by dragging them from the <b>Explorer</b> panel into the MDL graph. Substance graphs from both <b>Substance 3D files</b> (SBS) and <b>Substance 3D asset files</b> (SBSAR) may be used in MDL graphs.
 
 +++Substance graph from Substance 3D file (SBS)
-![Substance graph from SBS file in MDL graph](mdl-sbs-instance-hl.png "Substance graph from SBS file in MDL graph")
+![Substance graph from SBS file in MDL graph](../../assets/mdl-sbs-instance-hl.png "Substance graph from SBS file in MDL graph")
 
 
 
@@ -52,7 +51,7 @@ Substance graph instances can be placed directly into MDL graphs by dragging the
 +++
 
 +++Substance graph from Substance 3D asset (SBSAR)
-![Substance graph from SBSAR file in MDL graph](mdl-sbsar-instance-hl.png "Substance graph from SBSAR file in MDL graph")
+![Substance graph from SBSAR file in MDL graph](../../assets/mdl-sbsar-instance-hl.png "Substance graph from SBSAR file in MDL graph")
 
 
 

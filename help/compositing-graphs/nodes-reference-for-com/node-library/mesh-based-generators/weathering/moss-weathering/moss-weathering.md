@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Moss Weathering
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](moss-weathering.png){width="128px"}
+![](../../../../../../assets/moss-weathering.png){width="128px"}
 
 ## Moss Weathering
 
@@ -80,7 +79,7 @@ Make sure to properly understand the [Link Creation Modes](https://support.alleg
 
 ## Example Images
 
-![](moss-ex.gif)
+![](../../../../../../assets/moss-ex.gif)
 
 </td>
 </tr>

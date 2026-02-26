@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Gradient 2 Points
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](gradient-2-points.png){width="250px"}
+![](../../../../../../assets/gradient-2-points.png){width="250px"}
 
 ## Gradient 2 Points
 
@@ -50,7 +49,7 @@ Creates a gradient of 2 colors between two user-selected points. Result is adjus
 
 ## Example Images
 
-![](gradient-ex2.gif)
+![](../../../../../../assets/gradient-ex2.gif)
 
 </td>
 </tr>

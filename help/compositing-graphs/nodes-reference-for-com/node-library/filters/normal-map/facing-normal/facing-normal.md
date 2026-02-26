@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Facing Normal
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](facing-normal.png){width="128px"}
+![](../../../../../../assets/facing-normal.png){width="128px"}
 
 ## Facing Normal
 

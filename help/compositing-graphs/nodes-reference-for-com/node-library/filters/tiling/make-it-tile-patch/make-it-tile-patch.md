@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Make It Tile Patch
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](make-it-tile-patch.png)
+![](../../../../../../assets/make-it-tile-patch.png)
 
-![](make-it-tile-patch-grayscale.png)
+![](../../../../../../assets/make-it-tile-patch-grayscale.png)
 
 ## Make It Tile Patch (Grayscale)
 
@@ -61,7 +60,7 @@ To do this with an entire material, see [Smart Auto Tile](../../../../../../comp
 
 ## Example Images
 
-![](patch-ex.gif)
+![](../../../../../../assets/patch-ex.gif)
 
 </td>
 </tr>

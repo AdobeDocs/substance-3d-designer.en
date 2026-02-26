@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grease
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grease.png){width="128px"}
+![](../../../../../../assets/grease.png){width="128px"}
 
 ## Grease
 
@@ -58,7 +57,7 @@ This mask is specifically intended for character faces and other specific areas.
 
 ## Example Images
 
-![](grease-ex.gif)
+![](../../../../../../assets/grease-ex.gif)
 
 </td>
 </tr>

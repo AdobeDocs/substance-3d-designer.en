@@ -12,12 +12,11 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Operator nodes
 
 Operator nodes lets you achieve classic mathematical operations on input node(s):
 
-![](image2015-12-23-10-55-31.png)
+![](../../../../assets/image2015-12-23-10-55-31.png)
 
 >[!NOTE]
 >

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material properties
 
 This pages presents common properties of the shader used in the [3D View](../../../interface/3d-view/3d-view.md) of Substance 3D Designer.
@@ -40,7 +39,7 @@ This shader's properties are sorted into the following groups:
 >
 > Some systems may not support this shader. In that case, Designer falls back to the **Metallic Roughness** shader.
 
-![Adjusting material tiling](3dview-material-uv.gif "Adjusting material tiling")
+![Adjusting material tiling](../../../assets/3dview-material-uv.gif "Adjusting material tiling")
 
 ## UVs
 
@@ -51,7 +50,7 @@ This shader's properties are sorted into the following groups:
   Modulates the tiling against the [Physical Size](../../../compositing-graphs/graph-parameters/graph-parameters.md) of the [Substance graph](../../../compositing-graphs/substance-compositing-graphs.md) which was last applied in the 3D View  
   *Default - False*
 
-![Adjusting material surface properties](3dview-material-base-surface.gif "Adjusting material surface properties")
+![Adjusting material surface properties](../../../assets/3dview-material-base-surface.gif "Adjusting material surface properties")
 
 ## Base surface
 
@@ -86,7 +85,7 @@ This shader's properties are sorted into the following groups:
   Description  
   *Default - 1.5*
 
-![Adjusting surface normals](3dview-material-normal.gif "Adjusting surface normals")
+![Adjusting surface normals](../../../assets/3dview-material-normal.gif "Adjusting surface normals")
 
 ## Normal
 
@@ -97,7 +96,7 @@ This shader's properties are sorted into the following groups:
   Description  
   *Default - True*
 
-![Adjusting displacement](3dview-material-height.gif "Adjusting displacement")
+![Adjusting displacement](../../../assets/3dview-material-height.gif "Adjusting displacement")
 
 ## Height
 

@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Invert
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](invert-greyscale.png){width="128px"}
+![](../../../../../../assets/invert-greyscale.png){width="128px"}
 
-![](invert-3.png){width="128px"}
+![](../../../../../../assets/invert-3.png){width="128px"}
 
 ## Invert (Grayscale)
 
@@ -44,7 +43,7 @@ Important: make sure to use the appropriate version for your input! Use "Invert"
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="invert-gray.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/invert-gray.png" width="300px"/></div> |
 | --- |
 |  |
 

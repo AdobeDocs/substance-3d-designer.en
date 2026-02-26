@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Splatter Circular
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](splatter-circular.png){width="128px"}
+![](../../../../../../assets/splatter-circular.png){width="128px"}
 
-![](splatter-circular-color.png){width="128px"}
+![](../../../../../../assets/splatter-circular-color.png){width="128px"}
 
 ## Splatter Circular (Color)
 
@@ -126,7 +125,7 @@ Both inputs are optional.
 
 ## Example Images
 
-![](circularsplatter-ex.png)
+![](../../../../../../assets/circularsplatter-ex.png)
 
 </td>
 </tr>

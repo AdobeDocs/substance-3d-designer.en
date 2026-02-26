@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Surface Brush
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](surface-brush.png){width="128px"}
+![](../../../../../../assets/surface-brush.png){width="128px"}
 
 ## Surface Brush
 
@@ -63,7 +62,7 @@ This mask represents an interesting effect of metal-brushing on an object surfac
 
 ## Example Images
 
-![](surface-brush-ex.gif)
+![](../../../../../../assets/surface-brush-ex.gif)
 
 </td>
 </tr>

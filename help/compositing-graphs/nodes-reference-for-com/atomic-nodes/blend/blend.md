@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Blend
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Blend](comp_blend.png "Atomic node: Blend"){width="200px"}
+![Atomic node: Blend](../../../../assets/comp_blend(1).png "Atomic node: Blend"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

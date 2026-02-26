@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Pipeline and Project Configuration
 
 Substance 3D Designer has a powerful system to configure the application for pipeline usage. Through an advanced system of hierarchical "**Project**" files the application can be instantly configured to Studio or Project standards, with all configurations and Library content being under version control. The main goal of the system is to centralize all pipeline-relevant settings, yet still allow multiple configurations to override and expand each other.
@@ -34,7 +33,7 @@ The image illustrates the relation between the different files in Designer's def
 </td>
 <td style="border: 0;" valign="top">
 
-![Configuration files hierarchy](filestructureoverview.png "Configuration files hierarchy")
+![Configuration files hierarchy](../assets/filestructureoverview.png "Configuration files hierarchy")
 
 </td>
 </tr>

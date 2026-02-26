@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Learn about terms and concepts used in Designer.
 
 ## &#35;

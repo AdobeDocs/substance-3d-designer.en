@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Paths Format Specifications
 
 This page describes the Paths format and provides guidance for manipulating data in that format using functions included in the Paths tools.
@@ -34,7 +33,7 @@ Any data in a pixel in the 'top' part is semantically closely related to the mat
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Paths Polygon encoded data](PathsPolygon_Data.jpg "Paths Polygon encoded data")
+![Paths Polygon encoded data](../../../../../../assets/PathsPolygon_Data.jpg "Paths Polygon encoded data")
 
 </td>
 </tr>
@@ -264,11 +263,11 @@ Please note that for simplicity, <b>Paths info are assumed to be stored in input
 
 You can check the `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), in the Iterations parameter of the 3rd Iterate node, for an example of how to use it.
 
-![Minimal use case of sample_next](paths-spec_fxmap-sample-next_02.png "Minimal use case of sample_next")
+![Minimal use case of sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "Minimal use case of sample_next")
 
 
 
-![Use case of sample_next in Preview Paths (path_trace)](paths-spec_fxmap-sample-next_01.png "Use case of sample_next in Preview Paths (path_trace)")
+![Use case of sample_next in Preview Paths (path_trace)](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "Use case of sample_next in Preview Paths (path_trace)")
 
 
 

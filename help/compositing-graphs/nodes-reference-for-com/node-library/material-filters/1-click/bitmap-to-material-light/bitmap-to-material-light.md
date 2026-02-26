@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Bitmap to Material Light
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](b2m-light.png)
+![](../../../../../../assets/b2m-light.png)
 
 ## Bitmap to Material Light
 

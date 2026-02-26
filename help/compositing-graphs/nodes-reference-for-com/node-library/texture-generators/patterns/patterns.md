@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Patterns
 
 Patterns are artificial graphics that look man-made. They mostly follow rules for their placement, but random variation can be introduced most of the time.

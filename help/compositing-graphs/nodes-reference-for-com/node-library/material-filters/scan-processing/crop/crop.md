@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Crop
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](crop-10.png){width="128px"}
+![](../../../../../../assets/crop-10.png){width="128px"}
 
-![](crop-grayscale.png){width="128px"}
+![](../../../../../../assets/crop-grayscale.png){width="128px"}
 
 ## Crop (Grayscale)
 

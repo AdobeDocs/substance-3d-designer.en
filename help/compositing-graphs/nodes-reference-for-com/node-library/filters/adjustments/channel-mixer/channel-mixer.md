@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Channel Mixer
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](channel-mixer.png){width="128px"}
+![](../../../../../../assets/channel-mixer.png){width="128px"}
 
 ## Channel Mixer
 
@@ -45,7 +44,7 @@ Allows you to mix, swap and blend RGB channels. Can be used to swizzle channels 
 
 ## Example Images
 
-![](channelmixer.gif)
+![](../../../../../../assets/channelmixer.gif)
 
 </td>
 </tr>

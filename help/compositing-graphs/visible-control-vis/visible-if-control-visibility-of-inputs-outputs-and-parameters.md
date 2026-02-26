@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Visible if expressions
 
 The 'Visible if' expression lets you <b>control the visibility</b> of inputs, outputs and parameters in graphs.
@@ -25,7 +24,7 @@ To achieve this, you may input a *logical expression* into the <b>Visible if</b>
 * a graph's [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) node;
 * a graph's [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.
 
-![Toggling input parameter visibility](visible-if-example.gif "Toggling input parameter visibility"){width="512px"}
+![Toggling input parameter visibility](../../assets/visible-if-example.gif "Toggling input parameter visibility"){width="512px"}
 
 If the logical expression evaluates to `true`, the parameter, input or output is displayed in all [instance nodes](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) representing the current graph. Otherwise, it is *hidden*.
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Radial Blur
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](radial-blur.png)![](radial-blur-grayscale.png)
+![](../../../../../../assets/radial-blur.png)![](../../../../../../assets/radial-blur-grayscale.png)
 
 ## Radial Blur (Grayscale)
 
@@ -43,7 +42,7 @@ Generates a spinning, motion-type blur on an input.
 
 ## Example Images
 
-![](radial-blur-ex01.png)
+![](../../../../../../assets/radial-blur-ex01.png)
 
 </td>
 </tr>

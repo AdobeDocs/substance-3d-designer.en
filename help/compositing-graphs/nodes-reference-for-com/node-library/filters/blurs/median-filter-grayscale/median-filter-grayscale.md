@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Median filter grayscale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Median filter grayscale: icon](MedianFilter_Icon_Grayscale.png "Median filter grayscale: icon")
+![Median filter grayscale: icon](../../../../../../assets/MedianFilter_Icon_Grayscale.png "Median filter grayscale: icon")
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -65,11 +64,11 @@ This parameter controls the size of that square kernel, in pixels. A larger kern
 <table>
   <tr>
     <td>
-      <img src="MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>After</i>
     </td>
   </tr>
@@ -78,11 +77,11 @@ This parameter controls the size of that square kernel, in pixels. A larger kern
 <table>
   <tr>
     <td>
-      <img src="MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
+      <img src="../../../../../../assets/MedianFilter_Variant4A.png" alt="MedianFilter_Variant4A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
+      <img src="../../../../../../assets/MedianFilter_Variant4B.png" alt="MedianFilter_Variant4B">
       <br><i>After</i>
     </td>
   </tr>
@@ -91,11 +90,11 @@ This parameter controls the size of that square kernel, in pixels. A larger kern
 <table>
   <tr>
     <td>
-      <img src="MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
+      <img src="../../../../../../assets/MedianFilter_Variant1A.png" alt="MedianFilter_Variant1A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
+      <img src="../../../../../../assets/MedianFilter_Variant1B.png" alt="MedianFilter_Variant1B">
       <br><i>After</i>
     </td>
   </tr>

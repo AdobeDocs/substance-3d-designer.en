@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shape mapper
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Shape mapper - Icon](shape_mapper.png "Shape mapper - Icon"){width="200px"}
+![Shape mapper - Icon](../../../../../../assets/shape_mapper.png "Shape mapper - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Patterns
 

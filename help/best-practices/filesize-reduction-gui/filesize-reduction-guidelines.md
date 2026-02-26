@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Overview
 
 In some cases the total filesize of [Substance 3D assets (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) can be an important factor. This page covers a few critical areas and settings to keep in mind when trying to reduce filesize.

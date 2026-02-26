@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Arc Pavement
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](arcpavement-ex.png)
+![](../../../../../../assets/arcpavement-ex.png)
 
 ## Arc Pavement
 
@@ -66,7 +65,7 @@ Generates a Parisian arc pavement pattern. This effect cannot be achieved with s
 
 ## Example Images
 
-![](arcpavement-ex.png)
+![](../../../../../../assets/arcpavement-ex.png)
 
 </td>
 </tr>

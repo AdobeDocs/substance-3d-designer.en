@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Symmetry
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](symmetry-9.png){width="128px"}
+![](../../../../../../assets/symmetry-9.png){width="128px"}
 
 ## Symmetry
 
@@ -43,7 +42,7 @@ This node is very similar to [Mirror](../../../../../../compositing-graphs/nodes
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="symmetry-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symmetry-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

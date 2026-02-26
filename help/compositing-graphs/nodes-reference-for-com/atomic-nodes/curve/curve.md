@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Curve
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Curve](comp_curve.png "Atomic node: Curve"){width="200px"}
+![Atomic node: Curve](../../../../assets/comp_curve(1).png "Atomic node: Curve"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -94,7 +93,7 @@ Unlike most other nodes, the Curve node does not have a typical standard interfa
 
 In order to create a point, simply double-click anywhere on the Curve view:
 
-![](createmovepoint.gif)
+![](../../../../assets/createmovepoint.gif)
 
 ### Controlling the point influence
 
@@ -107,31 +106,31 @@ In order to obtain precise results, the curve nodes offers different modes for e
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](image2017-2-17-14-5-36.png)
+![](../../../../assets/image2017-2-17-14-5-36.png)
 
 </td>
 </tr>
 </table>
 
-![](image2017-2-17-14-13-27.png)  Reset the point mode to the default value.
+![](../../../../assets/image2017-2-17-14-13-27.png)  Reset the point mode to the default value.
 
-![](image2017-2-17-14-12-6.png)  Lock/Unlock the 2 bezier handlers so the user can move them together or independently.
+![](../../../../assets/image2017-2-17-14-12-6.png)  Lock/Unlock the 2 bezier handlers so the user can move them together or independently.
 
-![](image2017-2-17-14-14-0.png)  Both side of the point are controlled by a Bezier handler.
+![](../../../../assets/image2017-2-17-14-14-0.png)  Both side of the point are controlled by a Bezier handler.
 
-![](image2017-2-17-14-16-22.png)  The right side of the point is controlled by a Bezier handler while the left side remains flat.
+![](../../../../assets/image2017-2-17-14-16-22.png)  The right side of the point is controlled by a Bezier handler while the left side remains flat.
 
-![](image2017-2-17-14-18-25.png)  The left side of the point is controlled by a Bezier handler while the right side remains flat.
+![](../../../../assets/image2017-2-17-14-18-25.png)  The left side of the point is controlled by a Bezier handler while the right side remains flat.
 
-![](image2017-2-17-14-19-32.png)  The point sides remain flat
+![](../../../../assets/image2017-2-17-14-19-32.png)  The point sides remain flat
 
-![](curvepointsmodes.gif)
+![](../../../../assets/curvepointsmodes.gif)
 
 ### Show input histogram
 
-You can show/hide the histogram of your input just by clicking on ![](image2017-2-17-14-50-13.png)
+You can show/hide the histogram of your input just by clicking on ![](../../../../assets/image2017-2-17-14-50-13.png)
 
-![](image2017-2-17-14-48-35.png)
+![](../../../../assets/image2017-2-17-14-48-35.png)
 
 ### Controlling each channel individually (color input)
 
@@ -146,15 +145,15 @@ Just select the curve you want to ajust in the dropdown list located on the top 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](image2017-2-17-14-52-43.png)
+![](../../../../assets/image2017-2-17-14-52-43.png)
 
 </td>
 </tr>
 </table>
 
-While in RGB curve mode, you canhide/show the individual channel curves by pressing/unpressing ![](image2017-2-17-14-55-0.png):
+While in RGB curve mode, you canhide/show the individual channel curves by pressing/unpressing ![](../../../../assets/image2017-2-17-14-55-0.png):
 
-![](image2017-2-17-14-55-38.png)
+![](../../../../assets/image2017-2-17-14-55-38.png)
 
 ### Aligning, mirroring and flipping
 
@@ -173,7 +172,7 @@ If you right click on the curve view, you will get some more options.
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](image2017-6-27-16-11-9.png)
+![](../../../../assets/image2017-6-27-16-11-9.png)
 
 </td>
 </tr>
@@ -198,7 +197,7 @@ Draw a selection box.
 </td>
 <td style="border: 0;" valign="top">
 
-![](ctrl.gif)
+![](../../../../assets/ctrl.gif)
 
 </td>
 </tr>
@@ -215,7 +214,7 @@ Constrain the movement on the X or Y axis.
 </td>
 <td style="border: 0;" valign="top">
 
-![](shift.gif)
+![](../../../../assets/shift.gif)
 
 </td>
 </tr>
@@ -232,7 +231,7 @@ Temporarily break the handles to move them independently.
 </td>
 <td style="border: 0;" valign="top">
 
-![](altclick.gif)
+![](../../../../assets/altclick.gif)
 
 </td>
 </tr>
@@ -242,11 +241,11 @@ Temporarily break the handles to move them independently.
 
 While tweaking the handlers, you may be in a case where one handler is going over the curve view.
 
-In that case, you can use the ![](image2017-2-20-19-11-53.png) button to fit the size to the content.
+In that case, you can use the ![](../../../../assets/image2017-2-20-19-11-53.png) button to fit the size to the content.
 
-The ![](image2017-2-20-19-12-45.png) button resets the zoom level to 1
+The ![](../../../../assets/image2017-2-20-19-12-45.png) button resets the zoom level to 1
 
-![](viewzoom.gif)
+![](../../../../assets/viewzoom.gif)
 
 ## Input connectors
 

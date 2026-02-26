@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Weathering
 
 Weathering nodes take [Mask Generators](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) ones step further: they do a full-material weathering effect based on parameters and baked maps. The concept is very similar to [Smart Materials](https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html) in Substance Painter.

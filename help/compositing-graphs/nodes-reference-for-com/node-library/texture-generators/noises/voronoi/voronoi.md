@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Voronoi
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](voronoi.png){width="200px"}
+![](../../../../../../assets/voronoi.png){width="200px"}
 
 **In:** *Texture Generators* */Noises*
 
@@ -105,32 +104,32 @@ This node can be tested with [Cube GBuffers](../../../../../../compositing-graph
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](voronoi-variant2.jpg){width="256px"}
+![](../../../../../../assets/voronoi-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](voronoi-variant3.jpg){width="256px"}
+![](../../../../../../assets/voronoi-variant3.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](voronoi-variant5.jpg){width="256px"}
+![](../../../../../../assets/voronoi-variant5.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](voronoi-variant.jpg){width="256px"}
+![](../../../../../../assets/voronoi-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](voronoi-variant4.jpg){width="256px"}
+![](../../../../../../assets/voronoi-variant4.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](voronoi-variant6.jpg){width="256px"}
+![](../../../../../../assets/voronoi-variant6.jpg){width="256px"}
 
 </td>
 </tr>

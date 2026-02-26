@@ -12,24 +12,23 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Input
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input color](comp_inputcolor.png "Atomic node: Input color"){width="200px"}
+![Atomic node: Input color](../../../../assets/comp_inputcolor(1).png "Atomic node: Input color"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input grayscale](comp_inputgrayscale.png "Atomic node: Input grayscale"){width="200px"}
+![Atomic node: Input grayscale](../../../../assets/comp_inputgrayscale(1).png "Atomic node: Input grayscale"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input value](comp_inputnumeric.png "Atomic node: Input value"){width="200px"}
+![Atomic node: Input value](../../../../assets/comp_inputnumeric(1).png "Atomic node: Input value"){width="200px"}
 
 </td>
 </tr>
@@ -119,7 +118,7 @@ Base parameters include, among others, the <b>Output Size</b>, <b>Output Format<
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Primary input in Substance graph](node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Primary input in Substance graph](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

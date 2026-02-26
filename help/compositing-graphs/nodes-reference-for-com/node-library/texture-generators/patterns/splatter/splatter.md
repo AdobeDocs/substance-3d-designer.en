@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Splatter
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](splatter.png)
+![](../../../../../../assets/splatter.png)
 
-![](splatter-color.png)
+![](../../../../../../assets/splatter-color.png)
 
 ## Splatter (Color)
 
@@ -66,7 +65,7 @@ Keep in mind that the default Splatter parameters do not look random at all: you
 
 ## Example Images
 
-![](splatter-ex.gif)
+![](../../../../../../assets/splatter-ex.gif)
 
 </td>
 </tr>

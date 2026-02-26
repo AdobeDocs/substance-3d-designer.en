@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline tools
 
 Spline tools are a collection of nodes for generating and adjusting splines, as well as using them for mapping, scattering or warping images.

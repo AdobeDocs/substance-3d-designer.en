@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Technical issues
 
 This page lets you find information about common technical issues users may experience while using Substance 3D Designer, arranged into categories.  
@@ -59,7 +58,7 @@ Share a <b>valid e-mail address</b> so we can reach out to you if we need more d
 </td>
 <td style="border: 0;" valign="top">
 
-![Crash report dialog](crash-reporter-2.png "Crash report dialog"){zoomable="yes"}
+![Crash report dialog](../assets/crash-reporter-2.png "Crash report dialog"){zoomable="yes"}
 
 *Click to enlarge*
 
@@ -86,7 +85,7 @@ You can let us know about the iisue in the Description field so we can investiga
 </td>
 <td style="border: 0;" valign="top">
 
-![Bug report dialog](bug-reporter.png "Bug report dialog"){zoomable="yes"}
+![Bug report dialog](../assets/bug-reporter.png "Bug report dialog"){zoomable="yes"}
 
 *Click to enlarge*
 

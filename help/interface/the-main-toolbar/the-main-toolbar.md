@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # The main toolbar
 
 <table>
@@ -24,7 +23,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Main toolbar](mainmenu.png "Main toolbar")
+![Main toolbar](../../assets/mainmenu.png "Main toolbar")
 
 </td>
 </tr>
@@ -32,17 +31,17 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 ## Quick access buttons
 
-<b>!&#91;&#93;(newsubstance.png)  New Substance graph...:</b> (Ctrl+N)Presents you the [New Substance graph](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) window, then creates a new package with a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
+<b>!&#91;&#93;(../../assets/newsubstance.png)  New Substance graph...:</b> (Ctrl+N)Presents you the [New Substance graph](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) window, then creates a new package with a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
 
-<b>!&#91;&#93;(newmdl.png)  New MDL graph...:</b> Presents you the 'New MDL graph' window, then creates a new package with a [MDL graph.](../../mdl-graphs/mdl-graphs.md)
+<b>!&#91;&#93;(../../assets/newmdl.png)  New MDL graph...:</b> Presents you the 'New MDL graph' window, then creates a new package with a [MDL graph.](../../mdl-graphs/mdl-graphs.md)
 
-<b>!&#91;&#93;(open.png)  Open...:</b> (Ctrl+O) Open an existing [Substance package (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+<b>!&#91;&#93;(../../assets/open.png)  Open...:</b> (Ctrl+O) Open an existing [Substance package (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-<b>!&#91;&#93;(saveall.png)  Save All:</b> (Ctrl+⇧+S) Saves all packages listed in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md).
+<b>!&#91;&#93;(../../assets/saveall.png)  Save All:</b> (Ctrl+⇧+S) Saves all packages listed in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md).
 
-<b>!&#91;&#93;(undo.png)  Undo:</b> (Ctrl+Z) Undo the last operation.
+<b>!&#91;&#93;(../../assets/undo.png)  Undo:</b> (Ctrl+Z) Undo the last operation.
 
-<b>!&#91;&#93;(redo.png)  Redo:</b> (Ctrl+Y) Redo the last undone operation.
+<b>!&#91;&#93;(../../assets/redo.png)  Redo:</b> (Ctrl+Y) Redo the last undone operation.
 
 ## File
 

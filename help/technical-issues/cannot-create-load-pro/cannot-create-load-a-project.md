@@ -12,18 +12,17 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Cannot create/load a project
 
 This page lists common causes for failing to create or load projects in Substance 3D Designer, and offers troubleshooting steps for each.
 
 ## Application is too old to open URL
 
-**![(error)](error.svg) Issue**
+**![(error)](../../assets/error.svg) Issue**
 
 The **Substance 3D file (SBS)** is being loaded by a version of Substance 3D Designer which *does not support its format*. The Substance 3D file was likely *saved in a more recent version* of the software which uses an updated format for these files.
 
-**![(tick)](check.svg) Recommended steps**
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 As Substance 3D Designer evolves, so does the Substance 3D file format (SBS). More often than not, a new version of the software will need to *update your files* so they can support the latest features.
 
@@ -49,7 +48,7 @@ First, check that you are using the latest version of Substance 3D Designer whic
 
 ## Crash when creating or loading a project
 
-<b>!&#91;(error)&#93;(error.svg) Issue</b>
+<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
 
 A crash when creating or loading a project is often caused by an error during the initialisation of the [3D View](../../interface/3d-view/3d-view.md), which occurs when the workspace is being set up.
 
@@ -57,7 +56,7 @@ If the system is a laptop, a third-party application may enforce a *power manage
 
 A crash may also occur when the *display configuration or scaling* was changed between sessions, so that 3D View render frame is created at invalid coordinates.
 
-<b>!&#91;(tick)&#93;(check.svg) Recommended steps</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
 
 Considering the multiple possible causes for this crash, we suggest going through the following troubleshooting steps in order:
 

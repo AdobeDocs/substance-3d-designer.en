@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # FXAA
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](fxaa-color.png)![](fxaa-grayscale.png)
+![](../../../../../../assets/fxaa-color.png)![](../../../../../../assets/fxaa-grayscale.png)
 
 ## FXAA (Color/Grayscale)
 
@@ -36,7 +35,7 @@ Applies an anti aliasing filter based on the FXAA algorithm. You can use this to
 
 ## Example Images
 
-![](fxaa-ex.png)
+![](../../../../../../assets/fxaa-ex.png)
 
 </td>
 </tr>

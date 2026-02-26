@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Liquid
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](liquid.png){width="128px"}
+![](../../../../../../assets/liquid.png){width="128px"}
 
 ## Liquid
 
@@ -47,7 +46,7 @@ This is a simple variant of [Gaussian Noise](../../../../../../compositing-graph
 
 ## Example Images
 
-![](liquid-ex.gif)
+![](../../../../../../assets/liquid-ex.gif)
 
 </td>
 </tr>

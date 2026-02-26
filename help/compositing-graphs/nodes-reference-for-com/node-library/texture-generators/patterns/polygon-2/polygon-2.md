@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Polygon 2
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](polygon-2-1.png){width="128px"}
+![](../../../../../../assets/polygon-2-1.png){width="128px"}
 
 ## Polygon 2
 
@@ -48,7 +47,7 @@ Generates a smooth gradient polygon shape with options for adjustment. See [Poly
 
 ## Example Images
 
-![](polygon-2-ex.gif)
+![](../../../../../../assets/polygon-2-ex.gif)
 
 </td>
 </tr>

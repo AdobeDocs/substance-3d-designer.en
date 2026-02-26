@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color Temperature Adjustment
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](color-temperature-adjustement.png){width="250px"}
+![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
 
 ## Color Temperature Adjustment
 
@@ -44,7 +43,7 @@ Adjusts input image's color balance. Similar to White Balance adjustment in phot
 
 ## Example Images
 
-![](color-tempadjust-ex.gif)
+![](../../../../../../assets/color-tempadjust-ex.gif)
 
 </td>
 </tr>

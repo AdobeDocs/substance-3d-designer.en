@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Histogram Scan
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](histogram-scan-1.png){width="128px"}
+![](../../../../../../assets/histogram-scan-1.png){width="128px"}
 
 ## Histogram Scan
 
@@ -46,11 +45,11 @@ Very simple yet useful node that provides an intuitive way to remap the contrast
 
 ## Example Images
 
-![](histogram-scan.gif)
+![](../../../../../../assets/histogram-scan.gif)
 
-![](histogram-scan2.gif)
+![](../../../../../../assets/histogram-scan2.gif)
 
-![](histogram-scan3.gif)
+![](../../../../../../assets/histogram-scan3.gif)
 
 </td>
 </tr>

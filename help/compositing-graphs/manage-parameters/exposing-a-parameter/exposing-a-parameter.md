@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Exposing a parameter
 
 Exposing parameters is one of the most powerful tools and is key to opening up your graphs to other applications such as Substance 3D Painter, Substance 3D Sampler and Substance Integrations for Maya and 3DS Max.
 
 This page explains all required concepts to get started exposing. It's recommended [that you first learn what a Graph Instance is ](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)before continuing on this page. It's also good to have a grasp on[ the difference between Publish and Exporting, as well as the filetypes involved.](../../../getting-started/overview/overview.md)
 
-![Exposing parameters simplified](parameters-5.png "Exposing parameters simplified")
+![Exposing parameters simplified](../../../assets/parameters-5.png "Exposing parameters simplified")
 
 *\*Dashed, transparent lines above are an abstract representation of the connection  
 from exposed parameters to Graph Parameters.*
@@ -57,18 +56,18 @@ Parameters can come in many different forms: sliders, dials, type-in boxes, drop
 
 Currently there are two main methods to expose parameters. One method is more suited for quickly exposing a single parameter, the second method is more suited for exposing multiple parameters in one sweep.
 
-![Single expose method walkthrough](single-expose2.gif "Single expose method walkthrough"){width="512px"}
+![Single expose method walkthrough](../../../assets/single-expose2.gif "Single expose method walkthrough"){width="512px"}
 
 ### SINGLE EXPOSE METHOD
 
 1. Find the parameter you want to expose in the [Properties Window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), under the Specific Parameters tab
-1. Click the ![](image2020-9-17-15-35-59.png) dropdown options button
-1. Choose ![](image2020-9-17-15-37-7.png) <b>Expose as new graph input</b> from the drop down list, the first option.
+1. Click the ![](../../../assets/image2020-9-17-15-35-59.png) dropdown options button
+1. Choose ![](../../../assets/image2020-9-17-15-37-7.png) <b>Expose as new graph input</b> from the drop down list, the first option.
 1. The <b>Expose parameter</b> dialog appears, set any parameter properties as you wish.
 
    It is recommended to at least change the <b>Identifier</b> and <b>Label</b>
 1. Press <b>OK</b> to confirm
-1. The parameter's name turns *blue*, and the ![](image2020-9-17-15-35-46.png)  
+1. The parameter's name turns *blue*, and the ![](../../../assets/image2020-9-17-15-35-46.png)  
    <b> Edit parameter function</b> button appears next to the dropdown options to confirm the parameter is exposed
 
 >[!NOTE]
@@ -76,20 +75,20 @@ Currently there are two main methods to expose parameters. One method is more su
 > Most numerical fields support *basic math formulas* as an input – E.g., `17+3.5`, `7/3`, `(4+2)*3`. Press *Enter* to validate the formula and the result will be input in the field. If the formula is invalid, the field reverts to its previous value.  
 > Some numerical fields in other parts of the application, such as in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) dock, also support this feature.
 
-![Batch expose method walkthrough](batch-expose-2.gif "Batch expose method walkthrough"){width="512px"}
+![Batch expose method walkthrough](../../../assets/batch-expose-2.gif "Batch expose method walkthrough"){width="512px"}
 
 ### Batch expose method
 
 When exposing one parameter, this method will be a bit slower than the previous. When exposing multiple parameters, it is much faster.
 
-1. Instead of finding a single parameter, find the ![](image2020-9-17-15-39-7.png) <b>Multi-expose</b> button at the top right of the <b>Specific parameters</b> tab
+1. Instead of finding a single parameter, find the ![](../../../assets/image2020-9-17-15-39-7.png) <b>Multi-expose</b> button at the top right of the <b>Specific parameters</b> tab
 1. Choose <b>Batch expose parameters...</b> from the drop down menu
 1. The <b>Batch expose</b> dialog appears, allowing you to customize the exposing of all of a node's <b>Specific parameters</b>
 1. Use <b>All</b>, <b>None</b> or specific checkboxes to decide which parameters to expose
 1. Click on a parameter name under the <b>Graph input identifier</b> column in the list to change its name.
 1. Click on a <b>Group name</b> under the <b>Graph input group</b> column in the list to add a (sub-)group for one specific parameter
 1. Use the <b>Graph input identifier</b> and <b>Graph input group</b> type-in boxes at the bottom to add prefix, suffix and input groups to all exposed parameters at once. All these values are applied on top of the per-parameter settings.
-1. Click <b>OK</b> to confirm and expose all selected parameters. The parameter names now show *blue* to confirm the parameters are exposed, as well as an ![](image2020-9-17-15-35-46.png) <b>Edit function</b> button.
+1. Click <b>OK</b> to confirm and expose all selected parameters. The parameter names now show *blue* to confirm the parameters are exposed, as well as an ![](../../../assets/image2020-9-17-15-35-46.png) <b>Edit function</b> button.
 
 ## Limitations
 
@@ -122,12 +121,12 @@ Once exposed, it is no longer possible to access a parameter like before. Changi
 
 To change an exposed parameter's options either:
 
-1. Click on the Dropdown options button ![](image2020-9-17-15-35-59.png) next to the already exposed parameter
-1. Choose ![](image2020-9-17-15-37-7.png)<b> Edit exposed graph input</b>. This takes you straight to the relevant entry in the graph properties
+1. Click on the Dropdown options button ![](../../../assets/image2020-9-17-15-35-59.png) next to the already exposed parameter
+1. Choose ![](../../../assets/image2020-9-17-15-37-7.png)<b> Edit exposed graph input</b>. This takes you straight to the relevant entry in the graph properties
 1. Double-click in an empty area of your graph to get to the graph properties, then find the parameter in the list of <b>Input parameters</b>
 1. Single click on your graph in the <b>Explorer</b>, then find the parameter in the list of <b>Input parameters</b>
 
-![Input parameters](input-parameters-2.png "Input parameters"){width="512px"}
+![Input parameters](../../../assets/input-parameters-2.png "Input parameters"){width="512px"}
 
 ### INPUT PARAMETERS
 
@@ -146,7 +145,7 @@ All exposed Parameters are listed under the Input Parameters tab. The following 
 1. <b>User Data: </b>Custom user data, available for any purpose.
 1. <b>Visible If</b>: Special expression system to show or hide parameters based on external conditions. See [Visible if: control visibility of inputs, outputs and parameters](../../../compositing-graphs/visible-control-vis/visible-if-control-visibility-of-inputs-outputs-and-parameters.md)
 
-![Drop down list editor for Integer parameter](dropdown.gif "Drop down list editor for Integer parameter"){width="512px"}
+![Drop down list editor for Integer parameter](../../../assets/dropdown.gif "Drop down list editor for Integer parameter"){width="512px"}
 
 #### Drop down list
 
@@ -158,13 +157,13 @@ A special case is the <b>Drop down list</b> for Integer types. There is no Defau
 * The third checkbox allows you to mark one Item as the default selected one.
 * The X deletes an Item, the + adds an Item
 
-![Re-order input parameters](reorder-2.gif "Re-order input parameters"){width="512px"}
+![Re-order input parameters](../../../assets/reorder-2.gif "Re-order input parameters"){width="512px"}
 
 #### Re-order
 
 Re-ordering of Parameters can easily be done by dragging and dropping the dark, striped handles to the left of the input parameters name in the list. Keep in mind Grouping parameters can affect the order.
 
-![Previewing input parameters](parameter-preview-2.gif "Previewing input parameters"){width="512px"}
+![Previewing input parameters](../../../assets/parameter-preview-2.gif "Previewing input parameters"){width="512px"}
 
 ### PREVIEWING PARAMETERS
 
@@ -182,15 +181,15 @@ Normally, any changes made in <b>Preview Mode</b> are *discarded*. You can howev
 >
 > Preview mode aims to represent the experience of a [published Substance 3D asset](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) as accurately as possible. Therefore, the Limitations listed in this page will apply in this mode, such as *static parameters being absent from the list*.
 
-![Copying and pasting inputs parameters](copy-paste-params-2.gif "Copying and pasting inputs parameters"){width="512px"}
+![Copying and pasting inputs parameters](../../../assets/copy-paste-params-2.gif "Copying and pasting inputs parameters"){width="512px"}
 
 ### COPY-PASTING PARAMETERS
 
 Parameters can be copy-pasted between graphs.
 
-A single parameter can be copied with the Copy button ![](image2019-9-19-11-3-49.png). Multiple Parameters can be copied through the Parameters Menu ![](image2020-9-17-15-39-7.png). Choose Copy Inputs to copy all inputs.
+A single parameter can be copied with the Copy button ![](../../../assets/image2019-9-19-11-3-49.png). Multiple Parameters can be copied through the Parameters Menu ![](../../../assets/image2020-9-17-15-39-7.png). Choose Copy Inputs to copy all inputs.
 
-Choose Paste Inputs ![](image2020-9-17-16-43-15.png) in the Parameters Menu ![](image2020-9-17-15-39-7.png) to paste one or more parameters.
+Choose Paste Inputs ![](../../../assets/image2020-9-17-16-43-15.png) in the Parameters Menu ![](../../../assets/image2020-9-17-15-39-7.png) to paste one or more parameters.
 
 If you want to transfer values, and not the actual exposed parameter itself, [read about Parameter Presets.](../../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)
 
@@ -198,29 +197,29 @@ If you want to transfer values, and not the actual exposed parameter itself, [re
 
 Because of the nature of parameters, where you can have on Input Parameter controlling multiple Nodes, or where Input parameters can exist without controlling a node, problems can arise with missing or unused parameters. Below common issues and their solutions are described.
 
-![Errors on node parameters](parameter-error.gif "Errors on node parameters"){width="512px"}
+![Errors on node parameters](../../../assets/parameter-error.gif "Errors on node parameters"){width="512px"}
 
 ### TRACKING BROKEN PARAMETERS ON NODES
 
-You can track what parameter is used by which node through the Node Finder Tool ![](image2019-9-19-14-15-53.png), which is located in the top bar of the Graph View. Click it and it allows you to find nodes using specific parameters.
+You can track what parameter is used by which node through the Node Finder Tool ![](../../../assets/image2019-9-19-14-15-53.png), which is located in the top bar of the Graph View. Click it and it allows you to find nodes using specific parameters.
 
-If a node has an actual problem, it will display a Warning badge ![](image2019-9-19-14-23-54.png) on its top left corner. Hovering over the badge will display a tooltip with more information.
+If a node has an actual problem, it will display a Warning badge ![](../../../assets/image2019-9-19-14-23-54.png) on its top left corner. Hovering over the badge will display a tooltip with more information.
 
-To reset and remove a problem, for the parameter you want to fix or reset, click on the Dropdown button ![](image2020-9-17-15-35-59.png) next to the Edit Function button and select ![](image2020-9-17-16-56-18.png) <b>Reset. </b>This returns a parameter to its previous, non-exposed state, the blue name will turn gray again to reflect this.
+To reset and remove a problem, for the parameter you want to fix or reset, click on the Dropdown button ![](../../../assets/image2020-9-17-15-35-59.png) next to the Edit Function button and select ![](../../../assets/image2020-9-17-16-56-18.png) <b>Reset. </b>This returns a parameter to its previous, non-exposed state, the blue name will turn gray again to reflect this.
 
-![Cleaning unused input parameters](clean-inputs-2.gif "Cleaning unused input parameters"){width="512px"}
+![Cleaning unused input parameters](../../../assets/clean-inputs-2.gif "Cleaning unused input parameters"){width="512px"}
 
 ### CLEANING UP UNUSED INPUT PARAMETERS
 
-If you have lost track of your Input Parameters and no longer know which ones are used, they can be cleaned up using a small tool. Click the Input Parameter menu button ![](image2020-9-17-15-39-7.png) and select <b>Clean Inputs.</b>
+If you have lost track of your Input Parameters and no longer know which ones are used, they can be cleaned up using a small tool. Click the Input Parameter menu button ![](../../../assets/image2020-9-17-15-39-7.png) and select <b>Clean Inputs.</b>
 
 A new dialog appears, listing all unused parameters. Check or uncheck whatever parameters you want to remove or keep, and click OK. If no dialog appears, there are currently no unused parameters to clean up.
 
-![Removing parameters](delete-param-2.gif "Removing parameters"){width="512px"}
+![Removing parameters](../../../assets/delete-param-2.gif "Removing parameters"){width="512px"}
 
 ### REMOVING PARAMETERS
 
 To actually remove a parameter that is in use, requires two distinct steps.
 
-1. On the node with the exposed parameter, click the dropdown arrow to the right of the Function Expose button that is colored in blue: ![](image2019-9-19-14-55-55.png). Then choose "Reset to Default Value". This removes the use of the parameter on this one node. repeat for any other node making use of the same parameter. "Reset to Default value" also resets the range of the parameter widget to its *soft range*.
+1. On the node with the exposed parameter, click the dropdown arrow to the right of the Function Expose button that is colored in blue: ![](../../../assets/image2019-9-19-14-55-55.png). Then choose "Reset to Default Value". This removes the use of the parameter on this one node. repeat for any other node making use of the same parameter. "Reset to Default value" also resets the range of the parameter widget to its *soft range*.
 1. In the Input Parameters list of the Graph, click the X all the way to the right of the parameter's entry. This deletes the parameter completely. If any nodes try to make use of this parameter, a warning badge will appear (see above).

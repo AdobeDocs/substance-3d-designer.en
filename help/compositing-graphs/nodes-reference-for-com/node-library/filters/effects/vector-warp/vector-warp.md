@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Vector Warp
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](vector-warp.png){width="128px"}
+![](../../../../../../assets/vector-warp.png){width="128px"}
 
-![](vector-warp-grayscale.png){width="128px"}
+![](../../../../../../assets/vector-warp-grayscale.png){width="128px"}
 
 ## Vector Warp (Grayscale)
 
@@ -56,7 +55,7 @@ This node can be useful when you want to do very specific distortions with varyi
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="vector-warp-ex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/vector-warp-ex.png" width="300px"/></div> |
 | --- |
 |  |
 

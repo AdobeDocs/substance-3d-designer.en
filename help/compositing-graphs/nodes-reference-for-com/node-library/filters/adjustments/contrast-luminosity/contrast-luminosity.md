@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Contrast/Luminosity
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](contrast-luminosity-color.png){width="128px"}
+![](../../../../../../assets/contrast-luminosity-color.png){width="128px"}
 
-![](contrast-luminosity-grayscale.png){width="128px"}
+![](../../../../../../assets/contrast-luminosity-grayscale.png){width="128px"}
 
 ## Contrast/Luminosity (Grayscale)
 
@@ -45,7 +44,7 @@ A simple contrast and luminosity (brightness) adjustment.
 
 ## Example Images
 
-![](contrastluminosity-optim.gif)
+![](../../../../../../assets/contrastluminosity-optim.gif)
 
 </td>
 </tr>

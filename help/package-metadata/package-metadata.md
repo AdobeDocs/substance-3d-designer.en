@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Package Metadata
 
 Package Metadata is a dictionary of text (string) values defined at the Package level. It is included in the SBSAR when publishing, and it is a general purpose storage aimed to be used by python scripting.
@@ -23,34 +22,34 @@ If you are developing a Python plugin, you may want to edit metadata manually fo
 
 1. If you double-click on a package in the explorer, it opens the Properties panel on this package.
 
-   ![Package metadata](empty.png "Package metadata")
+   ![Package metadata](../assets/empty.png "Package metadata")
 1. Here you have a dedicated section "Metadata". It is likely to be empty in your case, like in the capture above.
 
    You can add a new metadata by using the "plus" button.
 
-   ![Add metadata button](hoveradd.png "Add metadata button")
+   ![Add metadata button](../assets/hoveradd.png "Add metadata button")
 1. A new item appears in the section:
 
-   ![New metadata](newitem-1.png "New metadata")
+   ![New metadata](../assets/newitem-1.png "New metadata")
 1. There is a "Key" field and a "Value" field. Both can be set to anything that suits your need. The "Key" field must have a unique value across the list.
 
-   ![New metadata value](newitemfilled.png "New metadata value")
+   ![New metadata value](../assets/newitemfilled.png "New metadata value")
 1. You can also choose the "Type" of the item. At the moment it can be "String" or "URL":
 
-   ![Change metadata type](typecombo.png "Change metadata type")
+   ![Change metadata type](../assets/typecombo.png "Change metadata type")
 1. Here "URL" means a reference to a resource included in the package. To do so, choose a file on your hard drive, and drag-and-drop it on the package in the Explorer. It can be a regular resource, like an image, or any other file, like a text file.
 
-   ![Generic resource in package](resourceinpackage.png "Generic resource in package")
+   ![Generic resource in package](../assets/resourceinpackage.png "Generic resource in package")
 1. The file appears as a new resource in the package.
 
    Now go back to the package Properties panel, create a new metadata, give it a proper key, and choose "URL" as type. Then select the "..." button in the "Value" field, and choose "From Resource". Finally, pick the file you included just before, and validate:
 
-   ![URL metadata](urlmetadata.gif "URL metadata")
+   ![URL metadata](../assets/urlmetadata.gif "URL metadata")
 1. Now you can see the "URL" of the resource is stored in the "Value" field.
 
    You can also delete metadata using the "X" button to the right of the item:
 
-   ![Delete metadata](hoverdelete.png "Delete metadata")
+   ![Delete metadata](../assets/hoverdelete.png "Delete metadata")
 
 >[!NOTE]
 >

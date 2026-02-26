@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Mapper Color
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-mapper-color-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-mapper-color-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -155,11 +154,11 @@ This also impacts uniform distribution.
 <table>
   <tr>
     <td>
-      <img src="SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
+      <img src="../../../../../../assets/SplineMapperColor-Variant1-After.jpg" alt="SplineMapperColor-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -168,7 +167,7 @@ This also impacts uniform distribution.
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplineMapperColor-Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/SplineMapperColor-Demo.gif "Node example 2")
 
 </td>
 </tr>
@@ -178,7 +177,7 @@ This also impacts uniform distribution.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 3](SplineMapperColor-Variant1-After1.jpg "Node example 3")
+![Node example 3](../../../../../../assets/SplineMapperColor-Variant1-After1.jpg "Node example 3")
 
 </td>
 <td style="border: 0;" valign="top">

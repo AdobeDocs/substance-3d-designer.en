@@ -12,32 +12,31 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Bakers Legacy Interface
 
 Here is the description of the baker interface available in  [Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) versions before 6.0.4.
 
 ## Overview
 
-![](image2017-3-13-9-33-40.png)
+![](../../assets/image2017-3-13-9-33-40.png)
 
 The baker panel is divided in 4 parts:
 
 ### 1: Scene
 
-![](image2017-3-13-9-35-53.png)
+![](../../assets/image2017-3-13-9-35-53.png)
 
 Let you define which part of the mesh is involved in the baking process.
 
 New in version 6, you can also select by material:
 
-![](image2017-3-13-9-45-26.png)
+![](../../assets/image2017-3-13-9-45-26.png)
 
 ### 2: Bakers
 
-![](image2017-3-13-9-46-26.png)
+![](../../assets/image2017-3-13-9-46-26.png)
 
-By pressing the ![](image2017-3-13-9-47-47.png) button, you can add the desired bakers to the processing list
+By pressing the ![](../../assets/image2017-3-13-9-47-47.png) button, you can add the desired bakers to the processing list
 
 >[!NOTE]
 >
@@ -45,21 +44,21 @@ By pressing the ![](image2017-3-13-9-47-47.png) button, you can add the desired 
 
 Clicking on the "+" in the bakers layout lets you add the bakers in a stack (You can put as many bakers as you want in a stack).
 
-.![](image2017-3-13-9-52-8.png)
+.![](../../assets/image2017-3-13-9-52-8.png)
 
-You can remove a baking process from the list by pressing ![](image2017-3-13-9-54-33.png)
+You can remove a baking process from the list by pressing ![](../../assets/image2017-3-13-9-54-33.png)
 
-You can reorder the baking process list by selecting a baking process and using ![](image2017-3-13-9-55-33.png)
+You can reorder the baking process list by selecting a baking process and using ![](../../assets/image2017-3-13-9-55-33.png)
 
 ### 3: Bakers parameters
 
-![](image2017-3-13-13-24-0.png)
+![](../../assets/image2017-3-13-13-24-0.png)
 
 This section displays the specific options for the current selected baker.
 
 ### 4: Common Parameters
 
-![](image2017-3-13-13-28-12.png)
+![](../../assets/image2017-3-13-13-28-12.png)
 
 Displays the parameters that are shared between bakers.
 
@@ -77,4 +76,4 @@ Pressing the OK button at the bottom right of the bakers window will start the b
 
 New in version 6: you can now cancel the baking process with the cancel button:
 
-![](image2017-3-13-13-50-4.png)
+![](../../assets/image2017-3-13-13-50-4.png)

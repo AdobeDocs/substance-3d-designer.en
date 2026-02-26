@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Polygon 1
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](polygon-1-1.png){width="128px"}
+![](../../../../../../assets/polygon-1-1.png){width="128px"}
 
 ## Polygon 1
 
@@ -52,7 +51,7 @@ Generates a polygon shape, with many options for adjustment. See [Polygon 2](../
 
 ## Example Images
 
-![](polygon-1-ex.gif)
+![](../../../../../../assets/polygon-1-ex.gif)
 
 </td>
 </tr>

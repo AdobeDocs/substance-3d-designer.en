@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Bottom To Top
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](bottom-to-top.png){width="128px"}
+![](../../../../../../assets/bottom-to-top.png){width="128px"}
 
 ## Bottom To Top
 
@@ -57,7 +56,7 @@ This generates a white to black transition from the bottom to the top of a model
 
 ## Example Images
 
-![](bottom-to-top-ex.gif)
+![](../../../../../../assets/bottom-to-top-ex.gif)
 
 </td>
 </tr>

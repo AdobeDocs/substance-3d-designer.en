@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Effects
 
 This category contains a large variety of nodes intended for multiple uses. These nodes are mainly intended for a single channel input and perform a fairly advanced effect or modification as output.

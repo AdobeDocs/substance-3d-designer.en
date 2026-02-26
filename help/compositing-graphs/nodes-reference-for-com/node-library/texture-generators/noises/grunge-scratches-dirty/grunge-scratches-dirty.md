@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Scratches Dirty
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](grungescratchesdirty.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesdirty.jpg){width="200px"}
 
 **In:** *Texture Generators* */Noises*
 
@@ -52,12 +51,12 @@ The **Grunge Scratches Dirty** node generates a grunge map akin to a finely scra
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grungescratchesdirty-variant2.jpg){width="256px"}
+![](../../../../../../assets/grungescratchesdirty-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](grungescratchesdirty-variant.jpg){width="256px"}
+![](../../../../../../assets/grungescratchesdirty-variant.jpg){width="256px"}
 
 </td>
 </tr>

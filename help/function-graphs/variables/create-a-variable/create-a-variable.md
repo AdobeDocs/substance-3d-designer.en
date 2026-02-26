@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Create a variable
 
 There is different ways to create a variable in Substance 3D Designer:
@@ -59,4 +58,4 @@ When you have done this, the variable will be available in the other function gr
 >
 > If you have multiple variables to create, just repeat the *Set* and *Sequence* nodes creation operation and set the last sequence node as the output node:
 > 
-> ![](image2015-12-18-18-43-8.png)
+> ![](../../../assets/image2015-12-18-18-43-8.png)

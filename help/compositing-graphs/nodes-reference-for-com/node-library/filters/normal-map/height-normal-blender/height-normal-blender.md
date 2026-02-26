@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Height Normal Blender
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](height-normal-blender.png){width="128px"}
+![](../../../../../../assets/height-normal-blender.png){width="128px"}
 
 ## Height Normal Blender
 

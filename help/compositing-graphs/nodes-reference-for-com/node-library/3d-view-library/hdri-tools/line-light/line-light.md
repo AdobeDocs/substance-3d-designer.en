@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Line Light
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](panorama-line-light.png){width="200px"}
+![](../../../../../../assets/panorama-line-light.png){width="200px"}
 
 ## Line Light
 
@@ -104,7 +103,7 @@ The positioning modes for this node are slightly more complex than other HDRI Li
 
 ## Example Images
 
-![](line-light-ex.gif)
+![](../../../../../../assets/line-light-ex.gif)
 
 </td>
 </tr>

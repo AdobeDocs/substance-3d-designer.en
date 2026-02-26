@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Dissolve
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](dissolve-2.png){width="128px"}
+![](../../../../../../assets/dissolve-2.png){width="128px"}
 
 ## Dissolve
 

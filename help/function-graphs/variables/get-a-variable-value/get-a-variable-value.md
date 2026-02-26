@@ -12,18 +12,17 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Get a variable value
 
 In order to use a variable in a function, you need to "call" it, meaning to need to import the value of the variable into the function.
 
 To do so you need to use a *Get* node:
 
-![](image2015-12-21-7-29-51.png)
+![](../../../assets/image2015-12-21-7-29-51.png)
 
 There is different kinds of Get nodes: choose the right one according of the type of value you want to import:
 
-![](image2015-12-21-7-31-4.png)
+![](../../../assets/image2015-12-21-7-31-4.png)
 
 ## Assign a variable to a Get node
 
@@ -33,7 +32,7 @@ To link a variable, go to the parameters, and choose one variable in "Variables/
 
 The variable name will be displayed into the node:
 
-![](assign-getfloat.gif)
+![](../../../assets/assign-getfloat.gif)
 
 Note that only the variables that are from the same type of the Get node will appear in the list.
 

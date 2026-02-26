@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Ridged Noise Fractal
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](3dridgednoisefractal.png){width="200px"}
+![](../../../../../../assets/3dridgednoisefractal.png){width="200px"}
 
 **In:** *Texture Generators**/Noises*
 
@@ -80,12 +79,12 @@ This node can be tested with [Cube 3D GBuffers](../../../../../../compositing-gr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3dridgednoisefractal-variant.jpg){width="256px"}
+![](../../../../../../assets/3dridgednoisefractal-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dridgednoisefractal-variant2.jpg){width="256px"}
+![](../../../../../../assets/3dridgednoisefractal-variant2.jpg){width="256px"}
 
 </td>
 </tr>

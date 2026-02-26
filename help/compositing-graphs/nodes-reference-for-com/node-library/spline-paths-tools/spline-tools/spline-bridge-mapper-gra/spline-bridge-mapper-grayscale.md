@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Bridge Mapper Grayscale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-bridge-mapper-grayscale-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -95,11 +94,11 @@ A higher amount of segments results in a smoother mapping along curves.
 <table>
   <tr>
     <td>
-      <img src="SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -108,7 +107,7 @@ A higher amount of segments results in a smoother mapping along curves.
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplineBridgeMapper-Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/SplineBridgeMapper-Demo.gif "Node example 2")
 
 </td>
 </tr>
@@ -118,12 +117,12 @@ A higher amount of segments results in a smoother mapping along curves.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](SplineBridgeMapperGrayscale-Variant1-After1.jpg "Node example 1")
+![Node example 1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplineBridgeMapperGrayscale-Graph.jpg "Node example 2")
+![Node example 2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "Node example 2")
 
 </td>
 </tr>

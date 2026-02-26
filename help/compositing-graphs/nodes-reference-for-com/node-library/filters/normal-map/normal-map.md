@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal Map
 
 This category only contains nodes for processing and working with Normalmaps. They are an absolute must when you want your Normalmap processing to be mathematically correct, to avoid any Tangent-space issues.

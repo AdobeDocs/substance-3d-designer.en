@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D renderers
 
 The 3D View offers four renderers:
@@ -34,11 +33,11 @@ The 3D View offers four renderers:
 <table>
   <tr>
     <td>
-      <img src="3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>After</i>
     </td>
   </tr>
@@ -46,9 +45,9 @@ The 3D View offers four renderers:
 
 
 
-![3dRendererRasterizer-2](3dRendererRasterizer-2.jpg "3dRendererRasterizer-2")
+![3dRendererRasterizer-2](../../../assets/3dRendererRasterizer-2.jpg "3dRendererRasterizer-2")
 
-![3dRendererPathtracer-2](3dRendererPathtracer-2.jpg "3dRendererPathtracer-2")
+![3dRendererPathtracer-2](../../../assets/3dRendererPathtracer-2.jpg "3dRendererPathtracer-2")
 
 +++
 
@@ -62,11 +61,11 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 <table>
   <tr>
     <td>
-      <img src="3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>After</i>
     </td>
   </tr>
@@ -74,9 +73,9 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 
 
 
-![3dRendererRasterizer-2](3dRendererRasterizer-2.jpg "3dRendererRasterizer-2")
+![3dRendererRasterizer-2](../../../assets/3dRendererRasterizer-2.jpg "3dRendererRasterizer-2")
 
-![3dRendererOpenGL-2](3dRendererOpenGL-2.jpg "3dRendererOpenGL-2")
+![3dRendererOpenGL-2](../../../assets/3dRendererOpenGL-2.jpg "3dRendererOpenGL-2")
 
 +++
 
@@ -144,7 +143,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 
 +++
 
-![Rasterizer - Example 1](3dRendererRasterizer.jpg "Rasterizer - Example 1"){zoomable="yes"}
+![Rasterizer - Example 1](../../../assets/3dRendererRasterizer.jpg "Rasterizer - Example 1"){zoomable="yes"}
 
 ## GPU Pathtracer
 
@@ -179,7 +178,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 
 +++
 
-![GPU pathtracer - Example 1](3dRendererPathtracer.jpg "GPU pathtracer - Example 1"){zoomable="yes"}
+![GPU pathtracer - Example 1](../../../assets/3dRendererPathtracer.jpg "GPU pathtracer - Example 1"){zoomable="yes"}
 
 ## OpenGL
 
@@ -307,7 +306,7 @@ Designer also offers the possibilty to configure your own shaders for the OpenGL
 > 
 > This renderer will not receive new features and will be retired in a future version of Designer.
 
-![OpenGL - Example 1](3dRendererOpenGL.jpg "OpenGL - Example 1"){zoomable="yes"}
+![OpenGL - Example 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Example 1"){zoomable="yes"}
 
 ## Iray (deprecated)
 
@@ -321,4 +320,4 @@ Designer also offers the possibilty to configure your own shaders for the OpenGL
 > 
 > This renderer will not receive new features and will be retired in a future version of Designer.
 
-![Iray - Example 1](3dRendererIray.jpg "Iray - Example 1"){zoomable="yes"}
+![Iray - Example 1](../../../assets/3dRendererIray.jpg "Iray - Example 1"){zoomable="yes"}

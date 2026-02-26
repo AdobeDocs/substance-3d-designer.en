@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Random
 
 Nodes in the 'Random' category let you generate random values in specific bounds, using various algorithms.

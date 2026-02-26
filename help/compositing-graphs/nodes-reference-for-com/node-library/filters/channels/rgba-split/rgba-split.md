@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # RGBA Split
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](rgba-split.png){width="128px"}
+![](../../../../../../assets/rgba-split.png){width="128px"}
 
 ## RGBA Split
 

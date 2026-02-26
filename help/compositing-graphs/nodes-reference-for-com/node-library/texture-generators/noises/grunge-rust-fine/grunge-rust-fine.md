@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Rust Fine
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](grungerustfine.jpg){width="200px"}
+![](../../../../../../assets/grungerustfine.jpg){width="200px"}
 
 **In:** *Texture Generators* */Noises*
 
@@ -55,12 +54,12 @@ The **Grunge Rust Fine** node generates a grunge map akin to a fine grunge rust 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grungerustfine-variant2.jpg){width="256px"}
+![](../../../../../../assets/grungerustfine-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](grungerustfine-variant.jpg){width="256px"}
+![](../../../../../../assets/grungerustfine-variant.jpg){width="256px"}
 
 </td>
 </tr>

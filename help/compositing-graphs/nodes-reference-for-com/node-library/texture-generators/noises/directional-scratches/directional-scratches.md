@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Directional scratches
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Directional scratches - Icon](directional_scratches.png "Directional scratches - Icon"){width="200px"}
+![Directional scratches - Icon](../../../../../../assets/directional_scratches.png "Directional scratches - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -87,27 +86,12 @@ A random scattering of scratch patterns with adjustable angle and size.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional scratches - Example 1](directional_scratches.png "Directional scratches - Example 1"){zoomable="yes"}
+![Directional scratches - Example 1](../../../../../../assets/directional_scratches(1).png "Directional scratches - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Directional scratches - Example 2](noise-directional-scratches-speed0.3-aniso0.gif "Directional scratches - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Directional scratches - Example 3](noise-directional-scratches-speed0.3-aniso0.6.gif "Directional scratches - Example 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Directional scratches - Example 4](noise-directional-scrat-1.gif "Directional scratches - Example 4"){zoomable="yes"}
+![Directional scratches - Example 2](../../../../../../assets/noise-directional-scratches-speed0.3-aniso0.gif "Directional scratches - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -117,7 +101,22 @@ A random scattering of scratch patterns with adjustable angle and size.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional scratches - Example 5](noise-directional-scrat-2.gif "Directional scratches - Example 5"){zoomable="yes"}
+![Directional scratches - Example 3](../../../../../../assets/noise-directional-scratches-speed0.3-aniso0.6.gif "Directional scratches - Example 3"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![Directional scratches - Example 4](../../../../../../assets/noise-directional-scrat-1.gif "Directional scratches - Example 4"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![Directional scratches - Example 5](../../../../../../assets/noise-directional-scrat-2.gif "Directional scratches - Example 5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

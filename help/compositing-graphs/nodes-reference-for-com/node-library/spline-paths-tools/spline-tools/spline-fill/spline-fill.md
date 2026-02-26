@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Fill
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-fill-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-fill-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -72,11 +71,11 @@ The result image of filling the input Splines with flat white against a flat bla
 <table>
   <tr>
     <td>
-      <img src="SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
+      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -85,7 +84,7 @@ The result image of filling the input Splines with flat white against a flat bla
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplineFill-Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/SplineFill-Demo.gif "Node example 2")
 
 </td>
 </tr>

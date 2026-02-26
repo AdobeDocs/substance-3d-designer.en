@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Tiling
 
 The tiling category contains nodes used for improving the tiling of textures. Keep in mind that there are other nodes available for this in [Scan Processing](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md).

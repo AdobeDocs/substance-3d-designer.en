@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Anisotropic Blur
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](anisotropic-blur-grayscale.png){width="128px"}
+![](../../../../../../assets/anisotropic-blur-grayscale.png){width="128px"}
 
-![](anisotropic-blur.png){width="128px"}
+![](../../../../../../assets/anisotropic-blur.png){width="128px"}
 
 ## Anisotropic Blur (Grayscale)
 
@@ -47,7 +46,7 @@ Important: make sure to use the appropriate version for your input! Use "Anisotr
 
 ## Example Images
 
-![](aniso-blur-example.gif)
+![](../../../../../../assets/aniso-blur-example.gif)
 
 </td>
 </tr>

@@ -12,12 +12,11 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Cast nodes
 
 Cast nodes are used to convert a node from a type to another type:
 
-![](image2015-12-23-10-5-19.png)
+![](../../../../assets/image2015-12-23-10-5-19.png)
 
 ## How to use a cast node ?
 

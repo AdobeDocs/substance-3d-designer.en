@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Fractal sum 3
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fractal sum 3 - Icon](fractal_sum_3.png "Fractal sum 3 - Icon"){width="200px"}
+![Fractal sum 3 - Icon](../../../../../../assets/fractal_sum_3.png "Fractal sum 3 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -80,12 +79,12 @@ See also: [Fractal sum base](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fractal sum 3 - Example 1](fractal_sum_3.png "Fractal sum 3 - Example 1"){zoomable="yes"}
+![Fractal sum 3 - Example 1](../../../../../../assets/fractal_sum_3(1).png "Fractal sum 3 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fractal sum 3 - Example 2](noise_fractal_sum_3_v2_speed0.6_aniso0.gif "Fractal sum 3 - Example 2"){zoomable="yes"}
+![Fractal sum 3 - Example 2](../../../../../../assets/noise_fractal_sum_3_v2_speed0.6_aniso0.gif "Fractal sum 3 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>

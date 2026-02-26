@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Select
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-select-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-select-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -122,11 +121,11 @@ Displays additional lines at the edges of the spline’s thickness.
 <table>
   <tr>
     <td>
-      <img src="SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>After</i>
     </td>
   </tr>
@@ -138,11 +137,11 @@ Displays additional lines at the edges of the spline’s thickness.
 <table>
   <tr>
     <td>
-      <img src="SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
+      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
+      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -156,7 +155,7 @@ Displays additional lines at the edges of the spline’s thickness.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](SplineSelect-Demo.gif "Node example 1")
+![Node example 1](../../../../../../assets/SplineSelect-Demo.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

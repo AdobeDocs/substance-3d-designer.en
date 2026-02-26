@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Trapezoid Transform
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](trapeze-transform.png){width="128px"}
+![](../../../../../../assets/trapeze-transform.png){width="128px"}
 
-![](trapeze-transform-grayscale.png){width="128px"}
+![](../../../../../../assets/trapeze-transform-grayscale.png){width="128px"}
 
 ## Trapezoid Transform (Grayscale)
 
@@ -46,7 +45,7 @@ Special transform node that modifies the input in a perspective/trapezoid warp m
 
 ## Example Images
 
-![](trapeze-example.gif)
+![](../../../../../../assets/trapeze-example.gif)
 
 </td>
 </tr>

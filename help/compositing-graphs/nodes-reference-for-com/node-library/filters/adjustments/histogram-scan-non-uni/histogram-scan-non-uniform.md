@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Histogram Scan Non-Uniform
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](histogram-scan-non-uniform.png){width="128px"}
+![](../../../../../../assets/histogram-scan-non-uniform.png){width="128px"}
 
 ## Histogram Scan Non-Uniform
 

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Crystal 2
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](crystal-2.png){width="128px"}
+![](../../../../../../assets/crystal-2.png){width="128px"}
 
 ## Crystal 2
 
@@ -47,7 +46,7 @@ This is a bit of a niche noise: it can be useful for rare cases where you're aft
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="crystal-2-1.png" width="256px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/crystal-2-1.png" width="256px"/></div> |
 | --- |
 |  |
 

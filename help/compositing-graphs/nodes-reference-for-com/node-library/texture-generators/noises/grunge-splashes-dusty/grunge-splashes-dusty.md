@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Splashes Dusty
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](grungesplashesdusty.jpg){width="200px"}
+![](../../../../../../assets/grungesplashesdusty.jpg){width="200px"}
 
 **In:** *Texture Generators* */Noises*
 
@@ -54,12 +53,12 @@ The **Grunge Splashes Dusty** node generates a grunge map akin to splashes of li
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grungesplashesdusty-variant2.jpg){width="256px"}
+![](../../../../../../assets/grungesplashesdusty-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](grungesplashesdusty-variant.jpg){width="256px"}
+![](../../../../../../assets/grungesplashesdusty-variant.jpg){width="256px"}
 
 </td>
 </tr>

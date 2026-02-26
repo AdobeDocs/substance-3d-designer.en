@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Water Level
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](water-level.png){width="128px"}
+![](../../../../../../assets/water-level.png){width="128px"}
 
 ## Water Level
 

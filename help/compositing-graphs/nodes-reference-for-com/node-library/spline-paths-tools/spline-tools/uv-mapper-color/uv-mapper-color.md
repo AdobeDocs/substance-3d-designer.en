@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # UV Mapper Color
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](uv-mapper-color-icon.png "Node icon")
+![Node icon](../../../../../../assets/uv-mapper-color-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -66,11 +65,11 @@ The background is visible in the areas of the image where UVs are not defined (I
 <table>
   <tr>
     <td>
-      <img src="UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -82,11 +81,11 @@ The background is visible in the areas of the image where UVs are not defined (I
 <table>
   <tr>
     <td>
-      <img src="UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -96,7 +95,7 @@ The background is visible in the areas of the image where UVs are not defined (I
 </tr>
 </table>
 
-![Node in graph](UVMapperColor-Graph.jpg "Node in graph")
+![Node in graph](../../../../../../assets/UVMapperColor-Graph.jpg "Node in graph")
 
 </td>
 <td style="border: 0;" valign="top">

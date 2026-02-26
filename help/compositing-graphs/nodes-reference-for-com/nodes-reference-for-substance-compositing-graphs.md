@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Nodes reference for Substance graphs
 
 As Substance 3D Designer is a node based texturing software, there are many different nodes at your disposal. This section aims to explain the different types and document all nodes supplied with the software.

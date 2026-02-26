@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Diffusion Color
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](diffusion-color-icon.png){width="200px"}
+![](../../../../../../assets/diffusion-color-icon.png){width="200px"}
 
 **In:** *Filters/Effects*
 
@@ -63,37 +62,17 @@ Only colors from pixels matching the mask are diffused; other pixels do not part
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](diffusion-color-02-before.jpg){width="256px"}
+![](../../../../../../assets/diffusion-color-02-before.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](diffusion-color-02a-after.jpg){width="256px"}
+![](../../../../../../assets/diffusion-color-02a-after.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](diffusion-color-02b-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](diffusion-color-01-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](diffusion-uv-01b-after-1.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](diffusion-uv-01a-after-1.jpg){width="256px"}
+![](../../../../../../assets/diffusion-color-02b-after.jpg){width="256px"}
 
 </td>
 </tr>
@@ -103,12 +82,32 @@ Only colors from pixels matching the mask are diffused; other pixels do not part
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](diffusion-color-normal.jpg){width="256px"}
+![](../../../../../../assets/diffusion-color-01-before.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](diffusion-color-normal-render.jpg){width="512px"}
+![](../../../../../../assets/diffusion-uv-01b-after-1.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-uv-01a-after-1.jpg){width="256px"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-color-normal.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-color-normal-render.jpg){width="512px"}
 
 </td>
 </tr>

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Dot node (also Portal)
 
 <table>
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Dot node icon](graphatomic-dot.png "Dot node icon")
+![Dot node icon](../../../../assets/graphatomic-dot(1).png "Dot node icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,7 +38,7 @@ Dot nodes may be added in any graph type, in any of the following ways:
 +++Insert on link
 Hold the <b>Alt</b> key while hovering a connection to display the Dot node preview, then click LMB to add a Dot node on the connection at that location.
 
-![Inserting a Dot node](dot-node-insert-optim.gif "Inserting a Dot node"){width="512px"}
+![Inserting a Dot node](../../../../assets/dot-node-insert-optim.gif "Inserting a Dot node"){width="512px"}
 
 
 
@@ -50,7 +49,7 @@ Press the <b>Alt</b> key while dragging a new connection from a node connector 
 
 You may continue dragging the new connection and repeat the operation to route that connection how you like.
 
-![Dot: Creating from connector](graph-dot_create-from-connector.gif "Dot: Creating from connector")
+![Dot: Creating from connector](../../../../assets/graph-dot_create-from-connector.gif "Dot: Creating from connector")
 
 
 
@@ -59,7 +58,7 @@ You may continue dragging the new connection and repeat the operation to route t
 +++Node menu
 Press <b>Spacebar</b> to display the <b>Node menu</b>, then select the 'Dot' item or type 'dot' in the search field to surface the item and find it more quickly.
 
-![Dot node in Node menu](dot-node-insert-menu.png "Dot node in Node menu")
+![Dot node in Node menu](../../../../assets/dot-node-insert-menu.png "Dot node in Node menu")
 
 
 
@@ -80,7 +79,7 @@ Press ALT and move a Dot node over links to merge multiple node connections toge
 </td>
 <td style="border: 0;" valign="top">
 
-![Merging links](dot-node-congrenate-links-optim.gif "Merging links"){width="512px"}
+![Merging links](../../../../assets/dot-node-congrenate-links-optim.gif "Merging links"){width="512px"}
 
 </td>
 </tr>
@@ -92,7 +91,7 @@ Press ALT and move a Dot node over links to merge multiple node connections toge
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Dot node as portal - icon](DotNode_Portal-1.png "Dot node as portal - icon")
+![Dot node as portal - icon](../../../../assets/DotNode_Portal-1.png "Dot node as portal - icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +102,7 @@ Dot nodes can be used as <b>portals</b> to send data over a long distance in the
 </tr>
 </table>
 
-![Dot node as portal](DotNode_Portal.gif "Dot node as portal")
+![Dot node as portal](../../../../assets/DotNode_Portal.gif "Dot node as portal")
 
 ### Creating portals
 

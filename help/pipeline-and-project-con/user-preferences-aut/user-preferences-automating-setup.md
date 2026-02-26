@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # User Preferences - Automating Setup
 
 <table>
@@ -28,7 +27,7 @@ Alternatively, you can completely bypass modifying the User Preferences, and do 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![XML file icon](xml-5.png "XML file icon")
+![XML file icon](../../assets/xml-5.png "XML file icon")
 
 </td>
 </tr>
@@ -49,7 +48,7 @@ There are two different ways to configure Designer to use another [configuration
 
 If there is no automated setup, or for testing purposes, one can manually go to <b>Edit &gt; Preferences...</b> and then click the "<b>Projects</b>" section on the left.
 
-![Project settings](preferences-ui.png "Project settings")
+![Project settings](../../assets/preferences-ui.png "Project settings")
 
 The button marked in red allows the user to choose a different[ SBSCFG file](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md).
 
@@ -207,4 +206,4 @@ While not recommended to use a manual method in a production environment, for te
 
    *"C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe" --config-file "C:\Dev\Substance\custom\_configuration.sbscfg"*
 
-![Configuration file input in executable file properties](shortcutargument.jpg "Configuration file input in executable file properties")
+![Configuration file input in executable file properties](../../assets/shortcutargument.jpg "Configuration file input in executable file properties")

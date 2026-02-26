@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # 3D Texture Surface Render
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](3dtexturesurfacerender.png){width="200px"}
+![](../../../../../../assets/3dtexturesurfacerender.png){width="200px"}
 
 **In:** *Filter/Effect*
 
@@ -90,27 +89,27 @@ The surface is represented within the bounds of a *unit cube*. The lighting is c
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3dtexturesurfacerender-variant.jpg){width="256px"}
+![](../../../../../../assets/3dtexturesurfacerender-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturesurfacerender-variant2.jpg){width="256px"}
+![](../../../../../../assets/3dtexturesurfacerender-variant2.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturesurfacerender-variant3.jpg){width="256px"}
+![](../../../../../../assets/3dtexturesurfacerender-variant3.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturesurfacerender-variant4.jpg){width="256px"}
+![](../../../../../../assets/3dtexturesurfacerender-variant4.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3dtexturesurfacerender-node.png){width="512px"}
+![](../../../../../../assets/3dtexturesurfacerender-node.png){width="512px"}
 
 </td>
 </tr>

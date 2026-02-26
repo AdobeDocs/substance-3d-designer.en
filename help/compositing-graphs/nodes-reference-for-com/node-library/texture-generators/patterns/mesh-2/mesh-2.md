@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Mesh 2
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](mesh-2.png){width="128px"}
+![](../../../../../../assets/mesh-2.png){width="128px"}
 
 ## Mesh 2
 
@@ -44,7 +43,7 @@ Simple mesh pattern with fat blocks. Can be used to create height and detail map
 
 ## Example Images
 
-![](mesh-2-ex.gif)
+![](../../../../../../assets/mesh-2-ex.gif)
 
 </td>
 </tr>

@@ -12,12 +12,11 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Bitmap painting tools
 
 This page describes the painting tools available in the [2D View](../../../interface/2d-view/2d-view.md) panel for compatible bitmaps.
 
-![Bitmap painting tools in 2D View](2dview-paintingtools-main.png "Bitmap painting tools in 2D View"){width="512px"}
+![Bitmap painting tools in 2D View](../../../assets/2dview-paintingtools-main(1).png "Bitmap painting tools in 2D View"){width="512px"}
 
 ## Overview
 
@@ -37,7 +36,7 @@ Edits can be *undone individually*, and all the other features of the 2D View pa
 > 
 > Tablet users should apply the settings described in the following page for the most reliable experience: [Configuring Pens and Tablets](https://docs.substance3d.com/display/SPDOC/Configuring+Pens+and+Tablets)
 
-![New bitmap dialog](2dview-paintingtools-new-bitmap.png "New bitmap dialog"){width="512px"}
+![New bitmap dialog](../../../assets/2dview-paintingtools-new-bitmap.png "New bitmap dialog"){width="512px"}
 
 ## Enabling the painting tools
 
@@ -72,15 +71,15 @@ Two toolbars are displayed when the painting tools are enabled: the [Tool select
 
 The painting tools can be found in the **Tool selection toolbar**, which is placed on the *left side* of the [2D view](../../../interface/2d-view/2d-view.md) panel by default. Keyboard shortcuts let you access these tools quickly, and are marked below between parentheses after the tool/function name:
 
-![](2dview-paintingtools-icon-colors-primary.png)![](2dview-paintingtools-icon-colors-secondary.png) <b>Color selection</b> <b>thumbnails:</b> Let you define a *primary* and *secondary* color. Click on any of these thumbnails to display the <b>Color editor</b> window and define a color. Tools will use the *primary* color. The primary and secondary colors can be *swapped* (<b>X</b>) at any time
+![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) <b>Color selection</b> <b>thumbnails:</b> Let you define a *primary* and *secondary* color. Click on any of these thumbnails to display the <b>Color editor</b> window and define a color. Tools will use the *primary* color. The primary and secondary colors can be *swapped* (<b>X</b>) at any time
 
-![](2dview-paintingtools-icon-brush.png) <b>Brush tool (B):</b> Applies the *primary* color at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar
+![](../../../assets/2dview-paintingtools-icon-brush.png) <b>Brush tool (B):</b> Applies the *primary* color at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar
 
-![](2dview-paintingtools-icon-clone.png) <b>Stamp tool (T):</b> Lets you stamp a part of the image onto another. You can define the *source* which should be stamped by holding the <b>Alt</b> key and clicking <b>LMB</b>. This area of the image will then be stamped onto the *target* area of the image at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Please note the source will *track* the movements of the target, and that the size of the *source* area will *match* the size of the *brush*
+![](../../../assets/2dview-paintingtools-icon-clone.png) <b>Stamp tool (T):</b> Lets you stamp a part of the image onto another. You can define the *source* which should be stamped by holding the <b>Alt</b> key and clicking <b>LMB</b>. This area of the image will then be stamped onto the *target* area of the image at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Please note the source will *track* the movements of the target, and that the size of the *source* area will *match* the size of the *brush*
 
-![](2dview-paintingtools-clone-alignment.png) <b>Enable alignment (Stamp tool option):</b> Lets you define whether the source should *stay in place* when a new stamp begins, or if it should *relocate relatively to the new stamp location*
+![](../../../assets/2dview-paintingtools-clone-alignment.png) <b>Enable alignment (Stamp tool option):</b> Lets you define whether the source should *stay in place* when a new stamp begins, or if it should *relocate relatively to the new stamp location*
 
-<b>!&#91;&#93;(2dview-paintingtools-icon-eraser.png) Eraser (E):</b> Replaces the current color of the image with the (0, 0, 0, 0) value at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Make sure the [Transparency display](../../../interface/2d-view/2d-view.md) is enabled to keep track of the impact of this tool on the <b>Alpha</b> channel.
+<b>!&#91;&#93;(../../../assets/2dview-paintingtools-icon-eraser.png) Eraser (E):</b> Replaces the current color of the image with the (0, 0, 0, 0) value at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Make sure the [Transparency display](../../../interface/2d-view/2d-view.md) is enabled to keep track of the impact of this tool on the <b>Alpha</b> channel.
 
 ## Tool options toolbar
 
@@ -92,16 +91,16 @@ The options for the tools available in the [Tool selection toolbar](#bitmappaint
 
 ### BRUSH SELECTION
 
-The ![](2dview-paintingtools-brush-thumb.png) <b>Brush selection</b> lets you select a *preconfigured* brush from the available brush *presets*, set its <b>Size</b> and <b>Hardness</b> *(*see <b>Shape</b> section of Brush editor), and displays a *preview* of a brush stroke.
+The ![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>Brush selection</b> lets you select a *preconfigured* brush from the available brush *presets*, set its <b>Size</b> and <b>Hardness</b> *(*see <b>Shape</b> section of Brush editor), and displays a *preview* of a brush stroke.
 
-Brush presets can be created and edited in the Brush editor and arranged in *libraries*. The brush presets which will appear in this panel is the *sum* of all loaded brush presets libraries. These librairies can be managed by accessing the ![](2dview-paintingtools-brushpresets-library.png) <b>Brush library</b> menu (see <b>Presets</b> section of Brush editor)
+Brush presets can be created and edited in the Brush editor and arranged in *libraries*. The brush presets which will appear in this panel is the *sum* of all loaded brush presets libraries. These librairies can be managed by accessing the ![](../../../assets/2dview-paintingtools-brushpresets-library.png) <b>Brush library</b> menu (see <b>Presets</b> section of Brush editor)
 
-The ![](2dview-paintingtools-brushpresets-previewbkgd.png) <b>Select background color</b> button lets you change the background color of the *brush stroke preview*.
+The ![](../../../assets/2dview-paintingtools-brushpresets-previewbkgd.png) <b>Select background color</b> button lets you change the background color of the *brush stroke preview*.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Brush selection panel](2dview-paintingtools-brushes.png "Brush selection panel")
+![Brush selection panel](../../../assets/2dview-paintingtools-brushes.png "Brush selection panel")
 
 </td>
 </tr>
@@ -113,15 +112,15 @@ The ![](2dview-paintingtools-brushpresets-previewbkgd.png) <b>Select background 
 
 ### BRUSH EDITOR
 
-The ![](2dview-paintingtools-icon-brush-options.png) <b>Brush editor</b> gives access to granular options to define the behaviour of the brush:
+The ![](../../../assets/2dview-paintingtools-icon-brush-options.png) <b>Brush editor</b> gives access to granular options to define the behaviour of the brush:
 
 <b>Presets</b>
 
-Brushes can be customized then saved as a <b>Brush preset</b>, which will then be available in the ![](2dview-paintingtools-editor-currentpreset.png) <b>Brush presets list</b> and the ![](2dview-paintingtools-brush-thumb.png) <b>Brush selection</b> panel.
+Brushes can be customized then saved as a <b>Brush preset</b>, which will then be available in the ![](../../../assets/2dview-paintingtools-editor-currentpreset.png) <b>Brush presets list</b> and the ![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>Brush selection</b> panel.
 
-To create a preset, set the properties below to your liking, then click the ![](2dview-paintingtools-editor-addpreset.png) <b>Add brush preset </b>button and set a brush name in the <b>Preset name</b> window. The new preset is now automatically selected in the <b>Brush presets list</b>, and at any time you may ![](2dview-paintingtools-editor-updatepreset.png) <b>update</b> it with the new current settings, or ![](2dview-paintingtools-editor-deletepreset.png) <b>delete</b> it.
+To create a preset, set the properties below to your liking, then click the ![](../../../assets/2dview-paintingtools-editor-addpreset.png) <b>Add brush preset </b>button and set a brush name in the <b>Preset name</b> window. The new preset is now automatically selected in the <b>Brush presets list</b>, and at any time you may ![](../../../assets/2dview-paintingtools-editor-updatepreset.png) <b>update</b> it with the new current settings, or ![](../../../assets/2dview-paintingtools-editor-deletepreset.png) <b>delete</b> it.
 
-Presets are organised and saved in *libraries*, which can be managed in the ![](2dview-paintingtools-editor-presetlibrary.png) <b>Brush library</b> menu:
+Presets are organised and saved in *libraries*, which can be managed in the ![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>Brush library</b> menu:
 
 <b>Export library:</b> *save* the current presets and all their settings to a library file
 
@@ -134,7 +133,7 @@ Presets are organised and saved in *libraries*, which can be managed in the ![
 </td>
 <td style="border: 0;" valign="top">
 
-![Brush editor](2dview-paintingtools-brusheditor.png "Brush editor")
+![Brush editor](../../../assets/2dview-paintingtools-brusheditor.png "Brush editor")
 
 </td>
 </tr>
@@ -209,7 +208,7 @@ The color applied by the brush is defined by the *selected primary color* – an
 +++Texture
 You can apply a *bitmap file* to the brush, and use it to *stamp* that bitmap instead of a flat color. The brush texture behaves as follows:
 
-<b>Texture file: </b>defines the *path* of the bitmap which should be used as a brush texture. You can select the bitmap through your system file browser by using the ![](2dview-paintingtools-brusheditor-selecttexture.png) button next to the input field
+<b>Texture file: </b>defines the *path* of the bitmap which should be used as a brush texture. You can select the bitmap through your system file browser by using the ![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png) button next to the input field
 
 The texture *only* replaces the basic flat color of the brush, meaning that *all the brush properties listed above can still be used* and function as described
 
@@ -225,7 +224,7 @@ The Brush, Stamp and Eraser tools offer controls for the <b>Opacity</b> and <b>F
 
 <b>Flow</b> controls the *amount of the tool's effect* which is applied at any given time. It is *additive on the same stroke*, meaning the opacity of an area can be added back to its maximum of 100% by performing multiple passes of the *same stroke* in that area, or multiple separate strokes.
 
-![Opacity and flow controls](2dview-paintingtools-opacityflow.png "Opacity and flow controls")
+![Opacity and flow controls](../../../assets/2dview-paintingtools-opacityflow.png "Opacity and flow controls")
 
 <table>
 <tr style="border: 0;">
@@ -233,7 +232,7 @@ The Brush, Stamp and Eraser tools offer controls for the <b>Opacity</b> and <b>F
 
 ### TILING MODE
 
-The Brush, Stamp and Eraser tools also let you set their ![](2dview-paintingtools-icon-tiling.png) <b>Tiling modes</b>, which define their ability to *loop back around* to the opposite side of the image when a stroke impacts an area outside of the image's bounds:
+The Brush, Stamp and Eraser tools also let you set their ![](../../../assets/2dview-paintingtools-icon-tiling.png) <b>Tiling modes</b>, which define their ability to *loop back around* to the opposite side of the image when a stroke impacts an area outside of the image's bounds:
 
 <b>Tiling X and Y</b>: brush strokes tile *both horizontally and vertically*
 
@@ -246,7 +245,7 @@ The Brush, Stamp and Eraser tools also let you set their ![](2dview-paintingtool
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Tiling mode](2dview-paintingtools-tiling.png "Tiling mode")
+![Tiling mode](../../../assets/2dview-paintingtools-tiling.png "Tiling mode")
 
 </td>
 </tr>

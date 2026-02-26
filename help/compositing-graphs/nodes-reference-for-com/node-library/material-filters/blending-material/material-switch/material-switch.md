@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material Switch
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](material-switch.png){width="128px"}
+![](../../../../../../assets/material-switch.png){width="128px"}
 
 ## Material Switch
 

@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Material Filters
 
 Material Filters are nodes that work with Full Material inputs: combinations of multiple channels, best used through [Link Creation Modes](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md). Any time you are working with a full PBR material and not just a single channel such as Basecolor or Normal, or a simple black and white mask, you will want to use the Material Filters category.

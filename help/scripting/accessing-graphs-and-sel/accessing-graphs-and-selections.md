@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Accessing graphs and selections
 
 The <b>SDApplication</b> class contains some helpful methods that let you access the *currently active* graph, and the *current selection* within it.

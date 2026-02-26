@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Crystal 1
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](crystal-1.png){width="128px"}
+![](../../../../../../assets/crystal-1.png){width="128px"}
 
 ## Crystal 1
 
@@ -45,7 +44,7 @@ Generates a Worlye Voronoi-type noise, with a slightly more angular distance met
 
 ## Example Images
 
-![](crystal-1-ex.gif)
+![](../../../../../../assets/crystal-1-ex.gif)
 
 </td>
 </tr>

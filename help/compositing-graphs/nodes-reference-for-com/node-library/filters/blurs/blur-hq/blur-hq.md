@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Blur HQ
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](blur-hq-1.png){width="128px"}
+![](../../../../../../assets/blur-hq-1.png){width="128px"}
 
-![](blur-hq-grayscale.png){width="128px"}
+![](../../../../../../assets/blur-hq-grayscale.png){width="128px"}
 
 ## Blur HQ (Grayscale)
 
@@ -46,7 +45,7 @@ Important: make sure to use the appropriate version for your input! Use "Blur HQ
 
 ## Example Images
 
-![](hqblur-example.gif)
+![](../../../../../../assets/hqblur-example.gif)
 
 </td>
 </tr>

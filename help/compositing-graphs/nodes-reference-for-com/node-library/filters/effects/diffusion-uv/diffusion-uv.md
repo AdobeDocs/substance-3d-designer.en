@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Diffusion UV
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](diffusion-uv-icon.png){width="200px"}
+![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
 
 **In:** *Filters/Effects*
 
@@ -61,12 +60,12 @@ This can lead to undesirable results when using this filter for *texture deforma
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](diffusion-uv-01a-before.jpg){width="256px"}
+![](../../../../../../assets/diffusion-uv-01a-before.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](diffusion-uv-01a-after.jpg){width="256px"}
+![](../../../../../../assets/diffusion-uv-01a-after.jpg){width="256px"}
 
 </td>
 </tr>
@@ -76,12 +75,12 @@ This can lead to undesirable results when using this filter for *texture deforma
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](diffusion-uv-01b-before.jpg){width="256px"}
+![](../../../../../../assets/diffusion-uv-01b-before.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](diffusion-uv-01b-after.jpg){width="256px"}
+![](../../../../../../assets/diffusion-uv-01b-after.jpg){width="256px"}
 
 </td>
 </tr>

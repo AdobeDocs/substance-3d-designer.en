@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Shape Drop Shadow
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](shape-dropshadow-grayscale.png){width="128px"}
+![](../../../../../../assets/shape-dropshadow-grayscale.png){width="128px"}
 
-![](shape-dropshadow.png){width="128px"}
+![](../../../../../../assets/shape-dropshadow.png){width="128px"}
 
 ## Shape Drop Shadow (Grayscale)
 
@@ -53,7 +52,7 @@ It differs from the [Shadows](../../../../../../compositing-graphs/nodes-referen
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="dropshadowex.png" width="300px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/dropshadowex.png" width="300px"/></div> |
 | --- |
 |  |
 

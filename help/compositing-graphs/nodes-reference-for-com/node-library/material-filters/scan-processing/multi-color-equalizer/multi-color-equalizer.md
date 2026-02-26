@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Multi Color Equalizer
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](color-equalizer-multi.png){width="128px"}
+![](../../../../../../assets/color-equalizer-multi.png){width="128px"}
 
 ## Multi Color Equalizer
 

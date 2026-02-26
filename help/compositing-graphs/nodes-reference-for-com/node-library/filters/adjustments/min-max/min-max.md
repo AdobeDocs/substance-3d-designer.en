@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Min Max
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](min-max.png){width="200px"}
+![](../../../../../../assets/min-max.png){width="200px"}
 
 ## Min Max
 
@@ -42,7 +41,7 @@ To use this node with a Levels, you should at least know how to use the [Expose 
 
 ## Example Images
 
-![](minmax.png)
+![](../../../../../../assets/minmax.png)
 
 </td>
 </tr>

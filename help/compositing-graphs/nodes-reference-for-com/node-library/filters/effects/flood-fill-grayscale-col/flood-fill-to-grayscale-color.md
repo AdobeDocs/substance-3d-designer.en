@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Flood Fill to Grayscale/Color
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](floodfill-to-grayscale.png){width="128px"}
+![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
 
-![](floodfill-to-color.png){width="128px"}
+![](../../../../../../assets/floodfill-to-color.png){width="128px"}
 
 ## Flood Fill to Random Grayscale/Color
 

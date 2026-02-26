@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Iterate and $number variable
 
-![](iterate-1.jpg)
+![](../../../../assets/iterate-1.jpg)
 
 The Iterate node will render the nodes connected to the right output the amount of time specified by the Iterations value.
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="1-iteration.png"/></div> | 1 iteration: the gaussian pattern is rendered once |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1 iteration: the gaussian pattern is rendered once |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="10-iterations.png"/></div> | 10 iterations: the gaussian pattern is rendered 10 times at the same place |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../../../assets/10-iterations.png"/></div> | 10 iterations: the gaussian pattern is rendered 10 times at the same place |
 
 When using an Iterate node, you can use the $number variable to get the current iteration value. $number is a float value and starts at 0.
 
@@ -29,12 +28,12 @@ When using an Iterate node, you can use the $number variable to get the current 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](position-function.jpg){width="300px"}
+![](../../../../assets/position-function.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](10-iterations-position-function.png){width="300px"}
+![](../../../../assets/10-iterations-position-function.png){width="300px"}
 
 </td>
 </tr>

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Path 2D Transform
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](path-2d-transform-icon.png "Node icon")
+![Node icon](../../../../../../assets/path-2d-transform-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -64,11 +63,11 @@ Applies a position offset to the splines in X (horizontal) and Y (vertical).
 <table>
   <tr>
     <td>
-      <img src="PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
+      <img src="../../../../../../assets/Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
       <br><i>After</i>
     </td>
   </tr>
@@ -80,11 +79,11 @@ Applies a position offset to the splines in X (horizontal) and Y (vertical).
 <table>
   <tr>
     <td>
-      <img src="PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
+      <img src="../../../../../../assets/Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
       <br><i>After</i>
     </td>
   </tr>

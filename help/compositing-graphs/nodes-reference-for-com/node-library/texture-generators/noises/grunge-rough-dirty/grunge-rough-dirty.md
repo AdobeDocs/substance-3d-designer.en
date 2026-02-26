@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Grunge Rough Dirty
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](grungeroughdirty.jpg){width="200px"}
+![](../../../../../../assets/grungeroughdirty.jpg){width="200px"}
 
 **In:** *Texture Generators* */Noises*
 
@@ -54,12 +53,12 @@ The **Grunge Rough Dirty** node generates a grunge map akin to a rough dirty sur
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](grungeroughdirty-variant.jpg){width="256px"}
+![](../../../../../../assets/grungeroughdirty-variant.jpg){width="256px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](grungeroughdirty-variant2.jpg){width="256px"}
+![](../../../../../../assets/grungeroughdirty-variant2.jpg){width="256px"}
 
 </td>
 </tr>

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Flood Fill to Random Color
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](floodfill-to-random-color.png){width="128px"}
+![](../../../../../../assets/floodfill-to-random-color.png){width="128px"}
 
 ## Flood Fill to Random Color
 
@@ -40,7 +39,7 @@ Generates tiles with random RGB colors from a [Flood Fill](../../../../../../com
 
 ## Example Images
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="floodrandomcolor-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="floodrandomcolor-ex1.png" width="256px"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodrandomcolor-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodrandomcolor-ex1.png" width="256px"/></div> |
 | --- | --- |
 |  |  |
 

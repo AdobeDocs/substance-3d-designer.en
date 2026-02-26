@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Scatter on Spline Grayscale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](scatter-on-spline-grayscale-icon.png "Node icon")
+![Node icon](../../../../../../assets/scatter-on-spline-grayscale-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -315,11 +314,11 @@ This means all patterns in areas of the Mask Map below this value will be masked
 <table>
   <tr>
     <td>
-      <img src="ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -331,11 +330,11 @@ This means all patterns in areas of the Mask Map below this value will be masked
 <table>
   <tr>
     <td>
-      <img src="ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -349,12 +348,12 @@ This means all patterns in areas of the Mask Map below this value will be masked
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 2](ScatterOnSplineGrayscale-Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "Node example 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node demo 2](ScatterOnSplineGrayscale-Demo2.gif "Node demo 2")
+![Node demo 2](../../../../../../assets/ScatterOnSplineGrayscale-Demo2.gif "Node demo 2")
 
 </td>
 </tr>

@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Normal Combine
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-combine.png){width="128px"}
+![](../../../../../../assets/normal-combine.png){width="128px"}
 
 <b>In:</b> Filters &gt; Normal map
 

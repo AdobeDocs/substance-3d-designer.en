@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Fabric Weathering
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](fabric-weathering.png){width="128px"}
+![](../../../../../../assets/fabric-weathering.png){width="128px"}
 
 ## Fabric Weathering
 
@@ -88,7 +87,7 @@ Make sure to fully understand the [Link Creation Modes](../../../../../../interf
 
 ## Example Images
 
-![](fabric-ex.gif)
+![](../../../../../../assets/fabric-ex.gif)
 
 </td>
 </tr>

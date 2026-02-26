@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Color to mask
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Color to mask - Icon](color_to_mask.png "Color to mask - Icon"){width="200px"}
+![Color to mask - Icon](../../../../../../assets/color_to_mask.png "Color to mask - Icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 

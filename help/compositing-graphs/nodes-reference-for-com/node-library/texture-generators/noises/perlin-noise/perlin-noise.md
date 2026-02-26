@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Perlin noise
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Perlin noise - Icon](perlin_noise.png "Perlin noise - Icon"){width="200px"}
+![Perlin noise - Icon](../../../../../../assets/perlin_noise.png "Perlin noise - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -80,12 +79,12 @@ Generates a Perlin noise, a widely used smooth distribution of grayscale values.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Perlin noise - Example 1](perlin_noise.png "Perlin noise - Example 1"){zoomable="yes"}
+![Perlin noise - Example 1](../../../../../../assets/perlin_noise(1).png "Perlin noise - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Perlin noise - Example 2](noise_perlin_noise_v2_speed0.6_aniso0.gif "Perlin noise - Example 2"){zoomable="yes"}
+![Perlin noise - Example 2](../../../../../../assets/noise_perlin_noise_v2_speed0.6_aniso0.gif "Perlin noise - Example 2"){zoomable="yes"}
 
 </td>
 </tr>

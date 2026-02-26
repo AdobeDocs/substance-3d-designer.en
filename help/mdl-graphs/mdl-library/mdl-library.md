@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # MDL library
 
 This page presents the library of content related to [MDL graphs](../../mdl-graphs/mdl-graphs.md) and materials included in Substance 3D Designer. It also explains installing and managing custom content in the [Library](../../interface/the-library/the-library.md).
@@ -47,7 +46,7 @@ If NVIDIA's [vMaterials](https://developer.nvidia.com/vmaterials) library is ins
 </td>
 <td style="border: 0;" valign="top">
 
-![MDL resources in Library](mdl-library.png "MDL resources in Library")
+![MDL resources in Library](../../assets/mdl-library.png "MDL resources in Library")
 
 *"mdl" section in the Library, the vMaterials library and custom content are framed*
 
@@ -66,6 +65,6 @@ Open the <b>Materials</b> menu, and open a *scene material's submenu* to browse 
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * Loaded [MDL graphs](../../mdl-graphs/mdl-graphs.md)
 
-![MDL materials in 3D View](mdl-apply-in-3dview-material-list.png "MDL materials in 3D View")
+![MDL materials in 3D View](../../assets/mdl-apply-in-3dview-material-list.png "MDL materials in 3D View")
 
 *MDL materials in the 3D View*

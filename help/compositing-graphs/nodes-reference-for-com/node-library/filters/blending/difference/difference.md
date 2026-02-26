@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Difference
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](difference.png){width="128px"}
+![](../../../../../../assets/difference.png){width="128px"}
 
 ## Difference
 

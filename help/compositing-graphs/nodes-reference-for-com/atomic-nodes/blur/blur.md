@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Blur
 
 <table>
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Blur node icon](blur-9.png){width="200px"}
+![Blur node icon](../../../../assets/blur-9.png){width="200px"}
 
 **In:** Atomic Nodes
 
@@ -47,4 +46,4 @@ Below Example shows this node's Blur on the left, versus [Blur HQ](../../../../c
 
 | Blur (Atomic) | Blur HQ |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="blur-example.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blur-hq.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../../assets/blur-example.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../../assets/blur-hq.png"/></div> |

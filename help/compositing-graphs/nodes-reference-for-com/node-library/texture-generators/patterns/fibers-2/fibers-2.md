@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Fibers 2
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](fibers-2.png){width="128px"}
+![](../../../../../../assets/fibers-2.png){width="128px"}
 
 ## Fibers 2
 
@@ -43,7 +42,7 @@ Simple cloth-like pattern. Can be used for mesh, cloth or other organic Height- 
 
 ## Example Images
 
-![](fibers-2-ex.gif)
+![](../../../../../../assets/fibers-2-ex.gif)
 
 </td>
 </tr>

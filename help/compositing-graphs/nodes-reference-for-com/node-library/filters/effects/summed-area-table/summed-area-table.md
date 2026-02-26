@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Summed Area Table
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](summedareatable.png){width="200px"}
+![](../../../../../../assets/summedareatable.png){width="200px"}
 
 ## Summed Area Table
 

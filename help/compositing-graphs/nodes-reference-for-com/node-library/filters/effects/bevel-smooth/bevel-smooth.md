@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Bevel smooth
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropic Kuwahara Grayscale icon](bevel_smooth.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
+![Anisotropic Kuwahara Grayscale icon](../../../../../../assets/bevel_smooth.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -96,12 +95,12 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bevel smooth: Example 1](bevel_smooth_example_1.gif "Bevel smooth: Example 1"){width="1024px" zoomable="yes"}
+![Bevel smooth: Example 1](../../../../../../assets/bevel_smooth_example_1.gif "Bevel smooth: Example 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bevel smooth: Example 8](bevel_smooth_example_8.jpg "Bevel smooth: Example 8"){width="1024px" zoomable="yes"}
+![Bevel smooth: Example 8](../../../../../../assets/bevel_smooth_example_8.jpg "Bevel smooth: Example 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -114,11 +113,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
+      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
+      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -130,11 +129,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
+      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
+      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -151,11 +150,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
+      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
+      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -167,11 +166,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
+      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
+      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -184,11 +183,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
+      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
+      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
       <br><i>After</i>
     </td>
   </tr>

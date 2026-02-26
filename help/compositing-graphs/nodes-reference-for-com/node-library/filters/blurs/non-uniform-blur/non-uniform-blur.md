@@ -12,16 +12,15 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Non Uniform Blur
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](non-uniform-blur-grayscale.png){width="128px"}
+![](../../../../../../assets/non-uniform-blur-grayscale.png){width="128px"}
 
-![](non-uniform-blur.png){width="128px"}
+![](../../../../../../assets/non-uniform-blur.png){width="128px"}
 
 ## Non Uniform Blur (Grayscale)
 
@@ -56,7 +55,7 @@ Performs a High Quality Blur, where the intensity is driven by an input mask. Op
 
 *Below example is driven by a gradient ramp (at 90 degrees) in the Blur Map slot.*
 
-![](nonuniform-example.gif)
+![](../../../../../../assets/nonuniform-example.gif)
 
 </td>
 </tr>

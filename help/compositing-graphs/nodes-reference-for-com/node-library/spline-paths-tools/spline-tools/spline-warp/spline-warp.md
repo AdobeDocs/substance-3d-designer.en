@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline Warp
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-warp-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-warp-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -149,11 +148,11 @@ The value multiplied against the background Preview input image.
 <table>
   <tr>
     <td>
-      <img src="SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
+      <img src="../../../../../../assets/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -165,11 +164,11 @@ The value multiplied against the background Preview input image.
 <table>
   <tr>
     <td>
-      <img src="SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
+      <img src="../../../../../../assets/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -183,7 +182,7 @@ The value multiplied against the background Preview input image.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](SplineWarp-Demo.gif "Node example 1")
+![Node example 1](../../../../../../assets/SplineWarp-Demo.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

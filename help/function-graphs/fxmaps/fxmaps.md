@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # FXMaps
 
 **The FX-Map node allows the creation of procedural images**. It is one of the most powerful features of the Substance technology.

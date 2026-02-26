@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # HDRI Tools
 
 HDRI Tools are nodes meant for manipulating and creating HDRI images. Specifically that means these nodes have functionality for working and generating correct, High Dynamic Range values, as well as nodes that account for and compensate spherical projection mapping.

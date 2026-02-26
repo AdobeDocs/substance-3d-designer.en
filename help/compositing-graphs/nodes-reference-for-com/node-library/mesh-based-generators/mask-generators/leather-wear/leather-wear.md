@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Leather Wear
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](leather-wear.png){width="128px"}
+![](../../../../../../assets/leather-wear.png){width="128px"}
 
 ## Leather Wear
 
@@ -60,7 +59,7 @@ This mask represents wear with a leather pattern, with more wear on edges based 
 
 ## Example Images
 
-![](leather-wear-ex.gif)
+![](../../../../../../assets/leather-wear-ex.gif)
 
 </td>
 </tr>

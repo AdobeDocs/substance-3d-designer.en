@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Spline (Poly Quadratic)
 
 <table>
@@ -23,7 +22,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-poly-quadratic-icon.png "Node icon")
+![Node icon](../../../../../../assets/spline-poly-quadratic-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -190,11 +189,11 @@ A higher value results in a smoother line.
 <table>
   <tr>
     <td>
-      <img src="SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
+      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
+      <img src="../../../../../../assets/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -203,7 +202,7 @@ A higher value results in a smoother line.
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](SplinePolyQuadratic-Demo.gif "Node example 2")
+![Node example 2](../../../../../../assets/SplinePolyQuadratic-Demo.gif "Node example 2")
 
 </td>
 </tr>

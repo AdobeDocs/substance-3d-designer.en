@@ -12,7 +12,6 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Extracting materials values and textures
 
 The properties of materials can be extracted to be used in Substance graphs.
@@ -53,21 +52,21 @@ A few things happen when using this action:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Create graph from texture inputs - Action in '3D View' viewport](createGraphFromTexturesActionViewport.png "Create graph from texture inputs - Action in '3D View' viewport"){zoomable="yes"}
+![Create graph from texture inputs - Action in '3D View' viewport](../../assets/createGraphFromTexturesActionViewport.png "Create graph from texture inputs - Action in '3D View' viewport"){zoomable="yes"}
 
 *Action in 3D View viewport*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Create graph from texture inputs - Action in 'Materials' menu](createGraphFromTexturesActionMaterials.png "Create graph from texture inputs - Action in 'Materials' menu"){zoomable="yes"}
+![Create graph from texture inputs - Action in 'Materials' menu](../../assets/createGraphFromTexturesActionMaterials.png "Create graph from texture inputs - Action in 'Materials' menu"){zoomable="yes"}
 
 *Action in Materials menu*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Create graph from texture inputs - Action in 'Properties' dock](createGraphFromTexturesActionProps.png "Create graph from texture inputs - Action in 'Properties' dock"){zoomable="yes"}
+![Create graph from texture inputs - Action in 'Properties' dock](../../assets/createGraphFromTexturesActionProps.png "Create graph from texture inputs - Action in 'Properties' dock"){zoomable="yes"}
 
 *Action in Properties dock*
 
@@ -75,12 +74,12 @@ A few things happen when using this action:
 </tr>
 </table>
 
-![Result of graph creation from material textures](createGraphFromTexturesResult.png "Result of graph creation from material textures"){zoomable="yes"}
+![Result of graph creation from material textures](../../assets/createGraphFromTexturesResult.png "Result of graph creation from material textures"){zoomable="yes"}
 
 *Result of graph creation from material textures*
 
 +++Demonstration
-![Create graph from texture inputs - Demonstration](createGraphFromTextures.gif "Create graph from texture inputs - Demonstration"){zoomable="yes"}
+![Create graph from texture inputs - Demonstration](../../assets/createGraphFromTextures.gif "Create graph from texture inputs - Demonstration"){zoomable="yes"}
 
 
 
@@ -111,14 +110,14 @@ E.g.: Extracting a texture for the ‘Base color’ property to a graph already 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extract texture to graph - Action in Properties dock](extractTextureAction.png "Extract texture to graph - Action in Properties dock"){zoomable="yes"}
+![Extract texture to graph - Action in Properties dock](../../assets/extractTextureAction.png "Extract texture to graph - Action in Properties dock"){zoomable="yes"}
 
 Action for material property in Properties dock
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extract texture to graph - 'Select destination graph' dialog](extractTextureSelectGraph.png "Extract texture to graph - 'Select destination graph' dialog"){zoomable="yes"}
+![Extract texture to graph - 'Select destination graph' dialog](../../assets/extractTextureSelectGraph.png "Extract texture to graph - 'Select destination graph' dialog"){zoomable="yes"}
 
 'Select destination graph' dialog
 
@@ -131,12 +130,12 @@ Action for material property in Properties dock
 </tr>
 </table>
 
-![Result of the texture extraction](extractTextureResult.png "Result of the texture extraction"){zoomable="yes"}
+![Result of the texture extraction](../../assets/extractTextureResult.png "Result of the texture extraction"){zoomable="yes"}
 
 Result of the texture extraction
 
 +++Demonstration
-![Extract texture to graph - Demonstration](extractTextureToGraph.gif "Extract texture to graph - Demonstration"){zoomable="yes"}
+![Extract texture to graph - Demonstration](../../assets/extractTextureToGraph.gif "Extract texture to graph - Demonstration"){zoomable="yes"}
 
 
 
@@ -165,21 +164,21 @@ E.g.: Extracting a value for the ‘Anisotropy level’ property to a graph alre
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extract value to graph - Action in Properties dock](extractValueAction.png "Extract value to graph - Action in Properties dock"){zoomable="yes"}
+![Extract value to graph - Action in Properties dock](../../assets/extractValueAction.png "Extract value to graph - Action in Properties dock"){zoomable="yes"}
 
 Action for material property in Properties dock
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extract value to graph - 'Select destination graph' dialog](extractValueSelectGraph.png "Extract value to graph - 'Select destination graph' dialog"){zoomable="yes"}
+![Extract value to graph - 'Select destination graph' dialog](../../assets/extractValueSelectGraph.png "Extract value to graph - 'Select destination graph' dialog"){zoomable="yes"}
 
 'Select destination graph' dialog
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extract value to graph - Constant node in Value processor node's function](extractValueResult2.png "Extract value to graph - Constant node in Value processor node's function"){zoomable="yes"}
+![Extract value to graph - Constant node in Value processor node's function](../../assets/extractValueResult2.png "Extract value to graph - Constant node in Value processor node's function"){zoomable="yes"}
 
 Constant node in Value processor node's function
 
@@ -187,12 +186,12 @@ Constant node in Value processor node's function
 </tr>
 </table>
 
-![Result of the value extraction](extractValueResult.png "Result of the value extraction"){zoomable="yes"}
+![Result of the value extraction](../../assets/extractValueResult.png "Result of the value extraction"){zoomable="yes"}
 
 Result of the value extraction
 
 +++Demonstration
-![Extract value to graph - Demonstration](extractValueToGraph.gif "Extract value to graph - Demonstration"){zoomable="yes"}
+![Extract value to graph - Demonstration](../../assets/extractValueToGraph.gif "Extract value to graph - Demonstration"){zoomable="yes"}
 
 
 

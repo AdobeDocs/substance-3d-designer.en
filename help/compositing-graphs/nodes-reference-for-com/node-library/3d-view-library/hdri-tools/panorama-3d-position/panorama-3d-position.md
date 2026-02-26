@@ -12,14 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-
 # Panorama 3D Position
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](panorama-position.png){width="200px"}
+![](../../../../../../assets/panorama-position.png){width="200px"}
 
 ## Panorama 3D Position
 
@@ -40,7 +39,7 @@ Helper node that renders a world-space position map for a spehircally projected 
 
 ## Example Images
 
-![](pano3d.png)
+![](../../../../../../assets/pano3d.png)
 
 </td>
 </tr>
