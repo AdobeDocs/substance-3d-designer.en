@@ -22,9 +22,7 @@ All other Substance graph nodes in the [Library](../../../interface/the-library/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[
-![Atomic node: Bitmap](../../../assets/comp_bitmap(1).png)
-](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
+[![Atomic node: Bitmap](../../../assets/comp_bitmap(1).png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
 
 [Bitmap](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)
 
@@ -191,9 +189,7 @@ All other Substance graph nodes in the [Library](../../../interface/the-library/
 </td>
 <td style="border: 0;" valign="top">
 
-[
-![Atomic node: Channels shuffle](../../../assets/comp_shuffle(1).png)
-](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
+[![Atomic node: Channels shuffle](../../../assets/comp_shuffle(1).png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
 
 [Channels shuffle](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/channel-shuffle/channel-shuffle.md)
 
