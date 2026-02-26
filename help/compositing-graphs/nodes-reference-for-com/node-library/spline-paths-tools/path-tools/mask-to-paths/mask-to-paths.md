@@ -126,11 +126,11 @@ Available variables:
 <table>
   <tr>
     <td>
-      <img src="MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="../../../../../../assets/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
+      <img src="../../../../../../assets/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -142,11 +142,11 @@ Available variables:
 <table>
   <tr>
     <td>
-      <img src="MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
+      <img src="../../../../../../assets/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
+      <img src="../../../../../../assets/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>

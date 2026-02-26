@@ -68,11 +68,11 @@ The length threshold used to select splines.
 <table>
   <tr>
     <td>
-      <img src="PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
       <br><i>After</i>
     </td>
   </tr>
@@ -84,11 +84,11 @@ The length threshold used to select splines.
 <table>
   <tr>
     <td>
-      <img src="PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
       <br><i>After</i>
     </td>
   </tr>

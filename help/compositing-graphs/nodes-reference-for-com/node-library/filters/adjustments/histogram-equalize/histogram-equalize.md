@@ -77,11 +77,11 @@ Equalizes the histogram for a grayscale image, effectively adjusting the graysca
 <table>
   <tr>
     <td>
-      <img src="histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="../../../../../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="../../../../../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ Equalizes the histogram for a grayscale image, effectively adjusting the graysca
 <table>
   <tr>
     <td>
-      <img src="histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="../../../../../../assets/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="../../../../../../assets/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -107,11 +107,11 @@ Equalizes the histogram for a grayscale image, effectively adjusting the graysca
 <table>
   <tr>
     <td>
-      <img src="histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="../../../../../../assets/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="../../../../../../assets/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
       <br><i>After</i>
     </td>
   </tr>

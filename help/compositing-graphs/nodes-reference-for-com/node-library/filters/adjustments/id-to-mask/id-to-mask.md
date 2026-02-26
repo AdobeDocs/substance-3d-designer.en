@@ -80,11 +80,11 @@ An ID map is an image where pixels which are part of a whole (E.g., a shape) all
 <table>
   <tr>
     <td>
-      <img src="id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>After</i>
     </td>
   </tr>

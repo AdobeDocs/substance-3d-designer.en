@@ -170,11 +170,11 @@ A higher value results in a smoother line.
 <table>
   <tr>
     <td>
-      <img src="SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="../../../../../../assets/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>After</i>
     </td>
   </tr>

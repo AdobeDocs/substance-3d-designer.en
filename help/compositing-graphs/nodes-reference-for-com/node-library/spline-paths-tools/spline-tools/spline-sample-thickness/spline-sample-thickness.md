@@ -119,11 +119,11 @@ Displays additional lines at the edges of the spline’s thickness.
 <table>
   <tr>
     <td>
-      <img src="SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -135,11 +135,11 @@ Displays additional lines at the edges of the spline’s thickness.
 <table>
   <tr>
     <td>
-      <img src="SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="../../../../../../assets/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>

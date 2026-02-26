@@ -113,11 +113,11 @@ Play with the image below to see the difference before and after the default out
 <table>
   <tr>
     <td>
-      <img src="defaultouput2.png" alt="defaultouput2">
+      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="defaultouput1.png" alt="With the default output, thumbnails are always relevant.">
+      <img src="../../assets/defaultouput1.png" alt="With the default output, thumbnails are always relevant.">
       <br><i>After</i>
     </td>
   </tr>

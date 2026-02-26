@@ -90,11 +90,11 @@ Custom tools can be created using the data computed by the node, such as custom 
 <table>
   <tr>
     <td>
-      <img src="histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>After</i>
     </td>
   </tr>

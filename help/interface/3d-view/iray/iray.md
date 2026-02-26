@@ -212,11 +212,11 @@ The impact of some of these settings is demonstrated below:
 <table>
   <tr>
     <td>
-      <img src="iray-environment-hidden.png" alt="Iray - Environment hidden">
+      <img src="../../../assets/iray-environment-hidden.png" alt="Iray - Environment hidden">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="iray-env-visible.png" alt="Iray - Environment visible">
+      <img src="../../../assets/iray-env-visible.png" alt="Iray - Environment visible">
       <br><i>After</i>
     </td>
   </tr>
@@ -236,11 +236,11 @@ The impact of some of these settings is demonstrated below:
 <table>
   <tr>
     <td>
-      <img src="iray-env-infinite-sphere.png" alt="Iray - Infinite sphere only">
+      <img src="../../../assets/iray-env-infinite-sphere.png" alt="Iray - Infinite sphere only">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="iray-env-sphere-ground.png" alt="Iray - Infinite sphere with ground plane">
+      <img src="../../../assets/iray-env-sphere-ground.png" alt="Iray - Infinite sphere with ground plane">
       <br><i>After</i>
     </td>
   </tr>
@@ -319,11 +319,11 @@ The impact of some of these settings is demonstrated in the image comparisons be
 <table>
   <tr>
     <td>
-      <img src="iray-renderer-none.png" alt="Iray - Base render">
+      <img src="../../../assets/iray-renderer-none.png" alt="Iray - Base render">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="iray-renderer-caustics.png" alt="Iray - Caustic sampler enabled">
+      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Caustic sampler enabled">
       <br><i>After</i>
     </td>
   </tr>
@@ -343,11 +343,11 @@ The impact of some of these settings is demonstrated in the image comparisons be
 <table>
   <tr>
     <td>
-      <img src="iray-renderer-caustics.png" alt="Iray - Firefly filter disabled">
+      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Firefly filter disabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="iray-renderer-caustics-fireflies.png" alt="Iray - Firefly filter enabled">
+      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Firefly filter enabled">
       <br><i>After</i>
     </td>
   </tr>
@@ -367,11 +367,11 @@ The impact of some of these settings is demonstrated in the image comparisons be
 <table>
   <tr>
     <td>
-      <img src="iray-renderer-caustics-fireflies.png" alt="Iray - Post-denoiser disabled">
+      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Post-denoiser disabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - Post-denoiser enabled">
+      <img src="../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - Post-denoiser enabled">
       <br><i>After</i>
     </td>
   </tr>

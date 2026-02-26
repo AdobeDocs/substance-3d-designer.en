@@ -50,11 +50,11 @@ Curvature smooth
 <table>
   <tr>
     <td>
-      <img src="curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -68,11 +68,11 @@ Histogram equalize
 <table>
   <tr>
     <td>
-      <img src="histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -91,11 +91,11 @@ Bevel smooth
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
+      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
+      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -109,11 +109,11 @@ Normal uncombine
 <table>
   <tr>
     <td>
-      <img src="normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>After</i>
     </td>
   </tr>

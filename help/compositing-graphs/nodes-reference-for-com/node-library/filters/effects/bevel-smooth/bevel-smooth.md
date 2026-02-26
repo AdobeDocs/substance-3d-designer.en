@@ -113,11 +113,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
+      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
+      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -129,11 +129,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
+      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
+      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -150,11 +150,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
+      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
+      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -166,11 +166,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
+      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
+      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
+      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
+      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
       <br><i>After</i>
     </td>
   </tr>

@@ -65,11 +65,11 @@ The background is visible in the areas of the image where UVs are not defined (I
 <table>
   <tr>
     <td>
-      <img src="UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -81,11 +81,11 @@ The background is visible in the areas of the image where UVs are not defined (I
 <table>
   <tr>
     <td>
-      <img src="UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>

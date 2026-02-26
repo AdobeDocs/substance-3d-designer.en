@@ -79,11 +79,11 @@ This node may be used in combination with the following nodes: [Quantize Color](
 <table>
   <tr>
     <td>
-      <img src="apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -94,11 +94,11 @@ This node may be used in combination with the following nodes: [Quantize Color](
 <table>
   <tr>
     <td>
-      <img src="apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
       <br><i>After</i>
     </td>
   </tr>

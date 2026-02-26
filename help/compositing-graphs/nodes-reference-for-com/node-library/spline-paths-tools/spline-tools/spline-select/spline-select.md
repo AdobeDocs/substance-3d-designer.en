@@ -121,11 +121,11 @@ Displays additional lines at the edges of the spline’s thickness.
 <table>
   <tr>
     <td>
-      <img src="SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>After</i>
     </td>
   </tr>
@@ -137,11 +137,11 @@ Displays additional lines at the edges of the spline’s thickness.
 <table>
   <tr>
     <td>
-      <img src="SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
+      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
+      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>

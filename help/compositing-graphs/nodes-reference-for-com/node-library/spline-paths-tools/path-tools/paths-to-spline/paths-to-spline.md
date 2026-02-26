@@ -80,11 +80,11 @@ The base-2 logarithm (log2) of the number of vertices sampled in each path of th
 <table>
   <tr>
     <td>
-      <img src="PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
+      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -96,11 +96,11 @@ The base-2 logarithm (log2) of the number of vertices sampled in each path of th
 <table>
   <tr>
     <td>
-      <img src="PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>

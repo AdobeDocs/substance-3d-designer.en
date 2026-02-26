@@ -71,11 +71,11 @@ The result image of filling the input Splines with flat white against a flat bla
 <table>
   <tr>
     <td>
-      <img src="SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
+      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>

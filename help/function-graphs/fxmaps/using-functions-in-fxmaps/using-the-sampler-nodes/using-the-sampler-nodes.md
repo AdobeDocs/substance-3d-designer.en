@@ -38,4 +38,4 @@ Here, we compare the sampled value to a constant (0.3). If the sampled value is 
 
 ## Download sample
 
-[![SBS file icon](../../../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/d5f9adf3-0bb5-49a1-4eb9-a0506d4f3f32)
+[![SBS file icon](../../../../assets/sbs-1(1).png){width="64px"}](https://shared-assets.adobe.com/link/d5f9adf3-0bb5-49a1-4eb9-a0506d4f3f32)

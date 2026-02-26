@@ -97,11 +97,11 @@ This node may be used in combination with the following nodes: [Quantize Color](
 <table>
   <tr>
     <td>
-      <img src="modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
+      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
+      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
       <br><i>After</i>
     </td>
   </tr>

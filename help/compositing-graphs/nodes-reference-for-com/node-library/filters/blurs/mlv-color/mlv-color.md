@@ -73,11 +73,11 @@ More iterations result in flatter and sharper structuring areas.
 <table>
   <tr>
     <td>
-      <img src="MLV_Variant4A.png" alt="MLV_Variant4A">
+      <img src="../../../../../../assets/MLV_Variant4A.png" alt="MLV_Variant4A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="../../../../../../assets/MLV_Variant4B.png" alt="MLV_Variant4B">
       <br><i>After</i>
     </td>
   </tr>
@@ -86,11 +86,11 @@ More iterations result in flatter and sharper structuring areas.
 <table>
   <tr>
     <td>
-      <img src="MLV_Variant5A.png" alt="MLV_Variant5A">
+      <img src="../../../../../../assets/MLV_Variant5A.png" alt="MLV_Variant5A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="../../../../../../assets/MLV_Variant5B.png" alt="MLV_Variant5B">
       <br><i>After</i>
     </td>
   </tr>
@@ -99,11 +99,11 @@ More iterations result in flatter and sharper structuring areas.
 <table>
   <tr>
     <td>
-      <img src="MLV_Variant3A.png" alt="MLV_Variant3A">
+      <img src="../../../../../../assets/MLV_Variant3A.png" alt="MLV_Variant3A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="../../../../../../assets/MLV_Variant3B.png" alt="MLV_Variant3B">
       <br><i>After</i>
     </td>
   </tr>

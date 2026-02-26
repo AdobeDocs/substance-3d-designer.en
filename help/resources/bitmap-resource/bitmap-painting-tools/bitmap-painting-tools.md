@@ -16,7 +16,7 @@ user-guide-title: ""
 
 This page describes the painting tools available in the [2D View](../../../interface/2d-view/2d-view.md) panel for compatible bitmaps.
 
-![Bitmap painting tools in 2D View](../../../assets/2dview-paintingtools-main.png "Bitmap painting tools in 2D View"){width="512px"}
+![Bitmap painting tools in 2D View](../../../assets/2dview-paintingtools-main(1).png "Bitmap painting tools in 2D View"){width="512px"}
 
 ## Overview
 

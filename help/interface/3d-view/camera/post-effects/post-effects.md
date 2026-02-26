@@ -59,11 +59,11 @@ This lets you improve color consistency between applications. For instance, the 
 <table>
   <tr>
     <td>
-      <img src="PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PostFXReinhard.jpg" alt="PostFXReinhard">
+      <img src="../../../../assets/PostFXReinhard.jpg" alt="PostFXReinhard">
       <br><i>After</i>
     </td>
   </tr>
@@ -83,11 +83,11 @@ This lets you improve color consistency between applications. For instance, the 
 <table>
   <tr>
     <td>
-      <img src="PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PostFXAtan.jpg" alt="PostFXAtan">
+      <img src="../../../../assets/PostFXAtan.jpg" alt="PostFXAtan">
       <br><i>After</i>
     </td>
   </tr>
@@ -107,11 +107,11 @@ This lets you improve color consistency between applications. For instance, the 
 <table>
   <tr>
     <td>
-      <img src="PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PostFXExp.jpg" alt="PostFXExp">
+      <img src="../../../../assets/PostFXExp.jpg" alt="PostFXExp">
       <br><i>After</i>
     </td>
   </tr>
@@ -131,11 +131,11 @@ This lets you improve color consistency between applications. For instance, the 
 <table>
   <tr>
     <td>
-      <img src="PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PostFXLog.jpg" alt="PostFXLog">
+      <img src="../../../../assets/PostFXLog.jpg" alt="PostFXLog">
       <br><i>After</i>
     </td>
   </tr>
@@ -155,11 +155,11 @@ This lets you improve color consistency between applications. For instance, the 
 <table>
   <tr>
     <td>
-      <img src="PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PostFXAces.jpg" alt="PostFXAces">
+      <img src="../../../../assets/PostFXAces.jpg" alt="PostFXAces">
       <br><i>After</i>
     </td>
   </tr>
@@ -179,11 +179,11 @@ This lets you improve color consistency between applications. For instance, the 
 <table>
   <tr>
     <td>
-      <img src="PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PostFXHejl.jpg" alt="PostFXHejl">
+      <img src="../../../../assets/PostFXHejl.jpg" alt="PostFXHejl">
       <br><i>After</i>
     </td>
   </tr>
@@ -203,11 +203,11 @@ This lets you improve color consistency between applications. For instance, the 
 <table>
   <tr>
     <td>
-      <img src="PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PostFXNeutral.jpg" alt="PostFXNeutral">
+      <img src="../../../../assets/PostFXNeutral.jpg" alt="PostFXNeutral">
       <br><i>After</i>
     </td>
   </tr>
@@ -227,11 +227,11 @@ This lets you improve color consistency between applications. For instance, the 
 <table>
   <tr>
     <td>
-      <img src="PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PostFXAgx.jpg" alt="PostFXAgx">
+      <img src="../../../../assets/PostFXAgx.jpg" alt="PostFXAgx">
       <br><i>After</i>
     </td>
   </tr>
@@ -251,11 +251,11 @@ This lets you improve color consistency between applications. For instance, the 
 <table>
   <tr>
     <td>
-      <img src="PostFXDisabled.jpg" alt="PostFXDisabled">
+      <img src="../../../../assets/PostFXDisabled.jpg" alt="PostFXDisabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PostFXPbrNeutral.jpg" alt="PostFXPbrNeutral">
+      <img src="../../../../assets/PostFXPbrNeutral.jpg" alt="PostFXPbrNeutral">
       <br><i>After</i>
     </td>
   </tr>
@@ -285,11 +285,11 @@ The luminance value above which bloom should be visible.
 <table>
   <tr>
     <td>
-      <img src="bloomThreshold1.jpg" alt="bloomThreshold1">
+      <img src="../../../../assets/bloomThreshold1.jpg" alt="bloomThreshold1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bloomThreshold4.jpg" alt="bloomThreshold4">
+      <img src="../../../../assets/bloomThreshold4.jpg" alt="bloomThreshold4">
       <br><i>After</i>
     </td>
   </tr>
@@ -313,11 +313,11 @@ The bloom attenuation ramp, where a lower value results in a shorter bloom radiu
 <table>
   <tr>
     <td>
-      <img src="bloomFalloff1.jpg" alt="bloomFalloff1">
+      <img src="../../../../assets/bloomFalloff1.jpg" alt="bloomFalloff1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bloomFalloff0-6.jpg" alt="bloomFalloff0-6">
+      <img src="../../../../assets/bloomFalloff0-6.jpg" alt="bloomFalloff0-6">
       <br><i>After</i>
     </td>
   </tr>
@@ -341,11 +341,11 @@ The intensity of the bloom. A higher value results in brighter, more pronounced 
 <table>
   <tr>
     <td>
-      <img src="bloomLevel8.jpg" alt="bloomLevel8">
+      <img src="../../../../assets/bloomLevel8.jpg" alt="bloomLevel8">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bloomLevel2.jpg" alt="bloomLevel2">
+      <img src="../../../../assets/bloomLevel2.jpg" alt="bloomLevel2">
       <br><i>After</i>
     </td>
   </tr>
@@ -369,11 +369,11 @@ Offsets the hue of the areas affected by the bloom towards warmer colors.
 <table>
   <tr>
     <td>
-      <img src="bloomColorShift0.jpg" alt="bloomColorShift0">
+      <img src="../../../../assets/bloomColorShift0.jpg" alt="bloomColorShift0">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="bloomColorShift0-8.jpg" alt="bloomColorShift0-8">
+      <img src="../../../../assets/bloomColorShift0-8.jpg" alt="bloomColorShift0-8">
       <br><i>After</i>
     </td>
   </tr>
@@ -407,11 +407,11 @@ The maximum radius of the blurring effect.
 <table>
   <tr>
     <td>
-      <img src="depthOfFieldMaxRadius32.jpg" alt="depthOfFieldMaxRadius32">
+      <img src="../../../../assets/depthOfFieldMaxRadius32.jpg" alt="depthOfFieldMaxRadius32">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="depthOfFieldMaxRadius4.jpg" alt="depthOfFieldMaxRadius4">
+      <img src="../../../../assets/depthOfFieldMaxRadius4.jpg" alt="depthOfFieldMaxRadius4">
       <br><i>After</i>
     </td>
   </tr>
@@ -435,11 +435,11 @@ The magnitude of the blurring effect from the focus distance outward.
 <table>
   <tr>
     <td>
-      <img src="depthOfFieldCompositeStrength0-2.jpg" alt="depthOfFieldCompositeStrength0-2">
+      <img src="../../../../assets/depthOfFieldCompositeStrength0-2.jpg" alt="depthOfFieldCompositeStrength0-2">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="depthOfFieldCompositeStrength0-05.jpg" alt="depthOfFieldCompositeStrength0-05">
+      <img src="../../../../assets/depthOfFieldCompositeStrength0-05.jpg" alt="depthOfFieldCompositeStrength0-05">
       <br><i>After</i>
     </td>
   </tr>
@@ -465,11 +465,11 @@ Aberration simulates how different wavelengths of light have a slightly differen
 <table>
   <tr>
     <td>
-      <img src="depthOfFieldLongitudinalAberration0.jpg" alt="depthOfFieldLongitudinalAberration0">
+      <img src="../../../../assets/depthOfFieldLongitudinalAberration0.jpg" alt="depthOfFieldLongitudinalAberration0">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="depthOfFieldLongitudinalAberration1.jpg" alt="depthOfFieldLongitudinalAberration1">
+      <img src="../../../../assets/depthOfFieldLongitudinalAberration1.jpg" alt="depthOfFieldLongitudinalAberration1">
       <br><i>After</i>
     </td>
   </tr>
@@ -495,11 +495,11 @@ This makes the blurring effect appear to be more equally distributed.
 <table>
   <tr>
     <td>
-      <img src="depthOfFieldAchromaticAberrationYes.jpg" alt="depthOfFieldAchromaticAberrationYes">
+      <img src="../../../../assets/depthOfFieldAchromaticAberrationYes.jpg" alt="depthOfFieldAchromaticAberrationYes">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="depthOfFieldAchromaticAberrationNo.jpg" alt="depthOfFieldAchromaticAberrationNo">
+      <img src="../../../../assets/depthOfFieldAchromaticAberrationNo.jpg" alt="depthOfFieldAchromaticAberrationNo">
       <br><i>After</i>
     </td>
   </tr>
@@ -525,11 +525,11 @@ This effect is more pronounced at higher apertures – I.e., lower F-Stop values
 <table>
   <tr>
     <td>
-      <img src="depthOfFieldAchromaticCatsEyeYes.jpg" alt="depthOfFieldAchromaticCatsEyeYes">
+      <img src="../../../../assets/depthOfFieldAchromaticCatsEyeYes.jpg" alt="depthOfFieldAchromaticCatsEyeYes">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="depthOfFieldAchromaticCatsEyeNo.jpg" alt="depthOfFieldAchromaticCatsEyeNo">
+      <img src="../../../../assets/depthOfFieldAchromaticCatsEyeNo.jpg" alt="depthOfFieldAchromaticCatsEyeNo">
       <br><i>After</i>
     </td>
   </tr>

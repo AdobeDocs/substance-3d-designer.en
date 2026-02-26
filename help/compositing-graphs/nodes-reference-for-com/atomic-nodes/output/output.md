@@ -135,11 +135,11 @@ Here is an example of instance nodes before and after setting a default output:
 <table>
   <tr>
     <td>
-      <img src="defaultouput2.png" alt="defaultouput2">
+      <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="defaultouput1.png" alt="defaultouput1">
+      <img src="../../../../assets/defaultouput1.png" alt="defaultouput1">
       <br><i>After</i>
     </td>
   </tr>

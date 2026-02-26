@@ -60,11 +60,11 @@ Maps the input grayscale image using the coordinates provided in the UV input.
 <table>
   <tr>
     <td>
-      <img src="UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -76,11 +76,11 @@ Maps the input grayscale image using the coordinates provided in the UV input.
 <table>
   <tr>
     <td>
-      <img src="UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
+      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>

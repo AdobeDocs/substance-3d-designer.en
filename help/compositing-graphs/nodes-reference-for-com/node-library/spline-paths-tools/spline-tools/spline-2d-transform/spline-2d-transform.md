@@ -107,11 +107,11 @@ A higher value results in a smoother line.
 <table>
   <tr>
     <td>
-      <img src="Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="Spline2DTransform-Variant2-After.jpg" alt="Spline2DTransform-Variant2-After">
+      <img src="../../../../../../assets/Spline2DTransform-Variant2-After.jpg" alt="Spline2DTransform-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -123,11 +123,11 @@ A higher value results in a smoother line.
 <table>
   <tr>
     <td>
-      <img src="Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="../../../../../../assets/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
+      <img src="../../../../../../assets/Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>

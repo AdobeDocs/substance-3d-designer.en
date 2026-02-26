@@ -64,11 +64,11 @@ This can prevent the path to cross itself, especially when using high <b>Intens
 <table>
   <tr>
     <td>
-      <img src="PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -80,11 +80,11 @@ This can prevent the path to cross itself, especially when using high <b>Intens
 <table>
   <tr>
     <td>
-      <img src="PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>

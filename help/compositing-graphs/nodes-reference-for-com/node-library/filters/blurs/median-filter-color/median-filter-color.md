@@ -66,11 +66,11 @@ This parameter controls the size of that square kernel, in pixels. A larger kern
 <table>
   <tr>
     <td>
-      <img src="MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>After</i>
     </td>
   </tr>
@@ -79,11 +79,11 @@ This parameter controls the size of that square kernel, in pixels. A larger kern
 <table>
   <tr>
     <td>
-      <img src="MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
+      <img src="../../../../../../assets/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
+      <img src="../../../../../../assets/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
       <br><i>After</i>
     </td>
   </tr>

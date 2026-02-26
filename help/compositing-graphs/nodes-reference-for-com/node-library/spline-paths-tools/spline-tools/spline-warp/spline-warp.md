@@ -148,11 +148,11 @@ The value multiplied against the background Preview input image.
 <table>
   <tr>
     <td>
-      <img src="SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
+      <img src="../../../../../../assets/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -164,11 +164,11 @@ The value multiplied against the background Preview input image.
 <table>
   <tr>
     <td>
-      <img src="SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="../../../../../../assets/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
+      <img src="../../../../../../assets/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>

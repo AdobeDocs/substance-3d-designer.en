@@ -87,11 +87,11 @@ The concave and convex areas are also split into their own outputs, for easier s
 <table>
   <tr>
     <td>
-      <img src="curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ The concave and convex areas are also split into their own outputs, for easier s
 <table>
   <tr>
     <td>
-      <img src="curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
+      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
+      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
       <br><i>After</i>
     </td>
   </tr>

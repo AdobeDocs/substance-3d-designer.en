@@ -329,7 +329,7 @@ The <b>Bitmap painting tools</b> are available for [Bitmap resources](../../reso
 </td>
 <td style="border: 0;" valign="top">
 
-![2D View bitmap painting tools](../../assets/2dview-paintingtools-main(1).png "2D View bitmap painting tools")
+![2D View bitmap painting tools](../../assets/2dview-paintingtools-main.png "2D View bitmap painting tools")
 
 </td>
 </tr>

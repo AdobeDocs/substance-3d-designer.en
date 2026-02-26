@@ -78,11 +78,11 @@ Removes from a normal map the surface details described by a height map.
 <table>
   <tr>
     <td>
-      <img src="normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="../../../../../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="../../../../../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -93,11 +93,11 @@ Removes from a normal map the surface details described by a height map.
 <table>
   <tr>
     <td>
-      <img src="normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
+      <img src="../../../../../../assets/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
+      <img src="../../../../../../assets/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -108,11 +108,11 @@ Removes from a normal map the surface details described by a height map.
 <table>
   <tr>
     <td>
-      <img src="normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
+      <img src="../../../../../../assets/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
+      <img src="../../../../../../assets/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
