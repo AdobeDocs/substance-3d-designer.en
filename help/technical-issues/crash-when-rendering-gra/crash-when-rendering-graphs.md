@@ -18,7 +18,7 @@ This page lists crashes occurring during the graph rendering process in Substanc
 
 ## TDR (Windows only)
 
-<b>&#91;!&#91;(error)&#93;(../../assets/error.svg)&#93;(https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html) Issue</b>
+<b>&#91;!&#91;(error)&#93;(../../assets/error.svg)&#93;(https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Issue</b>
 
 The system's <b>Timeout Detection &amp; Recovery (TDR)</b> timer is *too short* to let Substance 3D Designer finish its current computations before the graphics driver is *restarted*.
 
@@ -27,4 +27,4 @@ As a stability and security measure, the operating system *restarts the graphics
 
 <b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
 
-The TDR timer values needs to be *increased* to prevent such crashes. You can do this by following the instructions in [this page](https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html) of Substance 3D Painter's documentation, which apply to Substance 3D Designer as well.
+The TDR timer values needs to be *increased* to prevent such crashes. You can do this by following the instructions in [this page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) of Substance 3D Painter's documentation, which apply to Substance 3D Designer as well.

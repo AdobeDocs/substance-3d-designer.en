@@ -206,7 +206,7 @@ To export the 3D View mesh, go to <b>Scene &gt; Export tessellated mesh...</b>,
 >
 > **TDR (Windows only)**
 > 
-> This feature requires that the <b>Timeout Detection and Recovery (TDR)</b> match the recommended values in [this page](https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html) of our documentation, as stated in Designer's [Technical requirements](../../getting-started/system-requirements/system-requirements.md).
+> This feature requires that the <b>Timeout Detection and Recovery (TDR)</b> match the recommended values in [this page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) of our documentation, as stated in Designer's [Technical requirements](../../getting-started/system-requirements/system-requirements.md).
 
 ## Menu bar
 
@@ -290,7 +290,7 @@ The 'Materials' menu features a list of all materials assigned to a mesh in the 
 
 <b>Load Definition...: </b>(OpenGL renderer only) Lets you load your own custom [GLSLFX shader.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) The shader is added into the list above.
 
-<b>Reset common parameters:</b> Resets all parameters that are common across shaders. For instance, when switching between the OpenGL and Iray renderers, several parameter values in the [Adobe Standard Material](https://helpx.adobe.com/substance-3d-general/adobe-standard-material.html) are carried across.
+<b>Reset common parameters:</b> Resets all parameters that are common across shaders. For instance, when switching between the OpenGL and Iray renderers, several parameter values in the [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) are carried across.
 
 <b>Rename:</b> Change the label for this material.
 

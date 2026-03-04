@@ -16,7 +16,7 @@ user-guide-title: ""
 
 This page explains how Substance 3D Designer can publish packages as <b>Substance 3D asset</b> files, a special file format with the <b>SBSAR</b> extension, used within the Substance ecosystem as well as in other applications supporting it.
 
-It's usually better to use a Substance 3D asset instead of bitmaps, as it is a lot more flexible and lightweight. If you are using them in Substance 3D [Painter](https://helpx.adobe.com/substance-3d-painter/home.html), [Sampler](https://helpx.adobe.com/substance-3d-sampler.html) or [Player](https://helpx.adobe.com/substance-3d-player/home.html), it is faster to use the [Send To functionality](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
+It's usually better to use a Substance 3D asset instead of bitmaps, as it is a lot more flexible and lightweight. If you are using them in Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/substance-3d-sampler.html) or [Player](https://helpx.adobe.com/substance-3d-player/home.html), it is faster to use the [Send To functionality](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html).
 
 ![Publishing SBSAR files simplified](../../assets/exportflow.png "Publishing SBSAR files simplified")
 
@@ -27,7 +27,7 @@ it is good to keep the following in mind when publishing a Substance graph:
 * You<b> publish a package</b>, with all it contents, not an individual [Substance graph](../../compositing-graphs/substance-compositing-graphs.md). A Substance 3D asset then lets you generate content from all Substance graphs inside this package.
 * Published packages are <b>completely stand-alone</b>: all resources required are embedded into the file. That means they are much easier to share than SBS files.
 * The output from Substance 3D assets can be <b>completely dynamic</b>. [Resolution is not set; exposed parameters can be modified.](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) However, editing the Graph is no longer possible.
-* Substance 3D assets can be used outside of Designer, in all Adobe Substance 3D products, Adobe Dimension as well as any other application that has a [Substance integration](https://helpx.adobe.com/substance-3d-integrations/home.html).
+* Substance 3D assets can be used outside of Designer, in all Adobe Substance 3D products, Adobe Dimension as well as any other application that has a [Substance integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home).
 * Publishing is different from[ Exporting](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md), make sure you understand well the difference.
 
 ## Preparing to publish

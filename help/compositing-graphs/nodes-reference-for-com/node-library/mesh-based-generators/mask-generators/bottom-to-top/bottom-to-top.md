@@ -31,7 +31,7 @@ user-guide-title: ""
 
 ## Description
 
-Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html) in [Painter](https://helpx.adobe.com/substance-3d-painter/home.html).
+Generates a black and white mask based on baked maps and user settings. Similar to [Smart Masks](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) in [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home).
 
 This generates a white to black transition from the bottom to the top of a model, useful for making geometry-based falloffs and selections.
 

@@ -16,7 +16,7 @@ user-guide-title: ""
 
 Substance 3D Designer supports a limited form of Vector Graphics, through the Scalable Vector graphics format. SVG files can be brought in as resources in different ways, to be used as resources for your graphs.
 
-SVG files [can be created or edited through the atomic SVG node,](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) they can also be created by [the UV to SVG baker.](https://helpx.adobe.com/substance-3d-bake/bakers-settings/convert-uv-to-svg.html)
+SVG files [can be created or edited through the atomic SVG node,](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) they can also be created by [the UV to SVG baker.](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >

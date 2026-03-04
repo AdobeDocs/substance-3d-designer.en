@@ -71,7 +71,7 @@ Substance Files are the **main source files** for Designer. When you open a Subs
 
 *(\*.SBSAR)*
 
-Substance Archives are<b> compiled, optimized</b> Substance files. They are much faster to calculate and can easily be shared without reference issues. Parameters can still be tweaked, but editing the graph is <b>locked down</b>. Substance Archives can be used in all Substance 3D applications and any application that has a [Substance 3D integration](https://helpx.adobe.com/substance-3d-integrations/home.html) (some with an external plugin) such as Autodesk 3DS Max &amp; Maya, Unreal Engine or Unity Engine.
+Substance Archives are<b> compiled, optimized</b> Substance files. They are much faster to calculate and can easily be shared without reference issues. Parameters can still be tweaked, but editing the graph is <b>locked down</b>. Substance Archives can be used in all Substance 3D applications and any application that has a [Substance 3D integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (some with an external plugin) such as Autodesk 3DS Max &amp; Maya, Unreal Engine or Unity Engine.
 
 </td>
 <td style="border: 0;" valign="top">

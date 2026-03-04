@@ -18,7 +18,7 @@ Baking refer to the action of **transferring mesh based information into texture
 
 >[!NOTE]
 >
-> To learn more about baking take a look at the [Baking Documentation](https://helpx.adobe.com/substance-3d-bake/home.html).
+> To learn more about baking take a look at the [Baking Documentation](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home).
 
 <table>
 <tr style="border: 0;">
@@ -87,13 +87,13 @@ This panel controls where the baked texture will be located.
 
 ### High-definition meshes
 
-This panel controls the high-poly mesh list and the related settings. See the [common parameters](https://helpx.adobe.com/substance-3d-bake/bakers-settings/common-parameters.html) for more information.
+This panel controls the high-poly mesh list and the related settings. See the [common parameters](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) for more information.
 
 ![High definition meshes](../assets/sd-high.png "High definition meshes")
 
 ### Default values
 
-See the [common parameters](https://helpx.adobe.com/substance-3d-bake/bakers-settings/common-parameters.html) for more information.
+See the [common parameters](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) for more information.
 
 ![Default values](../assets/sd-default-values.png "Default values")
 
@@ -110,6 +110,6 @@ Each baker in the inherit by default the Default Values (see above). The size (r
 
 When clicking on a baker in the list, the Baker Parameters view will update with its specific parameters.
 
-To learn more about the specific parameters, see: [Bakers Settings](https://helpx.adobe.com/substance-3d-bake/bakers-settings.html).
+To learn more about the specific parameters, see: [Bakers Settings](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
 ![Bakers render list](../assets/sd-baker-list.png "Bakers render list")
