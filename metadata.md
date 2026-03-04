@@ -1,10 +1,11 @@
 ---
 cloud: Experience Cloud
-solution: Substance 3D Designer
+solution: Substance 3D Designer, Substance 3D
+feature-set: Substance 3D Designer
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/substance-3d-designer.en
-index: no
+index: yes
 ---
 
 # Metadata for internal use
