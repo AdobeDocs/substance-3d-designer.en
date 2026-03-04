@@ -193,7 +193,7 @@ Two techniques are available for visualizing height:
 
 <b>Tesselation + Displacement</b> - Subdivides geometry and displaced the vertices along their normals.
 
-The Adobe Standard Material is documented in detail in [this section](https://helpx.adobe.com/substance-3d-general/adobe-standard-material.html) of our documentation.
+The Adobe Standard Material is documented in detail in [this section](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) of our documentation.
 
 +++
 

@@ -16,7 +16,7 @@ user-guide-title: ""
 
 Mesh based generators are nodes intended to process [Baked maps](../../../../bakers/bakers.md) such as a Normal map, Curvature, Ambient Occlusion, etc.
 
-The category gets its name from the fact that baked maps are the only way for Designer to use data based on 3D meshes. Quite some of the functionality in this category is similar to [Smart Materials and Masks](https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html) from Substance 3D Painter.
+The category gets its name from the fact that baked maps are the only way for Designer to use data based on 3D meshes. Quite some of the functionality in this category is similar to [Smart Materials and Masks](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) from Substance 3D Painter.
 
 There are three main categories:
 

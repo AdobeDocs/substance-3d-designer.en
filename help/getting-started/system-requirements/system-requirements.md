@@ -64,7 +64,7 @@ Below is a list of the GPU compatible with the application :
 >
 > **TDR (Windows only)**
 > 
-> For the best overall stability while performing heavy computations on the GPU – e.g. rendering complex graphs, rendering in the 3D view, exporting a scene from the 3D view, etc. – it is strongly recommended to make sure the <b>Timeout Detection and Recovery (TDR)</b> values match the recommendations in [this page](https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html) of our documentation.
+> For the best overall stability while performing heavy computations on the GPU – e.g. rendering complex graphs, rendering in the 3D view, exporting a scene from the 3D view, etc. – it is strongly recommended to make sure the <b>Timeout Detection and Recovery (TDR)</b> values match the recommendations in [this page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) of our documentation.
 
 ## Unsupported configurations
 
@@ -94,7 +94,7 @@ Below is a list of the GPU compatible with the application :
 
 Below is a list of the minimum GPU driver versions required for the application to run without issue. This list is subject to changes as new versions release.
 
-To download new drivers see: [GPU has outdated drivers](https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.html).
+To download new drivers see: [GPU has outdated drivers](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
 | OS | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
@@ -111,7 +111,7 @@ To enable GPU Raytracing via Optix or DXR the drivers recommended above must be 
 
 <b>DXR</b> requires the following minimum configuration :
 
-* <b>Windows 10</b> version 1809, see [this page](https://helpx.adobe.com/substance-3d-bake/features/gpu-raytracing.html) for more information
+* <b>Windows 10</b> version 1809, see [this page](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) for more information
 * <b>GPU with Pascal architecture</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
@@ -120,7 +120,7 @@ To enable GPU Raytracing via Optix or DXR the drivers recommended above must be 
 
 ## Using tablets
 
-Tablet users on <b>Windows</b> should apply the settings described in the following page to get the most reliable experience: [Configuring pens and tablets](https://helpx.adobe.com/substance-3d-painter/technical-support/configuring-pens-and-tablets.html).
+Tablet users on <b>Windows</b> should apply the settings described in the following page to get the most reliable experience: [Configuring pens and tablets](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets).
 
 ## Languages
 

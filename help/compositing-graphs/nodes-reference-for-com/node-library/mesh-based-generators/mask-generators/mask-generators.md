@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Mask Generators
 
-This category contains a selection of black-and-white mask-generating nodes. Based on baked map information, they generate masks that can then be used to blend together materials and other effects. These nodes are similar to [Smart Masks](https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html) and [Generators](https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/generators.html) in Substance Painter.
+This category contains a selection of black-and-white mask-generating nodes. Based on baked map information, they generate masks that can then be used to blend together materials and other effects. These nodes are similar to [Smart Masks](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) and [Generators](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators) in Substance Painter.
 
 All of these nodes require [baked maps,](../../../../../bakers/bakers.md) as without [baked maps](../../../../../bakers/bakers.md) there won't be much of a result.
 
