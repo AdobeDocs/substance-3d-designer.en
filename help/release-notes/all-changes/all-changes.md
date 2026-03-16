@@ -14,102 +14,54 @@ user-guide-title: ""
 
 # All changes
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-| 13 |  |
-| --- | --- |
-| <b>13.1</b> | 13.1.2    13.1.1    13.1.0 |
-| <b>13.0</b> | 13.0.2    13.0.1    13.0.0 |
-
-</td>
-<td style="border: 0;" valign="top">
-
-| 12 |  |
-| --- | --- |
-| <b>12.4</b> | 12.4.1    12.4.0 |
-| <b>12.3</b> | 12.3.1    12.3.0 |
-| <b>12.2</b> | 12.2.1    12.2.0 |
-| <b>12.1</b> | 12.1.1    12.1.0 |
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-| 11 |  |
-| --- | --- |
-| <b>11.3</b> | 11.3.3    11.3.2    11.3.1    11.3.0 |
-| <b>11.2</b> | 11.2.2    11.2.1    11.2.0 |
-| <b>11.1</b> | 11.1.2    11.1.1    11.1.0 |
-
-</td>
-<td style="border: 0;" valign="top">
-
-| 10 |  |
-| --- | --- |
-| <b>10.2</b> | 10.2.2    10.2.1    10.2.0 |
-| <b>10.1</b> | 10.1.3    10.1.2    10.1.1    10.1.0 |
-
-</td>
-</tr>
-</table>
-
-+++Previous versions
-
-| 9 |  |
-| --- | --- |
-| <b>9.3</b> | 9.3.3    9.3.2    9.3.1    9.3.0 |
-| <b>9.2</b> | 9.2.3    9.2.2    9.2.1    9.2.0 |
-| <b>9.1</b> | 9.1.3    9.1.2    9.1.1    9.1.0 |
-
-
-
-| 8 |  |
-| --- | --- |
-| <b>8.3</b> | 8.3.4    8.3.3    8.3.2    8.3.1    8.3.0 |
-| <b>8.2</b> | 8.2.2    8.2.1    8.2.0 |
-| <b>8.1</b> | 8.1.2    8.1.1    8.1.0 |
-
-
-
-| 7 |  |
-| --- | --- |
-| <b>7.2</b> | 7.2.5    7.2.4    7.2.3    7.2.2    7.2.1    7.2.0 |
-| <b>7.1</b> | 7.1.4    7.1.3    7.1.2    7.1.1    7.1.0 |
-
-
-
-| 6 |  |
-| --- | --- |
-| <b>6.0</b> | 6.0.4    6.0.3    6.0.2    6.0.1    6.0.0 |
-
-
-
-| 5 |  |
-| --- | --- |
-| <b>5.6</b> | 5.6.2    5.6.1    5.6.0 |
-| <b>5.5</b> | 5.5.3    5.5.2    5.5.1    5.5.0 |
-| <b>5.4</b> | 5.4.0 |
-| <b>5.3</b> | 5.3.3    5.3.2    5.3.1    5.3.0 |
-| <b>5.2</b> | 5.2.5    5.2.1    5.2.0 |
-| <b>5.1</b> | 5.1.1    5.1.0 |
-| <b>5.0</b> | 5.0.3    5.0.2    5.0.1    5.0.0 |
-
-
-+++
-
 ## Version 15
+
+### 15.1.3
+
+*(Released March 10th, 2026)*
+
+**Added:**
+
+* &#91;Bakers&#93; Add a outputsize macros for the filename
+* &#91;Bakers&#93; Avoid loading the highpoly mesh before baking
+* &#91;Bakers&#93; CLI: Update the description of the 'output-size' option with size macros
+* &#91;Bakers&#93; Convert input texture format to the requested format
+* &#91;Bakers&#93; Disable 'Offset map' option when 'Use cage' is checked
+* &#91;Bakers&#93; Display already baked maps when the baking window is reopened
+* &#91;Bakers&#93; Keep the baking window open until all baking processes are effectively cancelled
+* &#91;Bakers&#93; Migrate BindTexture function 
+* &#91;Bakers&#93; &#91;Settings&#93; Set the 'Name filtering mode' default value to 'Parent name (Legacy)'
+* &#91;Bakers&#93; &#91;Tooltip&#93; Add 'Name filtering mode' value to the 'Match' parameter tooltip
+* &#91;Engine&#93; Upgrade Substance engine to v9.3.4
+
+**Fixed:**
+
+* &#91;3D View&#93; 'View outputs in 3D view' does not override existing assignation on graphs with single output
+* &#91;3D View&#93; Cannot display UVs in some cases
+* &#91;3D View&#93; Computed tangents appear broken for USD
+* &#91;3D View&#93; Crash when opening the Renderer menu
+* &#91;Bakers&#93; Cannot set distance greater than 1 when "Relative to Bbox" is unchecked
+* &#91;Bakers&#93; Color baker takes excessively long to finish in specific cases
+* &#91;Bakers&#93; Color: Crash when baking UV islands
+* &#91;Bakers&#93; Distance and radius parameters ranges are too narrow when the value is absolute
+* &#91;Bakers&#93; Failure when baking from high poly missing tangent and bitangents that are not required
+* &#91;Bakers&#93; Material colors not correct in baker command line
+* &#91;Bakers&#93; Multiple high poly meshes are ignored in some situations
+* &#91;Bakers&#93; Normal: Black output when using anti-aliasing and diffusion (macOS only)
+* &#91;Bakers&#93; Offset map path check reports unexpected failures when using bitmap package resources
+* &#91;Bakers&#93; Offset map tooltip is incorrect
+* &#91;Bakers&#93; Place resource into a mesh specific folder does not work
+* &#91;Bakers&#93; Texture transfer: 'UV set' value is not restored as it was when reopening baking window
+* &#91;Bakers&#93; Texture transfer: A grayscale input does not result in a grayscale output
+* &#91;Bakers&#93; Warning for disabled inherited baker is not cleared when changing texture source in target baker
+* &#91;Bakers&#93; &#91;UDIM&#93; Offset map is only applied to UDIM 1001
+* &#91;Graph&#93; UDIM 1001 is always computed whatever the UVTile that is used
 
 ### 15.1.2
 
 *(Released February 3rd, 2026)*
 
-### Fixes
+**Fixed:**
 
 * &#91;Engine&#93; Levels: Floating point values are always clamped to &#91;0, 1&#93;
 * &#91;Bakers&#93; Matching geometry by parent name (Legacy) does not work for submeshes
@@ -120,7 +72,7 @@ user-guide-title: ""
 
 *(Released January 20th, 2026)*
 
-### ADDED
+**Added:**
 
 * &#91;Samples&#93; Add two samples to create sections to feed the Painter ribbon tool
 * &#91;Engine&#93; Update to Substance Engine v9.3.2
@@ -130,7 +82,7 @@ user-guide-title: ""
 * &#91;Branding&#93; Update filetypes icons
 * &#91;NewGraph&#93; Apply hover styles on (i) icon in 'List', 'Packages' and 'Directories' view modes
 
-### Fixes
+**Fixed:**
 
 * &#91;3DView&#93; UDIM meshes are not rendering a single tile anymore
 * &#91;3DView&#93; Crash when no renderDevice is detected
@@ -152,7 +104,7 @@ user-guide-title: ""
 
 *(Released December 11th, 2025)*
 
-### ADDED
+**Added:**
 
 * &#91;NewGraph&#93; Rework of the new graph window
 * &#91;NewGraph&#93; Add materials samples and advanced samples
@@ -207,7 +159,7 @@ user-guide-title: ""
 * &#91;Graph&#93; Group the items per 'group' attribute in the node menu
 * &#91;Graph&#93; Improve thumbnail rendering
 
-### Fixes
+**Fixed:**
 
 * &#91;3D View&#93; L16 Grayscale texture is displayed with a red tint when plugged to the environment or the baseColor
 * &#91;3D View&#93; Changing the material binding of a scene with no material creates a new "default" material
@@ -240,7 +192,7 @@ user-guide-title: ""
 
 *(Released October 23rd, 2025)*
 
-### Fixes
+**Fixed:**
 
 * &#91;Content&#93; Preview output of Spline tools nodes is not displayed by default
 * &#91;Graph&#93; Crash when deleting the output of a function subgraph
@@ -249,7 +201,7 @@ user-guide-title: ""
 
 *(Released September 18th, 2025)*
 
-### Added
+**Added:**
 
 * &#91;3D View/OpenGL&#93; Remove the wireframe effect applied on the selected Mesh
 * &#91;3D View&#93; Allow using the 'F' key to focus on a selected mesh when the Scene Browser has focus
@@ -258,7 +210,7 @@ user-guide-title: ""
 * &#91;BakersCLI&#93; Rename "use\_cache" option to "keep\_meshes\_in\_cache"
 * &#91;UI&#93; Refresh icon for 3D scenes in Library
 
-### Fixes
+**Fixed:**
 
 * &#91;3D View&#93; Crash when assigning a material node to a multi-material scene
 * &#91;3D View&#93; Graph created from texture inputs is always viewed in 3D View regardless of preferences
@@ -291,7 +243,7 @@ user-guide-title: ""
 
 *(Released July 22nd, 2025)*
 
-### Added
+**Added:**
 
 * &#91;3D View&#93; Allow to texture USD Meshes that have displayColor and no Material bindings
 * &#91;3D View&#93; Do not automatically create one material per mesh that does not have a material binding
@@ -303,7 +255,7 @@ user-guide-title: ""
 * &#91;Preferences&#93; Add an option to define the default 3D View renderer
 * &#91;Properties&#93; Make 'Reset to default' use the authored default values if any
 
-### Fixes
+**Fixed:**
 
 * &#91;3D View&#93; Artefacts on specific scene when rendered with OpenGL
 * &#91;3D View&#93; Default environment is not disabled when loading a USD 3D scene resource that contains one
@@ -328,7 +280,7 @@ user-guide-title: ""
 
 *(Released July 15th, 2025)*
 
-### Added
+**Added:**
 
 * &#91;3D View&#93; Brand new renderer, with rasterizer and pathtracer modes
 * &#91;3D View&#93; Add a selection tool to pick an object in the 3D scene
@@ -405,7 +357,7 @@ user-guide-title: ""
 * &#91;VFX&#93; Update OpenExr to 3.3.x
 * &#91;VFX&#93; Update Qt to 6.5.8
 
-### Fixes
+**Fixed:**
 
 * &#91;3D View&#93; Textures in exported USD scene are not correctly applied
 * &#91;3D View&#93; &#91;UDIM&#93; Cannot view UDIM graph outputs in 3D View when automatic viewing on graph opening is turned off in graph preferences
@@ -437,12 +389,12 @@ user-guide-title: ""
 
 *(Released April 15th, 2025)*
 
-### Added
+**Added:**
 
 * &#91;Graph&#93; Use the default GPU engine to generate thumbnails for the current graph
 * &#91;Library&#93; Use the default GPU engine to generate thumbnails for the library
 
-### Fixes
+**Fixed:**
 
 * &#91;Graph&#93; Cannot move connections in some cases in 'Standard' link creation mode
 * &#91;Content&#93; Artifacts in MLV filter output in a specific case
@@ -458,13 +410,13 @@ user-guide-title: ""
 
 *(Released February 20th, 2025)*
 
-### Added
+**Added:**
 
 * &#91;Graph&#93; Node alignment tools: Reinstate keyboard shortcuts, enable stacking by default
 * &#91;MDL&#93; Warn users that "MDL graphs" will be deprecated in a future version
 * &#91;Preferences&#93; Warn users that "Custom tangent space plugins" will be deprecated in a future version
 
-### Fixes
+**Fixed:**
 
 * &#91;2D View&#93; Display center pixel coordinates instead of top-left
 * &#91;Content&#93; Anisotropic Kuwahara Grayscale: Cooker warning for missing 'ignore\_alpha' variable
@@ -484,7 +436,7 @@ user-guide-title: ""
 
 *(Released January 14th, 2025)*
 
-### Added
+**Added:**
 
 * &#91;2D View&#93; Add pinned pixel display in Information panel
 * &#91;API&#93; Expose the nodes BBox size in the Graph View scene
@@ -518,7 +470,7 @@ user-guide-title: ""
 * &#91;UX&#93; Modal dialogs should not be minimisable
 * &#91;UX&#93; Remove horizontal scroll on alert dialog
 
-### Fixes
+**Fixed:**
 
 * &#91;Content&#93; Bevel: Normal Format is not affected by the global preference
 * &#91;Content&#93; Color to Mask node does not ignore alpha
