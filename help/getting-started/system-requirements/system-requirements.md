@@ -31,7 +31,7 @@ Below is a list of hardware and systems supported by the application:
 
 |  | Minimum | Recommended | Optimal |
 | --- | --- | --- | --- |
-| <b>OS</b> | macOS 12 Monterey | macOS 13 Ventura | macOS 14 Sonoma |
+| <b>OS</b> | macOS 14 Sonoma | macOS 26 Tahoe | macOS 26 Tahoe |
 | <b>CPU</b> | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | <b>GPU</b> | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | <b>RAM</b> | 16 GB | 32 GB | 64 GB |
