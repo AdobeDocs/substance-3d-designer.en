@@ -31,7 +31,7 @@ Below is a list of hardware and systems supported by the application:
 
 |  | Minimum | Recommended | Optimal |
 | --- | --- | --- | --- |
-| <b>OS</b> | macOS 12 Monterey | macOS 13 Ventura | macOS 14 Sonoma |
+| <b>OS</b> | macOS 14 Sonoma | macOS 26 Tahoe | macOS 26 Tahoe |
 | <b>CPU</b> | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | <b>GPU</b> | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | <b>RAM</b> | 16 GB | 32 GB | 64 GB |
@@ -39,9 +39,9 @@ Below is a list of hardware and systems supported by the application:
 
 ### Linux
 
-|  | Minimum | Recommended | Optimal |
-| --- | --- | --- | --- |
-| <b>OS</b> | <b>Enterprise ETLA</b>  RHEL 8.6 or later or RHEL 9.2 or later <b>Steam</b> Ubuntu 22.04.1 LTS | <b>Enterprise ETLA</b>  RHEL 8.6 or later  or RHEL 9.4 or later  <b>Steam</b> Ubuntu 22.04.1 LTS or later | <b>Enterprise ETLA</b>  RHEL 8.6 or later  or RHEL 9.4 or later  <b>Steam</b> Ubuntu 22.04.1 LTS or later |
+| Enterprise | Steam |
+| --- | --- |
+| RHEL 8 or 8.10 </br> RHEL 9 or 9.6 | Ubuntu 22.04 or Ubuntu 22.04.05 LTS |
 
 ## General recommendations
 
