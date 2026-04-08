@@ -37,7 +37,6 @@ The **Library** can monitor all assets which are supported [Resources](../../res
 * [Bitmap images](../../resources/bitmap-resource/bitmap-resource.md)
 * [Vector images](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
 * [Function graphs](../../function-graphs/function-graphs.md)
-* [MDL graphs](../../mdl-graphs/mdl-graphs.md)
 * [AxF files](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 * [Fonts](../../resources/font-resource/font-resource.md)
 * [Meshes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
@@ -67,8 +66,6 @@ The default categories include:
 * [Functions](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/function-nodes-reference-129368124.html): includes nodes representing [function graphs](../../function-graphs/the-function-graph/the-function-graph.md)
 * [3D View](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion): offers content related to maps used for image-based lighting in a 3D scene – such as in the [3D View](../../interface/3d-view/3d-view.md), such as environment maps and nodes for authoring environment maps
 * PBR Materials:
-* [MDL Resources](../../mdl-graphs/mdl-graphs.md): includes custom content for [MDL graphs](../../mdl-graphs/mdl-graphs.md)
-* [mdl](../../mdl-graphs/mdl-library/mdl-library.md): lists the content of all MDL librairies available on the system which can be used as nodes in [MDL graphs](../../mdl-graphs/mdl-graphs.md)
 
 ## Content
 
@@ -76,7 +73,7 @@ The content of the <b>Library</b> is displayed as *labelled thumbnails*. These t
 
 * [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) in [SBS](../../getting-started/overview/overview.md) and [SBSAR](../../getting-started/overview/overview.md) files are represented by their *first output*, or by their *custom icon* if one was set by the graph's author
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) and [vector graphics (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) are represented by a *miniature render* of the bitmap itself
-* [3D meshes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Function graphs](../../function-graphs/the-function-graph/the-function-graph.md), [MDL graphs](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md), [fonts](../../resources/font-resource/font-resource.md) and [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) files are represented by *generic icons* for each type
+* [3D meshes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Function graphs](../../function-graphs/the-function-graph/the-function-graph.md), [fonts](../../resources/font-resource/font-resource.md) and [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) files are represented by *generic icons* for each type
 
 >[!WARNING]
 >

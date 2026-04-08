@@ -56,7 +56,6 @@ user-guide-description: Substance 3D Designer
       + [Post effects](/help/interface/3d-view/camera/post-effects/post-effects.md)
     + [Material properties](/help/interface/3d-view/material-properties/material-properties.md)
     + Deprecated{#deprecated}
-      + [Iray](/help/interface/3d-view/iray/iray.md)
       + [OpenGL - GLSLFX shaders](/help/interface/3d-view/glslfx-shaders/glslfx-shaders.md)
       + [OpenGL - Switching your shaders to OpenGL Core Profile](/help/interface/3d-view/switching-your-shaders/switching-your-shaders-to-opengl-core-profile.md)
   + [Dependency manager](/help/interface/dependency-manager/dependency-manager.md)
@@ -633,16 +632,6 @@ user-guide-description: Substance 3D Designer
       + Random{#random}
         + [Random](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/function-nodes-random.md)
         + [Hash functions](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
-+ MDL graphs{#mdl-graphs}
-  + [MDL graphs](/help/mdl-graphs/mdl-graphs.md)
-  + [Main MDL graph concepts](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
-  + [Creating an MDL graph](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
-  + [MDL library](/help/mdl-graphs/mdl-library/mdl-library.md)
-  + [Exposing parameters in MDL graphs](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
-  + [Substance graphs and MDL materials](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
-  + [Exporting MDL content](/help/mdl-graphs/exporting-mdl-content/exporting-mdl-content.md)
-  + [Warnings in MDL graphs](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
-  + [MDL learning resources](/help/mdl-graphs/mdl-learning-resources/mdl-learning-resources.md)
 + Working with 3D scenes{#working-with-3d-scenes}
   + [Working with 3D scenes](/help/working-with-3d-scenes/working-with-3d-scenes.md)
   + [Overriding scene materials](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)

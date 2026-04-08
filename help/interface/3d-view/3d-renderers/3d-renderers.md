@@ -208,8 +208,6 @@ Two techniques are available for visualizing height:
 
 This shader is currently a *work in progress* and provides an overview of the materials' characteristics, but should not be used for fine adjustments and some features are still unsupported.
 
-Please switch to the [Iray](../../../interface/3d-view/iray/iray.md) renderer and use the <b>mdl::alg::materials &gt; svbrdf</b> MDL shader for a more accurate visualization.
-
 +++
 
 +++Blinn
@@ -307,17 +305,3 @@ Designer also offers the possibilty to configure your own shaders for the OpenGL
 > This renderer will not receive new features and will be retired in a future version of Designer.
 
 ![OpenGL - Example 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - Example 1"){zoomable="yes"}
-
-## Iray (deprecated)
-
->[!NOTE]
->
-> The Iray renderer is documented in [this dedicated section](../../../interface/3d-view/iray/iray.md).
-
->[!IMPORTANT]
->
-> Deprecated
-> 
-> This renderer will not receive new features and will be retired in a future version of Designer.
-
-![Iray - Example 1](../../../assets/3dRendererIray.jpg "Iray - Example 1"){zoomable="yes"}

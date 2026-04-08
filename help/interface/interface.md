@@ -87,7 +87,7 @@ The main toolbar lets you access extra menu's, like the[ Preferences window](../
 
 ## Graph view
 
-[The Graph view dock](../interface/the-graph-view/the-graph-view.md) is the most important window in Substance 3D Designer. It displays the nodal networks of any kind of graph that is available in Designer ([Substance graphs](../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../function-graphs/function-graphs.md), [MDL graphs](../mdl-graphs/mdl-graphs.md), [FX-Map graphs](../function-graphs/fxmaps/fxmaps.md)) and lets you build and edit them.
+[The Graph view dock](../interface/the-graph-view/the-graph-view.md) is the most important window in Substance 3D Designer. It displays the nodal networks of any kind of graph that is available in Designer ([Substance graphs](../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../function-graphs/function-graphs.md), [FX-Map graphs](../function-graphs/fxmaps/fxmaps.md)) and lets you build and edit them.
 
 ![Graph view](../assets/graph-6.png "Graph view")
 

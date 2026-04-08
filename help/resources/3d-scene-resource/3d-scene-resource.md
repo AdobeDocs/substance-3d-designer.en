@@ -22,7 +22,6 @@ This page describes the **3D scene** resource type in Substance 3D Designer, inc
 
 * [baking mesh maps](../../bakers/bakers.md)
 * preview *textures* from [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) in the [3D View](../../interface/3d-view/3d-view.md)
-* preview *shaders* from [MDL Graphs](../../mdl-graphs/mdl-graphs.md) in the [3D View](../../interface/3d-view/3d-view.md)
 
 The following 3D scene file formats are supported:
 

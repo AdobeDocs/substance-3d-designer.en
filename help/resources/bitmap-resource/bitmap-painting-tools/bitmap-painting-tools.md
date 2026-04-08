@@ -79,7 +79,7 @@ The painting tools can be found in the **Tool selection toolbar**, which is plac
 
 ![](../../../assets/2dview-paintingtools-clone-alignment.png) <b>Enable alignment (Stamp tool option):</b> Lets you define whether the source should *stay in place* when a new stamp begins, or if it should *relocate relatively to the new stamp location*
 
-<b>!&#91;&#93;(../../../assets/2dview-paintingtools-icon-eraser.png) Eraser (E):</b> Replaces the current color of the image with the (0, 0, 0, 0) value at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Make sure the [Transparency display](../../../interface/2d-view/2d-view.md) is enabled to keep track of the impact of this tool on the <b>Alpha</b> channel.
+<b>![](../../../assets/2dview-paintingtools-icon-eraser.png) Eraser (E):</b> Replaces the current color of the image with the (0, 0, 0, 0) value at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Make sure the [Transparency display](../../../interface/2d-view/2d-view.md) is enabled to keep track of the impact of this tool on the <b>Alpha</b> channel.
 
 ## Tool options toolbar
 

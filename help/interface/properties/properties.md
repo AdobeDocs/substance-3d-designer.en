@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Properties
 
-This page presents the <b>Properties </b>panel of Substance 3D Designer, its layout and the different rollouts and categories and parameters you can find within. It is focused on properties for[ Substance graphs](../../compositing-graphs/substance-compositing-graphs.md). [function graphs](../../function-graphs/function-graphs.md), [MDL graphs](../../mdl-graphs/mdl-graphs.md) and [FX-Map graphs](../../function-graphs/fxmaps/fxmaps.md) have simpler layouts.
+This page presents the <b>Properties </b>panel of Substance 3D Designer, its layout and the different rollouts and categories and parameters you can find within. It is focused on properties for[ Substance graphs](../../compositing-graphs/substance-compositing-graphs.md). [function graphs](../../function-graphs/function-graphs.md) and [FX-Map graphs](../../function-graphs/fxmaps/fxmaps.md) have simpler layouts.
 
 <table>
 <tr style="border: 0;">

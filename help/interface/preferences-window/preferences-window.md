@@ -182,12 +182,6 @@ Please refer to the [Projects settings](../../interface/preferences-window/proje
 | --- | --- |
 | <b>Sample count</b>  *Default: 64* | Impacts the size of the 3D View shaders' sample table . A higher value will result in higher image quality at the cost of performance.  **Note:**  The shaders' sample table is also impacted by the system's GPU and OS. |
 
-## Iray
-
-|  |  |
-| --- | --- |
-| <b>Hardware</b>  *Default:  - CPU checked if no compatible GPU  - GPU checked and CPU unchecked otherwise.* | Defines which hardware resources are allocated to [Iray](../../interface/3d-view/iray/iray.md) computations. The list should include the CPU and all compatible NVIDIA GPU(s) detected.  **Note:**  If a compatible NVIDIA GPU is detected, the GPU is checked and the CPU is unchecked by default.  **Tip:** Learn more in the **Hardware acceleration** section of the [Iray](../../interface/3d-view/iray/iray.md) page. |
-
 ## Bakers
 
 |  |  |
@@ -204,7 +198,7 @@ Please refer to the [Projects settings](../../interface/preferences-window/proje
 
 You can assign custom keyboard shortcuts for creating nodes in graphs.
 
-Shortcuts can be assigned for nodes in all graph types: [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../../function-graphs/function-graphs.md),[ FX-Map graphs](../../function-graphs/fxmaps/fxmaps.md) and [MDL graphs](../../mdl-graphs/mdl-graphs.md).
+Shortcuts can be assigned for nodes in all graph types: [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../../function-graphs/function-graphs.md) and [FX-Map graphs](../../function-graphs/fxmaps/fxmaps.md).
 
 Any node can be assigned a shortcut, even custom library nodes. A same shortcut can be assigned in different graph types. No shortcuts are assigned by default, you are free to customize this to your liking.
 

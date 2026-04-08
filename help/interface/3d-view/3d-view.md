@@ -14,9 +14,13 @@ user-guide-title: ""
 
 # 3D view
 
-The 3D View helps you view and understand your materials with custom meshes and rendered PBR materials.
+The 3D View helps you view and understand your materials with custom meshes and rendered PBR materials.<br>Like with all Substance 3D Designer Windows, it works together with other windows through right-click menu options and drag-and-drop operations.
 
-Like with all Substance 3D Designer Windows, it works together with other windows through right-click menu options and drag-and-drop operations. The 3D view also provides two main methods of rendering: fast, realtime OpenGL visualisation, with fluent smooth interaction, [and high-quality raytraced renders with Iray](../../interface/3d-view/iray/iray.md).
+The 3D view also provides two main methods of rendering materials in 3D scenes: 
+* Fast, realtime visualisation with the **Rasterizer** and **OpenGL** renderers
+* High-quality raytraced renders with **GPU Pathtracer** renderer
+
+Learn more here: [3D renderers](3d-renderers/3d-renderers.md)
 
 ## Viewport interactions
 
@@ -24,7 +28,7 @@ The section below explains you how to do common actions in short, along with an 
 
 ![Viewport navigation](../../assets/3d-navigate.gif "Viewport navigation")
 
-### navigation
+### Navigation
 
 The 3D View camera and environment may be manipulated in three ways:
 
@@ -78,9 +82,9 @@ You can interact with meshes directly in the viewport:
 
 >[!NOTE]
 >
-> These actions are not available for the deprecated [OpenGL](../../interface/3d-view/3d-renderers/3d-renderers.md) and [Iray](../../interface/3d-view/3d-renderers/3d-renderers.md) renderers.
+> These actions are not available for the deprecated [OpenGL](../../interface/3d-view/3d-renderers/3d-renderers.md) renderer.
 
-### CHANGING THE environment LIGHTING
+### Changing the environment lighting (IBL)
 
 Designer works with image-based lighting (IBL) by default. A high-dynamic range bitmap is used to render environment lighting.
 
@@ -167,7 +171,6 @@ Shaders can be reset using the 'Reset material' or 'Reset to scene state' action
 > 
 > * <b>Rasterizer/GPU Pathtracer:</b> Located in the renderer settings (Renderer &gt; Edit settings), impacts the *entire scene*.
 > * <b>OpenGL:</b> Located in the material properties, impacts the material.
-> * <b>Iray:</b> Located in the mesh properties (Select a mesh element in the [Scene browser](../../interface/3d-view/scene-browser/scene-browser.md)), impacts the mesh.
 
 ![Exporting the scene](../../assets/3d-view-export-scene.gif "Exporting the scene")
 
@@ -280,7 +283,7 @@ If the scene is *not restored correctly* from the file, it is recommended to man
 +++
 
 +++Materials
-The <b>Materials</b> menu changes based on the 3D mesh loaded and the renderer used. [For Iray rendering, see the Iray page.](../../interface/3d-view/iray/iray.md)
+The <b>Materials</b> menu changes based on the 3D mesh loaded and the renderer used.
 
 The 'Materials' menu features a list of all materials assigned to a mesh in the scene. Each material listed in the 'Materials' menu has a submenu of material actions:
 
@@ -290,7 +293,7 @@ The 'Materials' menu features a list of all materials assigned to a mesh in the 
 
 <b>Load Definition...: </b>(OpenGL renderer only) Lets you load your own custom [GLSLFX shader.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) The shader is added into the list above.
 
-<b>Reset common parameters:</b> Resets all parameters that are common across shaders. For instance, when switching between the OpenGL and Iray renderers, several parameter values in the [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) are carried across.
+<b>Reset common parameters:</b> Resets all parameters that are common across shaders. For instance, when switching between the Rasterizer/GPU Pathtracer and OpenGL renderers, several parameter values in the [Adobe Standard Material](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material) are carried across.
 
 <b>Rename:</b> Change the label for this material.
 
@@ -470,21 +473,21 @@ Click the ![](../../assets/3d-view-show-environment.jpg) <b>Show environment</b>
 
 Similarly, click the ![](../../assets/3d-view-display-settings.jpg) <b>Display options</b> button to display button toggles equivalents for the settings found in the <b>Display</b> menu.
 
-<b>!&#91;&#93;(../../assets/3d-view-display-axis.jpg) Axis:</b> Toggles display of the 3D axis in the viewport.
+<b>![](../../assets/3d-view-display-axis.jpg) Axis:</b> Toggles display of the 3D axis in the viewport.
 
-<b>!&#91;&#93;(../../assets/3d-view-display-grid.jpg) Grid:</b> Toggles the display of the world grid.
+<b>![](../../assets/3d-view-display-grid.jpg) Grid:</b> Toggles the display of the world grid.
 
-<b>!&#91;&#93;(../../assets/3d-view-display-scene-stats.jpg) Scene stats:</b> Toggles display of scene statistics, such as polycount, materials count, static meshes count, etc.
+<b>![](../../assets/3d-view-display-scene-stats.jpg) Scene stats:</b> Toggles display of scene statistics, such as polycount, materials count, static meshes count, etc.
 
 OpenGL renderer only
 
-<b>!&#91;&#93;(../../assets/3d-view-display-backface-culling.jpg) Backface culling:</b> Disabling this option lets you see a mesh face from *both sides*. The option works in combination with Wireframe.
+<b>![](../../assets/3d-view-display-backface-culling.jpg) Backface culling:</b> Disabling this option lets you see a mesh face from *both sides*. The option works in combination with Wireframe.
 
 ![](../../assets/3d-view-display-bounding-box.jpg)<b> Bounding Box: </b>Toggles display of the mesh' bounding box.
 
-<b>!&#91;&#93;(../../assets/3d-view-display-vertex-tangent-space.jpg) Vertex tangent space: </b>Displays the tangent, binormal and normal vectors for all vertices as colored gizmos.
+<b>![](../../assets/3d-view-display-vertex-tangent-space.jpg) Vertex tangent space: </b>Displays the tangent, binormal and normal vectors for all vertices as colored gizmos.
 
-<b>!&#91;&#93;(../../assets/3d-view-display-wireframe.jpg) Wireframe:</b> Toggles display of the mesh as a wireframe.
+<b>![](../../assets/3d-view-display-wireframe.jpg) Wireframe:</b> Toggles display of the mesh as a wireframe.
 
 ## Display toolbar
 

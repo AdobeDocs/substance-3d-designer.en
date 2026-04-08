@@ -51,11 +51,11 @@ Filters are simple boolean (True/False) search parameters that will result in a 
 
 Categories (i.e. Folders) and Filters are created and edited using the following buttons:
 
-<b>!&#91;&#93;(../../../assets/library-icon-new-folder.png) Add Folder:</b> Creates an expandable folder in the Library view. You *cannot* create subfolders.
+<b>![](../../../assets/library-icon-new-folder.png) Add Folder:</b> Creates an expandable folder in the Library view. You *cannot* create subfolders.
 
-<b>!&#91;&#93;(../../../assets/library-icon-new-filter.png) Add Filter:</b> Adds a new Filter inside the selected folder. You *cannot* add filters to the existing default folders.
+<b>![](../../../assets/library-icon-new-filter.png) Add Filter:</b> Adds a new Filter inside the selected folder. You *cannot* add filters to the existing default folders.
 
-<b>!&#91;&#93;(../../../assets/library-icon-edit.png) Edit Item:</b> Edits the currently selected Folder or Filter. You *cannot* edit any of the properties of the default Folders and Filters.
+<b>![](../../../assets/library-icon-edit.png) Edit Item:</b> Edits the currently selected Folder or Filter. You *cannot* edit any of the properties of the default Folders and Filters.
 
 To *remove* a Folder or Filter, *right-click* on it and select the <b>Remove</b> option from the contextual menu.
 
