@@ -37,13 +37,6 @@ See also [Shape splatter v2 mapper color](../shape-splatter-v2-mapper-color/shap
 >
 > The [Grid atlas grayscale](../grid_atlas_grayscale/grid_atlas_grayscale.md) nodes let you pack images into an atlas of custom size, up to 16 patterns in 4*4 cells.
 
-
-### [Inputs](#inputs)
-
-### [Outputs](#outputs)
-
-### [Parameters](#parameters)
-
 <a name="inputs"></a>
 ## Inputs
 

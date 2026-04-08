@@ -24,10 +24,6 @@ Makes an SDF shape hollow, with adjustable thickness for its resulting envelope.
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 ## Inputs
 

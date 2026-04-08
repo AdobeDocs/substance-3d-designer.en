@@ -24,10 +24,6 @@ Flips and duplicates an SDF shape across a mirror plane, then returns the union 
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 ## Inputs
 

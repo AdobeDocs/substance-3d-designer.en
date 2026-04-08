@@ -24,10 +24,6 @@ Returns the linear interpolation between a base SDF shape and a target SDF shape
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 ## Inputs
 

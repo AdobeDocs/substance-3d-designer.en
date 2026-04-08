@@ -24,10 +24,6 @@ Returns the added volumes of two SDF shapes, with an additional volume of adjust
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 ## Inputs
 

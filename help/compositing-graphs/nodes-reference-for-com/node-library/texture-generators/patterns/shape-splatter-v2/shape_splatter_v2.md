@@ -35,13 +35,6 @@ Scatters shapes on a background height surface with advanced capabilities for sc
 >
 > The [Grid atlas color](../grid_atlas_color/grid_atlas_color.md) nodes let you pack images into an atlas of custom size, up to 16 patterns in 4*4 cells.
 
-
-### [Inputs](#inputs)
-
-### [Outputs](#outputs)
-
-### [Parameters](#parameters)
-
 <a name="inputs"></a>
 ## Inputs
 

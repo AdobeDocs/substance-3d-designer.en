@@ -24,13 +24,6 @@ Computes a 3D render for a specified SDF or intersection scene defined by a func
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-### [Outputs](#outputs)
-
-### [Parameters](#parameters)
-
 <a name="inputs"></a>
 ## Inputs
 

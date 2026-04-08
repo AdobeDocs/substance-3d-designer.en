@@ -24,10 +24,6 @@ Returns the surface of the portion of a base SDF shape that is intersected by an
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 ## Inputs
 

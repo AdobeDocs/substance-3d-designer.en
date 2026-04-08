@@ -24,10 +24,6 @@ Mirrors and duplicates an SDF shape any number of times at a regular spacing in 
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 ## Inputs
 

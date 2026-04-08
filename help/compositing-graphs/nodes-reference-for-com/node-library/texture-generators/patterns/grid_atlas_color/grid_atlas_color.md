@@ -26,13 +26,6 @@ See also [Grid atlas grayscale](../grid_atlas_grayscale/grid_atlas_grayscale.md)
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-### [Outputs](#outputs)
-
-### [Parameters](#parameters)
-
 <a name="inputs"></a>
 ## Inputs
 

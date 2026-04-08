@@ -24,10 +24,6 @@ Returns the added volumes of two SDF shapes, with adjustable smoothing of the ed
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 ## Inputs
 

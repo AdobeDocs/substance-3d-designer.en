@@ -24,10 +24,6 @@ Subtracts the volume of the SDF 1 shape from the SDF 2 shape, with adjustable sm
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 ## Inputs
 

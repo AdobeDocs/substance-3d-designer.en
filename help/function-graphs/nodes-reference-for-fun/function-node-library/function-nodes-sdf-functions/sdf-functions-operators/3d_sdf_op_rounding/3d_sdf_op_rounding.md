@@ -24,10 +24,6 @@ Expands an SDF shape, inflating it and smoothing its hard edges.
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 ## Inputs
 

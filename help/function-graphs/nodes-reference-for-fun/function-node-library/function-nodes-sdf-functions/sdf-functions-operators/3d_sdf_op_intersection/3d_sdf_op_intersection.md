@@ -24,10 +24,6 @@ Returns the volume common to two SDF shapes, effectively the volume created wher
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 ## Inputs
 

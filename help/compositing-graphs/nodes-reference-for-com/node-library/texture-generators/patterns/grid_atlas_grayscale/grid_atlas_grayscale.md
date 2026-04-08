@@ -26,13 +26,6 @@ See also [Grid atlas color](../grid_atlas_color/grid_atlas_color.md).
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-### [Outputs](#outputs)
-
-### [Parameters](#parameters)
-
 <a name="inputs"></a>
 ## Inputs
 
