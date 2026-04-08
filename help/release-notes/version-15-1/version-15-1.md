@@ -14,20 +14,9 @@ user-guide-title: ""
 
 # Version 15.1
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Version 15.1
-
-</td>
-<td style="border: 0;" valign="top">
+Substance Designer 15.1 brings a completely revamped graph creation window with direct sample access, improved noise nodes for greater creative possibilities, organized categories in the node menu, and much more.
 
 *Release date: December 11th, 2025*
-
-</td>
-</tr>
-</table>
 
 ![Banner Designer 15.1](../../assets/bannerweb.png)
 
@@ -123,26 +112,15 @@ Play with the image below to see the difference before and after the default out
   </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
 ## 'Is defined' node
 
 When working with function graphs, you may need to determine whether a [variable](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) exists within the graph.
 
-For instance, detecting the absence of a variable enables you to provide a fallback value, ensuring the function behaves as expected without requiring every input to be explicitly set. That’s why we added the ['Is defined' node](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md).
+For instance, detecting the absence of a variable enables you to provide a fallback value, ensuring the function behaves as expected without requiring every input to be explicitly set. That's why we added the ['Is defined' node](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md).
 
 [Learn more](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-</td>
-<td style="border: 0;" valign="top">
-
 ![Is defined node](../../assets/isdefined.png){zoomable="yes"}
-
-</td>
-</tr>
-</table>
 
 ## Release notes
 
