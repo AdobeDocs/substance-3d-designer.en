@@ -14,11 +14,14 @@ user-guide-title: ""
 
 # Nodes reference for function graphs
 
-Lists all basic Function nodes used in function graphs.
+Lists all nodes in Designer's library for Substance function graphs.
 
-## In This Section:
+## In this section
 
-* [Function Nodes Overview](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
+* [Function nodes overview](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
+
+### Atomic nodes
+
 * [Constant nodes](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)
 * [Vector and Swizzle nodes](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)
 * [Get nodes](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
@@ -29,3 +32,17 @@ Lists all basic Function nodes used in function graphs.
 * [Comparison nodes](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md)
 * [Function nodes](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/function-nodes/function-nodes.md)
 * [Control nodes](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/control-nodes/control-nodes.md)
+
+### Instance nodes
+
+* [SDF functions](function-node-library/function-node-library.md#sdf-functions)
+* Comparison
+* Conversion
+* Constant
+* Parity
+* Maths
+* [Color](function-node-library/function-node-library.md#color)
+* Transformation
+* [Random](function-node-library/function-node-library.md#random)
+* Easings
+* Various

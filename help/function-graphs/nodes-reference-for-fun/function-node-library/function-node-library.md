@@ -18,11 +18,121 @@ In addition to [atomic nodes](../../../function-graphs/nodes-reference-for-fun/a
 
 These tools are arranged into several categories:
 
+<a name"sdf-functions"></a>
+### SDF functions
+
+These nodes let you author SDF functions which can be used to generate 3D shapes in the [Shape splatter v2](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape_splatter_v2.md) and [3d viewer](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.md) nodes, using their dedicated **SDF function** parameters.. 
+
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Comparison
+#### Primitives
+
+[Capped cone](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_capped_cone/3d_sdf_capped_cone.md)
+
+[Capped cone (2 points)](././function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_capped_cone_2_points/3d_sdf_capped_cone_2_points.md)
+
+[Capped torus](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_capped_torus/3d_sdf_capped_torus.md)
+
+[Capsule](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_capsule/3d_sdf_capsule.md)
+
+[Cone](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_cone/3d_sdf_cone.md)
+
+[Cube](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_cube/3d_sdf_cube.md)
+
+[Cylinder](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_cylinder/3d_sdf_cylinder.md)
+
+[Cylinder (2 points)](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_cylinder_2_points/3d_sdf_cylinder_2_points.md)
+
+[Ellipsoid](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_ellipsoid/3d_sdf_ellipsoid.md)
+
+[Elongated cylinder](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_elongated_cylinder/3d_sdf_elongated_cylinder.md)
+
+[Ground plane](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_ground_plane/3d_sdf_ground_plane.md)
+
+[Helix](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_helix/3d_sdf_helix.md)
+
+[Hexagonal prism](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_hexagonal_prism/3d_sdf_hexagonal_prism.md)
+
+[Infinite plane](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_infinite_plane/3d_sdf_infinite_plane.md)
+
+[Plane](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_plane/3d_sdf_plane.md)
+
+[Pyramid](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_pyramid/3d_sdf_pyramid.md)
+
+[Pyramid square](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_pyramid_square/3d_sdf_pyramid_square.md)
+
+[Rock](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_rock/3d_sdf_rock.md)
+
+[Sphere](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_sphere/3d_sdf_sphere.md)
+
+[Torus](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_torus/3d_sdf_torus.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+#### Operators
+
+[Intersection](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_intersection/3d_sdf_op_intersection.md)
+
+[Intersection smooth](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_intersection_smooth/3d_sdf_op_intersection_smooth.md)
+
+[Intersection surface](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_intersection_surface/3d_sdf_op_intersection_surface.md)
+
+[Morph](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_morph/3d_sdf_op_morph.md)
+
+[Repeat mirror](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_repeat_mirror/3d_sdf_op_repeat_mirror.md)
+
+[Rounding](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_rounding/3d_sdf_op_rounding.md)
+
+[Shell](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_shell/3d_sdf_op_shell.md)
+
+[Subtraction](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_subtraction/3d_sdf_op_subtraction.md)
+
+[Subtraction smooth](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_subtraction_smooth/3d_sdf_op_subtraction_smooth.md)
+
+[Symmetry](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_symmetry/3d_sdf_op_symmetry.md)
+
+[Union](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_union/3d_sdf_op_union.md)
+
+[Union chamfer](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_union_chamfer/3d_sdf_op_union_chamfer.md)
+
+[Union smooth](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_union_smooth/3d_sdf_op_union_smooth.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+#### Transforms
+
+[Bend](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_bend/3d_sdf_transform_bend.md)
+
+[Elongate](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_elongate/3d_sdf_transform_elongate.md)
+
+[Flip](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_flip/3d_sdf_transform_flip.md)
+
+[Offset](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_offset/3d_sdf_transform_offset.md)
+
+[Offset P](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_offset_p/3d_sdf_transform_offset_p.md)
+
+[Rotate](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_rotate/3d_sdf_transform_rotate.md)
+
+[Rotate P](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_rotate_p/3d_sdf_transform_rotate_p.md)
+
+[Scale](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_scale/3d_sdf_transform_scale.md)
+
+[Twist](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_twist/3d_sdf_transform_twist.md)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+<a name"comparison"></a>
+### Comparison
 
 Equality boolean
 
@@ -43,6 +153,7 @@ Not equal float4
 </td>
 <td style="border: 0;" valign="top">
 
+<a name"conversion"></a>
 ### Conversion
 
 &#91;-1, 1&#93; to &#91;0, 1&#93;
@@ -72,12 +183,14 @@ Turns to degrees
 </td>
 <td style="border: 0;" valign="top">
 
+<a name"constant"></a>
 ### Constant
 
 2 Pi
 
 Pi
 
+<a name"parity"></a>
 ### Parity
 
 Even count
@@ -90,6 +203,7 @@ Parity test
 </tr>
 </table>
 
+<a name"maths"></a>
 ### Maths
 
 <table>
@@ -172,6 +286,7 @@ Truncate float
 </tr>
 </table>
 
+<a name"color"></a>
 ### Color
 
 <table>
@@ -260,6 +375,7 @@ Hejl tonemapper
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
+<a name"transformation"></a>
 ### Transformation
 
 Cartesian to polar
@@ -285,6 +401,7 @@ Tile matrix
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
+<a name"random"></a>
 ### Random
 
 <table>
@@ -336,6 +453,7 @@ Random uniform float4 &#91;a, b&#91;
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
+<a name"easings"></a>
 ### Easings
 
 Ease in circ
@@ -383,6 +501,7 @@ Ease out sine
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
+<a name"various"></a>
 ### Various
 
 <table>
