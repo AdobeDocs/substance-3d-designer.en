@@ -1,246 +1,189 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: ""
 breadcrumb-title: ""
-description: Review release notes for Substance 3D Designer version 15.1 to learn about new features, improvements, and bug fixes.
+description: Review release notes for Substance 3D Designer version 16.0 to learn about new features, improvements, and bug fixes.
 helpx_creative_field: ""
-helpx_description: Designer > Release Notes > Version 15.1
+helpx_description: Designer > Release Notes > Version 16.0
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Version 15.1
+title: Version 16.0
 user-guide-description: ""
 user-guide-title: ""
 ---
 
-# Version 15.1
+# Version 16.0
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Version 15.1
+## Version 16.0
 
 </td>
 <td style="border: 0;" valign="top">
 
-*Release date: December 11th, 2025*
+*Release date: April ##th, 2026*
 
 </td>
 </tr>
 </table>
 
-![Banner Designer 15.1](../../assets/bannerweb.png)
+![Banner Designer 16-0](./version-16-0-banner.jpg)
 
-## Improve graph creation
+## Shape splatter v2 nodes
 
-In this release, the [graph creation window](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) has been <b>comprehensively redesigned</b> to enhance the initial user experience in Substance 3D Designer. The primary goal of this update is to streamline the template selection process, allowing users to efficiently identify the most suitable template for their requirements.
+### New ways of scattering shapes
 
-Thumbnails offer instant <b>visual references</b> for the intended material types, while detailed tooltips supply all pertinent information. For improved organization, templates are now classified into specific <b>categories</b> such as materials, filters, and scan processing.
+The new Shape splatter v2 nodes unlock complex scattering behaviors that have been challenging until now, with **more shape distribution methods** (Poisson disc, uniform) that are *collisionless* by default, and control over the *clean gathering* of shapes in specific areas with a **density map**.
+Advanced users can set up *custom distributions* defined by a function graph.
 
-Although the main interface has been upgraded, users continue to have access to previous views, including list, packages, and directories options.
+[Examples: Poisson, uniform, density map]
 
-[Learn more](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
+### 3D shapes
 
-![redesigner new graph window](../../assets/newgraph.png){zoomable="yes"}
+Scattered shapes are now **3D objects** that can be moved, rotated and scaled on all XYZ axes.
 
-## Embedded samples
+Use **simple primitives** such a cubes, spheres and cylinders, or **complex custom shapes** formed by *extruding a height map* or authoring *3D SDF shapes*. (More on that below)
 
-With the launch of our redesigned graph creation window, we've added a variety of [<b>sample materials</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) directly inside the software. This enhancement is in response to your request for better access to learning resources.
+This unlocks scatterings that are more dynamic, more varied and more believable across the board. And it is now possible to repurpose 3D shapes for variations by flipping them. (We see you, environment artists!)
 
-![New graph creation window for samples](../../assets/GraphSample.png){zoomable="yes"}
+[Examples: Primitives, extrude height map, 3D SDF]
 
-To meet this need we have included material samples such as fabrics (including leather and satin), wood, metal, plastic, ceramic and more. These examples are intended to help you start your projects with ease and get acquainted with the main family nodes available in Substance 3D Designer
+### Companion nodes
 
-Each graph is <b>annotated</b>, carefully organized, and contains a minimal number of nodes to make it as easy to understand as possible.
+Similarly to the Shape splatter v1 family of nodes, Shape splatter v2 comes with its own cohort of companion nodes.
 
-You can access the samples in the 'Material samples' category when creating a new Substance graph, or directly from the Home screen using the convenient 'Go to samples' button.
+**Shape splatter v2 mapper** nodes enable projection of textures on the scattered 3D shapes, with support for *triplanar projection* and *material IDs* for mapping multiple textures. Results can be adjusted globally or per shape for texture offsets and color variations.
+Again, advanced users can set up *custom texture mappings* defined by a function graph.
 
-Alongside these foundational materials, we've also provided <b>advanced samples</b> to demonstrate how to use <b>FX-map and Pixel processor</b> features more effectively.
+**Shape splatter v2 to mask** creates masks for specific selection of shapes and/or material IDs, enabling more granular use of shapes downstream in the graph.
 
-[Learn more](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
+[Examples: Mapper standard, mapper triplanar, to mask]
 
-![wood sample in substance designer](../../assets/samplegraph.png){zoomable="yes"}
+### Grid atlas
 
-## New noises
+Custom patterns can be provided separately to the Shape splatter v2 node, or packed into a grid atlas for leaner and more efficient workflows. Packing patterns is simplified thanks to the new Grid atlas nodes.
 
-Noises play a crucial role in the majority of graphs, which is why we have focused on several key enhancements in this release to improve their functionality and usability.
+[Examples: Grid atlas, grid atlas interop with Shape splatter v2 nodes]
 
-With this update, we have introduced <b>better support for non-tiling scenarios</b>, ensuring that noise patterns behave as expected without mandatory tiling. Previously, noise nodes were either forced to tile or produced incorrect results when tiling was disabled.
+---
 
-Most noises now include <b>new parameters</b>, providing users with greater creative control. These additional options empower graph authors to fine-tune the appearance and behavior of noise within their workflows.
+The new Shape Splatter nodes overcome the limitations of the previous version with uncapped scaling and randomizing options, as well as expanded pattern ingestion through atlas input.
 
-Finally, bitdepth is <b>no longer hard-locked to 16-bits</b>. You can now override the bitdepth setting on individual node instances, allowing you to achieve higher detail and dynamic range when needed, or optimize your graphs for performance.
+Beyond that it introduces a new way to scatter shapes, with more distribution options, a density multiplier to drive the concentration of patterns as well as the possibility to rotate them in 3D. 
 
-See the full list of updated noises in the [release notes](#release-notes) below.
+In combination with the SDF nodes, this toolset gives you more creative freedom and advanced scattering capabilities.
 
-Examples:   [Cells 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)   [Clouds 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [  Directional scratches](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [  Moisture noise 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+## 3D SDF nodes (signed distance field)
 
-![directionnal disorder noise](../../assets/directionaldisorder.gif){zoomable="yes"}
+Designer 16.0 adds a powerful method of generating 3D shapes in a function graph using a vast catalogue of nodes for authoring SDF functions.
 
-## Hierarchy in node menu
+Signed distance fields are representations of space as a distance to surfaces defined mathematically. They can be used to define shapes of increasing complexity as these surfaces are transformed and combined using various operators.
 
-To address the challenge of locating specific nodes within the extensive library, we have introduced categories in the Node menu.
+### Authoring 3D SDF functions
 
-The vast number of available nodes can make it difficult to quickly find the desired one. To streamline this process, a new [<b>Group</b> attribute](../../compositing-graphs/graph-parameters/graph-parameters.md) has been implemented at the graph level. When this attribute is defined, it is used to organize and sort the search results.
+SDF functions involve a new family of nodes which come in 3 categories:
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+* Primitives are the basic building blocks, they generate simple adjustable shapes with a few controls that let you tailor them as needed.
+* Operators combine or replicate shapes in straightforward or complex ways depending on the node: from simple boolean operators to morphs, shell and symmetries, they dramatically expand the possibilities of what kind of 3D shape can be achieved
+* Transforms let you adjust the shapes' position, rotation and size as you might expect and beyond with bending, twisting and elongation.
 
-![node search with category 1](../../assets/search1-2.png){zoomable="yes"}
+[Examples: SDF primitives, operators, transforms]
 
-</td>
-<td style="border: 0;" valign="top">
+Lightweight nodes with clear and readable icons make building 3D SDF functions easier than you might think, especially with this next addition to the toolset...
 
-![node search with category 2](../../assets/search2.png){zoomable="yes"}
+### 3D viewer node
 
-</td>
-</tr>
-</table>
+As you author 3D SDF functions, you will need to visualize the resulting shapes in 3D space. The 3D viewer node renders 3D SDF or intersection functions as a 3D scene with adjustable camera controls, custom environment light and support for rendering basic materials. (Color, roughness and metalness)
 
-## Default output
+The node also includes features for checking the generated shapes in detail and debugging issues: separate rendering passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid and rotation arcs)
 
-When a node has multiple [outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), it is not possible to display all of them simultaneously in the 2D view or as the node thumbnail. The prevailing guideline in such scenarios is to utilize the first connected pin, or, if none are connected, the first output by default.
+[Examples: Adjustable camera, AOVs, helpers + isolines]
 
-However, this approach may not always yield optimal results. For instance, in some Spline nodes the first connected pin often represents spline coordinates data, which is not suitable for previewing purposes.
+## OpenPBR support
 
-To address this, a default output attribute has been introduced. This feature allows the graph author to <b>specify which output should be displayed by default</b>, thereby enhancing the intuitiveness of node usage and facilitating a clearer understanding of the authored graph.
+The OpenPBR material model is now supported throughout the application, with dedicated shaders in both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
-Play with the image below to see the difference before and after the default output definition.
+Get started with this widely adopted industry standard with new graph templates, or go through the built-in material samples now based on OpenPBR.
 
-[Learn more](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
+[Examples: OpenPBR template, OpenPBR material sample]
 
-<table>
-  <tr>
-    <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
-      <br><i>Before</i>
-    </td>
-    <td>
-      <img src="../../assets/defaultouput1.png" alt="With the default output, thumbnails are always relevant.">
-      <br><i>After</i>
-    </td>
-  </tr>
-</table>
+The OpenPBR shader is now the default for the 3D View and natively supports graphs from previous versions by matching legacy PBR usages to OpenPBR's.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+OpenPBR shaders support more effects than the existing shaders, such as thin film and thin wall. All effects are available in rasterization (Rasterizer, OpenGL), including refraction at long last!
 
-## 'Is defined' node
+[Examples: OpenPBR shader in each renderer]
 
-When working with function graphs, you may need to determine whether a [variable](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) exists within the graph.
+It is also easier to keep workflows involving specific shaders in sync, with a new <code>Material model</code> attribute for Substance graphs that ensures that graphs viewed in the 3D View use the appropriate shader for the graph's material model.
 
-For instance, detecting the absence of a variable enables you to provide a fallback value, ensuring the function behaves as expected without requiring every input to be explicitly set. That’s why we added the ['Is defined' node](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md).
+**Note:** The attribute is also included in published SBSAR files to integrate in your material workflow.
 
-[Learn more](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
+## Displacement controls in the 3D View
 
-</td>
-<td style="border: 0;" valign="top">
+It is now faster and easier to adjust displacement and tessellation in the 3D View, with direct access in a new Displacement pop-up available in the 3D View toolbar.
 
-![Is defined node](../../assets/isdefined.png){zoomable="yes"}
+Adjust the height scale, height level and tessellation values without repeated back and forth in material properties and renderer settings.
 
-</td>
-</tr>
-</table>
+These controls are available for both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
+
+[Examples: Displacement pop-up in each renderer]
+
+In the scene includes multiple materials, select the object of the scene that you want to adjust beforehand by holding Shift and clicking it (Rasterizer and GPU Pathtracer only) or select it in the Scene browser.
+
+Please note that tessellation is per object in Rasterizer and GPU Pathtracer, and per material in OpenGL.
+
+**Tip:** Tooltips are available for each parameter to better understand their effect.
+
+## Other changes
+
+### Constant value nodes
+
+For easier access to constant values in Substance graphs, nodes have been added for generating a simple value of each type.
+
+[Example: Constant value nodes]
+
+### MDL graphs and Iray end-of-life
+
+As you have been notified in the 15.1 release, the MDL graph feature set and the Iray renderer are now removed from Designer.
+
+Our in-house GPU Pathtracer is the renderer of choice for high-quality photorealistic rendering in Designer.
+
+Designer is moving away from MDL in favor of MaterialX as its shading language of choice for interchangeable, widely-supported material definitions.
+
+MaterialX has rapidly gained traction in the computer graphics industries, and can be carried by USD files for full scene portability across DCCs and renderers.
+
+**Note:** The documentation for MDL graphs and the Iray renderer is available through their dedicated end-of-life page.
+
+### VFX platform upgrades & macOS minimal version
+
+The following libraries have been upgraded to meet the latest VFX platform standard:
+
+* C++ 20
+* Python 3.13
+* Qt 6.8
+* Boost 1.88
+* OpenColorIO 2.5
+* OpenSubDiv 3.7
+* OpenEXR 3.4
+* oneTBB 2022
+
+The requirement for the minimal supported version of macOS has been updated to macOS 14 Sonoma.
 
 ## Release notes
 
-### 15.1.0
+### 16.0.0
 
-*(Released December 11th, 2025)*
+*(Released April ##th, 2026)*
 
 ### Added
 
-* &#91;NewGraph&#93; Rework of the new graph window
-* &#91;NewGraph&#93; Add materials samples and advanced samples
-* &#91;NewGraph&#93; Add a new attribute for graph for the template data (category and sub-title)
-* &#91;NewGraph&#93; Remove Output format option
-* &#91;Content&#93; Add hash functions
-* &#91;Content&#93; Add tonemappers to functions.sbs
-* &#91;Content&#93; Anisotropic noise v2: add default output format, add disorder
-* &#91;Content&#93; Apply sentence case to node and parameters labels
-* &#91;Content&#93; BnW spots 1 v2: add default output format, no tiling support
-* &#91;Content&#93; BnW spots 2 v2: add default output format, no tiling support
-* &#91;Content&#93; BnW spots 3 v2: add default output format, no tiling support
-* &#91;Content&#93; Cells 1,2,3,4 v2: add default output format, no tiling support, disorder options
-* &#91;Content&#93; Clouds 1 v2: add default output format, no tiling support
-* &#91;Content&#93; Clouds 2 v2: add default output format, no tiling support
-* &#91;Content&#93; Clouds 3 v2: add default output format, no tiling support
-* &#91;Content&#93; Color to mask v2
-* &#91;Content&#93; Directional noise 1 v2: add default output format, no tiling support
-* &#91;Content&#93; Directional noise 2 v2: add default output format, no tiling support
-* &#91;Content&#93; Directional noise 3 v2: add default output format, no tiling support
-* &#91;Content&#93; Directional noise 4 v2: add default output format, no tiling support
-* &#91;Content&#93; Directional scratches v2: add default output format, no tiling support
-* &#91;Content&#93; Dirt 1 v2: add default output format, no tiling support
-* &#91;Content&#93; Dirt 2 v2: add default output format, no tiling support
-* &#91;Content&#93; Dirt 3 v2: add default output format, no tiling support
-* &#91;Content&#93; Dirt 4 v2: add default output format, no tiling support
-* &#91;Content&#93; Dirt 5 v2: add default output format, no tiling support
-* &#91;Content&#93; Dirt gradient v2: add default output format, new disorder options
-* &#91;Content&#93; Fractal Sum Base v2: add default output format, disorder, no tiling support
-* &#91;Content&#93; Fractal sum 1,2,3,4 v2: add default output format
-* &#91;Content&#93; Gaussian noise v2: add default output format, no tiling support
-* &#91;Content&#93; Gaussian spots 1&amp;2 v2: add default output format, no tiling support
-* &#91;Content&#93; Messy fibers 1,2,3  v2: add default output format, no tiling support, disorder options
-* &#91;Content&#93; Moisture noise v2: add default output format, no tiling support
-* &#91;Content&#93; New 'Moisture noise 2' node
-* &#91;Content&#93; Noises: update to add default outputformat
-* &#91;Content&#93; Perlin noise v2: add default output format, no tiling support
-* &#91;Content&#93; Shape mapper: add filtering mode
-* &#91;Content&#93; UV mapper: add filtering mode
-* &#91;Content&#93; Waveform 1 v2: use default output format + new options
-* &#91;Content&#93; White noise v2: use default output format, add distribution options
-* &#91;Bakers&#93; Display the UVs from the selected mesh only
-* &#91;Bakers&#93; Add an option to select the method of matching geometry by name
-* &#91;Bakers&#93; Select the closest Baker when a baker is deleted
-* &#91;Bakers&#93; UDIM: define a list of UV tiles to bakes
-* &#91;Bakers&#93; Update bake sdk to 3.15.4
-* &#91;3D View/SceneBrowser&#93; Avoid selecting a UsdPrimitive when doing a right click on it
-* &#91;ColorManagement&#93; Support ACES 2.0
-* &#91;Compositing Graph&#93; Allow to set an output node as the "Default output"
-* &#91;Cooker&#93; Remove warning on unconnected inputs of function instances¬†
-* &#91;Functions&#93; Add isDefined operator
-* &#91;Graph&#93; Group the items per 'group' attribute in the node menu
-* &#91;Graph&#93; Improve thumbnail rendering
+* &#91;Category&#93; Item
 
 ### Fixes
 
-* &#91;3D View&#93; L16 Grayscale texture is displayed with a red tint when plugged to the environment or the baseColor
-* &#91;3D View&#93; Changing the material binding of a scene with no material creates a new "default" material
-* &#91;3D View&#93; Computed normals are not correct for specific OBJ meshes
-* &#91;3D View&#93; Custom environment from SBSSCN is not visible on load in Pathtracer
-* &#91;3D View&#93; Errors in the Console when rotating a disabled environment
-* &#91;3D View&#93; Specular level is not applied correctly
-* &#91;3D View&#93; Specular edge color doesn't work when using Eclair rasterizer
-* &#91;3D View&#93; User added material is not applied on default scenes
-* &#91;3D View&#93;&#91;Bakers&#93; Material color is too dark once overridden or when using a "Color" baker
-* &#91;3D View&#93;&#91;Bakers&#93; No material color from FBX file
-* &#91;Bakers&#93; Material colors in FBX files are not correctly detected
-* &#91;Bakers&#93; 'recompute\_tangents' option is always 'false' in JSON preset exports
-* &#91;Bakers&#93; CLI: Crash when running the same baker consecutively through JSON file
-* &#91;Bakers&#93; Updating the 'color-generator' parameter does not work for 'Grayscale'
-* &#91;Content&#93; Mask to paths: Failure in non-square ratios
-* &#91;Content&#93; PBR Render/Icon renderer: Incorrect specular lobe function
-* &#91;Content&#93; Paths to spline: Set the 'Output size' to 'Relative to parent' by default'
-* &#91;Content&#93; Point list: Points are not in the correct order when data texture is non-square
-* &#91;Content&#93; Spline mapper: 1px line glitch in random cases
-* &#91;Content&#93; Spline mapper: stretched UVs in some cases when thickness is 0
-* &#91;Graph&#93; Crash when deleting the output of a function subgraph
-* &#91;Graph&#93; Input node color type can be changed in read-only packages
-* &#91;Graph&#93; Primary input can be changed in read-only packages
-* &#91;Properties&#93; The color of the color preview widget does not match the sRGB button state
-* &#91;Scene&#93; Cannot load an OBJ file larger than 2 GB
-* &#91;UI&#93; The Console and Dependency manager docking states are not restored after restart
+* &#91;Category&#93; Item
 
 ### KNOWN ISSUES
 
-* &#91;Bakers&#93; Crashes during baking with some specific NVIDIA drivers
-* &#91;3D View&#93; OpenGL: some imported scenes may not be rendered
-* &#91;3D View&#93; Pathtracer: slow performances when updating textures with tesselation/displacement enabled
-* &#91;3D View&#93; Some color material properties are not color-managed correctly when overridden
-* &#91;3D View&#93; Scenes with animated primitives are not properly supported
-* &#91;3D View&#93; Mesh with multiples UDims are not yet supported
-* &#91;3D View&#93; Mesh with multiples UVs are not yes supported and may result in invalid material rendering
-* &#91;3D View&#93; Pathtracer not supported on AMD graphic cards
+* &#91;Category&#93; Item
