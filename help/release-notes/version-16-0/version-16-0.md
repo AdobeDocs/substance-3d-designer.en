@@ -23,7 +23,7 @@ user-guide-title: ""
 </td>
 <td style="border: 0;" valign="top">
 
-*Release date: April ##th, 2026*
+*Release date: April 14th, 2026*
 
 </td>
 </tr>
@@ -174,15 +174,96 @@ The requirement for the minimal supported version of macOS has been updated to m
 
 ### 16.0.0
 
-*(Released April ##th, 2026)*
+*(Released April 14th, 2026)*
 
 ### Added
 
-* &#91;Category&#93; Item
+* &#91;Content&#93; Shape splatter v2 node
+* &#91;Content&#93; Shape splatter v2 mapper color/grayscale nodes
+* &#91;Content&#93; Shape splatter v2 to mask node
+* &#91;Content&#93; Grid atlas nodes
+* &#91;Content&#93; 3D viewer node
+* &#91;Content&#93; 3D SDF operator nodes
+* &#91;Content&#93; 3D SDF primitive nodes
+* &#91;Content&#93; 3D SDF transform nodes
+* &#91;Content&#93; 3D SDF material nodes
+* &#91;Content&#93; Angle to vector node
+* &#91;Content&#93; Constant value nodes
+* &#91;3D View&#93; OpenPBR shader for OpenGL renderer
+* &#91;3D View&#93; OpenPBR shader for Rasterizer and GPU Pathtracer renderers
+* &#91;3D View&#93; Displacement window to set height scale, height level and tessellation
+* &#91;3D View&#93; Reorganize the toolbar items
+* &#91;3D View&#93; Set OpenPBR as the default material model in the 3D View
+* &#91;3D View&#93; Have the 3D view take the 'Material model' graph attribute into account
+* &#91;3D View&#93; Sync material models when switching between Rasterizer/GPU Pathtracer and OpenGL renderers
+* &#91;3D View&#93; Ensure material model is persistent when switching 3D renderers and material definition changes are synchronized
+* &#91;3D View&#93; GPU Pathtracer: Enable blue noise pixel cycling
+* &#91;3D View&#93; Expose Ambient occlusion opacity control
+* &#91;3D View&#93; Set 'Tiling' parameter range to &#91;0, 10&#93; for all shaders
+* &#91;3D View&#93; Rename 'Focus' action to 'Frame'
+* &#91;3D View&#93; Handle the new refineLevel parameter that replaces tessellationFactor
+* &#91;3D View&#93; Add FPS counter
+* &#91;3D View&#93; Move the progress bar in the same horizontal toolbar as the color space at the bottom
+* &#91;Bakers&#93; Display the UV of the selected baker in the preview
+* &#91;Graph&#93; Add new 'Material model' attribute to Substance graphs
+* &#91;NewGraph&#93; Add separators in the thumbnail view
+* &#91;Parameters&#93; Define default constant value for input parameters with 'Function' editor
+* &#91;Parameters&#93; Populate combobox of `Set` and `Is defined` node parameters with available variables
+* &#91;Preferences&#93; Remove obsolete 'Descale factor' option in '3D View' tab
+* &#91;Publish&#93; Publish dialog: Include material model in graph information
+* &#91;Python&#93; Add new class SDMaterialModelDescription to get the information of a material model
+* &#91;Python&#93; Allow to get/set the material model property of SDSBSCompGraph objects
+* &#91;Python Editor&#93; Increase font size to 12
+* &#91;Templates&#93; Add OpenPBR templates
+* &#91;Templates&#93; Convert material samples to OpenPBR
+* &#91;ThirdParty&#93; Update Boost to 1.88 version
+* &#91;ThirdParty&#93; Update C++ API to C++20
+* &#91;ThirdParty&#93; Update NGL to 1.42
+* &#91;ThirdParty&#93; Update oneTBB to 2022.x version
+* &#91;ThirdParty&#93; Update OpenColorIO to 2.5.x version
+* &#91;ThirdParty&#93; Update OpenEXR to 3.4.x version
+* &#91;ThirdParty&#93; Update Qt & QtForPython to 6.8.x and Python to 3.13.x
+* &#91;ThirdParty&#93; Update TBB to oneTBB 2021.x
+* &#91;Deprecation&#93; Remove Iray and the MDL Editor
 
 ### Fixes
 
-* &#91;Category&#93; Item
+* &#91;2D View&#93; The histogram selection range is not preserved when the width of the widget becomes small
+* &#91;3D Export&#93; Meshes exported from Designer don't render the same in usdview
+* &#91;3D View&#93; Assigning non-udim stuff to the 3D View leaves single-tile rendering mode
+* &#91;3D View&#93; Clamped result when using OCIO
+* &#91;3D View&#93; Crash when applying a graph texture on a non-overridden material for a specific scene
+* &#91;3D View&#93; Crash when creating frame buffers
+* &#91;3D View&#93; Eclair GPU Pathtracer: Broken geometry and low performance when rendering a specific model
+* &#91;3D View&#93; Incorrect texture transformation for specific scene(s)
+* &#91;3D View&#93; Inconsistent framing of scene/selection when using fixed render resolution
+* &#91;3D View&#93; Incorrect diffuse color when rendering certain GLTF file
+* &#91;3D View&#93; Invisible environment when switching renderers in a specific case
+* &#91;3D View&#93; Materials are not detected correctly when imported some .fbx files
+* &#91;3D View&#93; Overriding materials more than once resets tiling to 1
+* &#91;3D View&#93; Properties in the 'UVs' category are not saved to SBSSCN files
+* &#91;3D View&#93; 'Reset and view outputs in 3D view' from single-output graphs does not reset materials
+* &#91;3D View&#93; 'Save render': Edited image format is not preserved
+* &#91;3D View&#93; Selection not working on AMD GPUs
+* &#91;3D View&#93; Self-contained 3D scene is not refreshed when modified on disk
+* &#91;3D View&#93; Some color material properties are not color-managed correctly when overridden
+* &#91;3D View&#93; UDIM textures are not applied correctly on a specific mesh
+* &#91;3D View&#93; USD Scene with MaterialX material no longer render correctly
+* &#91;Bakers&#93; Crashes with some meshes
+* &#91;Bakers&#93; Texture transfer: Crash in bkBufferViewCopy
+* &#91;Cooker&#93; Infinite loop in While Loop node in a case that could be prevented
+* &#91;Engine&#93; Stop Substance engine when closing the application
+* &#91;General&#93; Avoid random crash when exiting the application (Windows only)
+* &#91;Graph&#93; Function graph: type propagation does not work properly in some situations
+* &#91;Graph&#93; Graph links gets deleted when an image input node is renamed
+* &#91;Graph&#93; Links and pins sometimes display artifacts
+* &#91;Preferences&#93; 'Viewport scaling' is inverted
+* &#91;Properties&#93; Crash when modifying graph input tweak while displaying its instance parameters
+* &#91;Python&#93; Cannot import PySide6 modules (possible conflict with existing PySide6 installation)
+* &#91;Python&#93; Existing PySide and Shiboken modules conflict with Designer's
+* &#91;UI&#93; Hover style disappears on buttons in specific case (Windows only)
+* &#91;UI&#93; Hover style is not visible on drop down buttons when clicked (macOS only)
+* &#91;UI&#93; 'Learn more' button in '?' tooltip does not work when tooltip is out of dialog bounds (Windows only)
 
 ### KNOWN ISSUES
 
