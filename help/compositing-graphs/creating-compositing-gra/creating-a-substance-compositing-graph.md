@@ -157,6 +157,8 @@ The <b>Material samples</b> category includes a [curated selection of graphs](..
 
 You can also access the samples directly from the Home screen, using the <b>Go to samples</b> button.
 
+All samples are based on the [OpenPBR material model](../../interface/3d-view/material-properties/material-properties.md#openpbr).
+
 ![Material samples - Home screen banner](../../assets/materialSamples-banner.png "Material samples - Home screen banner"){zoomable="yes"}
 
 <table>
