@@ -29,7 +29,7 @@ user-guide-title: ""
 </tr>
 </table>
 
-![Banner Designer 16-0](./version-16-0-banner.jpg)
+![Banner Designer 16-0](./version-16-0.resources/version-16-0-banner.jpg)
 
 <a name="shape-splatter-v2-nodes"></a>
 ## Shape splatter v2 nodes
