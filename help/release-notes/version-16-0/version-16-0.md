@@ -87,7 +87,7 @@ to define shapes of increasing complexity as these surfaces are transformed and 
 
 ### Authoring 3D SDF functions
 
-SDF functions involve a [new family of nodes](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions) which come in 3 categories:
+SDF functions involve a [new family of nodes](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions) which come in 4 categories:
 
 * **Primitives** are the basic building blocks, they generate simple adjustable shapes with a few controls that let you
 tailor them as needed.
@@ -96,6 +96,8 @@ boolean operators to morphs, shell and symmetries, they dramatically expand the 
 can be achieved
 * **Transforms** let you adjust the shapes' position, rotation and size as you might expect and beyond with bending, 
 twisting and elongation.
+* **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used 
+by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape_splatter_v2.md) family of nodes for masking or coloring shapes.
 
 [EXAMPLES: SDF primitives, operators, transforms]
 

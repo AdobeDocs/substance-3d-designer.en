@@ -124,6 +124,21 @@ These nodes let you author SDF functions which can be used to generate 3D shapes
 [Twist](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_twist/3d_sdf_transform_twist.md)
 
 </td>
+<td style="border: 0;" valign="top">
+
+#### Material
+
+[Set color](function-nodes-sdf-functions/sdf-functions-material/set_color/set_color.md)
+
+[Set ID](function-nodes-sdf-functions/sdf-functions-material/set_id/set_id.md)
+
+[Set material](function-nodes-sdf-functions/sdf-functions-material/set_material/set_material.md)
+
+[Set metalness](function-nodes-sdf-functions/sdf-functions-material/set_metalness/set_metalness.md)
+
+[Set roughness](function-nodes-sdf-functions/sdf-functions-material/set_roughness/set_roughness.md)
+
+</td>
 </tr>
 </table>
 
