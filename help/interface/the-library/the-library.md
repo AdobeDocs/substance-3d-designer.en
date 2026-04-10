@@ -29,7 +29,7 @@ It monitors *folders* on your hard drive or over a network which are added to th
 > **About custom content**
 > 
 > While your custom resources will be added to the **Library**, it might not be visible because of the filtering rules set for the existing categories. We recommend creating your own filters organised in folders, to ensure your content can be reliably found while working on your projects.  
-> See the [Managing custom content and filters](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) section of the documentation for more information.
+> See the [Managing custom content and filters](./managing-custom-content/managing-custom-content-and-filters.md) section of the documentation for more information.
 
 The **Library** can monitor all assets which are supported [Resources](../../resources/resources.md):
 
@@ -39,7 +39,7 @@ The **Library** can monitor all assets which are supported [Resources](../../res
 * [Function graphs](../../function-graphs/function-graphs.md)
 * [AxF files](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 * [Fonts](../../resources/font-resource/font-resource.md)
-* [Meshes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D scenes](../../resources/3d-scene-resource/3d-scene-resource.md)
 
 The panel is split in 2 main parts :
 
@@ -57,15 +57,17 @@ Default categories and filters contain all the assets shipped with Designer. The
 The default categories include:
 
 * Favorites: gathers all the assets you have flagged as 'Favorite'
-* [Graph Items](../../interface/the-graph-view/graph-items/graph-items.md): lists special objects for organising graphs
-* [Atomic Nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md): lists atomic nodes for [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md)
-* [FxMap Nodes](../../function-graphs/fxmaps/fxmaps.md): includes nodes specific to graphs computed by [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) nodes
-* [Function Nodes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/function-nodes-reference-129368124.html): lists atomic nodes for [function graphs](../../function-graphs/function-graphs.md)
-* [Texture Generators](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html): contains nodes representing [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) that generate content autonomously
+* [Graph items](../../interface/the-graph-view/graph-items/graph-items.md): lists special objects for organising graphs
+* [Atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md): lists atomic nodes for [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md)
+* [FX-Map nodes](../../function-graphs/fxmaps/fxmaps.md): includes nodes specific to graphs computed by [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) nodes
+* [Function nodes](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md): lists atomic nodes for [function graphs](../../function-graphs/function-graphs.md)
+* [Texture generators](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/texture-generators.md): contains nodes representing [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) that generate content autonomously
 * [Filters](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md): contains nodes representing [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) that modify an input
-* [Functions](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/function-nodes-reference-129368124.html): includes nodes representing [function graphs](../../function-graphs/the-function-graph/the-function-graph.md)
-* [3D View](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion): offers content related to maps used for image-based lighting in a 3D scene – such as in the [3D View](../../interface/3d-view/3d-view.md), such as environment maps and nodes for authoring environment maps
-* PBR Materials:
+* [Spline & paths tools](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md): The catalogue of [Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md) and [Paths](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md) nodes
+* [Functions](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md): includes nodes representing [function graphs](../../function-graphs/the-function-graph/the-function-graph.md)
+* [3D view](../3d-view/3d-view.md): offers content related to maps used for image-based lighting in a 3D scene – such as in the [3D View](../../interface/3d-view/3d-view.md), such as environment maps and nodes for authoring environment maps
+* PBR materials: Premade materials that may be used as placeholders to test other nodes, 'recipes', or a custom workspace setup. For learning about authoring materials, we recommend taking a look at our dedicated [material samples](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md).
+* [Values](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md): Nodes for generating simple values in Substance graphs.
 
 ## Content
 
