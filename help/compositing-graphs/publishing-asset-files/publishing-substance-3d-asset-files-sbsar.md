@@ -35,8 +35,9 @@ it is good to keep the following in mind when publishing a Substance graph:
 Publishing takes some more preparation than Exporting Bitmaps. That's because your published Substance 3D assets are dynamic tools, not just a static snapshot of the current state of your textures. Specifically, you want to keep the following in mind:
 
 * Make sure graph resolutions ([Output Size](../../compositing-graphs/output-size/output-size.md)) are set to the *Relative To parent* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md), which means they are dynamic and can be changed on the fly.
-* Make sure[ graph outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) are set up correctly with names, labels and usage tags.
-* Make sure [Parameters, if needed are organized and named properly.](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
+* Make sure [graph outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) are set up correctly with names, labels and usage tags.
+* Make sure [Parameters, if needed are organized and named properly](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+* If a graph describes a material, set its [material model](../graph-parameters/graph-parameters.md) attribute to that material's model.
 * Make sure the [Output size](../../compositing-graphs/output-size/output-size.md) property of all [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are set to the *Absolute* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). If that is not the case, their referenced [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) will be saved at the default <b>256\*256</b> resolution in the published Substance 3D asset file, which will *impact the quality* of one or more outputs.
 * If graphs are present in the package that should not be available outside of Designer (for example helper or "tool" sub-graphs that only work in a specific context), set them up to be hidden in their properties. See further below.
 

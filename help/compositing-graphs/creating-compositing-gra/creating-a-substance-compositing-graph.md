@@ -136,7 +136,7 @@ Double-click on a template in the list, or select it and click the <b>Create</b>
 
 Each template is listed by its label and subtitle.
 
-The subtitle provides more context about the *use case* for the template: the material definition it is based on, the software it is meant to integrate with, etc.
+The subtitle provides more context about the *use case* for the template: the material model it is based on, the software it is meant to integrate with, etc.
 
 In <b>Thumbnails</b> mode, the subtitle is placed under the label in a darker, smaller text.
 
