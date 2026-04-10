@@ -116,7 +116,7 @@ passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid
 <a name="openpbr-support"></a>
 ## OpenPBR support
 
-The OpenPBR material model is now supported throughout the application, with dedicated shaders in both our new renderers
+The [OpenPBR material model](../../interface/3d-view/material-properties/material-properties.md#openpbr) is now supported throughout the application, with dedicated shaders in both our new renderers
 (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
 Get started with this widely adopted industry standard with new graph templates, or go through the built-in material
@@ -132,7 +132,7 @@ are available in rasterization (Rasterizer, OpenGL), including refraction at lon
 
 [EXAMPLES: OpenPBR shader in each renderer]
 
-It is also easier to keep workflows involving specific shaders in sync, with a new <code>Material model</code> attribute
+It is also easier to keep workflows involving specific shaders in sync, with a new ['Material model' attribute](../../compositing-graphs/graph-parameters/graph-parameters.md#attributes)
 for Substance graphs that ensures that graphs viewed in the 3D View use the appropriate shader for the graph's material
 model.
 

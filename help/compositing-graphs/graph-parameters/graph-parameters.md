@@ -18,6 +18,7 @@ This page describes the standard parameters for the <b>Substance graph</b>.
 
 A graph has several parameters that you can modify. You can find them by either clicking on *empty space* in the graph, or selecting the *graph item* in the <b>Explorer</b> panel. Parameters will be then displayed in the Parameters view.
 
+<a name="base-parameters"></a>
 ## Base parameters
 
 <table>
@@ -55,6 +56,7 @@ In most cases, inheritance plays a significant role in defining these values, an
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
+<a name="attributes"></a>
 ## Attributes
 
 The <b>Attributes</b> section contains *metadata* for the graph, which provides information for *identifying*, *categorizing* and *applying* the graph as designed by its author.
@@ -91,7 +93,7 @@ The <b>Attributes</b> section contains *metadata* for the graph, which provides 
 | **Template data**    | When a Substance graph is used as template, this attributes sets the [template's category and subtitle](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md). They are separated thusly: &lt;category&gt;;&lt;subtitle&gt;     <br><br>*Default: Empty*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 +++
-
+<a name="input-parameters"></a>
 ## Input parameters
 
 <table>
@@ -124,6 +126,7 @@ The editor of the selected parameter will appear on top of the list of graph inp
 >
 > The <b>Preview</b> and <b>Presets</b> tabs are disabled when using [in-context editing](../../interface/preferences-window/preferences-window.md).
 
+<a name="inputs"></a>
 ## Inputs
 
 <table>
@@ -143,6 +146,7 @@ You can reorder them by using drag and drop on the handle on the far left of eac
 </tr>
 </table>
 
+<a name="outputs"></a>
 ## Outputs
 
 <table>
