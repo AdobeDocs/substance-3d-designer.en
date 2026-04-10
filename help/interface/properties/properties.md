@@ -22,7 +22,7 @@ This page presents the <b>Properties </b>panel of Substance 3D Designer, its lay
 
 ## Overview
 
-The <b>Properties </b>panel is a context-sensitive panel that changes based on your selection in [the Graph View](../../interface/the-graph-view/the-graph-view.md) and the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) window.
+The <b>Properties </b>panel is a context-sensitive panel that changes based on your selection in [the Graph View](../../interface/the-graph-view/the-graph-view.md) and the [Explorer](../the-explorer-window/the-explorer-window.md) window.
 
 </td>
 <td style="border: 0;" valign="top">

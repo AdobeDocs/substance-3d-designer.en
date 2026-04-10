@@ -24,7 +24,7 @@ Baking refer to the action of **transferring mesh based information into texture
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-The baking window can be accessed via the mesh file in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) window. Right-Click on the mesh name and choose "**Bake Model Information**" to open the baking window.
+The baking window can be accessed via the mesh file in the [Explorer](../interface/the-explorer-window/the-explorer-window.md) window. Right-Click on the mesh name and choose "**Bake Model Information**" to open the baking window.
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

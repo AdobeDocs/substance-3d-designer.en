@@ -132,7 +132,7 @@ For instance, detecting the absence of a variable enables you to provide a fallb
 
 * &#91;NewGraph&#93; Rework of the new graph window
 * &#91;NewGraph&#93; Add materials samples and advanced samples
-* &#91;NewGraph&#93; Add a new attribute for graph for the template data (category and sub-title)
+* &#91;NewGraph&#93; Add a new attribute for graph for the template data (category and subtitle)
 * &#91;NewGraph&#93; Remove Output format option
 * &#91;Content&#93; Add hash functions
 * &#91;Content&#93; Add tonemappers to functions.sbs
@@ -201,7 +201,7 @@ For instance, detecting the absence of a variable enables you to provide a fallb
 * &#91;Bakers&#93; Updating the 'color-generator' parameter does not work for 'Grayscale'
 * &#91;Content&#93; Mask to paths: Failure in non-square ratios
 * &#91;Content&#93; PBR Render/Icon renderer: Incorrect specular lobe function
-* &#91;Content&#93; Paths to spline: Set the 'Output size' to 'Relative to parent' by default'
+* &#91;Content&#93; Paths to spline: Set the 'Output size' to 'Relative to parent' by default
 * &#91;Content&#93; Point list: Points are not in the correct order when data texture is non-square
 * &#91;Content&#93; Spline mapper: 1px line glitch in random cases
 * &#91;Content&#93; Spline mapper: stretched UVs in some cases when thickness is 0

@@ -18,26 +18,6 @@ Constant nodes are a way to create a static value for use inside Substance funct
 
 Additionally, this page provides some extra information for each data type and common use cases.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Integers
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Floats
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Others
-
-</td>
-</tr>
-</table>
-
 ## Integers
 
 Constant integers generate whole numbers, and have a step of  1.
