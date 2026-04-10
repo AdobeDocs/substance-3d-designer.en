@@ -81,7 +81,7 @@ The main toolbar lets you access extra menu's, like the[ Preferences window](../
 
 ## Explorer
 
-[The Explorer window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) is the main way of interacting with any kind of file and resource. It gives more options than the File menu in the Main toolbar This is where start and end every working session.
+[The Explorer window](the-explorer-window/the-explorer-window.md) is the main way of interacting with any kind of file and resource. It gives more options than the File menu in the Main toolbar This is where start and end every working session.
 
 ![Explorer](../assets/explorer-4.png "Explorer")
 

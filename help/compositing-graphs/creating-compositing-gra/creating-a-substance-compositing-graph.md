@@ -59,7 +59,7 @@ To start the process of creating a new [Substance graph](../../compositing-graph
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  On any *existing* package item in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), click <b>RMB</b> and go to <b>New &gt; Substance graph</b> in the contextual menu.
+  On any *existing* package item in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), click <b>RMB</b> and go to <b>New &gt; Substance graph</b> in the contextual menu.
 
   </td>
   <td style="border: 0;" valign="top">
@@ -89,7 +89,7 @@ To start the process of creating a new [Substance graph](../../compositing-graph
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  In the [main menu](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), go to <b>File &gt; New &gt; Substance graph...</b>
+  In the [main menu](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), go to <b>File &gt; New &gt; Substance graph...</b>
 
   </td>
   <td style="border: 0;" valign="top">

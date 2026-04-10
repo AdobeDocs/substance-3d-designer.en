@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Overview
 
-In some cases the total filesize of [Substance 3D assets (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) can be an important factor. This page covers a few critical areas and settings to keep in mind when trying to reduce filesize.
+In some cases the total filesize of [Substance 3D assets (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) can be an important factor. This page covers a few critical areas and settings to keep in mind when trying to reduce filesize.
 
 Filesize is mostly determined by [embedded bitmaps.](../../resources/bitmap-resource/bitmap-resource.md) They are files that are linked, embedded or baked and added to the  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) file (SBS) as a resource. Only bitmaps that are used in a graph i.e. connected to an output either directly or through the node chain are published in the Substance 3D asset. In an Substance 3D file, bitmaps have no impact on filesize, as all bitmap resources are still stored outside of the file.
 

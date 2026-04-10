@@ -31,7 +31,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 ## Quick access buttons
 
-![](../../assets/newsubstance.png)&nbsp;&nbsp;<b>New Substance graph...:</b> (Ctrl+N)Presents you the [New Substance graph](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) window, then creates a new package with a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
+![](../../assets/newsubstance.png)&nbsp;&nbsp;<b>New Substance graph...:</b> (Ctrl+N)Presents you the [New graph](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) window, then creates a new package with a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
 
 ![](../../assets/open.png)&nbsp;&nbsp;<b>Open...:</b> (Ctrl+O) Open an existing [Substance package (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
