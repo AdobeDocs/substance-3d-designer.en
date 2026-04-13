@@ -18,7 +18,9 @@ This 16.0 version introduces a more creative workflow for pattern scattering and
 
 *Release date: April 14th, 2026*
 
-![Banner Designer 16-0](./version-16-0.resources/version-16-0-banner.jpg)
+<img src="./version-16-0.resources/version-16-0-banner.jpg" alt="Substance 3D Designer version 16.0 banner" style="margin-top: 32px; margin-bottom: 32px">
+
+<hr style="height: 3px; background-color: #203900; margin-top: 32px">
 
 <a name="shape-splatter-v2-nodes"></a>
 ## Shape splatter v2 nodes
@@ -30,7 +32,7 @@ The new [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/nod
 the *clean gathering* of shapes in specific areas with a **density map**.<br>
 Advanced users can set up *custom distributions* defined by a function graph.
 
-<table>
+<table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr>
         <td>
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Poisson distribution</i>
@@ -54,7 +56,7 @@ a height map* or authoring *3D SDF shapes*. (More on that below)
 This unlocks scatterings that are more dynamic, more varied and more believable across the board. And it is now possible
 to repurpose 3D shapes for variations by flipping them. (We see you, environment artists!)
 
-<table>
+<table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr>
         <td>
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Random 3D rotation</i>
@@ -92,6 +94,8 @@ more efficient workflows.<br>Packing patterns is simplified thanks to the new [G
 
 [EXAMPLES: Grid atlas, grid atlas interop with Shape splatter v2 nodes]
 
+<hr style="height: 3px; background-color: #203900; margin-top: 32px;">
+
 <a name="3d-sdf-nodes"></a>
 ## 3D SDF nodes (signed distance field)
 
@@ -102,7 +106,7 @@ more efficient workflows.<br>Packing patterns is simplified thanks to the new [G
 authoring SDF functions.</p><p>Signed distance fields are representations of space as a distance to surfaces defined mathematically. They can be used
 to define shapes of increasing complexity as these surfaces are transformed and combined using various operators.</p>
         </td>
-        <td style="text-align: right; width: 25%">
+        <td style="text-align: right; width: 25%; margin-left: 32px">
             <img src="./version-16-0.resources/version-16-0-SDFFunctionsBreakdown.gif" alt="Building shapes with SDF Functions" />
         </td>
     </tr>
@@ -119,10 +123,10 @@ boolean operators to morphs, shell and symmetries, they dramatically expand the 
 can be achieved
 * **Transforms** let you adjust the shapes' position, rotation and size as you might expect and beyond with bending, 
 twisting and elongation.
-* **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) family of nodes for masking or coloring shapes.
+* **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used 
+by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) family of nodes for masking or coloring shapes.
 
-![SDFShort.gif](version-16-0.resources/SDFShort.gif)
-  
+<p style="text-align: center; margin: 32px"><img src="./version-16-0.resources/SDFShort.gif" alt="SDF function nodes" /></p>
 
 Lightweight nodes with clear and readable icons make building 3D SDF functions easier than you might think, especially
 with this next addition to the toolset...
@@ -136,7 +140,7 @@ and support for rendering basic materials. (Color, roughness and metalness)
 The node also includes features for checking the generated shapes in detail and debugging issues: separate rendering
 passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid and rotation arcs)
 
-<table style="border: none;">
+<table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="width: 50%;">
         <td style="text-align: center">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-01.jpg" alt="Example 1" />
@@ -163,6 +167,8 @@ passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid
     </tr>
 </table>
 
+<hr style="height: 3px; background-color: #203900; margin-top: 32px">
+
 <a name="openpbr-support"></a>
 ## OpenPBR support
 
@@ -170,11 +176,11 @@ passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid
 
 This [material model](../../interface/3d-view/material-properties/material-properties.md#openpbr) is now supported throughout the application, with dedicated shaders in both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
-![OpenPBRShort.gif](version-16-0.resources/OpenPBRShort.gif)
+<p style="text-align: center; margin: 32px"><img src="./version-16-0.resources/OpenPBRShort.gif" alt="OpenPBR support in Substance 3D Designer and comparisons with other DCCs" /></p>
 
 Get started with this widely adopted industry standard with new graph templates, or go through the built-in material samples now based on OpenPBR.
 
-<table style="border: none;">
+<table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top;">
         <td style="text-align: center">
             <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="OpenPBR templates" />
@@ -194,7 +200,7 @@ OpenPBR shaders support more effects than the existing shaders, such as thin fil
         <td>
             It is also easier to keep workflows involving specific shaders in sync, with a new <a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">'Material model' attribute</a> for Substance graphs that ensures that graphs viewed in the 3D View use the appropriate shader for the graph's material model.
         </td>
-        <td style="text-align: right">
+        <td style="text-align: right; margin-left: 32px">
             <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="OpenPBR material samples" />
         </td>
     </tr>
@@ -203,6 +209,8 @@ OpenPBR shaders support more effects than the existing shaders, such as thin fil
 >[!NOTE]
 > 
 >The attribute is also included in published SBSAR files to integrate in your material workflow.
+
+<hr style="height: 3px; background-color: #203900; margin-top: 32px">
 
 <a name="displacement-popup"></a>
 ## Displacement controls in the 3D View
@@ -215,7 +223,7 @@ properties and renderer settings.
 
 These controls are available for both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
-![DisplacementShort.gif](version-16-0.resources/DisplacementShort.gif)
+<p style="text-align: center; margin: 32px"><img src="./version-16-0.resources/DisplacementShort.gif" alt="Displacement pop-up in the 3D View" /></p>
 
 If the scene includes multiple materials, select the object of the scene that you want to adjust beforehand by holding
 <code>Shift</code> and clicking it (Rasterizer and GPU Pathtracer only) or select it in the Scene browser.
@@ -224,12 +232,14 @@ If the scene includes multiple materials, select the object of the scene that yo
 > 
 >Tessellation is *per object* in Rasterizer and GPU Pathtracer, and *per material* in OpenGL.
 
+<hr style="height: 3px; background-color: #203900; margin-top: 32px">
+
 <a name="other-changes"></a>
 ## Other changes
 
 ### Constant value nodes
 
-<table style="border: 0;">
+<table style="border: none;">
     <tr style="vertical-align: top;">
         <td>
             <p>For easier access to constant values in Substance graphs, <a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">new nodes</a> have been added for generating a simple value of each type.</p><p>You can find all of them in the <b>Values > Constants</b> section of the Library.</p>
@@ -271,6 +281,8 @@ The following libraries have been upgraded to meet the latest VFX platform stand
 * oneTBB 2022
 
 The requirement for the minimal supported version of macOS has been updated to macOS 14 Sonoma.
+
+<hr style="height: 3px; background-color: #203900; margin-top: 32px">
 
 <a name="release-notes"></a>
 ## Release notes
