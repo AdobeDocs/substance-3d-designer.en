@@ -9,7 +9,7 @@ description: "Set the roughness of an SDF scene's material."
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Set roughness icon](./set_roughness.png "Set roughness")
+![Set roughness icon](set-roughness.png "Set roughness")
 
 <b>In:</b> 3D Functions &gt; Material
 
@@ -20,7 +20,7 @@ description: "Set the roughness of an SDF scene's material."
 
 Set the roughness of an SDF scene's material.
 
-This value can then be retrieved for all splattered SDF shapes in the *SDF roughness* output of the [Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape_splatter_v2.md).
+This value can then be retrieved for all splattered SDF shapes in the *SDF roughness* output of the [Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 
 </td>
 </tr>

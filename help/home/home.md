@@ -26,7 +26,7 @@ If you have any question that is not answered in this manual, feel free to ask o
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## Getting started
+### Getting started
 
 * [Activation and licenses](../getting-started/activation-and-licenses/activation-and-licenses.md) — This page has information on how to activate and manage your licenses so you can start using Designer.
 * [System requirements](../getting-started/system-requirements/system-requirements.md) — This page lists system requirements and hardware compatibility information.

@@ -9,7 +9,7 @@ description: "Set the base color of an SDF scene's material."
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Set color icon](./set_color.png "Set color")
+![Set color icon](set-color.png "Set color")
 
 <b>In:</b> 3D Functions &gt; Material
 
@@ -20,7 +20,7 @@ description: "Set the base color of an SDF scene's material."
 
 Set the base color of an SDF scene's material.
 
-This color can then be retrieved for all splattered SDF shapes in the *SDF color* output of the [Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape_splatter_v2.md).
+This color can then be retrieved for all splattered SDF shapes in the *SDF color* output of the [Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 
 </td>
 </tr>

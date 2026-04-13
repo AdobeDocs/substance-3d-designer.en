@@ -36,7 +36,7 @@ user-guide-title: ""
 
 ### New ways of scattering shapes
 
-The new [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape_splatter_v2.md) nodes unlock complex scattering behaviors that have been challenging until now, with
+The new [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) nodes unlock complex scattering behaviors that have been challenging until now, with
 **more shape distribution methods** (Poisson disc, uniform) that are *collisionless* by default, and control over
 the *clean gathering* of shapes in specific areas with a **density map**.<br>
 Advanced users can set up *custom distributions* defined by a function graph.
@@ -59,12 +59,12 @@ to repurpose 3D shapes for variations by flipping them. (We see you, environment
 
 Similarly to the Shape splatter v1 family of nodes, Shape splatter v2 comes with its own cohort of companion nodes.
 
-[Shape splatter v2 mapper](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape_splatter_v2_mapper_color.md) nodes enable projection of textures on the scattered 3D shapes, with support for
+[Shape splatter v2 mapper](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) nodes enable projection of textures on the scattered 3D shapes, with support for
 *triplanar projection* and *material IDs* for mapping multiple textures. Results can be adjusted globally or per shape
 for texture offsets and color variations.
 <br>Again, advanced users can set up *custom texture mappings* defined by a function graph.
 
-[Shape splatter v2 to mask](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape_splatter_v2_to_mask.md) creates masks for specific selection of shapes and/or material IDs, enabling more
+[Shape splatter v2 to mask](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) creates masks for specific selection of shapes and/or material IDs, enabling more
 granular use of shapes downstream in the graph.
 
 [EXAMPLES: Mapper standard, mapper triplanar, to mask]
@@ -72,7 +72,7 @@ granular use of shapes downstream in the graph.
 ### Grid atlas
 
 Custom patterns can be provided separately to the Shape splatter v2 node, or packed into a grid atlas for leaner and
-more efficient workflows.<br>Packing patterns is simplified thanks to the new [Grid atlas](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid_atlas_color/grid_atlas_color.md) nodes.
+more efficient workflows.<br>Packing patterns is simplified thanks to the new [Grid atlas](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md) nodes.
 
 [EXAMPLES: Grid atlas, grid atlas interop with Shape splatter v2 nodes]
 
@@ -104,7 +104,7 @@ can be achieved
 * **Transforms** let you adjust the shapes' position, rotation and size as you might expect and beyond with bending, 
 twisting and elongation.
 * **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used 
-by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape_splatter_v2.md) family of nodes for masking or coloring shapes.
+by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) family of nodes for masking or coloring shapes.
 
 ![version-16-0-SDFFunctions.png](version-16-0.resources/version-16-0-SDFFunctions.png)
   
@@ -114,7 +114,7 @@ with this next addition to the toolset...
 
 ### 3D viewer node
 
-As you author 3D SDF functions, you will need to visualize the resulting shapes in 3D space. The [3D viewer node](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.md)
+As you author 3D SDF functions, you will need to visualize the resulting shapes in 3D space. The [3D viewer node](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)
 renders 3D SDF or intersection functions as a 3D scene with adjustable camera controls, custom environment light
 and support for rendering basic materials. (Color, roughness and metalness)
 
@@ -124,24 +124,24 @@ passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid
 <table style="border: none;">
     <tr style="width: 50%;">
         <td style="text-align: center">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.resources/3d-viewer-example-01.jpg" alt="Example 1" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-01.jpg" alt="Example 1" />
         </td>
         <td style="width: 50%;">
             <table style="border: none;">
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.resources/3d-viewer-example-02a.jpg" alt="Example 1" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02a.jpg" alt="Example 1" />
                     </td>
                     <td style="text-align: center">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.resources/3d-viewer-example-02b.jpg" alt="Example 2" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02b.jpg" alt="Example 2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.resources/3d-viewer-example-02c.jpg" alt="Example 3" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02c.jpg" alt="Example 3" />
                     </td>
                     <td style="text-align: center">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.resources/3d-viewer-example-02d.jpg" alt="Example 4" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02d.jpg" alt="Example 4" />
                     </td>
                 </tr>
             </table>

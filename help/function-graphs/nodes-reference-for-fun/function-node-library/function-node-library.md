@@ -21,7 +21,7 @@ These tools are arranged into several categories:
 <a name"sdf-functions"></a>
 ### SDF functions
 
-These nodes let you author SDF functions which can be used to generate 3D shapes in the [Shape splatter v2](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape_splatter_v2.md) and [3d viewer](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.md) nodes, using their dedicated **SDF function** parameters.. 
+These nodes let you author SDF functions which can be used to generate 3D shapes in the [Shape splatter v2](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) and [3d viewer](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) nodes, using their dedicated **SDF function** parameters.. 
 
 <table>
 <tr style="border: 0;">
@@ -128,15 +128,15 @@ These nodes let you author SDF functions which can be used to generate 3D shapes
 
 #### Material
 
-[Set color](function-nodes-sdf-functions/sdf-functions-material/set_color/set_color.md)
+[Set color](function-nodes-sdf-functions/sdf-functions-material/set-color/set-color.md)
 
-[Set ID](function-nodes-sdf-functions/sdf-functions-material/set_id/set_id.md)
+[Set ID](function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
 
-[Set material](function-nodes-sdf-functions/sdf-functions-material/set_material/set_material.md)
+[Set material](function-nodes-sdf-functions/sdf-functions-material/set-material/set-material.md)
 
-[Set metalness](function-nodes-sdf-functions/sdf-functions-material/set_metalness/set_metalness.md)
+[Set metalness](function-nodes-sdf-functions/sdf-functions-material/set-metalness/set-metalness.md)
 
-[Set roughness](function-nodes-sdf-functions/sdf-functions-material/set_roughness/set_roughness.md)
+[Set roughness](function-nodes-sdf-functions/sdf-functions-material/set-roughness/set-roughness.md)
 
 </td>
 </tr>

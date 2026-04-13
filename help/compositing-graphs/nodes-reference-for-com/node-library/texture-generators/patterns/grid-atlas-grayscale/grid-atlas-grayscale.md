@@ -1,15 +1,15 @@
 ---
-title: "Grid atlas color"
-description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Generator > Pattern > Grid atlas color"
+title: "Grid atlas grayscale"
+description: "Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Generator > Pattern > Grid atlas grayscale"
 ---
 
-# Grid atlas color
+# Grid atlas grayscale
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Grid atlas color icon](./grid_atlas_color.png "Grid atlas color")
+![Grid atlas grayscale icon](./grid-atlas-grayscale.png "Grid atlas grayscale")
 
 <b>In:</b> Generator &gt; Pattern
 
@@ -18,9 +18,9 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 
 ## Description
 
-Pack up to 16 color images on a grid of adjustable XY size.<br>The output atlas image can be sampled from by a [Shape splatter v2](../shape-splatter-v2/shape_splatter_v2.md) or a [Shape splatter mapper color](../shape-splatter-v2-mapper-color/shape_splatter_v2_mapper_color.md) node.
+Pack up to 16 grayscale images on a grid of adjustable XY size.<br>The output atlas image can be sampled from by a [Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) or a [Shape splatter mapper grayscale](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md) node.
 
-See also [Grid atlas grayscale](../grid_atlas_grayscale/grid_atlas_grayscale.md).
+See also [Grid atlas color](../grid-atlas-color/grid-atlas-color.md).
 
 </td>
 </tr>
@@ -29,31 +29,31 @@ See also [Grid atlas grayscale](../grid_atlas_grayscale/grid_atlas_grayscale.md)
 <a name="inputs"></a>
 ## Inputs
 
-|                         |                            |
-|:------------------------|:---------------------------|
-| <b>Input 1</b> *Color*  | The color image input #1.  |
-| <b>Input 2</b> *Color*  | The color image input #2.  |
-| <b>Input 3</b> *Color*  | The color image input #3.  |
-| <b>Input 4</b> *Color*  | The color image input #4.  |
-| <b>Input 5</b> *Color*  | The color image input #5.  |
-| <b>Input 6</b> *Color*  | The color image input #6.  |
-| <b>Input 7</b> *Color*  | The color image input #7.  |
-| <b>Input 8</b> *Color*  | The color image input #8.  |
-| <b>Input 9</b> *Color*  | The color image input #9.  |
-| <b>Input 10</b> *Color* | The color image input #10. |
-| <b>Input 11</b> *Color* | The color image input #11. |
-| <b>Input 12</b> *Color* | The color image input #12. |
-| <b>Input 13</b> *Color* | The color image input #13. |
-| <b>Input 14</b> *Color* | The color image input #14. |
-| <b>Input 2</b> *Color*  | The color image input #15. |
-| <b>Input 2</b> *Color*  | The color image input #16. |
+|                             |                                |
+|:----------------------------|:-------------------------------|
+| <b>Input 1</b> *Grayscale*  | The grayscale image input #1.  |
+| <b>Input 2</b> *Grayscale*  | The grayscale image input #2.  |
+| <b>Input 3</b> *Grayscale*  | The grayscale image input #3.  |
+| <b>Input 4</b> *Grayscale*  | The grayscale image input #4.  |
+| <b>Input 5</b> *Grayscale*  | The grayscale image input #5.  |
+| <b>Input 6</b> *Grayscale*  | The grayscale image input #6.  |
+| <b>Input 7</b> *Grayscale*  | The grayscale image input #7.  |
+| <b>Input 8</b> *Grayscale*  | The grayscale image input #8.  |
+| <b>Input 9</b> *Grayscale*  | The grayscale image input #9.  |
+| <b>Input 10</b> *Grayscale* | The grayscale image input #10. |
+| <b>Input 11</b> *Grayscale* | The grayscale image input #11. |
+| <b>Input 12</b> *Grayscale* | The grayscale image input #12. |
+| <b>Input 13</b> *Grayscale* | The grayscale image input #13. |
+| <b>Input 14</b> *Grayscale* | The grayscale image input #14. |
+| <b>Input 15</b> *Grayscale* | The grayscale image input #15. |
+| <b>Input 16</b> *Grayscale* | The grayscale image input #16. |
 
 <a name="outputs"></a>
 ## Outputs
 
-|               |                              |
-|:--------------|:-----------------------------|
-| <b>Output</b> | The output color grid atlas. |
+|               |                                  |
+|:--------------|:---------------------------------|
+| <b>Output</b> | The output grayscale grid atlas. |
 
 <a name="parameters"></a>
 ## Parameters

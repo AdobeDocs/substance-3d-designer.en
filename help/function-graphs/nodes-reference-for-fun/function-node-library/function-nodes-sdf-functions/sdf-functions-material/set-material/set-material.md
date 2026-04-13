@@ -9,7 +9,7 @@ description: "Set the base color, roughness and metalness of the material of an 
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Set material icon](./set_material.png "Set material")
+![Set material icon](set-material.png "Set material")
 
 <b>In:</b> 3D Function &gt; Material
 
@@ -20,7 +20,7 @@ description: "Set the base color, roughness and metalness of the material of an 
 
 Set the base color, roughness and metalness of the material of an SDF scene.
 
-These values can then be retrieved for all splattered SDF shapes in the outputs of the [Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape_splatter_v2.md).
+These values can then be retrieved for all splattered SDF shapes in the outputs of the [Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 
 </td>
 </tr>

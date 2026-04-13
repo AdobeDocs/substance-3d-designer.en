@@ -9,7 +9,7 @@ description: "Set the metalness of an SDF scene's material."
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Set metalness icon](./set_metalness.png "Set metalness")
+![Set metalness icon](set-metalness.png "Set metalness")
 
 <b>In:</b> 3D Functions &gt; Material
 
@@ -20,7 +20,7 @@ description: "Set the metalness of an SDF scene's material."
 
 Set the metalness of an SDF scene's material.
 
-This value can then be retrieved for all splattered SDF shapes in the *SDF metalness* output of the [Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape_splatter_v2.md).
+This value can then be retrieved for all splattered SDF shapes in the *SDF metalness* output of the [Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 
 </td>
 </tr>
