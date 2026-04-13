@@ -121,10 +121,33 @@ passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid
 The [OpenPBR material model](../../interface/3d-view/material-properties/material-properties.md#openpbr) is now supported throughout the application, with dedicated shaders in both our new renderers
 (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
+<table style="border: none;">
+    <tr style="vertical-align: top;">
+        <td style="text-align: center">
+            <img src="./version-16-0.resources/version-16-0-openpbr-03a.jpg" alt="OpenPBR material in Rasterizer" />
+        </td>
+        <td style="text-align: center">
+            <img src="./version-16-0.resources/version-16-0-openpbr-03b.jpg" alt="OpenPBR material in GPU Pathtracer" />
+        </td>
+        <td style="text-align: center">
+            <img src="./version-16-0.resources/version-16-0-openpbr-03c.jpg" alt="OpenPBR material in OpenGL" />
+        </td>
+    </tr>
+</table>
+
 Get started with this widely adopted industry standard with new graph templates, or go through the built-in material
 samples now based on OpenPBR.
 
-[EXAMPLES: OpenPBR template, OpenPBR material sample]
+<table style="border: none;">
+    <tr style="vertical-align: top;">
+        <td style="text-align: center">
+            <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="OpenPBR templates" />
+        </td>
+        <td style="text-align: center">
+            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="OpenPBR material samples" />
+        </td>
+    </tr>
+</table>
 
 The OpenPBR shader is now the default for the 3D View and natively supports graphs from previous versions by matching
 legacy PBR usages to OpenPBR's.
@@ -132,11 +155,16 @@ legacy PBR usages to OpenPBR's.
 OpenPBR shaders support more effects than the existing shaders, such as thin film and thin wall. All effects
 are available in rasterization (Rasterizer, OpenGL), including refraction at long last!
 
-[EXAMPLES: OpenPBR shader in each renderer]
-
-It is also easier to keep workflows involving specific shaders in sync, with a new ['Material model' attribute](../../compositing-graphs/graph-parameters/graph-parameters.md#attributes)
-for Substance graphs that ensures that graphs viewed in the 3D View use the appropriate shader for the graph's material
-model.
+<table style="border: none;">
+    <tr style="vertical-align: top;">
+        <td>
+            It is also easier to keep workflows involving specific shaders in sync, with a new <a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">'Material model' attribute</a> for Substance graphs that ensures that graphs viewed in the 3D View use the appropriate shader for the graph's material model.
+        </td>
+        <td style="text-align: right">
+            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="OpenPBR material samples" />
+        </td>
+    </tr>
+</table>
 
 >[!NOTE]
 > 
@@ -167,10 +195,16 @@ If the scene includes multiple materials, select the object of the scene that yo
 
 ### Constant value nodes
 
-For easier access to constant values in Substance graphs, [new nodes](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md) have been added for generating a simple value
-of each type.
-
-[Example: Constant value nodes]
+<table style="border: 0;">
+    <tr style="vertical-align: top;">
+        <td>
+            <p>For easier access to constant values in Substance graphs, <a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">new nodes</a> have been added for generating a simple value of each type.</p><p>You can find all of them in the <b>Values > Constants</b> section of the Library.</p>
+        </td>
+        <td style="width: 60%">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="Constant 'Float' node" />
+        </td>
+    </tr>
+</table>
 
 ### MDL graphs and Iray end-of-life
 

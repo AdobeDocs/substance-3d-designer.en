@@ -16,7 +16,16 @@ user-guide-title: ""
 
 Constant nodes are a way to create a static value for use inside Substance graphs.
 
+You can find these nodes in the **Values > Constants** section of the Library.  
 They all include a simple [Value processor](../../atomic-nodes/value-processor/value-processor.md) node generating the value.
+
++++ Constant nodes in the Library
+
+![constants-library.png](constant.resources/constants-library.png)
+
++++
+
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="Constant Float node" /></p>
 
 ## Integers
 
