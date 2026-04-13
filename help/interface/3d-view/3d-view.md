@@ -398,7 +398,7 @@ The available renderers and their settings are documented in [this dedicated pag
 
 The **Scene** toolbar, which is located on the left border of the 3D View by default, offers controls for viewing and interacting with the scene.
 
-It also lets you access the **Displacement** pop-up and the **Scene Browser** dock.
+It also lets you access the [Displacement pop-up](displacement/displacement.md) and the [Scene browser](scene-browser/scene-browser.md) dock.
 
 >[!NOTE]
 >
@@ -484,7 +484,7 @@ Toggles the rendering of the ground plane in the [Rasterizer](3d-renderers/3d-re
 
 <img src="3d-view.resources/3d-view-scene-toolbar-displacement.png" width=24 />&nbsp;&nbsp;<b>Displacement</b>
 
-Displays the Displacement pop-up.
+Displays the [Displacement pop-up](displacement/displacement.md).
 
 <br>
 
