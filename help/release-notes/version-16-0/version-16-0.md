@@ -33,18 +33,16 @@ Advanced users can set up *custom distributions* defined by a function graph.
 <table>
     <tr>
         <td>
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Uniform distribution</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Poisson distribution</i>
         </td>
         <td>
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Poisson distribution</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Uniform distribution</i>
         </td>
         <td>
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Density map</i>
         </td>
     </tr>
 </table>
-
-[EXAMPLES: Poisson, uniform, density map]
 
 ### 3D shapes
 
@@ -55,6 +53,21 @@ a height map* or authoring *3D SDF shapes*. (More on that below)
 
 This unlocks scatterings that are more dynamic, more varied and more believable across the board. And it is now possible
 to repurpose 3D shapes for variations by flipping them. (We see you, environment artists!)
+
+<table>
+    <tr>
+        <td>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Random 3D rotation</i>
+        </td>
+        <td>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>Slope rotation</i>
+        </td>
+        <td>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>Shape extrusion</i>
+        </td>
+    </tr>
+</table>
+
 
 [EXAMPLES: Primitives, extrude height map, 3D SDF]
 
