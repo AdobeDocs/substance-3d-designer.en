@@ -14,20 +14,9 @@ user-guide-title: ""
 
 # Version 16.0
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Version 16.0
-
-</td>
-<td style="border: 0;" valign="top">
+This 16.0 version introduces a more creative workflow for pattern scattering and manipulation thanks to new Shape Splatter and the SDF nodes. It also natively supports OpenPBR and improves displacement settings in the 3D view. 
 
 *Release date: April 14th, 2026*
-
-</td>
-</tr>
-</table>
 
 ![Banner Designer 16-0](./version-16-0.resources/version-16-0-banner.jpg)
 
@@ -117,10 +106,9 @@ boolean operators to morphs, shell and symmetries, they dramatically expand the 
 can be achieved
 * **Transforms** let you adjust the shapes' position, rotation and size as you might expect and beyond with bending, 
 twisting and elongation.
-* **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used 
-by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) family of nodes for masking or coloring shapes.
+* **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) family of nodes for masking or coloring shapes.
 
-![version-16-0-SDFFunctions.png](version-16-0.resources/version-16-0-SDFFunctions.png)
+![SDFShort.gif](version-16-0.resources/SDFShort.gif)
   
 
 Lightweight nodes with clear and readable icons make building 3D SDF functions easier than you might think, especially
@@ -165,25 +153,13 @@ passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid
 <a name="openpbr-support"></a>
 ## OpenPBR support
 
-The [OpenPBR material model](../../interface/3d-view/material-properties/material-properties.md#openpbr) is now supported throughout the application, with dedicated shaders in both our new renderers
-(Rasterizer, GPU Pathtracer) and the OpenGL renderer.
+[OpenPBR Surface](https://academysoftwarefoundation.github.io/OpenPBR/) is a specification of a surface shading model intended as a standard for computer graphics and is capable of accurately modeling the vast majority of materials. 
 
-<table style="border: none;">
-    <tr style="vertical-align: top;">
-        <td style="text-align: center">
-            <img src="./version-16-0.resources/version-16-0-openpbr-03a.jpg" alt="OpenPBR material in Rasterizer" />
-        </td>
-        <td style="text-align: center">
-            <img src="./version-16-0.resources/version-16-0-openpbr-03b.jpg" alt="OpenPBR material in GPU Pathtracer" />
-        </td>
-        <td style="text-align: center">
-            <img src="./version-16-0.resources/version-16-0-openpbr-03c.jpg" alt="OpenPBR material in OpenGL" />
-        </td>
-    </tr>
-</table>
+This [material model](../../interface/3d-view/material-properties/material-properties.md#openpbr) is now supported throughout the application, with dedicated shaders in both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
-Get started with this widely adopted industry standard with new graph templates, or go through the built-in material
-samples now based on OpenPBR.
+![OpenPBRShort.gif](version-16-0.resources/OpenPBRShort.gif)
+
+Get started with this widely adopted industry standard with new graph templates, or go through the built-in material samples now based on OpenPBR.
 
 <table style="border: none;">
     <tr style="vertical-align: top;">
@@ -196,11 +172,9 @@ samples now based on OpenPBR.
     </tr>
 </table>
 
-The OpenPBR shader is now the default for the 3D View and natively supports graphs from previous versions by matching
-legacy PBR usages to OpenPBR's.
+The OpenPBR shader is now the default for the 3D View and natively supports graphs from previous versions by matching legacy PBR usages to OpenPBR's.
 
-OpenPBR shaders support more effects than the existing shaders, such as thin film and thin wall. All effects
-are available in rasterization (Rasterizer, OpenGL), including refraction at long last!
+OpenPBR shaders support more effects than the existing shaders, such as thin film and thin wall. All effects are available in rasterization (Rasterizer, OpenGL), including refraction at long last!
 
 <table style="border: none;">
     <tr style="vertical-align: top;">
@@ -228,7 +202,7 @@ properties and renderer settings.
 
 These controls are available for both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
-[EXAMPLES: Displacement pop-up in each renderer]
+![DisplacementShort.gif](version-16-0.resources/DisplacementShort.gif)
 
 If the scene includes multiple materials, select the object of the scene that you want to adjust beforehand by holding
 <code>Shift</code> and clicking it (Rasterizer and GPU Pathtracer only) or select it in the Scene browser.
@@ -384,4 +358,6 @@ are synchronized
 
 ### KNOWN ISSUES
 
-* &#91;Category&#93; Item
+* &#91;Graph&#93; Generated icons for OpenPBR graphs are not accurate
+* &#91;3D View&#93; Scenes with animated primitives are not properly supported
+* &#91;3D View&#93; Pathtracer is not supported on all AMD graphic cards
