@@ -79,11 +79,18 @@ more efficient workflows.<br>Packing patterns is simplified thanks to the new [G
 <a name="3d-sdf-nodes"></a>
 ## 3D SDF nodes (signed distance field)
 
-Designer 16.0 adds a powerful method of generating 3D shapes in a function graph using a vast catalogue of nodes for
-authoring SDF functions.
-
-Signed distance fields are representations of space as a distance to surfaces defined mathematically. They can be used
-to define shapes of increasing complexity as these surfaces are transformed and combined using various operators.
+<table style="border: none;">
+    <tr style="vertical-align: top;">
+        <td>
+            <p>Designer 16.0 adds a powerful method of generating 3D shapes in a function graph using a vast catalogue of nodes for
+authoring SDF functions.</p><p>Signed distance fields are representations of space as a distance to surfaces defined mathematically. They can be used
+to define shapes of increasing complexity as these surfaces are transformed and combined using various operators.</p>
+        </td>
+        <td style="text-align: right; width: 25%">
+            <img src="./version-16-0.resources/version-16-0-SDFFunctionsBreakdown.gif" alt="Building shapes with SDF Functions" />
+        </td>
+    </tr>
+</table>
 
 ### Authoring 3D SDF functions
 
@@ -99,7 +106,8 @@ twisting and elongation.
 * **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used 
 by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape_splatter_v2.md) family of nodes for masking or coloring shapes.
 
-[EXAMPLES: SDF primitives, operators, transforms]
+![version-16-0-SDFFunctions.png](version-16-0.resources/version-16-0-SDFFunctions.png)
+  
 
 Lightweight nodes with clear and readable icons make building 3D SDF functions easier than you might think, especially
 with this next addition to the toolset...
@@ -113,7 +121,32 @@ and support for rendering basic materials. (Color, roughness and metalness)
 The node also includes features for checking the generated shapes in detail and debugging issues: separate rendering
 passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid and rotation arcs)
 
-[EXAMPLES: Adjustable camera, AOVs, helpers + isolines]
+<table style="border: none;">
+    <tr style="width: 50%;">
+        <td style="text-align: center">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.resources/3d-viewer-example-01.jpg" alt="Example 1" />
+        </td>
+        <td style="width: 50%;">
+            <table style="border: none;">
+                <tr style="vertical-align: top;">
+                    <td style="text-align: center">
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.resources/3d-viewer-example-02a.jpg" alt="Example 1" />
+                    </td>
+                    <td style="text-align: center">
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.resources/3d-viewer-example-02b.jpg" alt="Example 2" />
+                    </td>
+                </tr>
+                <tr style="vertical-align: top;">
+                    <td style="text-align: center">
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.resources/3d-viewer-example-02c.jpg" alt="Example 3" />
+                    </td>
+                    <td style="text-align: center">
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d_viewer.resources/3d-viewer-example-02d.jpg" alt="Example 4" />
+                    </td>
+                </tr>
+            </table>
+    </tr>
+</table>
 
 <a name="openpbr-support"></a>
 ## OpenPBR support

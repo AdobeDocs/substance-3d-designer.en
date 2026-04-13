@@ -9,7 +9,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![3D viewer icon](./3d_viewer.png "3D viewer")
+![3D viewer icon](3d_viewer.resources/3d_viewer.png "3D viewer")
 
 <b>In:</b> Filter &gt; Effect
 
@@ -83,3 +83,32 @@ Computes a 3D render for a specified SDF or intersection scene defined by a func
 | <b>SDF isolines frequency</b> *Float*         | The amount of isoline repetitions within a given distance.<br><br>A higher value results in denser, thinner lines.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <b>SDF isolines position</b> *Float*          | The world space height of the XY plane used to draw the isolines.<br><br>Use this to check the distance field of the shape at various elevations.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | <b>Min. hit distance</b> *Float*              | Defines the minimum distance that translates into a hit for the SDF ray marching process.<br><br>A low value will increase the number of ray marching steps.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+
+## Examples
+
+<table style="border: none;">
+    <tr style="width: 50%;">
+        <td style="text-align: center">
+            <img src="./3d_viewer.resources/3d-viewer-example-01.jpg" alt="Example 1" />
+        </td>
+        <td style="width: 50%;">
+            <table style="border: none;">
+                <tr style="vertical-align: top;">
+                    <td style="text-align: center">
+                        <img src="./3d_viewer.resources/3d-viewer-example-02a.jpg" alt="Example 1" />
+                    </td>
+                    <td style="text-align: center">
+                        <img src="./3d_viewer.resources/3d-viewer-example-02b.jpg" alt="Example 2" />
+                    </td>
+                </tr>
+                <tr style="vertical-align: top;">
+                    <td style="text-align: center">
+                        <img src="./3d_viewer.resources/3d-viewer-example-02c.jpg" alt="Example 3" />
+                    </td>
+                    <td style="text-align: center">
+                        <img src="./3d_viewer.resources/3d-viewer-example-02d.jpg" alt="Example 4" />
+                    </td>
+                </tr>
+            </table>
+    </tr>
+</table>
