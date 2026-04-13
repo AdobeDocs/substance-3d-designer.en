@@ -10,7 +10,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Shape splatter v2 icon](./shape-splatter-v2.png "Shape splatter v2")
+![Shape splatter v2 icon](shape-splatter-v2.resources/shape-splatter-v2.png "Shape splatter v2")
 
 <b>In:</b> Generator &gt; Pattern
 

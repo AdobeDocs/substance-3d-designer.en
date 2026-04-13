@@ -12,6 +12,9 @@
 ## Fixes
 
 * HelpX links
+* Remove in-page ToC (E.g. new noises)
+* Fix node page layouts (E.g. new noises)
+* Fix link for 1st example image in node pages (E.g. new noises)
 
 ## Investigate
 

@@ -41,6 +41,20 @@ The new [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/nod
 the *clean gathering* of shapes in specific areas with a **density map**.<br>
 Advanced users can set up *custom distributions* defined by a function graph.
 
+<table>
+    <tr>
+        <td>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Uniform distribution</i>
+        </td>
+        <td>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Poisson distribution</i>
+        </td>
+        <td>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Density map</i>
+        </td>
+    </tr>
+</table>
+
 [EXAMPLES: Poisson, uniform, density map]
 
 ### 3D shapes
