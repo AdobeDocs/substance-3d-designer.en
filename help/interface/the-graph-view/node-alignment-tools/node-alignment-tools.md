@@ -34,11 +34,11 @@ Nodes may be aligned horizontally and vertically, with three modes for each axis
 
 ### Horizontal alignments
 
-<b>!&#91;&#93;(../../../assets/node-alignment-h-left.png) Left:</b> Align the left side of the selected nodes to the left side of the leftmost node.
+<b>![](../../../assets/node-alignment-h-left.png) Left:</b> Align the left side of the selected nodes to the left side of the leftmost node.
 
-<b>!&#91;&#93;(../../../assets/node-alignment-h-center.png) Center (H):</b> Align the horizontal center of the selected nodes to the horizontal center of the bounding box encompassing them.
+<b>![](../../../assets/node-alignment-h-center.png) Center (H):</b> Align the horizontal center of the selected nodes to the horizontal center of the bounding box encompassing them.
 
-<b>!&#91;&#93;(../../../assets/node-alignment-h-right.png) Right:</b> Align the right side of the selected nodes to the right side of the rightmost node.
+<b>![](../../../assets/node-alignment-h-right.png) Right:</b> Align the right side of the selected nodes to the right side of the rightmost node.
 
 <table>
 <tr style="border: 0;">
@@ -68,11 +68,11 @@ Nodes may be aligned horizontally and vertically, with three modes for each axis
 
 ### Vertical alignments
 
-<b>!&#91;&#93;(../../../assets/node-alignment-v-top.png) Top:</b> Align the top side of the selected nodes to the top side of the uppermost node.
+<b>![](../../../assets/node-alignment-v-top.png) Top:</b> Align the top side of the selected nodes to the top side of the uppermost node.
 
-<b>!&#91;&#93;(../../../assets/node-alignment-v-middle.png) Middle (V):</b> Align the vertical center of the selected nodes to the vertical center of the bounding box encompassing them.
+<b>![](../../../assets/node-alignment-v-middle.png) Middle (V):</b> Align the vertical center of the selected nodes to the vertical center of the bounding box encompassing them.
 
-<b>!&#91;&#93;(../../../assets/node-alignment-v-bottom.png) Bottom:</b> Align the bottom side of the selected nodes to the bottom side of the lowermost node.
+<b>![](../../../assets/node-alignment-v-bottom.png) Bottom:</b> Align the bottom side of the selected nodes to the bottom side of the lowermost node.
 
 <table>
 <tr style="border: 0;">
@@ -112,9 +112,9 @@ When enabled, nodes will be moved as far as possible to the reference position u
 
 Nodes can be distributed evenly between the nodes at each extremes of the current selection on the desired axis.
 
-<b>!&#91;&#93;(../../../assets/node-alignment-distribute-h.png) Horizontally:</b> Nodes are distributed evenly between the leftmost and rightmost nodes in the selection.
+<b>![](../../../assets/node-alignment-distribute-h.png) Horizontally:</b> Nodes are distributed evenly between the leftmost and rightmost nodes in the selection.
 
-<b>!&#91;&#93;(../../../assets/node-alignment-distribute-v.png) Vertically:</b> Nodes are distributed evenly between the topmost and lowermost nodes in the selection.
+<b>![](../../../assets/node-alignment-distribute-v.png) Vertically:</b> Nodes are distributed evenly between the topmost and lowermost nodes in the selection.
 
 The distributions aim for <b>even spacing</b> between the nodes, regardless of their size.
 
@@ -147,7 +147,7 @@ Note that when the total size of the selected nodes is greater than the space av
 
 ## Grid snapping
 
-The <b>Snap (S) !&#91;&#93;(../../../assets/node-alignment-snap.png)</b> action moves each selected node so that their top-left corner rests on the closest point on the medium grid.
+The <b>Snap (S) ![](../../../assets/node-alignment-snap.png)</b> action moves each selected node so that their top-left corner rests on the closest point on the medium grid.
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

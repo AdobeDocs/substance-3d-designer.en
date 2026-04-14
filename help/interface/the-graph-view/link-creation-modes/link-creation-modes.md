@@ -24,7 +24,7 @@ In [Substance graphs](../../../compositing-graphs/substance-compositing-graphs.m
 
 *Click to enlarge*
 
-<b>!&#91;&#93;(../../../assets/image2020-10-6-19-40-25.png) Standard</b> (1)
+<b>![](../../../assets/image2020-10-6-19-40-25.png) Standard</b> (1)
 
 No conditions are enforced.
 

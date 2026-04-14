@@ -31,7 +31,6 @@ Graph Resources are the main resources created inside Designer. Each have their 
 
 * [Substance graphs](../compositing-graphs/substance-compositing-graphs.md)
 * [Function graphs](../function-graphs/function-graphs.md)
-* [MDL Graphs](../mdl-graphs/mdl-graphs.md)
 
 </td>
 </tr>

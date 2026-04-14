@@ -96,7 +96,6 @@ There are 4 different graph types:
 * Substance graph (*SDSBSCompGraph*)
 * Substance function graph (*SDSBSFunctionGraph*)
 * Substance FXMap graph (*SDSBSFxMapGraph*)
-* MDL graph (*SDMDLGraph*)
 
 A graph can have one or multiple <b>output</b> nodes. The output nodes represent the <b>results</b> of the graph.
 
@@ -122,7 +121,6 @@ There are multiple <b>types</b> of node:
 * *<b>SDSBSCompNode</b>*: A node of the Substance Graph (*SDSBSCompGraph*);
 * *<b>SDSBSFunctionNode</b>*: A node of the Substance Function Graph (*SDSBSFunctionGraph*);
 * *<b>SDSBSFxMapNode</b>*: A node of the Substance FXMap Graph (*SDSBSFxMapGraph*);
-* *<b>SDMDLNode</b>*: A node of the MDL Graph (*SDMDLGraph*). *Note:* Many other specific nodes inherit from this node.
 
 ## Graph Objects (SDGraphObjects)
 

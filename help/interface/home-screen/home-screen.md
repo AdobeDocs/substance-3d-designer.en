@@ -74,7 +74,6 @@ On the left of the screen, you can find a list of shortcuts for creating a new g
 
 * <b>New Substance graph:</b> Opens the [New Substance graph](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) window;
 * <b>Open package:</b> Lets you load an existing package;
-* <b>New MDL graph:</b> Opens the [New MDL graph](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) window;
 * <b>Import AxF:</b> Starts an [AxF importing workflow](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md).
 
 ![About Substance 3D Designer screen](../../assets/home-screen-about.jpg "About Substance 3D Designer screen"){width="256px"}

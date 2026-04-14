@@ -18,19 +18,19 @@ This page presents the Graph view dock of Substance 3D Designer.
 
 The graph view is the main window of [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), where you author and edit your graphs. The graph view has two main areas: a toolbar at the top, providing quick access to certain functions, and the actual graph area where nodes are placed.
 
-The graph view is used for all graph types, but differs slightly between [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), [function graphs](../../function-graphs/function-graphs.md), [MDL graphs](../../mdl-graphs/mdl-graphs.md) and [FX-Map graphs](../../function-graphs/fxmaps/fxmaps.md), mainly in the toolbar area.
+The graph view is used for all graph types, but differs slightly between [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), [function graphs](../../function-graphs/function-graphs.md) and [FX-Map graphs](../../function-graphs/fxmaps/fxmaps.md), mainly in the toolbar area.
 
 ## Viewport navigation
 
 The graph may be navigated using the following actions:
 
-* <b>Pan:</b> MMB / Ctrl+RMB
-* <b>Zoom:</b> MouseWheel / Alt + RMB
+* <b>Pan:</b> MMB / Ctrl+RMB
+* <b>Zoom:</b> MouseWheel / Alt + RMB
 
 Using a trackpad (macOS only)
 
-* <b>Pan: </b>Two-finger swipe
-* <b>Zoom:</b> Two-finger pinch / Two-finger swipe while holding Cmd
+* <b>Pan: </b>Two-finger swipe
+* <b>Zoom:</b> Two-finger pinch / Two-finger swipe while holding Cmd
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ Using a trackpad (macOS only)
 > * Mouse wheel up *pulls* the graph view closer
 > * Alt+RMB and drag up *pushes* the graph view away
 > 
-> The zoom direction can be inverted in the [Preferences](../../interface/preferences-window/preferences-window.md).
+> The zoom direction can be inverted in the [Preferences](../../interface/preferences-window/preferences-window.md).
 
 ![Viewport navigation](../../assets/navigating.gif "Viewport navigation")
 
-You <b>focus</b> on the selected node(s), or the whole graph if nothing is selected, with the F key.
+You <b>focus</b> on the selected node(s), or the whole graph if nothing is selected, with the F key.
 
 Navigation can also happen by using <b>Navigation pins </b>and the F2 key, see [graph items](#graph-items) below[.](../../interface/the-graph-view/graph-items/graph-items.md)
 
@@ -56,7 +56,7 @@ Click LMB on a object (I.e., a node or graph item) then hold and drag the cursor
 If the cursor <b>reaches a border</b> of the Graph View while moving objects, the view is panned in the direction of the cursor. Note that the pan is faster as the cursor moves further away from the border.  
 This also applies to drawing selection boxes across Graph View borders.
 
-By default, objects are <b>snapped to the grid</b> as they are moved. Hold Ctrl (Windows) / ⌘ (macOS) while moving objects to disable that snapping.
+By default, objects are <b>snapped to the grid</b> as they are moved. Hold Ctrl (Windows) / ⌘ (macOS) while moving objects to disable that snapping.
 
 ## Graph items
 
@@ -72,7 +72,7 @@ Several helper objects are available to help organise and navigate the graph, es
 
 >[!NOTE]
 >
-> Learn more in the [Graph items](../../interface/the-graph-view/graph-items/graph-items.md) section of this documentation.
+> Learn more in the [Graph items](../../interface/the-graph-view/graph-items/graph-items.md) section of this documentation.
 
 ## Graph contextual menu
 
@@ -142,7 +142,7 @@ Nodes can be placed in graphs in 5 ways, regardless of the graph type:
 * Right-clicking on an empty area of the graph, and choosing <b>Add node</b>. Only [Atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) can be placed this way.
 * Dragging a thumbnail from the Library View into the graph View. This method works for[ all types of nodes, including node Instances](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md).
 * Pressing <b>Spacebar</b> to access the <b>Node menu</b>. See below.
-* Using the keyboard shortcut mapped to a node. Mapping is performed in the [Preferences window](../../interface/preferences-window/preferences-window.md).
+* Using the keyboard shortcut mapped to a node. Mapping is performed in the [Preferences window](../../interface/preferences-window/preferences-window.md).
 
 ![Placing nodes](../../assets/nodecreation.gif "Placing nodes")
 
@@ -160,13 +160,13 @@ Removing nodes can be done in two ways, depending on how you want a lost link to
 
 ### Node menu
 
-Pressing <b>Spacebar</b> in the Graph View displays the Node menu.
+Pressing <b>Spacebar</b> in the Graph View displays the Node menu.
 
-This menu provides access to all nodes in the [Library](../../interface/the-library/the-library.md) through a search interface and lets your favorite nodes so they appear on top of the list.
+This menu provides access to all nodes in the [Library](../../interface/the-library/the-library.md) through a search interface and lets your favorite nodes so they appear on top of the list.
 
-You may use the arrow keys to go through the search results. The lists *loops*, so that using the 'Up' arrow key on the first item goes to the last item.
+You may use the arrow keys to go through the search results. The lists *loops*, so that using the 'Up' arrow key on the first item goes to the last item.
 
-Search is *fuzzy*, which means it is forgiving of small differences in the search term. E.g., 'Colour' vs 'Color', 'Normalize' vs 'Normalise', etc.
+Search is *fuzzy*, which means it is forgiving of small differences in the search term. E.g., 'Colour' vs 'Color', 'Normalize' vs 'Normalise', etc.
 
 If a *single* node is selected in the graph, or the Node menu is spawned by dragging a node connector, the search results are automatically *filtered* based on the output type.  
 For instance, only nodes with a [Primary Input](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) of type Grayscale are listed for an output of type Grayscale.
@@ -285,14 +285,14 @@ Nodes can be disabled so they have *no effect* in the graph but do not need to b
 
 Disabled nodes have the following behaviour:
 
-* They are displayed with the ![](../../assets/graph-badge-disabled.png) <b>Disabled</b> badge*,*a *dashed outline*, and an interior *rerouting* link instead of a thumbnail;
-* The nodes will output the data received in their *main input*;
-* Disabled nodes can be *chained* together;
-* Their properties and connections are *not modified*;
-* Their disabled state is *saved* and persists across sessions;
-* When publishing to SBSAR, the resulting file takes *into account* the disabled state of nodes – i.e. what you see is what you get.
+* They are displayed with the ![](../../assets/graph-badge-disabled.png)&nbsp;&nbsp;<b>Disabled</b> badge*,*a *dashed outline*, and an interior *rerouting* link instead of a thumbnail;
+* The nodes will output the data received in their *main input*;
+* Disabled nodes can be *chained* together;
+* Their properties and connections are *not modified*;
+* Their disabled state is *saved* and persists across sessions;
+* When publishing to SBSAR, the resulting file takes *into account* the disabled state of nodes – i.e. what you see is what you get.
 
-You can disable a node or a group of selected nodes by using the <b>Shift+D</b> keystroke, or by right-clicking in the graph and selecting the <b>Disable node/Disable selection</b> item in the contextual menu.
+You can disable a node or a group of selected nodes by using the <b>Shift+D</b> keystroke, or by right-clicking in the graph and selecting the <b>Disable node/Disable selection</b> item in the contextual menu.
 
 >[!IMPORTANT]
 >
@@ -335,134 +335,88 @@ To apply an node output in the [3D view](../../interface/3d-view/3d-view.md), cl
 
 The main toolbar can be found in every graph type, and provides general functions, as well as toggles for the visibility of the other toolbars. You can find these functions:
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-25-57.png) Focus selection</b> (F)  
+![](../../assets/image2020-6-26-16-25-57.png)&nbsp;&nbsp;<b>Focus selection</b> (F)  
 Focus view on selection, or whole scene if selection is empty.
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-26-8.png) Reset zoom</b> (Z)  
+![](../../assets/image2020-6-26-16-26-8.png)&nbsp;&nbsp;<b>Reset zoom</b> (Z)  
 Bring back the current zoom level to it's default state, and centers the view on the middle of the graph. Can mean zooming in or out.
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-26-26.png) Export Graph view  
+![](../../assets/image2020-6-26-16-26-26.png)&nbsp;&nbsp;<b>Export Graph view  
 </b>Exports the full graph at a 1:1 resolution as an image. Useful for sharing a screenshot of your entire graph.
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-26-37.png) Node information  
-</b>*- Display connector name:* Toggles the name display of each individual connector on a node.  
-*- Display node result:* Toggles the display of numerical values in nodes ([MDL graph](../../mdl-graphs/mdl-graphs.md) only).  
-*- Display node badges:* Toggles node Badges on all nodes.  
-*- Display node size:* Toggles node resolution display ([Substance graph](../../compositing-graphs/substance-compositing-graphs.md) only).  
-*- Display timings:* Toggles display of millisecond timings for each node ([Substance graph](../../compositing-graphs/substance-compositing-graphs.md) only).  
-*- Limit text scaling when zooming out:* Keeps the text of [graph items](../../interface/the-graph-view/graph-items/graph-items.md) at a constant screen size past a zoom threshold, which keeps the text clearly visible when zooming out.
+![](../../assets/image2020-6-26-16-26-37.png)&nbsp;&nbsp;<b>Node information  
+</b>*- Display connector name:* Toggles the name display of each individual connector on a node.  
+*- Display node badges:* Toggles node Badges on all nodes.  
+*- Display node size:* Toggles node resolution display ([Substance graph](../../compositing-graphs/substance-compositing-graphs.md) only).  
+*- Display timings:* Toggles display of millisecond timings for each node ([Substance graph](../../compositing-graphs/substance-compositing-graphs.md) only).  
+*- Limit text scaling when zooming out:* Keeps the text of [graph items](../../interface/the-graph-view/graph-items/graph-items.md) at a constant screen size past a zoom threshold, which keeps the text clearly visible when zooming out.
 
-![](../../assets/image2020-6-26-16-26-52.png)<b> Node finder</b> (Ctrl+F)  
+![](../../assets/image2020-6-26-16-26-52.png)<b> Node finder</b> (Ctrl+F)  
 Enables a tool to find nodes, exposed parameters and other variables in the graph. Learn more in the [dedicated page](../../interface/the-graph-view/node-finder/node-finder.md).
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-27-43.png) Highlight flow  
+![](../../assets/image2020-6-26-16-27-43.png)&nbsp;&nbsp;<b>Highlight flow  
 </b>Highlight any nodes connected before, or after the currently selected node. Good for tracing a complex path of nodes.
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-28-30.png) Node palette  
+![](../../assets/image2020-6-26-16-28-30.png)&nbsp;&nbsp;<b>Node palette  
 </b>Shows or hide the node toolbar, see below.
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-32-33.png) Rectangle links  
-</b>Switch between rounded or rectangular-shaped links between nodes. Not available for [FX-Maps.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
+![](../../assets/image2020-6-26-16-32-33.png)&nbsp;&nbsp;<b>Rectangle links  
+</b>Switch between rounded or rectangular-shaped links between nodes. Not available for [FX-Maps.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-38-2.png) Node alignment tools  
+![](../../assets/image2020-6-26-16-38-2.png)&nbsp;&nbsp;<b>Node alignment tools  
 </b>Enables tools to arrange selected nodes in the graph. Learn more in the [dedicated page](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md).
 
-Only on [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md):
+Only on [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md):
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-29-6.png) Parent size  
+![](../../assets/image2020-6-26-16-29-6.png)&nbsp;&nbsp;<b>Parent size  
 </b>Toggles display of the Parent Resolution control settings, see below.
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-31-15.png) Link Creation Modes</b> (1, 2, 3)  
-Choose between Standard (1), Material (2) and Compact Material (3) link creation modes to link node connectors individually or in batch. Learn more in the [dedicated page](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).
+![](../../assets/image2020-6-26-16-31-15.png)&nbsp;&nbsp;<b>Link Creation Modes</b> (1, 2, 3)  
+Choose between Standard (1), Material (2) and Compact Material (3) link creation modes to link node connectors individually or in batch. Learn more in the [dedicated page](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-33-35.png) Timings control  
+![](../../assets/image2020-6-26-16-33-35.png)&nbsp;&nbsp;<b>Timings control  
 </b>Lets you reset all nodes and reset all timings.
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-34-12.png) Tools  
-</b>*- Clean:* Removes all nodes which are part of a stream not connected to an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.  
-*- Export outputs:* Opens the [Bitmap Export interface](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).  
-*- Reexport outputs:* Performs the previous export operation again.  
-*- PSD Exporter:* Opens[the PSD Exporter interface.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+![](../../assets/image2020-6-26-16-34-12.png)&nbsp;&nbsp;<b>Tools  
+</b>*- Clean:* Removes all nodes which are part of a stream not connected to an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.  
+*- Export outputs:* Opens the [Bitmap Export interface](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).  
+*- Reexport outputs:* Performs the previous export operation again.  
+*- PSD Exporter:* Opens[the PSD Exporter interface.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
-<b>!&#91;&#93;(../../assets/image2020-6-26-16-37-16.png) Node image cache  
+![](../../assets/image2020-6-26-16-37-16.png)&nbsp;&nbsp;<b>Node image cache  
 </b>Toggles display of the node image cache toggle, see below.
 
-<b>!&#91;&#93;(../../assets/graph-cleaner.jpg) Remove unused nodes  
+![](../../assets/graph-cleaner.jpg) Remove unused nodes  
 </b>Displays options for removing unused nodes in graphs, see below.
 
 ### Node palette
 
 The node toolbar differs depending on the graph type:
 
-<b>&#91;Substance graphs&#93;(../../compositing-graphs/substance-compositing-graphs.md):</b> see [atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) and [graph items](../../interface/the-graph-view/graph-items/graph-items.md).
+[![Node palette](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+<b>[Substance graphs](../../compositing-graphs/substance-compositing-graphs.md):</b> see [atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) and [graph items](../../interface/the-graph-view/graph-items/graph-items.md).
 
-[![Node palette](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+![Graph items palette](../../assets/image2020-6-26-16-46-32.png "Graph items palette")<br>
+<b>[Substance function graphs](../../function-graphs/function-graphs.md):</b> see [graph items](../../interface/the-graph-view/graph-items/graph-items.md).
 
-<b>&#91;Substance function graphs&#93;(../../function-graphs/function-graphs.md)/&#91;MDL graphs&#93;(../../mdl-graphs/mdl-graphs.md):</b> see [graph items](../../interface/the-graph-view/graph-items/graph-items.md).
 
-</td>
-<td width="25.00%" style="border: 0;" valign="top">
-
-![Graph items palette](../../assets/image2020-6-26-16-46-32.png "Graph items palette")
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-<b>&#91;FX-Map graphs&#93;(../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> see [graph items.](../../interface/the-graph-view/graph-items/graph-items.md)
-
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
-
-![FX-Map palette](../../assets/image2020-6-26-16-48-4.png "FX-Map palette")
-
-</td>
-</tr>
-</table>
+![FX-Map palette](../../assets/image2020-6-26-16-48-4.png "FX-Map palette")<br>
+<b>[FX-Map graphs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> see [graph items.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ### Parent size
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-This toolbar is only available in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), and sets the [Output size](../../compositing-graphs/output-size/output-size.md) of the graph's *parent*, which impacts the graph's Output size if it uses the *Relative to parent* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
-
-</td>
-<td width="25.00%" style="border: 0;" valign="top">
-
 ![Parent size toolbar](../../assets/image2020-6-26-17-0-48.png "Parent size toolbar")
 
-</td>
-</tr>
-</table>
+This toolbar is only available in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), and sets the [Output size](../../compositing-graphs/output-size/output-size.md) of the graph's *parent*, which impacts the graph's Output size if it uses the *Relative to parent* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 Horizontal and vertical size are linked by default, but can be *unlinked* for non-square textures. Values can also be reset to the default value of 256 x 256.
 
 ### Node image cache
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-This toggle the use of cache when computing nodes in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md).
-
-</td>
-<td width="25.00%" style="border: 0;" valign="top">
-
 ![Node image cache setting](../../assets/graph-toolbar-node-cache.png "Node image cache setting")
 
-</td>
-</tr>
-</table>
+This toggle the use of cache when computing nodes in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md).
 
 When a node is computed, its output images are stored in memory – i.e., cache – so they can be *reused* when recomputing the graph if this node is not impacted by a change. This means only the part of the graph which actually changes gets recomputed.
 
@@ -472,22 +426,11 @@ Enabling this option results in a large boost to the overall responsiveness of g
 
 ### Remove unused nodes
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+![Remove unused nodes drop down menu](../../assets/graph-cleaner-menu.jpg "Remove unused nodes drop down menu")
 
 As you iterate in graphs and try things, some nodes which have no effect on the final result can get left behind. This adds clutter as well as wasteful computation since all nodes are evaluated in the first stages of graph rendering.
 
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
-
-![Remove unused nodes drop down menu](../../assets/graph-cleaner-menu.jpg "Remove unused nodes drop down menu")
-
-</td>
-</tr>
-</table>
-
-The <b>!&#91;&#93;(../../assets/graph-cleaner.jpg) Remove unused nodes</b> tool deletes all nodes that are *not* part of a stream which *ends in an output* node. The only exception is *input* nodes since deleting these would change the interface of [instance nodes](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) referencing this graph.
+The ![](../../assets/graph-cleaner.jpg) Remove unused nodes</b> tool deletes all nodes that are *not* part of a stream which *ends in an output* node. The only exception is *input* nodes since deleting these would change the interface of [instance nodes](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) referencing this graph.
 
 ![Remove unused nodes](../../assets/graph-cleaner.gif "Remove unused nodes")
 

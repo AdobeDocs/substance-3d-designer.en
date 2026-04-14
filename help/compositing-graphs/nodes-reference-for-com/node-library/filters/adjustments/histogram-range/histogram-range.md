@@ -34,7 +34,7 @@ user-guide-title: ""
 Reduce and/or move the range of a grayscale input. Can be used to remap transitions, similar to [Contrast Luminosity](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md), but with different controls that might make more sense for some situations.  
 Also see [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) for another, more useful way to remap the range.
 
-[Click here to watch a Substance Academy video on Histogram Range.](https://www.youtube.com/watch?v=p9wcmJBFyGA&amp;t=517s)
+[Click here to watch a Substance Academy video on Histogram Range.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
 ## Parameters
 

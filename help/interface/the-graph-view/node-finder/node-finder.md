@@ -33,7 +33,7 @@ The Node Finder can be accessed in two ways:
 
 In the Graph View, press <b>Ctrl+F</b> (Windows) / <b>Cmd+F</b> (macOS) to display the Node Finder toolbar and automatically set the focus on the query field. This lets you perform a search quickly.
 
-In the Graph View toolbar, click the <b>Node Finder button !&#91;&#93;(../../../assets/graph-node-finder.png)</b> to display the Node Finder toolbar. Once displayed, the toolbar is only closed by clicking this button.
+In the Graph View toolbar, click the <b>Node Finder button ![](../../../assets/graph-node-finder.png)</b> to display the Node Finder toolbar. Once displayed, the toolbar is only closed by clicking this button.
 
 <b>Searches traverse graphs</b>. In other words, a search remains active when opening graphs through these actions:
 
@@ -108,7 +108,7 @@ The list is contextual to the current graph type.
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-The <b>Search options button !&#91;&#93;(../../../assets/node-finder-search-options.png)</b> opens a list of settings used for searching that can be toggled on and off.
+The <b>Search options button ![](../../../assets/node-finder-search-options.png)</b> opens a list of settings used for searching that can be toggled on and off.
 
 Learn more about these options in the Search options section below.
 
@@ -283,7 +283,7 @@ Searching for specific nodes is particularly effective when using their exact la
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-The <b>Search options button !&#91;&#93;(../../../assets/node-finder-search-options.png)</b> lets you toggle the <b>recursive</b> and <b>fuzzy</b> modes for searching nodes.
+The <b>Search options button ![](../../../assets/node-finder-search-options.png)</b> lets you toggle the <b>recursive</b> and <b>fuzzy</b> modes for searching nodes.
 
 Both can be enabled at the same time.
 

@@ -81,13 +81,13 @@ The main toolbar lets you access extra menu's, like the[ Preferences window](../
 
 ## Explorer
 
-[The Explorer window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) is the main way of interacting with any kind of file and resource. It gives more options than the File menu in the Main toolbar This is where start and end every working session.
+[The Explorer window](the-explorer-window/the-explorer-window.md) is the main way of interacting with any kind of file and resource. It gives more options than the File menu in the Main toolbar This is where start and end every working session.
 
 ![Explorer](../assets/explorer-4.png "Explorer")
 
 ## Graph view
 
-[The Graph view dock](../interface/the-graph-view/the-graph-view.md) is the most important window in Substance 3D Designer. It displays the nodal networks of any kind of graph that is available in Designer ([Substance graphs](../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../function-graphs/function-graphs.md), [MDL graphs](../mdl-graphs/mdl-graphs.md), [FX-Map graphs](../function-graphs/fxmaps/fxmaps.md)) and lets you build and edit them.
+[The Graph view dock](../interface/the-graph-view/the-graph-view.md) is the most important window in Substance 3D Designer. It displays the nodal networks of any kind of graph that is available in Designer ([Substance graphs](../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../function-graphs/function-graphs.md), [FX-Map graphs](../function-graphs/fxmaps/fxmaps.md)) and lets you build and edit them.
 
 ![Graph view](../assets/graph-6.png "Graph view")
 

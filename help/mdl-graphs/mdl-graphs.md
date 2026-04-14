@@ -20,6 +20,25 @@ This page presents MDL graphs in Substance 3D Designer, which let you author MDL
 
 *Malachite with Chrysocolla, MDL material by [Mark Foreman](https://www.artstation.com/oggyart)* *available on our [Legacy Substance Share](https://share-legacy.substance3d.com/libraries/4043)* *platform*
 
+>[!WARNING]
+> 
+> MDL graphs and all related features were removed from Designer in version 16.0.0.
+> 
+> Learn more here: [MDL graph and Iray end of life](../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
+
++++Table of contents
+
+* [Main MDL graph concepts](/help/mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)
+* [Creating an MDL graph](/help/mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
+* [MDL library](/help/mdl-graphs/mdl-library/mdl-library.md)
+* [Exposing parameters in MDL graphs](/help/mdl-graphs/exposing-parameters-mdl/exposing-parameters-in-mdl-graphs.md)
+* [Substance graphs and MDL materials](/help/mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md)
+* [Exporting MDL content](/help/mdl-graphs/exporting-mdl-content/exporting-mdl-content.md)
+* [Warnings in MDL graphs](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
+* [MDL learning resources](/help/mdl-graphs/mdl-learning-resources/mdl-learning-resources.md)
+
++++
+
 ## Overview
 
 MDL stands for [Materials Definition Language](http://www.nvidia.com/object/material-definition-language.html): "a technology developed by [NVIDIA](https://www.nvidia.com/) to define physically-based materials for physically-based rendering solutions." (Source: [NVIDIA MDL Documentation](https://raytracing-docs.nvidia.com/mdl/index.html))

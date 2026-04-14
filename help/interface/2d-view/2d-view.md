@@ -118,15 +118,15 @@ You can *overlay a different image* on top of the currently displayed one. Press
 
 Once the file is selected, a new toolbar appears with the following controls for the image overlay:
 
-<b>!&#91;&#93;(../../assets/2d-view-icon-background-close.png) Close:</b> *close* the overlay controls toolbar and *disable* the background image overlay.
+<b>![](../../assets/2d-view-icon-background-close.png) Close:</b> *close* the overlay controls toolbar and *disable* the background image overlay.
 
-<b>!&#91;&#93;(../../assets/2d-view-icon-background-loadpng.png) Load image:</b> select *another image file* to use as an overlay.
+<b>![](../../assets/2d-view-icon-background-loadpng.png) Load image:</b> select *another image file* to use as an overlay.
 
-<b>!&#91;&#93;(../../assets/2d-view-icon-background-0.png) Source image:</b> sets the overlay image to *0%* opacity.
+<b>![](../../assets/2d-view-icon-background-0.png) Source image:</b> sets the overlay image to *0%* opacity.
 
-<b>!&#91;&#93;(../../assets/2d-view-icon-background-100.png) Background image:</b> sets the overlay image to *100%* opacity.
+<b>![](../../assets/2d-view-icon-background-100.png) Background image:</b> sets the overlay image to *100%* opacity.
 
-<b>!&#91;&#93;(../../assets/2d-view-icon-background-50.png) Reset:</b> sets the overlay image to *50%* opacity.
+<b>![](../../assets/2d-view-icon-background-50.png) Reset:</b> sets the overlay image to *50%* opacity.
 
 A slider gives you *manual control* over the opacity of the overlay image.
 
@@ -297,9 +297,9 @@ Transparency display can be toggled on and off, using the ![](../../assets/2d-vi
 
 There are two main ways to interpret transparency, which can be selected using the ![](../../assets/2d-view-icon-transparency-straight.png)/![](../../assets/3d-view-icon-transparency-premultiplied.png) <b>Transparency mode</b> button:
 
-<b>!&#91;&#93;(../../assets/2d-view-icon-transparency-straight.png) Straight:</b> transparency information is only stored in the alpha channel, and does not impact any other aspect of the image
+<b>![](../../assets/2d-view-icon-transparency-straight.png) Straight:</b> transparency information is only stored in the alpha channel, and does not impact any other aspect of the image
 
-<b>!&#91;&#93;(../../assets/3d-view-icon-transparency-premultiplied.png) Premultiplied:</b> transparency information is stored in the alpha channel, and also impacts the RGB channels since they are effectively multiplied against the alpha channel
+<b>![](../../assets/3d-view-icon-transparency-premultiplied.png) Premultiplied:</b> transparency information is stored in the alpha channel, and also impacts the RGB channels since they are effectively multiplied against the alpha channel
 
 To display *correct colors*, the appropriate transparency mode should be selected in the <b>2D View</b> panel to match the transparency method which was applied when the image was *created*.
 

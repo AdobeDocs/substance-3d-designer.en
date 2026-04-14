@@ -16,27 +16,9 @@ user-guide-title: ""
 
 Authoring textures in Designer starts with creating a Substance graph, either from an prebuilt template or an empty graph.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="create-graph"></a>
 
-## creating a graph
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Graph templates
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Managing templates
-
-</td>
-</tr>
-</table>
-
-## Creating a Substance graph
+## Creating a graph
 
 To start the process of creating a new [Substance graph](../../compositing-graphs/substance-compositing-graphs.md), you may use one of these methods:
 
@@ -59,7 +41,7 @@ To start the process of creating a new [Substance graph](../../compositing-graph
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  On any *existing* package item in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), click <b>RMB</b> and go to <b>New &gt; Substance graph</b> in the contextual menu.
+  On any *existing* package item in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), click <b>RMB</b> and go to <b>New &gt; Substance graph</b> in the contextual menu.
 
   </td>
   <td style="border: 0;" valign="top">
@@ -89,7 +71,7 @@ To start the process of creating a new [Substance graph](../../compositing-graph
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  In the [main menu](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), go to <b>File &gt; New &gt; Substance graph...</b>
+  In the [main menu](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html), go to <b>File &gt; New &gt; Substance graph...</b>
 
   </td>
   <td style="border: 0;" valign="top">
@@ -100,9 +82,11 @@ To start the process of creating a new [Substance graph](../../compositing-graph
   </tr>
   </table>
 
-* Press the <b>Ctrl+N</b> (Windows) / <b>Cmd+N</b> (macOS) keystroke.
+* Press the <b>Ctrl+N</b> (Windows) / <b>Cmd+N</b> (macOS) keystroke.
 
 No matter which method you choose, you'll be presented with the <b>New Substance graph</b> dialog.
+
+<a name="graph-templates"></a>
 
 ## Graph templates
 
@@ -112,15 +96,15 @@ Regardless of the method used to create a new Substance graph, you will always b
 
 ### Templates
 
-Designer includes graph templates with preconfigured nodes to get you started faster. They may include [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes, simple nodes to pass values to these outputs - e.g. [Uniform color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), as well as [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) nodes.
+Designer includes graph templates with preconfigured nodes to get you started faster. They may include [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes, simple nodes to pass values to these outputs - e.g. [Uniform color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), as well as [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) nodes.
 
-Double-click on a template in the list, or select it and click the <b>Create</b> button to create a new Substance graph using that template. By default, the new graph is placed in a new unsaved package.
+Double-click on a template in the list, or select it and click the <b>Create</b> button to create a new Substance graph using that template. By default, the new graph is placed in a new unsaved package.
 
 >[!TIP]
 >
 > Starting from scratch
 > 
-> To start from an completely blank graph, select the <b>Empty</b> template in the 'Empty' category.
+> To start from an completely blank graph, select the <b>Empty</b> template in the 'Empty' category.
 
 >[!NOTE]
 >
@@ -136,7 +120,7 @@ Double-click on a template in the list, or select it and click the <b>Create</b>
 
 Each template is listed by its label and subtitle.
 
-The subtitle provides more context about the *use case* for the template: the material definition it is based on, the software it is meant to integrate with, etc.
+The subtitle provides more context about the *use case* for the template: the material model it is based on, the software it is meant to integrate with, etc.
 
 In <b>Thumbnails</b> mode, the subtitle is placed under the label in a darker, smaller text.
 
@@ -151,11 +135,15 @@ In <b>List</b>, <b>Packages</b> and <b>Directories</b> view modes, the subtitle 
 </tr>
 </table>
 
+<a name="material-samples"></a>
+
 ### Material samples
 
 The <b>Material samples</b> category includes a [curated selection of graphs](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) to learn from and experiment with.
 
 You can also access the samples directly from the Home screen, using the <b>Go to samples</b> button.
+
+All samples are based on the [OpenPBR material model](../../interface/3d-view/material-properties/material-properties.md#openpbr).
 
 ![Material samples - Home screen banner](../../assets/materialSamples-banner.png "Material samples - Home screen banner"){zoomable="yes"}
 
@@ -216,7 +204,7 @@ Cards with thumbnails providing a preview or icon of the template type.
 
 <b>List</b>
 
-Templates are listed by their label only.
+Templates are listed by their label only.
 
 ![New Substance graph dialog - Packages view](../../assets/newGraphDialog-viewMode-packages.png "New Substance graph dialog - Packages view"){zoomable="yes"}
 
@@ -224,7 +212,7 @@ Templates are listed by their label only.
 
 <b>Packages</b>
 
-Templates are listed by their label as children of the package file they belong to.
+Templates are listed by their label as children of the package file they belong to.
 
 Hover a package file item to display a tooltip with its full path.
 
@@ -256,6 +244,8 @@ Hover the question mark icon to display a tooltip with a button which links dire
 
 ![New Substance graph dialog - Help tooltip](../../assets/newGraphDialog-tooltipHelp.png "New Substance graph dialog - Help tooltip"){zoomable="yes"}
 
+<a name="managing-templates"></a>
+
 ## Managing templates
 
 <table>
@@ -266,7 +256,7 @@ Hover the question mark icon to display a tooltip with a button which links dire
 
 Categories are used to group templates that are related to each other by use case or asset type.
 
-Use the <b>Category</b> combobox to select the category you wish to filter the templates by.
+Use the <b>Category</b> combobox to select the category you wish to filter the templates by.
 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
@@ -281,7 +271,7 @@ Use the <b>Category</b> combobox to select the category you wish to filter the
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-Templates may have a category set up in their <b>Template data</b> [graph attribute](../../compositing-graphs/graph-parameters/graph-parameters.md), which is used as a filter to narrow down the list of templates:
+Templates may have a category set up in their <b>Template data</b> [graph attribute](../../compositing-graphs/graph-parameters/graph-parameters.md), which is used as a filter to narrow down the list of templates:
 
 &lt;category&gt;;&lt;subtitle&gt;
 
@@ -302,7 +292,7 @@ Custom categories can be set up in the templates provided by project files (see 
 
 ### Filtering by Project file
 
-If any of the active [project files](../../interface/preferences-window/project-settings/project-settings.md) provide one or more template paths, the graphs in the package files found at these paths will be added to the list of templates.
+If any of the active [project files](../../interface/preferences-window/project-settings/project-settings.md) provide one or more template paths, the graphs in the package files found at these paths will be added to the list of templates.
 
 Then, use the <b>Filter by project file</b> button to narrow down the list of templates to the ones provided by a specific project file.
 

@@ -16,6 +16,12 @@ user-guide-title: ""
 
 This pages presents the Iray renderer available in the 3D view panel of [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html), which offers interactive path tracing for photorealistic rendering with CPU and/or GPU acceleration (Nvidia GPUs only).
 
+>[!WARNING]
+> 
+> The Iray renderer and all related features were removed from Designer in version 16.0.0.
+> 
+> Learn more here: [MDL graph and Iray end of life](../../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
+
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
@@ -31,9 +37,7 @@ This pages presents the Iray renderer available in the 3D view panel of [Substan
 
 </td>
 </tr>
-</table>
 
-<table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
@@ -67,30 +71,7 @@ See the <b>Renderer</b> section of this page to learn more about tweaking these 
 
 ## 3D view options
 
-The following options are available for adjusting the rendered scene:
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-Scene
-
-Materials
-
-Camera
-
-</td>
-<td style="border: 0;" valign="top">
-
-Environment
-
-Display
-
-Renderer
-
-</td>
-</tr>
-</table>
+<a name="scene"></a>
 
 ### Scene
 
@@ -118,6 +99,8 @@ Mesh display component
 > Be careful about using *high* **Number** values for the Parametric method, and *low* **Minimum length** values for the Length method.
 
 ![Scene options](../../../assets/iray-scene-subdivision.gif "Scene options")
+
+<a name="materials"></a>
 
 ### Materials
 
@@ -158,6 +141,8 @@ Other notable options in this menu are:
 >
 > When loading an **MDL graph**, the 3D view renderer is *automatically switched to **Iray*** to load and apply it.
 
+<a name="camera"></a>
+
 ### Camera
 
 The main difference between OpenGL and Iray regarding camera settings is how *depth of field* is managed. Indeed, Iray being a physically-accurate renderer, depth of field occurs "naturally" depending on the camera's *aperture*.
@@ -168,6 +153,8 @@ The following couple of parameters are available in the camera properties when t
 * <b>Aperture diameter</b>: the value driving the camera's aperture. The lower the value, the sharper the image elements are before and after the focal point – in simpler terms, this value controls the strength of the depth of field effect
 
 ![Camera settings](../../../assets/camera-dof.png "Camera settings")
+
+<a name="environment"></a>
 
 ### Environment
 
@@ -282,6 +269,8 @@ The impact of some of these settings is demonstrated below:
 
 +++
 
+<a name="display"></a>
+
 ### Display
 
 These options display a *text overlay* on top of the rendered image with useful information regarding the render.
@@ -293,6 +282,8 @@ These options display a *text overlay* on top of the rendered image with useful 
 * <b>Scene stats</b>: A list of statistics related to the rendered scene, which includes triangles count, and materials count among other data
 
 ![Display options](../../../assets/iray-display-data.png "Display options"){width="512px"}
+
+<a name="renderer"></a>
 
 ### Renderer
 

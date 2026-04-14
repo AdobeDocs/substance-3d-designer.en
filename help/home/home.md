@@ -38,7 +38,7 @@ If you have any question that is not answered in this manual, feel free to ask o
 </td>
 <td style="border: 0;" valign="top">
 
-### Interface
+## Interface
 
 * [Home screen](../interface/home-screen/home-screen.md) — The Home screen welcomes you when you launch Substance 3D Designer. It is here to help you start working with the software and access most useful links.
 * [Customizing your workspace](../interface/customizing-your-wor/customizing-your-workspace.md) — This page presents the ways of arranging the panels in Adobe Substance 3D Designer's https://www.adobe.com/products/substance3d-designer.html user interface, and leveraging their features to enhance your workflows.
@@ -47,7 +47,7 @@ If you have any question that is not answered in this manual, feel free to ask o
 * [Explorer](../interface/the-explorer-window/the-explorer-window.md) — This page describes the Explorer dock in Adobe Substance 3D Designer. This dock lets you manage packages and their resources.
 * [Graph view](../interface/the-graph-view/the-graph-view.md) — This page presents the Graph view of Substance 3D Designer.
 * [Library](../interface/the-library/the-library.md) — This page presents the Library panel of Substance 3D Designer, its layout as well as the tools it offers for searching and filtering content.
-* [Properties](../interface/properties/properties.md) — This page presents the Properties panel of Substance 3D Designer, its layout and the different rollouts and categories and parameters you can find within. It is focused on properties for Substance graphs. function graphs, MDL graphs and FX-Map graphs have simpler layouts.
+* [Properties](../interface/properties/properties.md) — This page presents the Properties panel of Substance 3D Designer, its layout and the different rollouts and categories and parameters you can find within. It is focused on properties for Substance graphs. Substance function graphs and FX-Map graphs have simpler layouts.
 * [2D view](../interface/2d-view/2d-view.md) — This pages describes the user interface and features of the 2D View panel in Substance 3D Designer.
 * [3D view](../interface/3d-view/3d-view.md) — The 3D View helps you view and understand your materials with custom meshes and rendered PBR materials.
 * [Dependency manager](../interface/dependency-manager/dependency-manager.md)
@@ -60,7 +60,7 @@ If you have any question that is not answered in this manual, feel free to ask o
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-### Substance graphs
+## Substance graphs
 
 * [Substance graph key concepts](../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
 * [Creating a Substance graph](../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
@@ -79,7 +79,7 @@ If you have any question that is not answered in this manual, feel free to ask o
 </td>
 <td style="border: 0;" valign="top">
 
-### Resources
+## Resources
 
 * [Importing, linking and new resources](../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * [Bitmap resource](../resources/bitmap-resource/bitmap-resource.md)
@@ -97,7 +97,7 @@ If you have any question that is not answered in this manual, feel free to ask o
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-### Pipeline and project configuration
+## Pipeline and project configuration
 
 * [Project configuration files - SBSPRJ](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)
 * [Configuration list - SBSCFG](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)
@@ -108,7 +108,7 @@ If you have any question that is not answered in this manual, feel free to ask o
 </td>
 <td style="border: 0;" valign="top">
 
-### Technical issues
+## Technical issues
 
 * [Warnings and errors](../technical-issues/warnings-and-errors/warnings-and-errors.md)
 * [Cannot create/load a project](../technical-issues/cannot-create-load-pro/cannot-create-load-a-project.md)
@@ -123,7 +123,7 @@ If you have any question that is not answered in this manual, feel free to ask o
 </tr>
 </table>
 
-### Release notes
+## Release notes
 
 * [All changes](../release-notes/all-changes/all-changes.md)
 * [Version 14.0](../release-notes/version-14-0/version-14-0.md)
