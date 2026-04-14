@@ -99,12 +99,12 @@ See the [common parameters](https://experienceleague.adobe.com/en/docs/substance
 
 ### Bakers render list and settings
 
-The <b>Bakers render list</b> is where you can choose which baked texture you want to generate. By default the list is empty.
+The **Bakers render list** is where you can choose which baked texture you want to generate. By default the list is empty.
 
-* <b>Adding a new baker:</b> Click on button "Add Baker".
-* <b>Removing a baker:</b> Select the baker in the list, then click on the button "Delete baker".
-* <b>Moving a baker to the top:</b> Select the baker in the list, then click on the button "Pull to top".
-* <b>Moving down a baker:</b>Select the baker in the list, then click on the button "Push down".
+* **Adding a new baker:** Click on button "Add Baker".
+* **Removing a baker:** Select the baker in the list, then click on the button "Delete baker".
+* **Moving a baker to the top:** Select the baker in the list, then click on the button "Pull to top".
+* **Moving down a baker:** Select the baker in the list, then click on the button "Push down".
 
 Each baker in the inherit by default the Default Values (see above). The size (resolution) for example can be overridden by clicking on the cell on the line of the baker. This is true for the other settings on the line.
 
