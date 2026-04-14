@@ -54,7 +54,7 @@ Large starter video series that takes you through the entire process of creating
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[!['Quicktips' tutorial illustration](../../assets/ds-learn-quicktips.jpg)](https://youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M&amp;si=DbQWj9XV_AiepwQF)
+[!['Quicktips' tutorial illustration](../../assets/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
 
 </td>
 <td style="border: 0;" valign="top">

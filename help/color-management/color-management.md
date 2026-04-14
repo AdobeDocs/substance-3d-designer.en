@@ -212,5 +212,4 @@ These are useful when working with graphs created *without* Color Management or 
 The current implementation of color management in Substance 3D Designer has the following limitations:
 
 * Color management is currently *not* exposed in the [Python API](../scripting/scripting.md);
-* Color management does *not* work with [MDL graphs](../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md);
 * [OpenColorIO](https://opencolorio.org/) *looks* are *not* supported.

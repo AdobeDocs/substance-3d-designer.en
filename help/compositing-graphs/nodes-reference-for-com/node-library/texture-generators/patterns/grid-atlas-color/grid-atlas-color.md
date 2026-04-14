@@ -9,7 +9,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Grid atlas color icon](./grid-atlas-color.png "Grid atlas color")
+![Grid atlas color icon](grid-atlas-color.resources/grid-atlas-color.png "Grid atlas color")
 
 <b>In:</b> Generator &gt; Pattern
 
@@ -27,6 +27,7 @@ See also [Grid atlas grayscale](../grid-atlas-grayscale/grid-atlas-grayscale.md)
 </table>
 
 <a name="inputs"></a>
+
 ## Inputs
 
 |                         |                            |
@@ -49,6 +50,7 @@ See also [Grid atlas grayscale](../grid-atlas-grayscale/grid-atlas-grayscale.md)
 | <b>Input 2</b> *Color*  | The color image input #16. |
 
 <a name="outputs"></a>
+
 ## Outputs
 
 |               |                              |
@@ -56,6 +58,7 @@ See also [Grid atlas grayscale](../grid-atlas-grayscale/grid-atlas-grayscale.md)
 | <b>Output</b> | The output color grid atlas. |
 
 <a name="parameters"></a>
+
 ## Parameters
 
 |                                   |                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,3 +66,8 @@ See also [Grid atlas grayscale](../grid-atlas-grayscale/grid-atlas-grayscale.md)
 | <b>Grid size X</b> *Integer*      | The size of the grid on the X axis.<br>I.e. the number of images being packed on the X axis.                                                                                                                                                                                                                                                                       |
 | <b>Grid size Y</b> *Integer*      | The size of the grid on the Y axis.<br>I.e. the number of images being packed on the Y axis.                                                                                                                                                                                                                                                                       |
 | <b>Output size mode</b> *Integer* | The method of defining the size of the output image according to the node's 'Output size' base parameter:<br><br>- <b>Manual:</b> Use the size as is.<br>- <b>Automatic ratio:</b> Adjust the image ratio according to the grid size in order to minimise the image size. Deformation will occur for non-square grids using 3 rows or columns, e.g. (3, 2), (4, 3) |
+
+## Examples
+
+<img src="./grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Grid atlas color node in context of a graph" style="width: 50%"><br>
+<i>Grid atlas color node in context of a graph</i>

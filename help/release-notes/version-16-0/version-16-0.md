@@ -20,28 +20,25 @@ This 16.0 version introduces a more creative workflow for pattern scattering and
 
 <img src="./version-16-0.resources/version-16-0-banner.jpg" alt="Substance 3D Designer version 16.0 banner" style="margin-top: 32px; margin-bottom: 32px">
 
-<hr style="height: 3px; background-color: #203900; margin-top: 32px">
-
 <a name="shape-splatter-v2-nodes"></a>
+
 ## Shape splatter v2 nodes
 
 ### New ways of scattering shapes
 
-The new [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) nodes unlock complex scattering behaviors that have been challenging until now, with
-**more shape distribution methods** (Poisson disc, uniform) that are *collisionless* by default, and control over
-the *clean gathering* of shapes in specific areas with a **density map**.<br>
+The new [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) nodes unlock complex scattering behaviors that have been challenging until now, with **more shape distribution methods** (Poisson disc, uniform) that are *collisionless* by default, and control over the *clean gathering* of shapes in specific areas with a **density map**.  
 Advanced users can set up *custom distributions* defined by a function graph.
 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr>
-        <td>
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Poisson distribution</i>
+        <td style="width: 33%">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" alt="Shape splatter v2: Poisson distribution" /><br><i>Poisson distribution</i>
         </td>
-        <td>
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Uniform distribution</i>
+        <td style="width: 33%">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" alt="Shape splatter v2: Uniform distribution" /><br><i>Uniform distribution</i>
         </td>
-        <td>
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Density map</i>
+        <td style="width: 33%">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" alt="Density map" /><br><i>Shape splatter v2: Density map</i>
         </td>
     </tr>
 </table>
@@ -50,61 +47,68 @@ Advanced users can set up *custom distributions* defined by a function graph.
 
 Scattered shapes are now **3D objects** that can be moved, rotated and scaled on all XYZ axes.
 
-Use **simple primitives** such a cubes, spheres and cylinders, or **complex custom shapes** formed by *extruding
-a height map* or authoring *3D SDF shapes*. (More on that below)
+Use **simple primitives** such a cubes, spheres and cylinders, or **complex custom shapes** formed by *extruding  a height map* or authoring *3D SDF shapes*. (More on that below)
 
-This unlocks scatterings that are more dynamic, more varied and more believable across the board. And it is now possible
-to repurpose 3D shapes for variations by flipping them. (We see you, environment artists!)
+This unlocks scatterings that are more dynamic, more varied and more believable across the board. And it is now possible to repurpose 3D shapes for variations by flipping them. (We see you, environment artists!)
 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr>
-        <td>
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Random 3D rotation</i>
+        <td style="width: 33%">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" alt="Shape splatter v2: Random 3D rotation" /><br><i>Random 3D rotation</i>
         </td>
-        <td>
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>Slope rotation</i>
+        <td style="width: 33%">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" alt="Shape splatter v2: Shape extrusion" /><br><i>Shape extrusion</i>
         </td>
-        <td>
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>Shape extrusion</i>
+        <td style="width: 33%">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" alt="Shape splatter v2: 3D SDF shapes" /><br><i>3D SDF shapes</i>
         </td>
     </tr>
 </table>
-
-
-[EXAMPLES: Primitives, extrude height map, 3D SDF]
 
 ### Companion nodes
 
 Similarly to the Shape splatter v1 family of nodes, Shape splatter v2 comes with its own cohort of companion nodes.
 
-[Shape splatter v2 mapper](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) nodes enable projection of textures on the scattered 3D shapes, with support for
-*triplanar projection* and *material IDs* for mapping multiple textures. Results can be adjusted globally or per shape
-for texture offsets and color variations.
-<br>Again, advanced users can set up *custom texture mappings* defined by a function graph.
+[Shape splatter v2 mapper](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) nodes enable projection of textures on the scattered 3D shapes, with support for *triplanar projection* and *material IDs* for mapping multiple textures. Results can be adjusted globally or per shape for texture offsets and color variations.  
+Again, advanced users can set up *custom texture mappings* defined by a function graph.
 
-[Shape splatter v2 to mask](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) creates masks for specific selection of shapes and/or material IDs, enabling more
-granular use of shapes downstream in the graph.
+[Shape splatter v2 to mask](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) creates masks for specific selection of shapes and/or material IDs, enabling more granular use of shapes downstream in the graph.
 
-[EXAMPLES: Mapper standard, mapper triplanar, to mask]
+<table style="margin-top: 32px; margin-bottom: 32px; border: none">
+    <tr>
+        <td style="width: 33%">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" alt="Shape splatter v2 color mapper: Triplanar mapping" /><br><i>Triplanar mapping</i>
+        </td>
+        <td style="width: 33%">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" alt="Shape splatter v2 color mapper: Normal mapping" /><br><i>Normal mapping</i>
+        </td>
+        <td style="width: 33%">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" alt="Shape splatter v2 color mapper: Mapping per material ID from SDF shapes" /><br><i>Mapping per material ID from SDF shapes</i>
+        </td>
+    </tr>
+</table>
 
 ### Grid atlas
 
-Custom patterns can be provided separately to the Shape splatter v2 node, or packed into a grid atlas for leaner and
-more efficient workflows.<br>Packing patterns is simplified thanks to the new [Grid atlas](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md) nodes.
-
-[EXAMPLES: Grid atlas, grid atlas interop with Shape splatter v2 nodes]
-
-<hr style="height: 3px; background-color: #203900; margin-top: 32px;">
+<table style="border: none;">
+    <tr style="vertical-align: top;">
+        <td>
+            <p>Custom patterns can be provided separately to the Shape splatter v2 node, or packed into a grid atlas for leaner and more efficient workflows.</p><p>Packing patterns is simplified thanks to the new <a href="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md">Grid atlas</a> nodes.</p>
+        </td>
+        <td style="text-align: right; width: 33%; margin-left: 32px">
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Grid atlas color node" />
+        </td>
+    </tr>
+</table>
 
 <a name="3d-sdf-nodes"></a>
+
 ## 3D SDF nodes (signed distance field)
 
 <table style="border: none;">
     <tr style="vertical-align: top;">
         <td>
-            <p>Designer 16.0 adds a powerful method of generating 3D shapes in a function graph using a vast catalogue of nodes for
-authoring SDF functions.</p><p>Signed distance fields are representations of space as a distance to surfaces defined mathematically. They can be used
-to define shapes of increasing complexity as these surfaces are transformed and combined using various operators.</p>
+            <p>Designer 16.0 adds a powerful method of generating 3D shapes in a function graph using a vast catalogue of nodes for authoring SDF functions.</p><p>Signed distance fields are representations of space as a distance to surfaces defined mathematically. They can be used to define shapes of increasing complexity as these surfaces are transformed and combined using various operators.</p>
         </td>
         <td style="text-align: right; width: 25%; margin-left: 32px">
             <img src="./version-16-0.resources/version-16-0-SDFFunctionsBreakdown.gif" alt="Building shapes with SDF Functions" />
@@ -116,33 +120,24 @@ to define shapes of increasing complexity as these surfaces are transformed and 
 
 SDF functions involve a [new family of nodes](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions) which come in 4 categories:
 
-* **Primitives** are the basic building blocks, they generate simple adjustable shapes with a few controls that let you
-tailor them as needed.
-* **Operators** combine or replicate shapes in straightforward or complex ways depending on the node: from simple
-boolean operators to morphs, shell and symmetries, they dramatically expand the possibilities of what kind of 3D shape
-can be achieved
-* **Transforms** let you adjust the shapes' position, rotation and size as you might expect and beyond with bending, 
-twisting and elongation.
-* **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used 
-by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) family of nodes for masking or coloring shapes.
+* **Primitives** are the basic building blocks, they generate simple adjustable shapes with a few controls that let you tailor them as needed.
+* **Operators** combine or replicate shapes in straightforward or complex ways depending on the node: from simple boolean operators to morphs, shell and symmetries, they dramatically expand the possibilities of what kind of 3D shape can be achieved
+* **Transforms** let you adjust the shapes' position, rotation and size as you might expect and beyond with bending, twisting and elongation.
+* **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) family of nodes for masking or coloring shapes.
 
-<p style="text-align: center; margin: 32px"><img src="./version-16-0.resources/SDFShort.gif" alt="SDF function nodes" /></p>
+<p style="text-align: center; margin: 32px"><img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/sdf-functions-mograph.gif" alt="SDF function nodes" /></p>
 
-Lightweight nodes with clear and readable icons make building 3D SDF functions easier than you might think, especially
-with this next addition to the toolset...
+Lightweight nodes with clear and readable icons make building 3D SDF functions easier than you might think, especially with this next addition to the toolset...
 
 ### 3D viewer node
 
-As you author 3D SDF functions, you will need to visualize the resulting shapes in 3D space. The [3D viewer node](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)
-renders 3D SDF or intersection functions as a 3D scene with adjustable camera controls, custom environment light
-and support for rendering basic materials. (Color, roughness and metalness)
+As you author 3D SDF functions, you will need to visualize the resulting shapes in 3D space. The [3D viewer node](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) renders 3D SDF or intersection functions as a 3D scene with adjustable camera controls, custom environment light and support for rendering basic materials. (Color, roughness and metalness)
 
-The node also includes features for checking the generated shapes in detail and debugging issues: separate rendering
-passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid and rotation arcs)
+The node also includes features for checking the generated shapes in detail and debugging issues: separate rendering passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid and rotation arcs)
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="width: 50%;">
-        <td style="text-align: center">
+        <td style="text-align: center; width: 50%">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-01.jpg" alt="Example 1" />
         </td>
         <td style="width: 50%;">
@@ -167,14 +162,13 @@ passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid
     </tr>
 </table>
 
-<hr style="height: 3px; background-color: #203900; margin-top: 32px">
-
 <a name="openpbr-support"></a>
+
 ## OpenPBR support
 
 [OpenPBR Surface](https://academysoftwarefoundation.github.io/OpenPBR/) is a specification of a surface shading model intended as a standard for computer graphics and is capable of accurately modeling the vast majority of materials. 
 
-This [material model](../../interface/3d-view/material-properties/material-properties.md#openpbr) is now supported throughout the application, with dedicated shaders in both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
+This material model is now supported throughout the application, with [dedicated shaders](../../interface/3d-view/material-properties/material-properties.md#openpbr) in both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
 <p style="text-align: center; margin: 32px"><img src="./version-16-0.resources/OpenPBRShort.gif" alt="OpenPBR support in Substance 3D Designer and comparisons with other DCCs" /></p>
 
@@ -210,36 +204,31 @@ OpenPBR shaders support more effects than the existing shaders, such as thin fil
 > 
 >The attribute is also included in published SBSAR files to integrate in your material workflow.
 
-<hr style="height: 3px; background-color: #203900; margin-top: 32px">
-
 <a name="displacement-popup"></a>
+
 ## Displacement controls in the 3D View
 
-It is now faster and easier to adjust displacement and tessellation in the 3D View, with direct access
-in a [new Displacement pop-up](../../interface/3d-view/displacement/displacement.md) available in the 3D View toolbar.
+It is now faster and easier to adjust displacement and tessellation in the 3D View, with direct access in a [new Displacement pop-up](../../interface/3d-view/displacement/displacement.md) available in the 3D View toolbar.
 
-Adjust the **Height scale**, **Height level** and **Tessellation** values without repeated back and forth in material
-properties and renderer settings.
+Adjust the **Height scale**, **Height level** and **Tessellation** values without repeated back and forth in material properties and renderer settings.
 
 These controls are available for both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
-<p style="text-align: center; margin: 32px"><img src="./version-16-0.resources/DisplacementShort.gif" alt="Displacement pop-up in the 3D View" /></p>
+<p style="text-align: center; margin: 32px"><img src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Displacement pop-up in the 3D View" /></p>
 
-If the scene includes multiple materials, select the object of the scene that you want to adjust beforehand by holding
-<code>Shift</code> and clicking it (Rasterizer and GPU Pathtracer only) or select it in the Scene browser.
+If the scene includes multiple materials, select the object of the scene that you want to adjust beforehand by holding <code>Shift</code> and clicking it (Rasterizer and GPU Pathtracer only) or select it in the Scene browser.
 
 >[!NOTE]
 > 
 >Tessellation is *per object* in Rasterizer and GPU Pathtracer, and *per material* in OpenGL.
 
-<hr style="height: 3px; background-color: #203900; margin-top: 32px">
-
 <a name="other-changes"></a>
+
 ## Other changes
 
 ### Constant value nodes
 
-<table style="border: none;">
+<table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top;">
         <td>
             <p>For easier access to constant values in Substance graphs, <a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">new nodes</a> have been added for generating a simple value of each type.</p><p>You can find all of them in the <b>Values > Constants</b> section of the Library.</p>
@@ -252,16 +241,11 @@ If the scene includes multiple materials, select the object of the scene that yo
 
 ### MDL graphs and Iray end-of-life
 
-As you have been notified in the 15.1 release, the MDL graph feature set and the Iray renderer are now removed from
-Designer.
-
+As you have been notified in the 15.1 release, the MDL graph feature set and the Iray renderer are now removed from Designer.  
 Our in-house GPU Pathtracer is the renderer of choice for high-quality photorealistic rendering in Designer.
 
-Designer is moving away from MDL in favor of MaterialX as its shading language of choice for interchangeable,
-widely-supported material definitions.
-
-MaterialX has rapidly gained traction in the computer graphics industries, and can be carried by USD files for full
-scene portability across DCCs and renderers.
+Designer is moving away from MDL in favor of MaterialX as its shading language of choice for interchangeable, widely-supported material definitions.  
+MaterialX has rapidly gained traction in the computer graphics industries, and can be carried by USD files for full scene portability across DCCs and renderers.
 
 >[!NOTE]
 > 
@@ -282,9 +266,8 @@ The following libraries have been upgraded to meet the latest VFX platform stand
 
 The requirement for the minimal supported version of macOS has been updated to macOS 14 Sonoma.
 
-<hr style="height: 3px; background-color: #203900; margin-top: 32px">
-
 <a name="release-notes"></a>
+
 ## Release notes
 
 ### 16.0.0

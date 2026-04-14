@@ -70,6 +70,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 > You can select the renderer used by default when starting a new 3D View in the ["3D view" section of the project settings](../../../interface/preferences-window/project-settings/project-settings.md).
 
 <a name="rasterizer"></a>
+
 ## Rasterizer
 
 +++ Parameters
@@ -107,6 +108,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 ![Rasterizer - Example 1](../../../assets/3dRendererRasterizer.jpg "Rasterizer - Example 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
+
 ## GPU Pathtracer
 
 +++ Parameters
@@ -140,6 +142,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 ![GPU pathtracer - Example 1](../../../assets/3dRendererPathtracer.jpg "GPU pathtracer - Example 1"){zoomable="yes"}
 
 <a name="opengl"></a>
+
 ## OpenGL
 
 The OpenGL renderer offers fast real-time rendering, with a few shaders available by default depending on your use case: see the list below.

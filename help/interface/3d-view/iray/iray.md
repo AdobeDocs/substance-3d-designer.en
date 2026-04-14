@@ -20,7 +20,7 @@ This pages presents the Iray renderer available in the 3D view panel of [Substan
 > 
 > The Iray renderer and all related features were removed from Designer in version 16.0.0.
 > 
-> Learn more here: [MDL graph and Iray end of life](../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
+> Learn more here: [MDL graph and Iray end of life](../../../technical-issues/mdl-graph-iray-eol/mdl-graph-iray-eol.md)
 
 <table>
 <tr style="border: 0;">
@@ -71,32 +71,8 @@ See the <b>Renderer</b> section of this page to learn more about tweaking these 
 
 ## 3D view options
 
-The following options are available for adjusting the rendered scene:
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-#### [Scene](#scene)
-
-#### [Materials](#materials)
-
-#### [Camera](#camera)
-
-</td>
-<td style="border: 0;" valign="top">
-
-#### [Environment](#environment)
-
-#### [Display](#display)
-
-#### [Renderer](#renderer)
-
-</td>
-</tr>
-</table>
-
 <a name="scene"></a>
+
 ### Scene
 
 Select the <b>Edit</b> option in the <b>Scene</b> menu to find scene properties specific to Iray in the <b>Properties</b> panel.
@@ -125,6 +101,7 @@ Mesh display component
 ![Scene options](../../../assets/iray-scene-subdivision.gif "Scene options")
 
 <a name="materials"></a>
+
 ### Materials
 
 Since Iray relies on the [MDL shading model](https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/) developed by NVIDIA, available materials for scene materials are replaced with the MDL library loaded by Designer. This library is built using the following sources:
@@ -165,6 +142,7 @@ Other notable options in this menu are:
 > When loading an **MDL graph**, the 3D view renderer is *automatically switched to **Iray*** to load and apply it.
 
 <a name="camera"></a>
+
 ### Camera
 
 The main difference between OpenGL and Iray regarding camera settings is how *depth of field* is managed. Indeed, Iray being a physically-accurate renderer, depth of field occurs "naturally" depending on the camera's *aperture*.
@@ -177,6 +155,7 @@ The following couple of parameters are available in the camera properties when t
 ![Camera settings](../../../assets/camera-dof.png "Camera settings")
 
 <a name="environment"></a>
+
 ### Environment
 
 Open the <b>Environment</b> menu and select the <b>Edit</b> option to display the environment properties in the <b>Properties</b> panel.
@@ -291,6 +270,7 @@ The impact of some of these settings is demonstrated below:
 +++
 
 <a name="display"></a>
+
 ### Display
 
 These options display a *text overlay* on top of the rendered image with useful information regarding the render.
@@ -304,6 +284,7 @@ These options display a *text overlay* on top of the rendered image with useful 
 ![Display options](../../../assets/iray-display-data.png "Display options"){width="512px"}
 
 <a name="renderer"></a>
+
 ### Renderer
 
 Open the <b>Renderer</b> menu and select the <b>Edit</b> option to display the renderer properties in the <b>Properties</b> panel.

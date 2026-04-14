@@ -20,6 +20,7 @@ applied to the model using a list of properties which impact various aspects of 
 The **Materials** menu of the 3D View lets you check which shader is used for each of the scene's materials.
 
 <a name="openpbr"></a>
+
 ## OpenPBR
 
 Designer uses the [OpenPBR](https://academysoftwarefoundation.github.io/OpenPBR/) material model by default, which supports several complex effects such as anisotropy,
@@ -186,6 +187,7 @@ To learn more about OpenPBR, here are some resources:
 * [Designer 16.0: Support of OpenPBR](../../../release-notes/version-16-0/version-16-0.md#openpbr-support)
 
 <a name="adobe-standard-material"></a>
+
 ## Adobe Standard Material
 
 The Adobe Standard Material (ASM) model was introduced in Designer 11.2 and has been Designer's default shader 
@@ -197,6 +199,7 @@ across the Rasterizer, GPU Pathtracer and OpenGL [3D renderers](../3d-renderers/
 The model is documented [here](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material).
 
 <a name="usdpreviewsurface"></a>
+
 ## UsdPreviewSurface
 
 The purpose of the UsdPreviewSurface model is previewing materials with a basic feature set promoting compatibility

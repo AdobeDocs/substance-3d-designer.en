@@ -200,7 +200,7 @@ Substance 3D Designer fails to start on systems using *Arch-based* distribution
 
 **![(tick)](../../assets/check.svg) Recommended steps *(![(warning)](../../assets/warning.svg) Unstable, AMD GPUs only!)***
 
-Try installing **progl** (part of the [AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO "https://wiki.archlinux.org/title/AMDGPU_PRO") drivers) and start Designer through it. You may do this by using the `progl` prefix in the application launch command:
+Try installing **progl** (part of the [AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO) drivers) and start Designer through it. You may do this by using the `progl` prefix in the application launch command:
 
 ```
 

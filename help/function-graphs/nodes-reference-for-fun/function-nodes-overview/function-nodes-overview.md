@@ -27,48 +27,47 @@ Function Nodes and their Link wires are Color Coded according to the following s
 <td style="border: 0;" valign="top">
 
 
-### <font color='#66ff66'>Float</font>
-#66ff66
+<b>Float</b>  
+\#66ff66
 
-### <font color='#71e1a9'>Float2</font>
-#71e1a9
+<b>Float2</b>  
+\#71e1a9
 
-### <font color='#64c8c8'>Float3</font>
-#64c8c8
+<b>Float3</b>  
+\#64c8c8
 
-### <font color='#5e8dbc'>Float4</font>
-#5e8dbc
-
-</td>
-<td style="border: 0;" valign="top">
-
-### <font color='#fff16e'>Integer</font>
-#fff16e
-
-### <font color='#ffcd6e'>Integer2</font>
-#ffcd6e
-
-### <font color='#ffa96e'>Integer3</font>
-#ffa96e
-
-### <font color='#ff9683'>Integer4</font>
-#ff9683
+<b>Float4</b>  
+\#5e8dbc
 
 </td>
 <td style="border: 0;" valign="top">
 
-### <font color='#ffffff'>Boolean</font>
-#ffffff
+<b>Integer</b>  
+\#fff16e
 
-### String
+<b>Integer2</b>  
+\#ffcd6e
+
+<b>Integer3</b>  
+\#ffa96e
+
+<b>Integer4</b>  
+\#ff9683
+
+</td>
+<td style="border: 0;" valign="top">
+
+<b>Boolean</b>  
+\#ffffff
+
+<b>String
 
 </td>
 </tr>
 </table>
 
-
 ## Function nodes
 
-### [Atomic](../atomic-function-nodes/atomic-function-nodes.md)
+<b>[Atomic](../atomic-function-nodes/atomic-function-nodes.md)
 
-### [Instance nodes](../function-node-library/function-node-library.md)
+<b>[Instance nodes](../function-node-library/function-node-library.md)

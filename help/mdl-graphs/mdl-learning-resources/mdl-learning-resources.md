@@ -23,7 +23,7 @@ Here is a list of helpful documentation and reference for furthering your unders
 * [NVIDIA - Material Definition Language](http://www.nvidia.com/object/material-definition-language.html)
 * [NVIDIA - MDL Documentation](https://raytracing-docs.nvidia.com/mdl/index.html)
 * [NVIDIA - MDL Handbook](http://mdlhandbook.com/)
-* [NVIDIA - MDL Specification v1.6](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?64rCx3GvjlE_DON913xZ8laZnUvEwieF7lzT9hPfU_Ivc7OMaXBC86ZT3P8vK2f-lYWvlLhdy9-fAoC0NBMf5MI51qJNLGoXjzVK2aRGchsI8AlGG3570NmvOrhNDkYRTKq1zku-XVPFA_hXxQ_KTZG9CivkXA&amp;t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczpcL1wvd3d3Lmdvb2dsZS5jb21cLyJ9)
+* [NVIDIA - MDL Specification v1.6](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9)
 * [NVIDIA - Iray](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 ## Tutorials

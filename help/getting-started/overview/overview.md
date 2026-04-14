@@ -136,25 +136,6 @@ Substance graphs allow you to generate and process *2D image data* and then outp
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/mdl-graph.png){width="150px"}](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-### MDL graphs
-
-MDL graphs are a special type of graph resource that can be authored. MDL stands for Material Definition Language. These graphs are not meant for generating and processing texture files and image data, but rather to generate the look of a material in a format that is portable and exchangeable between applications and renderers.
-
-[Go to the section dedicated to MDL graphs.](../../mdl-graphs/mdl-graphs.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
-
 [![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>

@@ -38,7 +38,7 @@ The exported module will contain the definitions of *all* the MDL materials defi
 
 >[!NOTE]
 >
-> Learn more about MDL modules in sections 4 and 15 of NVIDIA's [MDL Specification](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?xBg5Km0pdI4vC4iQw4ADtIaJOe6U90WHUfJYs-WxGykGo3fdCqKP2Iw4AktgKPyx-z4mPfCRoQgU3GbbSXrZei8JCPLkYrLWfSUfaecroUdXSLv-UOWq41t20eWP7hRuMoc7oj5bJWEs_EXVmLkCd4uiqlZ_UQ&amp;t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczpcL1wvd3d3Lmdvb2dsZS5jb21cLyJ9).
+> Learn more about MDL modules in sections 4 and 15 of NVIDIA's [MDL Specification](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9).
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ In addition to these items, the archive includes a <b>MANIFEST</b> file which de
 
 >[!NOTE]
 >
-> Learn more about the MDL archive file format in Appendix C of NVIDIA's [MDL Specification](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?xBg5Km0pdI4vC4iQw4ADtIaJOe6U90WHUfJYs-WxGykGo3fdCqKP2Iw4AktgKPyx-z4mPfCRoQgU3GbbSXrZei8JCPLkYrLWfSUfaecroUdXSLv-UOWq41t20eWP7hRuMoc7oj5bJWEs_EXVmLkCd4uiqlZ_UQ&amp;t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczpcL1wvd3d3Lmdvb2dsZS5jb21cLyJ9).
+> Learn more about the MDL archive file format in Appendix C of NVIDIA's [MDL Specification](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9).
 
 ![MDR export pathway](../../assets/mdl-export-archive.png "MDR export pathway")
 
@@ -108,7 +108,7 @@ Exporting an encapsulated MDL module is performed in the [Explorer](https://help
 
 >[!NOTE]
 >
-> Learn more about encapsulated material definitions in section 13.5 of NVIDIA's [MDL Specification](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?xBg5Km0pdI4vC4iQw4ADtIaJOe6U90WHUfJYs-WxGykGo3fdCqKP2Iw4AktgKPyx-z4mPfCRoQgU3GbbSXrZei8JCPLkYrLWfSUfaecroUdXSLv-UOWq41t20eWP7hRuMoc7oj5bJWEs_EXVmLkCd4uiqlZ_UQ&amp;t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczpcL1wvd3d3Lmdvb2dsZS5jb21cLyJ9), and [MDL SDK API](https://raytracing-docs.nvidia.com/mdl/api/mi_neuray_example_mdle.html).
+> Learn more about encapsulated material definitions in section 13.5 of NVIDIA's [MDL Specification](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9), and [MDL SDK API](https://raytracing-docs.nvidia.com/mdl/api/mi_neuray_example_mdle.html).
 
 ![MDLE export pathway](../../assets/mdl-export-encapsulated.png "MDLE export pathway")
 

@@ -19,7 +19,8 @@ In addition to [atomic nodes](../../../function-graphs/nodes-reference-for-fun/a
 These tools are arranged into several categories:
 
 <a name"sdf-functions"></a>
-### SDF functions
+
+## SDF functions
 
 These nodes let you author SDF functions which can be used to generate 3D shapes in the [Shape splatter v2](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) and [3d viewer](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) nodes, using their dedicated **SDF function** parameters.. 
 
@@ -27,106 +28,106 @@ These nodes let you author SDF functions which can be used to generate 3D shapes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-#### Primitives
+### Primitives
 
-[Capped cone](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_capped_cone/3d_sdf_capped_cone.md)
+[Capped cone](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone/3d-sdf-capped-cone.md)
 
-[Capped cone (2 points)](././function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_capped_cone_2_points/3d_sdf_capped_cone_2_points.md)
+[Capped cone (2 points)](././function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone-2-points/3d-sdf-capped-cone-2-points.md)
 
-[Capped torus](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_capped_torus/3d_sdf_capped_torus.md)
+[Capped torus](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-torus/3d-sdf-capped-torus.md)
 
-[Capsule](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_capsule/3d_sdf_capsule.md)
+[Capsule](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capsule/3d-sdf-capsule.md)
 
-[Cone](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_cone/3d_sdf_cone.md)
+[Cone](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-cone/3d-sdf-cone.md)
 
-[Cube](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_cube/3d_sdf_cube.md)
+[Cube](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-cube/3d-sdf-cube.md)
 
-[Cylinder](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_cylinder/3d_sdf_cylinder.md)
+[Cylinder](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-cylinder/3d-sdf-cylinder.md)
 
-[Cylinder (2 points)](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_cylinder_2_points/3d_sdf_cylinder_2_points.md)
+[Cylinder (2 points)](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-cylinder-2-points/3d-sdf-cylinder-2-points.md)
 
-[Ellipsoid](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_ellipsoid/3d_sdf_ellipsoid.md)
+[Ellipsoid](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-ellipsoid/3d-sdf-ellipsoid.md)
 
-[Elongated cylinder](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_elongated_cylinder/3d_sdf_elongated_cylinder.md)
+[Elongated cylinder](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-elongated-cylinder/3d-sdf-elongated-cylinder.md)
 
-[Ground plane](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_ground_plane/3d_sdf_ground_plane.md)
+[Ground plane](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-ground-plane/3d-sdf-ground-plane.md)
 
-[Helix](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_helix/3d_sdf_helix.md)
+[Helix](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-helix/3d-sdf-helix.md)
 
-[Hexagonal prism](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_hexagonal_prism/3d_sdf_hexagonal_prism.md)
+[Hexagonal prism](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-hexagonal-prism/3d-sdf-hexagonal-prism.md)
 
-[Infinite plane](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_infinite_plane/3d_sdf_infinite_plane.md)
+[Infinite plane](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-infinite-plane/3d-sdf-infinite-plane.md)
 
-[Plane](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_plane/3d_sdf_plane.md)
+[Plane](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-plane/3d-sdf-plane.md)
 
-[Pyramid](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_pyramid/3d_sdf_pyramid.md)
+[Pyramid](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid/3d-sdf-pyramid.md)
 
-[Pyramid square](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_pyramid_square/3d_sdf_pyramid_square.md)
+[Pyramid square](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-pyramid-square/3d-sdf-pyramid-square.md)
 
-[Rock](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_rock/3d_sdf_rock.md)
+[Rock](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-rock/3d-sdf-rock.md)
 
-[Sphere](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_sphere/3d_sdf_sphere.md)
+[Sphere](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-sphere/3d-sdf-sphere.md)
 
-[Torus](./function-nodes-sdf-functions/sdf-functions-primitives/3d_sdf_torus/3d_sdf_torus.md)
-
-</td>
-<td style="border: 0;" valign="top">
-
-#### Operators
-
-[Intersection](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_intersection/3d_sdf_op_intersection.md)
-
-[Intersection smooth](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_intersection_smooth/3d_sdf_op_intersection_smooth.md)
-
-[Intersection surface](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_intersection_surface/3d_sdf_op_intersection_surface.md)
-
-[Morph](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_morph/3d_sdf_op_morph.md)
-
-[Repeat mirror](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_repeat_mirror/3d_sdf_op_repeat_mirror.md)
-
-[Rounding](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_rounding/3d_sdf_op_rounding.md)
-
-[Shell](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_shell/3d_sdf_op_shell.md)
-
-[Subtraction](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_subtraction/3d_sdf_op_subtraction.md)
-
-[Subtraction smooth](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_subtraction_smooth/3d_sdf_op_subtraction_smooth.md)
-
-[Symmetry](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_symmetry/3d_sdf_op_symmetry.md)
-
-[Union](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_union/3d_sdf_op_union.md)
-
-[Union chamfer](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_union_chamfer/3d_sdf_op_union_chamfer.md)
-
-[Union smooth](function-nodes-sdf-functions/sdf-functions-operators/3d_sdf_op_union_smooth/3d_sdf_op_union_smooth.md)
+[Torus](./function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-torus/3d-sdf-torus.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-#### Transforms
+### Operators
 
-[Bend](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_bend/3d_sdf_transform_bend.md)
+[Intersection](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-intersection/3d-sdf-op-intersection.md)
 
-[Elongate](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_elongate/3d_sdf_transform_elongate.md)
+[Intersection smooth](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-intersection-smooth/3d-sdf-op-intersection-smooth.md)
 
-[Flip](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_flip/3d_sdf_transform_flip.md)
+[Intersection surface](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-intersection-surface/3d-sdf-op-intersection-surface.md)
 
-[Offset](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_offset/3d_sdf_transform_offset.md)
+[Morph](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-morph/3d-sdf-op-morph.md)
 
-[Offset P](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_offset_p/3d_sdf_transform_offset_p.md)
+[Repeat mirror](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-repeat-mirror/3d-sdf-op-repeat-mirror.md)
 
-[Rotate](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_rotate/3d_sdf_transform_rotate.md)
+[Rounding](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-rounding/3d-sdf-op-rounding.md)
 
-[Rotate P](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_rotate_p/3d_sdf_transform_rotate_p.md)
+[Shell](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md)
 
-[Scale](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_scale/3d_sdf_transform_scale.md)
+[Subtraction](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-subtraction/3d-sdf-op-subtraction.md)
 
-[Twist](function-nodes-sdf-functions/sdf-functions-transforms/3d_sdf_transform_twist/3d_sdf_transform_twist.md)
+[Subtraction smooth](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-subtraction-smooth/3d-sdf-op-subtraction-smooth.md)
+
+[Symmetry](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md)
+
+[Union](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-union/3d-sdf-op-union.md)
+
+[Union chamfer](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-union-chamfer/3d-sdf-op-union-chamfer.md)
+
+[Union smooth](function-nodes-sdf-functions/sdf-functions-operators/3d-sdf-op-union-smooth/3d-sdf-op-union-smooth.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-#### Material
+### Transforms
+
+[Bend](function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-bend/3d-sdf-transform-bend.md)
+
+[Elongate](function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-elongate/3d-sdf-transform-elongate.md)
+
+[Flip](function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-flip/3d-sdf-transform-flip.md)
+
+[Offset](function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-offset/3d-sdf-transform-offset.md)
+
+[Offset P](function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-offset-p/3d-sdf-transform-offset-p.md)
+
+[Rotate](function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-rotate/3d-sdf-transform-rotate.md)
+
+[Rotate P](function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-rotate-p/3d-sdf-transform-rotate-p.md)
+
+[Scale](function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md)
+
+[Twist](function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md)
+
+</td>
+<td style="border: 0;" valign="top">
+
+### Material
 
 [Set color](function-nodes-sdf-functions/sdf-functions-material/set-color/set-color.md)
 
@@ -147,7 +148,8 @@ These nodes let you author SDF functions which can be used to generate 3D shapes
 <td style="border: 0;" valign="top">
 
 <a name"comparison"></a>
-### Comparison
+
+## Comparison
 
 Equality boolean
 
@@ -169,7 +171,8 @@ Not equal float4
 <td style="border: 0;" valign="top">
 
 <a name"conversion"></a>
-### Conversion
+
+## Conversion
 
 &#91;-1, 1&#93; to &#91;0, 1&#93;
 
@@ -199,14 +202,16 @@ Turns to degrees
 <td style="border: 0;" valign="top">
 
 <a name"constant"></a>
-### Constant
+
+## Constant
 
 2 Pi
 
 Pi
 
 <a name"parity"></a>
-### Parity
+
+## Parity
 
 Even count
 
@@ -219,7 +224,8 @@ Parity test
 </table>
 
 <a name"maths"></a>
-### Maths
+
+## Maths
 
 <table>
 <tr style="border: 0;">
@@ -302,7 +308,8 @@ Truncate float
 </table>
 
 <a name"color"></a>
-### Color
+
+## Color
 
 <table>
 <tr style="border: 0;">
@@ -391,7 +398,8 @@ Hejl tonemapper
 <td width="33.33%" style="border: 0;" valign="top">
 
 <a name"transformation"></a>
-### Transformation
+
+## Transformation
 
 Cartesian to polar
 
@@ -417,7 +425,8 @@ Tile matrix
 <td width="66.67%" style="border: 0;" valign="top">
 
 <a name"random"></a>
-### Random
+
+## Random
 
 <table>
 <tr style="border: 0;">
@@ -469,7 +478,8 @@ Random uniform float4 &#91;a, b&#91;
 <td width="33.33%" style="border: 0;" valign="top">
 
 <a name"easings"></a>
-### Easings
+
+## Easings
 
 Ease in circ
 
@@ -517,7 +527,8 @@ Ease out sine
 <td width="66.67%" style="border: 0;" valign="top">
 
 <a name"various"></a>
-### Various
+
+## Various
 
 <table>
 <tr style="border: 0;">

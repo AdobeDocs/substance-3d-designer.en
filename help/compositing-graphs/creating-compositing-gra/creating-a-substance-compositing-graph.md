@@ -17,6 +17,7 @@ user-guide-title: ""
 Authoring textures in Designer starts with creating a Substance graph, either from an prebuilt template or an empty graph.
 
 <a name="create-graph"></a>
+
 ## Creating a graph
 
 To start the process of creating a new [Substance graph](../../compositing-graphs/substance-compositing-graphs.md), you may use one of these methods:
@@ -86,6 +87,7 @@ To start the process of creating a new [Substance graph](../../compositing-graph
 No matter which method you choose, you'll be presented with the <b>New Substance graph</b> dialog.
 
 <a name="graph-templates"></a>
+
 ## Graph templates
 
 Regardless of the method used to create a new Substance graph, you will always be met with the <b>New Substance graph</b> dialog which lets you configure the new graph.
@@ -134,6 +136,7 @@ In <b>List</b>, <b>Packages</b> and <b>Directories</b> view modes, the subtitle 
 </table>
 
 <a name="material-samples"></a>
+
 ### Material samples
 
 The <b>Material samples</b> category includes a [curated selection of graphs](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) to learn from and experiment with.
@@ -242,6 +245,7 @@ Hover the question mark icon to display a tooltip with a button which links dire
 ![New Substance graph dialog - Help tooltip](../../assets/newGraphDialog-tooltipHelp.png "New Substance graph dialog - Help tooltip"){zoomable="yes"}
 
 <a name="managing-templates"></a>
+
 ## Managing templates
 
 <table>
