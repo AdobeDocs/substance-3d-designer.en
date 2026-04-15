@@ -29,15 +29,15 @@ This 16.0 version introduces a more creative workflow for pattern scattering and
 The new [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) nodes unlock complex scattering behaviors that have been challenging until now, with **more shape distribution methods** (Poisson disc, uniform) that are *collisionless* by default, and control over the *clean gathering* of shapes in specific areas with a **density map**.  
 Advanced users can set up *custom distributions* defined by a function graph.
 
-<table style="margin-top: 32px; margin-bottom: 32px; border: none">
-    <tr>
-        <td style="width: 33%">
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="width: 33%; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" alt="Shape splatter v2: Poisson distribution" /><br><i>Poisson distribution</i>
         </td>
-        <td style="width: 33%">
+        <td style="width: 33%; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" alt="Shape splatter v2: Uniform distribution" /><br><i>Uniform distribution</i>
         </td>
-        <td style="width: 33%">
+        <td style="width: 33%; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" alt="Density map" /><br><i>Shape splatter v2: Density map</i>
         </td>
     </tr>
@@ -52,14 +52,14 @@ Use **simple primitives** such a cubes, spheres and cylinders, or **complex cust
 This unlocks scatterings that are more dynamic, more varied and more believable across the board. And it is now possible to repurpose 3D shapes for variations by flipping them. (We see you, environment artists!)
 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
-    <tr>
-        <td style="width: 33%">
+    <tr style="border: 0">
+        <td style="width: 33%; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" alt="Shape splatter v2: Random 3D rotation" /><br><i>Random 3D rotation</i>
         </td>
-        <td style="width: 33%">
+        <td style="width: 33%; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" alt="Shape splatter v2: Shape extrusion" /><br><i>Shape extrusion</i>
         </td>
-        <td style="width: 33%">
+        <td style="width: 33%; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" alt="Shape splatter v2: 3D SDF shapes" /><br><i>3D SDF shapes</i>
         </td>
     </tr>
@@ -75,14 +75,14 @@ Again, advanced users can set up *custom texture mappings* defined by a function
 [Shape splatter v2 to mask](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md) creates masks for specific selection of shapes and/or material IDs, enabling more granular use of shapes downstream in the graph.
 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
-    <tr>
-        <td style="width: 33%">
+    <tr style="border: 0">
+        <td style="width: 33%; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" alt="Shape splatter v2 color mapper: Triplanar mapping" /><br><i>Triplanar mapping</i>
         </td>
-        <td style="width: 33%">
+        <td style="width: 33%; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" alt="Shape splatter v2 color mapper: Normal mapping" /><br><i>Normal mapping</i>
         </td>
-        <td style="width: 33%">
+        <td style="width: 33%; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" alt="Shape splatter v2 color mapper: Mapping per material ID from SDF shapes" /><br><i>Mapping per material ID from SDF shapes</i>
         </td>
     </tr>
@@ -90,12 +90,12 @@ Again, advanced users can set up *custom texture mappings* defined by a function
 
 ### Grid atlas
 
-<table style="border: none;">
-    <tr style="vertical-align: top;">
-        <td>
+<table>
+    <tr style="vertical-align: top; border: 0">
+        <td style="border: 0">
             <p>Custom patterns can be provided separately to the Shape splatter v2 node, or packed into a grid atlas for leaner and more efficient workflows.</p><p>Packing patterns is simplified thanks to the new <a href="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md">Grid atlas</a> nodes.</p>
         </td>
-        <td style="text-align: right; width: 33%; margin-left: 32px">
+        <td style="text-align: right; width: 33%; margin-left: 32px; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-graph.png" alt="Grid atlas color node" />
         </td>
     </tr>
@@ -105,12 +105,12 @@ Again, advanced users can set up *custom texture mappings* defined by a function
 
 ## 3D SDF nodes (signed distance field)
 
-<table style="border: none;">
-    <tr style="vertical-align: top;">
-        <td>
+<table>
+    <tr style="vertical-align: top; width: 75%; border: 0">
+        <td style="border: 0">
             <p>Designer 16.0 adds a powerful method of generating 3D shapes in a function graph using a vast catalogue of nodes for authoring SDF functions.</p><p>Signed distance fields are representations of space as a distance to surfaces defined mathematically. They can be used to define shapes of increasing complexity as these surfaces are transformed and combined using various operators.</p>
         </td>
-        <td style="text-align: right; width: 25%; margin-left: 32px">
+        <td style="text-align: right; width: 25%; margin-left: 32px; border: 0">
             <img src="./version-16-0.resources/version-16-0-SDFFunctionsBreakdown.gif" alt="Building shapes with SDF Functions" />
         </td>
     </tr>
@@ -125,7 +125,7 @@ SDF functions involve a [new family of nodes](../../function-graphs/nodes-refere
 * **Transforms** let you adjust the shapes' position, rotation and size as you might expect and beyond with bending, twisting and elongation.
 * **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) family of nodes for masking or coloring shapes.
 
-<p style="text-align: center; margin: 32px"><img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/sdf-functions-mograph.gif" alt="SDF function nodes" /></p>
+<img style="display: block; margin: 32px auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/sdf-functions-mograph.gif" alt="SDF function nodes" />
 
 Lightweight nodes with clear and readable icons make building 3D SDF functions easier than you might think, especially with this next addition to the toolset...
 
@@ -135,26 +135,26 @@ As you author 3D SDF functions, you will need to visualize the resulting shapes 
 
 The node also includes features for checking the generated shapes in detail and debugging issues: separate rendering passes (AOV), SDF isolines and visual helpers. (E.g. Bbox bleed coloration, grid and rotation arcs)
 
-<table style="border: none; margin-top: 32px; margin-bottom: 32px">
-    <tr style="width: 50%;">
-        <td style="text-align: center; width: 50%">
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="width: 50%; border: 0">
+        <td style="text-align: center; width: 50%; border: 0; padding: 15px">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-01.jpg" alt="Example 1" />
         </td>
-        <td style="width: 50%;">
-            <table style="border: none;">
-                <tr style="vertical-align: top;">
-                    <td style="text-align: center">
+        <td style="width: 50%; border: 0; padding: 0">
+            <table>
+                <tr style="vertical-align: top; border: 0">
+                    <td style="text-align: center; border: 0">
                         <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02a.jpg" alt="Example 1" />
                     </td>
-                    <td style="text-align: center">
+                    <td style="text-align: center; border: 0">
                         <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02b.jpg" alt="Example 2" />
                     </td>
                 </tr>
-                <tr style="vertical-align: top;">
-                    <td style="text-align: center">
+                <tr style="vertical-align: top; border: 0; background: transparent">
+                    <td style="text-align: center; border: 0; background: transparent">
                         <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02c.jpg" alt="Example 3" />
                     </td>
-                    <td style="text-align: center">
+                    <td style="text-align: center; border: 0; background: transparent">
                         <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02d.jpg" alt="Example 4" />
                     </td>
                 </tr>
@@ -170,16 +170,16 @@ The node also includes features for checking the generated shapes in detail and 
 
 This material model is now supported throughout the application, with [dedicated shaders](../../interface/3d-view/material-properties/material-properties.md#openpbr) in both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
-<p style="text-align: center; margin: 32px"><img src="./version-16-0.resources/OpenPBRShort.gif" alt="OpenPBR support in Substance 3D Designer and comparisons with other DCCs" /></p>
+<img style="display: block; margin: 32px auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="OpenPBR support in Substance 3D Designer and comparisons with other DCCs" />
 
 Get started with this widely adopted industry standard with new graph templates, or go through the built-in material samples now based on OpenPBR.
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
-    <tr style="vertical-align: top;">
-        <td style="text-align: center">
+    <tr style="vertical-align: top; border: 0">
+        <td style="text-align: center; border: 0">
             <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="OpenPBR templates" />
         </td>
-        <td style="text-align: center">
+        <td style="text-align: center; border: 0">
             <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="OpenPBR material samples" />
         </td>
     </tr>
@@ -190,11 +190,11 @@ The OpenPBR shader is now the default for the 3D View and natively supports grap
 OpenPBR shaders support more effects than the existing shaders, such as thin film and thin wall. All effects are available in rasterization (Rasterizer, OpenGL), including refraction at long last!
 
 <table style="border: none;">
-    <tr style="vertical-align: top;">
-        <td>
+    <tr style="vertical-align: top; border: 0">
+        <td style="border: 0">
             It is also easier to keep workflows involving specific shaders in sync, with a new <a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">'Material model' attribute</a> for Substance graphs that ensures that graphs viewed in the 3D View use the appropriate shader for the graph's material model.
         </td>
-        <td style="text-align: right; margin-left: 32px">
+        <td style="text-align: right; margin-left: 32px; border: 0">
             <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="OpenPBR material samples" />
         </td>
     </tr>
@@ -214,7 +214,7 @@ Adjust the **Height scale**, **Height level** and **Tessellation** values withou
 
 These controls are available for both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
-<p style="text-align: center; margin: 32px"><img src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Displacement pop-up in the 3D View" /></p>
+<img style="display: block; margin: 32px auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Displacement pop-up in the 3D View" />
 
 If the scene includes multiple materials, select the object of the scene that you want to adjust beforehand by holding <code>Shift</code> and clicking it (Rasterizer and GPU Pathtracer only) or select it in the Scene browser.
 
@@ -229,11 +229,11 @@ If the scene includes multiple materials, select the object of the scene that yo
 ### Constant value nodes
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
-    <tr style="vertical-align: top;">
-        <td>
+    <tr style="vertical-align: top; border: 0">
+        <td style="border: 0">
             <p>For easier access to constant values in Substance graphs, <a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md">new nodes</a> have been added for generating a simple value of each type.</p><p>You can find all of them in the <b>Values > Constants</b> section of the Library.</p>
         </td>
-        <td style="width: 60%">
+        <td style="width: 60%; border: 0">
             <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="Constant 'Float' node" />
         </td>
     </tr>

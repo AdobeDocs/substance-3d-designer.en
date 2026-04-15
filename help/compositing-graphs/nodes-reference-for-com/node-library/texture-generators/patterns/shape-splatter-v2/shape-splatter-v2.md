@@ -161,36 +161,36 @@ Scatters shapes on a background height surface with advanced capabilities for sc
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px; border: none">
-    <tr>
-        <td>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
             <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Poisson distribution</i>
         </td>
-        <td>
+        <td style="border: 0; background: transparent">
             <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Uniform distribution</i>
         </td>
-        <td>
+        <td style="border: 0; background: transparent">
             <img src="./shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Density map</i>
         </td>
     </tr>
-    <tr>
-        <td>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
             <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Random 3D rotation</i>
         </td>
-        <td>
+        <td style="border: 0; background: transparent">
             <img src="./shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>Slope rotation</i>
         </td>
-        <td>
+        <td style="border: 0; background: transparent">
             <img src="./shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>Shape extrusion</i>
         </td>
     </tr>
-    <tr>
-        <td>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
             <img src="./shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" /><br><i>3D SDF shapes</i>
         </td>
-        <td>
+        <td style="border: 0; background: transparent">
         </td>
-        <td>
+        <td style="border: 0; background: transparent">
         </td>
     </tr>
 </table>

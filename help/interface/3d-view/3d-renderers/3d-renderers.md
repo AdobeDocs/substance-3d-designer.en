@@ -33,11 +33,11 @@ The 3D View offers four renderers:
   <tr>
     <td>
       <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
-      <br><i>Before</i>
+      <br><i>Rasterizer</i>
     </td>
     <td>
       <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
-      <br><i>After</i>
+      <br><i>GPU Pathtracer</i>
     </td>
   </tr>
 </table>
@@ -54,11 +54,11 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
   <tr>
     <td>
       <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
-      <br><i>Before</i>
+      <br><i>Rasterizer</i>
     </td>
     <td>
       <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
-      <br><i>After</i>
+      <br><i>OpenGL</i>
     </td>
   </tr>
 </table>

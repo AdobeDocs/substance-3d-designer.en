@@ -98,25 +98,25 @@ See also [Shape splatter v2 mapper grayscale](../shape-splatter-v2-mapper-graysc
 ## Examples
 
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
-    <tr>
-        <td style="width: 33%">
+    <tr style="border: 0; background: transparent">
+        <td style="width: 33%; border: 0; background: transparent">
             <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-triplanar-02.gif" /><br><i>Triplanar mapping</i>
         </td>
-        <td style="width: 33%">
+        <td style="width: 33%; border: 0; background: transparent">
             <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" /><br><i>Normal mapping</i>
         </td>
-        <td style="width: 33%">
+        <td style="width: 33%; border: 0; background: transparent">
             <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" /><br><i>Mapping per material ID from SDF shapes</i>
         </td>
     </tr>
-    <tr>
-        <td style="width: 33%">
+    <tr style="border: 0; background: transparent">
+        <td style="width: 33%; border: 0; background: transparent">
             <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" /><br><i>Tiling adjustment with triplanar mapping</i>
         </td>
-        <td style="width: 33%">
+        <td style="width: 33%; border: 0; background: transparent">
             <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-01.jpg" /><br><i>Mapping per material ID from Cylinder shape</i>
         </td>
-        <td style="width: 33%">
+        <td style="width: 33%; border: 0; background: transparent">
             <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-graph.png" /><br><i>Node in context of a graph</i>" />
         </td>
     </tr>
