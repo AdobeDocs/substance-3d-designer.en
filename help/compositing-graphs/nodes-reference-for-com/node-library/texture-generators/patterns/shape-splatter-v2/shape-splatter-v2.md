@@ -35,6 +35,10 @@ Scatters shapes on a background height surface with advanced capabilities for sc
 >
 > The [Grid atlas color](../grid-atlas-color/grid-atlas-color.md) nodes let you pack images into an atlas of custom size, up to 16 patterns in 4*4 cells.
 
+>[!INFO]
+> 
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
+
 <a name="inputs"></a>
 
 ## Inputs

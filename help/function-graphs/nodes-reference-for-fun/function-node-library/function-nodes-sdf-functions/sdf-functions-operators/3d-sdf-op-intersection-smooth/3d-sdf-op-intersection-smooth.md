@@ -26,6 +26,10 @@ Returns the volume common to two SDF shapes, effectively the volume created wher
 
 <a name='inputs'></a>
 
+>[!INFO]
+> 
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../working-with-sdf-functions.md)
+
 ## Inputs
 
 |  |  |

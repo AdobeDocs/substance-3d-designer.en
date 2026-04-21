@@ -639,6 +639,7 @@ user-guide-description: Substance 3D Designer
     + Function node library{#function-node-library}
       + [Function node library](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md)
       + SDF functions{#sdf-functions}
+        + [Working with SDF functions](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
         + Primitives{#sdf-functions-primitives}
           + [Capped cone](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone/3d-sdf-capped-cone.md)
           + [Capped cone (2 points)](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone-2-points/3d-sdf-capped-cone-2-points.md)

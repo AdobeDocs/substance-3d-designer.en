@@ -125,7 +125,11 @@ SDF functions involve a [new family of nodes](../../function-graphs/nodes-refere
 * **Transforms** let you adjust the shapes' position, rotation and size as you might expect and beyond with bending, twisting and elongation.
 * **Material** nodes let you set some basic material attributes — such as color and material ID — that can be used by [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) family of nodes for masking or coloring shapes.
 
-<img style="display: block; margin: 32px auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/sdf-functions-mograph.gif" alt="SDF function nodes" />
+>[!INFO]
+> 
+> Go to the [Working with SDF functions](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md) page to get started with working with these nodes.
+
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF function nodes" />
 
 Lightweight nodes with clear and readable icons make building 3D SDF functions easier than you might think, especially with this next addition to the toolset...
 
@@ -170,7 +174,7 @@ The node also includes features for checking the generated shapes in detail and 
 
 This material model is now supported throughout the application, with [dedicated shaders](../../interface/3d-view/material-properties/material-properties.md#openpbr) in both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
-<img style="display: block; margin: 32px auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="OpenPBR support in Substance 3D Designer and comparisons with other DCCs" />
+<img style="display: block; margin: auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="OpenPBR support in Substance 3D Designer and comparisons with other DCCs" />
 
 Get started with this widely adopted industry standard with new graph templates, or go through the built-in material samples now based on OpenPBR.
 
@@ -214,7 +218,7 @@ Adjust the **Height scale**, **Height level** and **Tessellation** values withou
 
 These controls are available for both our new renderers (Rasterizer, GPU Pathtracer) and the OpenGL renderer.
 
-<img style="display: block; margin: 32px auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Displacement pop-up in the 3D View" />
+<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Displacement pop-up in the 3D View" />
 
 If the scene includes multiple materials, select the object of the scene that you want to adjust beforehand by holding <code>Shift</code> and clicking it (Rasterizer and GPU Pathtracer only) or select it in the Scene browser.
 

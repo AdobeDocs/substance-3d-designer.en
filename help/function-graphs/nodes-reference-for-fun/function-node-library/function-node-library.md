@@ -24,6 +24,10 @@ These tools are arranged into several categories:
 
 These nodes let you author SDF functions which can be used to generate 3D shapes in the [Shape splatter v2](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) and [3d viewer](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) nodes, using their dedicated **SDF function** parameters.. 
 
+>[!INFO]
+> 
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](function-nodes-sdf-functions/working-with-sdf-functions.md)
+
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
@@ -131,7 +135,7 @@ These nodes let you author SDF functions which can be used to generate 3D shapes
 
 [Set color](function-nodes-sdf-functions/sdf-functions-material/set-color/set-color.md)
 
-[Set ID](function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
+[Set material ID](function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
 
 [Set material](function-nodes-sdf-functions/sdf-functions-material/set-material/set-material.md)
 

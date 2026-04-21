@@ -26,6 +26,10 @@ Returns the linear interpolation between a base SDF shape and a target SDF shape
 
 <a name='inputs'></a>
 
+>[!INFO]
+> 
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../working-with-sdf-functions.md)
+
 ## Inputs
 
 |  |  |
