@@ -42,9 +42,11 @@ These functions have many applications in computer graphics, such as drawing sur
 
 In Substance 3D Designer, SDF functions are used to create and manipulate 3D shapes in a procedural way.
 
-### The output of an SDF function
+### The output and intended use of an SDF function
 
-SDF function nodes may output a single float value, but importantly they internally set the values of variables that the host nodes need to know about to manipulate and draw the resulting shapes.
+SDF function nodes output a single float value: the signed distance to the nearest surface.
+
+Yet there is more to them: they internally get and set the values of variables that the host nodes need to define and/or know about to manipulate and draw the resulting shapes.
 
 This means these nodes need to be used in the context of nodes that *support SDF functions* because it knows about these variables and integrates them natively.
 
@@ -56,10 +58,10 @@ SDF function nodes are meant to be used in dedicated Substance function graphs, 
 Node parameters that are meant to be expressed as a function use an 'Edit function' button.
 
 What you need to know about Substance function graphs:
-* Nodes connectors are all specialized, meaning they can only be connected to other connectors of matching color. The color represents the type of value flowing through the connection.
-* Nodes do not have parameters, they can only have inputs.
-* The graph has a single output node, which is the SDF function's output value. Right-click on a node and select `Set as output` to designate it as the output node.
-* Similarly to Substance graphs, there are *atomic* nodes – the base building blocks – and *instance* nodes which represent other Substance function graphs.
+* Similarly to Substance graphs, nodes connectors are *specialized*, meaning they can only be connected to other connectors of *matching color* [representing their type](../../function-nodes-overview/function-nodes-overview.md#color-coding).
+* Nodes do not have parameters, they can only have inputs. (With a few specific exceptions)
+* The graph has a single output node. Right-click on a node and select `Set as output` to designate it as the output node.
+* Also similarly to Substance graphs, there are *atomic* nodes – the base building blocks – and *instance* nodes which represent other Substance function graphs.
 * There are separate operators (algebraic, logical and comparison) that let you perform operations on the values in the graph, however SDF nodes have [their own operators](#operators)
 
 +++ Example of a function graph defining an SDF function
@@ -72,7 +74,7 @@ What you need to know about Substance function graphs:
 
 To author SDF functions, we first need to visualize them so we can understand the effect of the nodes and parameters we are adjusting.
 
-The [3D viewer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) node has a dedicated mode for visualizing shapes authored using SDF functions: Set the node's <b<Scene type</b> parameter to `SDF function` and click the **Edit function** button to open the function graph that will host the SDF function itself.
+The [3D viewer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) node has a dedicated mode for visualizing shapes authored using SDF functions: Set the node's <b>Scene type</b> parameter to `SDF function` and click the **Edit function** button to open the function graph that will host the SDF function itself.
 
 The node offers dedicated features for visualizing aspects of the SDF function that will let us build them more intuitively and efficiently, such as a bounding frame and isolines.
 
@@ -97,7 +99,7 @@ Most input connectors of SDF function nodes have a default value, which is discl
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>If you do not need to keep some values visible at all times, dock nodes to save space and declutter the graph.</p><p>You can also use comments to keep track of the values.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-docked-nodes.png" alt="Tooltip for input connector on SDF function node." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>If you do not need to keep some values visible at all times, dock nodes using the <code>D</code> key to save space and declutter the graph.</p><p>You can also use comments to keep track of the values.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-docked-nodes.png" alt="Tooltip for input connector on SDF function node." /></td></tr></table>
 
 
 ### The bounding frame
@@ -105,7 +107,7 @@ Most input connectors of SDF function nodes have a default value, which is discl
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>To ensure a shape defined by an SDF function is fully drawn, it is important to adjust the bounding frame of the scene properly.<br>The bounding frame is a box in 3D space that defines the <i>bounds</i> in which the SDF function is evaluated and drawn. If the bounding frame is too small, parts of the shape may be trimmed. If it is too large, it may lead to unnecessary computations and longer processing times.</p><p>The <b>Bounding frame</b> parameter lets you enable the visualization of the bounding frame. You can then adjust the size of the bounding frame by changing the values of the <b>Bounding frame size</b> parameter.</p><p>Use the <b>Colorize out of frame</b> parameter to visualize the areas outside the bounding frame in bright red so you can adjust the frame accordingly.</p>
+            <p>The bounding frame is a box in 3D space that defines the <i>bounds</i> in which the SDF function is evaluated and drawn in the <a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">Shape splatter v2</a> node.</p><p>If the bounding frame is too small, parts of the shape may be trimmed. If it is too large, it may lead to unnecessary computations and longer processing times.</p><p>The <b>Bounding frame</b> parameter lets you enable the visualization of the bounding frame. You can then adjust the size of the bounding frame by changing the values of the <b>Bounding frame size</b> parameter.</p><p>Use the <b>Colorize out of frame</b> parameter to visualize the areas outside the bounding frame in bright red so you can adjust the frame accordingly.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
             <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="Bounding frame feature of 3D viewer node, for SDF functions." />
@@ -234,19 +236,25 @@ Learn more on applications of these nodes [below](#material-id).
 
 ## The 'P' input
 
-If you use a transform node in a function, and down the line a node generates an unexpected result, it is likely caused by that transformation not being propagated to the other nodes involved. Thus SDF nodes are not working in the same transformed space and therefore not interacting with each other as expected.
+When we apply a transformation to a shape, such as an offset or a rotation, we actually transform the space that the shape is defined in.
 
-To understand how space transformation works, it is important to understand that SDF functions calculate the distance to a surface by evaluating the *position* of a point in space relative to that surface. When we apply a transformation to the space, we are essentially *changing the position* of points in space relative to the surfaces, which in turn changes the surfaces themselves.
+If we want a transformation to propagate to other shapes — for instance, if we want to rotate several shapes the same way — we need to make sure they are all using that same transformed space.
 
-A transformed space is shared across node using the dedicated `P` input, which you can find in most SDF nodes. The 'P' stands for world space **P**osition: A 3D vector representing the coordinates of a point in world space.  
-When we apply a transformation to the space, we are modifying the value of `P` for each point, which changes how the SDF function evaluates the distance to the surface.
+A transformed space is shared across nodes by using their dedicated `P` input, which you can find in most SDF nodes.  
+The 'P' stands for world space **P**osition: A 3D vector representing the coordinates of a point in world space.
 
-The [Offset P](sdf-functions-transforms/3d-sdf-transform-offset-p/3d-sdf-transform-offset-p.md) and [Rotate P](sdf-functions-transforms/3d-sdf-transform-rotate-p/3d-sdf-transform-rotate-p.md) nodes let you propagate translations and rotations across all nodes that should inherit that transformation and create shapes in the context of the transformed space.  
-For instance, several shapes can be rotated the same way by connecting the same  to the `P` input of all the nodes creating those shapes.
+The [Offset P](sdf-functions-transforms/3d-sdf-transform-offset-p/3d-sdf-transform-offset-p.md) and [Rotate P](sdf-functions-transforms/3d-sdf-transform-rotate-p/3d-sdf-transform-rotate-p.md) nodes transform the space and let you propagate that transformation to all nodes that should inherit it.  
+For instance, several shapes can be rotated together by connecting their `P` input to the same Rotate P node.
 
 This is not merely a matter of convenience, it is making sure SDF nodes work with the same positions in space.
 
-<img style="margin-top: 32px" src="./working-with-sdf-functions.resources/working-with-sdf-p-input.gif" alt="Controlling space transformation using the 'P' input of SDF function nodes." /><br><i>Small spheres are tiled to visualize space as a 3D grid.<br>Without using a shared `P`, note how the bent cylinder uses the tiled grid space.<br>With the shared `P`, shapes can be correctly defined in a shared rotated space.</i>
+Here is an example:
+
+![working-with-sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-p-input.gif)
+
+A sphere is repeated to visualize space as a 3D grid. It is repeated by *repeating the space*.  
+Without a shared `P`, the bent cylinder uses the repeating space used by the sphere.  
+With a shared `P`, shapes can be correctly defined in a shared rotated space.</p>
 
 ## Using SDF functions in the 'Shape splatter v2' nodes
 
@@ -279,7 +287,7 @@ Use the [Set material ID](./sdf-functions-material/set-id/set-id.md) node after 
 In the 3D viewer node, set the **Output** parameter to `Material ID` to visualize the material IDs of the shapes.
 
 ![working-with-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-material-id-01.png)  
-*On the right, the output of two 3D viewer nodes are composited to show the normals of the shape (left) and its material IDs (right), to provide a glimpse of how material IDs are split in blended shapes.*
+*On the right, the output of two 3D viewer nodes are composited to show the shape (left) and its material IDs (right) to illustrate how, in blended shapes, materials are interpolated while material IDs are split.*
 
 Material IDs can be leveraged by Shape splatter v2 companion nodes:
 * [Shape splatter v2 mapper](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.md) nodes can use these material IDs to assign different patterns.
