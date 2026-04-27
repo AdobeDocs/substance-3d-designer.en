@@ -82,7 +82,7 @@ See also: [Messy fibers 1](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Messy fibers 3 - Example 1](../../../../../../assets/messy_fibers_3(1).png "Messy fibers 3 - Example 1"){zoomable="yes"}
+![Messy fibers 3 - Example 1](../../../../../../assets/messy_fibers_3_1.png "Messy fibers 3 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

@@ -81,7 +81,7 @@ See also: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt gradient - Example 1](../../../../../../assets/dirt_gradient(1).png "Dirt gradient - Example 1"){zoomable="yes"}
+![Dirt gradient - Example 1](../../../../../../assets/dirt_gradient_1.png "Dirt gradient - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

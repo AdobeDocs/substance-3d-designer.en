@@ -83,7 +83,7 @@ See also: [Clouds 1](../../../../../../compositing-graphs/nodes-reference-for-co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Clouds 3 - Example 1](../../../../../../assets/clouds_3(1).png "Clouds 3 - Example 1"){zoomable="yes"}
+![Clouds 3 - Example 1](../../../../../../assets/clouds_3_1.png "Clouds 3 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

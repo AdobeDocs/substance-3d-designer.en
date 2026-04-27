@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Frame icon](../../../../assets/graphatomic-frame(1).png "Frame icon")
+![Frame icon](../../../../assets/graphatomic-frame_1.png "Frame icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -84,7 +84,7 @@ See also: [Gaussian spots 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Gaussian spots 2 - Example 1](../../../../../../assets/gaussian_spots_2(1).png "Gaussian spots 2 - Example 1"){zoomable="yes"}
+![Gaussian spots 2 - Example 1](../../../../../../assets/gaussian_spots_2_1.png "Gaussian spots 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

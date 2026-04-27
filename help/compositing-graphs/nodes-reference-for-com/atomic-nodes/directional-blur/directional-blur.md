@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Directional blur](../../../../assets/comp_dirmotionblur(1).png "Atomic node: Directional blur"){width="200px"}
+![Atomic node: Directional blur](../../../../assets/comp_dirmotionblur_1.png "Atomic node: Directional blur"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

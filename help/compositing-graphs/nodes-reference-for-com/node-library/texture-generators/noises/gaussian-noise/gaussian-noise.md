@@ -83,7 +83,7 @@ See also: [Gaussian spots 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Gaussian noise - Example 1](../../../../../../assets/gaussian_noise-1(1).png "Gaussian noise - Example 1"){zoomable="yes"}
+![Gaussian noise - Example 1](../../../../../../assets/gaussian_noise-1_1.png "Gaussian noise - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
