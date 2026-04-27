@@ -60,12 +60,12 @@ Adjusts the thickness of rendered segments in pixels.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/PathsToSpline-Variant2-Before(1).jpg "Node example 1")
+![Node example 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/PathsToSpline-Variant1-Before(1).jpg "Node example 2")
+![Node example 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "Node example 2")
 
 </td>
 </tr>

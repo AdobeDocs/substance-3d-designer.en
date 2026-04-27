@@ -85,7 +85,7 @@ See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-refer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional noise 2 - Example 1](../../../../../../assets/directional_noise_2(1).png "Directional noise 2 - Example 1"){zoomable="yes"}
+![Directional noise 2 - Example 1](../../../../../../assets/directional_noise_2_1.png "Directional noise 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

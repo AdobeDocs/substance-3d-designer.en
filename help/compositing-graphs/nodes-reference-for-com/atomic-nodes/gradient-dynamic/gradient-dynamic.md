@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Gradient dynamic](../../../../assets/comp_dyngradient(1).png "Atomic node: Gradient dynamic"){width="200px"}
+![Atomic node: Gradient dynamic](../../../../assets/comp_dyngradient_1.png "Atomic node: Gradient dynamic"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

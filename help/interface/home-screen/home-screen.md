@@ -33,7 +33,7 @@ To close the Home Screen, use the <b>Back</b> button on the top left or the <b>C
 </tr>
 </table>
 
-![Home section](../../assets/home-screen-home(1).jpg "Home section"){width="512px"}
+![Home section](../../assets/home-screen-home_1.jpg "Home section"){width="512px"}
 
 ## Home
 

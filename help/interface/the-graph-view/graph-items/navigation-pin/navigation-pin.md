@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Navigation pin icon](../../../../assets/graphatomic-pin(1).png "Navigation pin icon")
+![Navigation pin icon](../../../../assets/graphatomic-pin_1.png "Navigation pin icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

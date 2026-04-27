@@ -83,7 +83,7 @@ See also: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Example 1](../../../../../../assets/dirt_2(1).png "Dirt 2 - Example 1"){zoomable="yes"}
+![Dirt 2 - Example 1](../../../../../../assets/dirt_2_1.png "Dirt 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

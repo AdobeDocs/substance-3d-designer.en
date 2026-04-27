@@ -83,7 +83,7 @@ See also: [BnW spots 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW spots 3 - Example 1](../../../../../../assets/bnw_spots_3(1).png "BnW spots 3 - Example 1"){zoomable="yes"}
+![BnW spots 3 - Example 1](../../../../../../assets/bnw_spots_3_1.png "BnW spots 3 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

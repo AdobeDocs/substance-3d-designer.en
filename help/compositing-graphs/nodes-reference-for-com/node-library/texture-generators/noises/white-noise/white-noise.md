@@ -77,7 +77,7 @@ Generates a white noise using one of three methods targeting different histogram
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![White noise - Example 1](../../../../../../assets/white_noise_v2(1).png "White noise - Example 1"){zoomable="yes"}
+![White noise - Example 1](../../../../../../assets/white_noise_v2_1.png "White noise - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
