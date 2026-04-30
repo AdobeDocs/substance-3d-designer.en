@@ -85,7 +85,7 @@ The amount of strips is adjustable, as is the smoothness of their transitions.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Anisotropic noise - Example 1](../../../../../../assets/anisotropic_noise_v2(1).png "Anisotropic noise - Example 1"){zoomable="yes"}
+![Anisotropic noise - Example 1](../../../../../../assets/anisotropic_noise_v2_1.png "Anisotropic noise - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

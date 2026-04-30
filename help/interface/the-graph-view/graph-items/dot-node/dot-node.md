@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Dot node icon](../../../../assets/graphatomic-dot(1).png "Dot node icon")
+![Dot node icon](../../../../assets/graphatomic-dot_1.png "Dot node icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

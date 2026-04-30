@@ -24,11 +24,11 @@ An SDF function for a cone of adjustable height, radius and position.
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
+
+>[!INFO]
+> 
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../working-with-sdf-functions.md)
 
 ## Inputs
 

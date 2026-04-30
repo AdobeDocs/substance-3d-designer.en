@@ -14,16 +14,16 @@ user-guide-title: ""
 
 # Displacement pop-up
 
-<table style="border: none; margin-top: 32px; margin-bottom: 32px">
-    <tr style="vertical-align: top;">
-        <td>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="vertical-align: top; border: 0">
+        <td style="border: 0">
             <p>The Displacement pop-up available in the 3D View toolbar offers direct controls to the displacement and tessellation of meshes.</p>
             <p>There are three parameters:<ul>
                 <li>Height scale</li>
                 <li>Height level</li>
                 <li>Tessellation</li></ul>
         </td>
-        <td style="width: 60%; margin-left: 32px">
+        <td style="width: 60%; margin-left: 32px; border: 0">
             <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Displacement pop-up in the 3D View" />
         </td>
     </tr>
@@ -69,8 +69,6 @@ subdivision value.
 Subdivision is contextual: it is optimized in such a way that only surface with a *non-uniform height value* or 
 a *non-flat height map* will be subdivided, regardless of the parameter value.
 
-[EXAMPLE: Rasterizer subdivision]
-
 ### Per material
 
 When using the [OpenGL](../3d-renderers/3d-renderers.md#opengl) renderer, each material in the scene has a *separate* subdivision value, which 
@@ -86,15 +84,11 @@ The steps to displaying the wireframe for each renderer are described below:
 
 ### Rasterizer/GPU Pathtracer
 
-Use the <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width=16 /> **Renderer settings**
+Use the <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width=22 /> **Renderer settings**
 button, then in the Properties dock go to **Render settings > Diagnostic mode** and select the **Wireframe
 (world space)** option.
 
-[EXAMPLE: Rasterizer wireframe]
-
 ### OpenGL
 
-Use the <img src="../3d-view.resources/3d-view-scene-toolbar-wireframe.png" width=16 /> **Wireframe**
+Use the <img src="../3d-view.resources/3d-view-scene-toolbar-wireframe.png" width=22 /> **Wireframe**
 button.
-
-[EXAMPLE: OpenGL wireframe]

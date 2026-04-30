@@ -52,7 +52,7 @@ Tip: enter a number between 100 and 1000 to generate a circle.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/PathsPolygon_Variant1(1).jpg "Node example 1")
+![Node example 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

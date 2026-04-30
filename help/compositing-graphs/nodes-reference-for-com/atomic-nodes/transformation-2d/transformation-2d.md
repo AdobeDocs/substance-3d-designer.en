@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Transformation 2D](../../../../assets/comp_transformation(1).png "Atomic node: Transformation 2D"){width="200px"}
+![Atomic node: Transformation 2D](../../../../assets/comp_transformation_1.png "Atomic node: Transformation 2D"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

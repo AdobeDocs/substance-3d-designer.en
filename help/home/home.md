@@ -122,18 +122,3 @@ If you have any question that is not answered in this manual, feel free to ask o
 </td>
 </tr>
 </table>
-
-## Release notes
-
-* [All changes](../release-notes/all-changes/all-changes.md)
-* [Version 14.0](../release-notes/version-14-0/version-14-0.md)
-* [Version 13.1](../release-notes/version-13-1/version-13-1.md)
-* [Version 13.0](../release-notes/version-13-0/version-13-0.md)
-* [Version 12.4](../release-notes/version-12-4/version-12-4.md)
-* [Version 12.3](../release-notes/version-12-3/version-12-3.md)
-* [Version 12.2](../release-notes/version-12-2/version-12-2.md)
-* [Version 12.1](../release-notes/version-12-1/version-12-1.md)
-* [Version 11.3](../release-notes/version-11-3/version-11-3.md)
-* [Version 11.2](../release-notes/version-11-2/version-11-2.md)
-* [Version 2021.1 (11.1)](../release-notes/version-2021-1-11-1/version-2021-1-11-1.md)
-* [Previous versions](../release-notes/old-versions/old-versions.md)

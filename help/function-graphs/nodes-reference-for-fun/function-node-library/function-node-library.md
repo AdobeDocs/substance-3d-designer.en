@@ -18,11 +18,15 @@ In addition to [atomic nodes](../../../function-graphs/nodes-reference-for-fun/a
 
 These tools are arranged into several categories:
 
-<a name"sdf-functions"></a>
+<a name="sdf-functions"></a>
 
 ## SDF functions
 
 These nodes let you author SDF functions which can be used to generate 3D shapes in the [Shape splatter v2](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) and [3d viewer](../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) nodes, using their dedicated **SDF function** parameters.. 
+
+>[!INFO]
+> 
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](function-nodes-sdf-functions/working-with-sdf-functions.md)
 
 <table>
 <tr style="border: 0;">
@@ -131,7 +135,7 @@ These nodes let you author SDF functions which can be used to generate 3D shapes
 
 [Set color](function-nodes-sdf-functions/sdf-functions-material/set-color/set-color.md)
 
-[Set ID](function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
+[Set material ID](function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
 
 [Set material](function-nodes-sdf-functions/sdf-functions-material/set-material/set-material.md)
 
@@ -147,7 +151,7 @@ These nodes let you author SDF functions which can be used to generate 3D shapes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<a name"comparison"></a>
+<a name="comparison"></a>
 
 ## Comparison
 
@@ -170,7 +174,7 @@ Not equal float4
 </td>
 <td style="border: 0;" valign="top">
 
-<a name"conversion"></a>
+<a name="conversion"></a>
 
 ## Conversion
 
@@ -201,7 +205,7 @@ Turns to degrees
 </td>
 <td style="border: 0;" valign="top">
 
-<a name"constant"></a>
+<a name="constant"></a>
 
 ## Constant
 
@@ -209,7 +213,7 @@ Turns to degrees
 
 Pi
 
-<a name"parity"></a>
+<a name="parity"></a>
 
 ## Parity
 
@@ -223,7 +227,7 @@ Parity test
 </tr>
 </table>
 
-<a name"maths"></a>
+<a name="maths"></a>
 
 ## Maths
 
@@ -307,7 +311,7 @@ Truncate float
 </tr>
 </table>
 
-<a name"color"></a>
+<a name="color"></a>
 
 ## Color
 
@@ -397,7 +401,7 @@ Hejl tonemapper
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-<a name"transformation"></a>
+<a name="transformation"></a>
 
 ## Transformation
 
@@ -424,7 +428,7 @@ Tile matrix
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-<a name"random"></a>
+<a name="random"></a>
 
 ## Random
 
@@ -477,7 +481,7 @@ Random uniform float4 &#91;a, b&#91;
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-<a name"easings"></a>
+<a name="easings"></a>
 
 ## Easings
 
@@ -526,7 +530,7 @@ Ease out sine
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-<a name"various"></a>
+<a name="various"></a>
 
 ## Various
 

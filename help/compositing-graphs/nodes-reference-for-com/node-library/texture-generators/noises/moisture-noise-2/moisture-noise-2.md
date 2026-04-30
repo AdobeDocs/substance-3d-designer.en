@@ -89,7 +89,7 @@ See also: [Moisture noise 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Moisture noise 2 - Example 1](../../../../../../assets/moisture_noise_2(1).png "Moisture noise 2 - Example 1"){zoomable="yes"}
+![Moisture noise 2 - Example 1](../../../../../../assets/moisture_noise_2_1.png "Moisture noise 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

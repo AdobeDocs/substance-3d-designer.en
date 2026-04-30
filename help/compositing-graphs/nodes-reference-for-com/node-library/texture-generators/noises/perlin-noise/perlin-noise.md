@@ -79,7 +79,7 @@ Generates a Perlin noise, a widely used smooth distribution of grayscale values.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Perlin noise - Example 1](../../../../../../assets/perlin_noise(1).png "Perlin noise - Example 1"){zoomable="yes"}
+![Perlin noise - Example 1](../../../../../../assets/perlin_noise_1.png "Perlin noise - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

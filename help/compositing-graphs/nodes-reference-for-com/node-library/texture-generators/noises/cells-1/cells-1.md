@@ -91,7 +91,7 @@ See also: [Cells 2](../../../../../../compositing-graphs/nodes-reference-for-co
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Cells 1 - Example 1](../../../../../../assets/cells_1(1).png "Cells 1 - Example 1"){zoomable="yes"}
+![Cells 1 - Example 1](../../../../../../assets/cells_1_1.png "Cells 1 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

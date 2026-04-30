@@ -24,6 +24,10 @@ Computes a 3D render for a specified SDF or intersection scene defined by a func
 </tr>
 </table>
 
+>[!INFO]
+> 
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
+
 <a name="inputs"></a>
 
 ## Inputs

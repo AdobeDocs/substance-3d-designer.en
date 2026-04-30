@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Levels](../../../../assets/comp_levels(1).png "Atomic node: Levels"){width="200px"}
+![Atomic node: Levels](../../../../assets/comp_levels_1.png "Atomic node: Levels"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -42,7 +42,7 @@ Additionally, replacing the original nodes by an instance node referencing the n
 
 Finally, you should decide whether the subgraph should be exposed to users when you publish your project to a shareable SBSAR file. See 'Exposed in SBSAR' parameter in the [graph's properties](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
-### A word about iNHERITANCE
+### A word about inheritance
 
 Another benefit or using subgraphs is that each instance of a subgraph can <b>adapt to the context</b> it is being used into. In other words, two instances of a same graph can have different output resolutions, bitdepths and tiling modes.
 

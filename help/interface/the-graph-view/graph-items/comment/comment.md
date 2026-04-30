@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Comment icon](../../../../assets/graphatomic-comment(1).png "Comment icon")
+![Comment icon](../../../../assets/graphatomic-comment_1.png "Comment icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

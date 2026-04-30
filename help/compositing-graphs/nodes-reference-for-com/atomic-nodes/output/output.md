@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Output](../../../../assets/comp_output(1).png "Atomic node: Output"){width="200px"}
+![Atomic node: Output](../../../../assets/comp_output_1.png "Atomic node: Output"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -38,46 +38,6 @@ It has a single input slot that is type-agnostic, which means it types itself af
 It has no parameters, but rather attributes that are of great importance for properly labeling the output and putting it to its intended use.
 
 Every Substance graph must have *at least one* Output node. If no output exists, the graph can never return an actual result and a [warning](../../../../technical-issues/warnings-and-errors/warnings-and-errors.md) is raised.
-
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## aTTRIBUTES
-
-</td>
-<td style="border: 0;" valign="top">
-
-### iNTEGRATION ATTRIBUTES
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Default output
-
-</td>
-</tr>
-</table>
 
 ## Attributes
 
@@ -133,12 +93,12 @@ To set an Output node as a graph's default output:
 Here is an example of instance nodes before and after setting a default output:
 
 <table>
-  <tr>
-    <td>
+  <tr style="border: 0">
+    <td style="border: 0">
       <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
       <br><i>Before</i>
     </td>
-    <td>
+    <td style="border: 0">
       <img src="../../../../assets/defaultouput1.png" alt="defaultouput1">
       <br><i>After</i>
     </td>

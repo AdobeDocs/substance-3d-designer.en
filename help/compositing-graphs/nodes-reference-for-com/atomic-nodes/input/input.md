@@ -18,17 +18,17 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input color](../../../../assets/comp_inputcolor(1).png "Atomic node: Input color"){width="200px"}
+![Atomic node: Input color](../../../../assets/comp_inputcolor_1.png "Atomic node: Input color"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input grayscale](../../../../assets/comp_inputgrayscale(1).png "Atomic node: Input grayscale"){width="200px"}
+![Atomic node: Input grayscale](../../../../assets/comp_inputgrayscale_1.png "Atomic node: Input grayscale"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input value](../../../../assets/comp_inputnumeric(1).png "Atomic node: Input value"){width="200px"}
+![Atomic node: Input value](../../../../assets/comp_inputnumeric_1.png "Atomic node: Input value"){width="200px"}
 
 </td>
 </tr>

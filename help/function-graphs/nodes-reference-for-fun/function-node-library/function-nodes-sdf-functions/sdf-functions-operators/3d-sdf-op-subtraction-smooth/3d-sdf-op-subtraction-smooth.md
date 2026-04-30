@@ -26,6 +26,10 @@ Subtracts the volume of the SDF 1 shape from the SDF 2 shape, with adjustable sm
 
 <a name='inputs'></a>
 
+>[!INFO]
+> 
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../working-with-sdf-functions.md)
+
 ## Inputs
 
 |  |  |

@@ -37,6 +37,10 @@ See also [Shape splatter v2 mapper color](../shape-splatter-v2-mapper-color/shap
 >
 > The [Grid atlas grayscale](../grid-atlas-grayscale/grid-atlas-grayscale.md) nodes let you pack images into an atlas of custom size, up to 16 patterns in 4*4 cells.
 
+>[!INFO]
+> 
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
+
 <a name="inputs"></a>
 
 ## Inputs

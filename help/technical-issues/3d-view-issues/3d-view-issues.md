@@ -18,22 +18,22 @@ This page lists technical issues related to the [3D view](../../interface/3d-vie
 
 ## Low performance: Discrete GPU is not used
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+**![(error)](../../assets/error.svg) Issue**
 
 Substance 3D Designer does not use the system's *discrete* GPU (<b>dGPU</b>), and uses the *integrated* GPU (<b>iGPU</b>) instead. This results in low performance when rendering graphs and/or the [3D view](../../interface/3d-view/3d-view.md).
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 Systems with switchable graphics can *force the dGPU* which should be used for a *specific application* in dedicated software, depending on the GPU manufacturer.
 
 For instance, users with an <b>Nvidia dGPU</b> can do the following:
 
-1. Close Substance 3D Designer
-1. Open the <b>NVIDIA Control Panel</b>
-1. Go to <b>Manage 3D settings</b> screen in the <b>3D settings</b> section
-1. Look for the 'Substance 3D Designer' entry in the <b>Program Settings</b> tab
-1. Select <b>High-performance NVIDIA processor</b> in the <b>Preferred GPU</b> combobox
-1. Start Substance 3D Designer
+1. Close Substance 3D Designer 
+2. Open the <b>NVIDIA Control Panel</b>
+3. Go to <b>Manage 3D settings</b> screen in the <b>3D settings</b> section 
+4. Look for the 'Substance 3D Designer' entry in the <b>Program Settings</b> tab 
+5. Select <b>High-performance NVIDIA processor</b> in the <b>Preferred GPU</b> combobox 
+6. Start Substance 3D Designer
 
 >[!WARNING]
 >
@@ -50,46 +50,30 @@ A 3D object which featured detailed volumes in one session becomes flat in the n
 The deformation effect of a 3D object according to a Height map is performed using a technique called **Tessellation displacement**. This technique involves two steps:
 
 1. **Tessellation**: the object geometry is *subdivided* into vertices, resulting in a *denser geometry* to support finer volume detail
-1. **Displacement**: the vertices are *moved* - i.e. displaced - along their *normal vector*. The normal vector follows the direction a polygon is facing and has a magnitude (i.e. length) of 1
+2. **Displacement**: the vertices are *moved* - i.e. displaced - along their *normal vector*. The normal vector follows the direction a polygon is facing and has a magnitude (i.e. length) of 1
 
 The displacement *direction* is known: the direction of the normal vector.  
 The displacement *distance* by which the vertices are moved is calculated as follows : `Distance = Height scale * Height map`. Because the Height map has *not changed* in the graph, that leaves the **Height scale**.
 
 The default Height scale value is **1.0**, which may result in a displacement effect which is *not noticeable* depending on the mesh displayed in the 3D View and the Height map applied to it.
 
->[!WARNING]
->
-> If not set explicitly in the graph, the Height scale value is *reset to default* each time a new 3D view render is started, e.g. when loading a graph after starting Designer or switching to a different graph.
-
 This value can be modified in the following ways:
 
-### In the 3D view
+| In the 3D view                                                                                                                                    | In the Graph view                                                                                                                                                                                                                                                                                                                                                                        |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Use the **Displacement pop-up** in the left toolbar.<br>Learn more in the [dedicated page](../../interface/3d-view/displacement/displacement.md). | Create an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node and set the `heightScale` usage in its properties.<br>Provide a value to this output with a value, using a [constant Float node](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats) for instance, then *reapply the graph* in the 3D View. |
 
-Open the <b>Materials</b> menu open the submenu of the current material (*Default* in most cases) and select the <b>Edit</b> option. In the <b>Properties</b> panel, find the <b>Scale</b> parameter in the <b>Height</b> category.
-
->[!NOTE]
->
-> Using this method, you can then use the **Save current scene state as default** option in the **Scene** menu of the 3D view to use your custom Height scale value as the *new default* for *all* future 3D View scenes.
-
-![Height scale in 3D View material properties](../../assets/3dview-heightscale-01.gif "Height scale in 3D View material properties")
-
-### In the Graph view
-
-Create an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node and set the "<b>heightscale</b>" usage in its properties, then *reapply the graph* in the 3D View. You may feed this output a texture, or a value using a [Value processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) node.
-
->[!NOTE]
+>[!TIP]
 >
 > Using this method, you can set a custom Height scale value *per graph*, which lets you adjust it to match the specific material of that graph.
 
-![Height scale in the Graph view](../../assets/3dview-heightscale-02.gif "Height scale in the Graph view")
-
 ## 3D view is entirely black
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+**![(error)](../../assets/error.svg) Issue**
 
 In versions 15.0.0 and higher, the viewport of the 3D view is flat black. I see some text overlays (E.g., samples and render time) but the 3D scene is not visible.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 Version 15.1 and higher
 
@@ -106,10 +90,10 @@ Supported GPUs include NVIDIA RTX 20 series (Turing) or higher, as per Designer'
 You may continue using the OpenGL renderer by default, by using the [new option in the Project settings](../../interface/preferences-window/project-settings/project-settings.md):
 
 1. Go to Edit &gt; Preferences &gt; Projects
-1. Select the last project file in the list
-1. Under the list of project files, select the 3D View tab
-1. Set the 'Default renderer' option to 'OpenGL (deprecated)'
-1. Click 'OK' to validate the changes
+2. Select the last project file in the list
+3. Under the list of project files, select the 3D View tab
+4. Set the 'Default renderer' option to 'OpenGL (deprecated)'
+5. Click 'OK' to validate the changes
 
 Now, all new 3D View will use the OpenGL renderer by default, which will let you continue working as before.
 
@@ -123,11 +107,11 @@ Now, all new 3D View will use the OpenGL renderer by default, which will let you
 
 ## 'Renderer not supported' message is displayed
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+**![(error)](../../assets/error.svg) Issue**
 
 In versions 15.0.0 and higher, the 'Renderer not supported' message appears in the lower right corner of the viewport when using the new 3D renderers (Rasterizer, GPU pathtracer). The 3D scene is not visible.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) introduced our new in-house [3D renderers](../../interface/3d-view/3d-renderers/3d-renderers.md), which use modern technologies and therefore are not supported by older GPUs.
 
@@ -138,9 +122,9 @@ On default settings, the 3D View will automatically fall back to the OpenGL rend
 You may find and adjust that option by following these steps:
 
 1. Go to Edit &gt; Preferences &gt; Projects
-1. Select the last project file in the list
-1. Under the list of project files, select the 3D View tab
-1. The 'Default renderer' option is listed in the settings within the tab
+2. Select the last project file in the list
+3. Under the list of project files, select the 3D View tab
+4. The 'Default renderer' option is listed in the settings within the tab
 
 >[!NOTE]
 >
@@ -158,9 +142,9 @@ You may find and adjust that option by following these steps:
 
 After working on the data sent to the **Height** [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), the object appears to have some volume but *looks entirely smooth*, as if the height information was ignored in the shading.
 
-<table>
+<table style="margin-left: 0; margin-right: 0;">
 <tr style="border: 0;">
-<td width="58.30%" style="border: 0;" valign="top">
+<td style="border: 0; width: 60%; vertical-align: top">
 
 **![(tick)](../../assets/check.svg) Recommended steps**
 
@@ -171,7 +155,7 @@ When using the **Tessellation Displacement** technique – see "3D object is fla
 The solution is quite simple: connect the last node of the stream leading to the Height output to a [Normal](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) node. Adjust that node's **Intensity** parameter according to the material you are working on and connect the Normal node to the **Normal** output.
 
 </td>
-<td width="41.60%" style="border: 0;" valign="top">
+<td style="border: 0; width: 40%; vertical-align: top">
 
 ![](../../assets/3dview-height-without-normals.gif){width="256px"}
 
@@ -185,9 +169,9 @@ The solution is quite simple: connect the last node of the stream leading to the
 
 The rendered image looks blurry or pixelated when the system uses *display scaling*.
 
-<table>
+<table style="margin-left: 0; margin-right: 0;">
 <tr style="border: 0;">
-<td width="58.30%" style="border: 0;" valign="top">
+<td style="border: 0; width: 60%; vertical-align: top">
 
 **![(tick)](../../assets/check.svg) Recommended steps**
 
@@ -196,7 +180,7 @@ By default, Designer uses the *scaled* display resolution to define the [3D view
 Open the **Edit** menu and select the **Preferences...** option. In the [Preferences](../../interface/preferences-window/preferences-window.md) window, open the **3D View** section and set the **Viewport scaling** parameter to *None*.
 
 </td>
-<td width="41.60%" style="border: 0;" valign="top">
+<td style="border: 0; width: 40%; vertical-align: top">
 
 ![](../../assets/demo-viewport-scaling-option.png){width="256px"}
 
@@ -206,11 +190,11 @@ Open the **Edit** menu and select the **Preferences...** option. In the [Prefere
 
 ## I cannot find the 'Tessellation factor' property
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+**![(error)](../../assets/error.svg) Issue**
 
 After upgrading Designer to version 15.0.0, I cannot find the 'Tessellation factor' parameter in the material properties where it used to be.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 When using the new renderers (Rasterizer and GPU Pathtracer), the 'Tessellation factor' is found in the properties of these renderers. In the 3D View, go to <b>Renderer &gt; Edit settings</b>. The property will be listed in the Properties dock.
 
@@ -224,7 +208,7 @@ When using the new renderers (Rasterizer and GPU Pathtracer), the 'Tessellation 
 
 ## 3D objects look wrong: their shading does not suit the lighting
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+**![(error)](../../assets/error.svg) Issue**
 
 The shading of objects relies on their normal, tangent and binormal vectors. Their coordinates use the &#91;-1, 1&#93; range, whereas normal maps use the &#91;0, 1&#93; range in most cases. To adapt values from one to the other, a <b>bias and scale</b> need to be applied: value\*scale+bias.
 
@@ -233,12 +217,11 @@ For instance, a scale of 2 and a bias of -1 adapts the x value from &#91;0, 1&#
 Designer does not apply a normal scale and bias unless they are specified by a 3D mesh. If that information is missing, a warning is raised in the Console when [overriding any of its materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
 
 ```
-
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
 ```
 
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 For scenes exported to USD formats a while ago: Reexport the scene using a recent version of USD, which will include the necessary data. Pay attention to properties related to normal scale and bias if there are any, which will depend on the software used to export the scene.
 
@@ -246,17 +229,15 @@ When [overriding a material](../../working-with-3d-scenes/overriding-scene-mat/o
 
 ## Crash when starting 3D View
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+**![(error)](../../assets/error.svg) Issue**
 
 Designer crashes at the time of starting the 3D View, when creating a project, loading a project, or manually starting a 3D View.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 First, make sure your system meets Designer's [system requirements](../../getting-started/system-requirements/system-requirements.md).
 
-Then, update your graphics drivers. You can find the latest drivers for your GPU by following these links:
-
-[NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  |  [AMD](https://www.amd.com/en/support)  |  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Then, update your graphics drivers. You can find the latest drivers for your GPU by following these links:  [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  |  [AMD](https://www.amd.com/en/support)  |  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 If your system includes both an integrated GPU (iGPU) and discrete GPU (dGPU), make sure to *update the drivers for both*!
 

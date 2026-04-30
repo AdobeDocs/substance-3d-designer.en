@@ -86,7 +86,7 @@ See also: [Fractal sum 1](../../../../../../compositing-graphs/nodes-reference-f
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fractal sum base - Example 1](../../../../../../assets/fractal_sum_base(1).png "Fractal sum base - Example 1"){zoomable="yes"}
+![Fractal sum base - Example 1](../../../../../../assets/fractal_sum_base_1.png "Fractal sum base - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

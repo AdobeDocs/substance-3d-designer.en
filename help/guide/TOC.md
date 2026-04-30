@@ -50,7 +50,7 @@ user-guide-description: Substance 3D Designer
     + [Color sampler tool](/help/interface/2d-view/color-sampler/color-sampler.md)
   + 3D view{#3d-view}
     + [3D view](/help/interface/3d-view/3d-view.md)
-    + [Displacement](../interface/3d-view/displacement/displacement.md)
+    + [Displacement](/help/interface/3d-view/displacement/displacement.md)
     + [Scene browser](/help/interface/3d-view/scene-browser/scene-browser.md)
     + [3D renderers](/help/interface/3d-view/3d-renderers/3d-renderers.md)
     + Camera{#camera}
@@ -598,7 +598,7 @@ user-guide-description: Substance 3D Designer
           + [Sphere light](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/sphere-light/sphere-light.md)
           + [Straighten horizon](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/straighten-horizon/straighten-horizon.md)
       + Values{#values}
-        + [Constant](../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md)
+        + [Constant](/help/compositing-graphs/nodes-reference-for-com/node-library/values/constant.md)
 + Substance function graphs{#substance-function-graphs}
   + [Substance function graphs](/help/function-graphs/function-graphs.md)
   + [What is a Substance function graph?](/help/function-graphs/what-is-a-function/what-is-a-function.md)
@@ -639,6 +639,7 @@ user-guide-description: Substance 3D Designer
     + Function node library{#function-node-library}
       + [Function node library](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md)
       + SDF functions{#sdf-functions}
+        + [Working with SDF functions](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
         + Primitives{#sdf-functions-primitives}
           + [Capped cone](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone/3d-sdf-capped-cone.md)
           + [Capped cone (2 points)](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone-2-points/3d-sdf-capped-cone-2-points.md)
@@ -685,11 +686,11 @@ user-guide-description: Substance 3D Designer
           + [Scale](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-scale/3d-sdf-transform-scale.md)
           + [Twist](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-transforms/3d-sdf-transform-twist/3d-sdf-transform-twist.md)
         + Material{#sdf-functions-material}
-          + [Set material ID](../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
-          + [Set material](../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-material/set-material.md)
-          + [Set color](../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-color/set-color.md)
-          + [Set roughness](../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-roughness/set-roughness.md)
-          + [Set metalness](../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-metalness/set-metalness.md)
+          + [Set material ID](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-id/set-id.md)
+          + [Set material](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-material/set-material.md)
+          + [Set color](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-color/set-color.md)
+          + [Set roughness](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-roughness/set-roughness.md)
+          + [Set metalness](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-material/set-metalness/set-metalness.md)
       + [Color](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-color/function-nodes-color.md)
       + Random{#random}
         + [Random](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/function-nodes-random.md)
@@ -756,7 +757,7 @@ user-guide-description: Substance 3D Designer
 + Release notes{#release-notes}
   + [Release notes](/help/release-notes/release-notes.md)
   + [All changes](/help/release-notes/all-changes/all-changes.md)
-  + [Version 16.0](../release-notes/version-16-0/version-16-0.md)
+  + [Version 16.0](/help/release-notes/version-16-0/version-16-0.md)
   + [Version 15.1](/help/release-notes/version-15-1/version-15-1.md)
   + [Version 15.0](/help/release-notes/version-15-0/version-15-0.md)
   + [Version 14.1](/help/release-notes/version-14-1/version-14-1.md)
@@ -788,4 +789,4 @@ user-guide-description: Substance 3D Designer
     + [Exporting MDL content](/help/mdl-graphs/exporting-mdl-content/exporting-mdl-content.md)
     + [Warnings in MDL graphs](/help/mdl-graphs/warnings-in-mdl-graphs/warnings-in-mdl-graphs.md)
     + [MDL learning resources](/help/mdl-graphs/mdl-learning-resources/mdl-learning-resources.md)
-  + [Iray](../interface/3d-view/iray/iray.md)
+  + [Iray](/help/interface/3d-view/iray/iray.md)

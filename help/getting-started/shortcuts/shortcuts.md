@@ -36,8 +36,6 @@ On this page you can find an overview of all shortcuts for Substance 3D Designer
 
 ### Global
 
-Global shortcuts
-
 | Action | Windows | macOS |
 | --- | --- | --- |
 | [New Substance graph](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
@@ -50,8 +48,6 @@ Global shortcuts
 ### Graph View
 
 <b>Viewport</b>
-
-Graph View viewport shortcuts
 
 | Action | Windows | macOS |
 | --- | --- | --- |
@@ -72,8 +68,6 @@ Graph View viewport shortcuts
 >
 > Learn about link creation modes in [this page](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) of this documentation.
 
-Link creation modes shortcuts
-
 | Mode | Windows | macOS |
 | --- | --- | --- |
 | Standard | 1 | 1 |
@@ -81,8 +75,6 @@ Link creation modes shortcuts
 | Compact material | 3 | 3 |
 
 <b>When an object is selected in the graph</b>
-
-Graph View selection shortcuts
 
 | Action | Windows | macOS |
 | --- | --- | --- |
@@ -96,8 +88,6 @@ Graph View selection shortcuts
 
 ### 2D View
 
-2D View shortcuts
-
 | Action | Windows | macOS |
 | --- | --- | --- |
 | Zoom | MouseWheel Alt + RMB + Drag | MouseWheel ⌥ + RMB + Drag |
@@ -108,8 +98,6 @@ Graph View selection shortcuts
 | Toggle tiled display | Spacebar | Spacebar |
 
 ### 3D View
-
-2D View shortcuts
 
 | Action | Windows | macOS |
 | --- | --- | --- |

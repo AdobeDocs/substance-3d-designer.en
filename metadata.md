@@ -1,10 +1,13 @@
 ---
 cloud: Experience Cloud
 solution: Substance 3D Designer, Substance 3D
+landing-page-name: substance-3d
+landing-page-breadcrumb-title: Substance 3D
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/substance-3d-designer.en
 index: true
+temp-push: yes
 ---
 
 # Metadata for internal use

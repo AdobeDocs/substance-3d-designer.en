@@ -86,7 +86,7 @@ A random scattering of scratch patterns with adjustable angle and size.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional scratches - Example 1](../../../../../../assets/directional_scratches(1).png "Directional scratches - Example 1"){zoomable="yes"}
+![Directional scratches - Example 1](../../../../../../assets/directional_scratches_1.png "Directional scratches - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

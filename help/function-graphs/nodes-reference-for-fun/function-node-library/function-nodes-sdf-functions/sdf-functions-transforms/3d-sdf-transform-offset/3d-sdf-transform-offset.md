@@ -24,10 +24,6 @@ Offset an SDF shape along a vector.
 </tr>
 </table>
 
-
-### [Inputs](#inputs)
-
-
 <a name='inputs'></a>
 
 |  |  |
