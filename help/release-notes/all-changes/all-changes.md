@@ -14,6 +14,7 @@ user-guide-title: ""
 
 # All changes
 
+## Version 16
 
 ### 16.0.1
 
@@ -34,7 +35,6 @@ user-guide-title: ""
 * &#91;Preferences&#93; Add an option for TGA/BMP to write the alpha channel if it's fully opaque
 * &#91;ThirdParty&#93; Update to "Adobe Color Engine" (ACE) 7.0
 * &#91;UI&#93; Make Plugin Manager window always visible (modal)
-
 
 **Fixed:**
 
@@ -58,13 +58,11 @@ user-guide-title: ""
 * &#91;Mesh&#93; OBJ materials are not imported correctly
 * &#91;PSD&#93; PSD importer requests to extract layers from PSD file at every autosave
 
-## Version 16
-
 ### 16.0.0
 
 *(Released April 14th, 2026)*
 
-### Added
+**Added:**
 
 * &#91;Content&#93; Shape splatter v2 node
 * &#91;Content&#93; Shape splatter v2 mapper color/grayscale nodes
@@ -114,7 +112,7 @@ user-guide-title: ""
 * &#91;ThirdParty&#93; Update TBB to oneTBB 2021.x
 * &#91;Deprecation&#93; Remove Iray and the MDL Editor
 
-### Fixes
+**Fixed:**
 
 * &#91;2D View&#93; The histogram selection range is not preserved when the width of the widget becomes small
 * &#91;3D Export&#93; Meshes exported from Designer don't render the same in usdview
@@ -153,7 +151,7 @@ user-guide-title: ""
 * &#91;UI&#93; Hover style is not visible on drop down buttons when clicked (macOS only)
 * &#91;UI&#93; 'Learn more' button in '?' tooltip does not work when tooltip is out of dialog bounds (Windows only)
 
-### KNOWN ISSUES
+**Known issues:**
 
 * &#91;Graph&#93; Generated icons for OpenPBR graphs are not accurate
 * &#91;3D View&#93; Scenes with animated primitives are not properly supported
