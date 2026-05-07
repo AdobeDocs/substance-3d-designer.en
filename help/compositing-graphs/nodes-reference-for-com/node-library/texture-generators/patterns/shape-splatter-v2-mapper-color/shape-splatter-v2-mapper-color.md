@@ -128,3 +128,4 @@ See also [Shape splatter v2 mapper grayscale](../shape-splatter-v2-mapper-graysc
         </td>
     </tr>
 </table>
+
