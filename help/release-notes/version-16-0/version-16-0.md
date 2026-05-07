@@ -387,3 +387,4 @@ are synchronized
 * &#91;Graph&#93; Generated icons for OpenPBR graphs are not accurate
 * &#91;3D View&#93; Scenes with animated primitives are not properly supported
 * &#91;3D View&#93; Pathtracer is not supported on all AMD graphic cards
+
