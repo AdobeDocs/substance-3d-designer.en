@@ -108,14 +108,13 @@ Again, advanced users can set up *custom texture mappings* defined by a function
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>The <b>Rusty bolts</b> material sample is available to jump the Shape splatter v2 family of nodes and their features.</p><p>The graph is organized and annotated to guide you through its structure, node settings and techniques.</p><p>It is also <i>fully editable</i> so it can be used as a sandbox to get a more hands-on understanding of the Shape splatter v2 toolset. You may create as many sample graphs as you like, so feel free to play around!</p>
+            <p>The <b>Rusty bolts</b> <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">material sample</a> is available to jump the Shape splatter v2 family of nodes and their features.</p><p>The graph is organized and annotated to guide you through its structure, node settings and techniques.</p><p>It is also <i>fully editable</i> so it can be used as a sandbox to get a more hands-on understanding of the Shape splatter v2 toolset. You may create as many sample graphs as you like, so feel free to play around!</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
             <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Bounding frame feature of 3D viewer node, for SDF functions." />
         </td>
     </tr>
 </table>
-
 
 ## 3D SDF nodes (signed distance field)
 
