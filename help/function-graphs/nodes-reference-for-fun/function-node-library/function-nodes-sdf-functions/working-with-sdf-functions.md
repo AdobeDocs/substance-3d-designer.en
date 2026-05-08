@@ -334,7 +334,7 @@ Note that distinctly from material IDs, values are *interpolated* across blended
 <table style="border: none">
     <tr style="border: none">
         <td style="border: none; vertical-align: top">
-            <p>The <b>Rusty bolts</b> material sample is available to jump into SDF functions applied in the context of the Shape splatter v2 node.</p><p>The graph is organized and annotated to guide you through its structure, node settings and SDF function setups.</p><p>It is also <i>fully editable</i> so it can be used as a sandbox to get a more hands-on understanding of the Shape splatter v2 and SDF functions toolsets. You may create as many sample graphs as you like, so feel free to play around!</p>
+            <p>The <b>Rusty bolts</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">material sample</a> is available to jump into SDF functions applied in the context of the Shape splatter v2 node.</p><p>The graph is organized and annotated to guide you through its structure, node settings and SDF function setups.</p><p>It is also <i>fully editable</i> so it can be used as a sandbox to get a more hands-on understanding of the Shape splatter v2 and SDF functions toolsets. You may create as many sample graphs as you like, so feel free to play around!</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
             <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Bounding frame feature of 3D viewer node, for SDF functions." />
