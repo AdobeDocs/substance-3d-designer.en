@@ -2,6 +2,7 @@
 user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
+nudge: true
 ---
 
 # Substance 3D Designer {#using}
