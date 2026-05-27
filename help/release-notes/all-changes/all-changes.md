@@ -16,6 +16,26 @@ user-guide-title: ""
 
 ## Version 16
 
+### 16.0.2
+
+*(Released May 28th, 2026)*
+
+**Added:**
+
+* &#91;OpenPBR&#93; Add support for Base color/AO constants
+
+**Fixed:**
+
+* &#91;3D View&#93; Leak of VRAM in GPU path tracer when displacement is enabled
+* &#91;3D View&#93; Main thread remains busy when the 3D View exists
+* &#91;3D View&#93;&#91;OpenPBR&#93; OpenGL: 'Weight' widgets appear to be clamped but accept out of range values
+* &#91;Crash&#93; Crash when moving referenced input more than one place at the time
+* &#91;Crash&#93; Crash when unmaximizing a window
+* &#91;Crash&#93; Crash when writing TARGA or BMP from the baker
+* &#91;Crash&#93; Random crash when displaying the 3D view
+* &#91;Graph&#93; Incorrect order of I/O pins when moving I/O after editing identifiers
+* &#91;Linux&#93;&#91;Export&#93; "Publish sbsar" and "Send to" dialogs don't add file extension
+
 ### 16.0.1
 
 *(Released May 5th, 2026)*
