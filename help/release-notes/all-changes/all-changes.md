@@ -16,6 +16,14 @@ user-guide-title: ""
 
 ## Version 16
 
+### 16.0.3
+
+*(Released May 29th, 2026)*
+
+**Fixed:**
+
+* &#91;Crash&#93;Fix a regression introduced in v16.0.2 causing a crash on launch for some users
+
 ### 16.0.2
 
 *(Released May 28th, 2026)*
