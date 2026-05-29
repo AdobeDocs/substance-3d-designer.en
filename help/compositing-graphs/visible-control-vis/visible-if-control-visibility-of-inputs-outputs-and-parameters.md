@@ -47,12 +47,12 @@ Complex conditions are possible, provided the logical expression stating these c
 
 Any Visible If Expression will need to use at least one input, this can be done through the following syntax:
 
-```
+`
 
 input.identifier 
 
 input["identifier"]
-```
+`
 
 
 >[!WARNING]
@@ -85,10 +85,10 @@ A Visible If Expression is used as the condition for an "IF" statement, that mea
 
 | Condition ("If") | Formula | Note |
 | --- | --- | --- |
-| True | ``` input["my_input"]   input.my_input ```  ``` input["my_input"] == true   input.my_input == true ``` | my\_input is a boolean value |
-| False | ``` !input["my_input"]   !input.my_input ```  ``` input["my_input"] == false   input.my_input == false ```  ``` input["my_input"] != true   input.my_input != true ``` | my\_input is a boolean value |
-| Lower than | ``` input["my_input"] < 3   input.my_input < 3 ``` | my\_input is an integer value |
-| Equal | ``` input["param1"] == 2   input.param1 == 2 ``` | param1 is a float or integer value |
-| Lower than | ``` input["my_input"].y < 3   input.my_input.y < 3 ``` | my\_input is a float or integer value with one or more components – e.g. float2(x, y), integer3(x, y, z) |
-| Or | ``` input["param1"] \|\| input["param2"]   input.param1 \|\| input.param2 ``` | param1 and param2 are boolean values |
-| And | ``` input["param1"] > 0 && input["param2"] > 1   input.param1 > 0 && input.param2 > 1 ``` | param1 and param2 are float or integer values |
+| True | ` input["my_input"]   input.my_input `  ` input["my_input"] == true   input.my_input == true ` | my\_input is a boolean value |
+| False | ` !input["my_input"]   !input.my_input `  ` input["my_input"] == false   input.my_input == false `  ` input["my_input"] != true   input.my_input != true ` | my\_input is a boolean value |
+| Lower than | ` input["my_input"] < 3   input.my_input < 3 ` | my\_input is an integer value |
+| Equal | ` input["param1"] == 2   input.param1 == 2 ` | param1 is a float or integer value |
+| Lower than | ` input["my_input"].y < 3   input.my_input.y < 3 ` | my\_input is a float or integer value with one or more components – e.g. float2(x, y), integer3(x, y, z) |
+| Or | ` input["param1"] \|\| input["param2"]   input.param1 \|\| input.param2 ` | param1 and param2 are boolean values |
+| And | ` input["param1"] > 0 && input["param2"] > 1   input.param1 > 0 && input.param2 > 1 ` | param1 and param2 are float or integer values |
