@@ -22,7 +22,7 @@ user-guide-title: ""
 
 **Fixed:**
 
-* &#91;Crash&#93;Fix a regression introduced in v16.0.2 causing a crash on launch for some users
+* &#91;Crash&#93; Fix a regression introduced in v16.0.2 causing a crash on launch for some users
 
 ### 16.0.2
 
