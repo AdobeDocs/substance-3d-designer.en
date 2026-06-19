@@ -18,7 +18,7 @@ user-guide-title: ""
 
 ### 16.0.3
 
-*(Released May 29th, 2026)*
+*(Released May 29, 2026)*
 
 **Fixed:**
 
@@ -26,7 +26,7 @@ user-guide-title: ""
 
 ### 16.0.2
 
-*(Released May 28th, 2026)*
+*(Released May 28, 2026)*
 
 **Added:**
 
@@ -46,7 +46,7 @@ user-guide-title: ""
 
 ### 16.0.1
 
-*(Released May 5th, 2026)*
+*(Released May 5, 2026)*
 
 **Added:**
 
@@ -88,7 +88,7 @@ user-guide-title: ""
 
 ### 16.0.0
 
-*(Released April 14th, 2026)*
+*(Released April 14, 2026)*
 
 **Added:**
 
@@ -189,7 +189,7 @@ user-guide-title: ""
 
 ### 15.1.3
 
-*(Released March 10th, 2026)*
+*(Released March 10, 2026)*
 
 **Added:**
 
@@ -230,7 +230,7 @@ user-guide-title: ""
 
 ### 15.1.2
 
-*(Released February 3rd, 2026)*
+*(Released February 3, 2026)*
 
 **Fixed:**
 
@@ -241,7 +241,7 @@ user-guide-title: ""
 
 ### 15.1.1
 
-*(Released January 20th, 2026)*
+*(Released January 20, 2026)*
 
 **Added:**
 
@@ -273,7 +273,7 @@ user-guide-title: ""
 
 ### 15.1.0
 
-*(Released December 11th, 2025)*
+*(Released December 11, 2025)*
 
 **Added:**
 
@@ -361,7 +361,7 @@ user-guide-title: ""
 
 ### 15.0.3
 
-*(Released October 23rd, 2025)*
+*(Released October 23, 2025)*
 
 **Fixed:**
 
@@ -370,7 +370,7 @@ user-guide-title: ""
 
 ### 15.0.2
 
-*(Released September 18th, 2025)*
+*(Released September 18, 2025)*
 
 **Added:**
 
@@ -412,7 +412,7 @@ user-guide-title: ""
 
 ### 15.0.1
 
-*(Released July 22nd, 2025)*
+*(Released July 22, 2025)*
 
 **Added:**
 
@@ -449,7 +449,7 @@ user-guide-title: ""
 
 ### 15.0.0
 
-*(Released July 15th, 2025)*
+*(Released July 15, 2025)*
 
 **Added:**
 
@@ -558,7 +558,7 @@ user-guide-title: ""
 
 ### 14.1.2
 
-*(Released April 15th, 2025)*
+*(Released April 15, 2025)*
 
 **Added:**
 
@@ -579,7 +579,7 @@ user-guide-title: ""
 
 ### 14.1.1
 
-*(Released February 20th, 2025)*
+*(Released February 20, 2025)*
 
 **Added:**
 
@@ -605,7 +605,7 @@ user-guide-title: ""
 
 ### 14.1.0
 
-*(Released January 14th, 2025)*
+*(Released January 14, 2025)*
 
 **Added:**
 
@@ -667,7 +667,7 @@ user-guide-title: ""
 
 ### 14.0.2
 
-*(Released October 10th, 2024)*
+*(Released October 10, 2024)*
 
 <b>Added:</b>
 
@@ -683,7 +683,7 @@ user-guide-title: ""
 
 ### 14.0.1
 
-*(Released September 24th, 2024)*
+*(Released September 24, 2024)*
 
 <b>Added:</b>
 
@@ -704,7 +704,7 @@ user-guide-title: ""
 
 ### 14.0.0
 
-*(Released July 30th, 2024)*
+*(Released July 30, 2024)*
 
 <b>Added:</b>
 
@@ -790,7 +790,7 @@ user-guide-title: ""
 
 ### 13.1.2
 
-*(Released April 16th, 2024)*
+*(Released April 16, 2024)*
 
 <b>Added:</b>
 
@@ -827,7 +827,7 @@ user-guide-title: ""
 
 ### 13.1.1
 
-*(Released February 8th, 2024)*
+*(Released February 8, 2024)*
 
 <b>Added:</b>
 
@@ -858,7 +858,7 @@ user-guide-title: ""
 
 ### 13.1.0
 
-*(Released December 12th, 2023)*
+*(Released December 12, 2023)*
 
 <b>Added:</b>
 
@@ -922,7 +922,7 @@ user-guide-title: ""
 
 ### 13.0.2
 
-*(Released July 27th, 2023)*
+*(Released July 27, 2023)*
 
 <b>Added:</b>
 
@@ -960,7 +960,7 @@ user-guide-title: ""
 
 ### 13.0.1
 
-*(Released June 27th, 2023)*
+*(Released June 27, 2023)*
 
 <b>Added:</b>
 
@@ -1001,7 +1001,7 @@ user-guide-title: ""
 
 ### 13.0.0
 
-*(Released June 6th, 2023)*
+*(Released June 6, 2023)*
 
 <b>Added:</b>
 
