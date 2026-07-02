@@ -18,15 +18,28 @@ user-guide-title: ""
 
 ### 16.0.4
 
-*(Released Month ##, 2026)*
+*(Released July 2nd, 2026)*
 
 **Added:**
 
-* &#91;Category&#93; Item
+* &#91;3D View&#93; Clamp the render resolution to 4096 in X and Y
+* &#91;Bakers&#93; Update bake-sdk to 3.22.3
+* &#91;Engine&#93; Update Substance engine to v9.4.4
+* &#91;OpenGL&#93;&#91;OpenPBR&#93; Reduce noise in specular lobe for high roughness + anisotropy
+* &#91;Scenes&#93; Preserve the UV primvar interpolation mode
 
 **Fixed:**
 
-* &#91;Category&#93; Item
+* &#91;3D View&#93; USD export: resources path are stored with absolute path
+* &#91;Bakers&#93; Bake fails when loading of high poly mesh is cancelled (Windows)
+* &#91;Bakers&#93; List of high poly 3D scenes does not include resources with same identifier as low poly
+* &#91;Bakers&#93; Normal world space: A WS normal is always returned when there is an input normal
+* &#91;Content&#93; Incorrect normal when scaling pattern non uniformly in the Shape Splatter V2
+* &#91;Content&#93; Shape splatter V2: Black normals for 'Plane' and 'Disc' shapes
+* &#91;Content&#93; Shape splatter v2: first shape is not correctly blended with the background
+* &#91;Crash&#93; Random crash possibly linked to video (rich tooltips)
+* &#91;Graph&#93; Crash when pasting a node copied from a new graph with blank identifier
+* &#91;PSD&#93; PSD files are loaded too many times
 
 ### 16.0.3
 
