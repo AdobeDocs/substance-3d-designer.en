@@ -20,7 +20,7 @@ user-guide-title: ""
 
 ![Normal uncombine icon](../../../../../../assets/NormalUncombine.png "Normal uncombine icon"){width="200px"}
 
-<b>In:</b> Filters &gt; Normal map
+<b>In:</b> Filters &gt; Normal map
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,7 +71,7 @@ Removes from a normal map the surface details described by a height map.
 
 |  |  |
 | --- | --- |
-| <b>Normal format</b> *Integer* | The format of the input normal map. Effectively inverts the green channel.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> The Y axis points up</li> <li data-preserve-html="true"><b>OpenGL:</b> The Y axis points down</li> </ul> |
+| <b>Normal format</b> *Integer* | The format of the input normal map. Effectively inverts the green channel.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> The Y axis points up</li> <li data-preserve-html="true"><b>OpenGL:</b> The Y axis points down</li> </ul> |
 
 ## Examples
 

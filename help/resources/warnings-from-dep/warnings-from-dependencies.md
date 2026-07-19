@@ -18,11 +18,11 @@ This page lists warnings and error messages which may be triggered by dependenci
 
 Dependencies are *other files* referenced by a Substance 3D file (SBS). They include [resources](../../resources/resources.md) and other Substance 3D files referenced by [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) nodes.
 
-## ![(error)](../../assets/error.svg) Invalid dependent package
+## ![(error)](../../assets/error.svg) Invalid dependent package
 
 A dependency package cannot be loaded, because it is missing, corrupted or incompatible with the version of Designer being used.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 
 There are two main ways of correcting this issue:
 
@@ -43,21 +43,21 @@ There are two main ways of correcting this issue:
 
    !['Invalid dependent package' solution 2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif "'Invalid dependent package' solution 2")
 
-## ![(error)](../../assets/error.svg) Check the alias *'X'* is defined in your project
+## ![(error)](../../assets/error.svg) Check the alias *'X'* is defined in your project
 
 One of the package's dependencies or resources is being loaded from a location which is [aliased](../../interface/preferences-window/project-settings/project-settings.md) in the Substance 3D file (SBS) data under the alias reported in the warning, although that alias is not defined in the current [project files](../../interface/preferences-window/project-settings/project-settings.md).
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 
-At least one of the [project files](../../interface/preferences-window/project-settings/project-settings.md) should define the alias that which is reported in the warning.
+At least one of the [project files](../../interface/preferences-window/project-settings/project-settings.md) should define the alias that which is reported in the warning.
 
 !['Check alias is defined' solution](../../assets/warnings-dep-alias.gif "'Check alias is defined' solution")
 
-## ![(error)](../../assets/error.svg) No file that matches this resource can be found
+## ![(error)](../../assets/error.svg) No file that matches this resource can be found
 
 The files matching the *UDIM template* for a [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) cannot be found.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 
 When a [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) is linked and Designer detects a *UDIM naming taxonomy* in its filename – e.g. `0x1` in `my_texture_0x1.png`, it offers to link it as a *UDIM template*, so that [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes can *automatically switch* to other bitmaps in a UDIM set using that taxonomy, when using a UDIM workflow in Designer. In that case, Designer links the Bitmap resource in a *different way* which takes the UDIM numbering template into account.
 
@@ -74,11 +74,11 @@ There are two main ways of correcting this issue:
 
    !['No file that match resource' solution 2](../../assets/warnings-dep-udim.gif "'No file that match resource' solution 2")
 
-## ![(error)](../../assets/error.svg) Linked file not found
+## ![(error)](../../assets/error.svg) Linked file not found
 
 The file referenced by a linked resource does not exist at the location specified by its <b>File Path</b> attribute.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 
 There are two main ways of correcting this issue:
 
@@ -93,15 +93,15 @@ There are two main ways of correcting this issue:
 
    !['Linked file not found' solution 2](../../assets/warnings-dep-file-not-found-2.gif "'Linked file not found' solution 2")
 
-## ![(error)](../../assets/error.svg) Color space not found
+## ![(error)](../../assets/error.svg) Color space not found
 
 A [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) references a color space which cannot be found in the current [color management](../../color-management/color-management.md) environment. This may be an ICC profile or a color space in an OCIO configuration.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 
 The list of options for the Color space attribute is automatically populated with available valid color space. Change the color space value for that resource to any other entry in the list.
 
-Alternatively, add that color space to the current [color management](../../color-management/color-management.md) environment, then restart Designer. This may be an ICC profile or a color space in an OCIO configuration.
+Alternatively, add that color space to the current [color management](../../color-management/color-management.md) environment, then restart Designer. This may be an ICC profile or a color space in an OCIO configuration.
 
 >[!NOTE]
 >
@@ -109,11 +109,11 @@ Alternatively, add that color space to the current [color management](../../col
 
 !['Color space not found' solution](../../assets/warnings-dep-color-space.gif "'Color space not found' solution")
 
-## ![(error)](../../assets/error.svg) Reference resource not found
+## ![(error)](../../assets/error.svg) Reference resource not found
 
 The graph assigned to the UV tile of a [3D mesh resource](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) cannot be found at the location reported in the warning.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 
 There are two main ways of correcting this issue:
 
@@ -128,23 +128,23 @@ There are two main ways of correcting this issue:
 
    !['Reference resource not found' solution 1](../../assets/warnings-dep-udim-graph.gif "'Reference resource not found' solution 2")
 
-## ![(error)](../../assets/error.svg) UV tiles are assigned multiple times
+## ![(error)](../../assets/error.svg) UV tiles are assigned multiple times
 
 A UV tile for a [3D mesh resource](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) is assigned more than once to a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 
-For each UV set of a 3D mesh resource, make sure no UDIM index is present *more than once* in the <b>UV Tiles</b> list.
+For each UV set of a 3D mesh resource, make sure no UDIM index is present *more than once* in the <b>UV Tiles</b> list.
 
 !['UV tiles are assigned multiple times' solution](../../assets/warnings-dep-udim-same.gif "'UV tiles are assigned multiple times' solution")
 
-## ![(error)](../../assets/error.svg) Invalid UV tiles
+## ![(error)](../../assets/error.svg) Invalid UV tiles
 
 A UV tile listed for a [3D mesh resource](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) is not defined in the mesh or corrupted.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 
-For each UV set of a 3D mesh resource, make sure all items in the <b>UV Tiles</b> list refer to UDIMs which *exist* in the linked resource.
+For each UV set of a 3D mesh resource, make sure all items in the <b>UV Tiles</b> list refer to UDIMs which *exist* in the linked resource.
 
 >[!NOTE]
 >

@@ -24,14 +24,14 @@ user-guide-title: ""
 
 ![Cells 2 - Icon](../../../../../../assets/cells_2.png "Cells 2 - Icon"){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-A variation of the <b>Cells</b> walled noises.  
+A variation of the <b>Cells</b> walled noises.  
   
 A binary mask of the cells with an adjustable wall thickness.
 
@@ -65,7 +65,7 @@ See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com
 
 |  |  |
 | --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
 
 ## Parameters
 
@@ -75,7 +75,7 @@ See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com
 | <b>Edge width</b>  Float | Adjusts the thickness of the walls between cells, as a ratio of the grid. (I.e. not dependent on resolution) |
 | <b>Invert</b>  Boolean | Switches blacks and whites in the output image. |
 | <b>Disorder</b>  Float | Displaces the ingredients of the noise.    This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
+| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
 | <b>Non-square expansion</b>  Boolean | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
 
 ## Examples

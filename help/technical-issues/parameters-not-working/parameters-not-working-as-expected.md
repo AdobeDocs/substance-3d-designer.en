@@ -24,7 +24,7 @@ Some exposed parameters for a graph are *not listed* when using [Preview mode](.
 
 <b>!&#91;(tick)&#93;(../../assets/check.svg)Recommended steps</b>
 
-The missing parameters are likely [static parameters](../../glossary/glossary.md), which *cannot be edited on-the-fly* after the graph has been *cooked* – i.e., processed in order to run its algorithm quickly and efficiently. Cooking occurs in Designer every time the graph is *edited* or *published*. Parameters impacted by such limitations are listed in the [Limitations](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) section of the [Exposing a parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) page of this documentation.
+The missing parameters are likely [static parameters](../../glossary/glossary.md), which *cannot be edited on-the-fly* after the graph has been *cooked* – i.e., processed in order to run its algorithm quickly and efficiently. Cooking occurs in Designer every time the graph is *edited* or *published*. Parameters impacted by such limitations are listed in the [Limitations](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) section of the [Exposing a parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) page of this documentation.
 
 As such, static parameters are visible and editable in Designer, but are *hidden* in a published Substance 3D asset. You may use [Preview mode](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) to see these limitations in effect before publishing to a Substance 3D asset.
 
@@ -45,6 +45,6 @@ Here is a list of static parameters:
 
 A Substance function graph applied to a node parameter does not output the expected value when a negative integer is used.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
 
 Negative integers are currently not properly supported. As a workaround, use the negative integer value in an [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) value and extract it using a [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md) node.

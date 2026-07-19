@@ -20,7 +20,7 @@ These nodes sample a value in an input image at the provided 2D coordinates:
 
 <b>Sample Gray</b> samples a luminance value at the input <b>Position</b> in a grayscale image and outputs it as a <b>Float</b> value.
 
-<b>Sample Color</b> samples an RGBA value at the input <b>Position </b>in a color image and outputs it as a <b>Float4</b> value where the R,G,B and A components are mapped to the X, Y, Z and W components respectively.
+<b>Sample Color</b> samples an RGBA value at the input <b>Position </b>in a color image and outputs it as a <b>Float4</b> value where the R,G,B and A components are mapped to the X, Y, Z and W components respectively.
 
 <table>
 <tr style="border: 0;">
@@ -41,7 +41,7 @@ Positions out of this range are handled according to the selected <b>Addressing 
 
 >[!NOTE]
 >
-> The <b>Position</b> input should be a Float2 value where the image's X and Y coordinates are mapped to the X and Y components of the value respectively
+> The <b>Position</b> input should be a Float2 value where the image's X and Y coordinates are mapped to the X and Y components of the value respectively
 
 ## Parameters
 
@@ -58,10 +58,10 @@ The numbering of the inputs starts at 0, so that an image connected to the node'
 Lets you define how to handle interpolation when pixels from the sampled image do not map exactly to the output image, because of resolution differences.
 
 <b>Nearest</b>  
-The pixel will be mapped to the target *as-is* at the matching coordinate. If the target is of lower resolution the pixel may be entirely ignored. If the target is of higher resolution; it will be mapped to all pixels covering its span. The output is *crisper* and will look slightly *aliased*.
+The pixel will be mapped to the target *as-is* at the matching coordinate. If the target is of lower resolution the pixel may be entirely ignored. If the target is of higher resolution; it will be mapped to all pixels covering its span. The output is *crisper* and will look slightly *aliased*.
 
 <b>Bilinear filtering</b>  
-A filtering process is applied to the source image so its pixels are mapped to the target resolution in a way that *smooths out* the transitions between pixels. The output is *smoother* and will look slightly *blurred*.
+A filtering process is applied to the source image so its pixels are mapped to the target resolution in a way that *smooths out* the transitions between pixels. The output is *smoother* and will look slightly *blurred*.
 
 +++
 

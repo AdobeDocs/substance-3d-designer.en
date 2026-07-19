@@ -24,7 +24,7 @@ user-guide-title: ""
 
 ![Fractal sum base - Icon](../../../../../../assets/fractal_sum_base.png "Fractal sum base - Icon"){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -33,7 +33,7 @@ user-guide-title: ""
 
 A customisable fractal noise with an adjustable range and balance of octaves.  
   
-The <b>Fractal sum</b> family of noises are all based on this node.
+The <b>Fractal sum</b> family of noises are all based on this node.
 
 See also: [Fractal sum 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-1/fractal-sum-1.md), [Fractal sum 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md), [Fractal sum 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-3/fractal-sum-3.md), [Fractal sum 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
 
@@ -65,7 +65,7 @@ See also: [Fractal sum 1](../../../../../../compositing-graphs/nodes-reference-f
 
 |  |  |
 | --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
 
 ## Parameters
 
@@ -75,7 +75,7 @@ See also: [Fractal sum 1](../../../../../../compositing-graphs/nodes-reference-f
 | <b>Min. level</b>  Integer | The minimum octave used in the noise.    A higher value results in a higher noise frequency. |
 | <b>Max. level</b>  Integer | The maximum octave used in the noise.    A higher value results in a higher noise frequency. |
 | <b>Disorder</b>  Float | Displaces the ingredients of the noise.    This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
+| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
 | <b>Contrast</b>  Float | The contrast of the final result. |
 | <b>Global opacity</b>  Float | The opacity of the noise octaves added together in the final result.    A high value may result in areas being burned to white. |
 | <b>Non-square expansion</b>  Boolean | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |

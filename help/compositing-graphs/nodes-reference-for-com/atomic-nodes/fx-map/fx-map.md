@@ -23,7 +23,7 @@ user-guide-title: ""
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-The FX-Map can replicate and subdivide an image or pattern input over and over again, and control the distribution of each pattern thanks to parameters and logical functions.
+The FX-Map can replicate and subdivide an image or pattern input over and over again, and control the distribution of each pattern thanks to parameters and logical functions.
 
 It is one of the most powerful atomic nodes, as well as the most complex node available in the application.
 
@@ -69,7 +69,7 @@ Keep in mind that unlike other nodes, the majority of an FX-Map's behavior is no
 
 |  |  |
 | --- | --- |
-| <b>Color mode</b> *Boolean* | Toggles between a grayscale and a color output image. Color will be much slower than grayscale. |
+| <b>Color mode</b> *Boolean* | Toggles between a grayscale and a color output image. Color will be much slower than grayscale. |
 | <b>Background</b> *Float/Float4* | Sets the background starting color onto which to composite results. |
 | <b>Render region</b> *Float4* | Lets you set the starting pixel range for each side of the FX-Map, resulting in a stretching effect. |
 | <b>Tiling region</b> *Float4* | Lets you offset the tiling distance of the FX-Map. |

@@ -31,7 +31,7 @@ Warps an input in a user-set direction, multiplied by a user-set Intensity map. 
 </tr>
 </table>
 
-The Warp node is a fairly simple but useful node that serves as a good basis for other more advanced effects. There are more advanced alternatives such as other related nodes of interest are [Slope Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) and [Vector Warp](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
+The Warp node is a fairly simple but useful node that serves as a good basis for other more advanced effects. There are more advanced alternatives such as other related nodes of interest are [Slope Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) and [Vector Warp](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 
 <table>
 <tr style="border: 0;">
@@ -74,8 +74,8 @@ The Warp node is a fairly simple but useful node that serves as a good basis for
 | --- | --- |
 | <b>Intensity</b> *Float* | Sets the intensity of the warp. |
 | <b>Warp angle</b> *Float* | Sets the angle of the warp effect, in number of turns.. |
-| <b>Input filtering mode</b> *Boolean* | Controls whether nearest or bilinear filtering is used to sample the <b>Input</b>. |
-| <b>Intensity map offset</b> *Float* | This value is subtracted from the the <b>Intensity input</b> image values. |
+| <b>Input filtering mode</b> *Boolean* | Controls whether nearest or bilinear filtering is used to sample the <b>Input</b>. |
+| <b>Intensity map offset</b> *Float* | This value is subtracted from the the <b>Intensity input</b> image values. |
 
 ## Input connectors
 

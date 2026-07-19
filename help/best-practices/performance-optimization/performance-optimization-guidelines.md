@@ -59,7 +59,7 @@ Color operations take four times longer than grayscale operations. Also try to m
 +++
 
 +++Use 8 bit when 16-bit is not needed
-The CPU version of the Substance Engine (SSE2) *does not* actually support 16-bit color or 8-bit greyscale. The GPU engine supports all 4 combinations of 8/16 bits and greyscale/color. *Currently, only the CPU engine is used in Unity and Unreal Engine plugins*.
+The CPU version of the Substance Engine (SSE2) *does not* actually support 16-bit color or 8-bit greyscale. The GPU engine supports all 4 combinations of 8/16 bits and greyscale/color. *Currently, only the CPU engine is used in Unity and Unreal Engine plugins*.
 
 +++
 
@@ -84,22 +84,22 @@ This slows rendering performance.
 +++
 
 +++Some noise generators are affected by the amount of patterns drawn
-For instance, the [Tile Generator](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) node will get slower to process the more patterns you add to it.
+For instance, the [Tile Generator](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) node will get slower to process the more patterns you add to it.
 
 +++
 
 +++Some noises are affected by a scale factor
-This factor will in fact draw more patterns. Affected nodes include noises, Cells patterns, etc. If you need a white noise pattern, don't use a noise with a very high scale value and use the [White Noise](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md) or [White Noise Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md) nodes instead.
+This factor will in fact draw more patterns. Affected nodes include noises, Cells patterns, etc. If you need a white noise pattern, don't use a noise with a very high scale value and use the [White Noise](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md) or [White Noise Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md) nodes instead.
 
 +++
 
 +++Conversely, there are some very fast noise generators
-These include [White Noise Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md), [Fractal Sum Base](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md), and [Anisotropic Noise](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md).
+These include [White Noise Fast](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md), [Fractal Sum Base](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md), and [Anisotropic Noise](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md).
 
 +++
 
 +++Watch out with heavy image sampling functions in some cases
-Functions are executed on CPU engine, except in [Pixel Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). If you are doing a lot of heavy image sampling (changing $pos coordinates) in [Value Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) or [FXmaps](../../function-graphs/fxmaps/fxmaps.md), there would be a lot of swapping between VRAM and CPU RAM, causing performance delays.
+Functions are executed on CPU engine, except in [Pixel Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). If you are doing a lot of heavy image sampling (changing $pos coordinates) in [Value Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) or [FXmaps](../../function-graphs/fxmaps/fxmaps.md), there would be a lot of swapping between VRAM and CPU RAM, causing performance delays.
 
 +++
 

@@ -27,10 +27,10 @@ user-guide-title: ""
 
 ## Description
 
-Applies a transformation on the vertices position of the input <b>Paths</b>.
+Applies a transformation on the vertices position of the input <b>Paths</b>.
 
-1. Edit the <b>Per Vertex Function</b> parameter function;
-1. Use a <b>Get Float2</b> node the *vertex.pos* variable;
+1. Edit the <b>Per Vertex Function</b> parameter function;
+1. Use a <b>Get Float2</b> node the *vertex.pos* variable;
 1. Do some operations on this value (E.g., multiply it to scale the paths);
 1. Set the result of your computation as output.
 
@@ -38,8 +38,8 @@ Applies a transformation on the vertices position of the input <b>Paths</b>.
 </tr>
 </table>
 
-You may use input images and sample them from the function. You must first connect an input to able to sample it from the function. (Be careful, first input is *Image 1*!)  
-You can also access the *vertex.corner* (bool) and *path.id* (float) variables.
+You may use input images and sample them from the function. You must first connect an input to able to sample it from the function. (Be careful, first input is *Image 1*!)  
+You can also access the *vertex.corner* (bool) and *path.id* (float) variables.
 
 >[!TIP]
 >
@@ -52,21 +52,21 @@ You can also access the *vertex.corner* (bool) and *path.id* (float) varia
 ## Input connectors
 
 <b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
+A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
 
-<b>Input &#35;</b> *Color/Grayscale*  
+<b>Input &#35;</b> *Color/Grayscale*  
 Inputs for images that should be sampled in the <b>Per Vertex Function</b> parameter function.
 
 ## Output connectors
 
 <b>Paths</b> *Color*  
-The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
+The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
 
 ## Parameters
 
-<b>Image Input Count</b> *Integer*The number of visible <b>Input &#35;</b> input connectors to connect images that should be sampled in the <b>Per Vertex Function</b> parameter function.  
+<b>Image Input Count</b> *Integer*The number of visible <b>Input &#35;</b> input connectors to connect images that should be sampled in the <b>Per Vertex Function</b> parameter function.  
 Once you are done setting up all the desired samples, you can hide unused pins by reducing this parameter's value back to 0.  
-If you need more inputs, use the [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) instead.
+If you need more inputs, use the [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) instead.
 
 <b>Per Vertex Function</b> *Float2*  
 Function applied for each vertex. Must return the new vertex position.  

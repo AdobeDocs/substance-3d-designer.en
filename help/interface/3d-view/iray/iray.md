@@ -118,9 +118,9 @@ Since Iray relies on the [MDL shading model](https://www.nvidia.com/en-us/design
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-The cumulative list of loaded MDL materials is availabe in the <b>Materials</b> menu, under any of the listed materials' submenu as shown in the image on the right.
+The cumulative list of loaded MDL materials is availabe in the <b>Materials</b> menu, under any of the listed materials' submenu as shown in the image on the right.
 
-Additionally, if an [MDL graph](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) is loaded in Designer, it can be applied to any material in the Scene. At that point, it is added to the list of available MDL materials.
+Additionally, if an [MDL graph](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) is loaded in Designer, it can be applied to any material in the Scene. At that point, it is added to the list of available MDL materials.
 
 Other notable options in this menu are:
 

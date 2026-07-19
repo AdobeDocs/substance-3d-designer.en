@@ -47,7 +47,7 @@ Using this language, a full material definition is portable and thus can be used
 
 While authoring materials, you can use NVIDIA's own [Iray](../interface/3d-view/iray/iray.md) renderer, embedded in Designer and available in the [3D view](../interface/3d-view/3d-view.md) panel, to preview the behavior of the material *interactively*.
 
-MDL graphs are complementary with [Substance graphs](../compositing-graphs/substance-compositing-graphs.md) in that the latter output *textures* which can be *sampled* by the MDL material to affect its behavior and appearance.
+MDL graphs are complementary with [Substance graphs](../compositing-graphs/substance-compositing-graphs.md) in that the latter output *textures* which can be *sampled* by the MDL material to affect its behavior and appearance.
 
 We suggest going through the sections of this documentation *in order* for a guided learning path, starting with the properties of an MDL graph resource, just below.  
 Eager to jump in? Get started with MDL graphs in the [MDL learning resources](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html) section!

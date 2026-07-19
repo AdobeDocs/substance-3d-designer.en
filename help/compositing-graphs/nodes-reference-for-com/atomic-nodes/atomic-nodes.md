@@ -264,11 +264,11 @@ There are several ways to create atomic nodes in Substance graphs:
 
 The node palette sits in the [Graph View toolbar](../../../interface/the-graph-view/the-graph-view.md) and provides easy access to atomic nodes: simply click a node or drag it in the graph.
 
-The palette is toggled using this button: ![](../../../assets/node-palette-toggle.png)
+The palette is toggled using this button: ![](../../../assets/node-palette-toggle.png)
 
 ### <b>The node menu</b>
 
-Press *Spacebar* or *Tab* in the Graph View displays a searchable list of nodes and lists all atomic nodes by default.
+Press *Spacebar* or *Tab* in the Graph View displays a searchable list of nodes and lists all atomic nodes by default.
 
 The search field lets you browse [all the other nodes in the Library](../../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md), including [your own content](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) (if added).
 

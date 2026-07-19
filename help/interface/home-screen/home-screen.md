@@ -16,7 +16,7 @@ user-guide-title: ""
 
 ![Home screen](../../assets/home-screen-home.jpg "Home screen")
 
-The <b>Home screen<b> </b></b>welcomes you when you launch Substance 3D Designer. It helps you get started with your projects and access useful links.
+The <b>Home screen<b> </b></b>welcomes you when you launch Substance 3D Designer. It helps you get started with your projects and access useful links.
 
 <table>
 <tr style="border: 0;">
@@ -37,8 +37,8 @@ To close the Home Screen, use the <b>Back</b> button on the top left or the <b>C
 
 ## Home
 
-The ![](../../assets/home-screen-home-icon.jpg) <b>Home</b> section offers a banner with a highlighted suggestion for going further with Designer.  
-This banner can be collapsed using the ![](../../assets/home-screen-expand-icon.jpg) <b>Hide suggestions</b> button on the right.
+The ![](../../assets/home-screen-home-icon.jpg) <b>Home</b> section offers a banner with a highlighted suggestion for going further with Designer.  
+This banner can be collapsed using the ![](../../assets/home-screen-expand-icon.jpg) <b>Hide suggestions</b> button on the right.
 
 Below, a list of recent files under the <b>Recent</b> header offers quick access to the last loaded projects, from most recent to oldest.
 
@@ -52,7 +52,7 @@ Recent files can be filtered using the <b>Filter</b> input field on the top righ
 
 ## Learn
 
-The ![](../../assets/home-screen-learn-icon.jpg) <b>Learn</b> section offers useful learning resources for growing your understanding of Substance 3D Designer.
+The ![](../../assets/home-screen-learn-icon.jpg) <b>Learn</b> section offers useful learning resources for growing your understanding of Substance 3D Designer.
 
 These resources are listed as card links and grouped as follows:
 
@@ -66,7 +66,7 @@ These resources are listed as card links and grouped as follows:
 
 ## What's new
 
-The ![](../../assets/home-screen-whats-new-icon.jpg) <b>What&#39;s new</b> button on the top right of the screen displays a screen listing the major features added in your version of Designer, as well as a link to the complete [release notes](../../release-notes/release-notes.md) for that version.
+The ![](../../assets/home-screen-whats-new-icon.jpg) <b>What&#39;s new</b> button on the top right of the screen displays a screen listing the major features added in your version of Designer, as well as a link to the complete [release notes](../../release-notes/release-notes.md) for that version.
 
 ## Start project
 

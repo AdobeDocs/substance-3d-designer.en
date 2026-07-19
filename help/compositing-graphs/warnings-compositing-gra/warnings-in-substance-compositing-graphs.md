@@ -20,7 +20,7 @@ Warnings are displayed in the warning icon's tooltip for the graph resource in t
 
 ## ![(error)](../../assets/error.svg) No output node defined
 
-The graph does not have an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.
+The graph does not have an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.
 
 **![(tick)](../../assets/check.svg) Solution**
 
@@ -34,10 +34,10 @@ Add one or more [Output](../../compositing-graphs/nodes-reference-for-com/atomic
 
 ### ![(error)](../../assets/error.svg) The *&#91;x&#93;* parameter's function has some warnings
 
-The [function graph](../../function-graphs/function-graphs.md) applied to the specified parameter of the specified node has at least one warning.  
-The node parameter is specified between square brackets after the node label, following the template Node&#91;Parameter&#93;.
+The [function graph](../../function-graphs/function-graphs.md) applied to the specified parameter of the specified node has at least one warning.  
+The node parameter is specified between square brackets after the node label, following the template Node&#91;Parameter&#93;.
 
-E.g. Uniform Color&#91;Output Color&#93;, Pixel Processor&#91;Per Pixel Function&#93;
+E.g. Uniform Color&#91;Output Color&#93;, Pixel Processor&#91;Per Pixel Function&#93;
 
 **![(tick)](../../assets/check.svg) Solution**
 
@@ -51,10 +51,10 @@ Then, assess the warning(s) listed in the bottom left corner of the Graph view a
 
 The resource referenced by a node has one or more warnings. Here are some nodes referencing a resource:
 
-* A [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) node references a graph
-* A [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node references a [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md)
-* An [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) node references an [SVG resource](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* A [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node references a [Font resource](../../resources/font-resource/font-resource.md)
+* A [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) node references a graph
+* A [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node references a [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md)
+* An [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) node references an [SVG resource](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* A [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node references a [Font resource](../../resources/font-resource/font-resource.md)
 
 **![(tick)](../../assets/check.svg) Solution**
 
@@ -67,12 +67,12 @@ In the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sd
 
 ### ![(error)](../../assets/error.svg) Reference resource not found
 
-The resource referenced by a node was not found at the path saved in the[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) file (SBS). Here are some nodes referencing a resource:
+The resource referenced by a node was not found at the path saved in the[Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) file (SBS). Here are some nodes referencing a resource:
 
-* A [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) node references a graph
-* A [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node references a [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md)
-* An [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) node references an [SVG resource](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* A [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node references a [Font resource](../../resources/font-resource/font-resource.md)
+* A [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) node references a graph
+* A [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node references a [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md)
+* An [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) node references an [SVG resource](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* A [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node references a [Font resource](../../resources/font-resource/font-resource.md)
 
 **![(tick)](../../assets/check.svg) Solution**
 
@@ -90,7 +90,7 @@ If they do not, click RMB on the resource item in the Explorer and select the **
 
 ### ![(error)](../../assets/error.svg) Text node uses invalid font
 
-A [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node references a font which cannot be loaded or parsed correctly.
+A [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node references a font which cannot be loaded or parsed correctly.
 
 <b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 

@@ -39,25 +39,25 @@ See [Ambient Occlusion (HBAO) (Filter Node)](../../../../../../compositing-graph
 
 ## Parameters
 
-<b>Use Physical Size</b> *Boolean*  
+<b>Use Physical Size</b> *Boolean*  
 Toggle to use Physical Size settings to determine the height scale.
 
-<b>Physical Size</b> *Float3* (Available when <b>Use Physical Size</b> is set to *True*)  
+<b>Physical Size</b> *Float3* (Available when <b>Use Physical Size</b> is set to *True*)  
 Adjusts the height scale based on the real physical size of the surface
 
 <b>Samples</b>*Integer*  
 The number of rays used to compute the ambient occlusion.  
 A higher value provides a smoother and more precise result at the cost of performance.
 
-<b>Height Scale</b> *Float* (Available when <b>Use Physical Size</b> is set to *False*)  
+<b>Height Scale</b> *Float* (Available when <b>Use Physical Size</b> is set to *False*)  
 Multiplier for the intensity of the height map input.
 
-<b>Distribution</b> *Integer*Sets the distribution method. Affects falloff towards shadowed areas,
+<b>Distribution</b> *Integer*Sets the distribution method. Affects falloff towards shadowed areas,
 
-<b>Maximum Distance</b> *Float*  
+<b>Maximum Distance</b> *Float*  
 Sets the maximum distance rays can travel to be occluded.
 
-<b>Spread Angle</b> *Float*  
+<b>Spread Angle</b> *Float*  
 Sets the spreading angle for the rays to be shot at. A value of 1 is a full hemisphere.
 
 ## Example Images

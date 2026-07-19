@@ -38,22 +38,22 @@ Deform the input Paths according to the <b>Gradient Input</b>. (Same effect as t
 <b>Paths</b> *Color*  
 A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
 
-<b>Gradient Input</b> *Grayscale*  
+<b>Gradient Input</b> *Grayscale*  
 The height-like input controlling both the amount and the direction of warping. (Same effect as the [Warp](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) node.)
 
 ## Output connectors
 
 <b>Paths</b> *Color*  
-The tranformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
+The tranformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
 
 ## Parameters
 
 <b>Intensity</b> *Float*  
-The <b>Intensity</b> parameter sets the intensity of the warp.
+The <b>Intensity</b> parameter sets the intensity of the warp.
 
-<b>Number of steps</b> *Integer*  
-Use a higher value to warp the input paths by multiple small increments.  
-This can prevent the path to cross itself, especially when using high <b>Intensity</b> values.
+<b>Number of steps</b> *Integer*  
+Use a higher value to warp the input paths by multiple small increments.  
+This can prevent the path to cross itself, especially when using high <b>Intensity</b> values.
 
 ## Examples
 

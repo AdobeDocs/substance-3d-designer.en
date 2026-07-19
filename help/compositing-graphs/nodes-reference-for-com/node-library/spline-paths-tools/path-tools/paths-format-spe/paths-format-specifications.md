@@ -22,7 +22,7 @@ This page describes the Paths format and provides guidance for manipulating data
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-This section explains how a <b>Paths document</b> (or image) is encoded:
+This section explains how a <b>Paths document</b> (or image) is encoded:
 
 A Paths document is a list of paths, each of which describes a list of segments, encoded in a <b>32bit floating-point color texture</b>.
 
@@ -49,12 +49,12 @@ Let `*uv\_pos*` be a 2D address (such as *$pos*) of a pixel of the 'top' part.
 
 In the rest of this document:
 
-* <b>top&#91;uv\_pos&#93;.XYZW</b> will be referring to the 4 floats stored in the pixel of the top part.  
+* <b>top&#91;uv\_pos&#93;.XYZW</b> will be referring to the 4 floats stored in the pixel of the top part.  
   top&#91;uv\_pos&#93; == sample\_color(paths, uv\_pos)
-* <b>bottom&#91;uv\_pos&#93;.XYZW</b> will be referring to the 4 floats stored in the matching pixel of the bottom part.  
+* <b>bottom&#91;uv\_pos&#93;.XYZW</b> will be referring to the 4 floats stored in the matching pixel of the bottom part.  
   bottom&#91;uv\_pos&#93; == sample\_color(paths, uv\_pos + Float2(0, 0.5))
 
-top&#91;uv\_pos&#93; and bottom&#91;uv\_pos&#93; together are forming a semantic unit U&#91;uv\_pos&#93; of the document, composed of 8 floats.
+top&#91;uv\_pos&#93; and bottom&#91;uv\_pos&#93; together are forming a semantic unit U&#91;uv\_pos&#93; of the document, composed of 8 floats.
 
 ### Document header
 
@@ -71,7 +71,7 @@ If some paths are empty, they still count here. So you can think of it as a 'num
 
 The pixel size for this document (I.e., exactly `Float2(1,1) / $size`).
 
-This is useful when reading the Paths from from a [Pixel processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) or an [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), for instance, whose Output Size is different.
+This is useful when reading the Paths from from a [Pixel processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) or an [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md), for instance, whose Output Size is different.
 
 <b>W</b>
 
@@ -105,7 +105,7 @@ The path-header of the Nth path will be defined at address `path\_addr` will be 
 +++Top
 <b>X</b>
 
-Number of vertices in this path. Must be in the &#91;0, 16777216&#93; range.
+Number of vertices in this path. Must be in the &#91;0, 16777216&#93; range.
 
 If the start and end vertices of a closed path are at the same position, they still count for 2 vertices.  
 A path with 0 vertices is a valid path anyway.
@@ -120,7 +120,7 @@ The path index *N.*It must absolutely match *path\_addr* (see note below).
 
 <b>W</b>
 
-The header flag: 1/16 = 0.0625.
+The header flag: 1/16 = 0.0625.
 
 +++
 
@@ -199,7 +199,7 @@ The basics are provided by the [Paths Vertex Processor](../../../../../../compos
 
 If you need features beyond what the Paths Vertex Processor nodes offers (more input textures, or more previous or next vertices), copying the implementation of this graph might be good starting point (assuming you replace the <b>Get(&quot;%perVertex&quot;)</b> node with you custom processing).
 
-But in case you want to do something more alien than applying a per-vertex function, here is a detailed explanation of the tools you can use. These are usually small helper functions that can be found in the same package as the other Paths nodes (*paths\_tools.sbs)*. (These functions are not exposed in the [<b>Library</b>](../../../../../../interface/the-library/the-library.md) and <b>Node menu</b>.)
+But in case you want to do something more alien than applying a per-vertex function, here is a detailed explanation of the tools you can use. These are usually small helper functions that can be found in the same package as the other Paths nodes (*paths\_tools.sbs)*. (These functions are not exposed in the [<b>Library</b>](../../../../../../interface/the-library/the-library.md) and <b>Node menu</b>.)
 
 ### 'Read' functions
 
@@ -238,7 +238,7 @@ Check if a \*top-part sampled\* value is an End vertex (no need to check `is\_ve
 +++
 
 +++is_segment_start
-Short-hand for `is\_start\_vertex || is\_mid\_vertex`. More useful for [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)-based processing, to process each segment at most once.
+Short-hand for `is\_start\_vertex || is\_mid\_vertex`. More useful for [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)-based processing, to process each segment at most once.
 
 +++
 
@@ -282,7 +282,7 @@ This is aimed to work on closed paths. For open paths, the Start or End vertex d
 
 Under the `Write` folder, you will find small helpers that builds a Float4 ready to be written <b>by an &#91;Fx-Map&#93;(../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)</b>.
 
-Indeed, the [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) multiplies RGB by Alpha before drawing, so the actual values are un-premultiplied to compensate for that. If you want to use these function e.g. in a [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), we recommend that you apply the premultiplication yourself again, or that you write a custom version (more optimized for your use case and easier to use).
+Indeed, the [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) multiplies RGB by Alpha before drawing, so the actual values are un-premultiplied to compensate for that. If you want to use these function e.g. in a [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), we recommend that you apply the premultiplication yourself again, or that you write a custom version (more optimized for your use case and easier to use).
 
 +++document_header
 Builds the top part of the document header, declaring the number of paths you provide.
@@ -302,13 +302,13 @@ Builds the top part of a path header, according to the number of vertices in the
 +++start_vertex, mid_vertex, end_vertex
 Builds the top part of a vertex, setting the position, type and other options accordingly.
 
-About *mid\_vertex* and the *hasTrivialLinks* parameter: Ideally you should set the appropriate value, but if for any reason you end up not being able to tell whether links will be trivial or not, you can safely set it to false (at the cost of slower processing of your generated path).
+About *mid\_vertex* and the *hasTrivialLinks* parameter: Ideally you should set the appropriate value, but if for any reason you end up not being able to tell whether links will be trivial or not, you can safely set it to false (at the cost of slower processing of your generated path).
 
 +++
 
-There is no bottom-part builder for path headers nor vertices: both encode two links to the top part, so this function would essentially be a Vector Float4 constructor from two Float2. Don't forget to divide XYZ by W if you are writing using an [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (W being the Y of an address, it should never be null).
+There is no bottom-part builder for path headers nor vertices: both encode two links to the top part, so this function would essentially be a Vector Float4 constructor from two Float2. Don't forget to divide XYZ by W if you are writing using an [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) (W being the Y of an address, it should never be null).
 
-You will find a pertinent example of how to use these functions in the <b>*paths\_polygon.sbs* </b>package hosting the [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md) node.
+You will find a pertinent example of how to use these functions in the <b>*paths\_polygon.sbs* </b>package hosting the [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md) node.
 
 ### Methods for processing paths
 
@@ -319,12 +319,12 @@ The [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic
 
 You need to be familiar with Fx-Map in the first place. If that's not the case, please check the [specific documentation](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md).
 
-We recommend that you look at the implementation of [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) in <b>*paths\_trace.sbs*</b> and [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md) in <b>*paths\_polygon.sbs*</b> to get an idea about how to read and write (respectively) path using an Fx-Map.
+We recommend that you look at the implementation of [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) in <b>*paths\_trace.sbs*</b> and [Paths Polygon](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md) in <b>*paths\_polygon.sbs*</b> to get an idea about how to read and write (respectively) path using an Fx-Map.
 
 +++
 
 +++Pixel Processor
-The [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) solution will be fitting if you only need "local" information. Here we mean "local" not spatially (the distance between element) but rather topologically (vertices linked together). This is how the Vertex Processor is implemented. The Pixel Processor is usually faster than the Fx-Map for this kind of operation, as each pixel's function is evaluated in parallel, while only a limited amount of data is accessed. Implementation effort might be far more important though, as you can only modify the current pixel.
+The [Pixel Processor](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) solution will be fitting if you only need "local" information. Here we mean "local" not spatially (the distance between element) but rather topologically (vertices linked together). This is how the Vertex Processor is implemented. The Pixel Processor is usually faster than the Fx-Map for this kind of operation, as each pixel's function is evaluated in parallel, while only a limited amount of data is accessed. Implementation effort might be far more important though, as you can only modify the current pixel.
 
 We won't get into detail, as there is so much to say depending on you specific use case, but the first thing to do is checking where you are:
 

@@ -38,29 +38,29 @@ This node should not be used in combination with the CPU (SSE) engine due to com
 
 ## Parameters
 
-<b>Use Physical Size</b> *Boolean*  
+<b>Use Physical Size</b> *Boolean*  
 Toggle to use Physical Size settings to determine the height scale.
 
-<b>Physical Size</b> *Float3* (Available when <b>Use Physical Size</b> is set to *True*)  
+<b>Physical Size</b> *Float3* (Available when <b>Use Physical Size</b> is set to *True*)  
 Adjusts the height scale based on the real physical size of the surface.
 
 <b>Samples</b> *Integer*  
 Number of rays used to compute the bent normal.  
 A higher provides a smoother and more precise result at the cost of performance.
 
-<b>Height Scale</b> *Float (Available when Use Physical Size is set to False)*  
+<b>Height Scale</b> *Float (Available when Use Physical Size is set to False)*  
 Multiplier for the intensity of the height map input.
 
-<b>Distribution</b> *Integer*  
+<b>Distribution</b> *Integer*  
 Sets the distribution method. Affects falloff towards shadowed areas.
 
-<b>Maximum Distance</b> *Float*  
+<b>Maximum Distance</b> *Float*  
 Sets the maximum distance rays can travel to be occluded.
 
-<b>Spread Angle</b> *Float*  
+<b>Spread Angle</b> *Float*  
 Sets the spreading angle for the rays to be shot at. A value of 1 is a full hemisphere.
 
-<b>Normal Format</b> *Integer*  
+<b>Normal Format</b> *Integer*  
 Inverts the output's green channel.
 
 ## Example Images

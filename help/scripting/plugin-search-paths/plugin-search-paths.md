@@ -21,10 +21,10 @@ Users can *add custom directories* manually in the software preferences, or spec
 ## Manually adding plugin search paths
 
 1. Go to <b>Edit &gt; Preferences...</b>
-1. Select the <b>Projects</b> category
-1. Select the <b>Project File</b> you want to edit
-1. In the <b>Python</b> tab, click on the *<b>+</b>*button to add the directory that contains the plugins
-1. Click <b>OK</b> to validate
+1. Select the <b>Projects</b> category
+1. Select the <b>Project File</b> you want to edit
+1. In the <b>Python</b> tab, click on the *<b>+</b>*button to add the directory that contains the plugins
+1. Click <b>OK</b> to validate
 
 ![Settings up Python plugins search paths Project settings](../../assets/image-70.png "Settings up Python plugins search paths Project settings")
 

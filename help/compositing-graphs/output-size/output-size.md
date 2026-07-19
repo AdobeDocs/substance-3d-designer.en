@@ -51,9 +51,9 @@ A texture which is an object in graphics computing bound by some restrictions im
 </tr>
 </table>
 
-The Output size property uses *logarithmic steps* to easily map increases of powers of two (e.g., 256, 512, 1024, ...) to a *linear scale* (e.g. 8, 9, 10, ...). This means increasing or decreasing the Output Size value in X or Y by 1 is akin to multiplying or dividing the current resolution by 2.
+The Output size property uses *logarithmic steps* to easily map increases of powers of two (e.g., 256, 512, 1024, ...) to a *linear scale* (e.g. 8, 9, 10, ...). This means increasing or decreasing the Output Size value in X or Y by 1 is akin to multiplying or dividing the current resolution by 2.
 
-This also applies when the Output Size value is controlled by a [function](../../function-graphs/function-graphs.md), where the function should output the target logarithmic values (relative or absolute) instead of the target resolution.
+This also applies when the Output Size value is controlled by a [function](../../function-graphs/function-graphs.md), where the function should output the target logarithmic values (relative or absolute) instead of the target resolution.
 
 >[!IMPORTANT]
 >

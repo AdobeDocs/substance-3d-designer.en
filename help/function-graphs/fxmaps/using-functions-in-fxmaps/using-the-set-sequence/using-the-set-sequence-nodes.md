@@ -33,7 +33,7 @@ While working with functions in <b>FX-Maps</b>, you will occasionally be in situ
 </tr>
 </table>
 
-In this case, you may use the combination of <b>Set</b> and <b>Sequence</b> nodes, which will allow you to control variables across a single or multiple functions.
+In this case, you may use the combination of <b>Set</b> and <b>Sequence</b> nodes, which will allow you to control variables across a single or multiple functions.
 
 This process involves two steps:
 
@@ -137,7 +137,7 @@ Let us build a small example: imagine that we want a <b>Quadrant</b> node's <b>R
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-What we will do is to make all the computation in the <b>Color/Luminosity</b> parameter function. This parameter will be computed *first* thus any variable set in it will be available to the other node parameters.
+What we will do is to make all the computation in the <b>Color/Luminosity</b> parameter function. This parameter will be computed *first* thus any variable set in it will be available to the other node parameters.
 
 </td>
 <td style="border: 0;" valign="top">
