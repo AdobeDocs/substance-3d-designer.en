@@ -51,7 +51,7 @@ Keep `description` accurate and concise — it is used for SEO/search snippets.
 
 * English is the source of truth; all other languages are translated from it.
 * All links to other documentation pages must be **relative** links; all links to external resources must be **absolute** links.
-* Content is written in GitHub-flavored Markdown with Experience League's custom extensions/gotchas, documented [here](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown). Use the `write-experience-league-markdown` skill (if present) for the specifics — create/update it from that page if it doesn't exist yet.
+* Content is written in GitHub-flavored Markdown with Experience League's custom extensions/gotchas, documented [here](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown). Use the `write-experience-league-markdown` skill (if present) for the specifics.
 * Every submitted change goes through automated lint checks and link validation in CI (see below) — check `markdownlint_custom.json` and `linkcheckexclude.json` before assuming a rule applies or a link needs fixing.
 
 # Validation / CI
