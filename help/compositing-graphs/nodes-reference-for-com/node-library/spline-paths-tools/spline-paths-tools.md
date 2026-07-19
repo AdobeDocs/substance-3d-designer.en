@@ -30,4 +30,4 @@ Check out these tutorials to get started:
 
 >[!TIP]
 >
-> We recommend learning about [working with Path and Spline tools](../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
+> We recommend learning about [working with Path and Spline tools](../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.

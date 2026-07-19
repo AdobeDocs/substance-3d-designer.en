@@ -71,9 +71,9 @@ An ID map is an image where pixels which are part of a whole (E.g., a shape) all
 
 |  |  |
 | --- | --- |
-| <b>Selection mode</b> *Integer* | The method of selecting the pixel values in the ID map which should be white in the mask:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Solo:</b> Select a single pixel value</li> <li data-preserve-html="true"><b>Range:</b> Select a range of pixel values</li> </ul> |
-| <b>ID Integer</b> *Integer*   *Available when 'Selection mode' is set to 'Solo'* | The pixel value in the ID map which should be white in the output mask. |
-| <b>ID Range</b> *Integer2*    *Available when 'Selection mode' is set to 'Range'* | The range of pixel values in the ID map, from start to end, which should be white in the output mask. |
+| <b>Selection mode</b> *Integer* | The method of selecting the pixel values in the ID map which should be white in the mask:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Solo:</b> Select a single pixel value</li> <li data-preserve-html="true"><b>Range:</b> Select a range of pixel values</li> </ul> |
+| <b>ID Integer</b> *Integer*   *Available when 'Selection mode' is set to 'Solo'* | The pixel value in the ID map which should be white in the output mask. |
+| <b>ID Range</b> *Integer2*    *Available when 'Selection mode' is set to 'Range'* | The range of pixel values in the ID map, from start to end, which should be white in the output mask. |
 
 ## Examples
 

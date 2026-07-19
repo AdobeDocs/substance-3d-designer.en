@@ -76,7 +76,7 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 
 |  |  |
 | --- | --- |
-| <b>Value processor function</b> *Any available value type* | [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) evaluated to compute the output value. |
+| <b>Value processor function</b> *Any available value type* | [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) evaluated to compute the output value. |
 
 ## Input connectors
 

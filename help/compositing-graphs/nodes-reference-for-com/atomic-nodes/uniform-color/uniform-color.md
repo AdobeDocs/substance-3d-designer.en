@@ -55,10 +55,10 @@ It is a simple node that is used very often as a starting point for adding color
 >
 > Performance optimization
 > 
-> Both of these adjustments lowers the node's computation time and memory footprint:
+> Both of these adjustments lowers the node's computation time and memory footprint:
 > 
 > * If a grayscale value is needed, make sure to switch the node's [color mode](#parameters) to 'Grayscale'.
-> * Since the node's output is a flat color, you may use the lowest resolution possible. Set the node's '[Output size](../../../../compositing-graphs/output-size/output-size.md)' parameter to use the 'Absolute' [inheritance method](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) and a resolution of 16x16 pixels.
+> * Since the node's output is a flat color, you may use the lowest resolution possible. Set the node's '[Output size](../../../../compositing-graphs/output-size/output-size.md)' parameter to use the 'Absolute' [inheritance method](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) and a resolution of 16x16 pixels.
 
 <table>
 <tr style="border: 0;">
@@ -90,7 +90,7 @@ It is a simple node that is used very often as a starting point for adding color
 |  |  |
 | --- | --- |
 | <b>Color mode</b> *Boolean* | Toggles between a grayscale and a color output image. |
-| <b>Output color</b> *Float/Float4* | Selects the flat color to use in the output image.   When using the 'Color' color mode, the Alpha channel is used for opacity where 0 is fully transparent and 1 is fully opaque.. |
+| <b>Output color</b> *Float/Float4* | Selects the flat color to use in the output image.   When using the 'Color' color mode, the Alpha channel is used for opacity where 0 is fully transparent and 1 is fully opaque.. |
 
 ## Output connectors
 

@@ -37,15 +37,15 @@ It is mathematically very similar to Photoshop's Unsharp Mask, despite the name 
 
 ## Inputs
 
-<b>Input</b> *Color/Grayscale* (Primary)  
+<b>Input</b> *Color/Grayscale* (Primary)  
 The image which should be sharpened.
 
 ## Parameters
 
-<b>Intensity</b> *Float*  
+<b>Intensity</b> *Float*  
 Sets the intensity of the sharpening effect.
 
-<b>Punchthrough Alpha</b> *Boolean* (Available when a color image is connected to the <b>Input</b>)  
+<b>Punchthrough Alpha</b> *Boolean* (Available when a color image is connected to the <b>Input</b>)  
 Determines whether the image's alpha channel should be sharpened or left untouched.
 
 ## Examples

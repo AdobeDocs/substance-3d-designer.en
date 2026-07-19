@@ -43,7 +43,7 @@ The highlighted section is the part that relates to the Configuration Files, you
 
 ### External editing as XML
 
-For Windows <b>Notepad++</b> is a good free option, for macOS <b>Sublime Text</b> is an alternative. However, any editor with proper indentation, section collapsing and some form of syntax highlighting will make your life much easier.
+For Windows <b>Notepad++</b> is a good free option, for macOS <b>Sublime Text</b> is an alternative. However, any editor with proper indentation, section collapsing and some form of syntax highlighting will make your life much easier.
 
 Once you open the SBSCFG file in an editor, you should see a fairly straightforward structured layout, with sections corresponding to the UI.
 

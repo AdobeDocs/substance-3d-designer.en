@@ -100,11 +100,11 @@ If you want to see it with the outputs of another Graph, you'll have to either e
 
 |  |  |
 | --- | --- |
-| <b>Identifier</b> *String* | The only mandatory, unique Attribute. Can not contains spaces.   This one is used for labeling inputs if no Label is set up, and for telling different outputs apart. Don't just leave these at "input\_1"! |
+| <b>Identifier</b> *String* | The only mandatory, unique Attribute. Can not contains spaces.   This one is used for labeling inputs if no Label is set up, and for telling different outputs apart. Don't just leave these at "input\_1"! |
 | <b>Description</b> *String* | Optional Description used in Designer's library and Painter's shelf. |
-| <b>Label</b> *String* | UI Label used for nice labeling in Designer and Painter UI. Can contain spaces.   Recommended to set up with a name similar to the Identifier, just with spacebars instead of underscores. |
+| <b>Label</b> *String* | UI Label used for nice labeling in Designer and Painter UI. Can contain spaces.   Recommended to set up with a name similar to the Identifier, just with spacebars instead of underscores. |
 | <b>User data</b> *String* | Additional, optional User Data that can be used for specific filtering operations, Basically a wildcard, custom data field. |
-| <b>Group</b> *String* | Group Attribute used to group inputs together for Designer's [Link Creation Modes](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).   Inputs with an identical (case-sensitive) Group Attribute, will be presented as a single connection in Compact Material Mode. |
+| <b>Group</b> *String* | Group Attribute used to group inputs together for Designer's [Link Creation Modes](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).   Inputs with an identical (case-sensitive) Group Attribute, will be presented as a single connection in Compact Material Mode. |
 
 ## Inheritance
 
@@ -151,6 +151,6 @@ Additionally the Usage attributes are also used with [Link Creation Modes](../..
 
 |  |  |
 | --- | --- |
-| <b>Component</b> *String* | This determines what channels are actually in the resulting input.   This is a legacy setting this is not used by integrations and graphs anymore. |
+| <b>Component</b> *String* | This determines what channels are actually in the resulting input.   This is a legacy setting this is not used by integrations and graphs anymore. |
 | <b>Usage</b> *String* | Define a type or usage for this input. It indicates how other nodes should connect to this input.. |
 | <b>Color space</b> *String* | Sets the colorspace this input should be interpreted in. |

@@ -22,7 +22,7 @@ user-guide-title: ""
 
 Designer offers a Python integration of the [Perforce](https://www.perforce.com/) (P4) version control system.
 
-The integration adds a custom 'Version Control' submenu to the contextual menu of packages in the [Explorer](../../../interface/the-explorer-window/the-explorer-window.md), as well as custom icons to match the status of a package in P4.
+The integration adds a custom 'Version Control' submenu to the contextual menu of packages in the [Explorer](../../../interface/the-explorer-window/the-explorer-window.md), as well as custom icons to match the status of a package in P4.
 
 ## Preparing P4
 
@@ -47,7 +47,7 @@ cVerbose = False
 
 ## Setup in Designer
 
-Version control is configured in the [Project settings](../../../interface/preferences-window/project-settings/project-settings.md), which are available in Designer's [Preferences](../../../interface/preferences-window/preferences-window.md).
+Version control is configured in the [Project settings](../../../interface/preferences-window/project-settings/project-settings.md), which are available in Designer's [Preferences](../../../interface/preferences-window/preferences-window.md).
 
 !['Version control' tab in project settings](../../../assets/p4v-project-settings.jpg "'Version control' tab in project settings"){zoomable="yes"}
 
@@ -56,7 +56,7 @@ Version control is configured in the [Project settings](../../../interface/pref
 1. Check 'Version Control Enabled'
 1. Fill this information in the 'Workspace' section:
 
-   * <b>Name:</b> Enter the 'Workspace Name' you previously retrieved from P4V
+   * <b>Name:</b> Enter the 'Workspace Name' you previously retrieved from P4V
    * <b>Path:</b> enter the 'Workspace Path' you previously retrieved from P4V
 
 ![P4 setup in Designer: workspace](../../../assets/p4v-project-settings-workspace.jpg "P4 setup in Designer: workspace"){zoomable="yes"}
@@ -73,7 +73,7 @@ You may use:
 * one script *per* action
 * one script for *all* actions
 
-A starter script for all actions is available in Designer's installation: '*tools/version\_control/perforce.py*'.
+A starter script for all actions is available in Designer's installation: '*tools/version\_control/perforce.py*'.
 
 >[!IMPORTANT]
 >
@@ -108,8 +108,8 @@ As all version control tools are different and include many features, we allow t
 1. Several actions are available, depending on the status of the package file in the workspace:
 
    * <b>Add:</b> Mark the files as 'ToAdd'
-   * <b>Submit:</b> Submit the selected packages. This action displays a dialog for specifying a change message (see below)
-   * <b>Revert:</b> Revert the modifications. This action displays a dialog for selecting the files to revert (see below)
+   * <b>Submit:</b> Submit the selected packages. This action displays a dialog for specifying a change message (see below)
+   * <b>Revert:</b> Revert the modifications. This action displays a dialog for selecting the files to revert (see below)
    * <b>Checkout:</b> Check the file out from the depot
    * <b>Get last version:</b> Retrieve the latest version from the depot
    * <b>Refresh status:</b> Refresh the package file status
@@ -193,13 +193,13 @@ my\_script <b>*WorkspaceName WorkspacePath ActionName&#91;ActionArgs&#93;*</b>
 * *get\_last\_version:* for the "Get Last Version" action
 * *get\_status:* for the "Get Status" action
 
-The label is set up in the project settings, with ' ' character replaced by '\_' — E.g.: "My Action" =&gt; "My\_Action".
+The label is set up in the project settings, with ' ' character replaced by '\_' — E.g.: "My Action" =&gt; "My\_Action".
 
 <b>ActionArgs:</b> arguments of the action:
 
 * *-desc*: A description string used by 'Submit' action
-* *-files:* A list of files
-* *-files\_list:* A text file that contains a list of files per line
+* *-files:* A list of files
+* *-files\_list:* A text file that contains a list of files per line
 
 <b>get\_status</b>: Returns a value depending of the status of the specified file:
 

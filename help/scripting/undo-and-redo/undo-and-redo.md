@@ -14,9 +14,9 @@ user-guide-title: ""
 
 # Undo and redo
 
-With the <b>SDHistoryUtils.UndoGroup</b> class, users  can *group actions* in order to *undo or redo* them all in one command.
+With the <b>SDHistoryUtils.UndoGroup</b> class, users  can *group actions* in order to *undo or redo* them all in one command.
 
-These groups are *named* by users, and will appear by that name in the undo/redo list in the user interface.  This makes large numbers of actions more manageable.
+These groups are *named* by users, and will appear by that name in the undo/redo list in the user interface.  This makes large numbers of actions more manageable.
 
 ```
 

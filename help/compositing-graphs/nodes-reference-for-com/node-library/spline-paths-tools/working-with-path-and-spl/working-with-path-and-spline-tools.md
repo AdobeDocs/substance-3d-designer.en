@@ -20,9 +20,9 @@ The Path and Splines toolset is a collection of nodes that lets you author and e
 
 ### What are paths and splines?
 
-<b>Paths</b> are a series of points connected into straight lines.
+<b>Paths</b> are a series of points connected into straight lines.
 
-<b>Splines</b> are smooth curves whose trajectories are shaped by control points and those points' tangents.  
+<b>Splines</b> are smooth curves whose trajectories are shaped by control points and those points' tangents.  
 Each point also controls a spline's height and thickness attributes which are used to drive the mapping, warping and scattering of images.
 
 Each can build closed or open shapes.
@@ -48,7 +48,7 @@ For instance, the image on the right represents the image output by a [Paths Pol
 
 As such, the images they produce are not directly usable as a graphic element. They need to be processed by other nodes in the toolset that can convert them into a graphic result that can then be used with the rest of the nodes available for Substance graphs.
 
-As you work with paths and splines, you can preview these objects mapped in an image using the dedicated [Preview Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) node for paths, and the dedicated <b>Preview</b> output for splines.
+As you work with paths and splines, you can preview these objects mapped in an image using the dedicated [Preview Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) node for paths, and the dedicated <b>Preview</b> output for splines.
 
 <table>
 <tr style="border: 0;">
@@ -73,9 +73,9 @@ For instance, spline generation nodes such as [Spline (Cubic)](../../../../../co
 
 Path and spline tools require intensive computations, so much so that you should be mindful of a couple of settings for ensuring the best performance and responsiveness when working with the toolset:
 
-1. The toolset makes extensive use of <b>Substance Engine</b> features that run much faster on the GPU. Therefore, please use the GPU version of the engine for your system: <b>Direct3D</b> (Windows) or <b>OpenGL</b> (macOS).  
+1. The toolset makes extensive use of <b>Substance Engine</b> features that run much faster on the GPU. Therefore, please use the GPU version of the engine for your system: <b>Direct3D</b> (Windows) or <b>OpenGL</b> (macOS).  
    You can switch engine by pressing the <b>F9</b> key, or by going to <b>Tools &gt; Switch engine...</b> in the main menu bar.
-1. Then, we strongly recommend turning off <b>In-context editing</b> in the <b>Graph</b> section of the [Preferences](../../../../../interface/preferences-window/preferences-window.md) (Go to <b>Edit &gt; Preferences...</b> in the main menu bar to access this window).  
+1. Then, we strongly recommend turning off <b>In-context editing</b> in the <b>Graph</b> section of the [Preferences](../../../../../interface/preferences-window/preferences-window.md) (Go to <b>Edit &gt; Preferences...</b> in the main menu bar to access this window).  
    In-context editing lets you open instance nodes in the context of the host graph, which is admittedly very convenient but has the side effect of exponentially increasing the computations required by the toolset's image cache.
 
 You should notice a significant performance improvement when changing any of these two settings to the recommended state.
@@ -159,7 +159,7 @@ Splines can also help you generate more splines. For example, the [Spline Bridge
 
 ### Editing Splines
 
-[Spline 2D Transform](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md) and [Spline Warp](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md) let you edit the shape of splines.
+[Spline 2D Transform](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md) and [Spline Warp](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md) let you edit the shape of splines.
 
 You may also remove undesired splines by selecting paths by index, as well as trim splines, using the [Spline Select](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-select/spline-select.md) node.
 
@@ -177,7 +177,7 @@ Combining splines is done using the [Spline Append](../../../../../compositing-g
 
 Therefore, it is very important to consider the order in which you append splines together.
 
-This has an impact on nodes that need to combine splines together, such as [Spline Bridge (List)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), [Spline Bridge Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) and [Spline Merge List](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md).
+This has an impact on nodes that need to combine splines together, such as [Spline Bridge (List)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), [Spline Bridge Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) and [Spline Merge List](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md).
 
 ![Appending splines with link creation modes](../../../../../assets/LinkCreationMode_Splines.gif "Appending splines with link creation modes")
 
@@ -199,7 +199,7 @@ To make these connections faster, you may use <b>Material</b> or <b>Compact Mate
 
 ### Preview output
 
-Most of the nodes offer a <b>Preview</b> output that renders the splines in an image so you can get an idea of what their trajectories and properties are.
+Most of the nodes offer a <b>Preview</b> output that renders the splines in an image so you can get an idea of what their trajectories and properties are.
 
 This preview can be tweaked in the node parameters, using the parameters in the <b>Preview</b> group.
 
@@ -241,6 +241,6 @@ When you are done authoring and editing splines, they can be used to produce ima
 
 There are three main ways of using splines for generating graphics:
 
-* Render the spline using its shape and properties with the [Spline Render](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md) or [Spline Fill](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md) node;
+* Render the spline using its shape and properties with the [Spline Render](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md) or [Spline Fill](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md) node;
 * Map images along splines with mapping nodes such as [Spline Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md), [Spline Bridge Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) and [Spline Flow Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-flow-mapper/spline-flow-mapper.md);
 * Scatter patterns along splines with the [Scatter on Spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md) node.

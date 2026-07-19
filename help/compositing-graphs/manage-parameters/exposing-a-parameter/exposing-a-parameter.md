@@ -26,7 +26,7 @@ from exposed parameters to Graph Parameters.*
 ## Understanding parameters and exposing
 
 +++What is a parameter?
-*A parameter is a simple value, with a UI element, that controls the behavior of a graph.* You use them constantly in all Substance software: to change a color, to set blend mode, to choose an opacity value, etc... Without parameters, Substance software would not allow for any customization at all.
+*A parameter is a simple value, with a UI element, that controls the behavior of a graph.* You use them constantly in all Substance software: to change a color, to set blend mode, to choose an opacity value, etc... Without parameters, Substance software would not allow for any customization at all.
 
 Parameters can come in many different forms: sliders, dials, type-in boxes, drop-down menus, etc... The values they represent can be many different types: decimal values, whole (integer) values, boolean (true/false) values, even text snippets.
 
@@ -60,14 +60,14 @@ Currently there are two main methods to expose parameters. One method is more su
 
 ### SINGLE EXPOSE METHOD
 
-1. Find the parameter you want to expose in the [Properties Window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), under the Specific Parameters tab
-1. Click the ![](../../../assets/image2020-9-17-15-35-59.png) dropdown options button
-1. Choose ![](../../../assets/image2020-9-17-15-37-7.png) <b>Expose as new graph input</b> from the drop down list, the first option.
+1. Find the parameter you want to expose in the [Properties Window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), under the Specific Parameters tab
+1. Click the ![](../../../assets/image2020-9-17-15-35-59.png) dropdown options button
+1. Choose ![](../../../assets/image2020-9-17-15-37-7.png) <b>Expose as new graph input</b> from the drop down list, the first option.
 1. The <b>Expose parameter</b> dialog appears, set any parameter properties as you wish.
 
-   It is recommended to at least change the <b>Identifier</b> and <b>Label</b>
-1. Press <b>OK</b> to confirm
-1. The parameter's name turns *blue*, and the ![](../../../assets/image2020-9-17-15-35-46.png)  
+   It is recommended to at least change the <b>Identifier</b> and <b>Label</b>
+1. Press <b>OK</b> to confirm
+1. The parameter's name turns *blue*, and the ![](../../../assets/image2020-9-17-15-35-46.png)  
    <b> Edit parameter function</b> button appears next to the dropdown options to confirm the parameter is exposed
 
 >[!NOTE]
@@ -81,14 +81,14 @@ Currently there are two main methods to expose parameters. One method is more su
 
 When exposing one parameter, this method will be a bit slower than the previous. When exposing multiple parameters, it is much faster.
 
-1. Instead of finding a single parameter, find the ![](../../../assets/image2020-9-17-15-39-7.png) <b>Multi-expose</b> button at the top right of the <b>Specific parameters</b> tab
-1. Choose <b>Batch expose parameters...</b> from the drop down menu
-1. The <b>Batch expose</b> dialog appears, allowing you to customize the exposing of all of a node's <b>Specific parameters</b>
+1. Instead of finding a single parameter, find the ![](../../../assets/image2020-9-17-15-39-7.png) <b>Multi-expose</b> button at the top right of the <b>Specific parameters</b> tab
+1. Choose <b>Batch expose parameters...</b> from the drop down menu
+1. The <b>Batch expose</b> dialog appears, allowing you to customize the exposing of all of a node's <b>Specific parameters</b>
 1. Use <b>All</b>, <b>None</b> or specific checkboxes to decide which parameters to expose
 1. Click on a parameter name under the <b>Graph input identifier</b> column in the list to change its name.
 1. Click on a <b>Group name</b> under the <b>Graph input group</b> column in the list to add a (sub-)group for one specific parameter
 1. Use the <b>Graph input identifier</b> and <b>Graph input group</b> type-in boxes at the bottom to add prefix, suffix and input groups to all exposed parameters at once. All these values are applied on top of the per-parameter settings.
-1. Click <b>OK</b> to confirm and expose all selected parameters. The parameter names now show *blue* to confirm the parameters are exposed, as well as an ![](../../../assets/image2020-9-17-15-35-46.png) <b>Edit function</b> button.
+1. Click <b>OK</b> to confirm and expose all selected parameters. The parameter names now show *blue* to confirm the parameters are exposed, as well as an ![](../../../assets/image2020-9-17-15-35-46.png) <b>Edit function</b> button.
 
 ## Limitations
 
@@ -96,9 +96,9 @@ There are some limitations tied to exposing parameters, as listed in the table b
 
 | Parameter type | Reason |
 | --- | --- |
-| [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Levels Histogram](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Require widgets which are not available for user-created parameters. |
+| [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Levels Histogram](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Require widgets which are not available for user-created parameters. |
 
-Another significant limitation is related to [static parameters](../../../glossary/glossary.md). These cannot be changed in a [published Substance 3D asset](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Another significant limitation is related to [static parameters](../../../glossary/glossary.md). These cannot be changed in a [published Substance 3D asset](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
 
 Static parameters – as opposed to dynamic parameters – *cannot be edited on-the-fly* after the graph has been *cooked* – i.e., processed in order to run its algorithm quickly and efficiently. Cooking occurs in Designer every time the graph is *edited* or *published*.
 
@@ -122,9 +122,9 @@ Once exposed, it is no longer possible to access a parameter like before. Changi
 To change an exposed parameter's options either:
 
 1. Click on the Dropdown options button ![](../../../assets/image2020-9-17-15-35-59.png) next to the already exposed parameter
-1. Choose ![](../../../assets/image2020-9-17-15-37-7.png)<b> Edit exposed graph input</b>. This takes you straight to the relevant entry in the graph properties
-1. Double-click in an empty area of your graph to get to the graph properties, then find the parameter in the list of <b>Input parameters</b>
-1. Single click on your graph in the <b>Explorer</b>, then find the parameter in the list of <b>Input parameters</b>
+1. Choose ![](../../../assets/image2020-9-17-15-37-7.png)<b> Edit exposed graph input</b>. This takes you straight to the relevant entry in the graph properties
+1. Double-click in an empty area of your graph to get to the graph properties, then find the parameter in the list of <b>Input parameters</b>
+1. Single click on your graph in the <b>Explorer</b>, then find the parameter in the list of <b>Input parameters</b>
 
 ![Input parameters](../../../assets/input-parameters-2.png "Input parameters"){width="512px"}
 

@@ -24,7 +24,7 @@ user-guide-title: ""
 
 ![Perlin noise - Icon](../../../../../../assets/perlin_noise.png "Perlin noise - Icon"){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -61,7 +61,7 @@ Generates a Perlin noise, a widely used smooth distribution of grayscale values.
 
 |  |  |
 | --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
 
 ## Parameters
 
@@ -69,7 +69,7 @@ Generates a Perlin noise, a widely used smooth distribution of grayscale values.
 | --- | --- |
 | <b>Scale</b>  Integer | The subdivision of the grid used to generate the noise tiles.    A higher value results in more tiles being drawn and a denser noise. |
 | <b>Disorder</b>  Float | Displaces the ingredients of the noise.    This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
+| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
 | <b>Tile offset</b>  Float2 | Controls the position of the portion of infinite plane used to render the noise. |
 | <b>Non-square expansion</b>  Boolean | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
 

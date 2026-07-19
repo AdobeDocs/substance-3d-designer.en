@@ -24,11 +24,11 @@ It places a pin in the viewport and samples the color and position of the pixel 
 
 Follow these steps to access and use the tool:
 
-1. Click the ![](../../../assets/color-sampler-information-button.png) <b>Information</b> button in the 2D view toolbar to open the Information dock and toolbar
-1. Click the ![](../../../assets/color-sampler-tool-icon.png) <b>Color Sampler tool</b> button in the Information toolbar
-1. In the viewport, click on the specific pixel you want to sample to place a ![](../../../assets/color-sampler-pin-icon.png) <b>pin</b>
+1. Click the ![](../../../assets/color-sampler-information-button.png) <b>Information</b> button in the 2D view toolbar to open the Information dock and toolbar
+1. Click the ![](../../../assets/color-sampler-tool-icon.png) <b>Color Sampler tool</b> button in the Information toolbar
+1. In the viewport, click on the specific pixel you want to sample to place a ![](../../../assets/color-sampler-pin-icon.png) <b>pin</b>
 1. Examine the sampled values in the dedicated section of the Information dock
-1. When you are done with the tool, click the ![](../../../assets/color-sampler-remove-pin.png) <b>Delete</b> button to remove the pin from the viewport.  
+1. When you are done with the tool, click the ![](../../../assets/color-sampler-remove-pin.png) <b>Delete</b> button to remove the pin from the viewport.  
    You can also remove the pin by clicking RMB on it and selecting the 'Delete' action in the contextual menu.
 
 Here is a demonstration of the tool in action:
@@ -81,6 +81,6 @@ The value depends on the bitdepth used by the image. In a Substance graph, the b
 The available bitdepths are:
 
 * <b>8-bit integer:</b> 256 integer values from 0 to 255.
-* <b>16-bit integer:</b> 65,536 integer values from 0 to 65,535.
+* <b>16-bit integer:</b> 65,536 integer values from 0 to 65,535.
 * <b>HDR low precision (16-bit)</b>: A floating point value encoded using 16-bit.
 * <b>HDR high precision (32-bit)</b>: A floating point value encoded using 32-bit. This is the highest precision available in Designer.

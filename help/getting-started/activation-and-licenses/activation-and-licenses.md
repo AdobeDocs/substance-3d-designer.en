@@ -18,7 +18,7 @@ The activation process depends on where you purchased or have access to Designer
 
 | Edition | Activation process |
 | --- | --- |
-| Creative Cloud Desktop | See the dedicated page in the [HelpX documentation](https://helpx.adobe.com/support/substance-3d-designer.html). In case there are any issues the [Creative Cloud documentation](https://helpx.adobe.com/creative-cloud/user-guide.html) may provide additional answers. |
+| Creative Cloud Desktop | See the dedicated page in the [HelpX documentation](https://helpx.adobe.com/support/substance-3d-designer.html). In case there are any issues the [Creative Cloud documentation](https://helpx.adobe.com/creative-cloud/user-guide.html) may provide additional answers. |
 | Steam | Launch the product directly from your Steam library. |
 | Substance (standalone) | See the activation process described below. |
 
@@ -58,16 +58,16 @@ You can manually activate Designer by putting the license.key file in the follow
 </tr><tr><td style="text-align: left;">AppData &gt; Roaming</td>
 <td style="text-align: left;">C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Allegorithmic&#92;Substance Designer</td>
 </tr><tr><td rowspan="2" style="text-align: left;"><b>Mac</b></td>
-<td style="text-align: left;"><b>11.2</b> or higher<br/>
+<td style="text-align: left;"><b>11.2</b> or higher<br/>
 </td>
 <td colspan="2" style="text-align: left;">/Users/&#91;username&#93;/Library/Application Support/Adobe/Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;"><b>11.1</b> or lower<br/>
+</tr><tr><td style="text-align: left;"><b>11.1</b> or lower<br/>
 </td>
 <td colspan="2" style="text-align: left;">/Users/&#91;username&#93;/Library/Application Support/Allegorithmic/Substance Designer</td>
 </tr><tr><td rowspan="2" style="text-align: left;"><b>Linux</b></td>
 <td style="text-align: left;"><b>11.2</b> or higher</td>
 <td colspan="2" style="text-align: left;">/home/&#91;username&#93;/.local/share/Adobe/Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;"><b>11.1</b> or lower<br/>
+</tr><tr><td style="text-align: left;"><b>11.1</b> or lower<br/>
 </td>
 <td colspan="2" style="text-align: left;">/home/&#91;username&#93;/.local/share/Allegorithmic/Substance Designer</td>
 </tr></tbody></table>

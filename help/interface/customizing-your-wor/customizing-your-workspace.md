@@ -72,8 +72,8 @@ A dock may be undocked into a *floating window* which may be resized and moved o
 
 This can be done in two ways:
 
-* Moving the dock using its *title bar* and placing it either *out of the main window* or on an area of the main window which is *not a dock*. You may redock this dock either by moving it on another dock *in the main window* or by clicking the <b>![](../../assets/dock-icons-redock.png) Redock</b> button;
-* Clicking the <b>![](../../assets/dock-icons-undock.png) Undock</b> button. An dock undocked with this method may *only* be redocked by clicking the <b>![](../../assets/dock-icons-redock.png) Redock</b> button.
+* Moving the dock using its *title bar* and placing it either *out of the main window* or on an area of the main window which is *not a dock*. You may redock this dock either by moving it on another dock *in the main window* or by clicking the <b>![](../../assets/dock-icons-redock.png) Redock</b> button;
+* Clicking the <b>![](../../assets/dock-icons-undock.png) Undock</b> button. An dock undocked with this method may *only* be redocked by clicking the <b>![](../../assets/dock-icons-redock.png) Redock</b> button.
 
 ![Undocking](../../assets/interface-customisation-undock.gif "Undocking")
 
@@ -86,14 +86,14 @@ Any dock may be maximised to fit the area or its *parent window*:
 
 Docks can be maximised in two ways:
 
-* Placing the *cursor over the dock* and pressing the <b>Shift+Space</b> keystroke
-* Clicking their <b>![](../../assets/dock-icons-maximise.png) Maximise</b> button
+* Placing the *cursor over the dock* and pressing the <b>Shift+Space</b> keystroke
+* Clicking their <b>![](../../assets/dock-icons-maximise.png) Maximise</b> button
 
-Maximised docks may be minimised into the size and location they held *before being maximised*. This can be done in three ways:
+Maximised docks may be minimised into the size and location they held *before being maximised*. This can be done in three ways:
 
-* Placing the *cursor over the dock* and pressing the <b>Shift+Space</b> keystroke
-* Clicking their <b>![](../../assets/dock-icons-minimise.png) Minimise</b> button
-* Opening the <b>Windows</b> menu and selecting the <b>Unmaximise window</b> option
+* Placing the *cursor over the dock* and pressing the <b>Shift+Space</b> keystroke
+* Clicking their <b>![](../../assets/dock-icons-minimise.png) Minimise</b> button
+* Opening the <b>Windows</b> menu and selecting the <b>Unmaximise window</b> option
 
 >[!NOTE]
 >

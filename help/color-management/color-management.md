@@ -35,7 +35,7 @@ Color Management settings can be configured in [Projects](../interface/preferenc
 
 |  |  |
 | --- | --- |
-| <b>Color management</b> | This setting lets you select the [Legacy](../color-management/color-management.md), [OpenColorIO](#opencolorio) or [Adobe ACE](#adobe-ace) modes for Color Management in Substance 3D Designer. *Default: Legacy* |
+| <b>Color management</b> | This setting lets you select the [Legacy](../color-management/color-management.md), [OpenColorIO](#opencolorio) or [Adobe ACE](#adobe-ace) modes for Color Management in Substance 3D Designer. *Default: Legacy* |
 
 ## OpenColorIO
 
@@ -61,15 +61,15 @@ You can find these configuration files in the <b>resources &gt; ocio</b> folder 
 | --- | --- |
 | <b>8-bit images</b> | Sets the default color space for 8-bit bitmaps. *Default: Set by OpenColorIO configuration file* |
 | <b>16-bit images</b> | Sets the default color space for 16-bit bitmaps. *Default: Set by OpenColorIO configuration file* |
-| <b>Floating point images</b> | Sets the default color space for floating point precision bitmaps, such as *HDR* images in the *\*.exr* or *\*.hdr* formats. *Default: Set by OpenColorIO configuration file* |
-| <b>Use file name to detect color space</b> | Lets Designer assign a color space automatically if the *suffix* of a bitmap filename *matches exactly*the the lowercase name of a color space included in the current OpenColorIO *configuration*. Example: a bitmap resource *mybitmap\_aces\_acescg.png* would be automatically set to the *ACES - ACEScg* color space, and the appropriate transform will be applied to the working color space. *Default: Checked* |
+| <b>Floating point images</b> | Sets the default color space for floating point precision bitmaps, such as *HDR* images in the *\*.exr* or *\*.hdr* formats. *Default: Set by OpenColorIO configuration file* |
+| <b>Use file name to detect color space</b> | Lets Designer assign a color space automatically if the *suffix* of a bitmap filename *matches exactly*the the lowercase name of a color space included in the current OpenColorIO *configuration*. Example: a bitmap resource *mybitmap\_aces\_acescg.png* would be automatically set to the *ACES - ACEScg* color space, and the appropriate transform will be applied to the working color space. *Default: Checked* |
 
 ### 2D and 3D View Display Default
 
 |  |  |
 | --- | --- |
-| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../interface/2d-view/2d-view.md) and [3D view](../interface/3d-view/3d-view.md) viewports. *Default: Set by OpenColor IO configuration file* |
-| <b>Color manage thumbnails</b> | Lets Designer automatically transform the node *thumbnails* to the *working* color space in the graph. *Default: Checked* |
+| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../interface/2d-view/2d-view.md) and [3D view](../interface/3d-view/3d-view.md) viewports. *Default: Set by OpenColor IO configuration file* |
+| <b>Color manage thumbnails</b> | Lets Designer automatically transform the node *thumbnails* to the *working* color space in the graph. *Default: Checked* |
 
 ## Adobe ACE
 
@@ -82,29 +82,29 @@ You can add *your own* ICC Profiles by placing these files in the `Adobe/Adobe S
 
 |  |  |
 | --- | --- |
-| <b>Working space</b> | This setting lets you select the working color space to *perform color operations* throughout Substance 3D Designer. *Default: sRGB IEC61966-2.1* |
-| <b>Rendering intent</b> | This option lets you control how colors should be transformed when they are *outside the gamut* of the *working*colour space. *Default: Relative Colorimetric* |
+| <b>Working space</b> | This setting lets you select the working color space to *perform color operations* throughout Substance 3D Designer. *Default: sRGB IEC61966-2.1* |
+| <b>Rendering intent</b> | This option lets you control how colors should be transformed when they are *outside the gamut* of the *working*colour space. *Default: Relative Colorimetric* |
 
 ### Bitmap Color Space Defaults
 
 |  |  |
 | --- | --- |
-| <b>8-bit images</b> | Sets the default ICC profile to use for 8-bit bitmaps. *Default: *sRGB IEC61966-2.1** |
-| <b>16-bit images</b> | Sets the default ICC profile to use 16-bit bitmaps. **Default: *sRGB IEC61966-2.1*** |
-| <b>Floating point images</b> | Sets the default ICC profile to use for floating point precision bitmaps, such as *HDR* images in the *\*.exr* or *\*.hdr* formats. *Default: Raw (i.e. no profile applied)* |
+| <b>8-bit images</b> | Sets the default ICC profile to use for 8-bit bitmaps. *Default: *sRGB IEC61966-2.1** |
+| <b>16-bit images</b> | Sets the default ICC profile to use 16-bit bitmaps. **Default: *sRGB IEC61966-2.1*** |
+| <b>Floating point images</b> | Sets the default ICC profile to use for floating point precision bitmaps, such as *HDR* images in the *\*.exr* or *\*.hdr* formats. *Default: Raw (i.e. no profile applied)* |
 | <b>Use embedded ICC profiles when available</b> | Lets Designer use the ICC profile embedded in a bitmap instead of the defaults listed above. *Default: Checked* |
 
 ### 2D and 3D View Display Default Space
 
 |  |  |
 | --- | --- |
-| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../interface/2d-view/2d-view.md) and [3D view](../interface/3d-view/3d-view.md) viewports. *Default: ***ICC Profile for the main screen, retrieved from the OS**** |
+| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../interface/2d-view/2d-view.md) and [3D view](../interface/3d-view/3d-view.md) viewports. *Default: ***ICC Profile for the main screen, retrieved from the OS**** |
 
 ### Graph Display
 
 |  |  |
 | --- | --- |
-| <b>Color manage thumbnails</b> | When *checked*, Designer will transform the *node thumbnails* to the current *working color space*. *Default: ***Unchecked**** |
+| <b>Color manage thumbnails</b> | When *checked*, Designer will transform the *node thumbnails* to the current *working color space*. *Default: ***Unchecked**** |
 
 ## Legacy mode
 

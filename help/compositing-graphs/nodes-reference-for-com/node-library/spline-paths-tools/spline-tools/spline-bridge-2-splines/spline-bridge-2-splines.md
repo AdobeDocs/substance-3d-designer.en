@@ -42,36 +42,36 @@ Generates splines from <b>Spline &#35;1</b> to <b>Spline &#35;2</b> along these 
 <b>Preview &#35;1</b> *Grayscale*The preview of the input splines #1 as a grayscale image.
 
 <b>Spline Coords &#35;1</b> *Color*The coordinates of the input splines’ points #1 encoded in the RGBA channels of a color image.  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+    <b>R</b> - X position  
+    <b>G</b> - Y position  
+    <b>B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
 <b>Spline Data &#35;1</b> *Color*Additional data of the input splines #1 encoded in the RGBA channels of a color image.  
-    <b>R</b> - Tangents X  
-    <b>G</b> - Tangents Y  
-    <b>B</b> - Unused  
-    <b>A</b> - Unused
+    <b>R</b> - Tangents X  
+    <b>G</b> - Tangents Y  
+    <b>B</b> - Unused  
+    <b>A</b> - Unused
 
 <b>Spline Amount &#35;1</b> *Integer*The number of input splines #1.
 
 <b>Preview &#35;2</b> *Grayscale*The preview of the input splines #2 as a grayscale image.
 
 <b>Spline Coords &#35;2</b> *Color*The coordinates of the input splines’ #2 points encoded in the RGBA channels of a color image.  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+    <b>R</b> - X position  
+    <b>G</b> - Y position  
+    <b>B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
 <b>Spline Data &#35;2</b> *Color*Additional data of the input splines #2 encoded in the RGBA channels of a color image.  
-    <b>R</b> - Tangents X  
-    <b>G</b> - Tangents Y  
-    <b>B</b> - Unused  
-    <b>A</b> - Unused
+    <b>R</b> - Tangents X  
+    <b>G</b> - Tangents Y  
+    <b>B</b> - Unused  
+    <b>A</b> - Unused
 
 <b>Spline Amount &#35;2</b> *Integer*The number of input splines #2.
 
@@ -98,18 +98,18 @@ You may use a Curve node to author the curve.
 <b>Preview</b> *Grayscale*The preview of the output splines as a grayscale image.
 
 <b>Spline Coords</b> *Color*The coordinates of the output splines’ points encoded in the RGBA channels of a color image.  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+    <b>R</b> - X position  
+    <b>G</b> - Y position  
+    <b>B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
 <b>Spline Data</b> *Color*Additional data of the output splines encoded in the RGBA channels of a color image.  
-    <b>R</b> - Tangents X  
-    <b>G</b> - Tangents Y  
-    <b>B</b> - Unused  
-    <b>A</b> - Unused
+    <b>R</b> - Tangents X  
+    <b>G</b> - Tangents Y  
+    <b>B</b> - Unused  
+    <b>A</b> - Unused
 
 <b>Spline Amount</b> *Integer*The number of output splines.
 

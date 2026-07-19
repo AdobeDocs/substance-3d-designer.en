@@ -91,7 +91,7 @@ A few things happen when using this action:
 
 >[!NOTE]
 >
-> For formats using *embedded textures* (E.g.: USDZ), the textures need to be extracted and copied on disk. This results in an additional step to select the location that the textures should be extracted to.
+> For formats using *embedded textures* (E.g.: USDZ), the textures need to be extracted and copied on disk. This results in an additional step to select the location that the textures should be extracted to.
 
 ## Extract texture
 

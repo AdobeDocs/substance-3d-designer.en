@@ -53,13 +53,13 @@ Bitmap Resources in a package have a number of attributes that you can customize
 | Identifier | Used for referencing the bitmap resource in a package, must be unique. |
 | File path | The path on disk of the bitmap referenced by the resource. |
 | Description | The description displayed in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) and [Library](../../interface/the-library/the-library.md) tooltips for this resource. |
-| Category | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
-| Label | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
-| Author | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
-| Author URL | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
-| Tags | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
+| Category | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
+| Label | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
+| Author | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
+| Author URL | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
+| Tags | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
 | User data | Optional extra data, not used on bitmaps. |
-| Show in Library | Determines if bitmap should be hidden in [the Library view.](../../interface/the-library/the-library.md) |
+| Show in Library | Determines if bitmap should be hidden in [the Library view.](../../interface/the-library/the-library.md) |
 | Bitmap format | Either Raw or Jpeg, has great effect on SBSAR filesize. See our [filesize reduction guidelines](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) to learn more. |
 | Bitmap compression quality | Only has an affect with Jpeg compression, determines quality/filesize balance. |
 

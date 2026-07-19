@@ -79,7 +79,7 @@ Version 15.1 and higher
 
 The new 3D renderers were upgraded in version 15.1 and require recent GPU drivers. Please update your system's GPU drivers to the latest version.
 
-You may find drivers here:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)   [AMD](https://www.amd.com/en/support)   [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+You may find drivers here:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  |  [AMD](https://www.amd.com/en/support)  |  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 Version 15.0 and higher
 
@@ -212,9 +212,9 @@ When using the new renderers (Rasterizer and GPU Pathtracer), the 'Tessellation 
 
 The shading of objects relies on their normal, tangent and binormal vectors. Their coordinates use the &#91;-1, 1&#93; range, whereas normal maps use the &#91;0, 1&#93; range in most cases. To adapt values from one to the other, a <b>bias and scale</b> need to be applied: value\*scale+bias.
 
-For instance, a scale of 2 and a bias of -1 adapts the x value from &#91;0, 1&#93; to &#91;-1, 1&#93; thusly: x\*2-1.
+For instance, a scale of 2 and a bias of -1 adapts the x value from &#91;0, 1&#93; to &#91;-1, 1&#93; thusly: x\*2-1.
 
-Designer does not apply a normal scale and bias unless they are specified by a 3D mesh. If that information is missing, a warning is raised in the Console when [overriding any of its materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
+Designer does not apply a normal scale and bias unless they are specified by a 3D mesh. If that information is missing, a warning is raised in the Console when [overriding any of its materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
@@ -237,7 +237,7 @@ Designer crashes at the time of starting the 3D View, when creating a project, l
 
 First, make sure your system meets Designer's [system requirements](../../getting-started/system-requirements/system-requirements.md).
 
-Then, update your graphics drivers. You can find the latest drivers for your GPU by following these links:  [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  |  [AMD](https://www.amd.com/en/support)  |  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+Then, update your graphics drivers. You can find the latest drivers for your GPU by following these links:   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  |  [AMD](https://www.amd.com/en/support)  |  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 If your system includes both an integrated GPU (iGPU) and discrete GPU (dGPU), make sure to *update the drivers for both*!
 

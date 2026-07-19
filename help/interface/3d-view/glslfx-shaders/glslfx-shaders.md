@@ -43,7 +43,7 @@ The XML root node element is named <b>glslfx</b>.
 
 #### Technique
 
-XML Element that describes a technique. A technique is a variation of the current FX. A GLSLFX can contain multiple techniques but at least one technique has to be defined.
+XML Element that describes a technique. A technique is a variation of the current FX. A GLSLFX can contain multiple techniques but at least one technique has to be defined.
 
 The geometry will be rendered with one of the techniques defined by the application.
 
@@ -127,13 +127,13 @@ Allow to set up some part of the OpenGL state.
 
 <b>Attributes:</b>
 
-* name: The name of the property to set. The name is based on the OpenGL function or glEnum name:  
-  * Enums syntax: Without the 'GL\_' prefix, in lower case. Examples: glEnable(GL\_BLEND\_ENABLE) =&gt; """, glDisable(GL\_CULL\_FACE) =&gt; """
-  * Functions syntax: without the 'gl' prefix, in lower case and with all words separated with '\_' character. Example: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) =&gt; ""
+* name: The name of the property to set. The name is based on the OpenGL function or glEnum name:  
+  * Enums syntax: Without the 'GL\_' prefix, in lower case. Examples: glEnable(GL\_BLEND\_ENABLE) =&gt; """, glDisable(GL\_CULL\_FACE) =&gt; """
+  * Functions syntax: without the 'gl' prefix, in lower case and with all words separated with '\_' character. Example: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) =&gt; ""
 
-* Enums syntax: Without the 'GL\_' prefix, in lower case. Examples: glEnable(GL\_BLEND\_ENABLE) =&gt; """, glDisable(GL\_CULL\_FACE) =&gt; """
+* Enums syntax: Without the 'GL\_' prefix, in lower case. Examples: glEnable(GL\_BLEND\_ENABLE) =&gt; """, glDisable(GL\_CULL\_FACE) =&gt; """
 
-* Functions syntax: without the 'gl' prefix, in lower case and with all words separated with '\_' character. Example: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) =&gt; ""
+* Functions syntax: without the 'gl' prefix, in lower case and with all words separated with '\_' character. Example: glBlendFunc(GL\_SRC\_ALPHA, GL\_ONE\_MINUS\_SRC\_ALPHA) =&gt; ""
 
 * value: The value of the property.
 

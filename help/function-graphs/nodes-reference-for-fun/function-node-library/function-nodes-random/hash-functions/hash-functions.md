@@ -20,7 +20,7 @@ user-guide-title: ""
 
 ![Hash node: icon](../../../../../assets/hash-icon.png "Hash node: icon"){width="200px"}
 
-<b>In:</b> Functions &gt; Random
+<b>In:</b> Functions &gt; Random
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -43,22 +43,22 @@ Available versions, with their input type and output type:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>Hash 11:</b> Float → Float
+<b>Hash 11:</b> Float → Float
 
-<b>Hash 14:</b> Float → Float4
+<b>Hash 14:</b> Float → Float4
 
-<b>Hash 21:</b> Float2 → Float
+<b>Hash 21:</b> Float2 → Float
 
-<b>Hash 22:</b> Float2 → Float2
+<b>Hash 22:</b> Float2 → Float2
 
 </td>
 <td style="border: 0;" valign="top">
 
-<b>Hash 24:</b> Float2 → Float4
+<b>Hash 24:</b> Float2 → Float4
 
-<b>Hash31:</b> Float3 → Float
+<b>Hash31:</b> Float3 → Float
 
-<b>Hash 32:</b> Float3 → Float2
+<b>Hash 32:</b> Float3 → Float2
 
 </td>
 </tr>

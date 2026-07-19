@@ -24,7 +24,7 @@ user-guide-title: ""
 
 ![White noise - Icon](../../../../../../assets/white_noise_v2.png "White noise - Icon"){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -61,15 +61,15 @@ Generates a white noise using one of three methods targeting different histogram
 
 |  |  |
 | --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
 
 ## Parameters
 
 |  |  |
 | --- | --- |
-| <b>Noise distribution</b>  Integer | The method of distributing the ingredients to target a histogram shape:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Uniform:</i> A flat histogram.</li> <li data-preserve-html="true"><i>Gaussian:</i> A histogram representing a normal distribution, akin to a bell curve.</li> <li data-preserve-html="true"><i>Triangle:</i> A triangular histogram.</li> </ul> |
+| <b>Noise distribution</b>  Integer | The method of distributing the ingredients to target a histogram shape:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Uniform:</i> A flat histogram.</li> <li data-preserve-html="true"><i>Gaussian:</i> A histogram representing a normal distribution, akin to a bell curve.</li> <li data-preserve-html="true"><i>Triangle:</i> A triangular histogram.</li> </ul> |
 | <b>Disorder</b>  Float | Displaces the ingredients of the noise.    This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
+| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
 
 ## Examples
 

@@ -27,7 +27,7 @@ Loads a [bitmap resource](../../../../resources/bitmap-resource/bitmap-resource.
 
 This node is used to either import a [bitmap](../../../../glossary/glossary.md) into your graph or to create a new bitmap for use with the [bitmap painting tools](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-There are a few ways to create this node, and all of them require you to understand[ the difference between linking and importing resources.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+There are a few ways to create this node, and all of them require you to understand[ the difference between linking and importing resources.](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 </tr>
@@ -57,13 +57,13 @@ You can either create the node from scratch, or by dropping a [bitmap](../../../
 
 >[!TIP]
 >
-> Generated or imported 8-bit bitmaps can be painted using the [bitmap painting tools](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) in the [2D view](../../../../interface/2d-view/2d-view.md) dock.
+> Generated or imported 8-bit bitmaps can be painted using the [bitmap painting tools](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) in the [2D view](../../../../interface/2d-view/2d-view.md) dock.
 
 >[!IMPORTANT]
 >
 > This node is dependent on an external resource, hence there are a few points to keep in mind when working with them:
 > 
-> * Bitmap nodes can return either color or grayscale, but defaults to color even if the resource is a grayscale bitmap. This can affect graph performance and complexity, so always make sure to switch to the 'Grayscale' [color mode](#parameters) if needed.
+> * Bitmap nodes can return either color or grayscale, but defaults to color even if the resource is a grayscale bitmap. This can affect graph performance and complexity, so always make sure to switch to the 'Grayscale' [color mode](#parameters) if needed.
 > * Deleting a bitmap node does not delete the [Bitmap resource](../../../../resources/bitmap-resource/bitmap-resource.md) in your [package](../../../../glossary/glossary.md), you have to manually do that in the [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md).
 > * On the other hand, be careful when deleting a [Bitmap resource](../../../../resources/bitmap-resource/bitmap-resource.md) in the Explorer: it will still work in the graph for that session as it is kept in cache, but the resource will be marked as missing the next time you load the [package](../../../../glossary/glossary.md).
 > * When a Substance graph is [cooked](../../../../glossary/glossary.md), the bitmap resolution will be fixed at its resolution inside the graph and not based on its original size. It is recommended to make sure the 'Output size' [base parameter](../../../../glossary/glossary.md) of a Bitmap node uses the 'Absolute' [inheritance method](../../../../glossary/glossary.md), and the node is followed by a [Transform 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node set to 'Relative to parent' (I.e., the host graph's resolution).
@@ -98,8 +98,8 @@ You can either create the node from scratch, or by dropping a [bitmap](../../../
 |  |  |
 | --- | --- |
 | <b>Color mode</b> *Boolean* | Determines the output type of the node, to either return in color or grayscale. |
-| <b>PKG resource path</b> *String* | Path to the [Bitmap resource](../../../../resources/bitmap-resource/bitmap-resource.md) being referenced by the node.   It is recommended not to type manually but either copy a resource from the explorer and paste it in the parameter text field, or drag-and-drop a bitmap resource directly from the [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) onto the Bitmap node in the graph.. |
-| <b>Resize method</b> *Integer* | The resampling method to use when up or downscaling a bitmap:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Smooth stretch:</i> Apply [bilinear filtering](../../../../glossary/glossary.md) to interpolate over the source pixels of the stretched image.</li> <li data-preserve-html="true"><i>Nearest stretch:</i> Stretch the image and use the color of the nearest source pixel as is.</li> </ul> |
+| <b>PKG resource path</b> *String* | Path to the [Bitmap resource](../../../../resources/bitmap-resource/bitmap-resource.md) being referenced by the node.   It is recommended not to type manually but either copy a resource from the explorer and paste it in the parameter text field, or drag-and-drop a bitmap resource directly from the [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) onto the Bitmap node in the graph.. |
+| <b>Resize method</b> *Integer* | The resampling method to use when up or downscaling a bitmap:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Smooth stretch:</i> Apply [bilinear filtering](../../../../glossary/glossary.md) to interpolate over the source pixels of the stretched image.</li> <li data-preserve-html="true"><i>Nearest stretch:</i> Stretch the image and use the color of the nearest source pixel as is.</li> </ul> |
 
 ## Bitmap painting tools
 

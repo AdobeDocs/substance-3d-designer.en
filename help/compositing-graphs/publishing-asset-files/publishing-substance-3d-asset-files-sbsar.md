@@ -120,7 +120,7 @@ Some graphs in your package might not be intended for usage outside. These sub-g
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-To exclude a graph from becoming visible or usable inside an Substance 3D asset file, access that graph's properties (double click empty area in graph View or single-click the graph in the Explorer), then open the <b>Attributes</b> rollout. Set <b>Exposed in SBSAR</b> to <b>No</b> to hide it when published.
+To exclude a graph from becoming visible or usable inside an Substance 3D asset file, access that graph's properties (double click empty area in graph View or single-click the graph in the Explorer), then open the <b>Attributes</b> rollout. Set <b>Exposed in SBSAR</b> to <b>No</b> to hide it when published.
 
 </td>
 <td style="border: 0;" valign="top">
