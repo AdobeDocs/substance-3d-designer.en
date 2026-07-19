@@ -39,26 +39,6 @@ See also: [Clouds 1](../../../../../../compositing-graphs/nodes-reference-for-co
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Outputs
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
-
 ## Outputs
 
 |  |  |
