@@ -52,7 +52,7 @@ Note that while the graph instance and subgraph concepts also apply to Substance
 
 ### Can I add my own graph instances to the node library?
 
-<b>Yes, this is possible </b>but it requires some specific set-up. Learn more in the [Managing custom content and filters](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) page of this documentation.
+<b>Yes, this is possible </b>but it requires some specific set-up. Learn more in the [Managing custom content and filters](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) page of this documentation.
 
 ### Can you inspect the source graph of a graph instance?
 

@@ -45,7 +45,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>New:</b> opens a sub menu to create a graph or package:
 
-* <b>New Substance graph...:</b>(Ctrl+N) Presents you the [New Substance graph](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) window which lets you set up a new [Substance graph](../../compositing-graphs/substance-compositing-graphs.md);
+* <b>New Substance graph...:</b>(Ctrl+N) Presents you the [New graph](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) window which lets you set up a new [Substance graph](../../compositing-graphs/substance-compositing-graphs.md);
 * <b>New Substance function graph:</b> Creates a new package with a [Substance function graph](../../function-graphs/function-graphs.md);
 * <b>Empty:</b> Creates an empty package.
 
@@ -104,11 +104,11 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>Unmaximize window:</b> When any panel is *maximized*, this option unmaximizes it and restores the layout as it was *before* the window was maximized
 
-<b>Explorer:</b> Show/Hide the [Explorer Window(s).](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>Explorer:</b> Show/Hide the [Explorer](../the-explorer-window/the-explorer-window.md).
 
 <b>Graph:</b> Show/Hide the [graph Window](../../interface/the-graph-view/the-graph-view.md)(s).
 
-<b>Parameters:</b> Show/Hide the [Properties Window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html).
+<b>Parameters:</b> Show/Hide the [Properties](../properties/properties.md).
 
 <b>Console:</b> Show/Hide the Console Window.
 
@@ -116,7 +116,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>Dependency Manager:</b> Show/Hide the [Dependency Manager](../../interface/dependency-manager/dependency-manager.md).
 
-<b>2D Views:</b> Show/Hide the [2D View(s).](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>2D Views:</b> Show/Hide the [2D View](../2d-view/2d-view.md).
 
 <b>Library:</b> Show/Hide the [Library Window.](../../interface/the-library/the-library.md)
 
@@ -147,9 +147,9 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 <b>Give feedback...:</b> Opens your web browser on Adobe's [Support Community](https://www.adobe.com/go/Substance-3D-feedback-Designer) home page.
 
-<b>Substance 3D assets:</b> Browse [premium 3D content](https://helpx.adobe.com/substance-3d/unlisted/assets.html) for subscribers (formerly Substance Source).
+<b>Substance 3D assets:</b> Browse [premium 3D content](https://substance3d.adobe.com/assets) for subscribers (formerly Substance Source).
 
-<b>Substance 3D community assets:</b> Lets you browse [free community assets](https://helpx.adobe.com/substance-3d/unlisted/community-assets.html) (formerly Substance Share).
+<b>Substance 3D community assets:</b> Lets you browse [free community assets](https://substance3d.adobe.com/community-assets/) (formerly Substance Share).
 
 <b>Manage my account\*:</b> Opens the webpage for your Adobe account.
 

@@ -16,7 +16,7 @@ user-guide-title: ""
 
 This page lists warnings and errors messages which may be triggered by [function graphs](../../function-graphs/function-graphs.md) in Substance 3D Designer, and offers common troubleshooting steps for each.
 
-Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, as well as in the bottom left corner of the [Graph view](../../interface/the-graph-view/the-graph-view.md) if the graph is loaded.  
+Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel, as well as in the bottom left corner of the [Graph view](../../interface/the-graph-view/the-graph-view.md) if the graph is loaded.  
 If the function is *applied to a parameter* in a [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), any warning will result in the warning "*The &#91;x&#93; parameter's function has some errors*" being raised for that parameter.
 
 ## ![(error)](../../assets/error.svg) No output node defined

@@ -16,7 +16,6 @@
 
 * Broken links in [Overview](help/getting-started/overview/overview.md)
 * Broken links and formatting in [Output node](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* HelpX links
 * Remove in-page ToC (E.g. new noises)
 * Fix node page layouts (E.g. new noises)
 * Fix link for 1st example image in node pages (E.g. new noises)

@@ -337,7 +337,7 @@ The <b>Bitmap painting tools</b> are available for [Bitmap resources](../../reso
 
 >[!TIP]
 >
-> You can learn more in the [Bitmap painting editor](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) page of the documentation.
+> You can learn more in the [Bitmap painting tools](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) page of the documentation.
 
 <table>
 <tr style="border: 0;">
@@ -362,7 +362,7 @@ The <b>Vector graphics editor</b> is available for *imported* [SVG resources](..
 
 >[!TIP]
 >
-> You can learn more in the [Vector Graphic Editor (deprecated)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) page of the documentation.
+> You can learn more in the [Vector editing tools](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (deprecated) page of the documentation.
 
 ![2D View color management](../../assets/2d-view-color-management-ocio.png "2D View color management"){width="360px"}
 

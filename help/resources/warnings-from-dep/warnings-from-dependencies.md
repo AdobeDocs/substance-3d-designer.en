@@ -30,16 +30,16 @@ There are two main ways of correcting this issue:
 
    Check the dependency package exists at the location specified in the warning message. If it does not, find the file and put it back at that location, or recreate it in place. If the file exists, *try to load it* in Designer and look out for any warnings or errors related to that package. Refer to troubleshooting steps for those specific issues an fix them accordingly.
 
-   Then, reload the host package by clicking RMB on it in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel and selecting the <b>Reload</b> option in the contextual menu.
+   Then, reload the host package by clicking RMB on it in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and selecting the <b>Reload</b> option in the contextual menu.
 
    !['Invalid dependent package' solution 1](../../assets/warnings-dep-invalid-dependent-pkg.gif "'Invalid dependent package' solution 1")
 1. <b>Relocate the dependency in the package</b>
 
-   You can relocate the dependency using the [Dependency manager](../../interface/dependency-manager/dependency-manager.md) . C lick RMB on the host package in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel and select the <b>Dependency Manager</b> option in the contextual menu.
+   You can relocate the dependency using the [Dependency manager](../../interface/dependency-manager/dependency-manager.md) . Click RMB on the host package in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and select the <b>Dependency Manager</b> option in the contextual menu.
 
    Find the missing dependency in the Dependendy Manager's list, click RMB on it and select the <b>Relocate...</b> option. Find the dependency package using the file browser dialog and click <b>Open</b>.
 
-   Then, reload the host package by clicking RMB on it in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel and selecting the <b>Reload</b> option in the contextual menu.
+   Then, reload the host package by clicking RMB on it in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and selecting the <b>Reload</b> option in the contextual menu.
 
    !['Invalid dependent package' solution 2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif "'Invalid dependent package' solution 2")
 
@@ -70,7 +70,7 @@ There are two main ways of correcting this issue:
    !['No file that match resource' solution 1](../../assets/warnings-dep-udim-2.gif "'No file that match resource' solution 1")
 1. <b>Relocate the files</b>
 
-   If the files were moved or renamed, relocate them by clicking RMB on the resource item in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel and select the <b>Relocate</b> option to link that resource to the *first file in a set* of UDIM images of the same type.
+   If the files were moved or renamed, relocate them by clicking RMB on the resource item in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and select the <b>Relocate</b> option to link that resource to the *first file in a set* of UDIM images of the same type.
 
    !['No file that match resource' solution 2](../../assets/warnings-dep-udim.gif "'No file that match resource' solution 2")
 
@@ -89,7 +89,7 @@ There are two main ways of correcting this issue:
    !['Linked file not found' solution 1](../../assets/warnings-dep-file-not-found.gif "'Linked file not found' solution 1")
 1. <b>Relocate the file</b>
 
-   If the file was moved or renamed, relocate it by clicking RMB on the resource item in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel and select the <b>Relocate</b> option to link that resource to another file of the same type.
+   If the file was moved or renamed, relocate it by clicking RMB on the resource item in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and select the <b>Relocate</b> option to link that resource to another file of the same type.
 
    !['Linked file not found' solution 2](../../assets/warnings-dep-file-not-found-2.gif "'Linked file not found' solution 2")
 
@@ -111,7 +111,7 @@ Alternatively, add that color space to the current [color management](../../colo
 
 ## ![(error)](../../assets/error.svg) Reference resource not found
 
-The graph assigned to the UV tile of a [3D mesh resource](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) cannot be found at the location reported in the warning.
+The graph assigned to the UV tile of a [3D scene resource](../3d-scene-resource/3d-scene-resource.md) cannot be found at the location reported in the warning.
 
 <b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 
@@ -119,7 +119,7 @@ There are two main ways of correcting this issue:
 
 1. <b>Restore the graph</b>
 
-   Check the contents of the package in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel for the graph specified in the <b>UV Tiles</b> list. If it does not exist, restore or recreate it.
+   Check the contents of the package in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel for the graph specified in the <b>UV Tiles</b> list. If it does not exist, restore or recreate it.
 
    !['Reference resource not found' solution 1](../../assets/warnings-dep-udim-graph-2.gif "'Reference resource not found' solution 1")
 1. <b>Select another graph</b>
@@ -130,7 +130,7 @@ There are two main ways of correcting this issue:
 
 ## ![(error)](../../assets/error.svg) UV tiles are assigned multiple times
 
-A UV tile for a [3D mesh resource](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) is assigned more than once to a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
+A UV tile for a [3D scene resource](../3d-scene-resource/3d-scene-resource.md) is assigned more than once to a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
 
 <b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 
@@ -140,7 +140,7 @@ For each UV set of a 3D mesh resource, make sure no UDIM index is present *more 
 
 ## ![(error)](../../assets/error.svg) Invalid UV tiles
 
-A UV tile listed for a [3D mesh resource](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html) is not defined in the mesh or corrupted.
+A UV tile listed for a  [3D scene resource](../3d-scene-resource/3d-scene-resource.md) is not defined in the mesh or corrupted.
 
 <b>!&#91;(tick)&#93;(../../assets/check.svg) Solution</b>
 

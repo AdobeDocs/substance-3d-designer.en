@@ -381,7 +381,7 @@ Choose between Standard (1), Material (2) and Compact Material (3) link creation
 </b>*- Clean:* Removes all nodes which are part of a stream not connected to an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.  
 *- Export outputs:* Opens the [Bitmap Export interface](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).  
 *- Reexport outputs:* Performs the previous export operation again.  
-*- PSD Exporter:* Opens[the PSD Exporter interface.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- PSD Exporter:* Opens the [PSD Exporter](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md) interface.
 
 ![](../../assets/image2020-6-26-16-37-16.png)&nbsp;&nbsp;<b>Node image cache  
 </b>Toggles display of the node image cache toggle, see below.

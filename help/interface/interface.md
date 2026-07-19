@@ -93,7 +93,7 @@ The main toolbar lets you access extra menu's, like the[ Preferences window](../
 
 ## Properties
 
-[The Properties dock](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) is the most technical window. It is always context-sensitive and will present sliders, dropdowns and other elements that change the behavior of a selected resource or Node.
+The [Properties dock](properties/properties.md) is the most technical window. It is always context-sensitive and will present sliders, dropdowns and other elements that change the behavior of a selected resource or Node.
 
 ![Properties](../assets/properties-15.jpg "Properties")
 

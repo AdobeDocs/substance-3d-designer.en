@@ -22,7 +22,7 @@ This page presents the ways of arranging the panels in [Adobe Substance 3D Desig
 
 ## Windows menu
 
-This menu lets you manage the main user interface elements of Designer. Each option is described in the <b>Windows</b> section of [this page](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) about the main toolbar. Here, we will provide additional concepts related to this menu.
+This menu lets you manage the main user interface elements of Designer. Each option is described in the <b>Windows</b> section of [this page](../the-main-toolbar/the-main-toolbar.md) about the main toolbar. Here, we will provide additional concepts related to this menu.
 
 ### Display/Hide a view
 

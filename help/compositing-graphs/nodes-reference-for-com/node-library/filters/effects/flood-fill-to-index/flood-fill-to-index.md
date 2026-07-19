@@ -33,7 +33,7 @@ user-guide-title: ""
 
 Flood Fill to Index converts every Flood Fill cell to a value according to its index number, starting with 0 in the top left corner. It can be used to return grayscale tints in a normalised form (0.0 to 1.0, divided by as many cells as found by Flood Fill) or as an HDR, unclamped value (0 to n where n is the number of cells).
 
-Additionally, Flood Fill to Index makes use of the new [Value system, returning extra Values](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html) containing the amount of shapes found and the optional, internal data table.
+Additionally, Flood Fill to Index makes use of [values](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md), returning the amount of shapes found and the optional, internal data table.
 
 ### Inputs
 

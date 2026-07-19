@@ -34,7 +34,7 @@ Unlike SVG (Vector Graphics) Resources, Bitmaps are always stored externally, ev
 
 ### In Substance 3D assets (SBSAR)
 
-In [SBSAR files](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), Bitmaps are embedded, meaning they have a large impact on the final SBSAR filesize. You can read more about the impact on filesize further on this page. When [SBSAR files are published,](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) only bitmaps that are used to compute an output of a graph are embedded. Any unused bitmaps are optimized and excluded from the final SBSAR package, with no effect on the filesize.
+In [SBSAR files](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md), Bitmaps are embedded, meaning they have a large impact on the final SBSAR filesize. You can read more about the impact on filesize further on this page. When SBSAR files are published, only bitmaps that are used to compute an output of a graph are embedded. Any unused bitmaps are optimized and excluded from the final SBSAR package, with no effect on the filesize.
 
 ## File type, color mode and resolution
 
@@ -65,4 +65,4 @@ Bitmap Resources in a package have a number of attributes that you can customize
 
 ## Filesize reduction
 
-See the [Filesize reduction guidelines](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) page in the [Best practices](../../best-practices/best-practices.md) section for our recommendations regarding minizing the filesize of bitmaps embedded into [published Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+See the [Filesize reduction guidelines](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) page in the [Best practices](../../best-practices/best-practices.md) section for our recommendations regarding minizing the filesize of bitmaps embedded into [published Substance 3D assets (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
