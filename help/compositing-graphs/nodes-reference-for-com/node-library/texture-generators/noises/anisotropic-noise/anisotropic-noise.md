@@ -39,26 +39,6 @@ The amount of strips is adjustable, as is the smoothness of their transitions.
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Outputs
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
-
 ## Outputs
 
 |  |  |
