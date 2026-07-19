@@ -149,9 +149,9 @@ The following resource types exist:
 
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md)
 * [Vector graphics (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D mesh and scene](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Font](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [3D scenes](../../resources/3d-scene-resource/3d-scene-resource.md)
+* [Fonts](../../resources/font-resource/font-resource.md)
+* [AxF files](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

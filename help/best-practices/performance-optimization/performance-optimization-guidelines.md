@@ -135,7 +135,7 @@ This way, the bitmap size will change based on the parent graph and you won't ge
 
 >[!WARNING]
 >
-> Setting a [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node to "Relative to parent" and [publishing](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) the graph to a Substance 3D asset (SBSAR) will save the bitmap at a resolution of **256x256** instead of its original size. It is advised instead to keep the [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) of Bitmap nodes' [Output Size](../../compositing-graphs/output-size/output-size.md) as 'Absolute' and use a [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node set to 'Relative to parent' just after the Bitmap node.
+> Setting a [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node to "Relative to parent" and [publishing](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) the graph to a Substance 3D asset (SBSAR) will save the bitmap at a resolution of **256x256** instead of its original size. It is advised instead to keep the [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) of Bitmap nodes' [Output Size](../../compositing-graphs/output-size/output-size.md) as 'Absolute' and use a [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node set to 'Relative to parent' just after the Bitmap node.
 
 ![Embedded bitmaps optimisation 1](../../assets/input-1.jpg "Embedded bitmaps optimisation 1")
 
@@ -145,7 +145,7 @@ This way, the bitmap size will change based on the parent graph and you won't ge
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Also, it is advised to set the format of Bitmap resources to Jpeg for minimising the size of [published](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) Substance 3D assets (SBSAR).
+Also, it is advised to set the format of Bitmap resources to Jpeg for minimising the size of published Substance 3D assets (SBSAR).
 
 </td>
 <td style="border: 0;" valign="top">

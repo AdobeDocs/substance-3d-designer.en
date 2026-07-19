@@ -60,7 +60,7 @@ Currently there are two main methods to expose parameters. One method is more su
 
 ### SINGLE EXPOSE METHOD
 
-1. Find the parameter you want to expose in the [Properties Window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), under the Specific Parameters tab
+1. Find the parameter you want to expose in the [Properties](../../../interface/properties/properties.md) panel, under the Specific Parameters tab
 1. Click the ![](../../../assets/image2020-9-17-15-35-59.png) dropdown options button
 1. Choose ![](../../../assets/image2020-9-17-15-37-7.png) <b>Expose as new graph input</b> from the drop down list, the first option.
 1. The <b>Expose parameter</b> dialog appears, set any parameter properties as you wish.
@@ -73,7 +73,7 @@ Currently there are two main methods to expose parameters. One method is more su
 >[!NOTE]
 >
 > Most numerical fields support *basic math formulas* as an input – E.g., `17+3.5`, `7/3`, `(4+2)*3`. Press *Enter* to validate the formula and the result will be input in the field. If the formula is invalid, the field reverts to its previous value.  
-> Some numerical fields in other parts of the application, such as in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) dock, also support this feature.
+> Some numerical fields in other parts of the application, such as in the [Properties](../../../interface/properties/properties.md) dock, also support this feature.
 
 ![Batch expose method walkthrough](../../../assets/batch-expose-2.gif "Batch expose method walkthrough"){width="512px"}
 
@@ -98,7 +98,7 @@ There are some limitations tied to exposing parameters, as listed in the table b
 | --- | --- |
 | [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Levels Histogram](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Require widgets which are not available for user-created parameters. |
 
-Another significant limitation is related to [static parameters](../../../glossary/glossary.md). These cannot be changed in a [published Substance 3D asset](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+Another significant limitation is related to [static parameters](../../../glossary/glossary.md). These cannot be changed in a [published Substance 3D asset (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 Static parameters – as opposed to dynamic parameters – *cannot be edited on-the-fly* after the graph has been *cooked* – i.e., processed in order to run its algorithm quickly and efficiently. Cooking occurs in Designer every time the graph is *edited* or *published*.
 
@@ -179,7 +179,7 @@ Normally, any changes made in <b>Preview Mode</b> are *discarded*. You can howev
 
 >[!WARNING]
 >
-> Preview mode aims to represent the experience of a [published Substance 3D asset](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) as accurately as possible. Therefore, the Limitations listed in this page will apply in this mode, such as *static parameters being absent from the list*.
+> Preview mode aims to represent the experience of a [published Substance 3D asset (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) as accurately as possible. Therefore, the Limitations listed in this page will apply in this mode, such as *static parameters being absent from the list*.
 
 ![Copying and pasting inputs parameters](../../../assets/copy-paste-params-2.gif "Copying and pasting inputs parameters"){width="512px"}
 

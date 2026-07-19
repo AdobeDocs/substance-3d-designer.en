@@ -87,7 +87,7 @@ This should let you appreciate how changes in *one* node may impact the resoluti
 
 ### Changing inheritance methods
 
-In the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel, all parameters listed in the [Base parameters](../../compositing-graphs/graph-parameters/graph-parameters.md) section of a node’s properties have a (icon) <b>Set inheritance method</b> dropdown button opposite to their label.  
+In the Properties panel, all parameters listed in the [Base parameters](../../compositing-graphs/graph-parameters/graph-parameters.md) section of a node’s properties have a (icon) <b>Set inheritance method</b> dropdown button opposite to their label.  
 This button lets you select the inheritance method which should be used to for a parameter.
 
 ![Changing inheritance method](../../assets/inheritance-change.gif "Changing inheritance method"){width="512px"}

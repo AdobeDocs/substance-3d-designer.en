@@ -42,8 +42,8 @@ You can do a few important actions through the Explorer dock:
 * Save and close loaded packages
 * [Import and link resources](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * [Export graph results to textures](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
-* [Publish a package to a Substance 3D asset (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
-* [Send packages to other Substance 3D applications](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
+* [Publish a package to a Substance 3D asset (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
+* [Send packages to other Substance 3D applications](send-to-interoperability/send-to-interoperability.md)
 * [Bake maps from a mesh](../../bakers/bakers.md)
 
 ## Top toolbar
@@ -110,11 +110,11 @@ Empty space is only available below any currently open Packages. Clicking next t
 
 <b>Reload</b>, <b>Save, Save as</b> and<b> Save a copy as</b> let you save to disk or recall from disk a previously saved version of the package.
 
-<b>Publish .sbsar file</b> and<b> Republish .sbsar file</b> let you [Publish your uncompiled, unoptimized Substance  graph, into an efficient and portable SBSAR file for us in other Substance applications and Integrations](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Publish as Previous repeats the previous Publish action with the same options, skipping the options dialog for faster iteration. The toolbar contains buttons with the same functionality.
+<b>Publish .sbsar file</b> and<b> Republish .sbsar file</b> let you [publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) your uncompiled, unoptimized Substance graph, into an efficient and portable SBSAR file for us in other Substance applications and Integrations. Publish as Previous repeats the previous Publish action with the same options, skipping the options dialog for faster iteration. The toolbar contains buttons with the same functionality.
 
 <b>Export with dependencies</b> is different from saving and publishing. It takes your SBS files, collects all referenced resources and dependencies and creates a self-contained package. The dialog lets you choose what libraries to gather, and if the file should be a compressed archive (7-zip). This is a good choice for sharing an SBS file with someone else, without worrying about missing dependencies.
 
-<b>Send to...</b> opens a sub-menu letting you directly [send your package](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) to [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) or [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Send to...</b> opens a sub-menu letting you directly [send](send-to-interoperability/send-to-interoperability.md) your package to [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) or [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copy</b> copies the selected package.
 

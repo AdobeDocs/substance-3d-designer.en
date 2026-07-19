@@ -29,15 +29,15 @@ We recommend reviewing all of these settings to get a better insight on how the 
 
 ### Recent Documents
 
-|  |  |
-| --- | --- |
-| <b>Recent documents list contains</b>  *Default: 10* | This allows you to select the number of documents to list in the <b>Recent Packages</b> entry of the <b>File</b> item in the [Main Menu](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). |
+|  |                                                                                                                                         |
+| --- |-----------------------------------------------------------------------------------------------------------------------------------------|
+| <b>Recent documents list contains</b>  *Default: 10* | This allows you to select the number of documents to list in the <b>Recent Packages</b> entry of the <b>File</b> item in the [main menu](../the-main-toolbar/the-main-toolbar.md). |
 
 ### History
 
 |  |  |
 | --- | --- |
-| **History stack size** *Default: 200* | This indicates the number of available undo operations at any given time in the <b>Edit &gt; Undo</b> item of the [Main Menu](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html).  **Caution:** The more undo operations you need, the more memory the application will require. |
+| **History stack size** *Default: 200* | This indicates the number of available undo operations at any given time in the <b>Edit &gt; Undo</b> item of the [main menu](../the-main-toolbar/the-main-toolbar.md).  **Caution:** The more undo operations you need, the more memory the application will require. |
 
 ### Language
 
@@ -105,13 +105,13 @@ Please also note auto-saves should be opened *after moving them* to the original
 
 |  |  |
 | --- | --- |
-| <b>Always save .sbs file when publishing to .sbsar or sending to another application</b>  *Default: True* | Controls the automatic saving of the SBS package when [publishing it](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) or [sending  it to another application](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html). |
+| <b>Always save .sbs file when publishing to .sbsar or sending to another application</b>  *Default: True* | Controls the automatic saving of the SBS package when [publishing it](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) or sending  it to another application. |
 
 ### Cooker
 
-|  |  |
-| --- | --- |
-| <b>Cooking size limit</b>  *Default: 8192 pixels* | Defines the maximum pixel resolution permitted for all [nodes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) in any [graph](../../compositing-graphs/substance-compositing-graphs.md). As graph outputs are always square images of powers-of-2 resolutions, the value set here defines both the maximum width and height, in pixels. |
+|  |                                                                                                                                                                                                                                                                                                 |
+| --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>Cooking size limit</b>  *Default: 8192 pixels* | Defines the maximum pixel resolution permitted for all nodes in any Substance [graph](../../compositing-graphs/substance-compositing-graphs.md). As graph outputs are always square images of powers-of-2 resolutions, the value set here defines both the maximum width and height, in pixels. |
 
 ### Engine
 

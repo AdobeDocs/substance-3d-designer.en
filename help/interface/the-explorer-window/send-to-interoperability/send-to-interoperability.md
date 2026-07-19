@@ -21,7 +21,7 @@ Adobe Substance 3D Designer has interoperability with [Substance 3D Sampler](htt
 The workflow is usually the following:
 
 1. Set the <b>Type</b> attribute in a [Substance graph's properties](../../../compositing-graphs/graph-parameters/graph-parameters.md)
-1. In the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, select the package you wish to send
+1. In the [Explorer](../the-explorer-window.md) panel, select the package you wish to send
 1. In the Explorer's <b>Publish/Send</b> drop-down, select the target application
 1. Make changes to graph(s)
 1. Repeat step 3 to resend the package and update the existing sent asset with your changes
@@ -70,7 +70,7 @@ The sending process involved [publishing](../../../compositing-graphs/publishing
 Sending content may performed in the following ways:
 
 * Right-click on a package and open the <b>Send to...</b> submenu in the contextual menu, then choose the <b>Send to...</b> option for the target application;
-* Click on the ![](../../../assets/sendto-icon.jpg) <b>Publish/Send</b> button at the top of the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, then choose the <b>Send to...</b> option for the target application.
+* Click on the ![](../../../assets/sendto-icon.jpg) <b>Publish/Send</b> button at the top of the Explorer panel, then choose the <b>Send to...</b> option for the target application.
 
 </td>
 <td style="border: 0;" valign="top">

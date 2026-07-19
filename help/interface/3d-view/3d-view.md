@@ -116,9 +116,9 @@ You can view entire materials as a complete material in the 3D View. This is the
 
 You view all of a graph's outputs by clicking *RMB* an emtpy area in the [Graph view](../../interface/the-graph-view/the-graph-view.md), and choosing the **View Outputs in 3D View** option in the contextual menu.
 
-You can also view a graph's outputs without having to open it, by clicking RMB on a graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock and choosing the **View Outputs in 3D View** option in the contextual menu.
+You can also view a graph's outputs without having to open it, by clicking RMB on a graph resource in the [Explorer](../the-explorer-window/the-explorer-window.md) dock and choosing the **View Outputs in 3D View** option in the contextual menu.
 
-As an alternative to the graph's contextual menu, you can achieve the same result by dragging the graph from the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock to the [3D View](https://substance3d.adobe.com/).
+As an alternative to the graph's contextual menu, you can achieve the same result by dragging the graph from the [Explorer](../the-explorer-window/the-explorer-window.md) dock to the 3D View.
 
 When *loading a graph*, its outputs are automatically applied in the 3D View by default. You can disable this behaviour in the [Preferences](../../interface/preferences-window/preferences-window.md). Go to **Edit &gt; Preferences &gt; Graph &gt; Common** and uncheck the **View outputs in 3D view when opening a graph** option.
 
@@ -138,7 +138,7 @@ You can view any node, not just output nodes, by right clicking it in the [Graph
 
 You can also use *RMB* to drag and drop any node from the Graph view to the 3D View. You'll be shown a list with available channels to assign the node to. Click any to confirm.
 
-You can view any individual graph output by expanding the graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock, and using *LMB* to drag that output to the 3D View. You will be shown a list with available channels to assign the node to. Click any to confirm.
+You can view any individual graph output by expanding the graph resource in the [Explorer](../the-explorer-window/the-explorer-window.md) dock, and using *LMB* to drag that output to the 3D View. You will be shown a list with available channels to assign the node to. Click any to confirm.
 
 ![Viewing custom 3D meshes](../../assets/3d-mesh.gif "Viewing custom 3D meshes")
 
@@ -254,7 +254,7 @@ The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D vi
 
 * Torus
 
-<b>Display UV&#39;s in 2D View:</b> Enables the display of the UVs for the currently selected mesh as an overlay in [the 2D View](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
+<b>Display UV&#39;s in 2D View:</b> Enables the display of the UVs for the currently selected mesh as an overlay in the [2D View](../2d-view/2d-view.md).
 
 <b>Create 3D resource from current scene...:</b> Creates a new [3D scene resource](../../resources/3d-scene-resource/3d-scene-resource.md) in a package out of the current scene.
 

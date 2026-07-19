@@ -55,11 +55,9 @@ Project files can contain the following settings:
 
 <b>Baking: </b>Settings for baking naming conventions.
 
-<b>General: </b>Graph Templates, Tangent Space plugins, normal and image format defaults.
+<b>General: </b>Graph templates, Tangent Space plugins, normal and image format defaults.
 
-<b>Library: </b>Watched paths to display in the Library, as well as [filters and categories for the Library view](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html).
-
-<b>MDL: </b>MDL watched paths.
+<b>Library: </b>Watched paths to display in the Library.
 
 <b>Scripting: </b>Callback scripts and interpreters.
 
@@ -73,7 +71,7 @@ Project configurations are, like all other types, saved as structured XML files 
 
 See the [Project settings](../../interface/preferences-window/project-settings/project-settings.md) page to learn more about managing project files and changing project settings.
 
-Project files also include custom <b>categories</b> and <b>filters</b> for the [Library](../../interface/the-library/the-library.md), which you can learn more about in the [Managing custom content and filters](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) page.
+Project files also include custom <b>categories</b> and <b>filters</b> for the [Library](../../interface/the-library/the-library.md), which you can learn more about in the [Managing custom content and filters](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) page.
 
 ## Edit XML Externally
 

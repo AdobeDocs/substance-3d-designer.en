@@ -48,7 +48,7 @@ The Root node includes a thumbnail displaying a preview of its current output.
 
 ![MDL graph's root node](../../assets/mdl-root-hl.png "MDL graph's root node")
 
-*Root node in an MDL graph and its properties displayed in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)* *panel*
+*Root node in an MDL graph and its properties displayed in the [Properties](../../interface/properties/properties.md)* *panel*
 
 ## Connectors and types
 

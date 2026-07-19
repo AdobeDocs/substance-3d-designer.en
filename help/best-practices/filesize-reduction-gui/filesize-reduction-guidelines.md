@@ -24,7 +24,7 @@ Filesize is mostly determined by [embedded bitmaps.](../../resources/bitmap-reso
 
 ## Filesize Factors
 
-There are a few different factors affecting total filesize of the [SBSAR](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). They are listed below with an short explanation.
+There are a few different factors affecting total filesize of the SBSAR. They are listed below with an short explanation.
 
 +++Resolution
 Obviously has a large effect. Use the smallest resolution possible, keeping mind that you might also want your Substance file to work in large resolutions. You can use standard resolution-masking tricks to make smaller Bitmaps seem larger.
@@ -57,14 +57,14 @@ What mode you set the Bitmap node to also has an effect on how Designer will com
 +++Bitmap format in package
 On the Resource properties you can choose between "Raw" and "Jpeg" compression. This can have considerable effect on the final result.
 
-*Found in: Bitmap Resource [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), through [Explorer window.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Found in: Bitmap Resource Properties, through Explorer window.*
 
 +++
 
 +++Bitmap compression quality in package
 When using "Jpeg" Bitmap format, the slider below can affect quality and filesize. This slider does not behave very predictable, but 1 tends to correspond to the highest quality JPG compression, and 0.5 tends to give the smallest size.
 
-*Found in: Bitmap Resource [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html), through [Explorer window.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*Found in: Bitmap Resource Properties, through Explorer window.*
 
 +++
 

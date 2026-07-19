@@ -47,7 +47,7 @@ Linking a 3D scene into your package is the only way to [bake mesh maps](../../b
 * Click *RMB* on a package and select the <b>Link &gt; 3D Mesh</b> option in the contextual menu
 * Choose any supported 3D scene file
 * If the <b>Link as Udim mesh</b> dialog prompt appears, click *No* unless you want to bake UV tiles
-* With the resource loaded in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), click *RMB* on it and select the <b>Bake Model Information</b> option in the contextual menu
+* With the resource loaded in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md), click *RMB* on it and select the <b>Bake Model Information</b> option in the contextual menu
 * The [Bake model information](../../bakers/bakers.md) dialog appears for you to set up and run any mesh maps bakes
 
 ![Baking mesh maps](../../assets/bake-model-information.gif "Baking mesh maps"){width="512px"}

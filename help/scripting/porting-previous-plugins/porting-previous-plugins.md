@@ -27,13 +27,13 @@ For more information, check the [Plugin basics](../../scripting/plugin-basics/pl
 ## Creating user interface elements
 
 Plugins *don't need* to define a '*sdplugins.PluginDesc*' anymore.  
-Instead, plugins can use the<b> new &#91;UI manager&#93;(https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html) object</b> and <b>Qt for Python</b> to create any user interface elements they need.
+Instead, plugins can use the <b>new [UI manager](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr) object</b> and <b>Qt for Python</b> to create any user interface elements they need.
 
 You can find small code samples in the [Creating user interface elements](../../scripting/creating-user-interface/creating-user-interface-elements.md) section.
 
 ## Replacing uses of location context
 
 The '*SDLocationContext*' class has been *removed* from the Python API.  
-Plugins can use the <b>&#91;UI manager&#93;(https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html) object</b> to access the currently active graph and selection.
+Plugins can use the <b>[UI manager](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr) object</b> to access the currently active graph and selection.
 
 You can find some examples in the [Accessing graphs and selections](../../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md) section.

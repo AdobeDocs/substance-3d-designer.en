@@ -28,7 +28,7 @@ Here is a list of helpful documentation and reference for furthering your unders
 
 ## Tutorials
 
-Our [Substance 3D Tutorials](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html) website offers the following content related to MDL graphs.
+Our [Substance 3D Tutorials](https://www.adobe.com/learn/substance-3d) website offers the following content related to MDL graphs.
 
 <table>
 <tr style="border: 0;">
@@ -36,7 +36,7 @@ Our [Substance 3D Tutorials](https://helpx.adobe.com/substance-3d/unlisted/tutor
 
 ### Creating an MDL in Substance 3D Designer
 
-[This series](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/creating-an-mdl-in-substance-3d-designer/youtube-2-0-nyuri6w.html) is a *great starting point* for discovering MDL graphs and working with MDL materials in Designer.
+[This series](https://www.adobe.com/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer) is a *great starting point* for discovering MDL graphs and working with MDL materials in Designer.
 
 The metallic clearcoat material covered in this tutorial is impossible to define only through textures: it features *two separate specular highlights* that behave differently: one rougher metallic coat with speckles, and one very smooth clear topcoat.
 
@@ -57,7 +57,7 @@ The metallic clearcoat material covered in this tutorial is impossible to define
 
 ### MDL malachite material breakdown
 
-[This article](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/mdl-malachite-material-breakdown.html) walks you through the production of *more elaborate* material which cannot be achieved solely through textures either. Here, the synergy between MDL graphs and [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) is leveraged to achieve great results very efficiently.
+[This article](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown) walks you through the production of *more elaborate* material which cannot be achieved solely through textures either. Here, the synergy between MDL graphs and [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) is leveraged to achieve great results very efficiently.
 
 "In this epic tutorial, [Mark Foreman](https://www.artstation.com/oggyart), Senior Environment Artist at CD PROJEKT RED, breaks down his winning MDL material for the Materialize Contest! You can download Mark's material on [Substance Share](https://share-legacy.substance3d.com/libraries/4043)."
 

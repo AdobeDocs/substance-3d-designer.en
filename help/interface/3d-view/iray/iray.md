@@ -58,7 +58,7 @@ See the <b>Renderer</b> section of this page to learn more about tweaking these 
 
 ![Medieval castle wall material rendered in Iray](../../../assets/iray-overview.png "Medieval castle wall material rendered in Iray")
 
-*Material: [Medieval castle wall](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *by [Mark Foreman](https://www.artstation.com/oggyart)* *available in our [Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/assets.html)* *library*
+*Material: [Medieval castle wall](https://oggyart.artstation.com/projects/Xnzx0a)* *by [Mark Foreman](https://www.artstation.com/oggyart)* *available in our [Substance 3D assets](https://substance3d.adobe.com/assets)* *library*
 
 </td>
 </tr>

@@ -16,7 +16,7 @@ user-guide-title: ""
 
 This page lists warnings and errors messages which may be triggered by [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) in Substance 3D Designer, and offers common troubleshooting steps for each.
 
-Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, as well as in the bottom left corner of the [Graph view](../../interface/the-graph-view/the-graph-view.md) if the graph is loaded.
+Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel, as well as in the bottom left corner of the [Graph view](../../interface/the-graph-view/the-graph-view.md) if the graph is loaded.
 
 ## ![(error)](../../assets/error.svg) No output node defined
 
@@ -28,7 +28,7 @@ Add one or more [Output](../../compositing-graphs/nodes-reference-for-com/atomic
 
 >[!NOTE]
 >
-> The graph templates available through the [New Substance graph dialog](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) have preset Output nodes ready to be used.
+> The graph templates available through the [New graph](../creating-compositing-gra/creating-a-substance-compositing-graph.md) dialog have preset Output nodes ready to be used.
 
 ![Fix 'No output node defined' warning](../../assets/warnings-comp-output.gif "Fix 'No output node defined' warning"){width="512px"}
 
@@ -41,7 +41,7 @@ E.g. Uniform Color&#91;Output Color&#93;, Pixel Processor&#91;Per Pixel Function
 
 **![(tick)](../../assets/check.svg) Solution**
 
-Locate the node emitting the warning by its label and warning badge in the [Graph view](../../interface/the-graph-view/the-graph-view.md), then select it to display its properties in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel. Find the parameter emitting the warning and open its function by clicking the **Edit function** button.
+Locate the node emitting the warning by its label and warning badge in the [Graph view](../../interface/the-graph-view/the-graph-view.md), then select it to display its properties in the [Properties](../../interface/properties/properties.md) panel. Find the parameter emitting the warning and open its function by clicking the **Edit function** button.
 
 Then, assess the warning(s) listed in the bottom left corner of the Graph view and solve the issues. You may refer to the [Warnings in function graphs](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) page for troubleshooting warnings reported in function graphs.
 
@@ -58,7 +58,7 @@ The resource referenced by a node has one or more warnings. Here are some nodes 
 
 **![(tick)](../../assets/check.svg) Solution**
 
-In the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, find the referenced resource and troubleshoot all warnings raised by the resource:
+In the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel, find the referenced resource and troubleshoot all warnings raised by the resource:
 
 * For graphs, refer to other items in this page
 * For any other type of resource, refer to the [Warnings from dependencies](../../resources/warnings-from-dep/warnings-from-dependencies.md) page
@@ -79,11 +79,11 @@ The resource referenced by a node was not found at the path saved in the[Substan
 For [graph instance](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) nodes
 
 Check that the source graph exists in the package located at the path saved in their **Package** attribute.  
-If it does not, delete the instance node and replace it with an instance node referencing a valid package. Alternatively, you may recreate the package and graph referenced by the instance node, then reload the host package by clicking RMB on it in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel and selecting the **Reload** option in the contextual menu.
+If it does not, delete the instance node and replace it with an instance node referencing a valid package. Alternatively, you may recreate the package and graph referenced by the instance node, then reload the host package by clicking RMB on it in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and selecting the **Reload** option in the contextual menu.
 
 For [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md), [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) or [Text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) nodes
 
-Find the referenced resources in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel and check they exist at the location saved in their **File Path** attribute.  
+Find the referenced resources in the Explorer panel and check they exist at the location saved in their **File Path** attribute.  
 If they do not, click RMB on the resource item in the Explorer and select the **Relocate...** option in the contextual menu to set a new valid target file for that resource.
 
 ![Fix 'Reference resource not found' warning](../../assets/warnings-comp-referenced-resource.gif "Fix 'Reference resource not found' warning")

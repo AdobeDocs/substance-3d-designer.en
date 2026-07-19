@@ -155,7 +155,7 @@ Designer will *convert* images to the specified color spaces before saving the i
 
 ![Export outputs dialog](../assets/2019-3-0-clr-mgt-export-outputs.png "Export outputs dialog"){width="512px"}
 
-You can also assign a color space (OCIO) or attach an ICC profile (Adobe ACE) to images *saved* from the [2D View](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+You can also assign a color space (OCIO) or attach an ICC profile (Adobe ACE) to images *saved* from the [2D View](../interface/2d-view/2d-view.md).
 
 ![2D View export options](../assets/2019-3-0-clr-mgt-save-image.png "2D View export options")
 
@@ -203,7 +203,7 @@ The [Library](../interface/the-library/the-library.md) includes the following no
 </tr>
 </table>
 
-These are useful when working with graphs created *without* Color Management or materials from the [Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/assets.html) library.
+These are useful when working with graphs created *without* Color Management or materials from the [Substance 3D assets](https://substance3d.adobe.com/assets) library.
 
 ![Color conversion nodes in Library](../assets/2019-3-0-clr-mgt-nodes.png "Color conversion nodes in Library"){width="512px"}
 

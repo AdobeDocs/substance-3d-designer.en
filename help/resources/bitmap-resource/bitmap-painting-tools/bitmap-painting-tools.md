@@ -48,7 +48,7 @@ The painting tools will be enabled automatically in the [2D view](../../../inter
 
 *New* bitmaps can be created the following ways:
 
-* In the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, click RMB on an *SBS package* or a *folder* within a package to open their contextual menu, then open the <b>New</b> submenu and select the <b>Bitmap</b> option
+* In the [Explorer](../../../interface/the-explorer-window/the-explorer-window.md) panel, click RMB on an *SBS package* or a *folder* within a package to open their contextual menu, then open the <b>New</b> submenu and select the <b>Bitmap</b> option
 * In a [graph](../../../interface/the-graph-view/the-graph-view.md), create a [Bitmap node](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) and select the <b>From new resource...</b> option in the contextual menu
 
 The <b>New bitmap</b> window will open, letting you set the *name*, *resolution* and *background color* of the new bitmap resource.

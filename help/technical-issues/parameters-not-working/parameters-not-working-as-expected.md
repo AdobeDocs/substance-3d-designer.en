@@ -20,7 +20,7 @@ This page lists common causes for parameters not working as expected in Substanc
 
 <b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
 
-Some exposed parameters for a graph are *not listed* when using [Preview mode](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) in Designer, or in the parameters list of [Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR) published out of that graph.
+Some exposed parameters for a graph are *not listed* when using [Preview mode](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) in Designer, or in the parameters list of Substance 3D assets (SBSAR) [published](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) out of that graph.
 
 <b>!&#91;(tick)&#93;(../../assets/check.svg)Recommended steps</b>
 
