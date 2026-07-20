@@ -16,31 +16,37 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/panorama-position.png){width="200px"}
 
-## Panorama 3D Position
-
-**In:** *3D View/HDRI Tools*
-
-**Simple**
+<b>In:</b> 3D View &gt; HDRI Tools
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Helper node that renders a world-space position map for a spehircally projected panorama image. Can be used to do your own spherical transformations and lookups.
 
-## Parameters
-
-* **Up Vector**: *Z Up, Y Up*
-
-## Example Images
-
-![](../../../../../../assets/pano3d.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Up Vector</b> <i>Z Up, Y Up</i> |  |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/pano3d.png" />
+        </td>
+    </tr>
 </table>
