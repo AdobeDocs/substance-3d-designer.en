@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/material-blend.png){width="128px"}
 
-## Material Blend
-
-**In:** *Material Filters/Blending*
-
-**Complex**
+<b>In:</b> Material Filters &gt; Blending
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,77 +31,62 @@ Material Blend is the Multi-Channel, Full Material Equivalent of [the atomic Ble
 
 This node is useful if you want to blend two materials and have a grayscale map but no full Color ID bake. If you do have a Color ID bake and want to blend more than two materials, we suggest you use [Multi-Material Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md).
 
-## Parameters
-
-### Inputs
-
-* **ColorID**: *Color Input*   
-  Optional Baked color ID map.
-* **Greyscale Mask**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-
-### Parameters
-
-* **Channels**   
-  * Toggle material channels on and off in this group, when using Specular/Glossiness maps instead of Metallic/Roughness for example.
-* **Diffuse**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Base Color**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Normal**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-* **Specular**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Emissive**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Glossiness**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Roughness**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Metallic**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Specular Level**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Ambient Occlusion**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Height**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Opacity**   
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*
-* **Color ID Mask**: *False/True*Use Color ID mask instead of grayscale mask. Keep in mind that this is only for one color!
-* **Color**: *(Color value)*Which color to pick and convert to white.
-* **Fuzziness**: *0.01 - 1.0*The extent to which the color you picked blends over into its neighbours.
-* **Padding**: *0.0 - 1.0*Transition contrast of the color you picked.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>ColorID</b> <i>Color Input</i> | Optional Baked color ID map. |
+| <b>Greyscale Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Channels</b> | Toggle material channels on and off in this group, when using Specular/Glossiness maps instead of Metallic/Roughness for example. |
+| <b>Diffuse</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Base Color</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Normal</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Specular</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Emissive</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Glossiness</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Roughness</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Metallic</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Specular Level</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Ambient Occlusion</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Height</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Opacity</b> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> |  |
+| <b>Color ID Mask</b> <i>False/True</i> | Use Color ID mask instead of grayscale mask. Keep in mind that this is only for one color! |
+| <b>Color</b> <i>(Color value)</i> | Which color to pick and convert to white. |
+| <b>Fuzziness</b> <i>0.01 - 1.0</i> | The extent to which the color you picked blends over into its neighbours. |
+| <b>Padding</b> <i>0.0 - 1.0</i> | Transition contrast of the color you picked. |

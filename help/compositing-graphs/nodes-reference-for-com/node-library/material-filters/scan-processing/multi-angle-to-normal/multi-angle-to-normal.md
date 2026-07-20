@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/multi-angle-to-normal.png){width="128px"}
 
-## Multi-Angle to Normal
-
-**In:** *Material Filters/Scan Processing*
-
-**Intermediate**
+<b>In:</b> Material Filters &gt; Scan Processing
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -39,27 +35,26 @@ It is more complicated than [Multi-Angle to Albedo](../../../../../../compositin
 >
 > See [Multi-Angle to Albedo](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) for the albedo version of this node. If you want to pre-process your inputs, [Multi Color Equalizer](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-color-equalizer/multi-color-equalizer.md), [Multi Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-crop/multi-crop.md) and [Multi Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md) can be of use, since they are intended to be combined with these nodes.
 
-## Parameters
-
-### Inputs
-
-* **Input 1-8**: *Color Input*
-
-### Parameters
-
-* **Normal Format**: *DirectX, OpenGL*  
-  Switches between different Normalmap formats (inverts the green channel).
-* **Samples Amount**: *2 - 8*Sets amount of samples (inputs) to process.
-* **Intensity**: *0.0 - 1.0*Sets Normalmap intensity.
-* **First Sample Light Angle**: *0.0 - 360.0*Sets the lighting angle direction of the first input.
-* **Next Sample Light Angle**: *Counterclockwise, Clockwise*Sets towards which direction the lighting in the next sample moves.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Input 1-8</b> <i>Color Input</i> |  |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Normal Format</b> <i>DirectX, OpenGL</i> | Switches between different Normalmap formats (inverts the green channel). |
+| <b>Samples Amount</b> <i>2 - 8</i> | Sets amount of samples (inputs) to process. |
+| <b>Intensity</b> <i>0.0 - 1.0</i> | Sets Normalmap intensity. |
+| <b>First Sample Light Angle</b> <i>0.0 - 360.0</i> | Sets the lighting angle direction of the first input. |
+| <b>Next Sample Light Angle</b> <i>Counterclockwise, Clockwise</i> | Sets towards which direction the lighting in the next sample moves. |
