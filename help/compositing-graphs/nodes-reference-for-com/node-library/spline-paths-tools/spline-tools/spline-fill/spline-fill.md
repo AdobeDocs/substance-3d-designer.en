@@ -39,28 +39,23 @@ Open splines are closed with a straight line from start to end. Intersections wh
 >
 > It is not recommended to use this node on splines that are out of the &#91;0 ,1&#93; tile. The filling process is unreliable in that case.
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
-<b>    R</b> - X position  
-<b>    G</b> - Y position  
-<b>    B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+## Inputs
 
-<b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
-<b>    R</b> - Tangents X  
-<b>    G</b> - Tangents Y  
-<b>    B</b> - Unused  
-<b>    A</b> - Unused
+|  |  |
+|:---|:---|
+| <b>Spline Coords</b> <i>Color</i> | The coordinates of the input splines' points encoded in the RGBA channels of a color image:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline is closed (negative) or open (positive);<br>- Absolute value: Thickness + 1. |
+| <b>Spline Data</b> <i>Color</i> | Additional data of the input splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
+| <b>Spline Amount</b> <i>Integer</i> | The number of input splines. |
 
-<b>Spline Amount</b> *Integer*The number of input splines.
+<a name="outputs"></a>
 
-## Output connectors
+## Outputs
 
-<b>Output</b> *Grayscale*  
-The result image of filling the input Splines with flat white against a flat black background.
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The result image of filling the input Splines with flat white against a flat black background. |
 
 ## Examples
 

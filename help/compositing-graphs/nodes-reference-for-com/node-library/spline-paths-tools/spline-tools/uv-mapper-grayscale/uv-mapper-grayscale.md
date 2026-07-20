@@ -16,10 +16,6 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
 ![Node icon](../../../../../../assets/uv-mapper-grayscale-icon.png "Node icon")
@@ -41,15 +37,22 @@ Maps the input grayscale image using the coordinates provided in the UV input.
 >
 > See also [UV Mapper Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md).
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>UV</b> *Color*Image coordinates encoded in the red (U) and green (V) channels of a color image.
+## Inputs
 
-<b>Input</b> *Color*The grayscale image which should be mapped to the coordinates provided in the UV input.
+|  |  |
+|:---|:---|
+| <b>UV</b> <i>Color</i> | Image coordinates encoded in the red (U) and green (V) channels of a color image. |
+| <b>Input</b> <i>Color</i> | The grayscale image which should be mapped to the coordinates provided in the UV input. |
 
-## Output connectors
+<a name="outputs"></a>
 
-<b>Output</b> *Color*The result of mapping the Input image using the input UV coordinates, as a grayscale image.
+## Outputs
+
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Color</i> | The result of mapping the Input image using the input UV coordinates, as a grayscale image. |
 
 ## Examples
 
@@ -91,17 +94,3 @@ Maps the input grayscale image using the coordinates provided in the UV input.
 </table>
 
 ![Node example 1](../../../../../../assets/UVMapper-Graph.jpg "Node example 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>

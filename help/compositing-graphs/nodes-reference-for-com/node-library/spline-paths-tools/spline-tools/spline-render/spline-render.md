@@ -16,10 +16,6 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
 ![Node icon](../../../../../../assets/spline-render-icon.png "Node icon")
@@ -37,99 +33,55 @@ Draws strings of segments along the input <b>Splines</b> over the input <b>Backg
 </tr>
 </table>
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Background</b>*Grayscale*The grayscale image over which splines should be drawn.
+## Inputs
 
-<b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
-<b>    R</b> - X position  
-<b>    G</b> - Y position  
-<b>    B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Background</b> <i>Grayscale</i> | The grayscale image over which splines should be drawn. |
+| <b>Spline Coords</b> <i>Color</i> | The coordinates of the input splines’ points encoded in the RGBA channels of a color image:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>&nbsp;&nbsp;- Sign: Spline is closed (negative) or open (positive);<br>&nbsp;&nbsp;- Absolute value: Thickness + 1. |
+| <b>Spline Data</b> <i>Color</i> | Additional data of the input splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
+| <b>Spline Amount</b> <i>Integer</i> | The number of input splines. |
 
-<b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
-<b>    R</b> - Tangents X  
-<b>    G</b> - Tangents Y  
-<b>    B</b> - Unused  
-<b>    A</b> - Unused
+<a name="outputs"></a>
 
-<b>Spline Amount</b> *Integer*The number of input splines.
+## Outputs
 
-## Output connectors
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The result image of drawing the input Splines on top of the Background. |
 
-<b>Output</b> *Grayscale*  
-The result image of drawing the input Splines on top of the Background.
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Mode</b> *Integer*The method of selecting which splines should be drawn:  
-* *Draw Spline List*: Draw all splines in the input list;  
-* *Draw Single Spline*: Draw only the specified spline from the input list;  
-* *Draw Spline Range*: Draw only the splines in the specified range from the input list.
-
-<b>Draw Spline Index</b> *Integer* (Available when ‘Mode’ is set to ‘Draw Single Spline’)The index of the spline that should be drawn.
-
-<b>Draw Spline Range</b> *Integer2* (Available when ‘Mode’ is set to ‘Draw Spline Range’)The range of indexes for the splines that should be drawn.
-
-<b>Show Direction Helper</b> *Boolean*For each spline, draws a dot at the start of the spline and an arrowhead at its end.
-
-<b>Segments Amount</b> *Integer*Adjusts the number of segments drawn along the splines.  
-A higher value results in smoother lines.
-
-<b>Envelope Spline Amount</b> *Integer*  
-The number of duplicate segments that should be drawn along each spline’s thickness.
-
-<b>Start</b> *Float*Offsets the start of the portion of the spline which should be drawn.  
-The value represents the normalized length of the spline.
-
-<b>End</b> *Float*Offsets the end of the portion of the spline which should be drawn.  
-The value represents the normalized length of the spline.
-
-<b>Thickness Size Mode</b> *Integer*The method of computing the thickness of the drawn segments:  
-* *Image*: the value is normalized in texture space, where 1 is the full width of the image. Thickness is relative to the texture resolution;  
-* *Pixel*: the value is an absolute number of pixels in the texture, where 1 is a full pixel. Thickness is separate from the texture resolution.
-
-<b>Thickness (image)</b> *Float* (available when ‘Thickness Size Mode’ is set to Image)The thickness of the drawn segments normalized in texture space, where 1 is the full width of the image.
-
-<b>Thickness (px)</b> *Float* (available when ‘Thickness Size Mode’ is set to Pixel)The thickness of the drawn segments as an absolute number of pixels in the texture, where 1 is a full pixel.
-
-<b>Enable Joints</b> *Boolean*Fills the gaps between the individual segments drawn along the splines, using discs.
-
-<b>Non-Square Correction</b>*Boolean*Adjust the points’ positions and thickness to retain the spline shape in non-square resolutions.  
-This also impacts uniform distribution.
-
-+++Color
-<b>Background Intensity</b> *Float*The value multiplied against the Background input image.
-
-<b>Spline Style</b> *Integer*The method used to color the splines:  
-* *Solid*: The segments are drawn using a uniform grayscale value;  
-* *Gradient*: A gradient from black to white is applied along each string of segments from start to end;  
-* *Height*: The height of the splines is used as the grayscale value for drawing the segments.
-
-<b>Spline Color</b> *Float*The uniform grayscale value used to draw the segments.  
-When a Spline Style other than ‘Solid’ is selected, this color is multiplied against the styled color.
-
-<b>Random Luminance</b> *Float*For each string of uncut segments in a spline, applies a random offset in the specified range to the grayscale value used to draw that string.
-
-<b>Blend Mode</b> *Integer*The method of blending the colors of the background and overlapping segments drawn along the splines:  
-* *Max*: The brightest value is used;  
-* *Add*: The values are added together.
-
-+++
-
-+++Random Segments
-<b>Random Segments Start</b> *Float*Adjusts the probability that the string of segments closer to the start of the spline is cut.
-
-<b>Random Segments End</b> *Float*Adjusts the probability that the string of segments closer to the end of the spline is cut.
-
-<b>Random Offset</b> *Float*Sets the maximum amount of displacement applied to each cut segment along its normal.  
-This parameter has no effect when Start and End are both set to 0.
-
-<b>Random Offset Center</b> *Float*Offsets the center of the random displacement applied to each cut segment along its normal.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Mode</b> <i>Integer</i> | The method of selecting which splines should be drawn:<br>- <i>Draw Spline List</i>: Draw all splines in the input list;<br>- <i>Draw Single Spline</i>: Draw only the specified spline from the input list;<br>- <i>Draw Spline Range</i>: Draw only the splines in the specified range from the input list. |
+| <b>Draw Spline Index</b> <i>Integer</i> | (Available when ‘Mode’ is set to ‘Draw Single Spline’) The index of the spline that should be drawn. |
+| <b>Draw Spline Range</b> <i>Integer2</i> | (Available when ‘Mode’ is set to ‘Draw Spline Range’) The range of indexes for the splines that should be drawn. |
+| <b>Show Direction Helper</b> <i>Boolean</i> | For each spline, draws a dot at the start of the spline and an arrowhead at its end. |
+| <b>Segments Amount</b> <i>Integer</i> | Adjusts the number of segments drawn along the splines.<br>A higher value results in smoother lines. |
+| <b>Envelope Spline Amount</b> <i>Integer</i> | The number of duplicate segments that should be drawn along each spline’s thickness. |
+| <b>Start</b> <i>Float</i> | Offsets the start of the portion of the spline which should be drawn.<br>The value represents the normalized length of the spline. |
+| <b>End</b> <i>Float</i> | Offsets the end of the portion of the spline which should be drawn.<br>The value represents the normalized length of the spline. |
+| <b>Thickness Size Mode</b> <i>Integer</i> | The method of computing the thickness of the drawn segments:<br>- <i>Image</i>: the value is normalized in texture space, where 1 is the full width of the image. Thickness is relative to the texture resolution;<br>- <i>Pixel</i>: the value is an absolute number of pixels in the texture, where 1 is a full pixel. Thickness is separate from the texture resolution. |
+| <b>Thickness (image)</b> <i>Float</i> | (available when ‘Thickness Size Mode’ is set to Image) The thickness of the drawn segments normalized in texture space, where 1 is the full width of the image. |
+| <b>Thickness (px)</b> <i>Float</i> | (available when ‘Thickness Size Mode’ is set to Pixel) The thickness of the drawn segments as an absolute number of pixels in the texture, where 1 is a full pixel. |
+| <b>Enable Joints</b> <i>Boolean</i> | Fills the gaps between the individual segments drawn along the splines, using discs. |
+| <b>Non-Square Correction</b> <i>Boolean</i> | Adjust the points’ positions and thickness to retain the spline shape in non-square resolutions.<br>This also impacts uniform distribution. |
+| <b>Color</b> |  |
+| <b>Background Intensity</b> <i>Float</i> | The value multiplied against the Background input image. |
+| <b>Spline Style</b> <i>Integer</i> | The method used to color the splines:<br>- <i>Solid</i>: The segments are drawn using a uniform grayscale value;<br>- <i>Gradient</i>: A gradient from black to white is applied along each string of segments from start to end;<br>- <i>Height</i>: The height of the splines is used as the grayscale value for drawing the segments. |
+| <b>Spline Color</b> <i>Float</i> | The uniform grayscale value used to draw the segments.<br>When a Spline Style other than ‘Solid’ is selected, this color is multiplied against the styled color. |
+| <b>Random Luminance</b> <i>Float</i> | For each string of uncut segments in a spline, applies a random offset in the specified range to the grayscale value used to draw that string. |
+| <b>Blend Mode</b> <i>Integer</i> | The method of blending the colors of the background and overlapping segments drawn along the splines:<br>- <i>Max</i>: The brightest value is used;<br>- <i>Add</i>: The values are added together. |
+| <b>Random Segments</b> |  |
+| <b>Random Segments Start</b> <i>Float</i> | Adjusts the probability that the string of segments closer to the start of the spline is cut. |
+| <b>Random Segments End</b> <i>Float</i> | Adjusts the probability that the string of segments closer to the end of the spline is cut. |
+| <b>Random Offset</b> <i>Float</i> | Sets the maximum amount of displacement applied to each cut segment along its normal.<br>This parameter has no effect when Start and End are both set to 0. |
+| <b>Random Offset Center</b> <i>Float</i> | Offsets the center of the random displacement applied to each cut segment along its normal. |
 
 ## Examples
 
@@ -191,20 +143,6 @@ This parameter has no effect when Start and End are both set to 0.
 <td style="border: 0;" valign="top">
 
 ![Node example 1](../../../../../../assets/SplineRender-Demo.gif "Node example 1")
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
 
 </td>
 </tr>

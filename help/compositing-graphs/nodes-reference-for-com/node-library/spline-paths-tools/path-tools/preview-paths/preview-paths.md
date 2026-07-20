@@ -35,24 +35,24 @@ You'll get a similar result as the <b>Preview</b> output of the [Mask to Paths](
 </tr>
 </table>
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Background</b> *Color*  
-A background image on top of with display the path. This also controls the rendering size.
+## Inputs
 
-<b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
+|  |  |
+|:---|:---|
+| <b>Background</b> <i>Color</i> | A background image on top of with display the path. This also controls the rendering size. |
+| <b>Paths</b> <i>Color</i> | A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Show Corners</b> *Boolean*  
-Displays a square on each vertex that is marked as corner (additive blending).
-
-<b>Show Vertices</b> *Boolean*  
-Displays a circular shape on each vertex (additive blending). Corners are still displayed as squares.
-
-<b>Segments Thickness (px)</b> *Float*  
-Adjusts the thickness of rendered segments in pixels.
+|  |  |
+|:---|:---|
+| <b>Show Corners</b> <i>Boolean</i> | Displays a square on each vertex that is marked as corner (additive blending). |
+| <b>Show Vertices</b> <i>Boolean</i> | Displays a circular shape on each vertex (additive blending). Corners are still displayed as squares. |
+| <b>Segments Thickness (px)</b> <i>Float</i> | Adjusts the thickness of rendered segments in pixels. |
 
 ## Examples
 
