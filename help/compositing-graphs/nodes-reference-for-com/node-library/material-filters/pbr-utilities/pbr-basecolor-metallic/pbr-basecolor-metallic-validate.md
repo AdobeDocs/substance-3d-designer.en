@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/pbr-basecolor-metallic-validate.png){width="128px"}
 
-## PBR BaseColor / Metallic Validate
-
-**In:** *Material Filters/PBR Utilities*
-
-**Simple**
+<b>In:</b> Material Filters &gt; PBR Utilities
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,19 +33,17 @@ It is very useful as a learning tool for PBR, since it provides very clear visua
 
 Don't use this as the end-all-tool, but still make sure you always have a clear understanding of why you're breaking any rules this tool might highlight.
 
-## Parameters
-
-* **Validation Mode**: *Albedo , Metal, Combined*Sets wether to check only Albedo, Metal, or both combined as an overview mode.
-* **Albedo Dark Range Threshold**: *50 sRGB, 30 sRGB*Sets the lower Albedo limit to either 50 or 30 sRGB. Can decrease or increase tolerance for red areas.
-* **Metal Reflectance Range**: *70-100% Reflective, 60-100% Reflective*Changes Metallic range to be deemed correct. Can decrease or increase tolerance for red areas.
-* **Overlay Map**: *False/True*Quick debug mode to overlay input maps, allows for quicker tracking down of problem areas.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Validation Mode</b> <i>Albedo , Metal, Combined</i> | Sets wether to check only Albedo, Metal, or both combined as an overview mode. |
+| <b>Albedo Dark Range Threshold</b> <i>50 sRGB, 30 sRGB</i> | Sets the lower Albedo limit to either 50 or 30 sRGB. Can decrease or increase tolerance for red areas. |
+| <b>Metal Reflectance Range</b> <i>70-100% Reflective, 60-100% Reflective</i> | Changes Metallic range to be deemed correct. Can decrease or increase tolerance for red areas. |
+| <b>Overlay Map</b> <i>False/True</i> | Quick debug mode to overlay input maps, allows for quicker tracking down of problem areas. |

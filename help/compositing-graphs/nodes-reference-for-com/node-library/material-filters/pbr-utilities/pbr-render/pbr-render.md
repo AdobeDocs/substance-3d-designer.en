@@ -16,16 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/pbr-render.png){width="250px"}
 
-**In:** *Material Filters/PBR Utilities*
-
-**Complex**
+<b>In:</b> Material Filters &gt; PBR Utilities
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -43,189 +41,143 @@ This node requires at least a full PBR material to be plugged in. Ideally you ma
 > 
 > The PBR Render Node is very heavy and does not work well with the SSE2 CPU engine. Switch to another engine by pressing F9, if node performs extremely bad.
 
+<a name="inputs"></a>
+
 ## Inputs
 
-* **Material channel** **inputs**   
-  Multiple material inputs are used to render the material on the geometry:
-  * Base Color
-  * Normal
-  * Emissive
-  * Roughness
-  * Metallic
-  * Specular Level
-  * Height
-  * Ambient Occlusion
-  * Opacity Mask
-  * Anisotropy Level
-  * Anisotropy Angle
-  * Translucency
-  * Scattering Distance Scale
-* **Lens Dirt Map**: *Grayscale Input*Custom map for dirt on lens, that appears when lens flares are visible.
-* **Lens Aperture Map**: *Grayscale Input*Can be used to override Bokeh, out-of-focus shape. The more contrasted, the more visible it is. Keep in mind only a circle within the texture is sampled, so any shape has to fit within a circle.
-* **Background input**: *Color input*  
-  Custom map used as background when the **Background Mode** parameter is set to *Backgroud Input*
-* **Environment Map**: *Color Input*Enviroment map used to calculate lighting. Must be spherically-mapped and in HDR.
+|  |  |
+|:---|:---|
+| <b>Material channel inputs</b> | Multiple material inputs are used to render the material on the geometry:<br><br>- Base Color<br>- Normal<br>- Emissive<br>- Roughness<br>- Metallic<br>- Specular Level<br>- Height<br>- Ambient Occlusion<br>- Opacity Mask<br>- Anisotropy Level<br>- Anisotropy Angle<br>- Translucency<br>- Scattering Distance Scale |
+| <b>Lens Dirt Map</b> <i>Grayscale Input</i> | Custom map for dirt on lens, that appears when lens flares are visible. |
+| <b>Lens Aperture Map</b> <i>Grayscale Input</i> | Can be used to override Bokeh, out-of-focus shape. The more contrasted, the more visible it is. Keep in mind only a circle within the texture is sampled, so any shape has to fit within a circle. |
+| <b>Background input</b> <i>Color input</i> | Custom map used as background when the <b>Background Mode</b> parameter is set to <i>Backgroud Input</i> |
+| <b>Environment Map</b> <i>Color Input</i> | Enviroment map used to calculate lighting. Must be spherically-mapped and in HDR. |
 
-Outputs
+<a name="outputs"></a>
 
-* **Beauty**  
-  The final render
-* **Raw Irradiance**  
-  The irradiance data of the final render  
-  *Alpha:* Opacity map
-* **Raw Specular**  
-  The specular data of the final render  
-  *Alpha:* Specular shadow map
-* **Normal World Space**  
-  The world space normals data of the final render  
-  *Alpha:* World space height map
-* **Normal Tangent Space**  
-  The tangent space normals data of the final render  
-  *Alpha:* Tangent space height map
-* **UVs**  
-  The UV data of the final render  
-  *Alpha:* Opacity map
+## Outputs
+
+|  |  |
+|:---|:---|
+| <b>Beauty</b> | The final render |
+| <b>Raw Irradiance</b> | The irradiance data of the final render<br><br><i>Alpha:</i> Opacity map |
+| <b>Raw Specular</b> | The specular data of the final render<br><br><i>Alpha:</i> Specular shadow map |
+| <b>Normal World Space</b> | The world space normals data of the final render<br><br><i>Alpha:</i> World space height map |
+| <b>Normal Tangent Space</b> | The tangent space normals data of the final render<br><br><i>Alpha:</i> Tangent space height map |
+| <b>UVs</b> | The UV data of the final render<br><br><i>Alpha:</i> Opacity map |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-* **Shape**: *Sphere, Plane, Cylinder*   
-  Sets the shape used for rendering. Custom shapes are not possible.
-* **Displacement Intensity**: *0.0 - 0.5*Set the intensity of displacement from height.
-* **Environment Rotation**: *0.0 - 1.0*   
-  Rotates the lighting environment. Pre-rotates compared to moving the camera.
-* **Background Mode**: *Color, Environment, Ambient, Background Input*   
-  Set what is shown in the background. Color is a solid color, Environment is the map you plugged in with an optional blur. Ambient is a very blurred version of the environment.
-* **Background Color**: *(Color value)*   
-  Only available when Background mode is set to Color.
-* **Environment Background Blur**: *0.0 - 1.0*   
-  Only available when Background mode is set to Environment.
-* **Shape**    
-  * **Scale**: *0.0 - 2.0*   
-    Set the scale for the Sphere.
-  * **Plane Size**: *0.0 - 1.0*   
-    Set the scale for the Plane.
-  * **Cylinder Radius**: *0.0 - 1.0*   
-    Set the radius for the Cylinder.
-  * **Cylinder Length**: *0.0 - 1.0*   
-    Set the length for the Cylinder.
-  * **Rotation**: *0.0 - 1.0*   
-    Rotates shape without rotating lighting.
-  * **Rotation Direction**: *0.0 - 1.0*   
-    Sets the axis of rotation in 2D.
-  * **Rotation Around Direction**: *0.0 - 1.0*   
-    Spins shape on the rotation axis.
-  * **Shape Position**: *-1.0 - 1.0*   
-    Moves shapes.
-  * **UV Tiling**: *1.0 - 6.0*   
-    Sets the amount of UV-Tiling.
-  * **Sphere UV Scale**: *0.0 - 4.0*   
-    Sets the scale of UV's on the Sphere.
-  * **Plane UV Scale**: *1.0 - 4.0*   
-    Sets the scale of UV's on the Plane.
-  * **Cylinder UV Scale**: *1.0 - 6.0*   
-    Sets the scale of UV's on the Cylinder.
-  * **UV Offset**: *0.0 - 1.0*   
-    Offsets UV's
-  * **Tilt UVs**: *False/True*   
-    Tilts UV's by 45 degrees for the Sphere.
-* **Camera**    
-  * **Exposure**: *-4.0 - 4.0*   
-    Set camera exposure.
-  * **Tone Mapper**: *Linear, ACES, Filmic Hejl*   
-    Set which tone mapping solution to use for the final image.
-  * **Camera Mode**: *Perspective, Orthographic*   
-    Switch camera between two projection modes.
-  * **Field of View**: *0.01 - 100.0*   
-    Set camera FOV angle.
-  * **Distance**: *0.0 - 4.0*   
-    Set the distance of the camera from the object center.
-  * **Vignette Intensity**: *0.0 - 1.0*   
-    Set intensity of vignette effect.
-  * **Vignette Radius**: *0.0 - 1.0*   
-    Set radius of the vignette effect.
-  * **Screen Position**:  
-    Moves the camera around the object, can be changed with a gizmo in the 2D view as well.
-* **Depth of Field** 
-  * **Aperture Radius** : *0.0 - 0.1*Sets radius of the aperture. Higher values mean out-of-focus areas get blurrier (bokeh).
-  * **Aperture Blades**: *3 - 9*   
-    Sets the shape of the bokeh blur.
-  * **Aperture Ring**: *0.0 - 1.0*   
-    Adds an inner gradient to the bokeh shape.
-  * **Aperture Difraction**: *0.0 - 2.0*   
-    Adds chromatic aberration to the bokeh.
-  * **Swirly Bokeh**: *0.0 - 1.0*   
-    Adds a swirl or spinning type of effect to out-of-focus bokeh blur areas.
-  * **Focus Mode**: *Auto, Point*   
-    Set if focus is pre-determined or user-set. Point focus lets you move a point in the 2D view to determine the focus distance.
-  * **Focus Point**:  
-    If focus is set to Point, this lets you move that point. has a 2D view gizmo.
-  * **Focus Offset**: *-0.5 - 0.5*   
-    If focus is set to Auto, allows you to shift it back and forth.
-  * **Use Custom Aperture Map**: *False/True*   
-    Overrides Aperture settings above and use Aperture map input to determine the bokeh shape. Requires an input.
-* **Post Effects** 
-  * **Enable Post Effects**: *False/True*   
-    Toggles *all* post-effects in the final render.
-  * **Bloom Intensity** : *0.0 - 2.0*Sets strength of the bloom effect.
-  * **Bloom Threshold** : *0.0 - 2.0*Sets low threshold for bloom to appear.
-  * **Bloom Chroma Shift** : *0.0 - 1.0*
-  * **Lens Halo Intensity** : *0.0 - 1.0*Sets intensity for the lens halo effect.
-  * **Lens Flares Intensity** : *0.0 - 1.0*Sets intensity for the lens flare. Make sure the light from your environment background is in view to properly see this effect.
-  * **Lens Dirt Intensity** : *0.0 - 1.0*Sets effect of lens dirt map on the Lens flares.
-* **Render Settings**    
-  * **Diffuse Quality**: *16 Samples, 32 Samples, 64 Samples, 128 Samples*   
-    Switch between quality levels for the diffuse map.
-  * **Diffuse Emissive Mulitplier**: *0.0 - 1.0*   
-    Controls how much the emissive parts are contributing to the irradiance.
-  * **Diffuse Shadow Intensity**: *0.0 - 1.0*   
-    Controls the intensity of the diffuse shadows.
-  * **Specular Dithering**: *0.0 - 1.0*   
-    Set the amount of dithering for the specular.
-  * **Specular Shadow Multiplier**: *0.0 - 1.0*   
-    Controls the intensity of shadows in the specular reflections.
-  * **Opacity Mode** *Dithered Alpha test, Simple Alpha Blend*  
-    Controls the method of applying transparency. The *Simple Alpha Blend* mode is most visible on uniform backgrounds.
-  * **Ambient Occlusion Intensity**: *0.0 - 1.0*   
-    Sets the intensity of ambient occlusion shadows.
-* **Material Adjustements**    
-  * **Recompute Normals**: *False/True*   
-    Normals will be recomputed from the height map according to the displacement intensity.
-  * **Normal Format**: *DirectX, OpenGL*   
-    Switch between different Normal Map formats (inverts the green channel)
-  * **Dielectric F0 Input**: *Constant Value, Specular Level input*   
-    Set what drives F0 values. Specular Level input means it will be driven by an input map.
-  * **Dielectric F0**: *0.0 - 0.08*   
-    If Constant Value is chosen for Dielectric F0 Input, this slider lets you set the global value.
-* **Clear Coat**    
-  * **Enable Clear Coat**: *False/True*   
-    Enables an additional, simple clear coat layer on top of the input material.
-  * **Clear Coat Weight**: *0.0 - 1.0*   
-    Sets intensity or strength of the clearcoat layer.
-  * **Clear Coat Specular Level**: *0.0 - 1.0*   
-    Sets the roughness of the clearcoat layer.
-  * **Inherit Normal from Base Layer**: *False/True*Set if clearcoat ignores or uses normals from the base material.
-* **Emissive**
-  * **Enable Emissive Lighting** *True/False*Toggles the diffuse contribution of emissive lighting.
-  * **Emissive Intensity**: *0.0 - 10.0*   
-    Sets global multiplier for the emissive map.
-* **Subsurface Scattering**
-  * **Enable Subsurface Scattering** *True/False*  
-    Toggles subsurface scattering in the final render.  
-    *Note:* Subsurface scattering requires the **Translucency** input value be *higher than 0.0*
-  * **Scattering Distance** *0.0 - 1.0*  
-    Adjusts the maximum distance of the scattering effect.  
-    *Note:* This value is multipled against the **Scattering Distance Scale** input value *per color channel*.
-  * **Red Shift** *0.0 - 1.0*  
-    Adjusts the intensity of the Red shift effect in the scattering.
-  * **Rayleigh** *0.0 - 1.0*  
-    Adjusts the intensity of the Rayleigh effect in the scattering.
+|  |  |
+|:---|:---|
+| <b>Shape</b> <i>Sphere, Plane, Cylinder</i> | Sets the shape used for rendering. Custom shapes are not possible. |
+| <b>Displacement Intensity</b> <i>0.0 - 0.5</i> | Set the intensity of displacement from height. |
+| <b>Environment Rotation</b> <i>0.0 - 1.0</i> | Rotates the lighting environment. Pre-rotates compared to moving the camera. |
+| <b>Background Mode</b> <i>Color, Environment, Ambient, Background Input</i> | Set what is shown in the background. Color is a solid color, Environment is the map you plugged in with an optional blur. Ambient is a very blurred version of the environment. |
+| <b>Background Color</b> <i>(Color value)</i> | Only available when Background mode is set to Color. |
+| <b>Environment Background Blur</b> <i>0.0 - 1.0</i> | Only available when Background mode is set to Environment. |
+| <b>Shape</b> |  |
+| <b>Scale</b> <i>0.0 - 2.0</i> | Set the scale for the Sphere. |
+| <b>Plane Size</b> <i>0.0 - 1.0</i> | Set the scale for the Plane. |
+| <b>Cylinder Radius</b> <i>0.0 - 1.0</i> | Set the radius for the Cylinder. |
+| <b>Cylinder Length</b> <i>0.0 - 1.0</i> | Set the length for the Cylinder. |
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Rotates shape without rotating lighting. |
+| <b>Rotation Direction</b> <i>0.0 - 1.0</i> | Sets the axis of rotation in 2D. |
+| <b>Rotation Around Direction</b> <i>0.0 - 1.0</i> | Spins shape on the rotation axis. |
+| <b>Shape Position</b> <i>-1.0 - 1.0</i> | Moves shapes. |
+| <b>UV Tiling</b> <i>1.0 - 6.0</i> | Sets the amount of UV-Tiling. |
+| <b>Sphere UV Scale</b> <i>0.0 - 4.0</i> | Sets the scale of UV's on the Sphere. |
+| <b>Plane UV Scale</b> <i>1.0 - 4.0</i> | Sets the scale of UV's on the Plane. |
+| <b>Cylinder UV Scale</b> <i>1.0 - 6.0</i> | Sets the scale of UV's on the Cylinder. |
+| <b>UV Offset</b> <i>0.0 - 1.0</i> | Offsets UV's |
+| <b>Tilt UVs</b> <i>False/True</i> | Tilts UV's by 45 degrees for the Sphere. |
+| <b>Camera</b> |  |
+| <b>Exposure</b> <i>-4.0 - 4.0</i> | Set camera exposure. |
+| <b>Tone Mapper</b> <i>Linear, ACES, Filmic Hejl</i> | Set which tone mapping solution to use for the final image. |
+| <b>Camera Mode</b> <i>Perspective, Orthographic</i> | Switch camera between two projection modes. |
+| <b>Field of View</b> <i>0.01 - 100.0</i> | Set camera FOV angle. |
+| <b>Distance</b> <i>0.0 - 4.0</i> | Set the distance of the camera from the object center. |
+| <b>Vignette Intensity</b> <i>0.0 - 1.0</i> | Set intensity of vignette effect. |
+| <b>Vignette Radius</b> <i>0.0 - 1.0</i> | Set radius of the vignette effect. |
+| <b>Screen Position</b> | Moves the camera around the object, can be changed with a gizmo in the 2D view as well. |
+| <b>Depth of Field</b> |  |
+| <b>Aperture Radius</b> <i>0.0 - 0.1</i> | Sets radius of the aperture. Higher values mean out-of-focus areas get blurrier (bokeh). |
+| <b>Aperture Blades</b> <i>3 - 9</i> | Sets the shape of the bokeh blur. |
+| <b>Aperture Ring</b> <i>0.0 - 1.0</i> | Adds an inner gradient to the bokeh shape. |
+| <b>Aperture Difraction</b> <i>0.0 - 2.0</i> | Adds chromatic aberration to the bokeh. |
+| <b>Swirly Bokeh</b> <i>0.0 - 1.0</i> | Adds a swirl or spinning type of effect to out-of-focus bokeh blur areas. |
+| <b>Focus Mode</b> <i>Auto, Point</i> | Set if focus is pre-determined or user-set. Point focus lets you move a point in the 2D view to determine the focus distance. |
+| <b>Focus Point</b> | If focus is set to Point, this lets you move that point. has a 2D view gizmo. |
+| <b>Focus Offset</b> <i>-0.5 - 0.5</i> | If focus is set to Auto, allows you to shift it back and forth. |
+| <b>Use Custom Aperture Map</b> <i>False/True</i> | Overrides Aperture settings above and use Aperture map input to determine the bokeh shape. Requires an input. |
+| <b>Post Effects</b> |  |
+| <b>Enable Post Effects</b> <i>False/True</i> | Toggles <i>all</i> post-effects in the final render. |
+| <b>Bloom Intensity</b> <i>0.0 - 2.0</i> | Sets strength of the bloom effect. |
+| <b>Bloom Threshold</b> <i>0.0 - 2.0</i> | Sets low threshold for bloom to appear. |
+| <b>Bloom Chroma Shift</b> <i>0.0 - 1.0</i> |  |
+| <b>Lens Halo Intensity</b> <i>0.0 - 1.0</i> | Sets intensity for the lens halo effect. |
+| <b>Lens Flares Intensity</b> <i>0.0 - 1.0</i> | Sets intensity for the lens flare. Make sure the light from your environment background is in view to properly see this effect. |
+| <b>Lens Dirt Intensity</b> <i>0.0 - 1.0</i> | Sets effect of lens dirt map on the Lens flares. |
+| <b>Render Settings</b> |  |
+| <b>Diffuse Quality</b> <i>16 Samples, 32 Samples, 64 Samples, 128 Samples</i> | Switch between quality levels for the diffuse map. |
+| <b>Diffuse Emissive Mulitplier</b> <i>0.0 - 1.0</i> | Controls how much the emissive parts are contributing to the irradiance. |
+| <b>Diffuse Shadow Intensity</b> <i>0.0 - 1.0</i> | Controls the intensity of the diffuse shadows. |
+| <b>Specular Dithering</b> <i>0.0 - 1.0</i> | Set the amount of dithering for the specular. |
+| <b>Specular Shadow Multiplier</b> <i>0.0 - 1.0</i> | Controls the intensity of shadows in the specular reflections. |
+| <b>Opacity Mode</b> <i>Dithered Alpha test, Simple Alpha Blend</i> | Controls the method of applying transparency. The <i>Simple Alpha Blend</i> mode is most visible on uniform backgrounds. |
+| <b>Ambient Occlusion Intensity</b> <i>0.0 - 1.0</i> | Sets the intensity of ambient occlusion shadows. |
+| <b>Material Adjustements</b> |  |
+| <b>Recompute Normals</b> <i>False/True</i> | Normals will be recomputed from the height map according to the displacement intensity. |
+| <b>Normal Format</b> <i>DirectX, OpenGL</i> | Switch between different Normal Map formats (inverts the green channel) |
+| <b>Dielectric F0 Input</b> <i>Constant Value, Specular Level input</i> | Set what drives F0 values. Specular Level input means it will be driven by an input map. |
+| <b>Dielectric F0</b> <i>0.0 - 0.08</i> | If Constant Value is chosen for Dielectric F0 Input, this slider lets you set the global value. |
+| <b>Clear Coat</b> |  |
+| <b>Enable Clear Coat</b> <i>False/True</i> | Enables an additional, simple clear coat layer on top of the input material. |
+| <b>Clear Coat Weight</b> <i>0.0 - 1.0</i> | Sets intensity or strength of the clearcoat layer. |
+| <b>Clear Coat Specular Level</b> <i>0.0 - 1.0</i> | Sets the roughness of the clearcoat layer. |
+| <b>Inherit Normal from Base Layer</b> <i>False/True</i> | Set if clearcoat ignores or uses normals from the base material. |
+| <b>Emissive</b> |  |
+| <b>Enable Emissive Lighting</b> <i>True/False</i> | Toggles the diffuse contribution of emissive lighting. |
+| <b>Emissive Intensity</b> <i>0.0 - 10.0</i> | Sets global multiplier for the emissive map. |
+| <b>Subsurface Scattering</b> |  |
+| <b>Enable Subsurface Scattering</b> <i>True/False</i> | Toggles subsurface scattering in the final render.<br><br><i>Note:</i> Subsurface scattering requires the <b>Translucency</b> input value be <i>higher than 0.0</i> |
+| <b>Scattering Distance</b> <i>0.0 - 1.0</i> | Adjusts the maximum distance of the scattering effect.<br><br><i>Note:</i> This value is multipled against the <b>Scattering Distance Scale</b> input value <i>per color channel</i>. |
+| <b>Red Shift</b> <i>0.0 - 1.0</i> | Adjusts the intensity of the Red shift effect in the scattering. |
+| <b>Rayleigh</b> <i>0.0 - 1.0</i> | Adjusts the intensity of the Rayleigh effect in the scattering. |
 
-## Example Images
+## Examples
 
 All images were generated directly inside of Designer, in the 2D viewport, using materials from the [Substance 3D assets](https://substance3d.adobe.com/assets) library.
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/pbr-render-v2.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/sphere-ominous-obsidian.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c3_image" src="../../../../../../assets/sphere-forest-gravel-1.jpg" width="300px"/></div> |
-| --- | --- | --- | --- |
-|  |  |  |  |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_image" src="../../../../../../assets/sphere-chesterfield-1.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_image" src="../../../../../../assets/sphere-carbon-fiber.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c2_image" src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c3_image" src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" width="300px"/></div> |
-|  |  |  |  |
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/pbr-render-v2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/sphere-ominous-obsidian.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/sphere-forest-gravel-1.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/sphere-chesterfield-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/sphere-carbon-fiber.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/plane-inclined-lumber-tiles.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/cylinder-medieval-leaded-glass-window.jpg" />
+        </td>
+    </tr>
+</table>
