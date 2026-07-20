@@ -16,79 +16,73 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/fabric-weathering.png){width="128px"}
 
-## Fabric Weathering
-
-**In:** *Mesh Based Generators**/Weathering*
-
-**Complex**
+<b>In:</b> Mesh Based Generators &gt; Weathering
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-This is a full-material effect that works on multiple channels at once. It adds a random fabric wear effect, with control for age and dirtiness.  
-This effect does not work very well unless you have proper baked AO and World Space Normalmaps plugged in, since it requires these to adequately calculate and generate everything.
+This is a full-material effect that works on multiple channels at once. It adds a random fabric wear effect, with control for age and dirtiness.<br>This effect does not work very well unless you have proper baked AO and World Space Normalmaps plugged in, since it requires these to adequately calculate and generate everything.
 
 Make sure to fully understand the [Link Creation Modes](../../../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) when working with full materials.
 
-## Parameters
-
-### Inputs
-
-* **Ambient Occlusion**: *Grayscale Input*   
-  Baked map used for internal effects and masking.
-* **Normal Wold Space**: *Color Input*
-* **Mask** : *Grayscale Input*   
-  Mask slot used for masking the node's effects. Can be toggled with the "Mask" parameter.
-
-### Parameters
-
-* **Channels**   
-  * Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness.
-* **Advanced**   
-  * **Normal Format**: *DirectX, OpenGL*  
-    Switches between different Normalmap formats (inverts the green channel).
-  * **Mask**: *False/True*  
-    Toggles the use of the Mask map on or off.
-* **Effect**   
-  * **Dust**: *0.0 - 1.0*Blends in a darker dust effect, based on areas facing up in the World Space Normalmap.
-  * **Dirtiness**: *0.0 - 1.0*Blends in a global dirt/smudge effect, based mostly on areas occluded (dark) in the AO.
-  * **Edges Wearing**: *0.0 - 1.0*Adds a sharpening/intensifying effect to edges, based on Material Normal.
-  * **Used**: *0.0 - 1.0*Blends in very dark accumulated dirt in creases, based on AO. Maximum and Minimum values tend to be very extreme, use these with care.
-  * **Age**: *0.0 - 1.0*Blends over a global tiling wear pattern. Treshold control below controls AO influence. Maximum and Minimum values tend to be very extreme.
-  * **Age Threshlod**: *0.0 - 1.0*Sets the extent to which the AO affects the Age parameter.
-  * **Age Creases**: *0.0 - 1.0*Controls the blending of subtle additional creases in the Age effect.
-  * **Sharp Edges Scratches Scale**: *1.0 - 32.0*Sets the scale of small scratches, which mainly scrape away Used and Age effect.
-  * **Sharp Edges Scratches Warp Intensity**: *0.0 - 1.0*Sets the intensity of the warp for the above small scratches.
-  * **Old Fabric Desaturation**: *0.0 - 1.0*Controls the desaturation of the Age effect.
-  * **Old Fabric Brightness**: *0.0 - 1.0*Controls the brightness of the Age effect. *This is a very important parameter to change to get the look you like, but results can be extreme: use with subte changes.*
-* **Blending**   
-  * **Diffuse Intensity**: *0.0 - 1.0*  
-    Blending strength of the Diffuse.
-  * **Base Color Intensity**: *0.0 - 1.0*  
-    Blending strength of the Base Color.
-  * **Normal Intensity**: *0.0 - 1.0*  
-    Blending strength of the Normal.
-  * **Specular Intensity**: *0.0 - 1.0*  
-    Blending strength of the Specular.
-  * **Glossiness Intensity**: *0.0 - 1.0*  
-    Blending strength of the Glossiness.
-  * **Roughness Intensity**: *0.0 - 1.0*  
-    Blending strength of the Roughness.
-  * **Ambient Occlusion Intensity**: *0.0 - 1.0*  
-    Blending strength of the Ambient Occlusion.
-  * **Height Intensity**: *0.0 - 1.0*  
-    Blending strength of the Height.
-
-## Example Images
-
-![](../../../../../../assets/fabric-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. |
+| <b>Normal Wold Space</b> <i>Color Input</i> |  |
+| <b>Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. Can be toggled with the "Mask" parameter. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Channels</b> | Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness. |
+| <b>Advanced</b> |  |
+| <b>Normal Format</b> <i>DirectX, OpenGL</i> | Switches between different Normalmap formats (inverts the green channel). |
+| <b>Mask</b> <i>False/True</i> | Toggles the use of the Mask map on or off. |
+| <b>Effect</b> |  |
+| <b>Dust</b> <i>0.0 - 1.0</i> | Blends in a darker dust effect, based on areas facing up in the World Space Normalmap. |
+| <b>Dirtiness</b> <i>0.0 - 1.0</i> | Blends in a global dirt/smudge effect, based mostly on areas occluded (dark) in the AO. |
+| <b>Edges Wearing</b> <i>0.0 - 1.0</i> | Adds a sharpening/intensifying effect to edges, based on Material Normal. |
+| <b>Used</b> <i>0.0 - 1.0</i> | Blends in very dark accumulated dirt in creases, based on AO. Maximum and Minimum values tend to be very extreme, use these with care. |
+| <b>Age</b> <i>0.0 - 1.0</i> | Blends over a global tiling wear pattern. Treshold control below controls AO influence. Maximum and Minimum values tend to be very extreme. |
+| <b>Age Threshlod</b> <i>0.0 - 1.0</i> | Sets the extent to which the AO affects the Age parameter. |
+| <b>Age Creases</b> <i>0.0 - 1.0</i> | Controls the blending of subtle additional creases in the Age effect. |
+| <b>Sharp Edges Scratches Scale</b> <i>1.0 - 32.0</i> | Sets the scale of small scratches, which mainly scrape away Used and Age effect. |
+| <b>Sharp Edges Scratches Warp Intensity</b> <i>0.0 - 1.0</i> | Sets the intensity of the warp for the above small scratches. |
+| <b>Old Fabric Desaturation</b> <i>0.0 - 1.0</i> | Controls the desaturation of the Age effect. |
+| <b>Old Fabric Brightness</b> <i>0.0 - 1.0</i> | Controls the brightness of the Age effect. *This is a very important parameter to change to get the look you like, but results can be extreme: use with subte changes.* |
+| <b>Blending</b> |  |
+| <b>Diffuse Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Diffuse. |
+| <b>Base Color Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Base Color. |
+| <b>Normal Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Normal. |
+| <b>Specular Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Specular. |
+| <b>Glossiness Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Glossiness. |
+| <b>Roughness Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Roughness. |
+| <b>Ambient Occlusion Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Ambient Occlusion. |
+| <b>Height Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Height. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/fabric-ex.gif" />
+        </td>
+    </tr>
 </table>

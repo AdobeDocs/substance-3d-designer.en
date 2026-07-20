@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/fiber-glass-edge-wear.png){width="128px"}
 
-## Fiber Glass Edge Wear
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Intermediate**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,39 +31,45 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 Represents a mask specifically intended for a fibreglass-type of wear, could perhaps be used for cloth. Due to the very tiled, repetitive nature of the fibres, Triplanar blending can optionally be enabled.
 
-## Parameters
-
-### Inputs
-
-* **Curvature**: *Grayscale Input*   
-  Baked map used for edge highlighting. Required!
-* **Ambient Occlusion**: *Grayscale Input*   
-  Baked map used for masking occluded areas. Not required, but definitely recommended.
-* **Grunge Input**: *Grayscale Input*   
-  Optional custom slot to override fiber pattern.
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-* **World Space Normal**: *Color Input*   
-  Only used for Triplanar.
-* **Position**: *Color Input*   
-  Only used for Triplanar.
-
-### Parameters
-
-* **Wear Level**: *0.0 - 1.0*Like a [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), progressively reveals the wear.
-* **Wear Contrast**: *0.0 - 1.0*Sets total effect contrast.
-* **Edges Smoothness**: *0.0 - 16.0*Sets bleed out/blurring from highlighted edges.
-* **Grunge Amount**: *0.0 - 1.0*Sets how much of the fibre effect to blend in between the edges. Tweak this together with Wear Level to get maximum control.
-* **Ambient Occlusion Masking**: *0.0 - 1.0*Sets amount of influence the AO has on hiding the effect.
-* **Curvature Weight**: *0.0 - 1.0*Sets amount of influence Convex edges from the Curvature have.
-* **Use Custom Grunge**: *False/True*Overrides built-in fibres with custom map.
-* **Use Triplanar**: *False/True*Enables [Tri Planar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) to hide seams.
-* **Triplanar Blending Contrast**: *0.0 - 1.0*Controls contrast of the Triplanar effect.
-
-## Example Images
-
-![](../../../../../../assets/fiber-glass-edge-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used for edge highlighting. Required! |
+| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used for masking occluded areas. Not required, but definitely recommended. |
+| <b>Grunge Input</b> <i>Grayscale Input</i> | Optional custom slot to override fiber pattern. |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+| <b>World Space Normal</b> <i>Color Input</i> | Only used for Triplanar. |
+| <b>Position</b> <i>Color Input</i> | Only used for Triplanar. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Wear Level</b> <i>0.0 - 1.0</i> | Like a [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), progressively reveals the wear. |
+| <b>Wear Contrast</b> <i>0.0 - 1.0</i> | Sets total effect contrast. |
+| <b>Edges Smoothness</b> <i>0.0 - 16.0</i> | Sets bleed out/blurring from highlighted edges. |
+| <b>Grunge Amount</b> <i>0.0 - 1.0</i> | Sets how much of the fibre effect to blend in between the edges. Tweak this together with Wear Level to get maximum control. |
+| <b>Ambient Occlusion Masking</b> <i>0.0 - 1.0</i> | Sets amount of influence the AO has on hiding the effect. |
+| <b>Curvature Weight</b> <i>0.0 - 1.0</i> | Sets amount of influence Convex edges from the Curvature have. |
+| <b>Use Custom Grunge</b> <i>False/True</i> | Overrides built-in fibres with custom map. |
+| <b>Use Triplanar</b> <i>False/True</i> | Enables [Tri Planar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) to hide seams. |
+| <b>Triplanar Blending Contrast</b> <i>0.0 - 1.0</i> | Controls contrast of the Triplanar effect. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/fiber-glass-edge-wear-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/edge-dirt.png){width="128px"}
 
-## Edge Dirt
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Simple**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,30 +31,37 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask represents a dirt effect that accumulates around edges, based solely on a curvature map.
 
-## Parameters
-
-### Inputs
-
-* **Curvature**: *Grayscale Input*   
-  Baked map used for effect placement. Required!
-* **Variation Mask**: *Grayscale Input*   
-  Mask slot used for masking the node's effects, only used when override parameter is enabled.
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-
-### Parameters
-
-* **Level**: *0.0 - 1.0*  
-  Sets the amount of dirt.
-* **Contrast**: *0.0 - 1.0*  
-  Adjusts the contrast of the result.
-* **Variation**: *0.0 - 1.0*Blends in how much large-scale masking/breakup should happen.
-* **Override variation mask**: *False/True*
-
-## Example Images
-
-![](../../../../../../assets/edge-dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used for effect placement. Required! |
+| <b>Variation Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects, only used when override parameter is enabled. |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Level</b> <i>0.0 - 1.0</i> | Sets the amount of dirt. |
+| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. |
+| <b>Variation</b> <i>0.0 - 1.0</i> | Blends in how much large-scale masking/breakup should happen. |
+| <b>Override variation mask</b> <i>False/True</i> |  |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/edge-dirt-ex.gif" />
+        </td>
+    </tr>
 </table>
