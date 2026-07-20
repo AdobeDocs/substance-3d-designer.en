@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/normal-invert.png){width="128px"}
 
-## Normal Invert
-
-**In:** *Filters/Normal Map*
-
-**Simple**
+<b>In:</b> Filters &gt; Normal Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,19 +31,17 @@ Allows you to invert any and all channels of a Normalmap, providing a quick and 
 
 Keep in mind that almost every node that uses a Normalmap as input or output has an option to invert the Green channel, for DirectX or OpenGL style Normalmaps. This means that for those cases, you should almost never need this node.
 
-## Parameters
-
-* **Invert Red**: *False/True*
-* **Invert Green**: *False/True*
-* **Invert Blue**: *False/True*
-* **Invert Alpha**: *False/True*
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Invert Red</b> <i>False/True</i> |  |
+| <b>Invert Green</b> <i>False/True</i> |  |
+| <b>Invert Blue</b> <i>False/True</i> |  |
+| <b>Invert Alpha</b> <i>False/True</i> |  |

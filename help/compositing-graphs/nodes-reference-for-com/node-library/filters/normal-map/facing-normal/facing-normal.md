@@ -16,32 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/facing-normal.png){width="128px"}
 
-## Facing Normal
-
-**In:** *Filters/Normal Map*
-
-**Simple**
+<b>In:</b> Filters &gt; Normal Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 This filter takes a Normalmap as an entry image and produces a grayscale image in which the value corresponds to how much the normals are facing the viewer in texture space.
-
-## Parameters
-
-*No Parameters.*
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
 
 </td>
 </tr>

@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
 
-## Vector Morph (Grayscale)
-
-**In:** *Filters/Effects*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,19 +33,23 @@ This node itself is not the most difficult to use, but creating a proper Vector 
 
 Vector Morph is very similar to [Vector Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md): the main difference is that this Morph node does not "loop" or "tile" the result when it gets pushed outside of the canvas bounds. Instead, it clamps and repeats the edges.
 
-## Parameters
-
-### Inputs
-
-* **Input**: *Color/Grayscale Input*The source input that should be the target for the warping.
-* **Vector Field**: *Color Input*The Vector Map used to drive the warping.
-
-### Parameters
-
-* **Amount**: *0.0 - 1.0*Sets the intensity of the warping effect, works as a multiplier for the Vector Map.
-
-## Example Images
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Color/Grayscale Input</i> | The source input that should be the target for the warping. |
+| <b>Vector Field</b> <i>Color Input</i> | The Vector Map used to drive the warping. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Amount</b> <i>0.0 - 1.0</i> | Sets the intensity of the warping effect, works as a multiplier for the Vector Map. |

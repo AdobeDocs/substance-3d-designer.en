@@ -39,44 +39,30 @@ This node may be used in combination with the following nodes: [Quantize Color](
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *Grayscale* PRIMARY | The input ID map used to select colors, in order to modify and distribute them in the output.   An ID map is an image where pixels which are part of a whole (E.g., a shape) all hold the same unique identification value. In this case, the value is an integer.   An ID map can be produced using a [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) node. |
-| <b>Palette</b> *Color* | An ordered list of RGB colors encoded as a row of pixels. The palette can hold a maximum of 256 colors. This is the palette that the node modifies.   Palettes may be produced with the [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) or [Create Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) nodes. |
+|:---|:---|
+| <b>ID</b> <i>Grayscale</i> PRIMARY | The input ID map used to select colors, in order to modify and distribute them in the output.   An ID map is an image where pixels which are part of a whole (E.g., a shape) all hold the same unique identification value. In this case, the value is an integer.   An ID map can be produced using a [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) node. |
+| <b>Palette</b> <i>Color</i> | An ordered list of RGB colors encoded as a row of pixels. The palette can hold a maximum of 256 colors. This is the palette that the node modifies.   Palettes may be produced with the [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) or [Create Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) nodes. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Color* | The result of mapping the colors in the modified palette to the indexes of the ID map. |
-| <b>Palette</b> *Color* | The updated palette with the specified color modifications applied.   The palette may be applied to another image with the [Apply Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) node, or visualized with the [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) node. |
+|:---|:---|
+| <b>Output</b> <i>Color</i> | The result of mapping the colors in the modified palette to the indexes of the ID map. |
+| <b>Palette</b> <i>Color</i> | The updated palette with the specified color modifications applied.   The palette may be applied to another image with the [Apply Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) node, or visualized with the [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) node. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Color selection mode</b> *Integer* | The method of selecting the target color in the palette which should be modified:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Color index:</b> The index of the target color</li> <li data-preserve-html="true"><b>Image space:</b> The position in the ID map where the index should be sampled. When this mode is selected, a position gizmo is available in the 2D View for easy selection</li> </ul> |
 | <b>Color position</b> *Float2*   *Available when 'Color selection mode' is set to 'Image space'* | The position in the ID map where the index should be sampled.   Use the gizmo in the 2D View for easily selecting a location in the image.   Tip: You may display the quantized image that the ID map is extracted from, then select the Modify Color Palette node to display the gizmo. This makes selecting a color to modify more intuitive. |
 | <b>Color index</b> *Integer*   *Available when 'Color selection mode' is set to 'Color index'* | The index of the target color.   Colors in the palette are ordered from left to right, and the first color's index is 0. |

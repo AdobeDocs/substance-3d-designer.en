@@ -38,38 +38,22 @@ The order of colors in the palette is preserved, with the colors flowing from le
 
 This node may be used to visualize the palettes produced by the following nodes: [Quantize Color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md), [Create Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Palette</b> *Color* PRIMARY | An ordered list of RGB colors encoded as a row of pixels. The palette can hold a maximum of 256 colors.   This is the palette that the node packs and renders. |
-| <b>Palette Color Amount</b> *Integer* | The amount of colors stored in the palette.   If that number does not match the actual amount of colors in the 'Palette' image input, the visualization may be incomplete or have more blank slots than absolutely necessary. |
+|:---|:---|
+| <b>Palette</b> <i>Color</i> PRIMARY | An ordered list of RGB colors encoded as a row of pixels. The palette can hold a maximum of 256 colors.   This is the palette that the node packs and renders. |
+| <b>Palette Color Amount</b> <i>Integer</i> | The amount of colors stored in the palette.   If that number does not match the actual amount of colors in the 'Palette' image input, the visualization may be incomplete or have more blank slots than absolutely necessary. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Color* | The visualization of the packed palette. |
+|:---|:---|
+| <b>Output</b> <i>Color</i> | The visualization of the packed palette. |
 
 ## Examples
 

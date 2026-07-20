@@ -16,34 +16,20 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/rgba-split.png){width="128px"}
 
-## RGBA Split
-
-**In:** *Filters/Channels*
-
-**Simple**
+<b>In:</b> Filters &gt; Channels
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Splits an input image into its respective Red, Green, Blue and Alpha channels. Effectively "unpacks" an image.
 
 Helpful for analysing and using packed channels separately. When using a baked Position map, or a baked World Space Normalmap for effects in Substance Painter, it allows you to single out the X-, Y- or Z-component, for example.
-
-## Parameters
-
-*No Parameters.*
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
 
 </td>
 </tr>

@@ -39,25 +39,30 @@ For every pixel, the node computes a grayscale value according to the median val
 >
 > See also [Median filter color](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/median-filter-color/median-filter-color.md).
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Input </b>*Grayscale*The grayscale image that the filter should be applied to.
+## Inputs
 
-## Output connectors
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Grayscale</i> | The grayscale image that the filter should be applied to. |
 
-<b>Output</b>*Grayscale*The grayscale image computed by applying the filter to the input grayscale image.
+<a name="outputs"></a>
+
+## Outputs
+
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The grayscale image computed by applying the filter to the input grayscale image. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Kernel size</b> *Integer*A kernel is a specific group of values used in a filter’s computations. In this context, it is the values of the neighbouring pixels.  
-For every pixel, the filter takes all neighbors around that pixel in a square kernel and computes the median value of all neighbors.  
-This parameter controls the size of that square kernel, in pixels. A larger kernel results in a stronger, farther-reaching smoothing effect at the cost of some detail.  
-*- 3x3:* a kernel 3 pixels wide and 3 pixels tall, totalling 8 neighbor pixels.  
-*- 5x5:* a kernel 5 pixels wide and 5 pixels tall, totalling 24 neighbor pixels.
-
-<b>Filter type</b> *Integer*The computation applied to the neighbors sampled in the kernel.  
-*- Median:* Use the median value of all neighbors directly.  
-*- MLMAD:* Stands for 'Median Of Least Median Absolute Deviation'. The deviation accounts for how different a value is from the median. Instead of using the median value directly which may be skewed by an outlier pixel with high deviation, the MLMAD method uses the median of all deviations. This method results in a stronger smoothing effect that may flatten areas according to the kernel size.
+|  |  |
+|:---|:---|
+| <b>Kernel size</b> *Integer* | A kernel is a specific group of values used in a filter’s computations. In this context, it is the values of the neighbouring pixels.<br><br>For every pixel, the filter takes all neighbors around that pixel in a square kernel and computes the median value of all neighbors.<br><br>This parameter controls the size of that square kernel, in pixels. A larger kernel results in a stronger, farther-reaching smoothing effect at the cost of some detail.<br><br>*- 3x3:* a kernel 3 pixels wide and 3 pixels tall, totalling 8 neighbor pixels.<br>*- 5x5:* a kernel 5 pixels wide and 5 pixels tall, totalling 24 neighbor pixels. |
+| <b>Filter type</b> *Integer* | The computation applied to the neighbors sampled in the kernel.<br><br>*- Median:* Use the median value of all neighbors directly.<br>*- MLMAD:* Stands for 'Median Of Least Median Absolute Deviation'. The deviation accounts for how different a value is from the median. Instead of using the median value directly which may be skewed by an outlier pixel with high deviation, the MLMAD method uses the median of all deviations. This method results in a stronger smoothing effect that may flatten areas according to the kernel size. |
 
 ## Examples
 

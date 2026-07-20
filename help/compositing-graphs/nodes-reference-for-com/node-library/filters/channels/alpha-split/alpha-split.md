@@ -16,34 +16,20 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/rgb-a-split.png){width="128px"}
 
-## Alpha Split
-
-**In:** *Filters/Channels*
-
-**Simple**
+<b>In:</b> Filters &gt; Channels
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Strips away and singles out the alpha of an input image. Also see [Alpha Merge](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) for the opposite result.
 
 Outputs the image stripped of alpha, and the alpha channel separately.
-
-## Parameters
-
-*No Parameters.*
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
 
 </td>
 </tr>

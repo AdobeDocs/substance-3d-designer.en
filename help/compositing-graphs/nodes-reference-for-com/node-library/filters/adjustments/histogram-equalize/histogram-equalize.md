@@ -33,42 +33,28 @@ Equalizes the histogram for a grayscale image, effectively adjusting the graysca
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Input</b> *Grayscale* PRIMARY | The image for which the histogram should be equalized. |
+|:---|:---|
+| <b>Input</b> <i>Grayscale</i> PRIMARY | The image for which the histogram should be equalized. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* | The result image with histogram equalization applied. |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The result image with histogram equalization applied. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Histogram resolution</b> *Integer* | The width of the histogram. A higher value allows for a finer value distribution.   Available resolutions are, in pixels:  256, 512, 1024, 2048, 4096 |
 | <b>Histogram smoothing</b> *Float* | The histogram may be smoothed by redistributing the grayscale values in the image to equalize the *difference* between each value.   This parameter adjusts the intensity of that smoothing. |
 

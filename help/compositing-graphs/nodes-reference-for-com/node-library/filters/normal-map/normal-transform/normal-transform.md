@@ -16,32 +16,29 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/normal-transform.png){width="128px"}
 
-## Normal Transform
-
-**In:** *Filters/Normal Map*
-
-**Simple**
+<b>In:</b> Filters &gt; Normal Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Similar to the atomic Transform 2D node, this allows for transformation of Normalmaps without breaking Tangent-space, instead it is recalculated on the fly, resulting in always correct Normalmaps.
 
-## Parameters
-
-* **Matrix2x2**: *(Transformation Matrix):*  
-  Rotate or Scale the input.
-* **Offset**: *-0.5 - 0.5*  
-   Moves or translates the result. When the Transformation control is present, result can be modified by directly interacting with the canvas.
-* **Normal Format**: *DirectX, OpenGL*  
-   Switch between different Normal Map formats (inverts the green channel)
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Matrix2x2</b> <i>(Transformation Matrix):</i> | Rotate or Scale the input. |
+| <b>Offset</b> <i>-0.5 - 0.5</i> | Moves or translates the result. When the Transformation control is present, result can be modified by directly interacting with the canvas. |
+| <b>Normal Format</b> <i>DirectX, OpenGL</i> | Switch between different Normal Map formats (inverts the green channel) |

@@ -16,40 +16,44 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/mirror-2.png){width="128px"}
 
 ![](../../../../../../assets/mirror-grayscale.png){width="128px"}
 
-## Mirror (Grayscale)
-
-**In:** *Filters/Transforms*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Transforms
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Mirrors the input image over a chosen axis, from a chosen side. Very useful, quick way to get symmetrical effects.
 
-## Parameters
-
-* **Mode**: *Mirror Axis X, Mirror Axis Y, Mirror* *Corner*Choose to mirror left-right, top-bottom, or both.
-* **Axis X Offset**: *0.0 - 1.0*Only used when Axis X is chosen, define an offset.
-* **Axis Y Offset**: *0.0 - 1.0*Only used when Axis Y is chosen, define an offset.
-* **Invert Axis X**: *False/True*Only used when Axis X is chosen, Flip direction.
-* **Invert Axis Y**: *False/True*Only used when Axis Y is chosen, Flip direction.
-* **Corner Type**: *Top Left, Top Right, Bottom Left, Bottom Right*Only used when Corner type is chosen, define what corner to mirror from.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mirror-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Mode</b> <i>Mirror Axis X, Mirror Axis Y, Mirror Corner</i> | Choose to mirror left-right, top-bottom, or both. |
+| <b>Axis X Offset</b> <i>0.0 - 1.0</i> | Only used when Axis X is chosen, define an offset. |
+| <b>Axis Y Offset</b> <i>0.0 - 1.0</i> | Only used when Axis Y is chosen, define an offset. |
+| <b>Invert Axis X</b> <i>False/True</i> | Only used when Axis X is chosen, Flip direction. |
+| <b>Invert Axis Y</b> <i>False/True</i> | Only used when Axis Y is chosen, Flip direction. |
+| <b>Corner Type</b> <i>Top Left, Top Right, Bottom Left, Bottom Right</i> | Only used when Corner type is chosen, define what corner to mirror from. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/mirror-example.png" />
+        </td>
+    </tr>
 </table>

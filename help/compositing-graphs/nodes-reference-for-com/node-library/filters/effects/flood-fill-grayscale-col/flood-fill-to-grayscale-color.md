@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
 
 ![](../../../../../../assets/floodfill-to-color.png){width="128px"}
 
-## Flood Fill to Random Grayscale/Color
-
-**In:** *Filters/Effects*
-
-****Simple****
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,18 +33,24 @@ Uses Flood Fill data to generate grayscale or color value swatches. Unlike [Floo
 
 It's a powerfull system to give every cell a unique value or color, yet still retain control and base it off of a pre-determined input.
 
-## Parameters
-
-### Inputs
-
-* **Flood Fill**: *Color Input*
-* **Grayscale/Color Input**: *Grayscale/Color Input*
-
-### Parameters
-
-* **Luminance/Color Adjustment**: *-1.0 - 1.0*Set the bias or base value for the node. When a Grayscale or Color input is used, this is used to change that initial value as a starting point.
-* **Luminance/Color Random**: *-1.0 - 1.0*Set the amount of variation.
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Flood Fill</b> <i>Color Input</i> |  |
+| <b>Grayscale/Color Input</b> <i>Grayscale/Color Input</i> |  |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Luminance/Color Adjustment</b> <i>-1.0 - 1.0</i> | Set the bias or base value for the node. When a Grayscale or Color input is used, this is used to change that initial value as a starting point. |
+| <b>Luminance/Color Random</b> <i>-1.0 - 1.0</i> | Set the amount of variation. |

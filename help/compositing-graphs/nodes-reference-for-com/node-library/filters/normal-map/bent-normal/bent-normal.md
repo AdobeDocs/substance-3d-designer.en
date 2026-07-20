@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![Bent Normal node icon](../../../../../../assets/rt-bent-normal.png "Bent Normal node icon")
 
-<b>In:</b> *Filters/Normal Map*
+<b>In:</b> Filters &gt; Normal Map
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -36,33 +36,27 @@ This node should not be used in combination with the CPU (SSE) engine due to com
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-<b>Use Physical Size</b> *Boolean*  
-Toggle to use Physical Size settings to determine the height scale.
+|  |  |
+|:---|:---|
+| <b>Use Physical Size</b> <i>Boolean</i> | Toggle to use Physical Size settings to determine the height scale. |
+| <b>Physical Size</b> <i>Float3</i> | (Available when <b>Use Physical Size</b> is set to <i>True</i>) Adjusts the height scale based on the real physical size of the surface. |
+| <b>Samples</b> <i>Integer</i> | Number of rays used to compute the bent normal.<br>A higher provides a smoother and more precise result at the cost of performance. |
+| <b>Height Scale</b> <i>Float</i> | (Available when Use Physical Size is set to False) Multiplier for the intensity of the height map input. |
+| <b>Distribution</b> <i>Integer</i> | Sets the distribution method. Affects falloff towards shadowed areas. |
+| <b>Maximum Distance</b> <i>Float</i> | Sets the maximum distance rays can travel to be occluded. |
+| <b>Spread Angle</b> <i>Float</i> | Sets the spreading angle for the rays to be shot at. A value of 1 is a full hemisphere. |
+| <b>Normal Format</b> <i>Integer</i> | Inverts the output's green channel. |
 
-<b>Physical Size</b> *Float3* (Available when <b>Use Physical Size</b> is set to *True*)  
-Adjusts the height scale based on the real physical size of the surface.
+## Examples
 
-<b>Samples</b> *Integer*  
-Number of rays used to compute the bent normal.  
-A higher provides a smoother and more precise result at the cost of performance.
-
-<b>Height Scale</b> *Float (Available when Use Physical Size is set to False)*  
-Multiplier for the intensity of the height map input.
-
-<b>Distribution</b> *Integer*  
-Sets the distribution method. Affects falloff towards shadowed areas.
-
-<b>Maximum Distance</b> *Float*  
-Sets the maximum distance rays can travel to be occluded.
-
-<b>Spread Angle</b> *Float*  
-Sets the spreading angle for the rays to be shot at. A value of 1 is a full hemisphere.
-
-<b>Normal Format</b> *Integer*  
-Inverts the output's green channel.
-
-## Example Images
-
-![Bent Normal node - Example 1](../../../../../../assets/bent-normal-ex-1.jpg "Bent Normal node - Example 1")
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/bent-normal-ex-1.jpg" />
+        </td>
+    </tr>
+</table>

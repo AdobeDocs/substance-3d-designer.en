@@ -37,44 +37,30 @@ This node may be used in combination with the following nodes: [Quantize Color](
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Palette</b> *Color* PRIMARY | An ordered list of RGB colors encoded as a row of pixels. The palette can hold a maximum of 256 colors.   This input is optional. If used, colors set up by the node are appended to this palette.   The palette may be visualized with the [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) node. |
-| <b>Palette Color Amount</b> *Integer* | The amount of colors stored in the palette.   If that number does not match the actual amount of colors in the 'Palette' image input, the visualization may be incomplete or have more blank slots than absolutely necessary. |
+|:---|:---|
+| <b>Palette</b> <i>Color</i> PRIMARY | An ordered list of RGB colors encoded as a row of pixels. The palette can hold a maximum of 256 colors.   This input is optional. If used, colors set up by the node are appended to this palette.   The palette may be visualized with the [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) node. |
+| <b>Palette Color Amount</b> <i>Integer</i> | The amount of colors stored in the palette.   If that number does not match the actual amount of colors in the 'Palette' image input, the visualization may be incomplete or have more blank slots than absolutely necessary. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Palette</b> *Color* | The updated palette with the specified colors appended to it. |
-| <b>Palette Color Amount</b> *Integer* | The updated amount of colors stored in the palette, with the specified amount of colors added to it. |
+|:---|:---|
+| <b>Palette</b> <i>Color</i> | The updated palette with the specified colors appended to it. |
+| <b>Palette Color Amount</b> <i>Integer</i> | The updated amount of colors stored in the palette, with the specified amount of colors added to it. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Color amount</b> *Integer* | The amount of colors which should be added to the palette. |
 | <b>Color &#35;</b> *Float3*   *As many parameters available as the 'Color amount' value* | A color which should be added to the palette.   Colors are appended to the palette in the same order as this numbered list. |
 

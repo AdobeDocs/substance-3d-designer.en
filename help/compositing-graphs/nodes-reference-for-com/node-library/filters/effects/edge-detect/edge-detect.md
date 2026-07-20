@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/edge-detect.png){width="128px"}
 
-## Edge Detect
-
-**In:** *Filters/Effects*
-
-**Simple**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,20 +31,27 @@ Detects contrast in a black and white images, then creates a black and white mas
 
 Useful in many cases where some sort of mask for edges is needed. Keep in mind that it works best with high-contrast input; if needed, adjust the contrast before passing something into this node.
 
-## Parameters
-
-* **Edge Width**: *1.0 - 16.0*Width of the detected areas around the edges.
-* **Edge Roundness**: *0.0 - 16.0*Rounds, blurs and smooths together the generated mask.
-* **Invert**: *False/True*  
-  Inverts the result.
-* **Tolerance**: *0.0 - 1.0*Tolerance treshold factor for where edges should appear.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/edge-detect-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Edge Width</b> <i>1.0 - 16.0</i> | Width of the detected areas around the edges. |
+| <b>Edge Roundness</b> <i>0.0 - 16.0</i> | Rounds, blurs and smooths together the generated mask. |
+| <b>Invert</b> <i>False/True</i> | Inverts the result. |
+| <b>Tolerance</b> <i>0.0 - 1.0</i> | Tolerance treshold factor for where edges should appear. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/edge-detect-ex.png" />
+        </td>
+    </tr>
 </table>

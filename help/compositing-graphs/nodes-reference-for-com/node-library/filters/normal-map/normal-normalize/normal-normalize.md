@@ -16,34 +16,20 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/normal-normalize.png){width="128px"}
 
-## Normal Normalize
-
-**In:** *Filters/Normal Map*
-
-**Simple**
+<b>In:</b> Filters &gt; Normal Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Performs a mathematical vector normalisation operation on every single pixel in the image.
 
 Useful for when a lot of blending and modifications have been made to the Normalmap, and you want to ensure a correct result gets exported.
-
-## Parameters
-
-*No Parameters.*
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
 
 </td>
 </tr>

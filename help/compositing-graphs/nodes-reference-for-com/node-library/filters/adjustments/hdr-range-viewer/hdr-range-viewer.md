@@ -16,36 +16,40 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/hdr-range-viewer-grayscale.png){width="128px"}
 
 ![](../../../../../../assets/hdr-range-viewer.png){width="128px"}
 
-## HDR Range Viewer (Grayscale)
-
-**In:** *Filters/Adjustments*
-
-**Simple**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Debug tool to check exact areas with High Dynamic Range. Both Color and Grayscale versions exist.
 
-## Parameters
-
-* **Range Min**: *-2.0 - 0.0*Minimum range to start highlighting.
-* **Range Max**: *1.0 - 3.0*Maximum range to highlight up to.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/hdr-viewer-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Range Min</b> <i>-2.0 - 0.0</i> | Minimum range to start highlighting. |
+| <b>Range Max</b> <i>1.0 - 3.0</i> | Maximum range to highlight up to. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/hdr-viewer-example.png" />
+        </td>
+    </tr>
 </table>

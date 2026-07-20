@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/uber-emboss.png){width="128px"}
 
-## Uber Emboss
-
-**In:** *Filters/Effects*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,35 +31,41 @@ Advanced, feature-rich version of [Emboss](../../../../../../compositing-graphs/
 
 Useful when creating baked-in lighting for certain texturing styles when a lot of control is needed.
 
-## Parameters
-
-### Inputs
-
-* **Color**: *Color Input*   
-  Base image to modify.
-* **Height**: *Grayscale Input*   
-  Heightmap used as driver for the effect.
-
-### Parameters
-
-* **Ambient Color**: *(Color value)*Color used in shadowed areas.
-* **Diffuse Color**: *(Color value)*Color used in lit areas.
-* **Specular Color**: *(Color value)*Color used for specular reflections
-* **Light Intensity**: *0.0 - 1.0*  
-  Intensity of the (faked) light.
-* **Light Angle**: *0.0 - 1.0*  
-  Incidence angle of the (faked) light
-* **Specular Intensity**: *0.0 - 1.0*Intensity of the specular reflections.
-* **Specular Glossiness**: *0.0 - 1.0*Size of the specular highlight.
-* **Diffuse Roughness**: *0.0 - 1.0*Roughness used in calculating the diffuse lighting.
-* **Shadows Opacity**: *0.0 - 1.0*Blending opacity of the shadowed areas.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/uberemboss-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Color</b> <i>Color Input</i> | Base image to modify. |
+| <b>Height</b> <i>Grayscale Input</i> | Heightmap used as driver for the effect. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Ambient Color</b> <i>(Color value)</i> | Color used in shadowed areas. |
+| <b>Diffuse Color</b> <i>(Color value)</i> | Color used in lit areas. |
+| <b>Specular Color</b> <i>(Color value)</i> | Color used for specular reflections |
+| <b>Light Intensity</b> <i>0.0 - 1.0</i> | Intensity of the (faked) light. |
+| <b>Light Angle</b> <i>0.0 - 1.0</i> | Incidence angle of the (faked) light |
+| <b>Specular Intensity</b> <i>0.0 - 1.0</i> | Intensity of the specular reflections. |
+| <b>Specular Glossiness</b> <i>0.0 - 1.0</i> | Size of the specular highlight. |
+| <b>Diffuse Roughness</b> <i>0.0 - 1.0</i> | Roughness used in calculating the diffuse lighting. |
+| <b>Shadows Opacity</b> <i>0.0 - 1.0</i> | Blending opacity of the shadowed areas. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/uberemboss-ex.png" />
+        </td>
+    </tr>
 </table>

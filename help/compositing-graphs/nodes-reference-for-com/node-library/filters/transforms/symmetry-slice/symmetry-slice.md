@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/mirror-2.png){width="128px"}
 
-## Symmetry Slice
-
-**In:** *Filters/Transforms*
-
-**Complex**
+<b>In:</b> Filters &gt; Transforms
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,21 +31,28 @@ Complex Symmetry/mirroring operation node. Allows for a large variety of geometr
 
 Compared to [Mirror](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md) and [Symmetry](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/symmetry/symmetry.md), this node has many more options.
 
-## Parameters
-
-* **Symmetry Mode**: *0 - 6*Choose symmetry geometry/mirror line. Options are Horizontal, Vertical, Diagonal Left-Right, Diagonal Right-Left, Vertical Invert, Corner and Diagonal Corner.
-* **Transfer Mode**: *0 - 6  
-  Blend mode. Options are:*
-* **Blend**: *0.0 - 1.0*Blends the original image back into the result.
-* **Flip Side**: *False/True*Flips origin, meaning the origin side of the operation is reversed. Left to right symmetry for example becomes right to left.
-* **Flip Side2**: *False/True*Only used when Symmetry Mode is 5 or 6. Flip corner origin.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symslice.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Symmetry Mode</b> <i>0 - 6</i> | Choose symmetry geometry/mirror line. Options are Horizontal, Vertical, Diagonal Left-Right, Diagonal Right-Left, Vertical Invert, Corner and Diagonal Corner. |
+| <b>Transfer Mode</b> <i>0 - 6</i> | Blend mode. Options are: |
+| <b>Blend</b> <i>0.0 - 1.0</i> | Blends the original image back into the result. |
+| <b>Flip Side</b> <i>False/True</i> | Flips origin, meaning the origin side of the operation is reversed. Left to right symmetry for example becomes right to left. |
+| <b>Flip Side2</b> <i>False/True</i> | Only used when Symmetry Mode is 5 or 6. Flip corner origin. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/symslice.png" />
+        </td>
+    </tr>
 </table>

@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/anisotropic-blur-grayscale.png){width="128px"}
 
 ![](../../../../../../assets/anisotropic-blur.png){width="128px"}
 
-## Anisotropic Blur (Grayscale)
-
-**In:** *Filters/Blurs*
-
-**Simple**
+<b>In:</b> Filters &gt; Blurs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,17 +33,27 @@ Performs a high quality [directional blur](../../../../../../compositing-graphs/
 
 Important: make sure to use the appropriate version for your input! Use "Anisotropic Blur" for Color inputs, or "Anisotropic Blur Grayscale" for Grayscale inputs.
 
-## Parameters
-
-* **Intensity**: *0.0 - 16.0*Strength (Radius) of the blur. The higher this value, the further the blur will reach.
-* **Anisotropy**: *0.0 - 1.0*Directionality of the blur. Setting this to 0.0 is the same as performing a regular blur.
-* **Angle**: *0.0 - 1.0*Sets the angle for the blur direction.
-* **Quality**: *0 - 1*Switches between a[ box blur](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) and an HQ blur internally. Trades in speed for quality.
-
-## Example Images
-
-![](../../../../../../assets/aniso-blur-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Intensity</b> <i>0.0 - 16.0</i> | Strength (Radius) of the blur. The higher this value, the further the blur will reach. |
+| <b>Anisotropy</b> <i>0.0 - 1.0</i> | Directionality of the blur. Setting this to 0.0 is the same as performing a regular blur. |
+| <b>Angle</b> <i>0.0 - 1.0</i> | Sets the angle for the blur direction. |
+| <b>Quality</b> <i>0 - 1</i> | Switches between a[ box blur](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) and an HQ blur internally. Trades in speed for quality. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/aniso-blur-example.gif" />
+        </td>
+    </tr>
 </table>

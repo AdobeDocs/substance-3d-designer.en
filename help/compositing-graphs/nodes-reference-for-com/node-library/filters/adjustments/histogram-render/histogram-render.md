@@ -33,42 +33,28 @@ Draws the histogram for a grayscale image.
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Input</b> *Grayscale* PRIMARY | The image for which the histogram should be drawn. |
+|:---|:---|
+| <b>Input</b> <i>Grayscale</i> PRIMARY | The image for which the histogram should be drawn. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* | The histogram visualization computed out of the input image. |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The histogram visualization computed out of the input image. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Histogram resolution</b> *Integer* | The width of the histogram. A higher value allows for a finer value distribution.   Available resolutions are, in pixels:  256, 512, 1024, 2048, 4096 |
 | <b>Automatic scale</b> *Boolean* | When 'True', remaps the histogram to use the full height of the image.   When 'False', each column uses as many pixels in height as there are occurrences of a value in the input image. |
 | <b>Scale</b> *Float* | Scales the histogram vertically, where a value of 1 is the full height of the histogram. |
