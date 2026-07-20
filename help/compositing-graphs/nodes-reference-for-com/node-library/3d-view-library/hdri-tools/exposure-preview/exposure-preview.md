@@ -16,33 +16,38 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/hdr-exposure-preview.png){width="200px"}
 
-## Exposure Preview
-
-**In:** *3D View/HDRI Tools*
-
-**Simple**
+<b>In:</b> 3D View &gt; HDRI Tools
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Helper node to preview exposure steps. Users sets a min and max value, the node generates a much larger image with a number different exposed versions of the original input. The different versions are always stacked horizontally, the amount depends on the resolution of the node or graph.
 
-## Parameters
-
-* **Max Exposure (EV)**: *-8.0 - 8.0*  
-  Maximum exposure of the top, brightest image.
-* **Min Exposure (EV)**: *-8.0 - 8.0*Minimum exposure of the bottom, darkest image.
-
-## Example Images
-
-![](../../../../../../assets/exp-preview-ex.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Max Exposure (EV)</b> <i>-8.0 - 8.0</i> | Maximum exposure of the top, brightest image. |
+| <b>Min Exposure (EV)</b> <i>-8.0 - 8.0</i> | Minimum exposure of the bottom, darkest image. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/exp-preview-ex.png" />
+        </td>
+    </tr>
 </table>
