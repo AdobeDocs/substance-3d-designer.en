@@ -9,8 +9,18 @@
 
 * Entry points for Python API documentation on AdobeDocs
 * Examples in 'Documentation pop-up' page
-* Glossary:
+* Glossary entries for terms referenced/implied elsewhere in [glossary.md](help/glossary/glossary.md) but not yet defined:
+  * Metalness / Metallic
   * HDR
+  * Specular
+  * Height map
+  * Opacity
+  * Frustum
+  * Tangent space
+  * Seed / Random seed
+  * FX-Map
+  * Pixel processor
+  * Preset
 
 ## Fixes
 
