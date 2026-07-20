@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-10.png){width="128px"}
+![](crop.resources/crop-10.png){width="128px"}
 
-![](../../../../../../assets/crop-grayscale.png){width="128px"}
+![](crop.resources/crop-grayscale.png){width="128px"}
 
 <b>In:</b> Material Filters &gt; Scan Processing
 

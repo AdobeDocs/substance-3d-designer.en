@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gaussian-1.png){width="128px"}
+![](gaussian-1.resources/gaussian-1.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -47,7 +47,7 @@ Simple gaussian blob pattern.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gaussian-1-ex.gif" />
+            <img src="gaussian-1.resources/gaussian-1-ex.gif" />
         </td>
     </tr>
 </table>

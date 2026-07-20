@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
+![](physical-sun-sky.resources/panorama-physical-sun-sky.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -53,7 +53,7 @@ Physical Sun and Sky implementation based on Hosek-Wikie skylight model. Provide
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sky-ex.gif" />
+            <img src="physical-sun-sky.resources/sky-ex.gif" />
         </td>
     </tr>
 </table>

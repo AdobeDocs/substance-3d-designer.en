@@ -43,7 +43,7 @@ Using a trackpad (macOS only)
 > 
 > The zoom direction can be inverted in the [Preferences](../../interface/preferences-window/preferences-window.md).
 
-![Viewport navigation](../../assets/navigating.gif "Viewport navigation")
+![Viewport navigation](the-graph-view.resources/navigating.gif "Viewport navigation")
 
 You <b>focus</b> on the selected node(s), or the whole graph if nothing is selected, with the F key.
 
@@ -144,7 +144,7 @@ Nodes can be placed in graphs in 5 ways, regardless of the graph type:
 * Pressing <b>Spacebar</b> to access the <b>Node menu</b>. See below.
 * Using the keyboard shortcut mapped to a node. Mapping is performed in the [Preferences window](../../interface/preferences-window/preferences-window.md).
 
-![Placing nodes](../../assets/nodecreation.gif "Placing nodes")
+![Placing nodes](the-graph-view.resources/nodecreation.gif "Placing nodes")
 
 If a node is placed when another node is selected, Designer will attempt to automatically connect the new node to the old node.  
 This automatic connection always places the new node *after* the old one in the flow.
@@ -174,7 +174,7 @@ For instance, only nodes with a [Primary Input](../../compositing-graphs/inherit
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graph View: Node menu](../../assets/graph-node-menu_fuzzy-search.png "Graph View: Node menu")
+![Graph View: Node menu](the-graph-view.resources/graph-node-menu_fuzzy-search.png "Graph View: Node menu")
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ To select *multiple* nodes, the several methods are available:
 * <b>Upstream:</b> Click RMB on a node and select the <b>Select upstream nodes</b> option: the node and all nodes which are part of streams connected to the node's *inputs* are selected;
 * <b>Downstream:</b> Click RMB on a node and select the <b>Select downstream nodes</b> option: the node and all nodes which are part of streams connected to the node's *outputs* are selected.
 
-![Selecting nodes](../../assets/graph-selecting-nodes.gif "Selecting nodes")
+![Selecting nodes](the-graph-view.resources/graph-selecting-nodes.gif "Selecting nodes")
 
 ### Node contextual menu
 
@@ -262,7 +262,7 @@ A node A's *output connector* can be connected to another node B's *input connec
 > * for a *input* connector: the node falls back to a default value set for that input;
 > * for an *output* connector: the data is ignored and discarded when the graph is computed.
 
-![Connecting nodes](../../assets/links.gif "Connecting nodes")
+![Connecting nodes](the-graph-view.resources/links.gif "Connecting nodes")
 
 You may <b>create</b> a new link by clicking LMB on each of those connectors, in *any order*.  
 Also, if a node B is created while a node A is selected, then the *first output* of node A will be automatically connected to the *primary input* of node B.
@@ -285,7 +285,7 @@ Nodes can be disabled so they have *no effect* in the graph but do not need to b
 
 Disabled nodes have the following behaviour:
 
-* They are displayed with the ![](../../assets/graph-badge-disabled.png)&nbsp;&nbsp;<b>Disabled</b> badge*,*a *dashed outline*, and an interior *rerouting* link instead of a thumbnail;
+* They are displayed with the ![](the-graph-view.resources/graph-badge-disabled.png)&nbsp;&nbsp;<b>Disabled</b> badge*,*a *dashed outline*, and an interior *rerouting* link instead of a thumbnail;
 * The nodes will output the data received in their *main input*;
 * Disabled nodes can be *chained* together;
 * Their properties and connections are *not modified*;
@@ -303,7 +303,7 @@ You can disable a node or a group of selected nodes by using the <b>Shift+D</b> 
 > * The *types* of the main input and of the output must *match* – i.e. grayscale to grayscale, color to color
 > * All selected nodes must have the *same state* – i.e. all must be enabled, the same rule applies for enabling them
 
-![Disabling nodes](../../assets/graph-disable-node.gif "Disabling nodes"){width="512px"}
+![Disabling nodes](the-graph-view.resources/graph-disable-node.gif "Disabling nodes"){width="512px"}
 
 ## Interacting with the 2D view
 
@@ -335,78 +335,78 @@ To apply an node output in the [3D view](../../interface/3d-view/3d-view.md), cl
 
 The main toolbar can be found in every graph type, and provides general functions, as well as toggles for the visibility of the other toolbars. You can find these functions:
 
-![](../../assets/image2020-6-26-16-25-57.png)&nbsp;&nbsp;<b>Focus selection</b> (F)  
+![](the-graph-view.resources/image2020-6-26-16-25-57.png)&nbsp;&nbsp;<b>Focus selection</b> (F)  
 Focus view on selection, or whole scene if selection is empty.
 
-![](../../assets/image2020-6-26-16-26-8.png)&nbsp;&nbsp;<b>Reset zoom</b> (Z)  
+![](the-graph-view.resources/image2020-6-26-16-26-8.png)&nbsp;&nbsp;<b>Reset zoom</b> (Z)  
 Bring back the current zoom level to it's default state, and centers the view on the middle of the graph. Can mean zooming in or out.
 
-![](../../assets/image2020-6-26-16-26-26.png)&nbsp;&nbsp;<b>Export Graph view  
+![](the-graph-view.resources/image2020-6-26-16-26-26.png)&nbsp;&nbsp;<b>Export Graph view  
 </b>Exports the full graph at a 1:1 resolution as an image. Useful for sharing a screenshot of your entire graph.
 
-![](../../assets/image2020-6-26-16-26-37.png)&nbsp;&nbsp;<b>Node information  
+![](the-graph-view.resources/image2020-6-26-16-26-37.png)&nbsp;&nbsp;<b>Node information  
 </b>*- Display connector name:* Toggles the name display of each individual connector on a node.  
 *- Display node badges:* Toggles node Badges on all nodes.  
 *- Display node size:* Toggles node resolution display ([Substance graph](../../compositing-graphs/substance-compositing-graphs.md) only).  
 *- Display timings:* Toggles display of millisecond timings for each node ([Substance graph](../../compositing-graphs/substance-compositing-graphs.md) only).  
 *- Limit text scaling when zooming out:* Keeps the text of [graph items](../../interface/the-graph-view/graph-items/graph-items.md) at a constant screen size past a zoom threshold, which keeps the text clearly visible when zooming out.
 
-![](../../assets/image2020-6-26-16-26-52.png)<b> Node finder</b> (Ctrl+F)  
+![](the-graph-view.resources/image2020-6-26-16-26-52.png)<b> Node finder</b> (Ctrl+F)  
 Enables a tool to find nodes, exposed parameters and other variables in the graph. Learn more in the [dedicated page](../../interface/the-graph-view/node-finder/node-finder.md).
 
-![](../../assets/image2020-6-26-16-27-43.png)&nbsp;&nbsp;<b>Highlight flow  
+![](the-graph-view.resources/image2020-6-26-16-27-43.png)&nbsp;&nbsp;<b>Highlight flow  
 </b>Highlight any nodes connected before, or after the currently selected node. Good for tracing a complex path of nodes.
 
-![](../../assets/image2020-6-26-16-28-30.png)&nbsp;&nbsp;<b>Node palette  
+![](the-graph-view.resources/image2020-6-26-16-28-30.png)&nbsp;&nbsp;<b>Node palette  
 </b>Shows or hide the node toolbar, see below.
 
-![](../../assets/image2020-6-26-16-32-33.png)&nbsp;&nbsp;<b>Rectangle links  
+![](the-graph-view.resources/image2020-6-26-16-32-33.png)&nbsp;&nbsp;<b>Rectangle links  
 </b>Switch between rounded or rectangular-shaped links between nodes. Not available for [FX-Maps.](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
-![](../../assets/image2020-6-26-16-38-2.png)&nbsp;&nbsp;<b>Node alignment tools  
+![](the-graph-view.resources/image2020-6-26-16-38-2.png)&nbsp;&nbsp;<b>Node alignment tools  
 </b>Enables tools to arrange selected nodes in the graph. Learn more in the [dedicated page](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md).
 
 Only on [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md):
 
-![](../../assets/image2020-6-26-16-29-6.png)&nbsp;&nbsp;<b>Parent size  
+![](the-graph-view.resources/image2020-6-26-16-29-6.png)&nbsp;&nbsp;<b>Parent size  
 </b>Toggles display of the Parent Resolution control settings, see below.
 
-![](../../assets/image2020-6-26-16-31-15.png)&nbsp;&nbsp;<b>Link Creation Modes</b> (1, 2, 3)  
+![](the-graph-view.resources/image2020-6-26-16-31-15.png)&nbsp;&nbsp;<b>Link Creation Modes</b> (1, 2, 3)  
 Choose between Standard (1), Material (2) and Compact Material (3) link creation modes to link node connectors individually or in batch. Learn more in the [dedicated page](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md).
 
-![](../../assets/image2020-6-26-16-33-35.png)&nbsp;&nbsp;<b>Timings control  
+![](the-graph-view.resources/image2020-6-26-16-33-35.png)&nbsp;&nbsp;<b>Timings control  
 </b>Lets you reset all nodes and reset all timings.
 
-![](../../assets/image2020-6-26-16-34-12.png)&nbsp;&nbsp;<b>Tools  
+![](the-graph-view.resources/image2020-6-26-16-34-12.png)&nbsp;&nbsp;<b>Tools  
 </b>*- Clean:* Removes all nodes which are part of a stream not connected to an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.  
 *- Export outputs:* Opens the [Bitmap Export interface](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md).  
 *- Reexport outputs:* Performs the previous export operation again.  
 *- PSD Exporter:* Opens the [PSD Exporter](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md) interface.
 
-![](../../assets/image2020-6-26-16-37-16.png)&nbsp;&nbsp;<b>Node image cache  
+![](the-graph-view.resources/image2020-6-26-16-37-16.png)&nbsp;&nbsp;<b>Node image cache  
 </b>Toggles display of the node image cache toggle, see below.
 
-![](../../assets/graph-cleaner.jpg) Remove unused nodes  
+![](the-graph-view.resources/graph-cleaner.jpg) Remove unused nodes  
 </b>Displays options for removing unused nodes in graphs, see below.
 
 ### Node palette
 
 The node toolbar differs depending on the graph type:
 
-[![Node palette](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+[![Node palette](the-graph-view.resources/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
 <b>[Substance graphs](../../compositing-graphs/substance-compositing-graphs.md):</b> see [atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) and [graph items](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![Graph items palette](../../assets/image2020-6-26-16-46-32.png "Graph items palette")<br>
+![Graph items palette](the-graph-view.resources/image2020-6-26-16-46-32.png "Graph items palette")<br>
 <b>[Substance function graphs](../../function-graphs/function-graphs.md):</b> see [graph items](../../interface/the-graph-view/graph-items/graph-items.md).
 
 
-![FX-Map palette](../../assets/image2020-6-26-16-48-4.png "FX-Map palette")<br>
+![FX-Map palette](the-graph-view.resources/image2020-6-26-16-48-4.png "FX-Map palette")<br>
 <b>[FX-Map graphs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md):</b> see [graph items.](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ### Parent size
 
-![Parent size toolbar](../../assets/image2020-6-26-17-0-48.png "Parent size toolbar")
+![Parent size toolbar](the-graph-view.resources/image2020-6-26-17-0-48.png "Parent size toolbar")
 
 This toolbar is only available in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), and sets the [Output size](../../compositing-graphs/output-size/output-size.md) of the graph's *parent*, which impacts the graph's Output size if it uses the *Relative to parent* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
@@ -414,7 +414,7 @@ Horizontal and vertical size are linked by default, but can be *unlinked* for no
 
 ### Node image cache
 
-![Node image cache setting](../../assets/graph-toolbar-node-cache.png "Node image cache setting")
+![Node image cache setting](the-graph-view.resources/graph-toolbar-node-cache.png "Node image cache setting")
 
 This toggle the use of cache when computing nodes in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md).
 
@@ -426,13 +426,13 @@ Enabling this option results in a large boost to the overall responsiveness of g
 
 ### Remove unused nodes
 
-![Remove unused nodes drop down menu](../../assets/graph-cleaner-menu.jpg "Remove unused nodes drop down menu")
+![Remove unused nodes drop down menu](the-graph-view.resources/graph-cleaner-menu.jpg "Remove unused nodes drop down menu")
 
 As you iterate in graphs and try things, some nodes which have no effect on the final result can get left behind. This adds clutter as well as wasteful computation since all nodes are evaluated in the first stages of graph rendering.
 
-The ![](../../assets/graph-cleaner.jpg) Remove unused nodes</b> tool deletes all nodes that are *not* part of a stream which *ends in an output* node. The only exception is *input* nodes since deleting these would change the interface of [instance nodes](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) referencing this graph.
+The ![](the-graph-view.resources/graph-cleaner.jpg) Remove unused nodes</b> tool deletes all nodes that are *not* part of a stream which *ends in an output* node. The only exception is *input* nodes since deleting these would change the interface of [instance nodes](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) referencing this graph.
 
-![Remove unused nodes](../../assets/graph-cleaner.gif "Remove unused nodes")
+![Remove unused nodes](the-graph-view.resources/graph-cleaner.gif "Remove unused nodes")
 
 The first option applies the cleaning to the *current* graph exclusively.
 

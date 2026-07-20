@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hbao.png){width="128px"}
+![](ambient-occlusion-hbao-filter-node.resources/hbao.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -54,10 +54,10 @@ For an alternative, more advanced but slower version of AO, see [Ambient Occlusi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2021-6-18-11-11-11-1.png" />
+            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-11-1.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2021-6-18-11-11-22.png" />
+            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-22.png" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
+![](nadir-patch.resources/panorama-nadir-patch.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -68,7 +68,7 @@ effect can be quickly checked and validated with [Nadir Extract](../../../../../
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nadir-patch-ex.gif" />
+            <img src="nadir-patch.resources/nadir-patch-ex.gif" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-001.png){width="128px"}
+![](grunge-map-001.resources/grungemap-001.png){width="128px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -50,7 +50,7 @@ Generates a complex, combined Noisemap. This node can be very useful as a detail
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-001-ex.gif" />
+            <img src="grunge-map-001.resources/grungemap-001-ex.gif" />
         </td>
     </tr>
 </table>

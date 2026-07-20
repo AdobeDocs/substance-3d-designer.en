@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropic Kuwahara Grayscale icon](../../../../../../assets/directional_distance.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
+![Anisotropic Kuwahara Grayscale icon](directional-distance.resources/directional_distance.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -82,11 +82,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_1_before.jpg" alt="directional_distance_example_1_before">
+      <img src="directional-distance.resources/directional_distance_example_1_before.jpg" alt="directional_distance_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_1_after.jpg" alt="directional_distance_example_1_after">
+      <img src="directional-distance.resources/directional_distance_example_1_after.jpg" alt="directional_distance_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_3_before.jpg" alt="directional_distance_example_3_before">
+      <img src="directional-distance.resources/directional_distance_example_3_before.jpg" alt="directional_distance_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_3_after.jpg" alt="directional_distance_example_3_after">
+      <img src="directional-distance.resources/directional_distance_example_3_after.jpg" alt="directional_distance_example_3_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -119,11 +119,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_2_before.jpg" alt="directional_distance_example_2_before">
+      <img src="directional-distance.resources/directional_distance_example_2_before.jpg" alt="directional_distance_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_2_after.jpg" alt="directional_distance_example_2_after">
+      <img src="directional-distance.resources/directional_distance_example_2_after.jpg" alt="directional_distance_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -135,11 +135,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_5_before.jpg" alt="directional_distance_example_5_before">
+      <img src="directional-distance.resources/directional_distance_example_5_before.jpg" alt="directional_distance_example_5_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_5_after.jpg" alt="directional_distance_example_5_after">
+      <img src="directional-distance.resources/directional_distance_example_5_after.jpg" alt="directional_distance_example_5_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -152,11 +152,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_4_before.jpg" alt="directional_distance_example_4_before">
+      <img src="directional-distance.resources/directional_distance_example_4_before.jpg" alt="directional_distance_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_4_after.jpg" alt="directional_distance_example_4_after">
+      <img src="directional-distance.resources/directional_distance_example_4_after.jpg" alt="directional_distance_example_4_after">
       <br><i>After</i>
     </td>
   </tr>

@@ -26,7 +26,7 @@ Users can *add custom directories* manually in the software preferences, or spec
 1. In the <b>Python</b> tab, click on the *<b>+</b>*button to add the directory that contains the plugins
 1. Click <b>OK</b> to validate
 
-![Settings up Python plugins search paths Project settings](../../assets/image-70.png "Settings up Python plugins search paths Project settings")
+![Settings up Python plugins search paths Project settings](plugin-search-paths.resources/image-70.png "Settings up Python plugins search paths Project settings")
 
 ## Using environment variables
 

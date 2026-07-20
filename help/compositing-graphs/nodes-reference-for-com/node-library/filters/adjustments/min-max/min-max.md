@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/min-max.png){width="200px"}
+![](min-max.resources/min-max.png){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -40,7 +40,7 @@ To use this node with a Levels, you should at least know how to use the [Expose 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/minmax.png" />
+            <img src="min-max.resources/minmax.png" />
         </td>
     </tr>
 </table>

@@ -19,7 +19,7 @@ This page lists warnings and errors messages which may be triggered by [function
 Warnings are displayed in the warning icon's tooltip for the graph resource in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel, as well as in the bottom left corner of the [Graph view](../../interface/the-graph-view/the-graph-view.md) if the graph is loaded.  
 If the function is *applied to a parameter* in a [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), any warning will result in the warning "*The &#91;x&#93; parameter's function has some errors*" being raised for that parameter.
 
-## ![(error)](../../assets/error.svg) No output node defined
+## ![(error)](warnings-in-function-graphs.resources/error.svg) No output node defined
 
 The function has no output node defined.
 
@@ -27,7 +27,7 @@ The function has no output node defined.
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Solution**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Solution**
 
 Select any node in the graph which outputs a value which type matches the expected type for this function if any, then click RMB and select the **Set as Output Node** option in the contextual menu.  
 A function graph's output node is colored *orange*.
@@ -39,13 +39,13 @@ A function graph's output node is colored *orange*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(error)](../../assets/error.svg) The current output node returns a value of type *x*
+### ![(error)](warnings-in-function-graphs.resources/error.svg) The current output node returns a value of type *x*
 
 The function's output node returns a value which type does not match the expected output value type for that function.
 
@@ -53,7 +53,7 @@ The function's output node returns a value which type does not match the expecte
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Solution**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Solution**
 
 Select any node in the graph which outputs a value which type matches the expected type for this function, then click RMB and select the **Set as Output Node** option in the contextual menu.  
 A function graph's output node is colored *orange*.
@@ -65,13 +65,13 @@ A function graph's output node is colored *orange*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-output-type.gif)
+![](warnings-in-function-graphs.resources/warnings-func-output-type.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(error)](../../assets/error.svg) Some Get nodes don't have a variable name
+### ![(error)](warnings-in-function-graphs.resources/error.svg) Some Get nodes don't have a variable name
 
 One or more [Get](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) nodes have their <b>Get...</b> property left blank, thus refer to no variable.
 
@@ -79,7 +79,7 @@ One or more [Get](../../function-graphs/nodes-reference-for-fun/atomic-function-
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Solution**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Solution**
 
 Input a string matching the name of a variable *available in the function's scope* into the **Get...** property of Get nodes raising this warning.
 
@@ -90,13 +90,13 @@ Input a string matching the name of a variable *available in the function's scop
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-get.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-get.gif)
 
 </td>
 </tr>
 </table>
 
-### ![(error)](../../assets/error.svg) Some Set nodes don't have a variable name
+### ![(error)](warnings-in-function-graphs.resources/error.svg) Some Set nodes don't have a variable name
 
 One or more [Set](../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) nodes have their **Set** property left blank, thus refer to no variable.
 
@@ -104,7 +104,7 @@ One or more [Set](../../function-graphs/fxmaps/using-functions-in-fxmaps/using-t
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![(tick)](../../assets/check.svg) Solution**
+**![(tick)](warnings-in-function-graphs.resources/check.svg) Solution**
 
 Input any string into the **Set** property of Set nodes raising this warning.
 
@@ -119,7 +119,7 @@ Input any string into the **Set** property of Set nodes raising this warning.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warnings-func-empty-set.gif)
+![](warnings-in-function-graphs.resources/warnings-func-empty-set.gif)
 
 </td>
 </tr>

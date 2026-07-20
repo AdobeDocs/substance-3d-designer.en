@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/uv-mapper-color-icon.png "Node icon")
+![Node icon](uv-mapper-color.resources/uv-mapper-color-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -71,11 +71,11 @@ Maps the input color image using the coordinates provided in the UV input.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
+      <img src="uv-mapper-color.resources/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -87,11 +87,11 @@ Maps the input color image using the coordinates provided in the UV input.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-color.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="uv-mapper-color.resources/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -101,4 +101,4 @@ Maps the input color image using the coordinates provided in the UV input.
 </tr>
 </table>
 
-![Node in graph](../../../../../../assets/UVMapperColor-Graph.jpg "Node in graph")
+![Node in graph](uv-mapper-color.resources/UVMapperColor-Graph.jpg "Node in graph")

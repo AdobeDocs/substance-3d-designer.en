@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-damages.png){width="128px"}
+![](edge-damages.resources/edge-damages.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -60,7 +60,7 @@ This mask represents damage done to raised, convex edges based on curvature and 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/edge-damages-ex.gif" />
+            <img src="edge-damages.resources/edge-damages-ex.gif" />
         </td>
     </tr>
 </table>

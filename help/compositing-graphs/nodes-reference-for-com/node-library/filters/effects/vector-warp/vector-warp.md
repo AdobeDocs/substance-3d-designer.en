@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-warp.png){width="128px"}
+![](vector-warp.resources/vector-warp.png){width="128px"}
 
-![](../../../../../../assets/vector-warp-grayscale.png){width="128px"}
+![](vector-warp.resources/vector-warp-grayscale.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -62,7 +62,7 @@ This node can be useful when you want to do very specific distortions with varyi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/vector-warp-ex.png" />
+            <img src="vector-warp.resources/vector-warp-ex.png" />
         </td>
     </tr>
 </table>

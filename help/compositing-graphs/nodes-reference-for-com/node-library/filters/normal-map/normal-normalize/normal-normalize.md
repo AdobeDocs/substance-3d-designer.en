@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-normalize.png){width="128px"}
+![](normal-normalize.resources/normal-normalize.png){width="128px"}
 
 <b>In:</b> Filters &gt; Normal Map
 

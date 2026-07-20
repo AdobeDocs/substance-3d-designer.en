@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-bridge-2splines-icon.png "Node icon")
+![Node icon](spline-bridge-2-splines.resources/spline-bridge-2splines-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -102,11 +102,11 @@ Generates splines from <b>Spline &#35;1</b> to <b>Spline &#35;2</b> along these 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-Before.jpg" alt="SplineBridge-2Splines_Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
+      <img src="spline-bridge-2-splines.resources/SplineBridge-2Splines_Variant1-After.jpg" alt="SplineBridge-2Splines_Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -115,7 +115,7 @@ Generates splines from <b>Spline &#35;1</b> to <b>Spline &#35;2</b> along these 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "Node example 2")
+![Node example 2](spline-bridge-2-splines.resources/SplineBridge-2Splines_Demo.gif "Node example 2")
 
 </td>
 </tr>

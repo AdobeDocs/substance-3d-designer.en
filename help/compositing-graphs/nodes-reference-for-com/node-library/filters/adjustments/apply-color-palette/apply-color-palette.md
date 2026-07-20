@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Quantize Color icon](../../../../../../assets/ApplyColorPalette.png "Quantize Color icon"){width="200px"}
+![Quantize Color icon](apply-color-palette.resources/ApplyColorPalette.png "Quantize Color icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -58,31 +58,31 @@ This node may be used in combination with the following nodes: [Quantize Color](
 
 ## Examples
 
-![Apply color palette: Example 1](../../../../../../assets/apply_color_palette_example_2.png "Apply color palette: Example 1"){zoomable="yes"}
+![Apply color palette: Example 1](apply-color-palette.resources/apply_color_palette_example_2.png "Apply color palette: Example 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
 </table>
 
-![Apply color palette: Example 3](../../../../../../assets/apply_color_palette_example_4.png "Apply color palette: Example 3"){zoomable="yes"}
+![Apply color palette: Example 3](apply-color-palette.resources/apply_color_palette_example_4.png "Apply color palette: Example 3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
       <br><i>After</i>
     </td>
   </tr>

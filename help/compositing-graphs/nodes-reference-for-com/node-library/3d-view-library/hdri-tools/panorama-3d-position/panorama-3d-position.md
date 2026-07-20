@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-position.png){width="200px"}
+![](panorama-3d-position.resources/panorama-position.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -46,7 +46,7 @@ Helper node that renders a world-space position map for a spehircally projected 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pano3d.png" />
+            <img src="panorama-3d-position.resources/pano3d.png" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/stripes.png){width="128px"}
+![](stripes.resources/stripes.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -52,7 +52,7 @@ Generates a tiling, angled, stripe pattern. The pattern adjusts itself to always
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/stripes-ex.gif" />
+            <img src="stripes.resources/stripes-ex.gif" />
         </td>
     </tr>
 </table>

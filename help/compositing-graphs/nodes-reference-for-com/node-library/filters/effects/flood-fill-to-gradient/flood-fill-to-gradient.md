@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-gradient.png){width="128px"}
+![](flood-fill-to-gradient.resources/floodfill-to-gradient.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -62,10 +62,10 @@ Transforms a [Flood Fill](../../../../../../compositing-graphs/nodes-reference-f
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodgradient-ex2.png" />
+            <img src="flood-fill-to-gradient.resources/floodgradient-ex2.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodgradient-ex1.png" />
+            <img src="flood-fill-to-gradient.resources/floodgradient-ex1.png" />
         </td>
     </tr>
 </table>

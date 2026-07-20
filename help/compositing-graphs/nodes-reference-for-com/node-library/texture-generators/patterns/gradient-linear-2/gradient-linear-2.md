@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear-2.png){width="128px"}
+![](gradient-linear-2.resources/gradient-linear-2.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -49,7 +49,7 @@ Despite its simplicity, it's very useful and can serve many purposes. Try it tog
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gradient-linear-2-ex.gif" />
+            <img src="gradient-linear-2.resources/gradient-linear-2-ex.gif" />
         </td>
     </tr>
 </table>

@@ -22,12 +22,12 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetgrayscale.png){width="200px"}
+![](3d-texture-offset.resources/3dtextureoffsetgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetcolor.png){width="200px"}
+![](3d-texture-offset.resources/3dtextureoffsetcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -67,10 +67,10 @@ The **3D Texture Offset** node applies an *offset transformation* in the **X**, 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureoffset-variant.jpg" />
+            <img src="3d-texture-offset.resources/3dtextureoffset-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtextureoffset-node.png" />
+            <img src="3d-texture-offset.resources/3dtextureoffset-node.png" />
         </td>
     </tr>
 </table>

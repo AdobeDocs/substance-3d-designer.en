@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grayscale-conversion-advanced.png){width="128px"}
+![](grayscale-conversion-advanced.resources/grayscale-conversion-advanced.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -46,7 +46,7 @@ Advanced, quick grayscale conversion node that offers a few preset conversion mo
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grayscale-conversion-advanced-example.png" />
+            <img src="grayscale-conversion-advanced.resources/grayscale-conversion-advanced-example.png" />
         </td>
     </tr>
 </table>

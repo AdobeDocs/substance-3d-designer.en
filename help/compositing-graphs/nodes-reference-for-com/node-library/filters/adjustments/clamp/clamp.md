@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clamp-grayscale.png){width="128px"}
+![](clamp.resources/clamp-grayscale.png){width="128px"}
 
-![](../../../../../../assets/clamp-1.png){width="128px"}
+![](clamp.resources/clamp-1.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -50,7 +50,7 @@ Clamps input values to defined limits.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/clamp.gif" />
+            <img src="clamp.resources/clamp.gif" />
         </td>
     </tr>
 </table>

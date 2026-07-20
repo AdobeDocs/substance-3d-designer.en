@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-to-height-hq.png){width="128px"}
+![](normal-to-height-hq.resources/normal-to-height-hq.png){width="128px"}
 
 <b>In:</b> Filters &gt; Normal Map
 
@@ -52,7 +52,7 @@ Useful for when you only have a Normalmap source, yet still want to perform oper
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/normal2height-hq-ex.png" />
+            <img src="normal-to-height-hq.resources/normal2height-hq-ex.png" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -56,7 +56,7 @@ The **Grunge Concrete** node generates a grunge map akin to the height map of a 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeconcrete-variant.jpg" />
+            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" />
         </td>
     </tr>
 </table>

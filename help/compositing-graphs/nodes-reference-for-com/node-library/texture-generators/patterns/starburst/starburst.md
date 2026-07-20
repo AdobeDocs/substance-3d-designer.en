@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/starburst.png){width="128px"}
+![](starburst.resources/starburst.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -52,7 +52,7 @@ Generates a simple starburst effect, with adjustment parameters available.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/starburst-ex.gif" />
+            <img src="starburst.resources/starburst-ex.gif" />
         </td>
     </tr>
 </table>

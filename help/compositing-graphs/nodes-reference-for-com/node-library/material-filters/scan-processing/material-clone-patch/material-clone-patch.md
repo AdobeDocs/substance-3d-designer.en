@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-material.png){width="128px"}
+![](material-clone-patch.resources/clone-patch-material.png){width="128px"}
 
 <b>In:</b> Material Filters &gt; Scan Processing
 

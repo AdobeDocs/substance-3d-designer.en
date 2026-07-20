@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/metal-edge-wear.png){width="128px"}
+![](metal-edge-wear.resources/metal-edge-wear.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -70,7 +70,7 @@ This mask represents edge wear on a metal object, with scratches and chips appea
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/metal-edge-wear-ex.gif" />
+            <img src="metal-edge-wear.resources/metal-edge-wear-ex.gif" />
         </td>
     </tr>
 </table>

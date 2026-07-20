@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
+![](highpass.resources/high-pass-greyscale.png){width="128px"}
 
-![](../../../../../../assets/high-pass.png){width="128px"}
+![](highpass.resources/high-pass.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -51,10 +51,10 @@ Important: make sure to use the appropriate version for your input! Use "Highpas
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/highpass.gif" />
+            <img src="highpass.resources/highpass.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/highpass-example.png" />
+            <img src="highpass.resources/highpass-example.png" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill.png){width="128px"}
+![](flood-fill.resources/floodfill.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -56,10 +56,10 @@ The other Flood Fill effects are [Flood Fill to Gradient](../../../../../../comp
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/flood-ex2.png" />
+            <img src="flood-fill.resources/flood-ex2.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/flood-ex1.png" />
+            <img src="flood-fill.resources/flood-ex1.png" />
         </td>
     </tr>
 </table>

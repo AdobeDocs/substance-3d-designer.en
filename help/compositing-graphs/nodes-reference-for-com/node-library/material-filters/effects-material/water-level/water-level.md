@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/water-level.png){width="128px"}
+![](water-level.resources/water-level.png){width="128px"}
 
 <b>In:</b> Material Filters &gt; Effects
 

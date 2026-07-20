@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/surface-brush.png){width="128px"}
+![](surface-brush.resources/surface-brush.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -66,7 +66,7 @@ This mask represents an interesting effect of metal-brushing on an object surfac
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/surface-brush-ex.gif" />
+            <img src="surface-brush.resources/surface-brush-ex.gif" />
         </td>
     </tr>
 </table>

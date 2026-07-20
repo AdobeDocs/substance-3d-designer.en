@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-linear-gradient.png){width="128px"}
+![](3d-linear-gradient.resources/3d-linear-gradient.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -51,7 +51,7 @@ Also see [3D Volume Mask](../../../../../../compositing-graphs/nodes-reference-f
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-gradient.gif" />
+            <img src="3d-linear-gradient.resources/3d-gradient.gif" />
         </td>
     </tr>
 </table>

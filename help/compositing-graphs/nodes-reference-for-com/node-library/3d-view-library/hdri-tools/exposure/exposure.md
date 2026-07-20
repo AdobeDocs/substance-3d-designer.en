@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/exposure-9.png){width="250px"}
+![](exposure.resources/exposure-9.png){width="250px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-sample-thickness-icon.png "Node icon")
+![Node icon](spline-sample-thickness.resources/spline-sample-thickness-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -82,11 +82,11 @@ The effect of the mapped height map can be adjusted by changing its blending mod
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-Before.jpg" alt="SplineSampleThickness-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant1-After.jpg" alt="SplineSampleThickness-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ The effect of the mapped height map can be adjusted by changing its blending mod
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-Before.jpg" alt="SplineSampleThickness-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
+      <img src="spline-sample-thickness.resources/SplineSampleThickness-Variant2-After.jpg" alt="SplineSampleThickness-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -116,12 +116,12 @@ The effect of the mapped height map can be adjusted by changing its blending mod
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/SplineSampleThickness-Variant1-After1.jpg "Node example 1")
+![Node example 1](spline-sample-thickness.resources/SplineSampleThickness-Variant1-After1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineSampleThickness-Demo.gif "Node example 2")
+![Node example 2](spline-sample-thickness.resources/SplineSampleThickness-Demo.gif "Node example 2")
 
 </td>
 </tr>

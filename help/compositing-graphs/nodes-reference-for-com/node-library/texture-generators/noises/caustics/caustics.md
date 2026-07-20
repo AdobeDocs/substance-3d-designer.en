@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-caustics-grayscale.png){width="128px"}
+![](caustics.resources/rt-caustics-grayscale.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -56,7 +56,7 @@ Generates projected caustics based on a height map and a light direction.Comes i
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rt-caustics-grayscale-1.png" />
+            <img src="caustics.resources/rt-caustics-grayscale-1.png" />
         </td>
     </tr>
 </table>

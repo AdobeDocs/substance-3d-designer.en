@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Bent Normal node icon](../../../../../../assets/rt-bent-normal.png "Bent Normal node icon")
+![Bent Normal node icon](bent-normal.resources/rt-bent-normal.png "Bent Normal node icon")
 
 <b>In:</b> Filters &gt; Normal Map
 
@@ -56,7 +56,7 @@ This node should not be used in combination with the CPU (SSE) engine due to com
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/bent-normal-ex-1.jpg" />
+            <img src="bent-normal.resources/bent-normal-ex-1.jpg" />
         </td>
     </tr>
 </table>

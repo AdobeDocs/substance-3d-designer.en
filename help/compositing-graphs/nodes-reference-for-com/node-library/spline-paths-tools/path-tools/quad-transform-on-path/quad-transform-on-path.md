@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/quad-transform-on-paths-icon.png "Node icon")
+![Node icon](quad-transform-on-path.resources/quad-transform-on-paths-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -69,11 +69,11 @@ Deform a Paths using 4 handles.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -85,11 +85,11 @@ Deform a Paths using 4 handles.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -103,12 +103,12 @@ Deform a Paths using 4 handles.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "Node example 1")
+![Node example 1](quad-transform-on-path.resources/QuadTransformOnPaths-Demo2.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "Node example 2")
+![Node example 2](quad-transform-on-path.resources/QuadTransformOnPaths-Demo1.gif "Node example 2")
 
 </td>
 </tr>

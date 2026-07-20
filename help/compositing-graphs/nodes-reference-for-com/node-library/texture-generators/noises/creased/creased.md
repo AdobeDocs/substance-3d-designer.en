@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/creased.png){width="128px"}
+![](creased.resources/creased.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -51,7 +51,7 @@ Creased is useful for when you need a semi-directional-noise with large scale va
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/creased-ex.gif" />
+            <img src="creased.resources/creased-ex.gif" />
         </td>
     </tr>
 </table>

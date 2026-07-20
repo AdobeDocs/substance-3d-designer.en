@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/switch-1.png){width="128px"}
+![](switch.resources/switch-1.png){width="128px"}
 
-![](../../../../../../assets/switch-grayscale.png){width="128px"}
+![](switch.resources/switch-grayscale.png){width="128px"}
 
 <b>In:</b> Filters &gt; Blending
 

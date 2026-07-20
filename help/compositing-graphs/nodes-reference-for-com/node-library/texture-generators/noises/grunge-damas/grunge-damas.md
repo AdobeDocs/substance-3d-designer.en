@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungedamas.jpg){width="200px"}
+![](grunge-damas.resources/grungedamas.jpg){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -55,7 +55,7 @@ The **Grunge Damas** node generates a grunge map akin to a Damascus steel patter
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungedamas-variant.jpg" />
+            <img src="grunge-damas.resources/grungedamas-variant.jpg" />
         </td>
     </tr>
 </table>

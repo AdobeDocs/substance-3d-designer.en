@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blackbody.png){width="200px"}
+![](blackbody.resources/blackbody.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 

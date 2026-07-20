@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/microscope-view.png){width="128px"}
+![](microscope-view.resources/microscope-view.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -49,7 +49,7 @@ This generates a warped noise that looks like bacteria or organisms under a micr
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/microscope-view-ex.gif" />
+            <img src="microscope-view.resources/microscope-view-ex.gif" />
         </td>
     </tr>
 </table>

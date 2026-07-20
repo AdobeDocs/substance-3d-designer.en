@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/straighten-horizon.png){width="200px"}
+![](straighten-horizon.resources/straighten-horizon.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Directional warp](../../../../assets/comp_directionalwarp_1.png "Atomic node: Directional warp"){width="200px"}
+![Atomic node: Directional warp](directional-warp.resources/comp_directionalwarp_1.png "Atomic node: Directional warp"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,17 +96,17 @@ The Warp node is a fairly simple but useful node that serves as a good basis for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional Warp - Example 1](../../../../assets/dir-warp.gif "Directional Warp - Example 1"){zoomable="yes"}
+![Directional Warp - Example 1](directional-warp.resources/dir-warp.gif "Directional Warp - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Directional Warp - Example 2](../../../../assets/dir-warp02.gif "Directional Warp - Example 2"){zoomable="yes"}
+![Directional Warp - Example 2](directional-warp.resources/dir-warp02.gif "Directional Warp - Example 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Directional Warp - Example 3](../../../../assets/dir-warp03.gif "Directional Warp - Example 3"){zoomable="yes"}
+![Directional Warp - Example 3](directional-warp.resources/dir-warp03.gif "Directional Warp - Example 3"){zoomable="yes"}
 
 </td>
 </tr>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
+![](vector-morph.resources/vector-morph-grayscale.png)![](vector-morph.resources/vector-morph.png)
 
 <b>In:</b> Filters &gt; Effects
 

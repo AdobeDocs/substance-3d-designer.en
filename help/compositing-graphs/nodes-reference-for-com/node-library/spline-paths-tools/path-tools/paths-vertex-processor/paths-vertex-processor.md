@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/paths-vertex-processor-icon.png "Node icon")
+![Node icon](paths-vertex-processor.resources/paths-vertex-processor-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -86,7 +86,7 @@ You can also access the *prev&#91;2&#93;.pos* (Float2), *next&#91;2&#93;.pos* (F
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Node example 2")
+![Node example 2](paths-vertex-processor.resources/PathsVertexProcessor-Demo2.gif "Node example 2")
 
 </td>
 <td style="border: 0;" valign="top">

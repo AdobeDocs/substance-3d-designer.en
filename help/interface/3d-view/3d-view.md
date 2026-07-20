@@ -26,7 +26,7 @@ Learn more here: [3D renderers](3d-renderers/3d-renderers.md)
 
 The section below explains you how to do common actions in short, along with an animated gif to illustrate the process.
 
-![Viewport navigation](../../assets/3d-navigate.gif "Viewport navigation")
+![Viewport navigation](3d-view.resources/3d-navigate.gif "Viewport navigation")
 
 ### Navigation
 
@@ -72,11 +72,11 @@ You can interact with meshes directly in the viewport:
 
 <b>Press Escape to unselect.</b> The cursor does not need to be on the mesh.
 
-![3D View - Focus and unselect](../../assets/sceneBrowser-focus.gif "3D View - Focus and unselect"){zoomable="yes"}
+![3D View - Focus and unselect](3d-view.resources/sceneBrowser-focus.gif "3D View - Focus and unselect"){zoomable="yes"}
 
 *Select, focus, unselect*
 
-![3D View - Contextual menu](../../assets/sceneBrowser-contextualMenu.gif "3D View - Contextual menu"){zoomable="yes"}
+![3D View - Contextual menu](3d-view.resources/sceneBrowser-contextualMenu.gif "3D View - Contextual menu"){zoomable="yes"}
 
 *Select, contextual menu*
 
@@ -102,13 +102,13 @@ To use your own, custom HDR light environment, import an HDR image by dragging a
 
 Go to <b>Lights &gt; Edit properties</b> to toggle point lights in your scene.
 
-Point light 1 can be moved around the scene's origin by holding LMB or RMB and dragging in the viewport in Lighting mode. <img src="../../assets/image2020-9-17-10-30-37.png" width=24 />
+Point light 1 can be moved around the scene's origin by holding LMB or RMB and dragging in the viewport in Lighting mode. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width=24 />
 
-While in Camera mode <img src="../../assets/image2020-9-17-10-31-32.png" width=24 /> , you can also temporarily switch to Lighting mode by hold the Ctrl+⇧ keys in combination with the mouse buttons.
+While in Camera mode <img src="3d-view.resources/image2020-9-17-10-31-32.png" width=24 /> , you can also temporarily switch to Lighting mode by hold the Ctrl+⇧ keys in combination with the mouse buttons.
 
 ## View data in 3D View
 
-![View Substance graph outputs](../../assets/3d-material.gif "View Substance graph outputs")
+![View Substance graph outputs](3d-view.resources/3d-material.gif "View Substance graph outputs")
 
 ### Substance graphs
 
@@ -128,7 +128,7 @@ When *loading a graph*, its outputs are automatically applied in the 3D View by 
 > 
 > If you use custom meshes with more than one single material, you'll be asked to choose what material slot to assign the material to. With any of the above methods, click a slot to confirm your choice. For more information on Materials an their assignment, read the detailed section below.
 
-![Viewing node vs graph outputs in 3D View](../../assets/3d-channel.gif "Viewing node vs graph outputs in 3D View")
+![Viewing node vs graph outputs in 3D View](3d-view.resources/3d-channel.gif "Viewing node vs graph outputs in 3D View")
 
 ### Individual node/graph output
 
@@ -140,7 +140,7 @@ You can also use *RMB* to drag and drop any node from the Graph view to the 3D V
 
 You can view any individual graph output by expanding the graph resource in the [Explorer](../the-explorer-window/the-explorer-window.md) dock, and using *LMB* to drag that output to the 3D View. You will be shown a list with available channels to assign the node to. Click any to confirm.
 
-![Viewing custom 3D meshes](../../assets/3d-mesh.gif "Viewing custom 3D meshes")
+![Viewing custom 3D meshes](3d-view.resources/3d-mesh.gif "Viewing custom 3D meshes")
 
 ## View (custom) 3D scenes
 
@@ -149,7 +149,7 @@ Pick any of the default meshes through the <b>Scene</b> dropdown menu in the top
 
 For custom 3D scenes, go to the [Working with 3D scenes](../../working-with-3d-scenes/working-with-3d-scenes.md) section.
 
-![Changing material properties](../../assets/3d-materials.gif "Changing material properties")
+![Changing material properties](3d-view.resources/3d-materials.gif "Changing material properties")
 
 ## Change shader properties
 
@@ -172,7 +172,7 @@ Shaders can be reset using the 'Reset material' or 'Reset to scene state' action
 > * <b>Rasterizer/GPU Pathtracer:</b> Located in the renderer settings (Renderer &gt; Edit settings), impacts the *entire scene*.
 > * <b>OpenGL:</b> Located in the material properties, impacts the material.
 
-![Exporting the scene](../../assets/3d-view-export-scene.gif "Exporting the scene")
+![Exporting the scene](3d-view.resources/3d-view-export-scene.gif "Exporting the scene")
 
 ## Export scene
 
@@ -218,7 +218,7 @@ The menu bar provides 7 menus with options related to the 3D View. below is an o
 +++Scene
 The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D view states. 3D Resource sare just the mesh, Scene states are lights, camera, and related settings, and can also contain the mesh alongside.
 
-![Scene menu meshes](../../assets/3d-view-meshes.png "Scene menu meshes")
+![Scene menu meshes](3d-view.resources/3d-view-meshes.png "Scene menu meshes")
 
 
 
@@ -514,25 +514,25 @@ Toggles display of the 3D axis in the viewport.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Backface culling</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Backface culling</b>
 
 Disabling this option lets you see a mesh face from *both sides*. The option works in combination with Wireframe.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Bounding Box</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Bounding Box</b>
 
 Toggles display of the mesh' bounding box.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Vertex tangent space</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Vertex tangent space</b>
 
 Displays the tangent, binormal and normal vectors for all vertices as colored gizmos.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Wireframe</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Wireframe</b>
 
 Toggles display of the mesh as a wireframe.
 
@@ -546,7 +546,7 @@ The <b>Display</b> toolbar, which is located at the *bottom* of the <b>3D View</
 
 ### Color channels
 
-You can display a single channel of the image using the ![](../../assets/2d-view-icon-channels.png) <b>Color channels</b> button. This opens a combo box letting you select which of the <b>Red</b>, <b>Green</b> and <b>Blue</b> channels should be displayed. The normal aspect of the image with all channels is restored by selecting the <b>RGB</b> option.
+You can display a single channel of the image using the ![](3d-view.resources/2d-view-icon-channels.png) <b>Color channels</b> button. This opens a combo box letting you select which of the <b>Red</b>, <b>Green</b> and <b>Blue</b> channels should be displayed. The normal aspect of the image with all channels is restored by selecting the <b>RGB</b> option.
 
 The *icon* of the <b>Color channels</b> button *changes* depending on the currently display channel(s).
 

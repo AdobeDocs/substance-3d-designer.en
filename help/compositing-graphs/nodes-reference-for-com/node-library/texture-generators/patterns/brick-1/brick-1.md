@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/brick-1.png){width="128px"}
+![](brick-1.resources/brick-1.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -49,7 +49,7 @@ Simple Brick Pattern, see [Brick Generator](../../../../../../compositing-graphs
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/brick-1-ex.gif" />
+            <img src="brick-1.resources/brick-1-ex.gif" />
         </td>
     </tr>
 </table>

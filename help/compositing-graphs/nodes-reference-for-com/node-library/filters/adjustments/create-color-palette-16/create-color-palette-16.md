@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Quantize Color icon](../../../../../../assets/CreateColorPalette16.png "Quantize Color icon"){width="200px"}
+![Quantize Color icon](create-color-palette-16.resources/CreateColorPalette16.png "Quantize Color icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -70,15 +70,15 @@ This node may be used in combination with the following nodes: [Quantize Color](
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Create color palette: Example 1](../../../../../../assets/create_color_palette_example_1.png "Create color palette: Example 1"){zoomable="yes"}
+![Create color palette: Example 1](create-color-palette-16.resources/create_color_palette_example_1.png "Create color palette: Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Create color palette: Example 2](../../../../../../assets/create_color_palette_example_2.png "Create color palette: Example 2"){zoomable="yes"}
+![Create color palette: Example 2](create-color-palette-16.resources/create_color_palette_example_2.png "Create color palette: Example 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Create color palette: Example 3](../../../../../../assets/create_color_palette_example_3.png "Create color palette: Example 3"){zoomable="yes"}
+![Create color palette: Example 3](create-color-palette-16.resources/create_color_palette_example_3.png "Create color palette: Example 3"){zoomable="yes"}

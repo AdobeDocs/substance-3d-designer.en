@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-notch.png){width="128px"}
+![](edge-notch.resources/edge-notch.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -58,7 +58,7 @@ This mask represents a simple mask for raised edges, broken up by a high-frequen
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/edge-notch-ex.gif" />
+            <img src="edge-notch.resources/edge-notch-ex.gif" />
         </td>
     </tr>
 </table>

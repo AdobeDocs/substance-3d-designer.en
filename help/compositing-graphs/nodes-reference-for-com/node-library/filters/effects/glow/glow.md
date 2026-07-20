@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/glow-greyscale.png){width="128px"}
+![](glow.resources/glow-greyscale.png){width="128px"}
 
-![](../../../../../../assets/glow-3.png){width="128px"}
+![](glow.resources/glow-3.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -55,7 +55,7 @@ Important: make sure to use the appropriate version for your input! Use "Glow" f
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/glow-ex.png" />
+            <img src="glow.resources/glow-ex.png" />
         </td>
     </tr>
 </table>

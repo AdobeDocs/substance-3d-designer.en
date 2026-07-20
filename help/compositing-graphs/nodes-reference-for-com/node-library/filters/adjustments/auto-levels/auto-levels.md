@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/auto-levels.png){width="128px"}
+![](auto-levels.resources/auto-levels.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -38,7 +38,7 @@ Automatically adjusts the levels of the input to use the full range from black t
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/auto-levels-example.png" />
+            <img src="auto-levels.resources/auto-levels-example.png" />
         </td>
     </tr>
 </table>

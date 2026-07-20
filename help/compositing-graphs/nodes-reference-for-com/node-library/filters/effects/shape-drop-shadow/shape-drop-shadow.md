@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-dropshadow-grayscale.png){width="128px"}
+![](shape-drop-shadow.resources/shape-dropshadow-grayscale.png){width="128px"}
 
-![](../../../../../../assets/shape-dropshadow.png){width="128px"}
+![](shape-drop-shadow.resources/shape-dropshadow.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -58,7 +58,7 @@ It differs from the [Shadows](../../../../../../compositing-graphs/nodes-referen
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/dropshadowex.png" />
+            <img src="shape-drop-shadow.resources/dropshadowex.png" />
         </td>
     </tr>
 </table>

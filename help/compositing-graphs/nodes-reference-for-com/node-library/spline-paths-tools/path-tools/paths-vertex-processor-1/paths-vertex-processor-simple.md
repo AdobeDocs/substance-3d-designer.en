@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/paths-vertex-processor-simple-icon.png "Node icon")
+![Node icon](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -81,7 +81,7 @@ You can also access the *vertex.corner* (bool) and *path.id* (float) variables.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Node example 2")
+![Node example 2](paths-vertex-processor-simple.resources/PathsVertexProcessor-Demo2.gif "Node example 2")
 
 </td>
 <td style="border: 0;" valign="top">

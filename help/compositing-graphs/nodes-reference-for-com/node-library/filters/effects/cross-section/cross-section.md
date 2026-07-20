@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-!['Cross section' node icon](../../../../../../assets/cross-section-2.png "'Cross section' node icon"){width="200px"}
+!['Cross section' node icon](cross-section.resources/cross-section-2.png "'Cross section' node icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -63,10 +63,10 @@ Alternatively it can be used to create 2D shapes and silhouettes that are hard t
 
 ## Examples
 
-![Cross section: example 1](../../../../../../assets/cross-section-example-01.gif "Cross section: example 1")
+![Cross section: example 1](cross-section.resources/cross-section-example-01.gif "Cross section: example 1")
 
-![Cross section: example 2](../../../../../../assets/cross-section-example-02.gif "Cross section: example 2")
+![Cross section: example 2](cross-section.resources/cross-section-example-02.gif "Cross section: example 2")
 
-![Cross section: example 3](../../../../../../assets/cross-section-example-03.png "Cross section: example 3")
+![Cross section: example 3](cross-section.resources/cross-section-example-03.png "Cross section: example 3")
 
-![Cross section: example 4](../../../../../../assets/cross-section-example-04.png "Cross section: example 4")
+![Cross section: example 4](cross-section.resources/cross-section-example-04.png "Cross section: example 4")

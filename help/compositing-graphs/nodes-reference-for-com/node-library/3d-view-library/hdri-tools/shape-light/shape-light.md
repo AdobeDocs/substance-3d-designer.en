@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-shape.png){width="200px"}
+![](shape-light.resources/panorama-shape.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -71,7 +71,7 @@ Generates a spherically projected rectangular shape. The shape transformation is
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shape-light-ex.gif" />
+            <img src="shape-light.resources/shape-light-ex.gif" />
         </td>
     </tr>
 </table>

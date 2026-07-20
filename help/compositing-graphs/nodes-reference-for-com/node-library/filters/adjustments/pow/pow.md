@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pow-1.png){width="128px"}
+![](pow.resources/pow-1.png){width="128px"}
 
-![](../../../../../../assets/pow-grayscale.png){width="128px"}
+![](pow.resources/pow-grayscale.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -50,7 +50,7 @@ Important: make sure to use the correct version, depending on whether you have a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/pow.gif" />
+            <img src="pow.resources/pow.gif" />
         </td>
     </tr>
 </table>

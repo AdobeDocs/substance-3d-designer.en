@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-shift-1.png){width="128px"}
+![](histogram-shift.resources/histogram-shift-1.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -48,10 +48,10 @@ Completely shifts the whole range of the image, wrapping around when reaching ra
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-shift.gif" />
+            <img src="histogram-shift.resources/histogram-shift.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-shift2.gif" />
+            <img src="histogram-shift.resources/histogram-shift2.gif" />
         </td>
     </tr>
 </table>

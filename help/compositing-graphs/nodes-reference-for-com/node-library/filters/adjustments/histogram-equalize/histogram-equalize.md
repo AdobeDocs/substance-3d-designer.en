@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Histogram equalize: icon](../../../../../../assets/histogram_equalize.png "Histogram equalize: icon"){width="200px"}
+![Histogram equalize: icon](histogram-equalize.resources/histogram_equalize.png "Histogram equalize: icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -63,44 +63,44 @@ Equalizes the histogram for a grayscale image, effectively adjusting the graysca
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
 </table>
 
-![Histogram equalize: Example 1](../../../../../../assets/histogram_equalize_example_3.png "Histogram equalize: Example 1"){zoomable="yes"}
+![Histogram equalize: Example 1](histogram-equalize.resources/histogram_equalize_example_3.png "Histogram equalize: Example 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
 </table>
 
-![Histogram equalize: Example 2](../../../../../../assets/histogram_equalize_example_5.png "Histogram equalize: Example 2"){zoomable="yes"}
+![Histogram equalize: Example 2](histogram-equalize.resources/histogram_equalize_example_5.png "Histogram equalize: Example 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
       <br><i>After</i>
     </td>
   </tr>
 </table>
 
-![Histogram equalize: Example 3](../../../../../../assets/histogram_equalize_example_6.png "Histogram equalize: Example 3"){zoomable="yes"}
+![Histogram equalize: Example 3](histogram-equalize.resources/histogram_equalize_example_6.png "Histogram equalize: Example 3"){zoomable="yes"}
