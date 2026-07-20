@@ -16,6 +16,18 @@ user-guide-title: ""
 
 ## Version 16
 
+### 16.0.5
+
+*(Released August ##, 2026)*
+
+**Added:**
+
+* &#91;Category&#93; Title
+
+**Fixed:**
+
+* &#91;Category&#93; Title
+
 ### 16.0.4
 
 *(Released July 2nd, 2026)*
