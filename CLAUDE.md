@@ -25,6 +25,10 @@ For every entry in `help/guide/TOC.md`:
 
 When adding or moving a page, update `TOC.md` and the folder layout together — they must stay in sync.
 
+## Node reference pages
+
+The node-library trees (e.g. `help/compositing-graphs/nodes-reference-for-com/node-library/<category>/<node>/<node>.md`) are a distinct page type with their own consistent layout: an icon/description HTML table, followed by anchored `## Inputs` / `## Outputs` / `## Parameters` tables (`#inputs`/`#outputs`/`#parameters`) and an `## Examples` gallery. They use the **minimal** front matter (only `title` + `description`), not the regular content-page block below — modeled on `.../texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md`. Embedded media (icon, example images/GIFs) live in a sibling `<node-name>.resources/` folder next to the page, referenced relatively (older pages still point at the shared `help/assets/` folder — a legacy pattern). Use the `generate-node-documentation` skill (if present) for the full authoring template.
+
 ## Page front matter
 
 Regular content pages use a front matter block like:
