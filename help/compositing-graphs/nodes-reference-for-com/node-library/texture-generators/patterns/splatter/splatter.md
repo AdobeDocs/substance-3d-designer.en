@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/splatter.png)
 
 ![](../../../../../../assets/splatter-color.png)
 
-## Splatter (Color)
-
-**In:** *Texture Generators**/Patterns*
-
-**Complex**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -39,34 +35,43 @@ Splatter works well for quickly getting some shapes stamped down, without needin
 
 Keep in mind that the default Splatter parameters do not look random at all: you need to tweak a few of them to get randomisation (mainly Disorder parameters). Also keep in mind that Splatter requires a map input to work.
 
-## Parameters
-
-* **Pattern Size Width**: *0.0 - 1000.0*Number of patterns to use on the X-axis.
-* **Pattern Size Height**: *0.0 - 1000.0*Number of patterns to use on the Y-axis.
-* **Rotation**: *-360.0 - 360.0*Rotates every pattern by a set amount.
-* **Rotation Variation**: *0.0 - 360.0*Introduces random rotation for every separate shape.
-* **Zoom**: *100.0 - 10000.0*Scales up the final result. Keep in mind that this breaks tiling!
-* **Gain**: *0.0 - 10.0*Adjusts blending gain of every pattern. Makes them stand out more.
-* **Pan X**: *-100.0 - 100.0*Pans whole result on X-axis.
-* **Pan Y**: *-100.0 - 100.0*Pans whole result on Y-axis.
-* **Disorder**: *0.0 - 100.0*  
-  Randomly shifts shapes.
-* **Grid Number**: *0 - 8*Jumps through different grid sizes to adjust result scale. Maintains tiling.
-* **Disorder Angle**: *0.0 - 360.0*Controls the angle of disorder shifting.
-* **Disorder Random**: *False/True*Randomises the disorder angle, adding much more chaos.
-* **Pattern Size**: *5 - 12*
-* **Size Variation**: *0.0 - 100.0*Introduces random scaling for every shape.
-* **Image Input Filtering (Engine &gt; v4 only)**: *Bilinear + Mipmaps, Bilinear, Nearest*Which filtering to apply to the input image.
-* **Output Level Min**: *0.0 - 1.0*Out minimum level adjustment.
-* **Output Level Max**: *0.0 - 1.0*Out maximum level adjustment.
-* **Background Color**: *(Grayscale value)*Sets solid background color.
-* **Luminance Variation**: *0.0 - 1.0 (Grayscale version only)*Introduces luminance variation.
-* **Color Variation**: *0.0 - 1.0 (Color Version Only)*Introduces color variation.
-
-## Example Images
-
-![](../../../../../../assets/splatter-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Pattern Size Width</b> <i>0.0 - 1000.0</i> | Number of patterns to use on the X-axis. |
+| <b>Pattern Size Height</b> <i>0.0 - 1000.0</i> | Number of patterns to use on the Y-axis. |
+| <b>Rotation</b> <i>-360.0 - 360.0</i> | Rotates every pattern by a set amount. |
+| <b>Rotation Variation</b> <i>0.0 - 360.0</i> | Introduces random rotation for every separate shape. |
+| <b>Zoom</b> <i>100.0 - 10000.0</i> | Scales up the final result. Keep in mind that this breaks tiling! |
+| <b>Gain</b> <i>0.0 - 10.0</i> | Adjusts blending gain of every pattern. Makes them stand out more. |
+| <b>Pan X</b> <i>-100.0 - 100.0</i> | Pans whole result on X-axis. |
+| <b>Pan Y</b> <i>-100.0 - 100.0</i> | Pans whole result on Y-axis. |
+| <b>Disorder</b> <i>0.0 - 100.0</i> | Randomly shifts shapes. |
+| <b>Grid Number</b> <i>0 - 8</i> | Jumps through different grid sizes to adjust result scale. Maintains tiling. |
+| <b>Disorder Angle</b> <i>0.0 - 360.0</i> | Controls the angle of disorder shifting. |
+| <b>Disorder Random</b> <i>False/True</i> | Randomises the disorder angle, adding much more chaos. |
+| <b>Pattern Size</b> <i>5 - 12</i> |  |
+| <b>Size Variation</b> <i>0.0 - 100.0</i> | Introduces random scaling for every shape. |
+| <b>Image Input Filtering (Engine &gt; v4 only)</b> <i>Bilinear + Mipmaps, Bilinear, Nearest</i> | Which filtering to apply to the input image. |
+| <b>Output Level Min</b> <i>0.0 - 1.0</i> | Out minimum level adjustment. |
+| <b>Output Level Max</b> <i>0.0 - 1.0</i> | Out maximum level adjustment. |
+| <b>Background Color</b> <i>(Grayscale value)</i> | Sets solid background color. |
+| <b>Luminance Variation</b> <i>0.0 - 1.0 (Grayscale version only)</i> | Introduces luminance variation. |
+| <b>Color Variation</b> <i>0.0 - 1.0 (Color Version Only)</i> | Introduces color variation. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/splatter-ex.gif" />
+        </td>
+    </tr>
 </table>

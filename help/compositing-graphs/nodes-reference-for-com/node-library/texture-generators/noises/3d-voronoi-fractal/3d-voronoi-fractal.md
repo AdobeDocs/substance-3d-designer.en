@@ -16,130 +16,79 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/3dvoronoifractal.png){width="200px"}
 
-**In:** *Texture Generators* */Noises*
-
-**Intermediate**
+<b>In:</b> Texture Generators &gt; Noises
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-The **3D Voronoi Fractal** node generates a *fractal* Voronoi noise in 3D space based on the **Position Map** input.
+The <b>3D Voronoi Fractal</b> node generates a <i>fractal</i> Voronoi noise in 3D space based on the <b>Position Map</b> input.
 
 This node can be tested with [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
-
->[!WARNING]
->
-> This noise is meant to be used with the *GPU engine only* (i.e., **Direct3D** or **OpenGL**). Go to **Tools &gt; Switch engine...** or press the **F9** key to select the desired engine.
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> This noise is meant to be used with the <i>GPU engine only</i> (i.e., <b>Direct3D</b> or <b>OpenGL</b>). Go to <b>Tools &gt; Switch engine...</b> or press the <b>F9</b> key to select the desired engine.
+
+<a name="parameters"></a>
+
 ## Parameters
 
-* **Invert** *Boolean*   
-  Inverts the output image.
-* **Scale** *Float*   
-  Controls the scale of the fractal 3D Voronoi noise.  
-  *Note*: When **Tiling** is enabled on *any axis*, the scale adjustement is *stepped*. This is expected.
-* **Size** *Float3*   
-  Controls the size of the fractal 3D Voronoi noise in the **X**, **Y** and **Z** axes. Non-uniform values result in a *stretching or squashing* effect.  
-  *Note*: When **Tiling** is enabled on *any axis*, the size adjustment is *stepped*. This is expected.
-* **Offset** *Float3*   
-  Applies an offset to the *position* of the fractal 3D Voronoi noise in the **X**, **Y** and **Z** axes.
-* **Disorder** *Float3*   
-  The intensity of the *random offset* applied to each point of the noise in the **X**, **Y** and **Z** axes.
-* **Distortion Intensity** *Float*   
-  Controls the intensity of a *warping effect* applied on the fractal 3D Voronoi noise.
-* **Distortion Scale Multiplier** *Float*   
-  Controls the scale of the *deforming pattern* used in the warping effect controlled by the **Distortion Intensity**.
-* **Min Level** *Integer*  
-  The minimum *level of of repetition* used in the fractal pattern. A wider minimum/maximum range results in a *richer pattern* with variation on more frequency ranges.
-* **Max Level** *Integer*  
-  The maximum *level of of repetition* used in the fractal pattern. A wider minimum/maximum range results in a *richer pattern* with variation on more frequency ranges.
-* **Roughness** *Float*  
-  Controls the *balance* between low and high *levels of repetition* in the fractal pattern.  
-  *Note*: A value of **0** results in an output which is *not in line* with other low values following it. This is expected.  
-  *Note 2*: This parameter is only available when the **Blend Mode** parameter is set to *Add*.
-* **Lacunarity** *Float*  
-  Controls how the applied fractal pattern *fills space*. A *higher* value results in *less gaps* in the pattern and a *denser* noise.
-* **Global Opacity** *Float*  
-  Controls the *range* of the fractal 3D Perlin noise values from 0.
-* **Rounded Curve** *Float*   
-  Rounds the *slope* around each point of the noise to make it *convex*.  
-  *Note*: This parameter is not available when the **Style** parameter is set to *Edge*.
-* **Distance Scale** *Float*   
-  Adjusts the *distance of the gradient* around each point of the noise.
-* **Distance Mode** *Integer*   
-  Sets the method to *compute the distance gradient* around each point of the noise:  
-  * *Euclidean*   
-  * *Manhattan*   
-  * *Chebyshev*   
-  * *Minkowski*
-* **Minkowski Number** *Float*   
-  The order *p* of the Minkowski distance. If we divide the distance gradient into quadrants, this number impacts these quadrants as follows:  
-  * p is *exactly* 1: Straight  
-  * p is *lower* than 1: Concave  
-  * p is *greater* than 1: Convex  
-  Interesting values:  
-  *- 1.0*: Manhattan distance  
-  *- 2.0*: Euclidean distance  
-  *- Infinity*: Chebyshev distance  
-  *Note*: This parameter is only available when the **Distance Mode** parameter is set to *Minkowski*.
-* **Blend Mode** *Integer*  
-  Sets the method of blending together the values of *overlapping cells* in 3D space:  
-  * *Add*: Add the values  
-  * *Max*: Retain the *highest* value  
-  * *Min*: Retain the *lowest* value
-* **Style** *Integer*Sets the method *rendering the data* of the fractal 3D Voronoi noise, considering the noise is based on a set of points in 3D space:  
-  * *F1*: the distance to the *closest point* in 3D space  
-  * *F2*: the distance to the *second closest point* in 3D space  
-  * *F2-F1*- *F1\*F2*- *F1/F2*- *Edge*: the *edge between each cell* of the noise in 3D space  
-  * *Random color*: assign a *random flat color* to each cell of the noise in 3D space
-* **Edge Thickness** *Float*Adjusts the thickness of the edges detected between cells of the fractal 3D Voronoi noise. Edges are detected in the X, Y and Z axes, thus some thicknesses may increase quicker than other depending on the cells' *depth*.  
-  *Note*: This parameter is only available when the **Style** parameter is set to *Edge*.
-* **Enable Tiling** *Boolean*   
-  Adjusts the fractal 3D Voronoi noise so its resulting pattern *repeats* in the X, Y and Z axes.
+|  |  |
+|:---|:---|
+| <b>Invert</b> <i>Boolean</i> | Inverts the output image. |
+| <b>Scale</b> <i>Float</i> | Controls the scale of the fractal 3D Voronoi noise.<br><br><i>Note</i>: When <b>Tiling</b> is enabled on <i>any axis</i>, the scale adjustement is <i>stepped</i>. This is expected. |
+| <b>Size</b> <i>Float3</i> | Controls the size of the fractal 3D Voronoi noise in the <b>X</b>, <b>Y</b> and <b>Z</b> axes. Non-uniform values result in a <i>stretching or squashing</i> effect.<br><br><i>Note</i>: When <b>Tiling</b> is enabled on <i>any axis</i>, the size adjustment is <i>stepped</i>. This is expected. |
+| <b>Offset</b> <i>Float3</i> | Applies an offset to the <i>position</i> of the fractal 3D Voronoi noise in the <b>X</b>, <b>Y</b> and <b>Z</b> axes. |
+| <b>Disorder</b> <i>Float3</i> | The intensity of the <i>random offset</i> applied to each point of the noise in the <b>X</b>, <b>Y</b> and <b>Z</b> axes. |
+| <b>Distortion Intensity</b> <i>Float</i> | Controls the intensity of a <i>warping effect</i> applied on the fractal 3D Voronoi noise. |
+| <b>Distortion Scale Multiplier</b> <i>Float</i> | Controls the scale of the <i>deforming pattern</i> used in the warping effect controlled by the <b>Distortion Intensity</b>. |
+| <b>Min Level</b> <i>Integer</i> | The minimum <i>level of of repetition</i> used in the fractal pattern. A wider minimum/maximum range results in a <i>richer pattern</i> with variation on more frequency ranges. |
+| <b>Max Level</b> <i>Integer</i> | The maximum <i>level of of repetition</i> used in the fractal pattern. A wider minimum/maximum range results in a <i>richer pattern</i> with variation on more frequency ranges. |
+| <b>Roughness</b> <i>Float</i> | Controls the <i>balance</i> between low and high <i>levels of repetition</i> in the fractal pattern.<br><br><i>Note</i>: A value of <b>0</b> results in an output which is <i>not in line</i> with other low values following it. This is expected.<br><br><i>Note 2</i>: This parameter is only available when the <b>Blend Mode</b> parameter is set to <i>Add</i>. |
+| <b>Lacunarity</b> <i>Float</i> | Controls how the applied fractal pattern <i>fills space</i>. A <i>higher</i> value results in <i>less gaps</i> in the pattern and a <i>denser</i> noise. |
+| <b>Global Opacity</b> <i>Float</i> | Controls the <i>range</i> of the fractal 3D Perlin noise values from 0. |
+| <b>Rounded Curve</b> <i>Float</i> | Rounds the <i>slope</i> around each point of the noise to make it <i>convex</i>.<br><br><i>Note</i>: This parameter is not available when the <b>Style</b> parameter is set to <i>Edge</i>. |
+| <b>Distance Scale</b> <i>Float</i> | Adjusts the <i>distance of the gradient</i> around each point of the noise. |
+| <b>Distance Mode</b> <i>Integer</i> | Sets the method to <i>compute the distance gradient</i> around each point of the noise:<br><br>- <i>Euclidean</i><br>- <i>Manhattan</i><br>- <i>Chebyshev</i><br>- <i>Minkowski</i> |
+| <b>Minkowski Number</b> <i>Float</i> | The order <i>p</i> of the Minkowski distance. If we divide the distance gradient into quadrants, this number impacts these quadrants as follows:<br><br>- p is <i>exactly</i> 1: Straight<br>- p is <i>lower</i> than 1: Concave<br>- p is <i>greater</i> than 1: Convex<br><br>Interesting values:<br>- <i>1.0</i>: Manhattan distance<br>- <i>2.0</i>: Euclidean distance<br>- <i>Infinity</i>: Chebyshev distance<br><br><i>Note</i>: This parameter is only available when the <b>Distance Mode</b> parameter is set to <i>Minkowski</i>. |
+| <b>Blend Mode</b> <i>Integer</i> | Sets the method of blending together the values of <i>overlapping cells</i> in 3D space:<br><br>- <i>Add</i>: Add the values<br>- <i>Max</i>: Retain the <i>highest</i> value<br>- <i>Min</i>: Retain the <i>lowest</i> value |
+| <b>Style</b> <i>Integer</i> | Sets the method <i>rendering the data</i> of the fractal 3D Voronoi noise, considering the noise is based on a set of points in 3D space:<br><br>- <i>F1</i>: the distance to the <i>closest point</i> in 3D space<br>- <i>F2</i>: the distance to the <i>second closest point</i> in 3D space<br>- <i>F2-F1</i><br>- <i>F1\*F2</i><br>- <i>F1/F2</i><br>- <i>Edge</i>: the <i>edge between each cell</i> of the noise in 3D space<br>- <i>Random color</i>: assign a <i>random flat color</i> to each cell of the noise in 3D space |
+| <b>Edge Thickness</b> <i>Float</i> | Adjusts the thickness of the edges detected between cells of the fractal 3D Voronoi noise. Edges are detected in the X, Y and Z axes, thus some thicknesses may increase quicker than other depending on the cells' <i>depth</i>.<br><br><i>Note</i>: This parameter is only available when the <b>Style</b> parameter is set to <i>Edge</i>. |
+| <b>Enable Tiling</b> <i>Boolean</i> | Adjusts the fractal 3D Voronoi noise so its resulting pattern <i>repeats</i> in the X, Y and Z axes. |
 
-## Example Images
+## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant6.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoifractal-variant3.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoifractal-variant6.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoifractal-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoifractal-variant4.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoifractal-variant5.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoifractal-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoifractal-variant3.jpg" />
+        </td>
+    </tr>
 </table>

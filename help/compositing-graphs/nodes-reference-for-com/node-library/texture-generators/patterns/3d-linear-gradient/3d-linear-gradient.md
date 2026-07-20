@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/3d-linear-gradient.png){width="128px"}
 
-## 3D Linear Gradient
-
-**In:** *Texture Generators**/Patterns*
-
-**Intermediate**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,20 +31,27 @@ Creates a volumetric gradient based on input Position map. Effectively generates
 
 Also see [3D Volume Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) for a similar effect.
 
-## Parameters
-
-* **Points Position Mode**: *UV Positions, World Space Positions*Choose if the Gradient Points work in UV Space (works best when setting them in 2D view) or in in 3D coordinates, if you want to manually enter an exact position.
-* **Point 1**:   
-  Start Point of the gradient. Can be 2D or 3D Coordinates based on Position Mode.
-* **Point 2**:   
-  End Point of the gradient. Can be 2D or 3D Coordinates based on Position Mode.
-* **Contrast**: *0.0 - 1.0*  
-  Adjusts the contrast of the result.
-
-## Example Images
-
-![](../../../../../../assets/3d-gradient.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Points Position Mode</b> <i>UV Positions, World Space Positions</i> | Choose if the Gradient Points work in UV Space (works best when setting them in 2D view) or in in 3D coordinates, if you want to manually enter an exact position. |
+| <b>Point 1</b> | Start Point of the gradient. Can be 2D or 3D Coordinates based on Position Mode. |
+| <b>Point 2</b> | End Point of the gradient. Can be 2D or 3D Coordinates based on Position Mode. |
+| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3d-gradient.gif" />
+        </td>
+    </tr>
 </table>

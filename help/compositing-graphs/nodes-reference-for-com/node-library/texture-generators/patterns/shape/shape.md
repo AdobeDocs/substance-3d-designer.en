@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/shape-2.png){width="128px"}
 
-## Shape
-
-**In:** *Texture Generators**/Patterns*
-
-**Intermediate**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,26 +31,32 @@ Generates a variety of procedural shapes, with options to modify base shapes. Th
 
 Despite its simplicity, this is a very useful node: it is the building block of most procedural Heightmap generation! By combining basic shapes with transform nodes, you can create a fully-procedural Heightmap shape that is much more precise than any bitmap.
 
-## Parameters
-
-* **Tiling**: *1 - 16*  
-  Sets the amount of times the result should tile.
-* **Pattern**: *Square, Disc, Paraboloid, Bell, Gaussian, Thorn, Pyramid, Brick, Gradation, Waves, Half Bell, Ridged Bell, Crescant, Capsule, Cone*, Hemisphere**  
-  Selects what pattern shape to use.
-* **Pattern Specific**: *0.0 - 1.0*  
-  Lets you change the selected pattern's shape. The effect is dependent on the selected pattern.
-* **Scale**: *0.0 - 1.0*Scales the entire shape.
-* **Size**: *0.0 - 1.0*Allows for non-uniform scaling over either X- or Y-axis.
-* **Angle**: *0.0 - 1.0*Rotates the entire shape.
-* **Rotation 45°**: *False/True*Rotates at pre-set 45 degrees.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-* **Non Square Tiling****:** *False/True*When Non Square Expansion is enabled, this will tile the shape without squashing.
-
-## Example Images
-
-![](../../../../../../assets/shape-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Tiling</b> <i>1 - 16</i> | Sets the amount of times the result should tile. |
+| <b>Pattern</b> <i>Square, Disc, Paraboloid, Bell, Gaussian, Thorn, Pyramid, Brick, Gradation, Waves, Half Bell, Ridged Bell, Crescant, Capsule, Cone, Hemisphere</i> | Selects what pattern shape to use. |
+| <b>Pattern Specific</b> <i>0.0 - 1.0</i> | Lets you change the selected pattern's shape. The effect is dependent on the selected pattern. |
+| <b>Scale</b> <i>0.0 - 1.0</i> | Scales the entire shape. |
+| <b>Size</b> <i>0.0 - 1.0</i> | Allows for non-uniform scaling over either X- or Y-axis. |
+| <b>Angle</b> <i>0.0 - 1.0</i> | Rotates the entire shape. |
+| <b>Rotation 45°</b> <i>False/True</i> | Rotates at pre-set 45 degrees. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+| <b>Non Square Tiling</b> <i>False/True</i> | When Non Square Expansion is enabled, this will tile the shape without squashing. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/shape-ex.gif" />
+        </td>
+    </tr>
 </table>

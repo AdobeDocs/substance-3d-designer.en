@@ -16,10 +16,6 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
 ![Anisotropic noise - Icon](../../../../../../assets/anisotropic_noise_v2.png "Anisotropic noise - Icon"){width="200px"}
@@ -39,25 +35,29 @@ The amount of strips is adjustable, as is the smoothness of their transitions.
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The generated noise as a grayscale bitmap. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
-| <b>X amount</b>  Integer | The amount of strips on the X axis. |
-| <b>Y amount</b>  Integer | The amount of strips on the Y axis. |
-| <b>Y amount by resolution</b>  Boolean | If True, the number of strips on the Y axis will be equal to the image size on that axis. |
-| <b>Rotate</b>  Boolean | Rotates the noise 90 degrees. |
-| <b>Smoothness</b>  Float | The amount of fading between the strips, where 0 is no fading and 1 is fading over their entire length. |
-| <b>Smoothness interpolation</b>  Float | The weighting of the two methods of interpolation applied to fade the strips, where 0 is linear and 1 is Gaussian. |
-| <b>Disorder</b>  Float | Displaces the ingredients of the noise.   This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.   This can be used to control the speed of displacement when animating the noise. |
-| <b>Non-square expansion</b>  Boolean | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
+|:---|:---|
+| <b>X amount</b> <i>Integer</i> | The amount of strips on the X axis. |
+| <b>Y amount</b> <i>Integer</i> | The amount of strips on the Y axis. |
+| <b>Y amount by resolution</b> <i>Boolean</i> | If True, the number of strips on the Y axis will be equal to the image size on that axis. |
+| <b>Rotate</b> <i>Boolean</i> | Rotates the noise 90 degrees. |
+| <b>Smoothness</b> <i>Float</i> | The amount of fading between the strips, where 0 is no fading and 1 is fading over their entire length. |
+| <b>Smoothness interpolation</b> <i>Float</i> | The weighting of the two methods of interpolation applied to fade the strips, where 0 is linear and 1 is Gaussian. |
+| <b>Disorder</b> <i>Float</i> | Displaces the ingredients of the noise.   This can be used to animate the noise. |
+| <b>Disorder speed</b> <i>Float</i> | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.   This can be used to control the speed of displacement when animating the noise. |
+| <b>Non-square expansion</b> <i>Boolean</i> | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
 
 ## Examples
 
@@ -71,20 +71,6 @@ The amount of strips is adjustable, as is the smoothness of their transitions.
 <td style="border: 0;" valign="top">
 
 ![Anisotropic noise - Example 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Anisotropic noise - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
 
 </td>
 </tr>

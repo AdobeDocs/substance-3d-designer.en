@@ -16,39 +16,44 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/polygon-2-1.png){width="128px"}
 
-## Polygon 2
-
-**In:** *Texture Generators**/Patterns*
-
-**Intermediate**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Generates a smooth gradient polygon shape with options for adjustment. See [Polygon 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-1/polygon-1.md) for a more advanced version.
 
-## Parameters
-
-* **Sides**: *3 - 32*Amount of sides.
-* **Scale**: *0.0 - 1.0*Sets global scale.
-* **Rotation**: *0.0 - 1.0*Rotates entire shape.
-* **Curve**: *-1.0 - 1.0*Modifies the gradient profile curve.
-* **Gradient**: *0.0 - 1.0*Adjusts gradient contrast.
-* **Invert Gradient**: *False/True*Inverts gradient direction.
-* **Auto Scale**: *False/True*Scales to fit in canvas with default settings.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-
-## Example Images
-
-![](../../../../../../assets/polygon-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Sides</b> <i>3 - 32</i> | Amount of sides. |
+| <b>Scale</b> <i>0.0 - 1.0</i> | Sets global scale. |
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Rotates entire shape. |
+| <b>Curve</b> <i>-1.0 - 1.0</i> | Modifies the gradient profile curve. |
+| <b>Gradient</b> <i>0.0 - 1.0</i> | Adjusts gradient contrast. |
+| <b>Invert Gradient</b> <i>False/True</i> | Inverts gradient direction. |
+| <b>Auto Scale</b> <i>False/True</i> | Scales to fit in canvas with default settings. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/polygon-2-ex.gif" />
+        </td>
+    </tr>
 </table>

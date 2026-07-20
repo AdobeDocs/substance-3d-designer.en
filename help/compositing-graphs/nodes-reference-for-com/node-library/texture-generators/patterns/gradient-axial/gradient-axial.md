@@ -16,34 +16,29 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/gradient-axial.png){width="128px"}
 
-## Gradient Axial
-
-**In:** *Texture Generators**/Patterns*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Creates a grayscale gradient transition between two custom defined points. Allows linear gradients to be created at any angle, but keep in mind results will not always tile.
 
-## Parameters
-
-### Parameters
-
-* **Point 1**:   
-  First point to start the gradient from (black)
-* **Point 2**:   
-  Second point to end the gradient at (white)
-* **Non Square Expansion**: *False/True*  
-  Enable compensation of squash and stretch with non-square ratios.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Point 1</b> | First point to start the gradient from (black) |
+| <b>Point 2</b> | Second point to end the gradient at (white) |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enable compensation of squash and stretch with non-square ratios. |
