@@ -92,8 +92,3 @@ timer.tick.connect(receiver.onTick, QtCore.Qt.QueuedConnection)
 
 timer.start()
 ```
-
-Test files:
-
-[<img src="../../assets/2d-view-icon-pin.png" alt="2d-view-icon-pin.png" width="64" height="64">](using-threads.resources/test.sbs)
-[<img src="../../assets/2d-view-icon-pin.png" alt="2d-view-icon-pin.png" width="64" height="64">](using-threads.resources/testZipped.zip)
