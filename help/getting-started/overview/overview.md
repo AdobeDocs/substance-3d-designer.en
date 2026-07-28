@@ -38,13 +38,13 @@ For example, most of the procedural, smart content in Painter and Sampler was au
 
 Substance 3D Designer is a Node-based editor that allows you to build content in many different ways with varying complexities. [The workflow is further explained on dedicated pages](../../getting-started/workflow-overview/workflow-overview.md), but the following are benefits of working with the software:
 
-<b>&#91;Non-linear&#93;(../../compositing-graphs/substance-compositing-graphs.md) </b>: you can can author a multitude of texture outputs at once. Edit one mask or slider, and automatically any connected output is re-calculated. No more need to separately author maps such as Basecolor, Roughness, Normal, etc..
+<b>[Non-linear](../../compositing-graphs/substance-compositing-graphs.md) </b>: you can can author a multitude of texture outputs at once. Edit one mask or slider, and automatically any connected output is re-calculated. No more need to separately author maps such as Basecolor, Roughness, Normal, etc..
 
-<b> &#91;Non-destructive&#93;(../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: you can reverse any action *without* losing any of your work. It becomes much quicker to iterate and experiment, finding even more efficient workflows.
+<b>[Non-destructive](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>: you can reverse any action *without* losing any of your work. It becomes much quicker to iterate and experiment, finding even more efficient workflows.
 
-<b> &#91;Integrated Baking&#93;(../../bakers/bakers.md) </b>: access advanced, blazing-fast mesh baking tools right inside the software. You no longer have to perform baking in a separate software and perform lengthy import and export processes.
+<b>[Integrated Baking](../../bakers/bakers.md) </b>: access advanced, blazing-fast mesh baking tools right inside the software. You no longer have to perform baking in a separate software and perform lengthy import and export processes.
 
-<b> &#91;Parametric&#93;(../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: you can set-up to control nearly any aspect of a texture through a single slider or dropdown. This allows you to add endless control and variation to just a single asset.
+<b>[Parametric](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) </b>: you can set-up to control nearly any aspect of a texture through a single slider or dropdown. This allows you to add endless control and variation to just a single asset.
 
 ## Filetypes
 
