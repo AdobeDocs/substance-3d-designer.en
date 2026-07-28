@@ -22,6 +22,12 @@ The 3D view also provides two main methods of rendering materials in 3D scenes:
 
 Learn more here: [3D renderers](3d-renderers/3d-renderers.md)
 
++++ The 3D view dock
+
+![3d-view.png](3d-view.resources/3d-view.png)
+
++++
+
 ## Viewport interactions
 
 The section below explains you how to do common actions in short, along with an animated gif to illustrate the process.
@@ -542,7 +548,23 @@ The <b>Display</b> toolbar, which is located at the *bottom* of the <b>3D View</
 
 >[!NOTE]
 >
-> The toolbar can be *repositioned* around the **3****D View** dock using the leftmost *handle* represented by three parallel lines.
+> The toolbar can be *repositioned* around the **3D View** dock using the leftmost *handle* represented by three parallel lines.
+
+### 3D render AOVs
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p>You can display different <a href="../../glossary/glossary.md#aov">AOVs</a> using the <img src="./3d-view.resources/aov/aov-icon.png" alt="3D render AOVs icon" style="padding-left: 5px; padding-right: 5px" /> <b>3D render AOVs</b> button.</p>
+            <p>AOVs let you inspect mesh and material information in isolation for focused work and debugging.</p>
+            <p>Some AOVs include <i>negative values</i> that are displayed as black in the viewport. To inspect the full range of values, you can export a 3D render of the AOV to an image file format that supports HDR values, such as OpenEXR.<br>Use the <code>Camera > Save render...</code> menu option to export the current AOV.</p>
+            <p><i>Note:</i> AOVs are only available when using the Rasterizer and GPU Pathtracer <a href="./3d-renderers/3d-renderers.md">3D renderers</a>.</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="3D render AOVs composited" />
+        </td>
+    </tr>
+</table>
 
 ### Color channels
 
