@@ -14,9 +14,9 @@ user-guide-title: ""
 
 # Exporting scenes
 
-When you need to export the scene with all edits made in Designer, use the 'Export scene...' actions in the [3D View](../../interface/3d-view/3d-view.md)'s 'Scene' menu.
+When you need to export the scene with all edits made in Designer, use the 'Export scene...' actions in the [3D View](../../../../interface/3d-view/3d-view.md)'s 'Scene' menu.
 
-For exports to USD formats, the contents of the scene will match the tree displayed in the [Scene browser](../../interface/3d-view/scene-browser/scene-browser.md).
+For exports to USD formats, the contents of the scene will match the tree displayed in the [Scene browser](../../../../interface/3d-view/scene-browser/scene-browser.md).
 
 For other formats, the contents of the scene and its internal structure will depend on the features supported by the selected file format.
 
@@ -24,7 +24,7 @@ For other formats, the contents of the scene and its internal structure will dep
 >
 > All items added to the scene by Designer will be included in the exported scene: the default camera, the default environment, all material copies any additional lights.
 
-![Scene export actions](../../assets/exportActions.png "Scene export actions"){zoomable="yes"}
+![Scene export actions](../../../../assets/exportActions.png "Scene export actions"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,7 +59,7 @@ This means edits to the original scene do not impact the exported scene at all.
 </td>
 <td style="border: 0;" valign="top">
 
-![Exported scene files - Flattened](../../assets/exportFlattened.png "Exported scene files - Flattened"){zoomable="yes"}
+![Exported scene files - Flattened](../../../../assets/exportFlattened.png "Exported scene files - Flattened"){zoomable="yes"}
 
 </td>
 </tr>
@@ -78,7 +78,7 @@ This means edits to the original scene carry over to the exported scene.
 </td>
 <td style="border: 0;" valign="top">
 
-![Exported scene files - Layered](../../assets/exportLayered.png "Exported scene files - Layered"){zoomable="yes"}
+![Exported scene files - Layered](../../../../assets/exportLayered.png "Exported scene files - Layered"){zoomable="yes"}
 
 </td>
 </tr>

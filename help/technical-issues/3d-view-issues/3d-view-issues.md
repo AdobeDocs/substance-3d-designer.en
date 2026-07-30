@@ -214,7 +214,7 @@ The shading of objects relies on their normal, tangent and binormal vectors. The
 
 For instance, a scale of 2 and a bias of -1 adapts the x value from &#91;0, 1&#93; to &#91;-1, 1&#93; thusly: x\*2-1.
 
-Designer does not apply a normal scale and bias unless they are specified by a 3D mesh. If that information is missing, a warning is raised in the Console when [overriding any of its materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
+Designer does not apply a normal scale and bias unless they are specified by a 3D mesh. If that information is missing, a warning is raised in the Console when [overriding any of its materials](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md):
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
@@ -225,7 +225,7 @@ Designer does not apply a normal scale and bias unless they are specified by a 
 
 For scenes exported to USD formats a while ago: Reexport the scene using a recent version of USD, which will include the necessary data. Pay attention to properties related to normal scale and bias if there are any, which will depend on the software used to export the scene.
 
-When [overriding a material](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md), Designer processes the mesh and computes any missing data related ot its normals, tangents and binormals. If Designer's default scale and bias happen to match the ones required for the mesh, then the mesh will look correct when overridden.
+When [overriding a material](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md), Designer processes the mesh and computes any missing data related ot its normals, tangents and binormals. If Designer's default scale and bias happen to match the ones required for the mesh, then the mesh will look correct when overridden.
 
 ## Crash when starting 3D View
 

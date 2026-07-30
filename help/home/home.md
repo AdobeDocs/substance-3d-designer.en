@@ -62,7 +62,7 @@ If you have any question that is not answered in this manual, feel free to ask o
 
 ## Substance graphs
 
-* [Substance graph key concepts](../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
+* [Substance graph key concepts](../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
 * [Creating a Substance graph](../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 * [Exposing a parameter](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 * [Graph parameters](../compositing-graphs/graph-parameters/graph-parameters.md)

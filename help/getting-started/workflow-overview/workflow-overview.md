@@ -46,7 +46,7 @@ For more information about Graph Instances in [Substance graphs](../../compositi
 
 ## Custom parameters
 
-Any node in your chain of operations will have some form of control: buttons, sliders, settings for you to tweak, influencing the final result. If you create a Sub-Graph, or want to export your Substance File to another application, you can build your own "control panel" for your files, allowing anybody using the Graph to tweak and modify it with a fully unique control panel, exposing endless possiblities. [Learn about the general concept of custom parameters here](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md), or go more in depth and [start exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+Any node in your chain of operations will have some form of control: buttons, sliders, settings for you to tweak, influencing the final result. If you create a Sub-Graph, or want to export your Substance File to another application, you can build your own "control panel" for your files, allowing anybody using the Graph to tweak and modify it with a fully unique control panel, exposing endless possiblities. [Learn about the general concept of custom parameters here](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md), or go more in depth and [start exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 ## Graph types
 
