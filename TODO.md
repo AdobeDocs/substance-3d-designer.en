@@ -10,6 +10,10 @@
 * Entry points for Python API documentation on AdobeDocs
 * Examples in 'Documentation pop-up' page
 
+## Changes
+
+* Restructure [Working with splines](help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) to prioritize splines
+
 ## Fixes
 
 * Broken links and formatting in [Output node](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
