@@ -5,34 +5,70 @@ description: Find all sample projects and graphs produced by the Substance 3D De
 
 # All samples
 
-
-
-*Authored in version: 12.3.0*
-
 <table style="border: 0">
 
 <tr style="border: 0">
-<td style="border: 0">
-<a href="../essentials/best-practices/best-practices.md"><img src="all-samples.resources/sbs-file-icon.png" alt="SBS file icon" width="64" /></a>
+<td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+<a href="all-samples.resources/ds-sample-filters.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="SBS file icon" width="64" /></a>
 </td>
 <td style="border: 0">
 
-### Sample title
+### Filters
 
-Description
+This project features a simple graph setup to be used as a filter in other graphs.  
+[Filters](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md) are nodes which modify and/or blend one or more input images.
+
+*Minimum version: 12.3.0*
 
 </td>
 </tr>
 
 <tr style="border: 0">
-<td style="border: 0">
-<a href="../essentials/best-practices/performance-optimization/performance-optimization-guidelines.md"><img src="all-samples.resources/sbs-file-icon.png" alt="SBS file icon" width="64" /></a>
+<td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+<a href="all-samples.resources/ds-sample-functions-in-sbs-graphs.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="SBS file icon" width="64" /></a>
 </td>
 <td style="border: 0">
 
-### Sample title
+### Functions in Substance graphs
 
-Description
+This project serves as a general introduction to function graphs and how they may be used to expand the control you have on your node parameters in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md).
+
+*Minimum version: 12.3.0*
+
+</td>
+</tr>
+
+<tr style="border: 0">
+<td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+<a href="all-samples.resources/ds-sample-inheritance.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="SBS file icon" width="64" /></a>
+</td>
+<td style="border: 0">
+
+### Inheritance
+
+This project demonstrates the [inheritance](../essentials/glossary/glossary.md#inheritance) methods available in Substance graphs to propagate important image information such as resolution and bitdepth across nodes in a graph.
+
+Learn more: [Inheritance in Substance graphs](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
+
+*Minimum version: 12.3.0*
+
+</td>
+</tr>
+
+<tr style="border: 0">
+<td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+<a href="all-samples.resources/ds-sample-pixel-processor.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="SBS file icon" width="64" /></a>
+</td>
+<td style="border: 0">
+
+### Pixel processor
+
+The [Pixel processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) node is one of the most complex yet powerful nodes in Designer, and understanding its workings unlocks a significant amount of power and flexibility in your graphs, which enables you to create more varied custom nodes.
+
+This project demonstrates two simple uses cases for the Pixel processor: as a generator and a a filter.  
+It is also a stepping stone to doing more with [function graphs](../../function-graphs/function-graphs.md).
+
+*Minimum version: 12.3.0*
 
 </td>
 </tr>
