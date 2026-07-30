@@ -8,7 +8,7 @@ nudge: true
 # Substance 3D Designer {#using}
 
 + [User guide](/help/home/home.md)
-+ [Glossary](/help/glossary/glossary.md)
++ [Glossary](/help/learning-tutorials/essentials/glossary/glossary.md)
 + Getting started{#getting-started}
   + [Getting started](/help/getting-started/getting-started.md)
   + [Activation and licenses](/help/getting-started/activation-and-licenses/activation-and-licenses.md)

@@ -125,11 +125,11 @@ Normal uncombine
 
 ## Quality of life improvements
 
-* <b>Performances </b>and <b>responsiveness</b> when working on big projects have been improved. For example removing nodes can be up to 75 times faster. [Cooking](../../glossary/glossary.md) time has also been reduced for graphs referencing several times the same bitmap.
-* <b>Inherited parameters</b>: when a parameter is [inherited](../../glossary/glossary.md), instead of showing the default value, we now display the inherited one so you know the currently used value. Learn more about inheritance in [this dedicated page of our documentation](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+* <b>Performances </b>and <b>responsiveness</b> when working on big projects have been improved. For example removing nodes can be up to 75 times faster. [Cooking](../../learning-tutorials/essentials/glossary/glossary.md#cooking) time has also been reduced for graphs referencing several times the same bitmap.
+* <b>Inherited parameters</b>: when a parameter is [inherited](../../learning-tutorials/essentials/glossary/glossary.md#inheritance), instead of showing the default value, we now display the inherited one so you know the currently used value. Learn more about inheritance in [this dedicated page of our documentation](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 * <b>Trackpad support</b> on MacOS has been completely reworked to be more natural and in line with other software. Moving nodes beyond the borders of the [Graph View](../../interface/the-graph-view/the-graph-view.md) has also been rethinked in order to be smoother and more consistent across all the operating systems.
 
-* <b>2D View: </b>when tiled display is enabled in the [2D View](../../interface/2d-view/2d-view.md), you can now get values even for pixels that are not on the original tile: it helps a lot to check [sampling](../../glossary/glossary.md) and value transitions across tiles.
+* <b>2D View: </b>when tiled display is enabled in the [2D View](../../interface/2d-view/2d-view.md), you can now get values even for pixels that are not on the original tile: it helps a lot to check [sampling](../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling) and value transitions across tiles.
 
 ![2d view](../../assets/2dview.gif){width="320px" zoomable="yes"}
 

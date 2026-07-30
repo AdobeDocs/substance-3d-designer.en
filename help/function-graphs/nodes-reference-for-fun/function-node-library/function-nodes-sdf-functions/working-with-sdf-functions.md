@@ -21,7 +21,7 @@ SDF functions are Substance function graphs that combine SDF nodes available in 
 As a starting point, keep in mind the basic workflow looks like this:
 
 1. Author an SDF function in a [3D viewer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md) node for visualizing the result.
-2. Copy it the final function graph (or [instantiate it](../../../../glossary/glossary.md#instance-node)) into the SDF function parameter of a node that supports SDF functions, such as [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
+2. Copy it the final function graph (or [instantiate it](../../../../learning-tutorials/essentials/glossary/glossary.md#instance-node)) into the SDF function parameter of a node that supports SDF functions, such as [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md).
 
 <img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Mograph of the 3D SDF functions nodes feature in Substance 3D Designer" />
 

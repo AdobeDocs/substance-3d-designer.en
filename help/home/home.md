@@ -18,7 +18,7 @@ user-guide-title: ""
 
 [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) is a material authoring software. It lets you use a node graph to generate textures from procedural patterns and noises, as well as manipulate bitmaps.
 
-A word or concept used in Designer is unfamiliar to you? Go to our [Glossary](../glossary/glossary.md) to learn about it.
+A word or concept used in Designer is unfamiliar to you? Go to our [Glossary](../learning-tutorials/essentials/glossary/glossary.md) to learn about it.
 
 If you have any question that is not answered in this manual, feel free to ask on our [Community Support forum](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer). You can also download our [Physically Based Rendering guide](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1) if you wish to learn more about PBR.
 

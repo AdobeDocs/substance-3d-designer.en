@@ -153,7 +153,7 @@ For custom 3D scenes, go to the [Working with 3D scenes](../../working-with-3d-s
 
 ## Change shader properties
 
-There are a few different [shaders](../../glossary/glossary.md) available by default in Designer, and each shader has options beyond just texture channels. They can be configured individually.
+There are a few different [shaders](../../learning-tutorials/essentials/glossary/glossary.md#shader) available by default in Designer, and each shader has options beyond just texture channels. They can be configured individually.
 
 Keep in mind shaders are different across Designer's [3D renderers](../../interface/3d-view/3d-renderers/3d-renderers.md) and only settings marked with a 'Common' label will carry over when switching renderers.
 
@@ -289,7 +289,7 @@ The 'Materials' menu features a list of all materials assigned to a mesh in the 
 
 <b>Edit</b> - Edit settings of the current material in the Properties window.
 
-<b>Shaders list</b> - All [shaders](../../glossary/glossary.md) available for the current [3D renderer](../../interface/3d-view/3d-renderers/3d-renderers.md).
+<b>Shaders list</b> - All [shaders](../../learning-tutorials/essentials/glossary/glossary.md#shader) available for the current [3D renderer](../../interface/3d-view/3d-renderers/3d-renderers.md).
 
 <b>Load Definition...: </b>(OpenGL renderer only) Lets you load your own custom [GLSLFX shader.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) The shader is added into the list above.
 

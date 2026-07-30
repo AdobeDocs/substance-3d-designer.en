@@ -37,7 +37,7 @@ Similar to [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), it requires t
 
 The Pixel Processor is similar to the [Value processor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), which runs on only single values and can provide a nice optimization compared to the Pixel processor.
 
-For anybody used to creating [shader](../../../../glossary/glossary.md) functions in node-based editors, the Pixel processor should offer a familiar environment.
+For anybody used to creating [shader](../../../../learning-tutorials/essentials/glossary/glossary.md#shader) functions in node-based editors, the Pixel processor should offer a familiar environment.
 
 <table>
 <tr style="border: 0;">
@@ -67,7 +67,7 @@ For anybody used to creating [shader](../../../../glossary/glossary.md) function
 > 
 > Also consider that working with this type of graph and performing mathematical operations is mandatory for getting anything out of this node.
 > 
-> We also recommend being familiar with the concept of [UVs](../../../../glossary/glossary.md), [texture sampling](../../../../glossary/glossary.md) and vectors.
+> We also recommend being familiar with the concept of [UVs](../../../../learning-tutorials/essentials/glossary/glossary.md#uv), [texture sampling](../../../../learning-tutorials/essentials/glossary/glossary.md#texture-sampling) and vectors.
 
 <table>
 <tr style="border: 0;">
@@ -89,7 +89,7 @@ For anybody used to creating [shader](../../../../glossary/glossary.md) function
 |  |  |
 | --- | --- |
 | <b>Color mode</b> *Boolean* | Toggles between a grayscale and a color output image. |
-| <b>Per pixel function</b> *Float/Float4* | [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) evaluated per pixel in the output image.   Use the [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) node set to the <b>$pos</b> variable to access the [normalized](../../../../glossary/glossary.md) position of the current pixel. |
+| <b>Per pixel function</b> *Float/Float4* | [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) evaluated per pixel in the output image.   Use the [Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) node set to the <b>$pos</b> variable to access the [normalized](../../../../learning-tutorials/essentials/glossary/glossary.md#normalization) position of the current pixel. |
 
 ## Input connectors
 

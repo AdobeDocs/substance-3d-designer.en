@@ -16,9 +16,9 @@ user-guide-title: ""
 
 ![Working with 3D scenes](../assets/workingWith3DScenes.png "Working with 3D scenes"){zoomable="yes"}
 
-Designer lets you load [3D scenes](../glossary/glossary.md) to work on materials in context. You can find a list of supported file formats for 3D scenes here, including a list of supported features for each format. <b>&lt;link needed&gt;</b>
+Designer lets you load [3D scenes](../learning-tutorials/essentials/glossary/glossary.md#three-d-scene) to work on materials in context. You can find a list of supported file formats for 3D scenes here, including a list of supported features for each format. <b>&lt;link needed&gt;</b>
 
-Working in context involves [overriding](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) one of the scene’s [materials](../glossary/glossary.md) to replace it with a material authored in Designer.  
+Working in context involves [overriding](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) one of the scene’s [materials](../learning-tutorials/essentials/glossary/glossary.md#material) to replace it with a material authored in Designer.  
 You may start from scratch using any of the Substance graph templates available in Designer or [extract values and textures](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) from the 3D scene’s material as a starting point.
 
 When you are done with the 3D scene, you can [export it](../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) to a new file to be ingested in another application.
@@ -68,7 +68,7 @@ The [Scene browser](../interface/3d-view/scene-browser/scene-browser.md) can be 
 
 There are several pathways to load a 3D scene in the 3D View:
 
-1. Double-click or drag a [3D scene resource](../resources/3d-scene-resource/3d-scene-resource.md) from a [package](../glossary/glossary.md) into the 3D View
+1. Double-click or drag a [3D scene resource](../resources/3d-scene-resource/3d-scene-resource.md) from a [package](../learning-tutorials/essentials/glossary/glossary.md#package) into the 3D View
 1. Drag a 3D scene item from the [Library](../interface/the-library/the-library.md) into the 3D View (provided you have [added your own content to the Library](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md))
 1. Drag a 3D scene file from the system’s file browser into the 3D View
 1. Load a 3D scene state file (SBSSCN) along with its referenced mesh

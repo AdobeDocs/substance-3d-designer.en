@@ -59,7 +59,7 @@ It can however not be a perfect match for certain applications, so the following
 >
 > Disabling tiling
 > 
-> Set the [inheritance method](../../../../glossary/glossary.md) of the 'Tiling mode' [base parameter](../../../../glossary/glossary.md) to 'Absolute', which then lets you set the parameter value to 'No Tiling':
+> Set the [inheritance method](../../../../learning-tutorials/essentials/glossary/glossary.md#inheritance) of the 'Tiling mode' [base parameter](../../../../learning-tutorials/essentials/glossary/glossary.md#base-parameter) to 'Absolute', which then lets you set the parameter value to 'No Tiling':
 > 
 > ![](../../../../assets/tilingmode.png)
 
@@ -88,8 +88,8 @@ It can however not be a perfect match for certain applications, so the following
 | --- | --- |
 | <b>Transformation matrix</b> *Float4* | Open the underlying transform matrix for direct editing. Allows you to change rotation and scaling. Can also be adjusted through the gizmo in the 2D view.   Warning: they do not directly correlate to the view, and are relative adjustments that can be applied in steps. |
 | <b>Offset</b> *Float2* | Defines the 2D displacement of the image. Allows you to change the position or offset Can also be adjusted through the gizmo in the 2D view.   Does relate directly to the 2D view output. |
-| <b>Mipmap mode</b> *Integer* | Allows you to switch to a manual [mipmap](../../../../glossary/glossary.md) level, which reduces artifacts in an image using texture filtering. |
-| <b>Mipmap level</b> *Integer* | Sets the [mipmap](../../../../glossary/glossary.md) level to be used.     *Available when 'Mipmap mode' is set to 'Manual'* |
+| <b>Mipmap mode</b> *Integer* | Allows you to switch to a manual [mipmap](../../../../learning-tutorials/essentials/glossary/glossary.md#mipmap) level, which reduces artifacts in an image using texture filtering. |
+| <b>Mipmap level</b> *Integer* | Sets the [mipmap](../../../../learning-tutorials/essentials/glossary/glossary.md#mipmap) level to be used.     *Available when 'Mipmap mode' is set to 'Manual'* |
 | <b>Matte color</b> *Float4* | The color used as background when tiling of transformation is disabled. I.e., sets the color used when the transformed input does not cover an area of the output.   Can be made transparent if working in RGBA color. |
 | <b>Filtering</b> *Integer* | Sets the downsampling method used. Does not work particularly well with Mipmap Level being reduced. |
 

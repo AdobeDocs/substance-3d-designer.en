@@ -45,7 +45,7 @@ A few things happen when using this action:
 * A Substance graph named after the material is created at the selected location.
 * A [bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) is created for every texture used by the material, and placed in a folder named after the material, under a ‘Resources’ folder.
 * In the graph, [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are created for each of these bitmap resources and automatically connected to [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes configured after the material properties using textures.
-* If each channel of a same texture is used to drive different material properties (the technique is called [channel packing](../../glossary/glossary.md)), [Grayscale conversion](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) nodes are automatically added to select appropriate channels.
+* If each channel of a same texture is used to drive different material properties (the technique is called [channel packing](../../learning-tutorials/essentials/glossary/glossary.md#channel-packing)), [Grayscale conversion](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md) nodes are automatically added to select appropriate channels.
 * The graph is automatically connected to the material and its appearance should not change until you make edits in the graph.
 
 <table>
