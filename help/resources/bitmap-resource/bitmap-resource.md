@@ -60,9 +60,9 @@ Bitmap Resources in a package have a number of attributes that you can customize
 | Tags | Used for [sorting and curating the resource](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) in the [Library](../../interface/the-library/the-library.md). |
 | User data | Optional extra data, not used on bitmaps. |
 | Show in Library | Determines if bitmap should be hidden in [the Library view.](../../interface/the-library/the-library.md) |
-| Bitmap format | Either Raw or Jpeg, has great effect on SBSAR filesize. See our [filesize reduction guidelines](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) to learn more. |
+| Bitmap format | Either Raw or Jpeg, has great effect on SBSAR filesize. See our [filesize reduction guidelines](../../learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) to learn more. |
 | Bitmap compression quality | Only has an affect with Jpeg compression, determines quality/filesize balance. |
 
 ## Filesize reduction
 
-See the [Filesize reduction guidelines](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) page in the [Best practices](../../best-practices/best-practices.md) section for our recommendations regarding minizing the filesize of bitmaps embedded into [published Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).
+See the [Filesize reduction guidelines](../../learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md) page in the [Best practices](../../learning-tutorials/essentials/best-practices/best-practices.md) section for our recommendations regarding minizing the filesize of bitmaps embedded into [published Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) (SBSAR).

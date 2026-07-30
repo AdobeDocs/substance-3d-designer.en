@@ -705,10 +705,10 @@ nudge: true
   + [Bakers](/help/bakers/bakers.md)
   + [Bakers legacy interface](/help/bakers/bakers-legacy-interface/bakers-legacy-interface.md)
 + Best practices{#best-practices}
-  + [Best practices](/help/best-practices/best-practices.md)
-  + [Filesize reduction guidelines](/help/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
-  + [Graph creation etiquette](/help/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
-  + [Performance optimization guidelines](/help/best-practices/performance-optimization/performance-optimization-guidelines.md)
+  + [Best practices](/help/learning-tutorials/essentials/best-practices/best-practices.md)
+  + [Filesize reduction guidelines](/help/learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
+  + [Graph creation etiquette](/help/learning-tutorials/essentials/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
+  + [Performance optimization guidelines](/help/learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)
 + Pipeline and project configuration{#pipeline-and-project-configuration}
   + [Pipeline and project configuration](/help/pipeline-and-project-con/pipeline-and-project-configuration.md)
   + [Project configuration files - SBSPRJ](/help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)
