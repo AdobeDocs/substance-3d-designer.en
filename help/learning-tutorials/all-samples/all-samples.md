@@ -57,6 +57,22 @@ Learn more: [Inheritance in Substance graphs](../../compositing-graphs/inheritan
 
 <tr style="border: 0">
 <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+<a href="../all-samples/all-samples.resources/ds-tutorial-ornate-fabric.zip"><img src="../all-samples/all-samples.resources/sbs-file-icon.png" alt="SBS file icon" width="64" /></a>
+</td>
+<td style="border: 0">
+
+### Ornate fabric
+
+This project used in our ['Getting started' tutorial series](../getting-started/getting-started.md) demonstrates how to create a fabric material with an ornate pattern using various techniques.  
+The pattern is built in a [subgraph](../essentials/glossary/glossary.md#subgraph). 
+
+*Minimum version: 13.0.0*
+
+</td>
+</tr>
+
+<tr style="border: 0">
+<td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
 <a href="all-samples.resources/ds-sample-pixel-processor.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="SBS file icon" width="64" /></a>
 </td>
 <td style="border: 0">
