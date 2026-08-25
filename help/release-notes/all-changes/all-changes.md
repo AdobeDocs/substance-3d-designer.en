@@ -18,15 +18,36 @@ user-guide-title: ""
 
 ### 16.0.5
 
-*(Released August ##, 2026)*
+*(Released August 26th, 2026)*
 
 **Added:**
 
-* &#91;Category&#93; Title
+* &#91;3D View&#93; Added a button to select the current AOV
+* &#91;Content&#93; Perlin/Gaussian noise: unclamp scale parameter
+* &#91;Content&#93; Hide unnecessary bitmap resources from the library
+<!--
+* &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
+-->
 
 **Fixed:**
 
-* &#91;Category&#93; Title
+* &#91;3D View&#93; Environment visibility changes made in OpenGL are not carried over to Eclair renderers
+* &#91;Bakers&#93; Baking context was not destroyed after refreshing bakes for a deleted UDIM bitmap resource
+* &#91;Bakers&#93; Fixed a crash when deleting a UDIM bitmap resource while its bakes were refreshing
+* &#91;Content&#93; Shape splatter v2: cylinder shape height is not correct
+* &#91;Content&#93; Shape splatter v2: density map not working correctly when node size exceeds 4096
+* &#91;Content&#93; Shape splatter v2: using the 'Rock' SDF behind an If/Else can lead to an infinite loop
+* &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in AXF file parsing
+* &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in GLB file parsing
+* &#91;Security&#93; Fixed out-of-bounds write vulnerabilities in SBSAR file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in DDS file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in GLB file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in TGA file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in TIFF file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in USDA file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in WEBP file parsing
+* &#91;UI&#93; Hitbox of items in persistent checkbox menus only spans the item text
+
 
 ### 16.0.4
 
