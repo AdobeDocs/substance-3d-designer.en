@@ -12,13 +12,13 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-# Anisotropic Kuwahara Color
+# Anisotropic Kuwahara color
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropic Kuwahara Color icon](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/AnisotropicKuwaharaColor.png "Anisotropic Kuwahara Color icon"){width="200px"}
+![Anisotropic Kuwahara Color icon](anisotropic-kuwahara.resources/anisotropic_kuwahara_color.png "Anisotropic Kuwahara Color icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -31,6 +31,8 @@ Applies an anisotropic directional blur which conforms to the details of the ima
 
 This adjustable blur computes or receives a *direction map* to determine that flow, which can be sharpened into flatter, more clearly defined areas.
 
+See also: [Anisotropic Kuwahara grayscale](../anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)
+
 </td>
 </tr>
 </table>
@@ -39,7 +41,7 @@ The flow may also be broken down by rotating the direction in which blurring is 
 
 This filter can produce a painterly effect, and is useful for stylization.
 
-<b>Anisotropy</b>
++++ Anisotropy
 
 The intensity of the flow is mainly controlled by the [Anisotropy](#parameters) parameter, as demonstrated in the image below.
 
@@ -49,65 +51,61 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/anisotropic_kuwahara_color_example_3_before.jpg){zoomable="yes"}
+![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_3_before.jpg){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/anisotropic_kuwahara_color_example_3_after.jpg){zoomable="yes"}
+![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_3_after.jpg){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-<a name="inputs"></a>
++++
 
 ## Inputs
 
-|  |  |
-|:---|:---|
-| <b>Input</b> <i>Color</i>  Primary | The color image which should be processed. |
-| <b>Anisotropy angle map</b> <i>Grayscale</i> | The grayscale image describing the additional rotation applied to the computed direction, where the grayscale value is a number of turns.   The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter. |
-| <b>Slope map</b> <i>Grayscale</i> | The map representing slopes that the direction map is conformed to, according to the 'Slope Map Input Multiplier' parameter value. |
-| <b>Radius map (optional)</b> <i>Grayscale</i> | When connected, the blurring 'Radius' is multiplied against the input image. |
-| <b>Direction map</b> <i>Color</i> | The map describing the direction used by the anisotropic filter kernel.   The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter.   Note: This input is only used when the 'Use Input Direction Map' parameter is set to 'True'. |
-
-<a name="outputs"></a>
+|                                                   |                                                                                                                                                                                                                                                                                                                         |
+|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>Input</b> <i>Color</i><br><code>PRIMARY</code> | The color image which should be processed.                                                                                                                                                                                                                                                                              |
+| <b>Anisotropy angle map</b> <i>Grayscale</i>      | The grayscale image describing the additional rotation applied to the computed direction, where the grayscale value is a number of turns.   The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter.                              |
+| <b>Slope map</b> <i>Grayscale</i>                 | The map representing slopes that the direction map is conformed to, according to the 'Slope Map Input Multiplier' parameter value.                                                                                                                                                                                      |
+| <b>Radius map (optional)</b> <i>Grayscale</i>     | When connected, the blurring 'Radius' is multiplied against the input image.                                                                                                                                                                                                                                            |
+| <b>Direction map</b> <i>Color</i>                 | The map describing the direction used by the anisotropic filter kernel.   The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter.   Note: This input is only used when the 'Use Input Direction Map' parameter is set to 'True'. |
 
 ## Outputs
 
-|  |  |
-|:---|:---|
-| <b>Output</b> <i>Color</i> | The result of the anisotropic blurring applied by the node on the input image. |
+|                                   |                                                                                                                                                                                                                                      |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>Output</b> <i>Color</i>        | The result of the anisotropic blurring applied by the node on the input image.                                                                                                                                                       |
 | <b>Direction map</b> <i>Color</i> | The direction map computed from the input image and used to drive the anisotropic blurring.   If the 'Use Input Direction Map' parameter is set to 'True', the image provided to the 'Direction Map' input is used and output as is. |
-
-<a name="parameters"></a>
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Radius</b> *Float* | The blurring radius, where a higher value results in a stronger blurring effect.   The maximum value is 32. |
-| <b>Smoothness</b> *Float* | Adjusts the amount of blending of colors in the computed direction.   When this value is 0, colors are mostly displaced in that direction and very little blending occurs. |
-| <b>Sharpness</b> *Float* | Increases the contrast in the blurred areas, resulting in them looking flatter and more clearly defined. |
-| <b>Anisotropy</b> *Float* | Adjusts the contribution of the direction map in the blurring.   The direction map and all its modifiers (both parameters and input maps) still have an effect when this parameter value is 0, as the direction map is used in the Kuwahara filter kernel. |
-| <b>Use input direction map</b> *Boolean* | When 'True', no direction map is computed from the input image, and the image connected to the 'Direction Map' input is used to drive the anisotropic blurring instead. |
-| <b>Tensor smoothness</b> *Float*   *Available when 'Use input direction map' is set to 'False'* | Adjusts the intensity of blurring applied to the directions computed from the image and stored in the direction map.   Increasing this value ensures a smoother result when the image has a lot of high frequency detail. |
-| <b>Anisotropy angle</b> *Float*    *Available when 'Use input direction map' is set to 'False'* | Adds a rotation to the direction map, in number of turns.   This additional rotation is *cumulative* with the one specified by the 'Anisotropy Angle Map' input. |
-| <b>Anisotropy angle map multiplier</b> *Float*   *Available when 'Use input direction map' is set to 'False'* | Adjusts the intensity of the values in the 'Anisotropy Angle Map' input, which are then added on top of the rotation applied to the direction map, in number of turns.   This additional rotation is *cumulative* with the one specified by the 'Anisotropy Angle' parameter. |
-| <b>Slope map input multiplier</b> *Float*   *Available when 'Use input direction map' is set to 'False'* | Adjusts the intensity by which the direction map is conformed to the slopes provided by the 'Slope Map' input. |
-| <b>Ignore alpha</b> *Boolean* | When 'True', the alpha channel of the image is not impacted by the filter.   When 'False', the filter is also applied to the alpha channel. |
+|                                                                                                                              |                                                                                                                                                                                                                                                                               |
+|------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <b>Radius</b> <i>Float</i>                                                                                                   | The blurring radius, where a higher value results in a stronger blurring effect.   The maximum value is 32.                                                                                                                                                                   |
+| <b>Smoothness</b> <i>Float</i>                                                                                               | Adjusts the amount of blending of colors in the computed direction.   When this value is 0, colors are mostly displaced in that direction and very little blending occurs.                                                                                                    |
+| <b>Sharpness</b> <i>Float</i>                                                                                                | Increases the contrast in the blurred areas, resulting in them looking flatter and more clearly defined.                                                                                                                                                                      |
+| <b>Anisotropy</b> <i>Float</i>                                                                                               | Adjusts the contribution of the direction map in the blurring.   The direction map and all its modifiers (both parameters and input maps) still have an effect when this parameter value is 0, as the direction map is used in the Kuwahara filter kernel.                    |
+| <b>Use input direction map</b> <i>Boolean</i>                                                                                | When 'True', no direction map is computed from the input image, and the image connected to the 'Direction Map' input is used to drive the anisotropic blurring instead.                                                                                                       |
+| <b>Tensor smoothness</b> <i>Float</i><br><br><i>Available when 'Use input direction map' is set to 'False'</i>               | Adjusts the intensity of blurring applied to the directions computed from the image and stored in the direction map.   Increasing this value ensures a smoother result when the image has a lot of high frequency detail.                                                     |
+| <b>Anisotropy angle</b> <i>Float</i><br><br><i>Available when 'Use input direction map' is set to 'False'</i>                | Adds a rotation to the direction map, in number of turns.   This additional rotation is *cumulative* with the one specified by the 'Anisotropy Angle Map' input.                                                                                                              |
+| <b>Anisotropy angle map multiplier</b> <i>Float</i><br><br><i>Available when 'Use input direction map' is set to 'False'</i> | Adjusts the intensity of the values in the 'Anisotropy Angle Map' input, which are then added on top of the rotation applied to the direction map, in number of turns.   This additional rotation is *cumulative* with the one specified by the 'Anisotropy Angle' parameter. |
+| <b>Slope map input multiplier</b> <i>Float</i><br><br><i>Available when 'Use input direction map' is set to 'False'</i>      | Adjusts the intensity by which the direction map is conformed to the slopes provided by the 'Slope Map' input.                                                                                                                                                                |
+| <b>Ignore alpha</b> <i>Boolean</i>                                                                                           | When 'True', the alpha channel of the image is not impacted by the filter.   When 'False', the filter is also applied to the alpha channel.                                                                                                                                   |
 
 ## Examples
 
 <table>
   <tr>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_1_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_1_before.jpg" alt="anisotropic_kuwahara_color_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_1_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_1_after.jpg" alt="anisotropic_kuwahara_color_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -116,11 +114,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_2_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_2_before.jpg" alt="anisotropic_kuwahara_color_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_2_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_2_after.jpg" alt="anisotropic_kuwahara_color_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -129,11 +127,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_4_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_4_before.jpg" alt="anisotropic_kuwahara_color_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_4_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_4_after.jpg" alt="anisotropic_kuwahara_color_example_4_after">
       <br><i>After</i>
     </td>
   </tr>
