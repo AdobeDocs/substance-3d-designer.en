@@ -60,31 +60,6 @@ Input nodes are not as crucial as [Output nodes](../../../../compositing-graphs/
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## PARAMETERS
-
-</td>
-<td style="border: 0;" valign="top">
-
-### aTTRIBUTES
-
-</td>
-<td style="border: 0;" valign="top">
-
-### iNHERITANCE
-
-</td>
-<td style="border: 0;" valign="top">
-
-### iNTEGRATION ATTRIBUTES
-
-</td>
-</tr>
-</table>
-
 ## Parameters
 
 By default an Input Color or Grayscale returns black if nothing is plugged in. You can either set a different default value, or drag an existing[ Bitmap Resource](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) from the [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md) onto the Input node in your graph, to preview this data in the slot. This only works for Color and Grayscale Inputs. The default value is persistent when used in other contexts, the preview bitmap is discarded everywhere else.
@@ -110,21 +85,21 @@ If you want to see it with the outputs of another Graph, you'll have to either e
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 When multiple inputs are present, you need to pay attention to the way the graph will [inherit its Base parameters](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) from these inputs.  
 Base parameters include, among others, the <b>Output Size</b>, <b>Output Format</b> and <b>Tiling Mode</b>.
 
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
+An input can be defined as the [Primary input](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). This input then drives the attributes of all inputs which inheritance method is set to *Relative to parent*. This is the inheritance method *set by default* on Input nodes.
 
-[![Primary input in Substance graph](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+</td>
+<td width="25%" style="border: 0;" valign="top">
+
+<img src="../../../../assets/node-primary-input.png" alt="Primary input in Substance graph" />
 
 </td>
 </tr>
 </table>
-
-An input can be defined as the [Primary input](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). This input then drives the attributes of all inputs which inheritance method is set to *Relative to parent*. This is the inheritance method *set by default* on Input nodes.
 
 You may set an input node as a graph's Primary input by clicking *RMB* on the node and selecting the <b>Set as Primary input</b> option in the contextual menu.  
 The Primary input of a node is marked with a *small dark dot in the connector* (circled in red in the example next to this section).
@@ -139,7 +114,7 @@ Finally, you may override any value for a given attribute by setting its inherit
 
 >[!IMPORTANT]
 >
-> The *Relative to input* inheritance method for Input nodes is *not supported* in [Substance 3D assets (SBSAR)](https://helpx.adobe.com/substance-3d-assets.html). Set all Input nodes' inheritance methods to *Relative to parent* before publishing your package.
+> The *Relative to input* inheritance method for Input nodes is *not supported* in [Substance 3D assets (SBSAR)](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md). Set all Input nodes' inheritance methods to *Relative to parent* before publishing your package.
 
 ## Integration attributes
 
