@@ -64,7 +64,7 @@ Below is a list of the GPU compatible with the application :
 >
 > **TDR (Windows only)**
 > 
-> For the best overall stability while performing heavy computations on the GPU – e.g. rendering complex graphs, rendering in the 3D view, exporting a scene from the 3D view, etc. – it is strongly recommended to make sure the <b>Timeout Detection and Recovery (TDR)</b> values match the recommendations in [this page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) of our documentation.
+> For the best overall stability while performing heavy computations on the GPU – e.g. rendering complex graphs, rendering in the 3D view, exporting a scene from the 3D view, etc. – it is strongly recommended to make sure the <b>Timeout Detection and Recovery (TDR)</b> values match the recommendations in [this page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) of our documentation.
 
 ## Unsupported configurations
 
@@ -87,8 +87,8 @@ Below is a list of the GPU compatible with the application :
 
 * Integrated GPUs are not supported on x86-64 (Intel, AMD) CPUs.
 * Using Designer in combination with third-party software that intercepts Designer calls to the graphics drivers is not supported. Such software includes:
-  * Post-process injectors such as reshaders that apply color grading, camera effects, ...
-  * On-screen overlays such as custom crosshairs, GPU performance metrics, skins for video streaming...
+  * Post-process injectors such as reshaders that apply color grading, camera effects, ...
+  * On-screen overlays such as custom crosshairs, GPU performance metrics, skins for video streaming...
 
 ## Minimum GPU driver versions
 
@@ -98,8 +98,8 @@ To download new drivers see: [GPU has outdated drivers](https://experienceleague
 
 | OS | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
-| <b>Windows</b> | GeForce 451.48 Quadro 451.48 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
-| <b>Linux</b> | 535.129.03 | Radeon 23.20 Pro 23.Q3 | Unsupported |
+| <b>Windows</b> | GeForce 451.48 Quadro 451.48 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
+| <b>Linux</b> | 535.129.03 | Radeon 23.20 Pro 23.Q3 | Unsupported |
 
 >[!NOTE]
 >

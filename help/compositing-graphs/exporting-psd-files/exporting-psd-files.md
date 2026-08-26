@@ -20,7 +20,7 @@ Substance 3D Designer allows to export textures to Adobe Photoshop Document, or 
 
 ## PSD export dialog
 
-The PSD Export Dialog can only be opened by one method. In the [Graph view](../../interface/the-graph-view/the-graph-view.md) of the graph you want to export to PSD, click the ![](../../assets/image2019-9-17-14-44-17.png) <b>Tools</b> button and select <b>PSD Exporter</b>. The interface becomes visible within the <b>Graph View</b>.
+The PSD Export Dialog can only be opened by one method. In the [Graph view](../../interface/the-graph-view/the-graph-view.md) of the graph you want to export to PSD, click the ![](../../assets/image2019-9-17-14-44-17.png) <b>Tools</b> button and select <b>PSD Exporter</b>. The interface becomes visible within the <b>Graph View</b>.
 
 <table>
 <tr style="border: 0;">
@@ -33,7 +33,7 @@ The PSD Export Dialog can only be opened by one method. In the [Graph view](../.
 
 1. <b>Filename and Location:</b> set up folder and filename for export here. Press Export button to perform exporting process.
 1. <b>Add Group:</b> Adds a layer group
-1. <b>Add Layer dropdown:</b> choose one of two methods to add a layer. Layers can also be added by *dragging nodes with the Right mouse button* to the stack.
+1. <b>Add Layer dropdown:</b> choose one of two methods to add a layer. Layers can also be added by *dragging nodes with the Right mouse button* to the stack.
 1. <b>Remove Layer dropdown:</b> remove either selected or all layers.
 1. <b>Layerstack:</b> most setup work if performed here. Interface mirrors limited options in Photoshop. Setup Layer name, blend mode and opacity here. If a layer has two thumbnails the second thumbnail represents the Alpha channel.
 

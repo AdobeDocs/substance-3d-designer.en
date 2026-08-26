@@ -72,10 +72,10 @@ This node is not used often for PBR-like projects, but it can serve in certain c
 
 |  |  |
 | --- | --- |
-| <b>Intensity</b> *Float* | Adjusts the global intensity of illumination effect.   Sets the intensity of the of the "height" map and thus the strength of the lighting effect |
-| <b>Light angle</b> *Float* | Sets the angle at which the light is simulated.   Defines the illumination angle of the embossed image's highlight |
-| <b>Highlight color</b> *Float/Float4* | Sets the color of areas facing towards the light angle.   Sets the color of the highlight if the input image is color. |
-| <b>Shadow color</b> *Float/Float4* | Sets the color of areas facing away from the light angle.   Sets the color of the shadowed regions of the embossed image. |
+| <b>Intensity</b> *Float* | Adjusts the global intensity of illumination effect.   Sets the intensity of the of the "height" map and thus the strength of the lighting effect |
+| <b>Light angle</b> *Float* | Sets the angle at which the light is simulated.   Defines the illumination angle of the embossed image's highlight |
+| <b>Highlight color</b> *Float/Float4* | Sets the color of areas facing towards the light angle.   Sets the color of the highlight if the input image is color. |
+| <b>Shadow color</b> *Float/Float4* | Sets the color of areas facing away from the light angle.   Sets the color of the shadowed regions of the embossed image. |
 
 ## Input connectors
 

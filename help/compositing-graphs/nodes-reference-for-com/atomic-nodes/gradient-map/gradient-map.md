@@ -25,7 +25,7 @@ user-guide-title: ""
 
 Remaps the grayscale values in an image using a custom gradient.
 
-This node serves a dual purpose: It may be simply used as a<b> </b>grayscale-to-color conversion node, or to colorize grayscale input my mapping it to a custom color ramp.
+This node serves a dual purpose: It may be simply used as a<b> </b>grayscale-to-color conversion node, or to colorize grayscale input my mapping it to a custom color ramp.
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ The node offers an advanced and feature-rich gradient editor to map multiple col
 | --- | --- |
 | <b>Color mode</b> *Boolean* | Sets the output mode to Color or Grayscale. |
 | <b>Gradient adressing</b> *Boolean* | Sets the gradient to either repeat (tile) or clamp values that are out of the &#91;0, 1&#93; range. |
-| <b>Gradient</b> *Array of gradient keys* | The custom gradient ramp used to map the input grayscale values.   May be edited in place or using the [Gradient editor](#gradient-editor). |
+| <b>Gradient</b> *Array of gradient keys* | The custom gradient ramp used to map the input grayscale values.   May be edited in place or using the [Gradient editor](#gradient-editor). |
 
 ## Gradient editor
 
@@ -69,8 +69,8 @@ This window offers controls to edit the reference gradient used by the Gradient 
 
 It can be opened from the Gradient Map node's <b>Properties</b> in the following ways:
 
-* Click LMB on the <b>Gradient Editor</b> button;
-* Double-click LMB on a pin in the gradient bar. The clicked pin will then be automatically selected in the Gradient Editor so you can directly edit its values.
+* Click LMB on the <b>Gradient Editor</b> button;
+* Double-click LMB on a pin in the gradient bar. The clicked pin will then be automatically selected in the Gradient Editor so you can directly edit its values.
 
 ![Gradient Editor](../../../../assets/image2017-2-17-16-13-5.png "Gradient Editor")
 
@@ -305,13 +305,13 @@ When multiple pin are selected, the RGB, HSV and Alpha sliders turn into delta (
 
 Additionally, the following capabilities are available below the color thumbnail as buttons:
 
-<b>Invert:</b> Switches the color to its negative;
+<b>Invert:</b> Switches the color to its negative;
 
-<b>To Gray:</b> Desaturates the color;
+<b>To Gray:</b> Desaturates the color;
 
 <b>Copy</b>*:* Copy the currently selected color to the clipboard;
 
-<b>Paste:</b> Switch to the color currently in the clipboard;
+<b>Paste:</b> Switch to the color currently in the clipboard;
 
 <b>sRGB</b>: Use the sRGB color space to display colors. When disabled, the Linear color space is used;
 

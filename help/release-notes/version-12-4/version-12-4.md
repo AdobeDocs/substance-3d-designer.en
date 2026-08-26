@@ -28,7 +28,7 @@ When you edit your graph, you sometimes have to experiment several possibilities
 
 ### Type formulas in parameters fields
 
-No need to use a calculator or to compute in your head anymore when you want to enter specific parameter values. You can now directly enter basic formulas like additions, divisions, mutliplications or subtractions when setting a numeric value for a parameter in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) and other places in the application.
+No need to use a calculator or to compute in your head anymore when you want to enter specific parameter values. You can now directly enter basic formulas like additions, divisions, mutliplications or subtractions when setting a numeric value for a parameter in the Properties and other places in the application.
 
 ![](../../assets/final-formula.gif){width="640px"}
 

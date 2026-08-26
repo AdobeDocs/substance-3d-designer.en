@@ -37,17 +37,17 @@ It is similar to the well-known "Overlay" method from other 2D image editing sof
 
 This is the best and most correct way to add 2D-generated normal map details to a baked map.
 
-If you want to blend two normal maps without combining their details (using a mask, for example), you should use [Normal Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
+If you want to blend two normal maps without combining their details (using a mask, for example), you should use [Normal Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
 
 ## Input connectors
 
-<b>Normal 2</b> *Color*Description
+<b>Normal 2</b> *Color*Description
 
-<b>Normal 1</b> *Color*Description
+<b>Normal 1</b> *Color*Description
 
 ## Parameters
 
-<b>Technique</b> *Integer*Sets which internal blending technique to use, trading in speed for quality.  
+<b>Technique</b> *Integer*Sets which internal blending technique to use, trading in speed for quality.  
 *- Whiteout (Low quality)  
 * Channel mixer (High quality)  
 * Detail oriented (High quality)*

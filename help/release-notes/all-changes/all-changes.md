@@ -366,7 +366,7 @@ user-guide-title: ""
 * &#91;Content&#93; Fractal sum 1,2,3,4 v2: add default output format
 * &#91;Content&#93; Gaussian noise v2: add default output format, no tiling support
 * &#91;Content&#93; Gaussian spots 1&amp;2 v2: add default output format, no tiling support
-* &#91;Content&#93; Messy fibers 1,2,3  v2: add default output format, no tiling support, disorder options
+* &#91;Content&#93; Messy fibers 1,2,3 v2: add default output format, no tiling support, disorder options
 * &#91;Content&#93; Moisture noise v2: add default output format, no tiling support
 * &#91;Content&#93; New 'Moisture noise 2' node
 * &#91;Content&#93; Noises: update to add default outputformat
@@ -1103,15 +1103,15 @@ user-guide-title: ""
 * &#91;Content&#93; Raytraced Shadows v2
 * &#91;Engine&#93; Update to version 9
 * &#91;Engine&#93; Loop node in function graphs
-* &#91;Engine&#93; Add solid mode to Gradient
+* &#91;Engine&#93; Add solid mode to Gradient
 * &#91;Engine&#93; Atomic pow() node in Function Graph
 * &#91;Engine&#93; Add border wrapping options (clamp to edge / repeat) in Sampler node
 * &#91;Engine&#93; Nearest sampling in Warp and Directional Warp node
 * &#91;Engine&#93; Add a "punchthrough alpha" mode to the Sharpen filter for color inputs
 * &#91;Engine&#93; FxMap: Hemisphere morphlet
-* &#91;Engine&#93; Atomic Get/Set operations in function graphs
-* &#91;Engine&#93; Functions: use precise function of log/log2/exp, 2pow - Unify functions between cooker and engine
-* &#91;Engine&#93; Add an "intensity offset" parameter to the Directional Warp filter
+* &#91;Engine&#93; Atomic Get/Set operations in function graphs
+* &#91;Engine&#93; Functions: use precise function of log/log2/exp, 2pow - Unify functions between cooker and engine
+* &#91;Engine&#93; Add an "intensity offset" parameter to the Directional Warp filter
 * &#91;API&#93; Support preset management for compositing graphs
 * &#91;Functions&#93; Change input name for functions atomic nodes
 * &#91;Localization&#93; Add Portuguese (Brazil), Italian (Italy) and Spanish (Spain) languages

@@ -16,7 +16,7 @@ user-guide-title: ""
 
 This category contains a large variety of nodes intended for multiple uses. These nodes are mainly intended for a single channel input and perform a fairly advanced effect or modification as output.
 
-Use the <b>navigation list on the left</b> to browse all nodes under Effects.
+Use the <b>navigation list on the left</b> to browse all nodes under Effects.
 
 A large group of nodes is intended for processing, generating and modifying Baked maps, such as Normalmap or AO and Curvature. Examples are:
 

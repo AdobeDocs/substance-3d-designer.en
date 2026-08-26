@@ -48,18 +48,18 @@ The node outputs the mapped image as a grayscale image, as well as other informa
 ## Input connectors
 
 <b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
-<b>    R</b> - X position  
-<b>    G</b> - Y position  
-<b>    B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+<b>    R</b> - X position  
+<b>    G</b> - Y position  
+<b>    B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
 <b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
-<b>    R</b> - Tangents X  
-<b>    G</b> - Tangents Y  
-<b>    B</b> - Unused  
-<b>    A</b> - Unused
+<b>    R</b> - Tangents X  
+<b>    G</b> - Tangents Y  
+<b>    B</b> - Unused  
+<b>    A</b> - Unused
 
 <b>Spline Amount</b> *Integer*The number of input splines.
 
@@ -123,8 +123,8 @@ The value represents the normalized length of the spline.
 <b>Cylinder Height Multiplier</b> *Float* (Available when ‘Shape’ is set to ‘Half Cylinder’ or ‘Cylinder’)A multiplier for the intensity of the cylinder’s height contribution in the Height output.  
 Height adjustments are cumulative.
 
-<b>Cylinder Height Offset</b> *Float* (Available when ‘Shape’ is set to ‘Half Cylinder’ or ‘Cylinder’)   
-Offsets the center of the Cylinder or Half-Cylinder shape profile from the spline's surface to one diameter beneath the surface.
+<b>Cylinder Height Offset</b> *Float* (Available when ‘Shape’ is set to ‘Half Cylinder’ or ‘Cylinder’)   
+Offsets the center of the Cylinder or Half-Cylinder shape profile from the spline's surface to one diameter beneath the surface.
 
 <b>Twist UVs Intensity</b> *Float* (Available when ‘Shape’ is set to ‘Half Cylinder’ or ‘Cylinder’)The twisting of the image coordinates around the cylinder, in number of turns.  
 Twisting involves rotating the cylinder at the end of the spline only. The rotation is then interpolated along the spline.

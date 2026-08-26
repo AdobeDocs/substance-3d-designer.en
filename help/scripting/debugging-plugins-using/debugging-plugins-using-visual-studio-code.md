@@ -81,6 +81,6 @@ In order to set up the synergy between Visual Studio Code and Substance 3D Desig
    ```
 
 1. Click on the <b>Debug</b> icon, create or edit your debugger configuration, if needed.
-1. Select the **Python: Attach to Designer** configuration and click on **Start Debugging**.
+1. Select the **Python: Attach to Designer** configuration and click on **Start Debugging**.
 
    You should now be able to set breakpoints, step trough the code, and use all the other features of Visual Studio Code's debugger.

@@ -41,10 +41,10 @@ This node should not be used in combination with the CPU (SSE) engine due to com
 The number of rays used to compute the shadows.  
 A higher value provides a smoother and more precise result, at the cost of performance.
 
-<b>Mode</b> *Integer*  
+<b>Mode</b> *Integer*  
 The method of drawing the shadows on the surface.
 
-<b>Height Scale</b> *Float*  
+<b>Height Scale</b> *Float*  
 A multiplier for the intensity of the input height map.
 
 <b>Light Position </b>*Float2*  
@@ -52,10 +52,10 @@ The position of the light source on a sphere enclosing the surface:
 * <b>X</b>: horizontal position, in number of turns;  
 * <b>Y</b>: vertical position, where 0.5 is the zenith and 0/1 are the horizon.
 
-<b>Light Intensity</b> *Float*  
+<b>Light Intensity</b> *Float*  
 The intensity of the light source.
 
-<b>Light Size</b> *Float2* (Available when <b>Mode</b> is set to *Shaded*)  
+<b>Light Size</b> *Float2* (Available when <b>Mode</b> is set to *Shaded*)  
 The size of the light source as a rectangle.
 
 <b>Light Scale (Soft Shadows)</b> *Float*  
@@ -65,14 +65,14 @@ A higher value results in smoother shadows.
 <b>Keep Light Above Horizon</b> *Boolean*  
 If <b>Light Position</b> is set in a way that places the light below the horizon, this parameter prevents the light from crossing that threshold, meaning that Y values are clamped to the &#91;0;1&#93; range.
 
-<b>Shadow Opacity</b> *Float*  
+<b>Shadow Opacity</b> *Float*  
 A multiplier for the opacity of shadows drawn on the surface.
 
-<b>Shadow Attenuation</b> *Float*  
+<b>Shadow Attenuation</b> *Float*  
 A multiplier for the attenuation of the shadows the farther they are from their caster.  
 A value of 0 results in uniform shadows (soft shadows are still applied).
 
-<b>Max Shadows Length</b> *Float*  
+<b>Max Shadows Length</b> *Float*  
 The maximum distance a shadow can be drawn from its caster.  
 A value of 0 results in no visible shadows.
 

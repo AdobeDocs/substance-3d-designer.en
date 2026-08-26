@@ -34,7 +34,7 @@ Returns the first input raised to the power of the second input: <b>X^Y</b>.
 
 
 
-Returns 2 to the power of its input value: <b>2^X</b>.
+Returns 2 to the power of its input value: <b>2^X</b>.
 
 +++
 
@@ -43,7 +43,7 @@ Returns 2 to the power of its input value: <b>2^X</b>.
 
 
 
-Returns the square root of its input value: <b>√X</b>.
+Returns the square root of its input value: <b>√X</b>.
 
 +++
 
@@ -52,7 +52,7 @@ Returns the square root of its input value: <b>√X</b>.
 
 
 
-Returns the exponential value of its input value: <b>e^X</b>
+Returns the exponential value of its input value: <b>e^X</b>
 
 <b>e</b> is approximately equal to 2.7182818.
 
@@ -63,7 +63,7 @@ Returns the exponential value of its input value: <b>e^X</b>
 
 
 
-Returns the natural logarithm of its input value: <b>ln(X)</b>.
+Returns the natural logarithm of its input value: <b>ln(X)</b>.
 
 +++
 
@@ -72,7 +72,7 @@ Returns the natural logarithm of its input value: <b>ln(X)</b>.
 
 
 
-Returns the base 2 logarithm of its input value: <b>log2(X)</b>.
+Returns the base 2 logarithm of its input value: <b>log2(X)</b>.
 
 +++
 
@@ -166,7 +166,7 @@ Returns the angle between the input 2D vector and the horizontal.
 
 It is the reciprocal of the <b>Cartesian</b> function.
 
-It is not necessary to switch the X and Y component of the input vector as in the usual <b>atan2</b> function.
+It is not necessary to switch the X and Y component of the input vector as in the usual <b>atan2</b> function.
 
 +++
 
@@ -177,7 +177,7 @@ It is not necessary to switch the X and Y component of the input vector as in th
 
 Converts polar coordinates to cartesian coordinates.
 
-It is the reciprocal of the <b>Arc tangent 2 </b>function: <b>Length \* Float2(cos(Angle), sin(Angle).</b>
+It is the reciprocal of the <b>Arc tangent 2 </b>function: <b>Length \* Float2(cos(Angle), sin(Angle).</b>
 
 Polar coordinates are a distance from the origin and an angle in radians from the horizontal.
 

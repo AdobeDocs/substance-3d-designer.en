@@ -88,8 +88,8 @@ Alternatively, the Gradient Input Position slider can be used to alternate betwe
 
 |  |  |
 | --- | --- |
-| <b>Gradient addressing</b> *Boolean* | Sets if the Gradient repeats (tiles) or clamps.   This parameter determines how out of &#91;0, 1&#93; range HDR  pixels of the grayscale input are handled: clamped or fold up to &#91;0, 1&#93;. |
-| <b>Gradient orientation</b> *Integer* | Sets the axis along which the 'Gradient input' should be sampled:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> Sample a row of pixels on the X axis.</li> <li data-preserve-html="true"><i>Vertical:</i> Sample a column of pixels on the Y axis.</li> </ul> |
+| <b>Gradient addressing</b> *Boolean* | Sets if the Gradient repeats (tiles) or clamps.   This parameter determines how out of &#91;0, 1&#93; range HDR  pixels of the grayscale input are handled: clamped or fold up to &#91;0, 1&#93;. |
+| <b>Gradient orientation</b> *Integer* | Sets the axis along which the 'Gradient input' should be sampled:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> Sample a row of pixels on the X axis.</li> <li data-preserve-html="true"><i>Vertical:</i> Sample a column of pixels on the Y axis.</li> </ul> |
 | <b>Gradient input position</b> *Float* | The normalized position of the row or column of pixels to be sampled in the 'Gradient input'. |
 
 ## Input connectors

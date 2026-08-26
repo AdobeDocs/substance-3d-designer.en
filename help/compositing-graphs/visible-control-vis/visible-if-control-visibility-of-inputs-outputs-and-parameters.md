@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Visible if expressions
 
-The 'Visible if' expression lets you <b>control the visibility</b> of inputs, outputs and parameters in graphs.
+The 'Visible if' expression lets you <b>control the visibility</b> of inputs, outputs and parameters in graphs.
 
 When [exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), you may want to hide or show parameters or node connectors based on the status of other parameters. E.g., a slider only showing when a boolean parameter button is set to `true`, because it would have no effect otherwise and that might confuse users.
 
@@ -39,7 +39,7 @@ Complex conditions are possible, provided the logical expression stating these c
 
 >[!IMPORTANT]
 >
-> While this functionality works inside the Substance 3D ecosystem, some integrations may not support it. If unsupported, the visibility  condition defaults to `true`.
+> While this functionality works inside the Substance 3D ecosystem, some integrations may not support it. If unsupported, the visibility  condition defaults to `true`.
 
 ## Writing 'Visible if' expressions
 
@@ -67,9 +67,9 @@ The "Visible if" fields accepts the following parameters:
 * Boolean, Float and Integer inputs.
 * `true` and `false` values (case sensitive, no caps!)
 * `.x` : access the subparameter
-* `&&`<b> </b>: and
-* `||`<b> </b>: or
-* `!`<b> </b>: not
+* `&&`<b> </b>: and
+* `||`<b> </b>: or
+* `!`<b> </b>: not
 * `<`<b>, </b>`>`<b>, </b>`<=`<b>, </b>`>=`<b>, </b>`==`<b>, </b>`!=` : comparison
 * `()` : brackets
 

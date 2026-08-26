@@ -38,7 +38,7 @@ Alternatively, you can completely bypass modifying the User Preferences, and do 
 There are two different ways to configure Designer to use another [configuration file](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) than the default, both with advantages and disadvantages:
 
 * <b>Permanently modifying user\_preferences.xml  
-  </b>This file is located in *~User\AppData\Local\Adobe\Adobe Substance 3D Designer*for Windows. If you modify it, Designer will always use what is defined there, regardless of how, when or where you start it. Making changes requires modifying the XML again, both of which are described below, and tend to be a bit involved.
+  </b>This file is located in *~User\AppData\Local\Adobe\Adobe Substance 3D Designer*for Windows. If you modify it, Designer will always use what is defined there, regardless of how, when or where you start it. Making changes requires modifying the XML again, both of which are described below, and tend to be a bit involved.
 * <b>Temporarily setting the session through a command-line argument  
   </b>Designer can take a command-line argument on startup to override the SBSCFG file for that session (see below for how). It's a simple, elegant solution, and allows for switching projects in a much quicker way than through modifying an XML. The danger is that if you open through multiple shortcuts (for example Start Menu and Desktop on Windows), you can have different results without it being entirely obvious. On top of that, it's not as tamper-proof, as users can delete, move or modify their shortcuts much easier than their user\_preferences.xml.
 
@@ -199,9 +199,9 @@ In a much simpler way, Designer can be told to use a specific SBSCFG on startup 
 While not recommended to use a manual method in a production environment, for testing purposes this can be done fairly quickly if you have setup your SBSCFG file already.
 
 1. Add a space
-1. Add --config-file after the path to designer in the Target section.
+1. Add --config-file after the path to designer in the Target section.
 1. Add another space
-1. Add your path, *wrapped in quotation marks* to avoid issues with spaces in your path
+1. Add your path, *wrapped in quotation marks* to avoid issues with spaces in your path
 1. The result should be like this:
 
    *"C:\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe" --config-file "C:\Dev\Substance\custom\_configuration.sbscfg"*

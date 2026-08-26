@@ -72,9 +72,9 @@ If you are after other ways to edit the tones of an image, look at [Curve](../..
 
 |  |  |
 | --- | --- |
-| <b>Hue</b> *Float* | Determines the color of the input image.   Values below 0.5 shift the Hue negatively, values above 0.5 shift it postively. |
-| <b>Saturation</b> *Float* | Determines the saturation of the input image's color.   Values below 0.5 decrease the Saturation, values above 0.5 increase it. |
-| <b>Lightness</b> *Float* | Determines the lightness of the input image   Values below 0.5 decrease the Lightness, values above 0.5 increase it. |
+| <b>Hue</b> *Float* | Determines the color of the input image.   Values below 0.5 shift the Hue negatively, values above 0.5 shift it postively. |
+| <b>Saturation</b> *Float* | Determines the saturation of the input image's color.   Values below 0.5 decrease the Saturation, values above 0.5 increase it. |
+| <b>Lightness</b> *Float* | Determines the lightness of the input image   Values below 0.5 decrease the Lightness, values above 0.5 increase it. |
 
 ## Input connectors
 

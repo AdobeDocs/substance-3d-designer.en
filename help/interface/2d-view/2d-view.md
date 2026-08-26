@@ -36,19 +36,19 @@ When a displayed image or value is modified, the 2D View *updates automatically*
 >
 > All mentions of actions made on *nodes* in this section only apply to [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md).
 
-The most straightforward way to display any image in the 2D View is to double-click *LMB*...
+The most straightforward way to display any image in the 2D View is to double-click *LMB*...
 
-* ...on a [Bitmap](../../resources/bitmap-resource/bitmap-resource.md) or [vector graphics](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) resource in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md)
-* ...on a node or node connector in the [Graph View](../../interface/the-graph-view/the-graph-view.md)
+* ...on a [Bitmap](../../resources/bitmap-resource/bitmap-resource.md) or [vector graphics](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) resource in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md)
+* ...on a node or node connector in the [Graph View](../../interface/the-graph-view/the-graph-view.md)
 
-Images can also be *dragged and dropped* directly into the viewport by holding *LMB* on a [resource](../../resources/resources.md) in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel, or *RMB* on a node in the Graph View.
+Images can also be *dragged and dropped* directly into the viewport by holding *LMB* on a [resource](../../resources/resources.md) in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel, or *RMB* on a node in the Graph View.
 
-In the Graph View, you can send an image to the 2D View using the <b>View output in 2D View</b> contextual menu option, which is accessed by clicking *RMB*...
+In the Graph View, you can send an image to the 2D View using the <b>View output in 2D View</b> contextual menu option, which is accessed by clicking *RMB*...
 
-* ...on a *node* to display *that node's output*. If the node has more than one output, select the desired output in the submenu
-* ...on *empty space* in the Graph View to display *that graph's output*. If the graph has more than one output, select the desired output in the submenu
+* ...on a *node* to display *that node's output*. If the node has more than one output, select the desired output in the submenu
+* ...on *empty space* in the Graph View to display *that graph's output*. If the graph has more than one output, select the desired output in the submenu
 
-When loading a graph, its *first output* is automatically displayed in the 2D View by default. You can disable this behaviour in the [Preferences](../../interface/preferences-window/preferences-window.md). Go to <b>Edit &gt; Preferences &gt; Graph &gt; Substance compositing graph</b> and *uncheck* the <b>View output in 2D view when opening a graph</b> option.
+When loading a graph, its *first output* is automatically displayed in the 2D View by default. You can disable this behaviour in the [Preferences](../../interface/preferences-window/preferences-window.md). Go to <b>Edit &gt; Preferences &gt; Graph &gt; Substance compositing graph</b> and *uncheck* the <b>View output in 2D view when opening a graph</b> option.
 
 ## Viewport
 
@@ -61,8 +61,8 @@ The viewport is the *display area* of the <b>2D View</b>, and lets you *navigate
 * <b>Pan:</b> Ctrl+RMB / MMB
 * <b>Zoom:</b> Alt+RMB / MouseWheel / 'Display scale' tool:  
   ![](../../assets/2d-view-icon-zoom.png)
-* <b>Adjust to fit viewport:</b> F / 'Fit to view' button ![](../../assets/2d-view-icon-fit-to-view.png)
-* <b>Adjust to 1:1 scale:</b> Z / 'Fit to scale' button ![](../../assets/2d-view-icon-fit-to-scale.png)
+* <b>Adjust to fit viewport:</b> F / 'Fit to view' button ![](../../assets/2d-view-icon-fit-to-view.png)
+* <b>Adjust to 1:1 scale:</b> Z / 'Fit to scale' button ![](../../assets/2d-view-icon-fit-to-scale.png)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -75,16 +75,16 @@ The viewport is the *display area* of the <b>2D View</b>, and lets you *navigate
 
 Using a trackpad (macOS only)
 
-* <b>Pan: </b>Two-finger swipe
-* <b>Zoom:</b> Two-finger pinch / Two-finger swipe while holding Cmd
+* <b>Pan: </b>Two-finger swipe
+* <b>Zoom:</b> Two-finger pinch / Two-finger swipe while holding Cmd
 
 >[!IMPORTANT]
 >
 > Unavailable actions
 > 
-> It is *not* possible to pan the image if the current display size of the image is *lower than the size of the viewport*.
+> It is *not* possible to pan the image if the current display size of the image is *lower than the size of the viewport*.
 > 
-> It is *not* possible to zoom in/out of the image if the displayed content *does not exist anymore* – e.g. a image's reference node or resource was deleted.
+> It is *not* possible to zoom in/out of the image if the displayed content *does not exist anymore* – e.g. a image's reference node or resource was deleted.
 
 >[!NOTE]
 >
@@ -92,10 +92,10 @@ Using a trackpad (macOS only)
 > 
 > Each of the zooming methods is inverted with the other:
 > 
-> * Mouse wheel up *pulls* the image closer
-> * Alt+RMB and drag up *pushes* the image away
+> * Mouse wheel up *pulls* the image closer
+> * Alt+RMB and drag up *pushes* the image away
 > 
-> The zoom direction can be inverted in the [Preferences](../../interface/preferences-window/preferences-window.md).
+> The zoom direction can be inverted in the [Preferences](../../interface/preferences-window/preferences-window.md).
 
 The image native *resolution*, *color format* and *bit depth* appear in the bottom left area of the viewport.
 
@@ -118,17 +118,17 @@ You can *overlay a different image* on top of the currently displayed one. Press
 
 Once the file is selected, a new toolbar appears with the following controls for the image overlay:
 
-<b>![](../../assets/2d-view-icon-background-close.png) Close:</b> *close* the overlay controls toolbar and *disable* the background image overlay.
+<b>![](../../assets/2d-view-icon-background-close.png) Close:</b> *close* the overlay controls toolbar and *disable* the background image overlay.
 
-<b>![](../../assets/2d-view-icon-background-loadpng.png) Load image:</b> select *another image file* to use as an overlay.
+<b>![](../../assets/2d-view-icon-background-loadpng.png) Load image:</b> select *another image file* to use as an overlay.
 
-<b>![](../../assets/2d-view-icon-background-0.png) Source image:</b> sets the overlay image to *0%* opacity.
+<b>![](../../assets/2d-view-icon-background-0.png) Source image:</b> sets the overlay image to *0%* opacity.
 
-<b>![](../../assets/2d-view-icon-background-100.png) Background image:</b> sets the overlay image to *100%* opacity.
+<b>![](../../assets/2d-view-icon-background-100.png) Background image:</b> sets the overlay image to *100%* opacity.
 
-<b>![](../../assets/2d-view-icon-background-50.png) Reset:</b> sets the overlay image to *50%* opacity.
+<b>![](../../assets/2d-view-icon-background-50.png) Reset:</b> sets the overlay image to *50%* opacity.
 
-A slider gives you *manual control* over the opacity of the overlay image.
+A slider gives you *manual control* over the opacity of the overlay image.
 
 +++
 
@@ -173,11 +173,11 @@ This feature is *not* available to other nodes, including nodes which have more 
 
 
 
-If the <b>Display UVs in 2D View</b> option is enabled in the <b>Scene</b> menu of the [3D View](../../interface/3d-view/3d-view.md) dock, then the UV overlay feature is available in the 2D View.
+If the <b>Display UVs in 2D View</b> option is enabled in the <b>Scene</b> menu of the [3D View](../../interface/3d-view/3d-view.md) dock, then the UV overlay feature is available in the 2D View.
 
-You can enable it using the <b>UV</b> button. ![](../../assets/2d-view-icon-uv.png)
+You can enable it using the <b>UV</b> button. ![](../../assets/2d-view-icon-uv.png)
 
-This displays the UVs of the mesh [currently selected in the 3D View](../../interface/3d-view/3d-view.md) as a colored wireframe.
+This displays the UVs of the mesh [currently selected in the 3D View](../../interface/3d-view/3d-view.md) as a colored wireframe.
 
 If material color information is available in the mesh file, then the material color is used as the color of the UV overlay.
 
@@ -297,11 +297,11 @@ Transparency display can be toggled on and off, using the ![](../../assets/2d-vi
 
 There are two main ways to interpret transparency, which can be selected using the ![](../../assets/2d-view-icon-transparency-straight.png)/![](../../assets/3d-view-icon-transparency-premultiplied.png) <b>Transparency mode</b> button:
 
-<b>![](../../assets/2d-view-icon-transparency-straight.png) Straight:</b> transparency information is only stored in the alpha channel, and does not impact any other aspect of the image
+<b>![](../../assets/2d-view-icon-transparency-straight.png) Straight:</b> transparency information is only stored in the alpha channel, and does not impact any other aspect of the image
 
-<b>![](../../assets/3d-view-icon-transparency-premultiplied.png) Premultiplied:</b> transparency information is stored in the alpha channel, and also impacts the RGB channels since they are effectively multiplied against the alpha channel
+<b>![](../../assets/3d-view-icon-transparency-premultiplied.png) Premultiplied:</b> transparency information is stored in the alpha channel, and also impacts the RGB channels since they are effectively multiplied against the alpha channel
 
-To display *correct colors*, the appropriate transparency mode should be selected in the <b>2D View</b> panel to match the transparency method which was applied when the image was *created*.
+To display *correct colors*, the appropriate transparency mode should be selected in the <b>2D View</b> panel to match the transparency method which was applied when the image was *created*.
 
 ![2D View color space](../../assets/2d-view-viewport-color-space.png "2D View color space"){width="360px"}
 
@@ -337,7 +337,7 @@ The <b>Bitmap painting tools</b> are available for [Bitmap resources](../../reso
 
 >[!TIP]
 >
-> You can learn more in the [Bitmap painting editor](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/bitmap-painting-editor-102400057.html) page of the documentation.
+> You can learn more in the [Bitmap painting tools](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md) page of the documentation.
 
 <table>
 <tr style="border: 0;">
@@ -362,7 +362,7 @@ The <b>Vector graphics editor</b> is available for *imported* [SVG resources](..
 
 >[!TIP]
 >
-> You can learn more in the [Vector Graphic Editor (deprecated)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/vector-graphic-editor-deprecated-102400059.html) page of the documentation.
+> You can learn more in the [Vector editing tools](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md) (deprecated) page of the documentation.
 
 ![2D View color management](../../assets/2d-view-color-management-ocio.png "2D View color management"){width="360px"}
 
@@ -372,9 +372,9 @@ The <b>2D View</b> offers simple *color management* controls to let you choose w
 
 These controls will adapt to the current [Color management mode](../../color-management/color-management.md) set in the [Project settings](../../interface/preferences-window/project-settings/project-settings.md), as follows:
 
-* <b>Legacy:</b> you can disp.lay the image in the ![](../../assets/2d-view-icon-color-space.png) sRGB or ![](../../assets/2d-view-icon-color-space-linear.png) Linear sRGB color spaces;
-* <b>Adobe ACE:</b> you can ![](../../assets/2d-view-icon-color-space.png) *enable* color management and set the most appropriate color space for the *current monitor* as detected by the Adobe ACE engine, or ![](../../assets/2d-view-icon-color-space-linear.png) *disable* color management and display the image using the Raw color values;
-* <b>OCIO:</b> you can ![](../../assets/2d-view-icon-color-space.png) *enable* color management and set the most appropriate one for the *current monitor* as detected by the OCIO engine, use the combo box and select any of the *display color spaces* available in the [OCIO configuration file](../../color-management/color-management.md) currently used, or ![](../../assets/2d-view-icon-color-space-linear.png) *disable* color management and display the image using the Raw color values.
+* <b>Legacy:</b> you can disp.lay the image in the ![](../../assets/2d-view-icon-color-space.png) sRGB or ![](../../assets/2d-view-icon-color-space-linear.png) Linear sRGB color spaces;
+* <b>Adobe ACE:</b> you can ![](../../assets/2d-view-icon-color-space.png) *enable* color management and set the most appropriate color space for the *current monitor* as detected by the Adobe ACE engine, or ![](../../assets/2d-view-icon-color-space-linear.png) *disable* color management and display the image using the Raw color values;
+* <b>OCIO:</b> you can ![](../../assets/2d-view-icon-color-space.png) *enable* color management and set the most appropriate one for the *current monitor* as detected by the OCIO engine, use the combo box and select any of the *display color spaces* available in the [OCIO configuration file](../../color-management/color-management.md) currently used, or ![](../../assets/2d-view-icon-color-space-linear.png) *disable* color management and display the image using the Raw color values.
 
 >[!WARNING]
 >

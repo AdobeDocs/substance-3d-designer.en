@@ -72,9 +72,9 @@ It is a very useful node that is used often to convert height map inputs to norm
 
 |  |  |
 | --- | --- |
-| <b>Intensity</b> *Float* | Modifies the intensity of height map.   Sets how intense the input height map is interpreted for converting to normals. Depending on input maps, values above 100 have little more effect. |
-| <b>Normal format</b> *Boolean* | Inverts the Y coordinates of the height map (OpenGL).   Sets how the Green (Y) channel is encoded. Basically a "Flip Green/Y" switch. |
-| <b>Alpha channel content</b> *Boolean* | Fill the normal map's alpha channel with the input texture.   Fill Alpha With Input/Force Alpha To 1:  This allows for the Alpha channel to be set to solid, instead of using the Input as an additional Alpha. |
+| <b>Intensity</b> *Float* | Modifies the intensity of height map.   Sets how intense the input height map is interpreted for converting to normals. Depending on input maps, values above 100 have little more effect. |
+| <b>Normal format</b> *Boolean* | Inverts the Y coordinates of the height map (OpenGL).   Sets how the Green (Y) channel is encoded. Basically a "Flip Green/Y" switch. |
+| <b>Alpha channel content</b> *Boolean* | Fill the normal map's alpha channel with the input texture.   Fill Alpha With Input/Force Alpha To 1:  This allows for the Alpha channel to be set to solid, instead of using the Input as an additional Alpha. |
 
 ## Input connectors
 

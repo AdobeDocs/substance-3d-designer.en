@@ -22,9 +22,9 @@ Substance Designer 15.1 brings a completely revamped graph creation window with 
 
 ## Improve graph creation
 
-In this release, the [graph creation window](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) has been <b>comprehensively redesigned</b> to enhance the initial user experience in Substance 3D Designer. The primary goal of this update is to streamline the template selection process, allowing users to efficiently identify the most suitable template for their requirements.
+In this release, the [graph creation window](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) has been <b>comprehensively redesigned</b> to enhance the initial user experience in Substance 3D Designer. The primary goal of this update is to streamline the template selection process, allowing users to efficiently identify the most suitable template for their requirements.
 
-Thumbnails offer instant <b>visual references</b> for the intended material types, while detailed tooltips supply all pertinent information. For improved organization, templates are now classified into specific <b>categories</b> such as materials, filters, and scan processing.
+Thumbnails offer instant <b>visual references</b> for the intended material types, while detailed tooltips supply all pertinent information. For improved organization, templates are now classified into specific <b>categories</b> such as materials, filters, and scan processing.
 
 Although the main interface has been upgraded, users continue to have access to previous views, including list, packages, and directories options.
 
@@ -38,7 +38,7 @@ With the launch of our redesigned graph creation window, we've added a variety o
 
 ![New graph creation window for samples](../../assets/GraphSample.png){zoomable="yes"}
 
-To meet this need we have included material samples such as fabrics (including leather and satin), wood, metal, plastic, ceramic and more. These examples are intended to help you start your projects with ease and get acquainted with the main family nodes available in Substance 3D Designer
+To meet this need we have included material samples such as fabrics (including leather and satin), wood, metal, plastic, ceramic and more. These examples are intended to help you start your projects with ease and get acquainted with the main family nodes available in Substance 3D Designer
 
 Each graph is <b>annotated</b>, carefully organized, and contains a minimal number of nodes to make it as easy to understand as possible.
 
@@ -62,7 +62,7 @@ Finally, bitdepth is <b>no longer hard-locked to 16-bits</b>. You can now overri
 
 See the full list of updated noises in the [release notes](#release-notes) below.
 
-Examples:   [Cells 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)   [Clouds 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [  Directional scratches](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [  Moisture noise 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+Examples:   [Cells 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)   [Clouds 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [  Directional scratches](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [  Moisture noise 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![directionnal disorder noise](../../assets/directionaldisorder.gif){zoomable="yes"}
 
@@ -161,7 +161,7 @@ For instance, detecting the absence of a variable enables you to provide a fallb
 * &#91;Content&#93; Fractal sum 1,2,3,4 v2: add default output format
 * &#91;Content&#93; Gaussian noise v2: add default output format, no tiling support
 * &#91;Content&#93; Gaussian spots 1&amp;2 v2: add default output format, no tiling support
-* &#91;Content&#93; Messy fibers 1,2,3  v2: add default output format, no tiling support, disorder options
+* &#91;Content&#93; Messy fibers 1,2,3  v2: add default output format, no tiling support, disorder options
 * &#91;Content&#93; Moisture noise v2: add default output format, no tiling support
 * &#91;Content&#93; New 'Moisture noise 2' node
 * &#91;Content&#93; Noises: update to add default outputformat

@@ -16,7 +16,7 @@ user-guide-title: ""
 
 This category contains a large number of advanced transformation nodes for single-channel inputs.
 
-Use the <b>navigation list on the left</b> to browse all nodes under Transforms.
+Use the <b>navigation list on the left</b> to browse all nodes under Transforms.
 
 The following nodes are useful examples to get started with:
 

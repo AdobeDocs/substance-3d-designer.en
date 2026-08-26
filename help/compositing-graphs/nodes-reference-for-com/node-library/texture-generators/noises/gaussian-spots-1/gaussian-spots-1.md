@@ -24,37 +24,17 @@ user-guide-title: ""
 
 ![Gaussian spots 1 - Icon](../../../../../../assets/gaussian_spots_1.png "Gaussian spots 1 - Icon"){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-A variation of the smooth <b>Gaussian spots</b> noises.  
-Based on the [Gaussian noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md) node, with narrower gradients.
+A variation of the smooth <b>Gaussian spots</b> noises.  
+Based on the [Gaussian noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md) node, with narrower gradients.
 
 See also: [Gaussian spots 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-spots-2/gaussian-spots-2.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Outputs
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
 
 </td>
 </tr>
@@ -64,7 +44,7 @@ See also: [Gaussian spots 2](../../../../../../compositing-graphs/nodes-referenc
 
 |  |  |
 | --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
 
 ## Parameters
 
@@ -72,9 +52,9 @@ See also: [Gaussian spots 2](../../../../../../compositing-graphs/nodes-referenc
 | --- | --- |
 | <b>Scale</b>  Integer | The subdivision of the grid used to generate the noise tiles.    A higher value results in more tiles being drawn and a denser noise. |
 | <b>Disorder</b>  Float | Displaces the ingredients of the noise.    This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
-| <b>Disorder anisotropy</b>  Float | Controls the span of directions of the displacement applied by the <b>Disorder</b> parameter, where a higher value results in a narrower, more defined direction.    The direction is controlled by the <b>Disorder anisotropy angle</b> parameter. |
-| <b>Disorder anisotropy angle</b>  Float | Controls the direction of the displacement applied by the <b>Disorder</b> parameter, when the <b>Disorder anisotropy</b> parameter is not zero. |
+| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
+| <b>Disorder anisotropy</b>  Float | Controls the span of directions of the displacement applied by the <b>Disorder</b> parameter, where a higher value results in a narrower, more defined direction.    The direction is controlled by the <b>Disorder anisotropy angle</b> parameter. |
+| <b>Disorder anisotropy angle</b>  Float | Controls the direction of the displacement applied by the <b>Disorder</b> parameter, when the <b>Disorder anisotropy</b> parameter is not zero. |
 | <b>Tile offset</b>  Float2 | Controls the position of the portion of infinite plane used to render the noise. |
 | <b>Non-square expansion</b>  Boolean | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
 

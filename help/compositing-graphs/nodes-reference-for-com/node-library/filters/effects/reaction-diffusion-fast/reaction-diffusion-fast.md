@@ -47,9 +47,9 @@ This node is optimised for performance and does make some accuracy trade-offs fo
 
 ## Parameters
 
-<b>Radius</b> *Float*How far the effect should spread.
+<b>Radius</b> *Float*How far the effect should spread.
 
-<b>Contrast</b> *Float*  
+<b>Contrast</b> *Float*  
 Adjusts the contrast of the input, serves as a sort of treshold.
 
 ## Examples

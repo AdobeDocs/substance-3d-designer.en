@@ -77,7 +77,7 @@ Its functionality is similar to having two layers above one another in [Substanc
 |  |  |
 | --- | --- |
 | <b>Opacity</b> *Float* | Opacity of the Foreground layer blending into the Background. It works independent to the Opacity input and acts as an additional multiplier to it. |
-| <b>Blending mode</b> *Integer* [Static](../../../../glossary/glossary.md) | Sets the blending operation to be used.   See the [dedicated page about blending modes](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
+| <b>Blending mode</b> *Integer* [Static](../../../../glossary/glossary.md) | Sets the blending operation to be used.   See the [dedicated page about blending modes](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md). |
 | <b>Alpha blending</b> *Integer* [Static](../../../../glossary/glossary.md) | Determines blending behavior when color inputs have Alpha channels:<ul data-preserve-html="true"> <li data-preserve-html="true">Use source alpha</li> <li data-preserve-html="true">Ignore alpha</li> <li data-preserve-html="true">Straight alpha blending</li> <li data-preserve-html="true">Premultiplied alpha blending</li> </ul> |
 | <b>Cropping area</b> *Float4* [Static](../../../../glossary/glossary.md) | Allow for setting a custom cropping region that behaves like an additional Opacity mask. Any area cropped shows only the background. |
 

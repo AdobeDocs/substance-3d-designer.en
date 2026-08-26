@@ -24,7 +24,7 @@ user-guide-title: ""
 
 ![Anisotropic noise - Icon](../../../../../../assets/anisotropic_noise_v2.png "Anisotropic noise - Icon"){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,31 +39,11 @@ The amount of strips is adjustable, as is the smoothness of their transitions.
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Outputs
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
-
 ## Outputs
 
 |  |  |
 | --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
 
 ## Parameters
 
@@ -71,12 +51,12 @@ The amount of strips is adjustable, as is the smoothness of their transitions.
 | --- | --- |
 | <b>X amount</b>  Integer | The amount of strips on the X axis. |
 | <b>Y amount</b>  Integer | The amount of strips on the Y axis. |
-| <b>Y amount by resolution</b>  Boolean | If True, the number of strips on the Y axis will be equal to the image size on that axis. |
+| <b>Y amount by resolution</b>  Boolean | If True, the number of strips on the Y axis will be equal to the image size on that axis. |
 | <b>Rotate</b>  Boolean | Rotates the noise 90 degrees. |
 | <b>Smoothness</b>  Float | The amount of fading between the strips, where 0 is no fading and 1 is fading over their entire length. |
 | <b>Smoothness interpolation</b>  Float | The weighting of the two methods of interpolation applied to fade the strips, where 0 is linear and 1 is Gaussian. |
-| <b>Disorder</b>  Float | Displaces the ingredients of the noise.   This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.   This can be used to control the speed of displacement when animating the noise. |
+| <b>Disorder</b>  Float | Displaces the ingredients of the noise.   This can be used to animate the noise. |
+| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.   This can be used to control the speed of displacement when animating the noise. |
 | <b>Non-square expansion</b>  Boolean | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
 
 ## Examples

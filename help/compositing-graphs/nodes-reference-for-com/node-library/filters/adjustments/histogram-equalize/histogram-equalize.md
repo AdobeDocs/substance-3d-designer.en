@@ -20,7 +20,7 @@ user-guide-title: ""
 
 ![Histogram equalize: icon](../../../../../../assets/histogram_equalize.png "Histogram equalize: icon"){width="200px"}
 
-<b>In:</b> Filters &gt; Adjustments
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,8 +69,8 @@ Equalizes the histogram for a grayscale image, effectively adjusting the graysca
 
 |  |  |
 | --- | --- |
-| <b>Histogram resolution</b> *Integer* | The width of the histogram. A higher value allows for a finer value distribution.   Available resolutions are, in pixels:  256, 512, 1024, 2048, 4096 |
-| <b>Histogram smoothing</b> *Float* | The histogram may be smoothed by redistributing the grayscale values in the image to equalize the *difference* between each value.   This parameter adjusts the intensity of that smoothing. |
+| <b>Histogram resolution</b> *Integer* | The width of the histogram. A higher value allows for a finer value distribution.   Available resolutions are, in pixels:  256, 512, 1024, 2048, 4096 |
+| <b>Histogram smoothing</b> *Float* | The histogram may be smoothed by redistributing the grayscale values in the image to equalize the *difference* between each value.   This parameter adjusts the intensity of that smoothing. |
 
 ## Examples
 

@@ -25,7 +25,7 @@ user-guide-title: ""
 
 Applies blurring in a specified direction according to an intensity map.
 
-This node performs an operation similar to a motion blur on an input. Unlike the regular '[Blur](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)' node, which blurs equally in all directions, 'Directional blur' works along a user-defined angle.
+This node performs an operation similar to a motion blur on an input. Unlike the regular '[Blur](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)' node, which blurs equally in all directions, 'Directional blur' works along a user-defined angle.
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Similarly to 'Blur', it is also a faster and low-quality operation. An extended,
 
 ## Directional and Anisotropic blur
 
-This images below show the Directional blur and the[ Anisotropic blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) in effect on the same input shape, with similar parameters. Anisotropic Blur has been set to full anisotropy and high quality.
+This images below show the Directional blur and the[ Anisotropic blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) in effect on the same input shape, with similar parameters. Anisotropic Blur has been set to full anisotropy and high quality.
 
 <table>
 <tr style="border: 0;">

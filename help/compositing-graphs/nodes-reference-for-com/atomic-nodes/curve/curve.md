@@ -84,8 +84,8 @@ Unlike most other nodes, the Curve node does not have a typical standard interfa
 |  |  |
 | --- | --- |
 | <b>Apply/Expose curve</b> *Boolean* | Allows to copy the user curve to the output instead of applying it to the input image |
-| <b>Curve addressing</b> *Boolean* | This parameter determines how HDR pixels out of the &#91;0, 1&#93; range in the input are handled: clamped or fold up to &#91;0, 1&#93;. |
-| <b>Curve</b> *Array of curve keys* | The custom curve used to map the input grayscale values.   May be edited using the [Curve editor](#curve-editor). |
+| <b>Curve addressing</b> *Boolean* | This parameter determines how HDR pixels out of the &#91;0, 1&#93; range in the input are handled: clamped or fold up to &#91;0, 1&#93;. |
+| <b>Curve</b> *Array of curve keys* | The custom curve used to map the input grayscale values.   May be edited using the [Curve editor](#curve-editor). |
 
 ## Curve editor
 
@@ -112,17 +112,17 @@ In order to obtain precise results, the curve nodes offers different modes for e
 </tr>
 </table>
 
-![](../../../../assets/image2017-2-17-14-13-27.png)  Reset the point mode to the default value.
+![](../../../../assets/image2017-2-17-14-13-27.png)  Reset the point mode to the default value.
 
-![](../../../../assets/image2017-2-17-14-12-6.png)  Lock/Unlock the 2 bezier handlers so the user can move them together or independently.
+![](../../../../assets/image2017-2-17-14-12-6.png)  Lock/Unlock the 2 bezier handlers so the user can move them together or independently.
 
-![](../../../../assets/image2017-2-17-14-14-0.png)  Both side of the point are controlled by a Bezier handler.
+![](../../../../assets/image2017-2-17-14-14-0.png)  Both side of the point are controlled by a Bezier handler.
 
-![](../../../../assets/image2017-2-17-14-16-22.png)  The right side of the point is controlled by a Bezier handler while the left side remains flat.
+![](../../../../assets/image2017-2-17-14-16-22.png)  The right side of the point is controlled by a Bezier handler while the left side remains flat.
 
-![](../../../../assets/image2017-2-17-14-18-25.png)  The left side of the point is controlled by a Bezier handler while the right side remains flat.
+![](../../../../assets/image2017-2-17-14-18-25.png)  The left side of the point is controlled by a Bezier handler while the right side remains flat.
 
-![](../../../../assets/image2017-2-17-14-19-32.png)  The point sides remain flat
+![](../../../../assets/image2017-2-17-14-19-32.png)  The point sides remain flat
 
 ![](../../../../assets/curvepointsmodes.gif)
 
@@ -163,11 +163,11 @@ While in RGB curve mode, you canhide/show the individual channel curves by press
 
 If you right click on the curve view, you will get some more options.
 
-<b>Align top:</b> Align the selected points horizontally with the highest one.
+<b>Align top:</b> Align the selected points horizontally with the highest one.
 
-<b>Align middle:</b> Align the selected points horizontally to the selection's average height.
+<b>Align middle:</b> Align the selected points horizontally to the selection's average height.
 
-<b>Align bottom:</b> Align the selected points horizontally with the lowest one.
+<b>Align bottom:</b> Align the selected points horizontally with the lowest one.
 
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
@@ -178,11 +178,11 @@ If you right click on the curve view, you will get some more options.
 </tr>
 </table>
 
-<b>Distribute horizontally/vertically:</b> Distribute the points on the selected axis
+<b>Distribute horizontally/vertically:</b> Distribute the points on the selected axis
 
-<b>Flip horizontally/vertically:</b> Flip the selected points according to the selected axis.
+<b>Flip horizontally/vertically:</b> Flip the selected points according to the selected axis.
 
-<b>Mirror horizontally/vertically:</b> Mirror the whole curve, according to the selected axis
+<b>Mirror horizontally/vertically:</b> Mirror the whole curve, according to the selected axis
 
 ### Keyboard Shortcuts
 

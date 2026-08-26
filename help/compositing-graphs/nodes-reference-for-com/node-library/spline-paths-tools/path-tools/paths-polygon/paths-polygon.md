@@ -43,7 +43,7 @@ This is not indended to be used or modified directly. Search for Paths to find c
 
 ## Parameters
 
-<b>Number of Sides</b> *Integer*  
+<b>Number of Sides</b> *Integer*  
 Tip: enter a number between 100 and 1000 to generate a circle.
 
 ## Examples

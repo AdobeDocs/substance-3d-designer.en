@@ -44,18 +44,18 @@ The trajectory of the spline can be smoothed away from its intermediary points, 
 <b>Preview</b> *Grayscale*The preview of the input splines as a grayscale image.
 
 <b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
-<b>    R</b> - X position  
-<b>    G</b> - Y position  
-<b>    B</b> - Height  
-<b>    A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+<b>    R</b> - X position  
+<b>    G</b> - Y position  
+<b>    B</b> - Height  
+<b>    A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
 <b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
-<b>    R</b> - Tangents X  
-<b>    G</b> - Tangents Y  
-<b>    B</b> - Unused  
-<b>    A</b> - Unused
+<b>    R</b> - Tangents X  
+<b>    G</b> - Tangents Y  
+<b>    B</b> - Unused  
+<b>    A</b> - Unused
 
 <b>Spline Amount</b> *Integer*The number of input splines.
 
@@ -63,12 +63,12 @@ The trajectory of the spline can be smoothed away from its intermediary points, 
 
 <b>Input Point List</b> *Color* (available when ‘Use Input Point List’ is True)  
 A list of points encoded in the RGBA channels of a color image:  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Integer part: Smoothness;  
-        * Fractional part: Thickness.
+    <b>R</b> - X position  
+    <b>G</b> - Y position  
+    <b>B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Integer part: Smoothness;  
+        * Fractional part: Thickness.
 
 <b>Point Number</b> *Integer* (available when ‘Use Input Point List’ is True)  
 The number of points.
@@ -82,18 +82,18 @@ The number of points.
 <b>Preview</b> *Grayscale*The preview of the output splines as a grayscale image.
 
 <b>Spline Coords</b> *Color*The coordinates of the output splines’ points encoded in the RGBA channels of a color image.  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+    <b>R</b> - X position  
+    <b>G</b> - Y position  
+    <b>B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
 <b>Spline Data</b> *Color*Additional data of the output splines encoded in the RGBA channels of a color image.  
-    <b>R</b> - Tangents X  
-    <b>G</b> - Tangents Y  
-    <b>B</b> - Unused  
-    <b>A</b> - Unused
+    <b>R</b> - Tangents X  
+    <b>G</b> - Tangents Y  
+    <b>B</b> - Unused  
+    <b>A</b> - Unused
 
 <b>Spline Amount</b> *Integer*The number of output splines.
 
@@ -170,7 +170,7 @@ The size of the label for each point in texture space, where 0.1 is a tenth of t
 <b>Show Points</b> *Boolean*  
 Displays the control points for the spline.
 
-<b>Points Size</b> *Float* (Available when 'Show Points' is set to 'True')  
+<b>Points Size</b> *Float* (Available when 'Show Points' is set to 'True')  
 The radius of the points in texture space, where 0.1 is a tenth of the texture's width.
 
 <b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  

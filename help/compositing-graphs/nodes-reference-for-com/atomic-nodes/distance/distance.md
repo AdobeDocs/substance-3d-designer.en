@@ -78,16 +78,16 @@ See the below [examples](#examples) for more info.
 
 |  |  |
 | --- | --- |
-| <b>Color mode</b> *Boolean* | Toggles between a grayscale and a color output image. Also changes the 'Source input' input type. |
+| <b>Color mode</b> *Boolean* | Toggles between a grayscale and a color output image. Also changes the 'Source input' input type. |
 | <b>Maximum distance</b> *Float* | Adjusts the maximum distance for detecting the closest border in the mask, in pixels. |
-| <b>Combine source/distance</b> *Boolean* | Determine how the optional 'Source input'is combined with the final cells.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combine:</i> Combines the 'Source input' value with the fading linear mask. If the 'Source input' input is connected, its value is combined with computed distance.</li> <li data-preserve-html="true"><i>Only Source:</i> Results in solid color only from the 'Source input'.</li> </ul> |
-| <b>Distance mode</b> *Integer* | Selects the method computing the distance to the closest border in the extracted mask:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidean:</i> Sum of squared X/Y differences.</li> <li data-preserve-html="true"><i>Manhattan:</i> Sum of absolute values of X/Y differences.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Maximum of absolute values of X/Y differences.</li> </ul>  <div><img alt="Distance mode examples" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="Distance mode examples"/></div> |
+| <b>Combine source/distance</b> *Boolean* | Determine how the optional 'Source input'is combined with the final cells.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combine:</i> Combines the 'Source input' value with the fading linear mask. If the 'Source input' input is connected, its value is combined with computed distance.</li> <li data-preserve-html="true"><i>Only Source:</i> Results in solid color only from the 'Source input'.</li> </ul> |
+| <b>Distance mode</b> *Integer* | Selects the method computing the distance to the closest border in the extracted mask:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidean:</i> Sum of squared X/Y differences.</li> <li data-preserve-html="true"><i>Manhattan:</i> Sum of absolute values of X/Y differences.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Maximum of absolute values of X/Y differences.</li> </ul>  <div><img alt="Distance mode examples" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="Distance mode examples"/></div> |
 
 ## Input connectors
 
 |  |  |
 | --- | --- |
-| <b>Mask input</b> *Grayscale* PRIMARY | A grayscale mask, the borders of which a distance value should be computed.   A binary mask is extracted from the image, using a threshold value of 0.5, where all values above this threshold are white and all values below are black. |
+| <b>Mask input</b> *Grayscale* PRIMARY | A grayscale mask, the borders of which a distance value should be computed.   A binary mask is extracted from the image, using a threshold value of 0.5, where all values above this threshold are white and all values below are black. |
 | <b>Source input</b> *Color/Grayscale* | Optional grayscale image from which the pixel value at the closest border of the 'Mask input' should be copied. |
 
 ## Output connectors

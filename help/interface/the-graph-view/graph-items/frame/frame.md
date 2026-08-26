@@ -60,7 +60,7 @@ The frame may be moved by dragging that header bar or its title.
 +++
 
 +++Selected
-When selected, the title and outline of the frame are highlighted in white. The outline gets thicker.
+When selected, the title and outline of the frame are highlighted in white. The outline gets thicker.
 
 ![Frame (selected state)](../../../../assets/graph-frames-selected.png "Frame (selected state)")
 
@@ -95,7 +95,7 @@ In the Graph View toolbar, click the 'Frame' button in the <b>Node Palette</b>.
 +++
 
 +++Library
-In the Library, select the <b>Graph Items</b> category then drag and drop the 'Frame' item into the Graph View.
+In the Library, select the <b>Graph Items</b> category then drag and drop the 'Frame' item into the Graph View.
 
 +++
 
@@ -117,7 +117,7 @@ With that in mind, creating frames using a keyboard shortcut makes it even faste
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Frames may be <b>panned</b> by dragging its title or header bar, and <b>resized</b> by dragging any of its borders or corners.
+Frames may be <b>panned</b> by dragging its title or header bar, and <b>resized</b> by dragging any of its borders or corners.
 
 The illustration highlights the interaction zones for panning (blue) and resizing (yellow).
 
@@ -154,7 +154,7 @@ Hold the <b>Ctrl</b> (Windows) / <b>Cmd</b> (macOS) key to shift this snapping t
 When a frame is selected, the following properties are available in the [Properties](../../../../interface/properties/properties.md) dock:
 
 +++Title
-The <b>Title</b> resting on the top left of the frame. Its visibility of the title can be toggled on or off by using the <b>Title Visible</b> property.
+The <b>Title</b> resting on the top left of the frame. Its visibility of the title can be toggled on or off by using the <b>Title Visible</b> property.
 
 The size of the title can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../../../interface/the-graph-view/the-graph-view.md) toolbar.
 
@@ -165,9 +165,9 @@ The size of the title can be locked at a minimum screen size so its stays readab
 +++
 
 +++Description
-The <b>Description</b> is an optional, additional piece of text that may be used to annotate the frame's content.
+The <b>Description</b> is an optional, additional piece of text that may be used to annotate the frame's content.
 
-The text can be formatted using HTML tags. This formatting is toggled by clicking the ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML markup</b> button.
+The text can be formatted using HTML tags. This formatting is toggled by clicking the ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML markup</b> button.
 
 Learn more in the Description section below.
 
@@ -190,7 +190,7 @@ The color's alpha channel control the *opacity* of the frame, where a value of 0
 
 ## Description
 
-A frame can be annotated with a text that will be placed inside the frame. The text is aligned to the left and starts in the frame's top left corner. Use the frame's [Description](#properties) property to edit that text.
+A frame can be annotated with a text that will be placed inside the frame. The text is aligned to the left and starts in the frame's top left corner. Use the frame's [Description](#properties) property to edit that text.
 
 <table>
 <tr style="border: 0;">
@@ -198,7 +198,7 @@ A frame can be annotated with a text that will be placed inside the frame. The t
 
 ### Standard
 
-The <b>Title</b> is shown in a bold font resting on the top left of the frame. The visibility of the title can be toggled on or off.
+The <b>Title</b> is shown in a bold font resting on the top left of the frame. The visibility of the title can be toggled on or off.
 
 Its size can be locked at a minimum screen size so its stays readable when zooming out of the graph. You may do this by checking the 'Frame titles' option in the <b>Information</b> drop down of the [Graph view](../../../../interface/the-graph-view/the-graph-view.md) toolbar.
 
@@ -217,7 +217,7 @@ Its size can be locked at a minimum screen size so its stays readable when zoomi
 
 ### HTML formatting
 
-Text can be formatted using HTML tags in the frame's <b>Description</b> property. Formatting must be enabled by using the ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML markup</b> button in that same property.
+Text can be formatted using HTML tags in the frame's <b>Description</b> property. Formatting must be enabled by using the ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML markup</b> button in that same property.
 
 </td>
 <td style="border: 0;" valign="top">
@@ -228,7 +228,7 @@ Text can be formatted using HTML tags in the frame's <b>Description</b> property
 </tr>
 </table>
 
-You may copy and paste this sample in the frame's Description property to test this feature for yourself:
+You may copy and paste this sample in the frame's Description property to test this feature for yourself:
 
 ```
 
@@ -253,11 +253,11 @@ Here is a list of useful tags for formatting text:
 | Color | &lt;font color="#4A567C"&gt;...&lt;/font&gt; |
 | Paragraph | &lt;p&gt;...&lt;/p&gt; |
 | Line break | &lt;br&gt; |
-| Headings | &lt;h1&gt;...&lt;/h1&gt;, &lt;h2&gt;...&lt;/h2&gt;, etc. |
-| Image | &lt;img src="{path\_to\_image}"&gt; |
+| Headings | &lt;h1&gt;...&lt;/h1&gt;, &lt;h2&gt;...&lt;/h2&gt;, etc. |
+| Image | &lt;img src="{path\_to\_image}"&gt; |
 | Superscript | &lt;sub&gt;...&lt;/sub&gt; |
-| Unordered list (bullets) | &lt;ul&gt;   &lt;li&gt;...&lt;/li&gt;   &lt;li&gt;...&lt;/li&gt;  &lt;/ul&gt; |
-| Ordered list (numbers) | &lt;ol&gt;   &lt;li&gt;...&lt;/li&gt;   &lt;li&gt;...&lt;/li&gt;  &lt;/ol&gt; |
+| Unordered list (bullets) | &lt;ul&gt;   &lt;li&gt;...&lt;/li&gt;   &lt;li&gt;...&lt;/li&gt;  &lt;/ul&gt; |
+| Ordered list (numbers) | &lt;ol&gt;   &lt;li&gt;...&lt;/li&gt;   &lt;li&gt;...&lt;/li&gt;  &lt;/ol&gt; |
 | Code | &lt;code&gt;...&lt;/code&gt; |
 
 
@@ -265,7 +265,7 @@ Here is a list of useful tags for formatting text:
 
 ## Inclusion rules
 
-An object is considered included in a frame if it meets its inclusion rule. These rules vary according to the object and special case. They are listed below.
+An object is considered included in a frame if it meets its inclusion rule. These rules vary according to the object and special case. They are listed below.
 
 The yellow symbol in each illustration represents the point or area that needs to be entirely within a frame's bounds for an object to be included in that frame.
 
@@ -366,7 +366,7 @@ To do this, click <b>RMB</b> on the frame's title or header bar – see [Appeara
 
 >[!NOTE]
 >
-> The option is available if at least *one* graph object meets the frame's [inclusion rules](../../../../interface/the-graph-view/graph-items/frame/frame.md).
+> The option is available if at least *one* graph object meets the frame's [inclusion rules](../../../../interface/the-graph-view/graph-items/frame/frame.md).
 
 <table>
 <tr style="border: 0;">
@@ -408,7 +408,7 @@ If an object is not fully enclosed by the frame's bounds but still satisfies its
 
 >[!NOTE]
 >
-> While the <b>Shift</b> key may be pressed or released at any point during the move to trigger or cancel the automatic adjustment of the frame, it *must* be held when completing the move to effectively apply the adjustment.
+> While the <b>Shift</b> key may be pressed or released at any point during the move to trigger or cancel the automatic adjustment of the frame, it *must* be held when completing the move to effectively apply the adjustment.
 
 +++Example
 ![Frames: Auto-expand (GIF)](../../../../assets/graph-frames_auto-expand.gif "Frames: Auto-expand (GIF)"){width="640px"}
