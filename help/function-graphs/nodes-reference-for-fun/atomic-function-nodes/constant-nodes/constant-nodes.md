@@ -20,9 +20,9 @@ Additionally, this page provides some extra information for each data type and c
 
 ## Integers
 
-Constant integers generate whole numbers, and have a step of  1.
+Constant integers generate whole numbers, and have a step of  1.
 
-[They can be converted to Float,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) which is recommended to do when performing any operation more complex than additions, subtractions and simple comparisons.
+[They can be converted to Float,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) which is recommended to do when performing any operation more complex than additions, subtractions and simple comparisons.
 
 <table>
 <tr style="border: 0;">
@@ -38,7 +38,7 @@ Constant integers generate whole numbers, and have a step of  1.
 An integer has a single component. It is useful as an index for making selections, such as:
 
 * selecting an option presented to the user as a drop down menu (see 'Drop down list' in [this page](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)).
-* selecting the input of a [Multi switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) node.<b></b>
+* selecting the input of a [Multi switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) node.<b></b>
 
 >[!IMPORTANT]
 >
@@ -111,7 +111,7 @@ Integer 4 is not common and is unlikely to be encountered much.<b>
 
 Constant Floats generate fractional numbers, not wholenumbers, which means they will always have values after the decimal sign, and can in- or decrease by steps smaller than 1 (default 0.01).
 
-[Floats can be converted to Integers](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) but they will be rounded up or down to the nearest Integer, meaning data and accuracy is lost.
+[Floats can be converted to Integers](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) but they will be rounded up or down to the nearest Integer, meaning data and accuracy is lost.
 
 <table>
 <tr style="border: 0;">
@@ -185,7 +185,7 @@ A Float4 generates a static 4-component Float Vector.Components are named X,Y,Z,
 
 ## Others
 
-Two additional data types exist inside Substance function graphs: booleans and strings. Strings were introduced alongside the [Text](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node in Designer version 6.
+Two additional data types exist inside Substance function graphs: booleans and strings. Strings were introduced alongside the [Text](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node in Designer version 6.
 
 <table>
 <tr style="border: 0;">

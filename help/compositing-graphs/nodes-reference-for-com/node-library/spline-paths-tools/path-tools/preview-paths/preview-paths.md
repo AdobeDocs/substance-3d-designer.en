@@ -29,7 +29,7 @@ user-guide-title: ""
 
 Trace segments and vertices of the path on top of the given background. One random color per path.
 
-You'll get a similar result as the <b>Preview</b> output of the [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) but with more options.
+You'll get a similar result as the <b>Preview</b> output of the [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) but with more options.
 
 </td>
 </tr>
@@ -45,13 +45,13 @@ A list of encoded segments paths. Connect this input to the result of a [Mask to
 
 ## Parameters
 
-<b>Show Corners</b> *Boolean*  
+<b>Show Corners</b> *Boolean*  
 Displays a square on each vertex that is marked as corner (additive blending).
 
-<b>Show Vertices</b> *Boolean*  
+<b>Show Vertices</b> *Boolean*  
 Displays a circular shape on each vertex (additive blending). Corners are still displayed as squares.
 
-<b>Segments Thickness (px)</b> *Float*  
+<b>Segments Thickness (px)</b> *Float*  
 Adjusts the thickness of rendered segments in pixels.
 
 ## Examples

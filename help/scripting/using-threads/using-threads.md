@@ -20,7 +20,7 @@ This can be useful to perform background processing or I/O operations while Desi
 
 It is important to note that most classes and methods in Designer's Python API can *only* be called from the <b>main application thread</b>. As such, if you want to make any modification to any graph that is currently opened in Designer, you must make them from the main application thread.
 
-One possible solution is to use <b>QThread</b> and <b>Queued connections</b>, like in the following example:
+One possible solution is to use <b>QThread</b> and <b>Queued connections</b>, like in the following example:
 
 ```
 

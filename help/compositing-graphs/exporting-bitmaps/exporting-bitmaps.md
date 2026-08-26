@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Exporting Bitmaps
 
-This page explains how Substance 3D Designer can export to many different Bitmap file formats, and how to export multiple UV-Tiles in batches.[If you want to export to PSD files,](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [there is a separate dedicated page for this.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+This page explains how Substance 3D Designer can export to many different Bitmap file formats, and how to export multiple UV-Tiles in batches.If you want to [export to PSD files](../exporting-psd-files/exporting-psd-files.md), there is a separate dedicated page for this.
 
 ![Exporting simplified](../../assets/exportflow.png "Exporting simplified")
 
@@ -25,7 +25,7 @@ It's good to keep the following in mind when exporting a bitmap:
 * You<b> export from a Graph</b>, not a Package. A package does not generate image content by itself.
 * The number (and resolution) of bitmaps exported is determined by the <b>Outputs</b> of a Graph.
 * Filetype is set for all Outputs/bitmaps.
-* Exporting is different from [Publishing](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), make sure you understand well the difference!
+* Exporting is different from [publishing](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md), make sure you understand well the difference!
 
 ## Export methods
 
@@ -35,7 +35,7 @@ Once you are ready to export, there are two ways to access the Export Dialog:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In the [Explorer window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), Right-clicking on the Graph to export and choosing **"Export Outputs as bitmaps"**
+In the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) window, Right-clicking on the Graph to export and choosing **"Export Outputs as bitmaps"**
 
 ![](../../assets/export-explorer.gif)
 

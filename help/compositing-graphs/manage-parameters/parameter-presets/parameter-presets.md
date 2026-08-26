@@ -24,7 +24,7 @@ There are two ways for storing and loading presets, both have different use-case
 
 External Presets involve an external file on disk, an \*.SBSPRS file. They can be transferred between different graphs and nodes, but only within the application. Their main purpose is exactly this: transferring a number of values too large to copy one-by-one.
 
-External Presets are available for all Specific Parameters On [Graph Instances](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), for most Specific Parameters on [Atomic nodes](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([exceptions are those parameters that can not be exposed](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)), and for the exposed Input Parameters in a [Graph's Properties.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
+External Presets are available for all Specific Parameters On [Graph Instances](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), for most Specific Parameters on [Atomic nodes](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([exceptions are those parameters that can not be exposed](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)), and for the exposed input parameters in a Substance graph's [parameters](../../graph-parameters/graph-parameters.md)parameters.
 
 They are simply saved and loaded through this menu. The Saved SBSPRS files can be loaded on any other node or graph.
 

@@ -56,19 +56,19 @@ If the system is a laptop, a third-party application may enforce a *power manage
 
 A crash may also occur when the *display configuration or scaling* was changed between sessions, so that 3D View render frame is created at invalid coordinates.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
 
 Considering the multiple possible causes for this crash, we suggest going through the following troubleshooting steps in order:
 
 Update graphics drivers
 
-First, make sure the graphics drivers are up to date. You can find the latest version for your GPU [here](https://www.nvidia.com/Download/index.aspx?lang=en-us) (NVIDIA), [here](https://www.amd.com/en/support) (AMD) or [here](https://downloadcenter.intel.com/product/80939/Graphics-Drivers) (Intel).
+First, make sure the graphics drivers are up to date. You can find the latest version for your GPU [here](https://www.nvidia.com/Download/index.aspx?lang=en-us) (NVIDIA), [here](https://www.amd.com/en/support) (AMD) or [here](https://downloadcenter.intel.com/product/80939/Graphics-Drivers) (Intel).
 
 Force best performance
 
-Look for any software that manages your system's *power plan* (E.g., ASUS Armoury Crate), especially when the system is a laptop.
+Look for any software that manages your system's *power plan* (E.g., ASUS Armoury Crate), especially when the system is a laptop.
 
-Some power management applications may limit the access of other applications to the system's GPU, or hinder the GPU's performance, which may result in crashes. If a power management application exists and is active, switch to the plan that enables the best performance.
+Some power management applications may limit the access of other applications to the system's GPU, or hinder the GPU's performance, which may result in crashes. If a power management application exists and is active, switch to the plan that enables the best performance.
 
 Force using discrete GPU
 
@@ -87,11 +87,11 @@ The procedure to perform this reset per operating system is described below:
 
 Close Designer
 
-* Open the <b>Command prompt</b> application
+* Open the <b>Command prompt</b> application
 
-Open the <b>Command prompt</b> application
+Open the <b>Command prompt</b> application
 
-* Enter the following command and press <b>Enter</b>:
+* Enter the following command and press <b>Enter</b>:
 
   <b>Creative Cloud Desktop</b>
 
@@ -109,7 +109,7 @@ Open the <b>Command prompt</b> application
   ```
 
 
-Enter the following command and press <b>Enter</b>:
+Enter the following command and press <b>Enter</b>:
 
 <b>Creative Cloud Desktop</b>
 
@@ -119,17 +119,17 @@ Enter the following command and press <b>Enter</b>:
 
 Disconnect the second monitor from your system, and connect it back (ignore this step if you do *not* have multiple displays attached)
 
-* Start Designer, but do *not* create or open any project
+* Start Designer, but do *not* create or open any project
 
-Start Designer, but do *not* create or open any project
+Start Designer, but do *not* create or open any project
 
-* In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
+* In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
 
-In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
+In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
 
-* Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
+* Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
 
-Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
+Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
 
 * Create or open a material
 
@@ -142,11 +142,11 @@ Create or open a material
 
 Close Designer
 
-* Open the <b>Terminal</b> application
+* Open the <b>Terminal</b> application
 
-Open the <b>Terminal</b> application
+Open the <b>Terminal</b> application
 
-* Enter the following command and press <b>Enter</b>:
+* Enter the following command and press <b>Enter</b>:
 
   <b>Creative Cloud Desktop</b>
 
@@ -164,7 +164,7 @@ Open the <b>Terminal</b> application
   ```
 
 
-Enter the following command and press <b>Enter</b>:
+Enter the following command and press <b>Enter</b>:
 
 <b>Creative Cloud Desktop</b>
 
@@ -174,17 +174,17 @@ Enter the following command and press <b>Enter</b>:
 
 Disconnect the second monitor from your system, and connect it back (ignore this step if you do *not* have multiple displays attached)
 
-* Start Designer, but do *not* create or open any project
+* Start Designer, but do *not* create or open any project
 
-Start Designer, but do *not* create or open any project
+Start Designer, but do *not* create or open any project
 
-* In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
+* In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
 
-In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
+In the top bar, open the <b>Windows</b> menu and select the <b>New 3D View</b> option
 
-* Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
+* Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
 
-Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
+Check that the <b>3D View</b> is correctly initialised, and try different preview meshes in the <b>Scene</b> menu of the panel top bar
 
 * Create or open a material
 

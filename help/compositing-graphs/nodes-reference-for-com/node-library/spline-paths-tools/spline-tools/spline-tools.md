@@ -16,13 +16,13 @@ user-guide-title: ""
 
 Spline tools are a collection of nodes for generating and adjusting splines, as well as using them for mapping, scattering or warping images.
 
-Splines are smooth curves whose trajectories are shaped by control points and those points' tangents. Each point also controls a spline's height and thickness attributes which are used to drive the mapping, warping and scattering of images.
+Splines are smooth curves whose trajectories are shaped by control points and those points' tangents. Each point also controls a spline's height and thickness attributes which are used to drive the mapping, warping and scattering of images.
 
 Check out this tutorial to get started:
 
 >[!TIP]
 >
-> We recommend learning about [working with Path and Spline tools](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
+> We recommend learning about [working with Path and Spline tools](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
 
 ## Node list
 

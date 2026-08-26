@@ -21,8 +21,8 @@ This page regroups information on ways to retrieve the installation path of [Sub
 ### Creative Cloud Desktop
 
 1. Open <b>Windows registry editor</b> (regedit)
-1. Navigate to the registry key: <b>HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\</b>
-1. Open the sub-key named <b>Adobe Substance 3D Designer.exe</b>
+1. Navigate to the registry key: <b>HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\</b>
+1. Open the sub-key named <b>Adobe Substance 3D Designer.exe</b>
 1. The value of the key contains the path to the application executable where it is installed
 
 >[!NOTE]
@@ -33,7 +33,7 @@ This page regroups information on ways to retrieve the installation path of [Sub
 ### Substance edition (standalone)
 
 1. Open <b>Windows registry editor</b> (regedit)
-1. Navigate to the registry key: <b>HKEY\_LOCAL\_MACHINE\ SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</b>
+1. Navigate to the registry key: <b>HKEY\_LOCAL\_MACHINE\ SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</b>
 1. Find the sub-key matching the <b>AppID</b> of your application version (see the table below)
 1. The value of the key contains the path to the application installation location
 

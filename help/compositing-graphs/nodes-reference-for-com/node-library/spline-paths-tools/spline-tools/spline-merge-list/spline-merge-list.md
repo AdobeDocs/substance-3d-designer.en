@@ -40,40 +40,40 @@ Merges all splines in the input list into a single spline.
 ## Input connectors
 
 <b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
-<b>    R</b> - X position  
-<b>    G</b> - Y position  
-<b>    B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+<b>    R</b> - X position  
+<b>    G</b> - Y position  
+<b>    B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
 <b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
-<b>    R</b> - Tangents X  
-<b>    G</b> - Tangents Y  
-<b>    B</b> - Unused  
-<b>    A</b> - Unused
+<b>    R</b> - Tangents X  
+<b>    G</b> - Tangents Y  
+<b>    B</b> - Unused  
+<b>    A</b> - Unused
 
 <b>Spline Amount</b> *Integer*The number of input splines.
 
 ## Output connectors
 
-<b>Preview</b> *Grayscale*The preview of the merged splines as a grayscale image.
+<b>Preview</b> *Grayscale*The preview of the merged splines as a grayscale image.
 
 <b>Spline Coords</b> *Color*The coordinates of the merged splines’ points encoded in the RGBA channels of a color image.  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+    <b>R</b> - X position  
+    <b>G</b> - Y position  
+    <b>B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
-<b>Spline Data</b> *Color*Additional data of the merged splines encoded in the RGBA channels of a color image.  
-    <b>R</b> - Tangents X  
-    <b>G</b> - Tangents Y  
-    <b>B</b> - Unused  
-    <b>A</b> - Unused
+<b>Spline Data</b> *Color*Additional data of the merged splines encoded in the RGBA channels of a color image.  
+    <b>R</b> - Tangents X  
+    <b>G</b> - Tangents Y  
+    <b>B</b> - Unused  
+    <b>A</b> - Unused
 
-<b>Spline Amount</b> *Integer*The number of merged splines.
+<b>Spline Amount</b> *Integer*The number of merged splines.
 
 ## Parameters
 

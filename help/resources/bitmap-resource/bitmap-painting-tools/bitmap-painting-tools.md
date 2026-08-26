@@ -48,7 +48,7 @@ The painting tools will be enabled automatically in the [2D view](../../../inter
 
 *New* bitmaps can be created the following ways:
 
-* In the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel, click RMB on an *SBS package* or a *folder* within a package to open their contextual menu, then open the <b>New</b> submenu and select the <b>Bitmap</b> option
+* In the [Explorer](../../../interface/the-explorer-window/the-explorer-window.md) panel, click RMB on an *SBS package* or a *folder* within a package to open their contextual menu, then open the <b>New</b> submenu and select the <b>Bitmap</b> option
 * In a [graph](../../../interface/the-graph-view/the-graph-view.md), create a [Bitmap node](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) and select the <b>From new resource...</b> option in the contextual menu
 
 The <b>New bitmap</b> window will open, letting you set the *name*, *resolution* and *background color* of the new bitmap resource.
@@ -71,15 +71,15 @@ Two toolbars are displayed when the painting tools are enabled: the [Tool select
 
 The painting tools can be found in the **Tool selection toolbar**, which is placed on the *left side* of the [2D view](../../../interface/2d-view/2d-view.md) panel by default. Keyboard shortcuts let you access these tools quickly, and are marked below between parentheses after the tool/function name:
 
-![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) <b>Color selection</b> <b>thumbnails:</b> Let you define a *primary* and *secondary* color. Click on any of these thumbnails to display the <b>Color editor</b> window and define a color. Tools will use the *primary* color. The primary and secondary colors can be *swapped* (<b>X</b>) at any time
+![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) <b>Color selection</b> <b>thumbnails:</b> Let you define a *primary* and *secondary* color. Click on any of these thumbnails to display the <b>Color editor</b> window and define a color. Tools will use the *primary* color. The primary and secondary colors can be *swapped* (<b>X</b>) at any time
 
-![](../../../assets/2dview-paintingtools-icon-brush.png) <b>Brush tool (B):</b> Applies the *primary* color at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar
+![](../../../assets/2dview-paintingtools-icon-brush.png) <b>Brush tool (B):</b> Applies the *primary* color at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar
 
-![](../../../assets/2dview-paintingtools-icon-clone.png) <b>Stamp tool (T):</b> Lets you stamp a part of the image onto another. You can define the *source* which should be stamped by holding the <b>Alt</b> key and clicking <b>LMB</b>. This area of the image will then be stamped onto the *target* area of the image at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Please note the source will *track* the movements of the target, and that the size of the *source* area will *match* the size of the *brush*
+![](../../../assets/2dview-paintingtools-icon-clone.png) <b>Stamp tool (T):</b> Lets you stamp a part of the image onto another. You can define the *source* which should be stamped by holding the <b>Alt</b> key and clicking <b>LMB</b>. This area of the image will then be stamped onto the *target* area of the image at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Please note the source will *track* the movements of the target, and that the size of the *source* area will *match* the size of the *brush*
 
-![](../../../assets/2dview-paintingtools-clone-alignment.png) <b>Enable alignment (Stamp tool option):</b> Lets you define whether the source should *stay in place* when a new stamp begins, or if it should *relocate relatively to the new stamp location*
+![](../../../assets/2dview-paintingtools-clone-alignment.png) <b>Enable alignment (Stamp tool option):</b> Lets you define whether the source should *stay in place* when a new stamp begins, or if it should *relocate relatively to the new stamp location*
 
-<b>![](../../../assets/2dview-paintingtools-icon-eraser.png) Eraser (E):</b> Replaces the current color of the image with the (0, 0, 0, 0) value at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Make sure the [Transparency display](../../../interface/2d-view/2d-view.md) is enabled to keep track of the impact of this tool on the <b>Alpha</b> channel.
+<b>![](../../../assets/2dview-paintingtools-icon-eraser.png) Eraser (E):</b> Replaces the current color of the image with the (0, 0, 0, 0) value at the cursor location, when the pen tip or <b>LMB</b> button is pressed, using the options defined in the Tool options toolbar. Make sure the [Transparency display](../../../interface/2d-view/2d-view.md) is enabled to keep track of the impact of this tool on the <b>Alpha</b> channel.
 
 ## Tool options toolbar
 
@@ -120,15 +120,15 @@ Brushes can be customized then saved as a <b>Brush preset</b>, which will then b
 
 To create a preset, set the properties below to your liking, then click the ![](../../../assets/2dview-paintingtools-editor-addpreset.png) <b>Add brush preset </b>button and set a brush name in the <b>Preset name</b> window. The new preset is now automatically selected in the <b>Brush presets list</b>, and at any time you may ![](../../../assets/2dview-paintingtools-editor-updatepreset.png) <b>update</b> it with the new current settings, or ![](../../../assets/2dview-paintingtools-editor-deletepreset.png) <b>delete</b> it.
 
-Presets are organised and saved in *libraries*, which can be managed in the ![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>Brush library</b> menu:
+Presets are organised and saved in *libraries*, which can be managed in the ![](../../../assets/2dview-paintingtools-editor-presetlibrary.png) <b>Brush library</b> menu:
 
-<b>Export library:</b> *save* the current presets and all their settings to a library file
+<b>Export library:</b> *save* the current presets and all their settings to a library file
 
-<b>Import library:</b> *load* presets from an existing library file, and *add* them to the current list – presets with the *same name are replaced* by the ones from the library file
+<b>Import library:</b> *load* presets from an existing library file, and *add* them to the current list – presets with the *same name are replaced* by the ones from the library file
 
 <b>Reset library:</b> resets the current presets by the default library
 
-<b>Replace library:</b> *load* presets from an existing library file, and *dismiss* the current list
+<b>Replace library:</b> *load* presets from an existing library file, and *dismiss* the current list
 
 </td>
 <td style="border: 0;" valign="top">
@@ -144,7 +144,7 @@ Presets are organised and saved in *libraries*, which can be managed in the ![
 The settings of a brush are grouped into the following sections:
 
 +++Shape
-The <b>Shape type</b> parameter controls the basic shape of the brush. Available shapes are:
+The <b>Shape type</b> parameter controls the basic shape of the brush. Available shapes are:
 
 * *Ellipse*: a round shape set as a *circle* by default
 
@@ -208,11 +208,11 @@ The color applied by the brush is defined by the *selected primary color* – an
 +++Texture
 You can apply a *bitmap file* to the brush, and use it to *stamp* that bitmap instead of a flat color. The brush texture behaves as follows:
 
-<b>Texture file: </b>defines the *path* of the bitmap which should be used as a brush texture. You can select the bitmap through your system file browser by using the ![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png) button next to the input field
+<b>Texture file: </b>defines the *path* of the bitmap which should be used as a brush texture. You can select the bitmap through your system file browser by using the ![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png) button next to the input field
 
-The texture *only* replaces the basic flat color of the brush, meaning that *all the brush properties listed above can still be used* and function as described
+The texture *only* replaces the basic flat color of the brush, meaning that *all the brush properties listed above can still be used* and function as described
 
-The texture's colors are *hue-shifted* towards the *set primary color*, meaning that if the set primary color is white, the texture colors can be used as-is. The more saturated the set primary color is, the more the texture colors whill be hue-shifted towards it
+The texture's colors are *hue-shifted* towards the *set primary color*, meaning that if the set primary color is white, the texture colors can be used as-is. The more saturated the set primary color is, the more the texture colors whill be hue-shifted towards it
 
 +++
 

@@ -28,21 +28,21 @@ This new release gives you access to an advanced [3D renderer](../../interface/3
 
 ![shadows and translucency in rasterizer](../../assets/feature_1b.png)
 
-The [3d view toolbar](../../interface/3d-view/3d-view.md) has been updated to have a quick access to some of the new features available in this renderer:
+The [3d view toolbar](../../interface/3d-view/3d-view.md) has been updated to have a quick access to some of the new features available in this renderer:
 
 * <b>Selection tool:</b> to select a submesh in the scene. Once a submesh is selected you can focus on it (F) or access to its material properties (right click).
 * <b>Enable pathtracer:</b> to quickly switch between pathtracer and rasterizer modes.
 * <b>Enable shadows:</b> to enable shadows in the scene, useful to see how your materials behave according to light.
 * <b>Enable ground plane:</b> to enable or not the ground plane in the scene.
 
-In addition, the hotkey to rotate the environment light has changed to match the other Substance apps, so it’s now *<b>shift-right click</b>* instead of *<b>ctrl-shift-right click</b>*.
+In addition, the hotkey to rotate the environment light has changed to match the other Substance apps, so it’s now *<b>shift-right click</b>* instead of *<b>ctrl-shift-right click</b>*.
 
 ### Post effects
 
 [Post effects are back](../../interface/3d-view/camera/post-effects/post-effects.md)! They are now available through the Camera menu and they are now developed in house.
 
 * <b>Bloom:</b> simulate glare around bright spots like lights and reflections, allowing to better visualize emissive surfaces.
-* <b>Tone mapping: </b>the color range with profiles to get a high-dynamic-range (HDR) effect.
+* <b>Tone mapping: </b>the color range with profiles to get a high-dynamic-range (HDR) effect.
 * <b>Depth of field:</b> simulates the focus properties of a camera lens (rasterizer only).
 
 ![Post FX in Designer 15.0](../../assets/postfx.gif)
@@ -100,7 +100,7 @@ Note: if you were using sbsbaker.exe to automate your process, the tool has been
 
 ## VFX platform requirements updates
 
-Every year, the [VFX Reference Platform](https://vfxplatform.com/) publishes a list of tools and libraries versions to be used in every software for the VFX industry to minimise incompatibilities between software. As usual, we *update all our dependencies* in order to respect all these recommendations.
+Every year, the [VFX Reference Platform](https://vfxplatform.com/) publishes a list of tools and libraries versions to be used in every software for the VFX industry to minimise incompatibilities between software. As usual, we *update all our dependencies* in order to respect all these recommendations.
 
 ## Video
 

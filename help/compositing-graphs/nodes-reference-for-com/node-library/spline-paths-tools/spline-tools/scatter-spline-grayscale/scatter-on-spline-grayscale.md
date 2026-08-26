@@ -43,21 +43,21 @@ Some aspects of the scattering may be controlled using images from other nodes i
 
 ## Input connectors
 
-<b>Background</b>*Grayscale* (Primary)The grayscale image over which splines should be drawn.
+<b>Background</b>*Grayscale* (Primary)The grayscale image over which splines should be drawn.
 
 <b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
-<b>    R</b> - X position  
-<b>    G</b> - Y position  
-<b>    B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+<b>    R</b> - X position  
+<b>    G</b> - Y position  
+<b>    B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
 <b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
-<b>    R</b> - Tangents X  
-<b>    G</b> - Tangents Y  
-<b>    B</b> - Unused  
-<b>    A</b> - Unused
+<b>    R</b> - Tangents X  
+<b>    G</b> - Tangents Y  
+<b>    B</b> - Unused  
+<b>    A</b> - Unused
 
 <b>Spline Amount</b> *Integer*The number of input splines.
 

@@ -20,7 +20,7 @@ user-guide-title: ""
 
 ![Median filter color: icon](../../../../../../assets/MedianFilter_Icon_Color.png "Median filter color: icon")
 
-<b>In:</b> Filters &gt; Blurs
+<b>In:</b> Filters &gt; Blurs
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -41,7 +41,7 @@ For every pixel, the node computes a color value according to the median value o
 
 ## Input connectors
 
-<b>Input </b>*Color*The color image that the filter should be applied to.
+<b>Input </b>*Color*The color image that the filter should be applied to.
 
 ## Output connectors
 
@@ -55,11 +55,11 @@ This parameter controls the size of that square kernel, in pixels. A larger kern
 *- 3x3:* a kernel 3 pixels wide and 3 pixels tall, totalling 8 neighbor pixels.  
 *- 5x5:* a kernel 5 pixels wide and 5 pixels tall, totalling 24 neighbor pixels.
 
-<b>Filter type</b> *Integer*The computation applied to the neighbors sampled in the kernel.  
-*- Median:* Use the median value of all neighbors directly.  
-*- MLMAD:* Stands for 'Median Of Least Median Absolute Deviation'. The deviation accounts for how different a value is from the median. Instead of using the median value directly which may be skewed by an outlier pixel with high deviation, the MLMAD method uses the median of all deviations. This method results in a stronger smoothing effect that may flatten areas according to the kernel size.
+<b>Filter type</b> *Integer*The computation applied to the neighbors sampled in the kernel.  
+*- Median:* Use the median value of all neighbors directly.  
+*- MLMAD:* Stands for 'Median Of Least Median Absolute Deviation'. The deviation accounts for how different a value is from the median. Instead of using the median value directly which may be skewed by an outlier pixel with high deviation, the MLMAD method uses the median of all deviations. This method results in a stronger smoothing effect that may flatten areas according to the kernel size.
 
-<b>Affect alpha</b> *Boolean*Controls whether the filter should be applied to the image's alpha channel. When *True*, the alpha channel is unchanged.
+<b>Affect alpha</b> *Boolean*Controls whether the filter should be applied to the image's alpha channel. When *True*, the alpha channel is unchanged.
 
 ## Examples
 

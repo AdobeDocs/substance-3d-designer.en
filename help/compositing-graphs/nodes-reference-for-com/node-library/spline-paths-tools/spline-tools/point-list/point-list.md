@@ -49,12 +49,12 @@ If an existing point list is supplied to the <b>Point</b> inputs, the generated 
 
 <b>Point List Input</b> *Color*  
 A list of input points encoded in the RGBA channels of a color image:  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-            * Integer part: Smoothness;  
-            * Fractional part: Thickness.
+    <b>R</b> - X position  
+    <b>G</b> - Y position  
+    <b>B</b> - Height  
+    <b>A</b> - Packed data:  
+            * Integer part: Smoothness;  
+            * Fractional part: Thickness.
 
 <b>Point Number Input</b> *Integer*  
 The number of input points.
@@ -65,12 +65,12 @@ The number of input points.
 
 <b>Point List </b>*Color*  
 The output list of points encoded in the RGBA channels of a color image:  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-            * Integer part: Smoothness;  
-            * Fractional part: Thickness.
+    <b>R</b> - X position  
+    <b>G</b> - Y position  
+    <b>B</b> - Height  
+    <b>A</b> - Packed data:  
+            * Integer part: Smoothness;  
+            * Fractional part: Thickness.
 
 <b>Point Number </b>*Integer*  
 The output number of points.
@@ -96,16 +96,16 @@ The resulting smoothness value is clamped to the &#91;0;1&#93; range.
 +++
 
 +++Preview
-<b>Show Labels</b> *Boolean*  
+<b>Show Labels</b> *Boolean*  
 For each point, displays the point's name next to it in the 'Preview' output.
 
-<b>Label Size</b> *Float* (Available when 'Show Labels' is set to 'True')  
+<b>Label Size</b> *Float* (Available when 'Show Labels' is set to 'True')  
 The size of the label for each point in texture space, where 0.1 is a tenth of the texture's width.
 
-<b>Show Points</b> *Boolean*  
+<b>Show Points</b> *Boolean*  
 Displays the points in the 'Preview' output.
 
-<b>Points Size</b> *Float* (Available when 'Show Points' is set to 'True')  
+<b>Points Size</b> *Float* (Available when 'Show Points' is set to 'True')  
 The radius of the points in texture space, where 0.1 is a tenth of the texture's width.
 
 +++

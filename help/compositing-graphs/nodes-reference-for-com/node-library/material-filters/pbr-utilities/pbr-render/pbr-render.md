@@ -222,7 +222,7 @@ Outputs
 
 ## Example Images
 
-All images were generated directly inside of Designer, in the 2D viewport, using materials from the [Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/assets.html) library.
+All images were generated directly inside of Designer, in the 2D viewport, using materials from the [Substance 3D assets](https://substance3d.adobe.com/assets) library.
 
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/pbr-render-v2.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/sphere-ominous-obsidian.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c3_image" src="../../../../../../assets/sphere-forest-gravel-1.jpg" width="300px"/></div> |
 | --- | --- | --- | --- |

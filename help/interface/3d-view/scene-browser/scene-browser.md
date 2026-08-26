@@ -16,11 +16,11 @@ user-guide-title: ""
 
 The 3D view's scene browser lists all elements in the scene and their hierarchy.
 
-It offers controls for selecting objects, toggling their visibility as well as selecting which material should [override a scene material](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+It offers controls for selecting objects, toggling their visibility as well as selecting which material should [override a scene material](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
 
-As Designer uses [USD](https://openusd.org/release/index.html) for describing and managing its scenes, its terminology  and concepts are found in that scene tree.
+As Designer uses [USD](https://openusd.org/release/index.html) for describing and managing its scenes, its terminology  and concepts are found in that scene tree.
 
-It is displayed by clicking its dedicated toggle button ![](../../../assets/sceneBrowser-toggleButton.png) in the [3D view scene toolbar](../../../interface/3d-view/3d-view.md).
+It is displayed by clicking its dedicated toggle button ![](../../../assets/sceneBrowser-toggleButton.png) in the [3D view scene toolbar](../../../interface/3d-view/3d-view.md).
 
 ![Scene browser - Loaded 3D scene](../../../assets/loaded3DScene.png "Scene browser - Loaded 3D scene"){zoomable="yes"}
 
@@ -105,7 +105,7 @@ Any object can be enabled and disabled in the scene. When disabled, an object no
 
 The state of a parent object carries over to its children, so disabling a parent object also disables its children.
 
-The visibility of an object can be toggled by clicking its eye button ![](../../../assets/sceneBrowser-eyeButton.png) or from its contextual menu. The menu offers a few more actions for managing the visibility of scene objects:
+The visibility of an object can be toggled by clicking its eye button ![](../../../assets/sceneBrowser-eyeButton.png) or from its contextual menu. The menu offers a few more actions for managing the visibility of scene objects:
 
 * <b>Hide:</b> Disable the selected object.
 * <b>Show:</b> Enable the selected object.
@@ -120,7 +120,7 @@ Parent objects have these additional actions:
 * <b>Hide children:</b> Disable all children of the selected object, recursively.
 * <b>Show children:</b> Enable all children of the selected object, recursively.
 * <b>Expand all children:</b> Expand all lists of children under the selected object, recursively.
-* <b>Collapse all children:</b> Collapse all lists of children under the selected object, recursively.
+* <b>Collapse all children:</b> Collapse all lists of children under the selected object, recursively.
 
 ![Scene browser - Toggling object visibility](../../../assets/sceneBrowser-toggleVisibility.gif "Scene browser - Toggling object visibility"){zoomable="yes"}
 

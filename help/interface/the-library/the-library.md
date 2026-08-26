@@ -76,7 +76,7 @@ The content of the <b>Library</b> is displayed as *labelled thumbnails*. These t
 
 * [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) in [SBS](../../getting-started/overview/overview.md) and [SBSAR](../../getting-started/overview/overview.md) files are represented by their *first output*, or by their *custom icon* if one was set by the graph's author
 * [Bitmaps](../../resources/bitmap-resource/bitmap-resource.md) and [vector graphics (SVG)](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) are represented by a *miniature render* of the bitmap itself
-* [3D meshes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html), [Function graphs](../../function-graphs/the-function-graph/the-function-graph.md), [fonts](../../resources/font-resource/font-resource.md) and [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) files are represented by *generic icons* for each type
+* [3D scenes](../../resources/3d-scene-resource/3d-scene-resource.md), [Function graphs](../../function-graphs/the-function-graph/the-function-graph.md), [fonts](../../resources/font-resource/font-resource.md) and [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) files are represented by *generic icons* for each type
 
 >[!WARNING]
 >

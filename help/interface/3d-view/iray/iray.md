@@ -58,7 +58,7 @@ See the <b>Renderer</b> section of this page to learn more about tweaking these 
 
 ![Medieval castle wall material rendered in Iray](../../../assets/iray-overview.png "Medieval castle wall material rendered in Iray")
 
-*Material: [Medieval castle wall](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)* *by [Mark Foreman](https://www.artstation.com/oggyart)* *available in our [Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/assets.html)* *library*
+*Material: [Medieval castle wall](https://oggyart.artstation.com/projects/Xnzx0a)* *by [Mark Foreman](https://www.artstation.com/oggyart)* *available in our [Substance 3D assets](https://substance3d.adobe.com/assets)* *library*
 
 </td>
 </tr>
@@ -118,9 +118,9 @@ Since Iray relies on the [MDL shading model](https://www.nvidia.com/en-us/design
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-The cumulative list of loaded MDL materials is availabe in the <b>Materials</b> menu, under any of the listed materials' submenu as shown in the image on the right.
+The cumulative list of loaded MDL materials is availabe in the <b>Materials</b> menu, under any of the listed materials' submenu as shown in the image on the right.
 
-Additionally, if an [MDL graph](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) is loaded in Designer, it can be applied to any material in the Scene. At that point, it is added to the list of available MDL materials.
+Additionally, if an [MDL graph](../../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md) is loaded in Designer, it can be applied to any material in the Scene. At that point, it is added to the list of available MDL materials.
 
 Other notable options in this menu are:
 

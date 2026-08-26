@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Version 13.1
 
-<b>Substance 3D Designer 13.1</b> adds many quality-of-life improvements to the node graph, mainly regarding frames, to enhance the material creation experience. There is also the addition of AxF export which enables an interoperability workflow for users working with the AxF format. 
+<b>Substance 3D Designer 13.1</b> adds many quality-of-life improvements to the node graph, mainly regarding frames, to enhance the material creation experience. There is also the addition of AxF export which enables an interoperability workflow for users working with the AxF format. 
 
 *Release date: December 12, 2023*
 
@@ -26,7 +26,7 @@ Frames are a mandatory tool to keep you graph well organized and readable. That 
 
 ### Auto-expand
 
-As the graph grows, the frames' content may need to be rearranged. Nodes may shift to make room for additions or content may need to be spaced out more to promote readability. To facilitate these adjustments, it is now possible to automatically expand a frame when moving included objects: hold <b>Shift</b> at any point while moving an object to have the frame borders automatically adjust to keep that object within their bounds.
+As the graph grows, the frames' content may need to be rearranged. Nodes may shift to make room for additions or content may need to be spaced out more to promote readability. To facilitate these adjustments, it is now possible to automatically expand a frame when moving included objects: hold <b>Shift</b> at any point while moving an object to have the frame borders automatically adjust to keep that object within their bounds.
 
 ![autoexpand](../../assets/autoexpand.gif)
 

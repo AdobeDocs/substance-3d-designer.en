@@ -64,7 +64,7 @@ Click on the <b>Import AxF...</b> button in the [Home screen](../../interface/ho
 
 +++Explorer
 
-Click RMB on a package in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), and go to <b>Import &gt; AxF</b> in the package's contextual menu.
+Click RMB on a package in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md), and go to <b>Import &gt; AxF</b> in the package's contextual menu.
 
 ![AxF: Start import from Explorer](../../assets/axf_explorer.png "AxF: Start import from Explorer"){width="600px"}
 

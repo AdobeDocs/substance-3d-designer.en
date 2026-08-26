@@ -18,13 +18,13 @@ Variables are a way of <b>storing values</b> to fetch it later (<b>Get</b>) and/
 
 ![Substance function graph - Get float](../../../../assets/assign-getfloat.gif "Substance function graph - Get float"){zoomable="yes"}
 
-What a Get node essentially does, is grab a dynamic Variable, and return it from the Get Nodes' output for use in a function. These Get nodes form the link between the Input Parameters defined in the [graph properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) and [parameter functions](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+What a Get node essentially does, is grab a dynamic Variable, and return it from the Get Nodes' output for use in a function. These Get nodes form the link between the Input Parameters defined in the [graph parameters](../../../../compositing-graphs/graph-parameters/graph-parameters.md) and [parameter functions](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 Every time you use a Get node, you must pick an available value from the dropdown menu. Get nodes will <b>grab a value of the corresponding type</b>. That means you will only see valid options in the menu of a Get node, you can never pick an invalid option. If a variable is not available, it means there's a type mismatch
 
 There are a number of <b>&quot;System&quot; Variables</b>: pre-defined special variables that you can not declare yourself. These are quite important, and for the nodes below it is listed what System variables are available.
 
-When a parameter is [exposed](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), it consists of applying a parameter function on it which only includes a Get node of the correct type.
+When a parameter is [exposed](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), it consists of applying a parameter function on it which only includes a Get node of the correct type.
 
 <table>
 <tr style="border: 0;">

@@ -31,7 +31,7 @@ Generally, warnings and errors are displayed on the item which triggered them, a
 
 ### Explorer
 
-For any item in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) panel which has a warning, that warning is displayed with an ![](../../assets/warning-icon.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
+For any item in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel which has a warning, that warning is displayed with an ![](../../assets/warning-icon.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
 
 They follow these rules:
 
@@ -77,7 +77,7 @@ They follow these rules:
 
 ### Properties
 
-For any item in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel which has a warning, that warning is displayed with an ![](../../assets/warning-icon.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
+For any item in the [Properties](../../interface/properties/properties.md) panel which has a warning, that warning is displayed with an ![](../../assets/warning-icon.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
 
 They follow these rules:
 
@@ -100,7 +100,7 @@ They follow these rules:
 
 ### Console
 
-Both warning and errors are reported in the **Console** panel, which you may access through the **Windows** menu in the [main menu](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html). You may isolate warning and errors from the rest of the console entries by setting the **Channel** setting to `ErrorMgr`.
+Both warning and errors are reported in the **Console** panel, which you may access through the **Windows** menu in the [main menu](../../interface/the-main-toolbar/the-main-toolbar.md). You may isolate warning and errors from the rest of the console entries by setting the **Channel** setting to `ErrorMgr`.
 
 >[!NOTE]
 >

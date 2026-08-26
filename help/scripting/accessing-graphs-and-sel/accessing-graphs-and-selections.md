@@ -52,4 +52,4 @@ for node in selection:
 
 A graph displayed in a *specific* Graph view can be accessed using a <b>graphViewID</b>.
 
-This method is useful when creating custom graph view toolbars. The <b>Creating toolbars in Graph views</b> sample in the [Creating user interface elements](../../scripting/creating-user-interface/creating-user-interface-elements.md) chapter provides further details.
+This method is useful when creating custom graph view toolbars. The <b>Creating toolbars in Graph views</b> sample in the [Creating user interface elements](../../scripting/creating-user-interface/creating-user-interface-elements.md) chapter provides further details.

@@ -164,9 +164,9 @@ The ![](../../../assets/2dview-vectorediting-icons-shape.png) <b>Shapes</b> tool
 
 * <b>Ellipse;</b>
 
-* <b>Rounded rectangle:</b> The rounded angles have a locked radius;
+* <b>Rounded rectangle:</b> The rounded angles have a locked radius;
 
-* <b>Polygon:</b> Creates an octogon.
+* <b>Polygon:</b> Creates an octogon.
 
 To draw a primitive, Hold <b>LMB</b> anywhere in the canvas from any of its *corners*. Hold <b>Alt+LMB</b> to draw the shape from its *center*.
 

@@ -72,15 +72,15 @@ The concave and convex areas are also split into their own outputs, for easier s
 
 |  |  |
 | --- | --- |
-| <b>Curvature</b> *Grayscale* | The curvature map computed out of the input normal map.   Flat areas are 50% gray. Convex areas are brighter, while concave areas are darker. |
-| <b>Convexity</b> *Grayscale* | The convexity map computed out of the input normal map.   The more convex an area is, the brighter it is in the map.  Flat or concave areas are black. |
-| <b>Concavity</b> *Grayscale* | The concavity map computed out of the input normal map.   The more concave an area is, the brighter it is in the map.  Flat or convex areas are black. |
+| <b>Curvature</b> *Grayscale* | The curvature map computed out of the input normal map.   Flat areas are 50% gray. Convex areas are brighter, while concave areas are darker. |
+| <b>Convexity</b> *Grayscale* | The convexity map computed out of the input normal map.   The more convex an area is, the brighter it is in the map.  Flat or concave areas are black. |
+| <b>Concavity</b> *Grayscale* | The concavity map computed out of the input normal map.   The more concave an area is, the brighter it is in the map.  Flat or convex areas are black. |
 
 ## Parameters
 
 |  |  |
 | --- | --- |
-| <b>Normal format</b> *Integer* | The format of the input normal map. Effectively inverts the green channel.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> The Y axis points up</li> <li data-preserve-html="true"><b style="">OpenGL:</b> The Y axis points down</li> </ul> |
+| <b>Normal format</b> *Integer* | The format of the input normal map. Effectively inverts the green channel.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> The Y axis points up</li> <li data-preserve-html="true"><b style="">OpenGL:</b> The Y axis points down</li> </ul> |
 
 ## Examples
 

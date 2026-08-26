@@ -24,36 +24,16 @@ user-guide-title: ""
 
 ![Fractal sum 3 - Icon](../../../../../../assets/fractal_sum_3.png "Fractal sum 3 - Icon"){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-A variation of the <b>Fractal sum</b> noises.
+A variation of the <b>Fractal sum</b> noises.
 
 See also: [Fractal sum base](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md), [Fractal sum 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-1/fractal-sum-1.md), [Fractal sum 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md), [Fractal sum 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Outputs
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
 
 </td>
 </tr>
@@ -63,14 +43,14 @@ See also: [Fractal sum base](../../../../../../compositing-graphs/nodes-referenc
 
 |  |  |
 | --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
 
 ## Parameters
 
 |  |  |
 | --- | --- |
 | <b>Disorder</b>  Float | Displaces the ingredients of the noise.    This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
+| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
 | <b>Non-square expansion</b>  Boolean | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
 
 ## Examples

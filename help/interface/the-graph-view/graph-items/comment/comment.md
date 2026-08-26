@@ -25,7 +25,7 @@ user-guide-title: ""
 
 A comment is simply a piece of free-floating text that can be placed anywhere in a graph.
 
-It is intended for annotating and explaining parts of a graph. Its <b>Description</b> property holds the text being displayed.
+It is intended for annotating and explaining parts of a graph. Its <b>Description</b> property holds the text being displayed.
 
 </td>
 </tr>
@@ -64,7 +64,7 @@ In the Graph View toolbar, click the 'Comment' button in the <b>Node Palette</b>
 +++
 
 +++Library
-In the Library, select the <b>Graph Items</b> category then drag and drop the 'Comment' item into the Graph View.
+In the Library, select the <b>Graph Items</b> category then drag and drop the 'Comment' item into the Graph View.
 
 +++
 
@@ -93,7 +93,7 @@ Comment that are created when a *single* node is currently selected, or through 
 
 ## HTML formatting
 
-Text can be formatted using HTML tags. This formatting is toggled using the ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML markup</b> button in the comment's <b>Description</b> property.
+Text can be formatted using HTML tags. This formatting is toggled using the ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML markup</b> button in the comment's <b>Description</b> property.
 
 >[!TIP]
 >

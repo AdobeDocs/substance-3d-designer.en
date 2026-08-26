@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Output size
 
-It's the first of a graph's <b>Base parameters</b> and, along with the <b>Output Format</b> (or bitdepth), is critical to understand well since it has a large impact on a graph's output, both within Designer and in other applications as a published [Substance 3D asset (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) file.
+It's the first of a graph's <b>Base parameters</b> and, along with the <b>Output Format</b> (or bitdepth), is critical to understand well since it has a large impact on a graph's output, both within Designer and in other applications as a [published Substance 3D asset (SBSAR)](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) file.
 
 >[!TIP]
 >
@@ -51,9 +51,9 @@ A texture which is an object in graphics computing bound by some restrictions im
 </tr>
 </table>
 
-The Output size property uses *logarithmic steps* to easily map increases of powers of two (e.g., 256, 512, 1024, ...) to a *linear scale* (e.g. 8, 9, 10, ...). This means increasing or decreasing the Output Size value in X or Y by 1 is akin to multiplying or dividing the current resolution by 2.
+The Output size property uses *logarithmic steps* to easily map increases of powers of two (e.g., 256, 512, 1024, ...) to a *linear scale* (e.g. 8, 9, 10, ...). This means increasing or decreasing the Output Size value in X or Y by 1 is akin to multiplying or dividing the current resolution by 2.
 
-This also applies when the Output Size value is controlled by a [function](../../function-graphs/function-graphs.md), where the function should output the target logarithmic values (relative or absolute) instead of the target resolution.
+This also applies when the Output Size value is controlled by a [function](../../function-graphs/function-graphs.md), where the function should output the target logarithmic values (relative or absolute) instead of the target resolution.
 
 >[!IMPORTANT]
 >
@@ -90,7 +90,7 @@ In most cases, the default [inheritance method](../../compositing-graphs/inherit
 * Node: *Relative to input* – the values inherited by the node's [Primary input](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) are used in this case
 * [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node: *Absolute* – see the [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) page and [performance optimization guidelines](../../best-practices/performance-optimization/performance-optimization-guidelines.md) to know why that is
 
-Display the properties of a node or graph by clicking that item, then in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel find the <b>Output Size</b> property in the <b>Base parameters</b> section. Click the inheritance method drop down menu select the desired inheritance method.
+Display the properties of a node or graph by clicking that item, then in the [Properties](../../interface/properties/properties.md) panel find the <b>Output Size</b> property in the <b>Base parameters</b> section. Click the inheritance method drop down menu select the desired inheritance method.
 
 ![Output size inheritance method](../../assets/change-mode.gif "Output size inheritance method"){width="512px"}
 

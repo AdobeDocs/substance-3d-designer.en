@@ -26,21 +26,21 @@ This page lists common causes for Substance 3D Designer failing to start correct
 
 ## Designer 15.0 and higher
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
 
 Versions 15.0 and higher of Designer fail to start on systems with both an integrated GPU (iGPU) and a discrete GPU (dGPU).
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
 
-Update the iGPU's graphics drivers. You can find the latest drivers here:  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  |  [AMD](https://www.amd.com/en/support/download/drivers.html)
+Update the iGPU's graphics drivers. You can find the latest drivers here:  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)  |  [AMD](https://www.amd.com/en/support/download/drivers.html)
 
 ## Windows 10/11
 
-**![(error)](../../assets/error.svg) Issue**
+**![(error)](../../assets/error.svg) Issue**
 
 Substance 3D Designer fails to start on systems using Windows 10 or Windows 11.
 
-**![(tick)](../../assets/check.svg) Recommended steps**
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 Older versions of Designer may fail to start on Windows 10 or Windows 11 because of an *outdated* `libeay32.dll` library used in the license validation process.
 
@@ -61,11 +61,11 @@ You may try to replace the library with an *updated version*, such as the one di
 
 ## Windows 7/8/8.1
 
-**![(error)](../../assets/error.svg) Issue**
+**![(error)](../../assets/error.svg) Issue**
 
 Substance 3D Designer fails to start on systems using Windows 7, Windows 8 or Windows 8.1.
 
-**![(tick)](../../assets/check.svg) Recommended steps**
+**![(tick)](../../assets/check.svg) Recommended steps**
 
 As part of the version **11.3.0** update, we upgraded multiple librairies, tools and SDKs which *broke compatibility* with versions of Windows lower than Windows 10.
 
@@ -76,15 +76,15 @@ We *strongly* recommend upgrading to Windows 10, as Microsoft itself does not su
 >
 > Unsupported configurations
 > 
-> Please note Windows 7, Windows 8 and Windows 8.1 are *not officially supported*. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
+> Please note Windows 7, Windows 8 and Windows 8.1 are *not officially supported*. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
 
 ## Linux
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
 
 Crash when closing the Home screen and displaying the main window.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
 
 Designer fails to load Python components because it loads the system's <b>libffi.so</b> library instead of its own.
 
@@ -98,7 +98,7 @@ LD_PRELOAD=./plugins/pythonsdk/lib/python3.11/lib-dynload/libffi.so.6 %command%
 
 Please note the Python version number depends on the version of Designer being run:
 
-* Lower than 14.0.0: python3.9
+* Lower than 14.0.0: python3.9
 * Lower than 12.1.0: python3.7
 
 +++Steam launch options
@@ -120,7 +120,7 @@ The Steam edition of Designer fails to start with and produces no error message.
 
 You can acquire error messages by logging the Steam application instead.
 
-As recommended [here](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260), completely close Steam then run the following command from a terminal (or create a shortcut for this command):
+As recommended [here](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260), completely close Steam then run the following command from a terminal (or create a shortcut for this command):
 
 ```
 
@@ -130,7 +130,7 @@ steam 2>&1 | tee /path/to/logfile
 
 <b>!&#91;(error)&#93;(../../assets/error.svg) Issu</b><b>e</b>
 
-The `<b>xcb</b>` plugin cannot be loaded. The following message is displayed in the command line:
+The `<b>xcb</b>` plugin cannot be loaded. The following message is displayed in the command line:
 
 ```
 
@@ -174,7 +174,7 @@ apt-get install libxcb-xinput0
 ```
 
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
 
 This error is raised when starting Designer:
 
@@ -184,23 +184,23 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 ```
 
 
-A system library loaded by Designer is incompatible with Designer's own <b>libcrypto.so.1.1</b> library.
+A system library loaded by Designer is incompatible with Designer's own <b>libcrypto.so.1.1</b> library.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
 
-Remove the <b>`libcrypto.so.1.1`</b> library from Designer's installation directory, so that the system's library is used instead.
+Remove the <b>`libcrypto.so.1.1`</b> library from Designer's installation directory, so that the system's library is used instead.
 
 >[!NOTE]
 >
-> This workaround only works when the system has its own libcrypto.so.1 library. On recent distributions, a compatibility package such as <b>libxcrypt-compat</b> may need to be installed.
+> This workaround only works when the system has its own libcrypto.so.1 library. On recent distributions, a compatibility package such as <b>libxcrypt-compat</b> may need to be installed.
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
 
-Substance 3D Designer fails to start on systems using *Arch-based* distributions of Linux.
+Substance 3D Designer fails to start on systems using *Arch-based* distributions of Linux.
 
 **![(tick)](../../assets/check.svg) Recommended steps *(![(warning)](../../assets/warning.svg) Unstable, AMD GPUs only!)***
 
-Try installing **progl** (part of the [AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO) drivers) and start Designer through it. You may do this by using the `progl` prefix in the application launch command:
+Try installing **progl** (part of the [AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO) drivers) and start Designer through it. You may do this by using the `progl` prefix in the application launch command:
 
 ```
 
@@ -212,4 +212,4 @@ Be mindful that `progl` may be unstable. This should therefore be attempted as a
 
 >[!WARNING]
 >
-> Please note Arch-based distributions of Linux are *not supported*. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
+> Please note Arch-based distributions of Linux are *not supported*. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.

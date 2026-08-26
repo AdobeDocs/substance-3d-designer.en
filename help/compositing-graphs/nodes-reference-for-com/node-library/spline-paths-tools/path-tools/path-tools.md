@@ -16,13 +16,13 @@ user-guide-title: ""
 
 Path tools are a collection of nodes for generating and adjusting paths, as well as converting them to splines for complex scattering or warping of images.
 
-Paths are a series of points connected into straight lines.
+Paths are a series of points connected into straight lines.
 
 Check out this tutorial to get started:
 
 >[!TIP]
 >
-> We recommend learning about [working with Path and Spline tools](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
+> We recommend learning about [working with Path and Spline tools](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) to make the most of the toolset.
 > 
 > For advanced users, the [Paths Format Specification](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md) explains how the data of paths is encoded into color images, and provides tips for manipulating this data directly.
 

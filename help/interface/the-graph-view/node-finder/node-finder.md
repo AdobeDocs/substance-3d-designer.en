@@ -16,7 +16,7 @@ user-guide-title: ""
 
 ![Node finder toolbar](../../../assets/node-finder-toolbar.png "Node finder toolbar"){zoomable="yes"}
 
-The Node Finder tool lets you perform a <b>search for nodes and variables</b> using a text query. All nodes that do not match the query are dimmed to make the results stick out.
+The Node Finder tool lets you perform a <b>search for nodes and variables</b> using a text query. All nodes that do not match the query are dimmed to make the results stick out.
 
 The query can match any of those criteria:
 
@@ -25,7 +25,7 @@ The query can match any of those criteria:
 * A node's <b>UID</b> (unique identifier)
 * A node's <b>label</b>
 
-The search can traverse [graph instances](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) recursively so nodes and variables can be found across [subgraphs](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). If you are unsure about the exact term you need to search, a fuzzy search option is available to apply a tolerance to the query.
+The search can traverse [graph instances](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) recursively so nodes and variables can be found across [subgraphs](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). If you are unsure about the exact term you need to search, a fuzzy search option is available to apply a tolerance to the query.
 
 ## Interface
 
@@ -33,11 +33,11 @@ The Node Finder can be accessed in two ways:
 
 In the Graph View, press <b>Ctrl+F</b> (Windows) / <b>Cmd+F</b> (macOS) to display the Node Finder toolbar and automatically set the focus on the query field. This lets you perform a search quickly.
 
-In the Graph View toolbar, click the <b>Node Finder button ![](../../../assets/graph-node-finder.png)</b> to display the Node Finder toolbar. Once displayed, the toolbar is only closed by clicking this button.
+In the Graph View toolbar, click the <b>Node Finder button ![](../../../assets/graph-node-finder.png)</b> to display the Node Finder toolbar. Once displayed, the toolbar is only closed by clicking this button.
 
 <b>Searches traverse graphs</b>. In other words, a search remains active when opening graphs through these actions:
 
-* Instance node: Open reference in context (Ctrl+E / Cmd+E) (*Note:* graph editing in context needs to be enabled in Edit &gt; Preferences &gt; Graph)
+* Instance node: Open reference in context (Ctrl+E / Cmd+E) (*Note:* graph editing in context needs to be enabled in Edit &gt; Preferences &gt; Graph)
 * Pixel Processor: Edit function (Ctrl+E / Cmd+E)
 * Value Processor: Edit function (Ctrl+E / Cmd+E)
 * FX-Map: Edit FX-Map graph (Ctrl+E / Cmd+E)
@@ -51,7 +51,7 @@ In the Graph View toolbar, click the <b>Node Finder button ![](../../../assets
 
 The search terms can be typed into this field and the arrow button opens a list of query suggestions which include some of the variables available in the current context.
 
-Learn more about the queries you can perform in the [Search query](#search-query) section below.
+Learn more about the queries you can perform in the [Search query](#search-query) section below.
 
 ### Node type
 
@@ -108,7 +108,7 @@ The list is contextual to the current graph type.
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-The <b>Search options button ![](../../../assets/node-finder-search-options.png)</b> opens a list of settings used for searching that can be toggled on and off.
+The <b>Search options button ![](../../../assets/node-finder-search-options.png)</b> opens a list of settings used for searching that can be toggled on and off.
 
 Learn more about these options in the Search options section below.
 
@@ -198,7 +198,7 @@ These include [built-in variables](../../../function-graphs/variables/system-var
 
 
 
-The identifier of exposed parameters can also be copied or edited directly in the [Substance graph properties](../../../compositing-graphs/graph-parameters/graph-parameters.md).
+The identifier of exposed parameters can also be copied or edited directly in the [Substance graph properties](../../../compositing-graphs/graph-parameters/graph-parameters.md).
 
 ![Node finder: exposed parameters](../../../assets/node-finder-compositing-exposed-parameter.png "Node finder: exposed parameters"){zoomable="yes"}
 
@@ -283,7 +283,7 @@ Searching for specific nodes is particularly effective when using their exact la
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-The <b>Search options button ![](../../../assets/node-finder-search-options.png)</b> lets you toggle the <b>recursive</b> and <b>fuzzy</b> modes for searching nodes.
+The <b>Search options button ![](../../../assets/node-finder-search-options.png)</b> lets you toggle the <b>recursive</b> and <b>fuzzy</b> modes for searching nodes.
 
 Both can be enabled at the same time.
 

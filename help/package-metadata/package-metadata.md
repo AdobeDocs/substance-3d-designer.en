@@ -61,7 +61,7 @@ In some scenarios, you may want to retrieve the metadata you defined on a packag
 
 The metadata is stored according to the JSON format in a file named /assemblies/content/0000/metadata.json (the path is relative to the root of the .sbsar archive).
 
-Regular (string) metadata is stored as is, e.g. "key": "stringValue", one per line. Again, the original order of the various keys is not retained, and is implementation defined. Never rely on the ordering in your process, as with regular Python dicts!
+Regular (string) metadata is stored as is, e.g. "key": "stringValue", one per line. Again, the original order of the various keys is not retained, and is implementation defined. Never rely on the ordering in your process, as with regular Python dicts!
 
 As the aim of URL metadata is to allow users and plugins to include foreign files in the .sbsar archive, they are subject to a specific transformation: First, the file of the resource matching the stored URL is copied in to the archive in an implementation defined location (usually in a numbered subfolder, which will contain only this file. The point is to avoid name conflict.) The file will retain its original name (the name of the resource is discarded at this point). Then instead of the original URL in the metadata.json, the path to the copied file in the archive relative to the metadata.json is written.
 

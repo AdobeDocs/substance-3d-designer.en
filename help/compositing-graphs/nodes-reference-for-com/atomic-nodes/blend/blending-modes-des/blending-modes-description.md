@@ -80,7 +80,7 @@ The *Switch* blending mode is similar to the Copy mode, with one *crucial* diffe
 
 Therefore, this mode may be used to improve the performances of your graph.
 
-The [Switch](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) and [Switch grayscale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) nodes are setup to use the blend nodes in these specific configurations.
+The [Switch](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) and [Switch grayscale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) nodes are setup to use the blend nodes in these specific configurations.
 
 ![Blending mode: Switch](../../../../../assets/image2015-8-20-9-38-0.png "Blending mode: Switch"){zoomable="yes"}
 
