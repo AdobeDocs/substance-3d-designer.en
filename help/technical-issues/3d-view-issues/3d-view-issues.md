@@ -210,9 +210,9 @@ When using the new renderers (Rasterizer and GPU Pathtracer), the 'Tessellation 
 
 **![(error)](3d-view-issues.resources/error.svg) Issue**
 
-The shading of objects relies on their normal, tangent and binormal vectors. Their coordinates use the &#91;-1, 1&#93; range, whereas normal maps use the &#91;0, 1&#93; range in most cases. To adapt values from one to the other, a <b>bias and scale</b> need to be applied: value\*scale+bias.
+The shading of objects relies on their normal, tangent and binormal vectors. Their coordinates use the `[-1, 1]` range, whereas normal maps use the `[0, 1]` range in most cases. To adapt values from one to the other, a <b>bias and scale</b> need to be applied: `value * scale + bias`.
 
-For instance, a scale of 2 and a bias of -1 adapts the x value from &#91;0, 1&#93; to &#91;-1, 1&#93; thusly: x\*2-1.
+For instance, a scale of 2 and a bias of -1 adapts the x value from `[0, 1]` to `[-1, 1]` thusly: `x * 2 - 1`.
 
 Designer does not apply a normal scale and bias unless they are specified by a 3D mesh. If that information is missing, a warning is raised in the Console when [overriding any of its materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md):
 

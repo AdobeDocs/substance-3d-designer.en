@@ -67,7 +67,7 @@ For instance:
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>!&#91;(error)&#93;(incorrect-image-output.resources/error.svg) Issue</b>
+<b>![(error)](incorrect-image-output.resources/error.svg) Issue</b>
 
 The quality of the images output by a Substance 3D archive (SBSAR) is noticeably lower than the Substance 3D file's graph it is published from, as shown in the image on the right.  
 The output appears low resolution.
@@ -81,7 +81,7 @@ The output appears low resolution.
 </tr>
 </table>
 
-<b>!&#91;(tick)&#93;(incorrect-image-output.resources/check.svg) Recommended steps</b>
+<b>![(tick)](incorrect-image-output.resources/check.svg) Recommended steps</b>
 
 Make sure the [Output size](../../compositing-graphs/output-size/output-size.md) property of all [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes are set to the *Absolute* [inheritance method](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
