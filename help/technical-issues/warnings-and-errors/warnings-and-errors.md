@@ -130,7 +130,7 @@ Here is a list of warnings and errors you may encounter in Designer, sorted base
 ### Warnings in Substance graphs
 
 * No output node defined
-* The &#91;x&#93; parameter's function has some warnings
+* The `[x]` parameter's function has some warnings
 * The referenced data has some warnings
 * Reference resource not found
 * Text node uses invalid font
