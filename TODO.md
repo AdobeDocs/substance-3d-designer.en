@@ -10,7 +10,8 @@
 * Entry points for Python API documentation on AdobeDocs
 * 3D view: Use `refineLevel = 0` to improve performance when using displacement on high poly meshes
 * Examples in 'Documentation pop-up' page
-* Glossary entries for terms referenced/implied elsewhere in [glossary.md](help/glossary/glossary.md) but not yet defined:
+* Glossary:
+  * HDR
   * Metalness / Metallic
   * HDR
   * Specular
