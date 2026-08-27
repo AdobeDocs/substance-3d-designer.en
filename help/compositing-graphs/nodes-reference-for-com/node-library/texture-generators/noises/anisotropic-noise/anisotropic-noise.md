@@ -35,15 +35,11 @@ The amount of strips is adjustable, as is the smoothness of their transitions.
 </tr>
 </table>
 
-<a name="outputs"></a>
-
 ## Outputs
 
 |  |  |
 |:---|:---|
 | <b>Output</b> <i>Grayscale</i> | The generated noise as a grayscale bitmap. |
-
-<a name="parameters"></a>
 
 ## Parameters
 

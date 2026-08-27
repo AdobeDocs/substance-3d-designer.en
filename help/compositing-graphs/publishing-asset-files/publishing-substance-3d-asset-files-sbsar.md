@@ -16,7 +16,7 @@ user-guide-title: ""
 
 This page explains how Substance 3D Designer can publish packages as <b>Substance 3D asset</b> files, a special file format with the <b>SBSAR</b> extension, used within the Substance ecosystem as well as in other applications supporting it.
 
-It's usually better to use a Substance 3D asset instead of bitmaps, as it is a lot more flexible and lightweight. If you are using them in Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://helpx.adobe.com/substance-3d-sampler.html) or [Player](https://helpx.adobe.com/substance-3d-player/home.html), it is faster to use the ['Send to...' feature](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
+It's usually better to use a Substance 3D asset instead of bitmaps, as it is a lot more flexible and lightweight. If you are using them in Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/home) or [Player](https://helpx.adobe.com/substance-3d-player/home.html), it is faster to use the ['Send to...' feature](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
 ![Publishing SBSAR files simplified](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "Publishing SBSAR files simplified")
 

@@ -12,7 +12,7 @@ user-guide-description: ""
 user-guide-title: ""
 ---
 
-# Iterate and $number variable
+# Iterate and `$number` variable
 
 ![](iterate-and-number-variable.resources/iterate-1.jpg)
 
@@ -22,7 +22,7 @@ The Iterate node will render the nodes connected to the right output the amount 
 | --- | --- |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/10-iterations.png"/></div> | 10 iterations: the gaussian pattern is rendered 10 times at the same place |
 
-When using an Iterate node, you can use the $number variable to get the current iteration value. $number is a float value and starts at 0.
+When using an Iterate node, you can use the `$number` variable to get the current iteration value. `$number` is a float value and starts at 0.
 
 <table>
 <tr style="border: 0;">
@@ -41,6 +41,4 @@ When using an Iterate node, you can use the $number variable to get the current 
 
 This function, set in the Pattern Offset parameter, will be executed 10 times, one for each pattern.
 
-The first pattern has a $number value equal to 0 and is then rendered at the (0, 0) coordinate. The second pattern has a $number value equal to 1 and is then rendered at the (0.1, 0) coordinate (1 x 0.1 = 0.1) and so on for the next patterns.
-
-Download sample: [iterate\_node.sbs](https://helpx.adobe.com/content/dam/help/en/substance-3d/documentation/sddoc/files/102400023/102367299/1/1423458106000/iterate-node.sbs)
+The first pattern has a `$number` value equal to 0 and is then rendered at the (0, 0) coordinate. The second pattern has a `$number` value equal to 1 and is then rendered at the (0.1, 0) coordinate (1 x 0.1 = 0.1) and so on for the next patterns.

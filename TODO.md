@@ -12,6 +12,7 @@
 * Examples in 'Documentation pop-up' page
 * Glossary entries for terms referenced/implied elsewhere in [glossary.md](help/glossary/glossary.md) but not yet defined:
   * Metalness / Metallic
+  * HDR
   * Specular
   * Height map
   * Opacity
@@ -24,7 +25,6 @@
 
 ## Fixes
 
-* Broken links and formatting in [Output node](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 * Fix link for 1st example image in node pages (E.g. new noises)
 * Missing 'Negative integer' item & broken links  in [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
