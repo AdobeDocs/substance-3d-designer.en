@@ -55,7 +55,7 @@ Once again all the values have to be from the same type.
 
 To do so, you have the choice between all these numeric values :
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## Boolean
 

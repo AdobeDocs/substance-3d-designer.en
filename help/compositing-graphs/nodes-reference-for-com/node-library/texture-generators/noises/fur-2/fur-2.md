@@ -16,38 +16,40 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fur-2.png){width="128px"}
+![](fur-2.resources/fur-2.png){width="128px"}
 
-## Fur 2
-
-**In:** *Texture Generators**/Noises*
-
-**Simple**
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 This generates a wavy type of fur-like noise.
 
-## Parameters
-
-* **Scale**: *1 - 8*  
-  Sets the global scale for the effect.
-* **Waves Scale**: *0.0 - 1.0*  
-  Modifies the scale of the waves, bigger means less repetitions.
-* **Waves Rotation**: *0.0 - 1.0*  
-  Twists the waves more. This value should probably be kept low, as results can be extreme.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-
-## Example Images
-
-![](../../../../../../assets/fur-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Scale</b> <i>1 - 8</i> | Sets the global scale for the effect. |
+| <b>Waves Scale</b> <i>0.0 - 1.0</i> | Modifies the scale of the waves, bigger means less repetitions. |
+| <b>Waves Rotation</b> <i>0.0 - 1.0</i> | Twists the waves more. This value should probably be kept low, as results can be extreme. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fur-2.resources/fur-2-ex.gif" />
+        </td>
+    </tr>
 </table>

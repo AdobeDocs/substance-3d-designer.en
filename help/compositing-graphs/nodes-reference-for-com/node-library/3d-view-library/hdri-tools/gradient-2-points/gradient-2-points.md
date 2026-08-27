@@ -16,41 +16,42 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-2-points.png){width="250px"}
+![](gradient-2-points.resources/gradient-2-points.png){width="250px"}
 
-## Gradient 2 Points
-
-**In:** *3D View/HDRI Tools*
-
-**Intermediate**
+<b>In:</b> 3D View &gt; HDRI Tools
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Creates a gradient of 2 colors between two user-selected points. Result is adjusted for spherical projection. Similar to [Gradient Linear (HDRI)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/gradient-linear-hdri/gradient-linear-hdri.md), but with two points instead of one.
 
-## Parameters
-
-* **Point 1 Position**:   
-  User-selected first point position. Has handle in 2D view.
-* **Point 1 Color**: *(Color value)*   
-  Color at gradient start.
-* **Point 1 Contrast**: *0.0 - 1.0*   
-  Contrast of first point mask.
-* **Point 2 Position**:   
-  User-selected second point position. Has handle in 2D view.
-* **Point 2 Color**: *(Color value)*   
-  Color at Gradient end.
-* **Point 2 Contrast**: *0.0 - 1.0*Contrast of second point mask.
-
-## Example Images
-
-![](../../../../../../assets/gradient-ex2.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Point 1 Position</b> | User-selected first point position. Has handle in 2D view. |
+| <b>Point 1 Color</b> <i>(Color value)</i> | Color at gradient start. |
+| <b>Point 1 Contrast</b> <i>0.0 - 1.0</i> | Contrast of first point mask. |
+| <b>Point 2 Position</b> | User-selected second point position. Has handle in 2D view. |
+| <b>Point 2 Color</b> <i>(Color value)</i> | Color at Gradient end. |
+| <b>Point 2 Contrast</b> <i>0.0 - 1.0</i> | Contrast of second point mask. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-2-points.resources/gradient-ex2.gif" />
+        </td>
+    </tr>
 </table>

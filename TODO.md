@@ -8,6 +8,7 @@
 ## Additions
 
 * Entry points for Python API documentation on AdobeDocs
+* 3D view: Use `refineLevel = 0` to improve performance when using displacement on high poly meshes
 * Examples in 'Documentation pop-up' page
 * Glossary:
   * HDR
@@ -25,9 +26,6 @@
 
 ## Fixes
 
-* Broken links and formatting in [Output node](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* Remove in-page ToC (E.g. new noises)
-* Fix node page layouts (E.g. new noises)
 * Fix link for 1st example image in node pages (E.g. new noises)
 * Missing 'Negative integer' item & broken links  in [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 

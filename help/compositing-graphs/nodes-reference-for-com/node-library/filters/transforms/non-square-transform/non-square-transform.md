@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](non-square-transform.resources/safe-transform.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](non-square-transform.resources/safe-transform-grayscale.png)
 
-## Non-Square Transform (Grayscale)
-
-**In:** *Filters/Transforms*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Transforms
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,22 +37,29 @@ Make sure you fully understand the [Graph Parameters ](../../../../../../composi
 * Set the Non Square Transform **node's** Output Size to "*Relative to Parent*".
 * Set the **node's** tiling mode to "*No Tiling*" if you only want to transform your input to a single position.
 
-## Parameters
-
-* **Tile Mode**: *Automatic, Manual*Enable automatic non-square compensations or not.
-* **Tile**: *1 - 16*Only accessible when Tile Mode is set to Manual. Allows you to change the scale in a tiling-safe way.
-* **Offset**: *0.0 - 1.0*  
-  Moves or translates the result. Double-click the slider to enter negative values.
-* **Rotation**: *0.0 - 1.0*Rotates the input image.
-* **Safe Rotation (Square Only)**: *False/True*Snaps to safe values to maintain sharpness of pixels.
-* **Background Color**: *(Color value)*Background color to fill image with. Only visible when [Tiling Mode in Base Parameters is set to "*No Tiling*"](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md).
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/nonsquare-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Tile Mode</b> <i>Automatic, Manual</i> | Enable automatic non-square compensations or not. |
+| <b>Tile</b> <i>1 - 16</i> | Only accessible when Tile Mode is set to Manual. Allows you to change the scale in a tiling-safe way. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Moves or translates the result. Double-click the slider to enter negative values. |
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Rotates the input image. |
+| <b>Safe Rotation (Square Only)</b> <i>False/True</i> | Snaps to safe values to maintain sharpness of pixels. |
+| <b>Background Color</b> <i>(Color value)</i> | Background color to fill image with. Only visible when [Tiling Mode in Base Parameters is set to "*No Tiling*"](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md). |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-square-transform.resources/nonsquare-ex.png" />
+        </td>
+    </tr>
 </table>

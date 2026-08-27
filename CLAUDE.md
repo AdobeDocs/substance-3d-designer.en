@@ -10,7 +10,7 @@ This repository contains the documentation for Substance 3D Designer. There is n
 
 * `help/` — all documentation content, organized to mirror the table of contents.
 * `help/guide/TOC.md` — the table of contents. Every entry is a relative link (rooted at `/help/...`) to a page's Markdown file. `TOC.md` also carries page-tree metadata (`user-guide-title`, `breadcrumb-title`, `nudge`, section anchors like `{#section-id}`).
-* `help/assets/` — shared, non-page-specific images (e.g. app icons reused across pages).
+* `help/assets/` — legacy shared-image folder. Page-specific media now lives in a per-page `<md-file-name>.resources/` sibling folder (see Folder/TOC convention below); only a handful of leftover images not referenced by any page still sit here. Put new images in the using page's `.resources` folder, not here.
 * `help/glossary/glossary.md` — a single large glossary page, organized alphabetically with anchor spans (`<span id="term"></span>`) used for cross-linking via `#term` fragments.
 * `metadata.md` — repo-level front matter (cloud/solution/product IDs, `git-repo`, etc.) that is inherited by every `TOC.md`. Only edit this for repo-wide metadata changes; page-specific metadata belongs in the page's own front matter.
 * `redirects.csv`, `linkcheckexclude.json`, `markdownlint_custom.json`, `pipeline.opts` — publishing-pipeline configuration (redirects, link-check exceptions, lint rule overrides, pipeline options).
@@ -24,6 +24,10 @@ For every entry in `help/guide/TOC.md`:
 * If the page has bespoke media (images, GIFs, videos), it lives in a sibling subfolder named `<md-file-name>.resources`.
 
 When adding or moving a page, update `TOC.md` and the folder layout together — they must stay in sync.
+
+## Node reference pages
+
+The node-library trees (e.g. `help/compositing-graphs/nodes-reference-for-com/node-library/<category>/<node>/<node>.md`) are a distinct page type with their own consistent layout: an icon/description HTML table, followed by anchored `## Inputs` / `## Outputs` / `## Parameters` tables (`#inputs`/`#outputs`/`#parameters`) and an `## Examples` gallery. They use the **minimal** front matter (only `title` + `description`), not the regular content-page block below — modeled on `.../texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md`. Embedded media (icon, example images/GIFs) live in a sibling `<node-name>.resources/` folder next to the page, referenced relatively. Use the `generate-node-documentation` skill (if present) for the full authoring template.
 
 ## Page front matter
 

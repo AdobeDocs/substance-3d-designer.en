@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-append-icon.png "Node icon")
+![Node icon](spline-append.resources/spline-append-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -39,82 +39,45 @@ The order of the lists is preserved, meaning appending a list D-E-F onto a list 
 >
 > Be mindful of the order in which you append splines, as this order is taken into account in other nodes, such as [Scatter on Splines](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md), the [Spline Bridge](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) nodes, etc.
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Preview &#35;1</b> *Grayscale*The preview of the first set of input splines as a grayscale image.
+## Inputs
 
-<b>Spline &#35;1 Coords</b> *Color*The coordinates of the first set of input splines’ points encoded in the RGBA channels of a color image.  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Preview &#35;1</b> <i>Grayscale</i> | The preview of the first set of input splines as a grayscale image. |
+| <b>Spline &#35;1 Coords</b> <i>Color</i> | The coordinates of the first set of input splines' points encoded in the RGBA channels of a color image.<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline is closed (negative) or open (positive);<br>- Absolute value: Thickness + 1. |
+| <b>Spline &#35;1 Data</b> <i>Color</i> | Additional data of the first set of input splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
+| <b>Spline &#35;1 Amount</b> <i>Integer</i> | The number of input splines in the first set. |
+| <b>Preview &#35;2</b> <i>Grayscale</i> | The preview of the second set of input splines as a grayscale image. |
+| <b>Spline &#35;2 Coords</b> <i>Color</i> | The coordinates of the second set of input splines' points encoded in the RGBA channels of a color image.<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline is closed (negative) or open (positive);<br>- Absolute value: Thickness + 1. |
+| <b>Spline &#35;2 Data</b> <i>Color</i> | Additional data of the second set of input splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
+| <b>Spline &#35;2 Amount</b> <i>Integer</i> | The number of input splines in the second set. |
 
-<b>Spline &#35;1 Data</b> *Color*Additional data of the first set of input splines encoded in the RGBA channels of a color image.  
-    <b>R</b> - Tangents X  
-    <b>G</b> - Tangents Y  
-    <b>B</b> - Unused  
-    <b>A</b> - Unused
+<a name="outputs"></a>
 
-<b>Spline &#35;1 Amount</b> *Integer*The number of input splines in the first set.
+## Outputs
 
-<b>Preview &#35;2</b> *Grayscale*The preview of the second set of input splines as a grayscale image.
+|  |  |
+|:---|:---|
+| <b>Preview</b> <i>Grayscale</i> | The preview of the output splines as a grayscale image. |
+| <b>Spline Coords</b> <i>Color</i> | The coordinates of the output splines' points encoded in the RGBA channels of a color image.<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline is closed (negative) or open (positive);<br>- Absolute value: Thickness + 1. |
+| <b>Spline Data</b> <i>Color</i> | Additional data of the output splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
+| <b>Spline Amount</b> <i>Integer</i> | The number of output splines. |
 
-<b>Spline &#35;2 Coords</b> *Color*The coordinates of the second set of input splines’ points encoded in the RGBA channels of a color image.  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
-
-<b>Spline &#35;2 Data</b> *Color*Additional data of the second set of input splines encoded in the RGBA channels of a color image.  
-    <b>R</b> - Tangents X  
-    <b>G</b> - Tangents Y  
-    <b>B</b> - Unused  
-    <b>A</b> - Unused
-
-<b>Spline &#35;2 Amount</b> *Integer*The number of input splines in the second set.
-
-## Output connectors
-
-<b>Preview</b> *Grayscale*The preview of the output splines as a grayscale image.
-
-<b>Spline Coords</b> *Color*The coordinates of the output splines’ points encoded in the RGBA channels of a color image.  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
-
-<b>Spline Data</b> *Color*Additional data of the output splines encoded in the RGBA channels of a color image.  
-    <b>R</b> - Tangents X  
-    <b>G</b> - Tangents Y  
-    <b>B</b> - Unused  
-    <b>A</b> - Unused
-
-<b>Spline Amount</b> *Integer*The number of output splines.
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Flip Spline &#35;1 Direction </b>*Boolean*Inverts the direction of the splines in the first set.
-
-<b>Flip Spline &#35;2 Direction </b>*Boolean*Inverts the direction of the splines in the second set.
-
-+++Preview
-<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
-A higher value results in a smoother line.
-
-<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
-
-<b>Show Thickness Envelope</b> *Boolean*  
-Displays additional lines at the edges of the spline’s thickness.
-
-<b>Thickness (px)</b> *Float*Adjusts the thickness of the spline visualization in pixels in the Preview output.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Flip Spline &#35;1 Direction</b> <i>Boolean</i> | Inverts the direction of the splines in the first set. |
+| <b>Flip Spline &#35;2 Direction</b> <i>Boolean</i> | Inverts the direction of the splines in the second set. |
+| <b>Preview</b> |  |
+| <b>Segments Amount</b> <i>Integer</i> | Adjusts the number of segments used to draw the spline visualization in the Preview output. A higher value results in a smoother line. |
+| <b>Show Direction Helper</b> <i>Boolean</i> | Displays a dot at the start of the spline and an arrowhead at its end in the Preview output. |
+| <b>Show Thickness Envelope</b> <i>Boolean</i> | Displays additional lines at the edges of the spline's thickness. |
+| <b>Thickness (px)</b> <i>Float</i> | Adjusts the thickness of the spline visualization in pixels in the Preview output. |
 
 ## Examples
 
@@ -122,15 +85,15 @@ Displays additional lines at the edges of the spline’s thickness.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/SplineAppend-Demo.jpg "Node example 1")
+![Node example 1](spline-append.resources/SplineAppend-Demo.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineAppend-Graph.jpg "Node example 2")
+![Node example 2](spline-append.resources/SplineAppend-Graph.jpg "Node example 2")
 
 </td>
 </tr>
 </table>
 
-![Node demo](../../../../../../assets/SplineAppend-Demo2.gif "Node demo")
+![Node demo](spline-append.resources/SplineAppend-Demo2.gif "Node demo")

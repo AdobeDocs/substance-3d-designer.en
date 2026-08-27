@@ -35,7 +35,7 @@ In turn, the graph's base parameters values will depend on the context in which 
 </td>
 <td style="border: 0;" valign="top">
 
-![Base parameters](../../assets/doc-graph-props-base-params.png "Base parameters"){width="512px" zoomable="yes"}
+![Base parameters](graph-parameters.resources/doc-graph-props-base-params.png "Base parameters"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -47,11 +47,11 @@ In most cases, inheritance plays a significant role in defining these values, an
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>Output size</b>   | This parameter allows you to chose the *base resolution* of images in the graph.  Use the <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> lock button to have the heighta and width values match and keep the image square when making size adjustments.<br><br>*Default: (0,0) - Relative To Parent*    [  Learn more ](../../compositing-graphs/output-size/output-size.md) |
+| <b>Output size</b>   | This parameter allows you to chose the *base resolution* of images in the graph.  Use the <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/props-output-size-lock.jpg"/></div> lock button to have the heighta and width values match and keep the image square when making size adjustments.<br><br>*Default: (0,0) - Relative To Parent*    [  Learn more ](../../compositing-graphs/output-size/output-size.md) |
 | <b>Output format</b> | Allows to choose *base bit depth* in the graph, from these options:<ul data-preserve-html="true"><li data-preserve-html="true">8 bit</li><li data-preserve-html="true">16 bit</li><li data-preserve-html="true">HDR Low Precision 16F (16 bit floating point)</li><li data-preserve-html="true">HDR High Precision 32F (32 bit floating point)</li></ul>*Default: 8 Bits per Channel - Relative To Parent*                          |
 | <b>Pixel size</b>    | Defines the pixel size. We recommend leaving both **Width** and **Height** values set to **1**.*Default: (1,1) - Relative To Parent*                                                                                                                                                                                                                                                                                                |
 | <b>Tiling mode</b>   | Defines the base *tiling mode* in the graph from these options:<ul data-preserve-html="true"> <li data-preserve-html="true">No tiling</li> <li data-preserve-html="true">Horizontal tiling</li> <li data-preserve-html="true">Vertical tiling</li> <li data-preserve-html="true">H+V Tiling (I.e., horizontal and vertical)</li> </ul>*Default: H and V Tiling - Relative To Parent*                                                |
-| <b>Random seed</b>   | Defines the base *random seed* for the graph.  Use the <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> button to assign a new random value to the random seed.<br><br>*Default: 0 - Relative To Parent*                                                                                                                                                                               |
+| <b>Random seed</b>   | Defines the base *random seed* for the graph.  Use the <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/prop-randomise.jpg"/></div> button to assign a new random value to the random seed.<br><br>*Default: 0 - Relative To Parent*                                                                                                                                                                               |
 
 <table>
 <tr style="border: 0;">
@@ -66,7 +66,7 @@ The <b>Attributes</b> section contains *metadata* for the graph, which provides 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Graph attributes](../../assets/doc-graph-props-attributes.png "Graph attributes"){zoomable="yes"}
+![Graph attributes](graph-parameters.resources/doc-graph-props-attributes.png "Graph attributes"){zoomable="yes"}
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ All parameters specific to the graph, including [exposed parameters](../../compo
 </td>
 <td style="border: 0;" valign="top">
 
-![Input parameters](../../assets/doc-graph-props-input-parameters.png "Input parameters"){zoomable="yes"}
+![Input parameters](graph-parameters.resources/doc-graph-props-input-parameters.png "Input parameters"){zoomable="yes"}
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ You can reorder them by using drag and drop on the handle on the far left of eac
 </td>
 <td style="border: 0;" valign="top">
 
-![Inputs](../../assets/doc-graph-props-inputs.png "Inputs"){zoomable="yes"}
+![Inputs](graph-parameters.resources/doc-graph-props-inputs.png "Inputs"){zoomable="yes"}
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ You can reorder them by using drag and drop on the handle on the far left of eac
 </td>
 <td style="border: 0;" valign="top">
 
-![Outputs](../../assets/doc-graph-props-outputs.png "Outputs"){zoomable="yes"}
+![Outputs](graph-parameters.resources/doc-graph-props-outputs.png "Outputs"){zoomable="yes"}
 
 </td>
 </tr>

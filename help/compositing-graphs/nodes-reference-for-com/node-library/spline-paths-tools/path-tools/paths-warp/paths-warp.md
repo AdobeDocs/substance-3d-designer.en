@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/paths-warp-icon.png "Node icon")
+![Node icon](paths-warp.resources/paths-warp-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -33,27 +33,31 @@ Deform the input Paths according to the <b>Gradient Input</b>. (Same effect as t
 </tr>
 </table>
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
+## Inputs
 
-<b>Gradient Input</b> *Grayscale*  
-The height-like input controlling both the amount and the direction of warping. (Same effect as the [Warp](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) node.)
+|  |  |
+|:---|:---|
+| <b>Paths</b> <i>Color</i> | A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node. |
+| <b>Gradient Input</b> <i>Grayscale</i> | The height-like input controlling both the amount and the direction of warping. (Same effect as the [Warp](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) node.) |
 
-## Output connectors
+<a name="outputs"></a>
 
-<b>Paths</b> *Color*  
-The tranformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
+## Outputs
+
+|  |  |
+|:---|:---|
+| <b>Paths</b> <i>Color</i> | The tranformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Intensity</b> *Float*  
-The <b>Intensity</b> parameter sets the intensity of the warp.
-
-<b>Number of steps</b> *Integer*  
-Use a higher value to warp the input paths by multiple small increments.  
-This can prevent the path to cross itself, especially when using high <b>Intensity</b> values.
+|  |  |
+|:---|:---|
+| <b>Intensity</b> <i>Float</i> | The <b>Intensity</b> parameter sets the intensity of the warp. |
+| <b>Number of steps</b> <i>Integer</i> | Use a higher value to warp the input paths by multiple small increments.<br>This can prevent the path to cross itself, especially when using high <b>Intensity</b> values. |
 
 ## Examples
 
@@ -64,11 +68,11 @@ This can prevent the path to cross itself, especially when using high <b>Intensi
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -80,11 +84,11 @@ This can prevent the path to cross itself, especially when using high <b>Intensi
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -98,7 +102,7 @@ This can prevent the path to cross itself, especially when using high <b>Intensi
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/PathsWarp-Demo1.gif "Node example 1")
+![Node example 1](paths-warp.resources/PathsWarp-Demo1.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

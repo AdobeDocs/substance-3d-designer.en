@@ -16,16 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
+![](grunge-concrete.resources/grungeconcrete.jpg){width="200px"}
 
-**In:** *Texture Generators**/Noises*
-
-**Simple**
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,20 +33,30 @@ The **Grunge Concrete** node generates a grunge map akin to the height map of a 
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-* **Balance** *Float*Adjusts the balance between dark and bright values.
-* **Contrast** *Float*Adjusts the contrast of the image.
-* **Invert** *Boolean*Inverts the output of the image, using a `1-x` operation.
-* **Non Square Expansion** *Boolean*Enables compensation of squash and stretch with non-square ratios.
-* Advanced
-  * **Base Noisiness** *Float*Adjusts the noisiness of the base texture.
-  * **Dirt Specks Opacity** *Float*Adjusts the opacity of the specks of dirt.
-  * **Invert Dirt** *Boolean*Inverts the impact of the specks of dirt.
-  * **Scratches Opacity** *Float*Adjusts the opacity of the scratches.
-  * **Sharpen** *Float*Adjusts the intensity of a sharpening effect applied to the image.
-  * **Large Variation Intensity** *Float*Adjusts the large scale (low frequency) variations applied to the base texture.
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>Float</i> | Adjusts the balance between dark and bright values. |
+| <b>Contrast</b> <i>Float</i> | Adjusts the contrast of the image. |
+| <b>Invert</b> <i>Boolean</i> | Inverts the output of the image, using a `1-x` operation. |
+| <b>Non Square Expansion</b> <i>Boolean</i> | Enables compensation of squash and stretch with non-square ratios. |
+| <b>Advanced</b> |  |
+| <b>Base Noisiness</b> <i>Float</i> | Adjusts the noisiness of the base texture. |
+| <b>Dirt Specks Opacity</b> <i>Float</i> | Adjusts the opacity of the specks of dirt. |
+| <b>Invert Dirt</b> <i>Boolean</i> | Inverts the impact of the specks of dirt. |
+| <b>Scratches Opacity</b> <i>Float</i> | Adjusts the opacity of the scratches. |
+| <b>Sharpen</b> <i>Float</i> | Adjusts the intensity of a sharpening effect applied to the image. |
+| <b>Large Variation Intensity</b> <i>Float</i> | Adjusts the large scale (low frequency) variations applied to the base texture. |
 
-## Example Images
+## Examples
 
-![](../../../../../../assets/grungeconcrete-variant.jpg){width="256px"}
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-concrete.resources/grungeconcrete-variant.jpg" />
+        </td>
+    </tr>
+</table>

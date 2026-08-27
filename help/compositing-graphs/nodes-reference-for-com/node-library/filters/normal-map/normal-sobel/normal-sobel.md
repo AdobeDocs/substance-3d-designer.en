@@ -16,35 +16,28 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-hq.png){width="128px"}
+![](normal-sobel.resources/normal-hq.png){width="128px"}
 
-## Normal Sobel
-
-**In:** *Filters/Normal Map*
-
-**Simple**
+<b>In:</b> Filters &gt; Normal Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Converts a Heightmap input to a Normalmap output. A slightly more advanced version of the [Normal Atomic Node](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md), this node uses Sobel sampling rather than the standard sampling method.
 
-## Parameters
-
-* **Intensity**: *0.0 - 3.0*Strength of the converted normals.
-* **Normal Format**: *OpenGL, DirectX*  
-  Switches between different Normalmap formats (inverts the green channel).
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Intensity</b> <i>0.0 - 3.0</i> | Strength of the converted normals. |
+| <b>Normal Format</b> <i>OpenGL, DirectX</i> | Switches between different Normalmap formats (inverts the green channel). |

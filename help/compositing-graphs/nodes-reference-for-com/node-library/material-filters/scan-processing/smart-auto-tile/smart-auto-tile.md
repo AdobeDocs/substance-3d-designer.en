@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/smart-auto-tile.png){width="128px"}
+![](smart-auto-tile.resources/smart-auto-tile.png){width="128px"}
 
-## Smart Auto Tile
-
-**In:** *Material Filters/Scan Processing*
-
-**Complex**
+<b>In:</b> Material Filters &gt; Scan Processing
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,44 +31,40 @@ This node turns a non-tiling set of Basecolor, Normal and Heightmaps into a tili
 
 To use this node, start by defining your Cropped area and then use the Edge settings to determine how the tiled edges are blended into the centre. The Treshold parameters are of key importance to this! Keep in mind that big, uniform areas don't work very well with this effect; the more details and shapes there are, the more it has to work with.
 
-## Parameters
-
-### Inputs
-
-* **Mask**: *Grayscale Input*   
-  Mask slot used for masking the node's effects. Can be toggled with the "Use Mask" parameter.
-
-### Parameters
-
-* **Crop**   
-  * **Input Size**: *0 - 8192*Input images' resolution and proportions. Very important for non-square images.
-  * **Transform**: *(Transformation Matrix)*  
-    Rotates and scales the result. The result can be modified by directly interacting with the canvas.
-  * **Offset**: *0.0 - 1.0*  
-    Moves or translates the result. The result can be modified by directly interacting with the canvas.
-* **Edge**   
-  * **Detect Edges**: *False/True*Turns on or off special edge detected blending.
-  * **Use Threshold Per Channel**: *False/True*Switches between a global treshold value, or one for every channel.
-  * **Threshold**: *0.0 - 1.0*
-  * **Threshold Base Color**: *0.0 - 1.0*
-  * **Threshold Normal**: *0.0 - 1.0*
-  * **Threshold Height**: *0.0 - 1.0*
-  * **Cut Offset**: *0.0 - 0.5*Main control for moving the cut, both X- and Y-axes are separated.
-  * **Blur**: *0.0 - 2.0*Blurs the blending transition.
-  * **Smoothness**: *0.0 - 2.0*Controls jaggedness of edge analysis results.
-  * **Grid Resolution**: *1 - 11*Quality resolution of edge analysis.
-  * **Use Base Color**: *False/True*Toggles Base Color processing (in and out).
-  * **Use Normal**: *False/True*Toggles Normal processing (in and out).
-  * **Use Height**: *False/True*Toggles Normal processing (in and out).
-  * **Use Mask**: *False/True*  
-    Toggles the use of the Mask map on or off, for custom stamp mask shapes.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. Can be toggled with the "Use Mask" parameter. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Crop</b> |  |
+| <b>Input Size</b> <i>0 - 8192</i> | Input images' resolution and proportions. Very important for non-square images. |
+| <b>Transform</b> <i>(Transformation Matrix)</i> | Rotates and scales the result. The result can be modified by directly interacting with the canvas. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Moves or translates the result. The result can be modified by directly interacting with the canvas. |
+| <b>Edge</b> |  |
+| <b>Detect Edges</b> <i>False/True</i> | Turns on or off special edge detected blending. |
+| <b>Use Threshold Per Channel</b> <i>False/True</i> | Switches between a global treshold value, or one for every channel. |
+| <b>Threshold</b> <i>0.0 - 1.0</i> |  |
+| <b>Threshold Base Color</b> <i>0.0 - 1.0</i> |  |
+| <b>Threshold Normal</b> <i>0.0 - 1.0</i> |  |
+| <b>Threshold Height</b> <i>0.0 - 1.0</i> |  |
+| <b>Cut Offset</b> <i>0.0 - 0.5</i> | Main control for moving the cut, both X- and Y-axes are separated. |
+| <b>Blur</b> <i>0.0 - 2.0</i> | Blurs the blending transition. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Controls jaggedness of edge analysis results. |
+| <b>Grid Resolution</b> <i>1 - 11</i> | Quality resolution of edge analysis. |
+| <b>Use Base Color</b> <i>False/True</i> | Toggles Base Color processing (in and out). |
+| <b>Use Normal</b> <i>False/True</i> | Toggles Normal processing (in and out). |
+| <b>Use Height</b> <i>False/True</i> | Toggles Normal processing (in and out). |
+| <b>Use Mask</b> <i>False/True</i> | Toggles the use of the Mask map on or off, for custom stamp mask shapes. |

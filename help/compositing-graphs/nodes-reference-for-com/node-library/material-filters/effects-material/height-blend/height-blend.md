@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-blend.png){width="128px"}
+![](height-blend.resources/height-blend.png){width="128px"}
 
-## Height Blend
-
-**In:** *Material Filters/Effects*
-
-**Simple**
+<b>In:</b> Material Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,30 +31,27 @@ Combines two Heightmaps based on their height information. Generates a blended H
 
 This is useful when you have two high-quality Heightmaps to combine, but not necessarily a full material, as is required for [Material Height Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md).
 
-## Parameters
-
-### Inputs
-
-* **Height Top**: *Grayscale Input*
-* **Height Bottom**: *Grayscale Input*
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-
-### Parameters
-
-* **Height Offset**: *0.0 - 1.0*Offsets Heightmaps so the blend level is moved along the height axis. This is the main control for the blending.
-* **Contrast**: *0.0 - 1.0*  
-  Adjusts the contrast of the blending, makes transitions sharper.
-* **Mode**: *Balanced height, Bottom height priority*Switches between two different blending modes.
-* **Opacity**: *0.0 - 1.0*  
-  Blending Opacity of the foreground height, fades it in or out.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Height Top</b> <i>Grayscale Input</i> |  |
+| <b>Height Bottom</b> <i>Grayscale Input</i> |  |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Height Offset</b> <i>0.0 - 1.0</i> | Offsets Heightmaps so the blend level is moved along the height axis. This is the main control for the blending. |
+| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the blending, makes transitions sharper. |
+| <b>Mode</b> <i>Balanced height, Bottom height priority</i> |  |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity of the foreground height, fades it in or out. |

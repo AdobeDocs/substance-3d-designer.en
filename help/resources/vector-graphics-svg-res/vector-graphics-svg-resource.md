@@ -54,7 +54,7 @@ In general the following is true:
 * Stroke is supported but only results in a 1 pixel wide stroke and stroke styling is ignored;
 * Dashed line styles will definitely break;
 * Text needs to be converted to paths/outline to be rendered;
-* [Compound paths](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) are not supported;
+* [Compound paths](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) are not supported;
 * Advanced features like gradients are not supported;
 * Style Elements for CSS properties are not supported.
 
@@ -81,7 +81,7 @@ The image on the right demonstrates the recommended export options, click on it 
 > Artboards can affect the result of the SVG file generated. Some Illustrator file templates introduce multiple Artboards.  
 > Try to have only one, properly cropped artboard, and have it selected in the Artboard window when saving as SVG.
 
-![Illustrator SVG export options](../../assets/svg-export-options-ai.jpg "Illustrator SVG export options"){width="512px"}
+![Illustrator SVG export options](vector-graphics-svg-resource.resources/svg-export-options-ai.jpg "Illustrator SVG export options"){width="512px"}
 
 ### Inkscape
 

@@ -16,31 +16,29 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/nadir-extract.png){width="200px"}
+![](nadir-extract.resources/nadir-extract.png){width="200px"}
 
-## Nadir Extract
-
-**In:** *3D View/HDRI Tools*
-
-**Simple**
+<b>In:</b> 3D View &gt; HDRI Tools
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Extracts the central ground point (nadir) of a spherical mapped input image. Can be used to transfer the nadir of one image to the other, masking out the camera or tripod.
 
-## Parameters
-
-* **Scale**: *0.0 - 10.0*  
-  Set the "zoom level" for the ground point
-* **Rotation**: *0.0 - 1.0*  
-  Rotates around central axis.
-* **Output Gamma**: *sRGB, Linear*Output gamma.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Scale</b> <i>0.0 - 10.0</i> | Set the "zoom level" for the ground point |
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Rotates around central axis. |
+| <b>Output Gamma</b> <i>sRGB, Linear</i> | Output gamma. |

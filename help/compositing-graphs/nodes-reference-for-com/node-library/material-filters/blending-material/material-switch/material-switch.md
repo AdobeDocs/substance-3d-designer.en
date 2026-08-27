@@ -16,37 +16,28 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-switch.png){width="128px"}
+![](material-switch.resources/material-switch.png){width="128px"}
 
-## Material Switch
-
-**In:** *Material Filters/Blending*
-
-**Simple**
+<b>In:</b> Material Filters &gt; Blending
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 This node is the Multi-Cannel, Full material version of [Switch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md). It takes two materials as input and returns only one of them based on the switch parameter.
 
-## Parameters
-
-### Parameters
-
-* **Channels**  
-  Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness.
-* **Switch**: *False/True*Switch to return either Material 1 or 2.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Channels</b> | Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness. |
+| <b>Switch</b> <i>False/True</i> | Switch to return either Material 1 or 2. |

@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-to-height-hq.png){width="128px"}
+![](normal-to-height-hq.resources/normal-to-height-hq.png){width="128px"}
 
-## Normal To Height HQ
-
-**In:** *Filters/Normal Map*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Normal Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,21 +31,28 @@ A reverse-conversion node that attempts to convert a tangent-space Normalmap bac
 
 Useful for when you only have a Normalmap source, yet still want to perform operations combining it with a Heightmap. Keep in mind that this will never be able to provide a 100% correct result, as information is lost by nature of the process when Height is converted to Normal. It can never replace a properly generated Heightmap!
 
-## Parameters
-
-* **Normal Format**: *DirectX, OpenGL*  
-  Switches between different Normalmap formats (inverts the green channel).
-* **Relief Balance**: *0.0 - 1.0*Blends between low and high frequency bias.
-* **Height Intensity**: *0.0 - 1.0*Intensity or multiplier for the Heightmap, works a bit like global opacity.
-* **Height Normalize**: *False/True*Automatically scales the Heightmap range to use full contrast, like an [auto-levels](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md).
-* **Quality**: *Normal, High*Switches between speed or quality.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/normal2height-hq-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Normal Format</b> <i>DirectX, OpenGL</i> | Switches between different Normalmap formats (inverts the green channel). |
+| <b>Relief Balance</b> <i>0.0 - 1.0</i> | Blends between low and high frequency bias. |
+| <b>Height Intensity</b> <i>0.0 - 1.0</i> | Intensity or multiplier for the Heightmap, works a bit like global opacity. |
+| <b>Height Normalize</b> <i>False/True</i> | Automatically scales the Heightmap range to use full contrast, like an [auto-levels](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md). |
+| <b>Quality</b> <i>Normal, High</i> | Switches between speed or quality. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-to-height-hq.resources/normal2height-hq-ex.png" />
+        </td>
+    </tr>
 </table>

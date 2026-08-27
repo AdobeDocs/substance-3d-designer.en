@@ -16,16 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungespotsdirty.jpg){width="200px"}
+![](grunge-spots-dirty.resources/grungespotsdirty.jpg){width="200px"}
 
-**In:** *Texture Generators* */Noises*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Noises
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,29 +33,29 @@ The **Grunge Spots Dirty** node generates a grunge map akin to spots of dirt.
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-* **Balance** *Float*Adjusts the balance between dark and bright values.
-* **Contrast** *Float*Adjusts the contrast of the image.
-* **Invert** *Boolean*Inverts the output of the image, using a `1-x` operation.
-* **Non Square Expansion** *Boolean*Enables compensation of squash and stretch with non-square ratios.
-* Advanced
-  * **Coverage** *Float*Adjusts the coverage of the dirt.
-  * **Scale** *Integer*Adjusts the scale of the spots of dirt. A *higher* value results in *finer* spots.
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>Float</i> | Adjusts the balance between dark and bright values. |
+| <b>Contrast</b> <i>Float</i> | Adjusts the contrast of the image. |
+| <b>Invert</b> <i>Boolean</i> | Inverts the output of the image, using a `1-x` operation. |
+| <b>Non Square Expansion</b> <i>Boolean</i> | Enables compensation of squash and stretch with non-square ratios. |
+| <b>Advanced</b> |  |
+| <b>Coverage</b> <i>Float</i> | Adjusts the coverage of the dirt. |
+| <b>Scale</b> <i>Integer</i> | Adjusts the scale of the spots of dirt. A *higher* value results in *finer* spots. |
 
-## Example Images
+## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespotsdirty-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespotsdirty-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" />
+        </td>
+    </tr>
 </table>

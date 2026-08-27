@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-normal-blender.png){width="128px"}
+![](height-normal-blender.resources/height-normal-blender.png){width="128px"}
 
-## Height Normal Blender
-
-**In:** *Filters/Normal Map*
-
-**Simple**
+<b>In:</b> Filters &gt; Normal Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,27 +31,24 @@ A shortcut node that blends a grayscale Heightmap onto a Normalmap. The Height i
 
 This is a quicker way to blend details than manually doing this with separate nodes, but you might find it lacks some control and refinement for certain needs.
 
-## Parameters
-
-### Inputs
-
-* **Height**: *Grayscale Input*   
-  Grayscale Heightmap to blend with.
-* **Normal**: *Color Input*   
-  Base Normalmap to blend onto.
-
-### Parameters
-
-* **Normal Intensity**: *0.0 - 16.0*Intensity of the Height input's normal conversion.
-* **Normal Format**: *DirectX, OpenGL*  
-  Switches between different Normalmap formats (inverts the green channel).
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Height</b> <i>Grayscale Input</i> | Grayscale Heightmap to blend with. |
+| <b>Normal</b> <i>Color Input</i> | Base Normalmap to blend onto. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Normal Intensity</b> <i>0.0 - 16.0</i> | Intensity of the Height input's normal conversion. |
+| <b>Normal Format</b> <i>DirectX, OpenGL</i> | Switches between different Normalmap formats (inverts the green channel). |

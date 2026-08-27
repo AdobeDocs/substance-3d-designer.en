@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-position.png){width="128px"}
+![](flood-fill-to-position.resources/floodfill-to-position.png){width="128px"}
 
-## Flood Fill to Position
-
-**In:** *Filters/Effects*
-
-**Simple**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,16 +31,22 @@ Generates a per-tile position map from a [Flood Fill](../../../../../../composit
 
 The color of each tile represents its X- and Y-coordinate center, stored in the Red and Green channels. This map is intended as a base for further calculations, rather than a ready-to-use map.
 
-## Parameters
-
-*No Parameters.*
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodfill-to-position-1.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodposition-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/floodposition-ex1.png" width="256px"/></div> |
-| --- | --- | --- |
-|  |  |  |
-
 </td>
 </tr>
+</table>
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/floodfill-to-position-1.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/floodposition-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/floodposition-ex1.png" />
+        </td>
+    </tr>
 </table>

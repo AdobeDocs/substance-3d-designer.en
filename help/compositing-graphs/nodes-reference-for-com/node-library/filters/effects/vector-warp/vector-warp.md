@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-warp.png){width="128px"}
+![](vector-warp.resources/vector-warp.png){width="128px"}
 
-![](../../../../../../assets/vector-warp-grayscale.png){width="128px"}
+![](vector-warp.resources/vector-warp-grayscale.png){width="128px"}
 
-## Vector Warp (Grayscale)
-
-**In:** *Filters/Effects*
-
-**Complex**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -39,26 +35,34 @@ The Vector Map is similar to a Normalmap, but it does not need to be normalised 
 
 This node can be useful when you want to do very specific distortions with varying directions, where standard Warp nodes don't cut it.
 
-## Parameters
-
-### Inputs
-
-* **Input**: *Color Input*   
-  Map to distort.
-* **Vector Map**: *Color Input*   
-  Distortion driver map. Color channels Red and Blue are used.
-
-### Parameters
-
-* **Intensity**: *0.0 - 1.0*Intensity multiplier for the Vector Map.
-* **Vector Format**: *DirectX, OpenGL*Swaps the Green channel between Up and Down interpretation.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/vector-warp-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Color Input</i> | Map to distort. |
+| <b>Vector Map</b> <i>Color Input</i> | Distortion driver map. Color channels Red and Blue are used. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Intensity</b> <i>0.0 - 1.0</i> | Intensity multiplier for the Vector Map. |
+| <b>Vector Format</b> <i>DirectX, OpenGL</i> | Swaps the Green channel between Up and Down interpretation. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="vector-warp.resources/vector-warp-ex.png" />
+        </td>
+    </tr>
 </table>

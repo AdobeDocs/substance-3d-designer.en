@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/paint-wear.png){width="128px"}
+![](paint-wear.resources/paint-wear.png){width="128px"}
 
-## Paint Wear
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Intermediate**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,34 +31,40 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask represents paint chipping and wearing away at edges.
 
-## Parameters
-
-### Inputs
-
-* **Ambient Occlusion**: *Grayscale Input*   
-  Baked map used for internal effects and masking.
-* **Curvature**: *Grayscale Input*   
-  Baked map used for internal effects and masking.
-* **Variation Mask**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-
-### Parameters
-
-* **Level**: *0.0 - 1.0*  
-  Sets the total amount of paint wear, gradually revealing.
-* **Contrast**: *0.0 - 1.0*  
-  Adjusts the contrast of the result.
-* **Occlusion**: *0.0 - 1.0*Sets amount of effect the baked AO has on preventing wear in darker areas.
-* **Radius**: *0.0 - 2.0*Sets how far the chipping effect spreads from Convex edges.
-* **Variation**: *0.0 - 1.0*Set amount of variation (grunge) to blend into the effect.
-* **Override variation mask**: *False/True*Enables custom variation (grunge) map input slot.
-
-## Example Images
-
-![](../../../../../../assets/paint-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. |
+| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. |
+| <b>Variation Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Level</b> <i>0.0 - 1.0</i> | Sets the total amount of paint wear, gradually revealing. |
+| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. |
+| <b>Occlusion</b> <i>0.0 - 1.0</i> | Sets amount of effect the baked AO has on preventing wear in darker areas. |
+| <b>Radius</b> <i>0.0 - 2.0</i> | Sets how far the chipping effect spreads from Convex edges. |
+| <b>Variation</b> <i>0.0 - 1.0</i> | Set amount of variation (grunge) to blend into the effect. |
+| <b>Override variation mask</b> <i>False/True</i> | Enables custom variation (grunge) map input slot. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="paint-wear.resources/paint-wear-ex.gif" />
+        </td>
+    </tr>
 </table>

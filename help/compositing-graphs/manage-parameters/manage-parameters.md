@@ -40,7 +40,7 @@ When the properties of a node are displayed in the Properties dock, the node par
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Global 'Manage parameters' menu in Properties](../../assets/manage-parameters-menu-global.png "Global 'Manage parameters' menu in Properties"){zoomable="yes"}
+![Global 'Manage parameters' menu in Properties](manage-parameters.resources/manage-parameters-menu-global.png "Global 'Manage parameters' menu in Properties"){zoomable="yes"}
 
 </td>
 </tr>
@@ -70,7 +70,7 @@ If you want to manage a *single* parameter, use the '<b>Manage function</b>' men
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Local 'Manage parameters' menu in Properties](../../assets/manage-parameters-menu.png "Local 'Manage parameters' menu in Properties"){zoomable="yes"}
+![Local 'Manage parameters' menu in Properties](manage-parameters.resources/manage-parameters-menu.png "Local 'Manage parameters' menu in Properties"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ The same limitations listed below for atomic nodes apply to this menu.
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-!['Manage parameters' menu in node contextual menu](../../assets/manage-parameters-node-menu.png "'Manage parameters' menu in node contextual menu"){zoomable="yes"}
+!['Manage parameters' menu in node contextual menu](manage-parameters.resources/manage-parameters-node-menu.png "'Manage parameters' menu in node contextual menu"){zoomable="yes"}
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ This feature works in the same way as using a [parameter preset file](../../comp
 </td>
 <td style="border: 0;" valign="top">
 
-![Copy and paste parameters](../../assets/copy-paste-parameters.gif "Copy and paste parameters"){zoomable="yes"}
+![Copy and paste parameters](manage-parameters.resources/copy-paste-parameters.gif "Copy and paste parameters"){zoomable="yes"}
 
 </td>
 </tr>

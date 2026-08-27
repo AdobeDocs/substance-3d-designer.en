@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-hq.png){width="128px"}
+![](height-to-normal-world-units.resources/normal-hq.png){width="128px"}
 
-## Height to Normal World Units
-
-**In:** *Filters/Normal Map*
-
-**Simple**
+<b>In:</b> Filters &gt; Normal Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,20 +31,17 @@ An advanced Height-To-Normal conversion node that makes use of real-world units 
 
 Useful for when you know your source Heightmap's dimensions and want to perform the most accurate conversion, such as when working with scanned material.
 
-## Parameters
-
-* **Surface Size (cm)**: *0.0 - 1000.0*Dimensions of the input Heightmap.
-* **Height Depth (cm)**: *0.0 - 100.0*Maximum depth of Heightmap details.
-* **Normal Format**: *OpenGL, DirectX*  
-  Switches between different Normalmap formats (inverts the green channel).
-* **Sampling**: *Standard, Sobel*Switches between two sampling modes determining accuracy.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Surface Size (cm)</b> <i>0.0 - 1000.0</i> | Dimensions of the input Heightmap. |
+| <b>Height Depth (cm)</b> <i>0.0 - 100.0</i> | Maximum depth of Heightmap details. |
+| <b>Normal Format</b> <i>OpenGL, DirectX</i> | Switches between different Normalmap formats (inverts the green channel). |
+| <b>Sampling</b> <i>Standard, Sobel</i> | Switches between two sampling modes determining accuracy. |

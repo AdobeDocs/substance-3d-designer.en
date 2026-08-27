@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-patch-multi.png){width="128px"}
+![](multi-clone-patch.resources/clone-patch-multi.png){width="128px"}
 
-![](../../../../../../assets/clone-patch-multi-grayscale.png){width="128px"}
+![](multi-clone-patch.resources/clone-patch-multi-grayscale.png){width="128px"}
 
-## Multi Clone Patch (Grayscale)
-
-**In:** *Material Filters/Scan Processing*
-
-**Complex**
+<b>In:</b> Material Filters &gt; Scan Processing
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -39,30 +35,26 @@ This node is the Multi-input version of [Clone Patch](../../../../../../composit
 >
 > See [Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md) for more info, see [Material Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md) for the material version.
 
-## Parameters
-
-### Parameters
-
-* **Input Count**: *1 - 8*Sets amount of inputs that will receive the same Patch operation.
-* **Is Normal (only for Color)**: **False/True**Sets whether the input is a Normalmap, and whether blending should be treated as such.
-* **Shape**: **Square, Disc**Sets Stamp shape. Used only as base.
-* **Edge**  
-  * **Threshold**: *0.0 - 1.0*Sets how far the blended area should reach. This grows in steps along shapes in the target area; it has very little effect with uniform backgrounds*.*
-  * **Blur**: *0.0 - 2.0*Blurs the edges of the stamp area, in case a softer transition is needed.
-  * **Smoothness**: *0.0 - 2.0*Rounds off the edges of the stamp shape, making for smoother-flowing outlines.
-  * **Grid Resolution**: *1 - 11*Sets quality resolution of the blending analysis. A higher value means more accurate blending.
-* **Transformations**  
-  * **Source Matrix**: *(Transformation Matrix)*Transforms source (Scale &amp; Rotation). Cannot be done on canvas, change through these parameters only.
-  * **Source Offset**: *-0.5 - 0.5*Translates source location. Cannot be done on canvas, change through these parameters only. *This parameter is probably the main one you want to change!*
-  * **Target Matrix**: *(Transformation Matrix)*Transforms target location (Scale &amp; Rotation). Can also be done through gizmo on canvas.
-  * **Target Offset**: *-0.5 - 0.5*Translates target location. Can also be done through gizmo on canvas.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Input Count</b> <i>1 - 8</i> | Sets amount of inputs that will receive the same Patch operation. |
+| <b>Is Normal (only for Color)</b> <i>False/True</i> | Sets whether the input is a Normalmap, and whether blending should be treated as such. |
+| <b>Shape</b> <i>Square, Disc</i> | Sets Stamp shape. Used only as base. |
+| <b>Edge</b> |  |
+| <b>Threshold</b> <i>0.0 - 1.0</i> | Sets how far the blended area should reach. This grows in steps along shapes in the target area; it has very little effect with uniform backgrounds. |
+| <b>Blur</b> <i>0.0 - 2.0</i> | Blurs the edges of the stamp area, in case a softer transition is needed. |
+| <b>Smoothness</b> <i>0.0 - 2.0</i> | Rounds off the edges of the stamp shape, making for smoother-flowing outlines. |
+| <b>Grid Resolution</b> <i>1 - 11</i> | Sets quality resolution of the blending analysis. A higher value means more accurate blending. |
+| <b>Transformations</b> |  |
+| <b>Source Matrix</b> <i>(Transformation Matrix)</i> | Transforms source (Scale &amp; Rotation). Cannot be done on canvas, change through these parameters only. |
+| <b>Source Offset</b> <i>-0.5 - 0.5</i> | Translates source location. Cannot be done on canvas, change through these parameters only. *This parameter is probably the main one you want to change!* |
+| <b>Target Matrix</b> <i>(Transformation Matrix)</i> | Transforms target location (Scale &amp; Rotation). Can also be done through gizmo on canvas. |
+| <b>Target Offset</b> <i>-0.5 - 0.5</i> | Translates target location. Can also be done through gizmo on canvas. |

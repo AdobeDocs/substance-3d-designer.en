@@ -16,34 +16,20 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pre-multiply-straight.png){width="128px"}
+![](pre-multiplied-to-straight.resources/pre-multiply-straight.png){width="128px"}
 
-## Pre-Multiplied to Straight
-
-**In:** *Filters/Channels*
-
-**Simple**
+<b>In:</b> Filters &gt; Channels
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Removes pre-multiplied color from RGB on alpha-blended edges. Effectively "unpremultiplies" the background color, but does strip the alpha channel away in the process.
 
 This removes the fringe effect sometimes seen around edges of images with an alpha channel.
-
-## Parameters
-
-*No Parameters.*
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
 
 </td>
 </tr>

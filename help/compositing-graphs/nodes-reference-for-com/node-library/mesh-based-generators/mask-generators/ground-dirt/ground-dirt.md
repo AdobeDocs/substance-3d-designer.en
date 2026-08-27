@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ground-dirt.png){width="128px"}
+![](ground-dirt.resources/ground-dirt.png){width="128px"}
 
-## Ground Dirt
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Simple**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,25 +31,35 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask represents dirt that has accumulated from the ground up, the opposite of [Bottom To Top](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/bottom-to-top/bottom-to-top.md) or [Dust](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/dust/dust.md). It has no custom map override.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Inputs
 
-* **Position**: *Grayscale Input*   
-  Baked position map to base effect on. Required!
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>Grayscale Input</i> | Baked position map to base effect on. Required! |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-* **Level**: *0.0 - 1.0*  
-  Sets the total appearance level of the dirt.
-* **Contrast**: *0.0 - 1.0*  
-  Adjusts the contrast of the result.
-* **Dirt Height**: *0.0 - 1.0*Sets up to what height (proportionally) the dirt should appear.
+|  |  |
+|:---|:---|
+| <b>Level</b> <i>0.0 - 1.0</i> | Sets the total appearance level of the dirt. |
+| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. |
+| <b>Dirt Height</b> <i>0.0 - 1.0</i> | Sets up to what height (proportionally) the dirt should appear. |
 
-## Example Images
+## Examples
 
-![](../../../../../../assets/ground-dirt-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ground-dirt.resources/ground-dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

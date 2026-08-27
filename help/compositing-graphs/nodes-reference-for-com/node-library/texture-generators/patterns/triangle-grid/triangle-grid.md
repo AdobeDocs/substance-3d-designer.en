@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
 
-![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -38,44 +38,30 @@ The *positions* of the vertices may be adjusted, which impacts the generated mes
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Height</b> *Grayscale* PRIMARY | The grayscale image input used to map the *height* – i.e., Z position – of the vertices.    The influence of this input is controlled by the 'Height Input Multiplier' parameter. |
-| <b>Vector map</b> *Color* | The color image input used to map the *displacement* of the vertices on the X and Y axes.    The X/Y offsets are mapped to the R/G channels of the image respectively.    The influence of this input is controlled by the 'Vector Map Displacement' parameter. |
-| <b>Color input</b> *Color* | The color image input used to map the *color* of the vertices, segments or triangles.    This input is used when the 'Color Source' parameter is set to 'Color Input'. |
+|:---|:---|
+| <b>Height</b> <i>Grayscale</i> PRIMARY | The grayscale image input used to map the *height* – i.e., Z position – of the vertices.    The influence of this input is controlled by the 'Height Input Multiplier' parameter. |
+| <b>Vector map</b> <i>Color</i> | The color image input used to map the *displacement* of the vertices on the X and Y axes.    The X/Y offsets are mapped to the R/G channels of the image respectively.    The influence of this input is controlled by the 'Vector Map Displacement' parameter. |
+| <b>Color input</b> <i>Color</i> | The color image input used to map the *color* of the vertices, segments or triangles.    This input is used when the 'Color Source' parameter is set to 'Color Input'. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Color* | The output image. |
+|:---|:---|
+| <b>Output</b> <i>Color</i> | The output image. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Color Output</b> *Integer* | The method of representing the triangulated surface:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Per Vertex:</b> a color is assigned to each vertex and interpolated across the triangle's surface</li> <li data-preserve-html="true"><b>Per Triangle:</b> a flat color is assigned to each triangle</li> <li data-preserve-html="true"><b>Thin Line</b><b>:</b> applies an outline to the segments between vertices</li> <li data-preserve-html="true"><b>Distance to Edge</b><b>:</b> renders the distance to the closest segment on each triangle</li> <li data-preserve-html="true"><b>Center</b><b>:</b> renders the normalized distance to each triangle's barycenter</li> </ul> |
 | <b>Triangulation</b> *Integer* | Sets the triangulation method for the surface, i.e. which *pair of opposing vertices* in a quad should be connected:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Auto:</b> automatically selects the pair of vertices resulting in triangles <i>facing the least away</i> from the camera<br/> <b>45°:</b> connect opposing vertices resulting in a line <i>turned 45 degrees</i> relative to the X-right axis</li> <li data-preserve-html="true"><b>-45°:</b> connect opposing vertices resulting in a line <i>turned -45 degrees</i> relative to the X-right axis</li> <li data-preserve-html="true"><b>Quincux horizontal:</b> alternate the triangulation orientation <i>every other row</i> of vertices</li> <li data-preserve-html="true"><b>Quincux vertical:</b> alternate the triangulation orientation <i>every other column</i> of vertices<br/> </li> </ul> |
 | <b>X Amount</b> *Integer* | The amount of vertices generated on the X axis. |
@@ -99,23 +85,23 @@ The *positions* of the vertices may be adjusted, which impacts the generated mes
 | <b>Random Color Seed</b> *Integer*   *Available when the 'Random Color Seed Mode' parameter is set to 'Manual Seed' and the 'Color Source' parameter is set to 'Random'.* | The discrete seed value used in the pseudo-random color distribution. |
 | <b>Non Square Expansion</b> *Boolean* | Enables compensation of squash and stretch with non-square ratios. |
 
-## Example Images
+## Examples
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Example 1](../../../../../../assets/triangle_grid_color_example_1.jpg "Triangle Grid: Example 1"){zoomable="yes"}
+![Triangle Grid: Example 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "Triangle Grid: Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Example 2](../../../../../../assets/trianglegrid-variant2.png "Triangle Grid: Example 2"){zoomable="yes"}
+![Triangle Grid: Example 2](triangle-grid.resources/trianglegrid-variant2.png "Triangle Grid: Example 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Example 3](../../../../../../assets/trianglegridcolor-variant2.jpg "Triangle Grid: Example 3"){zoomable="yes"}
+![Triangle Grid: Example 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "Triangle Grid: Example 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -125,17 +111,17 @@ The *positions* of the vertices may be adjusted, which impacts the generated mes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Example 4](../../../../../../assets/triangle_grid_color_example_2.jpg "Triangle Grid: Example 4"){zoomable="yes"}
+![Triangle Grid: Example 4](triangle-grid.resources/triangle_grid_color_example_2.jpg "Triangle Grid: Example 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Example 5](../../../../../../assets/trianglegridcolor-variant4.jpg "Triangle Grid: Example 5"){zoomable="yes"}
+![Triangle Grid: Example 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "Triangle Grid: Example 5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Example 6](../../../../../../assets/trianglegridcolor-variant3.jpg "Triangle Grid: Example 6"){zoomable="yes"}
+![Triangle Grid: Example 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "Triangle Grid: Example 6"){zoomable="yes"}
 
 </td>
 </tr>
@@ -145,12 +131,12 @@ The *positions* of the vertices may be adjusted, which impacts the generated mes
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Leather](../../../../../../assets/trianglegrid-demo.png "Triangle Grid: Leather"){zoomable="yes"}
+![Triangle Grid: Leather](triangle-grid.resources/trianglegrid-demo.png "Triangle Grid: Leather"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Triangle Grid: Graph](../../../../../../assets/trianglegrid-node.png "Triangle Grid: Graph"){zoomable="yes"}
+![Triangle Grid: Graph](triangle-grid.resources/trianglegrid-node.png "Triangle Grid: Graph"){zoomable="yes"}
 
 </td>
 </tr>
