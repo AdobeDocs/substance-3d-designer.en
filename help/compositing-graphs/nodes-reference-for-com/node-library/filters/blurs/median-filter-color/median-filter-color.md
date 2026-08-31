@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Median filter color: icon](median-filter-color.resources/MedianFilter_Icon_Color.png "Median filter color: icon")
+![Median filter color: icon](median-filter-color.resources/median-filter-color-01.png "Median filter color: icon")
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -70,11 +70,11 @@ For every pixel, the node computes a color value according to the median value o
 <table>
   <tr>
     <td>
-      <img src="median-filter-color.resources/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
+      <img src="median-filter-color.resources/median-filter-color-02.png" alt="MedianFilter_Variant2A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="median-filter-color.resources/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
+      <img src="median-filter-color.resources/median-filter-color-03.png" alt="MedianFilter_Variant2B">
       <br><i>After</i>
     </td>
   </tr>
@@ -83,11 +83,11 @@ For every pixel, the node computes a color value according to the median value o
 <table>
   <tr>
     <td>
-      <img src="median-filter-color.resources/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
+      <img src="median-filter-color.resources/median-filter-color-04.png" alt="MedianFilter_Variant3A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="median-filter-color.resources/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
+      <img src="median-filter-color.resources/median-filter-color-05.png" alt="MedianFilter_Variant3B">
       <br><i>After</i>
     </td>
   </tr>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](alveolus.resources/alveolus-1.png){width="128px"}
+![](alveolus.resources/alveolus-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -49,7 +49,7 @@ A soft-sphere pattern that can altenatively generate hexagon tiles.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="alveolus.resources/alveolus.gif" />
+            <img src="alveolus.resources/alveolus-02.gif" />
         </td>
     </tr>
 </table>

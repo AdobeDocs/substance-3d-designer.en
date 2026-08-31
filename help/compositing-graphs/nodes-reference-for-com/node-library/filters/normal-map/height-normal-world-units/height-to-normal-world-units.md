@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-to-normal-world-units.resources/normal-hq.png){width="128px"}
+![](height-to-normal-world-units.resources/height-to-normal-world-units-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Normal Map
 

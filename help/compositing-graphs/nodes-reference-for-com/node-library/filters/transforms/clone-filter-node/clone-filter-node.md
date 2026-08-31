@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](clone-filter-node.resources/clone-4.png)
+![](clone-filter-node.resources/clone-filter-node-01.png)
 
 <b>In:</b> Filters &gt; Transforms
 
@@ -62,7 +62,7 @@ Requires some care to get the intended results:
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="clone-filter-node.resources/clone-example.png" />
+            <img src="clone-filter-node.resources/clone-filter-node-02.png" />
         </td>
     </tr>
 </table>

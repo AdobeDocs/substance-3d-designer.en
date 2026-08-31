@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render-mapping.resources/pbr-render-mapping-color.png)![](pbr-render-mapping.resources/pbr-render-mapping-grayscale.png)
+![](pbr-render-mapping.resources/pbr-render-mapping-01.png)![](pbr-render-mapping.resources/pbr-render-mapping-02.png)
 
 <b>In:</b> Material Filters &gt; PBR Utilities
 
@@ -59,10 +59,10 @@ Example is a composite of four different PBR Render Mapping nodes, using a [Hist
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex.png" />
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render-mapping.resources/pbr-render-mapping-ex-2.png" />
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-04.png" />
         </td>
     </tr>
 </table>

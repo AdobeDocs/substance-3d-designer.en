@@ -29,7 +29,7 @@ The Explorer is where you start and end your projects, as it lets you create, sa
 </td>
 <td style="border: 0;" valign="top">
 
-![Explorer dock](the-explorer-window.resources/explorer-3.jpg "Explorer dock")
+![Explorer dock](the-explorer-window.resources/the-explorer-window-01.jpg "Explorer dock")
 
 </td>
 </tr>
@@ -50,16 +50,16 @@ You can do a few important actions through the Explorer dock:
 
 This toolbar lets you quickly perform functions related to your overall workflow. All buttons are *context-aware*, which means they activate and change their behaviour based on your current selection in the Explorer.
 
-![](the-explorer-window.resources/save.png)&nbsp;&nbsp;<b>Save</b> selected package.
+![](the-explorer-window.resources/the-explorer-window-02.png)&nbsp;&nbsp;<b>Save</b> selected package.
 
-![](the-explorer-window.resources/sendto-icon.jpg)&nbsp;&nbsp;<b>Publish or [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> selected element(s):
+![](the-explorer-window.resources/the-explorer-window-03.jpg)&nbsp;&nbsp;<b>Publish or [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> selected element(s):
 
 * [Publish any selected package to a Substance 3D asset (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
 * Send the selected package to [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) or [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
 
-![](the-explorer-window.resources/republish.png)&nbsp;&nbsp;<b>Publish or send as previous:</b> Publish or send the selected elements with the same settings as before. This option is only available on a package that has already been published *at least once* in the *current* session.
+![](the-explorer-window.resources/the-explorer-window-04.png)&nbsp;&nbsp;<b>Publish or send as previous:</b> Publish or send the selected elements with the same settings as before. This option is only available on a package that has already been published *at least once* in the *current* session.
 
-![](the-explorer-window.resources/graph-cleaner.jpg)&nbsp;&nbsp;<b>Remove unused nodes</b> in selected graph(s). The tool follows these rules:
+![](the-explorer-window.resources/the-explorer-window-05.jpg)&nbsp;&nbsp;<b>Remove unused nodes</b> in selected graph(s). The tool follows these rules:
 
 * The tool is only available if selected items are of the *same type*: only graphs, folders or packages;
 * When the selection includes folders or packages, the tool cleans all graphs therein *recursively*;
@@ -71,14 +71,14 @@ Learn more about the tool in the 'Remove unused nodes' section of the [Graph vie
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Publish/Send dropdown menu](the-explorer-window.resources/explorer-sendto-displayed.jpg "Publish/Send dropdown menu")
+![Publish/Send dropdown menu](the-explorer-window.resources/the-explorer-window-06.jpg "Publish/Send dropdown menu")
 
 *Publish/Send*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Remove unused nodes drop down menu](the-explorer-window.resources/explorer-graph-cleaner.jpg "Remove unused nodes drop down menu")
+![Remove unused nodes drop down menu](the-explorer-window.resources/the-explorer-window-07.jpg "Remove unused nodes drop down menu")
 
 *Remove unused nodes*
 
@@ -194,9 +194,9 @@ Empty space is only available below any currently open Packages. Clicking next t
 
 The toolbar at the bottom of the Explorer dock provides information about a package or a package resource:
 
-<b>![](the-explorer-window.resources/explorer-dependencies.jpg)&nbsp;&nbsp;Dependencies:</b> When a package is selected, its package dependencies are listed in a dedicated panel.
+<b>![](the-explorer-window.resources/the-explorer-window-08.jpg)&nbsp;&nbsp;Dependencies:</b> When a package is selected, its package dependencies are listed in a dedicated panel.
 
-<b>![](the-explorer-window.resources/explorer-information.jpg)&nbsp;&nbsp;Information:</b> Provides metadata related to the package or resource currently selected:
+<b>![](the-explorer-window.resources/the-explorer-window-09.jpg)&nbsp;&nbsp;Information:</b> Provides metadata related to the package or resource currently selected:
 
 * Package: the full filepath of the package
 * [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md): the full filepath of the resource, its [ICC profile](../../color-management/color-management.md), image size and [import method](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (I.e., *linked* or *imported*)
@@ -205,14 +205,14 @@ The toolbar at the bottom of the Explorer dock provides information about a pack
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dependencies panel](the-explorer-window.resources/explorer-dependencies-displayed.jpg "Dependencies panel")
+![Dependencies panel](the-explorer-window.resources/the-explorer-window-10.jpg "Dependencies panel")
 
 *Dependencies*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Information panel](the-explorer-window.resources/explorer-information-displayed.jpg "Information panel")
+![Information panel](the-explorer-window.resources/the-explorer-window-11.jpg "Information panel")
 
 *Information*
 

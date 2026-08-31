@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-extrude.resources/height-extrude.png){width="200px"}
+![](height-extrude.resources/height-extrude-01.png){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 

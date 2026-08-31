@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](color-match.resources/color-match-3.png){width="128px"}
+![](color-match.resources/color-match-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 

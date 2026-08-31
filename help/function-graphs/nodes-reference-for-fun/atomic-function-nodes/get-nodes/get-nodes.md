@@ -16,7 +16,7 @@ user-guide-title: ""
 
 Variables are a way of <b>storing values</b> to fetch it later (<b>Get</b>) and/or modify it (<b>Set</b>).
 
-![Substance function graph - Get float](get-nodes.resources/assign-getfloat.gif "Substance function graph - Get float"){zoomable="yes"}
+![Substance function graph - Get float](get-nodes.resources/get-nodes-01.gif "Substance function graph - Get float"){zoomable="yes"}
 
 What a Get node essentially does, is grab a dynamic Variable, and return it from the Get Nodes' output for use in a function. These Get nodes form the link between the Input Parameters defined in the [graph parameters](../../../../compositing-graphs/graph-parameters/graph-parameters.md) and [parameter functions](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
@@ -52,7 +52,7 @@ When a parameter is [exposed](../../../../compositing-graphs/manage-parameters/e
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Get float2 - Icon](get-nodes.resources/fn_variables_getfloat2.png "Get float2 - Icon"){width="200px"}
+![Get float2 - Icon](get-nodes.resources/get-nodes-02.png "Get float2 - Icon"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -82,25 +82,25 @@ The name of the variable being fetched is set in the Properties dock.
 ### Get nodes
 
 +++Floats
-![Get float - Icon](get-nodes.resources/fn_variables_getfloat.png "Get float - Icon"){width="200px"}
+![Get float - Icon](get-nodes.resources/get-nodes-03.png "Get float - Icon"){width="200px"}
 
 
 
 Get Float
 
-![Get float2 - Icon](get-nodes.resources/fn_variables_getfloat2.png "Get float2 - Icon"){width="200px"}
+![Get float2 - Icon](get-nodes.resources/get-nodes-02.png "Get float2 - Icon"){width="200px"}
 
 
 
 Get Float2
 
-![Get float3 - Icon](get-nodes.resources/fn_variables_getfloat3.png "Get float3 - Icon"){width="200px"}
+![Get float3 - Icon](get-nodes.resources/get-nodes-04.png "Get float3 - Icon"){width="200px"}
 
 
 
 Get Float3
 
-![Get float4 - Icon](get-nodes.resources/fn_variables_getfloat4.png "Get float4 - Icon"){width="200px"}
+![Get float4 - Icon](get-nodes.resources/get-nodes-05.png "Get float4 - Icon"){width="200px"}
 
 
 
@@ -109,25 +109,25 @@ Get Float4
 +++
 
 +++Integers
-![Get integer - Icon](get-nodes.resources/fn_variables_getint.png "Get integer - Icon"){width="200px"}
+![Get integer - Icon](get-nodes.resources/get-nodes-06.png "Get integer - Icon"){width="200px"}
 
 
 
 Get Integer
 
-![Get integer2 - Icon](get-nodes.resources/fn_variables_getint2.png "Get integer2 - Icon"){width="200px"}
+![Get integer2 - Icon](get-nodes.resources/get-nodes-07.png "Get integer2 - Icon"){width="200px"}
 
 
 
 Get Integer2
 
-![Get integer3 - Icon](get-nodes.resources/fn_variables_getint3.png "Get integer3 - Icon"){width="200px"}
+![Get integer3 - Icon](get-nodes.resources/get-nodes-08.png "Get integer3 - Icon"){width="200px"}
 
 
 
 Get Integer3
 
-![Get integer4 - Icon](get-nodes.resources/fn_variables_getint4.png "Get integer4 - Icon"){width="200px"}
+![Get integer4 - Icon](get-nodes.resources/get-nodes-09.png "Get integer4 - Icon"){width="200px"}
 
 
 
@@ -136,13 +136,13 @@ Get Integer4
 +++
 
 +++Others
-![Get boolean - Icon](get-nodes.resources/fn_variables_getboolean.png "Get boolean - Icon"){width="200px"}
+![Get boolean - Icon](get-nodes.resources/get-nodes-10.png "Get boolean - Icon"){width="200px"}
 
 
 
 Get Boolean
 
-![Get string - Icon](get-nodes.resources/fn_variables_getstring.png "Get string - Icon"){width="200px"}
+![Get string - Icon](get-nodes.resources/get-nodes-11.png "Get string - Icon"){width="200px"}
 
 
 
@@ -156,7 +156,7 @@ Get String
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Set: Node icon](get-nodes.resources/fn_variables_set.png "Set: Node icon"){width="200px"}
+![Set: Node icon](get-nodes.resources/get-nodes-12.png "Set: Node icon"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -173,7 +173,7 @@ Text
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Is defined: Node icon](get-nodes.resources/fn_variables_isdefined.png "Is defined: Node icon"){width="200px"}
+![Is defined: Node icon](get-nodes.resources/get-nodes-13.png "Is defined: Node icon"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

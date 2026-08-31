@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Gaussian noise - Icon](gaussian-noise.resources/gaussian_noise-1.png "Gaussian noise - Icon"){width="200px"}
+![Gaussian noise - Icon](gaussian-noise.resources/gaussian-noise-01.png "Gaussian noise - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -63,12 +63,12 @@ See also: [Gaussian spots 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Gaussian noise - Example 1](gaussian-noise.resources/gaussian_noise-1_1.png "Gaussian noise - Example 1"){zoomable="yes"}
+![Gaussian noise - Example 1](gaussian-noise.resources/gaussian-noise-02.png "Gaussian noise - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Gaussian noise - Example 2](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso0.gif "Gaussian noise - Example 2"){zoomable="yes"}
+![Gaussian noise - Example 2](gaussian-noise.resources/gaussian-noise-03.gif "Gaussian noise - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -78,12 +78,12 @@ See also: [Gaussian spots 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Gaussian noise - Example 3](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso1.gif "Gaussian noise - Example 3"){zoomable="yes"}
+![Gaussian noise - Example 3](gaussian-noise.resources/gaussian-noise-04.gif "Gaussian noise - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Gaussian noise - Example 4](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.3_aniso0.6.gif "Gaussian noise - Example 4"){zoomable="yes"}
+![Gaussian noise - Example 4](gaussian-noise.resources/gaussian-noise-05.gif "Gaussian noise - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

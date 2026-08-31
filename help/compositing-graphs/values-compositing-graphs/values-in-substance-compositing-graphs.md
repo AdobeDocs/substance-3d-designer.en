@@ -28,18 +28,18 @@ Two new Atomic Nodes work with Values:
 
 |  |  |
 | --- | --- |
-| <div><img alt="Value Processor node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="Value Processor node icon" width="100px"/></div>  <b>&#91;Value Processor&#93;(../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | The [Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) takes Any number of Grayscale or Color Inputs and allows you to return a single Value from calculations based on these inputs. |
-| <div><img alt="Value Input node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Value Input node icon" width="100px"/></div>  **[Value Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | The [Value Input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)allows you to create an input slot on sub-graphs that is explicitely defined as a Value. |
+| <div><img alt="Value Processor node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-01.png" title="Value Processor node icon" width="100px"/></div>  <b>&#91;Value Processor&#93;(../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | The [Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) takes Any number of Grayscale or Color Inputs and allows you to return a single Value from calculations based on these inputs. |
+| <div><img alt="Value Input node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-02.png" title="Value Input node icon" width="100px"/></div>  **[Value Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | The [Value Input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)allows you to create an input slot on sub-graphs that is explicitely defined as a Value. |
 
 Additionally, other nodes deal with them in a specific way:
 
 The [Output Node](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) automatically adjusts to become a Value Output if you plug a Value connection into it, just like it did before with Grayscale and Color.
 
-![Output value node](values-in-substance-compositing-graphs.resources/values-output.gif "Output value node"){width="512px"}
+![Output value node](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-03.gif "Output value node"){width="512px"}
 
 There is a new tab on every single node ([Atomic ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)and [Library](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)/Instance) that allows you to define Value inputs.
 
-![Adding input values on node](values-in-substance-compositing-graphs.resources/values-inputs.gif "Adding input values on node")
+![Adding input values on node](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-04.gif "Adding input values on node")
 
 ## Working with values
 
@@ -51,4 +51,4 @@ Value Processor can only return a single Value, if you want to return multiple V
 
 To highlight where Values are exposed or in use, any Node that has Value Inputs, or Value Outputs, is highlighted with a thick yellow border:
 
-![Working with values](values-in-substance-compositing-graphs.resources/yellowhighlight.png "Working with values")
+![Working with values](values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-05.png "Working with values")

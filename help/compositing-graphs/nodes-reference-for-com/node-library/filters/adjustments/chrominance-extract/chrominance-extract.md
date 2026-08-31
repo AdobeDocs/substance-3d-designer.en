@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](chrominance-extract.resources/chrominance-extract.png)
+![](chrominance-extract.resources/chrominance-extract-01.png)
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -38,7 +38,7 @@ Extracts the Chrominance value from the input. The result has luminance stripped
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="chrominance-extract.resources/chrominance-example.png" />
+            <img src="chrominance-extract.resources/chrominance-extract-02.png" />
         </td>
     </tr>
 </table>

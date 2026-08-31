@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-sampler.resources/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -116,7 +116,7 @@ Make sure you are familiar with [Tile Generator](../../../../../../compositing-g
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>Example shows how parameters are driven by input maps (Pattern Distribution, Scale, Rotation).</i>
+            <img src="tile-sampler.resources/tile-sampler-02.png" /><br><i>Example shows how parameters are driven by input maps (Pattern Distribution, Scale, Rotation).</i>
         </td>
     </tr>
 </table>

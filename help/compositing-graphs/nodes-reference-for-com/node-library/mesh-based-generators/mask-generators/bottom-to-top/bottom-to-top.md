@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bottom-to-top.resources/bottom-to-top.png){width="128px"}
+![](bottom-to-top.resources/bottom-to-top-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -60,7 +60,7 @@ This generates a white to black transition from the bottom to the top of a model
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bottom-to-top.resources/bottom-to-top-ex.gif" />
+            <img src="bottom-to-top.resources/bottom-to-top-02.gif" />
         </td>
     </tr>
 </table>

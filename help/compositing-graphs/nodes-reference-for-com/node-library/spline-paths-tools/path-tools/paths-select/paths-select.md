@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](paths-select.resources/paths-select-icon.png "Node icon")
+![Node icon](paths-select.resources/paths-select-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -69,11 +69,11 @@ Isolate one path among multiples contained in Paths.
 <table>
   <tr>
     <td>
-      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="paths-select.resources/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="paths-select.resources/paths-select-03.jpg" alt="PathsSelect-Variant1">
       <br><i>After</i>
     </td>
   </tr>
@@ -85,11 +85,11 @@ Isolate one path among multiples contained in Paths.
 <table>
   <tr>
     <td>
-      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/paths-select-02.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="paths-select.resources/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="paths-select.resources/paths-select-04.jpg" alt="PathsSelect-Variant2">
       <br><i>After</i>
     </td>
   </tr>

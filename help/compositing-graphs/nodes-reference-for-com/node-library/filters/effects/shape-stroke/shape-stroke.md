@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-stroke.resources/shape-stroke.png){width="128px"}
+![](shape-stroke.resources/shape-stroke-01.png){width="128px"}
 
-![](shape-stroke.resources/shape-stroke-grayscale.png){width="128px"}
+![](shape-stroke.resources/shape-stroke-02.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -55,7 +55,7 @@ Very useful for a variety of image editing effects.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-stroke.resources/shapestroke-ex.png" />
+            <img src="shape-stroke.resources/shape-stroke-03.png" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](weave-1.resources/weave-1.png){width="128px"}
+![](weave-1.resources/weave-1-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -48,7 +48,7 @@ Generates a simple weave pattern.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="weave-1.resources/weave-1-ex.gif" />
+            <img src="weave-1.resources/weave-1-02.gif" />
         </td>
     </tr>
 </table>

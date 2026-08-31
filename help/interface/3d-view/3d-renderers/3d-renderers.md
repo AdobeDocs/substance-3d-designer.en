@@ -32,11 +32,11 @@ The 3D View offers four renderers:
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizer</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU Pathtracer</i>
     </td>
   </tr>
@@ -53,11 +53,11 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
       <br><i>Rasterizer</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 
 +++
 
-![Rasterizer - Example 1](3d-renderers.resources/3dRendererRasterizer.jpg "Rasterizer - Example 1"){zoomable="yes"}
+![Rasterizer - Example 1](3d-renderers.resources/3d-renderers-04.jpg "Rasterizer - Example 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -139,7 +139,7 @@ Thanks to its reliance on USD, it can leverage Adobe's [USDFileFormat plugin](ht
 
 +++
 
-![GPU pathtracer - Example 1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU pathtracer - Example 1"){zoomable="yes"}
+![GPU pathtracer - Example 1](3d-renderers.resources/3d-renderers-05.jpg "GPU pathtracer - Example 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -290,4 +290,4 @@ Designer also offers the possibility to configure your own shaders for the OpenG
 > 
 > This renderer is **deprecated**: It will not receive new features and will be retired in a future version of Designer.
 
-![OpenGL - Example 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - Example 1"){zoomable="yes"}
+![OpenGL - Example 1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL - Example 1"){zoomable="yes"}

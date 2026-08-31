@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](polygon-2.resources/polygon-2-1.png){width="128px"}
+![](polygon-2.resources/polygon-2-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -53,7 +53,7 @@ Generates a smooth gradient polygon shape with options for adjustment. See [Poly
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="polygon-2.resources/polygon-2-ex.gif" />
+            <img src="polygon-2.resources/polygon-2-02.gif" />
         </td>
     </tr>
 </table>

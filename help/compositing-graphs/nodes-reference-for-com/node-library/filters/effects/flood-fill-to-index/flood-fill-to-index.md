@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-index.resources/floodfill-index.png){width="200px"}
+![](flood-fill-to-index.resources/flood-fill-to-index-01.png){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -59,7 +59,7 @@ Additionally, Flood Fill to Index makes use of [values](../../../../../values-co
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-index.resources/flood-fill-ex02.jpg" />
+            <img src="flood-fill-to-index.resources/flood-fill-to-index-02.jpg" />
         </td>
     </tr>
 </table>

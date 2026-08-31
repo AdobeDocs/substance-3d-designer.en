@@ -31,7 +31,7 @@ The graph has no output node defined.
 Select any node in the graph which outputs a value which type matches the expected type for this function if any, then click RMB and select the <b>Set as root</b> option in the contextual menu or double-click LMB on the node.  
 A Substance model graph's output node is colored *orange*.
 
-!['No output node defined' solution](warnings-in-mdl-graphs.resources/warnings-model-output.gif "'No output node defined' solution")
+!['No output node defined' solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-01.gif "'No output node defined' solution")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) At least one input value has been rejected
 
@@ -41,7 +41,7 @@ The value provided for a parameter does not result in a valid computation of the
 
 Adjust the value so they make sense for the target parameter.
 
-!['At least one input value has been rejected' solution](warnings-in-mdl-graphs.resources/warnings-model-rejected-value.gif "'At least one input value has been rejected' solution")
+!['At least one input value has been rejected' solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-02.gif "'At least one input value has been rejected' solution")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) No input value
 
@@ -53,7 +53,7 @@ Some node parameters cannot fall back to a default value when no data is provide
 
 Connect the node inputs to another node's output connector of matching type.
 
-!['No input value' solution](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "'No input value' solution")
+!['No input value' solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "'No input value' solution")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) Node was not computed
 
@@ -63,7 +63,7 @@ The information provided to the node is incomplete or not valid, thus the node w
 
 Go upstream in the graph and check for warnings triggered by issues which prevent nodes from providing a valid output.
 
-!['Node was not computed' solution](warnings-in-mdl-graphs.resources/warnings-model-no-input-value.gif "'Node was not computed' solution")
+!['Node was not computed' solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-03.gif "'Node was not computed' solution")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) The referenced data has some warnings
 
@@ -79,7 +79,7 @@ In the Explorer panel, find the referenced resource and troubleshoot all warning
 * For graphs, refer to other items in this page
 * For any other type of resource, refer to the Warnings from dependencies page
 
-!['The referenced data has some warnings' solution](warnings-in-mdl-graphs.resources/warnings-model-referenced-data.gif "'The referenced data has some warnings' solution")
+!['The referenced data has some warnings' solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-04.gif "'The referenced data has some warnings' solution")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) Referenced resource not found
 
@@ -100,7 +100,7 @@ For Scene resource nodes
 Find the referenced resources in the [Explorer](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion) panel and check they exist at the location saved in their <b>File Path</b> attribute.  
 If they do not, click *RMB* on the resource item in the Explorer and select the <b>Relocate...</b> option in the contextual menu to set a new valid target file for that resource.
 
-!['Referenced resource not found' solution](warnings-in-mdl-graphs.resources/warnings-model-referenced-resource.gif "'Referenced resource not found' solution")
+!['Referenced resource not found' solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-05.gif "'Referenced resource not found' solution")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) Soft range does not contain the value
 
@@ -114,7 +114,7 @@ Adjust the default value or soft range so the former is included in the latter.
 >
 > This warning cannot be triggered through the user interface, since it *automatically adjusts* the soft range to include the default value. Only modifying the data in the Substance 3D file (SBS) *directly* can result in this warning being triggered.
 
-!['Soft range does not contain the value' solution](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "'Soft range does not contain the value' solution")
+!['Soft range does not contain the value' solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "'Soft range does not contain the value' solution")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) Soft range is out of the hard range
 
@@ -128,7 +128,7 @@ Adjust the soft range or hard range so the former is fully included in the latte
 >
 > This warning cannot be triggered through the user interface, since it *automatically adjusts* the soft range to be fully included in the hard range. Only modifying the data in the Substance 3D file (SBS) *directly* can result in this warning being triggered.
 
-!['Soft range is out of the hard range' solution](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "'Soft range is out of the hard range' solution")
+!['Soft range is out of the hard range' solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "'Soft range is out of the hard range' solution")
 
 ### ![(error)](warnings-in-mdl-graphs.resources/error.svg) Value is out of the hard range
 
@@ -142,4 +142,4 @@ Adjust the default value or hard range so the former is included in the latter.
 >
 > This warning cannot be triggered through the user interface, since it *automatically adjusts* the default value to be included in the hard range. Only modifying the data in the Substance 3D file (SBS) *directly* can result in this warning being triggered.
 
-!['Value is out of the hard range' solution](warnings-in-mdl-graphs.resources/warnings-model-ranges.gif "'Value is out of the hard range' solution")
+!['Value is out of the hard range' solution](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-06.gif "'Value is out of the hard range' solution")

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](selective-dirt.resources/selective-dirt.png){width="128px"}
+![](selective-dirt.resources/selective-dirt-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -61,7 +61,7 @@ This [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="selective-dirt.resources/selective-dirt-ex.gif" />
+            <img src="selective-dirt.resources/selective-dirt-02.gif" />
         </td>
     </tr>
 </table>

@@ -22,7 +22,7 @@ Release date: *24 November 2021*
 
 ### New model graph functionalities
 
-![](version-11-3.resources/banner-model.jpg)
+![](version-11-3.resources/version-11-3-01.jpg)
 
 A lot of improvements have been added to the model graph to expand the modeling capabilities:
 
@@ -35,7 +35,7 @@ A lot of improvements have been added to the model graph to expand the modeling 
   * Particle pruning
   * Particles from instances
 
-  ![](version-11-3.resources/particle-pruning.gif)
+  ![](version-11-3.resources/version-11-3-02.gif)
 
 * <b>New modeling and deformation nodes</b>  
   Additional new nodes have added to create more complex shapes, click on each node to learn mroe about them:
@@ -53,7 +53,7 @@ A lot of improvements have been added to the model graph to expand the modeling 
 
 ### Improved interoperability
 
-![](version-11-3.resources/banner-sendto.jpg)
+![](version-11-3.resources/version-11-3-03.jpg)
 
 The send-o actions have been expanded, with two new possibilities:
 
@@ -65,24 +65,24 @@ The send-o actions have been expanded, with two new possibilities:
 
 ### Miscellaneous
 
-![](version-11-3.resources/banner-misc-3.jpg)
+![](version-11-3.resources/version-11-3-04.jpg)
 
 Various quality of life improvements have been made:
 
 * **Inputs relative to inputs**   
   Graph inputs set in Relative to inputs will now inherit the connected node size instead of default to the parent graph size. This makes managing different resolutions via inputs of different sizes much easier.
 
-  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/version-11-3-05.jpg){width="400px"}
 
 * **New graph window**   
   The new graph window has been reworked and now allow to better see the details of a specific template and to create new graph directly into an existing package.
 
-  ![](version-11-3.resources/new-graph.png){width="400px"}
+  ![](version-11-3.resources/version-11-3-06.png){width="400px"}
 
 * **Close All Packages**   
   A small action which makes less tedious to manage many packages in the explorer. Use **File** &gt; **Close all** to close all the currently opened packages.
 
-  ![](version-11-3.resources/close-all-packages.png)
+  ![](version-11-3.resources/version-11-3-07.png)
 
 * **Maximize Current View**   
   Use the new title bar **icon** or the shortcut **SHIFT+Space** to expand a window to the full screen. This can be used on floating window as well.
@@ -92,16 +92,16 @@ Various quality of life improvements have been made:
 
 ### Content
 
-![](version-11-3.resources/render-content.jpg)
+![](version-11-3.resources/version-11-3-08.jpg)
 
 This releases add new diffusion nodes and improvements for the PBR Render node:
 
 * <b>Diffusion nodes</b>  
   The new Diffusion Color, Diffusion Grayscale and Diffusion UV nodes allow to generate soft bleeding blurs based on an input mask.
 
-  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/version-11-3-09.jpg){width="230px"}
 
-  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
+  ![](version-11-3.resources/version-11-3-10.jpg) ![](version-11-3.resources/version-11-3-11.jpg)
 
 * **Improved PBR render node**   
   This node had the following changes:

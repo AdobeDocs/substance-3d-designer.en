@@ -18,4 +18,4 @@ The <b>Dependency manager</b> allows you to see all the dependencies of your pac
 
 You can access it by right-clicking on a package in the Explorer and choosing the 'Dependency manager' option in the contextual menu.
 
-![Dependency manager](dependency-manager.resources/dependency-manager.png "Dependency manager")
+![Dependency manager](dependency-manager.resources/dependency-manager-01.png "Dependency manager")

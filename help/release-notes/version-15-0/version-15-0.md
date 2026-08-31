@@ -18,7 +18,7 @@ This update brings a brand new 3d renderer, with rasterizer and pathtracer modes
 
 *Release date: July 15th, 2025*
 
-![Banner](version-15-0.resources/banner-47.png "Version 15.0 banner")
+![Banner](version-15-0.resources/version-15-0-01.png "Version 15.0 banner")
 
 ## New 3D renderer
 
@@ -26,7 +26,7 @@ This update brings a brand new 3d renderer, with rasterizer and pathtracer modes
 
 This new release gives you access to an advanced [3D renderer](../../interface/3d-view/3d-renderers/3d-renderers.md), featuring a rasterizer mode (to have a real time preview while working on your material) and a path tracer mode (a ray traced mode to get a perfect and accurate render). This new renderer enhances functionality with features such as shadows in rasterizer mode, improves quality and performance, and is engineered to support future technologies like [MaterialX](https://materialx.org/). It complements the existing OpenGL and Iray renderers in Designer and aligns with the renderers available in Substance 3D Viewer and Substance 3D Sampler, ensuring a uniform experience across the ecosystem.
 
-![shadows and translucency in rasterizer](version-15-0.resources/feature_1b.png)
+![shadows and translucency in rasterizer](version-15-0.resources/version-15-0-02.png)
 
 The [3d view toolbar](../../interface/3d-view/3d-view.md) has been updated to have a quick access to some of the new features available in this renderer:
 
@@ -45,13 +45,13 @@ In addition, the hotkey to rotate the environment light has changed to match the
 * <b>Tone mapping: </b>the color range with profiles to get a high-dynamic-range (HDR) effect.
 * <b>Depth of field:</b> simulates the focus properties of a camera lens (rasterizer only).
 
-![Post FX in Designer 15.0](version-15-0.resources/postfx.gif)
+![Post FX in Designer 15.0](version-15-0.resources/version-15-0-03.gif)
 
 ## Asset edition in context
 
 When you work on your materials, you may want to [preview it in the context of a specific 3D scene](../../working-with-3d-scenes/working-with-3d-scenes.md). That's why we added the possibility to import and render a full scene, with all its textures, cameras and lights. And cherry on top, if this scene references MaterialX shaders, they will be correctly rendered with the rasterizer!
 
-![USD scene loaded and rendered in Designer](version-15-0.resources/feature_2.png)
+![USD scene loaded and rendered in Designer](version-15-0.resources/version-15-0-04.png)
 
 Once imported, you can work on your scene by selecting a mesh (with a SHIFT + Click or thanks to the scene browser) and [overriding any of its materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). You may then:
 
@@ -70,17 +70,17 @@ Rich tooltips have been introduced to better demonstrate the purpose of each nod
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![blend node](version-15-0.resources/blend.gif)
+![blend node](version-15-0.resources/version-15-0-05.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![blur node](version-15-0.resources/blur.gif)
+![blur node](version-15-0.resources/version-15-0-06.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![distance node](version-15-0.resources/distance.gif)
+![distance node](version-15-0.resources/version-15-0-07.gif)
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Rich tooltips have been introduced to better demonstrate the purpose of each nod
 
 If you need to work with non square textures, this new option is made for you. In the [material properties](../../interface/3d-view/material-properties/material-properties.md) in the 3D view, in the UVs options to control the tiling, you can now set a different value for both axis.
 
-![different U V scale](version-15-0.resources/nonsquare.png){zoomable="yes"}
+![different U V scale](version-15-0.resources/version-15-0-08.png){zoomable="yes"}
 
 ## Bakers
 
@@ -104,7 +104,7 @@ Every year, the [VFX Reference Platform](https://vfxplatform.com/) publishes a l
 
 ## Video
 
-[![Substance 3D Designer Update: New Renderer, Post FX, and Context Editing | Adobe Substance 3D](version-15-0.resources/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Substance 3D Designer Update: New Renderer, Post FX, and Context Editing | Adobe Substance 3D](version-15-0.resources/version-15-0-09.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## Release notes
 

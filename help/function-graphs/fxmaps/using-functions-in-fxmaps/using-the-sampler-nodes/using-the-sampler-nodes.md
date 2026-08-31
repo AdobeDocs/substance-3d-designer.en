@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Using the Sampler nodes
 
-![](using-the-sampler-nodes.resources/sampler-graph.jpg)
+![](using-the-sampler-nodes.resources/using-the-sampler-nodes-01.jpg)
 
 The sampler node can be used to sample pixel values in an image input plugged to the fx-map node. The sampled values can then be used to drive any parameters using functions.
 
@@ -22,7 +22,7 @@ The sampler node can be used to sample pixel values in an image input plugged to
 
 In this example a chain of quadrant nodes have been created to generate a grid of pattern. A function is created in the Opacity/Luminance parameter of the last quadrant.
 
-![](using-the-sampler-nodes.resources/sampler-function.jpg){width="300px"}![](using-the-sampler-nodes.resources/sampler-result-1.jpg){width="300px"}
+![](using-the-sampler-nodes.resources/using-the-sampler-nodes-02.jpg){width="300px"}![](using-the-sampler-nodes.resources/using-the-sampler-nodes-03.jpg){width="300px"}
 
 The Sample node takes a float2 input as the sampling coordinates (x, y). In this example we used the $pos variable: for each pattern, the pixel value is sampled at the pattern position in the first image input plugged to the FxMap node.
 
@@ -34,8 +34,8 @@ The Sample Color node returns a float4 (rgba) value in the 0, 1 range.
 
 Here, we compare the sampled value to a constant (0.3). If the sampled value is greater than 0.3 the function returns 1, else, it returns 0.
 
-![](using-the-sampler-nodes.resources/sampler-function-advanced.jpg){width="300px"}![](using-the-sampler-nodes.resources/sampler-result-advanced.jpg){width="300px"}
+![](using-the-sampler-nodes.resources/using-the-sampler-nodes-04.jpg){width="300px"}![](using-the-sampler-nodes.resources/using-the-sampler-nodes-05.jpg){width="300px"}
 
 ## Download sample
 
-[![SBS file icon](using-the-sampler-nodes.resources/sbs-1_1.png){width="64px"}](https://shared-assets.adobe.com/link/d5f9adf3-0bb5-49a1-4eb9-a0506d4f3f32)
+[![SBS file icon](using-the-sampler-nodes.resources/using-the-sampler-nodes-06.png){width="64px"}](https://shared-assets.adobe.com/link/d5f9adf3-0bb5-49a1-4eb9-a0506d4f3f32)

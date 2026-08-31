@@ -20,13 +20,13 @@ Substance 3D Designer allows to export textures to Adobe Photoshop Document, or 
 
 ## PSD export dialog
 
-The PSD Export Dialog can only be opened by one method. In the [Graph view](../../interface/the-graph-view/the-graph-view.md) of the graph you want to export to PSD, click the ![](exporting-psd-files.resources/image2019-9-17-14-44-17.png) <b>Tools</b> button and select <b>PSD Exporter</b>. The interface becomes visible within the <b>Graph View</b>.
+The PSD Export Dialog can only be opened by one method. In the [Graph view](../../interface/the-graph-view/the-graph-view.md) of the graph you want to export to PSD, click the ![](exporting-psd-files.resources/exporting-psd-files-01.png) <b>Tools</b> button and select <b>PSD Exporter</b>. The interface becomes visible within the <b>Graph View</b>.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![PSD Exporter user interface](exporting-psd-files.resources/psd-dialog.png "PSD Exporter user interface")
+![PSD Exporter user interface](exporting-psd-files.resources/exporting-psd-files-02.png "PSD Exporter user interface")
 
 </td>
 <td style="border: 0;" valign="top">

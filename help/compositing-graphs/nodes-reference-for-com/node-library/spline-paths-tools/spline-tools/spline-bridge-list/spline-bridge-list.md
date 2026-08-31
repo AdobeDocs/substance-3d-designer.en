@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-bridge-list.resources/spline-bridge-list-icon.png "Node icon")
+![Node icon](spline-bridge-list.resources/spline-bridge-list-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -107,11 +107,11 @@ The generated splines can be Linear (straight) or Quadratic Bezier (curved).
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="spline-bridge-list.resources/spline-bridge-list-02.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="spline-bridge-list.resources/spline-bridge-list-03.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>After</i>
     </td>
   </tr>
@@ -120,10 +120,10 @@ The generated splines can be Linear (straight) or Quadratic Bezier (curved).
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](spline-bridge-list.resources/SplineBridge-List_Demo.gif "Node example 2")
+![Node example 2](spline-bridge-list.resources/spline-bridge-list-04.gif "Node example 2")
 
 </td>
 </tr>
 </table>
 
-![Node in graph](spline-bridge-list.resources/SplineBridge-List_Graph.jpg "Node in graph")
+![Node in graph](spline-bridge-list.resources/spline-bridge-list-05.jpg "Node in graph")

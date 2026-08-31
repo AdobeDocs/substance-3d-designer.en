@@ -37,7 +37,7 @@ If you do not specifically need to work with HDR images, then most of your nodes
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-01.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-02.png){width="256px"}![](incorrect-image-output.resources/incorrect-image-output-03.png){width="256px"}
 
 </td>
 </tr>
@@ -75,7 +75,7 @@ The output appears low resolution.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-04.jpg){width="256px"}
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Shapes are slightly blurred after using some nodes, such as [Transformation 2D](
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/incorrect-image-output-05.jpg){width="256px"}
 
 </td>
 </tr>

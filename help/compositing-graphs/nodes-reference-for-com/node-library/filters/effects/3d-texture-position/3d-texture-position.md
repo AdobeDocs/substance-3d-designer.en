@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-position.resources/3dtextureposition.png){width="256px"}
+![](3d-texture-position.resources/3d-texture-position-01.png){width="256px"}
 
 <b>In:</b> Filter &gt; Effect
 
@@ -40,10 +40,10 @@ This can be used to bake 3D noises or functions as a *3D texture atlas*.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3dtextureposition-variant.jpg" />
+            <img src="3d-texture-position.resources/3d-texture-position-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3dtextureposition-node.png" />
+            <img src="3d-texture-position.resources/3d-texture-position-03.png" />
         </td>
     </tr>
 </table>

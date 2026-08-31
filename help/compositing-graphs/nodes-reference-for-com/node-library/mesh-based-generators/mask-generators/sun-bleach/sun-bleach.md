@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](sun-bleach.resources/sun-bleach.png){width="128px"}
+![](sun-bleach.resources/sun-bleach-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -60,7 +60,7 @@ This mask is similar to [Light](../../../../../../compositing-graphs/nodes-refer
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="sun-bleach.resources/sun-bleach-ex.gif" />
+            <img src="sun-bleach.resources/sun-bleach-02.gif" />
         </td>
     </tr>
 </table>

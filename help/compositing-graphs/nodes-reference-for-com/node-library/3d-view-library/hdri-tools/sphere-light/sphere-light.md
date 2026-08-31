@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](sphere-light.resources/panorama-sphere-light.png){width="200px"}
+![](sphere-light.resources/sphere-light-01.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -76,10 +76,10 @@ The Sphere Light is quite versatile and has options that allow it to no only gen
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/sphere-light-ex.gif" />
+            <img src="sphere-light.resources/sphere-light-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="sphere-light.resources/spherelight-ex1.png" />
+            <img src="sphere-light.resources/sphere-light-03.png" />
         </td>
     </tr>
 </table>

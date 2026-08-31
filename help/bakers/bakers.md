@@ -29,13 +29,13 @@ The baking window can be accessed via the mesh file in the [Explorer](../interfa
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-!['Bake mode information' option in 3D scene resource's contextual menu](bakers.resources/sd-mesh-right-click.png "'Bake mode information' option in 3D scene resource's contextual menu")
+!['Bake mode information' option in 3D scene resource's contextual menu](bakers.resources/bakers-01.png "'Bake mode information' option in 3D scene resource's contextual menu")
 
 </td>
 </tr>
 </table>
 
-![Baking window](bakers.resources/sd-window-overview.png "Baking window")
+![Baking window](bakers.resources/bakers-02.png "Baking window")
 
 ## Overview
 
@@ -54,7 +54,7 @@ It lists the geometry found inside the low-poly mesh file. By default the list i
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/sd-mesh-selection.png)
+![](bakers.resources/bakers-03.png)
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ This panel controls where the baked texture will be located.
 </td>
 <td style="border: 0;" valign="top">
 
-![](bakers.resources/sd-output.png)
+![](bakers.resources/bakers-04.png)
 
 </td>
 </tr>
@@ -89,13 +89,13 @@ This panel controls where the baked texture will be located.
 
 This panel controls the high-poly mesh list and the related settings. See the [common parameters](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) for more information.
 
-![High definition meshes](bakers.resources/sd-high.png "High definition meshes")
+![High definition meshes](bakers.resources/bakers-05.png "High definition meshes")
 
 ### Default values
 
 See the [common parameters](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) for more information.
 
-![Default values](bakers.resources/sd-default-values.png "Default values")
+![Default values](bakers.resources/bakers-06.png "Default values")
 
 ### Bakers render list and settings
 
@@ -112,4 +112,4 @@ When clicking on a baker in the list, the Baker Parameters view will update with
 
 To learn more about the specific parameters, see: [Bakers Settings](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings).
 
-![Bakers render list](bakers.resources/sd-baker-list.png "Bakers render list")
+![Bakers render list](bakers.resources/bakers-07.png "Bakers render list")

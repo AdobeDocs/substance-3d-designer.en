@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-splashes-dusty.resources/grungesplashesdusty.jpg){width="200px"}
+![](grunge-splashes-dusty.resources/grunge-splashes-dusty-01.jpg){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -54,10 +54,10 @@ The **Grunge Splashes Dusty** node generates a grunge map akin to splashes of li
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" />
+            <img src="grunge-splashes-dusty.resources/grunge-splashes-dusty-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" />
+            <img src="grunge-splashes-dusty.resources/grunge-splashes-dusty-03.jpg" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-uv.resources/diffusion-uv-icon.png){width="200px"}
+![](diffusion-uv.resources/diffusion-uv-01.png){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -63,18 +63,18 @@ This can lead to undesirable results when using this filter for *texture deforma
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-01a-before.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-01a-after.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-03.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-01b-before.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-01b-after.jpg" />
+            <img src="diffusion-uv.resources/diffusion-uv-05.jpg" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cracks-weathering.resources/cracks-weathering.png){width="128px"}
+![](cracks-weathering.resources/cracks-weathering-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Weathering
 
@@ -65,7 +65,7 @@ Make sure to properly understand the [Link Creation Modes](../../../../../../int
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cracks-weathering.resources/cracks-ex.gif" />
+            <img src="cracks-weathering.resources/cracks-weathering-02.gif" />
         </td>
     </tr>
 </table>

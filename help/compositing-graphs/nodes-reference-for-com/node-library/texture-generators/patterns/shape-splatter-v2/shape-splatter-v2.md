@@ -9,7 +9,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Shape splatter v2 icon](shape-splatter-v2.resources/shape-splatter-v2.png "Shape splatter v2")
+![Shape splatter v2 icon](shape-splatter-v2.resources/shape-splatter-v2-01.png "Shape splatter v2")
 
 <b>In:</b> Generator &gt; Pattern
 
@@ -168,29 +168,29 @@ Scatters shapes on a background height surface with advanced capabilities for sc
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" /><br><i>Poisson distribution</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-02.gif" /><br><i>Poisson distribution</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" /><br><i>Uniform distribution</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-03.gif" /><br><i>Uniform distribution</i>
         </td>
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" /><br><i>Density map</i>
-        </td>
-    </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" /><br><i>Random 3D rotation</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-background-slope.gif" /><br><i>Slope rotation</i>
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" /><br><i>Shape extrusion</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-04.gif" /><br><i>Density map</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="./shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" /><br><i>3D SDF shapes</i>
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-05.gif" /><br><i>Random 3D rotation</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-06.gif" /><br><i>Slope rotation</i>
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-07.gif" /><br><i>Shape extrusion</i>
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="./shape-splatter-v2.resources/shape-splatter-v2-08.jpg" /><br><i>3D SDF shapes</i>
         </td>
         <td style="border: 0; background: transparent">
         </td>

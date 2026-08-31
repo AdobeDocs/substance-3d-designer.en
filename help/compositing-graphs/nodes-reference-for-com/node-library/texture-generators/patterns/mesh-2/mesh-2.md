@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mesh-2.resources/mesh-2.png){width="128px"}
+![](mesh-2.resources/mesh-2-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -48,7 +48,7 @@ Simple mesh pattern with fat blocks. Can be used to create height and detail map
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="mesh-2.resources/mesh-2-ex.gif" />
+            <img src="mesh-2.resources/mesh-2-02.gif" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-bbox-size.resources/floodfill-to-bbox-size.png){width="128px"}
+![](flood-fill-to-bbox-size.resources/flood-fill-to-bbox-size-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -48,7 +48,7 @@ Values are relative to the total canvas size (a full white tile would mean it st
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-bbox-size.resources/floodbbox-ex1.png" />
+            <img src="flood-fill-to-bbox-size.resources/flood-fill-to-bbox-size-02.png" />
         </td>
     </tr>
 </table>

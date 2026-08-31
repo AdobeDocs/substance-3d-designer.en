@@ -52,21 +52,21 @@ A few things happen when using this action:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Create graph from texture inputs - Action in '3D View' viewport](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionViewport.png "Create graph from texture inputs - Action in '3D View' viewport"){zoomable="yes"}
+![Create graph from texture inputs - Action in '3D View' viewport](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-01.png "Create graph from texture inputs - Action in '3D View' viewport"){zoomable="yes"}
 
 *Action in 3D View viewport*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Create graph from texture inputs - Action in 'Materials' menu](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionMaterials.png "Create graph from texture inputs - Action in 'Materials' menu"){zoomable="yes"}
+![Create graph from texture inputs - Action in 'Materials' menu](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-02.png "Create graph from texture inputs - Action in 'Materials' menu"){zoomable="yes"}
 
 *Action in Materials menu*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Create graph from texture inputs - Action in 'Properties' dock](extracting-materials-values-and-textures.resources/createGraphFromTexturesActionProps.png "Create graph from texture inputs - Action in 'Properties' dock"){zoomable="yes"}
+![Create graph from texture inputs - Action in 'Properties' dock](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-03.png "Create graph from texture inputs - Action in 'Properties' dock"){zoomable="yes"}
 
 *Action in Properties dock*
 
@@ -74,12 +74,12 @@ A few things happen when using this action:
 </tr>
 </table>
 
-![Result of graph creation from material textures](extracting-materials-values-and-textures.resources/createGraphFromTexturesResult.png "Result of graph creation from material textures"){zoomable="yes"}
+![Result of graph creation from material textures](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-04.png "Result of graph creation from material textures"){zoomable="yes"}
 
 *Result of graph creation from material textures*
 
 +++Demonstration
-![Create graph from texture inputs - Demonstration](extracting-materials-values-and-textures.resources/createGraphFromTextures.gif "Create graph from texture inputs - Demonstration"){zoomable="yes"}
+![Create graph from texture inputs - Demonstration](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-05.gif "Create graph from texture inputs - Demonstration"){zoomable="yes"}
 
 
 
@@ -110,14 +110,14 @@ E.g.: Extracting a texture for the ‘Base color’ property to a graph already 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extract texture to graph - Action in Properties dock](extracting-materials-values-and-textures.resources/extractTextureAction.png "Extract texture to graph - Action in Properties dock"){zoomable="yes"}
+![Extract texture to graph - Action in Properties dock](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-06.png "Extract texture to graph - Action in Properties dock"){zoomable="yes"}
 
 Action for material property in Properties dock
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extract texture to graph - 'Select destination graph' dialog](extracting-materials-values-and-textures.resources/extractTextureSelectGraph.png "Extract texture to graph - 'Select destination graph' dialog"){zoomable="yes"}
+![Extract texture to graph - 'Select destination graph' dialog](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-07.png "Extract texture to graph - 'Select destination graph' dialog"){zoomable="yes"}
 
 'Select destination graph' dialog
 
@@ -130,12 +130,12 @@ Action for material property in Properties dock
 </tr>
 </table>
 
-![Result of the texture extraction](extracting-materials-values-and-textures.resources/extractTextureResult.png "Result of the texture extraction"){zoomable="yes"}
+![Result of the texture extraction](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-08.png "Result of the texture extraction"){zoomable="yes"}
 
 Result of the texture extraction
 
 +++Demonstration
-![Extract texture to graph - Demonstration](extracting-materials-values-and-textures.resources/extractTextureToGraph.gif "Extract texture to graph - Demonstration"){zoomable="yes"}
+![Extract texture to graph - Demonstration](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-09.gif "Extract texture to graph - Demonstration"){zoomable="yes"}
 
 
 
@@ -164,21 +164,21 @@ E.g.: Extracting a value for the ‘Anisotropy level’ property to a graph alre
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Extract value to graph - Action in Properties dock](extracting-materials-values-and-textures.resources/extractValueAction.png "Extract value to graph - Action in Properties dock"){zoomable="yes"}
+![Extract value to graph - Action in Properties dock](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-10.png "Extract value to graph - Action in Properties dock"){zoomable="yes"}
 
 Action for material property in Properties dock
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extract value to graph - 'Select destination graph' dialog](extracting-materials-values-and-textures.resources/extractValueSelectGraph.png "Extract value to graph - 'Select destination graph' dialog"){zoomable="yes"}
+![Extract value to graph - 'Select destination graph' dialog](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-11.png "Extract value to graph - 'Select destination graph' dialog"){zoomable="yes"}
 
 'Select destination graph' dialog
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Extract value to graph - Constant node in Value processor node's function](extracting-materials-values-and-textures.resources/extractValueResult2.png "Extract value to graph - Constant node in Value processor node's function"){zoomable="yes"}
+![Extract value to graph - Constant node in Value processor node's function](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-12.png "Extract value to graph - Constant node in Value processor node's function"){zoomable="yes"}
 
 Constant node in Value processor node's function
 
@@ -186,12 +186,12 @@ Constant node in Value processor node's function
 </tr>
 </table>
 
-![Result of the value extraction](extracting-materials-values-and-textures.resources/extractValueResult.png "Result of the value extraction"){zoomable="yes"}
+![Result of the value extraction](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-13.png "Result of the value extraction"){zoomable="yes"}
 
 Result of the value extraction
 
 +++Demonstration
-![Extract value to graph - Demonstration](extracting-materials-values-and-textures.resources/extractValueToGraph.gif "Extract value to graph - Demonstration"){zoomable="yes"}
+![Extract value to graph - Demonstration](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-14.gif "Extract value to graph - Demonstration"){zoomable="yes"}
 
 
 

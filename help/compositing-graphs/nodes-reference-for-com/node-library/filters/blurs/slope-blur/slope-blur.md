@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](slope-blur.resources/slope-blur.png){width="128px"}
+![](slope-blur.resources/slope-blur-01.png){width="128px"}
 
-![](slope-blur.resources/slope-blur-grayscale.png){width="128px"}
+![](slope-blur.resources/slope-blur-02.png){width="128px"}
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -62,10 +62,10 @@ Important: make sure to use the appropriate version for your input! Use "Slope B
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="slope-blur.resources/slopeblur01.gif" />
+            <img src="slope-blur.resources/slope-blur-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="slope-blur.resources/slopeblur02.gif" />
+            <img src="slope-blur.resources/slope-blur-04.gif" />
         </td>
     </tr>
 </table>

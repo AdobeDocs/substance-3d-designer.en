@@ -31,7 +31,7 @@ Edits can be *undone individually*, and all the other features of the 2D View pa
 </td>
 <td style="border: 0;" valign="top">
 
-![](vector-editing-tools.resources/2dview-vectorediting-main.png){width="512px"}
+![](vector-editing-tools.resources/vector-editing-tools-01.png){width="512px"}
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ Edits can be *undone individually*, and all the other features of the 2D View pa
 >
 > You can paint *only* on *8-bit* [vector graphics resources](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) which are [new or imported](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources).
 
-![New SVG resource dialog](vector-editing-tools.resources/2dview-new-vector-image.png "New SVG resource dialog"){width="512px"}
+![New SVG resource dialog](vector-editing-tools.resources/vector-editing-tools-02.png "New SVG resource dialog"){width="512px"}
 
 ## Enabling the vector editing tools
 
@@ -81,7 +81,7 @@ For the best compatibility and reliability in Designer and its editing tools, pl
 **Adobe Illustrator** users can refer to the attached image for recommended SVG *export settings.*
 
 +++Adobe Illustrator export options
-![Illustrator export options for SVG](vector-editing-tools.resources/demo-svg.png "Illustrator export options for SVG")
+![Illustrator export options for SVG](vector-editing-tools.resources/vector-editing-tools-03.png "Illustrator export options for SVG")
 
 
 
@@ -103,7 +103,7 @@ Two toolbars are displayed when the vector editing tools are enabled:
 Keyboard shortcuts let you access tools quickly, and are marked below between parentheses after the tool/function name:
 
 +++Color selection
-The ![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-secondary.png) **Color selection** *thumbnails* let you define a *fill* and *outline* color for vector shapes. You can open the **Color editor** for each of these colors in the following ways:
+The ![](vector-editing-tools.resources/vector-editing-tools-04.png)![](vector-editing-tools.resources/vector-editing-tools-05.png) **Color selection** *thumbnails* let you define a *fill* and *outline* color for vector shapes. You can open the **Color editor** for each of these colors in the following ways:
 
 * **Fill color:** Click on the *fill* color thumbnail (top), or double-click LMB on the canvas
 
@@ -116,11 +116,11 @@ If the current *outline* color is *black* – i.e. luminance 0 or RGB (0, 0, 0) 
 +++
 
 +++Transformation
-![Transformation tool](vector-editing-tools.resources/2dview-vectorediting-transformation.png "Transformation tool"){width="512px"}
+![Transformation tool](vector-editing-tools.resources/vector-editing-tools-06.png "Transformation tool"){width="512px"}
 
 
 
-The ![](vector-editing-tools.resources/2dview-vectorediting-icon-transformation.png) <b>Transformation</b> tool (<b>V</b>) can select shapes, which are then included in a transformation gizmo. This gizmo lets you perform the following actions:
+The ![](vector-editing-tools.resources/vector-editing-tools-07.png) <b>Transformation</b> tool (<b>V</b>) can select shapes, which are then included in a transformation gizmo. This gizmo lets you perform the following actions:
 
 <b>Move</b>: Click and hold LMB *inside* the gizmo
 
@@ -131,11 +131,11 @@ The ![](vector-editing-tools.resources/2dview-vectorediting-icon-transformation.
 +++
 
 +++Node
-![Node tool](vector-editing-tools.resources/2dview-vectorediting-node.png "Node tool"){width="512px"}
+![Node tool](vector-editing-tools.resources/vector-editing-tools-08.png "Node tool"){width="512px"}
 
 
 
-The ![](vector-editing-tools.resources/2dview-vectorediting-icon-node.png) <b>Node</b> tool (<b>A</b>) lets you select individual vertices (i.e. nodes) of the selected shape and edit its position and handles, as well as add and remove vertices. Once a shape is selected, the following actions can be performed:
+The ![](vector-editing-tools.resources/vector-editing-tools-09.png) <b>Node</b> tool (<b>A</b>) lets you select individual vertices (i.e. nodes) of the selected shape and edit its position and handles, as well as add and remove vertices. Once a shape is selected, the following actions can be performed:
 
 <b>Add vertex:</b> Ctrl+LMB on the shape outline
 
@@ -154,11 +154,11 @@ The ![](vector-editing-tools.resources/2dview-vectorediting-icon-node.png) <b>No
 +++
 
 +++Shape
-![Shape tool](vector-editing-tools.resources/2dview-vectorediting-main.png "Shape tool"){width="512px"}
+![Shape tool](vector-editing-tools.resources/vector-editing-tools-01.png "Shape tool"){width="512px"}
 
 
 
-The ![](vector-editing-tools.resources/2dview-vectorediting-icons-shape.png) <b>Shapes</b> tool (<b>M</b>) offers a set of primitive shapes, using the currentl *fill* color, which can be built from and edited:
+The ![](vector-editing-tools.resources/vector-editing-tools-10.png) <b>Shapes</b> tool (<b>M</b>) offers a set of primitive shapes, using the currentl *fill* color, which can be built from and edited:
 
 * <b>Rectangle;</b>
 
@@ -173,11 +173,11 @@ To draw a primitive, Hold <b>LMB</b> anywhere in the canvas from any of its *cor
 +++
 
 +++Pen
-![Pen tool](vector-editing-tools.resources/2dview-vectorediting-pen.png "Pen tool"){width="512px"}
+![Pen tool](vector-editing-tools.resources/vector-editing-tools-11.png "Pen tool"){width="512px"}
 
 
 
-The ![](vector-editing-tools.resources/2dview-vectorediting-icon-pen.png) <b>Pen</b> tool (<b>P</b>) lets you draw a new custom shape, using the current *fill* color. Two modes are available:
+The ![](vector-editing-tools.resources/vector-editing-tools-12.png) <b>Pen</b> tool (<b>P</b>) lets you draw a new custom shape, using the current *fill* color. Two modes are available:
 
 In <b>Path </b>mode, the shape is drawn *one vertex at a time*. The following controls are available:
 
@@ -202,17 +202,17 @@ Vertices are *automatically placed* along the stroke so that the resulting path 
 +++
 
 +++Extrude
-![Extrude tool](vector-editing-tools.resources/2dview-vectorediting-extrude.png "Extrude tool"){width="512px"}
+![Extrude tool](vector-editing-tools.resources/vector-editing-tools-13.png "Extrude tool"){width="512px"}
 
 
 
-The ![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude.png) **Extrude** tool (E) *adds together* a shape of a *set diameter*, drawn along a path using the selected *drawing mode*, and applies the result in the canvas following the *merging mode* set in the options toolbar.
+The ![](vector-editing-tools.resources/vector-editing-tools-14.png) **Extrude** tool (E) *adds together* a shape of a *set diameter*, drawn along a path using the selected *drawing mode*, and applies the result in the canvas following the *merging mode* set in the options toolbar.
 
 The following *drawing modes* are available:
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-freeformpng.png) **Freeform**: draws the shape *directly by dragging* the pen across the canvas while holding LMB. The shape is added together when the stroke ends.
+![](vector-editing-tools.resources/vector-editing-tools-15.png) **Freeform**: draws the shape *directly by dragging* the pen across the canvas while holding LMB. The shape is added together when the stroke ends.
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-polygonal.png) **Polygonal**: draws the shape *one face at a time* by clicking LMB to add an angle. The shape is added together when the Enter key is pressed.
+![](vector-editing-tools.resources/vector-editing-tools-16.png) **Polygonal**: draws the shape *one face at a time* by clicking LMB to add an angle. The shape is added together when the Enter key is pressed.
 
 The drawn shape can be controlled using these parameters:
 
@@ -222,19 +222,19 @@ The drawn shape can be controlled using these parameters:
 
 When the drawing is completed, the shape is added together and merged with the currently selected shape using one of these available *merging modes*:
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-nomerge.png) **No merging**: The shape is drawn *on top* of the selected shape as a *separate object*.
+![](vector-editing-tools.resources/vector-editing-tools-17.png) **No merging**: The shape is drawn *on top* of the selected shape as a *separate object*.
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-union.png) **Union**: The shape is *added* to the selected shape.
+![](vector-editing-tools.resources/vector-editing-tools-18.png) **Union**: The shape is *added* to the selected shape.
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-subtract.png) **Subtraction**: The shape is *cut out* of the selected shape.
+![](vector-editing-tools.resources/vector-editing-tools-19.png) **Subtraction**: The shape is *cut out* of the selected shape.
 
-![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-intersection.png) **Intersection**: Only the *overlapping* portions of the new and the selected shape remain.
+![](vector-editing-tools.resources/vector-editing-tools-20.png) **Intersection**: Only the *overlapping* portions of the new and the selected shape remain.
 
 +++
 
 ## Shape operations
 
-![Shape operations](vector-editing-tools.resources/2dview-vectorediting-shape-operations.png "Shape operations"){width="512px"}
+![Shape operations](vector-editing-tools.resources/vector-editing-tools-21.png "Shape operations"){width="512px"}
 
 In addition to the tools listed above, a number of operations can be performed on *selected shapes*, using the contextual menu available when clicking RMB. These operations nearly all have a keyboard shortcut (in parentheses below) are organised in the following categories:
 

@@ -18,7 +18,7 @@ This page explains how Substance 3D Designer can publish packages as <b>Substanc
 
 It's usually better to use a Substance 3D asset instead of bitmaps, as it is a lot more flexible and lightweight. If you are using them in Substance 3D [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home), [Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/home) or [Player](https://helpx.adobe.com/substance-3d-player/home.html), it is faster to use the ['Send to...' feature](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md).
 
-![Publishing SBSAR files simplified](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "Publishing SBSAR files simplified")
+![Publishing SBSAR files simplified](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-01.png "Publishing SBSAR files simplified")
 
 ## Publishing concepts
 
@@ -49,14 +49,14 @@ Once you are ready to publish, there are two ways to access the Publishing Dialo
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In the Explorer, right-clicking on the package and choosing ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) **Publish .sbsar file...**, alternative Hotkey Ctrl + P.
+In the Explorer, right-clicking on the package and choosing ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) **Publish .sbsar file...**, alternative Hotkey Ctrl + P.
 
-After publishing with dialog once, you can also use ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) **Publish .sbsar file as previous** to repeat the publishing process without seeing the dialogs, immediately publishing with the same settings.
+After publishing with dialog once, you can also use ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) **Publish .sbsar file as previous** to repeat the publishing process without seeing the dialogs, immediately publishing with the same settings.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publish-rightclick.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-04.gif)
 
 </td>
 </tr>
@@ -66,14 +66,14 @@ After publishing with dialog once, you can also use ![](publishing-substance-3d-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In the Explorer, by clicking the Publish button ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-9-39-58.png) in the top toolbar.
+In the Explorer, by clicking the Publish button ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) in the top toolbar.
 
-After Publishing with dialog once, you can also use the Publish as previous button ![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-11-15-35.png) to repeat the publishing process without seeing the dialogs, immediately publishing with the same settings.
+After Publishing with dialog once, you can also use the Publish as previous button ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) to repeat the publishing process without seeing the dialogs, immediately publishing with the same settings.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publish-toolbutton.gif)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-05.gif)
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Before the Asset Publish Options appear, you will be prompted to save the Substa
 </td>
 <td style="border: 0;" valign="top">
 
-![Asset publishing options](publishing-substance-3d-asset-files-sbsar.resources/publish-dialog.png "Asset publishing options")
+![Asset publishing options](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-06.png "Asset publishing options")
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ To exclude a graph from becoming visible or usable inside an Substance 3D asset 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/image2020-9-23-10-40-21.png)
+![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-07.png)
 
 </td>
 </tr>

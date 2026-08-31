@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](paths-to-spline.resources/paths-to-splines-icon.png "Node icon")
+![Node icon](paths-to-spline.resources/paths-to-spline-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -76,11 +76,11 @@ Converts a paths into splines which can be visualized using a [Spline Render](..
 <table>
   <tr>
     <td>
-      <img src="paths-to-spline.resources/PathsToSpline-Variant1-Before.jpg" alt="PathsToSpline-Variant1-Before">
+      <img src="paths-to-spline.resources/paths-to-spline-02.jpg" alt="PathsToSpline-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="paths-to-spline.resources/PathsToSpline-Variant1-After.jpg" alt="PathsToSpline-Variant1-After">
+      <img src="paths-to-spline.resources/paths-to-spline-03.jpg" alt="PathsToSpline-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ Converts a paths into splines which can be visualized using a [Spline Render](..
 <table>
   <tr>
     <td>
-      <img src="paths-to-spline.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-to-spline.resources/paths-to-spline-04.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="paths-to-spline.resources/PathsToSpline-Variant2-After.jpg" alt="PathsToSpline-Variant2-After">
+      <img src="paths-to-spline.resources/paths-to-spline-05.jpg" alt="PathsToSpline-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>

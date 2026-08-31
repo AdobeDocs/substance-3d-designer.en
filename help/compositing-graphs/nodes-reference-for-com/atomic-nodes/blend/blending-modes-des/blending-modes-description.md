@@ -20,19 +20,19 @@ The [Blend](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nod
 
 The *Copy* blending mode will just place the foreground on top of the background.
 
-![Blending mode: Copy](blending-modes-description.resources/image2015-8-20-9-38-0.png "Blending mode: Copy"){zoomable="yes"}
+![Blending mode: Copy](blending-modes-description.resources/blending-modes-description-01.png "Blending mode: Copy"){zoomable="yes"}
 
 For color images, the alpha channel is taken into account by default in the opacity.
 
 This can be changed by using the 'Alpha blending' parameter.
 
-![Blending mode: Copy (2)](blending-modes-description.resources/image2015-8-20-14-15-29.png "Blending mode: Copy (2)"){zoomable="yes"}
+![Blending mode: Copy (2)](blending-modes-description.resources/blending-modes-description-02.png "Blending mode: Copy (2)"){zoomable="yes"}
 
 ## Add (Linear dodge)
 
 The *Add* blending mode will add the foreground input value to each corresponding pixel in the background.
 
-![Blending mode: Add (Linear dodge)](blending-modes-description.resources/image2015-8-20-9-38-19.png "Blending mode: Add (Linear dodge)"){zoomable="yes"}
+![Blending mode: Add (Linear dodge)](blending-modes-description.resources/blending-modes-description-03.png "Blending mode: Add (Linear dodge)"){zoomable="yes"}
 
 ## Subtract
 
@@ -40,7 +40,7 @@ The *Substract* blending mode will substract the foreground input value from eac
 
 If the result of the substraction is lower than 0, the value is capped to 0, resulting pure black.
 
-![Blending mode: Substract](blending-modes-description.resources/image2015-8-20-9-38-35.png "Blending mode: Substract"){zoomable="yes"}
+![Blending mode: Substract](blending-modes-description.resources/blending-modes-description-04.png "Blending mode: Substract"){zoomable="yes"}
 
 ## Multiply
 
@@ -48,7 +48,7 @@ The *Multiply* blending mode will multiply the background input value by each co
 
 As the value of each pixel is comprised between 0 and 1, the result is always equal or lower (darker) compared to the original.
 
-![Blending mode: Multiply](blending-modes-description.resources/image2015-8-20-9-38-53.png "Blending mode: Multiply"){zoomable="yes"}
+![Blending mode: Multiply](blending-modes-description.resources/blending-modes-description-05.png "Blending mode: Multiply"){zoomable="yes"}
 
 ## Add sub
 
@@ -57,19 +57,19 @@ The *Add Sub* blending mode works as following:
 * Foreground pixels with a value higher than 0.5 are added to their respective background pixels.
 * Foreground pixels with a value lower than 0.5 are substracted from their respective background pixels.
 
-![Blending mode: Add sub](blending-modes-description.resources/image2015-8-20-9-39-11.png "Blending mode: Add sub"){zoomable="yes"}
+![Blending mode: Add sub](blending-modes-description.resources/blending-modes-description-06.png "Blending mode: Add sub"){zoomable="yes"}
 
 ## Max (Lighten)
 
 The *Max* Blending mode will pick the higher value between the background and the foreground.
 
-![Blending mode: Max (Lighten)](blending-modes-description.resources/image2015-8-20-9-40-12.png "Blending mode: Max (Lighten)"){zoomable="yes"}
+![Blending mode: Max (Lighten)](blending-modes-description.resources/blending-modes-description-07.png "Blending mode: Max (Lighten)"){zoomable="yes"}
 
 ## Min (Darken)
 
 The *Min* Blending mode will pick the lower value between the background and the foreground.
 
-![Blending mode: Min (Darken)](blending-modes-description.resources/image2015-8-20-9-40-31.png "Blending mode: Min (Darken)"){zoomable="yes"}
+![Blending mode: Min (Darken)](blending-modes-description.resources/blending-modes-description-08.png "Blending mode: Min (Darken)"){zoomable="yes"}
 
 ## Switch
 
@@ -82,13 +82,13 @@ Therefore, this mode may be used to improve the performances of your graph.
 
 The [Switch](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) and [Switch grayscale](../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md) nodes are setup to use the blend nodes in these specific configurations.
 
-![Blending mode: Switch](blending-modes-description.resources/image2015-8-20-9-38-0.png "Blending mode: Switch"){zoomable="yes"}
+![Blending mode: Switch](blending-modes-description.resources/blending-modes-description-01.png "Blending mode: Switch"){zoomable="yes"}
 
 ## Divide
 
 The *Divide* blending mode will divide the background input pixels value by each corresponding pixel in the foreground.
 
-![Blending mode: Divide](blending-modes-description.resources/image2015-8-20-9-41-32.png "Blending mode: Divide"){zoomable="yes"}
+![Blending mode: Divide](blending-modes-description.resources/blending-modes-description-09.png "Blending mode: Divide"){zoomable="yes"}
 
 ## Overlay
 
@@ -97,7 +97,7 @@ The *Overlay* blending mode combines Multiply and Screen blend modes:
 * * If the value of the lower layer pixel is below 0.5, then a *Multiply* type blending is applied
   * If the value of the lower layer pixel is above 0.5, then a *Screen* type blending is applied
 
-![Blending mode: Overlay](blending-modes-description.resources/image2015-8-20-9-41-50.png "Blending mode: Overlay"){zoomable="yes"}
+![Blending mode: Overlay](blending-modes-description.resources/blending-modes-description-10.png "Blending mode: Overlay"){zoomable="yes"}
 
 ## Screen
 
@@ -105,7 +105,7 @@ With Screen blend mode the values of the pixels in the two inputs are inverted, 
 
 The result is the opposite effect to multiply and is always equal or higher (brighter) compared to the original.
 
-![Blending mode: Screen](blending-modes-description.resources/image2015-8-20-9-42-11.png "Blending mode: Screen"){zoomable="yes"}
+![Blending mode: Screen](blending-modes-description.resources/blending-modes-description-11.png "Blending mode: Screen"){zoomable="yes"}
 
 ## Soft light
 
@@ -113,4 +113,4 @@ The Soft Light blend mode creates a subtle lighter or darker result depending on
 
 Blend colors that are more than 50% brightness will lighten the background pixels and colors that are less than 50% brightness will darken the background pixels.
 
-![Blending mode: Soft light](blending-modes-description.resources/image2015-8-20-9-42-32.png "Blending mode: Soft light"){zoomable="yes"}
+![Blending mode: Soft light](blending-modes-description.resources/blending-modes-description-12.png "Blending mode: Soft light"){zoomable="yes"}

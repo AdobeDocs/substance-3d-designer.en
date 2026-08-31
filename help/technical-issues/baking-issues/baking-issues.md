@@ -39,7 +39,7 @@ Since Designer 15.0, the name of the *geometry* objects are used directly.
 </td>
 <td style="border: 0;" valign="top">
 
-![Geometry object and its parent in the scene tree](baking-issues.resources/sceneTree_objectsName.png "Geometry object and its parent in the scene tree"){zoomable="yes"}
+![Geometry object and its parent in the scene tree](baking-issues.resources/baking-issues-01.png "Geometry object and its parent in the scene tree"){zoomable="yes"}
 
 </td>
 </tr>

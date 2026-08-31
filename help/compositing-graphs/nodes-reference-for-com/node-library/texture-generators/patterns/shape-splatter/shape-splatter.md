@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-splatter.resources/shape-splatter.png){width="128px"}
+![](shape-splatter.resources/shape-splatter-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 

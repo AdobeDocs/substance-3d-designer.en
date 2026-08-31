@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![RT Shadows node icon](rt-shadow.resources/rt-shadow.png "RT Shadows node icon")
+![RT Shadows node icon](rt-shadow.resources/rt-shadow-01.png "RT Shadows node icon")
 
 <b>In:</b> Filters &gt; Effects
 
@@ -58,13 +58,13 @@ This node should not be used in combination with the CPU (SSE) engine due to com
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/RTShadows-01.jpg" />
+            <img src="rt-shadow.resources/rt-shadow-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/RTShadows-02.jpg" />
+            <img src="rt-shadow.resources/rt-shadow-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/RTShadows-03.jpg" />
+            <img src="rt-shadow.resources/rt-shadow-04.jpg" />
         </td>
     </tr>
 </table>

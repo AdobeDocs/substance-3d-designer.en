@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-icon.png "Node icon")
+![Node icon](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -86,11 +86,11 @@ Maps a color image across a list of input splines so the image traverses the spl
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -99,7 +99,7 @@ Maps a color image across a list of input splines so the image traverses the spl
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Demo.gif "Node example 2")
+![Node example 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "Node example 2")
 
 </td>
 </tr>
@@ -109,12 +109,12 @@ Maps a color image across a list of input splines so the image traverses the spl
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After1.jpg "Node example 1")
+![Node example 1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Graph.jpg "Node example 2")
+![Node example 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "Node example 2")
 
 </td>
 </tr>

@@ -50,7 +50,7 @@ Linking a 3D scene into your package is the only way to [bake mesh maps](../../b
 * With the resource loaded in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md), click *RMB* on it and select the <b>Bake Model Information</b> option in the contextual menu
 * The [Bake model information](../../bakers/bakers.md) dialog appears for you to set up and run any mesh maps bakes
 
-![Baking mesh maps](3d-scene-resource.resources/bake-model-information.gif "Baking mesh maps"){width="512px"}
+![Baking mesh maps](3d-scene-resource.resources/3d-scene-resource-01.gif "Baking mesh maps"){width="512px"}
 
 ## UDIM/UV-tile usage
 

@@ -14,13 +14,13 @@ user-guide-title: ""
 
 # Iterate and `$number` variable
 
-![](iterate-and-number-variable.resources/iterate-1.jpg)
+![](iterate-and-number-variable.resources/iterate-and-number-variable-01.jpg)
 
 The Iterate node will render the nodes connected to the right output the amount of time specified by the Iterations value.
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/1-iteration.png"/></div> | 1 iteration: the gaussian pattern is rendered once |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/iterate-and-number-variable-02.png"/></div> | 1 iteration: the gaussian pattern is rendered once |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/10-iterations.png"/></div> | 10 iterations: the gaussian pattern is rendered 10 times at the same place |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/iterate-and-number-variable-03.png"/></div> | 10 iterations: the gaussian pattern is rendered 10 times at the same place |
 
 When using an Iterate node, you can use the `$number` variable to get the current iteration value. `$number` is a float value and starts at 0.
 
@@ -28,12 +28,12 @@ When using an Iterate node, you can use the `$number` variable to get the curren
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](iterate-and-number-variable.resources/position-function.jpg){width="300px"}
+![](iterate-and-number-variable.resources/iterate-and-number-variable-04.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](iterate-and-number-variable.resources/10-iterations-position-function.png){width="300px"}
+![](iterate-and-number-variable.resources/iterate-and-number-variable-05.png){width="300px"}
 
 </td>
 </tr>

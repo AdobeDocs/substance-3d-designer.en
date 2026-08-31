@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scatter Splines on Splines: Icon](scatter-splines-on-splines.resources/scatter-splines-on-splines-icon.png "Scatter Splines on Splines: Icon")
+![Scatter Splines on Splines: Icon](scatter-splines-on-splines.resources/scatter-splines-on-splines-01.png "Scatter Splines on Splines: Icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -48,7 +48,7 @@ Click the image on the right to access our <b>dedicated tutorial</b>, for a guid
 </td>
 <td style="border: 0;" valign="top">
 
-[![Video Spline nodes](scatter-splines-on-splines.resources/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
+[![Video Spline nodes](scatter-splines-on-splines.resources/scatter-splines-on-splines-02.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ Click the image on the right to access our <b>dedicated tutorial</b>, for a guid
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Scatter Splines on Splines: Example 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-1.png "Scatter Splines on Splines: Example 1"){zoomable="yes"}
+![Scatter Splines on Splines: Example 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-03.png "Scatter Splines on Splines: Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Scatter Splines on Splines: Example 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-2.png "Scatter Splines on Splines: Example 1"){zoomable="yes"}
+![Scatter Splines on Splines: Example 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-04.png "Scatter Splines on Splines: Example 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,12 +171,12 @@ Click the image on the right to access our <b>dedicated tutorial</b>, for a guid
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Scatter Splines on Splines: Example 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-4.png "Scatter Splines on Splines: Example 3"){zoomable="yes"}
+![Scatter Splines on Splines: Example 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-05.png "Scatter Splines on Splines: Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Scatter Splines on Splines: Example 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-3.png "Scatter Splines on Splines: Example 4"){zoomable="yes"}
+![Scatter Splines on Splines: Example 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-06.png "Scatter Splines on Splines: Example 4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -188,15 +188,15 @@ Click the image on the right to access our <b>dedicated tutorial</b>, for a guid
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Scatter Splines on Splines: Render 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-1.png "Scatter Splines on Splines: Render 1"){zoomable="yes"}
+![Scatter Splines on Splines: Render 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-07.png "Scatter Splines on Splines: Render 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Scatter Splines on Splines: Render 2](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-3.png "Scatter Splines on Splines: Render 2"){zoomable="yes"}
+![Scatter Splines on Splines: Render 2](scatter-splines-on-splines.resources/scatter-splines-on-splines-08.png "Scatter Splines on Splines: Render 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![Scatter Splines on Splines: Render 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-2.png "Scatter Splines on Splines: Render 3"){zoomable="yes"}
+![Scatter Splines on Splines: Render 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-09.png "Scatter Splines on Splines: Render 3"){zoomable="yes"}

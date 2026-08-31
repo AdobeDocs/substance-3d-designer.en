@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](nadir-extract.resources/nadir-extract.png){width="200px"}
+![](nadir-extract.resources/nadir-extract-01.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 

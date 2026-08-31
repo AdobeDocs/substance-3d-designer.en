@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-splatter-to-mask.resources/shape-splatter-to-mask.png){width="128px"}
+![](shape-splatter-to-mask.resources/shape-splatter-to-mask-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 

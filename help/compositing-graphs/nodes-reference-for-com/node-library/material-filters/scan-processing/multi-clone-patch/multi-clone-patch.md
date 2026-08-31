@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-clone-patch.resources/clone-patch-multi.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-01.png){width="128px"}
 
-![](multi-clone-patch.resources/clone-patch-multi-grayscale.png){width="128px"}
+![](multi-clone-patch.resources/multi-clone-patch-02.png){width="128px"}
 
 <b>In:</b> Material Filters &gt; Scan Processing
 

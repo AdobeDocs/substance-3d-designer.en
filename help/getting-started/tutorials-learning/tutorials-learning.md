@@ -20,7 +20,7 @@ The documentation is mainly meant to be a thorough, technical reference. If you 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[!['First steps' tutorial illustration](tutorials-learning.resources/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
+[!['First steps' tutorial illustration](tutorials-learning.resources/tutorials-learning-01.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ Beginner-level series focused on taking your very first steps with Designer. Int
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[!['Creating your first material' tutorial illustration](tutorials-learning.resources/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
+[!['Creating your first material' tutorial illustration](tutorials-learning.resources/tutorials-learning-02.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -54,7 +54,7 @@ Large starter video series that takes you through the entire process of creating
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[!['Quicktips' tutorial illustration](tutorials-learning.resources/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
+[!['Quicktips' tutorial illustration](tutorials-learning.resources/tutorials-learning-03.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -71,7 +71,7 @@ Each quicktip video focuses on a bite-size set of nodes and techniques. We expla
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[!['Your smartphone is a material scanner' tutorial illustration](tutorials-learning.resources/73d18800-637b-410b-8ceb-22ad6b61ec89.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
+[!['Your smartphone is a material scanner' tutorial illustration](tutorials-learning.resources/tutorials-learning-04.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">

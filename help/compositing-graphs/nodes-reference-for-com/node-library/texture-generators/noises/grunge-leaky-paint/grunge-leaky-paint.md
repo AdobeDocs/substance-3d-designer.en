@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-leaky-paint.resources/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -54,10 +54,10 @@ The **Grunge Leaky Paint** node generates a grunge map akin to paint dripping th
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
+            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
         </td>
     </tr>
 </table>

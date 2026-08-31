@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-crop.resources/crop-multi.png){width="128px"}
+![](multi-crop.resources/multi-crop-01.png){width="128px"}
 
-![](multi-crop.resources/crop-multi-grayscale.png){width="128px"}
+![](multi-crop.resources/multi-crop-02.png){width="128px"}
 
 <b>In:</b> Material Filters &gt; Scan Processing
 

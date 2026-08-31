@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](dust.resources/dust.png){width="128px"}
+![](dust.resources/dust-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -63,7 +63,7 @@ This mask represents dust accumulated in occluded, lowered areas, as well as onl
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="dust.resources/dust-ex.gif" />
+            <img src="dust.resources/dust-02.gif" />
         </td>
     </tr>
 </table>

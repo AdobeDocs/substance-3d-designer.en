@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Node alignment tools
 
-![Node alignment toolbar](node-alignment-tools.resources/node-alignment-toolbar.png "Node alignment toolbar"){zoomable="yes"}
+![Node alignment toolbar](node-alignment-tools.resources/node-alignment-tools-01.png "Node alignment toolbar"){zoomable="yes"}
 
 The Node Alignment Tools let you arrange nodes in graphs to improve their readability and authoring experience. They offer actions for aligning nodes, distributing them evenly and snapping them to the grid.
 
@@ -34,31 +34,31 @@ Nodes may be aligned horizontally and vertically, with three modes for each axis
 
 ### Horizontal alignments
 
-<b>![](node-alignment-tools.resources/node-alignment-h-left.png) Left:</b> Align the left side of the selected nodes to the left side of the leftmost node.
+<b>![](node-alignment-tools.resources/node-alignment-tools-02.png) Left:</b> Align the left side of the selected nodes to the left side of the leftmost node.
 
-<b>![](node-alignment-tools.resources/node-alignment-h-center.png) Center (H):</b> Align the horizontal center of the selected nodes to the horizontal center of the bounding box encompassing them.
+<b>![](node-alignment-tools.resources/node-alignment-tools-03.png) Center (H):</b> Align the horizontal center of the selected nodes to the horizontal center of the bounding box encompassing them.
 
-<b>![](node-alignment-tools.resources/node-alignment-h-right.png) Right:</b> Align the right side of the selected nodes to the right side of the rightmost node.
+<b>![](node-alignment-tools.resources/node-alignment-tools-04.png) Right:</b> Align the right side of the selected nodes to the right side of the rightmost node.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node alignment tools: left](node-alignment-tools.resources/node-alignment-left.gif "Node alignment tools: left"){zoomable="yes"}
+![Node alignment tools: left](node-alignment-tools.resources/node-alignment-tools-05.gif "Node alignment tools: left"){zoomable="yes"}
 
 *Left*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node alignment tools: center](node-alignment-tools.resources/node-alignment-center.gif "Node alignment tools: center"){zoomable="yes"}
+![Node alignment tools: center](node-alignment-tools.resources/node-alignment-tools-06.gif "Node alignment tools: center"){zoomable="yes"}
 
 *Center*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node alignment tools: right](node-alignment-tools.resources/node-alignment-right.gif "Node alignment tools: right"){zoomable="yes"}
+![Node alignment tools: right](node-alignment-tools.resources/node-alignment-tools-07.gif "Node alignment tools: right"){zoomable="yes"}
 
 *Right*
 
@@ -68,31 +68,31 @@ Nodes may be aligned horizontally and vertically, with three modes for each axis
 
 ### Vertical alignments
 
-<b>![](node-alignment-tools.resources/node-alignment-v-top.png) Top:</b> Align the top side of the selected nodes to the top side of the uppermost node.
+<b>![](node-alignment-tools.resources/node-alignment-tools-08.png) Top:</b> Align the top side of the selected nodes to the top side of the uppermost node.
 
-<b>![](node-alignment-tools.resources/node-alignment-v-middle.png) Middle (V):</b> Align the vertical center of the selected nodes to the vertical center of the bounding box encompassing them.
+<b>![](node-alignment-tools.resources/node-alignment-tools-09.png) Middle (V):</b> Align the vertical center of the selected nodes to the vertical center of the bounding box encompassing them.
 
-<b>![](node-alignment-tools.resources/node-alignment-v-bottom.png) Bottom:</b> Align the bottom side of the selected nodes to the bottom side of the lowermost node.
+<b>![](node-alignment-tools.resources/node-alignment-tools-10.png) Bottom:</b> Align the bottom side of the selected nodes to the bottom side of the lowermost node.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node alignment tools: top](node-alignment-tools.resources/node-alignment-top.gif "Node alignment tools: top"){zoomable="yes"}
+![Node alignment tools: top](node-alignment-tools.resources/node-alignment-tools-11.gif "Node alignment tools: top"){zoomable="yes"}
 
 *Top*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node alignment tools: middle](node-alignment-tools.resources/node-alignment-middle.gif "Node alignment tools: middle"){zoomable="yes"}
+![Node alignment tools: middle](node-alignment-tools.resources/node-alignment-tools-12.gif "Node alignment tools: middle"){zoomable="yes"}
 
 *Middle*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node alignment tools: bottom](node-alignment-tools.resources/node-alignment-bottom.gif "Node alignment tools: bottom"){zoomable="yes"}
+![Node alignment tools: bottom](node-alignment-tools.resources/node-alignment-tools-13.gif "Node alignment tools: bottom"){zoomable="yes"}
 
 *Bottom*
 
@@ -102,19 +102,19 @@ Nodes may be aligned horizontally and vertically, with three modes for each axis
 
 ### Stacking
 
-The <b>Stack </b>option ![](node-alignment-tools.resources/node-alignment-stack.png) lets you <b>avoid any overlap</b> when using alignments. It is enabled by default.
+The <b>Stack </b>option ![](node-alignment-tools.resources/node-alignment-tools-14.png) lets you <b>avoid any overlap</b> when using alignments. It is enabled by default.
 
 When enabled, nodes will be moved as far as possible to the reference position until they would collide with another node in the selection. This effectively stacks them in the selected axis with a margin of one medium grid cell between each node.
 
-![Node alignment tools: stacking](node-alignment-tools.resources/node-alignment-stacking.gif "Node alignment tools: stacking"){zoomable="yes"}
+![Node alignment tools: stacking](node-alignment-tools.resources/node-alignment-tools-15.gif "Node alignment tools: stacking"){zoomable="yes"}
 
 ## Distributions
 
 Nodes can be distributed evenly between the nodes at each extremes of the current selection on the desired axis.
 
-<b>![](node-alignment-tools.resources/node-alignment-distribute-h.png) Horizontally:</b> Nodes are distributed evenly between the leftmost and rightmost nodes in the selection.
+<b>![](node-alignment-tools.resources/node-alignment-tools-16.png) Horizontally:</b> Nodes are distributed evenly between the leftmost and rightmost nodes in the selection.
 
-<b>![](node-alignment-tools.resources/node-alignment-distribute-v.png) Vertically:</b> Nodes are distributed evenly between the topmost and lowermost nodes in the selection.
+<b>![](node-alignment-tools.resources/node-alignment-tools-17.png) Vertically:</b> Nodes are distributed evenly between the topmost and lowermost nodes in the selection.
 
 The distributions aim for <b>even spacing</b> between the nodes, regardless of their size.
 
@@ -126,14 +126,14 @@ Note that when the total size of the selected nodes is greater than the space av
 <tr style="border: 0;">
 <td width="58.33%" style="border: 0;" valign="top">
 
-![Node alignment tools: horizontal distribution](node-alignment-tools.resources/node-alignment-distribute-h.gif "Node alignment tools: horizontal distribution"){zoomable="yes"}
+![Node alignment tools: horizontal distribution](node-alignment-tools.resources/node-alignment-tools-18.gif "Node alignment tools: horizontal distribution"){zoomable="yes"}
 
 *Horizontally*
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Node alignment tools: vertical distribution](node-alignment-tools.resources/node-alignment-distribute-v.gif "Node alignment tools: vertical distribution"){zoomable="yes"}
+![Node alignment tools: vertical distribution](node-alignment-tools.resources/node-alignment-tools-19.gif "Node alignment tools: vertical distribution"){zoomable="yes"}
 
 *Vertically*
 
@@ -147,12 +147,12 @@ Note that when the total size of the selected nodes is greater than the space av
 
 ## Grid snapping
 
-The <b>Snap (S) ![](node-alignment-tools.resources/node-alignment-snap.png)</b> action moves each selected node so that their top-left corner rests on the closest point on the medium grid.
+The <b>Snap (S) ![](node-alignment-tools.resources/node-alignment-tools-20.png)</b> action moves each selected node so that their top-left corner rests on the closest point on the medium grid.
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Node alignment tools: grid snapping](node-alignment-tools.resources/node-alignment-snapping.gif "Node alignment tools: grid snapping"){zoomable="yes"}
+![Node alignment tools: grid snapping](node-alignment-tools.resources/node-alignment-tools-21.gif "Node alignment tools: grid snapping"){zoomable="yes"}
 
 </td>
 </tr>

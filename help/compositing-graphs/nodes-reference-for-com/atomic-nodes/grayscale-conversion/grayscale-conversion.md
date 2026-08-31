@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Grayscale conversion](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Atomic node: Grayscale conversion"){width="200px"}
+![Atomic node: Grayscale conversion](grayscale-conversion.resources/grayscale-conversion-01.png "Atomic node: Grayscale conversion"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -20,22 +20,22 @@ In [Substance graphs](../../../compositing-graphs/substance-compositing-graphs.m
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Link creation mode: standard](link-creation-modes.resources/link-creation-mode-standard.gif "Link creation mode: standard"){zoomable="yes"}
+![Link creation mode: standard](link-creation-modes.resources/link-creation-modes-01.gif "Link creation mode: standard"){zoomable="yes"}
 
 *Click to enlarge*
 
-<b>![](link-creation-modes.resources/image2020-10-6-19-40-25.png) Standard</b> (1)
+<b>![](link-creation-modes.resources/link-creation-modes-02.png) Standard</b> (1)
 
 No conditions are enforced.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Link creation mode: material](link-creation-modes.resources/link-creation-mode-material.gif "Link creation mode: material"){zoomable="yes"}
+![Link creation mode: material](link-creation-modes.resources/link-creation-modes-03.gif "Link creation mode: material"){zoomable="yes"}
 
 *Click to enlarge*
 
-![](link-creation-modes.resources/image2020-10-6-17-11-20.png) <b>Material</b> (2)
+![](link-creation-modes.resources/link-creation-modes-04.png) <b>Material</b> (2)
 
 Inputs and outputs are matched based on their usages.
 
@@ -44,11 +44,11 @@ If only one of the two has a usage, the connection is performed as in Standard m
 </td>
 <td style="border: 0;" valign="top">
 
-![Link creation mode: compact material](link-creation-modes.resources/link-creation-mode-compact-material.gif "Link creation mode: compact material"){zoomable="yes"}
+![Link creation mode: compact material](link-creation-modes.resources/link-creation-modes-05.gif "Link creation mode: compact material"){zoomable="yes"}
 
 *Click to enlarge*
 
-![](link-creation-modes.resources/image2020-10-6-19-40-46.png) <b>Compact Material</b> (3)
+![](link-creation-modes.resources/link-creation-modes-06.png) <b>Compact Material</b> (3)
 
 Same as Material.
 
@@ -58,13 +58,13 @@ Inputs and outputs belonging to a same *group* are collapsed.
 </tr>
 </table>
 
-You can switch between modes at any moment in the graph toolbar by clicking on the ![](link-creation-modes.resources/link-creation-mode.png) <b>Link creation mode</b> button or with the keyboard shortcuts listed above.
+You can switch between modes at any moment in the graph toolbar by clicking on the ![](link-creation-modes.resources/link-creation-modes-07.png) <b>Link creation mode</b> button or with the keyboard shortcuts listed above.
 
 In <b>Material</b> and <b>Compact Material</b> modes, connections beteen inputs and outputs with *non-matching usages* are prohibited.
 
 ## The modes
 
-|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-25.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-17-11-20.png"/></div> Compact | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-46.png"/></div> Compact Material |
+|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-02.png"/></div> Standard | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-04.png"/></div> Compact | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/link-creation-modes-06.png"/></div> Compact Material |
 | --- | --- | --- | --- |
 | <b>Inputs</b> | All inputs are visible | All inputs are visible | Only 1 input per group |
 | <b>Outputs</b> | All outputs are visible | All outputs are visible | Only 1 output per group |
@@ -86,7 +86,7 @@ Grouped inputs and outputs of a graph are denoted visually by being *enclosed in
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Group capsule on node](link-creation-modes.resources/link-creation-mode-group-node.png "Group capsule on node"){zoomable="yes"}
+![Group capsule on node](link-creation-modes.resources/link-creation-modes-08.png "Group capsule on node"){zoomable="yes"}
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Grouped inputs and outputs of a graph are denoted visually by being *enclosed in
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Group attribute](link-creation-modes.resources/link-creation-mode-group.png "Group attribute"){zoomable="yes"}
+![Group attribute](link-creation-modes.resources/link-creation-modes-09.png "Group attribute"){zoomable="yes"}
 
 *Click to enlarge*
 
@@ -127,7 +127,7 @@ Once links are grouped, individual inputs need to be matched with outputs. This 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Usage attribute](link-creation-modes.resources/link-creation-mode-usage.png "Usage attribute"){zoomable="yes"}
+![Usage attribute](link-creation-modes.resources/link-creation-modes-10.png "Usage attribute"){zoomable="yes"}
 
 *Click to enlarge*
 

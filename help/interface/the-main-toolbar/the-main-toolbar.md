@@ -23,7 +23,7 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![Main toolbar](the-main-toolbar.resources/mainmenu.png "Main toolbar")
+![Main toolbar](the-main-toolbar.resources/the-main-toolbar-01.png "Main toolbar")
 
 </td>
 </tr>
@@ -31,15 +31,15 @@ This page describes the Main toolbar and menu of [Substance 3D Designer](https:/
 
 ## Quick access buttons
 
-![](the-main-toolbar.resources/newsubstance.png)&nbsp;&nbsp;<b>New Substance graph...:</b> (Ctrl+N)Presents you the [New graph](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) window, then creates a new package with a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
+![](the-main-toolbar.resources/the-main-toolbar-02.png)&nbsp;&nbsp;<b>New Substance graph...:</b> (Ctrl+N)Presents you the [New graph](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) window, then creates a new package with a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md).
 
-![](the-main-toolbar.resources/open.png)&nbsp;&nbsp;<b>Open...:</b> (Ctrl+O) Open an existing [Substance package (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
+![](the-main-toolbar.resources/the-main-toolbar-03.png)&nbsp;&nbsp;<b>Open...:</b> (Ctrl+O) Open an existing [Substance package (.SBS, .SBSAR, .SBSASM)](../../getting-started/overview/overview.md).
 
-![](the-main-toolbar.resources/saveall.png)&nbsp;&nbsp;<b>Save All:</b> (Ctrl+⇧+S) Saves all packages listed in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md).
+![](the-main-toolbar.resources/the-main-toolbar-04.png)&nbsp;&nbsp;<b>Save All:</b> (Ctrl+⇧+S) Saves all packages listed in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md).
 
-![](the-main-toolbar.resources/undo.png)&nbsp;&nbsp;<b>Undo:</b> (Ctrl+Z) Undo the last operation.
+![](the-main-toolbar.resources/the-main-toolbar-05.png)&nbsp;&nbsp;<b>Undo:</b> (Ctrl+Z) Undo the last operation.
 
-![](the-main-toolbar.resources/redo.png)&nbsp;&nbsp;<b>Redo:</b> (Ctrl+Y) Redo the last undone operation.
+![](the-main-toolbar.resources/the-main-toolbar-06.png)&nbsp;&nbsp;<b>Redo:</b> (Ctrl+Y) Redo the last undone operation.
 
 ## File
 

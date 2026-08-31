@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d.resources/cube3-ex.png)
+![](cube-3d.resources/cube-3d-01.png)
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -49,7 +49,7 @@ Renders a grayscale 3D cube with shading that also serves as screen-depth. The r
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="cube-3d.resources/cube3d-ex.gif" />
+            <img src="cube-3d.resources/cube-3d-02.gif" />
         </td>
     </tr>
 </table>

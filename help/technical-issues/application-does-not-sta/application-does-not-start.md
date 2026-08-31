@@ -106,7 +106,7 @@ Linux users starting Designer from Steam may set the LD\_PRELOAD command in Desi
 
 Once this is done, Designer may be started from Steam normally for all future sessions.
 
-![Steam launch options](application-does-not-start.resources/steam_linux_launch_option.jpg "Steam launch options")
+![Steam launch options](application-does-not-start.resources/application-does-not-start-01.jpg "Steam launch options")
 
 
 

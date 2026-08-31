@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](uber-emboss.resources/uber-emboss.png){width="128px"}
+![](uber-emboss.resources/uber-emboss-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -65,7 +65,7 @@ Useful when creating baked-in lighting for certain texturing styles when a lot o
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="uber-emboss.resources/uberemboss-ex.png" />
+            <img src="uber-emboss.resources/uber-emboss-02.png" />
         </td>
     </tr>
 </table>

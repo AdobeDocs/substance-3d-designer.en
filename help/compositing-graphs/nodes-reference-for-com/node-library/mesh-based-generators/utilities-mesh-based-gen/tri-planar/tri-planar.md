@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tri-planar.resources/triplanar-1.png){width="128px"}
+![](tri-planar.resources/tri-planar-01.png){width="128px"}
 
-![](tri-planar.resources/triplanar-grayscale.png){width="128px"}
+![](tri-planar.resources/tri-planar-02.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Utilities
 

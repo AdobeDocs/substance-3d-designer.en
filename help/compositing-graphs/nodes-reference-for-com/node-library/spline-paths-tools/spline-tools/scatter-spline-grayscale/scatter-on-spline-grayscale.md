@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-icon.png "Node icon")
+![Node icon](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -154,11 +154,11 @@ Some aspects of the scattering may be controlled using images from other nodes i
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSplineGrayscale-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSplineGrayscale-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -170,11 +170,11 @@ Some aspects of the scattering may be controlled using images from other nodes i
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSplineGrayscale-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSplineGrayscale-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -188,12 +188,12 @@ Some aspects of the scattering may be controlled using images from other nodes i
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo.gif "Node example 2")
+![Node example 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "Node example 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node demo 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo2.gif "Node demo 2")
+![Node demo 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "Node demo 2")
 
 </td>
 </tr>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-volume-render.resources/3dtexturevolumerender.png){width="200px"}
+![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
 
 <b>In:</b> Filter &gt; Effect
 
@@ -81,22 +81,22 @@ The volume is represented within the bounds of a *unit cube*. The lighting is co
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant2.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant5.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant3.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-variant4.jpg" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3dtexturevolumerender-node.png" />
+            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
         </td>
     </tr>
 </table>

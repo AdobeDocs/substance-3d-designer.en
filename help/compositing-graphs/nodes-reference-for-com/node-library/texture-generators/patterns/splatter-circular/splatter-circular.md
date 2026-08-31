@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](splatter-circular.resources/splatter-circular.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-01.png){width="128px"}
 
-![](splatter-circular.resources/splatter-circular-color.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-02.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -112,7 +112,7 @@ Both inputs are optional.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="splatter-circular.resources/circularsplatter-ex.png" />
+            <img src="splatter-circular.resources/splatter-circular-03.png" />
         </td>
     </tr>
 </table>

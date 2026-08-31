@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](mask-to-paths.resources/mask-to-paths-icon.png "Node icon")
+![Node icon](mask-to-paths.resources/mask-to-paths-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -86,11 +86,11 @@ The generated Paths can be further processed using dedicated nodes – E.g., [Pa
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="mask-to-paths.resources/mask-to-paths-02.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-Variant2-After">
+      <img src="mask-to-paths.resources/mask-to-paths-03.jpg" alt="MaskToPaths-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -102,11 +102,11 @@ The generated Paths can be further processed using dedicated nodes – E.g., [Pa
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-Variant1-Before">
+      <img src="mask-to-paths.resources/mask-to-paths-04.jpg" alt="MaskToPaths-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-Variant1-After">
+      <img src="mask-to-paths.resources/mask-to-paths-05.jpg" alt="MaskToPaths-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -120,12 +120,12 @@ The generated Paths can be further processed using dedicated nodes – E.g., [Pa
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 2](mask-to-paths.resources/MaskToPaths-Demo2.gif "Node example 2"){zoomable="yes"}
+![Node example 2](mask-to-paths.resources/mask-to-paths-06.gif "Node example 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 1](mask-to-paths.resources/MaskToPaths-Demo1.gif "Node example 1"){zoomable="yes"}
+![Node example 1](mask-to-paths.resources/mask-to-paths-07.gif "Node example 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -135,12 +135,12 @@ The generated Paths can be further processed using dedicated nodes – E.g., [Pa
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 3: Startup modes](mask-to-paths.resources/MaskToPaths-Demo3.gif "Node example 3: Startup modes"){zoomable="yes"}
+![Node example 3: Startup modes](mask-to-paths.resources/mask-to-paths-08.gif "Node example 3: Startup modes"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 3: Ordering modes](mask-to-paths.resources/MaskToPaths-Demo4.gif "Node example 3: Ordering modes"){zoomable="yes"}
+![Node example 3: Ordering modes](mask-to-paths.resources/mask-to-paths-09.gif "Node example 3: Ordering modes"){zoomable="yes"}
 
 </td>
 </tr>

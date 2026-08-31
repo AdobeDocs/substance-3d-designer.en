@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](point-list.resources/point-list-icon.png "Node icon")
+![Node icon](point-list.resources/point-list-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -87,12 +87,12 @@ If an existing point list is supplied to the <b>Point</b> inputs, the generated 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](point-list.resources/PointList-Variant1.jpg "Node example 1")
+![Node example 1](point-list.resources/point-list-02.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](point-list.resources/PointList-Demo1.gif "Node example 2")
+![Node example 2](point-list.resources/point-list-03.gif "Node example 2")
 
 </td>
 </tr>

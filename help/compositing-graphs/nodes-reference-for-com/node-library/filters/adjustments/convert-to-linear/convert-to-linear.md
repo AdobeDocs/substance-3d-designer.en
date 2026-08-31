@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](convert-to-linear.resources/convert-to-linear.png){width="128px"}
+![](convert-to-linear.resources/convert-to-linear-01.png){width="128px"}
 
-![](convert-to-linear.resources/convert-to-linear-grayscale.png){width="128px"}
+![](convert-to-linear.resources/convert-to-linear-02.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 

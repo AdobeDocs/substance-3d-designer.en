@@ -22,7 +22,7 @@ It's the first of a graph's <b>Base parameters</b> and, along with the <b>Output
 
 >[!NOTE]
 >
-> Use the ![](output-size.resources/props-output-size-lock.jpg) lock button to have the Height value *match* the Width value.
+> Use the ![](output-size.resources/output-size-01.jpg) lock button to have the Height value *match* the Width value.
 
 <table>
 <tr style="border: 0;">
@@ -92,7 +92,7 @@ In most cases, the default [inheritance method](../../compositing-graphs/inherit
 
 Display the properties of a node or graph by clicking that item, then in the [Properties](../../interface/properties/properties.md) panel find the <b>Output Size</b> property in the <b>Base parameters</b> section. Click the inheritance method drop down menu select the desired inheritance method.
 
-![Output size inheritance method](output-size.resources/change-mode.gif "Output size inheritance method"){width="512px"}
+![Output size inheritance method](output-size.resources/output-size-02.gif "Output size inheritance method"){width="512px"}
 
 ## Example problems
 
@@ -101,7 +101,7 @@ If you are a new [Adobe Substance 3D Designer](https://www.adobe.com/products/su
 +++Problem 1
 **![(error)](output-size.resources/error.svg) Problem**
 
-![Example problem 1](output-size.resources/problem2-bad.png "Example problem 1")
+![Example problem 1](output-size.resources/output-size-03.png "Example problem 1")
 
 
 
@@ -111,7 +111,7 @@ In the graph's properties, the inheritance method of the Output Size property wa
 
 **![(tick)](output-size.resources/check.svg) Solution**
 
-![Example problem 1 Solution](output-size.resources/problem2-good.png "Example problem 1 Solution")
+![Example problem 1 Solution](output-size.resources/output-size-04.png "Example problem 1 Solution")
 
 
 
@@ -122,7 +122,7 @@ Set the inheritance method for the graph's Output size to *Relative to parent*.
 +++Problem 2
 **![(error)](output-size.resources/error.svg) Problem**
 
-![Example problem 2](output-size.resources/problem1-bad.png "Example problem 2")
+![Example problem 2](output-size.resources/output-size-05.png "Example problem 2")
 
 
 
@@ -132,7 +132,7 @@ The problem stems from the [Bitmap](../../compositing-graphs/nodes-reference-for
 
 **![(tick)](output-size.resources/check.svg) Solution**
 
-![Example problem 2 Solution](output-size.resources/problem1-good.png "Example problem 2 Solution")
+![Example problem 2 Solution](output-size.resources/output-size-06.png "Example problem 2 Solution")
 
 
 
@@ -143,7 +143,7 @@ Set the Output Size's inheritance method of the Bitmap node to *Relative to pare
 +++Problem 3
 **![(error)](output-size.resources/error.svg) Problem**
 
-![Example problem 3](output-size.resources/problem3-bad.png "Example problem 3")
+![Example problem 3](output-size.resources/output-size-07.png "Example problem 3")
 
 
 
@@ -153,7 +153,7 @@ The problem is caused by a relative modifier of 3 on the [Transformation 2D](../
 
 **![(tick)](output-size.resources/check.svg) Solution**
 
-![Example problem 3 Solution](output-size.resources/problem3-good.png "Example problem 3 Solution")
+![Example problem 3 Solution](output-size.resources/output-size-08.png "Example problem 3 Solution")
 
 
 

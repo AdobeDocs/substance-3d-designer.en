@@ -18,7 +18,7 @@ The workspace is split into separate areas called <b>docks</b>, which can be [re
 
 Here is Designer's default dock layout:
 
-![Substance 3D Designer main window](interface.resources/interface-overview.jpg "Substance 3D Designer main window")
+![Substance 3D Designer main window](interface.resources/interface-01.jpg "Substance 3D Designer main window")
 
 <table>
 <tr style="border: 0;">
@@ -67,7 +67,7 @@ The main toolbar lets you access extra menu's, like the[ Preferences window](../
 </td>
 <td style="border: 0;" valign="top">
 
-![Main menu and toolbar](interface.resources/mainmenu-1.png "Main menu and toolbar")
+![Main menu and toolbar](interface.resources/interface-02.png "Main menu and toolbar")
 
 </td>
 </tr>
@@ -83,34 +83,34 @@ The main toolbar lets you access extra menu's, like the[ Preferences window](../
 
 [The Explorer window](the-explorer-window/the-explorer-window.md) is the main way of interacting with any kind of file and resource. It gives more options than the File menu in the Main toolbar This is where start and end every working session.
 
-![Explorer](interface.resources/explorer-4.png "Explorer")
+![Explorer](interface.resources/interface-03.png "Explorer")
 
 ## Graph view
 
 [The Graph view dock](../interface/the-graph-view/the-graph-view.md) is the most important window in Substance 3D Designer. It displays the nodal networks of any kind of graph that is available in Designer ([Substance graphs](../compositing-graphs/substance-compositing-graphs.md), [Substance function graphs](../function-graphs/function-graphs.md), [FX-Map graphs](../function-graphs/fxmaps/fxmaps.md)) and lets you build and edit them.
 
-![Graph view](interface.resources/graph-6.png "Graph view")
+![Graph view](interface.resources/interface-04.png "Graph view")
 
 ## Properties
 
 The [Properties dock](properties/properties.md) is the most technical window. It is always context-sensitive and will present sliders, dropdowns and other elements that change the behavior of a selected resource or Node.
 
-![Properties](interface.resources/properties-15.jpg "Properties")
+![Properties](interface.resources/interface-05.jpg "Properties")
 
 ## 2D View
 
 [The 2D View](../interface/2d-view/2d-view.md) is the simplest previewing tool. It works together closely with the Graph: double-clicking on any Node in the Graph View will display into the 2D View the visual result.
 
-![2D View](interface.resources/2d-view-1.jpg "2D View")
+![2D View](interface.resources/interface-06.jpg "2D View")
 
 ## 3D View
 
 [The 3D View](../interface/3d-view/3d-view.md) is the most interactive and most advanced preview window. Unlike the 2D View, it uses a number of different output maps to render a full material. This means you see all channels represented, such as Basecolor, Normal and Roughness.
 
-![3D View](interface.resources/3dview-3.jpg "3D View")
+![3D View](interface.resources/interface-07.jpg "3D View")
 
 ## Library
 
 [The Library dock](../interface/the-library/the-library.md) provides access to all the content included in Designer's library by default, as well as your [custom content](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
-![Library](interface.resources/library-3.jpg "Library")
+![Library](interface.resources/interface-08.jpg "Library")

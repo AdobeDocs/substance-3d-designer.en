@@ -9,7 +9,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Shape splatter v2 mapper grayscale icon](./shape-splatter-v2-mapper-grayscale.resources/shape-splatter-v2-mapper-grayscale.png "Shape splatter v2 mapper grayscale")
+![Shape splatter v2 mapper grayscale icon](./shape-splatter-v2-mapper-grayscale.resources/shape-splatter-v2-mapper-grayscale-01.png "Shape splatter v2 mapper grayscale")
 
 <b>In:</b> Generator &gt; Pattern
 

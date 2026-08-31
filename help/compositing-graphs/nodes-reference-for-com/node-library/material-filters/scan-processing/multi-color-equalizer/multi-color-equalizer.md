@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-color-equalizer.resources/color-equalizer-multi.png){width="128px"}
+![](multi-color-equalizer.resources/multi-color-equalizer-01.png){width="128px"}
 
 <b>In:</b> Material Filters &gt; Scan Processing
 

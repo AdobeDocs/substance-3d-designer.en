@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-speckle.resources/edge-speckle.png){width="128px"}
+![](edge-speckle.resources/edge-speckle-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -62,7 +62,7 @@ This mask represents edges with a slight speckle added to break them up. Also se
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-speckle.resources/edge-speckle-ex.gif" />
+            <img src="edge-speckle.resources/edge-speckle-02.gif" />
         </td>
     </tr>
 </table>

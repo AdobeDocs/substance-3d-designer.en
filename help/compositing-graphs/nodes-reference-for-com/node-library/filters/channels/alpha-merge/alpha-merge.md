@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](alpha-merge.resources/rgb-a-merge.png)
+![](alpha-merge.resources/alpha-merge-01.png)
 
 <b>In:</b> Filters &gt; Channels
 

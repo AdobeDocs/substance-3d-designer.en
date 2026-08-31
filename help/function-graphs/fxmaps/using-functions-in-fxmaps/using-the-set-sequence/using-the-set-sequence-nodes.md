@@ -27,7 +27,7 @@ While working with functions in <b>FX-Maps</b>, you will occasionally be in situ
 </td>
 <td style="border: 0;" valign="top">
 
-![Set and Sequence nodes](using-the-set-sequence-nodes.resources/image2017-3-17-15-5-5.png "Set and Sequence nodes")
+![Set and Sequence nodes](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-01.png "Set and Sequence nodes")
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ By default, the variable set by this node is *only* accessible within the scope 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Set node](using-the-set-sequence-nodes.resources/image2017-3-17-15-12-52.png "Set node")
+![Set node](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-02.png "Set node")
 
 </td>
 </tr>
@@ -70,7 +70,7 @@ In this example, the variable name has been set to **`myVariable`** and its valu
 </td>
 <td style="border: 0;" valign="top">
 
-![Set node example](using-the-set-sequence-nodes.resources/image2018-8-30-17-45-35.png "Set node example")
+![Set node example](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-03.png "Set node example")
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ The output of the *second branch* is then passed to the node's output.
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Sequence node](using-the-set-sequence-nodes.resources/image2017-3-17-15-17-38.png "Sequence node")
+![Sequence node](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-04.png "Sequence node")
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ However, before that happens the `<b>myVariable</b>` variable is set with a floa
 </td>
 <td style="border: 0;" valign="top">
 
-![Sequence node example](using-the-set-sequence-nodes.resources/image2018-8-30-17-49-41.png "Sequence node example")
+![Sequence node example](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-05.png "Sequence node example")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ However, before that happens the `<b>myVariable</b>` variable is set with a floa
 
 For instance, you may *set* a variable first, *update* its value at a later point then *read* its final value, while making sure these actions occur *in a specific order*.
 
-![Sequence node chained](using-the-set-sequence-nodes.resources/image2018-8-30-17-52-27.png "Sequence node chained")
+![Sequence node chained](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-06.png "Sequence node chained")
 
 ## Variable visibility
 
@@ -142,7 +142,7 @@ What we will do is to make all the computation in the <b>Color/Luminosity</b> pa
 </td>
 <td style="border: 0;" valign="top">
 
-![Quadrant properties](using-the-set-sequence-nodes.resources/image2018-8-30-18-1-6.png "Quadrant properties")
+![Quadrant properties](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-07.png "Quadrant properties")
 
 </td>
 </tr>
@@ -161,13 +161,13 @@ Note that the **Position** property is already defined by a random value, and an
 </td>
 <td style="border: 0;" valign="top">
 
-![Quadrant's Color/Luminosity function](using-the-set-sequence-nodes.resources/image2018-8-30-18-4-46.png "Quadrant's Color/Luminosity function")
+![Quadrant's Color/Luminosity function](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-08.png "Quadrant's Color/Luminosity function")
 
 </td>
 </tr>
 </table>
 
-![Patterns scattered](using-the-set-sequence-nodes.resources/image2018-8-30-18-5-30.png "Patterns scattered")
+![Patterns scattered](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-09.png "Patterns scattered")
 
 <table>
 <tr style="border: 0;">
@@ -178,7 +178,7 @@ Now that the `myRotation` variable exists and has a value, let us access the Sub
 </td>
 <td style="border: 0;" valign="top">
 
-![Pattern rotation 's parameter function menu](using-the-set-sequence-nodes.resources/image2018-8-30-18-7-57.png "Pattern rotation 's parameter function menu")
+![Pattern rotation 's parameter function menu](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-10.png "Pattern rotation 's parameter function menu")
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ In the function, we read the value of the `myRotation` parameter using a **Get F
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Pattern rotation's Get float output](using-the-set-sequence-nodes.resources/image2018-8-30-18-10-58.png "Pattern rotation's Get float output")
+![Pattern rotation's Get float output](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-11.png "Pattern rotation's Get float output")
 
 </td>
 </tr>
@@ -201,4 +201,4 @@ In the function, we read the value of the `myRotation` parameter using a **Get F
 
 The luminosity now also controls the rotation.
 
-![Patterns rotated](using-the-set-sequence-nodes.resources/image2018-8-30-18-12-25.png "Patterns rotated")
+![Patterns rotated](using-the-set-sequence-nodes.resources/using-the-set-sequence-nodes-12.png "Patterns rotated")

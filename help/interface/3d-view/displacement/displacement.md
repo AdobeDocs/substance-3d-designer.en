@@ -24,7 +24,7 @@ user-guide-title: ""
                 <li>Tessellation</li></ul>
         </td>
         <td style="width: 60%; margin-left: 32px; border: 0">
-            <img src="./displacement.resources/3d-view-displacement-popup-mograph.gif" alt="Displacement pop-up in the 3D View" />
+            <img src="./displacement.resources/displacement-01.gif" alt="Displacement pop-up in the 3D View" />
         </td>
     </tr>
 </table>
@@ -84,7 +84,7 @@ The steps to displaying the wireframe for each renderer are described below:
 
 ### Rasterizer/GPU Pathtracer
 
-Use the <img src="../3d-view.resources/3d-view-scene-toolbar-render-settings.png" width=22 /> **Renderer settings**
+Use the <img src="../3d-view.resources/3d-view-18.png" width=22 /> **Renderer settings**
 button, then in the Properties dock go to **Render settings > Diagnostic mode** and select the **Wireframe
 (world space)** option.
 

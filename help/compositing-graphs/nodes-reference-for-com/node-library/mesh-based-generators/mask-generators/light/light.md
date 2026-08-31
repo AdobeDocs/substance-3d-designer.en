@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](light.resources/light-2.png){width="128px"}
+![](light.resources/light-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -51,7 +51,7 @@ This mask is a bit different from other Generators: it purely does fake lighting
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="light.resources/light-ex.gif" />
+            <img src="light.resources/light-02.gif" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-select.resources/spline-select-icon.png "Node icon")
+![Node icon](spline-select.resources/spline-select-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -84,11 +84,11 @@ Selected splines can also be trimmed.
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="spline-select.resources/spline-select-02.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-select.resources/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="spline-select.resources/spline-select-03.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>After</i>
     </td>
   </tr>
@@ -100,11 +100,11 @@ Selected splines can also be trimmed.
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
+      <img src="spline-select.resources/spline-select-04.jpg" alt="SplineSelect-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-select.resources/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
+      <img src="spline-select.resources/spline-select-05.jpg" alt="SplineSelect-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -118,7 +118,7 @@ Selected splines can also be trimmed.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](spline-select.resources/SplineSelect-Demo.gif "Node example 1")
+![Node example 1](spline-select.resources/spline-select-06.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

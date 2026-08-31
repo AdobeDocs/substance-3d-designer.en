@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-rough-dirty.resources/grungeroughdirty.jpg){width="200px"}
+![](grunge-rough-dirty.resources/grunge-rough-dirty-01.jpg){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -54,10 +54,10 @@ The **Grunge Rough Dirty** node generates a grunge map akin to a rough dirty sur
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" />
+            <img src="grunge-rough-dirty.resources/grunge-rough-dirty-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" />
+            <img src="grunge-rough-dirty.resources/grunge-rough-dirty-03.jpg" />
         </td>
     </tr>
 </table>

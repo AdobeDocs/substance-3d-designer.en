@@ -24,7 +24,7 @@ This is very helpful if you want to set up a common working environment for a te
 >
 > For more information about setting up and integrating Substance 3D Designer in a **production pipeline**, we *strongly recommend* referring to the [Pipeline and Project Configuration](../../../pipeline-and-project-con/pipeline-and-project-configuration.md) section of the documentation.
 
-![Project settings](project-settings.resources/2019-3-0-prefs-proj-01.png "Project settings"){zoomable="yes"}
+![Project settings](project-settings.resources/project-settings-01.png "Project settings"){zoomable="yes"}
 
 ## Configuration
 
