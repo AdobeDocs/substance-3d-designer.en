@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-merge-list.resources/spline-merge-list-icon.png "Node icon")
+![Node icon](spline-merge-list.resources/spline-merge-list-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -76,11 +76,11 @@ Merges all splines in the input list into a single spline.
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-Variant2-Before">
+      <img src="spline-merge-list.resources/spline-merge-list-02.jpg" alt="SplineMergeList-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-Variant2-After">
+      <img src="spline-merge-list.resources/spline-merge-list-03.jpg" alt="SplineMergeList-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ Merges all splines in the input list into a single spline.
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-Variant1-Before">
+      <img src="spline-merge-list.resources/spline-merge-list-04.jpg" alt="SplineMergeList-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-Variant1-After">
+      <img src="spline-merge-list.resources/spline-merge-list-05.jpg" alt="SplineMergeList-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -106,4 +106,4 @@ Merges all splines in the input list into a single spline.
 </tr>
 </table>
 
-![Node demo](spline-merge-list.resources/SplineMergeList-Demo.gif "Node demo")
+![Node demo](spline-merge-list.resources/spline-merge-list-06.gif "Node demo")

@@ -26,11 +26,11 @@ On this page you can find an overview of all shortcuts for Substance 3D Designer
 
 **Windows**
 
-![Keyboard shortcuts on Windows](shortcuts.resources/keyboard_shortcuts_win.png "Keyboard shortcuts on Windows"){zoomable="yes"}
+![Keyboard shortcuts on Windows](shortcuts.resources/shortcuts-01.png "Keyboard shortcuts on Windows"){zoomable="yes"}
 
 **macOS**
 
-![Keyboard shortcuts on macOS](shortcuts.resources/keyboard_shortcuts_mac.png "Keyboard shortcuts on macOS"){zoomable="yes"}
+![Keyboard shortcuts on macOS](shortcuts.resources/shortcuts-02.png "Keyboard shortcuts on macOS"){zoomable="yes"}
 
 ## Shortcuts lists
 

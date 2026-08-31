@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leaks.resources/leaks.png){width="128px"}
+![](leaks.resources/leaks-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -68,7 +68,7 @@ Make sure to try changing the variation mask: because it drives the placement of
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leaks.resources/leaks-ex.gif" />
+            <img src="leaks.resources/leaks-02.gif" />
         </td>
     </tr>
 </table>

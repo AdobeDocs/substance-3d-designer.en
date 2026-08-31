@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](safe-transform.resources/safe-transform.png)
+![](safe-transform.resources/safe-transform-01.png)
 
-![](safe-transform.resources/safe-transform-grayscale.png)
+![](safe-transform.resources/safe-transform-02.png)
 
 <b>In:</b> Filters &gt; Transforms
 

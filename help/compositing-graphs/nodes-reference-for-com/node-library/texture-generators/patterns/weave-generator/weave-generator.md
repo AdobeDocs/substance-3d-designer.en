@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](weave-generator.resources/weave-generator.png){width="128px"}
+![](weave-generator.resources/weave-generator-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -51,7 +51,7 @@ This node generates a simple weave pattern with a few options. It allows for mor
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="weave-generator.resources/weave-generator-ex.gif" />
+            <img src="weave-generator.resources/weave-generator-02.gif" />
         </td>
     </tr>
 </table>

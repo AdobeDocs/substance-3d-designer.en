@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](atlas-scatter.resources/atlas-scatter.png){width="200px"}
+![](atlas-scatter.resources/atlas-scatter-01.png){width="200px"}
 
 <b>In:</b> Material Filters &gt; Scan Processing
 
@@ -113,7 +113,7 @@ Extract elements from an Atlas and scatter them on a background. Atlas inputs ar
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="atlas-scatter.resources/atlas-scatter-11.png" />
+            <img src="atlas-scatter.resources/atlas-scatter-02.png" />
         </td>
     </tr>
 </table>

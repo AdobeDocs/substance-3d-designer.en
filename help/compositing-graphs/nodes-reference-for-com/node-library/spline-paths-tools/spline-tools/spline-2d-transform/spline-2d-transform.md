@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-2d-transform.resources/spline-2d-transform-icon.png "Node icon")
+![Node icon](spline-2d-transform.resources/spline-2d-transform-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -79,11 +79,11 @@ Applies a global transformation to all input splines, including inverting their 
 <table>
   <tr>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant2-After.jpg" alt="Spline2DTransform-Variant2-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-03.jpg" alt="Spline2DTransform-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -95,11 +95,11 @@ Applies a global transformation to all input splines, including inverting their 
 <table>
   <tr>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-Before.jpg" alt="Spline2DTransform-Variant1-Before">
+      <img src="spline-2d-transform.resources/spline-2d-transform-02.jpg" alt="Spline2DTransform-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-2d-transform.resources/Spline2DTransform-Variant1-After.jpg" alt="Spline2DTransform-Variant1-After">
+      <img src="spline-2d-transform.resources/spline-2d-transform-04.jpg" alt="Spline2DTransform-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -113,7 +113,7 @@ Applies a global transformation to all input splines, including inverting their 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](spline-2d-transform.resources/Spline2DTransform-Demo1.gif "Node example 1")
+![Node example 1](spline-2d-transform.resources/spline-2d-transform-05.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

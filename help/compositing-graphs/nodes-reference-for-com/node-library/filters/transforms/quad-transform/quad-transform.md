@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](quad-transform.resources/quad-transform-grayscale.png){width="128px"}
+![](quad-transform.resources/quad-transform-01.png){width="128px"}
 
-![](quad-transform.resources/quad-transform.png){width="128px"}
+![](quad-transform.resources/quad-transform-02.png){width="128px"}
 
 <b>In:</b> Filters &gt; Transforms
 
@@ -55,7 +55,7 @@ Special transform node that allows transformation of a quad shape through intera
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="quad-transform.resources/quad-example.gif" />
+            <img src="quad-transform.resources/quad-transform-03.gif" />
         </td>
     </tr>
 </table>

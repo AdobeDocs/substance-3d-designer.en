@@ -16,7 +16,7 @@ user-guide-title: ""
 
 This page presents MDL graphs in Substance 3D Designer, which let you author MDL materials and preview their behavior in real time.
 
-![Malachite MDL material](mdl-graphs.resources/mdl-malachite-example.jpg "Malachite MDL material")
+![Malachite MDL material](mdl-graphs.resources/mdl-graphs-01.jpg "Malachite MDL material")
 
 *Malachite with Chrysocolla, MDL material by [Mark Foreman](https://www.artstation.com/oggyart)* *available on our [Legacy Substance Share](https://share-legacy.substance3d.com/libraries/4043)* *platform*
 
@@ -56,7 +56,7 @@ Eager to jump in? Get started with MDL graphs in the MDL learning resources sect
 >
 > You can learn more about the technical implementation of the Material Definition Language in the [NVIDIA MDL Documentation](https://raytracing-docs.nvidia.com/mdl/index.html), which includes links to the MDL Specification and [MDL Handbook](http://mdlhandbook.com/), all authored and maintained by NVIDIA.
 
-![MDL graph properties](mdl-graphs.resources/mdl-main.png "MDL graph properties")
+![MDL graph properties](mdl-graphs.resources/mdl-graphs-02.png "MDL graph properties")
 
 *MDL graph properties in the Properties panel*
 

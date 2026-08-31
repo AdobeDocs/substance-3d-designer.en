@@ -31,7 +31,7 @@ Generally, warnings and errors are displayed on the item which triggered them, a
 
 ### Explorer
 
-For any item in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel which has a warning, that warning is displayed with an ![](warnings-and-errors.resources/warning-icon.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
+For any item in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel which has a warning, that warning is displayed with an ![](warnings-and-errors.resources/warnings-and-errors-01.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
 
 They follow these rules:
 
@@ -42,7 +42,7 @@ They follow these rules:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-02.png){width="256px"}
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ They follow these rules:
 
 ### Graph view
 
-For any item in the [Graph view](../../interface/the-graph-view/the-graph-view.md) panel which has a warning, that warning is displayed with coloured text in the *bottom left corner* of the viewport. If the warning is triggered by a specific node, that node will have a ![](warnings-and-errors.resources/warning-badge.png) warning badge. Leave the cursor on that badge for a few seconds to display a *tooltip* listing all warnings in detail.
+For any item in the [Graph view](../../interface/the-graph-view/the-graph-view.md) panel which has a warning, that warning is displayed with coloured text in the *bottom left corner* of the viewport. If the warning is triggered by a specific node, that node will have a ![](warnings-and-errors.resources/warnings-and-errors-03.png) warning badge. Leave the cursor on that badge for a few seconds to display a *tooltip* listing all warnings in detail.
 
 They follow these rules:
 
@@ -65,7 +65,7 @@ They follow these rules:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-04.png){width="256px"}
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ They follow these rules:
 
 ### Properties
 
-For any item in the [Properties](../../interface/properties/properties.md) panel which has a warning, that warning is displayed with an ![](warnings-and-errors.resources/warning-icon.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
+For any item in the [Properties](../../interface/properties/properties.md) panel which has a warning, that warning is displayed with an ![](warnings-and-errors.resources/warnings-and-errors-01.png) icon on the rightmost edge of the item's entry in the list. Leave the cursor on that icon for a few seconds to display a *tooltip* listing all warnings in detail.
 
 They follow these rules:
 
@@ -88,7 +88,7 @@ They follow these rules:
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-05.png){width="256px"}
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ Both warning and errors are reported in the **Console** panel, which you may acc
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-and-errors.resources/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-06.png){width="256px"}
 
 </td>
 </tr>

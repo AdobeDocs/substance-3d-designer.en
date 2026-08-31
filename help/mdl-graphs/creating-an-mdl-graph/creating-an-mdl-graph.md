@@ -16,7 +16,7 @@ user-guide-title: ""
 
 This page describes the process of creating an MDL graph to author MDL materials in Substance 3D Designer.
 
-![MDL graph creation pathways](creating-an-mdl-graph.resources/mdl-new-graph-hl.png "MDL graph creation pathways")
+![MDL graph creation pathways](creating-an-mdl-graph.resources/creating-an-mdl-graph-01.png "MDL graph creation pathways")
 
 *Pathways for creating a new MDL graph in Designer's interface*
 
@@ -25,12 +25,12 @@ This page describes the process of creating an MDL graph to author MDL materials
 You may create an MDL graph by using any of the following methods:
 
 * Select the **File &gt; New &gt; MDL graph** option in the *main menu bar*
-* Click the ![](creating-an-mdl-graph.resources/mdl-new-graph-icon.png) **Add MDL graph** button in the *main toolbar*
+* Click the ![](creating-an-mdl-graph.resources/creating-an-mdl-graph-02.png) **Add MDL graph** button in the *main toolbar*
 * Right-click an *existing package* in the **Explorer** panel, and select the **New &gt; MDL graph** option
 
 You will be presented with the **New MDL graph** dialog, see below.
 
-![New MDL graph dialog](creating-an-mdl-graph.resources/mdl-templates.png "New MDL graph dialog")
+![New MDL graph dialog](creating-an-mdl-graph.resources/creating-an-mdl-graph-03.png "New MDL graph dialog")
 
 *New MDL graph dialog*
 
@@ -53,10 +53,10 @@ The <b>Project</b> option lets you filter the templates list by Project file. Th
 
 The templates list can be displayed in different modes using the *buttons* next to the **Project** combobox:
 
-* **![](creating-an-mdl-graph.resources/mdl-template-recent-icon.png) Display recently used**: filters the list to display the last templates used in order from *most recent to least recent*, the top item being the most recent
-* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png) Display graphs**: templates are displayed by their *label only*, in the order of the [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) files in the templates’ directory
-* **![](creating-an-mdl-graph.resources/mdl-template-packages-icon.png) Display Substance 3D files**: templates are displayed by their label as *children of the Substance 3D file they belong to*, in the order of the files in the templates’ directory
-* **![](creating-an-mdl-graph.resources/mdl-template-directory-icon.png) Display directories**: templates are displayed by their label as *children of the directory they belong to*, in the order of the files in the templates’ directory
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-04.png) Display recently used**: filters the list to display the last templates used in order from *most recent to least recent*, the top item being the most recent
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-05.png) Display graphs**: templates are displayed by their *label only*, in the order of the [Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) files in the templates’ directory
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-06.png) Display Substance 3D files**: templates are displayed by their label as *children of the Substance 3D file they belong to*, in the order of the files in the templates’ directory
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-07.png) Display directories**: templates are displayed by their label as *children of the directory they belong to*, in the order of the files in the templates’ directory
 
 ### Properties
 

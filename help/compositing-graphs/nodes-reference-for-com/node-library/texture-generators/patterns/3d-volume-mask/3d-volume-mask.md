@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-volume-mask.resources/3dvolumemask.png){width="256px"}
+![](3d-volume-mask.resources/3d-volume-mask-01.png){width="256px"}
 
 <b>In:</b> Generator &gt; Pattern
 
@@ -61,16 +61,16 @@ The **3D Volume Mask** node generates a representation of a *primitive shape* ba
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant2.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant3.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant4.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-05.jpg" />
         </td>
     </tr>
 </table>

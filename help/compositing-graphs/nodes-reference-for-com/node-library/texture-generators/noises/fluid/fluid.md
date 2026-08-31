@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fluid.resources/fluid.png){width="128px"}
+![](fluid.resources/fluid-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -52,7 +52,7 @@ This noise fills a specific niche: it can be useful for generating rain, leaks o
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fluid.resources/fluid-ex.gif" />
+            <img src="fluid.resources/fluid-02.gif" />
         </td>
     </tr>
 </table>

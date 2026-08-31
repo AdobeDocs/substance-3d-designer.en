@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Graph instances and subgraphs
 
-![](graph-instances-sub-graphs.resources/sub-graph.png)
+![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
 
 Graph instances are nodes that <b>reference another graph</b>. A graph referenced by an instance node in a host graph may be called a <b>subgraph</b> of the host graph.
 

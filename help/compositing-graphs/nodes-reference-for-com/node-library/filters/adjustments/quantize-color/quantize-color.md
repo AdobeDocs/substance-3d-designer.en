@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Quantize Color icon](quantize-color.resources/QuantizeColor.png "Quantize Color icon"){width="200px"}
+![Quantize Color icon](quantize-color.resources/quantize-color-01.png "Quantize Color icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -84,11 +84,11 @@ This node may be used in combination with the following nodes: [Create Color Pal
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
+      <img src="quantize-color.resources/quantize-color-02.jpg" alt="quantize_color_example_6_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
+      <img src="quantize-color.resources/quantize-color-03.jpg" alt="quantize_color_example_6_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ This node may be used in combination with the following nodes: [Create Color Pal
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
+      <img src="quantize-color.resources/quantize-color-04.jpg" alt="quantize_color_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
+      <img src="quantize-color.resources/quantize-color-05.jpg" alt="quantize_color_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -110,11 +110,11 @@ This node may be used in combination with the following nodes: [Create Color Pal
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
+      <img src="quantize-color.resources/quantize-color-06.jpg" alt="quantize_color_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
+      <img src="quantize-color.resources/quantize-color-07.jpg" alt="quantize_color_example_3_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -123,11 +123,11 @@ This node may be used in combination with the following nodes: [Create Color Pal
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
+      <img src="quantize-color.resources/quantize-color-08.jpg" alt="quantize_color_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
+      <img src="quantize-color.resources/quantize-color-09.jpg" alt="quantize_color_example_4_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -136,11 +136,11 @@ This node may be used in combination with the following nodes: [Create Color Pal
 <table>
   <tr>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
+      <img src="quantize-color.resources/quantize-color-10.jpg" alt="quantize_color_example_5_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="quantize-color.resources/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
+      <img src="quantize-color.resources/quantize-color-11.jpg" alt="quantize_color_example_5_after">
       <br><i>After</i>
     </td>
   </tr>

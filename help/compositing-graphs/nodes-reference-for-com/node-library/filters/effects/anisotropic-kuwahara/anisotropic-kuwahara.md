@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropic Kuwahara Color icon](anisotropic-kuwahara.resources/anisotropic_kuwahara_color.png "Anisotropic Kuwahara Color icon"){width="200px"}
+![Anisotropic Kuwahara Color icon](anisotropic-kuwahara.resources/anisotropic-kuwahara-01.png "Anisotropic Kuwahara Color icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -51,12 +51,12 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_3_before.jpg){zoomable="yes"}
+![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](anisotropic-kuwahara.resources/anisotropic-kuwahara-02.jpg){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_3_after.jpg){zoomable="yes"}
+![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](anisotropic-kuwahara.resources/anisotropic-kuwahara-03.jpg){zoomable="yes"}
 
 </td>
 </tr>
@@ -101,11 +101,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_1_before.jpg" alt="anisotropic_kuwahara_color_example_1_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-04.jpg" alt="anisotropic_kuwahara_color_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_1_after.jpg" alt="anisotropic_kuwahara_color_example_1_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-05.jpg" alt="anisotropic_kuwahara_color_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -114,11 +114,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_2_before.jpg" alt="anisotropic_kuwahara_color_example_2_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-06.jpg" alt="anisotropic_kuwahara_color_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_2_after.jpg" alt="anisotropic_kuwahara_color_example_2_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-07.jpg" alt="anisotropic_kuwahara_color_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -127,11 +127,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_4_before.jpg" alt="anisotropic_kuwahara_color_example_4_before">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-08.jpg" alt="anisotropic_kuwahara_color_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic_kuwahara_color_example_4_after.jpg" alt="anisotropic_kuwahara_color_example_4_after">
+      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-09.jpg" alt="anisotropic_kuwahara_color_example_4_after">
       <br><i>After</i>
     </td>
   </tr>

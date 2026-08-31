@@ -36,7 +36,7 @@ Three choices are available:
 >
 > To install the license file with the Activation Wizard, make sure you run Designer as an administrator and temporarily disable your anti-virus.
 
-![Activation wizard](activation-and-licenses.resources/activation-wizard.png "Activation wizard")
+![Activation wizard](activation-and-licenses.resources/activation-and-licenses-01.png "Activation wizard")
 
 ### Manual activation
 

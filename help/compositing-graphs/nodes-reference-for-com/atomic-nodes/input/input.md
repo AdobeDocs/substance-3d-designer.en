@@ -18,17 +18,17 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input color](input.resources/comp_inputcolor_1.png "Atomic node: Input color"){width="200px"}
+![Atomic node: Input color](input.resources/input-01.png "Atomic node: Input color"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input grayscale](input.resources/comp_inputgrayscale_1.png "Atomic node: Input grayscale"){width="200px"}
+![Atomic node: Input grayscale](input.resources/input-02.png "Atomic node: Input grayscale"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input value](input.resources/comp_inputnumeric_1.png "Atomic node: Input value"){width="200px"}
+![Atomic node: Input value](input.resources/input-03.png "Atomic node: Input value"){width="200px"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Base parameters include, among others, the <b>Output Size</b>, <b>Output Format<
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Primary input in Substance graph](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Primary input in Substance graph](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](skew.resources/skew-5.png){width="128px"}
+![](skew.resources/skew-01.png){width="128px"}
 
-![](skew.resources/skew-grayscale.png){width="128px"}
+![](skew.resources/skew-02.png){width="128px"}
 
 <b>In:</b> Filters &gt; Transforms
 
@@ -50,7 +50,7 @@ Skews an input image.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="skew.resources/skew-ex.gif" />
+            <img src="skew.resources/skew-03.gif" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](paths-polygon.resources/paths-polygon-icon.png "Node icon")
+![Node icon](paths-polygon.resources/paths-polygon-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -57,12 +57,12 @@ Use the [Path 2D Transform](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](paths-polygon.resources/PathsPolygon_Variant1_1.jpg "Node example 1")
+![Node example 1](paths-polygon.resources/paths-polygon-02.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](paths-polygon.resources/PathsPolygon_Variant2.jpg "Node example 2")
+![Node example 2](paths-polygon.resources/paths-polygon-03.jpg "Node example 2")
 
 </td>
 </tr>

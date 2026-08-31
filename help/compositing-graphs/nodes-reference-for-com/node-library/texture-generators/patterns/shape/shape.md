@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape.resources/shape-2.png){width="128px"}
+![](shape.resources/shape-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -56,7 +56,7 @@ Despite its simplicity, this is a very useful node: it is the building block of 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape.resources/shape-ex.gif" />
+            <img src="shape.resources/shape-02.gif" />
         </td>
     </tr>
 </table>

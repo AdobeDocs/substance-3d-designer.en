@@ -28,7 +28,7 @@ Constant integers generate whole numbers, and have a step of  1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer type icon](constant-nodes.resources/fn-constant-integer.png "Integer type icon")
+![Integer type icon](constant-nodes.resources/constant-nodes-01.png "Integer type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -52,7 +52,7 @@ An integer has a single component. It is useful as an index for making selection
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](constant-nodes.resources/fn-constant-integer2.png "Integer2 type icon")
+![Integer2 type icon](constant-nodes.resources/constant-nodes-02.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,7 +71,7 @@ Integer2 is not common, but is used for example to set X and Y 2D tiling in a [T
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 type icon](constant-nodes.resources/fn-constant-integer3.png "Integer3 type icon")
+![Integer3 type icon](constant-nodes.resources/constant-nodes-03.png "Integer3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ Integer 3 is not common and is unlikely to be encountered much.<b>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 type icon](constant-nodes.resources/fn-constant-integer4.png "Integer4 type icon")
+![Integer4 type icon](constant-nodes.resources/constant-nodes-04.png "Integer4 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -117,7 +117,7 @@ Constant Floats generate fractional numbers, not wholenumbers, which means they 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float type icon](constant-nodes.resources/fn-constant-float.png "Float type icon")
+![Float type icon](constant-nodes.resources/constant-nodes-05.png "Float type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -134,7 +134,7 @@ A Float, has a single component, the (1) is omitted from the name for brevity. F
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 type icon](constant-nodes.resources/fn-constant-float2.png "Float2 type icon")
+![Float2 type icon](constant-nodes.resources/constant-nodes-06.png "Float2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -151,7 +151,7 @@ A Float2 node generates a static 2-component Float Vector. Components are named 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 type icon](constant-nodes.resources/fn-constant-float3.png "Float3 type icon")
+![Float3 type icon](constant-nodes.resources/constant-nodes-07.png "Float3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -169,7 +169,7 @@ A Float3 node generates a static 3-component Float Vector. Components are named 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 type icon](constant-nodes.resources/fn-constant-float4.png "Float4 type icon")
+![Float4 type icon](constant-nodes.resources/constant-nodes-08.png "Float4 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -191,7 +191,7 @@ Two additional data types exist inside Substance function graphs: booleans and s
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Boolean type icon](constant-nodes.resources/fn-constant-boolean.png "Boolean type icon")
+![Boolean type icon](constant-nodes.resources/constant-nodes-09.png "Boolean type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -208,7 +208,7 @@ A Boolean is the simplest data type there is, knowing only two states: True or F
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![String type icon](constant-nodes.resources/fn-constant-string.png "String type icon")
+![String type icon](constant-nodes.resources/constant-nodes-10.png "String type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

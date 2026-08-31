@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Material samples
 
-![Material samples - Template cards](material-samples.resources/materialSamples-cards.png "Material samples - Template cards")
+![Material samples - Template cards](material-samples.resources/material-samples-01.png "Material samples - Template cards")
 
 Designer offers a curated selection of sample graphs spanning various materials types to learn from and experiment with.
 
@@ -30,14 +30,14 @@ When creating a new Substance graph, you will find the samples in the [New Subst
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![New Substance graph dialog - Material samples](material-samples.resources/newGraphDialog-samples-1.png "New Substance graph dialog - Material samples"){zoomable="yes"}
+![New Substance graph dialog - Material samples](material-samples.resources/material-samples-02.png "New Substance graph dialog - Material samples"){zoomable="yes"}
 
 Open the <b>Category</b> combobox and select <b>Material samples</b> to list the available templates.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Material samples - Banner button](material-samples.resources/materialSamples-bannerButton.png "Material samples - Banner button"){zoomable="yes"}
+![Material samples - Banner button](material-samples.resources/material-samples-03.png "Material samples - Banner button"){zoomable="yes"}
 
 You can go directly to the list of samples in the dialog, by using the <b>Go to samples</b> button conveniently placed
 in the <b>Home screen</b>.
@@ -56,7 +56,7 @@ explored in the sample.
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![Material samples - Template card tooltip](material-samples.resources/newGraphDialog-sampleTooltip.png "Material samples - Template card tooltip"){zoomable="yes"}
+![Material samples - Template card tooltip](material-samples.resources/material-samples-04.png "Material samples - Template card tooltip"){zoomable="yes"}
 
 </td>
 </tr>
@@ -78,4 +78,4 @@ So your workspace is automatically set up and you are ready to go. (This can be 
 > the material in the 3D View will automatically switch to the <code>OpenPBR Surface</code> shader in order to
 > view the sample accurately.
 
-![Material sample - Graph](material-samples.resources/materialSamples-graph.png "Material sample - Graph"){zoomable="yes"}
+![Material sample - Graph](material-samples.resources/material-samples-05.png "Material sample - Graph"){zoomable="yes"}

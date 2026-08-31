@@ -30,7 +30,7 @@ Add one or more [Output](../../compositing-graphs/nodes-reference-for-com/atomic
 >
 > The graph templates available through the [New graph](../creating-compositing-gra/creating-a-substance-compositing-graph.md) dialog have preset Output nodes ready to be used.
 
-![Fix 'No output node defined' warning](warnings-in-substance-compositing-graphs.resources/warnings-comp-output.gif "Fix 'No output node defined' warning"){width="512px"}
+![Fix 'No output node defined' warning](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-01.gif "Fix 'No output node defined' warning"){width="512px"}
 
 ### ![(error)](warnings-in-substance-compositing-graphs.resources/error.svg) The *&#91;x&#93;* parameter's function has some warnings
 
@@ -45,7 +45,7 @@ Locate the node emitting the warning by its label and warning badge in the [Grap
 
 Then, assess the warning(s) listed in the bottom left corner of the Graph view and solve the issues. You may refer to the [Warnings in function graphs](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) page for troubleshooting warnings reported in function graphs.
 
-![Fix 'Parameter function has some warnings' warning](warnings-in-substance-compositing-graphs.resources/warnings-comp-param-function.gif "Fix 'Parameter function has some warnings' warning")
+![Fix 'Parameter function has some warnings' warning](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-02.gif "Fix 'Parameter function has some warnings' warning")
 
 ### ![(error)](warnings-in-substance-compositing-graphs.resources/error.svg) The referenced data has some warnings
 
@@ -63,7 +63,7 @@ In the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) pa
 * For graphs, refer to other items in this page
 * For any other type of resource, refer to the [Warnings from dependencies](../../resources/warnings-from-dep/warnings-from-dependencies.md) page
 
-![Fix 'Referenced data has some warnings' warning](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-data.gif "Fix 'Referenced data has some warnings' warning")
+![Fix 'Referenced data has some warnings' warning](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-03.gif "Fix 'Referenced data has some warnings' warning")
 
 ### ![(error)](warnings-in-substance-compositing-graphs.resources/error.svg) Reference resource not found
 
@@ -86,7 +86,7 @@ For [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitma
 Find the referenced resources in the Explorer panel and check they exist at the location saved in their **File Path** attribute.  
 If they do not, click RMB on the resource item in the Explorer and select the **Relocate...** option in the contextual menu to set a new valid target file for that resource.
 
-![Fix 'Reference resource not found' warning](warnings-in-substance-compositing-graphs.resources/warnings-comp-referenced-resource.gif "Fix 'Reference resource not found' warning")
+![Fix 'Reference resource not found' warning](warnings-in-substance-compositing-graphs.resources/warnings-in-substance-compositing-graphs-04.gif "Fix 'Reference resource not found' warning")
 
 ### ![(error)](warnings-in-substance-compositing-graphs.resources/error.svg) Text node uses invalid font
 

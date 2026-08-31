@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies.png){width="128px"}
+![](lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -49,7 +49,7 @@ Also see [Lighting Cancel Low Frequencies](../../../../../../compositing-graphs/
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="lighting-cancel-high-frequencies.resources/lighting-cancel-highfrequencies-example.png" />
+            <img src="lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies-02.png" />
         </td>
     </tr>
 </table>

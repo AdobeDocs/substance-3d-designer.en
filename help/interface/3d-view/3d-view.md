@@ -24,7 +24,7 @@ Learn more here: [3D renderers](3d-renderers/3d-renderers.md)
 
 +++ The 3D view dock
 
-![3d-view.png](3d-view.resources/3d-view.png)
+![3d-view.png](3d-view.resources/3d-view-01.png)
 
 +++
 
@@ -32,7 +32,7 @@ Learn more here: [3D renderers](3d-renderers/3d-renderers.md)
 
 The section below explains you how to do common actions in short, along with an animated gif to illustrate the process.
 
-![Viewport navigation](3d-view.resources/3d-navigate.gif "Viewport navigation")
+![Viewport navigation](3d-view.resources/3d-view-02.gif "Viewport navigation")
 
 ### Navigation
 
@@ -78,11 +78,11 @@ You can interact with meshes directly in the viewport:
 
 <b>Press Escape to unselect.</b> The cursor does not need to be on the mesh.
 
-![3D View - Focus and unselect](3d-view.resources/sceneBrowser-focus.gif "3D View - Focus and unselect"){zoomable="yes"}
+![3D View - Focus and unselect](3d-view.resources/3d-view-03.gif "3D View - Focus and unselect"){zoomable="yes"}
 
 *Select, focus, unselect*
 
-![3D View - Contextual menu](3d-view.resources/sceneBrowser-contextualMenu.gif "3D View - Contextual menu"){zoomable="yes"}
+![3D View - Contextual menu](3d-view.resources/3d-view-04.gif "3D View - Contextual menu"){zoomable="yes"}
 
 *Select, contextual menu*
 
@@ -108,13 +108,13 @@ To use your own, custom HDR light environment, import an HDR image by dragging a
 
 Go to <b>Lights &gt; Edit properties</b> to toggle point lights in your scene.
 
-Point light 1 can be moved around the scene's origin by holding LMB or RMB and dragging in the viewport in Lighting mode. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width=24 />
+Point light 1 can be moved around the scene's origin by holding LMB or RMB and dragging in the viewport in Lighting mode. <img src="3d-view.resources/3d-view-05.png" width=24 />
 
-While in Camera mode <img src="3d-view.resources/image2020-9-17-10-31-32.png" width=24 /> , you can also temporarily switch to Lighting mode by hold the Ctrl+⇧ keys in combination with the mouse buttons.
+While in Camera mode <img src="3d-view.resources/3d-view-06.png" width=24 /> , you can also temporarily switch to Lighting mode by hold the Ctrl+⇧ keys in combination with the mouse buttons.
 
 ## View data in 3D View
 
-![View Substance graph outputs](3d-view.resources/3d-material.gif "View Substance graph outputs")
+![View Substance graph outputs](3d-view.resources/3d-view-07.gif "View Substance graph outputs")
 
 ### Substance graphs
 
@@ -134,7 +134,7 @@ When *loading a graph*, its outputs are automatically applied in the 3D View by 
 > 
 > If you use custom meshes with more than one single material, you'll be asked to choose what material slot to assign the material to. With any of the above methods, click a slot to confirm your choice. For more information on Materials an their assignment, read the detailed section below.
 
-![Viewing node vs graph outputs in 3D View](3d-view.resources/3d-channel.gif "Viewing node vs graph outputs in 3D View")
+![Viewing node vs graph outputs in 3D View](3d-view.resources/3d-view-08.gif "Viewing node vs graph outputs in 3D View")
 
 ### Individual node/graph output
 
@@ -146,7 +146,7 @@ You can also use *RMB* to drag and drop any node from the Graph view to the 3D V
 
 You can view any individual graph output by expanding the graph resource in the [Explorer](../the-explorer-window/the-explorer-window.md) dock, and using *LMB* to drag that output to the 3D View. You will be shown a list with available channels to assign the node to. Click any to confirm.
 
-![Viewing custom 3D meshes](3d-view.resources/3d-mesh.gif "Viewing custom 3D meshes")
+![Viewing custom 3D meshes](3d-view.resources/3d-view-09.gif "Viewing custom 3D meshes")
 
 ## View (custom) 3D scenes
 
@@ -155,7 +155,7 @@ Pick any of the default meshes through the <b>Scene</b> dropdown menu in the top
 
 For custom 3D scenes, go to the [Working with 3D scenes](../../working-with-3d-scenes/working-with-3d-scenes.md) section.
 
-![Changing material properties](3d-view.resources/3d-materials.gif "Changing material properties")
+![Changing material properties](3d-view.resources/3d-view-10.gif "Changing material properties")
 
 ## Change shader properties
 
@@ -178,7 +178,7 @@ Shaders can be reset using the 'Reset material' or 'Reset to scene state' action
 > * <b>Rasterizer/GPU Pathtracer:</b> Located in the renderer settings (Renderer &gt; Edit settings), impacts the *entire scene*.
 > * <b>OpenGL:</b> Located in the material properties, impacts the material.
 
-![Exporting the scene](3d-view.resources/3d-view-export-scene.gif "Exporting the scene")
+![Exporting the scene](3d-view.resources/3d-view-11.gif "Exporting the scene")
 
 ## Export scene
 
@@ -224,7 +224,7 @@ The menu bar provides 7 menus with options related to the 3D View. below is an o
 +++Scene
 The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D view states. 3D Resource sare just the mesh, Scene states are lights, camera, and related settings, and can also contain the mesh alongside.
 
-![Scene menu meshes](3d-view.resources/3d-view-meshes.png "Scene menu meshes")
+![Scene menu meshes](3d-view.resources/3d-view-12.png "Scene menu meshes")
 
 
 
@@ -419,7 +419,7 @@ It also lets you access the [Displacement pop-up](displacement/displacement.md) 
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-scene-browser.png" width=24 />&nbsp;&nbsp;<b>Scene browser</b>
+<img src="3d-view.resources/3d-view-13.png" width=24 />&nbsp;&nbsp;<b>Scene browser</b>
 
 Displays a hierarchy of all elements in a 3D scene.
 
@@ -428,7 +428,7 @@ Displays a hierarchy of all elements in a 3D scene.
 >The Scene browser and its features are covered extensively in [the dedicated page](../../interface/3d-view/scene-browser/scene-browser.md).
 
 
-<img src="3d-view.resources/3d-view-scene-toolbar-select.png" width=24 />&nbsp;&nbsp;<b>Select</b>
+<img src="3d-view.resources/3d-view-14.png" width=24 />&nbsp;&nbsp;<b>Select</b>
 
 Enables direct selection of meshes in the scene.
 
@@ -442,7 +442,7 @@ Meshes can also be selected in Camera or Light modes, by pressing <code>Shift+LM
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-camera.png" width=22 />&nbsp;&nbsp;&nbsp;&nbsp;<b>Camera</b>
+<img src="3d-view.resources/3d-view-15.png" width=22 />&nbsp;&nbsp;&nbsp;&nbsp;<b>Camera</b>
 
 Enables direct control of the Camera in the scene.
 
@@ -450,13 +450,13 @@ Enables direct control of the Camera in the scene.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-environment.png" width=24 />&nbsp;&nbsp;<b>Show environment</b>
+<img src="3d-view.resources/3d-view-16.png" width=24 />&nbsp;&nbsp;<b>Show environment</b>
 
 This button toggles the display of the scene's environment. The same setting can be found in the Properties dock after going to <b>Environment &gt; Edit</b> in the 3D View's menu bar.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-light.png" width=24 />&nbsp;&nbsp;<b>Light</b>
+<img src="3d-view.resources/3d-view-17.png" width=24 />&nbsp;&nbsp;<b>Light</b>
 
 Enables direct control of the Point light 1 in the scene.
 
@@ -464,31 +464,31 @@ Enables direct control of the Point light 1 in the scene.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-render-settings.png" width=24 />&nbsp;&nbsp;<b>Renderer settings</b>
+<img src="3d-view.resources/3d-view-18.png" width=24 />&nbsp;&nbsp;<b>Renderer settings</b>
 
 Displays the settings of the current renderer in the [Properties](../properties/properties.md) dock.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-pathtracer.png" width=24 />&nbsp;&nbsp;<b>Enable Pathtracer</b>
+<img src="3d-view.resources/3d-view-19.png" width=24 />&nbsp;&nbsp;<b>Enable Pathtracer</b>
 
 Toggles the selection of the [GPU Pathtracer](3d-renderers/3d-renderers.md#gpu-pathtracer) renderer.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-shadows.png" width=24 />&nbsp;&nbsp;<b>Enable shadows</b>
+<img src="3d-view.resources/3d-view-20.png" width=24 />&nbsp;&nbsp;<b>Enable shadows</b>
 
 Toggles the rendering of real-time shadows in the [Rasterizer](3d-renderers/3d-renderers.md#rasterizer) renderer.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-ground-plane.png" width=24 />&nbsp;&nbsp;<b>Enable ground plane</b>
+<img src="3d-view.resources/3d-view-21.png" width=24 />&nbsp;&nbsp;<b>Enable ground plane</b>
 
 Toggles the rendering of the ground plane in the [Rasterizer](3d-renderers/3d-renderers.md#rasterizer) and [GPU Pathtracer](3d-renderers/3d-renderers.md#gpu-pathtracer) renderers.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-displacement.png" width=24 />&nbsp;&nbsp;<b>Displacement</b>
+<img src="3d-view.resources/3d-view-22.png" width=24 />&nbsp;&nbsp;<b>Displacement</b>
 
 Displays the [Displacement pop-up](displacement/displacement.md).
 
@@ -498,19 +498,19 @@ Displays the [Displacement pop-up](displacement/displacement.md).
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-grid.png" width=24 />&nbsp;&nbsp;<b>Grid</b>
+<img src="3d-view.resources/3d-view-23.png" width=24 />&nbsp;&nbsp;<b>Grid</b>
 
 Toggles the display of the world grid.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-stats.png" width=24 />&nbsp;&nbsp;<b>Scene stats</b>
+<img src="3d-view.resources/3d-view-24.png" width=24 />&nbsp;&nbsp;<b>Scene stats</b>
 
 Toggles display of scene statistics, such as polycount, materials count, static meshes count, etc.
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-pivot.png" width=24 />&nbsp;&nbsp;<b>Axis</b>
+<img src="3d-view.resources/3d-view-25.png" width=24 />&nbsp;&nbsp;<b>Axis</b>
 
 Toggles display of the 3D axis in the viewport.
 
@@ -520,25 +520,25 @@ Toggles display of the 3D axis in the viewport.
 
 <br>
 
-![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Backface culling</b>
+![](3d-view.resources/3d-view-26.jpg) <b>Backface culling</b>
 
 Disabling this option lets you see a mesh face from *both sides*. The option works in combination with Wireframe.
 
 <br>
 
-![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Bounding Box</b>
+![](3d-view.resources/3d-view-27.jpg) <b>Bounding Box</b>
 
 Toggles display of the mesh' bounding box.
 
 <br>
 
-![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Vertex tangent space</b>
+![](3d-view.resources/3d-view-28.jpg) <b>Vertex tangent space</b>
 
 Displays the tangent, binormal and normal vectors for all vertices as colored gizmos.
 
 <br>
 
-![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Wireframe</b>
+![](3d-view.resources/3d-view-29.jpg) <b>Wireframe</b>
 
 Toggles display of the mesh as a wireframe.
 
@@ -555,20 +555,20 @@ The <b>Display</b> toolbar, which is located at the *bottom* of the <b>3D View</
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0; vertical-align: top">
         <td style="border: 0">
-            <p>You can display different <a href="../../glossary/glossary.md#aov">AOVs</a> using the <img src="./3d-view.resources/aov/aov-icon.png" alt="3D render AOVs icon" style="padding-left: 5px; padding-right: 5px" /> <b>3D render AOVs</b> button.</p>
+            <p>You can display different <a href="../../glossary/glossary.md#aov">AOVs</a> using the <img src="./3d-view.resources/aov/3d-view-30.png" alt="3D render AOVs icon" style="padding-left: 5px; padding-right: 5px" /> <b>3D render AOVs</b> button.</p>
             <p>AOVs let you inspect mesh and material information in isolation for focused work and debugging.</p>
             <p>Some AOVs include <i>HDR values</i> that are clamped to 1 (pure white) or 0 (pure black) in the viewport.<br>To inspect the full range of values, you can export a 3D render of the AOV to an image file format that supports HDR values, such as <code>.exr</code>.<br>Use the <code>Camera > Save render...</code> menu option to export the current AOV.</p>
             <p><i>Note:</i> AOVs are only available when using the Rasterizer and GPU Pathtracer <a href="./3d-renderers/3d-renderers.md">3D renderers</a>.</p>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="3d-view.resources/aov/aov-composited.jpg" alt="3D render AOVs composited" />
+            <img src="3d-view.resources/aov/3d-view-31.jpg" alt="3D render AOVs composited" />
         </td>
     </tr>
 </table>
 
 ### Color channels
 
-You can display a single channel of the image using the ![](3d-view.resources/2d-view-icon-channels.png) <b>Color channels</b> button. This opens a combo box letting you select which of the <b>Red</b>, <b>Green</b> and <b>Blue</b> channels should be displayed. The normal aspect of the image with all channels is restored by selecting the <b>RGB</b> option.
+You can display a single channel of the image using the ![](3d-view.resources/3d-view-32.png) <b>Color channels</b> button. This opens a combo box letting you select which of the <b>Red</b>, <b>Green</b> and <b>Blue</b> channels should be displayed. The normal aspect of the image with all channels is restored by selecting the <b>RGB</b> option.
 
 The *icon* of the <b>Color channels</b> button *changes* depending on the currently display channel(s).
 

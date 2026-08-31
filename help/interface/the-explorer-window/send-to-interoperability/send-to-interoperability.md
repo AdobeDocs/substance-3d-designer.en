@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Send to...  Interoperability
 
-![Send from Designer to Substance 3D apps](send-to-interoperability.resources/explorer-interop.png "Send from Designer to Substance 3D apps"){width="512px"}
+![Send from Designer to Substance 3D apps](send-to-interoperability.resources/send-to-interoperability-01.png "Send from Designer to Substance 3D apps"){width="512px"}
 
 Adobe Substance 3D Designer has interoperability with [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) and [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html). It allows you to *send* and *resend* you work over quickly, facilitating iteration across the Substance 3D ecosystem.
 
@@ -43,7 +43,7 @@ In the <b>Attributes </b>section of a [Substance graph's properties](../../../co
 </td>
 <td style="border: 0;" valign="top">
 
-![Substance graph's Type attribute](send-to-interoperability.resources/type-attribute.jpg "Substance graph's Type attribute")
+![Substance graph's Type attribute](send-to-interoperability.resources/send-to-interoperability-02.jpg "Substance graph's Type attribute")
 
 </td>
 </tr>
@@ -70,12 +70,12 @@ The sending process involved [publishing](../../../compositing-graphs/publishing
 Sending content may performed in the following ways:
 
 * Right-click on a package and open the <b>Send to...</b> submenu in the contextual menu, then choose the <b>Send to...</b> option for the target application;
-* Click on the ![](send-to-interoperability.resources/sendto-icon.jpg) <b>Publish/Send</b> button at the top of the Explorer panel, then choose the <b>Send to...</b> option for the target application.
+* Click on the ![](send-to-interoperability.resources/send-to-interoperability-03.jpg) <b>Publish/Send</b> button at the top of the Explorer panel, then choose the <b>Send to...</b> option for the target application.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Publish/Send to menu in Explorer](send-to-interoperability.resources/explorer-sendto-displayed.jpg "Publish/Send to menu in Explorer")
+![Publish/Send to menu in Explorer](send-to-interoperability.resources/send-to-interoperability-04.jpg "Publish/Send to menu in Explorer")
 
 </td>
 </tr>

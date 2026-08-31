@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](cube-3d-gbuffers.resources/cube3d.png){width="128px"}
+![](cube-3d-gbuffers.resources/cube-3d-gbuffers-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 

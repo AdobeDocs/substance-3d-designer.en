@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](rt-irradiance.resources/rt-irradiance.png){width="128px"}
+![](rt-irradiance.resources/rt-irradiance-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -64,13 +64,13 @@ Generates ray traced irradiance on a height map input generated from an environm
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-03-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-01-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-irradiance.resources/rt-irr-02-1.jpg" />
+            <img src="rt-irradiance.resources/rt-irradiance-04.jpg" />
         </td>
     </tr>
 </table>

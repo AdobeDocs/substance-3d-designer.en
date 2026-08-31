@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline (Quadratic): icon](spline-quadratic.resources/spline-quadratic-icon.png "Spline (Quadratic): icon")
+![Spline (Quadratic): icon](spline-quadratic.resources/spline-quadratic-01.png "Spline (Quadratic): icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -97,12 +97,12 @@ The span of the arc formed by the spline is *adjustable*, so that some of its tr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Example 1](spline-quadratic.resources/spline-quadratic-example-1.png "Spline (Quadratic): Example 1"){zoomable="yes"}
+![Spline (Quadratic): Example 1](spline-quadratic.resources/spline-quadratic-02.png "Spline (Quadratic): Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Example 2](spline-quadratic.resources/spline-quadratic-example-2.png "Spline (Quadratic): Example 2"){zoomable="yes"}
+![Spline (Quadratic): Example 2](spline-quadratic.resources/spline-quadratic-03.png "Spline (Quadratic): Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The span of the arc formed by the spline is *adjustable*, so that some of its tr
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Spline (Quadratic): Demo](spline-quadratic.resources/spline-quadratic-demo.gif "Spline (Quadratic): Demo"){zoomable="yes"}
+![Spline (Quadratic): Demo](spline-quadratic.resources/spline-quadratic-04.gif "Spline (Quadratic): Demo"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-worley-noise.resources/3d-worley.png){width="128px"}
+![](3d-worley-noise.resources/3d-worley-noise-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -53,16 +53,16 @@ One of the most versatile and advanced noises in the library, it generates a Wor
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex04.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex03.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex02.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-04.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex01.png" />
+            <img src="3d-worley-noise.resources/3d-worley-noise-05.png" />
         </td>
     </tr>
 </table>

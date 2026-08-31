@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fxaa.resources/fxaa-color.png)![](fxaa.resources/fxaa-grayscale.png)
+![](fxaa.resources/fxaa-01.png)![](fxaa.resources/fxaa-02.png)
 
 <b>In:</b> Filters &gt; Effects
 
@@ -38,7 +38,7 @@ Applies an anti aliasing filter based on the FXAA algorithm. You can use this to
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fxaa.resources/fxaa-ex.png" />
+            <img src="fxaa.resources/fxaa-03.png" />
         </td>
     </tr>
 </table>

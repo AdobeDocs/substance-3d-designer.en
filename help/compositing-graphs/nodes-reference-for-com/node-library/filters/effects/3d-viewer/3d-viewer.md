@@ -9,7 +9,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![3D viewer icon](./3d-viewer.resources/3d-viewer.png "3D viewer")
+![3D viewer icon](./3d-viewer.resources/3d-viewer-01.png "3D viewer")
 
 <b>In:</b> Filter &gt; Effect
 
@@ -96,24 +96,24 @@ Computes a 3D render for a specified SDF or intersection scene defined by a func
 <table style="border: none;">
     <tr style="width: 50%;">
         <td style="text-align: center">
-            <img src="3d-viewer.resources/3d-viewer-example-01.jpg" alt="Example 1" />
+            <img src="3d-viewer.resources/3d-viewer-02.jpg" alt="Example 1" />
         </td>
         <td style="width: 50%;">
             <table style="border: none;">
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02a.jpg" alt="Example 1" />
+                        <img src="3d-viewer.resources/3d-viewer-03.jpg" alt="Example 1" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02b.jpg" alt="Example 2" />
+                        <img src="3d-viewer.resources/3d-viewer-04.jpg" alt="Example 2" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02c.jpg" alt="Example 3" />
+                        <img src="3d-viewer.resources/3d-viewer-05.jpg" alt="Example 3" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-example-02d.jpg" alt="Example 4" />
+                        <img src="3d-viewer.resources/3d-viewer-06.jpg" alt="Example 4" />
                     </td>
                 </tr>
             </table>

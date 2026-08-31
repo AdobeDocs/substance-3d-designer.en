@@ -24,7 +24,7 @@ For other formats, the contents of the scene and its internal structure will dep
 >
 > All items added to the scene by Designer will be included in the exported scene: the default camera, the default environment, all material copies any additional lights.
 
-![Scene export actions](exporting-scenes.resources/exportActions.png "Scene export actions"){zoomable="yes"}
+![Scene export actions](exporting-scenes.resources/exporting-scenes-01.png "Scene export actions"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,7 +59,7 @@ This means edits to the original scene do not impact the exported scene at all.
 </td>
 <td style="border: 0;" valign="top">
 
-![Exported scene files - Flattened](exporting-scenes.resources/exportFlattened.png "Exported scene files - Flattened"){zoomable="yes"}
+![Exported scene files - Flattened](exporting-scenes.resources/exporting-scenes-02.png "Exported scene files - Flattened"){zoomable="yes"}
 
 </td>
 </tr>
@@ -78,7 +78,7 @@ This means edits to the original scene carry over to the exported scene.
 </td>
 <td style="border: 0;" valign="top">
 
-![Exported scene files - Layered](exporting-scenes.resources/exportLayered.png "Exported scene files - Layered"){zoomable="yes"}
+![Exported scene files - Layered](exporting-scenes.resources/exporting-scenes-03.png "Exported scene files - Layered"){zoomable="yes"}
 
 </td>
 </tr>

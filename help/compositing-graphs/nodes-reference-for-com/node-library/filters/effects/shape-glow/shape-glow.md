@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](shape-glow.resources/shape-glow-grayscale.png){width="128px"}
+![](shape-glow.resources/shape-glow-01.png){width="128px"}
 
-![](shape-glow.resources/shape-glow.png){width="128px"}
+![](shape-glow.resources/shape-glow-02.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -55,7 +55,7 @@ Creates a soft glow around an input mask (for the grayscale version) or a shape 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="shape-glow.resources/shapeglow-ex.png" />
+            <img src="shape-glow.resources/shape-glow-03.png" />
         </td>
     </tr>
 </table>

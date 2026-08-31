@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-linear-3.resources/gradient3.png)
+![](gradient-linear-3.resources/gradient-linear-3-01.png)
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -48,7 +48,7 @@ The most advanced linear gradient. Instead of the rounded, pipe-like profile of 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-linear-3.resources/gradient3-ex.gif" />
+            <img src="gradient-linear-3.resources/gradient-linear-3-02.gif" />
         </td>
     </tr>
 </table>

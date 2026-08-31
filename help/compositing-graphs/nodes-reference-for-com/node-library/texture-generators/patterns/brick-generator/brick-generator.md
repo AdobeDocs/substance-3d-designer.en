@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](brick-generator.resources/brick-generator.png){width="128px"}
+![](brick-generator.resources/brick-generator-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -56,10 +56,10 @@ For more options see [Tile Generator](../../../../../../compositing-graphs/nodes
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="brick-generator.resources/brick-generator-ex-01.gif" />
+            <img src="brick-generator.resources/brick-generator-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="brick-generator.resources/brick-generator-ex-02.gif" />
+            <img src="brick-generator.resources/brick-generator-03.gif" />
         </td>
     </tr>
 </table>

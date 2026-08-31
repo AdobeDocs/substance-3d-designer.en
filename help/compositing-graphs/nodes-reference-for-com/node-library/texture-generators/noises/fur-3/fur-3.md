@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fur-3.resources/fur-3.png){width="128px"}
+![](fur-3.resources/fur-3-01.png){width="128px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -49,7 +49,7 @@ This generates a spreading/bristle-type noise.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fur-3.resources/fur-3-ex.gif" />
+            <img src="fur-3.resources/fur-3-02.gif" />
         </td>
     </tr>
 </table>

@@ -16,7 +16,7 @@ user-guide-title: ""
 
 Cast nodes are used to convert a node from a type to another type:
 
-![](cast-nodes.resources/image2015-12-23-10-5-19.png)
+![](cast-nodes.resources/cast-nodes-01.png)
 
 ## How to use a cast node ?
 

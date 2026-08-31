@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](height-map-frequencies-mapper.resources/height-map-frequencies-mapper.png){width="128px"}
+![](height-map-frequencies-mapper.resources/height-map-frequencies-mapper-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -46,7 +46,7 @@ Separates a Heightmap's frequencies into two separate maps: one with large-scale
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="height-map-frequencies-mapper.resources/heightmap-frequencies.png" />
+            <img src="height-map-frequencies-mapper.resources/height-map-frequencies-mapper-02.png" />
         </td>
     </tr>
 </table>

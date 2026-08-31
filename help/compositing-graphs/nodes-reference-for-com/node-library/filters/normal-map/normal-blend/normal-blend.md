@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](normal-blend.resources/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Normal Map
 
@@ -59,7 +59,7 @@ Normal Blend is not intended for combining (overlaying) Normalmaps, where the to
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="normal-blend.resources/normalblend-ex.gif" /><br><i>(.gif format introduces dithering in example, in-application results are smooth)</i>
+            <img src="normal-blend.resources/normal-blend-02.gif" /><br><i>(.gif format introduces dithering in example, in-application results are smooth)</i>
         </td>
     </tr>
 </table>

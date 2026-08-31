@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-detect.resources/edge-detect.png){width="128px"}
+![](edge-detect.resources/edge-detect-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -51,7 +51,7 @@ Useful in many cases where some sort of mask for edges is needed. Keep in mind t
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-detect.resources/edge-detect-ex.png" />
+            <img src="edge-detect.resources/edge-detect-02.png" />
         </td>
     </tr>
 </table>

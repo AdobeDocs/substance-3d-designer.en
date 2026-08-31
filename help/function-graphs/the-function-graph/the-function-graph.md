@@ -16,7 +16,7 @@ user-guide-title: ""
 
 At first sight, the Substance function graph is really similar to a Substance graph and the workflow is almost the same.
 
-![Substance function graph](the-function-graph.resources/image2015-12-18-11-29-28.png "Substance function graph")
+![Substance function graph](the-function-graph.resources/the-function-graph-01.png "Substance function graph")
 
 ## Navigation is similar
 
@@ -47,7 +47,7 @@ The available nodes in the Substance function graph are completely different fro
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Substance function graph node list](the-function-graph.resources/image2015-12-18-13-46-55.png "Substance function graph node list")
+![Substance function graph node list](the-function-graph.resources/the-function-graph-02.png "Substance function graph node list")
 
 </td>
 </tr>
@@ -66,7 +66,7 @@ Another point to note is that there is no specific output node where you plug yo
 </td>
 <td style="border: 0;" valign="top">
 
-![Substance function graph's output node](the-function-graph.resources/image2015-12-18-13-49-43.png "Substance function graph's output node")
+![Substance function graph's output node](the-function-graph.resources/the-function-graph-03.png "Substance function graph's output node")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ Another point to note is that there is no specific output node where you plug yo
 
 To define the output, just right-click on the node that generates the expected output, and click on *Set as Output node:*
 
-![Defining the output node](the-function-graph.resources/setoutputnode.gif "Defining the output node")
+![Defining the output node](the-function-graph.resources/the-function-graph-04.gif "Defining the output node")
 
 >[!WARNING]
 >
@@ -93,7 +93,7 @@ As for Substance graphs, you can import functions made in another graph. You can
 </td>
 <td style="border: 0;" valign="top">
 
-![Open referenced Substance function graph](the-function-graph.resources/image2017-6-27-10-44-55.png "Open referenced Substance function graph")
+![Open referenced Substance function graph](the-function-graph.resources/the-function-graph-05.png "Open referenced Substance function graph")
 
 </td>
 </tr>
@@ -101,4 +101,4 @@ As for Substance graphs, you can import functions made in another graph. You can
 
 If you have a sbs containing multiple functions, you can drag and drop it directly into a Substance function graph and choose the function you want to import in the appearing list:
 
-![Drop Substance function graph from package](the-function-graph.resources/sbsdrag.gif "Drop Substance function graph from package")
+![Drop Substance function graph from package](the-function-graph.resources/the-function-graph-06.gif "Drop Substance function graph from package")

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plasma.resources/plasma.png){width="128px"}
+![](plasma.resources/plasma-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -48,7 +48,7 @@ This generates a slightly different variant of [Gaussian Noise](../../../../../.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plasma.resources/plasma-ex.gif" />
+            <img src="plasma.resources/plasma-02.gif" />
         </td>
     </tr>
 </table>

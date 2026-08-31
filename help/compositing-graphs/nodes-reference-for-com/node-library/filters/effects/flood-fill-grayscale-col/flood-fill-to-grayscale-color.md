@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-grayscale-color.resources/floodfill-to-grayscale.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-01.png){width="128px"}
 
-![](flood-fill-to-grayscale-color.resources/floodfill-to-color.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-02.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 

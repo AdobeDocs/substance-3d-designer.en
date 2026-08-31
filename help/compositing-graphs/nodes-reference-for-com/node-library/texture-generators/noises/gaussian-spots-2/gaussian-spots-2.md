@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Gaussian spots 2 - Icon](gaussian-spots-2.resources/gaussian_spots_2.png "Gaussian spots 2 - Icon"){width="200px"}
+![Gaussian spots 2 - Icon](gaussian-spots-2.resources/gaussian-spots-2-01.png "Gaussian spots 2 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -64,12 +64,12 @@ See also: [Gaussian spots 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Gaussian spots 2 - Example 1](gaussian-spots-2.resources/gaussian_spots_2_1.png "Gaussian spots 2 - Example 1"){zoomable="yes"}
+![Gaussian spots 2 - Example 1](gaussian-spots-2.resources/gaussian-spots-2-02.png "Gaussian spots 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Gaussian spots 2 - Example 2](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif "Gaussian spots 2 - Example 2"){zoomable="yes"}
+![Gaussian spots 2 - Example 2](gaussian-spots-2.resources/gaussian-spots-2-03.gif "Gaussian spots 2 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -79,12 +79,12 @@ See also: [Gaussian spots 1](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Gaussian spots 2 - Example 3](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif "Gaussian spots 2 - Example 3"){zoomable="yes"}
+![Gaussian spots 2 - Example 3](gaussian-spots-2.resources/gaussian-spots-2-04.gif "Gaussian spots 2 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Gaussian spots 2 - Example 4](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif "Gaussian spots 2 - Example 4"){zoomable="yes"}
+![Gaussian spots 2 - Example 4](gaussian-spots-2.resources/gaussian-spots-2-05.gif "Gaussian spots 2 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

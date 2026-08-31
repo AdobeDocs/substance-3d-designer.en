@@ -39,7 +39,7 @@ A function graph's output node is colored *orange*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-output.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-01.gif)
 
 </td>
 </tr>
@@ -65,7 +65,7 @@ A function graph's output node is colored *orange*.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-output-type.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-02.gif)
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Input a string matching the name of a variable *available in the function's scop
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-empty-get.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-03.gif)
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Input any string into the **Set** property of Set nodes raising this warning.
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](warnings-in-function-graphs.resources/warnings-func-empty-set.gif)
+![](warnings-in-function-graphs.resources/warnings-in-function-graphs-04.gif)
 
 </td>
 </tr>

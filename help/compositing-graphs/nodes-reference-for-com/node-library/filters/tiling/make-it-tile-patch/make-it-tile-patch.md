@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](make-it-tile-patch.resources/make-it-tile-patch.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-01.png)
 
-![](make-it-tile-patch.resources/make-it-tile-patch-grayscale.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-02.png)
 
 <b>In:</b> Filters &gt; Tiling
 
@@ -66,7 +66,7 @@ To do this with an entire material, see [Smart Auto Tile](../../../../../../comp
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="make-it-tile-patch.resources/patch-ex.gif" />
+            <img src="make-it-tile-patch.resources/make-it-tile-patch-03.gif" />
         </td>
     </tr>
 </table>

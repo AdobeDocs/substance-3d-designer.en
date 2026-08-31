@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Curve](curve.resources/comp_curve_1.png "Atomic node: Curve"){width="200px"}
+![Atomic node: Curve](curve.resources/curve-01.png "Atomic node: Curve"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -93,7 +93,7 @@ Unlike most other nodes, the Curve node does not have a typical standard interfa
 
 In order to create a point, simply double-click anywhere on the Curve view:
 
-![](curve.resources/createmovepoint.gif)
+![](curve.resources/curve-02.gif)
 
 ### Controlling the point influence
 
@@ -106,31 +106,31 @@ In order to obtain precise results, the curve nodes offers different modes for e
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curve.resources/image2017-2-17-14-5-36.png)
+![](curve.resources/curve-03.png)
 
 </td>
 </tr>
 </table>
 
-![](curve.resources/image2017-2-17-14-13-27.png)  Reset the point mode to the default value.
+![](curve.resources/curve-04.png)  Reset the point mode to the default value.
 
-![](curve.resources/image2017-2-17-14-12-6.png)  Lock/Unlock the 2 bezier handlers so the user can move them together or independently.
+![](curve.resources/curve-05.png)  Lock/Unlock the 2 bezier handlers so the user can move them together or independently.
 
-![](curve.resources/image2017-2-17-14-14-0.png)  Both side of the point are controlled by a Bezier handler.
+![](curve.resources/curve-06.png)  Both side of the point are controlled by a Bezier handler.
 
-![](curve.resources/image2017-2-17-14-16-22.png)  The right side of the point is controlled by a Bezier handler while the left side remains flat.
+![](curve.resources/curve-07.png)  The right side of the point is controlled by a Bezier handler while the left side remains flat.
 
-![](curve.resources/image2017-2-17-14-18-25.png)  The left side of the point is controlled by a Bezier handler while the right side remains flat.
+![](curve.resources/curve-08.png)  The left side of the point is controlled by a Bezier handler while the right side remains flat.
 
-![](curve.resources/image2017-2-17-14-19-32.png)  The point sides remain flat
+![](curve.resources/curve-09.png)  The point sides remain flat
 
-![](curve.resources/curvepointsmodes.gif)
+![](curve.resources/curve-10.gif)
 
 ### Show input histogram
 
-You can show/hide the histogram of your input just by clicking on ![](curve.resources/image2017-2-17-14-50-13.png)
+You can show/hide the histogram of your input just by clicking on ![](curve.resources/curve-11.png)
 
-![](curve.resources/image2017-2-17-14-48-35.png)
+![](curve.resources/curve-12.png)
 
 ### Controlling each channel individually (color input)
 
@@ -145,15 +145,15 @@ Just select the curve you want to ajust in the dropdown list located on the top 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](curve.resources/image2017-2-17-14-52-43.png)
+![](curve.resources/curve-13.png)
 
 </td>
 </tr>
 </table>
 
-While in RGB curve mode, you canhide/show the individual channel curves by pressing/unpressing ![](curve.resources/image2017-2-17-14-55-0.png):
+While in RGB curve mode, you canhide/show the individual channel curves by pressing/unpressing ![](curve.resources/curve-14.png):
 
-![](curve.resources/image2017-2-17-14-55-38.png)
+![](curve.resources/curve-15.png)
 
 ### Aligning, mirroring and flipping
 
@@ -172,7 +172,7 @@ If you right click on the curve view, you will get some more options.
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](curve.resources/image2017-6-27-16-11-9.png)
+![](curve.resources/curve-16.png)
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ Draw a selection box.
 </td>
 <td style="border: 0;" valign="top">
 
-![](curve.resources/ctrl.gif)
+![](curve.resources/curve-17.gif)
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ Constrain the movement on the X or Y axis.
 </td>
 <td style="border: 0;" valign="top">
 
-![](curve.resources/shift.gif)
+![](curve.resources/curve-18.gif)
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ Temporarily break the handles to move them independently.
 </td>
 <td style="border: 0;" valign="top">
 
-![](curve.resources/altclick.gif)
+![](curve.resources/curve-19.gif)
 
 </td>
 </tr>
@@ -241,11 +241,11 @@ Temporarily break the handles to move them independently.
 
 While tweaking the handlers, you may be in a case where one handler is going over the curve view.
 
-In that case, you can use the ![](curve.resources/image2017-2-20-19-11-53.png) button to fit the size to the content.
+In that case, you can use the ![](curve.resources/curve-20.png) button to fit the size to the content.
 
-The ![](curve.resources/image2017-2-20-19-12-45.png) button resets the zoom level to 1
+The ![](curve.resources/curve-21.png) button resets the zoom level to 1
 
-![](curve.resources/viewzoom.gif)
+![](curve.resources/curve-22.gif)
 
 ## Input connectors
 

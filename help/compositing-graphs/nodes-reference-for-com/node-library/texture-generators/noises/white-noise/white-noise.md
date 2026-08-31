@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![White noise - Icon](white-noise.resources/white_noise_v2.png "White noise - Icon"){width="200px"}
+![White noise - Icon](white-noise.resources/white-noise-01.png "White noise - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -57,12 +57,12 @@ Generates a white noise using one of three methods targeting different histogram
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![White noise - Example 1](white-noise.resources/white_noise_v2_1.png "White noise - Example 1"){zoomable="yes"}
+![White noise - Example 1](white-noise.resources/white-noise-02.png "White noise - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![White noise - Example 2](white-noise.resources/white_noise_v2_speed0.6_aniso0.gif "White noise - Example 2"){zoomable="yes"}
+![White noise - Example 2](white-noise.resources/white-noise-03.gif "White noise - Example 2"){zoomable="yes"}
 
 </td>
 </tr>

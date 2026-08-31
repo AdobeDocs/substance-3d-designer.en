@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-grayscale.resources/diffusion-grayscale-icon.png){width="200px"}
+![](diffusion-grayscale.resources/diffusion-grayscale-01.png){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -60,24 +60,24 @@ Only values from pixels matching the mask are diffused; other pixels don't parti
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01a-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-01b-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-before.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-after.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-grayscale.resources/diffusion-grayscale-02-render.jpg" />
+            <img src="diffusion-grayscale.resources/diffusion-grayscale-07.jpg" />
         </td>
     </tr>
 </table>

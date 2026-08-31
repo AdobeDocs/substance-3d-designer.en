@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-mesh-data-blender.resources/material-mesh-data-blender.png){width="128px"}
+![](material-mesh-data-blender.resources/material-mesh-data-blender-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Utilities
 
@@ -85,7 +85,7 @@ It is useful for doing things like adding edge highlighting based on curvature o
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-mesh-data-blender.resources/blenddata-ex.gif" />
+            <img src="material-mesh-data-blender.resources/material-mesh-data-blender-02.gif" />
         </td>
     </tr>
 </table>

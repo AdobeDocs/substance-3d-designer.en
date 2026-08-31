@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-position.resources/floodfill-to-position.png){width="128px"}
+![](flood-fill-to-position.resources/flood-fill-to-position-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -40,13 +40,13 @@ The color of each tile represents its X- and Y-coordinate center, stored in the 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-position.resources/floodfill-to-position-1.png" />
+            <img src="flood-fill-to-position.resources/flood-fill-to-position-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-position.resources/floodposition-ex2.png" />
+            <img src="flood-fill-to-position.resources/flood-fill-to-position-03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-position.resources/floodposition-ex1.png" />
+            <img src="flood-fill-to-position.resources/flood-fill-to-position-04.png" />
         </td>
     </tr>
 </table>

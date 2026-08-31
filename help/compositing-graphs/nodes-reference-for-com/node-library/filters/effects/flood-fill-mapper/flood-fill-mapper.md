@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-mapper.resources/floodfill-mapper-gray.png)![](flood-fill-mapper.resources/floodfill-mapper-color.png)
+![](flood-fill-mapper.resources/flood-fill-mapper-01.png)![](flood-fill-mapper.resources/flood-fill-mapper-02.png)
 
 <b>In:</b> Filters &gt; Effects
 
@@ -95,10 +95,10 @@ The Color version has additional controls to work with Normal Maps, where it can
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/floodfill-mapper-ex01.png" />
+            <img src="flood-fill-mapper.resources/flood-fill-mapper-03.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-mapper.resources/floodfill-mapper-ex02.jpg" />
+            <img src="flood-fill-mapper.resources/flood-fill-mapper-04.jpg" />
         </td>
     </tr>
 </table>

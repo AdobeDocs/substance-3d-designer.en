@@ -46,7 +46,7 @@ If NVIDIA's [vMaterials](https://developer.nvidia.com/vmaterials) library is ins
 </td>
 <td style="border: 0;" valign="top">
 
-![MDL resources in Library](mdl-library.resources/mdl-library.png "MDL resources in Library")
+![MDL resources in Library](mdl-library.resources/mdl-library-01.png "MDL resources in Library")
 
 *"mdl" section in the Library, the vMaterials library and custom content are framed*
 
@@ -65,6 +65,6 @@ Open the <b>Materials</b> menu, and open a *scene material's submenu* to browse 
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * Loaded [MDL graphs](../../mdl-graphs/mdl-graphs.md)
 
-![MDL materials in 3D View](mdl-library.resources/mdl-apply-in-3dview-material-list.png "MDL materials in 3D View")
+![MDL materials in 3D View](mdl-library.resources/mdl-library-02.png "MDL materials in 3D View")
 
 *MDL materials in the 3D View*

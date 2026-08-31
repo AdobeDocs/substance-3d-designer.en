@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-selector.resources/material-selector.png){width="128px"}
+![](material-selector.resources/material-selector-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Utilities
 
@@ -53,7 +53,7 @@ This is handy if you don't want to use [Multi-Material Blend](../../../../../../
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="material-selector.resources/matselector-ex.png" />
+            <img src="material-selector.resources/material-selector-02.png" />
         </td>
     </tr>
 </table>

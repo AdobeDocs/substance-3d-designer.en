@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![BnW spots 2 - Icon](bnw-spots-2.resources/bnw_spots_2.png "BnW spots 2 - Icon"){width="200px"}
+![BnW spots 2 - Icon](bnw-spots-2.resources/bnw-spots-2-01.png "BnW spots 2 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -63,12 +63,12 @@ See also: [BnW spots 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW spots 2 - Example 1](bnw-spots-2.resources/bnw_spots_2_1.png "BnW spots 2 - Example 1"){zoomable="yes"}
+![BnW spots 2 - Example 1](bnw-spots-2.resources/bnw-spots-2-02.png "BnW spots 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnW spots 2 - Example 2](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso0.gif "BnW spots 2 - Example 2"){zoomable="yes"}
+![BnW spots 2 - Example 2](bnw-spots-2.resources/bnw-spots-2-03.gif "BnW spots 2 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -78,12 +78,12 @@ See also: [BnW spots 1](../../../../../../compositing-graphs/nodes-reference-for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW spots 2 - Example 3](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso1.gif "BnW spots 2 - Example 3"){zoomable="yes"}
+![BnW spots 2 - Example 3](bnw-spots-2.resources/bnw-spots-2-04.gif "BnW spots 2 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnW spots 2 - Example 4](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.3_aniso0.6.gif "BnW spots 2 - Example 4"){zoomable="yes"}
+![BnW spots 2 - Example 4](bnw-spots-2.resources/bnw-spots-2-05.gif "BnW spots 2 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

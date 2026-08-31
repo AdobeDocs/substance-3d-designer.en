@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](hald-clut.resources/hald-clut.png){width="128px"}
+![](hald-clut.resources/hald-clut-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -55,7 +55,7 @@ Applies a LUT on the input image. The LUT has to be in the Hald format in 4096\*
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="hald-clut.resources/content-hald-clut.jpg" />
+            <img src="hald-clut.resources/hald-clut-02.jpg" />
         </td>
     </tr>
 </table>

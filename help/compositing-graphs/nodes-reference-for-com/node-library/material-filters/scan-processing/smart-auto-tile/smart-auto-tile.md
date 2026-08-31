@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](smart-auto-tile.resources/smart-auto-tile.png){width="128px"}
+![](smart-auto-tile.resources/smart-auto-tile-01.png){width="128px"}
 
 <b>In:</b> Material Filters &gt; Scan Processing
 

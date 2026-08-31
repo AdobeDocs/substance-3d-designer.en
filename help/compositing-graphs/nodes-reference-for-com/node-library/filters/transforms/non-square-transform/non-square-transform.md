@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-square-transform.resources/safe-transform.png)
+![](non-square-transform.resources/non-square-transform-01.png)
 
-![](non-square-transform.resources/safe-transform-grayscale.png)
+![](non-square-transform.resources/non-square-transform-02.png)
 
 <b>In:</b> Filters &gt; Transforms
 
@@ -59,7 +59,7 @@ Make sure you fully understand the [Graph Parameters ](../../../../../../composi
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="non-square-transform.resources/nonsquare-ex.png" />
+            <img src="non-square-transform.resources/non-square-transform-03.png" />
         </td>
     </tr>
 </table>

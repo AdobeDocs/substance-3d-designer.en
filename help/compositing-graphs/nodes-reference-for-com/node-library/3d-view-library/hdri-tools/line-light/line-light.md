@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](line-light.resources/panorama-line-light.png){width="200px"}
+![](line-light.resources/line-light-01.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -85,7 +85,7 @@ The positioning modes for this node are slightly more complex than other HDRI Li
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="line-light.resources/line-light-ex.gif" />
+            <img src="line-light.resources/line-light-02.gif" />
         </td>
     </tr>
 </table>

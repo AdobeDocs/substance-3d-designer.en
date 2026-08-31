@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-warp.resources/spline-warp-icon.png "Node icon")
+![Node icon](spline-warp.resources/spline-warp-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -91,11 +91,11 @@ The intensity of the warping effect can be adjusted along the spline using atten
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant1-Before.jpg" alt="SplineWarp-Variant1-Before">
+      <img src="spline-warp.resources/spline-warp-02.jpg" alt="SplineWarp-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant1-After.jpg" alt="SplineWarp-Variant1-After">
+      <img src="spline-warp.resources/spline-warp-03.jpg" alt="SplineWarp-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -107,11 +107,11 @@ The intensity of the warping effect can be adjusted along the spline using atten
 <table>
   <tr>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant2-Before.jpg" alt="SplineWarp-Variant2-Before">
+      <img src="spline-warp.resources/spline-warp-04.jpg" alt="SplineWarp-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-warp.resources/SplineWarp-Variant2-After.jpg" alt="SplineWarp-Variant2-After">
+      <img src="spline-warp.resources/spline-warp-05.jpg" alt="SplineWarp-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -125,7 +125,7 @@ The intensity of the warping effect can be adjusted along the spline using atten
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](spline-warp.resources/SplineWarp-Demo.gif "Node example 1")
+![Node example 1](spline-warp.resources/spline-warp-06.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](histogram-range.resources/histogram-range-1.png){width="128px"}
+![](histogram-range.resources/histogram-range-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -50,7 +50,7 @@ Also see [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-f
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="histogram-range.resources/histogram-range.gif" />
+            <img src="histogram-range.resources/histogram-range-02.gif" />
         </td>
     </tr>
 </table>

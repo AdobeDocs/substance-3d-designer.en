@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-poly-quadratic.resources/spline-poly-quadratic-icon.png "Node icon")
+![Node icon](spline-poly-quadratic.resources/spline-poly-quadratic-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -109,11 +109,11 @@ The trajectory of the spline can be smoothed away from its intermediary points, 
 <table>
   <tr>
     <td>
-      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-Before.jpg" alt="SplinePolyQuadratic-Variant1-Before">
+      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-02.jpg" alt="SplinePolyQuadratic-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-poly-quadratic.resources/SplinePolyQuadratic-Variant1-After.jpg" alt="SplinePolyQuadratic-Variant1-After">
+      <img src="spline-poly-quadratic.resources/spline-poly-quadratic-03.jpg" alt="SplinePolyQuadratic-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -122,7 +122,7 @@ The trajectory of the spline can be smoothed away from its intermediary points, 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](spline-poly-quadratic.resources/SplinePolyQuadratic-Demo.gif "Node example 2")
+![Node example 2](spline-poly-quadratic.resources/spline-poly-quadratic-04.gif "Node example 2")
 
 </td>
 </tr>

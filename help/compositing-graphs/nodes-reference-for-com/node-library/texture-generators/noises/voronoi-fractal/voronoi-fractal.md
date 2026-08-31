@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](voronoi-fractal.resources/voronoifractal.png){width="200px"}
+![](voronoi-fractal.resources/voronoi-fractal-01.png){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -73,28 +73,28 @@ This node can be tested with [Cube GBuffers](../../../../../../compositing-graph
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-02.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-03.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" />
+            <img src="voronoi-fractal.resources/voronoi-fractal-09.jpg" />
         </td>
     </tr>
 </table>

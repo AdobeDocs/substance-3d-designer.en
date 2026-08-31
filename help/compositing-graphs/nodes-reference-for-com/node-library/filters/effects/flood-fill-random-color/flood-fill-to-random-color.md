@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](flood-fill-to-random-color.resources/floodfill-to-random-color.png){width="128px"}
+![](flood-fill-to-random-color.resources/flood-fill-to-random-color-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -38,10 +38,10 @@ Generates tiles with random RGB colors from a [Flood Fill](../../../../../../com
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-random-color.resources/floodrandomcolor-ex2.png" />
+            <img src="flood-fill-to-random-color.resources/flood-fill-to-random-color-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-random-color.resources/floodrandomcolor-ex1.png" />
+            <img src="flood-fill-to-random-color.resources/flood-fill-to-random-color-03.png" />
         </td>
     </tr>
 </table>

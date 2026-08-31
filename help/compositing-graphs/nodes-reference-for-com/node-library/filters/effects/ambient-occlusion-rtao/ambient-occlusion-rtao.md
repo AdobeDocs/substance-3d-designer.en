@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![RTAO node icon](ambient-occlusion-rtao.resources/rt-ao.png "RTAO node icon")
+![RTAO node icon](ambient-occlusion-rtao.resources/ambient-occlusion-rtao-01.png "RTAO node icon")
 
 <b>In:</b> Filters &gt; Effects
 
@@ -56,10 +56,10 @@ See [Ambient Occlusion (HBAO) (Filter Node)](../../../../../../compositing-graph
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-7-48.png" />
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-02.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-9-0-1.png" />
+            <img src="ambient-occlusion-rtao.resources/ambient-occlusion-rtao-03.png" />
         </td>
     </tr>
 </table>

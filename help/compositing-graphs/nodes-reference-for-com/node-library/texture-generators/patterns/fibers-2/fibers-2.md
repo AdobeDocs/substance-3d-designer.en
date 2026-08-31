@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fibers-2.resources/fibers-2.png){width="128px"}
+![](fibers-2.resources/fibers-2-01.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -47,7 +47,7 @@ Simple cloth-like pattern. Can be used for mesh, cloth or other organic Height- 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fibers-2.resources/fibers-2-ex.gif" />
+            <img src="fibers-2.resources/fibers-2-02.gif" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](snow-cover.resources/snow-cover.png){width="128px"}
+![](snow-cover.resources/snow-cover-01.png){width="128px"}
 
 <b>In:</b> Material Filters &gt; Effects
 

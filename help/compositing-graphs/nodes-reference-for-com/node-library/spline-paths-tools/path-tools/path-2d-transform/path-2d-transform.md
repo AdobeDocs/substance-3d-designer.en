@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](path-2d-transform.resources/path-2d-transform-icon.png "Node icon")
+![Node icon](path-2d-transform.resources/path-2d-transform-01.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -67,11 +67,11 @@ Transforms Paths using a gizmo.
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-03.jpg" alt="Paths2DTransform-Variant1">
       <br><i>After</i>
     </td>
   </tr>
@@ -83,11 +83,11 @@ Transforms Paths using a gizmo.
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
+      <img src="path-2d-transform.resources/path-2d-transform-04.jpg" alt="Paths2DTransform-Variant2">
       <br><i>After</i>
     </td>
   </tr>

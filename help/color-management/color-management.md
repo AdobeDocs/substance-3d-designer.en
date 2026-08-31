@@ -146,18 +146,18 @@ You can change the color space of a bitmap at any time, the option is located in
 > 
 > In particular, the **file name** can be used to set the appropriate color space *automatically*. Please note the color space name in the file name must *match the name* in the OpenColorIO configuration file (e.g. *myImage\_utility - linear -srgb.png* will be set to the *Utility - Linear - sRGB* color space).
 
-![Bitmap color space setting](color-management.resources/2019-3-0-bitmap-clr-space.png "Bitmap color space setting")
+![Bitmap color space setting](color-management.resources/color-management-01.png "Bitmap color space setting")
 
 ## Exporting outputs
 
 When using the <b>Export Outputs</b> dialog, it is possible to assign a <b>color space</b> (OCIO) or attach an <b>ICC profile</b> (Adobe ACE) for *each* output.  
 Designer will *convert* images to the specified color spaces before saving the image files.
 
-![Export outputs dialog](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "Export outputs dialog"){width="512px"}
+![Export outputs dialog](color-management.resources/color-management-02.png "Export outputs dialog"){width="512px"}
 
 You can also assign a color space (OCIO) or attach an ICC profile (Adobe ACE) to images *saved* from the [2D View](../interface/2d-view/2d-view.md).
 
-![2D View export options](color-management.resources/2019-3-0-clr-mgt-save-image.png "2D View export options")
+![2D View export options](color-management.resources/color-management-03.png "2D View export options")
 
 ## 2D &amp; 3D views
 
@@ -165,7 +165,7 @@ You can also assign a color space (OCIO) or attach an ICC profile (Adobe ACE) to
 
 You can *toggle* Color Management on/off and change the *display transform* for the view at any time using the drop down menu in the display toolbar.
 
-![Color space setting in 2D View](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Color space setting in 2D View"){width="512px"}
+![Color space setting in 2D View](color-management.resources/color-management-04.png "Color space setting in 2D View"){width="512px"}
 
 ### Library HDRI environments
 
@@ -174,7 +174,7 @@ When using an OpenColorIO configuration where the scene linear color space is *n
 
 In that case, the color space for library HDRI environments should be set *manually* in the environment properties, available in the 3D View panel <b>Environment</b> menu.
 
-![Color space setting of 3D View environment](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Color space setting of 3D View environment"){width="512px"}
+![Color space setting of 3D View environment](color-management.resources/color-management-05.png "Color space setting of 3D View environment"){width="512px"}
 
 ## Color conversion nodes
 
@@ -205,7 +205,7 @@ The [Library](../interface/the-library/the-library.md) includes the following no
 
 These are useful when working with graphs created *without* Color Management or materials from the [Substance 3D assets](https://substance3d.adobe.com/assets) library.
 
-![Color conversion nodes in Library](color-management.resources/2019-3-0-clr-mgt-nodes.png "Color conversion nodes in Library"){width="512px"}
+![Color conversion nodes in Library](color-management.resources/color-management-06.png "Color conversion nodes in Library"){width="512px"}
 
 ## Known limitations
 

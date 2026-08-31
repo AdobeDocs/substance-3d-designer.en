@@ -63,4 +63,4 @@ When deleting a resource from a package, the <b>Confirm item removal</b> dialog 
 > We recommend being mindful about these items and taking the necessary actions to *anticipate any broken dependencies* which would result from deleting items from a package.  
 > These actions can include *removing all uses* of these resources before deletion.
 
-!['Deleted resource being used' warning](importing-linking-and-new-resources.resources/confirm-item-removal.png "'Deleted resource being used' warning"){width="512px"}
+!['Deleted resource being used' warning](importing-linking-and-new-resources.resources/importing-linking-and-new-resources-01.png "'Deleted resource being used' warning"){width="512px"}

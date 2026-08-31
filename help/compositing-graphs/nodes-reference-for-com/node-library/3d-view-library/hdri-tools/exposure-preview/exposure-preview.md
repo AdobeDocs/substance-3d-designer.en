@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](exposure-preview.resources/hdr-exposure-preview.png){width="200px"}
+![](exposure-preview.resources/exposure-preview-01.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -47,7 +47,7 @@ Helper node to preview exposure steps. Users sets a min and max value, the node 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="exposure-preview.resources/exp-preview-ex.png" />
+            <img src="exposure-preview.resources/exposure-preview-02.png" />
         </td>
     </tr>
 </table>

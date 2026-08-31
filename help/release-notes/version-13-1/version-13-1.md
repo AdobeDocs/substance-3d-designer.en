@@ -18,7 +18,7 @@ user-guide-title: ""
 
 *Release date: December 12, 2023*
 
-![Substance 3D Designer 13.1 banner](version-13-1.resources/24-library-hero-1920x620.png "Substance 3D Designer 13.1 banner")
+![Substance 3D Designer 13.1 banner](version-13-1.resources/version-13-1-01.png "Substance 3D Designer 13.1 banner")
 
 ## Frames improvements
 
@@ -28,19 +28,19 @@ Frames are a mandatory tool to keep you graph well organized and readable. That 
 
 As the graph grows, the frames' content may need to be rearranged. Nodes may shift to make room for additions or content may need to be spaced out more to promote readability. To facilitate these adjustments, it is now possible to automatically expand a frame when moving included objects: hold <b>Shift</b> at any point while moving an object to have the frame borders automatically adjust to keep that object within their bounds.
 
-![autoexpand](version-13-1.resources/autoexpand.gif)
+![autoexpand](version-13-1.resources/version-13-1-02.gif)
 
 ### Fit size to content
 
 As you make adjustments in your graph, a frame may not be gracefully adjusted to its content anymore. This new command allows you to automatically adjust the position and size of the frame so it adjusts to the span of its content, with a padding of one medium grid cell. If the frame has a description, it is adjusted to make use of any empty space next to the description, if possible.
 
-![fitsize](version-13-1.resources/fitsize.gif)
+![fitsize](version-13-1.resources/version-13-1-03.gif)
 
 ### Enhanced descriptions
 
 Thanks to HTML code, you can now have formatted text in a frame's description. This applies to comments as well.
 
-![richtext](version-13-1.resources/description-3.png)
+![richtext](version-13-1.resources/version-13-1-04.png)
 
 ### <b>...And much more!</b>
 
@@ -58,7 +58,7 @@ A lot of things have been rethought, like belonging rules to be more tolerant, i
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF file icon](version-13-1.resources/axf-file-icon.png "AxF file icon")
+![AxF file icon](version-13-1.resources/version-13-1-05.png "AxF file icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,7 +71,7 @@ In this new release, we introduce the possibility to edit AxF materials in place
 </tr>
 </table>
 
-![Export AxF](version-13-1.resources/exportaxf.gif)
+![Export AxF](version-13-1.resources/version-13-1-06.gif)
 
 ## API
 

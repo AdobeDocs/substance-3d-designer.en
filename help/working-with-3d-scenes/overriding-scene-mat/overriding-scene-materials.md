@@ -18,7 +18,7 @@ When working with 3D scenes with existing materials, it is necessary to override
 
 Your material can be built from scratch, or an adjusted version of a scene's material which has been [extracted into a Substance graph](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md).
 
-![Overriding a scene material, tweaking it and resetting it to its scene state](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Overriding a scene material, tweaking it and resetting it to its scene state"){zoomable="yes"}
+![Overriding a scene material, tweaking it and resetting it to its scene state](overriding-scene-materials.resources/overriding-scene-materials-01.gif "Overriding a scene material, tweaking it and resetting it to its scene state"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -53,14 +53,14 @@ The 'Override material' action can be found in two places:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Override material - Action in '3D View' viewport](overriding-scene-materials.resources/overrideMaterialActionViewport.png "Override material - Action in '3D View' viewport"){zoomable="yes"}
+![Override material - Action in '3D View' viewport](overriding-scene-materials.resources/overriding-scene-materials-02.png "Override material - Action in '3D View' viewport"){zoomable="yes"}
 
 *Action in 3D View viewport*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Override material - Action in 'Materials' menu](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "Override material - Action in 'Materials' menu"){zoomable="yes"}
+![Override material - Action in 'Materials' menu](overriding-scene-materials.resources/overriding-scene-materials-03.png "Override material - Action in 'Materials' menu"){zoomable="yes"}
 
 *Action in Materials menu*
 
@@ -113,21 +113,21 @@ The action can be found in three places:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Reset material to scene state - Action in '3D VIew' viewport](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "Reset material to scene state - Action in '3D VIew' viewport"){zoomable="yes"}
+![Reset material to scene state - Action in '3D VIew' viewport](overriding-scene-materials.resources/overriding-scene-materials-04.png "Reset material to scene state - Action in '3D VIew' viewport"){zoomable="yes"}
 
 *Action in 3D View viewport*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Reset material to scene state - Action in 'Materials' menu](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "Reset material to scene state - Action in 'Materials' menu"){zoomable="yes"}
+![Reset material to scene state - Action in 'Materials' menu](overriding-scene-materials.resources/overriding-scene-materials-05.png "Reset material to scene state - Action in 'Materials' menu"){zoomable="yes"}
 
 *Action in Materials menu*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Reset material to scene state - Action in 'Properties' dock](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "Reset material to scene state - Action in 'Properties' dock"){zoomable="yes"}
+![Reset material to scene state - Action in 'Properties' dock](overriding-scene-materials.resources/overriding-scene-materials-06.png "Reset material to scene state - Action in 'Properties' dock"){zoomable="yes"}
 
 *Action in material's properties*
 
@@ -146,7 +146,7 @@ Open the material property's hamburger menu to find the 'Reset to default scene 
 </td>
 <td style="border: 0;" valign="top">
 
-![Reset to scene state - Action in material properties](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "Reset to scene state - Action in material properties"){zoomable="yes"}
+![Reset to scene state - Action in material properties](overriding-scene-materials.resources/overriding-scene-materials-07.png "Reset to scene state - Action in material properties"){zoomable="yes"}
 
 </td>
 </tr>
@@ -160,10 +160,10 @@ On another hand, Designer has *its own* separate list of materials in its ‘Mat
 
 This is a *different* set of data which is authored and managed in Designer only. These materials are then *connected to the copies* which override the scene’s original materials.
 
-![Overriding materials - Data schematic](overriding-scene-materials.resources/overridingMaterialsSchematic.png "Overriding materials - Data schematic"){zoomable="yes"}
+![Overriding materials - Data schematic](overriding-scene-materials.resources/overriding-scene-materials-08.png "Overriding materials - Data schematic"){zoomable="yes"}
 
 You can connect any of the materials listed in the ‘Materials’ menu to the copies created by Designer in the scene: Click RMB on a copy in the Scene browser and going to the ‘Connect material’ submenu.
 
 The submenu lists all materials in the scene and any materials you may have manually created from the ‘Materials’ menu.
 
-![Connect materials](overriding-scene-materials.resources/connectMaterials.gif "Connect materials"){zoomable="yes"}
+![Connect materials](overriding-scene-materials.resources/overriding-scene-materials-09.gif "Connect materials"){zoomable="yes"}

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt gradient - Icon](dirt-gradient.resources/dirt_gradient.png "Dirt gradient - Icon"){width="200px"}
+![Dirt gradient - Icon](dirt-gradient.resources/dirt-gradient-01.png "Dirt gradient - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -61,12 +61,12 @@ See also: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt gradient - Example 1](dirt-gradient.resources/dirt_gradient_1.png "Dirt gradient - Example 1"){zoomable="yes"}
+![Dirt gradient - Example 1](dirt-gradient.resources/dirt-gradient-02.png "Dirt gradient - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt gradient - Example 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "Dirt gradient - Example 2"){zoomable="yes"}
+![Dirt gradient - Example 2](dirt-gradient.resources/dirt-gradient-03.gif "Dirt gradient - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,12 +76,12 @@ See also: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt gradient - Example 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "Dirt gradient - Example 3"){zoomable="yes"}
+![Dirt gradient - Example 3](dirt-gradient.resources/dirt-gradient-04.gif "Dirt gradient - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt gradient - Example 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "Dirt gradient - Example 4"){zoomable="yes"}
+![Dirt gradient - Example 4](dirt-gradient.resources/dirt-gradient-05.gif "Dirt gradient - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

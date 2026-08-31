@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](metal-weathering.resources/metal-weathering.png){width="128px"}
+![](metal-weathering.resources/metal-weathering-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Weathering
 

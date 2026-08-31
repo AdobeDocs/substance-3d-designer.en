@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-2-points.resources/gradient-2-points.png){width="250px"}
+![](gradient-2-points.resources/gradient-2-points-01.png){width="250px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -51,7 +51,7 @@ Creates a gradient of 2 colors between two user-selected points. Result is adjus
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-2-points.resources/gradient-ex2.gif" />
+            <img src="gradient-2-points.resources/gradient-2-points-02.gif" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-sdf.resources/3dtexturesdf.png){width="200px"}
+![](3d-texture-sdf.resources/3d-texture-sdf-01.png){width="200px"}
 
 <b>In:</b> Filter &gt; Effect
 
@@ -55,13 +55,13 @@ The **3D Texture SDF** node generates the *signed distance field* of a shape fro
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3dtexturesdf-variant.jpg" />
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3dtexturesdf-variant2.jpg" />
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-sdf.resources/3dtexturesdf-node.png" />
+            <img src="3d-texture-sdf.resources/3d-texture-sdf-04.png" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map"){width="200px"}
+![Atomic node: FX-Map](fx-map.resources/fx-map-01.png "Atomic node: FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -96,4 +96,4 @@ Keep in mind that unlike other nodes, the majority of an FX-Map's behavior is no
 
 ## Examples
 
-![](fx-map.resources/image2015-9-10-17-28-32.png)
+![](fx-map.resources/fx-map-02.png)

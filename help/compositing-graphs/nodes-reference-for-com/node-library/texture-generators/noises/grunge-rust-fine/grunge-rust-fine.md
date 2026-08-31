@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-rust-fine.resources/grungerustfine.jpg){width="200px"}
+![](grunge-rust-fine.resources/grunge-rust-fine-01.jpg){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -55,10 +55,10 @@ The **Grunge Rust Fine** node generates a grunge map akin to a fine grunge rust 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" />
+            <img src="grunge-rust-fine.resources/grunge-rust-fine-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" />
+            <img src="grunge-rust-fine.resources/grunge-rust-fine-03.jpg" />
         </td>
     </tr>
 </table>

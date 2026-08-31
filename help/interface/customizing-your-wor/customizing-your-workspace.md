@@ -26,7 +26,7 @@ This menu lets you manage the main user interface elements of Designer. Each opt
 
 ### Display/Hide a view
 
-In order to display or hide a specific interface item, click its name in the *Windows* menu. Displayed items have a ![](customizing-your-workspace.resources/image2015-12-17-10-43-24.png) checkmark.
+In order to display or hide a specific interface item, click its name in the *Windows* menu. Displayed items have a ![](customizing-your-workspace.resources/customizing-your-workspace-01.png) checkmark.
 
 ### Populate a dock with a view
 
@@ -40,7 +40,7 @@ The <b>New Explorer</b>, <b>New 3D view</b> and <b>New Library view</b> options 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Windows menu](customizing-your-workspace.resources/windows-menu-1.png "Windows menu")
+![Windows menu](customizing-your-workspace.resources/customizing-your-workspace-02.png "Windows menu")
 
 </td>
 </tr>
@@ -50,13 +50,13 @@ The <b>New Explorer</b>, <b>New 3D view</b> and <b>New Library view</b> options 
 
 Docks can be resized by moving any of their edges. Other docks will be resized dynamically to fit.
 
-![Resizing docks](customizing-your-workspace.resources/interface-customisation-resize.gif "Resizing docks")
+![Resizing docks](customizing-your-workspace.resources/customizing-your-workspace-03.gif "Resizing docks")
 
 ## Moving docks
 
 Any dock may be moved around the main window using its *title bar*. Depending on the location the dock is moved to, docks will be resized to fit.
 
-![Moving docks](customizing-your-workspace.resources/interface-customisation-move.gif "Moving docks")
+![Moving docks](customizing-your-workspace.resources/customizing-your-workspace-04.gif "Moving docks")
 
 ## Tabbing docks
 
@@ -64,7 +64,7 @@ Docks may be stacked into tabs. This is useful to save screen real estate or agg
 
 You can tab docks by moving a dock using its title bar *over an existing dock* such as docks do not resize or move, but a *frame* appears around the target dock.
 
-![Tabbing docks](customizing-your-workspace.resources/interface-customisation-tab.gif "Tabbing docks")
+![Tabbing docks](customizing-your-workspace.resources/customizing-your-workspace-05.gif "Tabbing docks")
 
 ## Undocking
 
@@ -72,10 +72,10 @@ A dock may be undocked into a *floating window* which may be resized and moved o
 
 This can be done in two ways:
 
-* Moving the dock using its *title bar* and placing it either *out of the main window* or on an area of the main window which is *not a dock*. You may redock this dock either by moving it on another dock *in the main window* or by clicking the <b>![](customizing-your-workspace.resources/dock-icons-redock.png) Redock</b> button;
-* Clicking the <b>![](customizing-your-workspace.resources/dock-icons-undock.png) Undock</b> button. An dock undocked with this method may *only* be redocked by clicking the <b>![](customizing-your-workspace.resources/dock-icons-redock.png) Redock</b> button.
+* Moving the dock using its *title bar* and placing it either *out of the main window* or on an area of the main window which is *not a dock*. You may redock this dock either by moving it on another dock *in the main window* or by clicking the <b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png) Redock</b> button;
+* Clicking the <b>![](customizing-your-workspace.resources/customizing-your-workspace-07.png) Undock</b> button. An dock undocked with this method may *only* be redocked by clicking the <b>![](customizing-your-workspace.resources/customizing-your-workspace-06.png) Redock</b> button.
 
-![Undocking](customizing-your-workspace.resources/interface-customisation-undock.gif "Undocking")
+![Undocking](customizing-your-workspace.resources/customizing-your-workspace-08.gif "Undocking")
 
 ## Maximizing docks
 
@@ -87,12 +87,12 @@ Any dock may be maximised to fit the area or its *parent window*:
 Docks can be maximised in two ways:
 
 * Placing the *cursor over the dock* and pressing the <b>Shift+Space</b> keystroke
-* Clicking their <b>![](customizing-your-workspace.resources/dock-icons-maximise.png) Maximise</b> button
+* Clicking their <b>![](customizing-your-workspace.resources/customizing-your-workspace-09.png) Maximise</b> button
 
 Maximised docks may be minimised into the size and location they held *before being maximised*. This can be done in three ways:
 
 * Placing the *cursor over the dock* and pressing the <b>Shift+Space</b> keystroke
-* Clicking their <b>![](customizing-your-workspace.resources/dock-icons-minimise.png) Minimise</b> button
+* Clicking their <b>![](customizing-your-workspace.resources/customizing-your-workspace-10.png) Minimise</b> button
 * Opening the <b>Windows</b> menu and selecting the <b>Unmaximise window</b> option
 
 >[!NOTE]
@@ -108,7 +108,7 @@ Maximised docks may be minimised into the size and location they held *before be
 > * Buttons are *disabled* in the dock title bar
 > * A dock maximised in the main window *may not be moved* using its title bar
 
-![Maximizing docks](customizing-your-workspace.resources/interface-customisation-maximise.gif "Maximizing docks")
+![Maximizing docks](customizing-your-workspace.resources/customizing-your-workspace-11.gif "Maximizing docks")
 
 ## Pinning docks
 
@@ -116,7 +116,7 @@ Pinning a dock *prevents it from being populated* with other content or a differ
 
 When a dock is pinned, any future content which should be displayed in its will instead *create a new dock* to host it. This new dock will not be pinned and thus can update and host new content.
 
-To pin a dock, click its ![](customizing-your-workspace.resources/dock-icons-pin.png) <b>Pin</b> button. You can then *unpin* it using the ![](customizing-your-workspace.resources/dock-icons-pinned.png) <b>Unpin</b> button to make it once more *available* to host any new content.
+To pin a dock, click its ![](customizing-your-workspace.resources/customizing-your-workspace-12.png) <b>Pin</b> button. You can then *unpin* it using the ![](customizing-your-workspace.resources/customizing-your-workspace-13.png) <b>Unpin</b> button to make it once more *available* to host any new content.
 
 *More than one* dock can be pinned at a time, including multiple docks of the *same type*.
 
@@ -126,11 +126,11 @@ Pinning docks empowers you with the following abilities:
 * Displaying two bitmaps or more concurrently
 * Working on multiple graphs concurrently
 
-![Pinning docks](customizing-your-workspace.resources/interface-customisation-pin.gif "Pinning docks")
+![Pinning docks](customizing-your-workspace.resources/customizing-your-workspace-14.gif "Pinning docks")
 
 ## Closing docks
 
-Any dock may be closed by clicing its ![](customizing-your-workspace.resources/dock-icons-close.png) <b>Close</b> button.
+Any dock may be closed by clicing its ![](customizing-your-workspace.resources/customizing-your-workspace-15.png) <b>Close</b> button.
 
 ## Resetting the interface layout
 
@@ -138,4 +138,4 @@ The entire user interface can be reset into its default layout by opening the <b
 
 Their display state will also be reset, meaning that closed docks may be *reopened* (e.g. 3D view) and displayed docks may be *closed* (e.g. Console, Dependency manager, docks created by plugins).
 
-![Reset layout](customizing-your-workspace.resources/interface-customisation-reset.gif "Reset layout")
+![Reset layout](customizing-your-workspace.resources/customizing-your-workspace-16.gif "Reset layout")

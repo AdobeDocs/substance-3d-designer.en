@@ -9,7 +9,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Grid atlas grayscale icon](grid-atlas-grayscale.resources/grid-atlas-grayscale.png "Grid atlas grayscale")
+![Grid atlas grayscale icon](grid-atlas-grayscale.resources/grid-atlas-grayscale-01.png "Grid atlas grayscale")
 
 <b>In:</b> Generator &gt; Pattern
 
@@ -69,5 +69,5 @@ See also [Grid atlas color](../grid-atlas-color/grid-atlas-color.md).
 
 ## Examples
 
-<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-graph.png" alt="Grid atlas grayscale node in context of a graph" style="width: 50%"><br>
+<img src="./grid-atlas-grayscale.resources/grid-atlas-grayscale-02.png" alt="Grid atlas grayscale node in context of a graph" style="width: 50%"><br>
 <i>Grid atlas grayscale node in context of a graph</i>

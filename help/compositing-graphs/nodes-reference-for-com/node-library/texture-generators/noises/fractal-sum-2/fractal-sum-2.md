@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fractal sum 2 - Icon](fractal-sum-2.resources/fractal_sum_2.png "Fractal sum 2 - Icon"){width="200px"}
+![Fractal sum 2 - Icon](fractal-sum-2.resources/fractal-sum-2-01.png "Fractal sum 2 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -59,12 +59,12 @@ See also: [Fractal sum base](../../../../../../compositing-graphs/nodes-referenc
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Fractal sum 2 - Example 1](fractal-sum-2.resources/fractal_sum_2_1.png "Fractal sum 2 - Example 1"){zoomable="yes"}
+![Fractal sum 2 - Example 1](fractal-sum-2.resources/fractal-sum-2-02.png "Fractal sum 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Fractal sum 2 - Example 2](fractal-sum-2.resources/noise_fractal_sum_2_v2_speed0.6_aniso0.gif "Fractal sum 2 - Example 2"){zoomable="yes"}
+![Fractal sum 2 - Example 2](fractal-sum-2.resources/fractal-sum-2-03.gif "Fractal sum 2 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>

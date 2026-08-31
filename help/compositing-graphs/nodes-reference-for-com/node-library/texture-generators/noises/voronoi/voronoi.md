@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](voronoi.resources/voronoi.png){width="200px"}
+![](voronoi.resources/voronoi-01.png){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -67,22 +67,22 @@ This node can be tested with [Cube GBuffers](../../../../../../compositing-graph
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant2.jpg" />
+            <img src="voronoi.resources/voronoi-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant3.jpg" />
+            <img src="voronoi.resources/voronoi-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant5.jpg" />
+            <img src="voronoi.resources/voronoi-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant.jpg" />
+            <img src="voronoi.resources/voronoi-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant4.jpg" />
+            <img src="voronoi.resources/voronoi-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant6.jpg" />
+            <img src="voronoi.resources/voronoi-07.jpg" />
         </td>
     </tr>
 </table>

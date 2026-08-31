@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-planar-projection.resources/3d-planar-gray.png)![](3d-planar-projection.resources/3d-planar.png)
+![](3d-planar-projection.resources/3d-planar-projection-01.png)![](3d-planar-projection.resources/3d-planar-projection-02.png)
 
 <b>In:</b> Mesh Based Generators &gt; Utilities
 
@@ -68,7 +68,7 @@ Performs a planar projection based on baked mesh data (Position and World Normal
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-planar-projection.resources/3d-planar-projection-ex.gif" />
+            <img src="3d-planar-projection.resources/3d-planar-projection-03.gif" />
         </td>
     </tr>
 </table>

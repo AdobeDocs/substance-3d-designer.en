@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](color-dodge.resources/color-dodge.png){width="128px"}
+![](color-dodge.resources/color-dodge-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Blending
 

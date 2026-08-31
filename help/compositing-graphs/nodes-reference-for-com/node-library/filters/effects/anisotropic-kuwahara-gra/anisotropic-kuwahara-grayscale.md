@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropic Kuwahara Grayscale icon](anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_grayscale.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
+![Anisotropic Kuwahara Grayscale icon](anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-01.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -51,12 +51,12 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_3_before.jpg){zoomable="yes"}
+![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-02.jpg){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_3_after.jpg){zoomable="yes"}
+![A bowl of fruit with the kuwahara filter applied with 0 anisotropy.](anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-03.jpg){zoomable="yes"}
 
 </td>
 </tr>
@@ -100,11 +100,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_1_before.jpg" alt="anisotropic_kuwahara_gray_example_1_before">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-04.jpg" alt="anisotropic_kuwahara_gray_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_1_after.jpg" alt="anisotropic_kuwahara_gray_example_1_after">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-05.jpg" alt="anisotropic_kuwahara_gray_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -113,11 +113,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_2_before.jpg" alt="anisotropic_kuwahara_gray_example_2_before">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-06.jpg" alt="anisotropic_kuwahara_gray_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_2_after.jpg" alt="anisotropic_kuwahara_gray_example_2_after">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-07.jpg" alt="anisotropic_kuwahara_gray_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -126,11 +126,11 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_4_before.jpg" alt="anisotropic_kuwahara_gray_example_4_before">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-08.jpg" alt="anisotropic_kuwahara_gray_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara-gra.resources/anisotropic_kuwahara_gray_example_4_after.jpg" alt="anisotropic_kuwahara_gray_example_4_after">
+      <img src="anisotropic-kuwahara-gra.resources/anisotropic-kuwahara-grayscale-09.jpg" alt="anisotropic_kuwahara_gray_example_4_after">
       <br><i>After</i>
     </td>
   </tr>

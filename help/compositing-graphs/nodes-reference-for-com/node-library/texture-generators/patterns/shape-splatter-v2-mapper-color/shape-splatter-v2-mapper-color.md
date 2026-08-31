@@ -9,7 +9,7 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Shape splatter v2 mapper color icon](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color.png "Shape splatter v2 mapper color")
+![Shape splatter v2 mapper color icon](shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-01.png "Shape splatter v2 mapper color")
 
 <b>In:</b> Generator &gt; Pattern
 
@@ -107,24 +107,24 @@ See also [Shape splatter v2 mapper grayscale](../shape-splatter-v2-mapper-graysc
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-triplanar-02.gif" /><br><i>Triplanar mapping</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-02.gif" /><br><i>Triplanar mapping</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" /><br><i>Normal mapping</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" /><br><i>Normal mapping</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" /><br><i>Mapping per material ID from SDF shapes</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" /><br><i>Mapping per material ID from SDF shapes</i>
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" /><br><i>Tiling adjustment with triplanar mapping</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" /><br><i>Tiling adjustment with triplanar mapping</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-01.jpg" /><br><i>Mapping per material ID from Cylinder shape</i>
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-06.jpg" /><br><i>Mapping per material ID from Cylinder shape</i>
         </td>
         <td style="width: 33%; border: 0; background: transparent">
-            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-graph.png" /><br><i>Node in context of a graph</i>" />
+            <img src="./shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-07.png" /><br><i>Node in context of a graph</i>" />
         </td>
     </tr>
 </table>

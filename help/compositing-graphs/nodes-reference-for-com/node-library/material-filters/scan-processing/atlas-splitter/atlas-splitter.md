@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](atlas-splitter.resources/atlas-splitter.png "Node icon")
+![Node icon](atlas-splitter.resources/atlas-splitter-01.png "Node icon")
 
 <b>In:</b> Material Filters/Scan Processing
 

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Channels shuffle](channel-shuffle.resources/comp_shuffle.png "Atomic node: Channels shuffle"){width="200px"}
+![Atomic node: Channels shuffle](channel-shuffle.resources/channel-shuffle-01.png "Atomic node: Channels shuffle"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

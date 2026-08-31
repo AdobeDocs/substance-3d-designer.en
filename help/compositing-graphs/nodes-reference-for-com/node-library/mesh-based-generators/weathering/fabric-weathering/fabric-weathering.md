@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](fabric-weathering.resources/fabric-weathering.png){width="128px"}
+![](fabric-weathering.resources/fabric-weathering-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Weathering
 
@@ -82,7 +82,7 @@ Make sure to fully understand the [Link Creation Modes](../../../../../../interf
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="fabric-weathering.resources/fabric-ex.gif" />
+            <img src="fabric-weathering.resources/fabric-weathering-02.gif" />
         </td>
     </tr>
 </table>

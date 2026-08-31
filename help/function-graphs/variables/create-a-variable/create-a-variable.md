@@ -58,4 +58,4 @@ When you have done this, the variable will be available in the other function gr
 >
 > If you have multiple variables to create, just repeat the *Set* and *Sequence* nodes creation operation and set the last sequence node as the output node:
 > 
-> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/create-a-variable-01.png)

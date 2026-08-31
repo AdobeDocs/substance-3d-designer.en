@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](star.resources/star-5.png)
+![](star.resources/star-01.png)
 
 <b>In:</b> Texture Generators &gt; Patterns
 

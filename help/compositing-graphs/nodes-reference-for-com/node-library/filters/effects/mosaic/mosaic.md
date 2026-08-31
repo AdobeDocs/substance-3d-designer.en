@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](mosaic.resources/mosaic-1.png){width="128px"}
+![](mosaic.resources/mosaic-01.png){width="128px"}
 
-![](mosaic.resources/mosaic-grayscale.png){width="128px"}
+![](mosaic.resources/mosaic-02.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -60,7 +60,7 @@ This is useful for adding more definition to grayscale maps such as Heightmap, a
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="mosaic.resources/mosaci-ex.png" />
+            <img src="mosaic.resources/mosaic-03.png" />
         </td>
     </tr>
 </table>

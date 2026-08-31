@@ -32,7 +32,7 @@ There are two main ways of correcting this issue:
 
    Then, reload the host package by clicking RMB on it in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and selecting the <b>Reload</b> option in the contextual menu.
 
-   !['Invalid dependent package' solution 1](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg.gif "'Invalid dependent package' solution 1")
+   !['Invalid dependent package' solution 1](warnings-from-dependencies.resources/warnings-from-dependencies-01.gif "'Invalid dependent package' solution 1")
 1. <b>Relocate the dependency in the package</b>
 
    You can relocate the dependency using the [Dependency manager](../../interface/dependency-manager/dependency-manager.md) . Click RMB on the host package in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and select the <b>Dependency Manager</b> option in the contextual menu.
@@ -41,7 +41,7 @@ There are two main ways of correcting this issue:
 
    Then, reload the host package by clicking RMB on it in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and selecting the <b>Reload</b> option in the contextual menu.
 
-   !['Invalid dependent package' solution 2](warnings-from-dependencies.resources/warnings-dep-invalid-dependent-pkg-2.gif "'Invalid dependent package' solution 2")
+   !['Invalid dependent package' solution 2](warnings-from-dependencies.resources/warnings-from-dependencies-02.gif "'Invalid dependent package' solution 2")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) Check the alias *'X'* is defined in your project
 
@@ -51,7 +51,7 @@ One of the package's dependencies or resources is being loaded from a location w
 
 At least one of the [project files](../../interface/preferences-window/project-settings/project-settings.md) should define the alias that which is reported in the warning.
 
-!['Check alias is defined' solution](warnings-from-dependencies.resources/warnings-dep-alias.gif "'Check alias is defined' solution")
+!['Check alias is defined' solution](warnings-from-dependencies.resources/warnings-from-dependencies-03.gif "'Check alias is defined' solution")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) No file that matches this resource can be found
 
@@ -67,12 +67,12 @@ There are two main ways of correcting this issue:
 
    Go to the location specified by the resource's <b>File Path</b> attribute and check that files following the template exist. If they do not, restore or recreate them.
 
-   !['No file that match resource' solution 1](warnings-from-dependencies.resources/warnings-dep-udim-2.gif "'No file that match resource' solution 1")
+   !['No file that match resource' solution 1](warnings-from-dependencies.resources/warnings-from-dependencies-04.gif "'No file that match resource' solution 1")
 1. <b>Relocate the files</b>
 
    If the files were moved or renamed, relocate them by clicking RMB on the resource item in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and select the <b>Relocate</b> option to link that resource to the *first file in a set* of UDIM images of the same type.
 
-   !['No file that match resource' solution 2](warnings-from-dependencies.resources/warnings-dep-udim.gif "'No file that match resource' solution 2")
+   !['No file that match resource' solution 2](warnings-from-dependencies.resources/warnings-from-dependencies-05.gif "'No file that match resource' solution 2")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) Linked file not found
 
@@ -86,12 +86,12 @@ There are two main ways of correcting this issue:
 
    Go to the location specified by the resource's <b>File Path</b> attribute and check that the file exists. If it does not, restore or recreate it.
 
-   !['Linked file not found' solution 1](warnings-from-dependencies.resources/warnings-dep-file-not-found.gif "'Linked file not found' solution 1")
+   !['Linked file not found' solution 1](warnings-from-dependencies.resources/warnings-from-dependencies-06.gif "'Linked file not found' solution 1")
 1. <b>Relocate the file</b>
 
    If the file was moved or renamed, relocate it by clicking RMB on the resource item in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel and select the <b>Relocate</b> option to link that resource to another file of the same type.
 
-   !['Linked file not found' solution 2](warnings-from-dependencies.resources/warnings-dep-file-not-found-2.gif "'Linked file not found' solution 2")
+   !['Linked file not found' solution 2](warnings-from-dependencies.resources/warnings-from-dependencies-07.gif "'Linked file not found' solution 2")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) Color space not found
 
@@ -107,7 +107,7 @@ Alternatively, add that color space to the current [color management](../../colo
 >
 > This warning is only triggered when using a color management mode other than **Legacy** (which is akin to disabling color management). You may enable color management in the **Color Management** section of the [Project settings](../../interface/preferences-window/project-settings/project-settings.md).
 
-!['Color space not found' solution](warnings-from-dependencies.resources/warnings-dep-color-space.gif "'Color space not found' solution")
+!['Color space not found' solution](warnings-from-dependencies.resources/warnings-from-dependencies-08.gif "'Color space not found' solution")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) Reference resource not found
 
@@ -121,12 +121,12 @@ There are two main ways of correcting this issue:
 
    Check the contents of the package in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel for the graph specified in the <b>UV Tiles</b> list. If it does not exist, restore or recreate it.
 
-   !['Reference resource not found' solution 1](warnings-from-dependencies.resources/warnings-dep-udim-graph-2.gif "'Reference resource not found' solution 1")
+   !['Reference resource not found' solution 1](warnings-from-dependencies.resources/warnings-from-dependencies-09.gif "'Reference resource not found' solution 1")
 1. <b>Select another graph</b>
 
    Assign another graph in the package to the UV tile.
 
-   !['Reference resource not found' solution 1](warnings-from-dependencies.resources/warnings-dep-udim-graph.gif "'Reference resource not found' solution 2")
+   !['Reference resource not found' solution 1](warnings-from-dependencies.resources/warnings-from-dependencies-10.gif "'Reference resource not found' solution 2")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) UV tiles are assigned multiple times
 
@@ -136,7 +136,7 @@ A UV tile for a [3D scene resource](../3d-scene-resource/3d-scene-resource.md) i
 
 For each UV set of a 3D mesh resource, make sure no UDIM index is present *more than once* in the <b>UV Tiles</b> list.
 
-!['UV tiles are assigned multiple times' solution](warnings-from-dependencies.resources/warnings-dep-udim-same.gif "'UV tiles are assigned multiple times' solution")
+!['UV tiles are assigned multiple times' solution](warnings-from-dependencies.resources/warnings-from-dependencies-11.gif "'UV tiles are assigned multiple times' solution")
 
 ## ![(error)](warnings-from-dependencies.resources/error.svg) Invalid UV tiles
 
@@ -150,4 +150,4 @@ For each UV set of a 3D mesh resource, make sure all items in the <b>UV Tiles</b
 >
 > This warning cannot be triggered through the user interface, since it *only* lists the UDIMs detected in the linked resource. Only modifying the data in the Substance 3D file (SBS) *directly* can result in this warning being triggered.
 
-!['Invalid UV tiles' solution](warnings-from-dependencies.resources/warnings-dep-udim-invalid.gif "'Invalid UV tiles' solution")
+!['Invalid UV tiles' solution](warnings-from-dependencies.resources/warnings-from-dependencies-12.gif "'Invalid UV tiles' solution")

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV grayscale: icon](mlv-grayscale.resources/MLV_Grayscale_Icon.png "MLV grayscale: icon")
+![MLV grayscale: icon](mlv-grayscale.resources/mlv-grayscale-01.png "MLV grayscale: icon")
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -72,11 +72,11 @@ The filter finds structuring areas in an image and uses them to both sharpen and
 <table>
   <tr>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant1A.png" alt="MLV_Variant1A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-02.png" alt="MLV_Variant1A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-03.png" alt="MLV_Variant1B">
       <br><i>After</i>
     </td>
   </tr>
@@ -85,11 +85,11 @@ The filter finds structuring areas in an image and uses them to both sharpen and
 <table>
   <tr>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="MLV_Variant2A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-05.png" alt="MLV_Variant2B">
       <br><i>After</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ The filter finds structuring areas in an image and uses them to both sharpen and
 <table>
   <tr>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="MLV_Variant2A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="mlv-grayscale.resources/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/mlv-grayscale-06.png" alt="MLV_Variant2C">
       <br><i>After</i>
     </td>
   </tr>

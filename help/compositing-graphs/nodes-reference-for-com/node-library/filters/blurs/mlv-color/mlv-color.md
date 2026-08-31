@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV color: icon](mlv-color.resources/MLV_Color_Icon.png "MLV color: icon")
+![MLV color: icon](mlv-color.resources/mlv-color-01.png "MLV color: icon")
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -73,11 +73,11 @@ The filter finds structuring areas in an image and uses them to both sharpen and
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant4A.png" alt="MLV_Variant4A">
+      <img src="mlv-color.resources/mlv-color-02.png" alt="MLV_Variant4A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="mlv-color.resources/mlv-color-03.png" alt="MLV_Variant4B">
       <br><i>After</i>
     </td>
   </tr>
@@ -86,11 +86,11 @@ The filter finds structuring areas in an image and uses them to both sharpen and
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant5A.png" alt="MLV_Variant5A">
+      <img src="mlv-color.resources/mlv-color-04.png" alt="MLV_Variant5A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="mlv-color.resources/mlv-color-05.png" alt="MLV_Variant5B">
       <br><i>After</i>
     </td>
   </tr>
@@ -99,11 +99,11 @@ The filter finds structuring areas in an image and uses them to both sharpen and
 <table>
   <tr>
     <td>
-      <img src="mlv-color.resources/MLV_Variant3A.png" alt="MLV_Variant3A">
+      <img src="mlv-color.resources/mlv-color-06.png" alt="MLV_Variant3A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="mlv-color.resources/MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="mlv-color.resources/mlv-color-07.png" alt="MLV_Variant3B">
       <br><i>After</i>
     </td>
   </tr>

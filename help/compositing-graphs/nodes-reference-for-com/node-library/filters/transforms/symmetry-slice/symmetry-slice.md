@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](symmetry-slice.resources/mirror-2.png){width="128px"}
+![](symmetry-slice.resources/symmetry-slice-01.png){width="128px"}
 
 <b>In:</b> Filters &gt; Transforms
 
@@ -52,7 +52,7 @@ Compared to [Mirror](../../../../../../compositing-graphs/nodes-reference-for-co
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="symmetry-slice.resources/symslice.png" />
+            <img src="symmetry-slice.resources/symmetry-slice-02.png" />
         </td>
     </tr>
 </table>

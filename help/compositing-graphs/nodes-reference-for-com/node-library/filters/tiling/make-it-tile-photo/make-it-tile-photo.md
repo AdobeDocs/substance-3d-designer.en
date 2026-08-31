@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](make-it-tile-photo.resources/make-it-tile-photo.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-01.png)
 
-![](make-it-tile-photo.resources/make-it-tile-photo-grayscale.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-02.png)
 
 <b>In:</b> Filters &gt; Tiling
 
@@ -53,7 +53,7 @@ This node provides edge-fixup functionality for any image that might not tile du
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="make-it-tile-photo.resources/mit-photo-ex.png" />
+            <img src="make-it-tile-photo.resources/make-it-tile-photo-03.png" />
         </td>
     </tr>
 </table>

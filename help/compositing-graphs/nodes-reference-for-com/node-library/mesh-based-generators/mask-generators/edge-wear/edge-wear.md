@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](edge-wear.resources/edge-wear.png){width="128px"}
+![](edge-wear.resources/edge-wear-01.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -61,7 +61,7 @@ This node represents wear on object edges. It has quite a few parameters, but is
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="edge-wear.resources/edge-wear-ex.gif" />
+            <img src="edge-wear.resources/edge-wear-02.gif" />
         </td>
     </tr>
 </table>
