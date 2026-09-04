@@ -16,6 +16,18 @@ user-guide-title: ""
 
 ## Version 16
 
+### 16.0.6
+
+*(Released September 4th, 2026)*
+
+**Fixed:**
+
+* &#91;Stability&#93; Fixed a crash when closing the application while shaders are being compiled
+* &#91;Stability&#93; Fixed a crash when exporting an image to a path containing non-ASCII characters
+* &#91;Security&#93; Fixed an out-of-bounds read vulnerability in TGA file parsing
+* &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in TIFF file parsing
+* &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in TGA file parsing
+
 ### 16.0.5
 
 *(Released August 26th, 2026)*
