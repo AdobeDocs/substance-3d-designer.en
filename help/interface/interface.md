@@ -111,6 +111,6 @@ The [Properties dock](properties/properties.md) is the most technical window. It
 
 ## Library
 
-[The Library dock](../interface/the-library/the-library.md) provides access to all the content included in Designer's library by default, as well as your [custom content](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md). To better understand the difference between Atomic Nodes and the Instance Nodes in the library, make sure to read the [Nodes Overview](https://helpx.adobe.com/substance-designer/using/nodes-overview.html).
+[The Library dock](../interface/the-library/the-library.md) provides access to all the content included in Designer's library by default, as well as your [custom content](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md).
 
 ![Library](../assets/library-3.jpg "Library")

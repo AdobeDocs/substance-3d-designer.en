@@ -20,7 +20,7 @@ This page describes nodes of [Function graphs](../../../../function-graphs/the-f
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![If...Else node](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "If...Else node")
+![If...Else node](../../../../assets/IfElse_Node.jpg "If...Else node")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -49,7 +49,7 @@ The condition that controls the node's output.
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Sequence node](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "Sequence node")
+![Sequence node](../../../../assets/Sequence_Node.jpg "Sequence node")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -79,7 +79,7 @@ The portion of the graph that should be computed last
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Whle Loop node](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "Whle Loop node")
+![Whle Loop node](../../../../assets/WhileLoop-Node.jpg "Whle Loop node")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
