@@ -33,7 +33,7 @@ The image illustrates the relation between the different files in Designer's def
 </td>
 <td style="border: 0;" valign="top">
 
-![Configuration files hierarchy](../assets/filestructureoverview.png "Configuration files hierarchy")
+![Configuration files hierarchy](pipeline-and-project-configuration.resources/filestructureoverview.png "Configuration files hierarchy")
 
 </td>
 </tr>
