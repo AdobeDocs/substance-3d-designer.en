@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Output](../../../../assets/comp_output_1.png "Atomic node: Output"){width="200px"}
+![Atomic node: Output](output.resources/comp_output_1.png "Atomic node: Output"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -95,11 +95,11 @@ Here is an example of instance nodes before and after setting a default output:
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="output.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>Before</i>
     </td>
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput1.png" alt="defaultouput1">
+      <img src="output.resources/defaultouput1.png" alt="defaultouput1">
       <br><i>After</i>
     </td>
   </tr>
