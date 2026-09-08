@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/leather-wear.png){width="128px"}
 
-## Leather Wear
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Intermediate**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,32 +31,40 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask represents wear with a leather pattern, with more wear on edges based on Curvature. It is similar to [Fiber Glass Edge Wear](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear/fiber-glass-edge-wear.md) in functionality and has mostly the same parameters.
 
-## Parameters
-
-### Inputs
-
-* **Curvature**: *Grayscale Input*   
-  Baked map used for edge placement. Required!
-* **Ambient Occlusion**: *Grayscale Input*   
-  Baked map used occluding certain areas. Recommended, but not required.
-* **Grunge Input**: *Grayscale Input*   
-  Optional Grunge map input slot that can be toggled through the "Use Custom Grunge" parameter.
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-
-### Parameters
-
-* **Wear Level**: *0.0 - 1.0*Sets global wear level, gradually revealing.
-* **Wear Contrast**: *0.0 - 1.0*Sets contrast of the effect.
-* **Grunge Amount**: *0.0 - 1.0*Sets the amount of grunge (default leather pattern) to blend in between edges.
-* **Ambient Occlusion Masking**: *0.0 - 1.0*Sets extent to which the AO masks out the wear effects.
-* **Curvature Weight**: *0.0 - 1.0*Sets extent to which the curvature's edges affect the final result. Even if set to 0, you still need a curvature map.
-* **Use Custom Grunge**: *False/True*Enables overriding of the built-in default leather pattern. Use a custom input slot instead.
-
-## Example Images
-
-![](../../../../../../assets/leather-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used for edge placement. Required! |
+| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used occluding certain areas. Recommended, but not required. |
+| <b>Grunge Input</b> <i>Grayscale Input</i> | Optional Grunge map input slot that can be toggled through the "Use Custom Grunge" parameter. |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Wear Level</b> <i>0.0 - 1.0</i> | Sets global wear level, gradually revealing. |
+| <b>Wear Contrast</b> <i>0.0 - 1.0</i> | Sets contrast of the effect. |
+| <b>Grunge Amount</b> <i>0.0 - 1.0</i> | Sets the amount of grunge (default leather pattern) to blend in between edges. |
+| <b>Ambient Occlusion Masking</b> <i>0.0 - 1.0</i> | Sets extent to which the AO masks out the wear effects. |
+| <b>Curvature Weight</b> <i>0.0 - 1.0</i> | Sets extent to which the curvature's edges affect the final result. Even if set to 0, you still need a curvature map. |
+| <b>Use Custom Grunge</b> <i>False/True</i> | Enables overriding of the built-in default leather pattern. Use a custom input slot instead. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/leather-wear-ex.gif" />
+        </td>
+    </tr>
 </table>
