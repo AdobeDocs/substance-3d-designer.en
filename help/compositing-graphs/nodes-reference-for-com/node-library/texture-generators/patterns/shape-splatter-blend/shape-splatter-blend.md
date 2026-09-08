@@ -16,43 +16,45 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/shape-splatter-blend.png){width="128px"}
 
-## Shape Splatter Blend (Color)
-
-**In:** *Texture Generators**/Patterns*
-
-**Complex**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Takes [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data as input to generate color or grayscale maps from.
 
-## Parameters
-
-* **Background Color**: *Color Input*
-* **Pattern 1-8**: *Color Input*
-* **Color Input**: *Color Input*
-* **Splatter Data 1**: *Color Input*
-* **Splatter Data 2**: *Color Input*
-
-### Parameters
-
-* **Pattern Number**: *1 - 8*
-* **Random Pattern Assignment (Color Only)**: *0.0 - 1.0*
-* **Is Normal Map **(Color Only)****: *False/True*
-* **HSL/Luminance Adjustment**: *-1.0 - 1.0*
-* **HSL/Luminance Random**: *-1.0 - 1.0*
-* **Normal Angle Random **(Color Only)****: *0.0 - 1.0*
-* **Color Input Opacity**: *0.0 - 1.0*
-
-## Example Images
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Background Color</b> <i>Color Input</i> |  |
+| <b>Pattern 1-8</b> <i>Color Input</i> |  |
+| <b>Color Input</b> <i>Color Input</i> |  |
+| <b>Splatter Data 1</b> <i>Color Input</i> |  |
+| <b>Splatter Data 2</b> <i>Color Input</i> |  |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Pattern Number</b> <i>1 - 8</i> |  |
+| <b>Random Pattern Assignment (Color Only)</b> <i>0.0 - 1.0</i> |  |
+| <b>Is Normal Map (Color Only)</b> <i>False/True</i> |  |
+| <b>HSL/Luminance Adjustment</b> <i>-1.0 - 1.0</i> |  |
+| <b>HSL/Luminance Random</b> <i>-1.0 - 1.0</i> |  |
+| <b>Normal Angle Random (Color Only)</b> <i>0.0 - 1.0</i> |  |
+| <b>Color Input Opacity</b> <i>0.0 - 1.0</i> |  |

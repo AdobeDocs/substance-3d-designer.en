@@ -16,34 +16,38 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/fibers-2.png){width="128px"}
 
-## Fibers 2
-
-**In:** *Texture Generators**/Patterns*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Simple cloth-like pattern. Can be used for mesh, cloth or other organic Height- and Detailmaps. Also see [Fibers 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/fibers-1/fibers-1.md) for a smaller version.
 
-## Parameters
-
-* **Tiling**: *1 - 16*  
-  Sets the amount of times the result should tile.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-
-## Example Images
-
-![](../../../../../../assets/fibers-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Tiling</b> <i>1 - 16</i> | Sets the amount of times the result should tile. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/fibers-2-ex.gif" />
+        </td>
+    </tr>
 </table>

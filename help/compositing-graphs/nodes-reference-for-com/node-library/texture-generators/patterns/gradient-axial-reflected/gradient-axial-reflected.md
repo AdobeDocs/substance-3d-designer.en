@@ -16,32 +16,29 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/gradient-axial-reflected.png){width="128px"}
 
-## Gradient Axial Reflected
-
-**In:** *Texture Generators**/Patterns*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Similar to [Gradient Axial](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-axial/gradient-axial.md), creates a grayscale gradient between two custom defined points, where the gradients both starts and ends with black, and peaks to white in the centre of the transition. Keep in mind results don't always tile.
 
-## Parameters
-
-* **Point 1**:   
-  First point to start the gradient from (black)
-* **Point 2**:   
-  Second point to end the gradient at (white)
-* **Non Square Expansion**: *False/True*  
-  Enable compensation of squash and stretch with non-square ratios.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Point 1</b> | First point to start the gradient from (black) |
+| <b>Point 2</b> | Second point to end the gradient at (white) |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enable compensation of squash and stretch with non-square ratios. |

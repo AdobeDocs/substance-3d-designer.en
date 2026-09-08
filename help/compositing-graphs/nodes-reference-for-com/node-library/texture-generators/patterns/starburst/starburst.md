@@ -16,38 +16,43 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/starburst.png){width="128px"}
 
-## Starburst
-
-**In:** *Texture Generators**/Patterns*
-
-**Intermediate**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Generates a simple starburst effect, with adjustment parameters available.
 
-## Parameters
-
-* **Branches**: *3 - 512*Amount of branches for the effect.
-* **Blur Amount**: *0.0 - 32.0*Controls total amount of blurring or softness.
-* **Randomness**: *0.0 - 1.0*Sets axial randomness, rotates branches randomly around center.
-* **Size Min**: *0.0 - 1.0*Sets minimum size for variation.
-* **Size Max**: *0.0 - 2.0*Sets maximum size, controls global scale if variation is not used.
-* **Size Variation**: *0.0 - 1.0*Introduces random scaling per branch.
-* **Tiling**: *1 - 16*  
-  Sets the amount of times the result should tile.
-
-## Example Images
-
-![](../../../../../../assets/starburst-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Branches</b> <i>3 - 512</i> | Amount of branches for the effect. |
+| <b>Blur Amount</b> <i>0.0 - 32.0</i> | Controls total amount of blurring or softness. |
+| <b>Randomness</b> <i>0.0 - 1.0</i> | Sets axial randomness, rotates branches randomly around center. |
+| <b>Size Min</b> <i>0.0 - 1.0</i> | Sets minimum size for variation. |
+| <b>Size Max</b> <i>0.0 - 2.0</i> | Sets maximum size, controls global scale if variation is not used. |
+| <b>Size Variation</b> <i>0.0 - 1.0</i> | Introduces random scaling per branch. |
+| <b>Tiling</b> <i>1 - 16</i> | Sets the amount of times the result should tile. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/starburst-ex.gif" />
+        </td>
+    </tr>
 </table>
