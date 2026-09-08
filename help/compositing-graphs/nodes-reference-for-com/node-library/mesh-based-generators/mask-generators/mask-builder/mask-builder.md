@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mask-builder.png){width="128px"}
+![](mask-builder.resources/mask-builder.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 

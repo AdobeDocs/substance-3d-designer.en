@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/leather-wear.png){width="128px"}
+![](leather-wear.resources/leather-wear.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -64,7 +64,7 @@ This mask represents wear with a leather pattern, with more wear on edges based 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/leather-wear-ex.gif" />
+            <img src="leather-wear.resources/leather-wear-ex.gif" />
         </td>
     </tr>
 </table>
