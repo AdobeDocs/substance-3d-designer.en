@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/light-2.png){width="128px"}
 
-## Light
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Simple**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,17 +31,27 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask is a bit different from other Generators: it purely does fake lighting, based on the World Space Normalmap, returning a black and white "lightmap" mask.
 
-## Parameters
-
-* **Horizontal Angle**: *0.0 - 1.0*Sets the horizontal angle of the fake light.
-* **Vertical Angle**: *0.0 - 1.0*Sets the vertical angle of the fake light.
-* **Highlight Glossiness**: *0.0 - 0.999*Sets the falloff spread of the highlighted area.
-* **Highlight Level**: *0.0 - 1.0*Sets the brightness level of the highlighted area.
-
-## Example Images
-
-![](../../../../../../assets/light-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Horizontal Angle</b> <i>0.0 - 1.0</i> | Sets the horizontal angle of the fake light. |
+| <b>Vertical Angle</b> <i>0.0 - 1.0</i> | Sets the vertical angle of the fake light. |
+| <b>Highlight Glossiness</b> <i>0.0 - 0.999</i> | Sets the falloff spread of the highlighted area. |
+| <b>Highlight Level</b> <i>0.0 - 1.0</i> | Sets the brightness level of the highlighted area. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/light-ex.gif" />
+        </td>
+    </tr>
 </table>

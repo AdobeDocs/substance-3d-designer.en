@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/sun-bleach.png){width="128px"}
 
-## Sun Bleach
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Simple**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,26 +31,36 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask is similar to [Light](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md), but has support for AO too, leading to a mask that represents light bleaching and fading on top of an effect.
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Inputs
 
-* **Normal World Space**: *Color Input*
-* **Ambient Occlusion**: *Grayscale Input*   
-  Baked map used for internal effects and masking.
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
+|  |  |
+|:---|:---|
+| <b>Normal World Space</b> <i>Color Input</i> |  |
+| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-* **Level**: *0.0 - 1.0*  
-  Sets the total amount of bleaching, moves the effect further down.
-* **Contrast**: *0.0 - 1.0*  
-  Adjusts the contrast of the result.
-* **Occlusion**: *0.0 - 1.0*Sets the influence of the AO on the final result.
+|  |  |
+|:---|:---|
+| <b>Level</b> <i>0.0 - 1.0</i> | Sets the total amount of bleaching, moves the effect further down. |
+| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. |
+| <b>Occlusion</b> <i>0.0 - 1.0</i> | Sets the influence of the AO on the final result. |
 
-## Example Images
+## Examples
 
-![](../../../../../../assets/sun-bleach-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/sun-bleach-ex.gif" />
+        </td>
+    </tr>
 </table>

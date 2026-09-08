@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/leaks.png){width="128px"}
 
-## Leaks
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Intermediate**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,38 +33,42 @@ This node represents leaking streaks of dirt and grime coming from sharp edges. 
 
 Make sure to try changing the variation mask: because it drives the placement of streaks, it can have a much larger influence than with other Mask Generators.
 
-## Parameters
-
-### Inputs
-
-* **Position**: *Grayscale Input*   
-  Baked position map, used for streak directions. Required!
-* **Curvature**: *Grayscale Input*   
-  Baked map used for streak placement. Required!
-* **Ambient Occlusion**: *Grayscale Input*   
-  Baked map used for internal effects and masking. Recommended, but you could use flat white instead.
-* **Normal World Space**: *Color Input*   
-  Baked World Space Normalmap, used for streak direction. Required!
-* **Variation Mask**: *Grayscale Input*   
-  Optional variation mask, enable by setting the override to True.
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-
-### Parameters
-
-* **Level**: *0.0 - 1.0*  
-  Total level of the result. Progressively reveals the effect, affects length as well. Should be set fairly high to get long drips.
-* **Contrast**: *0.0 - 1.0*  
-  Adjusts the contrast of the result.
-* **Variation**: *0.0 - 1.0*Sets the amount of large-scale variation used to mask the streaks. Setting this value to 0 leads to full uniform streaks, so avoid this.
-* **Lenght**: *0.0 - 8.0*Length of the streak drips. Setting this value too high at a small scale will lead to visible stepping. Play around with the Level too.
-* **Occlude**: *X, Y, Z, None*Sets what direction the AO should affect.
-* **Override variation mask**: *False/True*Enables overriding of the variation mask with a custom input slot. Using sparser or denser masks can be interesting and is a good way to control the drips.
-
-## Example Images
-
-![](../../../../../../assets/leaks-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>Grayscale Input</i> | Baked position map, used for streak directions. Required! |
+| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used for streak placement. Required! |
+| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. Recommended, but you could use flat white instead. |
+| <b>Normal World Space</b> <i>Color Input</i> | Baked World Space Normalmap, used for streak direction. Required! |
+| <b>Variation Mask</b> <i>Grayscale Input</i> | Optional variation mask, enable by setting the override to True. |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Level</b> <i>0.0 - 1.0</i> | Total level of the result. Progressively reveals the effect, affects length as well. Should be set fairly high to get long drips. |
+| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. |
+| <b>Variation</b> <i>0.0 - 1.0</i> | Sets the amount of large-scale variation used to mask the streaks. Setting this value to 0 leads to full uniform streaks, so avoid this. |
+| <b>Lenght</b> <i>0.0 - 8.0</i> | Length of the streak drips. Setting this value too high at a small scale will lead to visible stepping. Play around with the Level too. |
+| <b>Occlude</b> <i>X, Y, Z, None</i> | Sets what direction the AO should affect. |
+| <b>Override variation mask</b> <i>False/True</i> | Enables overriding of the variation mask with a custom input slot. Using sparser or denser masks can be interesting and is a good way to control the drips. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/leaks-ex.gif" />
+        </td>
+    </tr>
 </table>
