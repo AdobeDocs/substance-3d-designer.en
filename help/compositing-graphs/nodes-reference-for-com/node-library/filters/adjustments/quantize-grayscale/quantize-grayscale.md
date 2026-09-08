@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Quantize Grayscale icon](../../../../../../assets/quantize-grayscale.png "Quantize Grayscale icon"){width="200px"}
+![Quantize Grayscale icon](quantize-grayscale.resources/quantize-grayscale.png "Quantize Grayscale icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -46,6 +46,6 @@ Generates a single spline in the shape of a circle.
 
 ## Examples
 
-![Example 1](../../../../../../assets/quantizegrayscale.gif "Example 1")
+![Example 1](quantize-grayscale.resources/quantizegrayscale.gif "Example 1")
 
-![Example 2](../../../../../../assets/quantizegrayscale.png "Example 2")
+![Example 2](quantize-grayscale.resources/quantizegrayscale.png "Example 2")

@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blur-hq-1.png){width="128px"}
+![](blur-hq.resources/blur-hq-1.png){width="128px"}
 
-![](../../../../../../assets/blur-hq-grayscale.png){width="128px"}
+![](blur-hq.resources/blur-hq-grayscale.png){width="128px"}
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -51,7 +51,7 @@ Important: make sure to use the appropriate version for your input! Use "Blur HQ
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/hqblur-example.gif" />
+            <img src="blur-hq.resources/hqblur-example.gif" />
         </td>
     </tr>
 </table>
