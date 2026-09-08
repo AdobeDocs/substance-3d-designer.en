@@ -45,45 +45,31 @@ This effectively provides some control over the extracted colors.
 
 This node may be used in combination with the following nodes: [Create Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md), [Apply Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md), [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md), [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Input</b> *Color* PRIMARY | The color image which should be quantized. |
+|:---|:---|
+| <b>Input</b> <i>Color</i> PRIMARY | The color image which should be quantized. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Color* | The quantized color image. |
-| <b>ID</b> *Grayscale* | A map where each quantized color is assigned a unique integer identifier.   This may be used to:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extract a mask</b> out of some quantized areas with the [ID to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) node</li> <li data-preserve-html="true"><b>Recolorize</b> the quantized image with the [Apply Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) or [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md) nodes</li> </ul> |
-| <b>Palette</b> *Color* | The palette extracted from the image, holding the remaining colors after quantization.   The image is an ordered list of RGB colors encoded as a row of pixels, and can hold a maximum of 256 colors.   The palette may be visualized with the [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) node. |
-| <b>Palette color amount</b> *Integer* | The amount of colors stored in the palette. |
+|:---|:---|
+| <b>Output</b> <i>Color</i> | The quantized color image. |
+| <b>ID</b> <i>Grayscale</i> | A map where each quantized color is assigned a unique integer identifier.   This may be used to:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Extract a mask</b> out of some quantized areas with the [ID to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) node</li> <li data-preserve-html="true"><b>Recolorize</b> the quantized image with the [Apply Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md) or [Modify Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md) nodes</li> </ul> |
+| <b>Palette</b> <i>Color</i> | The palette extracted from the image, holding the remaining colors after quantization.   The image is an ordered list of RGB colors encoded as a row of pixels, and can hold a maximum of 256 colors.   The palette may be visualized with the [View Color Palette](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) node. |
+| <b>Palette color amount</b> <i>Integer</i> | The amount of colors stored in the palette. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Max. color amount</b> *Integer* | The maximum amount of colors which should be used in the quantized image.   This amount is the same used in the Palette extracted from the image.   'Maximum' means this amount may not be met, because of the quantization technique being used. Check the 'Palette Color Amount' output for the actual amount of extracted colors. |
 | <b>Contour smoothing</b> *Float* | Controls the radius of a smoothing effect applied to the input image, used to simplify the quantized image into more solid, cohesive shapes.   Note: This smoothing requires intensive computations thus raising this value noticeably increases the node's computation time. |
 | <b>Dithering</b> *Float* | Applies a dithering pattern in order to recreate the gradients and color blends in the original image, while still only using the colors remaining after the quantization.   Make sure to use a 'Contour Smoothing' value of 0 to produce the expected dithering effect. |
