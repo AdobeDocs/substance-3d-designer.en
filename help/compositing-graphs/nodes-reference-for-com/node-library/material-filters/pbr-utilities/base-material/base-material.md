@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/pbr-base-material.png){width="128px"}
 
-## Base Material
-
-**In:** *Material Filters/PBR Utilities*
-
-**Intermediate**
+<b>In:</b> Material Filters &gt; PBR Utilities
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,42 +31,41 @@ The quickest, easiest way to create a Multi-Channel material in [Adobe Substance
 
 The node is very useful when texturing full props and blending multiple materials. In fact, you could start every single material from this node, without ever needing a complex material base.
 
-## Parameters
-
-### Inputs
-
-* Optional inputs for every channel that can be toggled with the switches in "User Defined Inputs".
-
-### Parameters
-
-* **PBR Workflow**: *Metal - Roughness, Specular - Glossiness*Sets the PBR model used.
-* **Material Preset**: *Custom, Dielectric, Gold, Silver, Aluminium, Iron, Copper, Titanium, Nickel, Cobalt, Platinum*Quick shortcut to create certain metals. Disables irrelevant options.
-* **Base Color**: *(Color value)*Solid color used for Base Color.
-* **Metallic**: *(Grayscale value)*Solid value used for Metallic.
-* **Diffuse Color**: *(Color value)*Solid color used for Diffuse.
-* **Specular**: *(Color value)*Solid color used for Specular.
-* **Specular Presets**: *Plastic, Wood, Stone, Brick, Sand, Concrete, Fabric, Rusted Metal, Water, Ice, Glass*Optional quick presets to set PBR-correct Specular values.
-* **Specular Range**: *0.0 - 1.0*Adjusts Specular range.
-* **Roughness - Glossiness**   
-  * **Roughness Value**: *(Grayscale value)*Set the global, base roughness value, if channel is active.
-  * **Glossiness Value**: *(Grayscale value)*Solid color used for Glossiness, if channel is active.
-  * **Grunge Amount**: *0.0 - 1.0*Extent to which the optional Grunge map input is blended in to Gloss or Roughness.
-  * **Grunge Tiling**: *1 - 16*Extent to tile the optional Grunge map by.
-  * **Custom Grunge Input**: *False/True*Enables or disables the optional custom Grunge map .
-* **Normal**   
-  * **Normal from Height Intensity**: *0.0 - 16.0*Optionally converts custom Heightmap to normal and returns this as the material Normalmap.
-* **Height**   
-  * **Height Position**: *0.0 - 1.0*Solid value used for Height output.
-  * **Height Range**: *0.0 - 1.0*Sets influence of User-Defined Heightmap, if enabled.
-* **User-Defined Maps**   
-  * Toggles on or off all user-defined maps, returning these instead of any solid values.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+|  | Optional inputs for every channel that can be toggled with the switches in "User Defined Inputs". |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>PBR Workflow</b> <i>Metal - Roughness, Specular - Glossiness</i> | Sets the PBR model used. |
+| <b>Material Preset</b> <i>Custom, Dielectric, Gold, Silver, Aluminium, Iron, Copper, Titanium, Nickel, Cobalt, Platinum</i> | Quick shortcut to create certain metals. Disables irrelevant options. |
+| <b>Base Color</b> <i>(Color value)</i> | Solid color used for Base Color. |
+| <b>Metallic</b> <i>(Grayscale value)</i> | Solid value used for Metallic. |
+| <b>Diffuse Color</b> <i>(Color value)</i> | Solid color used for Diffuse. |
+| <b>Specular</b> <i>(Color value)</i> | Solid color used for Specular. |
+| <b>Specular Presets</b> <i>Plastic, Wood, Stone, Brick, Sand, Concrete, Fabric, Rusted Metal, Water, Ice, Glass</i> | Optional quick presets to set PBR-correct Specular values. |
+| <b>Specular Range</b> <i>0.0 - 1.0</i> | Adjusts Specular range. |
+| <b>Roughness - Glossiness</b> |  |
+| <b>Roughness Value</b> <i>(Grayscale value)</i> | Set the global, base roughness value, if channel is active. |
+| <b>Glossiness Value</b> <i>(Grayscale value)</i> | Solid color used for Glossiness, if channel is active. |
+| <b>Grunge Amount</b> <i>0.0 - 1.0</i> | Extent to which the optional Grunge map input is blended in to Gloss or Roughness. |
+| <b>Grunge Tiling</b> <i>1 - 16</i> | Extent to tile the optional Grunge map by. |
+| <b>Custom Grunge Input</b> <i>False/True</i> | Enables or disables the optional custom Grunge map . |
+| <b>Normal</b> |  |
+| <b>Normal from Height Intensity</b> <i>0.0 - 16.0</i> | Optionally converts custom Heightmap to normal and returns this as the material Normalmap. |
+| <b>Height</b> |  |
+| <b>Height Position</b> <i>0.0 - 1.0</i> | Solid value used for Height output. |
+| <b>Height Range</b> <i>0.0 - 1.0</i> | Sets influence of User-Defined Heightmap, if enabled. |
+| <b>User-Defined Maps</b> | Toggles on or off all user-defined maps, returning these instead of any solid values. |

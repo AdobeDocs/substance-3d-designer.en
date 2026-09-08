@@ -16,46 +16,40 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/snow-cover.png){width="128px"}
 
-## Snow Cover
-
-**In:** *Material Filters/Effects*
-
-**Intermediate**
+<b>In:</b> Material Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 All-in-one effect to add snow buildup on a full material. Strongly relies on a good, high-quality Heightmap, such as from a photoscan. The result is intended to be PBR-correct.
 
-## Parameters
-
-### Inputs
-
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-
-### Parameters
-
-* **Channels**  
-  Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness.
-* **Fresh Snow**: *0.0 - 1.0*Sets amount of snow in Raised areas. The result is tied to the Melted Snow parameter.
-* **Melted Snow**: *0.0 - 1.0*Sets amount of melted snow in lowered corners.
-* **Buildup**: *0.0 - 1.0*Mostly affects Height output, determines height pile-up effect.
-* **Smoothness**: *0.0 - 1.0*Sets smoothing out of height details by snow buildup.
-* **Flakes Intensity**: *0.0 - 1.0*Mainly affects Normalmap, intensity of flake details.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Channels</b> | Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness. |
+| <b>Fresh Snow</b> <i>0.0 - 1.0</i> | Sets amount of snow in Raised areas. The result is tied to the Melted Snow parameter. |
+| <b>Melted Snow</b> <i>0.0 - 1.0</i> | Sets amount of melted snow in lowered corners. |
+| <b>Buildup</b> <i>0.0 - 1.0</i> | Mostly affects Height output, determines height pile-up effect. |
+| <b>Smoothness</b> <i>0.0 - 1.0</i> | Sets smoothing out of height details by snow buildup. |
+| <b>Flakes Intensity</b> <i>0.0 - 1.0</i> | Mainly affects Normalmap, intensity of flake details. |

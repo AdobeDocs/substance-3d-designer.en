@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/crop-material.png){width="128px"}
 
-## Material Crop
-
-**In:** *Material Filters/Scan Processing*
-
-**Simple**
+<b>In:</b> Material Filters &gt; Scan Processing
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,25 +33,18 @@ This node is the multi-channel, full material version of [Crop](../../../../../.
 >
 > [See the original ](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)[ for more info.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md)
 
-## Parameters
-
-### Parameters
-
-* **Channels**  
-  * Toggle material channels on and off in this group, when using Specular/Glossiness maps instead of Metallic/Roughness for example.
-* **Input Size**: *0 - 8192*Input image's resolution and proportions. Very important for non-square images.
-* **Background**: *(Color value) / (Grayscale value)*Background uniform value for areas not covered by Crop.
-* **Transform**: *(Transformation Matrix)*  
-  Rotates and scales the result. Result can be modified by directly interacting with the canvas.
-* **Offset**: *0.0 - 1.0*  
-  Moves or translates the result. Result can be modified by directly interacting with the canvas.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Channels</b> | Toggle material channels on and off in this group, when using Specular/Glossiness maps instead of Metallic/Roughness for example. |
+| <b>Input Size</b> <i>0 - 8192</i> | Input image's resolution and proportions. Very important for non-square images. |
+| <b>Background</b> <i>(Color value) / (Grayscale value)</i> | Background uniform value for areas not covered by Crop. |
+| <b>Transform</b> <i>(Transformation Matrix)</i> | Rotates and scales the result. Result can be modified by directly interacting with the canvas. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Moves or translates the result. Result can be modified by directly interacting with the canvas. |
