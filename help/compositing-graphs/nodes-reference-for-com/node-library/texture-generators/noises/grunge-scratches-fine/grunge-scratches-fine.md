@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungescratchesfine.jpg){width="200px"}
+![](grunge-scratches-fine.resources/grungescratchesfine.jpg){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -53,10 +53,10 @@ The **Grunge Scratches Fine** node generates a grunge map akin to a finely scrat
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesfine-variant.jpg" />
+            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesfine-variant2.jpg" />
+            <img src="grunge-scratches-fine.resources/grungescratchesfine-variant2.jpg" />
         </td>
     </tr>
 </table>

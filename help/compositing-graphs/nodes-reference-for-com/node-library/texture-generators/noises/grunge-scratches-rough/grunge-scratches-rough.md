@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
+![](grunge-scratches-rough.resources/grungescratchesrough.jpg){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -63,10 +63,10 @@ The **Grunge Scratches Rough** node generates a grunge map akin to a roughly scr
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesrough-variant.jpg" />
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungescratchesrough-variant2.jpg" />
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" />
         </td>
     </tr>
 </table>
