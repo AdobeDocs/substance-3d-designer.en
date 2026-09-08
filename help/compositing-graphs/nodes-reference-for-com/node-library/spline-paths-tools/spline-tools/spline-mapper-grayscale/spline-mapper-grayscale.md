@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-mapper-grayscale-icon.png "Node icon")
+![Node icon](spline-mapper-grayscale.resources/spline-mapper-grayscale-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -105,11 +105,11 @@ The node outputs the mapped image as a grayscale image, as well as other informa
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-grayscale.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
+      <img src="spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapperGrayscale-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -118,7 +118,7 @@ The node outputs the mapped image as a grayscale image, as well as other informa
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "Node example 2")
+![Node example 2](spline-mapper-grayscale.resources/SplineMapperGrayscale-Demo.gif "Node example 2")
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ The node outputs the mapped image as a grayscale image, as well as other informa
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "Node example 3")
+![Node example 3](spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After1.jpg "Node example 3")
 
 </td>
 <td style="border: 0;" valign="top">
