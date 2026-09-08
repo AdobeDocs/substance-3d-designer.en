@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungegalvanicsmall.jpg){width="200px"}
+![](grunge-galvanic-small.resources/grungegalvanicsmall.jpg){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -53,10 +53,10 @@ The **Grunge Galvanic Small** node generates a grunge map akin to the pattern of
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungegalvanicsmall-variant2.jpg" />
+            <img src="grunge-galvanic-small.resources/grungegalvanicsmall-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungegalvanicsmall-variant.jpg" />
+            <img src="grunge-galvanic-small.resources/grungegalvanicsmall-variant.jpg" />
         </td>
     </tr>
 </table>
