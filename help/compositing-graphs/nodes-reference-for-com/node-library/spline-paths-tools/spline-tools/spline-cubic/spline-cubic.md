@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-cubic.resources/spline-cubic-01.png "Node icon")
+![Node icon](../../../../../../assets/spline-cubic-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -35,59 +35,122 @@ The trajectory of the spline is controlled by the ‘out’ tangent of <b>p1</b>
 </tr>
 </table>
 
-<a name="inputs"></a>
+## Input connectors
 
-## Inputs
+<b>Preview</b> *Grayscale*The preview of the input splines as a grayscale image.
 
-|  |  |
-|:---|:---|
-| <b>Preview</b> <i>Grayscale</i> | The preview of the input splines as a grayscale image. |
-| <b>Spline Coords</b> <i>Color</i> | The coordinates of the input splines' points encoded in the RGBA channels of a color image:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline is closed (negative) or open (positive);<br>- Absolute value: Thickness + 1. |
-| <b>Spline Data</b> <i>Color</i> | Additional data of the input splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
-| <b>Spline Amount</b> <i>Integer</i> | The number of input splines. |
+<b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
+<b>    R</b> - X position  
+<b>    G</b> - Y position  
+<b>    B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
-<a name="outputs"></a>
+<b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
+<b>    R</b> - Tangents X  
+<b>    G</b> - Tangents Y  
+<b>    B</b> - Unused  
+<b>    A</b> - Unused
 
-## Outputs
+<b>Spline Amount</b> *Integer*The number of input splines.
 
-|  |  |
-|:---|:---|
-| <b>Preview</b> <i>Grayscale</i> | The preview of the output splines as a grayscale image. |
-| <b>Spline Coords</b> <i>Color</i> | The coordinates of the output splines' points encoded in the RGBA channels of a color image.<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline is closed (negative) or open (positive);<br>- Absolute value: Thickness + 1. |
-| <b>Spline Data</b> <i>Color</i> | Additional data of the output splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
-| <b>Spline Amount</b> <i>Integer</i> | The number of output splines. |
+## Output connectors
 
-<a name="parameters"></a>
+<b>Preview</b> *Grayscale*The preview of the output splines as a grayscale image.
+
+<b>Spline Coords</b> *Color*The coordinates of the output splines’ points encoded in the RGBA channels of a color image.  
+    <b>R</b> - X position  
+    <b>G</b> - Y position  
+    <b>B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
+
+<b>Spline Data</b> *Color*Additional data of the output splines encoded in the RGBA channels of a color image.  
+    <b>R</b> - Tangents X  
+    <b>G</b> - Tangents Y  
+    <b>B</b> - Unused  
+    <b>A</b> - Unused
+
+<b>Spline Amount</b> *Integer*The number of output splines.
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Flip Direction</b> <i>Boolean</i> | Inverts the direction of the spline. |
-| <b>Append Input Spline</b> <i>Boolean</i> | Adds the generated spline to the end of the list of splines connected to the <b>Spline</b> inputs. |
-| <b>Non-Square Correction</b> <i>Boolean</i> | Adjust the points' positions and thickness to retain the spline shape in non-square resolutions. This also impacts uniform distribution. |
-| <b>Height</b> |  |
-| <b>Start Height</b> <i>Float</i> | Adjusts the height of the p1 point where a lower value means a lower or deeper location. This impacts the height of the spline at p1. |
-| <b>End Height</b> <i>Float</i> | Adjusts the height of the p2 point where a lower value means a lower or deeper location. This impacts the thickness of the spline at p2. |
-| <b>Auto Tangent Height</b> <i>Boolean</i> | Automatically sets the height of the spline tangents to interpolate linearly from the Start Height to the End Height. |
-| <b>p1 Tangent Height</b> <i>Float</i> (available when 'Auto Tangent Height' is True) | Adjusts the height of the p1 point 'out' tangent where a lower value means a lower or deeper location. This impacts the height along the spline as it draws away from p1. |
-| <b>p2 Tangent Height</b> <i>Float</i> (available when 'Auto Tangent Height' is True) | Adjusts the height of the p2 point 'in' tangent where a lower value means a lower or deeper location. This impacts the height along the spline as it draws away from p2. |
-| <b>Thickness</b> |  |
-| <b>Start Thickness</b> <i>Float</i> | Adjusts the thickness of the p1 point. This impacts the thickness of the spline at p1.<br>Note: Thickness is used by specific Spline nodes. |
-| <b>End Thickness</b> <i>Float</i> | Adjusts the thickness of the p2 point. This impacts the thickness of the spline at p2.<br>Note: Thickness is used by specific Spline nodes. |
-| <b>Auto Tangent Thickness</b> <i>Boolean</i> | Automatically sets the thickness of the spline tangents to interpolate linearly from the Start Thickness to the End Thickness.<br>Note: Thickness is used by specific Spline nodes. |
-| <b>p1 Tangent Thickness</b> <i>Float</i> (available when 'Auto Tangent Thickness' is True) | Adjusts the thickness of the p1 point 'out' tangent. This impacts the thickness along the spline as it draws away from p1.<br>Note: Thickness is used by specific Spline nodes. |
-| <b>p2 Tangent Thickness</b> <i>Float</i> (available when 'Auto Tangent Thickness' is True) | Adjusts the thickness of the p2 point 'in' tangent. This impacts the thickness along the spline as it draws away from p2.<br>Note: Thickness is used by specific Spline nodes. |
-| <b>Points Coordinates</b> |  |
-| <b>p1</b> <i>Float2</i> | Sets the position of the p1 point in texture space. |
-| <b>p1 Tangent</b> <i>Float2</i> | Sets the position of the p1 point 'out' tangent handle in texture space. |
-| <b>p2</b> <i>Float2</i> | Sets the position of the p2 point in texture space. |
-| <b>p2 Tangent</b> <i>Float2</i> | Sets the position of the p2 point 'in' tangent handle in texture space. |
-| <b>Preview</b> |  |
-| <b>Show Tangents</b> <i>Boolean</i> | Displays the p1 point 'out' tangent and p2 point 'in' tangent in the Preview output. |
-| <b>Show Direction Helper</b> <i>Boolean</i> | Displays a dot at the start of the spline and an arrowhead at its end in the Preview output. |
-| <b>Segments Amount</b> <i>Integer</i> | Adjusts the number of segments used to draw the spline visualization in the Preview output. A higher value results in a smoother line. |
-| <b>Thickness (px)</b> <i>Float</i> | Adjusts the thickness in pixels of the spline visualization in the Preview output. |
+<b>Flip Direction</b> *Boolean*  
+Inverts the direction of the spline.
+
+<b>Append Input Spline</b> *Boolean*  
+Adds the generated spline to the end of the list of splines connected to the <b>Spline</b> inputs.
+
+<b>Non-Square Correction</b>*Boolean*Adjust the points’ positions and thickness to retain the spline shape in non-square resolutions.  
+This also impacts uniform distribution.
+
++++Height
+<b>Start Height</b> *Float*Adjusts the height of the p1 point where a lower value means a lower or deeper location.  
+This impacts the height of the spline at p1.
+
+<b>End Height</b> *Float*Adjusts the height of the p2 point where a lower value means a lower or deeper location.  
+This impacts the thickness of the spline at p2.
+
+<b>Auto Tangent Height</b> *Boolean*Automatically sets the height of the spline tangents to interpolate linearly from the Start Height to the End Height.
+
+<b>p1 Tangent Height</b> *Float* (available when ‘Auto Tangent Height’ is True)  
+Adjusts the height of the p1 point ‘out’ tangent where a lower value means a lower or deeper location.  
+This impacts the height along the spline as it draws away from p1.
+
+<b>p2 Tangent Height</b> *Float* (available when ‘Auto Tangent Height’ is True)  
+Adjusts the height of the p2 point ‘in’ tangent where a lower value means a lower or deeper location.  
+This impacts the height along the spline as it draws away from p2.
+
++++
+
++++Thickness
+<b>Start Thickness</b> *Float*Adjusts the thickness of the p1 point.  
+This impacts the thickness of the spline at p1.  
+Note: Thickness is used by specific Spline nodes.
+
+<b>End Thickness</b> *Float*Adjusts the thickness of the p2 point.  
+This impacts the thickness of the spline at p2.  
+Note: Thickness is used by specific Spline nodes.
+
+<b>Auto Tangent Thickness</b> *Boolean*Automatically sets the thickness of the spline tangents to interpolate linearly from the Start Thickness to the End Thickness.  
+Note: Thickness is used by specific Spline nodes.
+
+<b>p1 Tangent Thickness</b> *Float* (available when ‘Auto Tangent Thickness’ is True)  
+Adjusts the thickness of the p1 point ‘out’ tangent.  
+This impacts the thickness along the spline as it draws away from p1.  
+Note: Thickness is used by specific Spline nodes.
+
+<b>p2 Tangent Thickness</b> *Float* (available when ‘Auto Tangent Thickness’ is True)  
+Adjusts the thickness of the p2 point ‘in’ tangent.  
+This impacts the thickness along the spline as it draws away from p2.  
+Note: Thickness is used by specific Spline nodes.
+
++++
+
++++Points Coordinates
+<b>p1</b> *Float2*Sets the position of the p1 point in texture space.
+
+<b>p1 Tangent</b> *Float2*Sets the position of the p1 point ‘out’ tangent handle in texture space.
+
+<b>p2</b> *Float2*Sets the position of the p2 point in texture space.
+
+<b>p2 Tangent</b> *Float2*Sets the position of the p2 point ‘in’ tangent handle in texture space.
+
++++
+
++++Preview
+<b>Show Tangents</b> *Boolean*Displays the p1 point ‘out’ tangent and p2 point ‘in’ tangent in the Preview output.
+
+<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
+
+<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
+A higher value results in a smoother line.
+
+<b>Thickness (px)</b> *Float*Adjusts the thickness in pixels of the spline visualization in the Preview output.
+
++++
 
 ## Examples
 
@@ -95,12 +158,12 @@ The trajectory of the spline is controlled by the ‘out’ tangent of <b>p1</b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](spline-cubic.resources/spline-cubic-02.jpg "Node example 1")
+![Node example 1](../../../../../../assets/SplineCubic-Variant1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](spline-cubic.resources/spline-cubic-03.jpg "Node example 2")
+![Node example 2](../../../../../../assets/SplineCubic-Variant2.jpg "Node example 2")
 
 </td>
 </tr>
@@ -110,7 +173,7 @@ The trajectory of the spline is controlled by the ‘out’ tangent of <b>p1</b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 3](spline-cubic.resources/spline-cubic-04.gif "Node example 3")
+![Node example 3](../../../../../../assets/SplineCubic-Demo.gif "Node example 3")
 
 </td>
 <td style="border: 0;" valign="top">

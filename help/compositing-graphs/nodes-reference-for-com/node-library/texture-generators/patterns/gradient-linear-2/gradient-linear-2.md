@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](gradient-linear-2.resources/gradient-linear-2-01.png){width="128px"}
+![](../../../../../../assets/gradient-linear-2.png){width="128px"}
 
-<b>In:</b> Texture Generators &gt; Patterns
+## Gradient Linear 2
+
+**In:** *Texture Generators**/Patterns*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,25 +35,16 @@ Simple, smooth double-sided gradient. Gives a perfect black-white-black gradient
 
 Despite its simplicity, it's very useful and can serve many purposes. Try it together with a [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md), for example!
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Tiling</b> <i>1 - 16</i> | Sets the amount of times the result should tile. |
-| <b>Rotation</b> <i>0, 90°</i> | Changes the direction from left-right to top-bottom, or vice versa. |
+* **Tiling**: *1 - 16*  
+  Sets the amount of times the result should tile.
+* **Rotation**: **0, 90°**Changes the direction from left-right to top-bottom, or vice versa.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="gradient-linear-2.resources/gradient-linear-2-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/gradient-linear-2-ex.gif)
+
+</td>
+</tr>
 </table>

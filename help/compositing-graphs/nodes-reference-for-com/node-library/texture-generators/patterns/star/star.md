@@ -16,28 +16,32 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](star.resources/star-01.png)
+![](../../../../../../assets/star-5.png)
 
-<b>In:</b> Texture Generators &gt; Patterns
+## Star
+
+**In:** *Texture Generators**/Patterns*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Generates a five-pointed star.
 
+## Parameters
+
+* **Scale**: *0.0 - 1.0*  
+  Scales the entire shape uniformly.
+* **Non Square Expansion**: *False/True*  
+  Enables compensation of squash and stretch with non-square ratios.
+
+## Example Images
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## Parameters
-
-|  |  |
-|:---|:---|
-| <b>Scale</b> <i>0.0 - 1.0</i> | Scales the entire shape uniformly. |
-| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |

@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](crystal-2.resources/crystal-2-01.png){width="128px"}
+![](../../../../../../assets/crystal-2.png){width="128px"}
 
-<b>In:</b> Texture Generators &gt; Noises
+## Crystal 2
+
+**In:** *Texture Generators**/Noises*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,26 +35,21 @@ Generates an angular, cloth crease-like pattern. Similar to [Crease Noise](../..
 
 This is a bit of a niche noise: it can be useful for rare cases where you're after this type of detail, such as when recreating subtle marble patterns or doing cloth.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Scale</b> <i>1 - 16</i> | Sets the global scale for the effect. |
-| <b>Disorder</b> <i>0.0 - 1.0</i> | Phase-shifts the noise to introduce small variation. |
-| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+* **Scale**: *1 - 16*  
+  Sets the global scale for the effect.
+* **Disorder**: *0.0 - 1.0*  
+  Phase-shifts the noise to introduce small variation.
+* **Non Square Expansion**: *False/True*  
+  Enables compensation of squash and stretch with non-square ratios.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="crystal-2.resources/crystal-2-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/crystal-2-1.png" width="256px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

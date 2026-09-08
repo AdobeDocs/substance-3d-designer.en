@@ -16,40 +16,38 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](microscope-view.resources/microscope-view-01.png){width="128px"}
+![](../../../../../../assets/microscope-view.png){width="128px"}
 
-<b>In:</b> Texture Generators &gt; Noises
+## Microscope View
+
+**In:** *Texture Generators**/Noises*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 This generates a warped noise that looks like bacteria or organisms under a microscope.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Scale</b> <i>0 - 10</i> | Sets the global scale for the effect. |
-| <b>Warp Intensity</b> <i>0.0 - 1.0</i> | Sets intensity of the warp effect. Keep in mind you can go negative as well, by double clicking and entering -1. |
-| <b>Disorder</b> <i>0.0 - 1.0</i> | Phase-shifts the noise to introduce small variation |
-| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+* **Scale**: *0 - 10*  
+  Sets the global scale for the effect.
+* **Warp Intensity**: *0.0 - 1.0*  
+  Sets intensity of the warp effect. Keep in mind you can go negative as well, by double clicking and entering -1.
+* **Disorder**: *0.0 - 1.0*  
+  Phase-shifts the noise to introduce small variation
+* **Non Square Expansion**: *False/True*  
+  Enables compensation of squash and stretch with non-square ratios.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="microscope-view.resources/microscope-view-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/microscope-view-ex.gif)
+
+</td>
+</tr>
 </table>

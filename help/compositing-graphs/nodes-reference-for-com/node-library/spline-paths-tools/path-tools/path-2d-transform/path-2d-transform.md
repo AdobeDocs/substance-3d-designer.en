@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](path-2d-transform.resources/path-2d-transform-01.png "Node icon")
+![Node icon](../../../../../../assets/path-2d-transform-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -33,30 +33,26 @@ Transforms Paths using a gizmo.
 </tr>
 </table>
 
-<a name="inputs"></a>
+## Input connectors
 
-## Inputs
+<b>Paths</b> *Color*  
+A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
 
-|  |  |
-|:---|:---|
-| <b>Paths</b> <i>Color</i> | A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node. |
+## Output connectors
 
-<a name="outputs"></a>
-
-## Outputs
-
-|  |  |
-|:---|:---|
-| <b>Paths</b> <i>Color</i> | The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines. |
-
-<a name="parameters"></a>
+<b>Paths</b> *Color*  
+The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Transform matrix</b> <i>Float4</i> | The transformation matrix applied to the splines. Three modes of editing the matrix parameters are available:<br>*- Transformation gizmo:* tweak the handles of the gizmo displayed in the [2D View](../../../../../../interface/2d-view/2d-view.md) when the Spline 2D Transform node is selected;<br>*- Rotation/Stretch:* Individually control the rotation and stretching of the splines. Note that values are always applied relatively to the current transformation. E.g., applying 50% width twice results in a 25% width;<br>*- Matrix values:* Click the <b>Edit Matrix Values</b> button to input the raw numerical values of the matrix directly. |
-| <b>Offset</b> <i>Float2</i> | Applies a position offset to the splines in X (horizontal) and Y (vertical). |
+<b>Transform matrix</b> *Float4*  
+The transformation matrix applied to the splines. Three modes of editing the matrix parameters are available:  
+*- Transformation gizmo:* tweak the handles of the gizmo displayed in the [2D View](../../../../../../interface/2d-view/2d-view.md) when the Spline 2D Transform node is selected;  
+*- Rotation/Stretch:* Individually control the rotation and stretching of the splines. Note that values are always applied relatively to the current transformation. E.g., applying 50% width twice results in a 25% width;  
+*- Matrix values:* Click the <b>Edit Matrix Values</b> button to input the raw numerical values of the matrix directly.
+
+<b>Offset</b> *Float2*  
+Applies a position offset to the splines in X (horizontal) and Y (vertical).
 
 ## Examples
 
@@ -67,11 +63,11 @@ Transforms Paths using a gizmo.
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-03.jpg" alt="Paths2DTransform-Variant1">
+      <img src="../../../../../../assets/Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
       <br><i>After</i>
     </td>
   </tr>
@@ -83,11 +79,11 @@ Transforms Paths using a gizmo.
 <table>
   <tr>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="path-2d-transform.resources/path-2d-transform-04.jpg" alt="Paths2DTransform-Variant2">
+      <img src="../../../../../../assets/Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
       <br><i>After</i>
     </td>
   </tr>

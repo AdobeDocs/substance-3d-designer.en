@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](noise-upscale-1.resources/noise-upscale-1-01.png){width="128px"}
+![](../../../../../../assets/noise-upscale.png){width="128px"}
 
-<b>In:</b> Filters &gt; Transforms
+## Noise Upscale 1
+
+**In:** *Filters/Transforms*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -33,27 +37,20 @@ This node is mostly intended for optimising slow graphs that use heavy, big nois
 
 See also [Noise Upscale 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md) and [Noise Upscale 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) for different variations of this process.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Offset1X</b> <i>0.0 - 1.0</i> | Slides top and bottom parts over X axis. |
-| <b>Offset1Y</b> <i>0.0 - 1.0</i> | Slides top and bottom parts over Y axis. |
-| <b>Offset2X</b> <i>0.0 - 1.0</i> | Slides left and right parts over X axis. |
-| <b>Offset2Y</b> <i>0.0 - 1.0</i> | Slides left and right parts over Y axis. |
+* **Offset1X**: *0.0 - 1.0*Slides top and bottom parts over X axis.
+* **Offset1Y**: *0.0 - 1.0*  
+  Slides top and bottom parts over Y axis.
+* **Offset2X**: *0.0 - 1.0*Slides left and right parts over X axis.
+* **Offset2Y**: *0.0 - 1.0*Slides left and right parts over Y axis.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="noise-upscale-1.resources/noise-upscale-1-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise1ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

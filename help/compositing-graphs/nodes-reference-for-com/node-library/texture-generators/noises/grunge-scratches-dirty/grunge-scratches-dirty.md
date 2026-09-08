@@ -16,14 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-scratches-dirty.resources/grunge-scratches-dirty-01.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesdirty.jpg){width="200px"}
 
-<b>In:</b> Texture Generators &gt; Noises
+**In:** *Texture Generators* */Noises*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -33,29 +35,29 @@ The **Grunge Scratches Dirty** node generates a grunge map akin to a finely scra
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Balance</b> <i>Float</i> | Adjusts the balance between dark and bright values. |
-| <b>Contrast</b> <i>Float</i> | Adjusts the contrast of the image. |
-| <b>Invert</b> <i>Boolean</i> | Inverts the output of the image, using a `1-x` operation. |
-| <b>Non Square Expansion</b> <i>Boolean</i> | Enables compensation of squash and stretch with non-square ratios. |
-| <b>Advanced</b> |  |
-| <b>Base Grunge Intensity</b> <i>Float</i> | Adjusts the intensity of the grunge map applied to the base surface. |
-| <b>Scratches Intensity</b> <i>Float</i> | Adjusts the intensity of the scratches on the base surface. |
+* **Balance** *Float*Adjusts the balance between dark and bright values.
+* **Contrast** *Float*Adjusts the contrast of the image.
+* **Invert** *Boolean*Inverts the output of the image, using a `1-x` operation.
+* **Non Square Expansion** *Boolean*Enables compensation of squash and stretch with non-square ratios.
+* Advanced
+  * **Base Grunge Intensity** *Float*Adjusts the intensity of the grunge map applied to the base surface.
+  * **Scratches Intensity** *Float*Adjusts the intensity of the scratches on the base surface.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grunge-scratches-dirty-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-dirty.resources/grunge-scratches-dirty-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungescratchesdirty-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungescratchesdirty-variant.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

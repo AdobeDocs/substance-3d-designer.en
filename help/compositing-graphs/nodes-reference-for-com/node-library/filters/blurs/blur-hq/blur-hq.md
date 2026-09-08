@@ -16,16 +16,20 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](blur-hq.resources/blur-hq-01.png){width="128px"}
+![](../../../../../../assets/blur-hq-1.png){width="128px"}
 
-![](blur-hq.resources/blur-hq-02.png){width="128px"}
+![](../../../../../../assets/blur-hq-grayscale.png){width="128px"}
 
-<b>In:</b> Filters &gt; Blurs
+## Blur HQ (Grayscale)
+
+**In:** *Filters/Blurs*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -33,25 +37,16 @@ Performs a High-Quality gaussian blur on the result. Much better quality than [t
 
 Important: make sure to use the appropriate version for your input! Use "Blur HQ" for Color inputs, or "Blur HQ Grayscale" for Grayscale inputs.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Intensity</b> <i>0.0 - 16.0</i> | Strength (Radius) of the blur. The higher this value, the further the blur will reach. |
-| <b>Quality</b> <i>0 - 1</i> | Increases internal sampling amount for even higher quality, at reduced computation speed. |
+* **Intensity**: *0.0 - 16.0*  
+  Strength (Radius) of the blur. The higher this value, the further the blur will reach.
+* **Quality**: *0 - 1*Increases internal sampling amount for even higher quality, at reduced computation speed.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="blur-hq.resources/blur-hq-03.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/hqblur-example.gif)
+
+</td>
+</tr>
 </table>

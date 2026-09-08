@@ -16,44 +16,45 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](physical-sun-sky.resources/physical-sun-sky-01.png){width="200px"}
+![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
 
-<b>In:</b> 3D View &gt; HDRI Tools
+## Physical Sun/Sky
+
+**In:** *3D View/HDRI Tools*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Physical Sun and Sky implementation based on Hosek-Wikie skylight model. Provides an excellent base for an artifical HDRI.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Sun Position</b> | range = &#91;0,1&#93;x&#91;0,1&#93; (longitude-latitude angles) |
-| <b>Turbidity</b> <i>1.0 - 10.0</i> | Turbidity ranges from 1 to 10 |
-| <b>Albedo</b> <i>0.0 - 1.0</i> | Albedo ranges from 0 to 1. |
-| <b>Ground Color</b> <i>(Color value)</i> | Color of the ground plane. |
-| <b>Exposure (EV)</b> <i>-1.0 - 4.0</i> | Exposure value of resulting output. |
-| <b>Sun Size</b> <i>0.0 - 4.0</i> | Scale of the Sun, any value different than 1 is non physically correct. Value has subtle effects! |
-| <b>Sun Intensity</b> <i>0.0 - 1.0</i> | Intensity of sun disc. Sun disc is fairly small so effect is not immediately visible. |
-| <b>Sky Intensity</b> <i>0.0 - 1.0</i> | Intensity of the sky. Also affects flaring of sun in the sky, not the disc itself. |
+* **Sun Position**:   
+  range = &#91;0,1&#93;x&#91;0,1&#93; (longitude-latitude angles)
+* **Turbidity**: *1.0 - 10.0*  
+  Turbidity ranges from 1 to 10
+* **Albedo**: *0.0 - 1.0*  
+  Albedo ranges from 0 to 1.
+* **Ground Color**: *(Color value)*  
+  Color of the ground plane.
+* **Exposure (EV)**: *-1.0 - 4.0*  
+  Exposure value of resulting output.
+* **Sun Size**: *0.0 - 4.0*  
+  Scale of the Sun, any value different than 1 is non physically correct. Value has subtle effects!
+* **Sun Intensity**: *0.0 - 1.0*  
+  Intensity of sun disc. Sun disc is fairly small so effect is not immediately visible.
+* **Sky Intensity**: *0.0 - 1.0*Intensity of the sky. Also affects flaring of sun in the sky, not the disc itself.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="physical-sun-sky.resources/physical-sun-sky-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/sky-ex.gif)
+
+</td>
+</tr>
 </table>

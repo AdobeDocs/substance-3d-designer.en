@@ -16,32 +16,33 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](flood-fill-to-random-color.resources/flood-fill-to-random-color-01.png){width="128px"}
+![](../../../../../../assets/floodfill-to-random-color.png){width="128px"}
 
-<b>In:</b> Filters &gt; Effects
+## Flood Fill to Random Color
+
+**In:** *Filters/Effects*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Generates tiles with random RGB colors from a [Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) base. Useful for adding color variation to tiles.
 
+## Parameters
+
+*No Parameters.*
+
+## Example Images
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodrandomcolor-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodrandomcolor-ex1.png" width="256px"/></div> |
+| --- | --- |
+|  |  |
+
 </td>
 </tr>
-</table>
-
-## Examples
-
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-random-color.resources/flood-fill-to-random-color-02.png" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="flood-fill-to-random-color.resources/flood-fill-to-random-color-03.png" />
-        </td>
-    </tr>
 </table>

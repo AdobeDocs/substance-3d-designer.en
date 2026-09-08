@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](min-max.resources/min-max-01.png){width="200px"}
+![](../../../../../../assets/min-max.png){width="200px"}
 
-<b>In:</b> Filters &gt; Adjustments
+## Min Max
+
+**In:** *Filters/Adjustments*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,16 +35,14 @@ Min Max finds the brightest and darkest values of a Grayscale input and returns 
 
 To use this node with a Levels, you should at least know how to use the [Expose Parameter dropdown](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), as well as the [Value input tab](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
+## Parameters
+
+*No Parameters.*
+
+## Example Images
+
+![](../../../../../../assets/minmax.png)
+
 </td>
 </tr>
-</table>
-
-## Examples
-
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="min-max.resources/min-max-02.png" />
-        </td>
-    </tr>
 </table>

@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](curvature-sobel.resources/curvature-sobel-01.png){width="128px"}
+![](../../../../../../assets/curvature-sobel.png){width="128px"}
 
-<b>In:</b> Filters &gt; Effects
+## Curvature Sobel
+
+**In:** *Filters/Effects*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,25 +35,17 @@ Performs a simple, harsh single-pass curvature conversion to input [Normalmap](.
 
 This node is useful for quick highlighting or darkening of certain edges. It is slightly different from [Curvature](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md), as it produces better quality results but is still sharp and harsh.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Intensity</b> <i>0.0 - 1.0</i> | Intensity of the effect, adjusts contrast. |
-| <b>Normal type</b> <i>DirectX, OpenGL</i> |  |
+* **Intensity**: *0.0 - 1.0*Intensity of the effect, adjusts contrast.
+* **Normal type**: *DirectX, OpenGL*
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="curvature-sobel.resources/curvature-sobel-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curv-sobel-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

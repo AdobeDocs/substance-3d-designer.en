@@ -16,9 +16,13 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+<table>
+<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](uv-mapper-color.resources/uv-mapper-color-01.png "Node icon")
+![Node icon](../../../../../../assets/uv-mapper-color-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -37,30 +41,20 @@ Maps the input color image using the coordinates provided in the UV input.
 >
 > See also [UV Mapper Grayscale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-grayscale/uv-mapper-grayscale.md).
 
-<a name="inputs"></a>
+## Input connectors
 
-## Inputs
+<b>UV</b> *Color*Image coordinates encoded in the red (U) and green (V) channels of a color image.
 
-|  |  |
-|:---|:---|
-| <b>UV</b> <i>Color</i> | Image coordinates encoded in the red (U) and green (V) channels of a color image. |
-| <b>Input</b> <i>Color</i> | The color image which should be mapped to the coordinates provided in the UV input. |
+<b>Input</b> *Color*The color image which should be mapped to the coordinates provided in the UV input.
 
-<a name="outputs"></a>
+## Output connectors
 
-## Outputs
-
-|  |  |
-|:---|:---|
-| <b>Output</b> <i>Color</i> | The result of mapping the Input image using the input UV coordinates, as a color image. |
-
-<a name="parameters"></a>
+<b>Output</b> *Color*The result of mapping the Input image using the input UV coordinates, as a color image.
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Background Color</b> <i>Float4</i> | The background color of the output image.<br>The background is visible in the areas of the image where UVs are not defined (I.e., the value is (0, 0, 0, 0)). |
+<b>Background Color</b> *Float4*The background color of the output image.  
+The background is visible in the areas of the image where UVs are not defined (I.e., the value is (0, 0, 0, 0)).
 
 ## Examples
 
@@ -71,11 +65,11 @@ Maps the input color image using the coordinates provided in the UV input.
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-02.jpg" alt="UVMapper-Variant1-Before">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-03.jpg" alt="UVMapper-Variant1-After">
+      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -87,11 +81,11 @@ Maps the input color image using the coordinates provided in the UV input.
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-04.jpg" alt="UVMapper-Variant2-Before">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-05.jpg" alt="UVMapperColor-Variant2-After">
+      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -101,4 +95,18 @@ Maps the input color image using the coordinates provided in the UV input.
 </tr>
 </table>
 
-![Node in graph](uv-mapper-color.resources/uv-mapper-color-06.jpg "Node in graph")
+![Node in graph](../../../../../../assets/UVMapperColor-Graph.jpg "Node in graph")
+
+</td>
+<td style="border: 0;" valign="top">
+
+
+
+</td>
+<td style="border: 0;" valign="top">
+
+
+
+</td>
+</tr>
+</table>

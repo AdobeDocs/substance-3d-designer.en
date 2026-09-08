@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](edge-notch.resources/edge-notch-01.png){width="128px"}
+![](../../../../../../assets/edge-notch.png){width="128px"}
 
-<b>In:</b> Mesh Based Generators &gt; Mask Generators
+## Edge Notch
+
+**In:** *Mesh Based Generators**/Mask Generators*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,34 +35,24 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask represents a simple mask for raised edges, broken up by a high-frequency noise. See [Edge Dirt](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md) or [Edge Damages](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md) for more options.
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
 ## Inputs
 
-|  |  |
-|:---|:---|
-| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used for highlighting edges. Required! |
-| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
-
-<a name="parameters"></a>
+* **Curvature**: *Grayscale Input*   
+  Baked map used for highlighting edges. Required!
+* **Mask (optional)**: *Grayscale Input*   
+  Mask slot used for masking the node's effects.
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Level</b> <i>0.0 - 1.0</i> | Sets the level of the Edge Notch effect. |
-| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. |
+* **Level**: *0.0 - 1.0*  
+  Sets the level of the Edge Notch effect.
+* **Contrast**: *0.0 - 1.0*  
+  Adjusts the contrast of the result.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="edge-notch.resources/edge-notch-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/edge-notch-ex.gif)
+
+</td>
+</tr>
 </table>

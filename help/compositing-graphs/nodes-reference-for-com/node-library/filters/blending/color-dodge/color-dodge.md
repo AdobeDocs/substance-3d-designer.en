@@ -16,38 +16,41 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](color-dodge.resources/color-dodge-01.png){width="128px"}
+![](../../../../../../assets/color-dodge.png){width="128px"}
 
-<b>In:</b> Filters &gt; Blending
+## Color Dodge
+
+**In:** *Filters/Blending*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Performs a Color Dodge blend. Mathematically the formula is Background / (1-Foreground).
 
+## Parameters
+
+### Inputs
+
+* **Foreground**: *Color Input*
+* **Background**: *Color Input*
+* **Mask**: *Grayscale Input*   
+  Mask slot used for masking the node's effects.
+
+### Parameters
+
+* **Opacity**: *0.0 - 1.0*  
+  Blending Opacity between Foreground and Background.
+* **Alpha Blending**: *False/True*  
+  Toggles blending of the Foreground and Background alpha channels. If set to False, the alpha channel of the foreground is ignored.
+
+## Example Images
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>Foreground</b> <i>Color Input</i> |  |
-| <b>Background</b> <i>Color Input</i> |  |
-| <b>Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
-
-<a name="parameters"></a>
-
-## Parameters
-
-|  |  |
-|:---|:---|
-| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background. |
-| <b>Alpha Blending</b> <i>False/True</i> | Toggles blending of the Foreground and Background alpha channels. If set to False, the alpha channel of the foreground is ignored. |

@@ -16,46 +16,37 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](hald-clut.resources/hald-clut-01.png){width="128px"}
+![](../../../../../../assets/hald-clut.png){width="128px"}
 
-<b>In:</b> Filters &gt; Adjustments
+## Hald CLUT
+
+**In:** *Filters/Adjustments*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Applies a LUT on the input image. The LUT has to be in the Hald format in 4096\*4096 resolution. See <http://www.quelsolaar.com/technology/clut.html> for more information.
 
-</td>
-</tr>
-</table>
+### Inputs
 
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>input</b> <i>Color Input</i> | Image onto which to apply the LUT. |
-| <b>lut</b> <i>Color Input</i> | Lut input slot. Must be 4096x4096. |
-
-<a name="parameters"></a>
+* **input**: *Color Input*  
+  Image onto which to apply the LUT.
+* **lut**: *Color Input*Lut input slot. Must be 4096x4096.
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>LUT Intensity by Alpha</b> <i>False/True</i> | Defines if the LUT effect is weighted by the alpha channel. |
+* **LUT Intensity by Alpha**: *False/True*Defines if the LUT effect is weighted by the alpha channel.
 
-## Examples
+Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="hald-clut.resources/hald-clut-02.jpg" />
-        </td>
-    </tr>
+![](../../../../../../assets/content-hald-clut.jpg)
+
+</td>
+</tr>
 </table>

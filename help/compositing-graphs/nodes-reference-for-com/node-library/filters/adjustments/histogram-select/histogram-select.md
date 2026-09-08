@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](histogram-select.resources/histogram-select-01.png){width="128px"}
+![](../../../../../../assets/histogram-select.png){width="128px"}
 
-<b>In:</b> Filters &gt; Adjustments
+## Histogram Select
+
+**In:** *Filters/Adjustments*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,26 +35,17 @@ Similar to [Histogram Scan](../../../../../../compositing-graphs/nodes-reference
 
 [Click here to watch a Substance Academy video on Histogram Select.](https://youtu.be/p9wcmJBFyGA?t=535)
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Position</b> <i>0.0 - 1.0</i> | Sets the middle position where the range selection happens. |
-| <b>Range</b> <i>0.0 - 1.0</i> | Sets width of the selection range. |
-| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast/falloff of the result. |
+* **Position**: *0.0 - 1.0*Sets the middle position where the range selection happens.
+* **Range**: *0.0 - 1.0*Sets width of the selection range.
+* **Contrast**: *0.0 - 1.0*  
+  Adjusts the contrast/falloff of the result.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="histogram-select.resources/histogram-select-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/histoselect-ex.gif)
+
+</td>
+</tr>
 </table>

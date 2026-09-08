@@ -16,37 +16,33 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](height-map-frequencies-mapper.resources/height-map-frequencies-mapper-01.png){width="128px"}
+![](../../../../../../assets/height-map-frequencies-mapper.png){width="128px"}
 
-<b>In:</b> Filters &gt; Adjustments
+## Height Map Frequencies Mapper
+
+**In:** *Filters/Adjustments*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Separates a Heightmap's frequencies into two separate maps: one with large-scale differences and one with small-scale differences.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Relief</b> <i>0.0 - 32.0</i> | Controls the Displacement output's detail size. |
+* **Relief**: *0.0 - 32.0*Controls the Displacement output's detail size.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="height-map-frequencies-mapper.resources/height-map-frequencies-mapper-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/heightmap-frequencies.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

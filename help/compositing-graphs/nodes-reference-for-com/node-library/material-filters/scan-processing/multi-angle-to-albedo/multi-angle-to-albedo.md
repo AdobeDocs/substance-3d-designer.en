@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](multi-angle-to-albedo.resources/multi-angle-to-albedo-01.png){width="128px"}
+![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
 
-<b>In:</b> Material Filters &gt; Scan Processing
+## Multi-Angle to Albedo
+
+**In:** *Material Filters/Scan Processing*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,22 +41,22 @@ Keep in mind that the more samples you have and the bigger the difference in lig
 > 
 > [The blog post "Your Smartphone is a material scanner" illustrates this process a bit better.](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 
+## Parameters
+
+### Inputs
+
+* **Input 1-8**: *Color Input*The number of inputs is determined by the Samples Amount parameter.
+
+### Parameters
+
+* **Samples Amount**: *2 - 8*Sets the number of samples (inputs) to use in processing.
+
+## Example Images
+
+|  |
+| --- |
+| There are no images attached to this page. |
+
 </td>
 </tr>
 </table>
-
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>Input 1-8</b> <i>Color Input</i> | The number of inputs is determined by the Samples Amount parameter. |
-
-<a name="parameters"></a>
-
-## Parameters
-
-|  |  |
-|:---|:---|
-| <b>Samples Amount</b> <i>2 - 8</i> | Sets the number of samples (inputs) to use in processing. |

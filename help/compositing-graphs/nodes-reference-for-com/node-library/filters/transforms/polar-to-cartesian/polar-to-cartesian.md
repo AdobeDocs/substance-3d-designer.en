@@ -16,31 +16,35 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](polar-to-cartesian.resources/polar-to-cartesian-01.png){width="128px"}
+![](../../../../../../assets/polar-to-cartesian.png){width="128px"}
 
-![](polar-to-cartesian.resources/polar-to-cartesian-02.png){width="128px"}
+![](../../../../../../assets/polar-to-cartesian-grayscale.png){width="128px"}
 
-<b>In:</b> Filters &gt; Transforms
+## Polar to Cartesian (Grayscale)
+
+**In:** *Filters/Transforms*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Converts an input in Polar Coordinates (Angle &amp; Radius) to Cartesian Coordinates (X &amp; Y). The reverse is possible with [Cartesian to Polar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/cartesian-to-polar/cartesian-to-polar.md).
 
+## Parameters
+
+*No Parameters.*
+
+## Example Images
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/polar-to-cartesian-example.png" width="300px"/></div> |
+| --- |
+|  |
+
 </td>
 </tr>
-</table>
-
-## Examples
-
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="polar-to-cartesian.resources/polar-to-cartesian-03.png" />
-        </td>
-    </tr>
 </table>

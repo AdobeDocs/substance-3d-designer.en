@@ -16,16 +16,20 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](pow.resources/pow-01.png){width="128px"}
+![](../../../../../../assets/pow-1.png){width="128px"}
 
-![](pow.resources/pow-02.png){width="128px"}
+![](../../../../../../assets/pow-grayscale.png){width="128px"}
 
-<b>In:</b> Filters &gt; Adjustments
+## Pow (Grayscale)
+
+**In:** *Filters/Adjustments*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -33,24 +37,14 @@ Powers the input by a specified exponent. Similar to adjusting the [Levels ](../
 
 Important: make sure to use the correct version, depending on whether you have a Color or Grayscale input!
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>exponent</b> <i>0.0 - 10.0</i> | Exponent by which to power the input. |
+* **exponent**: *0.0 - 10.0*Exponent by which to power the input.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="pow.resources/pow-03.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/pow.gif)
+
+</td>
+</tr>
 </table>

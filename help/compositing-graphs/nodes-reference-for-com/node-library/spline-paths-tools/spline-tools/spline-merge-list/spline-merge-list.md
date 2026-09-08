@@ -16,9 +16,13 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+<table>
+<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-merge-list.resources/spline-merge-list-01.png "Node icon")
+![Node icon](../../../../../../assets/spline-merge-list-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -33,39 +37,61 @@ Merges all splines in the input list into a single spline.
 </tr>
 </table>
 
-<a name="inputs"></a>
+## Input connectors
 
-## Inputs
+<b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
+<b>    R</b> - X position  
+<b>    G</b> - Y position  
+<b>    B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
-|  |  |
-|:---|:---|
-| <b>Spline Coords</b> <i>Color</i> | The coordinates of the input splines’ points encoded in the RGBA channels of a color image:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>&nbsp;&nbsp;- Sign: Spline is closed (negative) or open (positive);<br>&nbsp;&nbsp;- Absolute value: Thickness + 1. |
-| <b>Spline Data</b> <i>Color</i> | Additional data of the input splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
-| <b>Spline Amount</b> <i>Integer</i> | The number of input splines. |
+<b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
+<b>    R</b> - Tangents X  
+<b>    G</b> - Tangents Y  
+<b>    B</b> - Unused  
+<b>    A</b> - Unused
 
-<a name="outputs"></a>
+<b>Spline Amount</b> *Integer*The number of input splines.
 
-## Outputs
+## Output connectors
 
-|  |  |
-|:---|:---|
-| <b>Preview</b> <i>Grayscale</i> | The preview of the merged splines as a grayscale image. |
-| <b>Spline Coords</b> <i>Color</i> | The coordinates of the merged splines’ points encoded in the RGBA channels of a color image.<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>&nbsp;&nbsp;- Sign: Spline is closed (negative) or open (positive);<br>&nbsp;&nbsp;- Absolute value: Thickness + 1. |
-| <b>Spline Data</b> <i>Color</i> | Additional data of the merged splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
-| <b>Spline Amount</b> <i>Integer</i> | The number of merged splines. |
+<b>Preview</b> *Grayscale*The preview of the merged splines as a grayscale image.
 
-<a name="parameters"></a>
+<b>Spline Coords</b> *Color*The coordinates of the merged splines’ points encoded in the RGBA channels of a color image.  
+    <b>R</b> - X position  
+    <b>G</b> - Y position  
+    <b>B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
+
+<b>Spline Data</b> *Color*Additional data of the merged splines encoded in the RGBA channels of a color image.  
+    <b>R</b> - Tangents X  
+    <b>G</b> - Tangents Y  
+    <b>B</b> - Unused  
+    <b>A</b> - Unused
+
+<b>Spline Amount</b> *Integer*The number of merged splines.
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Closed Spline Distance Threshold</b> <i>Float</i> | The distance in texture space below which two extremities of a same spline are processed as a single point closing that spline.<br>This prevents overlaps when scattering shapes or mapping images along the splines. |
-| <b>Preview</b> |  |
-| <b>Segments Amount</b> <i>Integer</i> | Adjusts the number of segments used to draw the spline visualization in the Preview output.<br>A higher value results in a smoother line. |
-| <b>Show Direction Helper</b> <i>Boolean</i> | Displays a dot at the start of the spline and an arrowhead at its end in the Preview output. |
-| <b>Show Thickness Envelope</b> <i>Boolean</i> | Displays additional lines at the edges of the spline’s thickness. |
-| <b>Thickness (px)</b> <i>Float</i> | Adjusts the thickness of the spline visualization in pixels in the Preview output. |
+<b>Closed Spline Distance Threshold</b> *Float*The distance in texture space below which two extremities of a same spline are processed as a single point closing that spline.  
+This prevents overlaps when scattering shapes or mapping images along the splines.
+
++++Preview
+<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
+A higher value results in a smoother line.
+
+<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
+
+<b>Show Thickness Envelope</b> *Boolean*  
+Displays additional lines at the edges of the spline’s thickness.
+
+<b>Thickness (px)</b> *Float*Adjusts the thickness of the spline visualization in pixels in the Preview output.
+
++++
 
 ## Examples
 
@@ -76,11 +102,11 @@ Merges all splines in the input list into a single spline.
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-02.jpg" alt="SplineMergeList-Variant2-Before">
+      <img src="../../../../../../assets/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-03.jpg" alt="SplineMergeList-Variant2-After">
+      <img src="../../../../../../assets/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -92,11 +118,11 @@ Merges all splines in the input list into a single spline.
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-04.jpg" alt="SplineMergeList-Variant1-Before">
+      <img src="../../../../../../assets/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-05.jpg" alt="SplineMergeList-Variant1-After">
+      <img src="../../../../../../assets/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -106,4 +132,18 @@ Merges all splines in the input list into a single spline.
 </tr>
 </table>
 
-![Node demo](spline-merge-list.resources/spline-merge-list-06.gif "Node demo")
+![Node demo](../../../../../../assets/SplineMergeList-Demo.gif "Node demo")
+
+</td>
+<td style="border: 0;" valign="top">
+
+
+
+</td>
+<td style="border: 0;" valign="top">
+
+
+
+</td>
+</tr>
+</table>

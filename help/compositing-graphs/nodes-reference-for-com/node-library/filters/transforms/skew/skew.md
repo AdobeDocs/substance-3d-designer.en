@@ -16,41 +16,35 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](skew.resources/skew-01.png){width="128px"}
+![](../../../../../../assets/skew-5.png){width="128px"}
 
-![](skew.resources/skew-02.png){width="128px"}
+![](../../../../../../assets/skew-grayscale.png){width="128px"}
 
-<b>In:</b> Filters &gt; Transforms
+## Skew (Grayscale)
+
+**In:** *Filters/Transforms*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Skews an input image.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Axis</b> <i>Horizontal, Vertical</i> | Choose to skew vertically or horizontally. |
-| <b>Amount</b> <i>-1.0 - 1.0</i> | Amount of skew. |
-| <b>Align</b> <i>Center, Top Left, Bottom Right</i> | Sets the origin point of the Skew transformation. |
+* **Axis**: *Horizontal, Vertical*Choose to skew vertically or horizontally.
+* **Amount**: *-1.0 - 1.0*Amount of skew.
+* **Align**: *Center, Top Left, Bottom Right*Sets the origin point of the Skew transformation.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="skew.resources/skew-03.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/skew-ex.gif)
+
+</td>
+</tr>
 </table>

@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](cloth-wear.resources/cloth-wear-01.png){width="128px"}
+![](../../../../../../assets/cloth-wear.png){width="128px"}
 
-<b>In:</b> Mesh Based Generators &gt; Mask Generators
+## Cloth Wear
+
+**In:** *Mesh Based Generators**/Mask Generators*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,35 +35,26 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 The mask represents frazzled edges on cloth materials. It uses a cloth detail Heightmap that determines most of the look; without an appropriate map, the effect looks very basic.
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>Cloth Height</b> <i>Grayscale Input</i> | Height for the cloth pattern only. This is not the height of your (baked) object, but rather a tiling detail pattern. |
-| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
-| <b>Curvature</b> <i>Grayscale Input</i> | Baked/generated curvature to determine raised edges. |
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Hard Edges Amount</b> <i>0.0 - 1.0</i> |  |
-| <b>Wear Softness</b> <i>0.0 - 5.0</i> | Determines how blurred out/soft the worn edges are. |
+### Inputs
 
-## Examples
+* **Cloth Height**: *Grayscale Input*   
+  Height for the cloth pattern only. This is not the height of your (baked) object, but rather a tiling detail pattern.
+* **Mask (optional)**: *Grayscale Input*   
+  Mask slot used for masking the node's effects.
+* **Curvature**: *Grayscale Input*   
+  Baked/generated curvature to determine raised edges.
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="cloth-wear.resources/cloth-wear-02.gif" />
-        </td>
-    </tr>
+### Parameters
+
+* **Hard Edges Amount**: *0.0 - 1.0*
+* **Wear Softness**: *0.0 - 5.0*Determines how blurred out/soft the worn edges are.
+
+## Example Images
+
+![](../../../../../../assets/cloth-wear-ex.gif)
+
+</td>
+</tr>
 </table>

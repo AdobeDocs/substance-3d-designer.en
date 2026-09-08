@@ -16,14 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-damas.resources/grunge-damas-01.jpg){width="200px"}
+![](../../../../../../assets/grungedamas.jpg){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+**In:** *Texture Generators**/Noises*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -33,29 +35,19 @@ The **Grunge Damas** node generates a grunge map akin to a Damascus steel patter
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Balance</b> <i>Float</i> | Adjusts the balance between dark and bright values. |
-| <b>Contrast</b> <i>Float</i> | Adjusts the contrast of the image. |
-| <b>Invert</b> <i>Boolean</i> | Inverts the output of the image, using a `1-x` operation. |
-| <b>Non Square Expansion</b> <i>Boolean</i> | Enables compensation of squash and stretch with non-square ratios. |
-| <b>Advanced</b> |  |
-| <b>Distortion</b> <i>Float</i> | Adjusts the amount of distortion in the pattern. |
-| <b>Divisions</b> <i>Integer</i> | Adjusts the amount of divisions, or gradient repetitions, in the pattern. |
-| <b>Waves</b> <i>Integer</i> | Adjusts the amount of waves in the pattern. |
-| <b>Details</b> <i>Float</i> | Adjusts the intensity of the smaller distortions. |
-| <b>Rotation Random</b> <i>Float</i> | Adjusts the randomness of the rotation for each wave. |
+* **Balance** *Float*Adjusts the balance between dark and bright values.
+* **Contrast** *Float*Adjusts the contrast of the image.
+* **Invert** *Boolean*Inverts the output of the image, using a `1-x` operation.
+* **Non Square Expansion** *Boolean*Enables compensation of squash and stretch with non-square ratios.
+* Advanced
+  * **Distortion** *Float*Adjusts the amount of distortion in the pattern.
+  * **Divisions** *Integer*Adjusts the amount of divisions, or gradient repetitions, in the pattern.
+  * **Waves** *Integer*Adjusts the amount of waves in the pattern.
+  * **Details** *Float*Adjusts the intensity of the smaller distortions.
+  * **Rotation Random** *Float*Adjusts the randomness of the rotation for each wave.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-damas.resources/grunge-damas-02.jpg" />
-        </td>
-    </tr>
-</table>
+![](../../../../../../assets/grungedamas-variant.jpg){width="256px"}

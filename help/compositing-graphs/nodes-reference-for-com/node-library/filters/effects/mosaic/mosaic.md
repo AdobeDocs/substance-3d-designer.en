@@ -16,16 +16,20 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](mosaic.resources/mosaic-01.png){width="128px"}
+![](../../../../../../assets/mosaic-1.png){width="128px"}
 
-![](mosaic.resources/mosaic-02.png){width="128px"}
+![](../../../../../../assets/mosaic-grayscale.png){width="128px"}
 
-<b>In:</b> Filters &gt; Effects
+## Mosaic (Grayscale)
+
+**In:** *Filters/Effects*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -33,34 +37,25 @@ user-guide-title: ""
 
 This is useful for adding more definition to grayscale maps such as Heightmap, as it can introduce more definition to shapes.
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>Color</b> <i>Color/Grayscale Input</i> |  |
-| <b>Mosaic Map</b> <i>Grayscale Input</i> | Warp driver map. Can be the same as First input. |
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Samples</b> <i>0 - 16</i> | Determines multi-sample quality. |
-| <b>Intensity</b> <i>0.0 - 1.0</i> | Strength of the effect. |
+### Inputs
 
-## Examples
+* **Color**: *Color/Grayscale Input*
+* **Mosaic Map**: *Grayscale Input*   
+  Warp driver map. Can be the same as First input.
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="mosaic.resources/mosaic-03.png" />
-        </td>
-    </tr>
+### Parameters
+
+* **Samples**: *0 - 16*Determines multi-sample quality.
+* **Intensity**: *0.0 - 1.0*Strength of the effect.
+
+## Example Images
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mosaci-ex.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

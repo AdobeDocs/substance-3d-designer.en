@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Median filter color: icon](median-filter-color.resources/median-filter-color-01.png "Median filter color: icon")
+![Median filter color: icon](../../../../../../assets/MedianFilter_Icon_Color.png "Median filter color: icon")
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -39,42 +39,38 @@ For every pixel, the node computes a color value according to the median value o
 >
 > See also [Median filter grayscale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/median-filter-grayscale/median-filter-grayscale.md).
 
-<a name="inputs"></a>
+## Input connectors
 
-## Inputs
+<b>Input </b>*Color*The color image that the filter should be applied to.
 
-|  |  |
-|:---|:---|
-| <b>Input</b> <i>Color</i> | The color image that the filter should be applied to. |
+## Output connectors
 
-<a name="outputs"></a>
-
-## Outputs
-
-|  |  |
-|:---|:---|
-| <b>Output</b> <i>Color</i> | The color image computed by applying the filter to the input color image. |
-
-<a name="parameters"></a>
+<b>Output</b> *Color*The color image computed by applying the filter to the input color image.
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Kernel size</b> *Integer* | A kernel is a specific group of values used in a filter’s computations. In this context, it is the values of the neighbouring pixels.<br><br>For every pixel, the filter takes all neighbors around that pixel in a square kernel and computes the median value of all neighbors.<br><br>This parameter controls the size of that square kernel, in pixels. A larger kernel results in a stronger, farther-reaching smoothing effect at the cost of some detail.<br><br>*- 3x3:* a kernel 3 pixels wide and 3 pixels tall, totalling 8 neighbor pixels.<br>*- 5x5:* a kernel 5 pixels wide and 5 pixels tall, totalling 24 neighbor pixels. |
-| <b>Filter type</b> *Integer* | The computation applied to the neighbors sampled in the kernel.<br><br>*- Median:* Use the median value of all neighbors directly.<br>*- MLMAD:* Stands for 'Median Of Least Median Absolute Deviation'. The deviation accounts for how different a value is from the median. Instead of using the median value directly which may be skewed by an outlier pixel with high deviation, the MLMAD method uses the median of all deviations. This method results in a stronger smoothing effect that may flatten areas according to the kernel size. |
-| <b>Affect alpha</b> *Boolean* | Controls whether the filter should be applied to the image's alpha channel. When *True*, the alpha channel is unchanged. |
+<b>Kernel size</b> *Integer*A kernel is a specific group of values used in a filter’s computations. In this context, it is the values of the neighbouring pixels.  
+For every pixel, the filter takes all neighbors around that pixel in a square kernel and computes the median value of all neighbors.  
+This parameter controls the size of that square kernel, in pixels. A larger kernel results in a stronger, farther-reaching smoothing effect at the cost of some detail.  
+*- 3x3:* a kernel 3 pixels wide and 3 pixels tall, totalling 8 neighbor pixels.  
+*- 5x5:* a kernel 5 pixels wide and 5 pixels tall, totalling 24 neighbor pixels.
+
+<b>Filter type</b> *Integer*The computation applied to the neighbors sampled in the kernel.  
+*- Median:* Use the median value of all neighbors directly.  
+*- MLMAD:* Stands for 'Median Of Least Median Absolute Deviation'. The deviation accounts for how different a value is from the median. Instead of using the median value directly which may be skewed by an outlier pixel with high deviation, the MLMAD method uses the median of all deviations. This method results in a stronger smoothing effect that may flatten areas according to the kernel size.
+
+<b>Affect alpha</b> *Boolean*Controls whether the filter should be applied to the image's alpha channel. When *True*, the alpha channel is unchanged.
 
 ## Examples
 
 <table>
   <tr>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-02.png" alt="MedianFilter_Variant2A">
+      <img src="../../../../../../assets/MedianFilter_Variant2A.png" alt="MedianFilter_Variant2A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-03.png" alt="MedianFilter_Variant2B">
+      <img src="../../../../../../assets/MedianFilter_Variant2B.png" alt="MedianFilter_Variant2B">
       <br><i>After</i>
     </td>
   </tr>
@@ -83,11 +79,11 @@ For every pixel, the node computes a color value according to the median value o
 <table>
   <tr>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-04.png" alt="MedianFilter_Variant3A">
+      <img src="../../../../../../assets/MedianFilter_Variant3A.png" alt="MedianFilter_Variant3A">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="median-filter-color.resources/median-filter-color-05.png" alt="MedianFilter_Variant3B">
+      <img src="../../../../../../assets/MedianFilter_Variant3B.png" alt="MedianFilter_Variant3B">
       <br><i>After</i>
     </td>
   </tr>

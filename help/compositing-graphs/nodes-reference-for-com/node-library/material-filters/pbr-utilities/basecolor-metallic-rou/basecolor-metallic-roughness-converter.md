@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](basecolor-metallic-roughness-converter.resources/basecolor-metallic-roughness-converter-01.png){width="128px"}
+![](../../../../../../assets/pbr-convert.png){width="128px"}
 
-<b>In:</b> Material Filters &gt; PBR Utilities
+## BaseColor / Metallic / Roughness converter
+
+**In:** *Material Filters/PBR Utilities*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,15 +35,17 @@ This node converts Basecolor, Metallic and Roughness maps to different PBR model
 
 This is useful if you have graphs or materials that are made with one model of PBR, while your target requires a different model.
 
+## Parameters
+
+* **Use SpecularLevel input**: *False/True*Exposes an extra input slot to SpecularLevel input. This is also taken into account during conversion.
+* ***Target**: *PBR Diffuse/Specular/Gloss, Vray (GGX), Corona, Corona 1.6+, Redshift 1.x, Arnold 4 (AiStandard), Arnold 4 (AlSurface), RenderMan (PxrSurface)**Sets the conversion target model.
+
+## Example Images
+
+|  |
+| --- |
+| There are no images attached to this page. |
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## Parameters
-
-|  |  |
-|:---|:---|
-| <b>Use SpecularLevel input</b> <i>False/True</i> | Exposes an extra input slot to SpecularLevel input. This is also taken into account during conversion. |
-| <b>Target</b> <i>PBR Diffuse/Specular/Gloss, Vray (GGX), Corona, Corona 1.6+, Redshift 1.x, Arnold 4 (AiStandard), Arnold 4 (AlSurface), RenderMan (PxrSurface)</i> | Sets the conversion target model. |

@@ -16,27 +16,29 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3d-texture-offset.resources/3d-texture-offset-01.png){width="200px"}
+![](../../../../../../assets/3dtextureoffsetgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3d-texture-offset.resources/3d-texture-offset-02.png){width="200px"}
+![](../../../../../../assets/3dtextureoffsetcolor.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-<b>In:</b> Filter &gt; Transformation
+**In:** *Filter/Transformation*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -46,31 +48,32 @@ The **3D Texture Offset** node applies an *offset transformation* in the **X**, 
 </tr>
 </table>
 
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>Input</b> <i>Grayscale/Color</i> | The <i>3D texture</i> describing a 3D object.<br>The object is commonly described in a <i>unit cube</i>. |
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Offset</b> <i>Float3</i> | The amount of offset in <i>world space</i> applied on the object described by the <i>3D texture</i> connected to the <b>Input</b>. |
+### Inputs
 
-## Examples
+* **Input** *Grayscale/Color*  
+  The *3D texture* describing a 3D object.  
+  The object is commonly described in a *unit cube*.
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-texture-offset.resources/3d-texture-offset-03.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-texture-offset.resources/3d-texture-offset-04.png" />
-        </td>
-    </tr>
+### Parameters
+
+* **Offset** *Float3*  
+  The amount of offset in *world space* applied on the object described by the *3D texture* connected to the **Input**.
+
+## Example Images
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dtextureoffset-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dtextureoffset-node.png){width="256px"}
+
+</td>
+</tr>
 </table>

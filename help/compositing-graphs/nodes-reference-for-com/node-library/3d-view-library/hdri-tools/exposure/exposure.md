@@ -16,27 +16,27 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](exposure.resources/exposure-01.png){width="250px"}
+![](../../../../../../assets/exposure-9.png){width="250px"}
 
-<b>In:</b> 3D View &gt; HDRI Tools
+## Exposure
+
+**In:** *3D View/HDRI Tools*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Adjust input image's exposure. Brightens or darkens HDR photographs with "stops" value concept, as in photo-editing software.
 
+## Parameters
+
+* **Exposure (EV)**  : *-8.0 - 8.0*Exposure value, in stops.
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## Parameters
-
-|  |  |
-|:---|:---|
-| <b>Exposure (EV)</b> <i>-8.0 - 8.0</i> | Exposure value, in stops. |

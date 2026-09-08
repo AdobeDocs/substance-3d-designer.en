@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](3d-simplex-noise.resources/3d-simplex-noise-01.png){width="128px"}
+![](../../../../../../assets/3d-simplex-noise.png){width="128px"}
 
-<b>In:</b> Texture Generators &gt; Noises
+## 3D Simplex Noise
+
+**In:** *Texture Generators**/Noises*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -32,25 +36,16 @@ Similar to [3D Perlin Noise](../../../../../../compositing-graphs/nodes-referenc
 
 This noise can be tested with [Cube 3D GBuffers](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers) as input instead of an actual baked map (as seen in the Example Image below).
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Scale</b> <i>0.0 - 64.0</i> | Set the global scale for the effect. |
-| <b>Size</b> <i>0.0 - 2.0</i> | Perform non-uniform scaling on X, Y and Z axes separately. |
+* **Scale**: *0.0 - 64.0*  
+  Set the global scale for the effect.
+* **Size**: *0.0 - 2.0*Perform non-uniform scaling on X, Y and Z axes separately.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-simplex-noise.resources/3d-simplex-noise-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/3d-simplex.gif)
+
+</td>
+</tr>
 </table>

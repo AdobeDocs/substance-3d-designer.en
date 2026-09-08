@@ -16,14 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](diffusion-color.resources/diffusion-color-01.png){width="200px"}
+![](../../../../../../assets/diffusion-color-icon.png){width="200px"}
 
-<b>In:</b> Filters &gt; Effects
+**In:** *Filters/Effects*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,59 +37,78 @@ Only colors from pixels matching the mask are diffused; other pixels do not part
 </tr>
 </table>
 
-<a name="inputs"></a>
+## Parameters
+
+* **Iterations**: *0.0 - 64.0*The number of diffusion iterations to perform (higher is better but slower). Useful values are in the &#91;8, 48&#93; range.  
+  Please note that if you are not looking for mathematical correctness, low values are fine or even better.  
+  **Distance**: **0.0 - 1.0**Adjusts the maximum distance of the diffusion.
+* **Enable Dithering**: *True/False*Controls the sampling method of each pass. Dithering allows convergence in less passes, but introduces noise.  
+  Without it, each pass is faster but more passes are required to achieve a smooth result without banding artifacts.
+* **Is Normal Map**: *True/False*Adds a normalization on values at every step.
+* **Use Alpha as Mask**: *True/False*Use the alpha channel of the *Source* input as the diffusion mask, instead of the *Mask* input.
 
 ## Inputs
 
-|  |  |
-|:---|:---|
-| <b>Source</b> <i>Color</i> | The image to diffuse. |
-| <b>Mask</b> <i>Grayscale</i> | Diffusion mask: white pixels are sampled in <i>Source</i> and diffused in black pixels. The image should be black and white. If the mask includes gradients, the cutoff value is 0.5. |
-| <b>Intensity</b> <i>Grayscale</i> | Defines locally how strong the diffusion process is applied. This map should be <i>contrasted</i> for a noticeable effect. |
+* **Source** *Color*  
+  The image to diffuse.
+* **Mask** *Grayscale*  
+  Diffusion mask: white pixels are sampled in *Source* and diffused in black pixels. The image should be black and white. If the mask includes gradients, the cutoff value is 0.5.
+* **Intensity** *Grayscale*  
+  Defines locally how strong the diffusion process is applied. This map should be *contrasted* for a noticeable effect.
 
-<a name="parameters"></a>
+## Example Images
 
-## Parameters
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-|  |  |
-|:---|:---|
-| <b>Iterations</b> <i>0.0 - 64.0</i> | The number of diffusion iterations to perform (higher is better but slower). Useful values are in the &#91;8, 48&#93; range.<br>Please note that if you are not looking for mathematical correctness, low values are fine or even better. |
-| <b>Distance</b> <i>0.0 - 1.0</i> | Adjusts the maximum distance of the diffusion. |
-| <b>Enable Dithering</b> <i>True/False</i> | Controls the sampling method of each pass. Dithering allows convergence in less passes, but introduces noise.<br>Without it, each pass is faster but more passes are required to achieve a smooth result without banding artifacts. |
-| <b>Is Normal Map</b> <i>True/False</i> | Adds a normalization on values at every step. |
-| <b>Use Alpha as Mask</b> <i>True/False</i> | Use the alpha channel of the <i>Source</i> input as the diffusion mask, instead of the <i>Mask</i> input. |
+![](../../../../../../assets/diffusion-color-02-before.jpg){width="256px"}
 
-## Examples
+</td>
+<td style="border: 0;" valign="top">
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-03.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-04.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-05.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-06.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-07.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-08.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-09.jpg" />
-        </td>
-    </tr>
+![](../../../../../../assets/diffusion-color-02a-after.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-color-02b-after.jpg){width="256px"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-color-01-before.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-uv-01b-after-1.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-uv-01a-after-1.jpg){width="256px"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-color-normal.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-color-normal-render.jpg){width="512px"}
+
+</td>
+</tr>
 </table>

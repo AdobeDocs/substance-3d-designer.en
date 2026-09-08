@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](normal-blend.resources/normal-blend-01.png){width="128px"}
+![](../../../../../../assets/normal-blend.png){width="128px"}
 
-<b>In:</b> Filters &gt; Normal Map
+## Normal Blend
+
+**In:** *Filters/Normal Map*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,35 +35,30 @@ Normal Blend allows you to blend two Normalmaps together with an optional mask, 
 
 Normal Blend is not intended for combining (overlaying) Normalmaps, where the top map adds detail to the bottom map. For that, use [Normal Combine](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md) instead.
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>NormalFG</b> <i>Color Input</i> | Foreground/Top Normalmap. |
-| <b>NormalBG</b> <i>Color Input</i> | Background/Bottom Normalmap. |
-| <b>Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. Can be toggled with the "Use Mask" parameter. |
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background |
-| <b>Use Mask</b> <i>False/True</i> | Toggles the use of the Mask map on or off. |
+### Inputs
 
-## Examples
+* **NormalFG**: *Color Input*   
+  Foreground/Top Normalmap.
+* **NormalBG**: *Color Input*   
+  Background/Bottom Normalmap.
+* **Mask**: *Grayscale Input*   
+  Mask slot used for masking the node's effects. Can be toggled with the "Use Mask" parameter.
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="normal-blend.resources/normal-blend-02.gif" /><br><i>(.gif format introduces dithering in example, in-application results are smooth)</i>
-        </td>
-    </tr>
+### Parameters
+
+* **Opacity**: *0.0 - 1.0*  
+  Blending Opacity between Foreground and Background
+* **Use Mask**: *False/True*  
+  Toggles the use of the Mask map on or off.
+
+## Example Images
+
+![](../../../../../../assets/normalblend-ex.gif)
+
+*(.gif format introduces dithering in example, in-application results are smooth)*
+
+</td>
+</tr>
 </table>

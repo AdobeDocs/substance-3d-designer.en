@@ -16,39 +16,35 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](mesh-2.resources/mesh-2-01.png){width="128px"}
+![](../../../../../../assets/mesh-2.png){width="128px"}
 
-<b>In:</b> Texture Generators &gt; Patterns
+## Mesh 2
+
+**In:** *Texture Generators**/Patterns*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Simple mesh pattern with fat blocks. Can be used to create height and detail maps.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Tiling</b> <i>1 - 16</i> | Sets the amount of times the result should tile. |
-| <b>Rotate 45 Degrees</b> <i>False/True</i> | Rotates the result. |
-| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+* **Tiling**: *1 - 16*  
+  Sets the amount of times the result should tile.
+* **Rotate 45 Degrees**: *False/True*Rotates the result.
+* **Non Square Expansion**: *False/True*  
+  Enables compensation of squash and stretch with non-square ratios.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="mesh-2.resources/mesh-2-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/mesh-2-ex.gif)
+
+</td>
+</tr>
 </table>

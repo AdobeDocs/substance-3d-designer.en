@@ -16,14 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
+![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+**In:** *Texture Generators* */Noises*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -33,31 +35,31 @@ The **Grunge Leaky Paint** node generates a grunge map akin to paint dripping th
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Balance</b> <i>Float</i> | Adjusts the balance between dark and bright values. |
-| <b>Contrast</b> <i>Float</i> | Adjusts the contrast of the image. |
-| <b>Invert</b> <i>Boolean</i> | Inverts the output of the image, using a `1-x` operation. |
-| <b>Non Square Expansion</b> <i>Boolean</i> | Enables compensation of squash and stretch with non-square ratios. |
-| <b>Advanced</b> |  |
-| <b>Leak Intensity</b> <i>Float</i> | Adjusts the density and intensity of the drips. |
-| <b>Leak Scale</b> <i>Integer</i> | Adjusts the scale of the drips separation. |
-| <b>Leak Angle Random</b> <i>Float</i> | Adjusts the *maximum angle* drips can be randomly rotated to, in *number of turns*. |
-| <b>Leak Crispness</b> <i>Float</i> | Adjusts the crispness and sharpness of the drips. |
+* **Balance** *Float*Adjusts the balance between dark and bright values.
+* **Contrast** *Float*Adjusts the contrast of the image.
+* **Invert** *Boolean*Inverts the output of the image, using a `1-x` operation.
+* **Non Square Expansion** *Boolean*Enables compensation of squash and stretch with non-square ratios.
+* Advanced
+  * **Leak Intensity** *Float*Adjusts the density and intensity of the drips.
+  * **Leak Scale** *Integer*Adjusts the scale of the drips separation.
+  * **Leak Angle Random** *Float*Adjusts the *maximum angle* drips can be randomly rotated to, in *number of turns*.
+  * **Leak Crispness** *Float*Adjusts the crispness and sharpness of the drips.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungeleakypaint-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungeleakypaint-variant2.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

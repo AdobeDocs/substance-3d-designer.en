@@ -16,16 +16,20 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](highpass.resources/highpass-01.png){width="128px"}
+![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
 
-![](highpass.resources/highpass-02.png){width="128px"}
+![](../../../../../../assets/high-pass.png){width="128px"}
 
-<b>In:</b> Filters &gt; Adjustments
+## Highpass (Grayscale)
+
+**In:** *Filters/Adjustments*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -34,27 +38,17 @@ Useful for removing large Luminance differences in images, such as when cleaning
 
 Important: make sure to use the appropriate version for your input! Use "Highpass" for Color inputs, "Highpass Grayscale" for Grayscale inputs.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Radius</b> <i>0.0 - 64.0</i> | Filter radius: a small radius removes small differences, a bigger radius removes large areas. |
+* **Radius**: *0.0 - 64.0*  
+  Filter radius: a small radius removes small differences, a bigger radius removes large areas.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="highpass.resources/highpass-03.gif" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="highpass.resources/highpass-04.png" />
-        </td>
-    </tr>
+![](../../../../../../assets/highpass.gif)
+
+![](../../../../../../assets/highpass-example.png){width="400px"}
+
+</td>
+</tr>
 </table>
