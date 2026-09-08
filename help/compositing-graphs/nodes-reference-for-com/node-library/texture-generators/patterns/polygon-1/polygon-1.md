@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polygon-1-1.png){width="128px"}
+![](polygon-1.resources/polygon-1-1.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -56,7 +56,7 @@ Generates a polygon shape, with many options for adjustment. See [Polygon 2](../
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/polygon-1-ex.gif" />
+            <img src="polygon-1.resources/polygon-1-ex.gif" />
         </td>
     </tr>
 </table>
