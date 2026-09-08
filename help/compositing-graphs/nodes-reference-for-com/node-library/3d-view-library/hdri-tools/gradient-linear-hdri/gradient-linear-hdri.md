@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear.png){width="200px"}
+![](gradient-linear-hdri.resources/gradient-linear.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -49,7 +49,7 @@ Creates a Linear gradient across the centre and with a user-placed point. The en
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gradient-ex1.gif" />
+            <img src="gradient-linear-hdri.resources/gradient-ex1.gif" />
         </td>
     </tr>
 </table>
