@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](pbr-dielectric-f0.resources/pbr-dielectric-f0-01.png){width="128px"}
+![](../../../../../../assets/pbr-dielectric-f0.png){width="128px"}
 
-<b>In:</b> Material Filters &gt; PBR Utilities
+## PBR Dielectric F0
+
+**In:** *Material Filters/PBR Utilities*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,16 +35,18 @@ A utility "Preset" node for Specular values when using the Specular PBR model.
 
 Useful to quickly get correct values as a starting point, so you can avoid colorpicking from a chart.
 
+## Parameters
+
+* **Specular F0**: *Plastic, Wood, Stone, Brick, Sand, Concrete, Fabric, Rusted Metal, Water, Ice, Glass, Custom IOR*Picks a predefined Specular range.
+* **Specular Range**: *0.01 - 1.0*Adjusts Specular value within the range of selected preset. Allows for some tweaking.
+* **IOR**: *1.0 - 5.0*Only enabled when set to Custom IOR. Pick your own value.
+
+## Example Images
+
+|  |
+| --- |
+| There are no images attached to this page. |
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## Parameters
-
-|  |  |
-|:---|:---|
-| <b>Specular F0</b> <i>Plastic, Wood, Stone, Brick, Sand, Concrete, Fabric, Rusted Metal, Water, Ice, Glass, Custom IOR</i> | Picks a predefined Specular range. |
-| <b>Specular Range</b> <i>0.01 - 1.0</i> | Adjusts Specular value within the range of selected preset. Allows for some tweaking. |
-| <b>IOR</b> <i>1.0 - 5.0</i> | Only enabled when set to Custom IOR. Pick your own value. |

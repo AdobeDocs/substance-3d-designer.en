@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](histogram-scan.resources/histogram-scan-01.png){width="128px"}
+![](../../../../../../assets/histogram-scan-1.png){width="128px"}
 
-<b>In:</b> Filters &gt; Adjustments
+## Histogram Scan
+
+**In:** *Filters/Adjustments*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,32 +35,22 @@ Very simple yet useful node that provides an intuitive way to remap the contrast
 
 [Click here to watch a Substance Academy video on Histogram operations.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=427s)
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Position</b> <i>0.0 - 1.0</i> | Similar to a brightness control, shifts the midpoint of the result. When used on a gradient input, this expands and shrinks the transition point.<br><br>Important: a default value of 0 means the end result is always black, so try starting with 0.5! |
-| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. Can be used to set the hardness of the transition. |
-| <b>Invert Position</b> <i>False/True</i> | Inverts the final result. |
+* **Position**: *0.0 - 1.0*Similar to a brightness control, shifts the midpoint of the result. When used on a gradient input, this expands and shrinks the transition point.  
+  Important: a default value of 0 means the end result is always black, so try starting with 0.5!
+* **Contrast**: *0.0 - 1.0*  
+  Adjusts the contrast of the result. Can be used to set the hardness of the transition.
+* **Invert Position**: *False/True*Inverts the final result.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="histogram-scan.resources/histogram-scan-02.gif" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="histogram-scan.resources/histogram-scan-03.gif" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="histogram-scan.resources/histogram-scan-04.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/histogram-scan.gif)
+
+![](../../../../../../assets/histogram-scan2.gif)
+
+![](../../../../../../assets/histogram-scan3.gif)
+
+</td>
+</tr>
 </table>

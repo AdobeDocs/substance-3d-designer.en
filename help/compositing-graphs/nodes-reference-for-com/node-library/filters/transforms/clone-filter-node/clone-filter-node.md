@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](clone-filter-node.resources/clone-filter-node-01.png)
+![](../../../../../../assets/clone-4.png)
 
-<b>In:</b> Filters &gt; Transforms
+## Clone
+
+**In:** *Filters/Transforms*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,34 +39,28 @@ Requires some care to get the intended results:
 * Mask defaults to black, so to see any results a uniform white grayscale value needs to be plugged in at least.
 * Offset will clip outside of the image easily, so use small values.
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>Source</b> <i>Color Input</i> | Image to clone. Important: ideally, the image will have an alpha channel! |
-| <b>Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. Defaults to black! |
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Offset</b> <i>-</i> | Moves or translates the result. Positive is Left and Up, Negative is Right and Down. Use small values, 1.0 and above moves it outside of the image! |
-| <b>Blur Mask</b> <i>0.0 - 10.0</i> | Apply a blur filter to mask, to soften edges. |
+### Inputs
 
-## Examples
+* **Source**: *Color Input*   
+  Image to clone. Important: ideally, the image will have an alpha channel!
+* **Mask**: *Grayscale Input*   
+  Mask slot used for masking the node's effects. Defaults to black!
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="clone-filter-node.resources/clone-filter-node-02.png" />
-        </td>
-    </tr>
+### Parameters
+
+* **Offset**: *-*   
+  Moves or translates the result. Positive is Left and Up, Negative is Right and Down. Use small values, 1.0 and above moves it outside of the image!
+* **Blur Mask**: *0.0 - 10.0  
+  Apply a blur filter to mask, to soften edges.*
+
+## Example Images
+
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/clone-example.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

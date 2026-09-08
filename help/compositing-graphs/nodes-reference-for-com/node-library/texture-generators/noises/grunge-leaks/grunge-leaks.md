@@ -16,14 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-leaks.resources/grunge-leaks-01.jpg){width="200px"}
+![](../../../../../../assets/grungeleaks.jpg){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+**In:** *Texture Generators* */Noises*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -33,31 +35,31 @@ The **Grunge Leaks** node generates a grunge map akin to drips across a greasy s
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Balance</b> <i>Float</i> | Adjusts the balance between dark and bright values. |
-| <b>Contrast</b> <i>Float</i> | Adjusts the contrast of the image. |
-| <b>Invert</b> <i>Boolean</i> | Inverts the output of the image, using a `1-x` operation. |
-| <b>Non Square Expansion</b> <i>Boolean</i> | Enables compensation of squash and stretch with non-square ratios. |
-| <b>Advanced</b> |  |
-| <b>Drip Length</b> <i>Float</i> | Adjusts the length of drip streaks. |
-| <b>Shape Contrast</b> <i>Float</i> | Shifts between bright and dark shapes, contrasting across the drips. |
-| <b>Drip Crispness</b> <i>Float</i> | Adjusts the sharpness and cripsness of the drips. |
-| <b>Sharpen Intensity</b> <i>Float</i> | Adjust the overall grunginess of the image. |
+* **Balance** *Float*Adjusts the balance between dark and bright values.
+* **Contrast** *Float*Adjusts the contrast of the image.
+* **Invert** *Boolean*Inverts the output of the image, using a `1-x` operation.
+* **Non Square Expansion** *Boolean*Enables compensation of squash and stretch with non-square ratios.
+* Advanced
+  * **Drip Length** *Float*Adjusts the length of drip streaks.
+  * **Shape Contrast** *Float*Shifts between bright and dark shapes, contrasting across the drips.
+  * **Drip Crispness** *Float*Adjusts the sharpness and cripsness of the drips.
+  * **Sharpen Intensity** *Float*Adjust the overall grunginess of the image.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grunge-leaks-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grunge-leaks-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungeleaks-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungeleaks-variant.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

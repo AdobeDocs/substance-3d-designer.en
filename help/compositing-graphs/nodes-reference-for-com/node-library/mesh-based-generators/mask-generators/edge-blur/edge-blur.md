@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](edge-blur.resources/edge-blur-01.png){width="128px"}
+![](../../../../../../assets/edge-blur.png){width="128px"}
 
-<b>In:</b> Mesh Based Generators &gt; Mask Generators
+## Edge Blur
+
+**In:** *Mesh Based Generators**/Mask Generators*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,35 +35,27 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask highlights edges based on a baked curvature map. It is one of the more simple Mask Generators.
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used to base the effect on. |
-| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Level</b> <i>0.0 - 1.0</i> | Sets the amount of edge highlighting. |
-| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. |
-| <b>Blur Radius</b> <i>0.0 - 8.0</i> | Sets the amount of blurring on the highlighted edges. |
+### Inputs
 
-## Examples
+* **Curvature**: *Grayscale Input*   
+  Baked map used to base the effect on.
+* **Mask (optional)**: *Grayscale Input*   
+  Mask slot used for masking the node's effects.
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="edge-blur.resources/edge-blur-02.gif" />
-        </td>
-    </tr>
+### Parameters
+
+* **Level**: *0.0 - 1.0*  
+  Sets the amount of edge highlighting.
+* **Contrast**: *0.0 - 1.0*  
+  Adjusts the contrast of the result.
+* **Blur Radius**: *0.0 - 8.0*Sets the amount of blurring on the highlighted edges.
+
+## Example Images
+
+![](../../../../../../assets/edge-blur-ex.gif)
+
+</td>
+</tr>
 </table>

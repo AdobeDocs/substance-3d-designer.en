@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](fluid.resources/fluid-01.png){width="128px"}
+![](../../../../../../assets/fluid.png){width="128px"}
 
-<b>In:</b> Texture Generators &gt; Noises
+## Fluid
+
+**In:** *Texture Generators**/Noises*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,28 +35,21 @@ This is an interesting node that generates a flowing or falling fluid pattern. I
 
 This noise fills a specific niche: it can be useful for generating rain, leaks or any type of fluid under gravity effects.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Scale</b> <i>1 - 8</i> | Sets the global scale for the effect. |
-| <b>Disorder</b> <i>0.0 - 1.0</i> | Phase-shifts the noise to introduce small variation. |
-| <b>Warp Intensity</b> <i>0.0 - 1.0</i> |  |
-| <b>Pattern Size</b> <i>0.0 - 1.0</i> |  |
-| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+* **Scale**: *1 - 8*  
+  Sets the global scale for the effect.
+* **Disorder**: *0.0 - 1.0*  
+  Phase-shifts the noise to introduce small variation.
+* **Warp Intensity**: *0.0 - 1.0*
+* **Pattern Size**: *0.0 - 1.0*
+* **Non Square Expansion**: *False/True*  
+  Enables compensation of squash and stretch with non-square ratios.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="fluid.resources/fluid-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/fluid-ex.gif)
+
+</td>
+</tr>
 </table>

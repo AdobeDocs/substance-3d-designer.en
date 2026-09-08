@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "Node icon")
+![Node icon](../../../../../../assets/spline-bridge-mapper-color-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -43,39 +43,48 @@ Maps a color image across a list of input splines so the image traverses the spl
 >
 > See also [Spline Bridge Mapper Grayscale](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md).
 
-<a name="inputs"></a>
+## Input connectors
 
-## Inputs
+<b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
+<b>    R</b> - X position  
+<b>    G</b> - Y position  
+<b>    B</b> - Height  
+    <b>A</b> - Packed data:  
+        * Sign: Spline is closed (negative) or open (positive);  
+        * Absolute value: Thickness + 1.
 
-|  |  |
-|:---|:---|
-| <b>Spline Coords</b> <i>Color</i> | The coordinates of the input splines' points encoded in the RGBA channels of a color image:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline is closed (negative) or open (positive);<br>- Absolute value: Thickness + 1. |
-| <b>Spline Data</b> <i>Color</i> | Additional data of the input splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
-| <b>Spline Amount</b> <i>Integer</i> | The number of input splines. |
-| <b>Color Map</b> <i>Color</i> | The input color image that should be mapped across the input splines. |
+<b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
+<b>    R</b> - Tangents X  
+<b>    G</b> - Tangents Y  
+<b>    B</b> - Unused  
+<b>    A</b> - Unused
 
-<a name="outputs"></a>
+<b>Spline Amount</b> *Integer*The number of input splines.
 
-## Outputs
+<b>Color Map</b>*Color*The input color image that should be mapped across the input splines.
 
-|  |  |
-|:---|:---|
-| <b>Color</b> <i>Grayscale</i> | The result of mapping the input Color image across the splines over the background, as a color image. |
-| <b>Height</b> <i>Grayscale</i> | The height of the splines mapped across the splines, as a grayscale image. |
-| <b>UV</b> <i>Color</i> | The UVs (I.e., coordinates) of the mapped image, encoded in the red (U) and green (V) channels of a color image. |
-| <b>Mask</b> <i>Grayscale</i> | A mask of the mapping across the splines. |
+## Output connectors
 
-<a name="parameters"></a>
+<b>Color</b> *Grayscale*The result of mapping the input Color image across the splines over the background, as a color image.
+
+<b>Height</b> *Grayscale*The height of the splines mapped across the splines, as a grayscale image.
+
+<b>UV</b> *Color*The UVs (I.e., coordinates) of the mapped image, encoded in the red (U) and green (V) channels of a color image.
+
+<b>Mask</b> *Grayscale*A mask of the mapping across the splines.
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Segments Amount</b> <i>Integer</i> | Splines are simplified into segments before image coordinates traverse them. A higher amount of segments results in a smoother mapping along curves. |
-| <b>Reduce UVs Stretching</b> <i>Boolean</i> | Adjusts the method used to interpolate the image coordinates from one spline to the next to minimize stretching when the distance between splines is uneven. |
-| <b>UV Scale</b> <i>Float2</i> | Adjusts the scale of the image coordinates. Higher values result in more a densely tiled image. |
-| <b>UV Rotation</b> <i>Float</i> | Rotates the image coordinates around their center. |
-| <b>Background Color</b> <i>Float4</i> | The color of the background in the output image. |
+<b>Segments Amount</b> *Integer*Splines are simplified into segments before image coordinates traverse them.  
+A higher amount of segments results in a smoother mapping along curves.
+
+<b>Reduce UVs Stretching</b> *Boolean*Adjusts the method used to interpolate the image coordinates from one spline to the next to minimize stretching when the distance between splines is uneven.
+
+<b>UV Scale</b> *Float2*Adjusts the scale of the image coordinates. Higher values result in more a densely tiled image.
+
+<b>UV Rotation</b> *Float*Rotates the image coordinates around their center.
+
+<b>Background Color</b> *Float4*The color of the background in the output image.
 
 ## Examples
 
@@ -86,11 +95,11 @@ Maps a color image across a list of input splines so the image traverses the spl
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="SplineBridgeMapperColor-Variant1-After">
+      <img src="../../../../../../assets/SplineBridgeMapperColor-Variant1-After.jpg" alt="SplineBridgeMapperColor-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -99,7 +108,7 @@ Maps a color image across a list of input splines so the image traverses the spl
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "Node example 2")
+![Node example 2](../../../../../../assets/SplineBridgeMapperColor-Demo.gif "Node example 2")
 
 </td>
 </tr>
@@ -109,12 +118,12 @@ Maps a color image across a list of input splines so the image traverses the spl
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "Node example 1")
+![Node example 1](../../../../../../assets/SplineBridgeMapperColor-Variant1-After1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "Node example 2")
+![Node example 2](../../../../../../assets/SplineBridgeMapperColor-Graph.jpg "Node example 2")
 
 </td>
 </tr>

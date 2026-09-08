@@ -16,40 +16,36 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](hdr-range-viewer.resources/hdr-range-viewer-01.png){width="128px"}
+![](../../../../../../assets/hdr-range-viewer-grayscale.png){width="128px"}
 
-![](hdr-range-viewer.resources/hdr-range-viewer-02.png){width="128px"}
+![](../../../../../../assets/hdr-range-viewer.png){width="128px"}
 
-<b>In:</b> Filters &gt; Adjustments
+## HDR Range Viewer (Grayscale)
+
+**In:** *Filters/Adjustments*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Debug tool to check exact areas with High Dynamic Range. Both Color and Grayscale versions exist.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Range Min</b> <i>-2.0 - 0.0</i> | Minimum range to start highlighting. |
-| <b>Range Max</b> <i>1.0 - 3.0</i> | Maximum range to highlight up to. |
+* **Range Min**: *-2.0 - 0.0*Minimum range to start highlighting.
+* **Range Max**: *1.0 - 3.0*Maximum range to highlight up to.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="hdr-range-viewer.resources/hdr-range-viewer-03.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/hdr-viewer-example.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

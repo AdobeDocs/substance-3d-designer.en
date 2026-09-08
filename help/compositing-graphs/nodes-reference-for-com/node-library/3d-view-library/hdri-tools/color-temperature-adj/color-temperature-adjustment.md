@@ -16,39 +16,35 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](color-temperature-adjustment.resources/color-temperature-adjustment-01.png){width="250px"}
+![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
 
-<b>In:</b> 3D View &gt; HDRI Tools
+## Color Temperature Adjustment
+
+**In:** *3D View/HDRI Tools*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Adjusts input image's color balance. Similar to White Balance adjustment in photography. Can be used to warm or cool color in HDR images that are off-key.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Temperature</b> <i>-1.0 - 1.0</i> | Shift colors between warm and cold. |
-| <b>Magenta-Green</b> <i>-1.0 - 1.0</i> | Shift tone between magenta and green. |
-| <b>Color Space</b> <i>HDR (linear), LDR (sRGB)</i> | Determine how input image's color space is interpreted. |
+* **Temperature**: *-1.0 - 1.0*   
+  Shift colors between warm and cold.
+* **Magenta-Green**: *-1.0 - 1.0*   
+  Shift tone between magenta and green.
+* **Color Space**: *HDR (linear), LDR (sRGB)*Determine how input image's color space is interpreted.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="color-temperature-adjustment.resources/color-temperature-adjustment-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/color-tempadjust-ex.gif)
+
+</td>
+</tr>
 </table>

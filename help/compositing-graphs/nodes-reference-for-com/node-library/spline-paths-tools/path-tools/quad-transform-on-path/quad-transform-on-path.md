@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](quad-transform-on-path.resources/quad-transform-on-path-01.png "Node icon")
+![Node icon](../../../../../../assets/quad-transform-on-paths-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -33,32 +33,29 @@ Deform a Paths using 4 handles.
 </tr>
 </table>
 
-<a name="inputs"></a>
+## Input connectors
 
-## Inputs
+<b>Paths</b> *Color*  
+A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another *Path*-processing node.
 
-|  |  |
-|:---|:---|
-| <b>Paths</b> <i>Color</i> | A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another *Path*-processing node. |
+## Output connectors
 
-<a name="outputs"></a>
-
-## Outputs
-
-|  |  |
-|:---|:---|
-| <b>Paths</b> <i>Color</i> | The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines. |
-
-<a name="parameters"></a>
+<b>Paths</b> *Color*  
+The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>p00</b> <i>Float2</i> | The position of the top-left handle. |
-| <b>p01</b> <i>Float2</i> | The position of the top-right handle. |
-| <b>p02</b> <i>Float2</i> | The position of the bottom-left handle. |
-| <b>p03</b> <i>Float2</i> | The position of the bottom-right handle. |
+<b>p00</b> *Float2*  
+The position of the top-left handle.
+
+<b>p01</b> *Float2*  
+The position of the top-right handle.
+
+<b>p02</b> *Float2*  
+The position of the bottom-left handle.
+
+<b>p03</b> *Float2*  
+The position of the bottom-right handle.
 
 ## Examples
 
@@ -69,11 +66,11 @@ Deform a Paths using 4 handles.
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-03.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -85,11 +82,11 @@ Deform a Paths using 4 handles.
 <table>
   <tr>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
+      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="quad-transform-on-path.resources/quad-transform-on-path-04.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -103,12 +100,12 @@ Deform a Paths using 4 handles.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](quad-transform-on-path.resources/quad-transform-on-path-05.gif "Node example 1")
+![Node example 1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](quad-transform-on-path.resources/quad-transform-on-path-06.gif "Node example 2")
+![Node example 2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "Node example 2")
 
 </td>
 </tr>

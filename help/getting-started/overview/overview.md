@@ -18,7 +18,7 @@ user-guide-title: ""
 
 Here is how it compares to other applications:
 
-|  | <div><img alt="Substance 3D Sampler icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/overview-01.png" title="Substance 3D Sampler icon" width="64px"/></div>  Substance 3D  Sampler | <div><img alt="Substance 3D Painter icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/overview-02.png" width="64px"/></div>  Substance 3D  Painter | <div><img alt="Substance 3D Designer icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/overview-03.png" title="Substance 3D Designer icon" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Substance 3D Sampler icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Substance 3D Sampler icon" width="64px"/></div>  Substance 3D  Sampler | <div><img alt="Substance 3D Painter icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D  Painter | <div><img alt="Substance 3D Designer icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Substance 3D Designer icon" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>Learning curve</b> | Low | Medium | High |
 | <b>Author materials</b> | Yes | Yes | Yes |
@@ -54,7 +54,7 @@ The application and its ecosystem use 4 different filetypes. To be clear: these 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-04.png)
+![](../../assets/ds-sbs-48.png)
 
 ### Substance 3D File
 
@@ -65,7 +65,7 @@ Substance Files are the **main source files** for Designer. When you open a Subs
 </td>
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-05.png)
+![](../../assets/sbsar-48.png)
 
 ### Substance 3D Asset
 
@@ -76,7 +76,7 @@ Substance Archives are<b> compiled, optimized</b> Substance files. They are much
 </td>
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-06.png){width="48px"}
+![](../../assets/bmp-96.png){width="48px"}
 
 ### Static Files
 
@@ -98,7 +98,7 @@ Substance 3D files can contain a large variety of resources that serve different
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-07.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -117,7 +117,7 @@ Substance graphs allow you to generate and process *2D image data* and then outp
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-08.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -136,7 +136,7 @@ Substance graphs allow you to generate and process *2D image data* and then outp
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-09.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -16,58 +16,72 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](3d-perlin-noise.resources/3d-perlin-noise-01.png){width="200px"}
+![](../../../../../../assets/3dperlinnoise.png){width="200px"}
 
-<b>In:</b> Texture Generators &gt; Noises
+**In:** *Texture Generators**/Noises*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
-The <b>3D Perlin Noise</b> node generates a Perlin noise in 3D space based on the <b>Position Map</b> input.
+The **3D Perlin Noise** node generates a Perlin noise in 3D space based on the **Position Map** input.
 
 This node can be tested with [Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) as input instead of an actual baked map (as seen in the Example Image below).
+
+>[!WARNING]
+>
+> This noise is meant to be used with the *GPU engine only* (i.e., **Direct3D** or **OpenGL**). Go to **Tools &gt; Switch engine...** or press the **F9** key to select the desired engine.
 
 </td>
 </tr>
 </table>
 
->[!WARNING]
->
-> This noise is meant to be used with the <i>GPU engine only</i> (i.e., <b>Direct3D</b> or <b>OpenGL</b>). Go to <b>Tools &gt; Switch engine...</b> or press the <b>F9</b> key to select the desired engine.
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Invert</b> <i>Boolean</i> | Inverts the output image. |
-| <b>Scale</b> <i>Float</i> | Controls the scale of the 3D Perlin noise. |
-| <b>Size</b> <i>Float3</i> | Controls the size of the 3D Perlin noise in the <b>X</b>, <b>Y</b> and <b>Z</b> axes. Non-uniform values result in a <i>stretching or squashing</i> effect. |
-| <b>Offset</b> <i>Float3</i> | Applies an offset to the <i>position</i> of the 3D Perlin noise in the <b>X</b>, <b>Y</b> and <b>Z</b> axes. |
-| <b>Distortion Intensity</b> <i>Float</i> | Controls the intensity of a <i>warping effect</i> applied on the 3D Perlin noise. |
-| <b>Distortion Scale Multiplier</b> <i>Float</i> | Controls the scale of the <i>deforming pattern</i> used in the warping effect controlled by the <b>Distortion Intensity</b>. |
-| <b>Baseline</b> <i>Float</i> | Applies an <i>offset</i> to the baseline <i>luminance</i> value for the 3D Perlin noise value distribution. |
-| <b>Contrast</b> <i>Float</i> | Adjusts the contrast of the 3D Perlin noise. |
-| <b>Absolute</b> <i>Boolean</i> | Uses absolute values in the 3D Perlin noise. This effectively <i>inverts</i> the value distribution for values <i>below 0.5</i>. |
-| <b>Enable Tiling</b> <i>Boolean</i> | Adjusts the 3D Perlin noise so its resulting pattern <i>repeats</i> in the X, Y and Z axes. |
+* **Invert** *Boolean*  
+  Inverts the output image.
+* **Scale** *Float*  
+  Controls the scale of the 3D Perlin noise.
+* **Size** *Float3*  
+  Controls the size of the 3D Perlin noise in the **X**, **Y** and **Z** axes. Non-uniform values result in a *stretching or squashing* effect.
+* **Offset** *Float3*  
+  Applies an offset to the *position* of the 3D Perlin noise in the **X**, **Y** and **Z** axes.
+* **Distortion Intensity** *Float*  
+  Controls the intensity of a *warping effect* applied on the 3D Perlin noise.
+* **Distortion Scale Multiplier** *Float*  
+  Controls the scale of the *deforming pattern* used in the warping effect controlled by the **Distortion Intensity**.
+* **Baseline** *Float*  
+  Applies an *offset* to the baseline *luminance* value for the 3D Perlin noise value distribution.
+* **Contrast** *Float*  
+  Adjusts the contrast of the 3D Perlin noise.
+* **Absolute** *Boolean*  
+  Uses absolute values in the 3D Perlin noise. This effectively *inverts* the value distribution for values *below 0.5*.
+* **Enable Tiling** *Boolean*  
+  Adjusts the 3D Perlin noise so its resulting pattern *repeats* in the X, Y and Z axes.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-02.gif" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-03.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-04.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dperlin.gif){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dperlinnoise-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dperlinnoise-variant.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

@@ -16,14 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-scratches-fine.resources/grunge-scratches-fine-01.jpg){width="200px"}
+![](../../../../../../assets/grungescratchesfine.jpg){width="200px"}
 
-<b>In:</b> Texture Generators &gt; Noises
+**In:** *Texture Generators* */Noises*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -33,30 +35,30 @@ The **Grunge Scratches Fine** node generates a grunge map akin to a finely scrat
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Balance</b> <i>Float</i> | Adjusts the balance between dark and bright values. |
-| <b>Contrast</b> <i>Float</i> | Adjusts the contrast of the image. |
-| <b>Invert</b> <i>Boolean</i> | Inverts the output of the image, using a `1-x` operation. |
-| <b>Non Square Expansion</b> <i>Boolean</i> | Enables compensation of squash and stretch with non-square ratios. |
-| <b>Advanced</b> |  |
-| <b>Scratches Amount</b> <i>Float</i> | Adjusts the amount of fine scratches on the surface. |
-| <b>Sharpen Intensity</b> <i>Float</i> | Adjusts the intensity of the global sharpening effect. |
-| <b>Scratch Value Bias</b> <i>Float</i> | Adjusts the balance of luminance values assigned to individual scratches. |
+* **Balance** *Float*Adjusts the balance between dark and bright values.
+* **Contrast** *Float*Adjusts the contrast of the image.
+* **Invert** *Boolean*Inverts the output of the image, using a `1-x` operation.
+* **Non Square Expansion** *Boolean*Enables compensation of squash and stretch with non-square ratios.
+* Advanced
+  * **Scratches Amount** *Float*Adjusts the amount of fine scratches on the surface.
+  * **Sharpen Intensity** *Float*Adjusts the intensity of the global sharpening effect.
+  * **Scratch Value Bias** *Float*Adjusts the balance of luminance values assigned to individual scratches.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grunge-scratches-fine-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-fine.resources/grunge-scratches-fine-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungescratchesfine-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungescratchesfine-variant2.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

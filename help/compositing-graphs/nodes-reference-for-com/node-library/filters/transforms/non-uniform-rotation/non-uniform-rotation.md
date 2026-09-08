@@ -16,27 +16,29 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](non-uniform-rotation.resources/non-uniform-rotation-01.png){width="200px"}
+![](../../../../../../assets/nonuniformrotationgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](non-uniform-rotation.resources/non-uniform-rotation-02.png){width="200px"}
+![](../../../../../../assets/nonuniformrotationcolor.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-<b>In:</b> Filters &gt; Transforms
+**In:** Filters*/Transforms*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -49,41 +51,51 @@ Positive values in the **Rotation Map** input result in a *clockwise* rotation.
 </tr>
 </table>
 
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>Input</b> <i>Grayscale/Color</i> | The input grayscale image which should be rotated. |
-| <b>Rotation Map</b> <i>Grayscale</i> | The map used to control the amount of rotation, in *number of turns*. The sampled values are multiplied against the **Rotation Angle Multiplier**. Negative values result in a *counter-clockwise* rotation. |
-| <b>Rotation Pivot Position Map</b> <i>Color</i> | The image used to specify the position of the rotation *pivot*. The **X/Y** position is mapped to the **R/G** channels of the image. |
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Rotation Angle Multiplier</b> <i>Float</i> | Adjusts the intensity of the **Rotation Map** input. |
-| <b>Rotation Angle Offset</b> <i>Float</i> | Applies the specified additional amount of rotation. |
-| <b>Use Pivot Position Map</b> <i>Boolean</i> | Use a *bitmap input* to specify the position of the rotation pivot. The **X/Y** position is mapped to the **R/G** channels of the **Position Map** input. |
-| <b>PIvot Position</b> <i>Float2</i> | The position of the pivot around which the image is rotated. |
-| <b>Background Color</b> <i>Float/Float4</i> | Background color to display *outside* of the image's bounds in case the tiling is not set to **H and V Tiling**. |
-| <b>Filtering Mode</b> <i>Integer</i> | Defines how to treat the sampled results when *interpolating* between pixels:<br><br>- *Nearest*: will sample exactly the *same* value (faster)<br>- *Bilinear*: will apply a bilinear filter on the result for a *smoother* look |
+### Inputs
 
-## Examples
+* **Input** *Grayscale/Color*  
+  The input grayscale image which should be rotated.
+* **Rotation Map** *Grayscale*The map used to control the amount of rotation, in *number of turns*. The sampled values are multiplied against the **Rotation Angle Multiplier**. Negative values result in a *counter-clockwise* rotation.
+* **Rotation Pivot Position Map** *Color*  
+  The image used to specify the position of the rotation *pivot*. The **X/Y** position is mapped to the **R/G** channels of the image.
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-03.gif" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-04.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="non-uniform-rotation.resources/non-uniform-rotation-05.png" />
-        </td>
-    </tr>
+### Parameters
+
+* **Rotation Angle Multiplier** *Float*  
+  Adjusts the intensity of the **Rotation Map** input.
+* **Rotation Angle Offset** *Float*  
+  Applies the specified additional amount of rotation.
+* **Use Pivot Position Map** *Boolean*  
+  Use a *bitmap input* to specify the position of the rotation pivot. The **X/Y** position is mapped to the **R/G** channels of the **Position Map** input.
+* **PIvot Position** *Float2*  
+  The position of the pivot around which the image is rotated.
+* **Background Color** *Float/Float4*  
+  Background color to display *outside* of the image's bounds in case the tiling is not set to **H and V Tiling**.
+* **Filtering Mode** *Integer*  
+  Defines how to treat the sampled results when *interpolating* between pixels:  
+  * *Nearest*: will sample exactly the *same* value (faster)  
+  * *Bilinear*: will apply a bilinear filter on the result for a *smoother* look
+
+## Example Images
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/nonuniformrotation-demo-02-resized.gif){width="768px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/nonuniformrotation-variant-png.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/nonuniformrotation-node.png){width="256px"}
+
+</td>
+</tr>
 </table>

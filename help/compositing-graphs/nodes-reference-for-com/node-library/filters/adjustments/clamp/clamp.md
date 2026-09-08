@@ -16,41 +16,37 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](clamp.resources/clamp-01.png){width="128px"}
+![](../../../../../../assets/clamp-grayscale.png){width="128px"}
 
-![](clamp.resources/clamp-02.png){width="128px"}
+![](../../../../../../assets/clamp-1.png){width="128px"}
 
-<b>In:</b> Filters &gt; Adjustments
+## Clamp (Grayscale)
+
+**In:** *Filters/Adjustments*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Clamps input values to defined limits.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Min</b> <i>0.0 - 1.0</i> | Lower clamp limit. |
-| <b>Max</b> <i>0.0 - 1.0</i> | Upper clamp limit. |
-| <b>Apply to Alpha</b> <i>False/True</i> (Color version only) | Choose whether clamping is applied to the alpha as well. |
+* **Min**: *0.0 -* 1.0  
+  Lower clamp limit.
+* **Max**: *0.0 - 1.0*Upper clamp limit.
+* **Apply to Alpha**: *False/True* (Color version only)  
+  Choose whether clamping is applied to the alpha as well.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="clamp.resources/clamp-03.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/clamp.gif)
+
+</td>
+</tr>
 </table>

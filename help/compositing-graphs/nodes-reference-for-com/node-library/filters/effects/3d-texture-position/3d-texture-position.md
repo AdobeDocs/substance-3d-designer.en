@@ -16,14 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](3d-texture-position.resources/3d-texture-position-01.png){width="256px"}
+![](../../../../../../assets/3dtextureposition.png){width="256px"}
 
-<b>In:</b> Filter &gt; Effect
+**In:** *Filter/Effect*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,15 +37,23 @@ This can be used to bake 3D noises or functions as a *3D texture atlas*.
 </tr>
 </table>
 
-## Examples
+## Parameters
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3d-texture-position-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-texture-position.resources/3d-texture-position-03.png" />
-        </td>
-    </tr>
+No parameters.
+
+## Example Images
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dtextureposition-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dtextureposition-node.png){width="128px"}
+
+</td>
+</tr>
 </table>

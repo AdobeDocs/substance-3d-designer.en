@@ -16,30 +16,32 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](panorama-rotation.resources/panorama-rotation-01.png){width="200px"}
+![](../../../../../../assets/panorama-rotation.png){width="200px"}
 
-<b>In:</b> 3D View &gt; HDRI Tools
+## Panorama Rotation
+
+**In:** *3D View/HDRI Tools*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
 Rotates an input spherically mapped panorama image around it's central point, keeping projection/mapping correct. Useful for tilting or adjusting HDRI images.
 
+## Parameters
+
+* **Rotation**: *0.0 - 1.0*
+* **Direction Angle**: *0.0 - 1.0*
+* **Pre Rotation Around Pole**: *-1.0 - 1.0*
+* **Post Rotation Around Pole**: *0.0 - 1.0*
+
+## Example Images
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## Parameters
-
-|  |  |
-|:---|:---|
-| <b>Rotation</b> <i>0.0 - 1.0</i> |  |
-| <b>Direction Angle</b> <i>0.0 - 1.0</i> |  |
-| <b>Pre Rotation Around Pole</b> <i>-1.0 - 1.0</i> |  |
-| <b>Post Rotation Around Pole</b> <i>0.0 - 1.0</i> |  |

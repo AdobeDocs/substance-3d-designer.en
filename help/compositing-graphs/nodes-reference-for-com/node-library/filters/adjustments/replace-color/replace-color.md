@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](replace-color.resources/replace-color-01.png){width="128px"}
+![](../../../../../../assets/replace-color.png){width="128px"}
 
-<b>In:</b> Filters &gt; Adjustments
+## Replace Color
+
+**In:** *Filters/Adjustments*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,25 +35,17 @@ Hue shifts Source Color towards Target Color.
 
 See [Replace Color Range](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) or [Color Match](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md) for more advanced versions.
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Source Color</b> <i>(Color value)</i> | Color to start shifting hue from. |
-| <b>Target Color</b> <i>(Color value)</i> | Color to shift hue towards. |
+* **Source Color**: *(Color value)*Color to start shifting hue from.
+* **Target Color**: *(Color value)*Color to shift hue towards.
 
-## Examples
+## Example Images
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="replace-color.resources/replace-color-02.png" />
-        </td>
-    </tr>
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-example.png" width="300px"/></div> |
+| --- |
+|  |
+
+</td>
+</tr>
 </table>

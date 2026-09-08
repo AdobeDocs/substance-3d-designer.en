@@ -16,14 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](diffusion-uv.resources/diffusion-uv-01.png){width="200px"}
+![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
 
-<b>In:</b> Filters &gt; Effects
+**In:** *Filters/Effects*
+
+**Intermediate**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,40 +43,45 @@ This can lead to undesirable results when using this filter for *texture deforma
 </tr>
 </table>
 
-<a name="inputs"></a>
+## Parameters
+
+* **Iterations**: *0.0 - 64.0*The number of diffusion iterations to perform (higher is better but slower). Useful values are in the &#91;8, 48&#93; range.  
+  Please note that if you are not looking for mathematical correctness, low values are fine or even better.
 
 ## Inputs
 
-|  |  |
-|:---|:---|
-| <b>Source</b> <i>Color</i> | The UVs to diffuse. Please note tiling is handled in a special way in this filter (see <i>Description</i>). |
-| <b>Mask</b> <i>Grayscale</i> | The diffusion mask: White pixels are sampled in <i>Source</i> and diffused in black pixels. The image should be black and white. If the mask includes gradients, the cutoff value is 0.5. |
+* **Source** *Color*  
+  The UVs to diffuse. Please note tiling is handled in a special way in this filter (see *Description*).
+* **Mask** *Grayscale*The diffusion mask: White pixels are sampled in *Source* and diffused in black pixels. The image should be black and white. If the mask includes gradients, the cutoff value is 0.5.
 
-<a name="parameters"></a>
+## Example images
 
-## Parameters
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-|  |  |
-|:---|:---|
-| <b>Iterations</b> <i>0.0 - 64.0</i> | The number of diffusion iterations to perform (higher is better but slower). Useful values are in the &#91;8, 48&#93; range.<br>Please note that if you are not looking for mathematical correctness, low values are fine or even better. |
+![](../../../../../../assets/diffusion-uv-01a-before.jpg){width="256px"}
 
-## Examples
+</td>
+<td style="border: 0;" valign="top">
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-03.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-04.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-05.jpg" />
-        </td>
-    </tr>
+![](../../../../../../assets/diffusion-uv-01a-after.jpg){width="256px"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-uv-01b-before.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/diffusion-uv-01b-after.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

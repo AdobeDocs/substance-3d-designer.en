@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](paths-polygon.resources/paths-polygon-01.png "Node icon")
+![Node icon](../../../../../../assets/paths-polygon-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -35,21 +35,16 @@ Use the [Path 2D Transform](../../../../../../compositing-graphs/nodes-reference
 </tr>
 </table>
 
-<a name="outputs"></a>
+## Output connectors
 
-## Outputs
-
-|  |  |
-|:---|:---|
-| <b>Paths</b> <i>Color</i> | Contains a list of one encoded path, describing a list of encoded segments.<br>This is not indended to be used or modified directly. Search for Paths to find compatible nodes. |
-
-<a name="parameters"></a>
+<b>Paths</b> *Color*  
+Contains a list of one encoded path, describing a list of encoded segments.  
+This is not indended to be used or modified directly. Search for Paths to find compatible nodes.
 
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Number of Sides</b> <i>Integer</i> | Tip: enter a number between 100 and 1000 to generate a circle. |
+<b>Number of Sides</b> *Integer*  
+Tip: enter a number between 100 and 1000 to generate a circle.
 
 ## Examples
 
@@ -57,12 +52,12 @@ Use the [Path 2D Transform](../../../../../../compositing-graphs/nodes-reference
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](paths-polygon.resources/paths-polygon-02.jpg "Node example 1")
+![Node example 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](paths-polygon.resources/paths-polygon-03.jpg "Node example 2")
+![Node example 2](../../../../../../assets/PathsPolygon_Variant2.jpg "Node example 2")
 
 </td>
 </tr>

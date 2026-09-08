@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](pbr-albedo-safe-color.resources/pbr-albedo-safe-color-01.png){width="128px"}
+![](../../../../../../assets/pbr-albedo-safe-color.png){width="128px"}
 
-<b>In:</b> Material Filters &gt; PBR Utilities
+## PBR Albedo Safe Color
+
+**In:** *Material Filters/PBR Utilities*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -33,15 +37,17 @@ Also see [PBR BaseColor / Metallic Validate](../../../../../../compositing-graph
 
 This is useful as a quick correction tool, especially when one is still learning PBR, but not intended as an absolute measure that is always supposed to be correct.
 
+## Parameters
+
+* **PBR Workflow**: *Base Color - Metallic, Diffuse - Specular*Switches between two different PBR workflows.
+* **Tolerance**: *0.0 - 1.0*Amount of tolerance for values that are out-of-range.
+
+## Example Images
+
+|  |
+| --- |
+| There are no images attached to this page. |
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## Parameters
-
-|  |  |
-|:---|:---|
-| <b>PBR Workflow</b> <i>Base Color - Metallic, Diffuse - Specular</i> | Switches between two different PBR workflows. |
-| <b>Tolerance</b> <i>0.0 - 1.0</i> | Amount of tolerance for values that are out-of-range. |

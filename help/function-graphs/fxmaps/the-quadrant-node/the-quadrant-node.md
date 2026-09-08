@@ -96,12 +96,12 @@ The Pattern Variation parameter adjusts a defined feature of the Pattern.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](the-quadrant-node.resources/the-quadrant-node-01.png){width="80px"}
+![](../../../assets/fxmap-quadrants.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](the-quadrant-node.resources/the-quadrant-node-02.jpg)
+![](../../../assets/quadrant-parameters.jpg)
 
 </td>
 </tr>

@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](edge-damages.resources/edge-damages-01.png){width="128px"}
+![](../../../../../../assets/edge-damages.png){width="128px"}
 
-<b>In:</b> Mesh Based Generators &gt; Mask Generators
+## Edge Damages
+
+**In:** *Mesh Based Generators**/Mask Generators*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,36 +35,29 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask represents damage done to raised, convex edges based on curvature and baked AO.
 
-</td>
-</tr>
-</table>
-
-<a name="inputs"></a>
-
-## Inputs
-
-|  |  |
-|:---|:---|
-| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used for effect placement. Required! |
-| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used for effect placement. Required! |
-| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
-
-<a name="parameters"></a>
-
 ## Parameters
 
-|  |  |
-|:---|:---|
-| <b>Level</b> <i>0.0 - 1.0</i> | Amount of edge damage to apply. |
-| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. |
-| <b>Damages Intensity</b> <i>0.0 - 1.0</i> | Shifts between a chipped, consistent look and a chaotic, scratched, heavily damaged look. |
+### Inputs
 
-## Examples
+* **Curvature**: *Grayscale Input*   
+  Baked map used for effect placement. Required!
+* **Ambient Occlusion**: *Grayscale Input*   
+  Baked map used for effect placement. Required!
+* **Mask (optional)**: *Grayscale Input*   
+  Mask slot used for masking the node's effects.
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="edge-damages.resources/edge-damages-02.gif" />
-        </td>
-    </tr>
+### Parameters
+
+* **Level**: *0.0 - 1.0*  
+  Amount of edge damage to apply.
+* **Contrast**: *0.0 - 1.0*  
+  Adjusts the contrast of the result.
+* **Damages Intensity**: *0.0 - 1.0*Shifts between a chipped, consistent look and a chaotic, scratched, heavily damaged look.
+
+## Example Images
+
+![](../../../../../../assets/edge-damages-ex.gif)
+
+</td>
+</tr>
 </table>

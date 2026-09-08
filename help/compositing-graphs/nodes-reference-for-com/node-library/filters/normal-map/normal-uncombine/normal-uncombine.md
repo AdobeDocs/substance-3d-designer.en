@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Normal uncombine icon](normal-uncombine.resources/normal-uncombine-01.png "Normal uncombine icon"){width="200px"}
+![Normal uncombine icon](../../../../../../assets/NormalUncombine.png "Normal uncombine icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Normal map
 
@@ -33,30 +33,44 @@ Removes from a normal map the surface details described by a height map.
 </tr>
 </table>
 
-<a name="inputs"></a>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
 
-## Inputs
+
+
+</td>
+<td style="border: 0;" valign="top">
+
+### Output connectors
+
+</td>
+<td style="border: 0;" valign="top">
+
+### Parameters
+
+</td>
+</tr>
+</table>
+
+## Input connectors
 
 |  |  |
-|:---|:---|
-| <b>Combined normal</b> <i>Color</i> PRIMARY | The normal map from which details should be removed. |
-| <b>Height</b> <i>Grayscale</i> | The height map representing the surface details which should be removed from the combined normal map. |
+| --- | --- |
+| <b>Combined normal</b> *Color* PRIMARY | The normal map from which details should be removed. |
+| <b>Height</b> *Grayscale* | The height map representing the surface details which should be removed from the combined normal map. |
 
-<a name="outputs"></a>
-
-## Outputs
+## Output connectors
 
 |  |  |
-|:---|:---|
-| <b>Uncombined normal</b> <i>Color</i> | The normal map where the surface details described by the input height map were removed. |
-| <b>Guessed intensity</b> <i>Float</i> | An estimate of the intensity which should be set to a [Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) node connected to the input height map, to match the intensity of the input normal map. |
-
-<a name="parameters"></a>
+| --- | --- |
+| <b>Uncombined normal</b> *Color* | The normal map where the surface details described by the input height map were removed. |
+| <b>Guessed intensity</b> *Float* | An estimate of the intensity which should be set to a [Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) node connected to the input height map, to match the intensity of the input normal map. |
 
 ## Parameters
 
 |  |  |
-|:---|:---|
+| --- | --- |
 | <b>Normal format</b> *Integer* | The format of the input normal map. Effectively inverts the green channel.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> The Y axis points up</li> <li data-preserve-html="true"><b>OpenGL:</b> The Y axis points down</li> </ul> |
 
 ## Examples
@@ -64,44 +78,44 @@ Removes from a normal map the surface details described by a height map.
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-02.jpg" alt="normal_uncombine_example_3_before">
+      <img src="../../../../../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-03.jpg" alt="normal_uncombine_example_3_after">
+      <img src="../../../../../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>After</i>
     </td>
   </tr>
 </table>
 
-![Normal uncombine: Example 2](normal-uncombine.resources/normal-uncombine-04.png "Normal uncombine: Example 2"){zoomable="yes"}
+![Normal uncombine: Example 2](../../../../../../assets/normal_uncombine_example_4.png "Normal uncombine: Example 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-05.jpg" alt="normal_uncombine_example_1_before">
+      <img src="../../../../../../assets/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-06.jpg" alt="normal_uncombine_example_1_after">
+      <img src="../../../../../../assets/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
 </table>
 
-![Normal uncombine: Example 4](normal-uncombine.resources/normal-uncombine-07.png "Normal uncombine: Example 4"){zoomable="yes"}
+![Normal uncombine: Example 4](../../../../../../assets/normal_uncombine_example_6.png "Normal uncombine: Example 4"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-08.jpg" alt="normal_uncombine_example_2_before">
+      <img src="../../../../../../assets/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-09.jpg" alt="normal_uncombine_example_2_after">
+      <img src="../../../../../../assets/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
 </table>
 
-![Normal uncombine: Example 6](normal-uncombine.resources/normal-uncombine-10.png "Normal uncombine: Example 6"){zoomable="yes"}
+![Normal uncombine: Example 6](../../../../../../assets/normal_uncombine_example_5.png "Normal uncombine: Example 6"){zoomable="yes"}

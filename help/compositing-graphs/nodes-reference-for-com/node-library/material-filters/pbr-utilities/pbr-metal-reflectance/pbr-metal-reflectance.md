@@ -16,14 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](pbr-metal-reflectance.resources/pbr-metal-reflectance-01.png){width="128px"}
+![](../../../../../../assets/pbr-metal-reflectance.png){width="128px"}
 
-<b>In:</b> Material Filters &gt; PBR Utilities
+## PBR Metal Reflectance
+
+**In:** *Material Filters/PBR Utilities*
+
+**Simple**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## Description
 
@@ -31,14 +35,16 @@ This is a quick Preset helper node to return the correct reflection colors for a
 
 This node is useful when you want a starting point for a pure metal, and allows you to avoid colorpicking from a chart.
 
+## Parameters
+
+* **Metal Color**: *Gold, Silver, Aluminium, Iron, Copper, Titanium, Nickel, Cobalt, Platinum*Picks a pre-defined metal value.
+
+## Example Images
+
+|  |
+| --- |
+| There are no images attached to this page. |
+
 </td>
 </tr>
 </table>
-
-<a name="parameters"></a>
-
-## Parameters
-
-|  |  |
-|:---|:---|
-| <b>Metal Color</b> <i>Gold, Silver, Aluminium, Iron, Copper, Titanium, Nickel, Cobalt, Platinum</i> | Picks a pre-defined metal value. |
