@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/lighting-cancel-high-low.png){width="128px"}
+![](lighting-cancel-low-frequencies.resources/lighting-cancel-high-low.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -48,7 +48,7 @@ Also see [Luminance Highpass](../../../../../../compositing-graphs/nodes-referen
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/lighting-cancel-lowfrequencies-example.png" />
+            <img src="lighting-cancel-low-frequencies.resources/lighting-cancel-lowfrequencies-example.png" />
         </td>
     </tr>
 </table>

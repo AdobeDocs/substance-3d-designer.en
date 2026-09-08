@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/luminance-highpass.png){width="128px"}
+![](luminance-highpass.resources/luminance-highpass.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -48,7 +48,7 @@ Does a slightly better job at preserving colors than [Lighting Cancel Low Freque
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/luminance-highpass-example.png" />
+            <img src="luminance-highpass.resources/luminance-highpass-example.png" />
         </td>
     </tr>
 </table>
