@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polar-to-cartesian.png){width="128px"}
+![](polar-to-cartesian.resources/polar-to-cartesian.png){width="128px"}
 
-![](../../../../../../assets/polar-to-cartesian-grayscale.png){width="128px"}
+![](polar-to-cartesian.resources/polar-to-cartesian-grayscale.png){width="128px"}
 
 <b>In:</b> Filters &gt; Transforms
 
@@ -40,7 +40,7 @@ Converts an input in Polar Coordinates (Angle &amp; Radius) to Cartesian Coordin
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/polar-to-cartesian-example.png" />
+            <img src="polar-to-cartesian.resources/polar-to-cartesian-example.png" />
         </td>
     </tr>
 </table>

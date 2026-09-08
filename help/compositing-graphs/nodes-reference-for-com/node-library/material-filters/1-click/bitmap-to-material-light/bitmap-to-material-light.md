@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/b2m-light.png)
+![](bitmap-to-material-light.resources/b2m-light.png)
 
 <b>In:</b> Material Filters &gt; 1-Click
 

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-1.resources/noise-upscale.png){width="128px"}
 
 <b>In:</b> Filters &gt; Transforms
 
@@ -53,7 +53,7 @@ See also [Noise Upscale 2](../../../../../../compositing-graphs/nodes-reference-
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/noise1ex.png" />
+            <img src="noise-upscale-1.resources/noise1ex.png" />
         </td>
     </tr>
 </table>

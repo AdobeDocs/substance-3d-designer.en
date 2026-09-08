@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mirror-2.png){width="128px"}
+![](mirror-filter-node.resources/mirror-2.png){width="128px"}
 
-![](../../../../../../assets/mirror-grayscale.png){width="128px"}
+![](mirror-filter-node.resources/mirror-grayscale.png){width="128px"}
 
 <b>In:</b> Filters &gt; Transforms
 
@@ -53,7 +53,7 @@ Mirrors the input image over a chosen axis, from a chosen side. Very useful, qui
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/mirror-example.png" />
+            <img src="mirror-filter-node.resources/mirror-example.png" />
         </td>
     </tr>
 </table>
