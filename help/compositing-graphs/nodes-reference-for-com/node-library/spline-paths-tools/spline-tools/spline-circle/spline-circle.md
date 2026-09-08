@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-circle-icon.png "Node icon")
+![Node icon](spline-circle.resources/spline-circle-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -90,12 +90,12 @@ Generates a single spline in the shape of a circle.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/SplineCircle-Variant1.jpg "Node example 1")
+![Node example 1](spline-circle.resources/SplineCircle-Variant1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineCircle-Demo.gif "Node example 2")
+![Node example 2](spline-circle.resources/SplineCircle-Demo.gif "Node example 2")
 
 </td>
 </tr>
@@ -105,12 +105,12 @@ Generates a single spline in the shape of a circle.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Example 3](../../../../../../assets/SplineCircle-Variant2.jpg "Example 3")
+![Example 3](spline-circle.resources/SplineCircle-Variant2.jpg "Example 3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Example 4](../../../../../../assets/SplineCircle-Variant3.jpg "Example 4")
+![Example 4](spline-circle.resources/SplineCircle-Variant3.jpg "Example 4")
 
 </td>
 </tr>
