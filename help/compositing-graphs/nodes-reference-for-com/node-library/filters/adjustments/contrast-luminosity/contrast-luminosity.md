@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/contrast-luminosity-color.png){width="128px"}
+![](contrast-luminosity.resources/contrast-luminosity-color.png){width="128px"}
 
-![](../../../../../../assets/contrast-luminosity-grayscale.png){width="128px"}
+![](contrast-luminosity.resources/contrast-luminosity-grayscale.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -49,7 +49,7 @@ A simple contrast and luminosity (brightness) adjustment.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/contrastluminosity-optim.gif" />
+            <img src="contrast-luminosity.resources/contrastluminosity-optim.gif" />
         </td>
     </tr>
 </table>
