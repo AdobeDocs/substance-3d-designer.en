@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-range-viewer-grayscale.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer-grayscale.png){width="128px"}
 
-![](../../../../../../assets/hdr-range-viewer.png){width="128px"}
+![](hdr-range-viewer.resources/hdr-range-viewer.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -49,7 +49,7 @@ Debug tool to check exact areas with High Dynamic Range. Both Color and Grayscal
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/hdr-viewer-example.png" />
+            <img src="hdr-range-viewer.resources/hdr-viewer-example.png" />
         </td>
     </tr>
 </table>

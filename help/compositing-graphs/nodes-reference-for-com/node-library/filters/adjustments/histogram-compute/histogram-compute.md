@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Histogram compute: icon](../../../../../../assets/histogram_compute.png "Histogram compute: icon"){width="200px"}
+![Histogram compute: icon](histogram-compute.resources/histogram_compute.png "Histogram compute: icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -71,16 +71,16 @@ Custom tools can be created using the data computed by the node, such as custom 
 
 ## Examples
 
-![Histogram compute: Example 1](../../../../../../assets/histogram_compute_example_1.jpg "Histogram compute: Example 1"){zoomable="yes"}
+![Histogram compute: Example 1](histogram-compute.resources/histogram_compute_example_1.jpg "Histogram compute: Example 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
