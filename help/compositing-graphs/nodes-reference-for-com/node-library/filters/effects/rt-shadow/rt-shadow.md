@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![RT Shadows node icon](../../../../../../assets/rt-shadow.png "RT Shadows node icon")
 
-<b>In:</b> *Filters/Effects*
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,65 +35,36 @@ This node should not be used in combination with the CPU (SSE) engine due to com
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-<b>Samples</b> *Integer*  
-The number of rays used to compute the shadows.  
-A higher value provides a smoother and more precise result, at the cost of performance.
+|  |  |
+|:---|:---|
+| <b>Samples</b> <i>Integer</i> | The number of rays used to compute the shadows.<br>A higher value provides a smoother and more precise result, at the cost of performance. |
+| <b>Mode</b> <i>Integer</i> | The method of drawing the shadows on the surface. |
+| <b>Height Scale</b> <i>Float</i> | A multiplier for the intensity of the input height map. |
+| <b>Light Position</b> <i>Float2</i> | The position of the light source on a sphere enclosing the surface:<br><br>- <b>X</b>: horizontal position, in number of turns;<br>- <b>Y</b>: vertical position, where 0.5 is the zenith and 0/1 are the horizon. |
+| <b>Light Intensity</b> <i>Float</i> | The intensity of the light source. |
+| <b>Light Size</b> <i>Float2</i> | (Available when <b>Mode</b> is set to <i>Shaded</i>) The size of the light source as a rectangle. |
+| <b>Light Scale (Soft Shadows)</b> <i>Float</i> | A multiplier for the contribution of the <b>Light Size</b> to the direction of the rays.<br>A higher value results in smoother shadows. |
+| <b>Keep Light Above Horizon</b> <i>Boolean</i> | If <b>Light Position</b> is set in a way that places the light below the horizon, this parameter prevents the light from crossing that threshold, meaning that Y values are clamped to the &#91;0;1&#93; range. |
+| <b>Shadow Opacity</b> <i>Float</i> | A multiplier for the opacity of shadows drawn on the surface. |
+| <b>Shadow Attenuation</b> <i>Float</i> | A multiplier for the attenuation of the shadows the farther they are from their caster.<br>A value of 0 results in uniform shadows (soft shadows are still applied). |
+| <b>Max Shadows Length</b> <i>Float</i> | The maximum distance a shadow can be drawn from its caster.<br>A value of 0 results in no visible shadows. |
 
-<b>Mode</b> *Integer*  
-The method of drawing the shadows on the surface.
+## Examples
 
-<b>Height Scale</b> *Float*  
-A multiplier for the intensity of the input height map.
-
-<b>Light Position </b>*Float2*  
-The position of the light source on a sphere enclosing the surface:  
-* <b>X</b>: horizontal position, in number of turns;  
-* <b>Y</b>: vertical position, where 0.5 is the zenith and 0/1 are the horizon.
-
-<b>Light Intensity</b> *Float*  
-The intensity of the light source.
-
-<b>Light Size</b> *Float2* (Available when <b>Mode</b> is set to *Shaded*)  
-The size of the light source as a rectangle.
-
-<b>Light Scale (Soft Shadows)</b> *Float*  
-A multiplier for the contribution of the <b>Light Size</b> to the direction of the rays.  
-A higher value results in smoother shadows.
-
-<b>Keep Light Above Horizon</b> *Boolean*  
-If <b>Light Position</b> is set in a way that places the light below the horizon, this parameter prevents the light from crossing that threshold, meaning that Y values are clamped to the &#91;0;1&#93; range.
-
-<b>Shadow Opacity</b> *Float*  
-A multiplier for the opacity of shadows drawn on the surface.
-
-<b>Shadow Attenuation</b> *Float*  
-A multiplier for the attenuation of the shadows the farther they are from their caster.  
-A value of 0 results in uniform shadows (soft shadows are still applied).
-
-<b>Max Shadows Length</b> *Float*  
-The maximum distance a shadow can be drawn from its caster.  
-A value of 0 results in no visible shadows.
-
-## Example Images
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![RT Shadows node - Example 1](../../../../../../assets/RTShadows-01.jpg "RT Shadows node - Example 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![RT Shadows node - Example 2](../../../../../../assets/RTShadows-02.jpg "RT Shadows node - Example 2")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![RT Shadows node - Example 3](../../../../../../assets/RTShadows-03.jpg "RT Shadows node - Example 3")
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/RTShadows-01.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/RTShadows-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/RTShadows-03.jpg" />
+        </td>
+    </tr>
 </table>

@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/shadows-1.png){width="128px"}
 
-## Shadows
-
-**In:** *Filters/Effects*
-
-**Simple**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,19 +31,27 @@ A raw, grayscale-only version of the [Shape Drop Shadow](../../../../../../compo
 
 Can be useful if you're just after the shadow and do not want to work with a more complete node, for example when building your own material or baked lighting.
 
-## Parameters
-
-* **Shadow Distance**: *0.0 - 1.0*Controls how far away the shadow should fall.
-* **Light Angle**: *0.0 - 1.0*Controls the incidence angle of the light.
-* **Edges Softness**: *0.0 - 1.0*Determines how hard or soft the shadows edges are.
-* **Samples**: *1 - 16*Sets quality for the Edges Softness setting.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shadow-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Shadow Distance</b> <i>0.0 - 1.0</i> | Controls how far away the shadow should fall. |
+| <b>Light Angle</b> <i>0.0 - 1.0</i> | Controls the incidence angle of the light. |
+| <b>Edges Softness</b> <i>0.0 - 1.0</i> | Determines how hard or soft the shadows edges are. |
+| <b>Samples</b> <i>1 - 16</i> | Sets quality for the Edges Softness setting. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/shadow-ex.png" />
+        </td>
+    </tr>
 </table>

@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/floodfill-to-bbox-size.png){width="128px"}
 
-## Flood Fill to BBox Size
-
-**In:** *Filters/Effects*
-
-**Simple**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,16 +31,24 @@ Generates a grayscale map from a [Flood Fill](../../../../../../compositing-grap
 
 Values are relative to the total canvas size (a full white tile would mean it stretches the entire canvas), so contrast is often low.
 
-## Parameters
-
-* **Output**: *max(X, Y), X, Y*Sets what metric the value is based on: width, length or both.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodbbox-ex1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>max(X, Y), X, Y</i> | Sets what metric the value is based on: width, length or both. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/floodbbox-ex1.png" />
+        </td>
+    </tr>
 </table>
