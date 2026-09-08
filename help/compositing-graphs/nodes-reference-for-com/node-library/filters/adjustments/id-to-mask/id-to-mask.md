@@ -35,42 +35,28 @@ An ID map is an image where pixels which are part of a whole (E.g., a shape) all
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>ID</b> *Grayscale* PRIMARY | The input ID map from which a mask should be extracted. |
+|:---|:---|
+| <b>ID</b> <i>Grayscale</i> PRIMARY | The input ID map from which a mask should be extracted. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* | The binary mask extracted from the input ID map. |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The binary mask extracted from the input ID map. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Selection mode</b> *Integer* | The method of selecting the pixel values in the ID map which should be white in the mask:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Solo:</b> Select a single pixel value</li> <li data-preserve-html="true"><b>Range:</b> Select a range of pixel values</li> </ul> |
 | <b>ID Integer</b> *Integer*   *Available when 'Selection mode' is set to 'Solo'* | The pixel value in the ID map which should be white in the output mask. |
 | <b>ID Range</b> *Integer2*    *Available when 'Selection mode' is set to 'Range'* | The range of pixel values in the ID map, from start to end, which should be white in the output mask. |

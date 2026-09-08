@@ -33,14 +33,13 @@ Approximates the input range to a predefined number of values. Effectively intro
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-<b>Quantize Red Channel</b> *Integer*Sets number of steps to approximate the Red channel by.
-
-<b>Quantize Green Channel</b> *Integer*Sets number of steps to approximate the Green channel by.
-
-<b>Quantize Blue Channel</b> *Integer*
-
-Sets number of steps to approximate the Blue channel by.
-
-<b>Quantize Alpha Channel</b> *Integer*Sets number of steps to approximate the Alpha Channel by.
+|  |  |
+|:---|:---|
+| <b>Quantize Red Channel</b> *Integer* | Sets number of steps to approximate the Red channel by. |
+| <b>Quantize Green Channel</b> *Integer* | Sets number of steps to approximate the Green channel by. |
+| <b>Quantize Blue Channel</b> *Integer* | Sets number of steps to approximate the Blue channel by. |
+| <b>Quantize Alpha Channel</b> *Integer* | Sets number of steps to approximate the Alpha Channel by. |

@@ -16,36 +16,40 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/contrast-luminosity-color.png){width="128px"}
 
 ![](../../../../../../assets/contrast-luminosity-grayscale.png){width="128px"}
 
-## Contrast/Luminosity (Grayscale)
-
-**In:** *Filters/Adjustments*
-
-**Simple**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 A simple contrast and luminosity (brightness) adjustment.
 
-## Parameters
-
-* **Contrast**: *-1.0 - 1.0*  
-  Adjusts the contrast of the result.
-* **Luminosity**: *-1.0 - 1.0*  
-  Adjusts the luminosity (brightness) of the result.
-
-## Example Images
-
-![](../../../../../../assets/contrastluminosity-optim.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Contrast</b> <i>-1.0 - 1.0</i> | Adjusts the contrast of the result. |
+| <b>Luminosity</b> <i>-1.0 - 1.0</i> | Adjusts the luminosity (brightness) of the result. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/contrastluminosity-optim.gif" />
+        </td>
+    </tr>
 </table>
