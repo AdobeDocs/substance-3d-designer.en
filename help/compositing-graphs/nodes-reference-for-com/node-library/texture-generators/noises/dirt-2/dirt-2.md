@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt 2 - Icon](../../../../../../assets/dirt_2.png "Dirt 2 - Icon"){width="200px"}
+![Dirt 2 - Icon](dirt-2.resources/dirt_2.png "Dirt 2 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -63,12 +63,12 @@ See also: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Example 1](../../../../../../assets/dirt_2_1.png "Dirt 2 - Example 1"){zoomable="yes"}
+![Dirt 2 - Example 1](dirt-2.resources/dirt_2_1.png "Dirt 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Example 2](../../../../../../assets/noise_dirt_2_v2_speed0.6_aniso0.gif "Dirt 2 - Example 2"){zoomable="yes"}
+![Dirt 2 - Example 2](dirt-2.resources/noise_dirt_2_v2_speed0.6_aniso0.gif "Dirt 2 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -78,12 +78,12 @@ See also: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Example 3](../../../../../../assets/noise_dirt_2_v2_speed0.6_aniso1.gif "Dirt 2 - Example 3"){zoomable="yes"}
+![Dirt 2 - Example 3](dirt-2.resources/noise_dirt_2_v2_speed0.6_aniso1.gif "Dirt 2 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - Example 4](../../../../../../assets/noise_dirt_2_v2_speed0.3_aniso0.6.gif "Dirt 2 - Example 4"){zoomable="yes"}
+![Dirt 2 - Example 4](dirt-2.resources/noise_dirt_2_v2_speed0.3_aniso0.6.gif "Dirt 2 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>
