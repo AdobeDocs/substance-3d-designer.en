@@ -16,36 +16,39 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/plasma.png){width="128px"}
 
-## Plasma
-
-**In:** *Texture Generators**/Noises*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Noises
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 This generates a slightly different variant of [Gaussian Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md), with longer dark streaks as valleys. It has a similar Distance control for scale, which maintains tiling.
 
-## Parameters
-
-* **Scale**: *1 - 128*  
-  Sets the global scale for the effect.
-* **Disorder**: *0.0 - 1.0*  
-  Phase-shifts the noise to introduce small variation.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-
-## Example Images
-
-![](../../../../../../assets/plasma-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Scale</b> <i>1 - 128</i> | Sets the global scale for the effect. |
+| <b>Disorder</b> <i>0.0 - 1.0</i> | Phase-shifts the noise to introduce small variation. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/plasma-ex.gif" />
+        </td>
+    </tr>
 </table>
