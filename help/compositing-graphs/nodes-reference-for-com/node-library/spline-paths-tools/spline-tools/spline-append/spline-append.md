@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-append-icon.png "Node icon")
+![Node icon](spline-append.resources/spline-append-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -85,15 +85,15 @@ The order of the lists is preserved, meaning appending a list D-E-F onto a list 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/SplineAppend-Demo.jpg "Node example 1")
+![Node example 1](spline-append.resources/SplineAppend-Demo.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineAppend-Graph.jpg "Node example 2")
+![Node example 2](spline-append.resources/SplineAppend-Graph.jpg "Node example 2")
 
 </td>
 </tr>
 </table>
 
-![Node demo](../../../../../../assets/SplineAppend-Demo2.gif "Node demo")
+![Node demo](spline-append.resources/SplineAppend-Demo2.gif "Node demo")
