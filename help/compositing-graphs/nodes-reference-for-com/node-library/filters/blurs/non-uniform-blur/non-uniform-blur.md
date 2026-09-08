@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-blur-grayscale.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/non-uniform-blur.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur.png){width="128px"}
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -61,7 +61,7 @@ Performs a High Quality Blur, where the intensity is driven by an input mask. Op
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniform-example.gif" /><br><i>Below example is driven by a gradient ramp (at 90 degrees) in the Blur Map slot.</i>
+            <img src="non-uniform-blur.resources/nonuniform-example.gif" /><br><i>Below example is driven by a gradient ramp (at 90 degrees) in the Blur Map slot.</i>
         </td>
     </tr>
 </table>

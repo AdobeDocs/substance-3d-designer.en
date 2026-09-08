@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-merge.png){width="128px"}
+![](rgba-merge.resources/rgba-merge.png){width="128px"}
 
 <b>In:</b> Filters &gt; Channels
 
