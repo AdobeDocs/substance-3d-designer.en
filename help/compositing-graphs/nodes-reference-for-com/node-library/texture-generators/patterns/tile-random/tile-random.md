@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-random.png){width="128px"}
+![](tile-random.resources/tile-random.png){width="128px"}
 
 <b>In:</b> Generators &gt; Patterns
 
@@ -100,7 +100,7 @@ Tile Random is used instead of [Tile Generator](../../../../../../compositing-gr
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tile-random-1.png" />
+            <img src="tile-random.resources/tile-random-1.png" />
         </td>
     </tr>
 </table>
