@@ -27,7 +27,7 @@ The <b>Properties </b>panel is a context-sensitive panel that changes based on y
 </td>
 <td style="border: 0;" valign="top">
 
-![Properties dock](../../assets/image2020-11-9-13-49-48.png "Properties dock")
+![Properties dock](properties.resources/image2020-11-9-13-49-48.png "Properties dock")
 
 </td>
 </tr>
