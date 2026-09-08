@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Messy fibers 2 - Icon](../../../../../../assets/messy_fibers_2.png "Messy fibers 2 - Icon"){width="200px"}
+![Messy fibers 2 - Icon](messy-fibers-2.resources/messy_fibers_2.png "Messy fibers 2 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -66,12 +66,12 @@ See also: [Messy fibers 1](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Messy fibers 2 - Example 1](../../../../../../assets/messy_fibers_2_1.png "Messy fibers 2 - Example 1"){zoomable="yes"}
+![Messy fibers 2 - Example 1](messy-fibers-2.resources/messy_fibers_2_1.png "Messy fibers 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Messy fibers 2 - Example 2](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso0.gif "Messy fibers 2 - Example 2"){zoomable="yes"}
+![Messy fibers 2 - Example 2](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.gif "Messy fibers 2 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -81,12 +81,12 @@ See also: [Messy fibers 1](../../../../../../compositing-graphs/nodes-reference-
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Messy fibers 2 - Example 3](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso1.gif "Messy fibers 2 - Example 3"){zoomable="yes"}
+![Messy fibers 2 - Example 3](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso1.gif "Messy fibers 2 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Messy fibers 2 - Example 4](../../../../../../assets/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif "Messy fibers 2 - Example 4"){zoomable="yes"}
+![Messy fibers 2 - Example 4](messy-fibers-2.resources/noise_messy_fibers_2_v2_speed0.1_aniso0.6.gif "Messy fibers 2 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>
