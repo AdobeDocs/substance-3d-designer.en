@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/multi-switch-greyscale.png){width="128px"}
 
 ![](../../../../../../assets/multi-switch.png){width="128px"}
 
-## Multi Switch (Grayscale)
-
-**In:** *Filters/Blending*
-
-**Simple**
+<b>In:</b> Filters &gt; Blending
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -39,19 +35,23 @@ Very useful for adding many different options in a graph. Combined with [exposin
 
 Important: make sure to use the appropriate version for your input! Use "Multi Switch" for Color inputs, "Multi Switch Grayscale" for Grayscale inputs.
 
-## Parameters
-
-### Inputs
-
-* **Input 1-20**: *Color Input*
-
-### Parameters
-
-* **Input Number**: *2 - 20*Amount of inputs to expose. Important: does not remove connections when the number is reduced!
-* **Input Selection**: *1 - 20*Which input to return as the result.
-
-## Example Images
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Input 1-20</b> <i>Color Input</i> |  |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Input Number</b> <i>2 - 20</i> | Amount of inputs to expose. Important: does not remove connections when the number is reduced! |
+| <b>Input Selection</b> <i>1 - 20</i> | Which input to return as the result. |

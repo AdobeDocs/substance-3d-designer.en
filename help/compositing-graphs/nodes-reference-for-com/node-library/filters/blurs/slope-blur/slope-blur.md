@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/slope-blur.png){width="128px"}
 
 ![](../../../../../../assets/slope-blur-grayscale.png){width="128px"}
 
-## Slope Blur (Grayscale)
-
-**In:** *Filters/Blurs*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Blurs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -39,26 +35,37 @@ This is one of the most interesting and powerful blurs in Designer. It can be us
 
 Important: make sure to use the appropriate version for your input! Use "Slope Blur" for Color inputs, or "Slope Blur Grayscale" for Grayscale inputs.
 
-## Parameters
-
-### Inputs
-
-* **Slope**: *Grayscale Input*Slope map to drive angle of the anisotropy. Should ideally contain sloping gradients; harsh, sharp transitions will not work well!
-
-### Parameters
-
-* **Samples**: *0 - 32*Amount of samples, affects the quality at the expense of speed.
-* **Intensity**: *0.0 - 16.0*  
-  Blur amount or strength.
-* **Mode**: *Blur, Min, Max*|  
-  Blending mode for consequent blur passes. "Blur" behaves more like a standard [Anisotropic Blur](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), while Min will "eat away" existing areas and Max will "smear out" white areas.
-
-## Example Images
-
-![](../../../../../../assets/slopeblur01.gif)
-
-![](../../../../../../assets/slopeblur02.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Slope</b> <i>Grayscale Input</i> | Slope map to drive angle of the anisotropy. Should ideally contain sloping gradients; harsh, sharp transitions will not work well! |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Samples</b> <i>0 - 32</i> | Amount of samples, affects the quality at the expense of speed. |
+| <b>Intensity</b> <i>0.0 - 16.0</i> | Blur amount or strength. |
+| <b>Mode</b> <i>Blur, Min, Max</i> | Blending mode for consequent blur passes. "Blur" behaves more like a standard [Anisotropic Blur](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), while Min will "eat away" existing areas and Max will "smear out" white areas. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/slopeblur01.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/slopeblur02.gif" />
+        </td>
+    </tr>
 </table>
