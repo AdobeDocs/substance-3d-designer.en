@@ -33,44 +33,30 @@ Removes from a normal map the surface details described by a height map.
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Combined normal</b> *Color* PRIMARY | The normal map from which details should be removed. |
-| <b>Height</b> *Grayscale* | The height map representing the surface details which should be removed from the combined normal map. |
+|:---|:---|
+| <b>Combined normal</b> <i>Color</i> PRIMARY | The normal map from which details should be removed. |
+| <b>Height</b> <i>Grayscale</i> | The height map representing the surface details which should be removed from the combined normal map. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Uncombined normal</b> *Color* | The normal map where the surface details described by the input height map were removed. |
-| <b>Guessed intensity</b> *Float* | An estimate of the intensity which should be set to a [Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) node connected to the input height map, to match the intensity of the input normal map. |
+|:---|:---|
+| <b>Uncombined normal</b> <i>Color</i> | The normal map where the surface details described by the input height map were removed. |
+| <b>Guessed intensity</b> <i>Float</i> | An estimate of the intensity which should be set to a [Normal](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) node connected to the input height map, to match the intensity of the input normal map. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Normal format</b> *Integer* | The format of the input normal map. Effectively inverts the green channel.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> The Y axis points up</li> <li data-preserve-html="true"><b>OpenGL:</b> The Y axis points down</li> </ul> |
 
 ## Examples

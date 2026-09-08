@@ -16,37 +16,42 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/trapeze-transform.png){width="128px"}
 
 ![](../../../../../../assets/trapeze-transform-grayscale.png){width="128px"}
 
-## Trapezoid Transform (Grayscale)
-
-**In:** *Filters/Transforms*
-
-**Simple**
+<b>In:</b> Filters &gt; Transforms
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Special transform node that modifies the input in a perspective/trapezoid warp manner. Has control for Top and Bottom stretch. Values can be pushed beyond limits for stronger effects.
 
-## Parameters
-
-* **Top Stretch**: *0.0 - 1.0*Set the amount of stretch or squash at the top.
-* **Bottom Stretch**: *0.0 - 1.0*Set the amount of stretch or squash at the botton.
-* **Background Color**: *(Grayscale/Color value)*  
-  Set solid background color in case tiling is turned off.
-* **Sampling**: *Bilinear, Nearest*Set sampling quality.
-
-## Example Images
-
-![](../../../../../../assets/trapeze-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Top Stretch</b> <i>0.0 - 1.0</i> | Set the amount of stretch or squash at the top. |
+| <b>Bottom Stretch</b> <i>0.0 - 1.0</i> | Set the amount of stretch or squash at the botton. |
+| <b>Background Color</b> <i>(Grayscale/Color value)</i> | Set solid background color in case tiling is turned off. |
+| <b>Sampling</b> <i>Bilinear, Nearest</i> | Set sampling quality. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/trapeze-example.gif" />
+        </td>
+    </tr>
 </table>
