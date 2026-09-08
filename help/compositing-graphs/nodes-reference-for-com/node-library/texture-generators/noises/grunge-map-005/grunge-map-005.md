@@ -16,42 +16,42 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/grungemap-005.png){width="128px"}
 
-## Grunge Map 005
-
-**In:** *Texture Generators**/Noises*
-
-**Intermediate**
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 This generates a complex, combined Noisemap. It can be very useful as a detailed procedural, but keep in mind these are very performance-intensive and thus slower to generate.
 
-## Parameters
-
-* **Balance**: *0.0 - 1.0*  
-  Shifts the balance of the result between black or white, like a brightness adjustment.
-* **Contrast**: *0.0 - 1.0*  
-  Adjusts the contrast of the result.
-* **Disorder**: *0.0 - 1.0*  
-  Phase-shifts the noise to introduce small variation.
-* **Invert**: *False/True*  
-  Inverts the result.
-* **Brush Pattern**: *0.0 - 1.0*  
-  Adds a mask around the edges, for when used as a brush alpha.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-
-## Example Images
-
-![](../../../../../../assets/grungemap-005-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>0.0 - 1.0</i> | Shifts the balance of the result between black or white, like a brightness adjustment. |
+| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts the contrast of the result. |
+| <b>Disorder</b> <i>0.0 - 1.0</i> | Phase-shifts the noise to introduce small variation. |
+| <b>Invert</b> <i>False/True</i> | Inverts the result. |
+| <b>Brush Pattern</b> <i>0.0 - 1.0</i> | Adds a mask around the edges, for when used as a brush alpha. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungemap-005-ex.gif" />
+        </td>
+    </tr>
 </table>
