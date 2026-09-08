@@ -16,35 +16,37 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/hdr-merge.png){width="200px"}
 
-## HDR Merge
-
-**In:** *3D View/HDRI Tools*
-
-**Simple**
+<b>In:</b> 3D View &gt; HDRI Tools
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Merge multiple photographic exposures to create a High Dynamic Range image. The first input is the most under-exposed image.
 
-## Inputs
-
-* **Input 1-****16**: *Color Input*Input images. Amount available depends on parameter.
-
-## Parameters
-
-* **Inputs**: *2 - 16*  
-  Sets amount of available inputs.
-* **Exposure Delta (EV)**: *0.0 - 4.0*  
-  Sets difference in exposure to interpret between images.
-* **White Point**: *0.0 - 13.0*Set white point to perform some adjustment on final result.
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Input 1-16</b> <i>Color Input</i> | Input images. Amount available depends on parameter. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Inputs</b> <i>2 - 16</i> | Sets amount of available inputs. |
+| <b>Exposure Delta (EV)</b> <i>0.0 - 4.0</i> | Sets difference in exposure to interpret between images. |
+| <b>White Point</b> <i>0.0 - 13.0</i> | Set white point to perform some adjustment on final result. |

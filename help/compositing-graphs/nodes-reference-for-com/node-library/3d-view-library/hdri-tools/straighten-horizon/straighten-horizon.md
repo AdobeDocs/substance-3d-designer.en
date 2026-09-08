@@ -16,36 +16,30 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/straighten-horizon.png){width="200px"}
 
-## Straighten Horizon
-
-**In:** *3D View/HDRI Tools*
-
-**Simple**
+<b>In:</b> 3D View &gt; HDRI Tools
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 For HDRI's with a horizon that is not straight, this node provides an easy, user-friendly way to correct for this.
 
-## Parameters
-
-* **Enable Horizon Correction**: *False/True*  
-  Enable and disable effect. Allows for toggling to compare before after and find correct points.
-* **Horizon Point #1 Position**:   
-  First point, has 2D View handle.
-* **Horizon Point #2 Position**:   
-  Second point, has 2D View handle.
-* **Horizontal Rotation**: *0.0 - 1.0  
-  Additional rotation around central axis.*
-
-## Example Images
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Enable Horizon Correction</b> <i>False/True</i> | Enable and disable effect. Allows for toggling to compare before after and find correct points. |
+| <b>Horizon Point #1 Position</b> | First point, has 2D View handle. |
+| <b>Horizon Point #2 Position</b> | Second point, has 2D View handle. |
+| <b>Horizontal Rotation</b> <i>0.0 - 1.0</i> | Additional rotation around central axis. |
