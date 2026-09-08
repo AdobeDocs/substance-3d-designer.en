@@ -20,7 +20,7 @@ They are single files with a sdplugin extension containing everything a plugin n
 
 ## Installing plugin packages
 
-![Plugin manager](../../assets/screenshot-from-2019-07-18-11-48-56.png "Plugin manager")
+![Plugin manager](plugins-packages.resources/screenshot-from-2019-07-18-11-48-56.png "Plugin manager")
 
 Plugin packages are installed using the <b>Plugin Manager</b>, in the <b>Tools</b> menu:
 
