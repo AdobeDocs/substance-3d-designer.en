@@ -37,20 +37,30 @@ This node is optimised for performance and does make some accuracy trade-offs fo
 </tr>
 </table>
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Input</b> *Grayscale*The grayscale image that the Reaction-diffusion effect should be applied to.
+## Inputs
 
-## Output connectors
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Grayscale</i> | The grayscale image that the Reaction-diffusion effect should be applied to. |
 
-<b>Output</b>*Grayscale*The grayscale image representing the Reaction-diffusion effect applied to the Input image.
+<a name="outputs"></a>
+
+## Outputs
+
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The grayscale image representing the Reaction-diffusion effect applied to the Input image. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Radius</b> *Float*How far the effect should spread.
-
-<b>Contrast</b> *Float*  
-Adjusts the contrast of the input, serves as a sort of treshold.
+|  |  |
+|:---|:---|
+| <b>Radius</b> *Float* | How far the effect should spread. |
+| <b>Contrast</b> *Float* | Adjusts the contrast of the input, serves as a sort of treshold. |
 
 ## Examples
 

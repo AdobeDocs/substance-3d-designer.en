@@ -60,47 +60,33 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Input</b> *Grayscale* <b>PRIMARY</b> | The grayscale image which should be processed. |
-| <b>Anisotropy angle map</b> *Grayscale* | The grayscale image describing the additional rotation applied to the computed direction, where the grayscale value is a number of turns.   The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter. |
-| <b>Slope map</b> *Grayscale* | The map representing slopes that the direction map is conformed to, according to the 'Slope Map Input Multiplier' parameter value. |
-| <b>Radius map (optional)</b> *Grayscale* | When connected, the blurring 'Radius' is multiplied against the input image. |
-| <b>Direction map</b> *Color* | The map describing the direction used by the anisotropic filter kernel.   The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter.   Note: This input is only used when the 'Use Input Direction Map' parameter is set to 'True'. |
+|:---|:---|
+| <b>Input</b> <i>Grayscale</i> <b>PRIMARY</b> | The grayscale image which should be processed. |
+| <b>Anisotropy angle map</b> <i>Grayscale</i> | The grayscale image describing the additional rotation applied to the computed direction, where the grayscale value is a number of turns.   The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter. |
+| <b>Slope map</b> <i>Grayscale</i> | The map representing slopes that the direction map is conformed to, according to the 'Slope Map Input Multiplier' parameter value. |
+| <b>Radius map (optional)</b> <i>Grayscale</i> | When connected, the blurring 'Radius' is multiplied against the input image. |
+| <b>Direction map</b> <i>Color</i> | The map describing the direction used by the anisotropic filter kernel.   The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter.   Note: This input is only used when the 'Use Input Direction Map' parameter is set to 'True'. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* | The result of the anisotropic blurring applied by the node on the input image. |
-| <b>Direction map</b> *Color* | The direction map computed from the input image and used to drive the anisotropic blurring.   If the 'Use Input Direction Map' parameter is set to 'True', the image provided to the 'Direction Map' input is used and output as is. |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The result of the anisotropic blurring applied by the node on the input image. |
+| <b>Direction map</b> <i>Color</i> | The direction map computed from the input image and used to drive the anisotropic blurring.   If the 'Use Input Direction Map' parameter is set to 'True', the image provided to the 'Direction Map' input is used and output as is. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Radius</b> *Float* | The blurring radius, where a higher value results in a stronger blurring effect.   The maximum value is 32. |
 | <b>Smoothness</b> *Float* | Adjusts the amount of blending of colors in the computed direction.   When this value is 0, colors are mostly displaced in that direction and very little blending occurs. |
 | <b>Sharpness</b> *Float* | Increases the contrast in the blurred areas, resulting in them looking flatter and more clearly defined. |
