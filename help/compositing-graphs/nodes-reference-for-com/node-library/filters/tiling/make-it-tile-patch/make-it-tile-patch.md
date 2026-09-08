@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/make-it-tile-patch.png)
 
 ![](../../../../../../assets/make-it-tile-patch-grayscale.png)
 
-## Make It Tile Patch (Grayscale)
-
-**In:** *Filters/Tiling*
-
-**Complex**
+<b>In:</b> Filters &gt; Tiling
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,27 +37,36 @@ Keep in mind that this is different from [Make-It-Tile Photo](../../../../../../
 
 To do this with an entire material, see [Smart Auto Tile](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md).
 
-## Parameters
-
-* **Mask Size**: *0.0 - 1.0*Size of the round mask used when stamping the patch.
-* **Mask Precision**: *0.0 - 1.0*Falloff/smoothness precision of the mask.
-* **Mask Warping**: *-100.0 - 100.0*Introduces warping at mask edges. Good for avoiding smooth, undefined transitions between patches.
-* **Pattern size width**: *0.0 - 1000.0*Changes the width of the patch non-uniformly.
-* **Pattern size height**: *0.0 - 1000.0*Changes the height of the patch non-uniformly.
-* **Disorder**: *0.0 - 1.0*  
-  Introduces translational randomness, slightly shifting patches around.
-* **Size Variation**: *0.0 - 100.0*Introduces size variation for the mask.
-* **Octave**: *0 - 6*This is the main control that determines the overal size.
-* **Rotation**: *-360.0 - 360.0*Pre-rotates the patch.
-* **Rotation Variation**: *0.0 - 360.0*Introduces random rotation for every patch stamp.
-* **Background Color**: *(Color value)*Sets the background color for areas where no patch appears.
-* **Color Variation**: *0.0 - 1.0 (Color Version Only)*Introduces color variation per patch.
-* **Luminosity Variation** *(grayscale version only)*Introduces luminosity variation per patch.
-
-## Example Images
-
-![](../../../../../../assets/patch-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Mask Size</b> <i>0.0 - 1.0</i> | Size of the round mask used when stamping the patch. |
+| <b>Mask Precision</b> <i>0.0 - 1.0</i> | Falloff/smoothness precision of the mask. |
+| <b>Mask Warping</b> <i>-100.0 - 100.0</i> | Introduces warping at mask edges. Good for avoiding smooth, undefined transitions between patches. |
+| <b>Pattern size width</b> <i>0.0 - 1000.0</i> | Changes the width of the patch non-uniformly. |
+| <b>Pattern size height</b> <i>0.0 - 1000.0</i> | Changes the height of the patch non-uniformly. |
+| <b>Disorder</b> <i>0.0 - 1.0</i> | Introduces translational randomness, slightly shifting patches around. |
+| <b>Size Variation</b> <i>0.0 - 100.0</i> | Introduces size variation for the mask. |
+| <b>Octave</b> <i>0 - 6</i> | This is the main control that determines the overal size. |
+| <b>Rotation</b> <i>-360.0 - 360.0</i> | Pre-rotates the patch. |
+| <b>Rotation Variation</b> <i>0.0 - 360.0</i> | Introduces random rotation for every patch stamp. |
+| <b>Background Color</b> <i>(Color value)</i> | Sets the background color for areas where no patch appears. |
+| <b>Color Variation</b> <i>0.0 - 1.0 (Color Version Only)</i> | Introduces color variation per patch. |
+| <b>Luminosity Variation</b> <i>(grayscale version only)</i> | Introduces luminosity variation per patch. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/patch-ex.gif" />
+        </td>
+    </tr>
 </table>

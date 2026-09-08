@@ -16,32 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/straight-pre-multiply.png){width="128px"}
 
-## Straight to Pre-multiplied
-
-**In:** *Filters/Channels*
-
-**Simple**
+<b>In:</b> Filters &gt; Channels
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Converts a straight alpha to pre-multiplied, multiplying a color into alpha-blended pixels.
-
-## Parameters
-
-*No Parameters.*
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
 
 </td>
 </tr>

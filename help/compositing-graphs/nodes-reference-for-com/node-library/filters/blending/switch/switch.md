@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/switch-1.png){width="128px"}
 
 ![](../../../../../../assets/switch-grayscale.png){width="128px"}
 
-## Switch (Grayscale)
-
-**In:** *Filters/Blending*
-
-**Simple**
+<b>In:</b> Filters &gt; Blending
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -39,19 +35,23 @@ Very useful for exposing a boolean (True/False) choice in a graph, where you onl
 
 Important: make sure to use the appropriate version for your input! Use "Switch" for Color inputs, "Switch Grayscale" for Grayscale inputs.
 
-## Parameters
-
-### Inputs
-
-* **Input 1 (True)**: *Color or Grayscale Input*
-* **Input 2 (False)**: *Color or Grayscale Input*
-
-### Parameters
-
-* **Switch**: *False/True*Switches between Input 1 (True) and 2 (False).
-
-## Example Images
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Input 1 (True)</b> <i>Color or Grayscale Input</i> |  |
+| <b>Input 2 (False)</b> <i>Color or Grayscale Input</i> |  |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Switch</b> <i>False/True</i> | Switches between Input 1 (True) and 2 (False). |
