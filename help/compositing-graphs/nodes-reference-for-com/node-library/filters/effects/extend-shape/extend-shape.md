@@ -22,12 +22,12 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapegrayscale.png){width="200px"}
+![](extend-shape.resources/extendshapegrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapecolor.png){width="200px"}
+![](extend-shape.resources/extendshapecolor.png){width="200px"}
 
 </td>
 </tr>
@@ -71,16 +71,16 @@ The <b>Show helper</b> parameter lets you visualize the extended section and ext
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape.gif" />
+            <img src="extend-shape.resources/extendshape.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape-variant.jpg" />
+            <img src="extend-shape.resources/extendshape-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape-variant2.jpg" />
+            <img src="extend-shape.resources/extendshape-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape-node.png" />
+            <img src="extend-shape.resources/extendshape-node.png" />
         </td>
     </tr>
 </table>
