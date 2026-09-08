@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Directional noise 2 - Icon](../../../../../../assets/directional_noise_2.png "Directional noise 2 - Icon"){width="200px"}
+![Directional noise 2 - Icon](directional-noise-2.resources/directional_noise_2.png "Directional noise 2 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -65,12 +65,12 @@ See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-refer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional noise 2 - Example 1](../../../../../../assets/directional_noise_2_1.png "Directional noise 2 - Example 1"){zoomable="yes"}
+![Directional noise 2 - Example 1](directional-noise-2.resources/directional_noise_2_1.png "Directional noise 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Directional noise 2 - Example 2](../../../../../../assets/noise_directional_noise_2_v2_speed0.6_aniso0.gif "Directional noise 2 - Example 2"){zoomable="yes"}
+![Directional noise 2 - Example 2](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso0.gif "Directional noise 2 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -80,12 +80,12 @@ See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-refer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional noise 2 - Example 3](../../../../../../assets/noise_directional_noise_2_v2_speed0.6_aniso1.gif "Directional noise 2 - Example 3"){zoomable="yes"}
+![Directional noise 2 - Example 3](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso1.gif "Directional noise 2 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Directional noise 2 - Example 4](../../../../../../assets/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif "Directional noise 2 - Example 4"){zoomable="yes"}
+![Directional noise 2 - Example 4](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif "Directional noise 2 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

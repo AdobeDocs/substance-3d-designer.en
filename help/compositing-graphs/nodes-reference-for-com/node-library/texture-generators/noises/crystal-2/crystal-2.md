@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crystal-2.png){width="128px"}
+![](crystal-2.resources/crystal-2.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -50,7 +50,7 @@ This is a bit of a niche noise: it can be useful for rare cases where you're aft
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/crystal-2-1.png" />
+            <img src="crystal-2.resources/crystal-2-1.png" />
         </td>
     </tr>
 </table>
