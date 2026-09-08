@@ -16,10 +16,6 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
 ![Cells 4 - Icon](../../../../../../assets/cells_4.png "Cells 4 - Icon"){width="200px"}
@@ -41,53 +37,34 @@ See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Inputs
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Outputs
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
+<a name="inputs"></a>
 
 ## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Input</b> *Grayscale* |  |
+|:---|:---|
+| <b>Input</b> <i>Grayscale</i> |  |
+
+<a name="outputs"></a>
 
 ## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The generated noise as a grayscale bitmap. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
-| <b>Scale</b>  Integer | The subdivision of the grid used to generate the noise tiles.    A higher value results in more tiles being drawn and a denser noise. |
-| <b>Disorder</b>  Float | Displaces the ingredients of the noise.    This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
-| <b>Color source</b>  Integer | The source of the flat color applied to the cells:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>Random:</i></b> Use a random color controlled by the node's random seed</li> <li data-preserve-html="true"><b><i>Pseudorandom:</i></b> Use a random color seeded by a separate user-set value</li> <li data-preserve-html="true"><b><i>Image input:</i></b> Use the color sampled at the cell location in the input image</li> </ul> |
-| <b>Pseudorandom seed</b>  Integer   *Available when 'Color source' is set to 'Pseudorandom'* | Allows to change the seed for the color separately from the node seed. |
-| <b>Non-square expansion</b>  Boolean | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
+|:---|:---|
+| <b>Scale</b> <i>Integer</i> | The subdivision of the grid used to generate the noise tiles.    A higher value results in more tiles being drawn and a denser noise. |
+| <b>Disorder</b> <i>Float</i> | Displaces the ingredients of the noise.    This can be used to animate the noise. |
+| <b>Disorder speed</b> <i>Float</i> | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
+| <b>Color source</b> <i>Integer</i> | The source of the flat color applied to the cells:<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>Random:</i></b> Use a random color controlled by the node's random seed</li> <li data-preserve-html="true"><b><i>Pseudorandom:</i></b> Use a random color seeded by a separate user-set value</li> <li data-preserve-html="true"><b><i>Image input:</i></b> Use the color sampled at the cell location in the input image</li> </ul> |
+| <b>Pseudorandom seed</b> <i>Integer</i>   *Available when 'Color source' is set to 'Pseudorandom'* | Allows to change the seed for the color separately from the node seed. |
+| <b>Non-square expansion</b> <i>Boolean</i> | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
 
 ## Examples
 
@@ -101,20 +78,6 @@ See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com
 <td style="border: 0;" valign="top">
 
 ![Cells 4 - Example 2](../../../../../../assets/noise_cells_4_v2_speed0.3_aniso0.6.gif "Cells 4 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
 
 </td>
 </tr>
