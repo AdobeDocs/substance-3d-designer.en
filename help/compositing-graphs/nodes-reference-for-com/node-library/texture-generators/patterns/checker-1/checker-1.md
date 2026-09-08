@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/checker-1-1.png){width="128px"}
+![](checker-1.resources/checker-1-1.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -50,7 +50,7 @@ It is a useful pattern for test cases, due to its obvious contrast and tiling.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/checker-1-ex.gif" />
+            <img src="checker-1.resources/checker-1-ex.gif" />
         </td>
     </tr>
 </table>
