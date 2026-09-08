@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rust-weathering.png){width="128px"}
+![](rust-weathering.resources/rust-weathering.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Weathering
 
@@ -75,7 +75,7 @@ user-guide-title: ""
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rust-ex.gif" />
+            <img src="rust-weathering.resources/rust-ex.gif" />
         </td>
     </tr>
 </table>

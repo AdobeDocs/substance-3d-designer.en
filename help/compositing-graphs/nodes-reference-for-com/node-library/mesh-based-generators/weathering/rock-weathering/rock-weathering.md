@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rock-weathering.png){width="128px"}
+![](rock-weathering.resources/rock-weathering.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Weathering
 
@@ -80,7 +80,7 @@ user-guide-title: ""
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/rock-ex.gif" />
+            <img src="rock-weathering.resources/rock-ex.gif" />
         </td>
     </tr>
 </table>
