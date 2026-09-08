@@ -35,16 +35,21 @@ Use the [Path 2D Transform](../../../../../../compositing-graphs/nodes-reference
 </tr>
 </table>
 
-## Output connectors
+<a name="outputs"></a>
 
-<b>Paths</b> *Color*  
-Contains a list of one encoded path, describing a list of encoded segments.  
-This is not indended to be used or modified directly. Search for Paths to find compatible nodes.
+## Outputs
+
+|  |  |
+|:---|:---|
+| <b>Paths</b> <i>Color</i> | Contains a list of one encoded path, describing a list of encoded segments.<br>This is not indended to be used or modified directly. Search for Paths to find compatible nodes. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Number of Sides</b> *Integer*  
-Tip: enter a number between 100 and 1000 to generate a circle.
+|  |  |
+|:---|:---|
+| <b>Number of Sides</b> <i>Integer</i> | Tip: enter a number between 100 and 1000 to generate a circle. |
 
 ## Examples
 

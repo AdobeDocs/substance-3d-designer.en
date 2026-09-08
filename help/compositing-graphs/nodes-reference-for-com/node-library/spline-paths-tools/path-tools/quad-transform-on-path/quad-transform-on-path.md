@@ -33,29 +33,32 @@ Deform a Paths using 4 handles.
 </tr>
 </table>
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another *Path*-processing node.
+## Inputs
 
-## Output connectors
+|  |  |
+|:---|:---|
+| <b>Paths</b> <i>Color</i> | A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another *Path*-processing node. |
 
-<b>Paths</b> *Color*  
-The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
+<a name="outputs"></a>
+
+## Outputs
+
+|  |  |
+|:---|:---|
+| <b>Paths</b> <i>Color</i> | The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>p00</b> *Float2*  
-The position of the top-left handle.
-
-<b>p01</b> *Float2*  
-The position of the top-right handle.
-
-<b>p02</b> *Float2*  
-The position of the bottom-left handle.
-
-<b>p03</b> *Float2*  
-The position of the bottom-right handle.
+|  |  |
+|:---|:---|
+| <b>p00</b> <i>Float2</i> | The position of the top-left handle. |
+| <b>p01</b> <i>Float2</i> | The position of the top-right handle. |
+| <b>p02</b> <i>Float2</i> | The position of the bottom-left handle. |
+| <b>p03</b> <i>Float2</i> | The position of the bottom-right handle. |
 
 ## Examples
 
