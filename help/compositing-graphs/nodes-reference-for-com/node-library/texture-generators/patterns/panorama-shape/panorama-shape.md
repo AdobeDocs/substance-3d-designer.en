@@ -16,41 +16,38 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/panorama-shape-1.png){width="128px"}
 
-## Panorama Shape
-
-**In:** *Texture Generators**/Patterns*
-
-**Complex**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 This is a helpful node for generating procedural "Studio"-type panorama maps. Allows you to place and modify spotlight images, as well as set their HDR properties. It can be chained together for multiple shapes.
 
-## Parameters
-
-* **Shape Matrix**  
-  Moves or translates the result, can be modified by directly interacting with the canvas.
-* **Shape**: *square, disc*Sets Shape type.
-* **Shape Color**: *(Color value)*Sets Shape color.
-* **Shape Intensity**: *0.0 - 100.0*Sets HDR-intensity of the shape.
-* **Shape Soft Border**: *0.0 - 1.0*Changes the shape's border softness.
-* **Hotspot Intensity**: *0.0 - 100.0*Sets HDR-intensity of the shape's hotspot.
-* **Hotspot Size**: *0.0 - 1.0*Changes the size of the hotspot within the shape.
-* **Hotspot Falloff**: *0.0 - 1.0*Changes the falloff, edge blending of the hotspot.
-* **Hotspot Position**: *0.0 - 1.0*Moves the hotspot in relation to the shape.
-* **Enable Backgound**: *False/True*Enables filling of the background with a solid color. Note that this means you can no longer chain them together by blending.
-* **Background Color**: *(Color value)*Sets background solid color.
-* **Enable Texture Input**: *False/True*Allows for a custom input instead of a predefined shape type.
-
-## Example Images
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Shape Matrix</b> | Moves or translates the result, can be modified by directly interacting with the canvas. |
+| <b>Shape</b> <i>square, disc</i> | Sets Shape type. |
+| <b>Shape Color</b> <i>(Color value)</i> | Sets Shape color. |
+| <b>Shape Intensity</b> <i>0.0 - 100.0</i> | Sets HDR-intensity of the shape. |
+| <b>Shape Soft Border</b> <i>0.0 - 1.0</i> | Changes the shape's border softness. |
+| <b>Hotspot Intensity</b> <i>0.0 - 100.0</i> | Sets HDR-intensity of the shape's hotspot. |
+| <b>Hotspot Size</b> <i>0.0 - 1.0</i> | Changes the size of the hotspot within the shape. |
+| <b>Hotspot Falloff</b> <i>0.0 - 1.0</i> | Changes the falloff, edge blending of the hotspot. |
+| <b>Hotspot Position</b> <i>0.0 - 1.0</i> | Moves the hotspot in relation to the shape. |
+| <b>Enable Backgound</b> <i>False/True</i> | Enables filling of the background with a solid color. Note that this means you can no longer chain them together by blending. |
+| <b>Background Color</b> <i>(Color value)</i> | Sets background solid color. |
+| <b>Enable Texture Input</b> <i>False/True</i> | Allows for a custom input instead of a predefined shape type. |

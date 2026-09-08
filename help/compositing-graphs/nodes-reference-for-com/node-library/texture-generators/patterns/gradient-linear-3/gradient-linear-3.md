@@ -16,34 +16,39 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/gradient3.png)
 
-## Gradient Linear 3
-
-**In:** *Texture Generators**/Patterns*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 The most advanced linear gradient. Instead of the rounded, pipe-like profile of [Linear Gradient 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md), this node returns a sharp, straight slope, plus provides additional control for the midpoint.
 
-## Parameters
-
-* **Tiling**: *1 - 16*  
-  Sets the amount of times the result should tile.
-* **Position**: *0.0 - 1.0*Sets where the midpoint or peak of the gradient lies.
-* **Rotation**: **0, 90°**Changes the direction from left-right to top-bottom, or vice versa.
-
-## Example Images
-
-![](../../../../../../assets/gradient3-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Tiling</b> <i>1 - 16</i> | Sets the amount of times the result should tile. |
+| <b>Position</b> <i>0.0 - 1.0</i> | Sets where the midpoint or peak of the gradient lies. |
+| <b>Rotation</b> <i>0, 90°</i> | Changes the direction from left-right to top-bottom, or vice versa. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/gradient3-ex.gif" />
+        </td>
+    </tr>
 </table>
