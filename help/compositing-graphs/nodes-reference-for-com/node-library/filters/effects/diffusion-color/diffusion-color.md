@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-color-icon.png){width="200px"}
+![](diffusion-color.resources/diffusion-color-icon.png){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -62,32 +62,32 @@ Only colors from pixels matching the mask are diffused; other pixels do not part
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-02-before.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-02-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-02a-after.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-02a-after.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-02b-after.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-01-before.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01b-after-1.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-uv-01a-after-1.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-02b-after.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-normal.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-01-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/diffusion-color-normal-render.jpg" />
+            <img src="diffusion-color.resources/diffusion-uv-01b-after-1.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-uv-01a-after-1.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-normal.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-normal-render.jpg" />
         </td>
     </tr>
 </table>

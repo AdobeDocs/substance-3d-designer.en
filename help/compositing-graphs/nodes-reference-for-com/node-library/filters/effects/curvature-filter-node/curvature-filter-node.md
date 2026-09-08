@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-1.png){width="128px"}
+![](curvature-filter-node.resources/curvature-1.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -49,7 +49,7 @@ This node is useful for some quick highlighting or darkening of certain edges. I
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/curvature-ex.png" />
+            <img src="curvature-filter-node.resources/curvature-ex.png" />
         </td>
     </tr>
 </table>
