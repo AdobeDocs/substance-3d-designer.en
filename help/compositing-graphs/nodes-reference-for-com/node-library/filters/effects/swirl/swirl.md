@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/swirl-grayscale.png)![](../../../../../../assets/swirl.png)
+![](swirl.resources/swirl-grayscale.png)![](swirl.resources/swirl.png)
 
 <b>In:</b> Filters &gt; Effects
 
