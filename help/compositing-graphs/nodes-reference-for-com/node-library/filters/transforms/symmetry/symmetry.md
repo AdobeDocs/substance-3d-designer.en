@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/symmetry-9.png){width="128px"}
+![](symmetry.resources/symmetry-9.png){width="128px"}
 
 <b>In:</b> Filters &gt; Transforms
 
@@ -49,7 +49,7 @@ This node is very similar to [Mirror](../../../../../../compositing-graphs/nodes
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/symmetry-ex.png" />
+            <img src="symmetry.resources/symmetry-ex.png" />
         </td>
     </tr>
 </table>
