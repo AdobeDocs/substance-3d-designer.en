@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Quantize Color icon](../../../../../../assets/quantize.png "Quantize Color icon"){width="200px"}
+![Quantize Color icon](quantize.resources/quantize.png "Quantize Color icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
