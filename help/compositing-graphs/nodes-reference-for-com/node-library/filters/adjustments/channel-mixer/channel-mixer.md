@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/channel-mixer.png){width="128px"}
+![](channel-mixer.resources/channel-mixer.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -49,7 +49,7 @@ Allows you to mix, swap and blend RGB channels. Can be used to swizzle channels 
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/channelmixer.gif" />
+            <img src="channel-mixer.resources/channelmixer.gif" />
         </td>
     </tr>
 </table>
