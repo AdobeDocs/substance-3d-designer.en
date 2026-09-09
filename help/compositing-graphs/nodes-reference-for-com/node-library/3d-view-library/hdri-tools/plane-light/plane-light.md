@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-plane-light.png){width="200px"}
+![](plane-light.resources/panorama-plane-light.png){width="200px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -83,7 +83,7 @@ It differs from the simpler [Shape Light](../../../../../../compositing-graphs/n
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/plane-light-ex.gif" />
+            <img src="plane-light.resources/plane-light-ex.gif" />
         </td>
     </tr>
 </table>

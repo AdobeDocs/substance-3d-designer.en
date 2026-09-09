@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
+![](color-temperature-adjustment.resources/color-temperature-adjustement.png){width="250px"}
 
 <b>In:</b> 3D View &gt; HDRI Tools
 
@@ -48,7 +48,7 @@ Adjusts input image's color balance. Similar to White Balance adjustment in phot
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/color-tempadjust-ex.gif" />
+            <img src="color-temperature-adjustment.resources/color-tempadjust-ex.gif" />
         </td>
     </tr>
 </table>
