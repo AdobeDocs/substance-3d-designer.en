@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shadows-1.png){width="128px"}
+![](shadows-filter-node.resources/shadows-1.png){width="128px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -51,7 +51,7 @@ Can be useful if you're just after the shadow and do not want to work with a mor
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shadow-ex.png" />
+            <img src="shadows-filter-node.resources/shadow-ex.png" />
         </td>
     </tr>
 </table>
