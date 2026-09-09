@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/radial-blur.png)![](../../../../../../assets/radial-blur-grayscale.png)
+![](radial-blur.resources/radial-blur.png)![](radial-blur.resources/radial-blur-grayscale.png)
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -48,7 +48,7 @@ Generates a spinning, motion-type blur on an input.
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/radial-blur-ex01.png" />
+            <img src="radial-blur.resources/radial-blur-ex01.png" />
         </td>
     </tr>
 </table>
