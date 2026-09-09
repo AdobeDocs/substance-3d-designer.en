@@ -18,9 +18,9 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/anisotropic-blur-grayscale.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/anisotropic-blur.png){width="128px"}
+![](anisotropic-blur.resources/anisotropic-blur.png){width="128px"}
 
 <b>In:</b> Filters &gt; Blurs
 
@@ -53,7 +53,7 @@ Important: make sure to use the appropriate version for your input! Use "Anisotr
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/aniso-blur-example.gif" />
+            <img src="anisotropic-blur.resources/aniso-blur-example.gif" />
         </td>
     </tr>
 </table>
