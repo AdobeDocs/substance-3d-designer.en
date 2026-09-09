@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Normal uncombine icon](../../../../../../assets/NormalUncombine.png "Normal uncombine icon"){width="200px"}
+![Normal uncombine icon](normal-uncombine.resources/NormalUncombine.png "Normal uncombine icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Normal map
 
@@ -64,44 +64,44 @@ Removes from a normal map the surface details described by a height map.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>After</i>
     </td>
   </tr>
 </table>
 
-![Normal uncombine: Example 2](../../../../../../assets/normal_uncombine_example_4.png "Normal uncombine: Example 2"){zoomable="yes"}
+![Normal uncombine: Example 2](normal-uncombine.resources/normal_uncombine_example_4.png "Normal uncombine: Example 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
 </table>
 
-![Normal uncombine: Example 4](../../../../../../assets/normal_uncombine_example_6.png "Normal uncombine: Example 4"){zoomable="yes"}
+![Normal uncombine: Example 4](normal-uncombine.resources/normal_uncombine_example_6.png "Normal uncombine: Example 4"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
+      <img src="normal-uncombine.resources/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
+      <img src="normal-uncombine.resources/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
 </table>
 
-![Normal uncombine: Example 6](../../../../../../assets/normal_uncombine_example_5.png "Normal uncombine: Example 6"){zoomable="yes"}
+![Normal uncombine: Example 6](normal-uncombine.resources/normal_uncombine_example_5.png "Normal uncombine: Example 6"){zoomable="yes"}
