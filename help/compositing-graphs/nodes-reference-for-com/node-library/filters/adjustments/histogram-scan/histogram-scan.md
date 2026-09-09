@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-scan-1.png){width="128px"}
+![](histogram-scan.resources/histogram-scan-1.png){width="128px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -50,13 +50,13 @@ Very simple yet useful node that provides an intuitive way to remap the contrast
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-scan.gif" />
+            <img src="histogram-scan.resources/histogram-scan.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-scan2.gif" />
+            <img src="histogram-scan.resources/histogram-scan2.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/histogram-scan3.gif" />
+            <img src="histogram-scan.resources/histogram-scan3.gif" />
         </td>
     </tr>
 </table>
