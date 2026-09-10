@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleaks.jpg){width="200px"}
+![](grunge-leaks.resources/grungeleaks.jpg){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -54,10 +54,10 @@ The **Grunge Leaks** node generates a grunge map akin to drips across a greasy s
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleaks-variant2.jpg" />
+            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleaks-variant.jpg" />
+            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" />
         </td>
     </tr>
 </table>
