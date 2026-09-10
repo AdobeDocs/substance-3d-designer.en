@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-fill-icon.png "Node icon")
+![Node icon](spline-fill.resources/spline-fill-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -66,11 +66,11 @@ Open splines are closed with a straight line from start to end. Intersections wh
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
+      <img src="spline-fill.resources/SplineFill-Variant1-Before.jpg" alt="SplineFill-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
+      <img src="spline-fill.resources/SplineFill-Variant1-After.jpg" alt="SplineFill-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -79,7 +79,7 @@ Open splines are closed with a straight line from start to end. Intersections wh
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineFill-Demo.gif "Node example 2")
+![Node example 2](spline-fill.resources/SplineFill-Demo.gif "Node example 2")
 
 </td>
 </tr>

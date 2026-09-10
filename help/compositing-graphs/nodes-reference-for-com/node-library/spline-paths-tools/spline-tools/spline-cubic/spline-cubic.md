@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-cubic-icon.png "Node icon")
+![Node icon](spline-cubic.resources/spline-cubic-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -95,12 +95,12 @@ The trajectory of the spline is controlled by the ‘out’ tangent of <b>p1</b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/SplineCubic-Variant1.jpg "Node example 1")
+![Node example 1](spline-cubic.resources/SplineCubic-Variant1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineCubic-Variant2.jpg "Node example 2")
+![Node example 2](spline-cubic.resources/SplineCubic-Variant2.jpg "Node example 2")
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ The trajectory of the spline is controlled by the ‘out’ tangent of <b>p1</b>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 3](../../../../../../assets/SplineCubic-Demo.gif "Node example 3")
+![Node example 3](spline-cubic.resources/SplineCubic-Demo.gif "Node example 3")
 
 </td>
 <td style="border: 0;" valign="top">

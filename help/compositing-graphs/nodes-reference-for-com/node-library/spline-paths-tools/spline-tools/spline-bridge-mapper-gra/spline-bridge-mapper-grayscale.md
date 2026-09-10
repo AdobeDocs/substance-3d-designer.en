@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "Node icon")
+![Node icon](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -85,11 +85,11 @@ Maps a grayscale image across a list of input splines so the image traverses the
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
+      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapperGrayscale-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
+      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapperGrayscale-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -98,7 +98,7 @@ Maps a grayscale image across a list of input splines so the image traverses the
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineBridgeMapper-Demo.gif "Node example 2")
+![Node example 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapper-Demo.gif "Node example 2")
 
 </td>
 </tr>
@@ -108,12 +108,12 @@ Maps a grayscale image across a list of input splines so the image traverses the
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Node example 1")
+![Node example 1](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "Node example 2")
+![Node example 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Graph.jpg "Node example 2")
 
 </td>
 </tr>
