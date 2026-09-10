@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fiber-glass-edge-wear.png){width="128px"}
+![](fiber-glass-edge-wear.resources/fiber-glass-edge-wear.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -69,7 +69,7 @@ Represents a mask specifically intended for a fibreglass-type of wear, could per
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fiber-glass-edge-wear-ex.gif" />
+            <img src="fiber-glass-edge-wear.resources/fiber-glass-edge-wear-ex.gif" />
         </td>
     </tr>
 </table>

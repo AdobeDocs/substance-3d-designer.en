@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-select.png){width="128px"}
+![](edge-select.resources/edge-select.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Mask Generators
 
@@ -66,7 +66,7 @@ This mask is the best way to select any kind of edge based on the curvature. Con
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/edge-select-ex.gif" />
+            <img src="edge-select.resources/edge-select-ex.gif" />
         </td>
     </tr>
 </table>
