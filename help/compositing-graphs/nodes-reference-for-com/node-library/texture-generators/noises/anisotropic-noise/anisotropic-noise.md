@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropic noise - Icon](../../../../../../assets/anisotropic_noise_v2.png "Anisotropic noise - Icon"){width="200px"}
+![Anisotropic noise - Icon](anisotropic-noise.resources/anisotropic_noise_v2.png "Anisotropic noise - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -65,12 +65,12 @@ The amount of strips is adjustable, as is the smoothness of their transitions.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Anisotropic noise - Example 1](../../../../../../assets/anisotropic_noise_v2_1.png "Anisotropic noise - Example 1"){zoomable="yes"}
+![Anisotropic noise - Example 1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "Anisotropic noise - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Anisotropic noise - Example 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Anisotropic noise - Example 2"){zoomable="yes"}
+![Anisotropic noise - Example 2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Anisotropic noise - Example 2"){zoomable="yes"}
 
 </td>
 </tr>

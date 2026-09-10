@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoifractal.png){width="200px"}
+![](3d-voronoi-fractal.resources/3dvoronoifractal.png){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -71,24 +71,24 @@ This node can be tested with [Cube 3D GBuffers](../../../../../../compositing-gr
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant6.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant2.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant4.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant5.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoifractal-variant3.jpg" />
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" />
         </td>
     </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-simplex-noise.png){width="128px"}
+![](3d-simplex-noise.resources/3d-simplex-noise.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Noises
 
@@ -50,7 +50,7 @@ This noise can be tested with [Cube 3D GBuffers](https://support.allegorithmic.c
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3d-simplex.gif" />
+            <img src="3d-simplex-noise.resources/3d-simplex.gif" />
         </td>
     </tr>
 </table>
