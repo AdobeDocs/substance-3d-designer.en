@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-blend.png){width="128px"}
+![](height-blend.resources/height-blend.png){width="128px"}
 
 <b>In:</b> Material Filters &gt; Effects
 
