@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering.png){width="128px"}
 
 <b>In:</b> Mesh Based Generators &gt; Weathering
 
@@ -74,7 +74,7 @@ Make sure to properly understand the [Link Creation Modes](https://support.alleg
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/moss-ex.gif" />
+            <img src="moss-weathering.resources/moss-ex.gif" />
         </td>
     </tr>
 </table>
