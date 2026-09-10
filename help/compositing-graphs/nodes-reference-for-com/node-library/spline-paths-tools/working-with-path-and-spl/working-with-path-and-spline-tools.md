@@ -40,7 +40,7 @@ For instance, the image on the right represents the image output by a [Paths Pol
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Paths Polygon output](../../../../../assets/PathsPolygon_Data.jpg "Paths Polygon output")
+![Paths Polygon output](working-with-path-and-spline-tools.resources/PathsPolygon_Data.jpg "Paths Polygon output")
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ For instance, spline generation nodes such as [Spline (Cubic)](../../../../../co
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline Cubic in 2D View](../../../../../assets/SplineCubic-Demo.gif "Spline Cubic in 2D View")
+![Spline Cubic in 2D View](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "Spline Cubic in 2D View")
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Path and spline tools require intensive computations, so much so that you should
 
 You should notice a significant performance improvement when changing any of these two settings to the recommended state.
 
-![Path tools in Library](../../../../../assets/PathsTools.jpg "Path tools in Library")
+![Path tools in Library](working-with-path-and-spline-tools.resources/PathsTools.jpg "Path tools in Library")
 
 ## Path tools
 
@@ -91,7 +91,7 @@ The [Paths Polygon](../../../../../compositing-graphs/nodes-reference-for-com/no
 Alternatively, paths can be extracted from a grayscale image using the [Mask to Paths](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) node.  
 This is currently the only way of producing complex shapes, and it lets you leverage the entire library of [Substance graph nodes](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md) to produce the shapes that will eventually be converted into paths.
 
-![Paths generation nodes](../../../../../assets/Paths_Generation.jpg "Paths generation nodes"){width="600px"}
+![Paths generation nodes](working-with-path-and-spline-tools.resources/Paths_Generation.jpg "Paths generation nodes"){width="600px"}
 
 ### Editing paths
 
@@ -115,7 +115,7 @@ Separate paths have a unique color in the preview to easily tell apart each path
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Preview Paths node](../../../../../assets/PreviewPaths_Node.jpg "Preview Paths node")
+![Preview Paths node](working-with-path-and-spline-tools.resources/PreviewPaths_Node.jpg "Preview Paths node")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ A very useful combination for leveraging the splines toolset through paths is th
 
 <b>Mask &gt; Mask to Paths &gt; Paths to Spline</b>
 
-![Path to Spline](../../../../../assets/Spline_PathToSpline.jpg "Path to Spline")
+![Path to Spline](working-with-path-and-spline-tools.resources/Spline_PathToSpline.jpg "Path to Spline")
 
 ### Path format specifications
 
@@ -140,7 +140,7 @@ This encoding follows a specification described in the [Paths Format Specificati
 
 You can use this specification to produce your own nodes using this format, and make the most of the [Paths Vertex Processor](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) nodes.
 
-![Spline tools in Library](../../../../../assets/SplineTools.jpg "Spline tools in Library")
+![Spline tools in Library](working-with-path-and-spline-tools.resources/SplineTools.jpg "Spline tools in Library")
 
 ## Spline tools
 
@@ -179,7 +179,7 @@ Therefore, it is very important to consider the order in which you append spline
 
 This has an impact on nodes that need to combine splines together, such as [Spline Bridge (List)](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md), [Spline Bridge Mapper](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md) and [Spline Merge List](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md).
 
-![Appending splines with link creation modes](../../../../../assets/LinkCreationMode_Splines.gif "Appending splines with link creation modes")
+![Appending splines with link creation modes](working-with-path-and-spline-tools.resources/LinkCreationMode_Splines.gif "Appending splines with link creation modes")
 
 ### Spline inputs and outputs
 
@@ -206,7 +206,7 @@ This preview can be tweaked in the node parameters, using the parameters in the 
 </td>
 <td style="border: 0;" valign="top">
 
-![Preview output on spline node](../../../../../assets/Spline_PreviewOutput.jpg "Preview output on spline node")
+![Preview output on spline node](working-with-path-and-spline-tools.resources/Spline_PreviewOutput.jpg "Preview output on spline node")
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ To draw spline as pixels, the toolset simplifies them into lines or segments dra
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Spline rendered as segments](../../../../../assets/Spline_Segments.jpg "Spline rendered as segments")
+![Spline rendered as segments](working-with-path-and-spline-tools.resources/Spline_Segments.jpg "Spline rendered as segments")
 
 </td>
 </tr>

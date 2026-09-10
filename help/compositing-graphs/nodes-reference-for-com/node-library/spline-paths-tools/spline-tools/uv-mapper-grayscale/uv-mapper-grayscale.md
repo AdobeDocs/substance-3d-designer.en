@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/uv-mapper-grayscale-icon.png "Node icon")
+![Node icon](uv-mapper-grayscale.resources/uv-mapper-grayscale-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -63,11 +63,11 @@ Maps the input grayscale image using the coordinates provided in the UV input.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant1-Before.jpg" alt="UVMapper-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
+      <img src="uv-mapper-grayscale.resources/UVMapperGrayscale-Variant1-After.jpg" alt="UVMapperGrayscale-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -79,11 +79,11 @@ Maps the input grayscale image using the coordinates provided in the UV input.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant2-Before.jpg" alt="UVMapper-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
+      <img src="uv-mapper-grayscale.resources/UVMapper-Variant2-After.jpg" alt="UVMapper-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -93,4 +93,4 @@ Maps the input grayscale image using the coordinates provided in the UV input.
 </tr>
 </table>
 
-![Node example 1](../../../../../../assets/UVMapper-Graph.jpg "Node example 1")
+![Node example 1](uv-mapper-grayscale.resources/UVMapper-Graph.jpg "Node example 1")
