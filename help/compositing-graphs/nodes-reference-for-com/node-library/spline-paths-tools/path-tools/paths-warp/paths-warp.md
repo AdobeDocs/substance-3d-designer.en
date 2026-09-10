@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/paths-warp-icon.png "Node icon")
+![Node icon](paths-warp.resources/paths-warp-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -68,11 +68,11 @@ Deform the input Paths according to the <b>Gradient Input</b>. (Same effect as t
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
+      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="PathsWarp-Variant1-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -84,11 +84,11 @@ Deform the input Paths according to the <b>Gradient Input</b>. (Same effect as t
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
+      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="PathsWarp-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -102,7 +102,7 @@ Deform the input Paths according to the <b>Gradient Input</b>. (Same effect as t
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/PathsWarp-Demo1.gif "Node example 1")
+![Node example 1](paths-warp.resources/PathsWarp-Demo1.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
