@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/arcpavement-ex.png)
+![](arc-pavement.resources/arcpavement-ex.png)
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -61,7 +61,7 @@ Generates a Parisian arc pavement pattern. This effect cannot be achieved with s
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/arcpavement-ex.png" />
+            <img src="arc-pavement.resources/arcpavement-ex.png" />
         </td>
     </tr>
 </table>
