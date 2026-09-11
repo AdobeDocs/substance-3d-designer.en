@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tilerandom2.jpg){width="200px"}
+![](tile-random-2.resources/tilerandom2.jpg){width="200px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -107,25 +107,25 @@ A dedicated output lets you input the shape's **UVs** into **Flood Fill to (...)
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant2.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-variant3.jpg" />
+            <img src="tile-random-2.resources/tilerandom2-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-inputs.gif" />
+            <img src="tile-random-2.resources/tilerandom2-inputs.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-demo.gif" />
+            <img src="tile-random-2.resources/tilerandom2-demo.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-demo2.gif" />
+            <img src="tile-random-2.resources/tilerandom2-demo2.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilerandom2-node.png" />
+            <img src="tile-random-2.resources/tilerandom2-node.png" />
         </td>
     </tr>
 </table>
