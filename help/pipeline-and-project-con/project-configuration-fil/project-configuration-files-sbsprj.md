@@ -25,7 +25,7 @@ They are special in that you can use multiple Project configuration files, where
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ file icon](../../assets/sbsprj.png "SBSPRJ file icon")
+![SBSPRJ file icon](project-configuration-files-sbsprj.resources/sbsprj.png "SBSPRJ file icon")
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ For Windows, [Notepad++](https://notepad-plus-plus.org) is a good free option. O
 
 Once you open the SBSPRJ file in an editor, you should see a fairly straightforward structured layout, with sections corresponding to tabs in the UI. Not every setting will be documented here, as it's fairly self-explanatory.
 
-![XML editing](../../assets/project-xml.png "XML editing")
+![XML editing](project-configuration-files-sbsprj.resources/project-xml.png "XML editing")
 
 ## Relative paths and aliases
 
