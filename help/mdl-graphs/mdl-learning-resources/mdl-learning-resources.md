@@ -64,7 +64,7 @@ The metallic clearcoat material covered in this tutorial is impossible to define
 </td>
 <td style="border: 0;" valign="top">
 
-[![MDL malachite material](../../assets/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
+[![MDL malachite material](mdl-learning-resources.resources/mdl-malachite-example.jpg)](https://substance3d.adobe.com/tutorials/courses/mdl-malachite-material-breakdown)
 
 *Click the image to access the tutorial*
 

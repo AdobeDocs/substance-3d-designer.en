@@ -16,16 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungespots.jpg){width="200px"}
+![](grunge-spots.resources/grungespots.jpg){width="200px"}
 
-**In:** *Texture Generators* */Noises*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Noises
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,31 +33,30 @@ The **Grunge Spots** node generates a grunge map akin to fine splattered spots.
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-* **Balance** *Float*Adjusts the balance between dark and bright values.
-* **Contrast** *Float*Adjusts the contrast of the image.
-* **Invert** *Boolean*Inverts the output of the image, using a `1-x` operation.
-* **Non Square Expansion** *Boolean*Enables compensation of squash and stretch with non-square ratios.
-* Advanced
-  * **Details** *Float*Adjusts how much spots are *warped* and broken up into finer spots.
-  * **Coverage** *Float*Adjusts the coverage of the spots in the image.
-  * **Coverage Contrast** *Float*Adjusts the contrast of the *mask* used to control  
-    the coverage of the spots in the image.
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>Float</i> | Adjusts the balance between dark and bright values. |
+| <b>Contrast</b> <i>Float</i> | Adjusts the contrast of the image. |
+| <b>Invert</b> <i>Boolean</i> | Inverts the output of the image, using a `1-x` operation. |
+| <b>Non Square Expansion</b> <i>Boolean</i> | Enables compensation of squash and stretch with non-square ratios. |
+| <b>Advanced</b> |  |
+| <b>Details</b> <i>Float</i> | Adjusts how much spots are *warped* and broken up into finer spots. |
+| <b>Coverage</b> <i>Float</i> | Adjusts the coverage of the spots in the image. |
+| <b>Coverage Contrast</b> <i>Float</i> | Adjusts the contrast of the *mask* used to control the coverage of the spots in the image. |
 
-## Example Images
+## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespots-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungespots-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots.resources/grungespots-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="grunge-spots.resources/grungespots-variant.jpg" />
+        </td>
+    </tr>
 </table>

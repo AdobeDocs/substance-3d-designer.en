@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/point-list-icon.png "Node icon")
+![Node icon](point-list.resources/point-list-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -43,72 +43,43 @@ If an existing point list is supplied to the <b>Point</b> inputs, the generated 
 >
 > The <b>Point List</b> and <b>Point Number</b> connectors are *not compatible* with <b>Spline Coord</b>, <b>Spline Data</b> and <b>Spline Amount</b> connectors, for they rely on different data.
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Preview</b>*Grayscale*The preview of the points as a grayscale image.
+## Inputs
 
-<b>Point List Input</b> *Color*  
-A list of input points encoded in the RGBA channels of a color image:  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-            * Integer part: Smoothness;  
-            * Fractional part: Thickness.
+|  |  |
+|:---|:---|
+| <b>Preview</b> <i>Grayscale</i> | The preview of the points as a grayscale image. |
+| <b>Point List Input</b> <i>Color</i> | A list of input points encoded in the RGBA channels of a color image:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>&nbsp;&nbsp;&nbsp;&nbsp;* Integer part: Smoothness;<br>&nbsp;&nbsp;&nbsp;&nbsp;* Fractional part: Thickness. |
+| <b>Point Number Input</b> <i>Integer</i> | The number of input points. |
 
-<b>Point Number Input</b> *Integer*  
-The number of input points.
+<a name="outputs"></a>
 
-## Output connectors
+## Outputs
 
-<b>Preview</b>*Grayscale*The preview of the points as a grayscale image.
+|  |  |
+|:---|:---|
+| <b>Preview</b> <i>Grayscale</i> | The preview of the points as a grayscale image. |
+| <b>Point List</b> <i>Color</i> | The output list of points encoded in the RGBA channels of a color image:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>&nbsp;&nbsp;&nbsp;&nbsp;* Integer part: Smoothness;<br>&nbsp;&nbsp;&nbsp;&nbsp;* Fractional part: Thickness. |
+| <b>Point Number</b> <i>Integer</i> | The output number of points. |
 
-<b>Point List </b>*Color*  
-The output list of points encoded in the RGBA channels of a color image:  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-            * Integer part: Smoothness;  
-            * Fractional part: Thickness.
-
-<b>Point Number </b>*Integer*  
-The output number of points.
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Point Number</b> *Integer*The number of generated points.
-
-<b>Global Smoothness Adjustment</b> *Float*Applies a uniform offset to the smoothness value of all points.  
-The resulting smoothness value is clamped to the &#91;0;1&#93; range.
-
-+++Points Properties
-<b>p&#35; Properties</b> *Float3*Sets the properties of the p# point.  
-*- Height:* Adjusts the height of the point where a lower value means a lower or deeper location;  
-*- Smoothness:* Offsets the start of the smoothing of the spline at p#, where a value of 0 results in a hard trajectory and 1 in an entirely smooth one;  
-*- Thickness:* Adjusts the thickness of the spline at p#. Thickness is used by specific Spline nodes.
-
-+++
-
-+++Points Coordinates
-<b>p&#35;</b> *Float2*Sets the position of the p# point in texture space.
-
-+++
-
-+++Preview
-<b>Show Labels</b> *Boolean*  
-For each point, displays the point's name next to it in the 'Preview' output.
-
-<b>Label Size</b> *Float* (Available when 'Show Labels' is set to 'True')  
-The size of the label for each point in texture space, where 0.1 is a tenth of the texture's width.
-
-<b>Show Points</b> *Boolean*  
-Displays the points in the 'Preview' output.
-
-<b>Points Size</b> *Float* (Available when 'Show Points' is set to 'True')  
-The radius of the points in texture space, where 0.1 is a tenth of the texture's width.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Point Number</b> <i>Integer</i> | The number of generated points. |
+| <b>Global Smoothness Adjustment</b> <i>Float</i> | Applies a uniform offset to the smoothness value of all points.<br>The resulting smoothness value is clamped to the &#91;0;1&#93; range. |
+| <b>Points Properties</b> |  |
+| <b>p&#35; Properties</b> <i>Float3</i> | Sets the properties of the p# point.<br>*- Height:* Adjusts the height of the point where a lower value means a lower or deeper location;<br>*- Smoothness:* Offsets the start of the smoothing of the spline at p#, where a value of 0 results in a hard trajectory and 1 in an entirely smooth one;<br>*- Thickness:* Adjusts the thickness of the spline at p#. Thickness is used by specific Spline nodes. |
+| <b>Points Coordinates</b> |  |
+| <b>p&#35;</b> <i>Float2</i> | Sets the position of the p# point in texture space. |
+| <b>Preview</b> |  |
+| <b>Show Labels</b> <i>Boolean</i> | For each point, displays the point's name next to it in the 'Preview' output. |
+| <b>Label Size</b> <i>Float</i> (Available when 'Show Labels' is set to 'True') | The size of the label for each point in texture space, where 0.1 is a tenth of the texture's width. |
+| <b>Show Points</b> <i>Boolean</i> | Displays the points in the 'Preview' output. |
+| <b>Points Size</b> <i>Float</i> (Available when 'Show Points' is set to 'True') | The radius of the points in texture space, where 0.1 is a tenth of the texture's width. |
 
 ## Examples
 
@@ -116,12 +87,12 @@ The radius of the points in texture space, where 0.1 is a tenth of the texture's
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/PointList-Variant1.jpg "Node example 1")
+![Node example 1](point-list.resources/PointList-Variant1.jpg "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/PointList-Demo1.gif "Node example 2")
+![Node example 2](point-list.resources/PointList-Demo1.gif "Node example 2")
 
 </td>
 </tr>

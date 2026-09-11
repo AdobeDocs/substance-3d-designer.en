@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/glow-greyscale.png){width="128px"}
+![](glow.resources/glow-greyscale.png){width="128px"}
 
-![](../../../../../../assets/glow-3.png){width="128px"}
+![](glow.resources/glow-3.png){width="128px"}
 
-## Glow
-
-**In:** *Filters/Effects*
-
-**Simple**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -39,19 +35,27 @@ Keep in mind that this is not intended to work for images with Alpha Channels, a
 
 Important: make sure to use the appropriate version for your input! Use "Glow" for Color inputs, or "Glow Grayscale" for Grayscale inputs.
 
-## Parameters
-
-* **Glow Amount**: *0.0 - 1.0*Global opacity for the glow effect.
-* **Clear Amount**: *0.0 - 1.0*Treshold for when to cut off the glow effect. Useful for semi-transparent areas.
-* **Glow Size**: *0.0 - 20.0*Controls how far the glow effect reaches.
-* **Glow Color**: *(Color value) (Color Version Only)*Sets the color of the glow effect.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/glow-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Glow Amount</b> <i>0.0 - 1.0</i> | Global opacity for the glow effect. |
+| <b>Clear Amount</b> <i>0.0 - 1.0</i> | Treshold for when to cut off the glow effect. Useful for semi-transparent areas. |
+| <b>Glow Size</b> <i>0.0 - 20.0</i> | Controls how far the glow effect reaches. |
+| <b>Glow Color</b> <i>(Color value) (Color Version Only)</i> | Sets the color of the glow effect. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="glow.resources/glow-ex.png" />
+        </td>
+    </tr>
 </table>

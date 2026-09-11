@@ -58,7 +58,7 @@ Share a <b>valid e-mail address</b> so we can reach out to you if we need more d
 </td>
 <td style="border: 0;" valign="top">
 
-![Crash report dialog](../assets/crash-reporter-2.png "Crash report dialog"){zoomable="yes"}
+![Crash report dialog](technical-issues.resources/crash-reporter-2.png "Crash report dialog"){zoomable="yes"}
 
 *Click to enlarge*
 
@@ -85,7 +85,7 @@ You can let us know about the iisue in the Description field so we can investiga
 </td>
 <td style="border: 0;" valign="top">
 
-![Bug report dialog](../assets/bug-reporter.png "Bug report dialog"){zoomable="yes"}
+![Bug report dialog](technical-issues.resources/bug-reporter.png "Bug report dialog"){zoomable="yes"}
 
 *Click to enlarge*
 

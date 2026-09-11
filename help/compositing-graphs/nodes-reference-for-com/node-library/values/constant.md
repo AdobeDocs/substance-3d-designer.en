@@ -37,7 +37,7 @@ Constant integers generate whole numbers, and have a step of 1.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer type icon](../../../../assets/fn-constant-integer.png "Integer type icon")
+![Integer type icon](constant.resources/fn-constant-integer.png "Integer type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -61,7 +61,7 @@ An integer has a single component. It is useful as an index for making selection
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](../../../../assets/fn-constant-integer2.png "Integer2 type icon")
+![Integer2 type icon](constant.resources/fn-constant-integer2.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -80,7 +80,7 @@ One common use case of Integer2 is setting to set X and Y grid sizes, as in the 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 type icon](../../../../assets/fn-constant-integer3.png "Integer3 type icon")
+![Integer3 type icon](constant.resources/fn-constant-integer3.png "Integer3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ An Integer3 node generates a static 3-component integer vector with (X, Y, Z) co
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 type icon](../../../../assets/fn-constant-integer4.png "Integer4 type icon")
+![Integer4 type icon](constant.resources/fn-constant-integer4.png "Integer4 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -120,7 +120,7 @@ Constant Float values generate fractional numbers, I.e. they support values afte
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float type icon](../../../../assets/fn-constant-float.png "Float type icon")
+![Float type icon](constant.resources/fn-constant-float.png "Float type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -137,7 +137,7 @@ A Float has a single component and is very commonly used for any single value th
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 type icon](../../../../assets/fn-constant-float2.png "Float2 type icon")
+![Float2 type icon](constant.resources/fn-constant-float2.png "Float2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -156,7 +156,7 @@ Float2 is commonly used for [sampling coordinates](../../../../function-graphs/n
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 type icon](../../../../assets/fn-constant-float3.png "Float3 type icon")
+![Float3 type icon](constant.resources/fn-constant-float3.png "Float3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Float3 is mainly used when working with 3D objects and [3D scale coordinates](..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 type icon](../../../../assets/fn-constant-float4.png "Float4 type icon")
+![Float4 type icon](constant.resources/fn-constant-float4.png "Float4 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -196,7 +196,7 @@ Float4 is the preferred way to store and set color information where XYZW values
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Boolean type icon](../../../../assets/fn-constant-boolean.png "Boolean type icon")
+![Boolean type icon](constant.resources/fn-constant-boolean.png "Boolean type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/creased.png){width="128px"}
+![](creased.resources/creased.png){width="128px"}
 
-## Creased
-
-**In:** *Texture Generators**/Noises*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Noises
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,20 +31,27 @@ This node generates a cloth-like noise. It can be interpreted as Heightmap
 
 Creased is useful for when you need a semi-directional-noise with large scale variation.
 
-## Parameters
-
-* **Scale**: *1 - 8*  
-  Sets the global scale for the effect.
-* **Warp Intensity**: *0.0 - 128.0*Sets the strengt of the bend/warp effect.
-* **Disorder**: *0.0 - 100.0*  
-  Slightly offsets the layers used to generate the noise, to introduce variation.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-
-## Example Images
-
-![](../../../../../../assets/creased-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Scale</b> <i>1 - 8</i> | Sets the global scale for the effect. |
+| <b>Warp Intensity</b> <i>0.0 - 128.0</i> | Sets the strengt of the bend/warp effect. |
+| <b>Disorder</b> <i>0.0 - 100.0</i> | Slightly offsets the layers used to generate the noise, to introduce variation. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="creased.resources/creased-ex.gif" />
+        </td>
+    </tr>
 </table>

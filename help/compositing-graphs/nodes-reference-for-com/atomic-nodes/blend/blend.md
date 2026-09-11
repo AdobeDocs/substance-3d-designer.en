@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Blend](../../../../assets/comp_blend_1.png "Atomic node: Blend"){width="200px"}
+![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

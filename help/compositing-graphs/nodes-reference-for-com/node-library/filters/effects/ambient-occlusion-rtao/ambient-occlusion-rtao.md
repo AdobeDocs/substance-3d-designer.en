@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![RTAO node icon](../../../../../../assets/rt-ao.png "RTAO node icon")
+![RTAO node icon](ambient-occlusion-rtao.resources/rt-ao.png "RTAO node icon")
 
-<b>In:</b> *Filters/Effects*
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,42 +37,29 @@ See [Ambient Occlusion (HBAO) (Filter Node)](../../../../../../compositing-graph
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-<b>Use Physical Size</b> *Boolean*  
-Toggle to use Physical Size settings to determine the height scale.
+|  |  |
+|:---|:---|
+| <b>Use Physical Size</b> <i>Boolean</i> | Toggle to use Physical Size settings to determine the height scale. |
+| <b>Physical Size</b> <i>Float3</i> <i>(Available when <b>Use Physical Size</b> is set to <i>True</i>)</i> | Adjusts the height scale based on the real physical size of the surface |
+| <b>Samples</b> <i>Integer</i> | The number of rays used to compute the ambient occlusion.<br>A higher value provides a smoother and more precise result at the cost of performance. |
+| <b>Height Scale</b> <i>Float</i> <i>(Available when <b>Use Physical Size</b> is set to <i>False</i>)</i> | Multiplier for the intensity of the height map input. |
+| <b>Distribution</b> <i>Integer</i> | Sets the distribution method. Affects falloff towards shadowed areas, |
+| <b>Maximum Distance</b> <i>Float</i> | Sets the maximum distance rays can travel to be occluded. |
+| <b>Spread Angle</b> <i>Float</i> | Sets the spreading angle for the rays to be shot at. A value of 1 is a full hemisphere. |
 
-<b>Physical Size</b> *Float3* (Available when <b>Use Physical Size</b> is set to *True*)  
-Adjusts the height scale based on the real physical size of the surface
+## Examples
 
-<b>Samples</b>*Integer*  
-The number of rays used to compute the ambient occlusion.  
-A higher value provides a smoother and more precise result at the cost of performance.
-
-<b>Height Scale</b> *Float* (Available when <b>Use Physical Size</b> is set to *False*)  
-Multiplier for the intensity of the height map input.
-
-<b>Distribution</b> *Integer*Sets the distribution method. Affects falloff towards shadowed areas,
-
-<b>Maximum Distance</b> *Float*  
-Sets the maximum distance rays can travel to be occluded.
-
-<b>Spread Angle</b> *Float*  
-Sets the spreading angle for the rays to be shot at. A value of 1 is a full hemisphere.
-
-## Example Images
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![RTAO node - Example 1](../../../../../../assets/image2021-6-18-11-7-48.png "RTAO node - Example 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-![RTAO node - Example 2](../../../../../../assets/image2021-6-18-11-9-0-1.png "RTAO node - Example 2")
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-7-48.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-rtao.resources/image2021-6-18-11-9-0-1.png" />
+        </td>
+    </tr>
 </table>

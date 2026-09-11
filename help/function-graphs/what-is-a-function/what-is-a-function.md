@@ -18,7 +18,7 @@ Functions in Substance 3D Designer allows the user to generate results using the
 
 But rather than using lines of codes, functions in Designer keeps the same nodal approach. At first sight, a function graph looks really similar to a regular graph.
 
-![](../../assets/image2015-12-17-18-19-37.png)
+![](what-is-a-function.resources/image2015-12-17-18-19-37.png)
 
 You can encounter functions in 2 main cases:
 
@@ -29,16 +29,16 @@ You can encounter functions in 2 main cases:
 
 In Substance 3D Designer, any parameter can be controlled by a function.
 
-![](../../assets/image2015-12-17-21-3-46.png)
+![](what-is-a-function.resources/image2015-12-17-21-3-46.png)
 
 Therefore you can imagine rules and dependencies between parts of your graph, to obtain unique results.
 
 For example you can decide that the opacity of a blend node will be half of the intensity of a warp node :
 
-![](../../assets/warpblend.gif)
+![](what-is-a-function.resources/warpblend.gif)
 
 In fact, you may already have created functions without being aware of it:
 
 if you have exposed a parameter, you have automatically created a function,and a variable: the function contains a get float node that catches the value of the newly created variable:
 
-![](../../assets/expose.gif)
+![](what-is-a-function.resources/expose.gif)

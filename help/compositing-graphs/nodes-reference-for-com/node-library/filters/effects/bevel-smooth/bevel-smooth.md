@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropic Kuwahara Grayscale icon](../../../../../../assets/bevel_smooth.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
+![Anisotropic Kuwahara Grayscale icon](bevel-smooth.resources/bevel_smooth.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -41,45 +41,31 @@ The distance of the gradient can be dynamically adjusted along the border using 
 >
 > The [Directional distance](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md) node offers similar capabilities, where the dilation is performed in a specific direction.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Mask input</b> *Grayscale* PRIMARY | The image from which the mask should be extracted.   All values above the 'Mask Threshold' value are white in that mask. |
-| <b>Source input</b> *Grayscale* | An optional input only used when the 'Output Mode' parameter is set to 'Dilation'.   In that case, this image is overlaid on the white areas of the mask, and the grayscale values at the borders are dilated. |
-| <b>Distance map</b> *Grayscale* | An optional input used when the value of the 'Distance Map Multiplier' parameter is higher than 0.   It is used to adjust the beveling/dilation distance along the borders of the mask, where a darker value results in a shorter distance. |
+|:---|:---|
+| <b>Mask input</b> <i>Grayscale</i> PRIMARY | The image from which the mask should be extracted.   All values above the 'Mask Threshold' value are white in that mask. |
+| <b>Source input</b> <i>Grayscale</i> | An optional input only used when the 'Output Mode' parameter is set to 'Dilation'.   In that case, this image is overlaid on the white areas of the mask, and the grayscale values at the borders are dilated. |
+| <b>Distance map</b> <i>Grayscale</i> | An optional input used when the value of the 'Distance Map Multiplier' parameter is higher than 0.   It is used to adjust the beveling/dilation distance along the borders of the mask, where a darker value results in a shorter distance. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* | The result image, according to the selected 'Output Mode'. |
-| <b>UV</b> *Color* | A UV map where the UVs are dilated along the mask borders.   This can be connected to a [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) node to map any other image using these dilated UVs. |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The result image, according to the selected 'Output Mode'. |
+| <b>UV</b> <i>Color</i> | A UV map where the UVs are dilated along the mask borders.   This can be connected to a [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) node to map any other image using these dilated UVs. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Output mode</b> *Integer* | The method of dilating the mask borders:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Bevel:</b> draw a gradient from 1 to 0 where 0 is reached at the Maximum 'Distance'</li> <li data-preserve-html="true"><b>Dilation:</b> draw a solid color as far as the 'Maximum Distance'. This color is white or the color 'Source Input' image at the mask border, if connected</li> <li data-preserve-html="true"><b>Distance:</b> the raw distance from the closest mask border, in normalized image space where 1 is the length of the shortest side of the image</li> </ul> |
 | <b>Direction</b> *Integer*   *Available when 'Output mode' is set to 'Bevel' or 'Dilation'* | The side of the mask border which should be dilated:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>In:</b> draw towards the interior of the mask</li> <li data-preserve-html="true"><b>Out:</b> draw towards the exterior of the mask</li> <li data-preserve-html="true"><b>In/Out:</b> draw towards both the interior and exterior of the mask</li> </ul> |
 | <b>Maximum distance</b> *Float* | The distance of dilation, in normalized image space where 1 is the length of the shorter side of the input image. |
@@ -95,12 +81,12 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Bevel smooth: Example 1](../../../../../../assets/bevel_smooth_example_1.gif "Bevel smooth: Example 1"){width="1024px" zoomable="yes"}
+![Bevel smooth: Example 1](bevel-smooth.resources/bevel_smooth_example_1.gif "Bevel smooth: Example 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Bevel smooth: Example 8](../../../../../../assets/bevel_smooth_example_8.jpg "Bevel smooth: Example 8"){width="1024px" zoomable="yes"}
+![Bevel smooth: Example 8](bevel-smooth.resources/bevel_smooth_example_8.jpg "Bevel smooth: Example 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -113,11 +99,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -129,11 +115,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -150,11 +136,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -166,11 +152,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -183,11 +169,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
       <br><i>After</i>
     </td>
   </tr>

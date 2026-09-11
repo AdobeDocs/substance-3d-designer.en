@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-combine.png){width="128px"}
+![](normal-combine.resources/normal-combine.png){width="128px"}
 
 <b>In:</b> Filters &gt; Normal map
 
@@ -39,17 +39,21 @@ This is the best and most correct way to add 2D-generated normal map details to 
 
 If you want to blend two normal maps without combining their details (using a mask, for example), you should use [Normal Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md).
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Normal 2</b> *Color*Description
+## Inputs
 
-<b>Normal 1</b> *Color*Description
+|  |  |
+|:---|:---|
+| <b>Normal 2</b> <i>Color</i> | Description |
+| <b>Normal 1</b> <i>Color</i> | Description |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Technique</b> *Integer*Sets which internal blending technique to use, trading in speed for quality.  
-*- Whiteout (Low quality)  
-* Channel mixer (High quality)  
-* Detail oriented (High quality)*
+|  |  |
+|:---|:---|
+| <b>Technique</b> *Integer* | Sets which internal blending technique to use, trading in speed for quality.<br><br>*- Whiteout (Low quality)<br>* Channel mixer (High quality)<br>* Detail oriented (High quality)* |
 
 ## Examples

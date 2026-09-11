@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-directional-warp-color.png)![](../../../../../../assets/multi-directional-warp-grayscalepng.png)
+![](multi-directional-warp.resources/multi-directional-warp-color.png)![](multi-directional-warp.resources/multi-directional-warp-grayscalepng.png)
 
-## Multi Directional Warp (Grayscale)
-
-**In:** *Filters/Effects*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,27 +31,26 @@ Multi-Directional Warp applies [Directional Warp](../../../../../../compositing-
 
 It differs mainly from [Non Uniform Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md) in that it is slightly more limited: the direction for the warp is only controlled through parameters, and can not be set through an input map. The advantage is it is slightly easier to use and can be more precise depending on your usecase.
 
-## Parameters
-
-### Inputs
-
-* **Input**: *Grayscale/Color Input*   
-  Base map to which the warping will be applied. Can be color or grayscale.
-* **Intensity Input**: *Grayscale Input*   
-  Mandatory mask map that drives the intensity of the warping effect, must be grayscale.
-
-### Parameters
-
-* **Intensity**: *0.0 - 20.0*  
-  Sets the intensity of the warp effect, how far to push pixels out.
-* **Warp Angle**: *0.0 - 1.0*  
-  Sets the Angle or direction in which to apply the Warp effect.
-* **Mode**: *Average, Max, Min, Chain*  
-  Sets the Blend mode for consecutive passes. Only has effect if Direcions is 2 or 4!
-* **Directions**: *1, 2, 4*Sets in how many Axes the warp works. 1 means it moves in the direction of the Angle, and the opposite of that direction, 2 means the axis of the angle, plus the perpendicular axis, 4 means the previous axes, plus 45 degree inclements.
-
-## Example Images
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Grayscale/Color Input</i> | Base map to which the warping will be applied. Can be color or grayscale. |
+| <b>Intensity Input</b> <i>Grayscale Input</i> | Mandatory mask map that drives the intensity of the warping effect, must be grayscale. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Intensity</b> <i>0.0 - 20.0</i> | Sets the intensity of the warp effect, how far to push pixels out. |
+| <b>Warp Angle</b> <i>0.0 - 1.0</i> | Sets the Angle or direction in which to apply the Warp effect. |
+| <b>Mode</b> <i>Average, Max, Min, Chain</i> | Sets the Blend mode for consecutive passes. Only has effect if Direcions is 2 or 4! |
+| <b>Directions</b> <i>1, 2, 4</i> | Sets in how many Axes the warp works. 1 means it moves in the direction of the Angle, and the opposite of that direction, 2 means the axis of the angle, plus the perpendicular axis, 4 means the previous axes, plus 45 degree inclements. |

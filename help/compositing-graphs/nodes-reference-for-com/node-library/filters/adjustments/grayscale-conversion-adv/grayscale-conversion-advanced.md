@@ -16,33 +16,37 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grayscale-conversion-advanced.png){width="128px"}
+![](grayscale-conversion-advanced.resources/grayscale-conversion-advanced.png){width="128px"}
 
-## Grayscale Conversion Advanced
-
-**In:** *Filters/Adjustments*
-
-**Simple**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Advanced, quick grayscale conversion node that offers a few preset conversion modes.
 
-## Parameters
-
-* **Grayscale Type**: *Desaturation, Luma, Average, Max, Min*Desaturation sets saturation value to 0, Luma uses official Luminance weights, Average is the same as the atomic node, and Max and Min will use the brightest value for each channel respectively.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/grayscale-conversion-advanced-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Grayscale Type</b> <i>Desaturation, Luma, Average, Max, Min</i> | Desaturation sets saturation value to 0, Luma uses official Luminance weights, Average is the same as the atomic node, and Max and Min will use the brightest value for each channel respectively. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grayscale-conversion-advanced.resources/grayscale-conversion-advanced-example.png" />
+        </td>
+    </tr>
 </table>

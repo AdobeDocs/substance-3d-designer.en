@@ -16,39 +16,37 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-vector-rotation.png){width="128px"}
+![](normal-vector-rotation.resources/normal-vector-rotation.png){width="128px"}
 
-## Normal Vector Rotation
-
-**In:** *Filters/Normal Map*
-
-**Simple**
+<b>In:</b> Filters &gt; Normal Map
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Normal utility node that rotates all vectors of an input Normalmap in Tangent space. Doesn't actually transform pixels, instead it modifies the values they represent. It can make use of an optional map to add random rotations to grayscale facets.
 
-## Inputs
-
-* **Normal**: *Color Input*   
-  Base map to perform rotation on. Required.
-* **Rotation Map (optional)**: *Grayscale Input*   
-  Grayscale map that modulates Rotation strength.
-
-## Parameters
-
-* **Rotation Angle**: *0.0 - 1.0*  
-  Sets Angle by which to rotate the Normalmap
-* **Normal Format**: *DirectX, OpenGL*  
-  Switch between different Normal Map formats (inverts the green channel)
-
-## Examples
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Normal</b> <i>Color Input</i> | Base map to perform rotation on. Required. |
+| <b>Rotation Map (optional)</b> <i>Grayscale Input</i> | Grayscale map that modulates Rotation strength. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Rotation Angle</b> <i>0.0 - 1.0</i> | Sets Angle by which to rotate the Normalmap |
+| <b>Normal Format</b> <i>DirectX, OpenGL</i> | Switch between different Normal Map formats (inverts the green channel) |

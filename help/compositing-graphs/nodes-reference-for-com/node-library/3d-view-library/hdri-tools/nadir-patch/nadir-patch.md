@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
+![](nadir-patch.resources/panorama-nadir-patch.png){width="200px"}
 
-## Nadir Patch
-
-**In:** *3D View/HDRI Tools*
-
-**Complex**
+<b>In:</b> 3D View &gt; HDRI Tools
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,42 +31,44 @@ This node provides functionality to patch over the central ground point (nadir) 
 
 effect can be quickly checked and validated with [Nadir Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md).
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## Inputs
 
-* **Input**: *Color Input*
-* **Mask Input**: *Grayscale Input*   
-   Optional mask slot used for masking the patch. Function like an alpha.
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Color Input</i> |  |
+| <b>Mask Input</b> <i>Grayscale Input</i> | Optional mask slot used for masking the patch. Function like an alpha. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-* **Enable**: *False/True*  
-  Enable or disable patching effect.
-* **Show Frames Helper**: *False/True*  
-  Show or hide the helper lines, for debug purposes.
-* **Frame Thickness**: *0.0 - 1.0*  
-  Thickness of helper lines.
-* **Patch Scale**: *0.0 - 1.0*  
-  Global, uniform scale of patch. Affects both source and target.
-* **Patch Size**: *0.0 - 1.0*  
-  Non-uniform size of patch.
-* **Patch Rotation**: *0.0 - 1.0*  
-  Rotation of the patch. Affects source and target.
-* **Patch Alpha**: *Smooth Square, Gaussian, Mask Input*  
-  Set what alpha is used to blend the patch with the background.
-* **Patch Hardness**: *0.0 - 1.0*  
-  Set hardness/contrast of alpha.
-* **Source Rotation Offset**: *0.0 - 1.0*  
-  Rotation only for source of the patch.
-* **Position Coordinates**   
-  * **Source Position**:   
-    Position of source. Has handle in 2D view.
-  * **Patch Position**:   
-    Position of target. Has handle in 2D view.
+|  |  |
+|:---|:---|
+| <b>Enable</b> <i>False/True</i> | Enable or disable patching effect. |
+| <b>Show Frames Helper</b> <i>False/True</i> | Show or hide the helper lines, for debug purposes. |
+| <b>Frame Thickness</b> <i>0.0 - 1.0</i> | Thickness of helper lines. |
+| <b>Patch Scale</b> <i>0.0 - 1.0</i> | Global, uniform scale of patch. Affects both source and target. |
+| <b>Patch Size</b> <i>0.0 - 1.0</i> | Non-uniform size of patch. |
+| <b>Patch Rotation</b> <i>0.0 - 1.0</i> | Rotation of the patch. Affects source and target. |
+| <b>Patch Alpha</b> <i>Smooth Square, Gaussian, Mask Input</i> | Set what alpha is used to blend the patch with the background. |
+| <b>Patch Hardness</b> <i>0.0 - 1.0</i> | Set hardness/contrast of alpha. |
+| <b>Source Rotation Offset</b> <i>0.0 - 1.0</i> | Rotation only for source of the patch. |
+| <b>Position Coordinates</b> |  |
+| <b>Source Position</b> | Position of source. Has handle in 2D view. |
+| <b>Patch Position</b> | Position of target. Has handle in 2D view. |
 
-## Example Images
+## Examples
 
-![](../../../../../../assets/nadir-patch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="nadir-patch.resources/nadir-patch-ex.gif" />
+        </td>
+    </tr>
 </table>

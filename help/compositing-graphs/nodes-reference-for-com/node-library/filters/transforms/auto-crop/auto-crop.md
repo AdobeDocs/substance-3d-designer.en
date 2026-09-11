@@ -16,29 +16,27 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/autocropgrayscale.png){width="200px"}
+![](auto-crop.resources/autocropgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/autocropcolor.png){width="200px"}
+![](auto-crop.resources/autocropcolor.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**In:** Filters*/Transforms*
-
-**Simple**
+<b>In:</b> Filters &gt; Transforms
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -50,53 +48,37 @@ The content of the image is defined by a box fitted to the *first and last pixel
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-* **Mode** *Integer*Set the cropping method which should be applied:  
-  * *Crop square*: the image is cropped so that the shape is at the center of the smallest *square* image which can fully include it  
-  * *Crop auto*: The image is cropped so that the shape is at the center of the smallest *square or non-square* image which can fully include it  
-  * *Fit (Keep ratio)*: The image is resized to the *full span* of the image while keeping its *proportions* (i.e. width to length ratio)  
-  * *Fill (Stretch)*: The image is resized to the *full span* of the image
-* **Use alpha** *Boolean*Use the alpha channel of the **Input** to determine the image content's *bounds* for cropping. When set to *False*, black pixels are used instead.  
-  *Note*: This parameter is only available in the **Color** version of the node.
-* **Filtering Mode** *Integer*Defines how to treat the sampled results when *interpolating* between pixels:  
-  * *Nearest*: will sample exactly the *same* value (faster)  
-  * *Bilinear*: will apply a bilinear filter on the result for a *smoother* look  
-  * *Auto*: Uses the most appropriate of the two modes above depending on the selected **Mode** for cropping
+|  |  |
+|:---|:---|
+| <b>Mode</b> <i>Integer</i> | Set the cropping method which should be applied:<br><br>- <i>Crop square</i>: the image is cropped so that the shape is at the center of the smallest <i>square</i> image which can fully include it<br>- <i>Crop auto</i>: The image is cropped so that the shape is at the center of the smallest <i>square or non-square</i> image which can fully include it<br>- <i>Fit (Keep ratio)</i>: The image is resized to the <i>full span</i> of the image while keeping its <i>proportions</i> (i.e. width to length ratio)<br>- <i>Fill (Stretch)</i>: The image is resized to the <i>full span</i> of the image |
+| <b>Use alpha</b> <i>Boolean</i> | Use the alpha channel of the <b>Input</b> to determine the image content's <i>bounds</i> for cropping. When set to <i>False</i>, black pixels are used instead.<br><br><i>Note:</i> This parameter is only available in the <b>Color</b> version of the node. |
+| <b>Filtering Mode</b> <i>Integer</i> | Defines how to treat the sampled results when <i>interpolating</i> between pixels:<br><br>- <i>Nearest</i>: will sample exactly the <i>same</i> value (faster)<br>- <i>Bilinear</i>: will apply a bilinear filter on the result for a <i>smoother</i> look<br>- <i>Auto</i>: Uses the most appropriate of the two modes above depending on the selected <b>Mode</b> for cropping |
 
-## Example Images
+## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-demo-01-resized.gif){width="768px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant.jpg){width="128px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant4.png){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-variant3.png){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/autocrop-node.png){width="420px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-demo-01-resized.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-variant4.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-variant3.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="auto-crop.resources/autocrop-node.png" />
+        </td>
+    </tr>
 </table>

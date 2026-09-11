@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-range-1.png){width="128px"}
+![](histogram-range.resources/histogram-range-1.png){width="128px"}
 
-## Histogram Range
-
-**In:** *Filters/Adjustments*
-
-**Simple**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -36,15 +32,25 @@ Also see [Histogram Scan](../../../../../../compositing-graphs/nodes-reference-f
 
 [Click here to watch a Substance Academy video on Histogram Range.](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
-## Parameters
-
-* **Range**: *0.0 - 1.0*How much to reduce the range down from. This is similar to moving both Levels min and Max sliders inwards.
-* **Position**: *0.0 - 1.0*Offset for the range reduction, setting a different midpoint for the range reduction.
-
-## Example Images
-
-![](../../../../../../assets/histogram-range.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Range</b> <i>0.0 - 1.0</i> | How much to reduce the range down from. This is similar to moving both Levels min and Max sliders inwards. |
+| <b>Position</b> <i>0.0 - 1.0</i> | Offset for the range reduction, setting a different midpoint for the range reduction. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-range.resources/histogram-range.gif" />
+        </td>
+    </tr>
 </table>

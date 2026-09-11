@@ -16,16 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/voronoi.png){width="200px"}
+![](voronoi.resources/voronoi.png){width="200px"}
 
-**In:** *Texture Generators* */Noises*
-
-**Intermediate**
+<b>In:</b> Texture Generators &gt; Noises
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,96 +39,50 @@ This node can be tested with [Cube GBuffers](../../../../../../compositing-graph
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-* **Invert** *Boolean*   
-  Inverts the output image.
-* **Scale** *Float*   
-  Controls the scale of the Voronoi noise.  
-  *Note*: When **Tiling** is enabled on *any axis*, the scale adjustement is *stepped*. This is expected.
-* **Size** *Float3*   
-  Controls the size of the Voronoi noise in the **X**, **Y** and **Z** axes. Non-uniform values result in a *stretching or squashing* effect.  
-  *Note*: When **Tiling** is enabled on *any axis*, the size adjustment is *stepped*. This is expected.
-* **Offset** *Float3*   
-  Applies an offset to the *position* of the Voronoi noise in the **X**, **Y** and **Z** axes.
-* **Disorder** *Float3*   
-  The intensity of the *random offset* applied to each point of the noise in the **X**, **Y** and **Z** axes.
-* **Distortion Intensity** *Float*   
-  Controls the intensity of a *warping effect* applied on the Voronoi noise.
-* **Distortion Scale Multiplier** *Float*   
-  Controls the scale of the *deforming pattern* used in the warping effect controlled by the **Distortion Intensity**.
-* **Rounded Curve** *Float*   
-  Rounds the *slope* around each point of the noise to make it *convex*.  
-  *Note* : This parameter is not available when the **Style** parameter is set to *Edge* .
-* **Distance Scale** *Float*   
-  Adjusts the *distance of the gradient* around each point of the noise.
-* **Distance Mode** *Integer*   
-  Sets the method to *compute the distance gradient* around each point of the noise:  
-  * *Euclidean*   
-  * *Manhattan*   
-  * *Chebyshev*   
-  * *Minkowski*
-* **Minkowski Number** *Float*   
-  The order *p* of the Minkowski distance. If we divide the distance gradient into quadrants, this number impacts these quadrants as follows:  
-  * p is *exactly* 1: Straight  
-  * p is *lower* than 1: Concave  
-  * p is *greater* than 1: Convex  
-  Interesting values:  
-  *- 1.0*: Manhattan distance  
-  *- 2.0*: Euclidean distance  
-  *- Infinity*: Chebyshev distance  
-  *Note*: This parameter is only available when the **Distance Mode** parameter is set to *Minkowski*.
-* **Style** *Integer*Sets the method *rendering the data* of the Voronoi noise, considering the noise is based on a set of points in space:  
-  * *F1*: the distance to the *closest point* in space  
-  * *F2*: the distance to the *second closest point* in space  
-  * *F2-F1*- *F1\*F2*- *F1/F2*- *Edge*: the *edge between each cell* of the noise in space  
-  * *Random color*: assign a *random flat color* to each cell of the noise in space
-* **Edge Thickness** *Float*Adjusts the thickness of the edges detected between cells of the Voronoi noise. Edges are detected in the X, Y and Z axes, thus some thicknesses may increase quicker than other depending on the cells' *depth*.  
-  *Note*: This parameter is only available when the **Style** parameter is set to *Edge*.
-* **Random Color Seed Mode** *Integer*  
-  Sets the method of *acquiring* the random seed for the color selection per cell:  
-  * *Global Random Seed*: Use the seed *inherited* by the node  
-  * *Manual Seed*: Use a *discrete* seed  
-  *Note*: This parameter is only available when the **Style** parameter is set to *Random color*.
-* **Random Color Seed** *Integer*  
-  The discrete random seed which should be used for the color selection per cell.  
-  *Note*: This parameter is only available when the **Style** parameter is set to *Random color* and the **Random Color Seed Mode** parameter is set to ***Manual Seed***.
-* **Non Square Expansion** *Boolean*   
-  Enables compensation of squash and stretch with non-square ratios.
+|  |  |
+|:---|:---|
+| <b>Invert</b> <i>Boolean</i> | Inverts the output image. |
+| <b>Scale</b> <i>Float</i> | Controls the scale of the Voronoi noise.<br><br>*Note*: When **Tiling** is enabled on *any axis*, the scale adjustement is *stepped*. This is expected. |
+| <b>Size</b> <i>Float3</i> | Controls the size of the Voronoi noise in the **X**, **Y** and **Z** axes. Non-uniform values result in a *stretching or squashing* effect.<br><br>*Note*: When **Tiling** is enabled on *any axis*, the size adjustment is *stepped*. This is expected. |
+| <b>Offset</b> <i>Float3</i> | Applies an offset to the *position* of the Voronoi noise in the **X**, **Y** and **Z** axes. |
+| <b>Disorder</b> <i>Float3</i> | The intensity of the *random offset* applied to each point of the noise in the **X**, **Y** and **Z** axes. |
+| <b>Distortion Intensity</b> <i>Float</i> | Controls the intensity of a *warping effect* applied on the Voronoi noise. |
+| <b>Distortion Scale Multiplier</b> <i>Float</i> | Controls the scale of the *deforming pattern* used in the warping effect controlled by the **Distortion Intensity**. |
+| <b>Rounded Curve</b> <i>Float</i> | Rounds the *slope* around each point of the noise to make it *convex*.<br><br>*Note*: This parameter is not available when the **Style** parameter is set to *Edge*. |
+| <b>Distance Scale</b> <i>Float</i> | Adjusts the *distance of the gradient* around each point of the noise. |
+| <b>Distance Mode</b> <i>Integer</i> | Sets the method to *compute the distance gradient* around each point of the noise:<br><br>- *Euclidean*<br>- *Manhattan*<br>- *Chebyshev*<br>- *Minkowski* |
+| <b>Minkowski Number</b> <i>Float</i> | The order *p* of the Minkowski distance. If we divide the distance gradient into quadrants, this number impacts these quadrants as follows:<br><br>- p is *exactly* 1: Straight<br>- p is *lower* than 1: Concave<br>- p is *greater* than 1: Convex<br><br>Interesting values:<br><br>- *1.0*: Manhattan distance<br>- *2.0*: Euclidean distance<br>- *Infinity*: Chebyshev distance<br><br>*Note*: This parameter is only available when the **Distance Mode** parameter is set to *Minkowski*. |
+| <b>Style</b> <i>Integer</i> | Sets the method *rendering the data* of the Voronoi noise, considering the noise is based on a set of points in space:<br><br>- *F1*: the distance to the *closest point* in space<br>- *F2*: the distance to the *second closest point* in space<br>- *F2-F1*<br>- *F1\*F2*<br>- *F1/F2*<br>- *Edge*: the *edge between each cell* of the noise in space<br>- *Random color*: assign a *random flat color* to each cell of the noise in space |
+| <b>Edge Thickness</b> <i>Float</i> | Adjusts the thickness of the edges detected between cells of the Voronoi noise. Edges are detected in the X, Y and Z axes, thus some thicknesses may increase quicker than other depending on the cells' *depth*.<br><br>*Note*: This parameter is only available when the **Style** parameter is set to *Edge*. |
+| <b>Random Color Seed Mode</b> <i>Integer</i> | Sets the method of *acquiring* the random seed for the color selection per cell:<br><br>- *Global Random Seed*: Use the seed *inherited* by the node<br>- *Manual Seed*: Use a *discrete* seed<br><br>*Note*: This parameter is only available when the **Style** parameter is set to *Random color*. |
+| <b>Random Color Seed</b> <i>Integer</i> | The discrete random seed which should be used for the color selection per cell.<br><br>*Note*: This parameter is only available when the **Style** parameter is set to *Random color* and the **Random Color Seed Mode** parameter is set to ***Manual Seed***. |
+| <b>Non Square Expansion</b> <i>Boolean</i> | Enables compensation of squash and stretch with non-square ratios. |
 
-## Example Images
+## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/voronoi-variant6.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-variant3.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-variant5.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-variant4.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="voronoi.resources/voronoi-variant6.jpg" />
+        </td>
+    </tr>
 </table>

@@ -18,7 +18,7 @@ Parameter Presets give the user the ability to store and transfer large amounts 
 
 There are two ways for storing and loading presets, both have different use-cases, detailed below.
 
-![Load/Save preset drop down menu](../../../assets/preset-menu.gif "Load/Save preset drop down menu"){width="512px"}
+![Load/Save preset drop down menu](parameter-presets.resources/preset-menu.gif "Load/Save preset drop down menu"){width="512px"}
 
 ## External presets
 
@@ -32,7 +32,7 @@ They are simply saved and loaded through this menu. The Saved SBSPRS files can b
 >
 > Even partial matches will work: parameters stored in an SBSPRS that do not exist on the loaded node, will simply be ignored. This means you can transfer properties between nodes that are mostly similar, [such as the color and grayscale version of Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)! All shared parameters will load. Matching happens on identifier and type.
 
-![Embedded presets editing](../../../assets/preset-embed.gif "Embedded presets editing"){width="512px"}
+![Embedded presets editing](parameter-presets.resources/preset-embed.gif "Embedded presets editing"){width="512px"}
 
 ## Embedded presets
 

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-bridge-list-icon.png "Node icon")
+![Node icon](spline-bridge-list.resources/spline-bridge-list-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -41,125 +41,62 @@ The generated splines can be Linear (straight) or Quadratic Bezier (curved).
 > 
 > Therefore, you should be mindful about the order in which you append splines together beforehand.
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Preview</b> *Grayscale*The preview of the input splines as a grayscale image.
+## Inputs
 
-<b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
-<b>    R</b> - X position  
-<b>    G</b> - Y position  
-<b>    B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Preview</b> <i>Grayscale</i> | The preview of the input splines as a grayscale image. |
+| <b>Spline Coords</b> <i>Color</i> | The coordinates of the input splines' points encoded in the RGBA channels of a color image:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline is closed (negative) or open (positive);<br>- Absolute value: Thickness + 1. |
+| <b>Spline Data</b> <i>Color</i> | Additional data of the input splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
+| <b>Spline Amount</b> <i>Integer</i> | The number of input splines. |
 
-<b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
-<b>    R</b> - Tangents X  
-<b>    G</b> - Tangents Y  
-<b>    B</b> - Unused  
-<b>    A</b> - Unused
+<a name="outputs"></a>
 
-<b>Spline Amount</b> *Integer*The number of input splines.
+## Outputs
 
-## Output connectors
+|  |  |
+|:---|:---|
+| <b>Preview</b> <i>Grayscale</i> | The preview of the output splines as a grayscale image. |
+| <b>Spline Coords</b> <i>Color</i> | The coordinates of the output splines' points encoded in the RGBA channels of a color image.<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>- Sign: Spline is closed (negative) or open (positive);<br>- Absolute value: Thickness + 1. |
+| <b>Spline Data</b> <i>Color</i> | Additional data of the output splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
+| <b>Spline Amount</b> <i>Integer</i> | The number of output splines. |
 
-<b>Preview</b> *Grayscale*The preview of the output splines as a grayscale image.
-
-<b>Spline Coords</b> *Color*The coordinates of the output splines’ points encoded in the RGBA channels of a color image.  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
-
-<b>Spline Data</b> *Color*Additional data of the output splines encoded in the RGBA channels of a color image.  
-    <b>R</b> - Tangents X  
-    <b>G</b> - Tangents Y  
-    <b>B</b> - Unused  
-    <b>A</b> - Unused
-
-<b>Spline Amount</b> *Integer*The number of output splines.
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Bridge Spline Amount</b> *Integer*The number of splines generated across the input splines.
-
-<b>Bridge Splines Type</b> *Integer*The type of spline that is generated:  
-* Linear: a sharp spline connecting intermediary splines with straight trajectories from Start to End;  
-* Quadratic Bezier: a curved spline connecting intermediary splines with smooth trajectories from Start to End.  
-Note: At least 3 input splines are requires to compute a Quadratic Bezier spline.
-
-<b>Input Splines are Closed</b> *Boolean*Controls whether the first and last points of input splines should be processed as a single point. This prevent duplicating the first and last traversing splines.
-
-<b>Flip Direction</b> *Boolean*Inverts the direction of the spline.
-
-<b>Close Bridge Spline</b> *Boolean*Extends the traversing splines to connect back to the first spline in the input list.
-
-<b>First Bridge Spline Offset</b>*Float2*Applies an offset to the start of all traversed splines. The value is the normalized length of the input splines.  
-Generated splines that meet the start or end of the traversed splines are left there.
-
-<b>Last Bridge Spline Offset</b>*Float2*  
-Applies an offset to the end of all traversed splines. The value is the normalized length of the input splines.  
-Generated splines that meet the start or end of the traversed splines are left there.
-
-<b>Random Offset Range</b> *Integer*The maximum distance used for the random offset applied on splines.  
-*- Parent spline:* The full length of the parent splines is used. May cause overlaps.  
-*- Interval:* The interval between bridge splines is used. This mitigates overlaps. This distance decreases as the amount of bridge splines increases.
-
-<b>Start Random Offset</b> *Float*A multiplier for the random offset applied on the start position of bridge splines, where the maximum distance is specified by the <b>Random offset range</b> parameter.
-
-<b>End Random Offset</b> *Float*A multiplier for the random offset applied on the end position of bridge splines, where the maximum distance is specified by the <b>Random offset range</b> parameter.
-
-<b>Global Random Offset</b> *Float*A multiplier for the *equal amount* of random offset applied on the *both* the start and end position of bridge splines, where the maximum distance is specified by the <b>Random offset range</b> parameter.
-
-<b>Uniform Distribution</b> *Boolean*When True, the points of the generated splines are evenly spaced from start to end.
-
-+++Thickness
-<b>Thickness Mode</b> *Integer*The method of acquiring the thickness value for the bridge splines.  
-*- Inherit from parent splines:* The thickness of the parent splines at the start and end positions of the bridge splines is used  
-*- Override:* The arbitrary value you specify in the <b>Thickness</b> parameter is used
-
-<b>Thickness</b> *Float*The absolute thickness value applied to the bridge splines.
-
-<b>Thickness Random</b> *Float*A random multiplier for the thickness of the bridge splines, where the initial thickness that this multiplier is applied to is specified by the <b>Thickness mode</b> parameter.
-
-+++
-
-+++Height
-<b>Height Mode</b> *Integer*The method of acquiring the height value for the bridge splines.  
-*- Inherit from parent splines:* The height of the parent splines at the start and end positions of the bridge splines is used  
-*- Override:* The arbitrary value you specify in the <b>Height</b> parameter is used
-
-<b>Height Offset</b> *Float*The amount of offset applied to the height inherited from the parent splines, before that height is applied to the bridge splines.
-
-<b>Height</b> *Float*The absolute height value applied to the bridge splines.
-
-<b>Height Random</b> *Float*A random amount of adjustment to the height of the bridge splines, where that adjustment depends on the selected <b>Height mode</b> parameter:  
-*- Inherit from parent splines:* The value is a multiplier for the inherited height.  
-*- Override:* The value is an offset added to the height.
-
-+++
-
-<b>Non-Square Correction</b>*Boolean*
-
-Adjust the points’ positions and thickness to retain the spline shape in non-square resolutions.  
-This also impacts uniform distribution.
-
-+++Preview
-<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
-
-<b>Show Thickness Envelope</b> *Boolean*  
-Displays additional lines at the edges of the spline’s thickness.
-
-<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
-A higher value results in a smoother line.
-
-<b>Thickness (px)</b> *Float*Adjusts the thickness of the spline visualization in pixels in the Preview output.
-
-<b>Background Preview Intensity</b> *Float*The intensity of the Preview visualization.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Bridge Spline Amount</b> <i>Integer</i> | The number of splines generated across the input splines. |
+| <b>Bridge Splines Type</b> <i>Integer</i> | The type of spline that is generated:<br><br>- Linear: a sharp spline connecting intermediary splines with straight trajectories from Start to End;<br>- Quadratic Bezier: a curved spline connecting intermediary splines with smooth trajectories from Start to End.<br><br>Note: At least 3 input splines are requires to compute a Quadratic Bezier spline. |
+| <b>Input Splines are Closed</b> <i>Boolean</i> | Controls whether the first and last points of input splines should be processed as a single point. This prevent duplicating the first and last traversing splines. |
+| <b>Flip Direction</b> <i>Boolean</i> | Inverts the direction of the spline. |
+| <b>Close Bridge Spline</b> <i>Boolean</i> | Extends the traversing splines to connect back to the first spline in the input list. |
+| <b>First Bridge Spline Offset</b> <i>Float2</i> | Applies an offset to the start of all traversed splines. The value is the normalized length of the input splines.<br>Generated splines that meet the start or end of the traversed splines are left there. |
+| <b>Last Bridge Spline Offset</b> <i>Float2</i> | Applies an offset to the end of all traversed splines. The value is the normalized length of the input splines.<br>Generated splines that meet the start or end of the traversed splines are left there. |
+| <b>Random Offset Range</b> <i>Integer</i> | The maximum distance used for the random offset applied on splines.<br><br>- <i>Parent spline:</i> The full length of the parent splines is used. May cause overlaps.<br>- <i>Interval:</i> The interval between bridge splines is used. This mitigates overlaps. This distance decreases as the amount of bridge splines increases. |
+| <b>Start Random Offset</b> <i>Float</i> | A multiplier for the random offset applied on the start position of bridge splines, where the maximum distance is specified by the <b>Random offset range</b> parameter. |
+| <b>End Random Offset</b> <i>Float</i> | A multiplier for the random offset applied on the end position of bridge splines, where the maximum distance is specified by the <b>Random offset range</b> parameter. |
+| <b>Global Random Offset</b> <i>Float</i> | A multiplier for the *equal amount* of random offset applied on the *both* the start and end position of bridge splines, where the maximum distance is specified by the <b>Random offset range</b> parameter. |
+| <b>Uniform Distribution</b> <i>Boolean</i> | When True, the points of the generated splines are evenly spaced from start to end. |
+| <b>Thickness</b> |  |
+| <b>Thickness Mode</b> <i>Integer</i> | The method of acquiring the thickness value for the bridge splines.<br><br>- <i>Inherit from parent splines:</i> The thickness of the parent splines at the start and end positions of the bridge splines is used<br>- <i>Override:</i> The arbitrary value you specify in the <b>Thickness</b> parameter is used |
+| <b>Thickness</b> <i>Float</i> | The absolute thickness value applied to the bridge splines. |
+| <b>Thickness Random</b> <i>Float</i> | A random multiplier for the thickness of the bridge splines, where the initial thickness that this multiplier is applied to is specified by the <b>Thickness mode</b> parameter. |
+| <b>Height</b> |  |
+| <b>Height Mode</b> <i>Integer</i> | The method of acquiring the height value for the bridge splines.<br><br>- <i>Inherit from parent splines:</i> The height of the parent splines at the start and end positions of the bridge splines is used<br>- <i>Override:</i> The arbitrary value you specify in the <b>Height</b> parameter is used |
+| <b>Height Offset</b> <i>Float</i> | The amount of offset applied to the height inherited from the parent splines, before that height is applied to the bridge splines. |
+| <b>Height</b> <i>Float</i> | The absolute height value applied to the bridge splines. |
+| <b>Height Random</b> <i>Float</i> | A random amount of adjustment to the height of the bridge splines, where that adjustment depends on the selected <b>Height mode</b> parameter:<br><br>- <i>Inherit from parent splines:</i> The value is a multiplier for the inherited height.<br>- <i>Override:</i> The value is an offset added to the height. |
+| <b>Non-Square Correction</b> <i>Boolean</i> | Adjust the points' positions and thickness to retain the spline shape in non-square resolutions. This also impacts uniform distribution. |
+| <b>Preview</b> |  |
+| <b>Show Direction Helper</b> <i>Boolean</i> | Displays a dot at the start of the spline and an arrowhead at its end in the Preview output. |
+| <b>Show Thickness Envelope</b> <i>Boolean</i> | Displays additional lines at the edges of the spline's thickness. |
+| <b>Segments Amount</b> <i>Integer</i> | Adjusts the number of segments used to draw the spline visualization in the Preview output. A higher value results in a smoother line. |
+| <b>Thickness (px)</b> <i>Float</i> | Adjusts the thickness of the spline visualization in pixels in the Preview output. |
+| <b>Background Preview Intensity</b> <i>Float</i> | The intensity of the Preview visualization. |
 
 ## Examples
 
@@ -170,11 +107,11 @@ A higher value results in a smoother line.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
+      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_Before.jpg" alt="SplineBridge-List_Variant1_Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
+      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_After.jpg" alt="SplineBridge-List_Variant1_After">
       <br><i>After</i>
     </td>
   </tr>
@@ -183,10 +120,10 @@ A higher value results in a smoother line.
 </td>
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/SplineBridge-List_Demo.gif "Node example 2")
+![Node example 2](spline-bridge-list.resources/SplineBridge-List_Demo.gif "Node example 2")
 
 </td>
 </tr>
 </table>
 
-![Node in graph](../../../../../../assets/SplineBridge-List_Graph.jpg "Node in graph")
+![Node in graph](spline-bridge-list.resources/SplineBridge-List_Graph.jpg "Node in graph")

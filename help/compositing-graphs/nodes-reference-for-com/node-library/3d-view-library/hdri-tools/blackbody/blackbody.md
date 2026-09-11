@@ -16,27 +16,27 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blackbody.png){width="200px"}
+![](blackbody.resources/blackbody.png){width="200px"}
 
-## Blackbody
-
-**In:** *3D View/HDRI Tools*
-
-**Simple**
+<b>In:</b> 3D View &gt; HDRI Tools
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Converts color temperature in Kelvin to RGB. Lower Kelvin values mean warmer colors, higher Kelvin values mean colder colors.
 
-## Parameters
-
-* **Temperature**: *1000.0 - 27000.0*Value in Kelvin that determines color.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Temperature</b> <i>1000.0 - 27000.0</i> | Value in Kelvin that determines color. |

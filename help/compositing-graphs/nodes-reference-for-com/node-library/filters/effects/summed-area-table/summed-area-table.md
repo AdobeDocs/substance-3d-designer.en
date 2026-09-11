@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/summedareatable.png){width="200px"}
+![](summed-area-table.resources/summedareatable.png){width="200px"}
 
-## Summed Area Table
-
-**In:** *Filters/Effects*
-
-**Simple**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
-### Description
+## Description
 
 Returns the *sum* of the image's pixel values, starting from the *top left* pixel.
 

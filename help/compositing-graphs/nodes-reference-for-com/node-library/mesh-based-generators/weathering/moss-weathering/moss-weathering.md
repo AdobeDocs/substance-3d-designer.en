@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/moss-weathering.png){width="128px"}
+![](moss-weathering.resources/moss-weathering.png){width="128px"}
 
-## Moss Weathering
-
-**In:** *Mesh Based Generators**/Weathering*
-
-**Complex**
+<b>In:</b> Mesh Based Generators &gt; Weathering
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,50 +33,48 @@ This effect works best with a baked World Space Position map and an additional H
 
 Make sure to properly understand the [Link Creation Modes](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) when working with full materials.
 
-## Parameters
-
-### Inputs
-
-* **Position**: *Color Input*   
-  Baked World Space Position.
-* **Height** : *Grayscale Input*   
-  Additional Heightmap input.
-* **Mask** : *Grayscale Input*   
-  Mask slot used for masking the node's effects. Can be toggled with the "Mask" parameter.
-
-### Parameters
-
-* **Channels**   
-  * Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness.
-* **Advanced**   
-  * **Normal Format**: *DirectX, OpenGL*  
-    Switches between different Normalmap formats (inverts the green channel).
-  * **Mask**: *False/True*  
-    Toggles the use of the Mask map on or off.
-* **Effect**   
-  * **Moss Propagation**: *0.0 - 1.0*Sets the spread of the moss. Grows in steps from slight coverage to heavy, thick, dark moss.
-* **Blending**   
-  * **Diffuse Intensity**: *0.0 - 1.0*  
-    Blending strength of the Diffuse.
-  * **Base Color Intensity**: *0.0 - 1.0*  
-    Blending strength of the Base Color.
-  * **Normal Intensity**: *0.0 - 1.0*  
-    Blending strength of the Normal.
-  * **Specular Intensity**: *0.0 - 1.0*  
-    Blending strength of the Specular.
-  * **Glossiness Intensity**: *0.0 - 1.0*  
-    Blending strength of the Glossiness.
-  * **Roughness Intensity**: *0.0 - 1.0*  
-    Blending strength of the Roughness.
-  * **Ambient Occlusion Intensity**: *0.0 - 1.0*  
-    Blending strength of the Ambient Occlusion.
-  * **Height Intensity**: *0.0 - 1.0*  
-    Blending strength of the Height.
-
-## Example Images
-
-![](../../../../../../assets/moss-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Position</b> <i>Color Input</i> | Baked World Space Position. |
+| <b>Height</b> <i>Grayscale Input</i> | Additional Heightmap input. |
+| <b>Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. Can be toggled with the "Mask" parameter. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Channels</b> | Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness. |
+| <b>Advanced</b> |  |
+| <b>Normal Format</b> <i>DirectX, OpenGL</i> | Switches between different Normalmap formats (inverts the green channel). |
+| <b>Mask</b> <i>False/True</i> | Toggles the use of the Mask map on or off. |
+| <b>Effect</b> |  |
+| <b>Moss Propagation</b> <i>0.0 - 1.0</i> | Sets the spread of the moss. Grows in steps from slight coverage to heavy, thick, dark moss. |
+| <b>Blending</b> |  |
+| <b>Diffuse Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Diffuse. |
+| <b>Base Color Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Base Color. |
+| <b>Normal Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Normal. |
+| <b>Specular Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Specular. |
+| <b>Glossiness Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Glossiness. |
+| <b>Roughness Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Roughness. |
+| <b>Ambient Occlusion Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Ambient Occlusion. |
+| <b>Height Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Height. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="moss-weathering.resources/moss-ex.gif" />
+        </td>
+    </tr>
 </table>

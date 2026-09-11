@@ -16,13 +16,9 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/spline-select-icon.png "Node icon")
+![Node icon](spline-select.resources/spline-select-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Spline Tools
 
@@ -39,78 +35,45 @@ Selected splines can also be trimmed.
 </tr>
 </table>
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Preview</b> *Grayscale*The preview of the input splines as a grayscale image.
+## Inputs
 
-<b>Spline Coords</b> *Color*The coordinates of the input splines’ points encoded in the RGBA channels of a color image:  
-<b>    R</b> - X position  
-<b>    G</b> - Y position  
-<b>    B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
+|  |  |
+|:---|:---|
+| <b>Preview</b> <i>Grayscale</i> | The preview of the input splines as a grayscale image. |
+| <b>Spline Coords</b> <i>Color</i> | The coordinates of the input splines’ points encoded in the RGBA channels of a color image:<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>&nbsp;&nbsp;- Sign: Spline is closed (negative) or open (positive);<br>&nbsp;&nbsp;- Absolute value: Thickness + 1. |
+| <b>Spline Data</b> <i>Color</i> | Additional data of the input splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
+| <b>Spline Amount</b> <i>Integer</i> | The number of input splines. |
 
-<b>Spline Data</b> *Color*Additional data of the input splines encoded in the RGBA channels of a color image.  
-<b>    R</b> - Tangents X  
-<b>    G</b> - Tangents Y  
-<b>    B</b> - Unused  
-<b>    A</b> - Unused
+<a name="outputs"></a>
 
-<b>Spline Amount</b> *Integer*The number of input splines.
+## Outputs
 
-## Output connectors
+|  |  |
+|:---|:---|
+| <b>Preview</b> <i>Grayscale</i> | The preview of the output splines as a grayscale image. |
+| <b>Spline Coords</b> <i>Color</i> | The coordinates of the output splines’ points encoded in the RGBA channels of a color image.<br><b>R</b> - X position<br><b>G</b> - Y position<br><b>B</b> - Height<br><b>A</b> - Packed data:<br>&nbsp;&nbsp;- Sign: Spline is closed (negative) or open (positive);<br>&nbsp;&nbsp;- Absolute value: Thickness + 1. |
+| <b>Spline Data</b> <i>Color</i> | Additional data of the output splines encoded in the RGBA channels of a color image.<br><b>R</b> - Tangents X<br><b>G</b> - Tangents Y<br><b>B</b> - Unused<br><b>A</b> - Unused |
+| <b>Spline Amount</b> <i>Integer</i> | The number of output splines. |
 
-<b>Preview</b> *Grayscale*The preview of the output splines as a grayscale image.
-
-<b>Spline Coords</b> *Color*The coordinates of the output splines’ points encoded in the RGBA channels of a color image.  
-    <b>R</b> - X position  
-    <b>G</b> - Y position  
-    <b>B</b> - Height  
-    <b>A</b> - Packed data:  
-        * Sign: Spline is closed (negative) or open (positive);  
-        * Absolute value: Thickness + 1.
-
-<b>Spline Data</b> *Color*Additional data of the output splines encoded in the RGBA channels of a color image.  
-    <b>R</b> - Tangents X  
-    <b>G</b> - Tangents Y  
-    <b>B</b> - Unused  
-    <b>A</b> - Unused
-
-<b>Spline Amount</b> *Integer*The number of output splines.
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Selection Mode</b> *Integer*The method of selecting the splines in the input list:  
-*- First*: Selects the first spline in the list;  
-*- Last*: Selects the last spline in the list;  
-*- Index*: Selects the spline with specified index;  
-*- Range*: Selects the splines which indexes are included in the specified range.
-
-<b>Spline Index</b> *Integer* (Available when ‘Selection Mode’ is set to ‘Index’)The index of the spline which should be selected.
-
-<b>Range Start</b> *Integer* (Available when ‘Selection Mode’ is set to ‘Range’)The lowest index in the range of selected splines.
-
-<b>Range End</b> *Integer* (Available when ‘Selection Mode’ is set to ‘Range’)The highest index in the range of selected splines.<b></b>
-
-<b>Start</b> *Float*Offsets the start of the portion of the spline which should be selected. This effectively trims the spline.  
-The value represents the normalized length of the spline.
-
-<b>End</b> *Float*Offsets the end of the portion of the spline which should be selected. This effectively trims the spline.  
-The value represents the normalized length of the spline.
-
-+++Preview
-<b>Segments Amount</b> *Integer*Adjusts the number of segments used to draw the spline visualization in the Preview output.  
-A higher value results in a smoother line.
-
-<b>Show Direction Helper</b> *Boolean*Displays a dot at the start of the spline and an arrowhead at its end in the Preview output.
-
-<b>Show Thickness Envelope</b> *Boolean*  
-Displays additional lines at the edges of the spline’s thickness.
-
-<b>Thickness (px)</b> *Float*Adjusts the thickness of the spline visualization in pixels in the Preview output.
-
-+++
+|  |  |
+|:---|:---|
+| <b>Selection Mode</b> <i>Integer</i> | The method of selecting the splines in the input list:<br>- <i>First</i>: Selects the first spline in the list;<br>- <i>Last</i>: Selects the last spline in the list;<br>- <i>Index</i>: Selects the spline with specified index;<br>- <i>Range</i>: Selects the splines which indexes are included in the specified range. |
+| <b>Spline Index</b> <i>Integer</i> | (Available when ‘Selection Mode’ is set to ‘Index’) The index of the spline which should be selected. |
+| <b>Range Start</b> <i>Integer</i> | (Available when ‘Selection Mode’ is set to ‘Range’) The lowest index in the range of selected splines. |
+| <b>Range End</b> <i>Integer</i> | (Available when ‘Selection Mode’ is set to ‘Range’) The highest index in the range of selected splines. |
+| <b>Start</b> <i>Float</i> | Offsets the start of the portion of the spline which should be selected. This effectively trims the spline.<br>The value represents the normalized length of the spline. |
+| <b>End</b> <i>Float</i> | Offsets the end of the portion of the spline which should be selected. This effectively trims the spline.<br>The value represents the normalized length of the spline. |
+| <b>Preview</b> |  |
+| <b>Segments Amount</b> <i>Integer</i> | Adjusts the number of segments used to draw the spline visualization in the Preview output.<br>A higher value results in a smoother line. |
+| <b>Show Direction Helper</b> <i>Boolean</i> | Displays a dot at the start of the spline and an arrowhead at its end in the Preview output. |
+| <b>Show Thickness Envelope</b> <i>Boolean</i> | Displays additional lines at the edges of the spline’s thickness. |
+| <b>Thickness (px)</b> <i>Float</i> | Adjusts the thickness of the spline visualization in pixels in the Preview output. |
 
 ## Examples
 
@@ -121,11 +84,11 @@ Displays additional lines at the edges of the spline’s thickness.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
+      <img src="spline-select.resources/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-Variant1-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
+      <img src="spline-select.resources/SplineSelect-Variant1-After2.jpg" alt="SplineSelect-Variant1-After2">
       <br><i>After</i>
     </td>
   </tr>
@@ -137,11 +100,11 @@ Displays additional lines at the edges of the spline’s thickness.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
+      <img src="spline-select.resources/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
+      <img src="spline-select.resources/SplineSelect-Variant2-After.jpg" alt="SplineSelect-Variant2-After">
       <br><i>After</i>
     </td>
   </tr>
@@ -155,21 +118,7 @@ Displays additional lines at the edges of the spline’s thickness.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 1](../../../../../../assets/SplineSelect-Demo.gif "Node example 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Node example 1](spline-select.resources/SplineSelect-Demo.gif "Node example 1")
 
 </td>
 <td style="border: 0;" valign="top">

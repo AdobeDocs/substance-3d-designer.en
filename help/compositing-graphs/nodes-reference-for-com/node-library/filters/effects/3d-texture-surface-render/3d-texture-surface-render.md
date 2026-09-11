@@ -16,16 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesurfacerender.png){width="200px"}
+![](3d-texture-surface-render.resources/3dtexturesurfacerender.png){width="200px"}
 
-**In:** *Filter/Effect*
-
-**Simple**
+<b>In:</b> Filter &gt; Effect
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -42,75 +40,50 @@ The surface is represented within the bounds of a *unit cube*. The lighting is c
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>3D Distance Field</b> <i>Grayscale</i> | The 4096x4096 image representing the 256 <i>slices</i> of a shape's <i>distance field</i>, arranged in a 16x16 grid.<br>You may use the [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the distance field for a 3D texture of 256 slices. |
+| <b>Environment</b> <i>Color</i> | The image representing the <i>environment</i> which should be mapped to an infinite sphere in the render, and used for computing the <i>lighting</i>.<br>The image is also used to render the scene background when the <b>Background Mode</b> parameter is set to <i>Ambient</i> or <i>Environment</i>. |
+
+<a name="parameters"></a>
+
 ## Parameters
 
-### Inputs
+|  |  |
+|:---|:---|
+| <b>Output Resolution</b> <i>Integer2</i> | The resolution of the output image in <b>X</b> and <b>Y</b>, expressed as a <i>power of two</i>. |
+| <b>Camera Position</b> <i>Float2</i> | The position of the camera around the shape.<br>When the node is selected, you may use the position gizmo in the <b>2D View</b> to <i>orbit</i> the camera. |
+| <b>Camera Distance</b> <i>Float</i> | The distance from the camera to the shape. |
+| <b>Camera FOV</b> <i>Float</i> | The field of view of the camera in <i>degrees</i>. |
+| <b>Albedo</b> <i>Float3</i> | The albedo color of the shape's surface. |
+| <b>Background Mode</b> <i>Integer</i> | The method of representing the background of the rendered scene:<br>- <i>Ground Irradiance</i>: The computed irradiance of the ground plane<br>- <i>Ambient</i>: The ambient color of the <b>Environment</b> image input mapped to an infinite sphere, which is akin to a strongly blurred version of the image<br>- <i>Uniform Color</i>: Uniformly fill the background with a specified color<br>- <i>Environment</i>: The <b>Environment</b> image input mapped to an infinite sphere |
+| <b>Background Color</b> <i>Float4</i> | The color used to uniformly fill the background of the rendered scene.<br><i>Note</i>: This parameter is only available when the <b>Background Mode</b> parameter is set to <i>Uniform Color</i>. |
+| <b>Enable Ground Plane</b> <i>Boolean</i> | When <i>True</i>, renders a ground plane. The <i>unit cube</i> enclosing the shape rests on this plane. |
+| <b>Infinite Plane</b> <i>Boolean</i> | Sets the ground plane to <i>extend infinitely</i> to the horizon.<br><i>Note</i>: This parameter is only available when the <b>Enable Ground Plane</b> parameter is set to <i>True</i>. |
+| <b>Ground Plane Size</b> <i>Float2</i> | Adjusts the size of the ground plane.<br><i>Note</i>: This parameter is only available when the <b>Enable Ground Plane</b> parameter is set to <i>True</i> and the <b>Infinite Plane</b> parameter is set to <i>False</i>. |
 
-* **3D Distance Field** *Grayscale*  
-  The 4096x4096 image representing the 256 *slices* of a shape's *distance field*, arranged in a 16x16 grid.  
-  You may use the [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) node to compute the distance field for a 3D texture of 256 slices.
-* **Environment** *Color*  
-  The image representing the *environment* which should be mapped to an infinite sphere in the render, and used for computing the *lighting*.  
-  The image is also used to render the scene background when the **Background Mode** parameter is set to *Ambient* or *Environment*.
+## Examples
 
-### Parameters
-
-* **Output Resolution** *Integer2*  
-  The resolution of the output image in **X** and **Y**, expressed as a *power of two*.
-* **Camera Position** *Float2*  
-  The position of the camera around the shape.  
-  When the node is selected, you may use the position gizmo in the **2D View** to *orbit* the camera.
-* **Camera Distance** *Float*  
-  The distance from the camera to the shape.
-* **Camera FOV** *Float*  
-  The field of view of the camera in *degrees*.
-* **Albedo** *Float3*  
-  The albedo color of the shape's surface.
-* **Background Mode** *Integer*  
-  The method of representing the background of the rendered scene:  
-  * *Ground Irradiance*: The computed irradiance of the ground plane  
-  * *Ambient*: The ambient color of the **Environment** image input mapped to an infinite sphere, which is akin to a strongly blurred version of the image  
-  * *Uniform Color*: Uniformly fill the background with a specified color  
-  * *Environment*: The **Environment** image input mapped to an infinite sphere
-* **Background Color** *Float4*  
-  The color used to uniformly fill the background of the rendered scene.  
-  *Note*: This parameter is only available when the **Background Mode** parameter is set to *Uniform Color*.
-* **Enable Ground Plane** *Boolean*  
-  When *True*, renders a ground plane. The *unit cube* enclosing the shape rests on this plane.
-* **Infinite Plane** *Boolean*  
-  Sets the ground plane to *extend infinitely* to the horizon.  
-  *Note*: This parameter is only available when the **Enable Ground Plane** parameter is set to *True*.
-* **Ground Plane Size** *Float2*Adjusts the size of the ground plane.  
-  *Note*: This parameter is only available when the **Enable Ground Plane** parameter is set to *True* and the **Infinite Plane** parameter is set to *False*.
-
-## Example Images
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesurfacerender-node.png){width="512px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant3.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-variant4.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-surface-render.resources/3dtexturesurfacerender-node.png" />
+        </td>
+    </tr>
 </table>

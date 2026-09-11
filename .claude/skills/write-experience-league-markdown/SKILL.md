@@ -61,11 +61,13 @@ either fails lint/link-check CI or renders incorrectly on the live site.
 
 * `![Alt text](path/to/image.png "Optional hover title")`.
 * Optional sizing/optimization query params are supported:
-  `![Adobe logo](assets/logo.png?width=750&format=png&optimize=medium)`.
+  `![Adobe logo](my-page.resources/logo.png?width=750&format=png&optimize=medium)`.
 * **Alt text must not contain underscores** — they don't render correctly;
   use hyphens or spaces instead.
-* Page-specific images live in `<page-name>.resources/`; shared/app icons
-  live in `help/assets/` (see CLAUDE.md).
+* Page-specific images live in a sibling `<page-name>.resources/` folder
+  next to the `.md`, referenced relatively (e.g.
+  `<page-name>.resources/image.png`). `help/assets/` is a legacy shared
+  folder — don't add new images there (see CLAUDE.md).
 
 ## Tables
 

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Hash node: icon](../../../../../assets/hash-icon.png "Hash node: icon"){width="200px"}
+![Hash node: icon](hash-functions.resources/hash-icon.png "Hash node: icon"){width="200px"}
 
 <b>In:</b> Functions &gt; Random
 
@@ -76,12 +76,12 @@ Available versions, with their input type and output type:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Hash 14 example](../../../../../assets/hash14-example.png "Hash 14 example"){zoomable="yes"}
+![Hash 14 example](hash-functions.resources/hash14-example.png "Hash 14 example"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Hash 32 example](../../../../../assets/hash32-example.png "Hash 32 example"){zoomable="yes"}
+![Hash 32 example](hash-functions.resources/hash32-example.png "Hash 32 example"){zoomable="yes"}
 
 </td>
 </tr>

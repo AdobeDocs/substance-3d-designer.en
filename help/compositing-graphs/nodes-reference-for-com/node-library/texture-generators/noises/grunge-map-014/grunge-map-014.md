@@ -16,37 +16,41 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-014.png){width="128px"}
+![](grunge-map-014.resources/grungemap-014.png){width="128px"}
 
-## Grunge Map 014
-
-**In:** *Texture Generators**/Noises*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Noises
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 This generates a complex, combined Noisemap. It can be very useful as a detailed procedural, but keep in mind these are very performance-intensive and thus slower to generate.
 
-## Parameters
-
-* **Balance**: *0.0 - 1.0*
-* **Contrast**: *0.0 - 1.0*
-* **Invert**: *False/True*
-* **Brush Pattern**: *0.0 - 1.0*  
-  Adds a mask around the edges, for when used as a brush alpha.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-
-## Example Images
-
-![](../../../../../../assets/grungemap-014-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Balance</b> <i>0.0 - 1.0</i> |  |
+| <b>Contrast</b> <i>0.0 - 1.0</i> |  |
+| <b>Invert</b> <i>False/True</i> |  |
+| <b>Brush Pattern</b> <i>0.0 - 1.0</i> | Adds a mask around the edges, for when used as a brush alpha. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-map-014.resources/grungemap-014-ex.gif" />
+        </td>
+    </tr>
 </table>

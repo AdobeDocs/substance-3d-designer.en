@@ -32,4 +32,4 @@ Each Iterate node has two connectors along its base. The left connector is a pas
 
 Note that the pass-through image is always passed through untouched, regardless of the Iteration parameter’s setting.
 
-![](../../../assets/iterate.jpg)
+![](the-iterate-node.resources/iterate.jpg)

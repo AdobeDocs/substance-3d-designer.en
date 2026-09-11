@@ -18,4 +18,4 @@ Comparison nodes compares the the result of the upper input, to the the result o
 
 It returns either True of False, depending of the result of the comparison:
 
-![](../../../../assets/image2015-12-23-11-57-3.png)
+![](comparison-nodes.resources/image2015-12-23-11-57-3.png)

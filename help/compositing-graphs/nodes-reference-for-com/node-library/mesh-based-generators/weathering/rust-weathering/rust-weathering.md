@@ -16,73 +16,66 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rust-weathering.png){width="128px"}
+![](rust-weathering.resources/rust-weathering.png){width="128px"}
 
-## Rust Weathering
-
-**In:** *Mesh Based Generators**/Weathering*
-
-**Complex**
+<b>In:</b> Mesh Based Generators &gt; Weathering
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-## Parameters
-
-### Inputs
-
-* **Ambient Occlusion**: *Grayscale Input*   
-  Baked map used for internal effects and masking.
-* **Curvature**: *Grayscale Input*   
-  Baked map used for internal effects and masking.
-* **Position**: *Color Input*
-* **Mask** : *Grayscale Input*   
-  Mask slot used for masking the node's effects. Can be toggled with the "Mask" parameter.
-
-### Parameters
-
-* **Channels**   
-  * Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness.
-* **Advanced**   
-  * **Normal Format**: *DirectX, OpenGL*  
-    Switches between different Normalmap formats (inverts the green channel).
-  * **Mask**: *False/True*  
-    Toggles the use of the Mask map on or off.
-* **Effect**   
-  * **Rust Spreading**: *0.0 - 1.0*
-  * **Spreading Smoothness**: *0.0 - 1.0*
-  * **Vernish Damage Scale**: *0.0 - 1.0*
-  * **Drips Intensity**: *0.0 - 1.0*
-  * **Drips Samples Amount**: *0 - 32*
-  * **Drips Smoothness**: *0.0 - 1.0*
-* **Blending**   
-  * **Diffuse Intensity**: *0.0 - 1.0*  
-    Blending strength of the Diffuse.
-  * **Base Color Intensity**: *0.0 - 1.0*  
-    Blending strength of the Base Color.
-  * **Normal Intensity**: *0.0 - 32.0*  
-    Blending strength of the Normal.
-  * **Specular Intensity**: *0.0 - 1.0*  
-    Blending strength of the Specular.
-  * **Glossiness Intensity**: *0.0 - 1.0*  
-    Blending strength of the Glossiness.
-  * **Roughness Intensity**: *0.0 - 1.0*  
-    Blending strength of the Roughness.
-  * **Metallic Intensity**: *0.0 - 1.0*  
-    Blending strength of the Metallic.
-  * **Ambient Occlusion Intensity**: *0.0 - 1.0*  
-    Blending strength of the Ambient Occlusion.
-  * **Height Intensity**: *0.0 - 1.0*  
-    Blending strength of the Height.
-
-## Example Images
-
-![](../../../../../../assets/rust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. |
+| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. |
+| <b>Position</b> <i>Color Input</i> |  |
+| <b>Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. Can be toggled with the "Mask" parameter. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Channels</b> | Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness. |
+| <b>Advanced</b> |  |
+| <b>Normal Format</b> <i>DirectX, OpenGL</i> | Switches between different Normalmap formats (inverts the green channel). |
+| <b>Mask</b> <i>False/True</i> | Toggles the use of the Mask map on or off. |
+| <b>Effect</b> |  |
+| <b>Rust Spreading</b> <i>0.0 - 1.0</i> |  |
+| <b>Spreading Smoothness</b> <i>0.0 - 1.0</i> |  |
+| <b>Vernish Damage Scale</b> <i>0.0 - 1.0</i> |  |
+| <b>Drips Intensity</b> <i>0.0 - 1.0</i> |  |
+| <b>Drips Samples Amount</b> <i>0 - 32</i> |  |
+| <b>Drips Smoothness</b> <i>0.0 - 1.0</i> |  |
+| <b>Blending</b> |  |
+| <b>Diffuse Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Diffuse. |
+| <b>Base Color Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Base Color. |
+| <b>Normal Intensity</b> <i>0.0 - 32.0</i> | Blending strength of the Normal. |
+| <b>Specular Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Specular. |
+| <b>Glossiness Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Glossiness. |
+| <b>Roughness Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Roughness. |
+| <b>Metallic Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Metallic. |
+| <b>Ambient Occlusion Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Ambient Occlusion. |
+| <b>Height Intensity</b> <i>0.0 - 1.0</i> | Blending strength of the Height. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="rust-weathering.resources/rust-ex.gif" />
+        </td>
+    </tr>
 </table>

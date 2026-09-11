@@ -26,11 +26,11 @@ This page lists technical issues related to [baking textures](../../bakers/baker
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>!&#91;(error)&#93;(../../assets/error.svg) Issue</b>
+<b>![(error)](baking-issues.resources/error.svg) Issue</b>
 
 When the 'Match' option is set to 'By mesh name', the matching does not appear to be applied, or not consistently across all scene objects.
 
-<b>!&#91;(tick)&#93;(../../assets/check.svg) Recommended steps</b>
+<b>![(tick)](baking-issues.resources/check.svg) Recommended steps</b>
 
 In Designer versions 14.1 and lower, low poly and high poly objects were matched using the name of their *parent* objects – in most cases, their parent transform.
 
@@ -39,7 +39,7 @@ Since Designer 15.0, the name of the *geometry* objects are used directly.
 </td>
 <td style="border: 0;" valign="top">
 
-![Geometry object and its parent in the scene tree](../../assets/sceneTree_objectsName.png "Geometry object and its parent in the scene tree"){zoomable="yes"}
+![Geometry object and its parent in the scene tree](baking-issues.resources/sceneTree_objectsName.png "Geometry object and its parent in the scene tree"){zoomable="yes"}
 
 </td>
 </tr>

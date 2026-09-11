@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Anisotropic Kuwahara Grayscale icon](../../../../../../assets/directional_distance.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
+![Anisotropic Kuwahara Grayscale icon](directional-distance.resources/directional_distance.png "Anisotropic Kuwahara Grayscale icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -41,45 +41,31 @@ The distance of the gradient can be dynamically adjusted along the border using 
 >
 > The [Bevel smooth](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md) node offers similar capabilities, where the dilation is performed in all directions.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Input</b> *Grayscale* PRIMARY | The image from which the mask should be extracted.   All values above 0.5 are white in that mask. |
-| <b>Distance map</b> *Grayscale* | An optional input used when the value of the 'Distance Map Multiplier' parameter is higher than 0.   It is used to adjust the beveling/dilation distance along the borders of the mask, where a darker value results in a shorter distance. |
-| <b>Angle map</b> *Grayscale* | An optional input used when the value of the 'Angle Map Multiplier' parameter is higher than 0.   It is used to adjust the direction of the distance gradient by adding its value to the direction angle, in number of turns.   The 'Angle Map Offset' parameter lets you remap the values by specifying which value is 0. |
+|:---|:---|
+| <b>Input</b> <i>Grayscale</i> PRIMARY | The image from which the mask should be extracted.   All values above 0.5 are white in that mask. |
+| <b>Distance map</b> <i>Grayscale</i> | An optional input used when the value of the 'Distance Map Multiplier' parameter is higher than 0.   It is used to adjust the beveling/dilation distance along the borders of the mask, where a darker value results in a shorter distance. |
+| <b>Angle map</b> <i>Grayscale</i> | An optional input used when the value of the 'Angle Map Multiplier' parameter is higher than 0.   It is used to adjust the direction of the distance gradient by adding its value to the direction angle, in number of turns.   The 'Angle Map Offset' parameter lets you remap the values by specifying which value is 0. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* | The result image according to the selected 'Output Mode'. |
-| <b>UV</b> *Color* | A UV map where the UVs are dilated from the mask borders along the specified direction.   This can be connected to a [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) node to map any other image using these dilated UVs. |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The result image according to the selected 'Output Mode'. |
+| <b>UV</b> <i>Color</i> | A UV map where the UVs are dilated from the mask borders along the specified direction.   This can be connected to a [UV Mapper](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) node to map any other image using these dilated UVs. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Output mode</b> *Integer* | The method of drawing the distance gradient from the mask borders:<ul data-preserve-html="true"> <li data-preserve-html="true"><b>Inverted Normalized Distance:</b> A gradient from 1 to 0 where 0 is reached at the 'Maximum Distance', multiplied by the 'Distance Map' if connected</li> <li data-preserve-html="true"><b>Distance:</b> A gradient of raw distance values from the mask border, where 1 is the length of the shorter side of the input image</li> </ul> |
 | <b>Maximum distance</b> *Float* | The distance travelled by the distance gradient, in normalized image space where 1 is the length of the shorter side of the input image. |
 | <b>Angle</b> *Float* | The direction of the distance gradient in number of turns, where 0 is horizontal and to the right – I.e., a (1,0) vector. |
@@ -96,11 +82,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_1_before.jpg" alt="directional_distance_example_1_before">
+      <img src="directional-distance.resources/directional_distance_example_1_before.jpg" alt="directional_distance_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_1_after.jpg" alt="directional_distance_example_1_after">
+      <img src="directional-distance.resources/directional_distance_example_1_after.jpg" alt="directional_distance_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -112,11 +98,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_3_before.jpg" alt="directional_distance_example_3_before">
+      <img src="directional-distance.resources/directional_distance_example_3_before.jpg" alt="directional_distance_example_3_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_3_after.jpg" alt="directional_distance_example_3_after">
+      <img src="directional-distance.resources/directional_distance_example_3_after.jpg" alt="directional_distance_example_3_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -133,11 +119,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_2_before.jpg" alt="directional_distance_example_2_before">
+      <img src="directional-distance.resources/directional_distance_example_2_before.jpg" alt="directional_distance_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_2_after.jpg" alt="directional_distance_example_2_after">
+      <img src="directional-distance.resources/directional_distance_example_2_after.jpg" alt="directional_distance_example_2_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -149,11 +135,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_5_before.jpg" alt="directional_distance_example_5_before">
+      <img src="directional-distance.resources/directional_distance_example_5_before.jpg" alt="directional_distance_example_5_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_5_after.jpg" alt="directional_distance_example_5_after">
+      <img src="directional-distance.resources/directional_distance_example_5_after.jpg" alt="directional_distance_example_5_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -166,11 +152,11 @@ The distance of the gradient can be dynamically adjusted along the border using 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_4_before.jpg" alt="directional_distance_example_4_before">
+      <img src="directional-distance.resources/directional_distance_example_4_before.jpg" alt="directional_distance_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/directional_distance_example_4_after.jpg" alt="directional_distance_example_4_after">
+      <img src="directional-distance.resources/directional_distance_example_4_after.jpg" alt="directional_distance_example_4_after">
       <br><i>After</i>
     </td>
   </tr>

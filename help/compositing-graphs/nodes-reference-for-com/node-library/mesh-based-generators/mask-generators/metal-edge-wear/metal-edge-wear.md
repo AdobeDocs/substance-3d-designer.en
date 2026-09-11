@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/metal-edge-wear.png){width="128px"}
+![](metal-edge-wear.resources/metal-edge-wear.png){width="128px"}
 
-## Metal Edge Wear
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Complex**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,37 +31,46 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask represents edge wear on a metal object, with scratches and chips appearing on Convex raised edges, potentially masked out by baked AO dark areas.
 
-## Parameters
-
-### Inputs
-
-* **Curvature**: *Grayscale Input*   
-  Baked map used for internal effects and masking.
-* **Ambient Occlusion**: *Grayscale Input*   
-  Baked map used for internal effects and masking.
-* **Grunge Input**: *Grayscale Input*
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-* **World Space Normal**: *Color Input*
-* **Position**: *Color Input*
-
-### Parameters
-
-* **Wear Level**: *0.0 - 1.0*Sets the total amount of wear, gradually reveals.
-* **Wear Contrast**: *0.0 - 1.0*Sets the contrast of the final result.
-* **Edges Smoothness**: *0.0 - 16.0*Sets smoothness of the falloff from the edges from the Curvature.
-* **Grunge Amount**: *0.0 - 1.0*Sets amount of grunge to blend in between edges.
-* **Grunge Scale**: *1 - 16*Sets the scale of the Grunge.
-* **Ambient Occlusion Masking**: *0.0 - 1.0*Sets amount of effect the AO has on the final effect, dark areas being masked out.
-* **Curvature Weight**: *0.0 - 1.0*Sets amount of effect the Convex edges from the Curvature have on the final effect.
-* **Use Custom Grunge**: *False/True*Enables a custom Grunge map input slot.
-* **Use Triplanar**: *False/True*Enable [Tri Planar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) projection to hide seams.
-* **Triplanar Blending Contrast**: *0.0 - 1.0*Sets blending contrast for the Triplanar Projection.
-
-## Example Images
-
-![](../../../../../../assets/metal-edge-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. |
+| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. |
+| <b>Grunge Input</b> <i>Grayscale Input</i> |  |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+| <b>World Space Normal</b> <i>Color Input</i> |  |
+| <b>Position</b> <i>Color Input</i> |  |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Wear Level</b> <i>0.0 - 1.0</i> | Sets the total amount of wear, gradually reveals. |
+| <b>Wear Contrast</b> <i>0.0 - 1.0</i> | Sets the contrast of the final result. |
+| <b>Edges Smoothness</b> <i>0.0 - 16.0</i> | Sets smoothness of the falloff from the edges from the Curvature. |
+| <b>Grunge Amount</b> <i>0.0 - 1.0</i> | Sets amount of grunge to blend in between edges. |
+| <b>Grunge Scale</b> <i>1 - 16</i> | Sets the scale of the Grunge. |
+| <b>Ambient Occlusion Masking</b> <i>0.0 - 1.0</i> | Sets amount of effect the AO has on the final effect, dark areas being masked out. |
+| <b>Curvature Weight</b> <i>0.0 - 1.0</i> | Sets amount of effect the Convex edges from the Curvature have on the final effect. |
+| <b>Use Custom Grunge</b> <i>False/True</i> | Enables a custom Grunge map input slot. |
+| <b>Use Triplanar</b> <i>False/True</i> | Enable [Tri Planar](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) projection to hide seams. |
+| <b>Triplanar Blending Contrast</b> <i>0.0 - 1.0</i> | Sets blending contrast for the Triplanar Projection. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="metal-edge-wear.resources/metal-edge-wear-ex.gif" />
+        </td>
+    </tr>
 </table>

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Comment icon](../../../../assets/graphatomic-comment_1.png "Comment icon")
+![Comment icon](comment.resources/graphatomic-comment_1.png "Comment icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ Comment that are created when a *single* node is currently selected, or through 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Comments: Parented comments](../../../../assets/graph-comment_parented.gif "Comments: Parented comments")
+![Comments: Parented comments](comment.resources/graph-comment_parented.gif "Comments: Parented comments")
 
 </td>
 </tr>
@@ -93,10 +93,10 @@ Comment that are created when a *single* node is currently selected, or through 
 
 ## HTML formatting
 
-Text can be formatted using HTML tags. This formatting is toggled using the ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML markup</b> button in the comment's <b>Description</b> property.
+Text can be formatted using HTML tags. This formatting is toggled using the ![](comment.resources/graph-frames_html-markup-button.png) <b>HTML markup</b> button in the comment's <b>Description</b> property.
 
 >[!TIP]
 >
 > Learn more about this feature in the <b>Description</b> section of the [Frames](../../../../interface/the-graph-view/graph-items/frame/frame.md) documentation.
 
-![Comments: HTML markup](../../../../assets/graph-comment_html-markup.gif "Comments: HTML markup")
+![Comments: HTML markup](comment.resources/graph-comment_html-markup.gif "Comments: HTML markup")

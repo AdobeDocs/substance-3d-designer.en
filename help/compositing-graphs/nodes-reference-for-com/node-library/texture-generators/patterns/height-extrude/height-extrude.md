@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-extrude.png){width="200px"}
+![](height-extrude.resources/height-extrude.png){width="200px"}
 
-## Height Extrude
-
-**In:** *Texture Generators**/Patterns*
-
-**Intermediate**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,25 +31,20 @@ Height Extrude renders 3D Z-Depth from an input Height map. Just like [Shape Ext
 
 The main diffence with [Shape Extrude](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-extrude/shape-extrude.md) is that the input map does not have to be a binary "alpha" type of map, but a full-range grayscale map. This means you have more control over the extrusion height (Organic, complex shapes), but no control over anything like beveling profiles (Hard-Surface, simpler shapes).
 
-## Parameters
-
-* **Camera Angle**:   
-  Euler angles of the camera, in half-turns. Please note that horizontal rotation and scale are applied directly to the input.
-* **Camera Scale**: *0.001 - 3.0*  
-  Global scale applied to the output.
-* **Height Scale**: *0.0 - 2.0*  
-  Applies a global factor on the input height values.
-* **Vertical Offset**: *-1.0 - 1.0*  
-  Moves the final output up or down.
-* **Ground**: *Off/On*  
-  If Ground is off, a black background is shown where the input is 0 rather than a ground-like plane.
-* **Normal Format**: *DirectX/OpenGL*  
-  The **Normal Format** parameter inverts y coordinate of the normal map.
-* **Normal Intensity**: *0.0 - 256.0*  
-  Same as **Intensity** parameter of **Normal** node. Set it to 256 to get a shar-free normal while rotating.
-
-## Example Images
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Camera Angle</b> | Euler angles of the camera, in half-turns. Please note that horizontal rotation and scale are applied directly to the input. |
+| <b>Camera Scale</b> <i>0.001 - 3.0</i> | Global scale applied to the output. |
+| <b>Height Scale</b> <i>0.0 - 2.0</i> | Applies a global factor on the input height values. |
+| <b>Vertical Offset</b> <i>-1.0 - 1.0</i> | Moves the final output up or down. |
+| <b>Ground</b> <i>Off/On</i> | If Ground is off, a black background is shown where the input is 0 rather than a ground-like plane. |
+| <b>Normal Format</b> <i>DirectX/OpenGL</i> | The <b>Normal Format</b> parameter inverts y coordinate of the normal map. |
+| <b>Normal Intensity</b> <i>0.0 - 256.0</i> | Same as <b>Intensity</b> parameter of <b>Normal</b> node. Set it to 256 to get a shar-free normal while rotating. |

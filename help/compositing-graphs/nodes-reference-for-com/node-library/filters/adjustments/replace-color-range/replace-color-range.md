@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color-range.png){width="128px"}
+![](replace-color-range.resources/replace-color-range.png){width="128px"}
 
-## Replace Color Range
-
-**In:** *Filters/Adjustments*
-
-**Simple**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,20 +31,27 @@ Replaces Source Color by Target Color, with additional controls. Can for example
 
 For a more advanced version, see [Color Match.](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
 
-## Parameters
-
-* **Source Color**: *(Color value)*Color to replace.
-* **Target Color**: *(Color value)*Color to replace with.
-* **Source Range**: *0.0 -* 1.0  
-  Range or tolerance of the picked Source. Can be increased so further neighbouring colours are also hue-shifted.
-* **Threshold**: *0.0 - 1.0*Falloff/contrast for range. Set low to replace only Source color, set higher to replace colors blending into Source as well.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-range-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Source Color</b> <i>(Color value)</i> | Color to replace. |
+| <b>Target Color</b> <i>(Color value)</i> | Color to replace with. |
+| <b>Source Range</b> <i>0.0 - 1.0</i> | Range or tolerance of the picked Source. Can be increased so further neighbouring colours are also hue-shifted. |
+| <b>Threshold</b> <i>0.0 - 1.0</i> | Falloff/contrast for range. Set low to replace only Source color, set higher to replace colors blending into Source as well. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="replace-color-range.resources/replace-color-range-example.png" />
+        </td>
+    </tr>
 </table>
