@@ -16,11 +16,11 @@ user-guide-title: ""
 
 The activation process depends on where you purchased or have access to Designer:
 
-| Edition | Activation process |
-| --- | --- |
-| Creative Cloud Desktop | See the dedicated page in the [HelpX documentation](https://helpx.adobe.com/support/substance-3d-designer.html). In case there are any issues the [Creative Cloud documentation](https://helpx.adobe.com/creative-cloud/user-guide.html) may provide additional answers. |
-| Steam | Launch the product directly from your Steam library. |
-| Substance (standalone) | See the activation process described below. |
+| Edition                      | Activation process                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Creative Cloud Desktop (CCD) | Install the product from the CCD app, then launch it. Go to these pages if you experience issues with your license: [Apps won't launch due to subscription error](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Account, plans, and billing help](https://helpx.adobe.com/account/individual.html) |
+| Steam                        | Launch the product directly from your Steam library.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Substance (standalone)       | See the activation process described below.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ## Activation steps (Substance edition)
 
