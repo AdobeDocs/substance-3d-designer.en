@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Navigation pin icon](../../../../assets/graphatomic-pin_1.png "Navigation pin icon")
+![Navigation pin icon](navigation-pin.resources/graphatomic-pin_1.png "Navigation pin icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -72,4 +72,4 @@ In any graph type, pressing the <b>F2</b> cycles through all pins in that graph 
 
 Pins will be framed in the viewport at the current zoom level.
 
-![Pins: Jumping to pins](../../../../assets/graph-pin_jumping.gif "Pins: Jumping to pins")
+![Pins: Jumping to pins](navigation-pin.resources/graph-pin_jumping.gif "Pins: Jumping to pins")
