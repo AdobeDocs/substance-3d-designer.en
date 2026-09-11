@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/scratches-generator.png)
+![](scratches-generator.resources/scratches-generator.png)
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -67,10 +67,10 @@ There's a special version of Scratches Generator, Scratches Generator Normal, wh
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/scratches-ex1.png" />
+            <img src="scratches-generator.resources/scratches-ex1.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/scratches-ex2.png" />
+            <img src="scratches-generator.resources/scratches-ex2.png" />
         </td>
     </tr>
 </table>

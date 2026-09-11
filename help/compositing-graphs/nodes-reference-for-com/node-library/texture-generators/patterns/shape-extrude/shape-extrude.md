@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-extrude.png){width="128px"}
+![](shape-extrude.resources/shape-extrude.png){width="128px"}
 
 <b>In:</b> Texture Generators &gt; Patterns
 
@@ -68,7 +68,7 @@ An advanced node that allows 2d, binary "shape" inputs to be rendered to 3D-rota
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/shape-extrude-1.png" />
+            <img src="shape-extrude.resources/shape-extrude-1.png" />
         </td>
     </tr>
 </table>
