@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/paths-vertex-processor-icon.png "Node icon")
+![Node icon](paths-vertex-processor.resources/paths-vertex-processor-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -52,34 +52,33 @@ You can also access the *prev&#91;2&#93;.pos* (Float2), *next&#91;2&#93;.pos* (F
 >
 > See also [Paths Vertex Processor Simple](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md).
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Paths</b> *Color*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another*Path*-processing node.
+## Inputs
 
-<b>Input &#35;</b> *Color/Grayscale*  
-Inputs for images that should be sampled in the <b>Per Vertex Function</b> parameter function.
+|  |  |
+|:---|:---|
+| <b>Paths</b> <i>Color</i> | A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another*Path*-processing node. |
+| <b>Input &#35;</b> <i>Color/Grayscale</i> | Inputs for images that should be sampled in the <b>Per Vertex Function</b> parameter function. |
 
-## Output connectors
+<a name="outputs"></a>
 
-<b>Paths</b> *Color*  
-The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
+## Outputs
+
+|  |  |
+|:---|:---|
+| <b>Paths</b> <i>Color</i> | The transformed Paths. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Previous Vertices Accessed</b> *Integer*  
-Using this parameter will allow you to get the position of the previous vertex along the path (*prev.pos*) and the previous previous vertex (*prev&#91;2&#93;.pos*) using <b>Get</b> nodes in the <b>Per Vertex Function</b> parameter function.
-
-<b>Next Vertices Accessed</b> *Integer*  
-Using this parameter will allow you to get the position of the following vertex along the path (*next.pos*) and the following following vertex (*next&#91;2&#93;.pos*) using <b>Get</b> nodes in the <b>Per Vertex Function</b> parameter function.
-
-<b>Image Input Count</b> *Integer*  
-The number of visible <b>Input &#35;</b> input connectors to connect images that should be sampled in the <b>Per Vertex Function</b> parameter function.  
-Once you are done setting up all the desired samples, you can hide unused pins by reducing this parameter's value back to 0.
-
-<b>Per Vertex Function</b> *Float2*  
-Function applied for each vertex. Must return the new vertex position.  
-See the <b>Description</b> section in this page for guidance.
+|  |  |
+|:---|:---|
+| <b>Previous Vertices Accessed</b> <i>Integer</i> | Using this parameter will allow you to get the position of the previous vertex along the path (*prev.pos*) and the previous previous vertex (*prev&#91;2&#93;.pos*) using <b>Get</b> nodes in the <b>Per Vertex Function</b> parameter function. |
+| <b>Next Vertices Accessed</b> <i>Integer</i> | Using this parameter will allow you to get the position of the following vertex along the path (*next.pos*) and the following following vertex (*next&#91;2&#93;.pos*) using <b>Get</b> nodes in the <b>Per Vertex Function</b> parameter function. |
+| <b>Image Input Count</b> <i>Integer</i> | The number of visible <b>Input &#35;</b> input connectors to connect images that should be sampled in the <b>Per Vertex Function</b> parameter function.<br>Once you are done setting up all the desired samples, you can hide unused pins by reducing this parameter's value back to 0. |
+| <b>Per Vertex Function</b> <i>Float2</i> | Function applied for each vertex. Must return the new vertex position.<br>See the <b>Description</b> section in this page for guidance. |
 
 ## Examples
 
@@ -87,7 +86,7 @@ See the <b>Description</b> section in this page for guidance.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Node example 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "Node example 2")
+![Node example 2](paths-vertex-processor.resources/PathsVertexProcessor-Demo2.gif "Node example 2")
 
 </td>
 <td style="border: 0;" valign="top">

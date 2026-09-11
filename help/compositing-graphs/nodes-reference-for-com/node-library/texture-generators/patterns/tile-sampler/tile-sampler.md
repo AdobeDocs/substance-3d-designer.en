@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler.png){width="128px"}
 
-## Tile Sampler (Color)
-
-**In:** *Texture Generators**/Patterns*
-
-**Complex**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,99 +33,90 @@ Tile Sampler is useful for creating man-made procedural patterns, with additiona
 
 Make sure you are familiar with [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) before moving on to Tile Sampler. In most cases, you'll find [Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) suffices and you won't need the added complexity of Tile Sampler.
 
-## Parameters
-
-### Inputs
-
-* **Pattern Input 1-6**: *Grayscale Input / Color Input*  
-  Custom pattern image, used when the "Pattern" parameter is set to "Image Input".  
-  The amount of available inputs is determined by the **Pattern Input Number** parameter.
-* **Scale Map Input**: *Grayscale Input*Grayscale map to drive tile scaling.
-* **Displacement Map Input**: *Grayscale Input*Grayscale map to drive tile displacement.
-* **Rotation Map Input**: *Grayscale Input*   
-  Grayscale map to drive tile rotation.
-* **Vector Map Input**: *Color Input*   
-  Color vector map to drive non-uniform scaling.
-* **Color Map Input**: *Grayscale Input / Color Input*Map to drive per-tile tinting.
-* **Mask Map Input**: *Grayscale Input*   
-  Mask slot used for hiding certain tiles.
-* **Pattern Distribution Map Input**: *Grayscale Input*   
-  Mask slot used to drive multiple custom pattern inputs.
-* **Background Input**: *Grayscale Input / Color Input*Optional background image.
-
-### Parameters
-
-* **X Amount**: *0 - 64*  
-  Amount of X-repetitions of the pattern.
-* **Y Amount**: *0 - 64*  
-  Amount of Y-repetitions of the pattern.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-* **Pattern**   
-  * **Pattern**: *Pattern Input, Square, Disc, Paraboloid, Bell, Gaussian, Thorn, Pyramid, Brick, Gradation, Waves, Half bell, Ridged Bell, Crescent, Capsule, Cone*  
-    Selects what pattern shape to use.
-  * **Pattern Input Number**: *1 - 6*Amount of custom patterns to randomly choose from.
-  * **Pattern Input Distribution**: *Random, Pattern Number, Distribution Map*Sets how multiple Pattern Inputs are chosen. Random means a random one is chosen, Pattern Number means they are just placed in a looping sequence. Distribution map uses a grayscale map input to drive placement.
-  * **Pattern Input Filtering (Engine &gt; v4)**: *Bilinear + Mipmaps, Bilinear, Nearest*
-  * **Pattern Specific**: *0.0 - 1.0*  
-    Lets you change the selected pattern's shape. The effect is dependent on the selected pattern.
-  * **Pattern Specific Random**: *0.0 - 1.0*The randomization effect is dependent on the selected pattern.
-  * **Rotation**: *0, 90, 180, 270*Stepped rotation (90 degree).
-  * **Rotation Random**: *0.0 - 1.0*Random free-rotation on a per-tile basis.
-  * **Symmetry Random**: *0.0 - 1.0*Sets the number of tiles that should be randomly flipped/mirrored according to below behaviour.
-  * **Symmetry Random Mode**: *Horizontal + Vertical, Horizontal, Vertical*Determines symmetry mirroring behaviour.
-* **Size**
-  * **Size Mode**: *Normal, Keep Ratio, Absolute, Pixel*Sets general behavior of the pattern size.  
-    Normal lets you define the size of the pattern elements. It is affected by the X and Y amount.  
-    Keep Ratio lets you set a size affected by X and Y amount, but the X and Y ratio between the two is left intact.  
-    Absolute lets you set an absolute size that is not affected by X and Y amount.  
-    Pixel lets you set an absolute size in pixels, unaffected by X and Y amount. Changing the resolution will affect the size of the elements.
-  * **Size (Absolute/Pixel)**: *0.0 - 1.0*Changes non-uniform proportions for tiles. Exact behaviour depends on Size Mode.
-  * **Size Random**: *0.0 - 1.0*Randomizes proportions per-tile.
-  * **Scale**: *0.0 - 10.0*Sets global tile scale.
-  * **Scale Random**: *0.0 - 1.0*Randomizes scale per-tile
-  * **Scale Map Multiplier**: *0.0 - 1.0*Blends in the effect of the Scale map.
-  * **Scale Vector Map Multiplier**: *0.0 - 1.0*Blends in the effect of the scale vector map to drive non-uniform scaling.
-  * **Scale Parametrization Affect**: *X and Y, X, Y*Sets which axes the scale parametrization affects. Can be used to have Scale map only affect X or Y of elements.
-* **Position**   
-  * **Position Random**: *0.0 - 10.0*Randomizes tile position over both axes.
-  * **Offset**: *0.0 - 1.0*  
-    Shifts tiles depending on Offset Type.
-  * **Offset Type**: *horizontal quincux, vertical quincux, horizontal global, vertical global*Changes which direction the Offset operates in.
-  * **Global Offset**: *0.0 - 1.0*Globally offsets all tiles on X- or Y-axis.
-  * **Displacement Map Intensity**: *0.0 - 1.0*Blends in the strength of the Displacement map on the Offset.
-  * **Displacement Angle**: *0.0 - 1.0*Sets the angle at which to displace.
-  * **Vector Map Displacement**: *0.0 - 1.0*Uses Vector map to drive displacement and Angle.
-* **Rotation**   
-  * **Rotation**: *0.0 - 1.0*Globally rotates all tiles.
-  * **Rotation Random**: *0.0 - 1.0*Rotates randomly per-tile.
-  * **Rotation Map Multiplier**: *0.0 - 1.0*Blends in the effect of Rotation map on per-Tile rotation.
-  * **Vector Map Multiplier**: *0.0 - 1.0*Uses Vector Map to drive per-tile rotation.
-* **Color**   
-  * **Mask Map Threshold**: *0.0 - 1.0*Threshold for mask map when to start hiding tiles.
-  * **Mask Map Invert**: *False/True*Inverts Mask map effect.
-  * **Mask Map Sampling Technique**: *Pattern Center, Pattern Bounding Box (slower)*Whether hiding should be determined by a single point or by a bounding box. Avoids stray pixels causing strange effects.
-  * **Mask Random**: *0.0 - 1.0*Random masking, works parallel to mask map.
-  * **Invert Mask**: *False/True*Inverts random masking.
-  * **Blending Mode**: *Add/Sub, Max (Tile Sampler) / *Add/Sub, Alpha Blend* (Tile Sampler Color)*Blend mode for tiles onto background and each other.
-  * **Color**: *(Grayscale value) / (Color value)*Solid, global tile color.
-  * **Color/Luminance Random**: *0.0 - 1.0*Randomization of color, per-tile.
-  * **Color Parametrization Mode**: *Color Input, Scale, Line Index, Row Index, Pattern Index (Tile Sampler)*   
-    */ *Color Map, Scale, Line Index, Row Index, Pattern Index, Pattern Center Position, Pattern Center Position (RG) Bsphere Size (B) (Tile Sampler Color)**Sets how exactly color randomization is parametrised.
-  * **Color Parametrization Multiplier**: *0.0 - 1.0*Blends in the above Parametrization effect.
-  * **Color Parametrization Affect (Color only):** **RGB+Alpha, RGB only, Alpha only**Sets how the Parametrization affects color.
-  * **Global Opacity (Grayscale only)**: *0.0 - 1.0*Sets global tile opacity.
-  * **Background Color**: *(Grayscale value) / (Color value)*Sets solid background color.
-  * **Reverse Rendering Order**: *False/True*Reverses rendering order to go from back to front.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/tilesampler-ex2.png" width="256px"/></div> |
-| --- |
-|  |
-
-*Example shows how parameters are driven by input maps (Pattern Distribution, Scale, Rotation).*
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Pattern Input 1-6</b> <i>Grayscale Input / Color Input</i> | Custom pattern image, used when the "Pattern" parameter is set to "Image Input".<br><br>The amount of available inputs is determined by the <b>Pattern Input Number</b> parameter. |
+| <b>Scale Map Input</b> <i>Grayscale Input</i> | Grayscale map to drive tile scaling. |
+| <b>Displacement Map Input</b> <i>Grayscale Input</i> | Grayscale map to drive tile displacement. |
+| <b>Rotation Map Input</b> <i>Grayscale Input</i> | Grayscale map to drive tile rotation. |
+| <b>Vector Map Input</b> <i>Color Input</i> | Color vector map to drive non-uniform scaling. |
+| <b>Color Map Input</b> <i>Grayscale Input / Color Input</i> | Map to drive per-tile tinting. |
+| <b>Mask Map Input</b> <i>Grayscale Input</i> | Mask slot used for hiding certain tiles. |
+| <b>Pattern Distribution Map Input</b> <i>Grayscale Input</i> | Mask slot used to drive multiple custom pattern inputs. |
+| <b>Background Input</b> <i>Grayscale Input / Color Input</i> | Optional background image. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>X Amount</b> <i>0 - 64</i> | Amount of X-repetitions of the pattern. |
+| <b>Y Amount</b> <i>0 - 64</i> | Amount of Y-repetitions of the pattern. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+| <b>Pattern</b> |  |
+| <b>Pattern</b> <i>Pattern Input, Square, Disc, Paraboloid, Bell, Gaussian, Thorn, Pyramid, Brick, Gradation, Waves, Half bell, Ridged Bell, Crescent, Capsule, Cone</i> | Selects what pattern shape to use. |
+| <b>Pattern Input Number</b> <i>1 - 6</i> | Amount of custom patterns to randomly choose from. |
+| <b>Pattern Input Distribution</b> <i>Random, Pattern Number, Distribution Map</i> | Sets how multiple Pattern Inputs are chosen. Random means a random one is chosen, Pattern Number means they are just placed in a looping sequence. Distribution map uses a grayscale map input to drive placement. |
+| <b>Pattern Input Filtering (Engine &gt; v4)</b> <i>Bilinear + Mipmaps, Bilinear, Nearest</i> |  |
+| <b>Pattern Specific</b> <i>0.0 - 1.0</i> | Lets you change the selected pattern's shape. The effect is dependent on the selected pattern. |
+| <b>Pattern Specific Random</b> <i>0.0 - 1.0</i> | The randomization effect is dependent on the selected pattern. |
+| <b>Rotation</b> <i>0, 90, 180, 270</i> | Stepped rotation (90 degree). |
+| <b>Rotation Random</b> <i>0.0 - 1.0</i> | Random free-rotation on a per-tile basis. |
+| <b>Symmetry Random</b> <i>0.0 - 1.0</i> | Sets the number of tiles that should be randomly flipped/mirrored according to below behaviour. |
+| <b>Symmetry Random Mode</b> <i>Horizontal + Vertical, Horizontal, Vertical</i> | Determines symmetry mirroring behaviour. |
+| <b>Size</b> |  |
+| <b>Size Mode</b> <i>Normal, Keep Ratio, Absolute, Pixel</i> | Sets general behavior of the pattern size.<br><br>Normal lets you define the size of the pattern elements. It is affected by the X and Y amount.<br><br>Keep Ratio lets you set a size affected by X and Y amount, but the X and Y ratio between the two is left intact.<br><br>Absolute lets you set an absolute size that is not affected by X and Y amount.<br><br>Pixel lets you set an absolute size in pixels, unaffected by X and Y amount. Changing the resolution will affect the size of the elements. |
+| <b>Size (Absolute/Pixel)</b> <i>0.0 - 1.0</i> | Changes non-uniform proportions for tiles. Exact behaviour depends on Size Mode. |
+| <b>Size Random</b> <i>0.0 - 1.0</i> | Randomizes proportions per-tile. |
+| <b>Scale</b> <i>0.0 - 10.0</i> | Sets global tile scale. |
+| <b>Scale Random</b> <i>0.0 - 1.0</i> | Randomizes scale per-tile. |
+| <b>Scale Map Multiplier</b> <i>0.0 - 1.0</i> | Blends in the effect of the Scale map. |
+| <b>Scale Vector Map Multiplier</b> <i>0.0 - 1.0</i> | Blends in the effect of the scale vector map to drive non-uniform scaling. |
+| <b>Scale Parametrization Affect</b> <i>X and Y, X, Y</i> | Sets which axes the scale parametrization affects. Can be used to have Scale map only affect X or Y of elements. |
+| <b>Position</b> |  |
+| <b>Position Random</b> <i>0.0 - 10.0</i> | Randomizes tile position over both axes. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Shifts tiles depending on Offset Type. |
+| <b>Offset Type</b> <i>horizontal quincux, vertical quincux, horizontal global, vertical global</i> | Changes which direction the Offset operates in. |
+| <b>Global Offset</b> <i>0.0 - 1.0</i> | Globally offsets all tiles on X- or Y-axis. |
+| <b>Displacement Map Intensity</b> <i>0.0 - 1.0</i> | Blends in the strength of the Displacement map on the Offset. |
+| <b>Displacement Angle</b> <i>0.0 - 1.0</i> | Sets the angle at which to displace. |
+| <b>Vector Map Displacement</b> <i>0.0 - 1.0</i> | Uses Vector map to drive displacement and Angle. |
+| <b>Rotation</b> |  |
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Globally rotates all tiles. |
+| <b>Rotation Random</b> <i>0.0 - 1.0</i> | Rotates randomly per-tile. |
+| <b>Rotation Map Multiplier</b> <i>0.0 - 1.0</i> | Blends in the effect of Rotation map on per-Tile rotation. |
+| <b>Vector Map Multiplier</b> <i>0.0 - 1.0</i> | Uses Vector Map to drive per-tile rotation. |
+| <b>Color</b> |  |
+| <b>Mask Map Threshold</b> <i>0.0 - 1.0</i> | Threshold for mask map when to start hiding tiles. |
+| <b>Mask Map Invert</b> <i>False/True</i> | Inverts Mask map effect. |
+| <b>Mask Map Sampling Technique</b> <i>Pattern Center, Pattern Bounding Box (slower)</i> | Whether hiding should be determined by a single point or by a bounding box. Avoids stray pixels causing strange effects. |
+| <b>Mask Random</b> <i>0.0 - 1.0</i> | Random masking, works parallel to mask map. |
+| <b>Invert Mask</b> <i>False/True</i> | Inverts random masking. |
+| <b>Blending Mode</b> <i>Add/Sub, Max (Tile Sampler) / Add/Sub, Alpha Blend (Tile Sampler Color)</i> | Blend mode for tiles onto background and each other. |
+| <b>Color</b> <i>(Grayscale value) / (Color value)</i> | Solid, global tile color. |
+| <b>Color/Luminance Random</b> <i>0.0 - 1.0</i> | Randomization of color, per-tile. |
+| <b>Color Parametrization Mode</b> <i>Color Input, Scale, Line Index, Row Index, Pattern Index (Tile Sampler) / Color Map, Scale, Line Index, Row Index, Pattern Index, Pattern Center Position, Pattern Center Position (RG) Bsphere Size (B) (Tile Sampler Color)</i> | Sets how exactly color randomization is parametrised. |
+| <b>Color Parametrization Multiplier</b> <i>0.0 - 1.0</i> | Blends in the above Parametrization effect. |
+| <b>Color Parametrization Affect (Color only)</b> <i>RGB+Alpha, RGB only, Alpha only</i> | Sets how the Parametrization affects color. |
+| <b>Global Opacity (Grayscale only)</b> <i>0.0 - 1.0</i> | Sets global tile opacity. |
+| <b>Background Color</b> <i>(Grayscale value) / (Color value)</i> | Sets solid background color. |
+| <b>Reverse Rendering Order</b> <i>False/True</i> | Reverses rendering order to go from back to front. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>Example shows how parameters are driven by input maps (Pattern Distribution, Scale, Rotation).</i>
+        </td>
+    </tr>
 </table>

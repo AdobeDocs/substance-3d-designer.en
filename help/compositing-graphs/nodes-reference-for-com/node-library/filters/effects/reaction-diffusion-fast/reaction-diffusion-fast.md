@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Reaction Diffusion node icon](../../../../../../assets/reaction-diffusion.png "Reaction Diffusion node icon")
+![Reaction Diffusion node icon](reaction-diffusion-fast.resources/reaction-diffusion.png "Reaction Diffusion node icon")
 
 <b>In:</b> Filters &gt; Effects
 
@@ -37,20 +37,30 @@ This node is optimised for performance and does make some accuracy trade-offs fo
 </tr>
 </table>
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Input</b> *Grayscale*The grayscale image that the Reaction-diffusion effect should be applied to.
+## Inputs
 
-## Output connectors
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Grayscale</i> | The grayscale image that the Reaction-diffusion effect should be applied to. |
 
-<b>Output</b>*Grayscale*The grayscale image representing the Reaction-diffusion effect applied to the Input image.
+<a name="outputs"></a>
+
+## Outputs
+
+|  |  |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The grayscale image representing the Reaction-diffusion effect applied to the Input image. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Radius</b> *Float*How far the effect should spread.
-
-<b>Contrast</b> *Float*  
-Adjusts the contrast of the input, serves as a sort of treshold.
+|  |  |
+|:---|:---|
+| <b>Radius</b> *Float* | How far the effect should spread. |
+| <b>Contrast</b> *Float* | Adjusts the contrast of the input, serves as a sort of treshold. |
 
 ## Examples
 
@@ -58,17 +68,17 @@ Adjusts the contrast of the input, serves as a sort of treshold.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Example 1](../../../../../../assets/reactdiff03.png "Example 1")
+![Example 1](reaction-diffusion-fast.resources/reactdiff03.png "Example 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Example 2](../../../../../../assets/reactdiff02.png "Example 2")
+![Example 2](reaction-diffusion-fast.resources/reactdiff02.png "Example 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Example 3](../../../../../../assets/reactdiff01.gif "Example 3")
+![Example 3](reaction-diffusion-fast.resources/reactdiff01.gif "Example 3")
 
 </td>
 </tr>

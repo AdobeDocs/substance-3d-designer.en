@@ -16,13 +16,9 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Directional noise 2 - Icon](../../../../../../assets/directional_noise_2.png "Directional noise 2 - Icon"){width="200px"}
+![Directional noise 2 - Icon](directional-noise-2.resources/directional_noise_2.png "Directional noise 2 - Icon"){width="200px"}
 
 <b>In:</b> Texture generators &gt; Noises
 
@@ -39,25 +35,29 @@ See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-refer
 </tr>
 </table>
 
+<a name="outputs"></a>
+
 ## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The generated noise as a grayscale bitmap. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
-| <b>Scale</b>  Integer | The subdivision of the grid used to generate the noise tiles.    A higher value results in more tiles being drawn and a denser noise. |
-| <b>Disorder</b>  Float | Displaces the ingredients of the noise.    This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
-| <b>Disorder anisotropy</b>  Float | Controls the span of directions of the displacement applied by the <b>Disorder</b> parameter, where a higher value results in a narrower, more defined direction.    The direction is controlled by the <b>Disorder anisotropy angle</b> parameter. |
-| <b>Disorder anisotropy angle</b>  Float | Controls the direction of the displacement applied by the <b>Disorder</b> parameter, when the 'Disorder anisotropy' parameter is not zero. |
-| <b>Angle</b>  Float | The angle used to set the direction of the noise, in number of turns and starting from horizontal right. |
-| <b>Angle random</b>  Float | The maximum amout of random variation applied to the <b>Angle</b> value, in number of turns. |
-| <b>Tile offset</b>  Float2 | Controls the position of the portion of infinite plane used to render the noise. |
-| <b>Non-square expansion</b>  Boolean | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
+|:---|:---|
+| <b>Scale</b> <i>Integer</i> | The subdivision of the grid used to generate the noise tiles.    A higher value results in more tiles being drawn and a denser noise. |
+| <b>Disorder</b> <i>Float</i> | Displaces the ingredients of the noise.    This can be used to animate the noise. |
+| <b>Disorder speed</b> <i>Float</i> | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
+| <b>Disorder anisotropy</b> <i>Float</i> | Controls the span of directions of the displacement applied by the <b>Disorder</b> parameter, where a higher value results in a narrower, more defined direction.    The direction is controlled by the <b>Disorder anisotropy angle</b> parameter. |
+| <b>Disorder anisotropy angle</b> <i>Float</i> | Controls the direction of the displacement applied by the <b>Disorder</b> parameter, when the 'Disorder anisotropy' parameter is not zero. |
+| <b>Angle</b> <i>Float</i> | The angle used to set the direction of the noise, in number of turns and starting from horizontal right. |
+| <b>Angle random</b> <i>Float</i> | The maximum amout of random variation applied to the <b>Angle</b> value, in number of turns. |
+| <b>Tile offset</b> <i>Float2</i> | Controls the position of the portion of infinite plane used to render the noise. |
+| <b>Non-square expansion</b> <i>Boolean</i> | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
 
 ## Examples
 
@@ -65,12 +65,12 @@ See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-refer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional noise 2 - Example 1](../../../../../../assets/directional_noise_2_1.png "Directional noise 2 - Example 1"){zoomable="yes"}
+![Directional noise 2 - Example 1](directional-noise-2.resources/directional_noise_2_1.png "Directional noise 2 - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Directional noise 2 - Example 2](../../../../../../assets/noise_directional_noise_2_v2_speed0.6_aniso0.gif "Directional noise 2 - Example 2"){zoomable="yes"}
+![Directional noise 2 - Example 2](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso0.gif "Directional noise 2 - Example 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -80,26 +80,12 @@ See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-refer
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional noise 2 - Example 3](../../../../../../assets/noise_directional_noise_2_v2_speed0.6_aniso1.gif "Directional noise 2 - Example 3"){zoomable="yes"}
+![Directional noise 2 - Example 3](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.6_aniso1.gif "Directional noise 2 - Example 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Directional noise 2 - Example 4](../../../../../../assets/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif "Directional noise 2 - Example 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![Directional noise 2 - Example 4](directional-noise-2.resources/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif "Directional noise 2 - Example 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -16,27 +16,29 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fxaa-color.png)![](../../../../../../assets/fxaa-grayscale.png)
+![](fxaa.resources/fxaa-color.png)![](fxaa.resources/fxaa-grayscale.png)
 
-## FXAA (Color/Grayscale)
-
-**In:** *Filters/Effects*
-
-**Simple**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Applies an anti aliasing filter based on the FXAA algorithm. You can use this to fix jagged, pixelated edges on shapes. It's especially useful for something like a [Disc Shape](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md) that has pixelated edges, as it provides a simple, one node solution to Anti-Alias edges.
 
-## Example Images
-
-![](../../../../../../assets/fxaa-ex.png)
-
 </td>
 </tr>
+</table>
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fxaa.resources/fxaa-ex.png" />
+        </td>
+    </tr>
 </table>

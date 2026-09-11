@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt.png){width="128px"}
 
-## Dirt
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Intermediate**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,38 +31,44 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask represent dirts in occluded and sunken edges and corners, based on baked AO and curvature.
 
-## Parameters
-
-### Inputs
-
-* **Curvature**: *Grayscale Input*   
-  Baked map used for internal effects and masking. Required!
-* **Ambient Occlusion**: *Grayscale Input*   
-  Baked map used for internal effects and masking. Required!
-* **Grunge input**: *Grayscale Input*   
-  Custom grunge map input, optional, enabled by parameter.
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-* **World Space Normal**: *Color Input*   
-  Only used for Triplanar.
-* **Position**: *Color Input*   
-  Only used for Triplanar.
-
-### Parameters
-
-* **Dirt Level**: *0.0 - 1.0*Main control for amount of dirt.
-* **Dirt Contrast**: *0.0 - 1.0*Controls main contrast for the dirt in the mask.
-* **Grunge Amount**: *0.0 - 1.0*Sets how grungy the dirt is. Set to 0 for perfectly smooth dirt.
-* **Edges Masking**: *0.0 - 1.0*Amount of dirt to remove from raised edges (based on the curvature map).
-* **Use Custom Grunge**: *False/True*Enables use of custom grunge map input instead of built-in Grunge.
-* **Grunge Scale**: *1 - 16*Sets tiling scale of Grunge detail.
-* **Use Triplanar**: *False/True*Use [Triplanar projection](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) for Grunge mapping, removes seams.
-* **Triplanar Blending Contrast**: *0.001 - 1.0*Sets contrast of the Triplanar projection.
-
-## Example Images
-
-![](../../../../../../assets/dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Curvature</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. Required! |
+| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used for internal effects and masking. Required! |
+| <b>Grunge input</b> <i>Grayscale Input</i> | Custom grunge map input, optional, enabled by parameter. |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+| <b>World Space Normal</b> <i>Color Input</i> | Only used for Triplanar. |
+| <b>Position</b> <i>Color Input</i> | Only used for Triplanar. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Dirt Level</b> <i>0.0 - 1.0</i> | Main control for amount of dirt. |
+| <b>Dirt Contrast</b> <i>0.0 - 1.0</i> | Controls main contrast for the dirt in the mask. |
+| <b>Grunge Amount</b> <i>0.0 - 1.0</i> | Sets how grungy the dirt is. Set to 0 for perfectly smooth dirt. |
+| <b>Edges Masking</b> <i>0.0 - 1.0</i> | Amount of dirt to remove from raised edges (based on the curvature map). |
+| <b>Use Custom Grunge</b> <i>False/True</i> | Enables use of custom grunge map input instead of built-in Grunge. |
+| <b>Grunge Scale</b> <i>1 - 16</i> | Sets tiling scale of Grunge detail. |
+| <b>Use Triplanar</b> <i>False/True</i> | Use [Triplanar projection](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) for Grunge mapping, removes seams. |
+| <b>Triplanar Blending Contrast</b> <i>0.001 - 1.0</i> | Sets contrast of the Triplanar projection. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dirt.resources/dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

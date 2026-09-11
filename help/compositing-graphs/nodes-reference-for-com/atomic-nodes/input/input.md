@@ -18,17 +18,17 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input color](../../../../assets/comp_inputcolor_1.png "Atomic node: Input color"){width="200px"}
+![Atomic node: Input color](input.resources/comp_inputcolor_1.png "Atomic node: Input color"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input grayscale](../../../../assets/comp_inputgrayscale_1.png "Atomic node: Input grayscale"){width="200px"}
+![Atomic node: Input grayscale](input.resources/comp_inputgrayscale_1.png "Atomic node: Input grayscale"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input value](../../../../assets/comp_inputnumeric_1.png "Atomic node: Input value"){width="200px"}
+![Atomic node: Input value](input.resources/comp_inputnumeric_1.png "Atomic node: Input value"){width="200px"}
 
 </td>
 </tr>
@@ -39,26 +39,6 @@ Input nodes are a special type of node that creates a dynamic slot in your graph
 Unlike [Output nodes](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), you have to explicitly place either a Color, Grayscale or Value input. It is not possible to create your own "agnostic" inputs that change type depending on what is connected to them.
 
 Input nodes are not as crucial as [Output nodes](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md): you can have perfectly functioning, advanced Graphs that have no need for an Input. Inputs are only used when you want to base your Graph or node Instance's result on an external input, for example when creating an [Instance ](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)or a [Filter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) for Substance 3D Painter.
-
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -85,7 +65,7 @@ If you want to see it with the outputs of another Graph, you'll have to either e
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 When multiple inputs are present, you need to pay attention to the way the graph will [inherit its Base parameters](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) from these inputs.  
 Base parameters include, among others, the <b>Output Size</b>, <b>Output Format</b> and <b>Tiling Mode</b>.
@@ -95,7 +75,7 @@ An input can be defined as the [Primary input](../../../../compositing-graphs/in
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-<img src="../../../../assets/node-primary-input.png" alt="Primary input in Substance graph" />
+![Primary input in Substance graph](input.resources/node-primary-input.png)
 
 </td>
 </tr>

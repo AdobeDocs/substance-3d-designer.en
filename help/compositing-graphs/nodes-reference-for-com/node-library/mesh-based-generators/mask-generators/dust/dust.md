@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dust.png){width="128px"}
+![](dust.resources/dust.png){width="128px"}
 
-## Dust
-
-**In:** *Mesh Based Generators**/Mask Generators*
-
-**Intermediate**
+<b>In:</b> Mesh Based Generators &gt; Mask Generators
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,33 +31,39 @@ Generates a black and white mask based on baked maps and user settings. Similar 
 
 This mask represents dust accumulated in occluded, lowered areas, as well as only in areas that face upwards. Requires proper baked AO and World Space Normals to work.
 
-## Parameters
-
-### Inputs
-
-* **Ambient Occlusion**: *Grayscale Input*   
-  Baked map used for dust placement. Required!
-* **World Space Normal**: *Color Input*   
-  Baked map used for dust placement. Required!
-* **Noise**: *Grayscale Input*   
-  Custom dust map (optional), only appears when Override Noise is set to True.
-* **Mask (optional)**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-
-### Parameters
-
-* **Level**: *0.0 - 1.0*  
-  Sets total amount of dust.
-* **Contrast**: *0.0 - 1.0*  
-  Adjusts contrast of the dust.
-* **Occlusion Amount**: *0.0 - 1.0*Sets influence of AO; more dust will appear in occluded areas.
-* **Noise Opacity**: *0.0 - 1.0*Sets amount of noise that is visible in the dusty areas.
-* **Override Noise**: *False/True*Set to use custom dust map input.
-
-## Example Images
-
-![](../../../../../../assets/dust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Ambient Occlusion</b> <i>Grayscale Input</i> | Baked map used for dust placement. Required! |
+| <b>World Space Normal</b> <i>Color Input</i> | Baked map used for dust placement. Required! |
+| <b>Noise</b> <i>Grayscale Input</i> | Custom dust map (optional), only appears when Override Noise is set to True. |
+| <b>Mask (optional)</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Level</b> <i>0.0 - 1.0</i> | Sets total amount of dust. |
+| <b>Contrast</b> <i>0.0 - 1.0</i> | Adjusts contrast of the dust. |
+| <b>Occlusion Amount</b> <i>0.0 - 1.0</i> | Sets influence of AO; more dust will appear in occluded areas. |
+| <b>Noise Opacity</b> <i>0.0 - 1.0</i> | Sets amount of noise that is visible in the dusty areas. |
+| <b>Override Noise</b> <i>False/True</i> | Set to use custom dust map input. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dust.resources/dust-ex.gif" />
+        </td>
+    </tr>
 </table>

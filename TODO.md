@@ -8,8 +8,10 @@
 ## Additions
 
 * Entry points for Python API documentation on AdobeDocs
+* 3D view: Use `refineLevel = 0` to improve performance when using displacement on high poly meshes
 * Examples in 'Documentation pop-up' page
-* Glossary entries for terms referenced/implied elsewhere in [glossary.md](help/glossary/glossary.md) but not yet defined:
+* Glossary:
+  * HDR
   * Metalness / Metallic
   * HDR
   * Specular
@@ -24,8 +26,6 @@
 
 ## Fixes
 
-* Remove in-page ToC (E.g. new noises)
-* Fix node page layouts (E.g. new noises)
 * Fix link for 1st example image in node pages (E.g. new noises)
 * Missing 'Negative integer' item & broken links  in [parameters-not-working-as-expected.md](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 

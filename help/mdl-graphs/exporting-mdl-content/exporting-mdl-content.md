@@ -32,7 +32,7 @@ This is the fundamental exchange file format for material definitions. An MDL mo
 * its exposed parameters and default values
 * its annotations (i.e., metadata): author, tags, categories, ...
 
-Exporting an MDL module is performed at the *package* level. To export an MDL module for a given package, click the ![](../../assets/mdl-export-module-icon.png) <b>Export MDL Module</b> button in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) or select that same option in the *package's contextual menu*. Select a target location and name for the exported MDL module, and the <b>Export Report</b> dialog is displayed with the list of messages logged during the export process.
+Exporting an MDL module is performed at the *package* level. To export an MDL module for a given package, click the ![](exporting-mdl-content.resources/mdl-export-module-icon.png) <b>Export MDL Module</b> button in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) or select that same option in the *package's contextual menu*. Select a target location and name for the exported MDL module, and the <b>Export Report</b> dialog is displayed with the list of messages logged during the export process.
 
 The exported module will contain the definitions of *all* the MDL materials defined by an [MDL graph](../../mdl-graphs/mdl-graphs.md) in the package.
 
@@ -44,7 +44,7 @@ The exported module will contain the definitions of *all* the MDL materials defi
 >
 > Warnings following this template: `x appears to be invalid whereas it was expected to be an mdl::call` are caused by the way MDL materials are processed in MDL graphs, and are *safe to ignore*.
 
-![MDL export pathway](../../assets/mdl-export-module.png "MDL export pathway")
+![MDL export pathway](exporting-mdl-content.resources/mdl-export-module.png "MDL export pathway")
 
 *The "Export MDL Module" pathways in the Explorer, and the resulting Export Report dialog*
 
@@ -69,7 +69,7 @@ The exported preset will use the material's parameters' *current values* in the 
 >
 > While exporting an MDL module from the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) panel results in an MDL module holding *all* MDL materials defined by an MDL graph in the package, exporting an MDL preset from the [3D View](../../interface/3d-view/3d-view.md) results in an MDL module holding *only* the definition of the MDL materials applied to the *selected material* in the menu – `my_material` in this example.
 
-![MDL preset export pathway](../../assets/mdl-export-preset.png "MDL preset export pathway")
+![MDL preset export pathway](exporting-mdl-content.resources/mdl-export-preset.png "MDL preset export pathway")
 
 *The "Export preset" pathway in the 3D View, and the resulting Export MDL Material Preset dialog*
 
@@ -77,7 +77,7 @@ The exported preset will use the material's parameters' *current values* in the 
 
 An MDL module archive combines MDL modules – see above – with resources such as *textures* and readme files into a *single transportable file*.
 
-Exporting an MDL module archive is performed at the *package* level. To export an MDL module archive for a given package, click the ![](../../assets/mdl-export-module-icon.png) <b>Export MDL Module Archive</b> button in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) or select that same option in the *package's contextual menu*. Select a target location and name for the exported MDL module archive, and the <b>Export Report</b> dialog is displayed with the list of messages logged during the export process.
+Exporting an MDL module archive is performed at the *package* level. To export an MDL module archive for a given package, click the ![](exporting-mdl-content.resources/mdl-export-module-icon.png) <b>Export MDL Module Archive</b> button in the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) or select that same option in the *package's contextual menu*. Select a target location and name for the exported MDL module archive, and the <b>Export Report</b> dialog is displayed with the list of messages logged during the export process.
 
 The exported module archive will contain MDL module holding the definitions of *all* the MDL materials defined by an [MDL graph](../../mdl-graphs/mdl-graphs.md) in the package. If a [Substance graph](../../compositing-graphs/substance-compositing-graphs.md) is [instanced into an MDL graph](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md) and connected to a stream going to the [Root](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md) node, the textures it outputs are *saved into the archive*.
 
@@ -92,7 +92,7 @@ In addition to these items, the archive includes a <b>MANIFEST</b> file which de
 >
 > Learn more about the MDL archive file format in Appendix C of NVIDIA's [MDL Specification](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9).
 
-![MDR export pathway](../../assets/mdl-export-archive.png "MDR export pathway")
+![MDR export pathway](exporting-mdl-content.resources/mdl-export-archive.png "MDR export pathway")
 
 *The "Export MDL Module Archive" pathways in the Explorer, and the resulting Export Report dialog*
 
@@ -110,6 +110,6 @@ Exporting an encapsulated MDL module is performed in the [Explorer](../../interf
 >
 > Learn more about encapsulated material definitions in section 13.5 of NVIDIA's [MDL Specification](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9), and [MDL SDK API](https://raytracing-docs.nvidia.com/mdl/api/mi_neuray_example_mdle.html).
 
-![MDLE export pathway](../../assets/mdl-export-encapsulated.png "MDLE export pathway")
+![MDLE export pathway](exporting-mdl-content.resources/mdl-export-encapsulated.png "MDLE export pathway")
 
 *The "Export as mdle" pathway in the Explorer, and the resulting Export Report dialog*

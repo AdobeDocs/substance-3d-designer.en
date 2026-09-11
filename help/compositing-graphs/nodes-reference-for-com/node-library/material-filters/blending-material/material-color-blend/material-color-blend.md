@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-color-blend.png){width="128px"}
+![](material-color-blend.resources/material-color-blend.png){width="128px"}
 
-## Material Color Blend
-
-**In:** *Material Filters/Blending*
-
-**Intermediate**
+<b>In:</b> Material Filters &gt; Blending
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,62 +31,47 @@ This node allows for adjustments to a Multi Channel, Full Material by blending s
 
 This node is most useful when you want to either introduce a flat color hint into Diffuse or Base Color, or went you want to "flatten" out other channels by using a set, solid color value.
 
-## Parameters
-
-### Inputs
-
-* **ColorID**: *Color Input*   
-  Mask slot used for masking the node's effects.
-* **Greyscale Mask**: *Grayscale Input*   
-  Mask slot used for masking the node's effects.
-
-### Parameters
-
-* **Channels**   
-  * Toggle material channels on and off in this group, when using Specular/Glossiness maps instead of Metallic/Roughness for example.
-* **Diffuse**   
-  * **Color**: *(Color value)*Which color value to blend on top of the Diffuse Channel.
-  * **Opacity**: *0.0 - 1.0*  
-    Blending Opacity between Foreground and Background.
-  * **Blending Mode**: *Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch*Blend mode to use in the operation.
-* **Base Color**   
-  * Blends a solid color on top of this channel with options as in the Diffuse group.
-* **Normal**   
-  * **Source**: *Height, Mask*
-  * **Blending Mode**: *Combine, Blend*
-  * **Height Intensity**: *0.0 - 1.0*
-  * **Height Opacity**: *0.0 - 1.0*
-  * **Format**: *DirectX, OpenGL*
-* **Specular**   
-  * Blends a solid color on top of this channel with options as in the Diffuse group.
-* **Emissive**   
-  * Blends a solid color on top of this channel with options as in the Diffuse group.
-* **Glossiness**   
-  * Blends a solid color on top of this channel with options as in the Diffuse group.
-* **Roughness**   
-  * Blends a solid color on top of this channel with options as in the Diffuse group.
-* **Metallic**   
-  * Blends a solid color on top of this channel with options as in the Diffuse group.
-* **Specular Level**   
-  * Blends a solid color on top of this channel with options as in the Diffuse group.
-* **Ambient Occlusion**   
-  * Blends a solid color on top of this channel with options as in the Diffuse group.
-* **Height**   
-  * Blends a solid color on top of this channel with options as in the Diffuse group.
-* **Opacity**   
-  * Blends a solid color on top of this channel with options as in the Diffuse group.
-* **Color ID Mask**: *False/True*Use Color ID mask instead of grayscale mask. Keep in mind that this is only for one color!  
-  Enables all the below options.
-* **Color**: *(Color value)*Which color to pick and convert to white.
-* **Fuzziness**: *0.01 - 1.0*The extent to which the colour you picked blends over into its neighbours.
-* **Padding**: *0.0 - 1.0*Transition contrast of the color you picked.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>ColorID</b> <i>Color Input</i> | Mask slot used for masking the node's effects. |
+| <b>Greyscale Mask</b> <i>Grayscale Input</i> | Mask slot used for masking the node's effects. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Channels</b> | Toggle material channels on and off in this group, when using Specular/Glossiness maps instead of Metallic/Roughness for example. |
+| <b>Diffuse</b> |  |
+| <b>Color</b> <i>(Color value)</i> | Which color value to blend on top of the Diffuse Channel. |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity between Foreground and Background. |
+| <b>Blending Mode</b> <i>Normal, Add, Subtract, Multiply, Add/Sub, Max, Min, Switch</i> | Blend mode to use in the operation. |
+| <b>Base Color</b> | Blends a solid color on top of this channel with options as in the Diffuse group. |
+| <b>Normal</b> |  |
+| <b>Source</b> <i>Height, Mask</i> |  |
+| <b>Blending Mode</b> <i>Combine, Blend</i> |  |
+| <b>Height Intensity</b> <i>0.0 - 1.0</i> |  |
+| <b>Height Opacity</b> <i>0.0 - 1.0</i> |  |
+| <b>Format</b> <i>DirectX, OpenGL</i> |  |
+| <b>Specular</b> | Blends a solid color on top of this channel with options as in the Diffuse group. |
+| <b>Emissive</b> | Blends a solid color on top of this channel with options as in the Diffuse group. |
+| <b>Glossiness</b> | Blends a solid color on top of this channel with options as in the Diffuse group. |
+| <b>Roughness</b> | Blends a solid color on top of this channel with options as in the Diffuse group. |
+| <b>Metallic</b> | Blends a solid color on top of this channel with options as in the Diffuse group. |
+| <b>Specular Level</b> | Blends a solid color on top of this channel with options as in the Diffuse group. |
+| <b>Ambient Occlusion</b> | Blends a solid color on top of this channel with options as in the Diffuse group. |
+| <b>Height</b> | Blends a solid color on top of this channel with options as in the Diffuse group. |
+| <b>Opacity</b> | Blends a solid color on top of this channel with options as in the Diffuse group. |
+| <b>Color ID Mask</b> <i>False/True</i> | Use Color ID mask instead of grayscale mask. Keep in mind that this is only for one color!<br><br>Enables all the below options. |
+| <b>Color</b> <i>(Color value)</i> | Which color to pick and convert to white. |
+| <b>Fuzziness</b> <i>0.01 - 1.0</i> | The extent to which the colour you picked blends over into its neighbours. |
+| <b>Padding</b> <i>0.0 - 1.0</i> | Transition contrast of the color you picked. |

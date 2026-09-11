@@ -16,37 +16,40 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cube3-ex.png)
+![](cube-3d.resources/cube3-ex.png)
 
-## Cube 3D
-
-**In:** *Texture Generators**/Patterns*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Renders a grayscale 3D cube with shading that also serves as screen-depth. The resulting cube has super-sharp and crisp edges when used with high precision bit-depths. Very interesting and useful!
 
-## Parameters
-
-* **Orientation Offset**:   
-  Allows for 3D-like X- and Y-rotation of the cube. Can also be done by manipulating the small dot in the 2D preview (as shown on the example below)
-* **Size**: *0.0 - 1.0*Allows for non-uniform rescaling of the cube.
-* **Scale**: *0.0 - 1.0*  
-  Rescales entire cube uniformly.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-
-## Example Images
-
-![](../../../../../../assets/cube3d-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Orientation Offset</b> | Allows for 3D-like X- and Y-rotation of the cube. Can also be done by manipulating the small dot in the 2D preview (as shown on the example below) |
+| <b>Size</b> <i>0.0 - 1.0</i> | Allows for non-uniform rescaling of the cube. |
+| <b>Scale</b> <i>0.0 - 1.0</i> | Rescales entire cube uniformly. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cube-3d.resources/cube3d-ex.gif" />
+        </td>
+    </tr>
 </table>

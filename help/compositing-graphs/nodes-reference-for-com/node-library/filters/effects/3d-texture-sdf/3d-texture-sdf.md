@@ -16,16 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesdf.png){width="200px"}
+![](3d-texture-sdf.resources/3dtexturesdf.png){width="200px"}
 
-**In:** *Filter/Effect*
-
-**Simple**
+<b>In:</b> Filter &gt; Effect
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,40 +33,35 @@ The **3D Texture SDF** node generates the *signed distance field* of a shape fro
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Mask Input</b> <i>Grayscale</i> | The <i>3D texture</i> mask representing the slices of a shape's <i>volume</i>. |
+
+<a name="parameters"></a>
+
 ## Parameters
 
-### Inputs
+|  |  |
+|:---|:---|
+| <b>Threshold</b> <i>Float</i> | When the shape volume is described by a <i>fading gradient</i>, sets the gradient value at which the <i>surface</i> of the shape is <i>detected</i>. |
+| <b>Output</b> <i>Integer</i> | The type of distance field which should be output:<br>- <i>Distance Field</i>: outputs a distance field describing the distances <i>outside</i> the shape.<br>- <i>Signed Distance Field</i>: outputs a distance field describing the distances <i>outside</i> (positive) and <i>inside</i> (negative) the shape. |
 
-* **Mask Input** *Grayscale*  
-  The *3D texture* mask representing the slices of a shape's *volume*.
+## Examples
 
-### Parameters
-
-* **Threshold** *Float*  
-  When the shape volume is described by a *fading gradient*, sets the gradient value at which the *surface* of the shape is *detected*.
-* **Output** *Integer*  
-  The type of distance field which should be output:  
-  * *Distance Field*: outputs a distance field describing the distances *outside* the shape.  
-  * *Signed Distance Field*: outputs a distance field describing the distances *outside* (positive) and *inside* (negative) the shape.
-
-## Example Images
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtexturesdf-node.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-sdf.resources/3dtexturesdf-node.png" />
+        </td>
+    </tr>
 </table>

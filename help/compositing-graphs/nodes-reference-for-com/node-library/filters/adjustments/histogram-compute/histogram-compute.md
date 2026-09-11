@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Histogram compute: icon](../../../../../../assets/histogram_compute.png "Histogram compute: icon"){width="200px"}
+![Histogram compute: icon](histogram-compute.resources/histogram_compute.png "Histogram compute: icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -44,57 +44,43 @@ Custom tools can be created using the data computed by the node, such as custom 
 >
 > All values out of the &#91;0,1&#93; range are clamped, therefore the histogram may not be accurate for HDR images.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Input</b> *Grayscale* PRIMARY | The image for which the histogram should be computed. |
+|:---|:---|
+| <b>Input</b> <i>Grayscale</i> PRIMARY | The image for which the histogram should be computed. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Histogram</b> *Grayscale* | The histogram computed for the input image, encoded as a row of pixels where each pixel value is the *population* of the color value matching the pixel position on the X-axis.   E.g., a pixel value of 75 at (0.25, 0) means there are 75 pixels which have the 0.25 color value in the image. |
-| <b>CDF</b> *Grayscale* | The result of the *cumulative distribution function* (CDF) computed for the image, encoded in a row of pixels where each pixel is the sum of all pixel values to its left.   That sum is then *normalized* against the total number of pixels in the image. |
+|:---|:---|
+| <b>Histogram</b> <i>Grayscale</i> | The histogram computed for the input image, encoded as a row of pixels where each pixel value is the *population* of the color value matching the pixel position on the X-axis.   E.g., a pixel value of 75 at (0.25, 0) means there are 75 pixels which have the 0.25 color value in the image. |
+| <b>CDF</b> <i>Grayscale</i> | The result of the *cumulative distribution function* (CDF) computed for the image, encoded in a row of pixels where each pixel is the sum of all pixel values to its left.   That sum is then *normalized* against the total number of pixels in the image. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Histogram resolution</b> *Integer* | The width of the histogram. A higher value allows for a finer value distribution.   Available resolutions are, in pixels:  256, 512, 1024, 2048, 4096 |
 
 ## Examples
 
-![Histogram compute: Example 1](../../../../../../assets/histogram_compute_example_1.jpg "Histogram compute: Example 1"){zoomable="yes"}
+![Histogram compute: Example 1](histogram-compute.resources/histogram_compute_example_1.jpg "Histogram compute: Example 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>After</i>
     </td>
   </tr>

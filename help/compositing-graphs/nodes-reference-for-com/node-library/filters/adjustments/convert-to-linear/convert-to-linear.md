@@ -16,34 +16,20 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/convert-to-linear.png){width="128px"}
+![](convert-to-linear.resources/convert-to-linear.png){width="128px"}
 
-![](../../../../../../assets/convert-to-linear-grayscale.png){width="128px"}
+![](convert-to-linear.resources/convert-to-linear-grayscale.png){width="128px"}
 
-## Convert to Linear (Grayscale)
-
-**In:** *Filters/Adjustments*
-
-**Simple**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Converts an sRGB colorspace image to linear. Useful when converting photo source material for example.
-
-## Parameters
-
-*No parameters.*
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
 
 </td>
 </tr>

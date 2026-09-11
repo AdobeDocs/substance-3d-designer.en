@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-dropshadow-grayscale.png){width="128px"}
+![](shape-drop-shadow.resources/shape-dropshadow-grayscale.png){width="128px"}
 
-![](../../../../../../assets/shape-dropshadow.png){width="128px"}
+![](shape-drop-shadow.resources/shape-dropshadow.png){width="128px"}
 
-## Shape Drop Shadow (Grayscale)
-
-**In:** *Filters/Effects*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,25 +33,32 @@ Performs the well-known "Drop Shadow" effect from other 2D image processing soft
 
 It differs from the [Shadows](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/shadows-filter-node/shadows-filter-node.md) effect in that it returns images with full transparency applied, making for a more complete effect similar to what you'd expect in other software.
 
-## Parameters
-
-* **Angle**: *0.0 - 1.0*Incidence Angle of the (fake) light.
-* **Distance**: *-0.5 - 0.5*Distance the shadow drop down to/moves away from the shape.
-* **Size**: *0.0 - 1.0*Controls blurring/fuzzines of the shadow.
-* **Spread**: *0.0 - 1.0*Cutoff/treshold for the blurring effect, makes the shadow spread away further.
-* **Opacity**: *0.0 - 1.0*  
-  Blending Opacity for the shadow effect.
-* **(Shadow) Color**: *(Color value)*Color tint to be applied to the shadow.
-* **Mask Color**: *(Color value) *(Grayscale Version Only)**Solid color to be used for the transparency mapped output.
-* **Input Is Pre-Multiplied**: *False/True *(Color Version Only)**Whether the input should be assumed as pre-multiplied.
-* **Pre-Multiply Output**: *False/True*Whether the output should be pre-multiplied.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/dropshadowex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Angle</b> <i>0.0 - 1.0</i> | Incidence Angle of the (fake) light. |
+| <b>Distance</b> <i>-0.5 - 0.5</i> | Distance the shadow drop down to/moves away from the shape. |
+| <b>Size</b> <i>0.0 - 1.0</i> | Controls blurring/fuzzines of the shadow. |
+| <b>Spread</b> <i>0.0 - 1.0</i> | Cutoff/treshold for the blurring effect, makes the shadow spread away further. |
+| <b>Opacity</b> <i>0.0 - 1.0</i> | Blending Opacity for the shadow effect. |
+| <b>(Shadow) Color</b> <i>(Color value)</i> | Color tint to be applied to the shadow. |
+| <b>Mask Color</b> <i>(Color value) (Grayscale Version Only)</i> | Solid color to be used for the transparency mapped output. |
+| <b>Input Is Pre-Multiplied</b> <i>False/True (Color Version Only)</i> | Whether the input should be assumed as pre-multiplied. |
+| <b>Pre-Multiply Output</b> <i>False/True</i> | Whether the output should be pre-multiplied. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape-drop-shadow.resources/dropshadowex.png" />
+        </td>
+    </tr>
 </table>

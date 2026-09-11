@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Node icon](../../../../../../assets/paths-select-icon.png "Node icon")
+![Node icon](paths-select.resources/paths-select-icon.png "Node icon")
 
 <b>In:</b> Spline &amp; Path Tools &gt; Path Tools
 
@@ -33,31 +33,32 @@ Isolate one path among multiples contained in Paths.
 </tr>
 </table>
 
-## Input connectors
+<a name="inputs"></a>
 
-<b>Label</b> *Type*  
-A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node.
+## Inputs
 
-## Output connectors
+|  |  |
+|:---|:---|
+| <b>Label</b> <i>Type</i> | A list of encoded segments paths. Connect this input to the result of a [Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) or to another Path-processing node. |
 
-<b>Paths</b> *Color*  
-The Paths input with only one path. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines.
+<a name="outputs"></a>
+
+## Outputs
+
+|  |  |
+|:---|:---|
+| <b>Paths</b> <i>Color</i> | The Paths input with only one path. You can either use [Preview Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) to get an idea of what the result represents, use another Paths-processing node, or input it to a [Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) to further process it as Splines. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
-<b>Selection Mode</b> *Integer*The method used to select the Paths:  
-*- By ID:* Selects the path from the list whose index matches the one specified in <b>Path ID</b>;  
-*- By Length:* Selects the paths whose length is above or below the threshold specified in <b>Target Length</b>.
-
-<b>Path ID</b> *Integer* (Available when <b>Selection Mode</b> is set to *By ID*)  
-The index of the selected path.  
-A value greater than the number of paths in <b>Paths *results in*</b> a blank output.
-
-<b>Length Greater or Lower?</b> *Boolean* (Available when <b>Selection Mode</b> is set to *By Length*)  
-Controls whether the selection should include or greater or lower length than the <b>Target Length</b>.
-
-<b>Target Length</b> *Float*(Available when <b>Selection Mode</b> is set to *By Length*)  
-The length threshold used to select splines.
+|  |  |
+|:---|:---|
+| <b>Selection Mode</b> <i>Integer</i> | The method used to select the Paths:<br>*- By ID:* Selects the path from the list whose index matches the one specified in <b>Path ID</b>;<br>*- By Length:* Selects the paths whose length is above or below the threshold specified in <b>Target Length</b>. |
+| <b>Path ID</b> <i>Integer</i> (Available when <b>Selection Mode</b> is set to *By ID*) | The index of the selected path.<br>A value greater than the number of paths in <b>Paths *results in*</b> a blank output. |
+| <b>Length Greater or Lower?</b> <i>Boolean</i> (Available when <b>Selection Mode</b> is set to *By Length*) | Controls whether the selection should include or greater or lower length than the <b>Target Length</b>. |
+| <b>Target Length</b> <i>Float</i> (Available when <b>Selection Mode</b> is set to *By Length*) | The length threshold used to select splines. |
 
 ## Examples
 
@@ -68,11 +69,11 @@ The length threshold used to select splines.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
+      <img src="paths-select.resources/PathsSelect-Variant1.jpg" alt="PathsSelect-Variant1">
       <br><i>After</i>
     </td>
   </tr>
@@ -84,11 +85,11 @@ The length threshold used to select splines.
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
+      <img src="paths-select.resources/PathsToSpline-Variant2-Before.jpg" alt="PathsToSpline-Variant2-Before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
+      <img src="paths-select.resources/PathsSelect-Variant2.jpg" alt="PathsSelect-Variant2">
       <br><i>After</i>
     </td>
   </tr>

@@ -33,7 +33,7 @@ This pages presents the Iray renderer available in the 3D view panel of [Substan
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Iray logo](../../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Iray logo](iray.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -56,7 +56,7 @@ See the <b>Renderer</b> section of this page to learn more about tweaking these 
 </td>
 <td style="border: 0;" valign="top">
 
-![Medieval castle wall material rendered in Iray](../../../assets/iray-overview.png "Medieval castle wall material rendered in Iray")
+![Medieval castle wall material rendered in Iray](iray.resources/iray-overview.png "Medieval castle wall material rendered in Iray")
 
 *Material: [Medieval castle wall](https://oggyart.artstation.com/projects/Xnzx0a)* *by [Mark Foreman](https://www.artstation.com/oggyart)* *available in our [Substance 3D assets](https://substance3d.adobe.com/assets)* *library*
 
@@ -98,7 +98,7 @@ Mesh display component
 > Subdividing the mesh *increases its processing time exponentially* before and during the render. We suggest being *conservative* with the values input.  
 > Be careful about using *high* **Number** values for the Parametric method, and *low* **Minimum length** values for the Length method.
 
-![Scene options](../../../assets/iray-scene-subdivision.gif "Scene options")
+![Scene options](iray.resources/iray-scene-subdivision.gif "Scene options")
 
 <a name="materials"></a>
 
@@ -131,7 +131,7 @@ Other notable options in this menu are:
 </td>
 <td style="border: 0;" valign="top">
 
-![Materials menu](../../../assets/iray-mdl-list.png "Materials menu")
+![Materials menu](iray.resources/iray-mdl-list.png "Materials menu")
 
 </td>
 </tr>
@@ -152,7 +152,7 @@ The following couple of parameters are available in the camera properties when t
 * <b>Focus distance</b>: the distance from the camera of the focal point – i.e. where the image is at its sharpest
 * <b>Aperture diameter</b>: the value driving the camera's aperture. The lower the value, the sharper the image elements are before and after the focal point – in simpler terms, this value controls the strength of the depth of field effect
 
-![Camera settings](../../../assets/camera-dof.png "Camera settings")
+![Camera settings](iray.resources/camera-dof.png "Camera settings")
 
 <a name="environment"></a>
 
@@ -199,11 +199,11 @@ The impact of some of these settings is demonstrated below:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-environment-hidden.png" alt="Iray - Environment hidden">
+      <img src="iray.resources/iray-environment-hidden.png" alt="Iray - Environment hidden">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-visible.png" alt="Iray - Environment visible">
+      <img src="iray.resources/iray-env-visible.png" alt="Iray - Environment visible">
       <br><i>After</i>
     </td>
   </tr>
@@ -211,9 +211,9 @@ The impact of some of these settings is demonstrated below:
 
 
 
-![Iray - Environment hidden](../../../assets/iray-environment-hidden.png "Iray - Environment hidden")
+![Iray - Environment hidden](iray.resources/iray-environment-hidden.png "Iray - Environment hidden")
 
-![Iray - Environment visible](../../../assets/iray-env-visible.png "Iray - Environment visible")
+![Iray - Environment visible](iray.resources/iray-env-visible.png "Iray - Environment visible")
 
 +++
 
@@ -223,11 +223,11 @@ The impact of some of these settings is demonstrated below:
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-env-infinite-sphere.png" alt="Iray - Infinite sphere only">
+      <img src="iray.resources/iray-env-infinite-sphere.png" alt="Iray - Infinite sphere only">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../assets/iray-env-sphere-ground.png" alt="Iray - Infinite sphere with ground plane">
+      <img src="iray.resources/iray-env-sphere-ground.png" alt="Iray - Infinite sphere with ground plane">
       <br><i>After</i>
     </td>
   </tr>
@@ -235,35 +235,35 @@ The impact of some of these settings is demonstrated below:
 
 
 
-![Iray - Infinite sphere only](../../../assets/iray-env-infinite-sphere.png "Iray - Infinite sphere only")
+![Iray - Infinite sphere only](iray.resources/iray-env-infinite-sphere.png "Iray - Infinite sphere only")
 
-![Iray - Infinite sphere with ground plane](../../../assets/iray-env-sphere-ground.png "Iray - Infinite sphere with ground plane")
+![Iray - Infinite sphere with ground plane](iray.resources/iray-env-sphere-ground.png "Iray - Infinite sphere with ground plane")
 
 +++
 
 +++Rotate environment
-![Rotate environment](../../../assets/iray-env-rotation.gif "Rotate environment")
+![Rotate environment](iray.resources/iray-env-rotation.gif "Rotate environment")
 
 
 
 +++
 
 +++Adjust ground plane
-![Ground reflection](../../../assets/iray-env-ground-options.gif "Ground reflection")
+![Ground reflection](iray.resources/iray-env-ground-options.gif "Ground reflection")
 
 
 
 +++
 
 +++Adjust infinite sphere
-![Environment scale (sphere)](../../../assets/iray-env-sphere-radius.gif "Environment scale (sphere)")
+![Environment scale (sphere)](iray.resources/iray-env-sphere-radius.gif "Environment scale (sphere)")
 
 
 
 +++
 
 +++Adjust enclosing box
-![Environment scale (cube)](../../../assets/iray-env-box-dimensions.gif "Environment scale (cube)")
+![Environment scale (cube)](iray.resources/iray-env-box-dimensions.gif "Environment scale (cube)")
 
 
 
@@ -281,7 +281,7 @@ These options display a *text overlay* on top of the rendered image with useful 
 * <b>Resolution</b>: The effective rendering resolution. If the Use window resolution option in the camera properties is set to False, the ratio of the image is automatically adjusted to match the resolution ratio
 * <b>Scene stats</b>: A list of statistics related to the rendered scene, which includes triangles count, and materials count among other data
 
-![Display options](../../../assets/iray-display-data.png "Display options"){width="512px"}
+![Display options](iray.resources/iray-display-data.png "Display options"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -310,11 +310,11 @@ The impact of some of these settings is demonstrated in the image comparisons be
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-none.png" alt="Iray - Base render">
+      <img src="iray.resources/iray-renderer-none.png" alt="Iray - Base render">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Caustic sampler enabled">
+      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray - Caustic sampler enabled">
       <br><i>After</i>
     </td>
   </tr>
@@ -322,9 +322,9 @@ The impact of some of these settings is demonstrated in the image comparisons be
 
 
 
-![Iray - Base render](../../../assets/iray-renderer-none.png "Iray - Base render")
+![Iray - Base render](iray.resources/iray-renderer-none.png "Iray - Base render")
 
-![Iray - Caustic sampler enabled](../../../assets/iray-renderer-caustics.png "Iray - Caustic sampler enabled")
+![Iray - Caustic sampler enabled](iray.resources/iray-renderer-caustics.png "Iray - Caustic sampler enabled")
 
 +++
 
@@ -334,11 +334,11 @@ The impact of some of these settings is demonstrated in the image comparisons be
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Firefly filter disabled">
+      <img src="iray.resources/iray-renderer-caustics.png" alt="Iray - Firefly filter disabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Firefly filter enabled">
+      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray - Firefly filter enabled">
       <br><i>After</i>
     </td>
   </tr>
@@ -346,9 +346,9 @@ The impact of some of these settings is demonstrated in the image comparisons be
 
 
 
-![Iray - Firefly filter disabled](../../../assets/iray-renderer-caustics.png "Iray - Firefly filter disabled")
+![Iray - Firefly filter disabled](iray.resources/iray-renderer-caustics.png "Iray - Firefly filter disabled")
 
-![Iray - Firefly filter enabled](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Firefly filter enabled")
+![Iray - Firefly filter enabled](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Firefly filter enabled")
 
 +++
 
@@ -358,11 +358,11 @@ The impact of some of these settings is demonstrated in the image comparisons be
 <table>
   <tr>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - Post-denoiser disabled">
+      <img src="iray.resources/iray-renderer-caustics-fireflies.png" alt="Iray - Post-denoiser disabled">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - Post-denoiser enabled">
+      <img src="iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - Post-denoiser enabled">
       <br><i>After</i>
     </td>
   </tr>
@@ -370,9 +370,9 @@ The impact of some of these settings is demonstrated in the image comparisons be
 
 
 
-![Iray - Post-denoiser disabled](../../../assets/iray-renderer-caustics-fireflies.png "Iray - Post-denoiser disabled")
+![Iray - Post-denoiser disabled](iray.resources/iray-renderer-caustics-fireflies.png "Iray - Post-denoiser disabled")
 
-![Iray - Post-denoiser enabled](../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Post-denoiser enabled")
+![Iray - Post-denoiser enabled](iray.resources/iray-renderer-caustics-fireflies-denoiser-180.png "Iray - Post-denoiser enabled")
 
 +++
 
@@ -398,4 +398,4 @@ When a supported GPU is detected, it is listed in this section, is *automaticall
 > GPU hardware acceleration uses the [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone) technology. Make sure your *graphics driver is up-to-date* for the best compatibility and reliability. Find the most recent driver for your NVIDIA GPU [here](https://www.nvidia.com/Download/index.aspx?lang=en-us).  
 > For multi-GPUs configurations, it is recommended to *disable SLI* and select only one GPU for the best reliability.
 
-![Iray preferences](../../../assets/iray-preferences-hardware.png "Iray preferences")
+![Iray preferences](iray.resources/iray-preferences-hardware.png "Iray preferences")

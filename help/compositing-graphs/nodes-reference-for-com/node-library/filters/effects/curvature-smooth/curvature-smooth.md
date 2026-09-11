@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Curvature Smooth node icon](../../../../../../assets/CurvatureSmooth.png "Curvature Smooth node icon"){width="200px"}
+![Curvature Smooth node icon](curvature-smooth.resources/CurvatureSmooth.png "Curvature Smooth node icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Effects
 
@@ -42,44 +42,30 @@ The concave and convex areas are also split into their own outputs, for easier s
 >
 > Look at [Curvature](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md) for a sharper version, or[ Curvature Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md) if you need more options.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-</tr>
-</table>
-
-## Input connectors
+## Inputs
 
 |  |  |
-| --- | --- |
-| <b>Normal</b> *Color* <b>PRIMARY</b> | The normal map describing the surface which curvature should be computed. |
+|:---|:---|
+| <b>Normal</b> <i>Color</i> <b>PRIMARY</b> | The normal map describing the surface which curvature should be computed. |
 
-## Output connectors
+<a name="outputs"></a>
+
+## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Curvature</b> *Grayscale* | The curvature map computed out of the input normal map.   Flat areas are 50% gray. Convex areas are brighter, while concave areas are darker. |
-| <b>Convexity</b> *Grayscale* | The convexity map computed out of the input normal map.   The more convex an area is, the brighter it is in the map.  Flat or concave areas are black. |
-| <b>Concavity</b> *Grayscale* | The concavity map computed out of the input normal map.   The more concave an area is, the brighter it is in the map.  Flat or convex areas are black. |
+|:---|:---|
+| <b>Curvature</b> <i>Grayscale</i> | The curvature map computed out of the input normal map.   Flat areas are 50% gray. Convex areas are brighter, while concave areas are darker. |
+| <b>Convexity</b> <i>Grayscale</i> | The convexity map computed out of the input normal map.   The more convex an area is, the brighter it is in the map.  Flat or concave areas are black. |
+| <b>Concavity</b> <i>Grayscale</i> | The concavity map computed out of the input normal map.   The more concave an area is, the brighter it is in the map.  Flat or convex areas are black. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Normal format</b> *Integer* | The format of the input normal map. Effectively inverts the green channel.<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX:</b> The Y axis points up</li> <li data-preserve-html="true"><b style="">OpenGL:</b> The Y axis points down</li> </ul> |
 
 ## Examples
@@ -87,11 +73,11 @@ The concave and convex areas are also split into their own outputs, for easier s
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -101,12 +87,12 @@ The concave and convex areas are also split into their own outputs, for easier s
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvature smooth: Example 2](../../../../../../assets/curvature_smooth_example_2.jpg "Curvature smooth: Example 2"){zoomable="yes"}
+![Curvature smooth: Example 2](curvature-smooth.resources/curvature_smooth_example_2.jpg "Curvature smooth: Example 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvature smooth: Example 3](../../../../../../assets/curvature_smooth_example_3.jpg "Curvature smooth: Example 3"){zoomable="yes"}
+![Curvature smooth: Example 3](curvature-smooth.resources/curvature_smooth_example_3.jpg "Curvature smooth: Example 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -115,11 +101,11 @@ The concave and convex areas are also split into their own outputs, for easier s
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_before.jpg" alt="curvature_smooth_example_4_before">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../../../../../assets/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
+      <img src="curvature-smooth.resources/curvature_smooth_example_4_after.jpg" alt="curvature_smooth_example_4_after">
       <br><i>After</i>
     </td>
   </tr>
@@ -129,12 +115,12 @@ The concave and convex areas are also split into their own outputs, for easier s
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Curvature smooth: Example 4](../../../../../../assets/curvature_smooth_example_5.jpg "Curvature smooth: Example 4"){zoomable="yes"}
+![Curvature smooth: Example 4](curvature-smooth.resources/curvature_smooth_example_5.jpg "Curvature smooth: Example 4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Curvature smooth: Example 5](../../../../../../assets/curvature_smooth_example_6.jpg "Curvature smooth: Example 5"){zoomable="yes"}
+![Curvature smooth: Example 5](curvature-smooth.resources/curvature_smooth_example_6.jpg "Curvature smooth: Example 5"){zoomable="yes"}
 
 </td>
 </tr>

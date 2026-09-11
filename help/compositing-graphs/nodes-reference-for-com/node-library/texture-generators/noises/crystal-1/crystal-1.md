@@ -16,36 +16,39 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crystal-1.png){width="128px"}
+![](crystal-1.resources/crystal-1.png){width="128px"}
 
-## Crystal 1
-
-**In:** *Texture Generators**/Noises*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Noises
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Generates a Worlye Voronoi-type noise, with a slightly more angular distance metric. It can be useful for certain angular and geometric purposes.
 
-## Parameters
-
-* **Scale**: *1 - 256*  
-  Sets the global scale for the effect.
-* **Disorder**: *0.0 - 1.0*  
-  Phase-shifts the noise to introduce small variation.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-
-## Example Images
-
-![](../../../../../../assets/crystal-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Scale</b> <i>1 - 256</i> | Sets the global scale for the effect. |
+| <b>Disorder</b> <i>0.0 - 1.0</i> | Phase-shifts the noise to introduce small variation. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="crystal-1.resources/crystal-1-ex.gif" />
+        </td>
+    </tr>
 </table>

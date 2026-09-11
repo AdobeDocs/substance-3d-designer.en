@@ -16,16 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rt-caustics-grayscale.png){width="128px"}
+![](caustics.resources/rt-caustics-grayscale.png){width="128px"}
 
-**In:** *Texture Generators**/Noises*
-
-**Complex**
+<b>In:</b> Texture Generators &gt; Noises
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,33 +33,30 @@ Generates projected caustics based on a height map and a light direction.Comes i
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-* **Output Color Space**: *Raw, sRGB*  
-  Set output color space.
-* **Photon Grid Size**: *Auto, 512, 1024, 2048, 4096*  
-  Sets quality by adjusting grid size, but defaults to matching input. Can be used to speed up calculation.
-* **Surface Height Scale**: *0.0 - 1.0*  
-  Multiplier to determine how the height is interpreted.
-* **Surface Height Position**: *0.0 - 1.0*  
-  Set distance of refracting surface to projection.
-* **Surface IOR**: *1.0 - 2.0*  
-  Set refraction index, in the color version this adds more color dispersion.
-* **Photon Size**: *1.0 - 50.0*  
-  Photon size affects crispness of the effect.
-* **Dispersion**: *0.0 - 0.01 (Color version only)*  
-  Affect just the color dispersion. Not visible when IOR is low.
-* **Jittering**: *0.0 - 1.0*  
-  Add irregular jittering to the cast photon particles.
-* **Light Position**:   
-  Moves the light position. Also done through a gizmo in the 2D view.
-* **Background Color**: *(Color value) (Color version only)*  
-  Change the background color. Limited to black in the grayscale version.
-* **Non Square Expansion**: *False/True*  
-  Enable compensation of squash and stretch with non-square ratios.
+|  |  |
+|:---|:---|
+| <b>Output Color Space</b> <i>Raw, sRGB</i> | Set output color space. |
+| <b>Photon Grid Size</b> <i>Auto, 512, 1024, 2048, 4096</i> | Sets quality by adjusting grid size, but defaults to matching input. Can be used to speed up calculation. |
+| <b>Surface Height Scale</b> <i>0.0 - 1.0</i> | Multiplier to determine how the height is interpreted. |
+| <b>Surface Height Position</b> <i>0.0 - 1.0</i> | Set distance of refracting surface to projection. |
+| <b>Surface IOR</b> <i>1.0 - 2.0</i> | Set refraction index, in the color version this adds more color dispersion. |
+| <b>Photon Size</b> <i>1.0 - 50.0</i> | Photon size affects crispness of the effect. |
+| <b>Dispersion</b> <i>0.0 - 0.01 (Color version only)</i> | Affect just the color dispersion. Not visible when IOR is low. |
+| <b>Jittering</b> <i>0.0 - 1.0</i> | Add irregular jittering to the cast photon particles. |
+| <b>Light Position</b> | Moves the light position. Also done through a gizmo in the 2D view. |
+| <b>Background Color</b> <i>(Color value) (Color version only)</i> | Change the background color. Limited to black in the grayscale version. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enable compensation of squash and stretch with non-square ratios. |
 
-## Example Images
+## Examples
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/rt-caustics-grayscale-1.png" width="300px"/></div> |
-| --- |
-|  |
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="caustics.resources/rt-caustics-grayscale-1.png" />
+        </td>
+    </tr>
+</table>

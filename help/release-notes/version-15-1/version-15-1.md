@@ -18,7 +18,7 @@ Substance Designer 15.1 brings a completely revamped graph creation window with 
 
 *Release date: December 11th, 2025*
 
-![Banner Designer 15.1](../../assets/bannerweb.png)
+![Banner Designer 15.1](version-15-1.resources/bannerweb.png)
 
 ## Improve graph creation
 
@@ -30,13 +30,13 @@ Although the main interface has been upgraded, users continue to have access to 
 
 [Learn more](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![redesigner new graph window](../../assets/newgraph.png){zoomable="yes"}
+![redesigner new graph window](version-15-1.resources/newgraph.png){zoomable="yes"}
 
 ## Embedded samples
 
 With the launch of our redesigned graph creation window, we've added a variety of [<b>sample materials</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) directly inside the software. This enhancement is in response to your request for better access to learning resources.
 
-![New graph creation window for samples](../../assets/GraphSample.png){zoomable="yes"}
+![New graph creation window for samples](version-15-1.resources/GraphSample.png){zoomable="yes"}
 
 To meet this need we have included material samples such as fabrics (including leather and satin), wood, metal, plastic, ceramic and more. These examples are intended to help you start your projects with ease and get acquainted with the main family nodes available in Substance 3D Designer
 
@@ -48,7 +48,7 @@ Alongside these foundational materials, we've also provided <b>advanced samples<
 
 [Learn more](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![wood sample in substance designer](../../assets/samplegraph.png){zoomable="yes"}
+![wood sample in substance designer](version-15-1.resources/samplegraph.png){zoomable="yes"}
 
 ## New noises
 
@@ -64,7 +64,7 @@ See the full list of updated noises in the [release notes](#release-notes) below
 
 Examples:   [Cells 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)   [Clouds 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [  Directional scratches](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [  Moisture noise 1](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![directionnal disorder noise](../../assets/directionaldisorder.gif){zoomable="yes"}
+![directionnal disorder noise](version-15-1.resources/directionaldisorder.gif){zoomable="yes"}
 
 ## Hierarchy in node menu
 
@@ -76,12 +76,12 @@ The vast number of available nodes can make it difficult to quickly find the des
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![node search with category 1](../../assets/search1-2.png){zoomable="yes"}
+![node search with category 1](version-15-1.resources/search1-2.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![node search with category 2](../../assets/search2.png){zoomable="yes"}
+![node search with category 2](version-15-1.resources/search2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,11 +102,11 @@ Play with the image below to see the difference before and after the default out
 <table>
   <tr>
     <td>
-      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="version-15-1.resources/defaultouput2.png" alt="defaultouput2">
       <br><i>Before</i>
     </td>
     <td>
-      <img src="../../assets/defaultouput1.png" alt="With the default output, thumbnails are always relevant.">
+      <img src="version-15-1.resources/defaultouput1.png" alt="With the default output, thumbnails are always relevant.">
       <br><i>After</i>
     </td>
   </tr>
@@ -120,7 +120,7 @@ For instance, detecting the absence of a variable enables you to provide a fallb
 
 [Learn more](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![Is defined node](../../assets/isdefined.png){zoomable="yes"}
+![Is defined node](version-15-1.resources/isdefined.png){zoomable="yes"}
 
 ## Release notes
 

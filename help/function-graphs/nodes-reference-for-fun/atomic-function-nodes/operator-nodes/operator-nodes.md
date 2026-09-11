@@ -16,7 +16,7 @@ user-guide-title: ""
 
 Operator nodes lets you achieve classic mathematical operations on input node(s):
 
-![](../../../../assets/image2015-12-23-10-55-31.png)
+![](operator-nodes.resources/image2015-12-23-10-55-31.png)
 
 >[!NOTE]
 >

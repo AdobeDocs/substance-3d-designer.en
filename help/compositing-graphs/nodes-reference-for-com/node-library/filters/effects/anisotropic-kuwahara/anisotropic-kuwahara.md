@@ -64,7 +64,7 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 
 +++
 
-## Input connectors
+## Inputs
 
 |                                                   |                                                                                                                                                                                                                                                                                                                         |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -74,7 +74,7 @@ Left: Anisotropy 0.0 / Right: Anisotropy 1.0
 | <b>Radius map (optional)</b> <i>Grayscale</i>     | When connected, the blurring 'Radius' is multiplied against the input image.                                                                                                                                                                                                                                            |
 | <b>Direction map</b> <i>Color</i>                 | The map describing the direction used by the anisotropic filter kernel.   The map still has an effect when the 'Anisotropy' parameter is set to 0, as it impacts the rotation of the kernel used by the Kuwahara filter.   Note: This input is only used when the 'Use Input Direction Map' parameter is set to 'True'. |
 
-## Output connectors
+## Outputs
 
 |                                   |                                                                                                                                                                                                                                      |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

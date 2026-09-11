@@ -16,32 +16,28 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-data-extract.png){width="128px"}
+![](shape-splatter-data-extract.resources/shape-splatter-data-extract.png){width="128px"}
 
-## Shape Splatter Data Extract
-
-**In:** *Texture Generators**/Patterns*
-
-**Complex**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Data separator/splitter utility for [Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data. Allows converting and displaying of individual data to do custom calculations, to verify data or to learn more about Shape Splatter.
 
-## Parameters
-
-### Inputs
-
-* **Splatter Data 1**: *Color Input*
-* **Splatter Data 2**: *Color Input*
-
-*No Parameters.*
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Splatter Data 1</b> <i>Color Input</i> |  |
+| <b>Splatter Data 2</b> <i>Color Input</i> |  |

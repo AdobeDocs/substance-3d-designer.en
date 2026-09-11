@@ -16,34 +16,20 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/convert-to-srgb-grayscale.png){width="128px"}
+![](convert-to-srgb.resources/convert-to-srgb-grayscale.png){width="128px"}
 
-![](../../../../../../assets/convert-to-srgb.png){width="128px"}
+![](convert-to-srgb.resources/convert-to-srgb.png){width="128px"}
 
-## Convert to sRGB (Grayscale)
-
-**In:** *Filters/Adjustments*
-
-**Simple**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Converts a Linear input to sRGB colorspace. Useful when working and converting with photo reference material for example.
-
-## Parameters
-
-*No Parameters.*
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
 
 </td>
 </tr>
