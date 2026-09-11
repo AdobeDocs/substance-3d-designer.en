@@ -22,14 +22,14 @@ This page lists technical issues related to the [user interface](../../interface
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-**![(出错)](../../assets/error.svg) Issue**
+**![(出错)](user-interface-issues.resources/error.svg) Issue**
 
 The user interface elements are too small or too large.
 
 </td>
 <td style="border: 0;" valign="top">
 
-**![(滴答)](../../assets/check.svg) Recommended steps**
+**![(滴答)](user-interface-issues.resources/check.svg) Recommended steps**
 
 Designer acquires the specific scale of user interface elements *from the OS*. Therefore any adjustments to the scaling of the user interface should be done in the display settings of the OS.
 
