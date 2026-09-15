@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Warp](warp.resources/comp_warp_1.png "Atomic node: Warp"){width="200px"}
+![Atomic node: Warp](warp.resources/comp_warp_1.png "Atomic node: Warp"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -31,44 +31,13 @@ Unlike the Directional Warp this node pushes away uniformly from white areas, in
 </tr>
 </table>
 
+>[!VIDEO](warp.resources/warp-tooltip.mp4)
+
 The node can be a little tricky to work with, as the result of the effect is very heavily dependent on the Gradient Input: small tweaks to the Gradient can make a huge visual difference with the same Intensity values. Make sure to play around with Contrast, Luminance and scale of the Gradient Input, as well as the Intensity slider on this node.
 
 If you are familiar with Normal maps, you can imagine the workings of this node to be similar to converting the Gradient Input to a [Normal map](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md), and then distorting the Base Input in the direction defined by the Normal map vectors. In fact, this same thing can be achieved with the [Vector Warp](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md). Similar effects can also be found in [Slope Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -84,11 +53,6 @@ If you are familiar with Normal maps, you can imagine the workings of this node 
 | <b>Input</b> *Grayscale/Color* PRIMARY | The color or grayscale image. |
 | <b>Gradient input</b> *Grayscale* | The slope of the gradient of the grayscale input image determines the warp effect in the output image. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

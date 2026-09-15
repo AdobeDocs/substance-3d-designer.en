@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Value processor](value-processor.resources/comp_valueprocessor_1.png "Atomic node: Value processor"){width="200px"}
+![Atomic node: Value processor](value-processor.resources/comp_valueprocessor_1.png "Atomic node: Value processor"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -31,25 +31,8 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+>[!VIDEO](value-processor.resources/value-processor-tooltip.mp4)
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -57,20 +40,6 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 > 
 > Also consider that working with this type of graph and performing mathematical operations is mandatory for getting anything out of this node.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -84,11 +53,6 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 | --- | --- |
 | <b>Input image &#35;</b> *Grayscale/Color* | Use a [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) or [Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) node to access the values in the input of the specified index. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Any available value type* |  |
 
 ## Examples
 

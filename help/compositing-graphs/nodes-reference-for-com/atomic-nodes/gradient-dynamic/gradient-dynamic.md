@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic node: Gradient dynamic"){width="200px"}
+![Atomic node: Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic node: Gradient dynamic"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -31,6 +31,8 @@ It serves as a slight alternative to the Gradient Node, but unlike the Gradient 
 </tr>
 </table>
 
+>[!VIDEO](gradient-dynamic.resources/gradient-dynamic-tooltip.mp4)
+
 This mainly allows to avoid the problem where parameters cannot be exposed, as the parameters for color are moved outside of the node. This is what makes it "dynamic".
 
 While Gradient (Dynamic) is not a difficult node to use by itself, its usecases are a bit more advanced: most standard usages can be covered by the regular Gradient node.
@@ -39,50 +41,7 @@ This node comes in play when you are too limited by the Gradient editor's key sy
 
 Alternatively, the Gradient Input Position slider can be used to alternate between multiple gradients stored inside a single Ramp input.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Input connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -99,11 +58,6 @@ Alternatively, the Gradient Input Position slider can be used to alternate betwe
 | <b>Grayscale input</b> *Grayscale* PRIMARY | The grayscale image to remap. |
 | <b>Gradient input</b> *Color/Grayscale* | The gradient is sampled from this image |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Color/Grayscale* |  |
 
 ## Examples
 

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Directional warp](directional-warp.resources/comp_directionalwarp_1.png "Atomic node: Directional warp"){width="200px"}
+![Atomic node: Directional warp](directional-warp.resources/comp_directionalwarp_1.png "Atomic node: Directional warp"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -31,42 +31,11 @@ Warps an input in a user-set direction, multiplied by a user-set Intensity map. 
 </tr>
 </table>
 
+>[!VIDEO](directional-warp.resources/directional-warp-tooltip.mp4)
+
 The Warp node is a fairly simple but useful node that serves as a good basis for other more advanced effects. There are more advanced alternatives such as other related nodes of interest are [Slope Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) and [Vector Warp](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -84,11 +53,6 @@ The Warp node is a fairly simple but useful node that serves as a good basis for
 | <b>Input</b> *Grayscale/Color* PRIMARY | The grayscale or color input image on which the warping effect should be applied. |
 | <b>Intensity input</b> *Grayscale* | The grayscale image defining the amount of warping that should be applied to the <b>Input</b> image. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 
@@ -96,7 +60,7 @@ The Warp node is a fairly simple but useful node that serves as a good basis for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional Warp - Example 1](directional-warp.resources/dir-warp.gif "Directional Warp - Example 1"){zoomable="yes"}
+![Directional Warp - Example 1](directional-warp.resources/dir-warp.gif "Directional Warp - Example 1"){width="20%"}{zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

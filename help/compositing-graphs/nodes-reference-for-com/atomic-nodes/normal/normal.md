@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Normal](normal.resources/comp_normal_1.png "Atomic node: Normal"){width="200px"}
+![Atomic node: Normal](normal.resources/comp_normal_1.png "Atomic node: Normal"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -31,42 +31,11 @@ The node converts an input grayscale map to a tangent-space Normal map output. I
 </tr>
 </table>
 
+>[!VIDEO](normal.resources/normal-tooltip.mp4)
+
 It is a very useful node that is used often to convert height map inputs to normal maps for realtime-ready materials. There are alternatives to be found in [Normal Sobel](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) and Height To Normal World Units.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -82,11 +51,6 @@ It is a very useful node that is used often to convert height map inputs to norm
 | --- | --- |
 | <b>Input</b> *Grayscale* PRIMARY | Input image interpreted as a height map. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Color* |  |
 
 ## Examples
 
