@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map"){width="100%"}
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Remaps the grayscale values in an image using a custom gradient.
 
@@ -35,9 +35,9 @@ This node serves a dual purpose: It may be simply used as a<b> </b>grayscale-to-
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

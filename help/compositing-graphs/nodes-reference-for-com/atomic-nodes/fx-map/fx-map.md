@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map"){width="100%"}
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 The FX-Map can replicate and subdivide an image or pattern input over and over again, and control the distribution of each pattern thanks to parameters and logical functions.
 
@@ -35,9 +35,9 @@ It is one of the most powerful atomic nodes, as well as the most complex node av
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

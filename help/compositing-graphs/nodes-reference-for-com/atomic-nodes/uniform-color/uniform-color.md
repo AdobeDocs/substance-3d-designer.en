@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 33.33%; vertical-align: top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Uniform color](uniform-color.resources/comp_uniform_1.png "Atomic node: Uniform color"){width="100%"}
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Generates a flat grayscale or color value.
 
@@ -35,9 +35,9 @@ It is a simple node that is used very often as a starting point for adding color
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="uniform-color tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="uniform-color tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

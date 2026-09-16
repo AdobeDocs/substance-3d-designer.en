@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="100%"}
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Combines two images using a specified blending mode and an optional mask.
 
@@ -35,9 +35,9 @@ It is the most useful node of all Atomic nodes, almost any Graph you build in [S
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="blend.resources/blend-tooltip.gif" alt="blend tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="blend.resources/blend-tooltip.gif" alt="blend tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

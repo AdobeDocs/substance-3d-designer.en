@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG"){width="100%"}
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Renders an [SVG image](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) as a bitmap. In other words, maps vector shapes to pixels.
 
@@ -35,9 +35,9 @@ There are a few ways to create this node, and all of them require you to underst
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="svg.resources/svg-tooltip.gif" alt="svg tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="svg.resources/svg-tooltip.gif" alt="svg tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

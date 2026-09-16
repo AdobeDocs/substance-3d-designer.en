@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 33.33%; vertical-align: top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Output](output.resources/comp_output_1.png "Atomic node: Output"){width="100%"}
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 The Output node specifies the <b>result</b> of a Substance graph, or one of its results if more than one Output node is present in it.
 
@@ -35,9 +35,9 @@ The image or value connected to a graph's Output node is  output by any [instanc
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="output.resources/output-tooltip.gif" alt="output tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="output.resources/output-tooltip.gif" alt="output tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

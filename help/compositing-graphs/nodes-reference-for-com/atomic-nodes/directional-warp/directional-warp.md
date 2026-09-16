@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Directional warp](directional-warp.resources/comp_directionalwarp_1.png "Atomic node: Directional warp"){width="100%"}
 
 **<b>In:</b> Atomic Nodes**
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Displaces pixels in a specified direction according to an intensity map, which can result in deformation.
 
@@ -35,9 +35,9 @@ Warps an input in a user-set direction, multiplied by a user-set Intensity map. 
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="directional-warp tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="directional-warp tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

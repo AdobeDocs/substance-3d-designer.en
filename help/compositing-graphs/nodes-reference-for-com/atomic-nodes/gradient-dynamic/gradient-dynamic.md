@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic node: Gradient dynamic"){width="100%"}
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Remaps the grayscale values in an image, using a gradient supplied by a row or column of pixels in another image.
 
@@ -35,9 +35,9 @@ It serves as a slight alternative to the Gradient Node, but unlike the Gradient 
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

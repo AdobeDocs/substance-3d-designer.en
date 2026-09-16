@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Channels shuffle](channel-shuffle.resources/comp_shuffle.png "Atomic node: Channels shuffle"){width="100%"}
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Rearranges the color channels of one or two input images into the output image.
 
@@ -37,9 +37,9 @@ Essentially it allows you to pack and swap RGB channels in any possible way. Gra
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="channel-shuffle tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="channel-shuffle tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

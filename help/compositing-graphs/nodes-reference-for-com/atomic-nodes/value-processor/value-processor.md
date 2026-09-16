@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Value processor](value-processor.resources/comp_valueprocessor_1.png "Atomic node: Value processor"){width="100%"}
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Computes a [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) and outputs its result.
 
@@ -35,9 +35,9 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
