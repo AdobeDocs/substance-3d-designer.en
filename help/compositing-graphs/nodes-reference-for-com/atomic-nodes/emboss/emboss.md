@@ -16,12 +16,12 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Emboss](emboss.resources/comp_emboss_1.png "Atomic node: Emboss"){width="20%"}
+![Atomic node: Emboss](emboss.resources/comp_emboss_1.png "Atomic node: Emboss")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Applies an embossing effect by lighting the sides of shapes in an image according to a specified light source direction.
 

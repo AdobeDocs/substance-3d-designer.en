@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map"){width="20%"}
+![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Remaps the grayscale values in an image using a custom gradient.
 
@@ -52,7 +52,7 @@ It can be opened from the Gradient Map node's <b>Properties</b> in the following
 * Click LMB on the <b>Gradient Editor</b> button;
 * Double-click LMB on a pin in the gradient bar. The clicked pin will then be automatically selected in the Gradient Editor so you can directly edit its values.
 
-![Gradient Editor](gradient-map.resources/image2017-2-17-16-13-5.png "Gradient Editor"){width="20%"}
+![Gradient Editor](gradient-map.resources/image2017-2-17-16-13-5.png "Gradient Editor")
 
 ### Editing the gradient pins
 
@@ -229,7 +229,7 @@ The Color Picker lets you set a color in several ways:
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   The RGB, HSV and Alpha sliders let you set a color precisely, by tweaking the sliders or directly setting their numerical values.
 
@@ -263,7 +263,7 @@ The Color Picker lets you set a color in several ways:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 The selected color is previewed in the upper half of the color thumbnail.  
 The lower half displays the previously used color. Double-click LMB on it to revert the tweaked color to it.
@@ -281,7 +281,7 @@ When multiple pin are selected, the RGB, HSV and Alpha sliders turn into delta (
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Additionally, the following capabilities are available below the color thumbnail as buttons:
 

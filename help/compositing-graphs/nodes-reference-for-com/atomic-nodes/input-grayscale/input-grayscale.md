@@ -16,9 +16,9 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Input grayscale](input-grayscale.resources/comp_inputgrayscale_1.png "Atomic node: Input grayscale"){width="20%"}
+![Atomic node: Input grayscale](input-grayscale.resources/comp_inputgrayscale_1.png "Atomic node: Input grayscale")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -74,7 +74,7 @@ An input can be defined as the [Primary input](../../../../compositing-graphs/in
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Primary input in Substance graph](input-grayscale.resources/node-primary-input.png){width="20%"}
+![Primary input in Substance graph](input-grayscale.resources/node-primary-input.png)
 
 </td>
 </tr>

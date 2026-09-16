@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map"){width="20%"}
+![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 The FX-Map can replicate and subdivide an image or pattern input over and over again, and control the distribution of each pattern thanks to parameters and logical functions.
 
@@ -71,4 +71,4 @@ Keep in mind that unlike other nodes, the majority of an FX-Map's behavior is no
 
 ## Examples
 
-![](fx-map.resources/image2015-9-10-17-28-32.png){width="20%"}
+![](fx-map.resources/image2015-9-10-17-28-32.png)

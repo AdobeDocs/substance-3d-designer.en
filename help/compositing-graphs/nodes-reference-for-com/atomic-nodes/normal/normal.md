@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Normal](normal.resources/comp_normal_1.png "Atomic node: Normal"){width="20%"}
+![Atomic node: Normal](normal.resources/comp_normal_1.png "Atomic node: Normal")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Computes a normal map from a grayscale image interpreted as a height map.
 

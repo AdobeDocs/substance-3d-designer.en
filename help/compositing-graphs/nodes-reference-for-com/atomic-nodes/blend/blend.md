@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="20%"}
+![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Combines two images using a specified blending mode and an optional mask.
 

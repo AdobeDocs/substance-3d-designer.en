@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Text](text.resources/comp_text_1.png "Atomic node: Text"){width="20%"}
+![Atomic node: Text](text.resources/comp_text_1.png "Atomic node: Text")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 The Text node provides a way to place-user created text in your graphs. Users can also select settings like Font, Alignment and rotation to customize the text placement.
 

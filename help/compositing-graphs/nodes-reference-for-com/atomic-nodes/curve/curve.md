@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Curve](curve.resources/comp_curve_1.png "Atomic node: Curve"){width="20%"}
+![Atomic node: Curve](curve.resources/comp_curve_1.png "Atomic node: Curve")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Remaps the values in an image using a custom curve.
 
@@ -53,13 +53,13 @@ Unlike most other nodes, the Curve node does not have a typical standard interfa
 
 In order to create a point, simply double-click anywhere on the Curve view:
 
-![](curve.resources/createmovepoint.gif){width="20%"}
+![](curve.resources/createmovepoint.gif)
 
 ### Controlling the point influence
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 In order to obtain precise results, the curve nodes offers different modes for each point:
 
@@ -96,7 +96,7 @@ You can show/hide the histogram of your input just by clicking on ![](curve.reso
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 When you input is a color node, you have the ability to ajust the curve for each channel:
 
@@ -119,7 +119,7 @@ While in RGB curve mode, you canhide/show the individual channel curves by press
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 If you right click on the curve view, you will get some more options.
 

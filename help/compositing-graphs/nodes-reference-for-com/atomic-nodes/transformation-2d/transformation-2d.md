@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Atomic node: Transformation 2D"){width="20%"}
+![Atomic node: Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Atomic node: Transformation 2D")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Applies a 2D transformation matrix to an image: translation, rotation, scaling, symmetry and shearing.
 
@@ -44,7 +44,7 @@ It can however not be a perfect match for certain applications, so the following
 > 
 > Set the [inheritance method](../../../../glossary/glossary.md) of the 'Tiling mode' [base parameter](../../../../glossary/glossary.md) to 'Absolute', which then lets you set the parameter value to 'No Tiling':
 > 
-> ![](transformation-2d.resources/tilingmode.png){width="20%"}
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >

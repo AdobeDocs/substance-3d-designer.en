@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Atomic node: Uniform color](uniform-color.resources/comp_uniform_1.png "Atomic node: Uniform color"){width="20%"}
+![Atomic node: Uniform color](uniform-color.resources/comp_uniform_1.png "Atomic node: Uniform color")
 
 </td>
 <td style="border: 0; vertical-align: top">

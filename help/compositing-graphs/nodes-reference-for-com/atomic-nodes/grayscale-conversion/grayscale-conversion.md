@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Grayscale conversion](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Atomic node: Grayscale conversion"){width="20%"}
+![Atomic node: Grayscale conversion](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Atomic node: Grayscale conversion")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Converts a color image to grayscale by weighing the luminance of each color channel.
 

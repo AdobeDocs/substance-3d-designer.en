@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Directional warp](directional-warp.resources/comp_directionalwarp_1.png "Atomic node: Directional warp"){width="20%"}
+![Atomic node: Directional warp](directional-warp.resources/comp_directionalwarp_1.png "Atomic node: Directional warp")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Displaces pixels in a specified direction according to an intensity map, which can result in deformation.
 
@@ -60,7 +60,7 @@ The Warp node is a fairly simple but useful node that serves as a good basis for
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Directional Warp - Example 1](directional-warp.resources/dir-warp.gif "Directional Warp - Example 1"){width="20%"}{zoomable="yes"}
+![Directional Warp - Example 1](directional-warp.resources/dir-warp.gif "Directional Warp - Example 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

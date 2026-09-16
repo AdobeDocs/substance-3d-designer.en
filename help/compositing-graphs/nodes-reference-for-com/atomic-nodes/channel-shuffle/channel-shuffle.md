@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Channels shuffle](channel-shuffle.resources/comp_shuffle.png "Atomic node: Channels shuffle"){width="20%"}
+![Atomic node: Channels shuffle](channel-shuffle.resources/comp_shuffle.png "Atomic node: Channels shuffle")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Rearranges the color channels of one or two input images into the output image.
 

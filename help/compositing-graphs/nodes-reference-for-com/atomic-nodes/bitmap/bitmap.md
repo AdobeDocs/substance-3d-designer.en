@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Bitmap](bitmap.resources/comp_bitmap.png "Atomic node: Bitmap"){width="20%"}
+![Atomic node: Bitmap](bitmap.resources/comp_bitmap.png "Atomic node: Bitmap")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Loads a [bitmap resource](../../../../resources/bitmap-resource/bitmap-resource.md) into the graph.
 

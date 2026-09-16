@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Warp](warp.resources/comp_warp_1.png "Atomic node: Warp"){width="20%"}
+![Atomic node: Warp](warp.resources/comp_warp_1.png "Atomic node: Warp")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Displaces the pixel values in the input image according to the slopes computed from a separate gradient input, resulting in deformation.
 

@@ -16,12 +16,12 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="20%"}
+![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Adjusts the global tonal range and color balance of an image's shadows, midtones and highlights.
 
@@ -43,14 +43,14 @@ The node offers two interfaces to adjust its values: histogram and sliders. You 
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 The highlighted yellow button toggles the interface between the histogram (top) value sliders (bottom)
 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png){width="20%"}
+![](levels.resources/levels-2-1.png)
 
 ![](levels.resources/levels-1-1.png)
 

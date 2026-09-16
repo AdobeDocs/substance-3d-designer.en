@@ -16,12 +16,12 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Directional blur](directional-blur.resources/comp_dirmotionblur_1.png "Atomic node: Directional blur"){width="20%"}
+![Atomic node: Directional blur](directional-blur.resources/comp_dirmotionblur_1.png "Atomic node: Directional blur")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Applies blurring in a specified direction according to an intensity map.
 
@@ -46,7 +46,7 @@ This images below show the Directional blur and the[ Anisotropic blur](../../../
 
 <b>Directional blur</b>
 
-![Directional blur comparison](directional-blur.resources/dirblur-01.png "Directional blur comparison"){width="20%"}{zoomable="yes"}
+![Directional blur comparison](directional-blur.resources/dirblur-01.png "Directional blur comparison"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

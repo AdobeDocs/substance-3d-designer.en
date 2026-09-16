@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Atomic node: Output](output.resources/comp_output_1.png "Atomic node: Output"){width="20%"}
+![Atomic node: Output](output.resources/comp_output_1.png "Atomic node: Output")
 
 </td>
 <td style="border: 0; vertical-align: top">

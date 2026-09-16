@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: HSL](hsl.resources/comp_hsl_1.png "Atomic node: HSL"){width="20%"}
+![Atomic node: HSL](hsl.resources/comp_hsl_1.png "Atomic node: HSL")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Adjusts the hue, saturation and lightness of a color image.
 
