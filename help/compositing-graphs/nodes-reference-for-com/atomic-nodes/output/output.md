@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Atomic node: Output](output.resources/comp_output_1.png "Atomic node: Output"){width="200px"}
+![Atomic node: Output](output.resources/comp_output_1.png "Atomic node: Output"){width="20%"}
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -30,6 +30,8 @@ The image or value connected to a graph's Output node is  output by any [instanc
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="output.resources/output-tooltip.gif" alt="output tooltip" /></div>
 
 Similarly, when a [published SBSAR file](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) includes this graph, then that file can output that image in any integration or plugin which consumes the file.
 

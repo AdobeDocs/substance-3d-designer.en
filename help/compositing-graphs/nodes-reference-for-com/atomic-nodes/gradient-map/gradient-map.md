@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map"){width="200px"}
+![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -31,31 +31,11 @@ This node serves a dual purpose: It may be simply used as a<b> </b>grayscale-to-
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></div>
+
 The node offers an advanced and feature-rich gradient editor to map multiple colors with precision: go to the [Gradient editor](#gradient-editor) section in this page to learn more.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Examples
-
-## Parameters
 
 |  |  |
 | --- | --- |
@@ -72,7 +52,7 @@ It can be opened from the Gradient Map node's <b>Properties</b> in the following
 * Click LMB on the <b>Gradient Editor</b> button;
 * Double-click LMB on a pin in the gradient bar. The clicked pin will then be automatically selected in the Gradient Editor so you can directly edit its values.
 
-![Gradient Editor](gradient-map.resources/image2017-2-17-16-13-5.png "Gradient Editor")
+![Gradient Editor](gradient-map.resources/image2017-2-17-16-13-5.png "Gradient Editor"){width="20%"}
 
 ### Editing the gradient pins
 
@@ -340,11 +320,6 @@ The <b>Precision</b> slider will help you adjust your newly created gradient by 
 | --- | --- |
 | <b>Input</b> *Grayscale* PRIMARY | The grayscale image to be processed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* |  |
 
 ## Examples
 

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Bitmap](bitmap.resources/comp_bitmap.png "Atomic node: Bitmap"){width="200px"}
+![Atomic node: Bitmap](bitmap.resources/comp_bitmap.png "Atomic node: Bitmap"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -33,27 +33,10 @@ There are a few ways to create this node, and all of them require you to underst
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="bitmap.resources/bitmap-tooltip.gif" alt="bitmap tooltip" /></div>
+
 You can either create the node from scratch, or by dropping a [bitmap](../../../../glossary/glossary.md) in a supported format into the Graph view.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -68,30 +51,6 @@ You can either create the node from scratch, or by dropping a [bitmap](../../../
 > * On the other hand, be careful when deleting a [Bitmap resource](../../../../resources/bitmap-resource/bitmap-resource.md) in the Explorer: it will still work in the graph for that session as it is kept in cache, but the resource will be marked as missing the next time you load the [package](../../../../glossary/glossary.md).
 > * When a Substance graph is [cooked](../../../../glossary/glossary.md), the bitmap resolution will be fixed at its resolution inside the graph and not based on its original size. It is recommended to make sure the 'Output size' [base parameter](../../../../glossary/glossary.md) of a Bitmap node uses the 'Absolute' [inheritance method](../../../../glossary/glossary.md), and the node is followed by a [Transform 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node set to 'Relative to parent' (I.e., the host graph's resolution).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Bitmap painting tools
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -105,11 +64,6 @@ You can either create the node from scratch, or by dropping a [bitmap](../../../
 
 Bitmaps can be edited in Designer. Learn more about the editing tools in [this section](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md).
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

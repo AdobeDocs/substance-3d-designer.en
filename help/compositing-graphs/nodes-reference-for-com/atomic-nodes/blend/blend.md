@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="200px"}
+![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -31,46 +31,15 @@ It is the most useful node of all Atomic nodes, almost any Graph you build in [S
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blend.resources/blend-tooltip.gif" alt="blend tooltip" /></div>
+
 Its functionality is similar to having two layers above one another in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) or [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), that blend together by the blending mode you set on the top layer.
 
 >[!TIP]
 >
 > Learn about the blending modes available in the Blend node in [this dedicated page](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -97,11 +66,6 @@ Its functionality is similar to having two layers above one another in [Substanc
 > 
 > This is the number one reason new users run into problems with Color vs Grayscale connections: make sure both connections are of the same type!
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

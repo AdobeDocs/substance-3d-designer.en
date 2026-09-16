@@ -16,17 +16,7 @@ user-guide-title: ""
 
 Substance 3D Designer is a Node-Based editor. That means almost every type of project or resource will involve placing nodes (building blocks) and connecting them to create a chain of operations (a Graph).This page explains the concept of Node-Based workflows, and provides a summary of the 3 main types of Graph you can author in Designer.
 
-## Table of contents
-
-[Node-based workflow](#node-workflow)
-
-[Graph instance workflow](#instance-workflow)
-
-[Custom parameters](#custom-parameters)
-
-[Graph types](#graph-types)
-
-![Data flow simplified](workflow-overview.resources/graph-direction.png "Data flow simplified")
+![Data flow simplified](workflow-overview.resources/graph-direction.png "Data flow simplified"){zoomable="yes"}
 
 ## Node-based workflow
 
@@ -42,7 +32,7 @@ Instancing Graphs is a key process in Designer. It allows you to build your own 
 
 For more information about Graph Instances in [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md), there is a [dedicated section](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) about them in the documentation.
 
-![Graph parameters simplified](workflow-overview.resources/parameters-5.png "Graph parameters simplified")
+![Graph parameters simplified](workflow-overview.resources/parameters-5.png "Graph parameters simplified"){zoomable="yes"}
 
 ## Custom parameters
 
@@ -54,12 +44,12 @@ Below you can find a summary of the three types of Graph you can edit in Substan
 
 <table>
 <tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
+<td style="border: 0; width: 20%; vertical-align: top">
 
-[![](workflow-overview.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+![](workflow-overview.resources/graph-5.png){width="120px"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 ### Substance graphs
 
@@ -67,7 +57,7 @@ Below you can find a summary of the three types of Graph you can edit in Substan
 
 The results can be in the form of a simple black-and-white pattern, a filter that only runs on other images and doesn't generate content by itself, or even a full-fledged procedural material with multiple channels.
 
-Substance graphs are[ the most widely supported type of graph](../../getting-started/overview/overview.md), and can be exported and used in a plethora of different workflows.
+Substance graphs are [the most widely supported type of graph](../../getting-started/overview/overview.md), and can be exported and used in a plethora of different workflows.
 
 </td>
 </tr>
@@ -77,10 +67,9 @@ Substance graphs are[ the most widely supported type of graph](../../getting-sta
 
 Below you can find some typical examples of common usecases.
 
-+++Simple shape
-![Simple shape in Substance graph](workflow-overview.resources/simpleshape.png "Simple shape in Substance graph"){width="512px"}
++++ Simple shape
 
-
+![Simple shape in Substance graph](workflow-overview.resources/simpleshape.png "Simple shape in Substance graph"){width="512px" zoomable="yes"}
 
 A simple mask shape for a decal is created by generating[ a piece of text](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) and a [disc shape](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md), [extracting the edge](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md) from the disc and the finally [blending them together](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) before setting them as final [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
@@ -88,23 +77,21 @@ The Text with the number, or the thickness of the edge can be exposed externally
 
 +++
 
-+++Adjustment filter
-![Adjustment filter in Substance graph](workflow-overview.resources/simplefilter.png "Adjustment filter in Substance graph"){width="512px"}
++++ Adjustment filter
 
+![Adjustment filter in Substance graph](workflow-overview.resources/simplefilter.png "Adjustment filter in Substance graph"){width="512px" zoomable="yes"}
 
-
-A filter graph takes a normal map as [input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)(with a custom preview), [converts it to curvature](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) and then [adjusts the contrast](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) to create a mask of convex edges as final [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+A filter graph takes a normal map as [input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) (with a custom preview), [converts it to curvature](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) and then [adjusts the contrast](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) to create a mask of convex edges as final [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 The contrast values set in the Histogram can be exposed, making this a simple but useful filter in combination with the dynamic Input slot.
 
 +++
 
-+++Full material
-![Full material in Substance graph](workflow-overview.resources/simplematerial.png "Full material in Substance graph"){width="512px"}
++++ Full material
 
+![Full material in Substance graph](workflow-overview.resources/simplematerial.png "Full material in Substance graph"){width="512px" zoomable="yes"}
 
-
-A more complicated graph[ blends two Base materials](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). One[ Base material](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) is kept simple, the other uses some custom inputs to add interest. A mask is used to determine which of the two materials appear where before being set as final [outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+A more complicated graph [blends two Base materials](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md). One [Base material](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/base-material/base-material.md) is kept simple, the other uses some custom inputs to add interest. A mask is used to determine which of the two materials appear where before being set as final [outputs](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 This example makes use of [Link Creation Modes](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) to simplify using multiple links.
 
@@ -112,16 +99,16 @@ This example makes use of [Link Creation Modes](../../interface/the-graph-view/l
 
 <table>
 <tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
+<td style="border: 0; width: 20%; vertical-align: top">
 
-[![](workflow-overview.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+![](workflow-overview.resources/function-1.png){width="120px"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 ### Substance function graphs
 
-Functions <b>process single values</b> (integers, floats, vectors) instead of image data (whole sets of pixels). Functions are also Graphs with node networks, but the [Nodes used ](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)and the interface is different from [regular Substance graphs](../../compositing-graphs/substance-compositing-graphs.md). The workflow is completely based on <b>mathematical operations</b> and does not show any image preview thumbnails, making it a <b>much more advanced way to work</b> with Substance 3D Designer.
+Functions <b>process single values</b> (integers, floats, vectors) instead of image data (whole sets of pixels). Functions are also Graphs with node networks, but the [Nodes used](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) and the interface is different from [regular Substance graphs](../../compositing-graphs/substance-compositing-graphs.md). The workflow is completely based on <b>mathematical operations</b> and does not show any image preview thumbnails, making it a <b>much more advanced way to work</b> with Substance 3D Designer.
 
 Functions can be used in many different contexts, the main ones being to modify the behaviour of [an exposed Parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), to author the behaviour of [Pixel Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) or [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) and to to use [values](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) in a Substance graph.
 
@@ -133,10 +120,9 @@ Functions can be used in many different contexts, the main ones being to modify 
 
 Below are some examples from common use cases for Substance function graphs.
 
-+++Simple function
-![Simple function graph](workflow-overview.resources/lerpfunction.png "Simple function graph"){width="256px"}
++++ Simple function
 
-
+![Simple function graph](workflow-overview.resources/lerpfunction.png "Simple function graph"){width="256px" zoomable="yes"}
 
 A simple function in the context of an exposed parameter. It gets an input float value called "Intensity" that is determined to go from 0 to 1 (a range easy to understand) and remaps it to a set range of 0.1 - 0.8. That means if the user sets Intensity ot 0, internally 0.1 will be used, if the Ui is set to 1, 0.8 wil be used, and any value in between will be interpolated linearly. This type of function is something commonly used when [exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), but using custom functions.
 
@@ -144,10 +130,9 @@ This function could also be written as *lerp(0.1, 0.8, Intensity)* in a pseudoco
 
 +++
 
-+++Advanced function
-![Advanced function](workflow-overview.resources/pixel-function.png "Advanced function"){width="512px"}
++++ Advanced function
 
-
+![Advanced function](workflow-overview.resources/pixel-function.png "Advanced function"){width="512px" zoomable="yes"}
 
 This advanced Function shows the inner workings of a [Pixel Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) meant for adjusting the Hue of a color map input based on the intensity of a second grayscale mask input.
 
@@ -155,10 +140,4 @@ It samples both inputs with the system "$pos" variable, then strips the Alpha, c
 
 in pseudo-code this would be a much more complicated function that would not fit on a single line.
 
-
-
 +++
-
-### MDL graphs
-
-This page presents MDL graphs in Substance 3D Designer, which let you author MDL materials and preview their behavior in real time.

@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Sharpen node icon](sharpen.resources/sharpen-4.png "Sharpen node icon")
+![Sharpen node icon](sharpen.resources/sharpen-4.png "Sharpen node icon"){width="20%"}
 
 <b>In:</b> Atomic Nodes
 
@@ -32,6 +32,8 @@ The Sharpen Node perform a sharpening operation on an input. It is a useful node
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="sharpen.resources/sharpen-tooltip.gif" alt="sharpen tooltip" /></div>
 
 It is mathematically very similar to Photoshop's Unsharp Mask, despite the name being different. It works well for things like a Basecolor map, but should be avoided on maps like Normal maps and Metallic maps.
 

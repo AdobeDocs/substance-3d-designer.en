@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Channels shuffle](channel-shuffle.resources/comp_shuffle.png "Atomic node: Channels shuffle"){width="200px"}
+![Atomic node: Channels shuffle](channel-shuffle.resources/comp_shuffle.png "Atomic node: Channels shuffle"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -33,42 +33,11 @@ Essentially it allows you to pack and swap RGB channels in any possible way. Gra
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="channel-shuffle tooltip" /></div>
+
 Channel Shuffle has basic options, but in most cases of Channel-packing or Stripping and setting Alpha Channels it is quicker to use [RGBA Merge](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), [RGBA Split](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), [Alpha Merge](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) and [Alpha Split](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). They are set up to do default actions that do not require changing multiple parameters and converting to Grayscale afterwards. If you're after a more advanced version with more blending options, look at [Channel Mixer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -86,11 +55,6 @@ Channel Shuffle has basic options, but in most cases of Channel-packing or Strip
 | <b>Input 1</b> *Color/Grayscale* PRIMARY | Primary input image. |
 | <b>Input 2</b> *Color/Grayscale* | Secondary input image. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

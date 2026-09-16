@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Curve](curve.resources/comp_curve_1.png "Atomic node: Curve"){width="200px"}
+![Atomic node: Curve](curve.resources/comp_curve_1.png "Atomic node: Curve"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -31,53 +31,13 @@ The node provides an interface to image tonality remapping, similar to other 2D 
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="curve tooltip" /></div>
+
 Unlike most other nodes, the Curve node does not have a typical standard interface with sliders and parameters, but instead presents a full fledged curve editor. See the below expandable section on how to use it.
 
 [This does however mean that none of the parameters from a Curve node can be exposed to a subgraph](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). The only option here is to use a [Multi-Switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) to switch between different curve profiles.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parameters
-
-### Curve editor
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Input connectors
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -93,7 +53,7 @@ Unlike most other nodes, the Curve node does not have a typical standard interfa
 
 In order to create a point, simply double-click anywhere on the Curve view:
 
-![](curve.resources/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif){width="20%"}
 
 ### Controlling the point influence
 
@@ -253,11 +213,6 @@ The ![](curve.resources/image2017-2-20-19-12-45.png) button resets the zoom leve
 | --- | --- |
 | <b>Input</b> *Grayscale/Color* PRIMARY | The image to be processed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

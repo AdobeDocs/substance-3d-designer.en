@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="200px"}
+![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -31,33 +31,13 @@ The Levels node allows you to remap the tones of an input by setting input and o
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="levels.resources/levels-tooltip.gif" alt="levels tooltip" /></div>
+
 It is one of the core, most useful nodes in Substance 3D Designer, and is very often used to remap and adjust values in a graph, as it provides the most precise and accurate interface to changing values.
 
 While it is an important node, for some use cases the interface can be a bit cumbersome, so make sure to look into [Auto Levels](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), [Contrast/Luminosity](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) and [Histogram Scan](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) for alternatives.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Examples
-
-## Parameters
 
 The node offers two interfaces to adjust its values: histogram and sliders. You can switch between them with the rightmost button in the 'Specific parameters' header bar:
 
@@ -70,7 +50,7 @@ The highlighted yellow button toggles the interface between the histogram (top) 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](levels.resources/levels-2-1.png)
+![](levels.resources/levels-2-1.png){width="20%"}
 
 ![](levels.resources/levels-1-1.png)
 
@@ -123,11 +103,6 @@ The sliders change depending on a Color or Grayscale input: Color inputs create 
 | --- | --- |
 | <b>Input</b> *Grayscale/Color* PRIMARY | The image to be processed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

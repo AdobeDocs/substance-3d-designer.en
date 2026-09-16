@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Pixel processor](pixel-processor.resources/comp_pixelprocessor_1.png "Atomic node: Pixel processor"){width="200px"}
+![Atomic node: Pixel processor](pixel-processor.resources/comp_pixelprocessor_1.png "Atomic node: Pixel processor"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -33,31 +33,14 @@ It is by far the most versatile node, as it allows any mathematical operation to
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="pixel-processor tooltip" /></div>
+
 Similar to [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), it requires to set up the internal functionality to perform anything. Where the Pixel processor differs from FX-Map is that it is not focused on placing patterns, with multiple functions controlling pattern shape and placement. Instead, a single function is run in parallel for every pixel, where each pixel is unaware of the calculation results of its neighbors.
 
 The Pixel Processor is similar to the [Value processor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), which runs on only single values and can provide a nice optimization compared to the Pixel processor.
 
 For anybody used to creating [shader](../../../../glossary/glossary.md) functions in node-based editors, the Pixel processor should offer a familiar environment.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -69,20 +52,6 @@ For anybody used to creating [shader](../../../../glossary/glossary.md) function
 > 
 > We also recommend being familiar with the concept of [UVs](../../../../glossary/glossary.md), [texture sampling](../../../../glossary/glossary.md) and vectors.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -97,11 +66,6 @@ For anybody used to creating [shader](../../../../glossary/glossary.md) function
 | --- | --- |
 | <b>Input image &#35;</b> *Grayscale/Color* | Use a [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) or [Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) node to access the values in the input of the specified index. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

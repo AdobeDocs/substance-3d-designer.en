@@ -18,21 +18,25 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input color](input.resources/comp_inputcolor_1.png "Atomic node: Input color"){width="200px"}
+![Atomic node: Input color](input.resources/comp_inputcolor_1.png "Atomic node: Input color"){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input grayscale](input.resources/comp_inputgrayscale_1.png "Atomic node: Input grayscale"){width="200px"}
+![Atomic node: Input grayscale](input.resources/comp_inputgrayscale_1.png "Atomic node: Input grayscale"){width="20%"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Atomic node: Input value](input.resources/comp_inputnumeric_1.png "Atomic node: Input value"){width="200px"}
+![Atomic node: Input value](input.resources/comp_inputnumeric_1.png "Atomic node: Input value"){width="20%"}
 
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-color-tooltip.gif" alt="Input color tooltip" /></div>
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-grayscale-tooltip.gif" alt="Input grayscale tooltip" /></div>
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-value-tooltip.gif" alt="Input value tooltip" /></div>
 
 Input nodes are a special type of node that creates a dynamic slot in your graph, allowing for any input to be connected once your Graph is used in another context.
 
@@ -75,7 +79,7 @@ An input can be defined as the [Primary input](../../../../compositing-graphs/in
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Primary input in Substance graph](input.resources/node-primary-input.png)
+![Primary input in Substance graph](input.resources/node-primary-input.png){width="20%"}
 
 </td>
 </tr>

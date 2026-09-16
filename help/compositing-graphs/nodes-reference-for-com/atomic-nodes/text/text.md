@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Text](text.resources/comp_text_1.png "Atomic node: Text"){width="200px"}
+![Atomic node: Text](text.resources/comp_text_1.png "Atomic node: Text"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -31,44 +31,13 @@ The Text node is very powerful and the only way to easily place text. It can be 
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="text.resources/text-tooltip.gif" alt="text tooltip" /></div>
+
 Only Truetype (.ttf) and certain Opentype fonts are supported. If any fonts are missing from the list, this is probably the reason. <b>Fonts can not be exposed as a parameter.</b>
 
 When a Graph using Text is published to sbsar, the font is embedded into the package, just like with bitmaps and other resources, to ensure it works across all systems and applications.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -90,11 +59,6 @@ When a Graph using Text is published to sbsar, the font is embedded into the pac
 | --- | --- |
 | <b>Background</b> *Grayscale/Color* PRIMARY | The output image's background color. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 
