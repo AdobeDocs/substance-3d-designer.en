@@ -31,7 +31,7 @@ Unlike the Directional Warp this node pushes away uniformly from white areas, in
 </tr>
 </table>
 
->[!VIDEO](warp.resources/warp-tooltip.mp4)
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="warp.resources/warp-tooltip.gif" alt="warp tooltip" /></div>
 
 The node can be a little tricky to work with, as the result of the effect is very heavily dependent on the Gradient Input: small tweaks to the Gradient can make a huge visual difference with the same Intensity values. Make sure to play around with Contrast, Luminance and scale of the Gradient Input, as well as the Intensity slider on this node.
 

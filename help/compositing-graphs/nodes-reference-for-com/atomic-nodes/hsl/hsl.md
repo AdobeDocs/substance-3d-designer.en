@@ -33,7 +33,7 @@ If you are after other ways to edit the tones of an image, look at [Curve](../..
 </tr>
 </table>
 
->[!VIDEO](hsl.resources/hsl-tooltip.mp4)
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl tooltip" /></div>
 
 
 

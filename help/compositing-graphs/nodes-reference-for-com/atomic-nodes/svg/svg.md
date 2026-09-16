@@ -31,7 +31,7 @@ There are a few ways to create this node, and all of them require you to underst
 </tr>
 </table>
 
->[!VIDEO](svg.resources/svg-tooltip.mp4)
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="svg.resources/svg-tooltip.gif" alt="svg tooltip" /></div>
 
 You can either create the node from scratch, or by dropping an SVG file into the Graph view.
 

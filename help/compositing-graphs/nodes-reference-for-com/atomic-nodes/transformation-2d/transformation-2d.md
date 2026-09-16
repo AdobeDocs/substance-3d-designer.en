@@ -31,7 +31,7 @@ It is quite similar to Transforming (Ctrl-T) in Photoshop, or using the 2D mappi
 </tr>
 </table>
 
->[!VIDEO](transformation-2d.resources/transformation2d-tooltip.mp4)
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2d tooltip" /></div>
 
 This is an extremely useful and widely applied node, it allows for increasing tiling, removing tiling, placing an image in a specific position, stretching or squashing an input, etc.
 

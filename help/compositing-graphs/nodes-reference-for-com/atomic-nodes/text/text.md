@@ -31,7 +31,7 @@ The Text node is very powerful and the only way to easily place text. It can be 
 </tr>
 </table>
 
->[!VIDEO](text.resources/text-tooltip.mp4)
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="text.resources/text-tooltip.gif" alt="text tooltip" /></div>
 
 Only Truetype (.ttf) and certain Opentype fonts are supported. If any fonts are missing from the list, this is probably the reason. <b>Fonts can not be exposed as a parameter.</b>
 

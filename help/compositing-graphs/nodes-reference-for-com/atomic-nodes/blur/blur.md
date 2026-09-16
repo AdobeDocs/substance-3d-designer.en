@@ -37,7 +37,7 @@ While blur works well for fast, simple operations, such as slightly softening so
 </tr>
 </table>
 
->[!VIDEO](blur.resources/blur-tooltip.mp4)
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blur.resources/blur-tooltip.gif" alt="blur tooltip" /></div>
 
 ## Parameters
 

@@ -34,9 +34,9 @@ user-guide-title: ""
 </tr>
 </table>
 
->[!VIDEO](input.resources/input-color-tooltip.mp4)
->[!VIDEO](input.resources/input-grayscale-tooltip.mp4)
->[!VIDEO](input.resources/input-value-tooltip.mp4)
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-color-tooltip.gif" alt="Input color tooltip" /></div>
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-grayscale-tooltip.gif" alt="Input grayscale tooltip" /></div>
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input.resources/input-value-tooltip.gif" alt="Input value tooltip" /></div>
 
 Input nodes are a special type of node that creates a dynamic slot in your graph, allowing for any input to be connected once your Graph is used in another context.
 

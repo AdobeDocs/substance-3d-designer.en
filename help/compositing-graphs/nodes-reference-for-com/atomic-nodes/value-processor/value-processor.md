@@ -31,7 +31,7 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 </tr>
 </table>
 
->[!VIDEO](value-processor.resources/value-processor-tooltip.mp4)
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></div>
 
 
 >[!TIP]
