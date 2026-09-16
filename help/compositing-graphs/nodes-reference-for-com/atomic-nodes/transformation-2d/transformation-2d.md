@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Atomic node: Transformation 2D")
+![Atomic node: Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Atomic node: Transformation 2D"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +31,7 @@ It is quite similar to Transforming (Ctrl-T) in Photoshop, or using the 2D mappi
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2d tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2d tooltip" /></div>
 
 This is an extremely useful and widely applied node, it allows for increasing tiling, removing tiling, placing an image in a specific position, stretching or squashing an input, etc.
 

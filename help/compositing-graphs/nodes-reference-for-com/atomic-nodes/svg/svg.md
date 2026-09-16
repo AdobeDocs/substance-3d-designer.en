@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG")
+![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +31,7 @@ There are a few ways to create this node, and all of them require you to underst
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="svg.resources/svg-tooltip.gif" alt="svg tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="svg.resources/svg-tooltip.gif" alt="svg tooltip" /></div>
 
 You can either create the node from scratch, or by dropping an SVG file into the Graph view.
 

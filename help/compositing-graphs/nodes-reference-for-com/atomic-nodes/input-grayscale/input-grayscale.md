@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Input grayscale](input-grayscale.resources/comp_inputgrayscale_1.png "Atomic node: Input grayscale")
+![Atomic node: Input grayscale](input-grayscale.resources/comp_inputgrayscale_1.png "Atomic node: Input grayscale"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ See also: [Input color](../input-color/input-color.md), [Input value](../input-v
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="input-grayscale.resources/input-grayscale-tooltip.gif" alt="Input grayscale tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="input-grayscale.resources/input-grayscale-tooltip.gif" alt="Input grayscale tooltip" /></div>
 
 ## Parameters
 

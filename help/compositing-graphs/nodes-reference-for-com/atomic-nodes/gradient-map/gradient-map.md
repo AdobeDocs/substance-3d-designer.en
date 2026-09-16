@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map")
+![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +31,7 @@ This node serves a dual purpose: It may be simply used as a<b> </b>grayscale-to-
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></div>
 
 The node offers an advanced and feature-rich gradient editor to map multiple colors with precision: go to the [Gradient editor](#gradient-editor) section in this page to learn more.
 
