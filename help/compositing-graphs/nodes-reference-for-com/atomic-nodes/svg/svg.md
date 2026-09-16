@@ -16,9 +16,11 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +33,13 @@ There are a few ways to create this node, and all of them require you to underst
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="svg.resources/svg-tooltip.gif" alt="svg tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="svg.resources/svg-tooltip.gif" alt="svg tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 You can either create the node from scratch, or by dropping an SVG file into the Graph view.
 

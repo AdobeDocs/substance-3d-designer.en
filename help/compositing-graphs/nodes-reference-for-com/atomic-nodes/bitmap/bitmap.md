@@ -16,9 +16,11 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomic node: Bitmap](bitmap.resources/comp_bitmap.png "Atomic node: Bitmap"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
 <td style="border: 0;" valign="top">
@@ -33,7 +35,13 @@ There are a few ways to create this node, and all of them require you to underst
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="bitmap tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="bitmap tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 You can either create the node from scratch, or by dropping a [bitmap](../../../../glossary/glossary.md) in a supported format into the Graph view.
 

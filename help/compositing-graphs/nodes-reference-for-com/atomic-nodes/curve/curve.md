@@ -16,9 +16,11 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomic node: Curve](curve.resources/comp_curve_1.png "Atomic node: Curve"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +33,13 @@ The node provides an interface to image tonality remapping, similar to other 2D 
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="curve.resources/curve-tooltip.gif" alt="curve tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="curve.resources/curve-tooltip.gif" alt="curve tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Unlike most other nodes, the Curve node does not have a typical standard interface with sliders and parameters, but instead presents a full fledged curve editor. See the below expandable section on how to use it.
 
@@ -64,7 +72,7 @@ In order to create a point, simply double-click anywhere on the Curve view:
 In order to obtain precise results, the curve nodes offers different modes for each point:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -103,7 +111,7 @@ When you input is a color node, you have the ability to ajust the curve for each
 Just select the curve you want to ajust in the dropdown list located on the top right:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 

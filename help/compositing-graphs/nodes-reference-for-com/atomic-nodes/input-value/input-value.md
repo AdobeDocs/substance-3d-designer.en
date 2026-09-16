@@ -16,9 +16,11 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomic node: Input value](input-value.resources/comp_inputnumeric_1.png "Atomic node: Input value"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +39,13 @@ See also: [Input color](../input-color/input-color.md), [Input grayscale](../inp
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="input-value.resources/input-value-tooltip.gif" alt="Input value tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="input-value.resources/input-value-tooltip.gif" alt="Input value tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 ## Parameters
 

@@ -16,9 +16,11 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomic node: Directional blur](directional-blur.resources/comp_dirmotionblur_1.png "Atomic node: Directional blur"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +33,13 @@ This node performs an operation similar to a motion blur on an input. Unlike the
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="directional-blur tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="directional-blur tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Similarly to 'Blur', it is also a faster and low-quality operation. An extended, higher-quality alternative is provided in [Anisotropic Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), with a performande trade-off
 

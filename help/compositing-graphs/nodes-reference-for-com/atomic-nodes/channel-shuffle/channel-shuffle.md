@@ -16,9 +16,11 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomic node: Channels shuffle](channel-shuffle.resources/comp_shuffle.png "Atomic node: Channels shuffle"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
 <td style="border: 0;" valign="top">
@@ -33,7 +35,13 @@ Essentially it allows you to pack and swap RGB channels in any possible way. Gra
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="channel-shuffle tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="channel-shuffle tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Channel Shuffle has basic options, but in most cases of Channel-packing or Stripping and setting Alpha Channels it is quicker to use [RGBA Merge](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md), [RGBA Split](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md), [Alpha Merge](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) and [Alpha Split](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md). They are set up to do default actions that do not require changing multiple parameters and converting to Grayscale afterwards. If you're after a more advanced version with more blending options, look at [Channel Mixer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md).
 

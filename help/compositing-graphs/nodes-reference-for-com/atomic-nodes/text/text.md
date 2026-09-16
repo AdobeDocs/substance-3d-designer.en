@@ -16,9 +16,11 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomic node: Text](text.resources/comp_text_1.png "Atomic node: Text"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +33,13 @@ The Text node is very powerful and the only way to easily place text. It can be 
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="text.resources/text-tooltip.gif" alt="text tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="text.resources/text-tooltip.gif" alt="text tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Only Truetype (.ttf) and certain Opentype fonts are supported. If any fonts are missing from the list, this is probably the reason. <b>Fonts can not be exposed as a parameter.</b>
 
