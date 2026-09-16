@@ -16,12 +16,12 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance"){width="20%"}
+![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Finds the position of the nearest white pixel in a mask and outputs a gradient from that position, or the color at that position in a source image.
 
@@ -31,7 +31,7 @@ This node creates an outward linear fade (gradient) from any pixels in the input
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="distance.resources/distance-tooltip.gif" alt="distance tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="distance tooltip" /></div>
 
 The expanding outward fade will terminate as soon as it meets another cell: they will never overlap. Internally this is actually calculating and displaying the distance to the nearest pixel &gt; 0.5, with the distance node set as a clamp/maximum.
 
@@ -66,17 +66,17 @@ See the below [examples](#examples) for more info.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="20%"}
+![](distance.resources/distance-ex01.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="20%"}
+![](distance.resources/distance-ex02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="20%"}
+![](distance.resources/distance-ex03.gif)
 
 </td>
 </tr>

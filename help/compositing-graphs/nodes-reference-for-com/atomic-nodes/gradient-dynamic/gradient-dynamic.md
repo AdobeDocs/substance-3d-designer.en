@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic node: Gradient dynamic"){width="20%"}
+![Atomic node: Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic node: Gradient dynamic")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Remaps the grayscale values in an image, using a gradient supplied by a row or column of pixels in another image.
 
@@ -31,7 +31,7 @@ It serves as a slight alternative to the Gradient Node, but unlike the Gradient 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic tooltip" /></div>
 
 This mainly allows to avoid the problem where parameters cannot be exposed, as the parameters for color are moved outside of the node. This is what makes it "dynamic".
 

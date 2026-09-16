@@ -16,12 +16,12 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG"){width="20%"}
+![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Renders an [SVG image](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) as a bitmap. In other words, maps vector shapes to pixels.
 
@@ -31,7 +31,7 @@ There are a few ways to create this node, and all of them require you to underst
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="svg.resources/svg-tooltip.gif" alt="svg tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="svg.resources/svg-tooltip.gif" alt="svg tooltip" /></div>
 
 You can either create the node from scratch, or by dropping an SVG file into the Graph view.
 

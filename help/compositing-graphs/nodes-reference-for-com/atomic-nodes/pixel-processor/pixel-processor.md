@@ -16,12 +16,12 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Pixel processor](pixel-processor.resources/comp_pixelprocessor_1.png "Atomic node: Pixel processor"){width="20%"}
+![Atomic node: Pixel processor](pixel-processor.resources/comp_pixelprocessor_1.png "Atomic node: Pixel processor")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Generates an image where the value of each pixel is the result of the specified [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md).
 
@@ -33,7 +33,7 @@ It is by far the most versatile node, as it allows any mathematical operation to
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="pixel-processor tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="pixel-processor tooltip" /></div>
 
 Similar to [FX-Map](../../../../function-graphs/fxmaps/fxmaps.md), it requires to set up the internal functionality to perform anything. Where the Pixel processor differs from FX-Map is that it is not focused on placing patterns, with multiple functions controlling pattern shape and placement. Instead, a single function is run in parallel for every pixel, where each pixel is unaware of the calculation results of its neighbors.
 

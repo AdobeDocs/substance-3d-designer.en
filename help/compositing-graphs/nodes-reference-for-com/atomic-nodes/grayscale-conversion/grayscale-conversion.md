@@ -18,10 +18,10 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Grayscale conversion](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Atomic node: Grayscale conversion"){width="20%"}
+![Atomic node: Grayscale conversion](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Atomic node: Grayscale conversion")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Converts a color image to grayscale by weighing the luminance of each color channel.
 
@@ -31,7 +31,7 @@ This node may be used as an optimised method to extract a grayscale channel out 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="grayscale-conversion tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="grayscale-conversion tooltip" /></div>
 
 Most nodes can be set to output in either grayscale or color, where the former is preferred for simplicity and performance reasons.
 

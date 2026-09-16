@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![Atomic node: Uniform color](uniform-color.resources/comp_uniform_1.png "Atomic node: Uniform color"){width="20%"}
+![Atomic node: Uniform color](uniform-color.resources/comp_uniform_1.png "Atomic node: Uniform color")
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -31,7 +31,7 @@ It is a simple node that is used very often as a starting point for adding color
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="uniform-color tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="uniform-color tooltip" /></div>
 
 
 >[!TIP]

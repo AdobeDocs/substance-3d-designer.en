@@ -16,12 +16,12 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Value processor](value-processor.resources/comp_valueprocessor_1.png "Atomic node: Value processor"){width="20%"}
+![Atomic node: Value processor](value-processor.resources/comp_valueprocessor_1.png "Atomic node: Value processor")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Computes a [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) and outputs its result.
 
@@ -31,7 +31,7 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></div>
 
 
 >[!TIP]

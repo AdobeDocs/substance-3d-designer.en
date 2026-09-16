@@ -16,12 +16,12 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Emboss](emboss.resources/comp_emboss_1.png "Atomic node: Emboss"){width="20%"}
+![Atomic node: Emboss](emboss.resources/comp_emboss_1.png "Atomic node: Emboss")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Applies an embossing effect by lighting the sides of shapes in an image according to a specified light source direction.
 
@@ -31,7 +31,7 @@ I.e., the node performs a simple 2D shading based on 2 inputs, simulating light 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="emboss.resources/emboss-tooltip.gif" alt="emboss tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="emboss.resources/emboss-tooltip.gif" alt="emboss tooltip" /></div>
 
 This node is not used often for PBR-like projects, but it can serve in certain cases where you want a simple, baked lighting in your texture. Alternatively [Emboss With Gloss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) and [Uber Emboss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) provide a similar, but more extensive functionality.
 

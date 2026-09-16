@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Blur node icon](blur.resources/blur-9.png){width="20%"}
+![Blur node icon](blur.resources/blur-9.png)
 
 **In:** Atomic Nodes
 
@@ -37,7 +37,7 @@ While blur works well for fast, simple operations, such as slightly softening so
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blur.resources/blur-tooltip.gif" alt="blur tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="blur.resources/blur-tooltip.gif" alt="blur tooltip" /></div>
 
 ## Parameters
 

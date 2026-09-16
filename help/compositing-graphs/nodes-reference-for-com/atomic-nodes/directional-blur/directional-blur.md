@@ -16,12 +16,12 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Directional blur](directional-blur.resources/comp_dirmotionblur_1.png "Atomic node: Directional blur"){width="20%"}
+![Atomic node: Directional blur](directional-blur.resources/comp_dirmotionblur_1.png "Atomic node: Directional blur")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Applies blurring in a specified direction according to an intensity map.
 
@@ -31,7 +31,7 @@ This node performs an operation similar to a motion blur on an input. Unlike the
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="directional-blur tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="directional-blur tooltip" /></div>
 
 Similarly to 'Blur', it is also a faster and low-quality operation. An extended, higher-quality alternative is provided in [Anisotropic Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), with a performande trade-off
 
@@ -46,7 +46,7 @@ This images below show the Directional blur and the[ Anisotropic blur](../../../
 
 <b>Directional blur</b>
 
-![Directional blur comparison](directional-blur.resources/dirblur-01.png "Directional blur comparison"){width="20%"}{zoomable="yes"}
+![Directional blur comparison](directional-blur.resources/dirblur-01.png "Directional blur comparison"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

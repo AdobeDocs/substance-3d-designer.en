@@ -16,9 +16,9 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Input value](input-value.resources/comp_inputnumeric_1.png "Atomic node: Input value"){width="20%"}
+![Atomic node: Input value](input-value.resources/comp_inputnumeric_1.png "Atomic node: Input value")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ See also: [Input color](../input-color/input-color.md), [Input grayscale](../inp
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input-value.resources/input-value-tooltip.gif" alt="Input value tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="input-value.resources/input-value-tooltip.gif" alt="Input value tooltip" /></div>
 
 ## Parameters
 
@@ -74,7 +74,7 @@ An input can be defined as the [Primary input](../../../../compositing-graphs/in
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Primary input in Substance graph](input-value.resources/node-primary-input.png){width="20%"}
+![Primary input in Substance graph](input-value.resources/node-primary-input.png)
 
 </td>
 </tr>
