@@ -21,7 +21,7 @@ When [exposing parameters](../../compositing-graphs/manage-parameters/exposing-a
 To achieve this, you may input a *logical expression* into the <b>Visible if</b> property of:
 
 * a graph's [input parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md);
-* a graph's [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) node;
+* a graph's [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) node;
 * a graph's [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node.
 
 ![Toggling input parameter visibility](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "Toggling input parameter visibility"){width="512px"}

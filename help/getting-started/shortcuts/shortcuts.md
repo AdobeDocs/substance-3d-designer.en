@@ -16,12 +16,6 @@ user-guide-title: ""
 
 On this page you can find an overview of all shortcuts for Substance 3D Designer.
 
-## Table of contents
-
-[Keymaps](#keymaps)
-
-[Shortcuts lists](#shortcuts-lists)
-
 ## Keymaps
 
 **Windows**

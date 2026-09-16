@@ -55,7 +55,7 @@ Nodes and [Substance graphs](../../compositing-graphs/substance-compositing-grap
 
 Nodes offer <b>Specific Parameters</b> or<b> Instance Parameters</b> (depending on if they are [Atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) or [Instances](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), as well as <b>Input Values</b> for working with [values](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
-[Input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)and [Output ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)atomic nodes are exceptions as they feature <b>Integration Attributes</b> and <b>Conditions</b> for visiblity. These two sets of properties can also be accessed centrally in the Graph properties, under Inputs and Outputs.
+[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) and [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) atomic nodes are exceptions as they feature <b>Integration Attributes</b> and <b>Conditions</b> for visiblity. These two sets of properties can also be accessed centrally in the Graph properties, under Inputs and Outputs.
 
 Graphs have a few extra categories. <b>Input Parameters</b> lists [exposed parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), <b>Inputs</b> and <b>Outputs</b> list all properties of Input and Output nodes. [You can find all Graph properties explained in detail on a dedicated page.](../../compositing-graphs/graph-parameters/graph-parameters.md)
 

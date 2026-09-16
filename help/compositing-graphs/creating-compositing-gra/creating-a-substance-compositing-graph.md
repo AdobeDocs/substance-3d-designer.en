@@ -96,7 +96,7 @@ Regardless of the method used to create a new Substance graph, you will always b
 
 ### Templates
 
-Designer includes graph templates with preconfigured nodes to get you started faster. They may include [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes, simple nodes to pass values to these outputs - e.g. [Uniform color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), as well as [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) nodes.
+Designer includes graph templates with preconfigured nodes to get you started faster. They may include [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes, simple nodes to pass values to these outputs - e.g. [Uniform color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md), as well as [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) nodes.
 
 Double-click on a template in the list, or select it and click the <b>Create</b> button to create a new Substance graph using that template. By default, the new graph is placed in a new unsaved package.
 

@@ -126,7 +126,9 @@ nudge: true
       + [Value processor](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [Warp](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [Output](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [Input](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [Input color](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [Input grayscale](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [Input value](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + Node library{#node-library}
       + [Node library](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + Texture generators{#texture-generators}

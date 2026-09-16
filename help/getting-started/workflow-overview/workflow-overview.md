@@ -81,7 +81,7 @@ The Text with the number, or the thickness of the edge can be exposed externally
 
 ![Adjustment filter in Substance graph](workflow-overview.resources/simplefilter.png "Adjustment filter in Substance graph"){width="512px" zoomable="yes"}
 
-A filter graph takes a normal map as [input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) (with a custom preview), [converts it to curvature](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) and then [adjusts the contrast](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) to create a mask of convex edges as final [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
+A filter graph takes a normal map as [input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) (with a custom preview), [converts it to curvature](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) and then [adjusts the contrast](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) to create a mask of convex edges as final [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
 The contrast values set in the Histogram can be exposed, making this a simple but useful filter in combination with the dynamic Input slot.
 
