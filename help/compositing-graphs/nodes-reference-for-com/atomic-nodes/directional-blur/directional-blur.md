@@ -31,7 +31,7 @@ This node performs an operation similar to a motion blur on an input. Unlike the
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="directional-blur tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="directional-blur tooltip" /></div>
 
 Similarly to 'Blur', it is also a faster and low-quality operation. An extended, higher-quality alternative is provided in [Anisotropic Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), with a performande trade-off
 

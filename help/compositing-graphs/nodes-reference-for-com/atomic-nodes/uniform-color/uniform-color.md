@@ -31,7 +31,7 @@ It is a simple node that is used very often as a starting point for adding color
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="uniform-color tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="uniform-color tooltip" /></div>
 
 
 >[!TIP]

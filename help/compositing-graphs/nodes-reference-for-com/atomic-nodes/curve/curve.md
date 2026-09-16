@@ -31,7 +31,7 @@ The node provides an interface to image tonality remapping, similar to other 2D 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="curve tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="curve.resources/curve-tooltip.gif" alt="curve tooltip" /></div>
 
 Unlike most other nodes, the Curve node does not have a typical standard interface with sliders and parameters, but instead presents a full fledged curve editor. See the below expandable section on how to use it.
 

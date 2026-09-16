@@ -37,7 +37,7 @@ See also: [Input grayscale](../input-grayscale/input-grayscale.md), [Input value
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="input-color.resources/input-color-tooltip.gif" alt="Input color tooltip" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="input-color.resources/input-color-tooltip.gif" alt="Input color tooltip" /></div>
 
 ## Parameters
 
