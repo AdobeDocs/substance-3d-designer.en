@@ -33,7 +33,13 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 
 >[!TIP]

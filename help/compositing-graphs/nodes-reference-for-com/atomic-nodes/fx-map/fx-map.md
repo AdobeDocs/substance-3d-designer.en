@@ -33,7 +33,13 @@ It is one of the most powerful atomic nodes, as well as the most complex node av
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Similar to the [Pixel processor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), it is up to you to define and create the functions that determine the behavior and output of this node.
 

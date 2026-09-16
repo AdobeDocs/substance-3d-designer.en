@@ -33,7 +33,13 @@ The Levels node allows you to remap the tones of an input by setting input and o
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="levels.resources/levels-tooltip.gif" alt="levels tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="levels.resources/levels-tooltip.gif" alt="levels tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 It is one of the core, most useful nodes in Substance 3D Designer, and is very often used to remap and adjust values in a graph, as it provides the most precise and accurate interface to changing values.
 

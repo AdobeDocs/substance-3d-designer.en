@@ -33,7 +33,13 @@ It is the most useful node of all Atomic nodes, almost any Graph you build in [S
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="blend.resources/blend-tooltip.gif" alt="blend tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blend.resources/blend-tooltip.gif" alt="blend tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Its functionality is similar to having two layers above one another in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) or [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), that blend together by the blending mode you set on the top layer.
 

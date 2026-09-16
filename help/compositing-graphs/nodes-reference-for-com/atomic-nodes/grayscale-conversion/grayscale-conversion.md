@@ -33,7 +33,13 @@ This node may be used as an optimised method to extract a grayscale channel out 
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="grayscale-conversion tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="grayscale-conversion tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Most nodes can be set to output in either grayscale or color, where the former is preferred for simplicity and performance reasons.
 

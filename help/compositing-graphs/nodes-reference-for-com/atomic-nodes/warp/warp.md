@@ -33,7 +33,13 @@ Unlike the Directional Warp this node pushes away uniformly from white areas, in
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="warp.resources/warp-tooltip.gif" alt="warp tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="warp.resources/warp-tooltip.gif" alt="warp tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 The node can be a little tricky to work with, as the result of the effect is very heavily dependent on the Gradient Input: small tweaks to the Gradient can make a huge visual difference with the same Intensity values. Make sure to play around with Contrast, Luminance and scale of the Gradient Input, as well as the Intensity slider on this node.
 

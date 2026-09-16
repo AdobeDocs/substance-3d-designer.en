@@ -35,7 +35,13 @@ If you are after other ways to edit the tones of an image, look at [Curve](../..
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 
 

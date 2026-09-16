@@ -33,7 +33,13 @@ This node serves a dual purpose: It may be simply used as a<b> </b>grayscale-to-
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 The node offers an advanced and feature-rich gradient editor to map multiple colors with precision: go to the [Gradient editor](#gradient-editor) section in this page to learn more.
 

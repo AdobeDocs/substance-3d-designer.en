@@ -33,7 +33,13 @@ The image or value connected to a graph's Output node is  output by any [instanc
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="output.resources/output-tooltip.gif" alt="output tooltip" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="output.resources/output-tooltip.gif" alt="output tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 Similarly, when a [published SBSAR file](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) includes this graph, then that file can output that image in any integration or plugin which consumes the file.
 
