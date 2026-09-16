@@ -16,16 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width:33.33%; vertical-align:top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
 ![Atomic node: Input value](input-value.resources/comp_inputnumeric_1.png "Atomic node: Input value"){width="100%"}
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td style="border: 0;" valign="top">
-
-## Description
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Input nodes are a special type of node that creates a dynamic slot in your graph, allowing for any input to be connected once your Graph is used in another context.
 
@@ -41,9 +39,9 @@ See also: [Input color](../input-color/input-color.md), [Input grayscale](../inp
 
 <table>
 <tr style="border: 0">
-<td style="border: 0; width: 15%"></td>
-<td style="border: 0; text-align: center"><img src="input-value.resources/input-value-tooltip.gif" alt="Input value tooltip" /></td>
-<td style="border: 0; width: 15%"></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-value.resources/input-value-tooltip.gif" alt="Input value tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
