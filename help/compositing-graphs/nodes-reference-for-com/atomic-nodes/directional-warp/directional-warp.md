@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Directional warp](directional-warp.resources/comp_directionalwarp_1.png "Atomic node: Directional warp")
+![Atomic node: Directional warp](directional-warp.resources/comp_directionalwarp_1.png "Atomic node: Directional warp"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +31,7 @@ Warps an input in a user-set direction, multiplied by a user-set Intensity map. 
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="directional-warp tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="directional-warp tooltip" /></div>
 
 The Warp node is a fairly simple but useful node that serves as a good basis for other more advanced effects. There are more advanced alternatives such as other related nodes of interest are [Slope Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) and [Vector Warp](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md).
 

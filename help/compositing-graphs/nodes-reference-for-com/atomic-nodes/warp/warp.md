@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Warp](warp.resources/comp_warp_1.png "Atomic node: Warp")
+![Atomic node: Warp](warp.resources/comp_warp_1.png "Atomic node: Warp"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +31,7 @@ Unlike the Directional Warp this node pushes away uniformly from white areas, in
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="warp.resources/warp-tooltip.gif" alt="warp tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="warp.resources/warp-tooltip.gif" alt="warp tooltip" /></div>
 
 The node can be a little tricky to work with, as the result of the effect is very heavily dependent on the Gradient Input: small tweaks to the Gradient can make a huge visual difference with the same Intensity values. Make sure to play around with Contrast, Luminance and scale of the Gradient Input, as well as the Intensity slider on this node.
 

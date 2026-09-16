@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map")
+![Atomic node: FX-Map](fx-map.resources/fxmap.png "Atomic node: FX-Map"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +31,7 @@ It is one of the most powerful atomic nodes, as well as the most complex node av
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="fx-map tooltip" /></div>
 
 Similar to the [Pixel processor](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md), it is up to you to define and create the functions that determine the behavior and output of this node.
 

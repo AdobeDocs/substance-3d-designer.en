@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Normal](normal.resources/comp_normal_1.png "Atomic node: Normal")
+![Atomic node: Normal](normal.resources/comp_normal_1.png "Atomic node: Normal"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +31,7 @@ The node converts an input grayscale map to a tangent-space Normal map output. I
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="normal.resources/normal-tooltip.gif" alt="normal tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="normal.resources/normal-tooltip.gif" alt="normal tooltip" /></div>
 
 It is a very useful node that is used often to convert height map inputs to normal maps for realtime-ready materials. There are alternatives to be found in [Normal Sobel](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md) and Height To Normal World Units.
 

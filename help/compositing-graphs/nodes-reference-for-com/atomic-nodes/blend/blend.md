@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend")
+![Atomic node: Blend](blend.resources/comp_blend_1.png "Atomic node: Blend"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +31,7 @@ It is the most useful node of all Atomic nodes, almost any Graph you build in [S
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="blend.resources/blend-tooltip.gif" alt="blend tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="blend.resources/blend-tooltip.gif" alt="blend tooltip" /></div>
 
 Its functionality is similar to having two layers above one another in [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) or [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html), that blend together by the blending mode you set on the top layer.
 

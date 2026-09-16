@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance")
+![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -31,7 +31,7 @@ This node creates an outward linear fade (gradient) from any pixels in the input
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="distance tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="distance.resources/distance-tooltip.gif" alt="distance tooltip" /></div>
 
 The expanding outward fade will terminate as soon as it meets another cell: they will never overlap. Internally this is actually calculating and displaying the distance to the nearest pixel &gt; 0.5, with the distance node set as a clamp/maximum.
 

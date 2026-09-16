@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Atomic node: HSL](hsl.resources/comp_hsl_1.png "Atomic node: HSL")
+![Atomic node: HSL](hsl.resources/comp_hsl_1.png "Atomic node: HSL"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -33,7 +33,7 @@ If you are after other ways to edit the tones of an image, look at [Curve](../..
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl tooltip" /></div>
+<div data-preserve-html="true" align="center"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl tooltip" /></div>
 
 
 
