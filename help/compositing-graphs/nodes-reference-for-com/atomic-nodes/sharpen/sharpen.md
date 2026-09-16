@@ -16,7 +16,7 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Sharpen node icon](sharpen.resources/sharpen-4.png "Sharpen node icon")
 

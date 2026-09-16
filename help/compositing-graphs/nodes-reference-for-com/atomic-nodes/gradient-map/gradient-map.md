@@ -16,9 +16,11 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
 <td style="border: 0;" valign="top">
@@ -236,7 +238,7 @@ The Color Picker lets you set a color in several ways:
   Alternatively, use a hexcode in the dedicated input field below the sliders.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![Color Picker - RGB, HSV and Alpha sliders](gradient-map.resources/image2017-2-17-18-31-41.png "Color Picker - RGB, HSV and Alpha sliders")
 

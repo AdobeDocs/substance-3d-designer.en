@@ -16,9 +16,11 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![Atomic node: Curve](curve.resources/comp_curve_1.png "Atomic node: Curve"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
 <td style="border: 0;" valign="top">
@@ -64,7 +66,7 @@ In order to create a point, simply double-click anywhere on the Curve view:
 In order to obtain precise results, the curve nodes offers different modes for each point:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -103,7 +105,7 @@ When you input is a color node, you have the ability to ajust the curve for each
 Just select the curve you want to ajust in the dropdown list located on the top right:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 
