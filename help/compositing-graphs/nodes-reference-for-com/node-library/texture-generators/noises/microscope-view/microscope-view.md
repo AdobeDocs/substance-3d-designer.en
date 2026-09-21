@@ -46,10 +46,12 @@ This generates a warped noise that looks like bacteria or organisms under a micr
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="microscope-view.resources/microscope-view-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="microscope-view.resources/microscope-view-ex.gif" class="modal-image" alt="Microscope View - Example 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

@@ -64,25 +64,27 @@ This node can be tested with [Cube GBuffers](../../../../../../compositing-graph
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant2.jpg" class="modal-image" alt="Voronoi - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant3.jpg" class="modal-image" alt="Voronoi - Example 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant5.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant5.jpg" class="modal-image" alt="Voronoi - Example 3" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant.jpg" />
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant.jpg" class="modal-image" alt="Voronoi - Example 4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant4.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant4.jpg" class="modal-image" alt="Voronoi - Example 5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi.resources/voronoi-variant6.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi.resources/voronoi-variant6.jpg" class="modal-image" alt="Voronoi - Example 6" />
         </td>
     </tr>
 </table>

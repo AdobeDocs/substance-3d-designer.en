@@ -23,6 +23,9 @@
   * FX-Map
   * Pixel processor
   * Preset
+* Update AGENTS.md and skills to manage:
+  * Images: centering, zooming
+  * Tables: auto/fixed layout, text alignment
 
 ## Fixes
 

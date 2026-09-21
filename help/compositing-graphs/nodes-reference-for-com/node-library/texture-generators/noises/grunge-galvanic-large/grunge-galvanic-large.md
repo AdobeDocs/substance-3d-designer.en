@@ -50,13 +50,14 @@ The **Grunge Galvanic Large** node generates a grunge map akin to the pattern of
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant.jpg" class="modal-image" alt="Grunge Galvanic Large - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant2.jpg" class="modal-image" alt="Grunge Galvanic Large - Example 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

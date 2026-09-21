@@ -53,17 +53,14 @@ Generates a white noise using one of three methods targeting different histogram
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![White noise - Example 1](white-noise.resources/white_noise_v2_1.png "White noise - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![White noise - Example 2](white-noise.resources/white_noise_v2_speed0.6_aniso0.gif "White noise - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="white-noise.resources/white_noise_v2_1.png" class="modal-image" alt="White noise - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="white-noise.resources/white_noise_v2_speed0.6_aniso0.gif" class="modal-image" alt="White noise - Example 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

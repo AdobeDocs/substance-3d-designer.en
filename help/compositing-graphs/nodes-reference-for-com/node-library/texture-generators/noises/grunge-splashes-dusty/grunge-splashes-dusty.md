@@ -51,13 +51,14 @@ The **Grunge Splashes Dusty** node generates a grunge map akin to splashes of li
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant2.jpg" class="modal-image" alt="Grunge Splashes Dusty - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-splashes-dusty.resources/grungesplashesdusty-variant.jpg" class="modal-image" alt="Grunge Splashes Dusty - Example 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

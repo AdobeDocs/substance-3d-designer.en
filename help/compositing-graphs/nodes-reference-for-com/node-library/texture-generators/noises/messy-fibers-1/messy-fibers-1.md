@@ -62,32 +62,23 @@ See also: [Messy fibers 2](../../../../../../compositing-graphs/nodes-reference-
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Messy fibers 1 - Icon](messy-fibers-1.resources/messy_fibers_1_1.png "Messy fibers 1 - Icon"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Messy fibers 1 - Example 2](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.gif "Messy fibers 1 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Messy fibers 1 - Example 3](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso1.gif "Messy fibers 1 - Example 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Messy fibers 1 - Example 4](messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif "Messy fibers 1 - Example 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-1.resources/messy_fibers_1_1.png" class="modal-image" alt="Messy fibers 1 - Icon" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.gif" class="modal-image" alt="Messy fibers 1 - Example 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso1.gif" class="modal-image" alt="Messy fibers 1 - Example 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-1.resources/noise_messy_fibers_1_v2_speed0.1_aniso0.6.gif" class="modal-image" alt="Messy fibers 1 - Example 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
