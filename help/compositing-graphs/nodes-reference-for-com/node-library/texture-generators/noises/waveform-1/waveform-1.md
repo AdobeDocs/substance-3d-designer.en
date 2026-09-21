@@ -63,17 +63,12 @@ A horizontal arrangement of user-selected patterns stacked into a shape akin to 
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Waveform 1 - Example 1](waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif "Waveform 1 - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="waveform-1.resources/waveform_01_v2_speed0.1_aniso0.gif" class="modal-image" alt="Waveform 1 - Example 1" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

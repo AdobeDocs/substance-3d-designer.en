@@ -65,32 +65,23 @@ See also: [Moisture noise 1](../../../../../../compositing-graphs/nodes-referenc
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Moisture noise 2 - Example 1](moisture-noise-2.resources/moisture_noise_2_1.png "Moisture noise 2 - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Moisture noise 2 - Example 2](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso0.gif "Moisture noise 2 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Moisture noise 2 - Example 3](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso1.gif "Moisture noise 2 - Example 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Moisture noise 2 - Example 4](moisture-noise-2.resources/noise_moisture_noise_2_speed0.3_aniso0.6.gif "Moisture noise 2 - Example 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="moisture-noise-2.resources/moisture_noise_2_1.png" class="modal-image" alt="Moisture noise 2 - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso0.gif" class="modal-image" alt="Moisture noise 2 - Example 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso1.gif" class="modal-image" alt="Moisture noise 2 - Example 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="moisture-noise-2.resources/noise_moisture_noise_2_speed0.3_aniso0.6.gif" class="modal-image" alt="Moisture noise 2 - Example 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

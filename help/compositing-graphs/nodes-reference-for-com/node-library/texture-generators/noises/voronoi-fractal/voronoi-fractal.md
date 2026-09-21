@@ -70,31 +70,36 @@ This node can be tested with [Cube GBuffers](../../../../../../compositing-graph
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/fractal-voronoi-sea.gif" class="modal-image" alt="Voronoi Fractal - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/fractal-voronoi-scifi-panel.gif" class="modal-image" alt="Voronoi Fractal - Example 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant.jpg" class="modal-image" alt="Voronoi Fractal - Example 3" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" />
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant2.jpg" class="modal-image" alt="Voronoi Fractal - Example 4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant6.jpg" class="modal-image" alt="Voronoi Fractal - Example 5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant3.jpg" class="modal-image" alt="Voronoi Fractal - Example 6" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" />
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant5.jpg" class="modal-image" alt="Voronoi Fractal - Example 7" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" />
+        <td style="border: 0;">
+            <img src="voronoi-fractal.resources/voronoifractal-variant4.jpg" class="modal-image" alt="Voronoi Fractal - Example 8" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

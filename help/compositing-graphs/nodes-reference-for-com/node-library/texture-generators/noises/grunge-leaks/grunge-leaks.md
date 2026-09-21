@@ -51,13 +51,14 @@ The **Grunge Leaks** node generates a grunge map akin to drips across a greasy s
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-leaks.resources/grungeleaks-variant2.jpg" class="modal-image" alt="Grunge Leaks - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-leaks.resources/grungeleaks-variant.jpg" class="modal-image" alt="Grunge Leaks - Example 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

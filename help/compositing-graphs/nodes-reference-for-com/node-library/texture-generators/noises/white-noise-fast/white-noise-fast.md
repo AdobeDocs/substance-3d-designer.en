@@ -35,10 +35,12 @@ This is a faster version of [White Noise](../../../../../../compositing-graphs/n
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="white-noise-fast.resources/white-noise-fast-1.png" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="white-noise-fast.resources/white-noise-fast-1.png" class="modal-image" alt="White Noise Fast - Example 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
