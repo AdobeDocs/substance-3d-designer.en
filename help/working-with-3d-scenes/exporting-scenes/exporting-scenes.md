@@ -26,26 +26,6 @@ For other formats, the contents of the scene and its internal structure will dep
 
 ![Scene export actions](exporting-scenes.resources/exportActions.png "Scene export actions"){zoomable="yes"}
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Export scene
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Export scene as layers
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Textures
-
-</td>
-</tr>
-</table>
-
 ## Export scene
 
 <table>

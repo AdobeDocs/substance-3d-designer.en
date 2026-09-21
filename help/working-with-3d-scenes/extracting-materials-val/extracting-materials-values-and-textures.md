@@ -16,26 +16,6 @@ user-guide-title: ""
 
 The properties of materials can be extracted to be used in Substance graphs.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## New graph from textures
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Extract texture
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Extract value
-
-</td>
-</tr>
-</table>
-
 ## New graph from textures
 
 The ‘Create graph from texture inputs action’ creates a new Substance graph with all the textures used by a material

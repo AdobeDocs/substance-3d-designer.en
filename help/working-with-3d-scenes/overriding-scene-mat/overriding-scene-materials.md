@@ -20,26 +20,6 @@ Your material can be built from scratch, or an adjusted version of a scene's mat
 
 ![Overriding a scene material, tweaking it and resetting it to its scene state](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "Overriding a scene material, tweaking it and resetting it to its scene state"){zoomable="yes"}
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Override scene material
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Reset to scene state
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connected material
-
-</td>
-</tr>
-</table>
-
 ## Override scene material
 
 Any material used in a scene can be overridden with your own version, that being a new material or an edited version of the existing material.
