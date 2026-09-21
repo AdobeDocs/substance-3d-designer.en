@@ -62,13 +62,14 @@ This node can be tested with [Cube 3D GBuffers](../../../../../../compositing-gr
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant.jpg" class="modal-image" alt="3D Ridged Noise Fractal - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-ridged-noise-fractal.resources/3dridgednoisefractal-variant2.jpg" class="modal-image" alt="3D Ridged Noise Fractal - Example 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

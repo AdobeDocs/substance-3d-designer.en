@@ -59,32 +59,23 @@ See also: [Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt 4 - Example 1](dirt-4.resources/dirt_4_1.png "Dirt 4 - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt 4 - Example 2](dirt-4.resources/noise_dirt_4_v2_speed0.6_aniso0.gif "Dirt 4 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Dirt 4 - Example 3](dirt-4.resources/noise_dirt_4_v2_speed0.6_aniso1.gif "Dirt 4 - Example 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Dirt 4 - Example 4](dirt-4.resources/noise_dirt_4_v2_speed0.3_aniso0.6.gif "Dirt 4 - Example 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-4.resources/dirt_4_1.png" class="modal-image" alt="Dirt 4 - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-4.resources/noise_dirt_4_v2_speed0.6_aniso0.gif" class="modal-image" alt="Dirt 4 - Example 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-4.resources/noise_dirt_4_v2_speed0.6_aniso1.gif" class="modal-image" alt="Dirt 4 - Example 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-4.resources/noise_dirt_4_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Dirt 4 - Example 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

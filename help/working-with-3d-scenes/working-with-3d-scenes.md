@@ -27,26 +27,6 @@ When exporting to USD formats., this workflow can be entirely <b>non-destructive
 
 First, you need to load a 3D scene to work on and be able to retain its state in Designer across sessions.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Contents of 3D scenes
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Loading a scene
-
-</td>
-<td style="border: 0;" valign="top">
-
-### scene state files
-
-</td>
-</tr>
-</table>
-
 ## Contents of 3D scenes
 
 When loading a 3D scene, Designer created its own scene to host it.

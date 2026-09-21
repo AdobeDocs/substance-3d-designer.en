@@ -47,10 +47,12 @@ This noise can be tested with [Cube 3D GBuffers](https://support.allegorithmic.c
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-simplex-noise.resources/3d-simplex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-simplex-noise.resources/3d-simplex.gif" class="modal-image" alt="3D Simplex Noise - Example 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

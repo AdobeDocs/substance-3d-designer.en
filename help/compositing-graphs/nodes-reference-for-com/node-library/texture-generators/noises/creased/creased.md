@@ -48,10 +48,12 @@ Creased is useful for when you need a semi-directional-noise with large scale va
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="creased.resources/creased-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="creased.resources/creased-ex.gif" class="modal-image" alt="Creased - Example 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

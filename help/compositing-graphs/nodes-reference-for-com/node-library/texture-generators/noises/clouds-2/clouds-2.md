@@ -59,32 +59,23 @@ See also: [Clouds 1](../../../../../../compositing-graphs/nodes-reference-for-co
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Clouds 2 - Example 1](clouds-2.resources/clouds_2_1.png "Clouds 2 - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Clouds 2 - Example 2](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso0.gif "Clouds 2 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Clouds 2 - Example 3](clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso1.gif "Clouds 2 - Example 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Clouds 2 - Example 4](clouds-2.resources/noise_clouds_2_v2_speed0.3_aniso0.6.gif "Clouds 2 - Example 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="clouds-2.resources/clouds_2_1.png" class="modal-image" alt="Clouds 2 - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso0.gif" class="modal-image" alt="Clouds 2 - Example 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="clouds-2.resources/noise_clouds_2_v2_speed0.6_aniso1.gif" class="modal-image" alt="Clouds 2 - Example 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="clouds-2.resources/noise_clouds_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Clouds 2 - Example 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
