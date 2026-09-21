@@ -55,17 +55,14 @@ See also: [Fractal sum base](../../../../../../compositing-graphs/nodes-referenc
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Fractal sum 1 - Example 1](fractal-sum-1.resources/fractal_sum_1_1.png "Fractal sum 1 - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Fractal sum 1 - Example 2](fractal-sum-1.resources/noise_fractal_sum_1_v2_speed0.6_aniso0.gif "Fractal sum 1 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fractal-sum-1.resources/fractal_sum_1_1.png" class="modal-image" alt="Fractal sum 1 - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="fractal-sum-1.resources/noise_fractal_sum_1_v2_speed0.6_aniso0.gif" class="modal-image" alt="Fractal sum 1 - Example 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

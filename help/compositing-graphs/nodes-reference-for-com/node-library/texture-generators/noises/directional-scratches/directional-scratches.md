@@ -62,47 +62,25 @@ A random scattering of scratch patterns with adjustable angle and size.
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Directional scratches - Example 1](directional-scratches.resources/directional_scratches_1.png "Directional scratches - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Directional scratches - Example 2](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif "Directional scratches - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Directional scratches - Example 3](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif "Directional scratches - Example 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Directional scratches - Example 4](directional-scratches.resources/noise-directional-scrat-1.gif "Directional scratches - Example 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Directional scratches - Example 5](directional-scratches.resources/noise-directional-scrat-2.gif "Directional scratches - Example 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/directional_scratches_1.png" class="modal-image" alt="Directional scratches - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif" class="modal-image" alt="Directional scratches - Example 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif" class="modal-image" alt="Directional scratches - Example 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scrat-1.gif" class="modal-image" alt="Directional scratches - Example 4" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scrat-2.gif" class="modal-image" alt="Directional scratches - Example 5" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

@@ -59,32 +59,23 @@ See also: [BnW spots 1](../../../../../../compositing-graphs/nodes-reference-for
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![BnW spots 2 - Example 1](bnw-spots-2.resources/bnw_spots_2_1.png "BnW spots 2 - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![BnW spots 2 - Example 2](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso0.gif "BnW spots 2 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![BnW spots 2 - Example 3](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso1.gif "BnW spots 2 - Example 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![BnW spots 2 - Example 4](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.3_aniso0.6.gif "BnW spots 2 - Example 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="bnw-spots-2.resources/bnw_spots_2_1.png" class="modal-image" alt="BnW spots 2 - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso0.gif" class="modal-image" alt="BnW spots 2 - Example 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso1.gif" class="modal-image" alt="BnW spots 2 - Example 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="BnW spots 2 - Example 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
