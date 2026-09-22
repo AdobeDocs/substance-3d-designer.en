@@ -163,20 +163,21 @@ There are a few different [shaders](../../glossary/glossary.md) available by def
 
 Keep in mind shaders are different across Designer's [3D renderers](../../interface/3d-view/3d-renderers/3d-renderers.md) and only settings marked with a 'Common' label will carry over when switching renderers.
 
-To change the current shader, go to<b> &#39;</b>Materials' menu then open the submenu for the material you wish to edit.
+To change the current shader, go to **Materials** menu then open the submenu for the material you wish to edit.
 
-For example, to adjust the 'Height scale' property for the 'Default' material in the 'Plane (hi-res)' scene, go to 'Materials &gt; Default &gt; Edit properties'. Then find the 'Height scale' property in the Properties dock.
+For example, to adjust the a material property for the '`Default`' material in the 'Plane (hi-res)' scene, go to **Materials > Default > Edit properties**. Then find the material property in the Properties dock.
 
 Shaders can be reset using the 'Reset material' or 'Reset to scene state' actions in the submenu. If you were viewing Substance graph outputs in the 3D view, you will need to reapply them again.
 
 >[!NOTE]
 >
-> About tessellation
+> **About tessellation**
 > 
-> The 'Tessellation factor' property varies according to the selected 3D renderer:
+> The tessellation of a mesh can be adjusted using the **Tessellation factor** parameter in the [Displacement pop-up](displacement/displacement.md#tessellation).
+> The specific property being controlled by that parameter varies according to the current 3D renderer:
 > 
-> * <b>Rasterizer/GPU Pathtracer:</b> Located in the renderer settings (Renderer &gt; Edit settings), impacts the *entire scene*.
-> * <b>OpenGL:</b> Located in the material properties, impacts the material.
+> * **Rasterizer/GPU Pathtracer:** Per-object property named **Refine level**. Select a `Mesh` object in the [Scene browser](scene-browser/scene-browser.md) to display its properties and edit directly.
+> * **OpenGL:** Per-material property named **Tessellation factor**. Go to the [material properties](#change-shader-properties) to edit it directly.
 
 ![Exporting the scene](3d-view.resources/3d-view-export-scene.gif "Exporting the scene")
 

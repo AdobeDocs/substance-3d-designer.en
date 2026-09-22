@@ -8,7 +8,6 @@
 ## Additions
 
 * Entry points for Python API documentation on AdobeDocs
-* 3D view: Use `refineLevel = 0` to improve performance when using displacement on high poly meshes
 * Examples in 'Documentation pop-up' page
 * Glossary:
   * HDR
@@ -35,3 +34,17 @@
 ## Investigate
 
 * Before/after component
+
+## LEARNING HUB
+
+- Understand what blocks downloading SBS files (Asked [here](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
+- Understand how we can live-test pages without being public-facing or included in ToC
+- Explorer filtering options for list of samples: Microsite? ([Example](https://experienceleague.adobe.com/en/tools/campaign-error-codes))
+- Automate building sample item
+  - Ingest metadata from file (JSON, YAML, ...)
+  - Inline thumbnail (click to enlarge)
+  - Complexity marker in sample items
+- Provide sample authors with SBS validation tool
+- Mention downloadable SBS files from 3D assets (with active subscription)
+
+Microsite for glossary?
