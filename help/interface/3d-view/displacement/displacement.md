@@ -69,12 +69,12 @@ subdivision value.
 Subdivision is contextual: it is optimized in such a way that only surface with a *non-uniform height value* or 
 a *non-flat height map* will be subdivided, regardless of the parameter value.
 
-> [!TIP]
+>[!TIP]
 >
-> The tessellation technique involves a preparation step that runs regardless of any tessellation actually occurring. (I.e. `Tessellation factor = 1`)
-> For high poly meshes, this step can be time consuming and significantly impact performance when using displacement.
+>The tessellation technique involves a preparation step that runs regardless of any tessellation actually occurring. (I.e. `Tessellation factor = 1`)
+>For high poly meshes, this step can be time consuming and significantly impact performance when using displacement.
 >
-> If tessellation is not needed, you can disable the technique entirely by setting the **Refine level** parameter to `0` in the properties of the `Mesh´ objects listed in the [Scene browser](../scene-browser/scene-browser.md#scene-tree).
+>If tessellation is not needed, you can disable the technique entirely by setting the **Refine level** parameter to `0` in the properties of the `Mesh` objects listed in the [Scene browser](../scene-browser/scene-browser.md#scene-tree).
 
 ### Per material
 
