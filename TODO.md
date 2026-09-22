@@ -8,7 +8,6 @@
 ## Additions
 
 * Entry points for Python API documentation on AdobeDocs
-* 3D view: Use `refineLevel = 0` to improve performance when using displacement on high poly meshes
 * Examples in 'Documentation pop-up' page
 * Glossary:
   * HDR
