@@ -33,6 +33,7 @@
 
 ## Fixes
 
+* Fix size of icons in [overview.md](help/getting-started/overview/overview.md)
 * Fix broken image in `BnW spots 2` page
 * Fix link for 1st example image in node pages (E.g. new noises)
 

@@ -39,6 +39,8 @@ On this page you can find an overview of all shortcuts for Substance 3D Designer
 | Undo                                                                                                               | Ctrl + Z  | ⌘ + Z |
 | Redo                                                                                                               | Ctrl + Y  | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### Graph View
 
 **Viewport**
@@ -56,6 +58,8 @@ On this page you can find an overview of all shortcuts for Substance 3D Designer
 | Node menu                                                                          | Spacebar                               | Spacebar                             |
 | Cycle [navigation pins](../../interface/the-graph-view/graph-items/graph-items.md) | F2                                     | F2                                   |
 
+{style="table-layout:fixed"}
+
 **Link creation modes**
 
 >[!NOTE]
@@ -67,6 +71,8 @@ On this page you can find an overview of all shortcuts for Substance 3D Designer
 | Standard         | 1       | 1     |
 | Material         | 2       | 2     |
 | Compact material | 3       | 3     |
+
+{style="table-layout:fixed"}
 
 **When an object is selected in the graph**
 
@@ -80,6 +86,8 @@ On this page you can find an overview of all shortcuts for Substance 3D Designer
 | Dock/undock node                    | D            | D         |
 | Disable node(s)                     | ⇧ + D        | ⇧ + D     |
 
+{style="table-layout:fixed"}
+
 ### 2D View
 
 | Action               | Windows                                | macOS                                |
@@ -90,6 +98,8 @@ On this page you can find an overview of all shortcuts for Substance 3D Designer
 | Reset to 100% scale  | Z                                      | Z                                    |
 | Fit in view          | F                                      | F                                    |
 | Toggle tiled display | Spacebar                               | Spacebar                             |
+
+{style="table-layout:fixed"}
 
 ### 3D View
 
@@ -102,3 +112,5 @@ On this page you can find an overview of all shortcuts for Substance 3D Designer
 | Temporarily switch to Point Light 1 controls             | ⇧ (hold)                        | ⇧ (hold)                     |
 | Orbit Point Light 1                                      | LMB + Drag                      | LMB + Drag                   |
 | Dolly Point Light 1                                      | RMB + Drag                      | RMB + Drag                   |
+
+{style="table-layout:fixed"}
