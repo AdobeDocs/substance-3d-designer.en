@@ -25,6 +25,11 @@
 * Update AGENTS.md and skills to manage:
   * Images: centering, zooming
   * Tables: auto/fixed layout, text alignment
+* DESIGNER-12465: `Refine level` parameter is inert when Height map is absent or flat
+* DESIGNER-12652: Point users to performance troubleshooting guide for OpenGL renderer
+* DESIGNER-11866: Tonemapping functions
+* DESIGNER-10655: Add examples + references to sample projects for Pixel processor and FX-Maps
+
 
 ## Fixes
 
@@ -35,7 +40,7 @@
 
 * Before/after component
 
-## LEARNING HUB
+## Learning hub (`learning` branch)
 
 - Understand what blocks downloading SBS files (Asked [here](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379))
 - Understand how we can live-test pages without being public-facing or included in ToC

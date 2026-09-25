@@ -16,15 +16,17 @@ user-guide-title: ""
 
 The activation process depends on where you purchased or have access to Designer:
 
-| Edition                      | Activation process                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Edition                      | Activation process                                                                                                                                                                                                                                                                                                                                                              |
+|:-----------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Creative Cloud Desktop (CCD) | Install the product from the CCD app, then launch it. Go to these pages if you experience issues with your license: [Apps won't launch due to subscription error](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) / [Account, plans, and billing help](https://helpx.adobe.com/account/individual.html) |
-| Steam                        | Launch the product directly from your Steam library.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Substance (standalone)       | See the activation process described below.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Steam                        | Launch the product directly from your Steam library.                                                                                                                                                                                                                                                                                                                            |
+| Substance (standalone)       | See the activation process described below.                                                                                                                                                                                                                                                                                                                                     |
 
 ## Activation steps (Substance edition)
 
-### USING THE ACTIVATION WIZARD
+### Using the activation wizard
+
+When you launch Designer for the first time, the Activation Wizard will open and guide you through the activation process.
 
 Three choices are available:
 
@@ -43,34 +45,51 @@ Three choices are available:
 You can manually activate Designer by putting the license.key file in the following folder:
 
 <table data-preserve-html="true">
-<colgroup> <col/> <col/> <col/> <col/> </colgroup><tbody><tr><th style="text-align: left;">Platform</th>
-<th style="text-align: left;">Version</th>
-<th colspan="2" style="text-align: left;">Path</th>
-</tr><tr><td rowspan="4" style="text-align: left;"><b>Windows</b></td>
-<td rowspan="2" style="text-align: left;"><b>11.2</b> or higher</td>
-<td style="text-align: left;">AppData &gt; Local</td>
-<td style="text-align: left;">C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Local&#92;Adobe&#92;Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;">AppData &gt; Roaming</td>
-<td style="text-align: left;">C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Adobe&#92;Adobe Substance 3D Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>11.1</b> or lower</td>
-<td style="text-align: left;">AppData &gt; Local</td>
-<td style="text-align: left;">C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Local&#92;Allegorithmic&#92;Substance Designer</td>
-</tr><tr><td style="text-align: left;">AppData &gt; Roaming</td>
-<td style="text-align: left;">C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Allegorithmic&#92;Substance Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>Mac</b></td>
-<td style="text-align: left;"><b>11.2</b> or higher<br/>
-</td>
-<td colspan="2" style="text-align: left;">/Users/&#91;username&#93;/Library/Application Support/Adobe/Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;"><b>11.1</b> or lower<br/>
-</td>
-<td colspan="2" style="text-align: left;">/Users/&#91;username&#93;/Library/Application Support/Allegorithmic/Substance Designer</td>
-</tr><tr><td rowspan="2" style="text-align: left;"><b>Linux</b></td>
-<td style="text-align: left;"><b>11.2</b> or higher</td>
-<td colspan="2" style="text-align: left;">/home/&#91;username&#93;/.local/share/Adobe/Adobe Substance 3D Designer</td>
-</tr><tr><td style="text-align: left;"><b>11.1</b> or lower<br/>
-</td>
-<td colspan="2" style="text-align: left;">/home/&#91;username&#93;/.local/share/Allegorithmic/Substance Designer</td>
-</tr></tbody></table>
+    <tbody>
+        <tr>
+            <th style="text-align: left;">Platform</th>
+            <th style="text-align: left;">Version</th>
+            <th colspan="2" style="text-align: left;">Path</th>
+        </tr>
+        <tr>
+            <td rowspan="4" style="text-align: left;"><b>Windows</b></td>
+            <td rowspan="2" style="text-align: left;"><b>11.2</b> or higher</td>
+            <td style="text-align: left;"><code>AppData&#92;Local</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Local&#92;Adobe&#92;Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code>AppData&#92;Roaming</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Adobe&#92;Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>11.1</b> or lower</td>
+            <td style="text-align: left;"><code>AppData&#92;Local</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Local&#92;Allegorithmic&#92;Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><code>AppData&#92;Roaming</code></td>
+            <td style="text-align: left;"><code>C:&#92;Users&#92;&#91;username&#93;&#92;AppData&#92;Roaming&#92;Allegorithmic&#92;Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>macOS</b></td>
+            <td style="text-align: left;"><b>11.2</b> or higher<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/Users/&#91;username&#93;/Library/Application Support/Adobe/Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><b>11.1</b> or lower<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/Users/&#91;username&#93;/Library/Application Support/Allegorithmic/Substance Designer</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="text-align: left;"><b>Linux</b></td>
+            <td style="text-align: left;"><b>11.2</b> or higher</td>
+            <td colspan="2" style="text-align: left;"><code>/home/&#91;username&#93;/.local/share/Adobe/Adobe Substance 3D Designer</code></td>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><b>11.1</b> or lower<br/></td>
+            <td colspan="2" style="text-align: left;"><code>/home/&#91;username&#93;/.local/share/Allegorithmic/Substance Designer</code></td>
+        </tr>
+    </tbody>
+</table>
 
 >[!NOTE]
 >
@@ -78,8 +97,8 @@ You can manually activate Designer by putting the license.key file in the follow
 
 >[!IMPORTANT]
 >
-> Make sure that the file is called **license.key** otherwise the application will not be able to find it.
+> Make sure that the file is called `license.key` otherwise the application will not be able to find it.
 
-### ENVIRONMENT VARIABLE
+### Environment variable
 
-You can override the location that Designer checks for the <b>license.key</b> file with an [environment variable](../../pipeline-and-project-con/environment-variables/environment-variables.md).
+You can override the location that Designer checks for the `license.key` file with an [environment variable](../../pipeline-and-project-con/environment-variables/environment-variables.md).
