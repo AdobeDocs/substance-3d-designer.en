@@ -50,24 +50,24 @@ Below you can find a summary of the three types of Graph you can edit in Substan
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/graph-5.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Substance graphs
+
+</td>
+</tr>
+</table>
 
 [Substance graphs](https://substance3d.adobe.com/) are the main type of graph created in Substance 3D Designer. Their purpose is to <b>generate and process 2D image data</b> that is not constrained to a set resolution, color or shape. They are meant as extremely versatile image-processing and generation tools, not just static, pre-set results.
 
 The results can be in the form of a simple black-and-white pattern, a filter that only runs on other images and doesn't generate content by itself, or even a full-fledged procedural material with multiple channels.
 
 Substance graphs are [the most widely supported type of graph](../../getting-started/overview/overview.md), and can be exported and used in a plethora of different workflows.
-
-</td>
-</tr>
-</table>
 
 #### Examples
 
@@ -105,14 +105,18 @@ This example makes use of [Link Creation Modes](../../interface/the-graph-view/l
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 20%; vertical-align: top">
+<td style="border: 0;">
 
 ![](workflow-overview.resources/function-1.png){width="120px"}
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0;">
 
 ### Substance function graphs
+
+</td>
+</tr>
+</table>
 
 Functions process **single values** (integers, floats, vectors) rather than sets of pixels (images). Functions are also node graphs but the [nodes involved](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md) and their interface is different from Substance graphs.
 
@@ -122,10 +126,6 @@ Functions can be used in many different contexts, the main ones being:
 * Modifying the behavior of [an exposed Parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 * Authoring the behavior of [Pixel Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) or [FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 * Using [values](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) instead of images in Substance graphs, for specific purposes
-
-</td>
-</tr>
-</table>
 
 #### Examples
 

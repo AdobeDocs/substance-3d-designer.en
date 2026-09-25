@@ -44,7 +44,7 @@ Three choices are available:
 
 You can manually activate Designer by putting the license.key file in the following folder:
 
-<table data-preserve-html="true">
+<table data-preserve-html="true" style="table-layout:auto">
     <tbody>
         <tr>
             <th style="text-align: left;">Platform</th>

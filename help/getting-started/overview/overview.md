@@ -56,9 +56,10 @@ The application and its ecosystem use 4 different filetypes. To be clear: these 
 
 ![](overview.resources/ds-sbs-48.png)
 
-### Substance 3D File
+**Substance 3D file**  
+(package)
 
-*(\*.SBS)*
+`\*.sbs`
 
 Substance Files are the **main source files** for Designer. When you open a Substance File, you can **view and edit all nodes in a Graph**. They are represented as packages, that can contain any number of resources such as Graphs, Functions, Bitmaps, Meshes, etc... They are harder to share and less fast to calculate. They can only be opened in Substance 3D Designer and the Substance Player.
 
@@ -67,9 +68,9 @@ Substance Files are the **main source files** for Designer. When you open a Subs
 
 ![](overview.resources/sbsar-48.png)
 
-### Substance 3D Asset
+**Substance 3D archive**  
 
-*(\*.SBSAR)*
+`\*.sbsar`
 
 Substance Archives are<b> compiled, optimized</b> Substance files. They are much faster to calculate and can easily be shared without reference issues. Parameters can still be tweaked, but editing the graph is <b>locked down</b>. Substance Archives can be used in all Substance 3D applications and any application that has a [Substance 3D integration](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) (some with an external plugin) such as Autodesk 3DS Max &amp; Maya, Unreal Engine or Unity Engine.
 
@@ -78,9 +79,9 @@ Substance Archives are<b> compiled, optimized</b> Substance files. They are much
 
 ![](overview.resources/bmp-96.png){width="48px"}
 
-### Static Files
+**Static files**
 
-*(\*.TGA, \*.BMP, \*.PNG, \*.FBX, \*.OBJ etc...)*
+`\*.tga, \*.bmp, \*.png, \*.fbx, \*.obj , ...`
 
 Substance 3D Designer always supports exporting to static file types. A 2D image can be exported to a bitmap file, a 3D model can be exported to common 3D filetypes. When exported to static files, **all dynamic functionality is lost**. Images are locked in resolution, 3D models are locked in polycount.
 
