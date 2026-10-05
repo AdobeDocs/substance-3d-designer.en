@@ -16,12 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map"){width="200px"}
+![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Remaps the grayscale values in an image using a custom gradient.
 
@@ -31,31 +33,17 @@ This node serves a dual purpose: It may be simply used as a<b> </b>grayscale-to-
 </tr>
 </table>
 
-The node offers an advanced and feature-rich gradient editor to map multiple colors with precision: go to the [Gradient editor](#gradient-editor) section in this page to learn more.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-## Examples
+The node offers an advanced and feature-rich gradient editor to map multiple colors with precision: go to the [Gradient editor](#gradient-editor) section in this page to learn more.
 
-## Parameters
+
 
 |  |  |
 | --- | --- |
@@ -249,14 +237,14 @@ The Color Picker lets you set a color in several ways:
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   The RGB, HSV and Alpha sliders let you set a color precisely, by tweaking the sliders or directly setting their numerical values.
 
   Alternatively, use a hexcode in the dedicated input field below the sliders.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![Color Picker - RGB, HSV and Alpha sliders](gradient-map.resources/image2017-2-17-18-31-41.png "Color Picker - RGB, HSV and Alpha sliders")
 
@@ -283,7 +271,7 @@ The Color Picker lets you set a color in several ways:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 The selected color is previewed in the upper half of the color thumbnail.  
 The lower half displays the previously used color. Double-click LMB on it to revert the tweaked color to it.
@@ -301,7 +289,7 @@ When multiple pin are selected, the RGB, HSV and Alpha sliders turn into delta (
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Additionally, the following capabilities are available below the color thumbnail as buttons:
 
@@ -340,11 +328,6 @@ The <b>Precision</b> slider will help you adjust your newly created gradient by 
 | --- | --- |
 | <b>Input</b> *Grayscale* PRIMARY | The grayscale image to be processed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* |  |
 
 ## Examples
 

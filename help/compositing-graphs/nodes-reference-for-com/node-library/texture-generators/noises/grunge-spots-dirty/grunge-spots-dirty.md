@@ -49,13 +49,14 @@ The **Grunge Spots Dirty** node generates a grunge map akin to spots of dirt.
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" class="modal-image" alt="Grunge Spots Dirty - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" class="modal-image" alt="Grunge Spots Dirty - Example 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

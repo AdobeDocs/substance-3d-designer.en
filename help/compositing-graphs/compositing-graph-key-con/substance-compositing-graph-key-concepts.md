@@ -37,7 +37,7 @@ Here are a few things you should know about Outputs:
 * Outputs can and should be <b>named uniquely</b> to identify them, it helps when exporting.
 * Every connector on the right side of any Node is actually an Output (see "Sub-graphs for more info)
 
-An [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) is similar to an Output, it's an empty, open slot for you or another user to connect your own data to. It allows for the creation of graph that in external, user-defined image data, such as a Filter that modifies an input image (a Blur, or a Contrast adjustment for example).
+An [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) is similar to an Output, it's an empty, open slot for you or another user to connect your own data to. It allows for the creation of graph that in external, user-defined image data, such as a Filter that modifies an input image (a Blur, or a Contrast adjustment for example).
 
 Here are a few things you should know about Inputs:
 

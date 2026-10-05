@@ -61,17 +61,14 @@ The amount of strips is adjustable, as is the smoothness of their transitions.
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Anisotropic noise - Example 1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "Anisotropic noise - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Anisotropic noise - Example 2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "Anisotropic noise - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="anisotropic-noise.resources/anisotropic_noise_v2_1.png" class="modal-image" alt="Anisotropic noise - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Anisotropic noise - Example 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

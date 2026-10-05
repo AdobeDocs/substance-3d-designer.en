@@ -16,12 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Curve](curve.resources/comp_curve_1.png "Atomic node: Curve"){width="200px"}
+![Atomic node: Curve](curve.resources/comp_curve_1.png "Atomic node: Curve"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Remaps the values in an image using a custom curve.
 
@@ -31,53 +33,19 @@ The node provides an interface to image tonality remapping, similar to other 2D 
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="curve.resources/curve-tooltip.gif" alt="curve tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 Unlike most other nodes, the Curve node does not have a typical standard interface with sliders and parameters, but instead presents a full fledged curve editor. See the below expandable section on how to use it.
 
 [This does however mean that none of the parameters from a Curve node can be exposed to a subgraph](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md). The only option here is to use a [Multi-Switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) to switch between different curve profiles.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parameters
-
-### Curve editor
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Input connectors
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -99,12 +67,12 @@ In order to create a point, simply double-click anywhere on the Curve view:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 In order to obtain precise results, the curve nodes offers different modes for each point:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -136,14 +104,14 @@ You can show/hide the histogram of your input just by clicking on ![](curve.reso
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 When you input is a color node, you have the ability to ajust the curve for each channel:
 
 Just select the curve you want to ajust in the dropdown list located on the top right:
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 
@@ -159,7 +127,7 @@ While in RGB curve mode, you canhide/show the individual channel curves by press
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 If you right click on the curve view, you will get some more options.
 
@@ -253,11 +221,6 @@ The ![](curve.resources/image2017-2-20-19-12-45.png) button resets the zoom leve
 | --- | --- |
 | <b>Input</b> *Grayscale/Color* PRIMARY | The image to be processed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

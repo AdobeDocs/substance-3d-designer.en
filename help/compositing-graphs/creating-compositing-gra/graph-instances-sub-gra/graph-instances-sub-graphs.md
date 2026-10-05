@@ -36,7 +36,7 @@ Drag a graph A from the Explorer into another graph B to create an <b>instance n
 
 Nodes can be quickly split into a new graph by selecting the nodes and using the 'Create graph from selection' in the contextual menu. You are then prompted to set the identifier of the new graph, which should be unique.
 
-Note that if the selected nodes were connected to other nodes in the graph, you should also create [Input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) and [Output](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes in the new graph to carry over these connections to the subgraph.
+Note that if the selected nodes were connected to other nodes in the graph, you should also create [Input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) and [Output](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes in the new graph to carry over these connections to the subgraph.
 
 Additionally, replacing the original nodes by an instance node referencing the new graph should be done manually afterwards.
 

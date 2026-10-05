@@ -16,12 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Emboss](emboss.resources/comp_emboss_1.png "Atomic node: Emboss"){width="200px"}
+![Atomic node: Emboss](emboss.resources/comp_emboss_1.png "Atomic node: Emboss"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Applies an embossing effect by lighting the sides of shapes in an image according to a specified light source direction.
 
@@ -31,42 +33,17 @@ I.e., the node performs a simple 2D shading based on 2 inputs, simulating light 
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="emboss.resources/emboss-tooltip.gif" alt="emboss tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 This node is not used often for PBR-like projects, but it can serve in certain cases where you want a simple, baked lighting in your texture. Alternatively [Emboss With Gloss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) and [Uber Emboss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) provide a similar, but more extensive functionality.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -84,11 +61,6 @@ This node is not used often for PBR-like projects, but it can serve in certain c
 | <b>Input</b> *Grayscale/Color* PRIMARY | Provides the base, unshaded colors. See it as a sort of diffuse or basecolor texture. |
 | <b>Intensity input</b> *Grayscale* | Represents the heightmap used to calculate lighting on the surface. Black is low and white is high. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

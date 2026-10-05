@@ -137,7 +137,7 @@ The editor of the selected parameter will appear on top of the list of graph inp
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In this part, all the graph's [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) nodes are listed.
+In this part, all the graph's [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) nodes are listed.
 
 You can reorder them by using drag and drop on the handle on the far left of each item.
 

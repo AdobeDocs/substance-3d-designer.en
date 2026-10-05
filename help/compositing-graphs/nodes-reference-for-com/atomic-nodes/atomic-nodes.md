@@ -123,16 +123,16 @@ All other Substance graph nodes in the [Library](../../../interface/the-library/
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Input color](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Atomic node: Input color](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[Input color](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Input color](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Input grayscale](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Atomic node: Input grayscale](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[Input grayscale](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Input grayscale](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
 </td>
 </tr>
@@ -142,9 +142,9 @@ All other Substance graph nodes in the [Library](../../../interface/the-library/
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![Atomic node: Input value](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![Atomic node: Input value](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
-[Input value](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Input value](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 </td>
 <td style="border: 0;" valign="top">

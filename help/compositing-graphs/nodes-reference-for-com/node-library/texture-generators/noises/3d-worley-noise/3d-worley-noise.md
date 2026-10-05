@@ -50,19 +50,23 @@ One of the most versatile and advanced noises in the library, it generates a Wor
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex04.png" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-worley-noise.resources/3d-worley-ex04.png" class="modal-image" alt="3D Worley Noise - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex03.png" />
+        <td style="border: 0;">
+            <img src="3d-worley-noise.resources/3d-worley-ex03.png" class="modal-image" alt="3D Worley Noise - Example 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex02.png" />
+        <td style="border: 0;">
+            <img src="3d-worley-noise.resources/3d-worley-ex02.png" class="modal-image" alt="3D Worley Noise - Example 3" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-worley-noise.resources/3d-worley-ex01.png" />
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-worley-noise.resources/3d-worley-ex01.png" class="modal-image" alt="3D Worley Noise - Example 4" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

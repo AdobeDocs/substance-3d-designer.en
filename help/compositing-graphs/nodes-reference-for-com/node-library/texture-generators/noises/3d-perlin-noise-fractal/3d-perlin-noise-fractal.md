@@ -63,16 +63,16 @@ This node can be tested with [Cube 3D GBuffers](../../../../../../compositing-gr
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dfractal.gif" class="modal-image" alt="3D Perlin Noise Fractal - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant.jpg" class="modal-image" alt="3D Perlin Noise Fractal - Example 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-perlin-noise-fractal.resources/3dperlinnoisefractal-variant2.jpg" class="modal-image" alt="3D Perlin Noise Fractal - Example 3" />
         </td>
     </tr>
 </table>

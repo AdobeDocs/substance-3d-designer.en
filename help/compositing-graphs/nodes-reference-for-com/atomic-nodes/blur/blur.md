@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Blur node icon](blur.resources/blur-9.png){width="200px"}
+![Blur node icon](blur.resources/blur-9.png)
 
 **In:** Atomic Nodes
 
@@ -34,6 +34,14 @@ The Blur Node performs a "box-blur" operation: averaging the values of pixels ov
 While blur works well for fast, simple operations, such as slightly softening some edges, in any more demanding scenario [Blur HQ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) is a better choice, trading off performance for quality.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blur.resources/blur-tooltip.gif" alt="blur tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 

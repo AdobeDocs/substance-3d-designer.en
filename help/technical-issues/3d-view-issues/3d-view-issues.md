@@ -18,11 +18,11 @@ This page lists technical issues related to the [3D view](../../interface/3d-vie
 
 ## Low performance: Discrete GPU is not used
 
-**![(error)](3d-view-issues.resources/error.svg) Issue**
+![(error)](3d-view-issues.resources/error.svg) **Issue**
 
 Substance 3D Designer does not use the system's *discrete* GPU (<b>dGPU</b>), and uses the *integrated* GPU (<b>iGPU</b>) instead. This results in low performance when rendering graphs and/or the [3D view](../../interface/3d-view/3d-view.md).
 
-**![(tick)](3d-view-issues.resources/check.svg) Recommended steps**
+![(tick)](3d-view-issues.resources/check.svg) **Recommended steps**
 
 Systems with switchable graphics can *force the dGPU* which should be used for a *specific application* in dedicated software, depending on the GPU manufacturer.
 
@@ -39,13 +39,24 @@ For instance, users with an <b>Nvidia dGPU</b> can do the following:
 >
 > Please note integrated GPUs (iGPU) are *not supported*. You can learn more on the [System requirements](../../getting-started/system-requirements/system-requirements.md) page.
 
+## Low performance: Displacement on high poly meshes
+
+![(error)](3d-view-issues.resources/error.svg) **Issue**
+
+When using the new 3D renderers (Rasterizer and GPU Pathtracer), the 3D view may have low performance when using displacement on high poly meshes.
+
+![(tick)](3d-view-issues.resources/check.svg) **Recommended steps**
+
+The tessellation technique available in the 3D view, which subdivides meshes to offer more detail when using displacement, involves a preparation step that runs regardless of any tessellation actually being applied.
+The [tip in this section](../../interface/3d-view/displacement/displacement.md#per-mesh) addresses the performance issue by disabling the tessellation process per `Mesh` object in the scene.
+
 ## 3D object is flat
 
-**![(error)](3d-view-issues.resources/error.svg) Issue**
+![(error)](3d-view-issues.resources/error.svg) **Issue**
 
 A 3D object which featured detailed volumes in one session becomes flat in the next session, however the graph has not changed and the Height map carries the same data.
 
-**![(tick)](3d-view-issues.resources/check.svg) Recommended steps**
+![(tick)](3d-view-issues.resources/check.svg) **Recommended steps**
 
 The deformation effect of a 3D object according to a Height map is performed using a technique called **Tessellation displacement**. This technique involves two steps:
 
@@ -63,17 +74,19 @@ This value can be modified in the following ways:
 |:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Use the **Displacement pop-up** in the left toolbar.<br>Learn more in the [dedicated page](../../interface/3d-view/displacement/displacement.md). | Create an [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) node and set the `heightScale` usage in its properties.<br>Provide a value to this output with a value, using a [constant Float node](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md#floats) for instance, then *reapply the graph* in the 3D View. |
 
+{style="table-layout:fixed"}
+
 >[!TIP]
 >
 > Using this method, you can set a custom Height scale value *per graph*, which lets you adjust it to match the specific material of that graph.
 
 ## 3D view is entirely black
 
-**![(error)](3d-view-issues.resources/error.svg) Issue**
+![(error)](3d-view-issues.resources/error.svg) **Issue**
 
 In versions 15.0.0 and higher, the viewport of the 3D view is flat black. I see some text overlays (E.g., samples and render time) but the 3D scene is not visible.
 
-**![(tick)](3d-view-issues.resources/check.svg) Recommended steps**
+![(tick)](3d-view-issues.resources/check.svg) **Recommended steps**
 
 Version 15.1 and higher
 
@@ -107,11 +120,11 @@ Now, all new 3D View will use the OpenGL renderer by default, which will let you
 
 ## 'Renderer not supported' message is displayed
 
-**![(error)](3d-view-issues.resources/error.svg) Issue**
+![(error)](3d-view-issues.resources/error.svg) **Issue**
 
 In versions 15.0.0 and higher, the 'Renderer not supported' message appears in the lower right corner of the viewport when using the new 3D renderers (Rasterizer, GPU pathtracer). The 3D scene is not visible.
 
-**![(tick)](3d-view-issues.resources/check.svg) Recommended steps**
+![(tick)](3d-view-issues.resources/check.svg) **Recommended steps**
 
 Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) introduced our new in-house [3D renderers](../../interface/3d-view/3d-renderers/3d-renderers.md), which use modern technologies and therefore are not supported by older GPUs.
 
@@ -138,7 +151,7 @@ You may find and adjust that option by following these steps:
 
 ## 3D object looks entirely smooth
 
-**![(error)](3d-view-issues.resources/error.svg) Issue**
+![(error)](3d-view-issues.resources/error.svg) **Issue**
 
 After working on the data sent to the **Height** [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md), the object appears to have some volume but *looks entirely smooth*, as if the height information was ignored in the shading.
 
@@ -146,7 +159,7 @@ After working on the data sent to the **Height** [output](../../compositing-grap
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(tick)](3d-view-issues.resources/check.svg) Recommended steps**
+![(tick)](3d-view-issues.resources/check.svg) **Recommended steps**
 
 Make sure the height data is *converted to normals* which are connected to the **Normal** [output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md).
 
@@ -165,7 +178,7 @@ The solution is quite simple: connect the last node of the stream leading to the
 
 ## Render is blurry/pixelated
 
-**![(error)](3d-view-issues.resources/error.svg) Issue**
+![(error)](3d-view-issues.resources/error.svg) **Issue**
 
 The rendered image looks blurry or pixelated when the system uses *display scaling*.
 
@@ -173,7 +186,7 @@ The rendered image looks blurry or pixelated when the system uses *display scali
 <tr style="border: 0;">
 <td style="border: 0; width: 60%; vertical-align: top">
 
-**![(tick)](3d-view-issues.resources/check.svg) Recommended steps**
+![(tick)](3d-view-issues.resources/check.svg) **Recommended steps**
 
 By default, Designer uses the *scaled* display resolution to define the [3D view](../../interface/3d-view/3d-view.md)'s rendering resolution. You can change this so the *native* display resolution is used instead for a crisp render.
 
@@ -190,11 +203,11 @@ Open the **Edit** menu and select the **Preferences...** option. In the [Prefere
 
 ## I cannot find the 'Tessellation factor' property
 
-**![(error)](3d-view-issues.resources/error.svg) Issue**
+![(error)](3d-view-issues.resources/error.svg) **Issue**
 
 After upgrading Designer to version 15.0.0, I cannot find the 'Tessellation factor' parameter in the material properties where it used to be.
 
-**![(tick)](3d-view-issues.resources/check.svg) Recommended steps**
+![(tick)](3d-view-issues.resources/check.svg) **Recommended steps**
 
 When using the new renderers (Rasterizer and GPU Pathtracer), the 'Tessellation factor' is found in the properties of these renderers. In the 3D View, go to <b>Renderer &gt; Edit settings</b>. The property will be listed in the Properties dock.
 
@@ -208,7 +221,7 @@ When using the new renderers (Rasterizer and GPU Pathtracer), the 'Tessellation 
 
 ## 3D objects look wrong: their shading does not suit the lighting
 
-**![(error)](3d-view-issues.resources/error.svg) Issue**
+![(error)](3d-view-issues.resources/error.svg) **Issue**
 
 The shading of objects relies on their normal, tangent and binormal vectors. Their coordinates use the `[-1, 1]` range, whereas normal maps use the `[0, 1]` range in most cases. To adapt values from one to the other, a <b>bias and scale</b> need to be applied: `value * scale + bias`.
 
@@ -221,7 +234,7 @@ Designer does not apply a normal scale and bias unless they are specified by a 3
 ```
 
 
-**![(tick)](3d-view-issues.resources/check.svg) Recommended steps**
+![(tick)](3d-view-issues.resources/check.svg) **Recommended steps**
 
 For scenes exported to USD formats a while ago: Reexport the scene using a recent version of USD, which will include the necessary data. Pay attention to properties related to normal scale and bias if there are any, which will depend on the software used to export the scene.
 
@@ -229,11 +242,11 @@ When [overriding a material](../../working-with-3d-scenes/overriding-scene-mat/o
 
 ## Crash when starting 3D View
 
-**![(error)](3d-view-issues.resources/error.svg) Issue**
+![(error)](3d-view-issues.resources/error.svg) **Issue**
 
 Designer crashes at the time of starting the 3D View, when creating a project, loading a project, or manually starting a 3D View.
 
-**![(tick)](3d-view-issues.resources/check.svg) Recommended steps**
+![(tick)](3d-view-issues.resources/check.svg) **Recommended steps**
 
 First, make sure your system meets Designer's [system requirements](../../getting-started/system-requirements/system-requirements.md).
 

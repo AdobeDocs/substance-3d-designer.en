@@ -49,10 +49,12 @@ This noise fills a specific niche: it can be useful for generating rain, leaks o
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="fluid.resources/fluid-ex.gif" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fluid.resources/fluid-ex.gif" class="modal-image" alt="Fluid - Example 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

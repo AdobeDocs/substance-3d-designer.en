@@ -36,13 +36,13 @@ lint gotchas) follow the `write-experience-league-markdown` skill.
   the shared `help/assets/` folder — that is a legacy pattern being phased out; new and
   edited pages use their own `.resources` folder.
 * Every page has a corresponding entry in `help/guide/TOC.md`. When adding or moving a
-  page, update `TOC.md` and the folder layout together (see CLAUDE.md's Folder/TOC
+  page, update `TOC.md` and the folder layout together (see AGENTS.md's Folder/TOC
   convention).
 
 ## Front matter
 
 Node pages use the **minimal** block — only `title` and a breadcrumb-style
-`description`. (This is distinct from the 11-field legacy block CLAUDE.md documents for
+`description`. (This is distinct from the 11-field legacy block AGENTS.md documents for
 regular content pages.)
 
 ```yaml
@@ -92,6 +92,10 @@ Description-cell prose conventions:
 * Lead-in asides use `<i>Note:</i>` / `<i>Tip:</i>` at the start of the sentence.
 * Use `&gt;` for the `>` in the `In:` line (it's inside HTML). Take the category /
   subcategory names from the node itself; don't invent them.
+* For nodes with multiple versions (for example color/grayscale/value or numbered variants
+  like Cells 1 / Cells 2), append a final description paragraph that references the other
+  versions with relative links, separated by a single line break. Example: `See also: [Input
+  grayscale](../input-grayscale/input-grayscale.md), [Input value](../input-value/input-value.md)`.
 
 ### 3. Optional callouts
 
@@ -153,27 +157,35 @@ line).
 
 ### 7. Examples
 
-Include only if there are example images/GIFs. Use an HTML gallery table; one `<td>`
-per image with an optional caption; wrap to a new `<tr>` after 3 images. Media paths
-point into the page's `.resources` folder.
+Include only if there are example images/GIFs. Use a borderless, fixed-layout HTML
+gallery table; one `<td>` per image; wrap to a new `<tr>` after 3 images. Media paths
+point into the page's `.resources` folder. Use an HTML `<img>` element for every
+example, with `class="modal-image"` so the published image opens in the standard
+image viewer. Provide meaningful `alt` text that identifies the node and example
+number. Do not use Markdown image syntax in this gallery.
 
 ```html
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file>.gif" /><br><i>Caption</i>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file>.gif" class="modal-image" alt="<Node title> - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file2>.jpg" /><br><i>Another caption</i>
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file2>.jpg" class="modal-image" alt="<Node title> - Example 2" />
         </td>
     </tr>
 </table>
 ```
 
-Leave trailing cells in a partially-filled final row empty (`<td …></td>`) rather than
-reflowing. Omit captions if the source has none.
+Keep the table's `style="table-layout:fixed"` and the `style="border: 0;"`
+attributes exactly as shown; do not add borders, margins, or background styles.
+Leave trailing cells in a partially-filled final row empty
+(`<td style="border: 0;"></td>`) rather than reflowing. Use the existing image
+order and filenames. If a page has captions, preserve them as `alt` text rather
+than adding visible caption markup. Omit the whole section when the page has no
+example media.
 
 ## Canonical type values
 

@@ -53,10 +53,12 @@ Generates projected caustics based on a height map and a light direction.Comes i
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="caustics.resources/rt-caustics-grayscale-1.png" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="caustics.resources/rt-caustics-grayscale-1.png" class="modal-image" alt="Caustics - Example 1" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

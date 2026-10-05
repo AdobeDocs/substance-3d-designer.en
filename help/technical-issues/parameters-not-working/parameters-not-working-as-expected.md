@@ -18,11 +18,11 @@ This page lists common causes for parameters not working as expected in Substanc
 
 ## Parameter not working in Preview mode and published Substance 3D asset (SBSAR)
 
-<b>![(error)](parameters-not-working-as-expected.resources/error.svg) Issue</b>
+![(error)](parameters-not-working-as-expected.resources/error.svg) <b>Issue</b>
 
 Some exposed parameters for a graph are *not listed* when using [Preview mode](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) in Designer, or in the parameters list of Substance 3D assets (SBSAR) [published](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) out of that graph.
 
-<b>![(tick)](parameters-not-working-as-expected.resources/check.svg)Recommended steps</b>
+![(tick)](parameters-not-working-as-expected.resources/check.svg) <b>Recommended steps</b>
 
 The missing parameters are likely [static parameters](../../glossary/glossary.md), which *cannot be edited on-the-fly* after the graph has been *cooked* – i.e., processed in order to run its algorithm quickly and efficiently. Cooking occurs in Designer every time the graph is *edited* or *published*. Parameters impacted by such limitations are listed in the [Limitations](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) section of the [Exposing a parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) page of this documentation.
 
@@ -30,21 +30,21 @@ As such, static parameters are visible and editable in Designer, but are *hidden
 
 Here is a list of static parameters:
 
-| Node | Parameter |
-| --- | --- |
-| All nodes | Tiling mode  Pixel ratio |
-| [Uniform color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md) | Color mode |
-| [Pixel processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) | Color mode |
-| [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) | Blending mode  Alpha blending  Cropping area |
-| [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) | Blending mode |
-| [Quadrant](../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md) | Pattern  Input image alpha  Input image filtering |
+| Node                                                                                                                 | Parameter                                          |
+|:---------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------|
+| All nodes                                                                                                            | Tiling mode, Pixel ratio                           |
+| [Uniform color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)        | Color mode                                         |
+| [Pixel processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)  | Color mode                                         |
+| [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)                                | Blending mode  Alpha blending  Cropping area       |
+| [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)                             | Blending mode                                      |
+| [Quadrant](../../function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md)                                      | Pattern  Input image alpha  Input image filtering  |
 
 ## Incorrect result for Substance function graph applied to parameter
 
-<b>![(error)](parameters-not-working-as-expected.resources/error.svg) Issue</b>
+![(error)](parameters-not-working-as-expected.resources/error.svg) <b>Issue</b>
 
-A Substance function graph applied to a node parameter does not output the expected value when a negative integer is used.
+A Substance function graph applied to a node parameter does not output the expected value when a *negative integer* is used.
 
-<b>![(tick)](parameters-not-working-as-expected.resources/check.svg) Recommended steps</b>
+![(tick)](parameters-not-working-as-expected.resources/check.svg) <b>Recommended steps</b>
 
 Negative integers are currently not properly supported. As a workaround, use the negative integer value in an [Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) value and extract it using a [Swizzle Integer](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md) node.

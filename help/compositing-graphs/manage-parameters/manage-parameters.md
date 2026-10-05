@@ -159,11 +159,11 @@ These actions...
 
 [Gradient map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[Input color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Input color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[Input grayscale](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Input grayscale](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[Input value](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Input value](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 

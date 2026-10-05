@@ -52,13 +52,14 @@ The **Grunge Rust Fine** node generates a grunge map akin to a fine grunge rust 
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-rust-fine.resources/grungerustfine-variant2.jpg" class="modal-image" alt="Grunge Rust Fine - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-rust-fine.resources/grungerustfine-variant.jpg" class="modal-image" alt="Grunge Rust Fine - Example 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

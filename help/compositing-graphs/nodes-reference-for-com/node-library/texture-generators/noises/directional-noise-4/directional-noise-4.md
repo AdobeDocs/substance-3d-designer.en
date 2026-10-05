@@ -61,32 +61,23 @@ See also: [Directional noise 1](../../../../../../compositing-graphs/nodes-refer
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Directional noise 4 - Example 1](directional-noise-4.resources/directional_noise_4_1.png "Directional noise 4 - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Directional noise 4 - Example 2](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso0.gif "Directional noise 4 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Directional noise 4 - Example 3](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso1.gif "Directional noise 4 - Example 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Directional noise 4 - Example 4](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "Directional noise 4 - Example 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-noise-4.resources/directional_noise_4_1.png" class="modal-image" alt="Directional noise 4 - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso0.gif" class="modal-image" alt="Directional noise 4 - Example 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso1.gif" class="modal-image" alt="Directional noise 4 - Example 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-noise-4.resources/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Directional noise 4 - Example 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

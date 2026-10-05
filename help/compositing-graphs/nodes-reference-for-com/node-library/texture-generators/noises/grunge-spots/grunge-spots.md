@@ -50,13 +50,14 @@ The **Grunge Spots** node generates a grunge map akin to fine splattered spots.
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots.resources/grungespots-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-spots.resources/grungespots-variant2.jpg" class="modal-image" alt="Grunge Spots - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots.resources/grungespots-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-spots.resources/grungespots-variant.jpg" class="modal-image" alt="Grunge Spots - Example 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

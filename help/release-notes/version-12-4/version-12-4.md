@@ -52,7 +52,7 @@ You can now lock the width and the height of the Output Size in order to make su
 
 ### Transform image input to Color/Greyscale
 
-Quickly switch between an [Input Color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) and an [Input Greyscale](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) through the node contextual menu.
+Quickly switch between an [Input color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) and an [Input grayscale](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md) through the node contextual menu.
 
 ![](version-12-4.resources/final-switch.gif){width="640px"}
 

@@ -16,12 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Atomic node: Transformation 2D"){width="200px"}
+![Atomic node: Transformation 2D](transformation-2d.resources/comp_transformation_1.png "Atomic node: Transformation 2D"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Applies a 2D transformation matrix to an image: translation, rotation, scaling, symmetry and shearing.
 
@@ -31,29 +33,18 @@ It is quite similar to Transforming (Ctrl-T) in Photoshop, or using the 2D mappi
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="transformation-2d tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 This is an extremely useful and widely applied node, it allows for increasing tiling, removing tiling, placing an image in a specific position, stretching or squashing an input, etc.
 
 It can however not be a perfect match for certain applications, so the following nodes can be of interest: [Safe Transform](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md), [Non-Square Transform](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md), [Quad Transform](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md) and [Trapezoid Transform](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -67,20 +58,6 @@ It can however not be a perfect match for certain applications, so the following
 >
 > The values for scaling and rotation in the node's properties are *relative to the current transformation*, and are not applied to the 2D View until you click the 'Apply' button.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -99,11 +76,6 @@ It can however not be a perfect match for certain applications, so the following
 | --- | --- |
 | <b>Input</b> *Grayscale/Color* PRIMARY | The image to be transformed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

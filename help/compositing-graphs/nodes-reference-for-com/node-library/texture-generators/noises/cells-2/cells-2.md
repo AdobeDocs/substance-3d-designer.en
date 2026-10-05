@@ -60,17 +60,14 @@ See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Cells 2 - Example 1](cells-2.resources/cells_2_1.png "Cells 2 - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Cells 2 - Example 2](cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif "Cells 2 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="cells-2.resources/cells_2_1.png" class="modal-image" alt="Cells 2 - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Cells 2 - Example 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

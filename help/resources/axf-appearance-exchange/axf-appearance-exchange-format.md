@@ -157,7 +157,7 @@ These can then be used with the default 3D View shaders and combined with other 
 
 For all Substance graph templates added in the <b>Templates</b> list, the following additional operations are performed:
 
-For any [<b>Input</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) node which *usage* matches the *identifier* of a texture extracted from the AxF file, that Input node is replaced by a [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node referencing that texture;
+For any [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) node which *usage* matches the *identifier* of a texture extracted from the AxF file, that Input node is replaced by a [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node referencing that texture;
 
 The graph's <b>Resolution</b> property (I.e., Output size) is automatically set to the power of two equal to or above the resolution of the *largest* extracted texture;
 

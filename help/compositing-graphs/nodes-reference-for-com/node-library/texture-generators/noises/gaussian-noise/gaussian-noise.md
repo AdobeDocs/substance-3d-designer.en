@@ -59,32 +59,23 @@ See also: [Gaussian spots 1](../../../../../../compositing-graphs/nodes-referenc
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Gaussian noise - Example 1](gaussian-noise.resources/gaussian_noise-1_1.png "Gaussian noise - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Gaussian noise - Example 2](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso0.gif "Gaussian noise - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Gaussian noise - Example 3](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso1.gif "Gaussian noise - Example 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Gaussian noise - Example 4](gaussian-noise.resources/noise_gaussian_noise_v2_speed0.3_aniso0.6.gif "Gaussian noise - Example 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="gaussian-noise.resources/gaussian_noise-1_1.png" class="modal-image" alt="Gaussian noise - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso0.gif" class="modal-image" alt="Gaussian noise - Example 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="gaussian-noise.resources/noise_gaussian_noise_v2_speed0.6_aniso1.gif" class="modal-image" alt="Gaussian noise - Example 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="gaussian-noise.resources/noise_gaussian_noise_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Gaussian noise - Example 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

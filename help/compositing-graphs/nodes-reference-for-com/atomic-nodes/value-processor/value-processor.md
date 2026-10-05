@@ -16,12 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Value processor](value-processor.resources/comp_valueprocessor_1.png "Atomic node: Value processor"){width="200px"}
+![Atomic node: Value processor](value-processor.resources/comp_valueprocessor_1.png "Atomic node: Value processor"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Computes a [Substance function graph](../../../../function-graphs/the-function-graph/the-function-graph.md) and outputs its result.
 
@@ -32,24 +34,13 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 </table>
 
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="value-processor.resources/value-processor-tooltip.gif" alt="value-processor tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
 
 >[!TIP]
 >
@@ -57,20 +48,6 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 > 
 > Also consider that working with this type of graph and performing mathematical operations is mandatory for getting anything out of this node.
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -84,11 +61,6 @@ It is comparable to a [Pixel processor](../../../../compositing-graphs/nodes-ref
 | --- | --- |
 | <b>Input image &#35;</b> *Grayscale/Color* | Use a [Sample color](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) or [Sample grayscale](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) node to access the values in the input of the specified index. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Any available value type* |  |
 
 ## Examples
 

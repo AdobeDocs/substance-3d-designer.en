@@ -51,13 +51,14 @@ The **Grunge Rough Dirty** node generates a grunge map akin to a rough dirty sur
 
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" class="modal-image" alt="Grunge Rough Dirty - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" class="modal-image" alt="Grunge Rough Dirty - Example 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

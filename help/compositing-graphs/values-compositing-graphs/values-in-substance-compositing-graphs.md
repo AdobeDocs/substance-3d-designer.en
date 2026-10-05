@@ -26,10 +26,10 @@ There are a few usecases for this, such as:
 
 Two new Atomic Nodes work with Values:
 
-|  |  |
-| --- | --- |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                       |  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | <div><img alt="Value Processor node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="Value Processor node icon" width="100px"/></div>  <b>&#91;Value Processor&#93;(../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | The [Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) takes Any number of Grayscale or Color Inputs and allows you to return a single Value from calculations based on these inputs. |
-| <div><img alt="Value Input node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Value Input node icon" width="100px"/></div>  **[Value Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | The [Value Input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)allows you to create an input slot on sub-graphs that is explicitely defined as a Value. |
+| <div><img alt="Value Input node icon" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="Value Input node icon" width="100px"/></div>  **[Input value](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)**                                  | The [Value Input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)allows you to create an input slot on sub-graphs that is explicitely defined as a Value. |
 
 Additionally, other nodes deal with them in a specific way:
 
@@ -45,9 +45,9 @@ There is a new tab on every single node ([Atomic ](../../compositing-graphs/node
 
 Making use of Values is slightly different from regular Substance graph work:
 
-Value connections can only be made from a [Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), from a [Value Input,](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) or from a [Sub-Graph](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). That actually means that a Value Processor is the only way to create a Value connection from scratch, there is no "Static Value" node or anything similar. Instead, Create a Value Processor, place a static Value and set it as output to achieve the same result.
+Value connections can only be made from a [Value Processor](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md), from an [Input value](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md), or from a [subgraph](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md). That actually means that a Value Processor is the only way to create a Value connection from scratch, there is no "Static Value" node or anything similar. Instead, Create a Value Processor, place a static Value and set it as output to achieve the same result.
 
-Value Processor can only return a single Value, if you want to return multiple Values, or sets or Groups of Values, you will have to create a [Sub-Graph](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
+Value Processor can only return a single Value, if you want to return multiple Values, or sets or Groups of Values, you will have to create a [subgraph](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md).
 
 To highlight where Values are exposed or in use, any Node that has Value Inputs, or Value Outputs, is highlighted with a thick yellow border:
 

@@ -16,12 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG"){width="200px"}
+![Atomic node: SVG](svg.resources/comp_svg_1.png "Atomic node: SVG"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Renders an [SVG image](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) as a bitmap. In other words, maps vector shapes to pixels.
 
@@ -31,27 +33,16 @@ There are a few ways to create this node, and all of them require you to underst
 </tr>
 </table>
 
-You can either create the node from scratch, or by dropping an SVG file into the Graph view.
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="svg.resources/svg-tooltip.gif" alt="svg tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+You can either create the node from scratch, or by dropping an SVG file into the Graph view.
+
 
 >[!TIP]
 >
@@ -73,20 +64,6 @@ You can either create the node from scratch, or by dropping an SVG file into the
 > 
 > Learn more about these limitations [here](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Examples
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -106,11 +83,6 @@ Vector shapes can be edited in Designer. Learn more about the editing tools in [
 | --- | --- |
 | <b>Background</b> *Grayscale/Color* PRIMARY | Sets the output image's background color ot use on areas not covered by a vector shape.   *Overrides the '[Background color](#parameters)' parameter when connected.* |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

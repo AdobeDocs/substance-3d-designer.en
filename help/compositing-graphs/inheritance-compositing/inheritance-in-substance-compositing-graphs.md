@@ -190,7 +190,7 @@ The input inherits from the graph, and the data it receives is adapted according
 </tr>
 </table>
 
-One of the inputs may be set as the graph’s **Primary input**, by clicking **RMB** on that [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) node and selecting the **Set as Primary Input** option in the contextual menu.
+One of the inputs may be set as the graph’s **Primary input**, by clicking **RMB** on that [Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) node and selecting the **Set as Primary Input** option in the contextual menu.
 
 </td>
 <td style="border: 0;" valign="top">

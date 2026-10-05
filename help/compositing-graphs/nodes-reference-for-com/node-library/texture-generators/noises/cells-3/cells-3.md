@@ -67,32 +67,23 @@ See also: [Cells 1](../../../../../../compositing-graphs/nodes-reference-for-com
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Cells 3 - Example 1](cells-3.resources/cells_3_1.png "Cells 3 - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Cells 3 - Example 2](cells-3.resources/noise_cells_3_v2_speed0.6_aniso0.gif "Cells 3 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Cells 3 - Example 3](cells-3.resources/noise_cells_3_v2_speed0.6_aniso1.gif "Cells 3 - Example 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Cells 3 - Example 4](cells-3.resources/noise_cells_3_v2_speed0.3_aniso0.6.gif "Cells 3 - Example 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="cells-3.resources/cells_3_1.png" class="modal-image" alt="Cells 3 - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="cells-3.resources/noise_cells_3_v2_speed0.6_aniso0.gif" class="modal-image" alt="Cells 3 - Example 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="cells-3.resources/noise_cells_3_v2_speed0.6_aniso1.gif" class="modal-image" alt="Cells 3 - Example 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="cells-3.resources/noise_cells_3_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="Cells 3 - Example 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
