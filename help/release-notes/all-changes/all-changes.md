@@ -28,7 +28,6 @@ user-guide-title: ""
 **Fixed:**
 
 * &#91;3D View&#93;&#91;USD&#93; Incorrect surface look after overriding the material in a specific USD scene
-* &#91;CAI&#93; Cannot read Content Credentials from images whose filename contains non-ASCII characters
 * &#91;Content&#93; Vector morph: tiling mode is not supported
 * &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in PLY file parsing
 * &#91;Security&#93; Fixed a stack overflow vulnerability in FBX file parsing
