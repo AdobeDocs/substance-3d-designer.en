@@ -16,6 +16,25 @@ user-guide-title: ""
 
 ## Version 16
 
+### 16.0.7
+
+*(Released October 8th, 2026)*
+
+**Added:**
+
+* &#91;Engine&#93; Update Substance engine to v9.6.1
+* &#91;OpenGL&#93;&#91;OpenPBR&#93; Improve numerical stability of VNDF sampling and minor ALU optimizations
+
+**Fixed:**
+
+* &#91;3D View&#93;&#91;USD&#93; Incorrect surface look after overriding the material in a specific USD scene
+* &#91;Content&#93; Vector morph: tiling mode is not supported
+* &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in PLY file parsing
+* &#91;Security&#93; Fixed a stack overflow vulnerability in FBX file parsing
+* &#91;Security&#93; Fixed a stack overflow vulnerability in SBSAR file parsing
+* &#91;Security&#93; Fixed an out-of-bounds read vulnerability in SBSAR file parsing
+* &#91;Security&#93; Fixed an out-of-bounds write vulnerability in FBX file parsing
+
 ### 16.0.6
 
 *(Released September 4th, 2026)*
