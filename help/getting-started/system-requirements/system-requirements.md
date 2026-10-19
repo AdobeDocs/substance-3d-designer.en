@@ -20,30 +20,34 @@ Below is a list of hardware and systems supported by the application:
 
 ### Windows
 
-|             | Minimum                                                                                                  | Recommended                                                                                         | Optimal                                                                                                            |
-|:------------|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
-| **OS**      | Windows 11 64-bit Version 23H2                                                                           | Windows 11 64-bit Version 24H1                                                                      | Windows 11 64-bit Version 24H2                                                                                     |
-| **CPU**     | Intel Core i5<br>AMD Ryzen 5                                                                             | Intel Core i7<br>AMD Ryzen 7                                                                        | Intel Core i9<br>AMD Ryzen 9                                                                                       |
-| **GPU**     | NVIDIA GeForce RTX 2060 Super<br>NVIDIA Quadro RTX 4000<br>AMD Radeon RX 5700 XT<br>AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080<br>NVIDIA Quadro RTX A4000<br>AMD Radeon RX 6800 XT<br>AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090<br>NVIDIA Quadro RTX 5000 Ada Generation<br>AMD Radeon RX 7900 XTX<br>AMD Radeon Pro W7800 |
-| **VRAM**    | 8 GB                                                                                                     | 16 GB                                                                                               | 24 GB                                                                                                              |
-| **RAM**     | 16 GB                                                                                                    | 32 GB                                                                                               | 64 GB                                                                                                              |
-| **Storage** | SSD with 30 GB of available space                                                                        | SSD with 50 GB of available space                                                                   | SSD with 70 GB of available space                                                                                  |
+|  | Minimum | Recommended | Optimal |
+| --- | --- | --- | --- |
+| **OS** | Windows 11 64-bit Version 23H2 | Windows 11 64-bit Version 24H1 | Windows 11 64-bit Version 24H2 |
+| **CPU** | Intel Core i5<br>AMD Ryzen 5 | Intel Core i7<br>AMD Ryzen 7 | Intel Core i9<br>AMD Ryzen 9 |
+| **GPU** | NVIDIA GeForce RTX 2060 Super<br>NVIDIA Quadro RTX 4000<br>AMD Radeon RX 5700 XT<br>AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080<br>NVIDIA Quadro RTX A4000<br>AMD Radeon RX 6800 XT<br>AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090<br>NVIDIA Quadro RTX 5000 Ada Generation<br>AMD Radeon RX 7900 XTX<br>AMD Radeon Pro W7800 |
+| **VRAM** | 8 GB | 16 GB | 24 GB |
+| **RAM** | 16 GB | 32 GB | 64 GB |
+| **Storage** | SSD with 30 GB of available space | SSD with 50 GB of available space | SSD with 70 GB of available space |
+
+>[!WARNING]
+>
+> For pipelines built with the [VFX Reference Platform](https://vfxplatform.com/) in mind, Substance 3D Designer can still be installed on macOS 14 Sonoma. However, Designer is no longer tested on OS versions below the minimum system requirements, so stability is not guaranteed. Updating to a newer OS version is recommended.
 
 ### macOS
 
-|             | Minimum                           | Recommended                       | Optimal                           |
-|:------------|:----------------------------------|:----------------------------------|:----------------------------------|
-| **OS**      | macOS 14 Sonoma                   | macOS 26 Tahoe                    | macOS 26 Tahoe                    |
-| **CPU**     | Apple M1                          | Apple M2 Pro                      | Apple M4 Pro                      |
-| **GPU**     | Apple M1                          | Apple M2 Pro                      | Apple M4 Pro                      |
-| **RAM**     | 16 GB                             | 32 GB                             | 64 GB                             |
+|  | Minimum | Recommended | Optimal |
+| --- | --- | --- | --- |
+| **OS** | macOS 15 Sequoia | macOS 27 Golden Gate | macOS 27 Golden Gate |
+| **CPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
+| **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
+| **RAM** | 16 GB | 32 GB | 64 GB |
 | **Storage** | SSD with 30 GB of available space | SSD with 50 GB of available space | SSD with 70 GB of available space |
 
 ### Linux
 
-| Enterprise        | Steam        |
-|:------------------|:-------------|
-| RHEL 8</br>RHEL 9 | Ubuntu 22.04 |
+| Enterprise | Steam |
+| --- | --- |
+| RHEL 8<br>RHEL 9 | Ubuntu 22.04 |
 
 ## General recommendations
 
@@ -65,7 +69,7 @@ Below is a list of the GPU compatible with the application :
 >[!TIP]
 >
 > **TDR (Windows only)**
-> 
+>
 > For the best overall stability while performing heavy computations on the GPU – e.g. rendering complex graphs, rendering in the 3D view, exporting a scene from the 3D view, etc. – it is strongly recommended to make sure the **Timeout Detection and Recovery (TDR)** values match the recommendations in [this page](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) of our documentation.
 
 ## Unsupported configurations
@@ -98,10 +102,10 @@ Below is a list of the minimum GPU driver versions required for the application 
 
 To download new drivers see: [GPU has outdated drivers](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers).
 
-| OS          | NVIDIA                       | AMD                                      | Intel       |
-|:------------|:-----------------------------|:-----------------------------------------|:------------|
-| **Windows** | GeForce 451.48 Quadro 451.48 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33       |
-| **Linux**   | 535.129.03                   | Radeon 23.20 Pro 23.Q3                   | Unsupported |
+| OS | NVIDIA | AMD | Intel |
+| --- | --- | --- | --- |
+| **Windows** | GeForce 451.48 Quadro 451.48 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
+| **Linux** | 535.129.03 | Radeon 23.20 Pro 23.Q3 | Unsupported |
 
 >[!NOTE]
 >
