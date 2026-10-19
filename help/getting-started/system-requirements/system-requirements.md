@@ -29,10 +29,6 @@ Below is a list of hardware and systems supported by the application:
 | **RAM** | 16 GB | 32 GB | 64 GB |
 | **Storage** | SSD with 30 GB of available space | SSD with 50 GB of available space | SSD with 70 GB of available space |
 
->[!WARNING]
->
-> For pipelines built with the [VFX Reference Platform](https://vfxplatform.com/) in mind, Substance 3D Designer can still be installed on macOS 14 Sonoma. However, Designer is no longer tested on OS versions below the minimum system requirements, so stability is not guaranteed. Updating to a newer OS version is recommended.
-
 ### macOS
 
 |  | Minimum | Recommended | Optimal |
@@ -42,6 +38,10 @@ Below is a list of hardware and systems supported by the application:
 | **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
 | **RAM** | 16 GB | 32 GB | 64 GB |
 | **Storage** | SSD with 30 GB of available space | SSD with 50 GB of available space | SSD with 70 GB of available space |
+
+>[!WARNING]
+>
+> For pipelines built with the [VFX Reference Platform](https://vfxplatform.com/) in mind, Substance 3D Designer can still be installed on macOS 14 Sonoma. However, Designer is no longer tested on OS versions below the minimum system requirements, so stability is not guaranteed. Updating to a newer OS version is recommended.
 
 ### Linux
 
