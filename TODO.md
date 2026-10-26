@@ -7,6 +7,7 @@
 
 ## Additions
 
+* Shortcuts: Add touchpad shortcuts for macOS
 * Entry points for Python API documentation on AdobeDocs
 * Examples in 'Documentation pop-up' page
 * Glossary:
@@ -30,6 +31,9 @@
 * DESIGNER-11866: Tonemapping functions
 * DESIGNER-10655: Add examples + references to sample projects for Pixel processor and FX-Maps
 
+## Changes
+
+* [WIP] Update and complete 'Keyboard shortcuts' page
 
 ## Fixes
 
