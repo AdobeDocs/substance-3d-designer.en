@@ -96,3 +96,163 @@
         <a href="all-samples.resources/sample-spot-colors.sbs"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
     </td>
 </tr>
+
+## Sample: Abstract fabric {#sample-abstract-fabric}
+
+<tr style="border: 0">
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <img src="all-samples.resources/sample-abstract-fabric-card.png" alt="Abstract fabric" width="128" />
+    </td>
+    <td style="border: 0">
+        <h3>Abstract fabric</h3>
+        <p>Template for a simple fabric material.<br>This template demonstrates how to create a detailed plain weave using Tile generators and Tile samplers, and how to blend different patterns together.</p>
+        <p><i>Minimum version: 15.1.0</i></p>
+    </td>
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <a href="all-samples.resources/ds-sample-abstract-fabric.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
+    </td>
+</tr>
+
+## Sample: Brick wall {#sample-brick-wall}
+
+<tr style="border: 0">
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <img src="all-samples.resources/sample-brick-wall-card.png" alt="Brick wall" width="128" />
+    </td>
+    <td style="border: 0">
+        <h3>Brick wall</h3>
+        <p>Template for a simple wall of bricks with mortar.<br>This sample demonstrates how to build a full material from a Tile generator node, and introduces essential nodes for working with tiling patterns.</p>
+        <p><i>Minimum version: 15.1.0</i></p>
+    </td>
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <a href="all-samples.resources/ds-sample-brick-wall.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
+    </td>
+</tr>
+
+## Sample: Leather {#sample-leather}
+
+<tr style="border: 0">
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <img src="all-samples.resources/sample-leather-card.png" alt="Leather" width="128" />
+    </td>
+    <td style="border: 0">
+        <h3>Leather</h3>
+        <p>Template for a simple leather material.<br>This template demonstrates a quick trick to create a realistic leather base.</p>
+        <p><i>Minimum version: 15.1.0</i></p>
+    </td>
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <a href="all-samples.resources/ds-sample-leather.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
+    </td>
+</tr>
+
+## Sample: Metal {#sample-metal}
+
+<tr style="border: 0">
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <img src="all-samples.resources/sample-metal-card.png" alt="Metal" width="128" />
+    </td>
+    <td style="border: 0">
+        <h3>Metal</h3>
+        <p>Template for a simple sheet of metal material.<br>This sample demonstrates how Roughness and Normal channels can do the heavy lifting in materials that are otherwise light in features, with its flat color and height yet rich finish.</p>
+        <p><i>Minimum version: 15.1.0</i></p>
+    </td>
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <a href="all-samples.resources/ds-sample-metal.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
+    </td>
+</tr>
+
+## Sample: Quilted satin {#sample-quilted-satin}
+
+<tr style="border: 0">
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <img src="all-samples.resources/sample-quilted-satin-card.png" alt="Quilted satin" width="128" />
+    </td>
+    <td style="border: 0">
+        <h3>Quilted satin</h3>
+        <p>Template for a simple quilted satin material.<br>This template demonstrates how to create an intricate weave using Tile generators and how to scatter stitches along a spline.<br>It also uses a handy trick for packing masks in RGB channels to optimize shape scattering workflows.</p>
+        <p><i>Minimum version: 15.1.0</i></p>
+    </td>
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <a href="all-samples.resources/ds-sample-quilted-satin.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
+    </td>
+</tr>
+
+## Sample: Recycled plastic {#sample-recycled-plastic}
+
+<tr style="border: 0">
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <img src="all-samples.resources/sample-recycled-plastic-card.png" alt="Recycled plastic" width="128" />
+    </td>
+    <td style="border: 0">
+        <h3>Recycled plastic</h3>
+        <p>Template for a simple colorful plastic material.<br>This template demonstrates a basic setup to quickly iterate on colorways using color palette nodes.</p>
+        <p><i>Minimum version: 15.1.0</i></p>
+    </td>
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <a href="all-samples.resources/ds-sample-recycled-plastic.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
+    </td>
+</tr>
+
+## Sample: Rusty bolts {#sample-rusty-bolts}
+
+<tr style="border: 0">
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <img src="all-samples.resources/sample-rusty-bolts-card.png" alt="Rusty bolts" width="128" />
+    </td>
+    <td style="border: 0">
+        <h3>Rusty bolts</h3>
+        <p>Template for a surface strewn with rusty bolts.<br>This template introduces the SDF nodes and Shape splatter V2 nodes with advanced scattering techniques, 3D rotation of patterns and texture mapping onto each individual pattern.</p>
+        <p><i>Minimum version: 15.1.0</i></p>
+    </td>
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <a href="all-samples.resources/ds-sample-rusty-bolts.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
+    </td>
+</tr>
+
+## Sample: Stone ground {#sample-stone-ground}
+
+<tr style="border: 0">
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <img src="all-samples.resources/sample-stone-ground-card.png" alt="Stone ground" width="128" />
+    </td>
+    <td style="border: 0">
+        <h3>Stone ground</h3>
+        <p>Template for a stone ground material with detailed work on Height.<br>This template demonstrates more advanced workflows for adding variations in a pattern with Flood fill nodes, altering noises and using height data to extract masks.</p>
+        <p><i>Minimum version: 15.1.0</i></p>
+    </td>
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <a href="all-samples.resources/ds-sample-stone-ground.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
+    </td>
+</tr>
+
+## Sample: Stylized mosaic {#sample-stylized-mosaic}
+
+<tr style="border: 0">
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <img src="all-samples.resources/sample-stylized-mosaic-card.png" alt="Stylized mosaic" width="128" />
+    </td>
+    <td style="border: 0">
+        <h3>Stylized mosaic</h3>
+        <p>Template for a mosaic material.<br>This template introduces the Spline nodes and how to use spline data like UVs and height to distribute patterns on complex shapes.<br>It also uses plenty of tricks for extracting and using masks throughout a graph.</p>
+        <p><i>Minimum version: 15.1.0</i></p>
+    </td>
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <a href="all-samples.resources/ds-sample-stylized-mosaic.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
+    </td>
+</tr>
+
+## Sample: Wood {#sample-wood}
+
+<tr style="border: 0">
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <img src="all-samples.resources/sample-wood-card.png" alt="Wood" width="128" />
+    </td>
+    <td style="border: 0">
+        <h3>Wood</h3>
+        <p>Template for a simple wood section material.<br>This sample is packed with useful tricks and techniques, especially for building wood veins, and manages to create realistic wood while keeping the graph light.</p>
+        <p><i>Minimum version: 15.1.0</i></p>
+    </td>
+    <td style="border: 0; width: 90px; vertical-align: top; padding-top: 30px">
+        <a href="all-samples.resources/ds-sample-wood.zip"><img src="all-samples.resources/sbs-file-icon.png" alt="Download sample project" width="64" /></a>
+    </td>
+</tr>
