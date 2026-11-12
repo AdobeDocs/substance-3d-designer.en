@@ -57,7 +57,7 @@ In the context of Designer, which uses USD for its internal scene description, o
 That means two important things:
 
 1. The original material is never changed in any way.
-1. Any work done in Designer will be applied to the copy.
+2. Any work done in Designer will be applied to the copy.
 
 You can toggle any override on and off at any point through the same 'Override material' action, if you wish to restore the original scene’s material or perform a quick before-and-after check as you go
 

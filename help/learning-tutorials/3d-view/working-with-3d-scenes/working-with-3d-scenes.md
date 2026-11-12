@@ -21,7 +21,7 @@ Designer lets you load [3D scenes](../../essentials/glossary/glossary.md#three-d
 Working in context involves [overriding](overriding-scene-materials/overriding-scene-materials.md) one of the scene’s [materials](../../essentials/glossary/glossary.md#material) to replace it with a material authored in Designer.  
 You may start from scratch using any of the Substance graph templates available in Designer or [extract values and textures](extracting-materials/extracting-materials.md) from the 3D scene’s material as a starting point.
 
-When you are done with the 3D scene, you can [export it](g-scenes.md) to a new file to be ingested in another application.
+When you are done with the 3D scene, you can [export it](exporting-scenes/exporting-scenes.md) to a new file to be ingested in another application.
 
 When exporting to USD formats., this workflow can be entirely <b>non-destructive</b>, meaning that only edits and additions are exported.
 
@@ -49,9 +49,9 @@ The [Scene browser](../../../interface/3d-view/scene-browser/scene-browser.md) c
 There are several pathways to load a 3D scene in the 3D View:
 
 1. Double-click or drag a [3D scene resource](../../../resources/3d-scene-resource/3d-scene-resource.md) from a [package](../../essentials/glossary/glossary.md#package) into the 3D View
-1. Drag a 3D scene item from the [Library](../../../interface/the-library/the-library.md) into the 3D View (provided you have [added your own content to the Library](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md))
-1. Drag a 3D scene file from the system’s file browser into the 3D View
-1. Load a 3D scene state file (SBSSCN) along with its referenced mesh
+2. Drag a 3D scene item from the [Library](../../../interface/the-library/the-library.md) into the 3D View (provided you have [added your own content to the Library](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md))
+3. Drag a 3D scene file from the system’s file browser into the 3D View
+4. Load a 3D scene state file (SBSSCN) along with its referenced mesh
 
 Note that only methods 1 and 4 let you load the scene again exactly as it was when you last worked on it, as the state of the scene is written in the 3D scene resource and scene state file and saved in the package. Methods 2 and 3 load the scene as any other.
 
@@ -87,7 +87,7 @@ Loading a 3D scene file
 
 ![Loading a 3D scene - From a scene state file](working-with-3d-scenes.resources/load3DScene-sceneStateFile.gif "Loading a 3D scene - From a scene state file"){zoomable="yes"}
 
-Loading an scene state file
+Loading a scene state file
 
 </td>
 </tr>

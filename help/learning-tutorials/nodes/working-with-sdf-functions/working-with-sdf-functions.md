@@ -33,7 +33,7 @@ As a starting point, keep in mind the basic workflow looks like this:
             <p>Just like mathematical functions can be plotted in 2D as curves, they can be plotted in 3D as surfaces.</p><p>A signed distance field is a mathematical function that defines a surface in 3D space by calculating the distance from any point in space to the nearest point on the surface.</p><p>Let us break down the name 'signed distance field' to understand it better:<ul><li><b>Signed</b> means that the function returns a positive value if the point is outside/in front of the surface, a negative value if the point is inside/behind the surface, and zero if the point is exactly on the surface.</li><li><b>Distance</b> refers to the fact that the function calculates the distance from any point in space to the *nearest* point on the surface.</li><li><b>Field</b> means the function describes a field of values, as each point in space has a corresponding value that represents its distance to the nearest surface.</li></ul></p>
         </td>
         <td style="border: 0; width: 33%; vertical-align: top">
-            <img src="working-with-sdf-functions.resourcesorking-with-sdf-what-is-an-sdf.gif" alt="Visualization of the shape produced by an SDF function, with sweeping isolines." />
+            <img src="working-with-sdf-functions.resources/working-with-sdf-what-is-an-sdf.gif" alt="Visualization of the shape produced by an SDF function, with sweeping isolines." />
         </td>
     </tr>
 </table>
@@ -80,11 +80,11 @@ The node offers dedicated features for visualizing aspects of the SDF function t
 
 The [Physical sun/sky](../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md) node can be used to quickly set up environment lighting in the 3D viewer.
 
-<img style="margin-top: 32px; margin-bottom: 32px;" src="working-with-sdf-functions.resourcesorking-with-sdf-setup.gif" alt="Setting up 3D viewer node for SDF function visualization." />
+<img style="margin-top: 32px; margin-bottom: 32px;" src="working-with-sdf-functions.resources/working-with-sdf-setup.gif" alt="Setting up 3D viewer node for SDF function visualization." />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>All SDF function nodes as well as their input connectors have tooltips that will let you know more about their purpose and how to use them.</p><p>Make sure to check them out!</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="working-with-sdf-functions.resourcesorking-with-sdf-tooltips.png" alt="Tooltip for input connector on SDF function node." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>All SDF function nodes as well as their input connectors have tooltips that will let you know more about their purpose and how to use them.</p><p>Make sure to check them out!</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="Tooltip for input connector on SDF function node." /></td></tr></table>
 
 ### Setting node values
 
@@ -99,7 +99,7 @@ Most input connectors of SDF function nodes have a default value, which is discl
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>If you do not need to keep some values visible at all times, dock nodes using the <code>D</code> key to save space and declutter the graph.</p><p>You can also use comments to keep track of the values.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="working-with-sdf-functions.resourcesorking-with-sdf-docked-nodes.png" alt="Tooltip for input connector on SDF function node." /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>If you do not need to keep some values visible at all times, dock nodes using the <code>D</code> key to save space and declutter the graph.</p><p>You can also use comments to keep track of the values.</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="working-with-sdf-functions.resources/working-with-sdf-docked-nodes.png" alt="Tooltip for input connector on SDF function node." /></td></tr></table>
 
 
 ### The bounding frame
@@ -110,7 +110,7 @@ Most input connectors of SDF function nodes have a default value, which is discl
             <p>The bounding frame is a box in 3D space that defines the <i>bounds</i> in which the SDF function is evaluated and drawn in the <a href="../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">Shape splatter v2</a> node.</p><p>If the bounding frame is too small, parts of the shape may be trimmed. If it is too large, it may lead to unnecessary computations and longer processing times.</p><p>The <b>Bounding frame</b> parameter lets you enable the visualization of the bounding frame. You can then adjust the size of the bounding frame by changing the values of the <b>Bounding frame size</b> parameter.</p><p>Use the <b>Colorize out of frame</b> parameter to visualize the areas outside the bounding frame in bright red so you can adjust the frame accordingly.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="working-with-sdf-functions.resourcesorking-with-sdf-bounding-frame.jpg" alt="Bounding frame feature of 3D viewer node, for SDF functions." />
+            <img src="working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="Bounding frame feature of 3D viewer node, for SDF functions." />
         </td>
     </tr>
 </table>
@@ -123,7 +123,7 @@ Most input connectors of SDF function nodes have a default value, which is discl
             <p>Because transforming shapes involves actually *transforming the space* in which they are drawn, the result of nodes used after some transformations may be surprising.<br>In those cases, it is helpful to visualize the space itself, and that can be done by <i>visualizing the distance field</i> of the shape.</p><p>For that, the 3D viewer node uses <i>isolines</i>, which are repeating contour lines representing a given distance from the shape's surface. The <b>SDF isolines</b> parameter enables that visualization.<br>The isolines are drawn on a horizontal plane placed at the height specified by the <b>SDF isolines position</b> parameter.</p><p>Seeing how isolines are deformed by the transformations applied to the shape can help understand how the shape itself is transformed, and adjust the parameters of the nodes accordingly.</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="working-with-sdf-functions.resourcesorking-with-sdf-isolines.jpg" alt="Bounding frame feature of 3D viewer node, for SDF functions." />
+            <img src="working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="Bounding frame feature of 3D viewer node, for SDF functions." />
         </td>
     </tr>
 </table>
@@ -296,13 +296,13 @@ Material IDs can be leveraged by Shape splatter v2 companion nodes:
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="working-with-sdf-functions.resourcesorking-with-sdf-material-id-06.jpg" alt="SDF material IDs for color mapping in Shape splatter v2 mapper color node."/><i>Material IDs used for color mapping<br>in Shape splatter v2 mapper color</i>
+            <img src="working-with-sdf-functions.resources/working-with-sdf-material-id-06.jpg" alt="SDF material IDs for color mapping in Shape splatter v2 mapper color node."/><i>Material IDs used for color mapping<br>in Shape splatter v2 mapper color</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="working-with-sdf-functions.resourcesorking-with-sdf-material-id-04.jpg" alt="SDF material IDs for triplanar mapping in Shape splatter v2 mapper color node."/><i>Material IDs used for triplanar mapping<br>in Shape splatter v2 mapper color</i>
+            <img src="working-with-sdf-functions.resources/working-with-sdf-material-id-04.jpg" alt="SDF material IDs for triplanar mapping in Shape splatter v2 mapper color node."/><i>Material IDs used for triplanar mapping<br>in Shape splatter v2 mapper color</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="working-with-sdf-functions.resourcesorking-with-sdf-material-id-05.jpg" alt="SDF material IDs for masking in Shape splatter v2 to mask node."/><br><i>Material IDs used for masking<br>in Shape splatter v2 to mask</i>
+            <img src="working-with-sdf-functions.resources/working-with-sdf-material-id-05.jpg" alt="SDF material IDs for masking in Shape splatter v2 to mask node."/><br><i>Material IDs used for masking<br>in Shape splatter v2 to mask</i>
         </td>
     </tr>
 </table>
@@ -318,13 +318,13 @@ Note that distinctly from material IDs, values are *interpolated* across blended
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="working-with-sdf-functions.resourcesorking-with-sdf-color.jpg" alt="SDF color output of Shape splatter v2 node."/><i>SDF color output</i>
+            <img src="working-with-sdf-functions.resources/working-with-sdf-color.jpg" alt="SDF color output of Shape splatter v2 node."/><i>SDF color output</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="working-with-sdf-functions.resourcesorking-with-sdf-roughness.jpg" alt="SDF roughness of Shape splatter v2 node."/><br><i>SDF roughness output</i>
+            <img src="working-with-sdf-functions.resources/working-with-sdf-roughness.jpg" alt="SDF roughness of Shape splatter v2 node."/><br><i>SDF roughness output</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="working-with-sdf-functions.resourcesorking-with-sdf-metalness.jpg" alt="SDF metalness of Shape splatter v2 node."/><i>SDF metalness output</i>
+            <img src="working-with-sdf-functions.resources/working-with-sdf-metalness.jpg" alt="SDF metalness of Shape splatter v2 node."/><i>SDF metalness output</i>
         </td>
     </tr>
 </table>
@@ -337,7 +337,7 @@ Note that distinctly from material IDs, values are *interpolated* across blended
             <p>The <b>Rusty bolts</b> <a href="../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">material sample</a> is available to jump into SDF functions applied in the context of the Shape splatter v2 node.</p><p>The graph is organized and annotated to guide you through its structure, node settings and SDF function setups.</p><p>It is also <i>fully editable</i> so it can be used as a sandbox to get a more hands-on understanding of the Shape splatter v2 and SDF functions toolsets. You may create as many sample graphs as you like, so feel free to play around!</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="working-with-sdf-functions.resourcesorking-with-sdf-functions-material-sample.png" alt="Bounding frame feature of 3D viewer node, for SDF functions." />
+            <img src="working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="Bounding frame feature of 3D viewer node, for SDF functions." />
         </td>
     </tr>
 </table>

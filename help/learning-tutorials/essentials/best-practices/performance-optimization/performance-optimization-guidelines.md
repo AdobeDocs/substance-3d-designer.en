@@ -23,7 +23,7 @@ Generally speaking, nodes exposing custom parameters - that can be modified at r
 
 This is because the output of each node is cached wherever possible. Therefore, the further up the graph your tweakable node is, the more outputs will need to be processed whenever one of those exposed parameters is modified. If your exposed node is close to the end of the graph, only the few nodes between it and the output nodes will need to be recomputed.
 
-For example, if tweaking a uniform color at the beginning of your graph, all the following nodes will be recomputed. If you tweak a HSL node placed right before the output, only this node will be recomputed, greatly improving the performance of the graph.
+For example, if tweaking a uniform color at the beginning of your graph, all the following nodes will be recomputed. If you tweak an HSL node placed right before the output, only this node will be recomputed, greatly improving the performance of the graph.
 
 Please make a good note of the following guidelines:
 
@@ -99,7 +99,7 @@ These include [White Noise Fast](../../../../compositing-graphs/nodes-reference-
 +++
 
 +++Watch out with heavy image sampling functions in some cases
-Functions are executed on CPU engine, except in [Pixel Processors](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). If you are doing a lot of heavy image sampling (changing $pos coordinates) in [Value Processors](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) or [FXmaps](../../../../function-graphs/fxmaps/fxmaps.md), there would be a lot of swapping between VRAM and CPU RAM, causing performance delays.
+Functions are executed on CPU engine, except in [Pixel Processors](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md). If you are doing a lot of heavy image sampling (changing $pos coordinates) in [Value Processors](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) or [FX-Maps](../../../../function-graphs/fxmaps/fxmaps.md), there would be a lot of swapping between VRAM and CPU RAM, causing performance delays.
 
 +++
 
@@ -128,14 +128,14 @@ Switch to color mode at the end of the graph.
 ### SIZE OPTIMIZATIONS FOR EMBEDDED BITMAPS
 
 [Bitmaps](../../../../resources/bitmap-resource/bitmap-resource.md) have their [Output Size](../../../../compositing-graphs/output-size/output-size.md) set to ['Absolute'](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) by default. This means that if the bitmap is connected through the node chain to an output, it will then force the final output to be the size of the embedded bitmap.  
-A node you insert after the bitmap will have its Output Size set to ['Relative to Input'](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). This means that the node will also inherent the size of the bitmap and carry this size down the node chain to the outputs. To correct this, you need to set the node after the bitmap to have its Output Size set to ['Relative to Parent'](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
+A node you insert after the bitmap will have its Output Size set to ['Relative to Input'](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md). This means that the node will also inherent the size of the bitmap and carry this size down the node chain to the outputs. To correct this, you need to set the node after the bitmap to have its Output Size set to [Relative to Parent](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md).
 
 If the graph is set to have a dynamic resolution, you can change the Output Size on the embedded bitmap to be Relative To Parent.  
-This way, the bitmap size will change based on the parent graph and you won't get into a situation where the graph is processing higher resolution in the bitmap than what is needed.
+This way the bitmap size will change based on the parent graph, and you won't get into a situation where the graph is processing higher resolution in the bitmap than what is needed.
 
 >[!WARNING]
 >
-> Setting a [Bitmap](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node to "Relative to parent" and [publishing](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) the graph to a Substance 3D asset (SBSAR) will save the bitmap at a resolution of **256x256** instead of its original size. It is advised instead to keep the [inheritance method](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) of Bitmap nodes' [Output Size](../../../../compositing-graphs/output-size/output-size.md) as 'Absolute' and use a [Transformation 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node set to 'Relative to parent' just after the Bitmap node.
+> Setting a [Bitmap](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node to "Relative to parent" and [publishing](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) the graph to a Substance 3D asset (SBSAR) will save the bitmap at a resolution of **256x256** instead of its original size. It is advised instead to keep the [inheritance method](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) of Bitmap nodes' [Output Size](../../../../compositing-graphs/output-size/output-size.md) as 'Absolute' and use a [Transformation 2D](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) node set to 'Relative to parent' just after the Bitmap node...
 
 ![Embedded bitmaps optimisation 1](performance-optimization-guidelines.resources/input-1.jpg "Embedded bitmaps optimisation 1")
 

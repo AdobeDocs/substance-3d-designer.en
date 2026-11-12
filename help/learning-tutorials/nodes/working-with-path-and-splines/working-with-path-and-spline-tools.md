@@ -75,7 +75,7 @@ Path and spline tools require intensive computations, so much so that you should
 
 1. The toolset makes extensive use of <b>Substance Engine</b> features that run much faster on the GPU. Therefore, please use the GPU version of the engine for your system: <b>Direct3D</b> (Windows) or <b>OpenGL</b> (macOS).  
    You can switch engine by pressing the <b>F9</b> key, or by going to <b>Tools &gt; Switch engine...</b> in the main menu bar.
-1. Then, we strongly recommend turning off <b>In-context editing</b> in the <b>Graph</b> section of the [Preferences](../../../interface/preferences-window/preferences-window.md) (Go to <b>Edit &gt; Preferences...</b> in the main menu bar to access this window).  
+2. Then, we strongly recommend turning off <b>In-context editing</b> in the <b>Graph</b> section of the [Preferences](../../../interface/preferences-window/preferences-window.md) (Go to <b>Edit &gt; Preferences...</b> in the main menu bar to access this window).  
    In-context editing lets you open instance nodes in the context of the host graph, which is admittedly very convenient but has the side effect of exponentially increasing the computations required by the toolset's image cache.
 
 You should notice a significant performance improvement when changing any of these two settings to the recommended state.

@@ -18,7 +18,7 @@ This page lists the important concepts to understand for working with Substance 
 
 ## Sub-graphs/Publishing
 
-[Publishing a graph](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) or creating a sub-graph are two very similar, abstract concepts. It means that any graph or network of nodes can be "packaged" together and turned into a re-useable, standalone resource. Creating [sub-graphs](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) is mostly done inside the application to make certain content re-useable in an efficient, smart workflow, as this avoids duplicating a set of nodes over and over. Publishing involves an additional step to export to Substance 3D asset (SBSAR) format, making your node network graph useable outside of the application, such as when you create a material for Unreal Engine.
+[Publishing a graph](../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) or creating a sub-graph are two very similar, abstract concepts. It means that any graph or network of nodes can be "packaged" together and turned into a reusable, standalone resource. Creating [sub-graphs](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) is mostly done inside the application to make certain content reusable in an efficient, smart workflow, as this avoids duplicating a set of nodes over and over. Publishing involves an additional step to export to Substance 3D asset (SBSAR) format, making your node network graph usable outside of the application, such as when you create a material for Unreal Engine.
 
 Inputs, Outputs and Exposed Parameters are extremely important for this concept, as they are the only ways to still interact with the graph once it is used as a sub-graph or as a published Substance 3D asset. The reasons are the following:
 
@@ -35,7 +35,7 @@ Here are a few things you should know about Outputs:
 * You can have as many outputs as you want, but you must have <b>at least one output</b>.
 * An output can be <b>any resolution</b> up to 8192px wide or tall, it can be<b> color or grayscale</b> and can be exported to any filetype supported.
 * Outputs can and should be <b>named uniquely</b> to identify them, it helps when exporting.
-* Every connector on the right side of any Node is actually an Output (see "Sub-graphs for more info)
+* Every connector on the right side of any Node is actually an Output. (See 'Sub-graphs' above for more information)
 
 An [Input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) is similar to an Output, it's an empty, open slot for you or another user to connect your own data to. It allows for the creation of graph that in external, user-defined image data, such as a Filter that modifies an input image (a Blur, or a Contrast adjustment for example).
 
@@ -43,14 +43,14 @@ Here are a few things you should know about Inputs:
 
 * Inputs are completely <b>optional</b>, you should only add them if needed. There is no minimum or maximum amount.
 * Inputs have a set resolution (linked to the graph generally) that you define, as well as if they are grayscale or color. Anything connected to it will be converted to match this.
-* Inputs can be bitmap files from your harddrive, other graphs, Layers from Painter or Alchemist, etc..
-* Every connector on the left side of any Node is an Input (see "Sub-graphs for more info)
+* Inputs can be bitmap files from your hard drive, other graphs, Layers from Painter or Alchemist, etc.
+* Every connector on the left side of any Node is an Input. (See 'Sub-graphs' above for more information)
 
 ## Inheritance
 
-As images and values are passed from nodes to others, some *attributes* of these images – i.e. their <b>Base Parameters</b> – are *propagated* across the graph as well, such as resolution, precision (i.e., bitdepth), tiling and random seed.
+As images and values are passed from nodes to others, some *attributes* of these images – i.e. their <b>Base Parameters</b> – are *propagated* across the graph as well, such as resolution, precision (i.e., bit depth), tiling and random seed.
 
-This propagation is defined by the [inheritance methods](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) each nodes apply for these attributes. Indeed, nodes can *inherit attributes* from other nodes or the graph they exist in.  
+This propagation is defined by the [inheritance methods](../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) each node applies for these attributes. Indeed, nodes can *inherit attributes* from other nodes or the graph they exist in.  
 The inheritance methods can be:
 
 * *Relative to parent*

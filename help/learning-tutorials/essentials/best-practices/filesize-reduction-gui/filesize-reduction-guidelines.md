@@ -16,7 +16,7 @@ user-guide-title: ""
 
 In some cases the total filesize of [Substance 3D assets (SBSAR)](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) can be an important factor. This page covers a few critical areas and settings to keep in mind when trying to reduce filesize.
 
-Filesize is mostly determined by [embedded bitmaps.](../../../../resources/bitmap-resource/bitmap-resource.md) They are files that are linked, embedded or baked and added to the  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) file (SBS) as a resource. Only bitmaps that are used in a graph i.e. connected to an output either directly or through the node chain are published in the Substance 3D asset. In an Substance 3D file, bitmaps have no impact on filesize, as all bitmap resources are still stored outside of the file.
+Filesize is mostly determined by [embedded bitmaps.](../../../../resources/bitmap-resource/bitmap-resource.md) They are files that are linked, embedded or baked and added to the  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) file (SBS) as a resource. Only bitmaps that are used in a graph i.e. connected to an output either directly or through the node chain are published in the Substance 3D asset. In a Substance 3D file, bitmaps have no impact on filesize, as all bitmap resources are still stored outside of the file.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Filesize is mostly determined by [embedded bitmaps.](../../../../resources/bitma
 
 ## Filesize Factors
 
-There are a few different factors affecting total filesize of the SBSAR. They are listed below with an short explanation.
+There are a few different factors affecting total filesize of the SBSAR. They are listed below with a short explanation.
 
 +++Resolution
 Obviously has a large effect. Use the smallest resolution possible, keeping mind that you might also want your Substance file to work in large resolutions. You can use standard resolution-masking tricks to make smaller Bitmaps seem larger.
@@ -83,10 +83,10 @@ The Graph just places a single Bitmap Node connected to a single output. Bitmap 
 
 While the table on the right is not fully conclusive, the following can be learned when comparing visual results and file sizes:
 
-* Raw Bitmap + Compression Best gives the best quality with an acceptable filesize.
-* Pre-compressed source files can give reduced filesizes in most cases, but at a quality cost.
-* Smallest filesizes, but worst quality is obtained with JPG package format at quality 0.5.
-* Grayscale is not always smaller in filesize, but will have higher quality than color at similar settings.
+* Raw Bitmap + Compression Best gives the best quality with an acceptable file size.
+* Pre-compressed source files can give reduced file sizes in most cases, but at a quality cost.
+* Smallest file sizes, but worst quality is obtained with JPG package format at quality 0.5.
+* Grayscale is not always smaller in file size, but will have higher quality than color at similar settings.
 
 >[!NOTE]
 >
@@ -94,10 +94,10 @@ While the table on the right is not fully conclusive, the following can be learn
 > 
 > It's important to note that special maps that require high accuracy such as Normal maps, Vector Maps and others should probably not be set to Jpeg compression, as this will lead to much more visible artifacts!
 
-| Source image | Color TGA | Color JPG | Grayscale TGA | Grayscale JPG |
-| --- | --- | --- | --- | --- |
-| <b>Raw Bitmap Format</b> Compression mode: *None* | 48 MB | 48 MB | 16 MB | 16 MB |
-| <b>Raw Bitmap Format</b> Compression mode: *Best* | 9.11 MB | 3.37 MB | 5.06 MB | 4.75 MB |
-| <b>Jpeg Bitmap Format</b> Compression quality: *1* | 5.09 MB | 1.94 MB | 6.30 MB | 2.49 MB |
-| <b>Jpeg Bitmap Format</b> Compression quality: *0.5* | 231 KB | 230 KB | 626 KB | 569 KB |
-| <b>Jpeg Bitmap Format</b> Compression quality: *0* | 407 KB | 433 KB | 990 KB | 808 KB |
+| Source image                                         | Color TGA | Color JPG | Grayscale TGA | Grayscale JPG |
+|------------------------------------------------------|-----------|-----------|---------------|---------------|
+| <b>Raw Bitmap Format</b> Compression mode: *None*    | 48 MB     | 48 MB     | 16 MB         | 16 MB         |
+| <b>Raw Bitmap Format</b> Compression mode: *Best*    | 9.11 MB   | 3.37 MB   | 5.06 MB       | 4.75 MB       |
+| <b>Jpeg Bitmap Format</b> Compression quality: *1*   | 5.09 MB   | 1.94 MB   | 6.30 MB       | 2.49 MB       |
+| <b>Jpeg Bitmap Format</b> Compression quality: *0.5* | 231 KB    | 230 KB    | 626 KB        | 569 KB        |
+| <b>Jpeg Bitmap Format</b> Compression quality: *0*   | 407 KB    | 433 KB    | 990 KB        | 808 KB        |

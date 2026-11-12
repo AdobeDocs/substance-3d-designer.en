@@ -67,7 +67,7 @@ This means edits to the original scene carry over to the exported scene.
 The exported files follow this structure:
 
 * <b>Main file</b>
-  * <b>.layers</b>: References the sublayers below and declares the material overrides, which bind of geometry to the material copies created by Designer.
+  * <b>.layers</b>: References the sub-layers below and declares the material overrides, which bind of geometry to the material copies created by Designer.
     * <b>.assembly</b>: References the .scene# file and declares the geometry overrides, which bring the data recomputed by Designer of the geometry impacted by overridden materials.
       * <b>.scene&#35;</b>: References the original scene.
     * <b>.camera</b>: Declares the camera added by Designer to the scene.
