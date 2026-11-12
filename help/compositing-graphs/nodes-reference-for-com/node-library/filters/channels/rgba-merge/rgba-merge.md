@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-merge.png){width="128px"}
+![](rgba-merge.resources/rgba-merge.png){width="128px"}
 
-## RGBA Merge
-
-**In:** *Filters/Channels*
-
-**Simple**
+<b>In:</b> Filters &gt; Channels
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,23 +31,17 @@ Packs a separate grayscale input into each of the four channels. Not to be confu
 
 Very useful node for channel-packing maps together. Can for example be used for packing Smoothness, Metallic and AO into respective R, G and B channels.
 
-## Parameters
-
-### Inputs
-
-* **R**: *Grayscale Input*
-* **G**: *Grayscale Input*
-* **B**: *Grayscale Input*
-* **A**: *Grayscale Input*
-
-*No Parameters.*
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>R</b> <i>Grayscale Input</i> |  |
+| <b>G</b> <i>Grayscale Input</i> |  |
+| <b>B</b> <i>Grayscale Input</i> |  |
+| <b>A</b> <i>Grayscale Input</i> |  |

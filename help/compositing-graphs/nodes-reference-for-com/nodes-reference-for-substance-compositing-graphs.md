@@ -29,11 +29,11 @@ What we call "node" inside SD, can be divided into 2 mains groups:
 
 [Node library](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [Texture generators](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
-* [Filters](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
-* [Material filters](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [Mesh-based generators](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
-* [Spline &amp; Paths tools](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
+* [Texture generators](node-library/texture-generators/texture-generators.md)
+* [Filters](node-library/filters/filters.md)
+* [Material filters](node-library/material-filters/material-filters.md)
+* [Mesh-based generators](node-library/mesh-based-generators/mesh-based-generators.md)
+* [Spline &amp; Paths tools](node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>
 <td style="border: 0;" valign="top">

@@ -35,7 +35,7 @@ Color Management settings can be configured in [Projects](../interface/preferenc
 
 |  |  |
 | --- | --- |
-| <b>Color management</b> | This setting lets you select the [Legacy](../color-management/color-management.md), [OpenColorIO](#opencolorio) or [Adobe ACE](#adobe-ace) modes for Color Management in Substance 3D Designer. *Default: Legacy* |
+| <b>Color management</b> | This setting lets you select the [Legacy](../color-management/color-management.md), [OpenColorIO](#opencolorio) or [Adobe ACE](#adobe-ace) modes for Color Management in Substance 3D Designer. *Default: Legacy* |
 
 ## OpenColorIO
 
@@ -61,15 +61,15 @@ You can find these configuration files in the <b>resources &gt; ocio</b> folder 
 | --- | --- |
 | <b>8-bit images</b> | Sets the default color space for 8-bit bitmaps. *Default: Set by OpenColorIO configuration file* |
 | <b>16-bit images</b> | Sets the default color space for 16-bit bitmaps. *Default: Set by OpenColorIO configuration file* |
-| <b>Floating point images</b> | Sets the default color space for floating point precision bitmaps, such as *HDR* images in the *\*.exr* or *\*.hdr* formats. *Default: Set by OpenColorIO configuration file* |
-| <b>Use file name to detect color space</b> | Lets Designer assign a color space automatically if the *suffix* of a bitmap filename *matches exactly*the the lowercase name of a color space included in the current OpenColorIO *configuration*. Example: a bitmap resource *mybitmap\_aces\_acescg.png* would be automatically set to the *ACES - ACEScg* color space, and the appropriate transform will be applied to the working color space. *Default: Checked* |
+| <b>Floating point images</b> | Sets the default color space for floating point precision bitmaps, such as *HDR* images in the *\*.exr* or *\*.hdr* formats. *Default: Set by OpenColorIO configuration file* |
+| <b>Use file name to detect color space</b> | Lets Designer assign a color space automatically if the *suffix* of a bitmap filename *matches exactly*the the lowercase name of a color space included in the current OpenColorIO *configuration*. Example: a bitmap resource *mybitmap\_aces\_acescg.png* would be automatically set to the *ACES - ACEScg* color space, and the appropriate transform will be applied to the working color space. *Default: Checked* |
 
 ### 2D and 3D View Display Default
 
 |  |  |
 | --- | --- |
-| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../interface/2d-view/2d-view.md) and [3D view](../interface/3d-view/3d-view.md) viewports. *Default: Set by OpenColor IO configuration file* |
-| <b>Color manage thumbnails</b> | Lets Designer automatically transform the node *thumbnails* to the *working* color space in the graph. *Default: Checked* |
+| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../interface/2d-view/2d-view.md) and [3D view](../interface/3d-view/3d-view.md) viewports. *Default: Set by OpenColor IO configuration file* |
+| <b>Color manage thumbnails</b> | Lets Designer automatically transform the node *thumbnails* to the *working* color space in the graph. *Default: Checked* |
 
 ## Adobe ACE
 
@@ -82,29 +82,29 @@ You can add *your own* ICC Profiles by placing these files in the `Adobe/Adobe S
 
 |  |  |
 | --- | --- |
-| <b>Working space</b> | This setting lets you select the working color space to *perform color operations* throughout Substance 3D Designer. *Default: sRGB IEC61966-2.1* |
-| <b>Rendering intent</b> | This option lets you control how colors should be transformed when they are *outside the gamut* of the *working*colour space. *Default: Relative Colorimetric* |
+| <b>Working space</b> | This setting lets you select the working color space to *perform color operations* throughout Substance 3D Designer. *Default: sRGB IEC61966-2.1* |
+| <b>Rendering intent</b> | This option lets you control how colors should be transformed when they are *outside the gamut* of the *working*colour space. *Default: Relative Colorimetric* |
 
 ### Bitmap Color Space Defaults
 
 |  |  |
 | --- | --- |
-| <b>8-bit images</b> | Sets the default ICC profile to use for 8-bit bitmaps. *Default: *sRGB IEC61966-2.1** |
-| <b>16-bit images</b> | Sets the default ICC profile to use 16-bit bitmaps. **Default: *sRGB IEC61966-2.1*** |
-| <b>Floating point images</b> | Sets the default ICC profile to use for floating point precision bitmaps, such as *HDR* images in the *\*.exr* or *\*.hdr* formats. *Default: Raw (i.e. no profile applied)* |
+| <b>8-bit images</b> | Sets the default ICC profile to use for 8-bit bitmaps. *Default: *sRGB IEC61966-2.1** |
+| <b>16-bit images</b> | Sets the default ICC profile to use 16-bit bitmaps. **Default: *sRGB IEC61966-2.1*** |
+| <b>Floating point images</b> | Sets the default ICC profile to use for floating point precision bitmaps, such as *HDR* images in the *\*.exr* or *\*.hdr* formats. *Default: Raw (i.e. no profile applied)* |
 | <b>Use embedded ICC profiles when available</b> | Lets Designer use the ICC profile embedded in a bitmap instead of the defaults listed above. *Default: Checked* |
 
 ### 2D and 3D View Display Default Space
 
 |  |  |
 | --- | --- |
-| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../interface/2d-view/2d-view.md) and [3D view](../interface/3d-view/3d-view.md) viewports. *Default: ***ICC Profile for the main screen, retrieved from the OS**** |
+| <b>2D and 3D view display default</b> | Sets the default *display* color space for the [2D view](../interface/2d-view/2d-view.md) and [3D view](../interface/3d-view/3d-view.md) viewports. *Default: ***ICC Profile for the main screen, retrieved from the OS**** |
 
 ### Graph Display
 
 |  |  |
 | --- | --- |
-| <b>Color manage thumbnails</b> | When *checked*, Designer will transform the *node thumbnails* to the current *working color space*. *Default: ***Unchecked**** |
+| <b>Color manage thumbnails</b> | When *checked*, Designer will transform the *node thumbnails* to the current *working color space*. *Default: ***Unchecked**** |
 
 ## Legacy mode
 
@@ -146,18 +146,18 @@ You can change the color space of a bitmap at any time, the option is located in
 > 
 > In particular, the **file name** can be used to set the appropriate color space *automatically*. Please note the color space name in the file name must *match the name* in the OpenColorIO configuration file (e.g. *myImage\_utility - linear -srgb.png* will be set to the *Utility - Linear - sRGB* color space).
 
-![Bitmap color space setting](../assets/2019-3-0-bitmap-clr-space.png "Bitmap color space setting")
+![Bitmap color space setting](color-management.resources/2019-3-0-bitmap-clr-space.png "Bitmap color space setting")
 
 ## Exporting outputs
 
 When using the <b>Export Outputs</b> dialog, it is possible to assign a <b>color space</b> (OCIO) or attach an <b>ICC profile</b> (Adobe ACE) for *each* output.  
 Designer will *convert* images to the specified color spaces before saving the image files.
 
-![Export outputs dialog](../assets/2019-3-0-clr-mgt-export-outputs.png "Export outputs dialog"){width="512px"}
+![Export outputs dialog](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "Export outputs dialog"){width="512px"}
 
-You can also assign a color space (OCIO) or attach an ICC profile (Adobe ACE) to images *saved* from the [2D View](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html).
+You can also assign a color space (OCIO) or attach an ICC profile (Adobe ACE) to images *saved* from the [2D View](../interface/2d-view/2d-view.md).
 
-![2D View export options](../assets/2019-3-0-clr-mgt-save-image.png "2D View export options")
+![2D View export options](color-management.resources/2019-3-0-clr-mgt-save-image.png "2D View export options")
 
 ## 2D &amp; 3D views
 
@@ -165,7 +165,7 @@ You can also assign a color space (OCIO) or attach an ICC profile (Adobe ACE) to
 
 You can *toggle* Color Management on/off and change the *display transform* for the view at any time using the drop down menu in the display toolbar.
 
-![Color space setting in 2D View](../assets/2019-3-0-clr-mgt-display-toolbar.png "Color space setting in 2D View"){width="512px"}
+![Color space setting in 2D View](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "Color space setting in 2D View"){width="512px"}
 
 ### Library HDRI environments
 
@@ -174,7 +174,7 @@ When using an OpenColorIO configuration where the scene linear color space is *n
 
 In that case, the color space for library HDRI environments should be set *manually* in the environment properties, available in the 3D View panel <b>Environment</b> menu.
 
-![Color space setting of 3D View environment](../assets/2019-3-0-clr-mgt-hdri-env.png "Color space setting of 3D View environment"){width="512px"}
+![Color space setting of 3D View environment](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "Color space setting of 3D View environment"){width="512px"}
 
 ## Color conversion nodes
 
@@ -203,9 +203,9 @@ The [Library](../interface/the-library/the-library.md) includes the following no
 </tr>
 </table>
 
-These are useful when working with graphs created *without* Color Management or materials from the [Substance 3D assets](https://helpx.adobe.com/substance-3d/unlisted/assets.html) library.
+These are useful when working with graphs created *without* Color Management or materials from the [Substance 3D assets](https://substance3d.adobe.com/assets) library.
 
-![Color conversion nodes in Library](../assets/2019-3-0-clr-mgt-nodes.png "Color conversion nodes in Library"){width="512px"}
+![Color conversion nodes in Library](color-management.resources/2019-3-0-clr-mgt-nodes.png "Color conversion nodes in Library"){width="512px"}
 
 ## Known limitations
 

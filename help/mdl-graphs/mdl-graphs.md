@@ -16,7 +16,7 @@ user-guide-title: ""
 
 This page presents MDL graphs in Substance 3D Designer, which let you author MDL materials and preview their behavior in real time.
 
-![Malachite MDL material](../assets/mdl-malachite-example.jpg "Malachite MDL material")
+![Malachite MDL material](mdl-graphs.resources/mdl-malachite-example.jpg "Malachite MDL material")
 
 *Malachite with Chrysocolla, MDL material by [Mark Foreman](https://www.artstation.com/oggyart)* *available on our [Legacy Substance Share](https://share-legacy.substance3d.com/libraries/4043)* *platform*
 
@@ -47,18 +47,18 @@ Using this language, a full material definition is portable and thus can be used
 
 While authoring materials, you can use NVIDIA's own [Iray](../interface/3d-view/iray/iray.md) renderer, embedded in Designer and available in the [3D view](../interface/3d-view/3d-view.md) panel, to preview the behavior of the material *interactively*.
 
-MDL graphs are complementary with [Substance graphs](../compositing-graphs/substance-compositing-graphs.md) in that the latter output *textures* which can be *sampled* by the MDL material to affect its behavior and appearance.
+MDL graphs are complementary with [Substance graphs](../compositing-graphs/substance-compositing-graphs.md) in that the latter output *textures* which can be *sampled* by the MDL material to affect its behavior and appearance.
 
 We suggest going through the sections of this documentation *in order* for a guided learning path, starting with the properties of an MDL graph resource, just below.  
-Eager to jump in? Get started with MDL graphs in the [MDL learning resources](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html) section!
+Eager to jump in? Get started with MDL graphs in the MDL learning resources section!
 
 >[!NOTE]
 >
 > You can learn more about the technical implementation of the Material Definition Language in the [NVIDIA MDL Documentation](https://raytracing-docs.nvidia.com/mdl/index.html), which includes links to the MDL Specification and [MDL Handbook](http://mdlhandbook.com/), all authored and maintained by NVIDIA.
 
-![MDL graph properties](../assets/mdl-main.png "MDL graph properties")
+![MDL graph properties](mdl-graphs.resources/mdl-main.png "MDL graph properties")
 
-*MDL graph properties in the [Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) panel*
+*MDL graph properties in the Properties panel*
 
 ## MDL graph properties
 
@@ -83,7 +83,7 @@ Note: Properties marked with an asterisk (\*) are MDL annotations to be used by 
 
 ### Graph inputs
 
-This section lists the interactive parameters connected to [exposed parameters](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) of the MDL graph and define their *default values*. They may be *tweaked* and *reordered* at any time.
+This section lists the interactive parameters connected to exposed parameters of the MDL graph and define their *default values*. They may be *tweaked* and *reordered* at any time.
 
 The interface and behavior of these inputs is defined by the *value type* and *ranges* of the exposed parameters they are connected to. For instance:
 

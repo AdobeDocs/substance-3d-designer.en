@@ -16,34 +16,39 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/radial-blur.png)![](../../../../../../assets/radial-blur-grayscale.png)
+![](radial-blur.resources/radial-blur.png)![](radial-blur.resources/radial-blur-grayscale.png)
 
-## Radial Blur (Grayscale)
-
-**In:** *Filters/Blurs*
-
-**Simple**
+<b>In:</b> Filters &gt; Blurs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Generates a spinning, motion-type blur on an input.
 
-## Parameters
-
-* **Samples**: *1 - 128*Set the quality of the blur effect.
-* **Angle**: *0.0 - 0.5*Set the amount of "spin" of the effect.
-* **Center Position**:   
-  Set the centerpoint of the effect.
-
-## Example Images
-
-![](../../../../../../assets/radial-blur-ex01.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Samples</b> <i>1 - 128</i> | Set the quality of the blur effect. |
+| <b>Angle</b> <i>0.0 - 0.5</i> | Set the amount of "spin" of the effect. |
+| <b>Center Position</b> | Set the centerpoint of the effect. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="radial-blur.resources/radial-blur-ex01.png" />
+        </td>
+    </tr>
 </table>

@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hbao.png){width="128px"}
+![](ambient-occlusion-hbao-filter-node.resources/hbao.png){width="128px"}
 
-## Ambient Occlusion (HBAO)
-
-**In:** *Filters/Effects*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,23 +31,33 @@ Takes a Heightmap as input and generates an Ambient Occlusion map from that. It 
 
 For an alternative, more advanced but slower version of AO, see [Ambient Occlusion (RTAO)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
 
-## Parameters
-
-* **Use World Units**: *False/True*Toggles use of world or sceen-space units. Enables extra parameters that allow for more precise control.
-* **Height Depth**: *0.0 - 1.0*Only used when World Units is set to False. Controls global scaling.
-* **Surface Size**: **0.0 - 1000.0**Only used when World Units is set to True. Controls global scaling.
-* **Height Scale (cm)**: *0.0 - 1000.0*Only used when World Units is set to True. Controls global scaling.
-* **Radius**: *0.0 - 1.0*Controls the spread of the AO.
-* **Quality**: *4 samples, 8 samples, 16 samples*  
-  Sets Quality level by determining amount of samples used for calculation.
-* **GPU Optimization**: *False/True*Enables internal GPU optimisation, speeds up processing.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/image2021-6-18-11-11-11-1.png" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/image2021-6-18-11-11-22.png" width="300px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Use World Units</b> <i>False/True</i> | Toggles use of world or sceen-space units. Enables extra parameters that allow for more precise control. |
+| <b>Height Depth</b> <i>0.0 - 1.0</i> | Only used when World Units is set to False. Controls global scaling. |
+| <b>Surface Size</b> <i>0.0 - 1000.0</i> | Only used when World Units is set to True. Controls global scaling. |
+| <b>Height Scale (cm)</b> <i>0.0 - 1000.0</i> | Only used when World Units is set to True. Controls global scaling. |
+| <b>Radius</b> <i>0.0 - 1.0</i> | Controls the spread of the AO. |
+| <b>Quality</b> <i>4 samples, 8 samples, 16 samples</i> | Sets Quality level by determining amount of samples used for calculation. |
+| <b>GPU Optimization</b> <i>False/True</i> | Enables internal GPU optimisation, speeds up processing. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-11-1.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-22.png" />
+        </td>
+    </tr>
 </table>

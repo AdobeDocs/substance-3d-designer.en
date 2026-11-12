@@ -16,33 +16,31 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/min-max.png){width="200px"}
+![](min-max.resources/min-max.png){width="200px"}
 
-## Min Max
-
-**In:** *Filters/Adjustments*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-Min Max finds the brightest and darkest values of a Grayscale input and returns them as [Values](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html). It's intended as a more granular, manual alternative for [Auto Levels](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), where you expose the Value Inputs of a [Levels ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)node and plug the values from Min Max into it.
+Min Max finds the brightest and darkest values of a Grayscale input and returns them as [values](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md). It's intended as a more granular, manual alternative for [Auto Levels](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), where you expose the Value Inputs of a [Levels ](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)node and plug the values from Min Max into it.
 
-To use this node with a Levels, you should at least know how to use the [Expose Parameter dropdown](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), as well as the [Value Input Tab](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html).
-
-## Parameters
-
-*No Parameters.*
-
-## Example Images
-
-![](../../../../../../assets/minmax.png)
+To use this node with a Levels, you should at least know how to use the [Expose Parameter dropdown](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), as well as the [Value input tab](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
 </td>
 </tr>
+</table>
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="min-max.resources/minmax.png" />
+        </td>
+    </tr>
 </table>

@@ -14,9 +14,9 @@ user-guide-title: ""
 
 # Exporting Bitmaps
 
-This page explains how Substance 3D Designer can export to many different Bitmap file formats, and how to export multiple UV-Tiles in batches.[If you want to export to PSD files,](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [there is a separate dedicated page for this.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+This page explains how Substance 3D Designer can export to many different Bitmap file formats, and how to export multiple UV-Tiles in batches.If you want to [export to PSD files](../exporting-psd-files/exporting-psd-files.md), there is a separate dedicated page for this.
 
-![Exporting simplified](../../assets/exportflow.png "Exporting simplified")
+![Exporting simplified](exporting-bitmaps.resources/exportflow.png "Exporting simplified")
 
 ## Exporting concepts
 
@@ -25,7 +25,7 @@ It's good to keep the following in mind when exporting a bitmap:
 * You<b> export from a Graph</b>, not a Package. A package does not generate image content by itself.
 * The number (and resolution) of bitmaps exported is determined by the <b>Outputs</b> of a Graph.
 * Filetype is set for all Outputs/bitmaps.
-* Exporting is different from [Publishing](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html), make sure you understand well the difference!
+* Exporting is different from [publishing](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md), make sure you understand well the difference!
 
 ## Export methods
 
@@ -35,16 +35,16 @@ Once you are ready to export, there are two ways to access the Export Dialog:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-In the [Explorer window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html), Right-clicking on the Graph to export and choosing **"Export Outputs as bitmaps"**
+In the [Explorer](../../interface/the-explorer-window/the-explorer-window.md) window, Right-clicking on the Graph to export and choosing **"Export Outputs as bitmaps"**
 
-![](../../assets/export-explorer.gif)
+![](exporting-bitmaps.resources/export-explorer.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-In the [Graph View](../../interface/the-graph-view/the-graph-view.md), by clicking the Tools button ![](../../assets/image2019-9-17-14-44-17.png) and choosing **"Export Outputs..."**
+In the [Graph View](../../interface/the-graph-view/the-graph-view.md), by clicking the Tools button ![](exporting-bitmaps.resources/image2019-9-17-14-44-17.png) and choosing **"Export Outputs..."**
 
-![](../../assets/export-graph.gif)
+![](exporting-bitmaps.resources/export-graph.gif)
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ The version shown to the right is the standard dialog, changing resolution happe
 1. <b>Automatic Export:</b> Toggle button to enable automatic re-exporting of Graph outputs as soon as a change is made. Only for current graph. Can be heavy and slow depending on settings.
 1. <b>Export Button:</b> Exports with current settings, or closes dialog.
 
-![Export outputs dialog](../../assets/fromgraph-1.png "Export outputs dialog")
+![Export outputs dialog](exporting-bitmaps.resources/fromgraph-1.png "Export outputs dialog")
 
 ## Export dialog (Batch/UV tiles)
 
@@ -84,4 +84,4 @@ Start the dialog with the same methods as detailed above, just making sure you r
 1. <b>UV Tiles:</b> Just as with Outputs, allow you to toggle on or off the exporting of specific UV Tiles.
 1. <b>&#91;Output size&#93;(../../compositing-graphs/output-size/output-size.md): </b>Override export resolution, allowing you to work smaller and more efficient, while exporting at maximum size.
 
-![Batch export outputs dialog](../../assets/batch.png "Batch export outputs dialog")
+![Batch export outputs dialog](exporting-bitmaps.resources/batch.png "Batch export outputs dialog")

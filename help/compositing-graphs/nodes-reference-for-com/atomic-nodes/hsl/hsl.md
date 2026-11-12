@@ -16,12 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: HSL](../../../../assets/comp_hsl_1.png "Atomic node: HSL"){width="200px"}
+![Atomic node: HSL](hsl.resources/comp_hsl_1.png "Atomic node: HSL"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Adjusts the hue, saturation and lightness of a color image.
 
@@ -34,47 +36,22 @@ If you are after other ways to edit the tones of an image, look at [Curve](../..
 </table>
 
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="hsl.resources/hsl-tooltip.gif" alt="hsl tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
 
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
 |  |  |
 | --- | --- |
-| <b>Hue</b> *Float* | Determines the color of the input image.   Values below 0.5 shift the Hue negatively, values above 0.5 shift it postively. |
-| <b>Saturation</b> *Float* | Determines the saturation of the input image's color.   Values below 0.5 decrease the Saturation, values above 0.5 increase it. |
-| <b>Lightness</b> *Float* | Determines the lightness of the input image   Values below 0.5 decrease the Lightness, values above 0.5 increase it. |
+| <b>Hue</b> *Float* | Determines the color of the input image.   Values below 0.5 shift the Hue negatively, values above 0.5 shift it postively. |
+| <b>Saturation</b> *Float* | Determines the saturation of the input image's color.   Values below 0.5 decrease the Saturation, values above 0.5 increase it. |
+| <b>Lightness</b> *Float* | Determines the lightness of the input image   Values below 0.5 decrease the Lightness, values above 0.5 increase it. |
 
 ## Input connectors
 
@@ -82,11 +59,6 @@ If you are after other ways to edit the tones of an image, look at [Curve](../..
 | --- | --- |
 | <b>Input</b> *Color* PRIMARY | Image to be processed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Color* |  |
 
 ## Examples
 

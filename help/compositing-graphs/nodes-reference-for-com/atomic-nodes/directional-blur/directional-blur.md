@@ -16,46 +16,37 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Directional blur](../../../../assets/comp_dirmotionblur_1.png "Atomic node: Directional blur"){width="200px"}
+![Atomic node: Directional blur](directional-blur.resources/comp_dirmotionblur_1.png "Atomic node: Directional blur"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Applies blurring in a specified direction according to an intensity map.
 
-This node performs an operation similar to a motion blur on an input. Unlike the regular '[Blur](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)' node, which blurs equally in all directions, 'Directional blur' works along a user-defined angle.
+This node performs an operation similar to a motion blur on an input. Unlike the regular '[Blur](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)' node, which blurs equally in all directions, 'Directional blur' works along a user-defined angle.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="directional-blur tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
 Similarly to 'Blur', it is also a faster and low-quality operation. An extended, higher-quality alternative is provided in [Anisotropic Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md), with a performande trade-off
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## Directional and Anisotropic blur
 
-This images below show the Directional blur and the[ Anisotropic blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) in effect on the same input shape, with similar parameters. Anisotropic Blur has been set to full anisotropy and high quality.
+This images below show the Directional blur and the[ Anisotropic blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) in effect on the same input shape, with similar parameters. Anisotropic Blur has been set to full anisotropy and high quality.
 
 <table>
 <tr style="border: 0;">
@@ -63,43 +54,19 @@ This images below show the Directional blur and the[ Anisotropic blur](../../../
 
 <b>Directional blur</b>
 
-![Directional blur comparison](../../../../assets/dirblur-01.png "Directional blur comparison"){zoomable="yes"}
+![Directional blur comparison](directional-blur.resources/dirblur-01.png "Directional blur comparison"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>Anisotropic blur</b>
 
-![Anisotropic blur comparison](../../../../assets/aniso-01.png "Anisotropic blur comparison"){zoomable="yes"}
+![Anisotropic blur comparison](directional-blur.resources/aniso-01.png "Anisotropic blur comparison"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Input connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
@@ -114,11 +81,6 @@ This images below show the Directional blur and the[ Anisotropic blur](../../../
 | --- | --- |
 | <b>Input</b> *Grayscale/Color* [PRIMARY](../../../../learning-tutorials/essentials/glossary/glossary.md#primary-input) | The image to be processed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 

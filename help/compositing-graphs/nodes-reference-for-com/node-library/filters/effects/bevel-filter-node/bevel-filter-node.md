@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bevel.png){width="128px"}
+![](bevel-filter-node.resources/bevel.png){width="128px"}
 
-## Bevel
-
-**In:** *Filters/Effects*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,32 +31,39 @@ Peforms an edge-beveling effect on an input grayscale Heightmap. Returns both be
 
 This is a useful node for applying exact curve profiles on an ideally binary (high contract black/white), basic Heightmap.
 
-## Parameters
-
-### Inputs
-
-* **input**: *Grayscale Input*   
-  Heightmap to convert.
-* **Custom Curve**: *Grayscale Input*   
-  Gradient that determines the exact curve/slope. Ideally a Gradient Linear node, on which you can perform any kind of adjustment such as [Levels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) or [Curves](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md). Only active when "Use Custom Curve" is True.
-
-### Parameters
-
-* **Distance**: *-1.0 - 1.0*How far the bevel effect should reach.
-* **Corner Type**: *Round, Angular*Whether the beveling profile should be rounded or straight.
-* **Smoothing**: *0.0 - 5.0*How much additional smoothing (blurring) to perform after the bevel.
-* **Use Non-Uniform Blur**: *False/True*Whether smoothing should be done non-uniformly.
-* **Use Custom Curve**: *False/True*Toggles use of your own custom height curve. See above for more info.
-* **Normal Intensity**: *0.0 - 50.0*Intensity of the generated Normalmap.
-* **Normal Format**: *DirectX, OpenGL*  
-  Switch between different Normalmap formats (inverts the Green channel).
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/bevel-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>input</b> <i>Grayscale Input</i> | Heightmap to convert. |
+| <b>Custom Curve</b> <i>Grayscale Input</i> | Gradient that determines the exact curve/slope. Ideally a Gradient Linear node, on which you can perform any kind of adjustment such as [Levels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) or [Curves](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md). Only active when "Use Custom Curve" is True. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Distance</b> <i>-1.0 - 1.0</i> | How far the bevel effect should reach. |
+| <b>Corner Type</b> <i>Round, Angular</i> | Whether the beveling profile should be rounded or straight. |
+| <b>Smoothing</b> <i>0.0 - 5.0</i> | How much additional smoothing (blurring) to perform after the bevel. |
+| <b>Use Non-Uniform Blur</b> <i>False/True</i> | Whether smoothing should be done non-uniformly. |
+| <b>Use Custom Curve</b> <i>False/True</i> | Toggles use of your own custom height curve. See above for more info. |
+| <b>Normal Intensity</b> <i>0.0 - 50.0</i> | Intensity of the generated Normalmap. |
+| <b>Normal Format</b> <i>DirectX, OpenGL</i> | Switch between different Normalmap formats (inverts the Green channel). |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bevel-filter-node.resources/bevel-example.png" />
+        </td>
+    </tr>
 </table>

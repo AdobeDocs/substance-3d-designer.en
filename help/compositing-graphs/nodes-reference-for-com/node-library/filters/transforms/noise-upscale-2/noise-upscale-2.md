@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-2.resources/noise-upscale.png){width="128px"}
 
-## Noise Upscale 2
-
-**In:** *Filters/Transforms*
-
-**Simple**
+<b>In:</b> Filters &gt; Transforms
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,20 +33,27 @@ This node is mostly intended for optimising slow graphs that use heavy, big nois
 
 See also [Noise Upscale 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) and [Noise Upscale 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-3/noise-upscale-3.md) for different variations of this process.
 
-## Parameters
-
-* **Offset1X**: *0.0 - 1.0*Slides top and bottom parts over X axis.
-* **Offset1Y**: *0.0 - 1.0*  
-  Slides top and bottom parts over Y axis.
-* **Offset2X**: *0.0 - 1.0*Slides left and right parts over X axis.
-* **Offset2Y**: *0.0 - 1.0*Slides left and right parts over Y axis.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise2ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Offset1X</b> <i>0.0 - 1.0</i> | Slides top and bottom parts over X axis. |
+| <b>Offset1Y</b> <i>0.0 - 1.0</i> | Slides top and bottom parts over Y axis. |
+| <b>Offset2X</b> <i>0.0 - 1.0</i> | Slides left and right parts over X axis. |
+| <b>Offset2Y</b> <i>0.0 - 1.0</i> | Slides left and right parts over Y axis. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="noise-upscale-2.resources/noise2ex.png" />
+        </td>
+    </tr>
 </table>

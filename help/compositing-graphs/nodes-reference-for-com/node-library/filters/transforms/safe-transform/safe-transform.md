@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](safe-transform.resources/safe-transform.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](safe-transform.resources/safe-transform-grayscale.png)
 
-## Safe Transform (Grayscale)
-
-**In:** *Filters/Transforms*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Transforms
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,25 +33,22 @@ Tiling-safe version of [Transform 2D](../../../../../../compositing-graphs/nodes
 
 Useful for transforming noise when maximum control or perfect sharpness is required.
 
-## Parameters
-
-* **Tile**: *1 - 16*Scales the input down by tiling it.
-* **Offset Mode**: *Manual, Random*Switches to a random offset instead of a manually defined one.
-* **Offset**: *0.0 - 1.0*  
-  Moves or translates the result. Makes sure pixels are snapped and not interpolated.
-* **Rotation**: *0.0 - 1.0*Rotates input along angle.
-* **Tile Safe Rotation**: *False/True*Determines the behaviour of the Rotation, whether it should snap to safe values that don't blur any pixels.
-* **Symmetry**: *none, X, Y, X+Y*
-* **Background Color**: *(Color value) (Color Version Only)*
-* **Mipmap Mode**: *Automatic, Manual*Determines mipmapping mode. Setting this to Manual leads to sharper results.
-* **Mipmap Level**: *0 - 10*When Mipmap mode is set to Manual, this allows you to choose a different Mipmap.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Tile</b> <i>1 - 16</i> | Scales the input down by tiling it. |
+| <b>Offset Mode</b> <i>Manual, Random</i> | Switches to a random offset instead of a manually defined one. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Moves or translates the result. Makes sure pixels are snapped and not interpolated. |
+| <b>Rotation</b> <i>0.0 - 1.0</i> | Rotates input along angle. |
+| <b>Tile Safe Rotation</b> <i>False/True</i> | Determines the behaviour of the Rotation, whether it should snap to safe values that don't blur any pixels. |
+| <b>Symmetry</b> <i>none, X, Y, X+Y</i> |  |
+| <b>Background Color</b> <i>(Color value) (Color Version Only)</i> |  |
+| <b>Mipmap Mode</b> <i>Automatic, Manual</i> | Determines mipmapping mode. Setting this to Manual leads to sharper results. |
+| <b>Mipmap Level</b> <i>0 - 10</i> | When Mipmap mode is set to Manual, this allows you to choose a different Mipmap. |

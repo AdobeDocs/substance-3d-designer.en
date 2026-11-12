@@ -20,7 +20,7 @@ This pages describes the synergies between [Substance graphs](../../compositing-
 
 The outputs of Substance graphs can be *passed to exposed parameters* of MDL materials in two ways, which are described in this page.
 
-If the MDL material currently applied in the 3D view has exposed parameters which type is *[varying](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* – this type may be set using the <b>Type modifier</b> option in the [exposed parameter's properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html), these can be connected to *textures*:
+If the MDL material currently applied in the 3D view has exposed parameters which type is *[varying](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)* – this type may be set using the <b>Type modifier</b> option in the [exposed parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)'s properties, these can be connected to *textures*:
 
 * a <b>Color</b> parameter can be connected to RGBA textures
 * a <b>Float</b> parameter for Grayscale textures
@@ -33,7 +33,7 @@ When using the <b>View outputs in 3D View</b> option for a Substance graph or dr
 
 Individual textures from a Substance graph may be connected to any of the MDL material parameters which support texture sampling, regardless of the identifier, by pressing RMB on the Substance graph node and dragging into the 3D view. A list of available sampler usages is displayed, and you may select the target usage for the selected texture.
 
-![Exposed MDL graph inputs](../../assets/mdl-graph-inputs-samplers.png "Exposed MDL graph inputs")
+![Exposed MDL graph inputs](substance-compositing-graphs-and-mdl-materials.resources/mdl-graph-inputs-samplers.png "Exposed MDL graph inputs")
 
 *Textures output by a Substance graph are connected to an MDL graph's exposed parameters in the 3D View*
 
@@ -42,7 +42,7 @@ Individual textures from a Substance graph may be connected to any of the MDL ma
 Substance graph instances can be placed directly into MDL graphs by dragging them from the <b>Explorer</b> panel into the MDL graph. Substance graphs from both <b>Substance 3D files</b> (SBS) and <b>Substance 3D asset files</b> (SBSAR) may be used in MDL graphs.
 
 +++Substance graph from Substance 3D file (SBS)
-![Substance graph from SBS file in MDL graph](../../assets/mdl-sbs-instance-hl.png "Substance graph from SBS file in MDL graph")
+![Substance graph from SBS file in MDL graph](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbs-instance-hl.png "Substance graph from SBS file in MDL graph")
 
 
 
@@ -51,7 +51,7 @@ Substance graph instances can be placed directly into MDL graphs by dragging the
 +++
 
 +++Substance graph from Substance 3D asset (SBSAR)
-![Substance graph from SBSAR file in MDL graph](../../assets/mdl-sbsar-instance-hl.png "Substance graph from SBSAR file in MDL graph")
+![Substance graph from SBSAR file in MDL graph](substance-compositing-graphs-and-mdl-materials.resources/mdl-sbsar-instance-hl.png "Substance graph from SBSAR file in MDL graph")
 
 
 

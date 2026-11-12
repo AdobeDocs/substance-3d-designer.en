@@ -16,52 +16,40 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Gradient map](../../../../assets/comp_gradient_1.png "Atomic node: Gradient map"){width="200px"}
+![Atomic node: Gradient map](gradient-map.resources/comp_gradient_1.png "Atomic node: Gradient map"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Remaps the grayscale values in an image using a custom gradient.
 
-This node serves a dual purpose: It may be simply used as a<b> </b>grayscale-to-color conversion node, or to colorize grayscale input my mapping it to a custom color ramp.
+This node serves a dual purpose: It may be simply used as a<b> </b>grayscale-to-color conversion node, or to colorize grayscale input my mapping it to a custom color ramp.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="gradient-map tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
 The node offers an advanced and feature-rich gradient editor to map multiple colors with precision: go to the [Gradient editor](#gradient-editor) section in this page to learn more.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Examples
-
-## Parameters
 
 |  |  |
 | --- | --- |
 | <b>Color mode</b> *Boolean* | Sets the output mode to Color or Grayscale. |
 | <b>Gradient adressing</b> *Boolean* | Sets the gradient to either repeat (tile) or clamp values that are out of the &#91;0, 1&#93; range. |
-| <b>Gradient</b> *Array of gradient keys* | The custom gradient ramp used to map the input grayscale values.   May be edited in place or using the [Gradient editor](#gradient-editor). |
+| <b>Gradient</b> *Array of gradient keys* | The custom gradient ramp used to map the input grayscale values.   May be edited in place or using the [Gradient editor](#gradient-editor). |
 
 ## Gradient editor
 
@@ -69,10 +57,10 @@ This window offers controls to edit the reference gradient used by the Gradient 
 
 It can be opened from the Gradient Map node's <b>Properties</b> in the following ways:
 
-* Click LMB on the <b>Gradient Editor</b> button;
-* Double-click LMB on a pin in the gradient bar. The clicked pin will then be automatically selected in the Gradient Editor so you can directly edit its values.
+* Click LMB on the <b>Gradient Editor</b> button;
+* Double-click LMB on a pin in the gradient bar. The clicked pin will then be automatically selected in the Gradient Editor so you can directly edit its values.
 
-![Gradient Editor](../../../../assets/image2017-2-17-16-13-5.png "Gradient Editor")
+![Gradient Editor](gradient-map.resources/image2017-2-17-16-13-5.png "Gradient Editor")
 
 ### Editing the gradient pins
 
@@ -82,7 +70,7 @@ Each pin sets a color at its position along the gradient.
 
 The portions of the gradient before and after the first and last pins are set to those pin's colors respectively.
 
-![Gradient Editor - Gradient view](../../../../assets/image2017-2-17-17-27-46.png "Gradient Editor - Gradient view")
+![Gradient Editor - Gradient view](gradient-map.resources/image2017-2-17-17-27-46.png "Gradient Editor - Gradient view")
 
 The following controls are available to edit pins:
 
@@ -99,7 +87,7 @@ The new pin will be set to the gradient's color at that position.
 </td>
 <td style="border: 0;" valign="top">
 
-![Gradient Editor - Add pin](../../../../assets/move-pin.gif "Gradient Editor - Add pin")
+![Gradient Editor - Add pin](gradient-map.resources/move-pin.gif "Gradient Editor - Add pin")
 
 </td>
 </tr>
@@ -115,12 +103,12 @@ Hold LMB and drag the selected pins along the gradient bar to move them.
 
 You can also set the position of a pin with a numerical value by selecting it and using the <b>Position</b> parameter. The position is a value in the &#91;0;1&#93; range where 0 is the start of the gradient and 1 is its end.
 
-![Gradient Editor - Pin position parameter](../../../../assets/image2015-8-27-13-56-2.png "Gradient Editor - Pin position parameter")
+![Gradient Editor - Pin position parameter](gradient-map.resources/image2015-8-27-13-56-2.png "Gradient Editor - Pin position parameter")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Gradient Editor - Move pin](../../../../assets/movepin2.gif "Gradient Editor - Move pin")
+![Gradient Editor - Move pin](gradient-map.resources/movepin2.gif "Gradient Editor - Move pin")
 
 </td>
 </tr>
@@ -142,7 +130,7 @@ Select the pins and press Delete, or drag the pins off the gradient bar to delet
 </td>
 <td style="border: 0;" valign="top">
 
-![Gradient Editor - Delete pin](../../../../assets/removepin.gif "Gradient Editor - Delete pin")
+![Gradient Editor - Delete pin](gradient-map.resources/removepin.gif "Gradient Editor - Delete pin")
 
 </td>
 </tr>
@@ -159,7 +147,7 @@ Mirrors the positions of the selected pins on the gradient.
 </td>
 <td style="border: 0;" valign="top">
 
-![Gradient editor: Invert positions](../../../../assets/invert.gif "Gradient editor: Invert positions")
+![Gradient editor: Invert positions](gradient-map.resources/invert.gif "Gradient editor: Invert positions")
 
 </td>
 </tr>
@@ -176,7 +164,7 @@ Removes all the pins from the gradient bar.
 </td>
 <td style="border: 0;" valign="top">
 
-![Gradient Editor - Clear all](../../../../assets/remove.gif "Gradient Editor - Clear all")
+![Gradient Editor - Clear all](gradient-map.resources/remove.gif "Gradient Editor - Clear all")
 
 </td>
 </tr>
@@ -224,7 +212,7 @@ This results in hard steps between colors, and only the colors set by the pins a
 
 ### color picker
 
-![Gradient Editor - Color picker](../../../../assets/image2017-2-17-18-21-29.png "Gradient Editor - Color picker")
+![Gradient Editor - Color picker](gradient-map.resources/image2017-2-17-18-21-29.png "Gradient Editor - Color picker")
 
 The Color Picker lets you set a color in several ways:
 
@@ -239,7 +227,7 @@ The Color Picker lets you set a color in several ways:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Color Picker - Gradient area and hue bar](../../../../assets/colorpalette.gif "Color Picker - Gradient area and hue bar")
+  ![Color Picker - Gradient area and hue bar](gradient-map.resources/colorpalette.gif "Color Picker - Gradient area and hue bar")
 
   </td>
   </tr>
@@ -249,16 +237,16 @@ The Color Picker lets you set a color in several ways:
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   The RGB, HSV and Alpha sliders let you set a color precisely, by tweaking the sliders or directly setting their numerical values.
 
   Alternatively, use a hexcode in the dedicated input field below the sliders.
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
-  ![Color Picker - RGB, HSV and Alpha sliders](../../../../assets/image2017-2-17-18-31-41.png "Color Picker - RGB, HSV and Alpha sliders")
+  ![Color Picker - RGB, HSV and Alpha sliders](gradient-map.resources/image2017-2-17-18-31-41.png "Color Picker - RGB, HSV and Alpha sliders")
 
   </td>
   </tr>
@@ -275,7 +263,7 @@ The Color Picker lets you set a color in several ways:
   </td>
   <td style="border: 0;" valign="top">
 
-  ![Color Picker - Pick on screen](../../../../assets/pick.gif "Color Picker - Pick on screen")
+  ![Color Picker - Pick on screen](gradient-map.resources/pick.gif "Color Picker - Pick on screen")
 
   </td>
   </tr>
@@ -283,7 +271,7 @@ The Color Picker lets you set a color in several ways:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 The selected color is previewed in the upper half of the color thumbnail.  
 The lower half displays the previously used color. Double-click LMB on it to revert the tweaked color to it.
@@ -291,7 +279,7 @@ The lower half displays the previously used color. Double-click LMB on it to rev
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Color Picker - Revert color](../../../../assets/image2015-8-27-14-40-39.png "Color Picker - Revert color")
+![Color Picker - Revert color](gradient-map.resources/image2015-8-27-14-40-39.png "Color Picker - Revert color")
 
 </td>
 </tr>
@@ -301,17 +289,17 @@ When multiple pin are selected, the RGB, HSV and Alpha sliders turn into delta (
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 Additionally, the following capabilities are available below the color thumbnail as buttons:
 
-<b>Invert:</b> Switches the color to its negative;
+<b>Invert:</b> Switches the color to its negative;
 
-<b>To Gray:</b> Desaturates the color;
+<b>To Gray:</b> Desaturates the color;
 
 <b>Copy</b>*:* Copy the currently selected color to the clipboard;
 
-<b>Paste:</b> Switch to the color currently in the clipboard;
+<b>Paste:</b> Switch to the color currently in the clipboard;
 
 <b>sRGB</b>: Use the sRGB color space to display colors. When disabled, the Linear color space is used;
 
@@ -320,7 +308,7 @@ Additionally, the following capabilities are available below the color thumbnail
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Color Picker - Buttons](../../../../assets/invert2.gif "Color Picker - Buttons")
+![Color Picker - Buttons](gradient-map.resources/invert2.gif "Color Picker - Buttons")
 
 </td>
 </tr>
@@ -330,7 +318,7 @@ Additionally, the following capabilities are available below the color thumbnail
 
 The Gradient Eyedropper is one of the most useful features this node offers, as you can create complex gradients just by drawing a line on a reference picture.
 
-![Gradient Editor - Gradient Picker](../../../../assets/pickgradient.gif "Gradient Editor - Gradient Picker")
+![Gradient Editor - Gradient Picker](gradient-map.resources/pickgradient.gif "Gradient Editor - Gradient Picker")
 
 The <b>Precision</b> slider will help you adjust your newly created gradient by increasing or decreasing the number of keys: the lower their values, the more precise your gradient will match your picked values.
 
@@ -340,11 +328,6 @@ The <b>Precision</b> slider will help you adjust your newly created gradient by 
 | --- | --- |
 | <b>Input</b> *Grayscale* PRIMARY | The grayscale image to be processed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* |  |
 
 ## Examples
 

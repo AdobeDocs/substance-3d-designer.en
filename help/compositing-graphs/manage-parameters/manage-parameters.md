@@ -40,7 +40,7 @@ When the properties of a node are displayed in the Properties dock, the node par
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Global 'Manage parameters' menu in Properties](../../assets/manage-parameters-menu-global.png "Global 'Manage parameters' menu in Properties"){zoomable="yes"}
+![Global 'Manage parameters' menu in Properties](manage-parameters.resources/manage-parameters-menu-global.png "Global 'Manage parameters' menu in Properties"){zoomable="yes"}
 
 </td>
 </tr>
@@ -48,12 +48,12 @@ When the properties of a node are displayed in the Properties dock, the node par
 
 Actions in this menu will impact *all* the parameters listed in that section:
 
-* <b>Expose parameters:</b> Opens the 'Batch expose parameters' dialog. For every exposed parameter, the action creates a new graph input and automatically sets a function using that graph input. Learn more about exposing parameters in [this dedicated page](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+* <b>Expose parameters:</b> Opens the 'Batch expose parameters' dialog. For every exposed parameter, the action creates a new graph input and automatically sets a function using that graph input. Learn more about exposing parameters in [this dedicated page](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 * <b>Copy parameters:</b> See [Copy and paste parameters](#copy-paste-parameters) section below.
-* <b>Paste parameters:</b> See [Copy and paste parameters](../../compositing-graphs/manage-parameters/manage-parameters.md) section below.
+* <b>Paste parameters:</b> See [Copy and paste parameters](../../compositing-graphs/manage-parameters/manage-parameters.md) section below.
 * <b>Save parameters as a preset file:</b> Learn more about parameter presets in [this dedicated page](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
-* <b>Apply parameters from a preset file:</b> Learn more about parameter presets in [this dedicated page](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
-* <b>Reset all:</b> Resets all parameters to their default values and ranges. If a functions were applied to any parameters, they are dismissed.
+* <b>Apply parameters from a preset file:</b> Learn more about parameter presets in [this dedicated page](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md).
+* <b>Reset all:</b> Resets all parameters to their default values and ranges. If a functions were applied to any parameters, they are dismissed.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ If you want to manage a *single* parameter, use the '<b>Manage function</b>' men
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Local 'Manage parameters' menu in Properties](../../assets/manage-parameters-menu.png "Local 'Manage parameters' menu in Properties"){zoomable="yes"}
+![Local 'Manage parameters' menu in Properties](manage-parameters.resources/manage-parameters-menu.png "Local 'Manage parameters' menu in Properties"){zoomable="yes"}
 
 </td>
 </tr>
@@ -78,7 +78,7 @@ If you want to manage a *single* parameter, use the '<b>Manage function</b>' men
 
 You can apply a [Substance function graph](../../function-graphs/the-function-graph/the-function-graph.md) to that parameter in three ways:
 
-* <b>Expose as new graph input:</b> Which creates a new graph input and automatically sets a function using that graph input. Learn more about exposing parameters in [this dedicated page](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+* <b>Expose as new graph input:</b> Which creates a new graph input and automatically sets a function using that graph input. Learn more about exposing parameters in [this dedicated page](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 * <b>Empty function:</b> Author a function from scratch.
 * <b>Constant value:</b> Edit a function starting from a [constant value node](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) set to the parameter's current value.
 * <b>Reset:</b> Resets the parameter to its default value and range. If a function was applied to the parameter, it is dismissed.
@@ -102,7 +102,7 @@ The same limitations listed below for atomic nodes apply to this menu.
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-!['Manage parameters' menu in node contextual menu](../../assets/manage-parameters-node-menu.png "'Manage parameters' menu in node contextual menu"){zoomable="yes"}
+!['Manage parameters' menu in node contextual menu](manage-parameters.resources/manage-parameters-node-menu.png "'Manage parameters' menu in node contextual menu"){zoomable="yes"}
 
 </td>
 </tr>
@@ -114,16 +114,16 @@ The same limitations listed below for atomic nodes apply to this menu.
 
 ## Copy and paste parameters
 
-It is possible to copy all parameters values for a source node, and paste them onto a target node. The parameters of the source and target nodes are <b>matched based on both their identifiers and types</b>.
+It is possible to copy all parameters values for a source node, and paste them onto a target node. The parameters of the source and target nodes are <b>matched based on both their identifiers and types</b>.
 
-For example, a parameter 'Scale' which identifier is 'scale' and type is 'Float' can be copied and pasted onto another parameter 'Shape Scale' when its identifier is also  'scale' and its type is also 'Float'.
+For example, a parameter 'Scale' which identifier is 'scale' and type is 'Float' can be copied and pasted onto another parameter 'Shape Scale' when its identifier is also  'scale' and its type is also 'Float'.
 
 This feature works in the same way as using a [parameter preset file](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md). Indeed, the data copied to the clipboard is the same as the data stored in SBSPRS preset files, and can be pasted into any text editor to be reviewed and edited.
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Copy and paste parameters](../../assets/copy-paste-parameters.gif "Copy and paste parameters"){zoomable="yes"}
+![Copy and paste parameters](manage-parameters.resources/copy-paste-parameters.gif "Copy and paste parameters"){zoomable="yes"}
 
 </td>
 </tr>
@@ -159,11 +159,11 @@ These actions...
 
 [Gradient map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[Input color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Input color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[Input grayscale](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Input grayscale](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[Input value](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[Input value](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 

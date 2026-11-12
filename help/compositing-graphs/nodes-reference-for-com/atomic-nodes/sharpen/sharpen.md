@@ -16,14 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Sharpen node icon](../../../../assets/sharpen-4.png "Sharpen node icon")
+![Sharpen node icon](sharpen.resources/sharpen-4.png "Sharpen node icon")
 
 <b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 ## Description
 
@@ -33,21 +33,29 @@ The Sharpen Node perform a sharpening operation on an input. It is a useful node
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="sharpen tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 It is mathematically very similar to Photoshop's Unsharp Mask, despite the name being different. It works well for things like a Basecolor map, but should be avoided on maps like Normal maps and Metallic maps.
 
 ## Inputs
 
-<b>Input</b> *Color/Grayscale* (Primary)  
+<b>Input</b> *Color/Grayscale* (Primary)  
 The image which should be sharpened.
 
 ## Parameters
 
-<b>Intensity</b> *Float*  
+<b>Intensity</b> *Float*  
 Sets the intensity of the sharpening effect.
 
-<b>Punchthrough Alpha</b> *Boolean* (Available when a color image is connected to the <b>Input</b>)  
+<b>Punchthrough Alpha</b> *Boolean* (Available when a color image is connected to the <b>Input</b>)  
 Determines whether the image's alpha channel should be sharpened or left untouched.
 
 ## Examples
 
-![Sharpen node - Example 1](../../../../assets/sharpen-ex.png "Sharpen node - Example 1")
+![Sharpen node - Example 1](sharpen.resources/sharpen-ex.png "Sharpen node - Example 1")

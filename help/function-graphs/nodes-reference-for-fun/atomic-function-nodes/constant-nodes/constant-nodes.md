@@ -20,15 +20,15 @@ Additionally, this page provides some extra information for each data type and c
 
 ## Integers
 
-Constant integers generate whole numbers, and have a step of  1.
+Constant integers generate whole numbers, and have a step of  1.
 
-[They can be converted to Float,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) which is recommended to do when performing any operation more complex than additions, subtractions and simple comparisons.
+[They can be converted to Float,](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) which is recommended to do when performing any operation more complex than additions, subtractions and simple comparisons.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer type icon](../../../../assets/fn-constant-integer.png "Integer type icon")
+![Integer type icon](constant-nodes.resources/fn-constant-integer.png "Integer type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -38,7 +38,7 @@ Constant integers generate whole numbers, and have a step of  1.
 An integer has a single component. It is useful as an index for making selections, such as:
 
 * selecting an option presented to the user as a drop down menu (see 'Drop down list' in [this page](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)).
-* selecting the input of a [Multi switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) node.<b></b>
+* selecting the input of a [Multi switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) node.<b></b>
 
 >[!IMPORTANT]
 >
@@ -52,7 +52,7 @@ An integer has a single component. It is useful as an index for making selection
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](../../../../assets/fn-constant-integer2.png "Integer2 type icon")
+![Integer2 type icon](constant-nodes.resources/fn-constant-integer2.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,7 +71,7 @@ Integer2 is not common, but is used for example to set X and Y 2D tiling in a [T
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 type icon](../../../../assets/fn-constant-integer3.png "Integer3 type icon")
+![Integer3 type icon](constant-nodes.resources/fn-constant-integer3.png "Integer3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ Integer 3 is not common and is unlikely to be encountered much.<b>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 type icon](../../../../assets/fn-constant-integer4.png "Integer4 type icon")
+![Integer4 type icon](constant-nodes.resources/fn-constant-integer4.png "Integer4 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -111,13 +111,13 @@ Integer 4 is not common and is unlikely to be encountered much.<b>
 
 Constant Floats generate fractional numbers, not wholenumbers, which means they will always have values after the decimal sign, and can in- or decrease by steps smaller than 1 (default 0.01).
 
-[Floats can be converted to Integers](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) but they will be rounded up or down to the nearest Integer, meaning data and accuracy is lost.
+[Floats can be converted to Integers](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) but they will be rounded up or down to the nearest Integer, meaning data and accuracy is lost.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float type icon](../../../../assets/fn-constant-float.png "Float type icon")
+![Float type icon](constant-nodes.resources/fn-constant-float.png "Float type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -134,7 +134,7 @@ A Float, has a single component, the (1) is omitted from the name for brevity. F
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 type icon](../../../../assets/fn-constant-float2.png "Float2 type icon")
+![Float2 type icon](constant-nodes.resources/fn-constant-float2.png "Float2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -151,7 +151,7 @@ A Float2 node generates a static 2-component Float Vector. Components are named 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 type icon](../../../../assets/fn-constant-float3.png "Float3 type icon")
+![Float3 type icon](constant-nodes.resources/fn-constant-float3.png "Float3 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -169,7 +169,7 @@ A Float3 node generates a static 3-component Float Vector. Components are named 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 type icon](../../../../assets/fn-constant-float4.png "Float4 type icon")
+![Float4 type icon](constant-nodes.resources/fn-constant-float4.png "Float4 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -185,13 +185,13 @@ A Float4 generates a static 4-component Float Vector.Components are named X,Y,Z,
 
 ## Others
 
-Two additional data types exist inside Substance function graphs: booleans and strings. Strings were introduced alongside the [Text](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node in Designer version 6.
+Two additional data types exist inside Substance function graphs: booleans and strings. Strings were introduced alongside the [Text](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) node in Designer version 6.
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Boolean type icon](../../../../assets/fn-constant-boolean.png "Boolean type icon")
+![Boolean type icon](constant-nodes.resources/fn-constant-boolean.png "Boolean type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -208,7 +208,7 @@ A Boolean is the simplest data type there is, knowing only two states: True or F
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![String type icon](../../../../assets/fn-constant-string.png "String type icon")
+![String type icon](constant-nodes.resources/fn-constant-string.png "String type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

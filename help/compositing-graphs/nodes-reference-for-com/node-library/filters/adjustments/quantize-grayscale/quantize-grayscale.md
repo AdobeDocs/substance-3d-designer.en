@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Quantize Grayscale icon](../../../../../../assets/quantize-grayscale.png "Quantize Grayscale icon"){width="200px"}
+![Quantize Grayscale icon](quantize-grayscale.resources/quantize-grayscale.png "Quantize Grayscale icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -33,21 +33,19 @@ Generates a single spline in the shape of a circle.
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-<b>Steps</b> *Integer*The number of separate values the input range should be approximated to.
-
-<b>Offset</b> *Float*Applies an offset to the input range, which *shifts* the results along the range.
-
-<b>Slope</b> *Float*Applies a slope gradient to the *transitions* between approximated values, up to the *full span of a step*.
-
-<b>Slope Curve</b> *Integer*Sets the method of acquiring the curve for the slope set by the <b>Slope</b> parameter:  
-* *Linear*: Applies a linear curve, resulting in a straight slope  
-* *Smoothstep*: Applies a smoothstep curve, resulting in a smooth slope  
-* *Curve input*: Applies the curve described by the <b>Curve Input</b> input map. You may use a [Curve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) node to describe this curve with a great amount of control.
+|  |  |
+|:---|:---|
+| <b>Steps</b> *Integer* | The number of separate values the input range should be approximated to. |
+| <b>Offset</b> *Float* | Applies an offset to the input range, which *shifts* the results along the range. |
+| <b>Slope</b> *Float* | Applies a slope gradient to the *transitions* between approximated values, up to the *full span of a step*. |
+| <b>Slope Curve</b> *Integer* | Sets the method of acquiring the curve for the slope set by the <b>Slope</b> parameter:<ul data-preserve-html="true"> <li data-preserve-html="true">*Linear*: Applies a linear curve, resulting in a straight slope</li> <li data-preserve-html="true">*Smoothstep*: Applies a smoothstep curve, resulting in a smooth slope</li> <li data-preserve-html="true">*Curve input*: Applies the curve described by the <b>Curve Input</b> input map. You may use a [Curve](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md) node to describe this curve with a great amount of control.</li> </ul> |
 
 ## Examples
 
-![Example 1](../../../../../../assets/quantizegrayscale.gif "Example 1")
+![Example 1](quantize-grayscale.resources/quantizegrayscale.gif "Example 1")
 
-![Example 2](../../../../../../assets/quantizegrayscale.png "Example 2")
+![Example 2](quantize-grayscale.resources/quantizegrayscale.png "Example 2")

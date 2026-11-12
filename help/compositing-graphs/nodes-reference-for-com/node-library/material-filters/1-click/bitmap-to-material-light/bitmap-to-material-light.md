@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/b2m-light.png)
+![](bitmap-to-material-light.resources/b2m-light.png)
 
-## Bitmap to Material Light
-
-**In:** *Material Filters/1-Click*
-
-**Intermediate**
+<b>In:</b> Material Filters &gt; 1-Click
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,56 +31,51 @@ This node converts a single Diffuse/Basecolor input into a full material. As the
 
 While not guaranteed to result in perfect, PBR-correct materials, it is a good and quick way to get started if you only have a single image and want a full material.
 
-## Parameters
-
-* **Channels**   
-  * Toggles material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness.
-* **Global**   
-  * **Depth Balance**: *-1.0 - 1.0*Sets a bias/shift for the Heightmap.
-* **Diffuse**   
-  * **Sharpen**: *0.0 - 1.0*Adds sharpening to the diffuse result.
-  * **Hue**: *0.0 - 1.0*Tints diffuse with a user-selected Hue shift.
-  * **Saturation**: *0.0 - 1.0*Modifies saturation of Diffuse result.
-  * **Brightness**: *0.0 - 1.0*Adjusts Diffuse result brightness.
-  * **Contrast**: *-1.0 - 1.0*  
-    Adjusts the contrast of the result.
-* **Relief**   
-  The Relief group controls both Normal and Height outputs.  
-  * **Output Normal Format**: *DirectX, OpenGL*Switches between Normal formats (flips green).
-  * **Invert Generated Relief**: *False/True*Inverts interpretation of height.
-  * **Normal Strength**: *0.0 - 20.0*Sets strength of generated Normalmap.
-  * **Relief Equalizer**: *0.0 - 1.0*Sets conversion balances for different detail scales.
-  * **Pinch Intensity**: *0.0 - 1.0*Makes Normal transitions sharper. Effectively adds a sharpening filter before converting to normal, making the edges more pronounced.
-  * **Normal Sharpen**: *0.0 - 1.0*Sharpens Normalmap after conversion, brings out the details.
-  * **Normal Soften**: *0.0 - 1.0*Softens Normalmap after conversion, hides details.
-* **Specular**   
-  * **Specular Diffuse Influence**: *0.0 - 1.0*Sets influence of diffuse on Specular. Affects Glossiness and Roughness outputs as well.
-  * **Specular Saturation**: *0.0 - 1.0*Changes saturation for Specular output.
-  * **Specular Sharpen**: *0.0 - 1.0*Sharpens Specular output.
-  * **Specular Levels In**: *0.0 - 1.0*Sets input levels for Specular interpretation.
-  * **Specular Levels Out**: *0.0 - 1.0*Modifies output levels of Specular.
-  * **Metallic Specular Influence**: *0.0 - 1.0*Determines influence of the optional Metallic input on Specular map.
-* **Glossiness**   
-  * **Glossiness Levels In**: *0.0 - 1.0*Sets input levels for Glossiness interpretation.
-  * **Glossiness Levels Out**: *0.0 - 1.0*Modifies Glossiness output levels.
-  * **Metallic Glossiness Influence**: *0.0 - 1.0*Determines influence of the optional Metallic input on Glossiness map.
-* **Roughness**   
-  * **Roughness Levels In**: *0.0 - 1.0*Sets input levels for Roughness interpretation.
-  * **Roughness Levels Out**: *0.0 - 1.0*Modifies Roughness output levels.
-  * **Metallic Roughness Influence**: *0.0 - 1.0*Determines influence of the optional Metallic input on Glossiness map.
-* **Ambient Occlusion**   
-  * **Ambient Occlusion In Diffuse**: *0.0 - 1.0*Blends in generated AO into Diffuse output.
-  * **Ambient Occlusion Spread**: *0.0 - 1.0*Sets how far generated AO spreads.
-  * **Ambient Occlusion Light Distance**: *0.0 - 1.0*Sets AO "depth" interpretation. Has less influence when there is a large Spread.
-  * **Ambient Occlusion Light Angle**: *0.0 - 1.0*Sets fake lighting AO cast angle. Can be used to compensate for any directional AO already in the Diffuse, if set to an opposite angle.
-  * **Ambient Occlusion Levels**: *0.0 - 1.0*Modifies AO output levels.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Channels</b> | Toggles material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness. |
+| <b>Global</b> |  |
+| <b>Depth Balance</b> <i>-1.0 - 1.0</i> | Sets a bias/shift for the Heightmap. |
+| <b>Diffuse</b> |  |
+| <b>Sharpen</b> <i>0.0 - 1.0</i> | Adds sharpening to the diffuse result. |
+| <b>Hue</b> <i>0.0 - 1.0</i> | Tints diffuse with a user-selected Hue shift. |
+| <b>Saturation</b> <i>0.0 - 1.0</i> | Modifies saturation of Diffuse result. |
+| <b>Brightness</b> <i>0.0 - 1.0</i> | Adjusts Diffuse result brightness. |
+| <b>Contrast</b> <i>-1.0 - 1.0</i> | Adjusts the contrast of the result. |
+| <b>Relief</b> | The Relief group controls both Normal and Height outputs. |
+| <b>Output Normal Format</b> <i>DirectX, OpenGL</i> | Switches between Normal formats (flips green). |
+| <b>Invert Generated Relief</b> <i>False/True</i> | Inverts interpretation of height. |
+| <b>Normal Strength</b> <i>0.0 - 20.0</i> | Sets strength of generated Normalmap. |
+| <b>Relief Equalizer</b> <i>0.0 - 1.0</i> | Sets conversion balances for different detail scales. |
+| <b>Pinch Intensity</b> <i>0.0 - 1.0</i> | Makes Normal transitions sharper. Effectively adds a sharpening filter before converting to normal, making the edges more pronounced. |
+| <b>Normal Sharpen</b> <i>0.0 - 1.0</i> | Sharpens Normalmap after conversion, brings out the details. |
+| <b>Normal Soften</b> <i>0.0 - 1.0</i> | Softens Normalmap after conversion, hides details. |
+| <b>Specular</b> |  |
+| <b>Specular Diffuse Influence</b> <i>0.0 - 1.0</i> | Sets influence of diffuse on Specular. Affects Glossiness and Roughness outputs as well. |
+| <b>Specular Saturation</b> <i>0.0 - 1.0</i> | Changes saturation for Specular output. |
+| <b>Specular Sharpen</b> <i>0.0 - 1.0</i> | Sharpens Specular output. |
+| <b>Specular Levels In</b> <i>0.0 - 1.0</i> | Sets input levels for Specular interpretation. |
+| <b>Specular Levels Out</b> <i>0.0 - 1.0</i> | Modifies output levels of Specular. |
+| <b>Metallic Specular Influence</b> <i>0.0 - 1.0</i> | Determines influence of the optional Metallic input on Specular map. |
+| <b>Glossiness</b> |  |
+| <b>Glossiness Levels In</b> <i>0.0 - 1.0</i> | Sets input levels for Glossiness interpretation. |
+| <b>Glossiness Levels Out</b> <i>0.0 - 1.0</i> | Modifies Glossiness output levels. |
+| <b>Metallic Glossiness Influence</b> <i>0.0 - 1.0</i> | Determines influence of the optional Metallic input on Glossiness map. |
+| <b>Roughness</b> |  |
+| <b>Roughness Levels In</b> <i>0.0 - 1.0</i> | Sets input levels for Roughness interpretation. |
+| <b>Roughness Levels Out</b> <i>0.0 - 1.0</i> | Modifies Roughness output levels. |
+| <b>Metallic Roughness Influence</b> <i>0.0 - 1.0</i> | Determines influence of the optional Metallic input on Glossiness map. |
+| <b>Ambient Occlusion</b> |  |
+| <b>Ambient Occlusion In Diffuse</b> <i>0.0 - 1.0</i> | Blends in generated AO into Diffuse output. |
+| <b>Ambient Occlusion Spread</b> <i>0.0 - 1.0</i> | Sets how far generated AO spreads. |
+| <b>Ambient Occlusion Light Distance</b> <i>0.0 - 1.0</i> | Sets AO "depth" interpretation. Has less influence when there is a large Spread. |
+| <b>Ambient Occlusion Light Angle</b> <i>0.0 - 1.0</i> | Sets fake lighting AO cast angle. Can be used to compensate for any directional AO already in the Diffuse, if set to an opposite angle. |
+| <b>Ambient Occlusion Levels</b> <i>0.0 - 1.0</i> | Modifies AO output levels. |

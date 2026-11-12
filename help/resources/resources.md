@@ -20,7 +20,7 @@ Resources are the content of Substance 3D Designer's packages. They are used to 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/graph-5.png)
+![](resources.resources/graph-5.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -40,7 +40,7 @@ Graph Resources are the main resources created inside Designer. Each have their 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/folder-4.png)
+![](resources.resources/folder-4.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -49,10 +49,10 @@ Graph Resources are the main resources created inside Designer. Each have their 
 
 Non Graph Resources are usually helper resources used as additional data in Graphs, or to help visualize results from Graphs. The following types exist, each have a subpage in this section of the docs:
 
-* [Bitmap](../resources/bitmap-resource/bitmap-resource.md)
-* [Vector Graphics (SVG)](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D scene resource](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [Font](../resources/font-resource/font-resource.md)
+* [Bitmap](bitmap-resource/bitmap-resource.md)
+* [Vector Graphics (SVG)](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [3D scene resource](3d-scene-resource/3d-scene-resource.md)
+* [Font](font-resource/font-resource.md)
 
 </td>
 </tr>

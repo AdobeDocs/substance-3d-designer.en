@@ -30,4 +30,4 @@ Check out these tutorials to get started:
 
 >[!TIP]
 >
-> We recommend learning about [working with Path and Spline tools](../../../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) to make the most of the toolset.
+> We recommend learning about [working with Path and Spline tools](../../../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) to make the most of the toolset.

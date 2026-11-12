@@ -14,11 +14,11 @@ user-guide-title: ""
 
 # Version 13.1
 
-<b>Substance 3D Designer 13.1</b> adds many quality-of-life improvements to the node graph, mainly regarding frames, to enhance the material creation experience. There is also the addition of AxF export which enables an interoperability workflow for users working with the AxF format. 
+<b>Substance 3D Designer 13.1</b> adds many quality-of-life improvements to the node graph, mainly regarding frames, to enhance the material creation experience. There is also the addition of AxF export which enables an interoperability workflow for users working with the AxF format. 
 
 *Release date: December 12, 2023*
 
-![Substance 3D Designer 13.1 banner](../../assets/24-library-hero-1920x620.png "Substance 3D Designer 13.1 banner")
+![Substance 3D Designer 13.1 banner](version-13-1.resources/24-library-hero-1920x620.png "Substance 3D Designer 13.1 banner")
 
 ## Frames improvements
 
@@ -26,21 +26,21 @@ Frames are a mandatory tool to keep you graph well organized and readable. That 
 
 ### Auto-expand
 
-As the graph grows, the frames' content may need to be rearranged. Nodes may shift to make room for additions or content may need to be spaced out more to promote readability. To facilitate these adjustments, it is now possible to automatically expand a frame when moving included objects: hold <b>Shift</b> at any point while moving an object to have the frame borders automatically adjust to keep that object within their bounds.
+As the graph grows, the frames' content may need to be rearranged. Nodes may shift to make room for additions or content may need to be spaced out more to promote readability. To facilitate these adjustments, it is now possible to automatically expand a frame when moving included objects: hold <b>Shift</b> at any point while moving an object to have the frame borders automatically adjust to keep that object within their bounds.
 
-![autoexpand](../../assets/autoexpand.gif)
+![autoexpand](version-13-1.resources/autoexpand.gif)
 
 ### Fit size to content
 
 As you make adjustments in your graph, a frame may not be gracefully adjusted to its content anymore. This new command allows you to automatically adjust the position and size of the frame so it adjusts to the span of its content, with a padding of one medium grid cell. If the frame has a description, it is adjusted to make use of any empty space next to the description, if possible.
 
-![fitsize](../../assets/fitsize.gif)
+![fitsize](version-13-1.resources/fitsize.gif)
 
 ### Enhanced descriptions
 
 Thanks to HTML code, you can now have formatted text in a frame's description. This applies to comments as well.
 
-![richtext](../../assets/description-3.png)
+![richtext](version-13-1.resources/description-3.png)
 
 ### <b>...And much more!</b>
 
@@ -58,7 +58,7 @@ A lot of things have been rethought, like belonging rules to be more tolerant, i
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF file icon](../../assets/axf-file-icon.png "AxF file icon")
+![AxF file icon](version-13-1.resources/axf-file-icon.png "AxF file icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -71,7 +71,7 @@ In this new release, we introduce the possibility to edit AxF materials in place
 </tr>
 </table>
 
-![Export AxF](../../assets/exportaxf.gif)
+![Export AxF](version-13-1.resources/exportaxf.gif)
 
 ## API
 

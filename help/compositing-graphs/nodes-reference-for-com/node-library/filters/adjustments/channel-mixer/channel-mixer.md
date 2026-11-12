@@ -16,36 +16,40 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/channel-mixer.png){width="128px"}
+![](channel-mixer.resources/channel-mixer.png){width="128px"}
 
-## Channel Mixer
-
-**In:** *Filters/Adjustments*
-
-**Simple**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Allows you to mix, swap and blend RGB channels. Can be used to swizzle channels around, do more accurate grayscale conversions and different kinds of packing.
 
-## Parameters
-
-* **Red Channel**: *-200.0 -* 200.0  
-  Determines how much of the input RGB channels go into the output Red channel.
-* **Green Channel**: *-200.0 - 200.0*  
-  Determines how much of the input RGB channels go into the output Green channel.
-* **Blue Channel**: *-200.0 - 200.0*Determines how much of the input RGB channels go into the output Blue channel.
-* **Monochrome**: *False/True*Output to monochrome. Allows for more precise grayscale conversion.
-
-## Example Images
-
-![](../../../../../../assets/channelmixer.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Red Channel</b> <i>-200.0 - 200.0</i> | Determines how much of the input RGB channels go into the output Red channel. |
+| <b>Green Channel</b> <i>-200.0 - 200.0</i> | Determines how much of the input RGB channels go into the output Green channel. |
+| <b>Blue Channel</b> <i>-200.0 - 200.0</i> | Determines how much of the input RGB channels go into the output Blue channel. |
+| <b>Monochrome</b> <i>False/True</i> | Output to monochrome. Allows for more precise grayscale conversion. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="channel-mixer.resources/channelmixer.gif" />
+        </td>
+    </tr>
 </table>

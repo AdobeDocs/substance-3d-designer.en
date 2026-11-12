@@ -16,22 +16,18 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Fractal sum 1 - Icon](../../../../../../assets/fractal_sum_1.png "Fractal sum 1 - Icon"){width="200px"}
+![Fractal sum 1 - Icon](fractal-sum-1.resources/fractal_sum_1.png "Fractal sum 1 - Icon"){width="200px"}
 
-<b>In:</b> Texture generators &gt; Noises
+<b>In:</b> Texture generators &gt; Noises
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
-A variation of the <b>Fractal sum</b> noises.
+A variation of the <b>Fractal sum</b> noises.
 
 See also: [Fractal sum base](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md), [Fractal sum 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md), [Fractal sum 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-3/fractal-sum-3.md), [Fractal sum 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
 
@@ -39,67 +35,34 @@ See also: [Fractal sum base](../../../../../../compositing-graphs/nodes-referenc
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### Outputs
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## Outputs
 
 |  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* | The generated noise as a grayscale bitmap. |
+|:---|:---|
+| <b>Output</b> <i>Grayscale</i> | The generated noise as a grayscale bitmap. |
+
+<a name="parameters"></a>
 
 ## Parameters
 
 |  |  |
-| --- | --- |
-| <b>Disorder</b>  Float | Displaces the ingredients of the noise.    This can be used to animate the noise. |
-| <b>Disorder speed</b>  Float | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
-| <b>Non-square expansion</b>  Boolean | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
+|:---|:---|
+| <b>Disorder</b> <i>Float</i> | Displaces the ingredients of the noise.    This can be used to animate the noise. |
+| <b>Disorder speed</b> <i>Float</i> | Adjusts the distance of displacement applied by the <b>Disorder</b> parameter.    This can be used to control the speed of displacement when animating the noise. |
+| <b>Non-square expansion</b> <i>Boolean</i> | In non-square images, keeps the generated tile square and expands the noise generation to the image's bounds. |
 
 ## Examples
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![Fractal sum 1 - Example 1](../../../../../../assets/fractal_sum_1_1.png "Fractal sum 1 - Example 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![Fractal sum 1 - Example 2](../../../../../../assets/noise_fractal_sum_1_v2_speed0.6_aniso0.gif "Fractal sum 1 - Example 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="fractal-sum-1.resources/fractal_sum_1_1.png" class="modal-image" alt="Fractal sum 1 - Example 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="fractal-sum-1.resources/noise_fractal_sum_1_v2_speed0.6_aniso0.gif" class="modal-image" alt="Fractal sum 1 - Example 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

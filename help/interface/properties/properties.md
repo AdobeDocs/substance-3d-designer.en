@@ -27,7 +27,7 @@ The <b>Properties </b>panel is a context-sensitive panel that changes based on y
 </td>
 <td style="border: 0;" valign="top">
 
-![Properties dock](../../assets/image2020-11-9-13-49-48.png "Properties dock")
+![Properties dock](properties.resources/image2020-11-9-13-49-48.png "Properties dock")
 
 </td>
 </tr>
@@ -49,19 +49,19 @@ A key feature of the Substance Ecosystem, [Exposing parameters](../../compositin
 
 ## Nodes &amp; Substance graphs
 
-[Nodes](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) and [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) have a slightly overlapping set of property categories, and their functionality is similar.
+Nodes and [Substance graphs](../../compositing-graphs/substance-compositing-graphs.md) have a slightly overlapping set of property categories, and their functionality is similar.
 
 <b>Base Parameters</b> and <b>Attributes</b> are identical between Nodes and Graphs.
 
-Nodes offer <b>Specific Parameters</b> or<b> Instance Parameters</b> (depending on if they are [Atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) or [Instances](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), as well as <b>Input Values</b> for working with [Values in Substance graphs](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html).
+Nodes offer <b>Specific Parameters</b> or<b> Instance Parameters</b> (depending on if they are [Atomic nodes](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) or [Instances](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)), as well as <b>Input Values</b> for working with [values](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md).
 
-[Input ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)and [Output ](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)atomic nodes are exceptions as they feature <b>Integration Attributes</b> and <b>Conditions</b> for visiblity. These two sets of properties can also be accessed centrally in the Graph properties, under Inputs and Outputs.
+[Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) and [Output](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) atomic nodes are exceptions as they feature <b>Integration Attributes</b> and <b>Conditions</b> for visiblity. These two sets of properties can also be accessed centrally in the Graph properties, under Inputs and Outputs.
 
 Graphs have a few extra categories. <b>Input Parameters</b> lists [exposed parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md), <b>Inputs</b> and <b>Outputs</b> list all properties of Input and Output nodes. [You can find all Graph properties explained in detail on a dedicated page.](../../compositing-graphs/graph-parameters/graph-parameters.md)
 
 ## Resources &amp; Packages
 
-The Properties panel also responds to selection changes in the [Explorer window](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). It can serve as another way of selecting a Graph (instead of double clicking an empty area), and also lets you change Package and [Resource ](../../resources/resources.md)properties.
+The Properties panel also responds to selection changes in the [Explorer](../the-explorer-window/the-explorer-window.md). It can serve as another way of selecting a Graph (instead of double clicking an empty area), and also lets you change Package and [Resource ](../../resources/resources.md)properties.
 
 Packages have **Information**, **Attributes** and **Metadata** sections. [The package metadata is described on a dedicated page.](../../package-metadata/package-metadata.md)
 

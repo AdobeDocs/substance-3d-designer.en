@@ -20,9 +20,9 @@ The category gets its name from the fact that baked maps are the only way for De
 
 There are three main categories:
 
-* [Mask Generators](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)  
+* [Mask Generators](mask-generators/mask-generators.md)  
   Black-and-white mask generators based on one or more baked maps.
-* [Weathering](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)  
+* [Weathering](weathering/weathering.md)
   Full-material weathering effects based on baked maps.
-* [Utilities](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)  
+* [Utilities](utilities-mesh-based-gen/utilities-mesh-based-generators.md)  
   Extra utilities and tools to work with bakes.

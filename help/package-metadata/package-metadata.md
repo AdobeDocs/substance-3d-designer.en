@@ -22,34 +22,34 @@ If you are developing a Python plugin, you may want to edit metadata manually fo
 
 1. If you double-click on a package in the explorer, it opens the Properties panel on this package.
 
-   ![Package metadata](../assets/empty.png "Package metadata")
+   ![Package metadata](package-metadata.resources/empty.png "Package metadata")
 1. Here you have a dedicated section "Metadata". It is likely to be empty in your case, like in the capture above.
 
    You can add a new metadata by using the "plus" button.
 
-   ![Add metadata button](../assets/hoveradd.png "Add metadata button")
+   ![Add metadata button](package-metadata.resources/hoveradd.png "Add metadata button")
 1. A new item appears in the section:
 
-   ![New metadata](../assets/newitem-1.png "New metadata")
+   ![New metadata](package-metadata.resources/newitem-1.png "New metadata")
 1. There is a "Key" field and a "Value" field. Both can be set to anything that suits your need. The "Key" field must have a unique value across the list.
 
-   ![New metadata value](../assets/newitemfilled.png "New metadata value")
+   ![New metadata value](package-metadata.resources/newitemfilled.png "New metadata value")
 1. You can also choose the "Type" of the item. At the moment it can be "String" or "URL":
 
-   ![Change metadata type](../assets/typecombo.png "Change metadata type")
+   ![Change metadata type](package-metadata.resources/typecombo.png "Change metadata type")
 1. Here "URL" means a reference to a resource included in the package. To do so, choose a file on your hard drive, and drag-and-drop it on the package in the Explorer. It can be a regular resource, like an image, or any other file, like a text file.
 
-   ![Generic resource in package](../assets/resourceinpackage.png "Generic resource in package")
+   ![Generic resource in package](package-metadata.resources/resourceinpackage.png "Generic resource in package")
 1. The file appears as a new resource in the package.
 
    Now go back to the package Properties panel, create a new metadata, give it a proper key, and choose "URL" as type. Then select the "..." button in the "Value" field, and choose "From Resource". Finally, pick the file you included just before, and validate:
 
-   ![URL metadata](../assets/urlmetadata.gif "URL metadata")
+   ![URL metadata](package-metadata.resources/urlmetadata.gif "URL metadata")
 1. Now you can see the "URL" of the resource is stored in the "Value" field.
 
    You can also delete metadata using the "X" button to the right of the item:
 
-   ![Delete metadata](../assets/hoverdelete.png "Delete metadata")
+   ![Delete metadata](package-metadata.resources/hoverdelete.png "Delete metadata")
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ In some scenarios, you may want to retrieve the metadata you defined on a packag
 
 The metadata is stored according to the JSON format in a file named /assemblies/content/0000/metadata.json (the path is relative to the root of the .sbsar archive).
 
-Regular (string) metadata is stored as is, e.g. "key": "stringValue", one per line. Again, the original order of the various keys is not retained, and is implementation defined. Never rely on the ordering in your process, as with regular Python dicts!
+Regular (string) metadata is stored as is, e.g. "key": "stringValue", one per line. Again, the original order of the various keys is not retained, and is implementation defined. Never rely on the ordering in your process, as with regular Python dicts!
 
 As the aim of URL metadata is to allow users and plugins to include foreign files in the .sbsar archive, they are subject to a specific transformation: First, the file of the resource matching the stored URL is copied in to the archive in an implementation defined location (usually in a numbered subfolder, which will contain only this file. The point is to avoid name conflict.) The file will retain its original name (the name of the resource is discarded at this point). Then instead of the original URL in the metadata.json, the path to the copied file in the archive relative to the metadata.json is written.
 

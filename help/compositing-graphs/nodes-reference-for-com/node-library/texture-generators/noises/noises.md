@@ -26,7 +26,7 @@ There are 3 different use groups inside the Noises category:
 * Grunge maps are compound noises with much more depth and details than standard noises, at the cost of a much slower computation speed.
 * 3D noises that require at least a baked position map from a mesh, they are intended for very specific use cases.
 
-Use the <b>navigation list on the left</b> to browse all nodes under Noises.
+Use the <b>navigation list on the left</b> to browse all nodes under Noises.
 
 Some good noises to start with:
 

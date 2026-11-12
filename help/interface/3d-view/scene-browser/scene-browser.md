@@ -16,33 +16,13 @@ user-guide-title: ""
 
 The 3D view's scene browser lists all elements in the scene and their hierarchy.
 
-It offers controls for selecting objects, toggling their visibility as well as selecting which material should [override a scene material](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md).
+It offers controls for selecting objects, toggling their visibility as well as selecting which material should [override a scene material](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md).
 
-As Designer uses [USD](https://openusd.org/release/index.html) for describing and managing its scenes, its terminology  and concepts are found in that scene tree.
+As Designer uses [USD](https://openusd.org/release/index.html) for describing and managing its scenes, its terminology  and concepts are found in that scene tree.
 
-It is displayed by clicking its dedicated toggle button ![](../../../assets/sceneBrowser-toggleButton.png) in the [3D view scene toolbar](../../../interface/3d-view/3d-view.md).
+It is displayed by clicking its dedicated toggle button ![](scene-browser.resources/sceneBrowser-toggleButton.png) in the [3D view scene toolbar](../../../interface/3d-view/3d-view.md).
 
-![Scene browser - Loaded 3D scene](../../../assets/loaded3DScene.png "Scene browser - Loaded 3D scene"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Scene tree
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Toggling objects in the scene
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Connected materials
-
-</td>
-</tr>
-</table>
+![Scene browser - Loaded 3D scene](scene-browser.resources/loaded3DScene.png "Scene browser - Loaded 3D scene"){zoomable="yes"}
 
 ## Scene tree
 
@@ -54,10 +34,12 @@ The scene browser displays a list of objects arranged in a hierarchical tree.
 
 Objects are parented to other objects, up to the scene's root. A parent object has an arrow button which is used to expand or collapse the list of its children.
 
+Some objects have properties that can be displayed and edited in the [Properties](../../../interface/properties/properties.md) dock when selected: Environment, camera, lights, `Mesh` objects and material [overrides](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scene browser - Scene tree](../../../assets/sceneBrowser-sceneTree.png "Scene browser - Scene tree"){zoomable="yes"}
+![Scene browser - Scene tree](scene-browser.resources/sceneBrowser-sceneTree.png "Scene browser - Scene tree"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,7 +68,7 @@ These objects are included in the scene when [exported](../../../learning-tutori
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Scene browser - Objects added by Designer listed in bold](../../../assets/sceneBrowser-addedByDesigner.png "Scene browser - Objects added by Designer listed in bold"){zoomable="yes"}
+![Scene browser - Objects added by Designer listed in bold](scene-browser.resources/sceneBrowser-addedByDesigner.png "Scene browser - Objects added by Designer listed in bold"){zoomable="yes"}
 
 </td>
 </tr>
@@ -105,7 +87,7 @@ Any object can be enabled and disabled in the scene. When disabled, an object no
 
 The state of a parent object carries over to its children, so disabling a parent object also disables its children.
 
-The visibility of an object can be toggled by clicking its eye button ![](../../../assets/sceneBrowser-eyeButton.png) or from its contextual menu. The menu offers a few more actions for managing the visibility of scene objects:
+The visibility of an object can be toggled by clicking its eye button ![](scene-browser.resources/sceneBrowser-eyeButton.png) or from its contextual menu. The menu offers a few more actions for managing the visibility of scene objects:
 
 * <b>Hide:</b> Disable the selected object.
 * <b>Show:</b> Enable the selected object.
@@ -120,9 +102,9 @@ Parent objects have these additional actions:
 * <b>Hide children:</b> Disable all children of the selected object, recursively.
 * <b>Show children:</b> Enable all children of the selected object, recursively.
 * <b>Expand all children:</b> Expand all lists of children under the selected object, recursively.
-* <b>Collapse all children:</b> Collapse all lists of children under the selected object, recursively.
+* <b>Collapse all children:</b> Collapse all lists of children under the selected object, recursively.
 
-![Scene browser - Toggling object visibility](../../../assets/sceneBrowser-toggleVisibility.gif "Scene browser - Toggling object visibility"){zoomable="yes"}
+![Scene browser - Toggling object visibility](scene-browser.resources/sceneBrowser-toggleVisibility.gif "Scene browser - Toggling object visibility"){zoomable="yes"}
 
 ### Environments
 
@@ -132,13 +114,13 @@ When an environment light is disabled, its lighting contribution to the scene is
 
 If more than one environment lights are enabled, their lighting contributions are *added cumulatively*.
 
-![Scene browser - Toggling environment visibility](../../../assets/sceneBrowser-toggleEnvLights.gif "Scene browser - Toggling environment visibility"){zoomable="yes"}
+![Scene browser - Toggling environment visibility](scene-browser.resources/sceneBrowser-toggleEnvLights.gif "Scene browser - Toggling environment visibility"){zoomable="yes"}
 
 ### Lights
 
 The same goes for any lights in the scene: each can be toggled individually.
 
-![Scene browser - Toggling light visibility](../../../assets/sceneBrowser-toggleLights.gif "Scene browser - Toggling light visibility"){zoomable="yes"}
+![Scene browser - Toggling light visibility](scene-browser.resources/sceneBrowser-toggleLights.gif "Scene browser - Toggling light visibility"){zoomable="yes"}
 
 ## Connected materials
 
@@ -157,7 +139,7 @@ An overridden material offers an additional item in its contextual menu: the '[C
 </td>
 <td style="border: 0;" valign="top">
 
-![Scene browser - Connected material](../../../assets/sceneBrowser-connectedMaterial.png "Scene browser - Connected material"){zoomable="yes"}
+![Scene browser - Connected material](scene-browser.resources/sceneBrowser-connectedMaterial.png "Scene browser - Connected material"){zoomable="yes"}
 
 </td>
 </tr>

@@ -16,33 +16,29 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/chrominance-extract.png)
+![](chrominance-extract.resources/chrominance-extract.png)
 
-## Chrominance Extract
-
-**In:** *Filters/Adjustments*
-
-**Simple**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Extracts the Chrominance value from the input. The result has luminance stripped away.
 
-## Parameters
-
-*No parameters.*
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/chrominance-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="chrominance-extract.resources/chrominance-example.png" />
+        </td>
+    </tr>
 </table>

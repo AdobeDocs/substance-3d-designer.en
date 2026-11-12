@@ -29,7 +29,7 @@ The Explorer is where you start and end your projects, as it lets you create, sa
 </td>
 <td style="border: 0;" valign="top">
 
-![Explorer dock](../../assets/explorer-3.jpg "Explorer dock")
+![Explorer dock](the-explorer-window.resources/explorer-3.jpg "Explorer dock")
 
 </td>
 </tr>
@@ -42,24 +42,24 @@ You can do a few important actions through the Explorer dock:
 * Save and close loaded packages
 * [Import and link resources](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * [Export graph results to textures](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
-* [Publish a package to a Substance 3D asset (SBSAR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
-* [Send packages to other Substance 3D applications](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
+* [Publish a package to a Substance 3D asset (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
+* [Send packages to other Substance 3D applications](send-to-interoperability/send-to-interoperability.md)
 * [Bake maps from a mesh](../../bakers/bakers.md)
 
 ## Top toolbar
 
 This toolbar lets you quickly perform functions related to your overall workflow. All buttons are *context-aware*, which means they activate and change their behaviour based on your current selection in the Explorer.
 
-![](../../assets/save.png)&nbsp;&nbsp;<b>Save</b> selected package.
+![](the-explorer-window.resources/save.png)&nbsp;&nbsp;<b>Save</b> selected package.
 
-![](../../assets/sendto-icon.jpg)&nbsp;&nbsp;<b>Publish or [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> selected element(s):
+![](the-explorer-window.resources/sendto-icon.jpg)&nbsp;&nbsp;<b>Publish or [send](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> selected element(s):
 
 * [Publish any selected package to a Substance 3D asset (SBSAR)](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md);
 * Send the selected package to [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) or [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html).
 
-![](../../assets/republish.png)&nbsp;&nbsp;<b>Publish or send as previous:</b> Publish or send the selected elements with the same settings as before. This option is only available on a package that has already been published *at least once* in the *current* session.
+![](the-explorer-window.resources/republish.png)&nbsp;&nbsp;<b>Publish or send as previous:</b> Publish or send the selected elements with the same settings as before. This option is only available on a package that has already been published *at least once* in the *current* session.
 
-![](../../assets/graph-cleaner.jpg)&nbsp;&nbsp;<b>Remove unused nodes</b> in selected graph(s). The tool follows these rules:
+![](the-explorer-window.resources/graph-cleaner.jpg)&nbsp;&nbsp;<b>Remove unused nodes</b> in selected graph(s). The tool follows these rules:
 
 * The tool is only available if selected items are of the *same type*: only graphs, folders or packages;
 * When the selection includes folders or packages, the tool cleans all graphs therein *recursively*;
@@ -71,14 +71,14 @@ Learn more about the tool in the 'Remove unused nodes' section of the [Graph vie
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Publish/Send dropdown menu](../../assets/explorer-sendto-displayed.jpg "Publish/Send dropdown menu")
+![Publish/Send dropdown menu](the-explorer-window.resources/explorer-sendto-displayed.jpg "Publish/Send dropdown menu")
 
 *Publish/Send*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Remove unused nodes drop down menu](../../assets/explorer-graph-cleaner.jpg "Remove unused nodes drop down menu")
+![Remove unused nodes drop down menu](the-explorer-window.resources/explorer-graph-cleaner.jpg "Remove unused nodes drop down menu")
 
 *Remove unused nodes*
 
@@ -110,11 +110,11 @@ Empty space is only available below any currently open Packages. Clicking next t
 
 <b>Reload</b>, <b>Save, Save as</b> and<b> Save a copy as</b> let you save to disk or recall from disk a previously saved version of the package.
 
-<b>Publish .sbsar file</b> and<b> Republish .sbsar file</b> let you [Publish your uncompiled, unoptimized Substance  graph, into an efficient and portable SBSAR file for us in other Substance applications and Integrations](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html). Publish as Previous repeats the previous Publish action with the same options, skipping the options dialog for faster iteration. The toolbar contains buttons with the same functionality.
+<b>Publish .sbsar file</b> and<b> Republish .sbsar file</b> let you [publish](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) your uncompiled, unoptimized Substance graph, into an efficient and portable SBSAR file for us in other Substance applications and Integrations. Publish as Previous repeats the previous Publish action with the same options, skipping the options dialog for faster iteration. The toolbar contains buttons with the same functionality.
 
 <b>Export with dependencies</b> is different from saving and publishing. It takes your SBS files, collects all referenced resources and dependencies and creates a self-contained package. The dialog lets you choose what libraries to gather, and if the file should be a compressed archive (7-zip). This is a good choice for sharing an SBS file with someone else, without worrying about missing dependencies.
 
-<b>Send to...</b> opens a sub-menu letting you directly [send your package](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) to [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) or [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
+<b>Send to...</b> opens a sub-menu letting you directly [send](send-to-interoperability/send-to-interoperability.md) your package to [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html), [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html), [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) or [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html).
 
 <b>Copy</b> copies the selected package.
 
@@ -194,9 +194,9 @@ Empty space is only available below any currently open Packages. Clicking next t
 
 The toolbar at the bottom of the Explorer dock provides information about a package or a package resource:
 
-<b>![](../../assets/explorer-dependencies.jpg)&nbsp;&nbsp;Dependencies:</b> When a package is selected, its package dependencies are listed in a dedicated panel.
+<b>![](the-explorer-window.resources/explorer-dependencies.jpg)&nbsp;&nbsp;Dependencies:</b> When a package is selected, its package dependencies are listed in a dedicated panel.
 
-<b>![](../../assets/explorer-information.jpg)&nbsp;&nbsp;Information:</b> Provides metadata related to the package or resource currently selected:
+<b>![](the-explorer-window.resources/explorer-information.jpg)&nbsp;&nbsp;Information:</b> Provides metadata related to the package or resource currently selected:
 
 * Package: the full filepath of the package
 * [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md): the full filepath of the resource, its [ICC profile](../../color-management/color-management.md), image size and [import method](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) (I.e., *linked* or *imported*)
@@ -205,14 +205,14 @@ The toolbar at the bottom of the Explorer dock provides information about a pack
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Dependencies panel](../../assets/explorer-dependencies-displayed.jpg "Dependencies panel")
+![Dependencies panel](the-explorer-window.resources/explorer-dependencies-displayed.jpg "Dependencies panel")
 
 *Dependencies*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Information panel](../../assets/explorer-information-displayed.jpg "Information panel")
+![Information panel](the-explorer-window.resources/explorer-information-displayed.jpg "Information panel")
 
 *Information*
 

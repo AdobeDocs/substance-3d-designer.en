@@ -16,79 +16,46 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Grayscale conversion](../../../../assets/comp_grayscaleconversion_1.png "Atomic node: Grayscale conversion"){width="200px"}
+![Atomic node: Grayscale conversion](grayscale-conversion.resources/comp_grayscaleconversion_1.png "Atomic node: Grayscale conversion"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Converts a color image to grayscale by weighing the luminance of each color channel.
 
-This node may be used as an optimised method to extract a grayscale channel out of a color image, by setting all 'Channel weights' values to 0 except the desired channel, which should be set to 1.
+This node may be used as an optimised method to extract a grayscale channel out of a color image, by setting all 'Channel weights' values to 0 except the desired channel, which should be set to 1.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="grayscale-conversion tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
 Most nodes can be set to output in either grayscale or color, where the former is preferred for simplicity and performance reasons.
 
-Indeed, it is recommended to work in grayscale from the outset and colorize images later in your workflow, using for instance a [Gradient map](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) node.
+Indeed, it is recommended to work in grayscale from the outset and colorize images later in your workflow, using for instance a [Gradient map](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) node.
 
 This means that a grayscale conversion node is generally only reserved for cases where you specifically want to convert a color image to grayscale. In those cases also take a look at [Grayscale conversion advanced](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md) and [Color to mask](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-to-mask/color-to-mask.md).
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Input connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
 |  |  |
 | --- | --- |
-| <b>Channel weights</b> *Float4* | Sets the weight of each of the RGBA channels in the grayscale conversion.   By default, an even split is done across the RGB channels. |
-| <b>Flatten alpha</b> *Boolean* | Sets the behaviour of the Alpha on the final grayscale result, as grayscale values cannot contain Alpha information.   When *True*, the grayscale conversion is multiplied against the input image's Alpha channel |
-| <b>Background value</b> *Float* | Sets the base background value when the input has an alpha mask. I.e., determines which pixels are to be treated as transparent.   *Available when 'Flatten alpha' is set to 'True'.* |
+| <b>Channel weights</b> *Float4* | Sets the weight of each of the RGBA channels in the grayscale conversion.   By default, an even split is done across the RGB channels. |
+| <b>Flatten alpha</b> *Boolean* | Sets the behaviour of the Alpha on the final grayscale result, as grayscale values cannot contain Alpha information.   When *True*, the grayscale conversion is multiplied against the input image's Alpha channel |
+| <b>Background value</b> *Float* | Sets the base background value when the input has an alpha mask. I.e., determines which pixels are to be treated as transparent.   *Available when 'Flatten alpha' is set to 'True'.* |
 
 ## Input connectors
 
@@ -96,11 +63,6 @@ This means that a grayscale conversion node is generally only reserved for cases
 | --- | --- |
 | <b>Input</b> *Color* PRIMARY | The color image to be processed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale* |  |
 
 ## Examples
 

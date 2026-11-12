@@ -18,14 +18,14 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Navigation pin icon](../../../../assets/graphatomic-pin_1.png "Navigation pin icon")
+![Navigation pin icon](navigation-pin.resources/graphatomic-pin_1.png "Navigation pin icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 A Pin is a helper that lets you quickly jump across specific locations in graphs.
 
-You may set a custom label using their <b>Description</b> property.
+You may set a custom label using their <b>Description</b> property.
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ If a keyboard shortcut is mapped to the 'Pin' item in the [Preferences](../../..
 +++
 
 +++Contextual menu
-In the Graph View, press <b>RMB</b> in empty space and select the <b>Add Pin</b> option.
+In the Graph View, press <b>RMB</b> in empty space and select the <b>Add Pin</b> option.
 
 +++
 
@@ -58,7 +58,7 @@ In the Graph View toolbar, click the 'Pin' button in the <b>Node Palette</b>.
 +++
 
 +++Library
-In the Library, select the <b>Graph Items</b> category then drag and drop the 'Pin' item into the Graph View.
+In the Library, select the <b>Graph Items</b> category then drag and drop the 'Pin' item into the Graph View.
 
 +++
 
@@ -68,8 +68,8 @@ In the Library, select the <b>Graph Items</b> category then drag and drop the 
 
 ## Jumping to pins
 
-In any graph type, pressing the <b>F2</b> cycles through all pins in that graph in order of creation.
+In any graph type, pressing the <b>F2</b> cycles through all pins in that graph in order of creation.
 
 Pins will be framed in the viewport at the current zoom level.
 
-![Pins: Jumping to pins](../../../../assets/graph-pin_jumping.gif "Pins: Jumping to pins")
+![Pins: Jumping to pins](navigation-pin.resources/graph-pin_jumping.gif "Pins: Jumping to pins")

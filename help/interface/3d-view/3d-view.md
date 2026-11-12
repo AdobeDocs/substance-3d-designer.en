@@ -22,11 +22,17 @@ The 3D view also provides two main methods of rendering materials in 3D scenes:
 
 Learn more here: [3D renderers](3d-renderers/3d-renderers.md)
 
++++ The 3D view dock
+
+![3d-view.png](3d-view.resources/3d-view.png)
+
++++
+
 ## Viewport interactions
 
 The section below explains you how to do common actions in short, along with an animated gif to illustrate the process.
 
-![Viewport navigation](../../assets/3d-navigate.gif "Viewport navigation")
+![Viewport navigation](3d-view.resources/3d-navigate.gif "Viewport navigation")
 
 ### Navigation
 
@@ -72,11 +78,11 @@ You can interact with meshes directly in the viewport:
 
 <b>Press Escape to unselect.</b> The cursor does not need to be on the mesh.
 
-![3D View - Focus and unselect](../../assets/sceneBrowser-focus.gif "3D View - Focus and unselect"){zoomable="yes"}
+![3D View - Focus and unselect](3d-view.resources/sceneBrowser-focus.gif "3D View - Focus and unselect"){zoomable="yes"}
 
 *Select, focus, unselect*
 
-![3D View - Contextual menu](../../assets/sceneBrowser-contextualMenu.gif "3D View - Contextual menu"){zoomable="yes"}
+![3D View - Contextual menu](3d-view.resources/sceneBrowser-contextualMenu.gif "3D View - Contextual menu"){zoomable="yes"}
 
 *Select, contextual menu*
 
@@ -102,13 +108,13 @@ To use your own, custom HDR light environment, import an HDR image by dragging a
 
 Go to <b>Lights &gt; Edit properties</b> to toggle point lights in your scene.
 
-Point light 1 can be moved around the scene's origin by holding LMB or RMB and dragging in the viewport in Lighting mode. <img src="../../assets/image2020-9-17-10-30-37.png" width=24 />
+Point light 1 can be moved around the scene's origin by holding LMB or RMB and dragging in the viewport in Lighting mode. <img src="3d-view.resources/image2020-9-17-10-30-37.png" width=24 />
 
-While in Camera mode <img src="../../assets/image2020-9-17-10-31-32.png" width=24 /> , you can also temporarily switch to Lighting mode by hold the Ctrl+⇧ keys in combination with the mouse buttons.
+While in Camera mode <img src="3d-view.resources/image2020-9-17-10-31-32.png" width=24 /> , you can also temporarily switch to Lighting mode by hold the Ctrl+⇧ keys in combination with the mouse buttons.
 
 ## View data in 3D View
 
-![View Substance graph outputs](../../assets/3d-material.gif "View Substance graph outputs")
+![View Substance graph outputs](3d-view.resources/3d-material.gif "View Substance graph outputs")
 
 ### Substance graphs
 
@@ -116,9 +122,9 @@ You can view entire materials as a complete material in the 3D View. This is the
 
 You view all of a graph's outputs by clicking *RMB* an emtpy area in the [Graph view](../../interface/the-graph-view/the-graph-view.md), and choosing the **View Outputs in 3D View** option in the contextual menu.
 
-You can also view a graph's outputs without having to open it, by clicking RMB on a graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock and choosing the **View Outputs in 3D View** option in the contextual menu.
+You can also view a graph's outputs without having to open it, by clicking RMB on a graph resource in the [Explorer](../the-explorer-window/the-explorer-window.md) dock and choosing the **View Outputs in 3D View** option in the contextual menu.
 
-As an alternative to the graph's contextual menu, you can achieve the same result by dragging the graph from the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock to the [3D View](https://substance3d.adobe.com/).
+As an alternative to the graph's contextual menu, you can achieve the same result by dragging the graph from the [Explorer](../the-explorer-window/the-explorer-window.md) dock to the 3D View.
 
 When *loading a graph*, its outputs are automatically applied in the 3D View by default. You can disable this behaviour in the [Preferences](../../interface/preferences-window/preferences-window.md). Go to **Edit &gt; Preferences &gt; Graph &gt; Common** and uncheck the **View outputs in 3D view when opening a graph** option.
 
@@ -128,7 +134,7 @@ When *loading a graph*, its outputs are automatically applied in the 3D View by 
 > 
 > If you use custom meshes with more than one single material, you'll be asked to choose what material slot to assign the material to. With any of the above methods, click a slot to confirm your choice. For more information on Materials an their assignment, read the detailed section below.
 
-![Viewing node vs graph outputs in 3D View](../../assets/3d-channel.gif "Viewing node vs graph outputs in 3D View")
+![Viewing node vs graph outputs in 3D View](3d-view.resources/3d-channel.gif "Viewing node vs graph outputs in 3D View")
 
 ### Individual node/graph output
 
@@ -138,9 +144,9 @@ You can view any node, not just output nodes, by right clicking it in the [Graph
 
 You can also use *RMB* to drag and drop any node from the Graph view to the 3D View. You'll be shown a list with available channels to assign the node to. Click any to confirm.
 
-You can view any individual graph output by expanding the graph resource in the [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock, and using *LMB* to drag that output to the 3D View. You will be shown a list with available channels to assign the node to. Click any to confirm.
+You can view any individual graph output by expanding the graph resource in the [Explorer](../the-explorer-window/the-explorer-window.md) dock, and using *LMB* to drag that output to the 3D View. You will be shown a list with available channels to assign the node to. Click any to confirm.
 
-![Viewing custom 3D meshes](../../assets/3d-mesh.gif "Viewing custom 3D meshes")
+![Viewing custom 3D meshes](3d-view.resources/3d-mesh.gif "Viewing custom 3D meshes")
 
 ## View (custom) 3D scenes
 
@@ -149,7 +155,7 @@ Pick any of the default meshes through the <b>Scene</b> dropdown menu in the top
 
 For custom 3D scenes, go to the [Working with 3D scenes](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) section.
 
-![Changing material properties](../../assets/3d-materials.gif "Changing material properties")
+![Changing material properties](3d-view.resources/3d-materials.gif "Changing material properties")
 
 ## Change shader properties
 
@@ -157,22 +163,23 @@ There are a few different [shaders](../../learning-tutorials/essentials/glossary
 
 Keep in mind shaders are different across Designer's [3D renderers](../../interface/3d-view/3d-renderers/3d-renderers.md) and only settings marked with a 'Common' label will carry over when switching renderers.
 
-To change the current shader, go to<b> &#39;</b>Materials' menu then open the submenu for the material you wish to edit.
+To change the current shader, go to **Materials** menu then open the submenu for the material you wish to edit.
 
-For example, to adjust the 'Height scale' property for the 'Default' material in the 'Plane (hi-res)' scene, go to 'Materials &gt; Default &gt; Edit properties'. Then find the 'Height scale' property in the Properties dock.
+For example, to adjust the a material property for the '`Default`' material in the 'Plane (hi-res)' scene, go to **Materials > Default > Edit properties**. Then find the material property in the Properties dock.
 
 Shaders can be reset using the 'Reset material' or 'Reset to scene state' actions in the submenu. If you were viewing Substance graph outputs in the 3D view, you will need to reapply them again.
 
 >[!NOTE]
 >
-> About tessellation
+> **About tessellation**
 > 
-> The 'Tessellation factor' property varies according to the selected 3D renderer:
+> The tessellation of a mesh can be adjusted using the **Tessellation factor** parameter in the [Displacement pop-up](displacement/displacement.md#tessellation).
+> The specific property being controlled by that parameter varies according to the current 3D renderer:
 > 
-> * <b>Rasterizer/GPU Pathtracer:</b> Located in the renderer settings (Renderer &gt; Edit settings), impacts the *entire scene*.
-> * <b>OpenGL:</b> Located in the material properties, impacts the material.
+> * **Rasterizer/GPU Pathtracer:** Per-object property named **Refine level**. Select a `Mesh` object in the [Scene browser](scene-browser/scene-browser.md) to display its properties and edit directly.
+> * **OpenGL:** Per-material property named **Tessellation factor**. Go to the [material properties](#change-shader-properties) to edit it directly.
 
-![Exporting the scene](../../assets/3d-view-export-scene.gif "Exporting the scene")
+![Exporting the scene](3d-view.resources/3d-view-export-scene.gif "Exporting the scene")
 
 ## Export scene
 
@@ -218,7 +225,7 @@ The menu bar provides 7 menus with options related to the 3D View. below is an o
 +++Scene
 The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D view states. 3D Resource sare just the mesh, Scene states are lights, camera, and related settings, and can also contain the mesh alongside.
 
-![Scene menu meshes](../../assets/3d-view-meshes.png "Scene menu meshes")
+![Scene menu meshes](3d-view.resources/3d-view-meshes.png "Scene menu meshes")
 
 
 
@@ -254,7 +261,7 @@ The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D vi
 
 * Torus
 
-<b>Display UV&#39;s in 2D View:</b> Enables the display of the UVs for the currently selected mesh as an overlay in [the 2D View](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) .
+<b>Display UV&#39;s in 2D View:</b> Enables the display of the UVs for the currently selected mesh as an overlay in the [2D View](../2d-view/2d-view.md).
 
 <b>Create 3D resource from current scene...:</b> Creates a new [3D scene resource](../../resources/3d-scene-resource/3d-scene-resource.md) in a package out of the current scene.
 
@@ -514,25 +521,25 @@ Toggles display of the 3D axis in the viewport.
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg) <b>Backface culling</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg) <b>Backface culling</b>
 
 Disabling this option lets you see a mesh face from *both sides*. The option works in combination with Wireframe.
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg) <b>Bounding Box</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg) <b>Bounding Box</b>
 
 Toggles display of the mesh' bounding box.
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg) <b>Vertex tangent space</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg) <b>Vertex tangent space</b>
 
 Displays the tangent, binormal and normal vectors for all vertices as colored gizmos.
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg) <b>Wireframe</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg) <b>Wireframe</b>
 
 Toggles display of the mesh as a wireframe.
 
@@ -542,11 +549,27 @@ The <b>Display</b> toolbar, which is located at the *bottom* of the <b>3D View</
 
 >[!NOTE]
 >
-> The toolbar can be *repositioned* around the **3****D View** dock using the leftmost *handle* represented by three parallel lines.
+> The toolbar can be *repositioned* around the **3D View** dock using the leftmost *handle* represented by three parallel lines.
+
+### 3D render AOVs
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p>You can display different <a href="../../glossary/glossary.md#aov">AOVs</a> using the <img src="./3d-view.resources/aov/aov-icon.png" alt="3D render AOVs icon" style="padding-left: 5px; padding-right: 5px" /> <b>3D render AOVs</b> button.</p>
+            <p>AOVs let you inspect mesh and material information in isolation for focused work and debugging.</p>
+            <p>Some AOVs include <i>HDR values</i> that are clamped to 1 (pure white) or 0 (pure black) in the viewport.<br>To inspect the full range of values, you can export a 3D render of the AOV to an image file format that supports HDR values, such as <code>.exr</code>.<br>Use the <code>Camera > Save render...</code> menu option to export the current AOV.</p>
+            <p><i>Note:</i> AOVs are only available when using the Rasterizer and GPU Pathtracer <a href="./3d-renderers/3d-renderers.md">3D renderers</a>.</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/aov-composited.jpg" alt="3D render AOVs composited" />
+        </td>
+    </tr>
+</table>
 
 ### Color channels
 
-You can display a single channel of the image using the ![](../../assets/2d-view-icon-channels.png) <b>Color channels</b> button. This opens a combo box letting you select which of the <b>Red</b>, <b>Green</b> and <b>Blue</b> channels should be displayed. The normal aspect of the image with all channels is restored by selecting the <b>RGB</b> option.
+You can display a single channel of the image using the ![](3d-view.resources/2d-view-icon-channels.png) <b>Color channels</b> button. This opens a combo box letting you select which of the <b>Red</b>, <b>Green</b> and <b>Blue</b> channels should be displayed. The normal aspect of the image with all channels is restored by selecting the <b>RGB</b> option.
 
 The *icon* of the <b>Color channels</b> button *changes* depending on the currently display channel(s).
 

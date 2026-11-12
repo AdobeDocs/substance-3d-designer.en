@@ -16,18 +16,28 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Gradient dynamic](../../../../assets/comp_dyngradient_1.png "Atomic node: Gradient dynamic"){width="200px"}
+![Atomic node: Gradient dynamic](gradient-dynamic.resources/comp_dyngradient_1.png "Atomic node: Gradient dynamic"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Remaps the grayscale values in an image, using a gradient supplied by a row or column of pixels in another image.
 
 It serves as a slight alternative to the Gradient Node, but unlike the Gradient node, Gradient color keys are not defined internally, but come from an external input.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="gradient-dynamic tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -39,57 +49,14 @@ This node comes in play when you are too limited by the Gradient editor's key sy
 
 Alternatively, the Gradient Input Position slider can be used to alternate between multiple gradients stored inside a single Ramp input.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Parameters
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Input connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
 |  |  |
 | --- | --- |
-| <b>Gradient addressing</b> *Boolean* | Sets if the Gradient repeats (tiles) or clamps.   This parameter determines how out of &#91;0, 1&#93; range HDR  pixels of the grayscale input are handled: clamped or fold up to &#91;0, 1&#93;. |
-| <b>Gradient orientation</b> *Integer* | Sets the axis along which the 'Gradient input' should be sampled:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> Sample a row of pixels on the X axis.</li> <li data-preserve-html="true"><i>Vertical:</i> Sample a column of pixels on the Y axis.</li> </ul> |
+| <b>Gradient addressing</b> *Boolean* | Sets if the Gradient repeats (tiles) or clamps.   This parameter determines how out of &#91;0, 1&#93; range HDR  pixels of the grayscale input are handled: clamped or fold up to &#91;0, 1&#93;. |
+| <b>Gradient orientation</b> *Integer* | Sets the axis along which the 'Gradient input' should be sampled:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Horizontal:</i> Sample a row of pixels on the X axis.</li> <li data-preserve-html="true"><i>Vertical:</i> Sample a column of pixels on the Y axis.</li> </ul> |
 | <b>Gradient input position</b> *Float* | The normalized position of the row or column of pixels to be sampled in the 'Gradient input'. |
 
 ## Input connectors
@@ -99,11 +66,6 @@ Alternatively, the Gradient Input Position slider can be used to alternate betwe
 | <b>Grayscale input</b> *Grayscale* PRIMARY | The grayscale image to remap. |
 | <b>Gradient input</b> *Color/Grayscale* | The gradient is sampled from this image |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Color/Grayscale* |  |
 
 ## Examples
 

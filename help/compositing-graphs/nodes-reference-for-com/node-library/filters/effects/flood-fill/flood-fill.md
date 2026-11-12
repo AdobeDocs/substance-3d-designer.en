@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill.png){width="128px"}
+![](flood-fill.resources/floodfill.png){width="128px"}
 
-## Flood Fill
-
-**In:** *Filters/Effects*
-
-**Simple**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -41,20 +37,31 @@ The other Flood Fill effects are [Flood Fill to Gradient](../../../../../../comp
 > 
 > Problems arise if tiles are not separated by full black pixels, usually when grayscale, sloping values are used. You can identify this by an overall lack of red values in the result, and possibly strange artifacting lines. In such cases, adjust the contrast on the input map or switch the input map out. Make sure to change the Safety/Speed trade-off setting to see if anything improves.
 
-## Parameters
-
-* **Safety/Speed trade-off**: *Simple or small shapes, Complex or big shapes, No failure mode.*Set the calculation mode to best suit input shapes. Allows for much more accurate results if the correct mode is chosen.
-* **Avanced options**: *Display advanced Parameters and Output/Hide advanced Parameters and Output*
-* **Override Safety/Speed trade-off**: *-1 - 100*Only visible with Advanced Options on. Allows for overriding internal features. Very advanced, serves for creating own effects or debugging.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/flood-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/flood-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
-Good and bad examples of results from Flood Fill.
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Safety/Speed trade-off</b> <i>Simple or small shapes, Complex or big shapes, No failure mode.</i> | Set the calculation mode to best suit input shapes. Allows for much more accurate results if the correct mode is chosen. |
+| <b>Avanced options</b> <i>Display advanced Parameters and Output/Hide advanced Parameters and Output</i> |  |
+| <b>Override Safety/Speed trade-off</b> <i>-1 - 100</i> | Only visible with Advanced Options on. Allows for overriding internal features. Very advanced, serves for creating own effects or debugging. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-ex2.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-ex1.png" />
+        </td>
+    </tr>
+</table>
+
+Good and bad examples of results from Flood Fill.

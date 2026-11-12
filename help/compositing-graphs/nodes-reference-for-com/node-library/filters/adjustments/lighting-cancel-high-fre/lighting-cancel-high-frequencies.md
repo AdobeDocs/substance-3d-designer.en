@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/lighting-cancel-high-frequencies.png){width="128px"}
+![](lighting-cancel-high-frequencies.resources/lighting-cancel-high-frequencies.png){width="128px"}
 
-## Lighting Cancel High Frequencies
-
-**In:** *Filters/Adjustments*
-
-**Simple**
+<b>In:</b> Filters &gt; Adjustments
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,18 +31,25 @@ Similar to [Highpass](../../../../../../compositing-graphs/nodes-reference-for-c
 
 Also see [Lighting Cancel Low Frequencies](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md), and the more advanced, recommended [Luminance Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md).
 
-## Parameters
-
-* **Intensity**: *0.0 -* 1.0  
-  Strength of the lighting cancel effect.
-* **Radius**: *0.0 - 10.0*Radius or size of the lighting details to cancel.
-
-## Example Images
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-highfrequencies-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Intensity</b> <i>0.0 - 1.0</i> | Strength of the lighting cancel effect. |
+| <b>Radius</b> <i>0.0 - 10.0</i> | Radius or size of the lighting details to cancel. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="lighting-cancel-high-frequencies.resources/lighting-cancel-highfrequencies-example.png" />
+        </td>
+    </tr>
 </table>

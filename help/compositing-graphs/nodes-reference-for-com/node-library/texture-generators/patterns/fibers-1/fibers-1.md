@@ -16,34 +16,38 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fibers-1.png){width="128px"}
+![](fibers-1.resources/fibers-1.png){width="128px"}
 
-## Fibers 1
-
-**In:** *Texture Generators**/Patterns*
-
-**Simple**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Simple fiber-like pattern. Can be used in  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) for rope, mesh or cloth Heightmaps and details.
 
-## Parameters
-
-* **Tiling**: *1 - 16*  
-  Sets the amount of times the result should tile.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-
-## Example Images
-
-![](../../../../../../assets/fibers-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Tiling</b> <i>1 - 16</i> | Sets the amount of times the result should tile. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fibers-1.resources/fibers-1-ex.gif" />
+        </td>
+    </tr>
 </table>

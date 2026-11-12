@@ -18,22 +18,22 @@ This update introduces new features to enhance your daily use of Substance 3D De
 
 *Release date: January 14th, 2025*
 
-![Scatter splines on splines](../../assets/fond.png)
+![Scatter splines on splines](version-14-1.resources/fond.png)
 
 ## Splines and Paths updates
 
-Splines and path nodes were introduced in version 13.0, and thanks to your feedback, we've made an initial set of improvements. First, we added the [Scatter Splines on Splines](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md) node, which distributes splines along a parent spline, offering options similar to those of a regular scatter node. Additionally, the [Mask to Paths](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) node has been enhanced to give more control over the position of the first vertex on the path. We also made it possible to introduce randomness in the [Spline Bridge List](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) node.
+Splines and path nodes were introduced in version 13.0, and thanks to your feedback, we've made an initial set of improvements. First, we added the [Scatter Splines on Splines](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md) node, which distributes splines along a parent spline, offering options similar to those of a regular scatter node. Additionally, the [Mask to Paths](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) node has been enhanced to give more control over the position of the first vertex on the path. We also made it possible to introduce randomness in the [Spline Bridge List](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) node.
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Scatter Spline on Spline animation 1](../../assets/spline1.gif){zoomable="yes"}
+![Scatter Spline on Spline animation 1](version-14-1.resources/spline1.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Scatter splines on splines 2](../../assets/spline2.gif){zoomable="yes"}
+![Scatter splines on splines 2](version-14-1.resources/spline2.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -43,7 +43,7 @@ Splines and path nodes were introduced in version 13.0, and thanks to your feedb
 
 If you are keen on keeping a clean and readable graph, the [node alignment tools](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) are made for you and have been completely revamped! It is now possible to evenly space the nodes (horizontally or vertically), and aligning nodes avoids any overlaps by neatly stacking them. Cherry on top: both features take the actual size of the nodes into account!
 
-![Align nodes](../../assets/alignment.gif){zoomable="yes"}
+![Align nodes](version-14-1.resources/alignment.gif){zoomable="yes"}
 
 ## Copy / paste parameters
 
@@ -53,7 +53,7 @@ It is now possible to [copy the parameters of one node and paste them onto anoth
 
 The new [Color Sampler tool](../../interface/2d-view/color-sampler/color-sampler.md) in the 2D view lets you track the value of a selected pixel by dropping a pin on it. This is very useful to ensure that you are always viewing the information of the same pixel across multiple nodes in a graph. Open the Information panel to access the tool and give it a try!
 
-![Color sampler: using the tool](../../assets/color-sampler-demo.gif "Color sampler: using the tool"){width="640px" zoomable="yes"}
+![Color sampler: using the tool](version-14-1.resources/color-sampler-demo.gif "Color sampler: using the tool"){width="640px" zoomable="yes"}
 
 ## Search improvements
 
@@ -64,7 +64,7 @@ The [node finder](../../interface/the-graph-view/node-finder/node-finder.md) too
 * The focus is automatically set on the search field when enabling the node finder tool;
 * The layout of the toolbar has been rethought to save space.
 
-![Search toolbar](../../assets/search-53.png){width="640px"}
+![Search toolbar](version-14-1.resources/search-53.png){width="640px"}
 
 ## Videos
 
@@ -72,12 +72,12 @@ The [node finder](../../interface/the-graph-view/node-finder/node-finder.md) too
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![video scatter splines on splines](../../assets/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![video scatter splines on splines](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![video user experience features](../../assets/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![video user experience features](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>

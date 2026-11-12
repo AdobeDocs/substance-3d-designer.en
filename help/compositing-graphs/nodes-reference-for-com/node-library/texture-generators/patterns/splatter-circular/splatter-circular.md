@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter-circular.png){width="128px"}
+![](splatter-circular.resources/splatter-circular.png){width="128px"}
 
-![](../../../../../../assets/splatter-circular-color.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-color.png){width="128px"}
 
-## Splatter Circular (Color)
-
-**In:** *Texture Generators**/Patterns*
-
-**Complex**
+<b>In:</b> Texture Generators &gt; Patterns
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -37,96 +33,86 @@ Splatter Circular generates a ring-based pattern with various controls. It can u
 
 This is useful for when you want to place shapes in a circular way with various randomisation options.
 
-## Parameters
+</td>
+</tr>
+</table>
 
-### Inputs
+<a name="inputs"></a>
+
+## Inputs
 
 Both inputs are optional.
 
-* **Pattern Image Input 1-6**: *Grayscale Input (Color input)*  
-  Splatter Circular only: Custom pattern image, used when the "Pattern" parameter is set to "Image Input".
-* **Background**: *Grayscale Input (Color input)*
+|  |  |
+|:---|:---|
+| <b>Pattern Image Input 1-6</b> <i>Grayscale Input (Color input)</i> | Splatter Circular only: Custom pattern image, used when the "Pattern" parameter is set to "Image Input". |
+| <b>Background</b> <i>Grayscale Input (Color input)</i> |  |
 
-### Parameters
+<a name="parameters"></a>
 
-* **Pattern Amount**: *1 - 64*  
-  Amount of pattern tiles to place on a ring.
-* **Pattern Amount Random**: *0.0 - 1.0*  
-  Randomisation of the amount of patterns to be placed. Best used with a Ring Amount higher than 1.
-* **Pattern Amount Random Min**: *1 - 10*Sets the minimal amount of patterns for randomisation.
-* **Ring Amount**: *1 - 10*  
-  Sets the number of rings to fill. The rings are always placed inside the outer one, and space evenly.
-* **Non Square Expansion**: *False/True*  
-  Enables compensation of squash and stretch with non-square ratios.
-* **Pattern**   
-  * **Pattern**: *Image Input, Square, Disc, Paraboloid, Bell, Gaussian, Thorn, Pyramid, Brick, Gradation, Waves, Half Bell, Ridged Bell, Crescent, Capsule, Cone*  
-    Selects what pattern shape to use.
-  * **Pattern Input Number**: *1 - 6*Sets number of different Image inputs to use. Only available when *Image Input* is selected above.
-  * **Pattern Input Distribution**: *Random, By Pattern Number, By Ring Number*Sets how multiple Pattern Inputs are chosen. Random means a random one is chosen, Pattern Number means they are just placed in a looping sequence, By ring numbers means every ring has a different one in sequence.
-  * **Image Input Filtering**: *Bilinear + Mipmaps, Bilinear, Nearest*
-  * **Pattern Specific**: *0.0 - 1.0*  
-    Lets you change the selected pattern's shape. The effect is dependent on the selected pattern.
-  * **Symmetry Random**: *0.0 - 1.0*  
-    Sets the number of tiles that should be randomly flipped/mirrored according to the below behaviour.
-  * **Symmetry Random Mode**: *Horizontal + Vertical, Horizontal, Vertical*Determines symmetry mirroring behaviour.
-* **Position**   
-  * **Radius**: *0.0 - 1.0*  
-    Sets the radius from the center at which the patterns are placed.
-  * **Radius Random**: *0.0 - 1.0*Randomises the radius for every pattern tile.
-  * **Ring Radius Multiplier**: *0.0 - 1.0*  
-    Affects spacing of multiple rings.
-  * **Angle Random**: *0.0 - 1.0*Randomises the angle of each pattern. A higher amounts means more rotation.
-  * **Spiral Factor**: *0.0 - 1.0*  
-    Turns the rings into Spirals, where every tile is placed at a slightly increasing radius.
-  * **Spread**: *0.0 - 2.0*Sets the amount of turns a ring does. This can be increased beyond its limits.
-  * **Offset along Direction**: *0.0 - 1.0*  
-    Moves every pattern out from the center along its angle. The effect greatly depends on Angle Random, or it looks just like a multiplier for the Radius.
-  * **Global Offset**: *0.0 - 1.0*  
-    Translates the entire shape.
-* **Size**   
-  * **Connect Patterns**: *False/True*Makes the length of pattern tiles dependent on the radius, meaning each shape should touch the previous and next one.
-  * **Size (Connected)**: *0.0 - 1.0*  
-    Changes the size of each pattern globally. When connected, it's relative to the total radius.
-  * **Size Random**: *0.0 - 1.0*  
-    Randomises the size of each pattern individually.
-  * **Scale**: *0.0 - 2.0*  
-    Uniformly scales each pattern.
-  * **Scale Random**: *0.0 - 1.0*  
-    Randomises uniform scaling.
-  * **Scale by Pattern Number**: *0.0 - 1.0*Makes the pattern scale dependent on the position along the ring.
-  * **Invert Pattern Number**: *False/True*  
-    Used with the previous option, this can invert scaling from small to large and vice-versa.
-  * **Scale by Ring Number**: *0.0 - 1.0*Makes scale dependent on ring number.
-  * **Invert Ring Number**: *False/True*Used with the previous option, it can invert scaling from small to large and vice-versa.
-* **Rotation**   
-  * **Pattern Rotation**: *0.0 - 1.0*Rotates every pattern uniformly.
-  * **Pattern Rotation Random**: *0.0 - 1.0*  
-    Randomises pattern rotation.
-  * **Pattern Rotation Pivot**: *Center, Min X, Max X, Min Y, Max Y*  
-    Sets the pivot point position around which to rotate every pattern individually.
-  * **Center Orientation**: *False/True*  
-    Rotates every pattern so it faces towards the center of the ring. Turning it of gives them all the same orientation - this can produce unwanted effects with Offset along direction.
-  * **Ring Rotation**: *0.0 - 1.0*Rotates entire ring around center.
-  * **Ring Rotation Random**: *0.0 - 1.0*Randomises rotation per ring.
-  * **Ring Rotation Offset**: *0.0 - 1.0*  
-    Offsets rotation per ring.
-* **Color**   
-  * **Color**: *(Grayscale value)*Color to multiply with selected pattern.
-  * **Luminance Random**: *0.0 - 1.0*Randomizss color or Luminance for every pattern tile.
-  * **Luminance By Scale**: *0.0 - 1.0*Makes Luminance dependent on the individual pattern scale.
-  * **Luminance by Pattern Number**: *0.0 - 1.0*Makes Luminance dependent on the pattern sequence. Can for example be used with spirals.
-  * **Invert Pattern Number**: *False/True*Inverts the previous option.
-  * **Luminance by Ring Number**: *0.0 - 1.0*Makes Luminance dependent on the ring sequence.
-  * **Invert Ring Number**: *False/True*Inverts the previous option.
-  * **Random Mask**: *0.0 - 1.0*Randomly hides patterns.
-  * **Background Color**: *(Grayscale value)*Changes solid background color.
-  * **Blending Mode**: *Add, Max, Add Sub*Sets how to blend overlapping patterns.
-  * **Global Opacity**: *0.0 - 1.0*Sets the global opacity of the entire result.
+## Parameters
 
-## Example Images
+|  |  |
+|:---|:---|
+| <b>Pattern Amount</b> <i>1 - 64</i> | Amount of pattern tiles to place on a ring. |
+| <b>Pattern Amount Random</b> <i>0.0 - 1.0</i> | Randomisation of the amount of patterns to be placed. Best used with a Ring Amount higher than 1. |
+| <b>Pattern Amount Random Min</b> <i>1 - 10</i> | Sets the minimal amount of patterns for randomisation. |
+| <b>Ring Amount</b> <i>1 - 10</i> | Sets the number of rings to fill. The rings are always placed inside the outer one, and space evenly. |
+| <b>Non Square Expansion</b> <i>False/True</i> | Enables compensation of squash and stretch with non-square ratios. |
+| <b>Pattern</b> |  |
+| <b>Pattern</b> <i>Image Input, Square, Disc, Paraboloid, Bell, Gaussian, Thorn, Pyramid, Brick, Gradation, Waves, Half Bell, Ridged Bell, Crescent, Capsule, Cone</i> | Selects what pattern shape to use. |
+| <b>Pattern Input Number</b> <i>1 - 6</i> | Sets number of different Image inputs to use. Only available when <i>Image Input</i> is selected above. |
+| <b>Pattern Input Distribution</b> <i>Random, By Pattern Number, By Ring Number</i> | Sets how multiple Pattern Inputs are chosen. Random means a random one is chosen, Pattern Number means they are just placed in a looping sequence, By ring numbers means every ring has a different one in sequence. |
+| <b>Image Input Filtering</b> <i>Bilinear + Mipmaps, Bilinear, Nearest</i> |  |
+| <b>Pattern Specific</b> <i>0.0 - 1.0</i> | Lets you change the selected pattern's shape. The effect is dependent on the selected pattern. |
+| <b>Symmetry Random</b> <i>0.0 - 1.0</i> | Sets the number of tiles that should be randomly flipped/mirrored according to the below behaviour. |
+| <b>Symmetry Random Mode</b> <i>Horizontal + Vertical, Horizontal, Vertical</i> | Determines symmetry mirroring behaviour. |
+| <b>Position</b> |  |
+| <b>Radius</b> <i>0.0 - 1.0</i> | Sets the radius from the center at which the patterns are placed. |
+| <b>Radius Random</b> <i>0.0 - 1.0</i> | Randomises the radius for every pattern tile. |
+| <b>Ring Radius Multiplier</b> <i>0.0 - 1.0</i> | Affects spacing of multiple rings. |
+| <b>Angle Random</b> <i>0.0 - 1.0</i> | Randomises the angle of each pattern. A higher amounts means more rotation. |
+| <b>Spiral Factor</b> <i>0.0 - 1.0</i> | Turns the rings into Spirals, where every tile is placed at a slightly increasing radius. |
+| <b>Spread</b> <i>0.0 - 2.0</i> | Sets the amount of turns a ring does. This can be increased beyond its limits. |
+| <b>Offset along Direction</b> <i>0.0 - 1.0</i> | Moves every pattern out from the center along its angle. The effect greatly depends on Angle Random, or it looks just like a multiplier for the Radius. |
+| <b>Global Offset</b> <i>0.0 - 1.0</i> | Translates the entire shape. |
+| <b>Size</b> |  |
+| <b>Connect Patterns</b> <i>False/True</i> | Makes the length of pattern tiles dependent on the radius, meaning each shape should touch the previous and next one. |
+| <b>Size (Connected)</b> <i>0.0 - 1.0</i> | Changes the size of each pattern globally. When connected, it's relative to the total radius. |
+| <b>Size Random</b> <i>0.0 - 1.0</i> | Randomises the size of each pattern individually. |
+| <b>Scale</b> <i>0.0 - 2.0</i> | Uniformly scales each pattern. |
+| <b>Scale Random</b> <i>0.0 - 1.0</i> | Randomises uniform scaling. |
+| <b>Scale by Pattern Number</b> <i>0.0 - 1.0</i> | Makes the pattern scale dependent on the position along the ring. |
+| <b>Invert Pattern Number</b> <i>False/True</i> | Used with the previous option, this can invert scaling from small to large and vice-versa. |
+| <b>Scale by Ring Number</b> <i>0.0 - 1.0</i> | Makes scale dependent on ring number. |
+| <b>Invert Ring Number</b> <i>False/True</i> | Used with the previous option, it can invert scaling from small to large and vice-versa. |
+| <b>Rotation</b> |  |
+| <b>Pattern Rotation</b> <i>0.0 - 1.0</i> | Rotates every pattern uniformly. |
+| <b>Pattern Rotation Random</b> <i>0.0 - 1.0</i> | Randomises pattern rotation. |
+| <b>Pattern Rotation Pivot</b> <i>Center, Min X, Max X, Min Y, Max Y</i> | Sets the pivot point position around which to rotate every pattern individually. |
+| <b>Center Orientation</b> <i>False/True</i> | Rotates every pattern so it faces towards the center of the ring. Turning it of gives them all the same orientation - this can produce unwanted effects with Offset along direction. |
+| <b>Ring Rotation</b> <i>0.0 - 1.0</i> | Rotates entire ring around center. |
+| <b>Ring Rotation Random</b> <i>0.0 - 1.0</i> | Randomises rotation per ring. |
+| <b>Ring Rotation Offset</b> <i>0.0 - 1.0</i> | Offsets rotation per ring. |
+| <b>Color</b> |  |
+| <b>Color</b> <i>(Grayscale value)</i> | Color to multiply with selected pattern. |
+| <b>Luminance Random</b> <i>0.0 - 1.0</i> | Randomizss color or Luminance for every pattern tile. |
+| <b>Luminance By Scale</b> <i>0.0 - 1.0</i> | Makes Luminance dependent on the individual pattern scale. |
+| <b>Luminance by Pattern Number</b> <i>0.0 - 1.0</i> | Makes Luminance dependent on the pattern sequence. Can for example be used with spirals. |
+| <b>Invert Pattern Number</b> <i>False/True</i> | Inverts the previous option. |
+| <b>Luminance by Ring Number</b> <i>0.0 - 1.0</i> | Makes Luminance dependent on the ring sequence. |
+| <b>Invert Ring Number</b> <i>False/True</i> | Inverts the previous option. |
+| <b>Random Mask</b> <i>0.0 - 1.0</i> | Randomly hides patterns. |
+| <b>Background Color</b> <i>(Grayscale value)</i> | Changes solid background color. |
+| <b>Blending Mode</b> <i>Add, Max, Add Sub</i> | Sets how to blend overlapping patterns. |
+| <b>Global Opacity</b> <i>0.0 - 1.0</i> | Sets the global opacity of the entire result. |
 
-![](../../../../../../assets/circularsplatter-ex.png)
+## Examples
 
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="splatter-circular.resources/circularsplatter-ex.png" />
+        </td>
+    </tr>
 </table>

@@ -18,13 +18,13 @@ Parameter Presets give the user the ability to store and transfer large amounts 
 
 There are two ways for storing and loading presets, both have different use-cases, detailed below.
 
-![Load/Save preset drop down menu](../../../assets/preset-menu.gif "Load/Save preset drop down menu"){width="512px"}
+![Load/Save preset drop down menu](parameter-presets.resources/preset-menu.gif "Load/Save preset drop down menu"){width="512px"}
 
 ## External presets
 
 External Presets involve an external file on disk, an \*.SBSPRS file. They can be transferred between different graphs and nodes, but only within the application. Their main purpose is exactly this: transferring a number of values too large to copy one-by-one.
 
-External Presets are available for all Specific Parameters On [Graph Instances](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), for most Specific Parameters on [Atomic nodes](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([exceptions are those parameters that can not be exposed](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)), and for the exposed Input Parameters in a [Graph's Properties.](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)
+External Presets are available for all Specific Parameters On [Graph Instances](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md), for most Specific Parameters on [Atomic nodes](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) ([exceptions are those parameters that can not be exposed](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)), and for the exposed input parameters in a Substance graph's [parameters](../../graph-parameters/graph-parameters.md)parameters.
 
 They are simply saved and loaded through this menu. The Saved SBSPRS files can be loaded on any other node or graph.
 
@@ -32,7 +32,7 @@ They are simply saved and loaded through this menu. The Saved SBSPRS files can b
 >
 > Even partial matches will work: parameters stored in an SBSPRS that do not exist on the loaded node, will simply be ignored. This means you can transfer properties between nodes that are mostly similar, [such as the color and grayscale version of Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)! All shared parameters will load. Matching happens on identifier and type.
 
-![Embedded presets editing](../../../assets/preset-embed.gif "Embedded presets editing"){width="512px"}
+![Embedded presets editing](parameter-presets.resources/preset-embed.gif "Embedded presets editing"){width="512px"}
 
 ## Embedded presets
 

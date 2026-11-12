@@ -16,18 +16,28 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Distance](../../../../assets/comp_distance_1.png "Atomic node: Distance"){width="200px"}
+![Atomic node: Distance](distance.resources/comp_distance_1.png "Atomic node: Distance"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Finds the position of the nearest white pixel in a mask and outputs a gradient from that position, or the color at that position in a source image.
 
 This node creates an outward linear fade (gradient) from any pixels in the input max over 0.5 grayscale value.
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="distance.resources/distance-tooltip.gif" alt="distance tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -39,62 +49,24 @@ The distance node is not an easy node to master, but it's main use cases are exp
 
 See the below [examples](#examples) for more info.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## Output connectors
-
-</td>
-<td style="border: 0;" valign="top">
-
-### Examples
-
-</td>
-</tr>
-</table>
 
 ## Parameters
 
 |  |  |
 | --- | --- |
-| <b>Color mode</b> *Boolean* | Toggles between a grayscale and a color output image. Also changes the 'Source input' input type. |
+| <b>Color mode</b> *Boolean* | Toggles between a grayscale and a color output image. Also changes the 'Source input' input type. |
 | <b>Maximum distance</b> *Float* | Adjusts the maximum distance for detecting the closest border in the mask, in pixels. |
-| <b>Combine source/distance</b> *Boolean* | Determine how the optional 'Source input'is combined with the final cells.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combine:</i> Combines the 'Source input' value with the fading linear mask. If the 'Source input' input is connected, its value is combined with computed distance.</li> <li data-preserve-html="true"><i>Only Source:</i> Results in solid color only from the 'Source input'.</li> </ul> |
-| <b>Distance mode</b> *Integer* | Selects the method computing the distance to the closest border in the extracted mask:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidean:</i> Sum of squared X/Y differences.</li> <li data-preserve-html="true"><i>Manhattan:</i> Sum of absolute values of X/Y differences.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Maximum of absolute values of X/Y differences.</li> </ul>  <div><img alt="Distance mode examples" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="Distance mode examples"/></div> |
+| <b>Combine source/distance</b> *Boolean* | Determine how the optional 'Source input'is combined with the final cells.<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Combine:</i> Combines the 'Source input' value with the fading linear mask. If the 'Source input' input is connected, its value is combined with computed distance.</li> <li data-preserve-html="true"><i>Only Source:</i> Results in solid color only from the 'Source input'.</li> </ul> |
+| <b>Distance mode</b> *Integer* | Selects the method computing the distance to the closest border in the extracted mask:<ul data-preserve-html="true"> <li data-preserve-html="true"><i>Euclidean:</i> Sum of squared X/Y differences.</li> <li data-preserve-html="true"><i>Manhattan:</i> Sum of absolute values of X/Y differences.</li> <li data-preserve-html="true"><i>Chebyshev:</i> Maximum of absolute values of X/Y differences.</li> </ul>  <div><img alt="Distance mode examples" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="distance.resources/distance-comparison.jpg" title="Distance mode examples"/></div> |
 
 ## Input connectors
 
 |  |  |
 | --- | --- |
-| <b>Mask input</b> *Grayscale* PRIMARY | A grayscale mask, the borders of which a distance value should be computed.   A binary mask is extracted from the image, using a threshold value of 0.5, where all values above this threshold are white and all values below are black. |
+| <b>Mask input</b> *Grayscale* PRIMARY | A grayscale mask, the borders of which a distance value should be computed.   A binary mask is extracted from the image, using a threshold value of 0.5, where all values above this threshold are white and all values below are black. |
 | <b>Source input</b> *Color/Grayscale* | Optional grayscale image from which the pixel value at the closest border of the 'Mask input' should be copied. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Color/Grayscale* |  |
 
 ## Examples
 
@@ -102,17 +74,17 @@ See the below [examples](#examples) for more info.
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif)
 
 </td>
 </tr>

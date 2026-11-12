@@ -16,47 +16,52 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-blur-grayscale.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/non-uniform-blur.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur.png){width="128px"}
 
-## Non Uniform Blur (Grayscale)
-
-**In:** *Filters/Blurs*
-
-**Intermediate**
+<b>In:</b> Filters &gt; Blurs
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
 Performs a High Quality Blur, where the intensity is driven by an input mask. Options allow for Anisotropy and Assymetry to be added.
 
-## Parameters
-
-### Inputs
-
-* **Blur Map**: *Grayscale Input*Mask map to drive effect strength.
-
-### Parameters
-
-* **Intensity**: *0.0 - 50.0*Maximum strength to apply the blur with. Masked by the Blur Map, so this setting will have no effect on black areas of that map.
-* **Anisotropy**: *0.0 - 1.0*Optionally adds directionality to the blur effect. Driven by the Angle parameter.
-* **Asymmetry**: *0.0 - 1.0*Optionally adds a bias to the sampling. Driven by the Angle parameter.
-* **Angle**: *0.0 - 1.0*Angle to set directionality and sampling bias.
-* **Samples**: *1 - 16*Amount of samples, determines quality. Multiplied by amount of Blades.
-* **Blades**: *1 -* 9  
-  Amount of sampling sectors, determines quality. Multiplied by amount of Samples.
-
-## Example Images
-
-*Below example is driven by a gradient ramp (at 90 degrees) in the Blur Map slot.*
-
-![](../../../../../../assets/nonuniform-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Blur Map</b> <i>Grayscale Input</i> | Mask map to drive effect strength. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Intensity</b> <i>0.0 - 50.0</i> | Maximum strength to apply the blur with. Masked by the Blur Map, so this setting will have no effect on black areas of that map. |
+| <b>Anisotropy</b> <i>0.0 - 1.0</i> | Optionally adds directionality to the blur effect. Driven by the Angle parameter. |
+| <b>Asymmetry</b> <i>0.0 - 1.0</i> | Optionally adds a bias to the sampling. Driven by the Angle parameter. |
+| <b>Angle</b> <i>0.0 - 1.0</i> | Angle to set directionality and sampling bias. |
+| <b>Samples</b> <i>1 - 16</i> | Amount of samples, determines quality. Multiplied by amount of Blades. |
+| <b>Blades</b> <i>1 - 9</i> | Amount of sampling sectors, determines quality. Multiplied by amount of Samples. |
+
+## Examples
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="non-uniform-blur.resources/nonuniform-example.gif" /><br><i>Below example is driven by a gradient ramp (at 90 degrees) in the Blur Map slot.</i>
+        </td>
+    </tr>
 </table>

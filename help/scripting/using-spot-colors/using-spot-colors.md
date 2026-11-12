@@ -14,15 +14,15 @@ user-guide-title: ""
 
 # Using spot colors
 
-The<b> SDSpotColorLibrary </b>class, accessible from the <b>SDApplication</b> class, contains information about the spot color libraries included in Designer.
+The<b> SDSpotColorLibrary </b>class, accessible from the <b>SDApplication</b> class, contains information about the spot color libraries included in Designer.
 
 Using this class it is possible to list color books and spot colors and find specific spot colors or the closest spot color to a given RGB color.
 
-Spot colors are *not available* in Designer when using <b>OpenColorIO</b>. In this case, app.getSpotColorLibrary() will return <b>None</b>.
+Spot colors are *not available* in Designer when using <b>OpenColorIO</b>. In this case, app.getSpotColorLibrary() will return <b>None</b>.
 
 >[!IMPORTANT]
 >
-> Spot colors are *not available* in Designer when using <b>OpenColorIO</b>. In this case, app.getSpotColorLibrary() will return <b>None</b>.
+> Spot colors are *not available* in Designer when using <b>OpenColorIO</b>. In this case, app.getSpotColorLibrary() will return <b>None</b>.
 
 ```
 

@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Using color management
 
-The<b> SDColorManagementEngine </b>class, accessible from the <b>SDApplication</b> class, contains information about the *current color management settings*.
+The<b> SDColorManagementEngine </b>class, accessible from the <b>SDApplication</b> class, contains information about the *current color management settings*.
 
 ## Accessing and querying the Color Management Engine
 
@@ -150,6 +150,6 @@ for res in resources:
 
 ## Writing SDTextures with color space conversions
 
-The **save** method of the **SDTexture** class now accepts an optional **outputColorSpace** parameter. When specified, the color space conversion will be *applied before saving the image*.
+The **save** method of the **SDTexture** class now accepts an optional **outputColorSpace** parameter. When specified, the color space conversion will be *applied before saving the image*.
 
 If the color management mode supports embedded ICC profiles *and* the destination file format also supports them, the color space ICC profile will be *embedded in the resulting image file*.

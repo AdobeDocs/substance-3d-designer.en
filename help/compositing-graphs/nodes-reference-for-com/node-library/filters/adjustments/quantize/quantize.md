@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Quantize Color icon](../../../../../../assets/quantize.png "Quantize Color icon"){width="200px"}
+![Quantize Color icon](quantize.resources/quantize.png "Quantize Color icon"){width="200px"}
 
 <b>In:</b> Filters &gt; Adjustments
 
@@ -33,14 +33,13 @@ Approximates the input range to a predefined number of values. Effectively intro
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## Parameters
 
-<b>Quantize Red Channel</b> *Integer*Sets number of steps to approximate the Red channel by.
-
-<b>Quantize Green Channel</b> *Integer*Sets number of steps to approximate the Green channel by.
-
-<b>Quantize Blue Channel</b> *Integer*
-
-Sets number of steps to approximate the Blue channel by.
-
-<b>Quantize Alpha Channel</b> *Integer*Sets number of steps to approximate the Alpha Channel by.
+|  |  |
+|:---|:---|
+| <b>Quantize Red Channel</b> *Integer* | Sets number of steps to approximate the Red channel by. |
+| <b>Quantize Green Channel</b> *Integer* | Sets number of steps to approximate the Green channel by. |
+| <b>Quantize Blue Channel</b> *Integer* | Sets number of steps to approximate the Blue channel by. |
+| <b>Quantize Alpha Channel</b> *Integer* | Sets number of steps to approximate the Alpha Channel by. |

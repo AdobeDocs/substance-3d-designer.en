@@ -22,13 +22,13 @@ user-guide-title: ""
 
 Designer offers a Python integration of the [Perforce](https://www.perforce.com/) (P4) version control system.
 
-The integration adds a custom 'Version Control' submenu to the contextual menu of packages in the [Explorer](../../../interface/the-explorer-window/the-explorer-window.md), as well as custom icons to match the status of a package in P4.
+The integration adds a custom 'Version Control' submenu to the contextual menu of packages in the [Explorer](../../../interface/the-explorer-window/the-explorer-window.md), as well as custom icons to match the status of a package in P4.
 
 ## Preparing P4
 
 In [P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v), make a note of the workspace name and path, as shown below:
 
-![P4V workspace information](../../../assets/p4v-workspace-strings.jpg "P4V workspace information"){zoomable="yes"}
+![P4V workspace information](version-control.resources/p4v-workspace-strings.jpg "P4V workspace information"){zoomable="yes"}
 
 In any text editor or IDE, open this script located in Designer's installation: '*tools/version\_control/perforce.py*'.
 
@@ -47,19 +47,19 @@ cVerbose = False
 
 ## Setup in Designer
 
-Version control is configured in the [Project settings](../../../interface/preferences-window/project-settings/project-settings.md), which are available in Designer's [Preferences](../../../interface/preferences-window/preferences-window.md).
+Version control is configured in the [Project settings](../../../interface/preferences-window/project-settings/project-settings.md), which are available in Designer's [Preferences](../../../interface/preferences-window/preferences-window.md).
 
-!['Version control' tab in project settings](../../../assets/p4v-project-settings.jpg "'Version control' tab in project settings"){zoomable="yes"}
+!['Version control' tab in project settings](version-control.resources/p4v-project-settings.jpg "'Version control' tab in project settings"){zoomable="yes"}
 
 1. Go to 'Edit &gt; Preferences'
 1. Go to 'Projects', select the target [project file](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) and go to the 'Version Control' tab
 1. Check 'Version Control Enabled'
 1. Fill this information in the 'Workspace' section:
 
-   * <b>Name:</b> Enter the 'Workspace Name' you previously retrieved from P4V
+   * <b>Name:</b> Enter the 'Workspace Name' you previously retrieved from P4V
    * <b>Path:</b> enter the 'Workspace Path' you previously retrieved from P4V
 
-![P4 setup in Designer: workspace](../../../assets/p4v-project-settings-workspace.jpg "P4 setup in Designer: workspace"){zoomable="yes"}
+![P4 setup in Designer: workspace](version-control.resources/p4v-project-settings-workspace.jpg "P4 setup in Designer: workspace"){zoomable="yes"}
 
 ### Setting up actions
 
@@ -73,7 +73,7 @@ You may use:
 * one script *per* action
 * one script for *all* actions
 
-A starter script for all actions is available in Designer's installation: '*tools/version\_control/perforce.py*'.
+A starter script for all actions is available in Designer's installation: '*tools/version\_control/perforce.py*'.
 
 >[!IMPORTANT]
 >
@@ -83,7 +83,7 @@ A starter script for all actions is available in Designer's installation: '*too
 1. Select the following script in Designer's installation: '*tools/version\_control/perforce.py*'
 1. The script should automatically be set up for all other actions.
 
-![P4 setup in Designer: actions](../../../assets/p4v-project-settings-actions.jpg "P4 setup in Designer: actions"){zoomable="yes"}
+![P4 setup in Designer: actions](version-control.resources/p4v-project-settings-actions.jpg "P4 setup in Designer: actions"){zoomable="yes"}
 
 ### Setting up custom actions
 
@@ -98,7 +98,7 @@ As all version control tools are different and include many features, we allow t
 1. Set a script file extension or suffix, and the path to the interpreter executable
 1. Edit the perforce.py script to update the location of the 'p4' binary
 
-![P4 setup in Designer: interpreter](../../../assets/p4v-project-settings-interpreters.jpg "P4 setup in Designer: interpreter"){zoomable="yes"}
+![P4 setup in Designer: interpreter](version-control.resources/p4v-project-settings-interpreters.jpg "P4 setup in Designer: interpreter"){zoomable="yes"}
 
 ## How to use version control
 
@@ -108,8 +108,8 @@ As all version control tools are different and include many features, we allow t
 1. Several actions are available, depending on the status of the package file in the workspace:
 
    * <b>Add:</b> Mark the files as 'ToAdd'
-   * <b>Submit:</b> Submit the selected packages. This action displays a dialog for specifying a change message (see below)
-   * <b>Revert:</b> Revert the modifications. This action displays a dialog for selecting the files to revert (see below)
+   * <b>Submit:</b> Submit the selected packages. This action displays a dialog for specifying a change message (see below)
+   * <b>Revert:</b> Revert the modifications. This action displays a dialog for selecting the files to revert (see below)
    * <b>Checkout:</b> Check the file out from the depot
    * <b>Get last version:</b> Retrieve the latest version from the depot
    * <b>Refresh status:</b> Refresh the package file status
@@ -118,12 +118,12 @@ As all version control tools are different and include many features, we allow t
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   !['Submit' dialog](../../../assets/p4v-submit.jpg "'Submit' dialog"){zoomable="yes"}
+   !['Submit' dialog](version-control.resources/p4v-submit.jpg "'Submit' dialog"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   !['Revert' dialog](../../../assets/p4v-revert.jpg "'Revert' dialog"){zoomable="yes"}
+   !['Revert' dialog](version-control.resources/p4v-revert.jpg "'Revert' dialog"){zoomable="yes"}
 
    </td>
    </tr>
@@ -143,28 +143,28 @@ The package will have the following icons, depending on its status:
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Package icon: Up to date](../../../assets/p4-up-to-date.png "Package icon: Up to date")
+![Package icon: Up to date](version-control.resources/p4-up-to-date.png "Package icon: Up to date")
 
 Up to date
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Package icon: Checked out](../../../assets/p4-checked-out.png "Package icon: Checked out")
+![Package icon: Checked out](version-control.resources/p4-checked-out.png "Package icon: Checked out")
 
 Checked out
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Package icon: Added](../../../assets/p4-added.png "Package icon: Added")
+![Package icon: Added](version-control.resources/p4-added.png "Package icon: Added")
 
 Marked for add
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Package icon: Not in depot](../../../assets/p4-not-in-depot.png "Package icon: Not in depot")
+![Package icon: Not in depot](version-control.resources/p4-not-in-depot.png "Package icon: Not in depot")
 
 Not in depot
 
@@ -193,13 +193,13 @@ my\_script <b>*WorkspaceName WorkspacePath ActionName&#91;ActionArgs&#93;*</b>
 * *get\_last\_version:* for the "Get Last Version" action
 * *get\_status:* for the "Get Status" action
 
-The label is set up in the project settings, with ' ' character replaced by '\_' — E.g.: "My Action" =&gt; "My\_Action".
+The label is set up in the project settings, with ' ' character replaced by '\_' — E.g.: "My Action" =&gt; "My\_Action".
 
 <b>ActionArgs:</b> arguments of the action:
 
 * *-desc*: A description string used by 'Submit' action
-* *-files:* A list of files
-* *-files\_list:* A text file that contains a list of files per line
+* *-files:* A list of files
+* *-files\_list:* A text file that contains a list of files per line
 
 <b>get\_status</b>: Returns a value depending of the status of the specified file:
 

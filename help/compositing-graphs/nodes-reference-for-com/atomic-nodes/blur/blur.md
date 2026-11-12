@@ -18,7 +18,7 @@ user-guide-title: ""
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![Blur node icon](../../../../assets/blur-9.png){width="200px"}
+![Blur node icon](blur.resources/blur-9.png)
 
 **In:** Atomic Nodes
 
@@ -37,6 +37,14 @@ While blur works well for fast, simple operations, such as slightly softening so
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blur.resources/blur-tooltip.gif" alt="blur tooltip" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
+
 ## Parameters
 
 * **Intensity**: 0-unlimited  
@@ -46,4 +54,4 @@ Below Example shows this node's Blur on the left, versus [Blur HQ](../../../../c
 
 | Blur (Atomic) | Blur HQ |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../../../assets/blur-example.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../../../assets/blur-hq.png"/></div> |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="blur.resources/blur-example.png"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="blur.resources/blur-hq.png"/></div> |

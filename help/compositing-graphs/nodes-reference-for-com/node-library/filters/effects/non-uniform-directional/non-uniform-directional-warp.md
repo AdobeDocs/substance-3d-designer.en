@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-directional-warp-color.png)![](../../../../../../assets/non-uniform-directional-warp-grayscale.png)
+![](non-uniform-directional-warp.resources/non-uniform-directional-warp-color.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-grayscale.png)
 
-## Non Uniform Dir. Warp (Grayscale)
-
-**In:** *Filters/Effects*
-
-**Complex**
+<b>In:</b> Filters &gt; Effects
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,35 +31,30 @@ Non-Uniform Direction Warp is an advanced version of [Directional Warp](../../..
 
 It differs from [Multi Directional Warp](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) in that it allows control over the Angle through a custom Map input, whereas Multi Directional Warp only allows Direction to be controlled through parameters. This means that you can create advanced trailing and curving effects that are not possible otherwise.
 
-## Parameters
-
-### Inputs
-
-* **Input**: *Grayscale Input*   
-  Base map to which the warping will be applied.
-* **Intensity Input**: *Grayscale Input*   
-  Mandatory mask map that drives the intensity of the warping effect, must be grayscale.
-* **Warp Angle Input**: *Grayscale Input*   
-  Mandatory mask map that drives the Angle of the warping effect, must be grayscale.
-
-### Parameters
-
-* **Intensity**: *0.0 - 20.0*  
-  Sets the intensity of the warp effect, how far to push pixels out.
-* **Warp Angle**: *0.0 - 1.0*  
-  Sets the Angle or direction in which to apply the Warp effect.
-* **Warp Angle Input Multiplier**: *0.0 - 1.0*  
-  Sets the effect of the Warp Angle Input Map. The Warp Angle Input map will the be used to interpolate from 0 to the value of this parameter.
-* **Trail Mode**: *Min, Max, Average*  
-  Sets how the Trails are blended.
-* **Trail Length**: *0.0 - 1.0*  
-  Sets Length of Trails.
-* **Trail Fade**: *0.0 - 1.0*  
-  Sets how much each Trail should fade out
-* **Trail Curve**: *-1.0 - 1.0*Only has effect if Trail Fade i not 0. Sets how the fading effect behaves.
-
-## Example Images
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## Inputs
+
+|  |  |
+|:---|:---|
+| <b>Input</b> <i>Grayscale Input</i> | Base map to which the warping will be applied. |
+| <b>Intensity Input</b> <i>Grayscale Input</i> | Mandatory mask map that drives the intensity of the warping effect, must be grayscale. |
+| <b>Warp Angle Input</b> <i>Grayscale Input</i> | Mandatory mask map that drives the Angle of the warping effect, must be grayscale. |
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Intensity</b> <i>0.0 - 20.0</i> | Sets the intensity of the warp effect, how far to push pixels out. |
+| <b>Warp Angle</b> <i>0.0 - 1.0</i> | Sets the Angle or direction in which to apply the Warp effect. |
+| <b>Warp Angle Input Multiplier</b> <i>0.0 - 1.0</i> | Sets the effect of the Warp Angle Input Map. The Warp Angle Input map will the be used to interpolate from 0 to the value of this parameter. |
+| <b>Trail Mode</b> <i>Min, Max, Average</i> | Sets how the Trails are blended. |
+| <b>Trail Length</b> <i>0.0 - 1.0</i> | Sets Length of Trails. |
+| <b>Trail Fade</b> <i>0.0 - 1.0</i> | Sets how much each Trail should fade out |
+| <b>Trail Curve</b> <i>-1.0 - 1.0</i> | Only has effect if Trail Fade i not 0. Sets how the fading effect behaves. |

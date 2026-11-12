@@ -14,7 +14,7 @@ user-guide-title: ""
 
 # Graph instances and subgraphs
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/sub-graph.png)
 
 Graph instances are nodes that <b>reference another graph</b>. A graph referenced by an instance node in a host graph may be called a <b>subgraph</b> of the host graph.
 
@@ -36,7 +36,7 @@ Drag a graph A from the Explorer into another graph B to create an <b>instance n
 
 Nodes can be quickly split into a new graph by selecting the nodes and using the 'Create graph from selection' in the contextual menu. You are then prompted to set the identifier of the new graph, which should be unique.
 
-Note that if the selected nodes were connected to other nodes in the graph, you should also create [Input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) and [Output](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes in the new graph to carry over these connections to the subgraph.
+Note that if the selected nodes were connected to other nodes in the graph, you should also create [Input](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) and [Output](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) nodes in the new graph to carry over these connections to the subgraph.
 
 Additionally, replacing the original nodes by an instance node referencing the new graph should be done manually afterwards.
 
@@ -52,18 +52,18 @@ Note that while the graph instance and subgraph concepts also apply to Substance
 
 ### Can I add my own graph instances to the node library?
 
-<b>Yes, this is possible </b>but it requires some specific set-up. Learn more in the [Managing custom content and filters](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) page of this documentation.
+<b>Yes, this is possible </b>but it requires some specific set-up. Learn more in the [Managing custom content and filters](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) page of this documentation.
 
 ### Can you inspect the source graph of a graph instance?
 
-![(tick)](../../../assets/check.svg) Yes, and *only* for instances of graphs loaded from a **Substance 3D file (SBS)**. These instance nodes have a *dark red* label.  
+![(tick)](graph-instances-sub-graphs.resources/check.svg) Yes, and *only* for instances of graphs loaded from a **Substance 3D file (SBS)**. These instance nodes have a *dark red* label.  
 Right-click on the node to open its contextual menu and select the **Open reference** option.
 
 >[!NOTE]
 >
 > While inspecting the source graph, you can use the input data of the instance's graph if the **In-context editing** option is *checked* in the **Graph** section of the [Preferences](../../../interface/preferences-window/preferences-window.md).
 
-![(minus)](../../../assets/forbidden.svg) It is *not* possible to inspect graphs loaded from **Substance 3D asset (SBSAR)** instances, as these are already compiled. You may only load the asset in the **Explorer** panel to inspect the exposed graphs list and their parameters. These instance nodes have a *green* label.  
+![(minus)](graph-instances-sub-graphs.resources/forbidden.svg) It is *not* possible to inspect graphs loaded from **Substance 3D asset (SBSAR)** instances, as these are already compiled. You may only load the asset in the **Explorer** panel to inspect the exposed graphs list and their parameters. These instance nodes have a *green* label.  
 Right-click on the node to open its contextual menu and select the **Load package** option.
 
 >[!NOTE]

@@ -34,7 +34,7 @@ the plugin code, and any other files or resources needed by the plugin to work.
 
 ## Creating a new plugin package project
 
-We provide a [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) template project to simplify the creation of plugin package projects.
+We provide a [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) template project to simplify the creation of plugin package projects.
 
 You can use it directly or modify it for you own needs.
 
@@ -53,7 +53,7 @@ The template can be found in the application directory, under <b>plugins/tools/p
    ```
 
 
-   For alternative ways to install Cookiecutter or for more information about Cookiecutter you can check the documentation at <https://cookiecutter.readthedocs.io/en/latest/installation.html>
+   For alternative ways to install Cookiecutter or for more information about Cookiecutter you can check the documentation at <https://cookiecutter.readthedocs.io/en/latest/installation.html>
 1. <b>Create a new plugin package project</b>
 
    In a terminal window run:

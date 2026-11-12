@@ -16,20 +16,16 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crop-multi.png){width="128px"}
+![](multi-crop.resources/crop-multi.png){width="128px"}
 
-![](../../../../../../assets/crop-multi-grayscale.png){width="128px"}
+![](multi-crop.resources/crop-multi-grayscale.png){width="128px"}
 
-## Multi Crop (Grayscale)
-
-**In:** *Material Filters/Scan Processing*
-
-**Intermediate**
+<b>In:</b> Material Filters &gt; Scan Processing
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -39,25 +35,19 @@ This is the multi-channel version of Crop. It crops out an area from an image an
 >
 > See the original [Crop](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/crop/crop.md) for more info.
 
-## Parameters
-
-### Parameters
-
-* **Input Count**: *1 - 8*Sets the number of inputs to process in parallel.
-* **Input Size**: *0 - 8192*Input images' resolution and proportions. Very important for non-square images.
-* **Background**: *(Color value) / (Grayscale value)*Background uniform value for areas not covered by Crop.
-* **Transform**: *(Transformation Matrix)*  
-  Rotates and scales the result. The result can be modified by directly interacting with the canvas.
-* **Offset**: *0.0 - 1.0*  
-  Moves or translates the result. The result can be modified by directly interacting with the canvas.
-* **Is Normal (only for Color version)**: *False/True*Whether or not the input should be treated as a Normalmap.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Input Count</b> <i>1 - 8</i> | Sets the number of inputs to process in parallel. |
+| <b>Input Size</b> <i>0 - 8192</i> | Input images' resolution and proportions. Very important for non-square images. |
+| <b>Background</b> <i>(Color value) / (Grayscale value)</i> | Background uniform value for areas not covered by Crop. |
+| <b>Transform</b> <i>(Transformation Matrix)</i> | Rotates and scales the result. The result can be modified by directly interacting with the canvas. |
+| <b>Offset</b> <i>0.0 - 1.0</i> | Moves or translates the result. The result can be modified by directly interacting with the canvas. |
+| <b>Is Normal (only for Color version)</b> <i>False/True</i> | Whether or not the input should be treated as a Normalmap. |

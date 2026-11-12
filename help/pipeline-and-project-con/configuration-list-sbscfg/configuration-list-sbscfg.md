@@ -25,7 +25,7 @@ You can have multiple configurations for different environments, these files can
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG file icon](../../assets/sbscfg.png "SBSCFG file icon")
+![SBSCFG file icon](configuration-list-sbscfg.resources/sbscfg.png "SBSCFG file icon")
 
 </td>
 </tr>
@@ -39,11 +39,11 @@ These files are simple, yet they can still be modified in two different ways, ju
 
 The highlighted section is the part that relates to the Configuration Files, you simply add more Projects to the list which are stored in the above defined SBSCFG file.
 
-![Project settings](../../assets/config-ui.png "Project settings")
+![Project settings](configuration-list-sbscfg.resources/config-ui.png "Project settings")
 
 ### External editing as XML
 
-For Windows <b>Notepad++</b> is a good free option, for macOS <b>Sublime Text</b> is an alternative. However, any editor with proper indentation, section collapsing and some form of syntax highlighting will make your life much easier.
+For Windows <b>Notepad++</b> is a good free option, for macOS <b>Sublime Text</b> is an alternative. However, any editor with proper indentation, section collapsing and some form of syntax highlighting will make your life much easier.
 
 Once you open the SBSCFG file in an editor, you should see a fairly straightforward structured layout, with sections corresponding to the UI.
 

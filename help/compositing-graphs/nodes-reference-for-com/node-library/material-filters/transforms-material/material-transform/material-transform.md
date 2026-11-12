@@ -16,18 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-transforms.png){width="128px"}
+![](material-transform.resources/material-transforms.png){width="128px"}
 
-## Material Transform
-
-**In:** *Material Filters/Transforms*
-
-**Simple**
+<b>In:</b> Material Filters &gt; Transforms
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## Description
 
@@ -35,23 +31,17 @@ Material Transform is simply the "Multi-Channel" Materials version of [the atomi
 
 Just make sure to set up the Channels properly! By default, both Metallic/Roughness and Specular/Glossiness are enabled, which could lead to some confusion.
 
-## Parameters
-
-* **Transformation**: *(Transformation Matrix)*  
-  Rotates and scales the result. Moving/panning is done via the Offset parameter
-* **Offset**: *-0.5 - 0.5*  
-  Moves or translates the result. When the Transformation control is present, the result can be modified by directly interacting with the canvas.
-* **Normal Format**  
-  Choose between DirectX and OpenGL formats (flip green).
-* **Channels**  
-  Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness.
-
-## Example Images
-
-|  |
-| --- |
-| There are no images attached to this page. |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## Parameters
+
+|  |  |
+|:---|:---|
+| <b>Transformation</b> <i>(Transformation Matrix)</i> | Rotates and scales the result. Moving/panning is done via the Offset parameter |
+| <b>Offset</b> <i>-0.5 - 0.5</i> | Moves or translates the result. When the Transformation control is present, the result can be modified by directly interacting with the canvas. |
+| <b>Normal Format</b> | Choose between DirectX and OpenGL formats (flip green). |
+| <b>Channels</b> | Toggle material channels on and off in this group, for example when using Specular/Glossiness maps instead of Metallic/Roughness. |

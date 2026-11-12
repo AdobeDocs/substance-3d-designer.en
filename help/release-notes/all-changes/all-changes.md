@@ -16,6 +16,70 @@ user-guide-title: ""
 
 ## Version 16
 
+### 16.0.7
+
+*(Released October 8th, 2026)*
+
+**Added:**
+
+* &#91;Engine&#93; Update Substance engine to v9.6.1
+* &#91;OpenGL&#93;&#91;OpenPBR&#93; Improve numerical stability of VNDF sampling and minor ALU optimizations
+
+**Fixed:**
+
+* &#91;3D View&#93;&#91;USD&#93; Incorrect surface look after overriding the material in a specific USD scene
+* &#91;Content&#93; Vector morph: tiling mode is not supported
+* &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in PLY file parsing
+* &#91;Security&#93; Fixed a stack overflow vulnerability in FBX file parsing
+* &#91;Security&#93; Fixed a stack overflow vulnerability in SBSAR file parsing
+* &#91;Security&#93; Fixed an out-of-bounds read vulnerability in SBSAR file parsing
+* &#91;Security&#93; Fixed an out-of-bounds write vulnerability in FBX file parsing
+
+### 16.0.6
+
+*(Released September 4th, 2026)*
+
+**Fixed:**
+
+* &#91;Stability&#93; Fixed a crash when closing the application while shaders are being compiled
+* &#91;Stability&#93; Fixed a crash when exporting an image to a path containing non-ASCII characters
+* &#91;Security&#93; Fixed an out-of-bounds read vulnerability in TGA file parsing
+* &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in TIFF file parsing
+* &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in TGA file parsing
+
+### 16.0.5
+
+*(Released August 26th, 2026)*
+
+**Added:**
+
+* &#91;3D View&#93; Added a button to select the current AOV
+* &#91;Content&#93; Perlin/Gaussian noise: unclamp scale parameter
+* &#91;Content&#93; Hide unnecessary bitmap resources from the library
+<!--
+* &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
+-->
+
+**Fixed:**
+
+* &#91;3D View&#93; Environment visibility changes made in OpenGL are not carried over to Eclair renderers
+* &#91;Bakers&#93; Baking context was not destroyed after refreshing bakes for a deleted UDIM bitmap resource
+* &#91;Bakers&#93; Fixed a crash when deleting a UDIM bitmap resource while its bakes were refreshing
+* &#91;Content&#93; Shape splatter v2: cylinder shape height is not correct
+* &#91;Content&#93; Shape splatter v2: density map not working correctly when node size exceeds 4096
+* &#91;Content&#93; Shape splatter v2: using the 'Rock' SDF behind an If/Else can lead to an infinite loop
+* &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in AXF file parsing
+* &#91;Security&#93; Fixed a NULL pointer dereference vulnerability in GLB file parsing
+* &#91;Security&#93; Fixed out-of-bounds write vulnerabilities in SBSAR file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in DDS file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in GLB file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in TGA file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in TIFF file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in USDA file parsing
+* &#91;Security&#93; Fixed a heap corruption vulnerability in WEBP file parsing
+* &#91;UI&#93; Hitbox of items in persistent checkbox menus only spans the item text
+
+
 ### 16.0.4
 
 *(Released July 2nd, 2026)*
@@ -333,7 +397,7 @@ user-guide-title: ""
 * &#91;Content&#93; Fractal sum 1,2,3,4 v2: add default output format
 * &#91;Content&#93; Gaussian noise v2: add default output format, no tiling support
 * &#91;Content&#93; Gaussian spots 1&amp;2 v2: add default output format, no tiling support
-* &#91;Content&#93; Messy fibers 1,2,3  v2: add default output format, no tiling support, disorder options
+* &#91;Content&#93; Messy fibers 1,2,3 v2: add default output format, no tiling support, disorder options
 * &#91;Content&#93; Moisture noise v2: add default output format, no tiling support
 * &#91;Content&#93; New 'Moisture noise 2' node
 * &#91;Content&#93; Noises: update to add default outputformat
@@ -1070,15 +1134,15 @@ user-guide-title: ""
 * &#91;Content&#93; Raytraced Shadows v2
 * &#91;Engine&#93; Update to version 9
 * &#91;Engine&#93; Loop node in function graphs
-* &#91;Engine&#93; Add solid mode to Gradient
+* &#91;Engine&#93; Add solid mode to Gradient
 * &#91;Engine&#93; Atomic pow() node in Function Graph
 * &#91;Engine&#93; Add border wrapping options (clamp to edge / repeat) in Sampler node
 * &#91;Engine&#93; Nearest sampling in Warp and Directional Warp node
 * &#91;Engine&#93; Add a "punchthrough alpha" mode to the Sharpen filter for color inputs
 * &#91;Engine&#93; FxMap: Hemisphere morphlet
-* &#91;Engine&#93; Atomic Get/Set operations in function graphs
-* &#91;Engine&#93; Functions: use precise function of log/log2/exp, 2pow - Unify functions between cooker and engine
-* &#91;Engine&#93; Add an "intensity offset" parameter to the Directional Warp filter
+* &#91;Engine&#93; Atomic Get/Set operations in function graphs
+* &#91;Engine&#93; Functions: use precise function of log/log2/exp, 2pow - Unify functions between cooker and engine
+* &#91;Engine&#93; Add an "intensity offset" parameter to the Directional Warp filter
 * &#91;API&#93; Support preset management for compositing graphs
 * &#91;Functions&#93; Change input name for functions atomic nodes
 * &#91;Localization&#93; Add Portuguese (Brazil), Italian (Italy) and Spanish (Spain) languages

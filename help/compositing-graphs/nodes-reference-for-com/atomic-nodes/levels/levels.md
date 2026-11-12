@@ -16,12 +16,14 @@ user-guide-title: ""
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![Atomic node: Levels](../../../../assets/comp_levels_1.png "Atomic node: Levels"){width="200px"}
+![Atomic node: Levels](levels.resources/comp_levels_1.png "Atomic node: Levels"){width="100%"}
+
+<b>In:</b> Atomic Nodes
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 Adjusts the global tonal range and color balance of an image's shadows, midtones and highlights.
 
@@ -31,48 +33,34 @@ The Levels node allows you to remap the tones of an input by setting input and o
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="levels.resources/levels-tooltip.gif" alt="levels tooltip" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 It is one of the core, most useful nodes in Substance 3D Designer, and is very often used to remap and adjust values in a graph, as it provides the most precise and accurate interface to changing values.
 
 While it is an important node, for some use cases the interface can be a bit cumbersome, so make sure to look into [Auto Levels](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md), [Contrast/Luminosity](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) and [Histogram Scan](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) for alternatives.
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## Examples
-
-## Parameters
 
 The node offers two interfaces to adjust its values: histogram and sliders. You can switch between them with the rightmost button in the 'Specific parameters' header bar:
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 The highlighted yellow button toggles the interface between the histogram (top) value sliders (bottom)
 
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-2-1.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -95,7 +83,7 @@ Check out this video overview of the Levels node and its histogram editor:
 
 In the 'Specific parameters' header bar, you can find buttons to access convenient functions of the histogram:
 
-![Levels node quick actions](../../../../assets/levels-2.png "Levels node quick actions")
+![Levels node quick actions](levels.resources/levels-2.png "Levels node quick actions")
 
 <b>1 - Invert:</b> Swaps the values of the 'Level out low' and 'Level out high' parameters.
 
@@ -107,7 +95,7 @@ In the 'Specific parameters' header bar, you can find buttons to access convenie
 
 The histogram editor is intended for visual, quick adjustments where accurate values are not really needed, and exposing parameters is not of importance. It is generally the fastest and easiest way to work with Levels.
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-histo.gif)
 
 Depending on the input type (Color or Grayscale) you can use the dropdown above the Histogram to choose which channel you are modifying.
 
@@ -123,11 +111,6 @@ The sliders change depending on a Color or Grayscale input: Color inputs create 
 | --- | --- |
 | <b>Input</b> *Grayscale/Color* PRIMARY | The image to be processed. |
 
-## Output connectors
-
-|  |  |
-| --- | --- |
-| <b>Output</b> *Grayscale/Color* |  |
 
 ## Examples
 
