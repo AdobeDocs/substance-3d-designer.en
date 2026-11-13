@@ -5,7 +5,7 @@ description: Find all sample projects and graphs produced by the Substance 3D De
 
 # All samples
 
-<table style="border: 0">
+<table style="border: 0; table-layout:auto">
 
 {{sample-abstract-fabric}}
 {{sample-brick-wall}}
@@ -19,7 +19,6 @@ description: Find all sample projects and graphs produced by the Substance 3D De
 {{sample-quilted-satin}}
 {{sample-recycled-plastic}}
 {{sample-rusty-bolts}}
-{{sample-spot-colors}}
 {{sample-stone-ground}}
 {{sample-stylized-mosaic}}
 {{sample-wood}}
