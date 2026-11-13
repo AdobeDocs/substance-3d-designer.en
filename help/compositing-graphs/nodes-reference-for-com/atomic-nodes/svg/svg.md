@@ -53,12 +53,12 @@ You can either create the node from scratch, or by dropping an SVG file into the
 > This node is dependent on an external resource, hence there are a few points need to be kept in mind when working with them:
 > 
 > * SVG nodes can return either color or grayscale, but default to color even if the resource is a grayscale vector. This can affect graph performance and complexity, so always make sure to switch to the 'Grayscale' [color mode](#parameters) if needed.
-> * Deleting an SVG node does not delete the [SVG resource](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) in your [package](../../../../learning-tutorials/essentials/glossary/glossary.md#package), you have to manually do that in the [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md).
-> * SVG shapes are [tessellated](../../../../learning-tutorials/essentials/glossary/glossary.md#tessellation) into geometry/polygons, then *rasterized* in order to be used in Substance graphs as bitmaps. The technology used for these operations does not support several vector properties, such as outlines. Learn more about these limitations [here](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
+> * Deleting an SVG node does not delete the [SVG resource](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) in your [package](../../../../glossary/glossary.md), you have to manually do that in the [Explorer](../../../../interface/the-explorer-window/the-explorer-window.md).
+> * SVG shapes are [tessellated](../../../../glossary/glossary.md) into geometry/polygons, then *rasterized* in order to be used in Substance graphs as bitmaps. The technology used for these operations does not support several vector properties, such as outlines. Learn more about these limitations [here](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md).
 
 >[!WARNING]
 >
-> SVG shapes are [tessellated](../../../../learning-tutorials/essentials/glossary/glossary.md#tessellation) into geometry/polygons, then *rasterized* in order to be used in Substance graphs as bitmaps.
+> SVG shapes are [tessellated](../../../../glossary/glossary.md) into geometry/polygons, then *rasterized* in order to be used in Substance graphs as bitmaps.
 > 
 > The technology used for these operations does not support several vector properties, such as outlines.
 > 

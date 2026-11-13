@@ -153,13 +153,13 @@ You can view any individual graph output by expanding the graph resource in the 
 Designer offers a dozen preset meshes. These meshes have uniform, useable UV coordinates and serve most scenarios for tiling textures. Importing and viewing your own 3D meshes is also possible.  
 Pick any of the default meshes through the <b>Scene</b> dropdown menu in the top bar.
 
-For custom 3D scenes, go to the [Working with 3D scenes](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) section.
+For custom 3D scenes, go to the [Working with 3D scenes](../../working-with-3d-scenes/working-with-3d-scenes.md) section.
 
 ![Changing material properties](3d-view.resources/3d-materials.gif "Changing material properties")
 
 ## Change shader properties
 
-There are a few different [shaders](../../learning-tutorials/essentials/glossary/glossary.md#shader) available by default in Designer, and each shader has options beyond just texture channels. They can be configured individually.
+There are a few different [shaders](../../glossary/glossary.md) available by default in Designer, and each shader has options beyond just texture channels. They can be configured individually.
 
 Keep in mind shaders are different across Designer's [3D renderers](../../interface/3d-view/3d-renderers/3d-renderers.md) and only settings marked with a 'Common' label will carry over when switching renderers.
 
@@ -183,7 +183,7 @@ Shaders can be reset using the 'Reset material' or 'Reset to scene state' action
 
 ## Export scene
 
-Learn about exporting 3D scenes in [this page](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
+Learn about exporting 3D scenes in [this page](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md).
 
 ### Export tessellated mesh (OpenGL renderer only)
 
@@ -265,18 +265,18 @@ The <b>Scene</b> menu deals with the geometry (3D Resource) shown and with 3D vi
 
 <b>Create 3D resource from current scene...:</b> Creates a new [3D scene resource](../../resources/3d-scene-resource/3d-scene-resource.md) in a package out of the current scene.
 
-<b>Load state file...: </b>Loads an externally saved [scene state file](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Does not replace the 3D mesh, only loads settings for 3D renderer, camera and lights.
+<b>Load state file...: </b>Loads an externally saved [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Does not replace the 3D mesh, only loads settings for 3D renderer, camera and lights.
 
-<b>Load state file with mesh...:</b> Loads an externally saved [scene state file](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Loads settings for 3D renderer, camera, lights, along with its references 3D scene. .
+<b>Load state file with mesh...:</b> Loads an externally saved [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn). Loads settings for 3D renderer, camera, lights, along with its references 3D scene. .
 
-<b>Save state file...: </b>Save the current state of the 3D view to a [scene state file](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
+<b>Save state file...: </b>Save the current state of the 3D view to a [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) (\*.sbsscn).
 
-<b>Save current state as default: </b>Set the current state of the 3D view as as a [scene state file](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) to be used by default when creating new 3D Views. This file is loaded every time the 3D view is reset or intialised, and can be set in the [Project settings](../../interface/preferences-window/project-settings/project-settings.md).
+<b>Save current state as default: </b>Set the current state of the 3D view as as a [scene state file](../../working-with-3d-scenes/working-with-3d-scenes.md) to be used by default when creating new 3D Views. This file is loaded every time the 3D view is reset or intialised, and can be set in the [Project settings](../../interface/preferences-window/project-settings/project-settings.md).
 
-<b>Export scene:</b> *(Rasterizer/GPU Pathtracer renderers only)* Exports the current scene as a [flattened scene](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md), where only the result scene is written and any references to the original scene are lost. The contents of the exported scene depend on the features supported by the selected export format.  
+<b>Export scene:</b> *(Rasterizer/GPU Pathtracer renderers only)* Exports the current scene as a [flattened scene](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), where only the result scene is written and any references to the original scene are lost. The contents of the exported scene depend on the features supported by the selected export format.  
 Available formats: STL, FBX, GLB, GLTF, PLY, USDC, USD, USDA, USDZ, OBJ.
 
-<b>Export scene with layers:</b> *(Rasterizer/GPU Pathtracer renderers only)*Exports the current scene as a [layered scene](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md), where all edits to the original scene are saved to separate files in a non-destructive workflow. This is only available for USD file formats.  
+<b>Export scene with layers:</b> *(Rasterizer/GPU Pathtracer renderers only)*Exports the current scene as a [layered scene](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md), where all edits to the original scene are saved to separate files in a non-destructive workflow. This is only available for USD file formats.  
 Available formats are: USDC, USD, USDA.
 
 <b>Export tessellated geometry:</b> *(OpenGL renderer only)* Exports the current scene with tessellation as raw geometry, see Export scene section.
@@ -296,7 +296,7 @@ The 'Materials' menu features a list of all materials assigned to a mesh in the 
 
 <b>Edit</b> - Edit settings of the current material in the Properties window.
 
-<b>Shaders list</b> - All [shaders](../../learning-tutorials/essentials/glossary/glossary.md#shader) available for the current [3D renderer](../../interface/3d-view/3d-renderers/3d-renderers.md).
+<b>Shaders list</b> - All [shaders](../../glossary/glossary.md) available for the current [3D renderer](../../interface/3d-view/3d-renderers/3d-renderers.md).
 
 <b>Load Definition...: </b>(OpenGL renderer only) Lets you load your own custom [GLSLFX shader.](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) The shader is added into the list above.
 
@@ -306,9 +306,9 @@ The 'Materials' menu features a list of all materials assigned to a mesh in the 
 
 <b>Reset material:</b> Resets all shader parameters to their default values. If textures are connected to any of the shader's samplers, they are disconnected.
 
-<b>Reset material to scene state: </b>*(Rasterizer/GPU Pathtracer renderers only)* Resets all properties for [overridden materials](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) to their original values from the scene, including original textures if any.
+<b>Reset material to scene state: </b>*(Rasterizer/GPU Pathtracer renderers only)* Resets all properties for [overridden materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) to their original values from the scene, including original textures if any.
 
-<b>Add: </b>Adds a new material to the list. It is unused by default and may be [connected to a scene material](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) using the [Scene browser](../../interface/3d-view/scene-browser/scene-browser.md).
+<b>Add: </b>Adds a new material to the list. It is unused by default and may be [connected to a scene material](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) using the [Scene browser](../../interface/3d-view/scene-browser/scene-browser.md).
 
 +++
 

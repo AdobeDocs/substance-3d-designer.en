@@ -79,7 +79,7 @@ This images below show the Directional blur and the[ Anisotropic blur](../../../
 
 |  |  |
 | --- | --- |
-| <b>Input</b> *Grayscale/Color* [PRIMARY](../../../../learning-tutorials/essentials/glossary/glossary.md#primary-input) | The image to be processed. |
+| <b>Input</b> *Grayscale/Color* [PRIMARY](../../../../glossary/glossary.md) | The image to be processed. |
 
 
 ## Examples

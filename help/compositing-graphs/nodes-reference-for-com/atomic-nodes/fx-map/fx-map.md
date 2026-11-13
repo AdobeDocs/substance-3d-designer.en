@@ -61,7 +61,7 @@ Keep in mind that unlike other nodes, the majority of an FX-Map's behavior is no
 | <b>Background</b> *Float/Float4* | Sets the background starting color onto which to composite results. |
 | <b>Render region</b> *Float4* | Lets you set the starting pixel range for each side of the FX-Map, resulting in a stretching effect. |
 | <b>Tiling region</b> *Float4* | Lets you offset the tiling distance of the FX-Map. |
-| <b>Cull outside</b> *Boolean* | Performs an optimization by [culling](../../../../learning-tutorials/essentials/glossary/glossary.md#culling) patterns that fall outside of the normal range. |
+| <b>Cull outside</b> *Boolean* | Performs an optimization by [culling](../../../../glossary/glossary.md) patterns that fall outside of the normal range. |
 | <b>Roughness</b> *Float* | Functions as a depth and opacity multiplier. It applies a bias to the FX-map blending process. |
 | <b>Global opacity</b> *Float* | Sets the global opacity of the FX-map's output. |
 

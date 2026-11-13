@@ -49,16 +49,16 @@ In addition, the hotkey to rotate the environment light has changed to match the
 
 ## Asset edition in context
 
-When you work on your materials, you may want to [preview it in the context of a specific 3D scene](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md). That's why we added the possibility to import and render a full scene, with all its textures, cameras and lights. And cherry on top, if this scene references MaterialX shaders, they will be correctly rendered with the rasterizer!
+When you work on your materials, you may want to [preview it in the context of a specific 3D scene](../../working-with-3d-scenes/working-with-3d-scenes.md). That's why we added the possibility to import and render a full scene, with all its textures, cameras and lights. And cherry on top, if this scene references MaterialX shaders, they will be correctly rendered with the rasterizer!
 
 ![USD scene loaded and rendered in Designer](version-15-0.resources/feature_2.png)
 
-Once imported, you can work on your scene by selecting a mesh (with a SHIFT + Click or thanks to the scene browser) and [overriding any of its materials](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md). You may then:
+Once imported, you can work on your scene by selecting a mesh (with a SHIFT + Click or thanks to the scene browser) and [overriding any of its materials](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md). You may then:
 
 * Create or load a graph and apply it on a scene material.
-* Make adjustments to an existing material by [extracting its textures](../../learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md) into a new graph.
+* Make adjustments to an existing material by [extracting its textures](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) into a new graph.
 
-Finally, once your 3d scene is edited, you can [export it](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md) as a new file, or as a new layer of the original file, preventing you to any loss of data (for USD format only).
+Finally, once your 3d scene is edited, you can [export it](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) as a new file, or as a new layer of the original file, preventing you to any loss of data (for USD format only).
 
 Last but not least, more 3d formats are now supported for both import and export: USD (+ usda, usdc, usdz), STL, PLY and GLTF, in addition to already available formats FBX and OBJ.
 

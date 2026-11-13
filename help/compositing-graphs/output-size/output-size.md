@@ -58,7 +58,7 @@ This also applies when the Output Size value is controlled by a [function](../..
 >[!IMPORTANT]
 >
 > Increasing or decreasing resolution in both X and Y multiplies or divides the pixel count by *4*, which has a significant impact on a graph's *performance* and *memory footprint*.  
-> As such, we strongly recommend using the *lowest resolution* actually needed to get a desired result. Keeping resolutions under control is one of many of our [performance optimization guidelines](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md).
+> As such, we strongly recommend using the *lowest resolution* actually needed to get a desired result. Keeping resolutions under control is one of many of our [performance optimization guidelines](../../best-practices/performance-optimization/performance-optimization-guidelines.md).
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ In most cases, the default [inheritance method](../../compositing-graphs/inherit
 
 * Graph: *Relative to parent*
 * Node: *Relative to input* – the values inherited by the node's [Primary input](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) are used in this case
-* [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node: *Absolute* – see the [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) page and [performance optimization guidelines](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md) to know why that is
+* [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) node: *Absolute* – see the [Bitmap resource](../../resources/bitmap-resource/bitmap-resource.md) page and [performance optimization guidelines](../../best-practices/performance-optimization/performance-optimization-guidelines.md) to know why that is
 
 Display the properties of a node or graph by clicking that item, then in the [Properties](../../interface/properties/properties.md) panel find the <b>Output Size</b> property in the <b>Base parameters</b> section. Click the inheritance method drop down menu select the desired inheritance method.
 

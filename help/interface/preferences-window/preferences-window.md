@@ -72,7 +72,7 @@ You can set the maximum cache size allocated to thumbnails and images in system 
 | <b>Memory budget</b>  *Default: Automatic* | This allocation is calculated automatically to approximately 75% of the total system memory pool. To set this value manually, select the '*Custom*' option and set a value in the adjacent input field. |
 
 Please note writing to disk is *orders of magnitude slower* than writing to system memory. Therefore, graph rendering time will *increase exponentially* as overflowing data needs to be written to the Temporary Folder.  
-To prevent this from happening, we recommend taking a look at the suggestions for decreasing a graph's memory footprint in the [Performance Optimization Guidelines](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md) section of the documentation.
+To prevent this from happening, we recommend taking a look at the suggestions for decreasing a graph's memory footprint in the [Performance Optimization Guidelines](../../best-practices/performance-optimization/performance-optimization-guidelines.md) section of the documentation.
 
 #### Job Scheduler
 
@@ -121,7 +121,7 @@ Please also note auto-saves should be opened *after moving them* to the original
 
 >[!NOTE]
 >
-> We recommend taking a look at the suggestions for decreasing a graph's memory footprint in the [Performance Optimization Guidelines](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md) section of the documentation.
+> We recommend taking a look at the suggestions for decreasing a graph's memory footprint in the [Performance Optimization Guidelines](../../best-practices/performance-optimization/performance-optimization-guidelines.md) section of the documentation.
 
 ## Projects
 
