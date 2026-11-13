@@ -31,7 +31,7 @@ This 13.0 version brings a lot of new content. You will mainly find two new coll
 * [Spline tools](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md) are a collection of nodes for generating and ajusting splines, as well as using them for mapping, scattering or warping images.
 * [Path tools](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md) are another set of nodes to extract, in the form of a list of segments, contours from a mask and then edit and improve them.
 
-All these nodes will offer a lot of possibilities and they will have for sure a lot of creative applications. Check out the section about [working with Paths and Spline tools](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) for a tour of the important concepts to understand in order to get comfortable with this toolset.
+All these nodes will offer a lot of possibilities and they will have for sure a lot of creative applications. Check out the section about [working with Paths and Spline tools](../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) for a tour of the important concepts to understand in order to get comfortable with this toolset.
 
 ![Material using splines](version-13-0.resources/Splines.png "Material using splines")
 

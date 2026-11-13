@@ -124,7 +124,7 @@ The parent of a graph is the *context* it exists in:
 >[!WARNING]
 >
 > Parenthood is *applied as-is* when publishing a package to Substance 3D asset files (SBSAR). This means setting any parameter to the *Absolute* inheritance method will *lock* that parameter to its current value in the published asset.  
-> While this is desirable for [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes or [optimisation purposes](../../best-practices/performance-optimization/performance-optimization-guidelines.md), for instance, we *strongly* recommend using *Relative to…* inheritance methods when working in Substance graphs unless there is a *clear, deliberate purpose* in doing otherwise.
+> While this is desirable for [Bitmap](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) nodes or [optimisation purposes](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md), for instance, we *strongly* recommend using *Relative to…* inheritance methods when working in Substance graphs unless there is a *clear, deliberate purpose* in doing otherwise.
 
 ### IN-CONTEXT EDITING
 

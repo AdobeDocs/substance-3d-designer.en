@@ -8,7 +8,27 @@ nudge: true
 # Substance 3D Designer {#using}
 
 + [User guide](/help/home/home.md)
-+ [Glossary](/help/glossary/glossary.md)
++ Learning & tutorials{#learning-tutorials}
+  + Essentials{#essentials}
+    + Best practices{#best-practices}
+      + [Best practices](/help/learning-tutorials/essentials/best-practices/best-practices.md)
+      + [Filesize reduction guidelines](/help/learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
+      + [Graph creation etiquette](/help/learning-tutorials/essentials/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
+      + [Performance optimization guidelines](/help/learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)
+    + Key concepts{#key-concepts}
+      + [Substance graph key concepts](/help/learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
+    + [Glossary](/help/learning-tutorials/essentials/glossary/glossary.md)
+  + [Getting started](../learning-tutorials/getting-started/getting-started.md)
+  + Nodes{#nodes}
+    + [Working with splines](/help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)
+    + [Working with SDF functions](/help/learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+  + 3D view{#3d-view}
+    + Working with 3D scenes{#working-with-3d-scenes}
+      + [Working with 3D scenes](/help/learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)
+      + [Overriding scene materials](/help/learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)
+      + [Extracting materials' values and textures](/help/learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md)
+      + [Exporting scenes](/help/learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
+  + [All samples](../learning-tutorials/all-samples/all-samples.md)
 + Getting started{#getting-started}
   + [Getting started](/help/getting-started/getting-started.md)
   + [Activation and licenses](/help/getting-started/activation-and-licenses/activation-and-licenses.md)
@@ -76,7 +96,6 @@ nudge: true
   + [Warnings from dependencies](/help/resources/warnings-from-dep/warnings-from-dependencies.md)
 + Substance graphs{#substance-graphs}
   + [Substance graphs](/help/compositing-graphs/substance-compositing-graphs.md)
-  + [Substance graph key concepts](/help/compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
   + Creating a Substance graph{#creating-a-substance-graph}
     + [Creating a Substance graph](/help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
     + [Material samples](/help/compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
@@ -537,7 +556,6 @@ nudge: true
           + [Triplanar](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)
       + Spline Path tools{#spline-path-tools}
         + [Spline Path tools](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
-        + [Working with Path Spline tools](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)
         + [Paths to spline](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)
         + Path tools{#path-tools}
           + [Path tools](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
@@ -642,7 +660,6 @@ nudge: true
     + Function node library{#function-node-library}
       + [Function node library](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md)
       + SDF functions{#sdf-functions}
-        + [Working with SDF functions](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
         + Primitives{#sdf-functions-primitives}
           + [Capped cone](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone/3d-sdf-capped-cone.md)
           + [Capped cone (2 points)](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone-2-points/3d-sdf-capped-cone-2-points.md)
@@ -698,19 +715,9 @@ nudge: true
       + Random{#random}
         + [Random](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/function-nodes-random.md)
         + [Hash functions](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
-+ Working with 3D scenes{#working-with-3d-scenes}
-  + [Working with 3D scenes](/help/working-with-3d-scenes/working-with-3d-scenes.md)
-  + [Overriding scene materials](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
-  + [Extracting materials' values and textures](/help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)
-  + [Exporting scenes](/help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
 + Bakers{#bakers}
   + [Bakers](/help/bakers/bakers.md)
   + [Bakers legacy interface](/help/bakers/bakers-legacy-interface/bakers-legacy-interface.md)
-+ Best practices{#best-practices}
-  + [Best practices](/help/best-practices/best-practices.md)
-  + [Filesize reduction guidelines](/help/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
-  + [Graph creation etiquette](/help/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
-  + [Performance optimization guidelines](/help/best-practices/performance-optimization/performance-optimization-guidelines.md)
 + Pipeline and project configuration{#pipeline-and-project-configuration}
   + [Pipeline and project configuration](/help/pipeline-and-project-con/pipeline-and-project-configuration.md)
   + [Project configuration files - SBSPRJ](/help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)

@@ -26,7 +26,7 @@ These nodes let you author SDF functions which can be used to generate 3D shapes
 
 >[!INFO]
 > 
-> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](function-nodes-sdf-functions/working-with-sdf-functions.md)
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 <table>
 <tr style="border: 0;">

@@ -24,7 +24,7 @@ Some exposed parameters for a graph are *not listed* when using [Preview mode](.
 
 ![(tick)](parameters-not-working-as-expected.resources/check.svg) <b>Recommended steps</b>
 
-The missing parameters are likely [static parameters](../../glossary/glossary.md), which *cannot be edited on-the-fly* after the graph has been *cooked* – i.e., processed in order to run its algorithm quickly and efficiently. Cooking occurs in Designer every time the graph is *edited* or *published*. Parameters impacted by such limitations are listed in the [Limitations](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) section of the [Exposing a parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) page of this documentation.
+The missing parameters are likely [static parameters](../../learning-tutorials/essentials/glossary/glossary.md#static-parameter), which *cannot be edited on-the-fly* after the graph has been *cooked* – i.e., processed in order to run its algorithm quickly and efficiently. Cooking occurs in Designer every time the graph is *edited* or *published*. Parameters impacted by such limitations are listed in the [Limitations](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) section of the [Exposing a parameter](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) page of this documentation.
 
 As such, static parameters are visible and editable in Designer, but are *hidden* in a published Substance 3D asset. You may use [Preview mode](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) to see these limitations in effect before publishing to a Substance 3D asset.
 

@@ -20,7 +20,7 @@ In the camera properties, you can enable post effects to enhance renders or chec
 
 These effects are developed in-house and are only available for the Rasterizer and GPU Pathtracer [renderers](../../../../interface/3d-view/3d-renderers/3d-renderers.md).
 
-Any post effect enabled at the time of saving [3D scene resources](../../../../resources/3d-scene-resource/3d-scene-resource.md) or [scene state files](../../../../working-with-3d-scenes/working-with-3d-scenes.md) will be saved as part of the scene state.
+Any post effect enabled at the time of saving [3D scene resources](../../../../resources/3d-scene-resource/3d-scene-resource.md) or [scene state files](../../../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) will be saved as part of the scene state.
 
 ## Tone mapping
 
