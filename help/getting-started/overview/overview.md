@@ -40,7 +40,7 @@ Substance 3D Designer is a Node-based editor that allows you to build content in
 
 **[Non-linear](../../compositing-graphs/substance-compositing-graphs.md):** you can author a multitude of texture outputs at once. Edit one mask or slider, and automatically any connected output is re-calculated. No more need to separately author maps such as base color, roughness, normal, etc.
 
-**[Non-destructive](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md):** you can reverse any action *without* losing any of your work. It becomes much quicker to iterate and experiment, finding even more efficient workflows.
+**[Non-destructive](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md):** you can reverse any action *without* losing any of your work. It becomes much quicker to iterate and experiment, finding even more efficient workflows.
 
 **[Integrated baking](../../bakers/bakers.md):** access advanced, blazing-fast mesh baking tools right inside the software. You no longer have to perform baking in a separate software and perform lengthy import and export processes.
 

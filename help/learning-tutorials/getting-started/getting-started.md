@@ -11,16 +11,9 @@ description: Learn how to get started with Substance 3D Designer with our dedica
 
 We recommend new users follow our [tutorial series](https://youtube.com/playlist?list=PLB0wXHrWAmCxBw92VSRjqsbqYXgkF8puC&si=88KbfBTpi67mk9CH) for getting started with Substance 3D Designer.
 
-</td>
-<td style="border: 0; width: 40%">
-<img src="getting-started-resources/ds-tutorial-first-steps.jpg" alt="Tutorial: First steps with Substance 3D Designer" />
-</td>
-</tr>
-</table>
-
 ## Course overview
 
->[!VIDEO](https://youtu.be/At3FoFcuN6k?si=jxxAGo1QjBVxx3Kp)
+[![Tutorial: First steps with Substance 3D Designer](getting-started-resources/ds-tutorial-first-steps.jpg)](https://youtu.be/At3FoFcuN6k?si=jxxAGo1QjBVxx3Kp)
 
 ## Project files
 

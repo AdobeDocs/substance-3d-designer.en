@@ -61,4 +61,10 @@
 - Provide sample authors with SBS validation tool
 - Mention downloadable SBS files from 3D assets (with active subscription)
 
+### Additions
+
+* Landing page
+* 'New features' section
+* 'Functions' section (?)
+
 Microsite for glossary?

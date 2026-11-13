@@ -18,7 +18,6 @@ nudge: true
     + Key concepts{#key-concepts}
       + [Substance graph key concepts](/help/learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
     + [Glossary](/help/learning-tutorials/essentials/glossary/glossary.md)
-  + New features{#new-features}
   + [Getting started](../learning-tutorials/getting-started/getting-started.md)
   + Nodes{#nodes}
     + [Working with splines](/help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)
@@ -29,7 +28,6 @@ nudge: true
       + [Overriding scene materials](/help/learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)
       + [Extracting materials' values and textures](/help/learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md)
       + [Exporting scenes](/help/learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
-  + Functions{#functions}
   + [All samples](../learning-tutorials/all-samples/all-samples.md)
 + Getting started{#getting-started}
   + [Getting started](/help/getting-started/getting-started.md)

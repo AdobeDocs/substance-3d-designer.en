@@ -34,7 +34,7 @@ The scene browser displays a list of objects arranged in a hierarchical tree.
 
 Objects are parented to other objects, up to the scene's root. A parent object has an arrow button which is used to expand or collapse the list of its children.
 
-Some objects have properties that can be displayed and edited in the [Properties](../../../interface/properties/properties.md) dock when selected: Environment, camera, lights, `Mesh` objects and material [overrides](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md).
+Some objects have properties that can be displayed and edited in the [Properties](../../../interface/properties/properties.md) dock when selected: Environment, camera, lights, `Mesh` objects and material [overrides](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md).
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
