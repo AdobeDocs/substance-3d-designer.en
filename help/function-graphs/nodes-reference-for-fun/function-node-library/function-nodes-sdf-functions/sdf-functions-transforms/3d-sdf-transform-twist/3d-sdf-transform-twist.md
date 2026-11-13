@@ -28,7 +28,7 @@ Twist an SDF shape around its local Z axis between a start and end point, at an 
 
 >[!INFO]
 > 
-> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../working-with-sdf-functions.md)
 
 ## Inputs
 

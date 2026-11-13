@@ -35,10 +35,6 @@
 
 * [WIP] Update and complete 'Keyboard shortcuts' page
 
-## Changes
-
-* Restructure [Working with splines](help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) to prioritize splines
-
 ## Fixes
 
 * Fix size of icons in [overview.md](help/getting-started/overview/overview.md)
@@ -60,11 +56,5 @@
   - Complexity marker in sample items
 - Provide sample authors with SBS validation tool
 - Mention downloadable SBS files from 3D assets (with active subscription)
-
-### Additions
-
-* Landing page
-* 'New features' section
-* 'Functions' section (?)
 
 Microsite for glossary?

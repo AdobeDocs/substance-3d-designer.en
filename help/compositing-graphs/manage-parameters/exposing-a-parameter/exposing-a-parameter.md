@@ -98,7 +98,7 @@ There are some limitations tied to exposing parameters, as listed in the table b
 | --- | --- |
 | [Gradient Ramp](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md), [Curve Editor](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md), [Font](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md), [Levels Histogram](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | Require widgets which are not available for user-created parameters. |
 
-Another significant limitation is related to [static parameters](../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter). These cannot be changed in a [published Substance 3D asset (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
+Another significant limitation is related to [static parameters](../../../glossary/glossary.md). These cannot be changed in a [published Substance 3D asset (SBSAR)](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md).
 
 Static parameters – as opposed to dynamic parameters – *cannot be edited on-the-fly* after the graph has been *cooked* – i.e., processed in order to run its algorithm quickly and efficiently. Cooking occurs in Designer every time the graph is *edited* or *published*.
 

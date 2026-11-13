@@ -37,9 +37,9 @@ See also [Shape splatter v2 mapper color](../shape-splatter-v2-mapper-color/shap
 
 >[!TIP]
 > 
-> The [**'Rusty bolts'** material sample](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample) is available to get started with Shape splatter v2 nodes.
+> The [**'Rusty bolts'** material sample](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample) is available to get started with Shape splatter v2 nodes.
 > 
-> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
 
 <a name="inputs"></a>
 

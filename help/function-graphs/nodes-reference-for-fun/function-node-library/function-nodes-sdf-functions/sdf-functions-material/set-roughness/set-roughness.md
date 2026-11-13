@@ -28,7 +28,7 @@ This value can then be retrieved for all splattered SDF shapes in the *SDF rough
 
 >[!INFO]
 > 
-> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> To learn more about concepts and workflows involving SDF functions, go to the dedicated page: [Working with SDF functions](../../working-with-sdf-functions.md)
 
 ## Inputs
 

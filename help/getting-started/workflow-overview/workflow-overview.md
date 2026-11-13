@@ -42,7 +42,7 @@ For more information about graph instances, there is a [dedicated section](../..
 Any node in your chain of operations will have some form of controls: buttons, sliders, settings for you to tweak which influence the final result.  
 If you create a subgraph or want to export your Substance file to another application, you can build your own "control panel" for your graphs allowing other users to tweak and modify them with a fully unique control panel.
 
-Learn about the general concept of custom parameters [here](../../learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md), or go more in depth and [start exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
+Learn about the general concept of custom parameters [here](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md), or go more in depth and [start exposing parameters](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md).
 
 ## Graph types
 
